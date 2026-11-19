@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-19T21:02:12Z",
+  "generated_at": "2026-11-19T21:30:56Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T21:02:12Z",
+      "checked_at": "2026-11-19T21:30:56Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T21:02:12Z",
+      "checked_at": "2026-11-19T21:30:56Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T21:02:12Z",
+      "checked_at": "2026-11-19T21:30:56Z",
       "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
     },
     {
       "name": "Finnhub US share quotes",
-      "ok": false,
-      "count": 0,
-      "checked_at": "2026-11-19T21:02:12Z",
-      "error": "FINNHUB_API_KEY not configured"
+      "ok": true,
+      "count": 12,
+      "checked_at": "2026-11-19T21:30:56Z",
+      "error": ""
     }
   ],
   "tracked_symbols": [
@@ -48,73 +48,109 @@
   "quotes": [
     {
       "symbol": "AAPL",
-      "price": null,
+      "price": 349.21,
+      "previous_close": 352.45,
+      "change_pct": -0.919,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "MSFT",
-      "price": null,
+      "price": 498.3,
+      "previous_close": 508.29,
+      "change_pct": -1.965,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "NVDA",
-      "price": null,
+      "price": 145.98,
+      "previous_close": 150.96,
+      "change_pct": -3.299,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "GOOGL",
-      "price": null,
+      "price": 272.66,
+      "previous_close": 282.44,
+      "change_pct": -3.463,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "AMZN",
-      "price": null,
+      "price": 257.37,
+      "previous_close": 267.74,
+      "change_pct": -3.873,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "META",
-      "price": null,
+      "price": 596.22,
+      "previous_close": 616.38,
+      "change_pct": -3.271,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "V",
-      "price": null,
+      "price": 402.25,
+      "previous_close": 415.22,
+      "change_pct": -3.124,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "COST",
-      "price": null,
+      "price": 1093.83,
+      "previous_close": 1096.62,
+      "change_pct": -0.254,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "VOO",
-      "price": null,
+      "price": 658.01,
+      "previous_close": 671.31,
+      "change_pct": -1.981,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "QQQ",
-      "price": null,
+      "price": 645.04,
+      "previous_close": 659.51,
+      "change_pct": -2.194,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "SPY",
-      "price": null,
+      "price": 715.87,
+      "previous_close": 730.2,
+      "change_pct": -1.962,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "BRK.B",
-      "price": null,
+      "price": 572.04,
+      "previous_close": 574.62,
+      "change_pct": -0.449,
+      "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     }
