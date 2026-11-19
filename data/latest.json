@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T22:53:47Z",
+  "generated_at": "2026-11-19T22:56:56Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T22:53:47Z",
+      "checked_at": "2026-11-19T22:56:56Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T22:53:47Z",
+      "checked_at": "2026-11-19T22:56:56Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T22:53:47Z",
+      "checked_at": "2026-11-19T22:56:56Z",
       "error": "Not configured: SEC requires a descriptive application + contact email in the private SEC_USER_AGENT GitHub secret"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-19T22:53:47Z",
+      "checked_at": "2026-11-19T22:56:56Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-19T22:53:47Z",
+      "checked_at": "2026-11-19T22:56:56Z",
       "error": ""
     }
   ],
@@ -1191,9 +1191,9 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-19T22:53:47Z",
+    "generated_at": "2026-11-19T22:56:56Z",
     "universe_size": 53,
-    "screened_with_financials": 40,
+    "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
     "candidates": [
       {
@@ -1580,6 +1580,64 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "NEE",
+        "name": "NextEra Energy, Inc.",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Utilities",
+        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.2×; TTM revenue growth 9.6% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$83.79",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-19T22:56:56Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "NextEra-Dominion merger hearings kick off with focus on scope",
+            "timestamp": "2026-11-18T15:50:14Z",
+            "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T22:56:56Z",
+        "price": 83.79,
+        "currency": "USD",
+        "change_pct": -1.168,
+        "news": [
+          {
+            "headline": "NextEra-Dominion merger hearings kick off with focus on scope",
+            "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T15:50:14Z",
+            "primary": false,
+            "symbol": "NEE"
+          },
+          {
+            "headline": "What State Street Utilities Select Sector SPDR (XLU) Sold: NextEra Leads on Monday",
+            "url": "https://finnhub.io/api/news?id=a22e9e7538546a937af39d95c5dff9a38a7f44ab16186757430d926237bee538",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T11:05:56Z",
+            "primary": false,
+            "symbol": "NEE"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "CVX",
         "name": "Chevron Corporation",
         "status": "INVESTIGATE",
@@ -1840,6 +1898,64 @@
             "published_at": "2026-11-19T18:56:08Z",
             "primary": false,
             "symbol": "CRM"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "PEP",
+        "name": "PepsiCo, Inc.",
+        "status": "WATCH",
+        "score": 75,
+        "industry": "Beverages",
+        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.8×; TTM revenue growth 6.4% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$139.00",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-19T22:56:56Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "PepsiCo stands out in consumer staples as sector breaks three-year downtrend",
+            "timestamp": "2026-11-19T21:00:57Z",
+            "url": "https://finnhub.io/api/news?id=e5b8be429ce9a63a3cc8d7dca8a655f90a7e3f7dbfbaa84e06dca9620c15312e"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T22:56:56Z",
+        "price": 139.0,
+        "currency": "USD",
+        "change_pct": -2.023,
+        "news": [
+          {
+            "headline": "PepsiCo stands out in consumer staples as sector breaks three-year downtrend",
+            "url": "https://finnhub.io/api/news?id=e5b8be429ce9a63a3cc8d7dca8a655f90a7e3f7dbfbaa84e06dca9620c15312e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:00:57Z",
+            "primary": false,
+            "symbol": "PEP"
+          },
+          {
+            "headline": "Hyatt and PepsiCo Enter New Chapter with a 10-Year Collaboration Supporting Guest Experience and Growth Across 700+ Properties in the United States",
+            "url": "https://finnhub.io/api/news?id=f3f68626bb56e41f8c35ad7f0e706c7c0bed8d5f99bcebad3bf715c9b562aa24",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:51:00Z",
+            "primary": false,
+            "symbol": "PEP"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -2113,179 +2229,61 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
-        "symbol": "V",
-        "name": "Visa Inc.",
+        "symbol": "SPGI",
+        "name": "S&P Global Inc.",
         "status": "WATCH",
-        "score": 71,
-        "industry": "Unclassified",
-        "why": "Net profit margin 51.2% (TTM); Return on equity 64.5% (TTM); Trailing P/E 33.1×; TTM revenue growth 14.8% YoY",
-        "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable",
-          "High sales multiple"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$402.25",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:58:13Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
-            "timestamp": "2026-11-19T19:03:14Z",
-            "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:58:13Z",
-        "price": 402.25,
-        "currency": "USD",
-        "change_pct": -3.124,
-        "news": [
-          {
-            "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
-            "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T19:03:14Z",
-            "primary": false,
-            "symbol": "V"
-          },
-          {
-            "headline": "Update: JPMorgan, Visa, Mastercard Reportedly Say Some Customer Info Leaked by Hackers",
-            "url": "https://finnhub.io/api/news?id=058d73972dad0237daad176d7f6af51f2bc95cf1eb76eedf4cf6e47a25e5c7e9",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:28:22Z",
-            "primary": false,
-            "symbol": "V"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "ranking_score": 71,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "MA",
-        "name": "Mastercard Incorporated",
-        "status": "WATCH",
-        "score": 71,
-        "industry": "Unclassified",
-        "why": "Net profit margin 46.7% (TTM); Return on equity 252.9% (TTM); Trailing P/E 33.1×; TTM revenue growth 15.3% YoY",
-        "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable",
-          "High sales multiple"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$626.50",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:58:13Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
-            "timestamp": "2026-11-19T19:03:14Z",
-            "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:58:13Z",
-        "price": 626.5,
-        "currency": "USD",
-        "change_pct": -2.622,
-        "news": [
-          {
-            "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
-            "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T19:03:14Z",
-            "primary": false,
-            "symbol": "MA"
-          },
-          {
-            "headline": "Update: JPMorgan, Visa, Mastercard Reportedly Say Some Customer Info Leaked by Hackers",
-            "url": "https://finnhub.io/api/news?id=058d73972dad0237daad176d7f6af51f2bc95cf1eb76eedf4cf6e47a25e5c7e9",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:28:22Z",
-            "primary": false,
-            "symbol": "MA"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "ranking_score": 71,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "GE",
-        "name": "General Electric Company",
-        "status": "WATCH",
-        "score": 68,
-        "industry": "Aerospace & Defense",
-        "why": "Net profit margin 17.3% (TTM); Return on equity 50.6% (TTM); Trailing P/E 37.3×; TTM revenue growth 19.6% YoY",
+        "score": 73,
+        "industry": "Financial Services",
+        "why": "Net profit margin 31.3% (TTM); Return on equity 17.5% (TTM); Trailing P/E 25.9×; TTM revenue growth 6.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$318.88",
+            "value": "$442.66",
             "timestamp": "2026-11-19T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:53:47Z",
+            "timestamp": "2026-11-19T22:56:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "General Electric (GE) Engine Delays Threaten Year End Fighter Delivery Target",
-            "timestamp": "2026-11-19T13:15:21Z",
-            "url": "https://finnhub.io/api/news?id=8ab3238801d0ae791f2f84a987facf976e68016b10c38c4f9a92dc8ef815075c"
+            "value": "Coinbase Global vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-19T16:50:02Z",
+            "url": "https://finnhub.io/api/news?id=f52cee63f3a163f7dad9fad917d78cd48e2aa1c292e3d14765faf7fe3641ee16"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:53:47Z",
-        "price": 318.88,
+        "fundamentals_at": "2026-11-19T22:56:56Z",
+        "price": 442.66,
         "currency": "USD",
-        "change_pct": -2.81,
+        "change_pct": -0.833,
         "news": [
           {
-            "headline": "General Electric (GE) Engine Delays Threaten Year End Fighter Delivery Target",
-            "url": "https://finnhub.io/api/news?id=8ab3238801d0ae791f2f84a987facf976e68016b10c38c4f9a92dc8ef815075c",
+            "headline": "Coinbase Global vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=f52cee63f3a163f7dad9fad917d78cd48e2aa1c292e3d14765faf7fe3641ee16",
             "source": "Yahoo",
-            "published_at": "2026-11-19T13:15:21Z",
+            "published_at": "2026-11-19T16:50:02Z",
             "primary": false,
-            "symbol": "GE"
+            "symbol": "SPGI"
           },
           {
-            "headline": "ETFs Are Net Sellers of General Electric (GE) on Nov. 17",
-            "url": "https://finnhub.io/api/news?id=1f994667d3846e4e8a4d4069d6d83a64ecf1d0bb0edfcdcf95f76ecabde534ef",
+            "headline": "Interactive Brokers Group vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=f2ab54edb147523d984013a7cb61813a6fb378943957b6ce27aeddb938b07873",
             "source": "Yahoo",
-            "published_at": "2026-11-19T11:02:38Z",
+            "published_at": "2026-11-19T12:35:02Z",
             "primary": false,
-            "symbol": "GE"
+            "symbol": "SPGI"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "ranking_score": 68,
+        "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
       }
     ],
@@ -2610,7 +2608,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 40,
+      "recorded_signals": 48,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -2714,6 +2712,14 @@
         "flagged_at": "2026-11-19T22:53:47Z",
         "reference_price": 571.85,
         "score": 78,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "NEE",
+        "flagged_at": "2026-11-19T22:56:56Z",
+        "reference_price": 83.79,
+        "score": 79,
         "price_at": "2026-11-19T21:00:00Z"
       }
     ],

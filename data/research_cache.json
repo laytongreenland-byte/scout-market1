@@ -1753,8 +1753,472 @@
           "symbol": "LMT"
         }
       ]
+    },
+    "NEE": {
+      "metrics": {
+        "52WeekHigh": 98.75,
+        "52WeekLow": 74.41,
+        "peTTM": 15.2341,
+        "psTTM": 6.1497,
+        "netProfitMarginTTM": 40.37,
+        "roeTTM": 20.369999999999997,
+        "revenueGrowthTTMYoy": 9.61,
+        "epsGrowthTTMYoy": 76.43,
+        "currentRatioQuarterly": 0.5289,
+        "totalDebt/totalEquityQuarterly": 1.8526,
+        "marketCapitalization": 177264.3
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "NextEra Energy, Inc.",
+      "profile": {
+        "weburl": "https://www.nexteraenergy.com",
+        "industry": "Utilities",
+        "name": "NextEra Energy, Inc."
+      },
+      "news": [
+        {
+          "headline": "NextEra-Dominion merger hearings kick off with focus on scope",
+          "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:50:14Z",
+          "primary": false,
+          "symbol": "NEE"
+        },
+        {
+          "headline": "What State Street Utilities Select Sector SPDR (XLU) Sold: NextEra Leads on Monday",
+          "url": "https://finnhub.io/api/news?id=a22e9e7538546a937af39d95c5dff9a38a7f44ab16186757430d926237bee538",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:05:56Z",
+          "primary": false,
+          "symbol": "NEE"
+        },
+        {
+          "headline": "Virginia regulators start Dominion-NextEra merger hearing",
+          "url": "https://finnhub.io/api/news?id=60cb453d3e3a9c852bb9cd80beb952a8a337c9e7a4d8d282c6de255ef2d939eb",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T22:08:00Z",
+          "primary": false,
+          "symbol": "NEE"
+        },
+        {
+          "headline": "NextEra Energy vs. Vistra: Which Utilities Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=c5d7fc964034b263f65fd63706e0a4d45ca23159951de450530b494c732fbdd7",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:50:02Z",
+          "primary": false,
+          "symbol": "NEE"
+        },
+        {
+          "headline": "Ratepayers, Community Leaders and Legislators Rally to Stop NextEra",
+          "url": "https://finnhub.io/api/news?id=5afbed2af5ed091a7715b1b0756b029cafbd7ecdc1844a972ef5daf801924a82",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T19:24:00Z",
+          "primary": false,
+          "symbol": "NEE"
+        }
+      ]
+    },
+    "PLD": {
+      "metrics": {
+        "52WeekHigh": 153.35,
+        "52WeekLow": 121.4,
+        "peTTM": 28.4932,
+        "psTTM": 12.9665,
+        "netProfitMarginTTM": 45.51,
+        "roeTTM": 7.88,
+        "revenueGrowthTTMYoy": 7.16,
+        "epsGrowthTTMYoy": 32.13,
+        "currentRatioQuarterly": 0.3383,
+        "totalDebt/totalEquityQuarterly": 0.6588,
+        "marketCapitalization": 121410.94
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "Prologis, Inc.",
+      "profile": {
+        "weburl": "https://www.prologis.com",
+        "industry": "Real Estate",
+        "name": "Prologis, Inc."
+      },
+      "news": [
+        {
+          "headline": "Dimensional Fund Advisors Ltd. : Form 8.3 - PROLOGIS INC - Ordinary Shares",
+          "url": "https://finnhub.io/api/news?id=71b6192a5c145ea0552d6d07ef3571278b834638ac54316b579adc3da3d8ae6d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:58:00Z",
+          "primary": false,
+          "symbol": "PLD"
+        },
+        {
+          "headline": "Form 8.3 Prologis, Inc",
+          "url": "https://finnhub.io/api/news?id=cd39d192c24f288a745d305c29bdd4cc373b2770a47b06ffd77c893714bb3e8e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:54:00Z",
+          "primary": false,
+          "symbol": "PLD"
+        },
+        {
+          "headline": "What Could Tightening Supply Mean For Prologis (PLD) Through 2027?",
+          "url": "https://finnhub.io/api/news?id=e6d33da7b119ae099c9642210961f1abfadd05443452c7083c6fc3fc4d205c10",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T01:13:46Z",
+          "primary": false,
+          "symbol": "PLD"
+        }
+      ]
+    },
+    "AMT": {
+      "metrics": {
+        "52WeekHigh": 202.5,
+        "52WeekLow": 160.06,
+        "peTTM": 25.4031,
+        "psTTM": 7.6455,
+        "netProfitMarginTTM": 30.1,
+        "roeTTM": 91.97,
+        "revenueGrowthTTMYoy": 5.31,
+        "epsGrowthTTMYoy": 13.21,
+        "currentRatioQuarterly": 0.3526,
+        "totalDebt/totalEquityQuarterly": 10.6861,
+        "marketCapitalization": 84173.08
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "American Tower Corporation",
+      "profile": {
+        "weburl": "https://www.americantower.com",
+        "industry": "Real Estate",
+        "name": "American Tower Corporation"
+      },
+      "news": [
+        {
+          "headline": "American Tower Corporation Prices Senior Notes Offering",
+          "url": "https://finnhub.io/api/news?id=3b7beb7240888f44ad66916b8391b0cb90cced6ea591edffd9d2078ebb11b5c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:15:00Z",
+          "primary": false,
+          "symbol": "AMT"
+        }
+      ]
+    },
+    "KO": {
+      "metrics": {
+        "52WeekHigh": 100.56,
+        "52WeekLow": 67.27,
+        "peTTM": 28.845,
+        "psTTM": 8.2652,
+        "netProfitMarginTTM": 28.65,
+        "roeTTM": 42.0,
+        "revenueGrowthTTMYoy": 7.11,
+        "epsGrowthTTMYoy": 12.29,
+        "currentRatioQuarterly": 1.3766,
+        "totalDebt/totalEquityQuarterly": 1.1136,
+        "marketCapitalization": 421973.6
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "Coca-Cola Co",
+      "profile": {
+        "weburl": "https://www.coca-colacompany.com/",
+        "industry": "Beverages",
+        "name": "Coca-Cola Co"
+      },
+      "news": [
+        {
+          "headline": "Coca-Cola Stock Could Lose Its Fizz. Its Valuation Is the Highest in 25 Years.",
+          "url": "https://finnhub.io/api/news?id=ec77b51316ed87bd29c2e1905399a6a51bda0ddb50112814b3aaeb38ac610cf7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:01:00Z",
+          "primary": false,
+          "symbol": "KO"
+        },
+        {
+          "headline": "Coca-Cola Just Won 3,700 KFC Restaurants From PepsiCo. Can Volume Carry Its Premium Into 2027?",
+          "url": "https://finnhub.io/api/news?id=7a559454b560dc02e4fb537b98a9e2d3abffcb3b665825789fa075fab50a4684",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:19:01Z",
+          "primary": false,
+          "symbol": "KO"
+        },
+        {
+          "headline": "Warren Buffett Paid $1.3 Billion for Coca-Cola. Here's What It Now Pays Berkshire Hathaway in Yearly Dividends.",
+          "url": "https://finnhub.io/api/news?id=4bc321b29ec9bf3338b1e21c7cddc7c5d97a895c5f3ba7c55b59f6dcc8c330cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:25:02Z",
+          "primary": false,
+          "symbol": "KO"
+        },
+        {
+          "headline": "Wolfe Research Initiates Coverage of Coca-Cola at Outperform",
+          "url": "https://finnhub.io/api/news?id=891a594176a50c202b93b8d6197ffadd464731750c3e3d2a9250e22e858a9d96",
+          "source": "Fintel",
+          "published_at": "2026-11-19T00:05:05Z",
+          "primary": false,
+          "symbol": "KO"
+        },
+        {
+          "headline": "Coca-Cola Stocks Move Lower Even as TD Cowen Names It Top 2027 Pick",
+          "url": "https://finnhub.io/api/news?id=901093cd49ec01f499c2ce6edf7c2df8e2af83fb0b4c3b09604d6c5f274ac5f2",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:31:15Z",
+          "primary": false,
+          "symbol": "KO"
+        }
+      ]
+    },
+    "PEP": {
+      "metrics": {
+        "52WeekHigh": 171.48,
+        "52WeekLow": 123.47,
+        "peTTM": 17.7847,
+        "psTTM": 1.9725,
+        "netProfitMarginTTM": 11.09,
+        "roeTTM": 50.57000000000001,
+        "revenueGrowthTTMYoy": 6.36,
+        "epsGrowthTTMYoy": 51.3,
+        "currentRatioQuarterly": 0.9429,
+        "totalDebt/totalEquityQuarterly": 2.3273,
+        "marketCapitalization": 193781.78
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "PepsiCo, Inc.",
+      "profile": {
+        "weburl": "https://www.pepsico.com/",
+        "industry": "Beverages",
+        "name": "PepsiCo, Inc."
+      },
+      "news": [
+        {
+          "headline": "PepsiCo stands out in consumer staples as sector breaks three-year downtrend",
+          "url": "https://finnhub.io/api/news?id=e5b8be429ce9a63a3cc8d7dca8a655f90a7e3f7dbfbaa84e06dca9620c15312e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:00:57Z",
+          "primary": false,
+          "symbol": "PEP"
+        },
+        {
+          "headline": "Hyatt and PepsiCo Enter New Chapter with a 10-Year Collaboration Supporting Guest Experience and Growth Across 700+ Properties in the United States",
+          "url": "https://finnhub.io/api/news?id=f3f68626bb56e41f8c35ad7f0e706c7c0bed8d5f99bcebad3bf715c9b562aa24",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:51:00Z",
+          "primary": false,
+          "symbol": "PEP"
+        },
+        {
+          "headline": "Bernstein Sees Trouble Ahead for PepsiCo (PEP). Here’s Where.",
+          "url": "https://finnhub.io/api/news?id=eb5b2a2f4a53da1007b79f2dbedd2b5fc22e7a4dea8ce4e7366c76993192cd64",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:05:44Z",
+          "primary": false,
+          "symbol": "PEP"
+        },
+        {
+          "headline": "Bernstein Sees PepsiCo Falling to $128. Its North America Business Is the Reason",
+          "url": "https://finnhub.io/api/news?id=264c5198a90fa97daaf053db9564e624479cfad5a3a9b6331d49b5b2280e6161",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:05:34Z",
+          "primary": false,
+          "symbol": "PEP"
+        },
+        {
+          "headline": "How KFC Partnership Loss Will Impact PepsiCo (PEP) Investors",
+          "url": "https://finnhub.io/api/news?id=f715a4f4b50bd47fd8cd80fb0db2a1a4fd73edf77ad9ad6c178dbb699f8066c4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:14:23Z",
+          "primary": false,
+          "symbol": "PEP"
+        }
+      ]
+    },
+    "PG": {
+      "metrics": {
+        "52WeekHigh": 173.59,
+        "52WeekLow": 137.62,
+        "peTTM": 24.6496,
+        "psTTM": 4.4924,
+        "netProfitMarginTTM": 18.23,
+        "roeTTM": 29.57,
+        "revenueGrowthTTMYoy": 3.52,
+        "epsGrowthTTMYoy": -3.15,
+        "currentRatioQuarterly": 0.7225,
+        "totalDebt/totalEquityQuarterly": 0.7065,
+        "marketCapitalization": 394985.03
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "The Procter & Gamble Company",
+      "profile": {
+        "weburl": "https://us.pg.com/",
+        "industry": "Consumer products",
+        "name": "The Procter & Gamble Company"
+      },
+      "news": [
+        {
+          "headline": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
+          "url": "https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:23:00Z",
+          "primary": false,
+          "symbol": "PG"
+        },
+        {
+          "headline": "What Is Procter & Gamble (PG) Signaling With Its Holiday Collection?",
+          "url": "https://finnhub.io/api/news?id=8e2b5f4f3174b5c3e37b7f98e20437efe8d93c474820eb12ef28d198b2e3dc43",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:17:22Z",
+          "primary": false,
+          "symbol": "PG"
+        },
+        {
+          "headline": "How Many Shares of Colgate-Palmolive or Procter & Gamble Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=d7b4ae0aff8a64a6e56d3613077ecccb876725b340902340758afc7d4a581046",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:50:15Z",
+          "primary": false,
+          "symbol": "PG"
+        },
+        {
+          "headline": "Dividend Reliability Might Change The Case For Investing In Procter & Gamble Stock (PG)",
+          "url": "https://finnhub.io/api/news?id=16d7f0fc098ef229b5f77abbeb15fe9ff74c66941bc8a1a238c00e2bdec04bfa",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T02:08:54Z",
+          "primary": false,
+          "symbol": "PG"
+        },
+        {
+          "headline": "How Many Shares of Kimberly-Clark, Clorox or Procter & Gamble Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=90cf39df7cc4bcf98087c340fe0ac5acbebcaedb01ebcbe6898785bd50010eb8",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T13:50:29Z",
+          "primary": false,
+          "symbol": "PG"
+        }
+      ]
+    },
+    "SPGI": {
+      "metrics": {
+        "52WeekHigh": 522.47,
+        "52WeekLow": 361.03,
+        "peTTM": 25.9177,
+        "psTTM": 8.1218,
+        "netProfitMarginTTM": 31.34,
+        "roeTTM": 17.549999999999997,
+        "revenueGrowthTTMYoy": 5.99,
+        "epsGrowthTTMYoy": 22.22,
+        "currentRatioQuarterly": 0.7359,
+        "totalDebt/totalEquityQuarterly": 0.6587,
+        "marketCapitalization": 129225.82
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "S&P Global Inc.",
+      "profile": {
+        "weburl": "https://www.spglobal.com/",
+        "industry": "Financial Services",
+        "name": "S&P Global Inc."
+      },
+      "news": [
+        {
+          "headline": "Coinbase Global vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=f52cee63f3a163f7dad9fad917d78cd48e2aa1c292e3d14765faf7fe3641ee16",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:50:02Z",
+          "primary": false,
+          "symbol": "SPGI"
+        },
+        {
+          "headline": "Interactive Brokers Group vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=f2ab54edb147523d984013a7cb61813a6fb378943957b6ce27aeddb938b07873",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:35:02Z",
+          "primary": false,
+          "symbol": "SPGI"
+        },
+        {
+          "headline": "S&P Global Inc. Completes Offering of $750,000,000, $600,000,000, and $650,000,000 Senior Notes",
+          "url": "https://finnhub.io/api/news?id=394439f9c0550596aa732afa0c5bcc0259f8f2b490cd01f32d187e4f18ced48c",
+          "source": "Fintel",
+          "published_at": "2026-11-19T06:38:29Z",
+          "primary": false,
+          "symbol": "SPGI"
+        },
+        {
+          "headline": "American Express vs. S&P Global: Steady Revenue vs. Flat Trends",
+          "url": "https://finnhub.io/api/news?id=e719254c5bf49ac7cb28546a7a837141155e202d8165225d34b3db317998e2d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:30:02Z",
+          "primary": false,
+          "symbol": "SPGI"
+        },
+        {
+          "headline": "What Drove Venture Global's 69% EBITDA Jump?",
+          "url": "https://finnhub.io/api/news?id=014cd8628ca9dddbb0a802ff0ae4d23eed42cfa4a2c9252dfb42ca8dc7be02fa",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:29:55Z",
+          "primary": false,
+          "symbol": "SPGI"
+        }
+      ]
+    },
+    "ISRG": {
+      "metrics": {
+        "52WeekHigh": 603.88,
+        "52WeekLow": 328.57,
+        "peTTM": 49.3439,
+        "psTTM": 12.6032,
+        "netProfitMarginTTM": 25.54,
+        "roeTTM": 17.0,
+        "revenueGrowthTTMYoy": 20.45,
+        "epsGrowthTTMYoy": 9.4,
+        "currentRatioQuarterly": 3.2959,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 145919.67
+      },
+      "updated_at": "2026-11-19T22:56:56Z",
+      "name": "Intuitive Surgical, Inc.",
+      "profile": {
+        "weburl": "https://www.intuitive.com/en-us/about-us/company",
+        "industry": "Health Care",
+        "name": "Intuitive Surgical, Inc."
+      },
+      "news": [
+        {
+          "headline": "Intuitive Surgical (ISRG) Down 1.7% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=7c86e4683e569cbf0694e281810bb3fd9f780f3a3d6c5867ecddec8b3bd691b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:05Z",
+          "primary": false,
+          "symbol": "ISRG"
+        },
+        {
+          "headline": "Could Intuitive Surgical Stock Turn $10,000 Into $12,200?",
+          "url": "https://finnhub.io/api/news?id=13681168f078cbe457c55153dad347a15eac356b74f6ac8f799056fe5f44f939",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:45:56Z",
+          "primary": false,
+          "symbol": "ISRG"
+        },
+        {
+          "headline": "Is the Options Market Predicting a Spike in Intuitive Surgical Stock?",
+          "url": "https://finnhub.io/api/news?id=97ec0ee59666d28c3b466957bb204453025a3d5dfff96e044ca12b50e2171af7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "ISRG"
+        },
+        {
+          "headline": "Why Is Intuitive Surgical (ISRG) At The Center Of The Robotics Boom?",
+          "url": "https://finnhub.io/api/news?id=538ea3f4384f38737545be1a16c210b2079ca545d704aaeadf54df708dc2a564",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:14:28Z",
+          "primary": false,
+          "symbol": "ISRG"
+        },
+        {
+          "headline": "Surgical Robotics for Gynecology Global Market Report 2026 | Capitalize on 14.5% CAGR as Intuitive Surgical, Medtronic and CMR Surgical Scale Single Port Systems",
+          "url": "https://finnhub.io/api/news?id=fd51c05f54fcb592104a3b8e9dcd33b19722fc34d6eb7bf6fb816e0b9d7087d1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:02:00Z",
+          "primary": false,
+          "symbol": "ISRG"
+        }
+      ]
     }
   },
-  "cursor": 40,
-  "updated_at": "2026-11-19T22:53:47Z"
+  "cursor": 0,
+  "updated_at": "2026-11-19T22:56:56Z"
 }
