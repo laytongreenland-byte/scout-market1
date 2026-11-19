@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-19T20:13:09Z",
+  "generated_at": "2026-11-19T21:02:12Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T20:13:09Z",
+      "checked_at": "2026-11-19T21:02:12Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T20:13:09Z",
+      "checked_at": "2026-11-19T21:02:12Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T20:13:09Z",
+      "checked_at": "2026-11-19T21:02:12Z",
       "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T20:13:09Z",
+      "checked_at": "2026-11-19T21:02:12Z",
       "error": "FINNHUB_API_KEY not configured"
     }
   ],
@@ -732,17 +732,6 @@
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
       "published_at": "2026-11-12T16:00:00Z",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve press releases",
-      "primary": true,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "7dbcdc3c6bd52a3981b0",
-      "type": "MACRO",
-      "ticker": null,
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "published_at": "2026-11-09T21:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
