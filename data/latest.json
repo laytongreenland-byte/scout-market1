@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T21:53:49Z",
+  "generated_at": "2026-11-19T21:58:13Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T21:53:49Z",
+      "checked_at": "2026-11-19T21:58:13Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T21:53:49Z",
+      "checked_at": "2026-11-19T21:58:13Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T21:53:49Z",
+      "checked_at": "2026-11-19T21:58:13Z",
       "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-19T21:53:49Z",
+      "checked_at": "2026-11-19T21:58:13Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-19T21:53:49Z",
+      "checked_at": "2026-11-19T21:58:13Z",
       "error": ""
     }
   ],
@@ -1191,9 +1191,9 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-19T21:53:49Z",
+    "generated_at": "2026-11-19T21:58:13Z",
     "universe_size": 53,
-    "screened_with_financials": 16,
+    "screened_with_financials": 24,
     "updated_company_metrics_this_scan": 8,
     "candidates": [
       {
@@ -1411,6 +1411,61 @@
             "published_at": "2026-11-19T19:25:57Z",
             "primary": false,
             "symbol": "GOOGL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "MCD",
+        "name": "McDonald's Corp",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "why": "Net profit margin 32.4% (TTM); Return on equity 95.1% (TTM); Trailing P/E 21.5×; TTM revenue growth 5.8% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$272.35",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:58:13Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "McDonald's Comparable Sales Trends Improving Amid New Initiatives, Oppenheimer Says",
+            "timestamp": "2026-11-19T19:38:09Z",
+            "url": "https://finnhub.io/api/news?id=33c047da3286049df9acd5c948e645d07815c0328d5416445c2c0a78cd390da6"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 272.35,
+        "currency": "USD",
+        "change_pct": -0.613,
+        "news": [
+          {
+            "headline": "McDonald's Comparable Sales Trends Improving Amid New Initiatives, Oppenheimer Says",
+            "url": "https://finnhub.io/api/news?id=33c047da3286049df9acd5c948e645d07815c0328d5416445c2c0a78cd390da6",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:38:09Z",
+            "primary": false,
+            "symbol": "MCD"
+          },
+          {
+            "headline": "GME Stock Ads 2% After Disclosure Reveals Small Buy-In From Donald Trump",
+            "url": "https://finnhub.io/api/news?id=089ad25cb731f76f600bc3b791e7dbd71bc0a856abd1fe06d572b1f3a1428593",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:32:06Z",
+            "primary": false,
+            "symbol": "MCD"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -1638,6 +1693,172 @@
         "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
       },
       {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "status": "WATCH",
+        "score": 73,
+        "why": "Net profit margin 29.7% (TTM); Return on equity 50.4% (TTM); Trailing P/E 16.6×; TTM revenue growth 14.7% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$58.46",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:58:13Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
+            "timestamp": "2026-11-19T19:17:13Z",
+            "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 58.46,
+        "currency": "USD",
+        "change_pct": -2.273,
+        "news": [
+          {
+            "headline": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
+            "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:17:13Z",
+            "primary": false,
+            "symbol": "NFLX"
+          },
+          {
+            "headline": "Why Netflix's Fall Could Pay Off At Tax Time",
+            "url": "https://finnhub.io/api/news?id=8b971ae30d0e63abee843530752bfedb5d086f03677c0c423e7ee2827335522e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:47:26Z",
+            "primary": false,
+            "symbol": "NFLX"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "V",
+        "name": "Visa Inc.",
+        "status": "WATCH",
+        "score": 71,
+        "why": "Net profit margin 51.2% (TTM); Return on equity 64.5% (TTM); Trailing P/E 33.1×; TTM revenue growth 14.8% YoY",
+        "risks": [
+          "High sales multiple"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$402.25",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:58:13Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
+            "timestamp": "2026-11-19T19:24:33Z",
+            "url": "https://finnhub.io/api/news?id=757ebb268527300a58e35cdd5e32e8ac7c7655f8c1d2ad6cfcaba72145336f74"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 402.25,
+        "currency": "USD",
+        "change_pct": -3.124,
+        "news": [
+          {
+            "headline": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
+            "url": "https://finnhub.io/api/news?id=757ebb268527300a58e35cdd5e32e8ac7c7655f8c1d2ad6cfcaba72145336f74",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:24:33Z",
+            "primary": false,
+            "symbol": "V"
+          },
+          {
+            "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
+            "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:03:14Z",
+            "primary": false,
+            "symbol": "V"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "MA",
+        "name": "Mastercard Incorporated",
+        "status": "WATCH",
+        "score": 71,
+        "why": "Net profit margin 46.7% (TTM); Return on equity 252.9% (TTM); Trailing P/E 33.1×; TTM revenue growth 15.3% YoY",
+        "risks": [
+          "High sales multiple"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$626.50",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:58:13Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
+            "timestamp": "2026-11-19T19:24:33Z",
+            "url": "https://finnhub.io/api/news?id=757ebb268527300a58e35cdd5e32e8ac7c7655f8c1d2ad6cfcaba72145336f74"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 626.5,
+        "currency": "USD",
+        "change_pct": -2.622,
+        "news": [
+          {
+            "headline": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
+            "url": "https://finnhub.io/api/news?id=757ebb268527300a58e35cdd5e32e8ac7c7655f8c1d2ad6cfcaba72145336f74",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:24:33Z",
+            "primary": false,
+            "symbol": "MA"
+          },
+          {
+            "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
+            "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:03:14Z",
+            "primary": false,
+            "symbol": "MA"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
         "symbol": "TSM",
         "name": "Taiwan Semiconductor Manufacturing Co Ltd",
         "status": "WATCH",
@@ -1805,6 +2026,61 @@
         "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
       },
       {
+        "symbol": "HD",
+        "name": "The Home Depot, Inc.",
+        "status": "WATCH",
+        "score": 64,
+        "why": "Net profit margin 8.4% (TTM); Return on equity 93.4% (TTM); Trailing P/E 23.4×; TTM revenue growth 3.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$336.68",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:58:13Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "GME Stock Ads 2% After Disclosure Reveals Small Buy-In From Donald Trump",
+            "timestamp": "2026-11-19T19:32:06Z",
+            "url": "https://finnhub.io/api/news?id=089ad25cb731f76f600bc3b791e7dbd71bc0a856abd1fe06d572b1f3a1428593"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 336.68,
+        "currency": "USD",
+        "change_pct": -0.284,
+        "news": [
+          {
+            "headline": "GME Stock Ads 2% After Disclosure Reveals Small Buy-In From Donald Trump",
+            "url": "https://finnhub.io/api/news?id=089ad25cb731f76f600bc3b791e7dbd71bc0a856abd1fe06d572b1f3a1428593",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:32:06Z",
+            "primary": false,
+            "symbol": "HD"
+          },
+          {
+            "headline": "Trump's New Filing Reveals Nvidia, SpaceX And Tesla Purchases. White House Says He Didn't Direct Trades.",
+            "url": "https://finnhub.io/api/news?id=7e39c3eb9adb88e50e7faadaa5284d7934094ae8b6a43264ec16cbb53adefa30",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:03:57Z",
+            "primary": false,
+            "symbol": "HD"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
         "symbol": "SHOP",
         "name": "Shopify Inc.",
         "status": "LOW PRIORITY",
@@ -1918,171 +2194,111 @@
         "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
       },
       {
-        "symbol": "NOW",
-        "name": "ServiceNow, Inc.",
+        "symbol": "WMT",
+        "name": "Walmart Inc.",
         "status": "LOW PRIORITY",
-        "score": 41,
-        "why": "Net profit margin 9.4% (TTM); Return on equity 11.5% (TTM); Trailing P/E 65.1×; TTM revenue growth 21.8% YoY",
+        "score": 51,
+        "why": "Net profit margin 3.0% (TTM); Return on equity 22.7% (TTM); Trailing P/E 44.5×; TTM revenue growth 6.2% YoY",
         "risks": [
-          "High trailing earnings valuation",
-          "Earnings per share declining",
-          "Large drawdown: recovery is not assured"
+          "High trailing earnings valuation"
         ],
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$88.87",
+            "value": "$126.04",
             "timestamp": "2026-11-19T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:53:49Z",
+            "timestamp": "2026-11-19T21:58:13Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
-            "timestamp": "2026-11-19T19:03:02Z",
-            "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd"
+            "value": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
+            "timestamp": "2026-11-19T19:26:55Z",
+            "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
-        "price": 88.87,
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 126.04,
         "currency": "USD",
-        "change_pct": -1.899,
+        "change_pct": -1.036,
         "news": [
           {
-            "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd",
+            "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
+            "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:03:02Z",
+            "published_at": "2026-11-19T19:26:55Z",
             "primary": false,
-            "symbol": "NOW"
+            "symbol": "WMT"
           },
           {
-            "headline": "UiPath's ARR Nears $2 Billion: Can It Sustain the Growth Momentum?",
-            "url": "https://finnhub.io/api/news?id=cd9fba52edf63e604b43c4e57d13e4b3d09488679fd67b9b611fa56652503865",
+            "headline": "Walmart’s CEO Revealed the Diesel Price That Could End the Company’s Low-Price Streak",
+            "url": "https://finnhub.io/api/news?id=24f94b72b2d491a2671d568cfe9325bb7ebbfb9b227053897a4327644bd090b0",
             "source": "Yahoo",
-            "published_at": "2026-11-19T17:27:00Z",
+            "published_at": "2026-11-19T19:19:32Z",
             "primary": false,
-            "symbol": "NOW"
+            "symbol": "WMT"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
       },
       {
-        "symbol": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
+        "symbol": "UBER",
+        "name": "Uber Technologies, Inc.",
         "status": "LOW PRIORITY",
-        "score": 39,
-        "why": "Net profit margin 1.1% (TTM); Return on equity 1.3% (TTM); Trailing P/E 4169.3×; TTM revenue growth 24.3% YoY",
+        "score": 50,
+        "why": "Net profit margin 6.1% (TTM); Return on equity 13.0% (TTM); Trailing P/E 38.3×; TTM revenue growth 13.9% YoY",
         "risks": [
-          "High trailing earnings valuation",
-          "High sales multiple"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$243.46",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:53:49Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
-            "timestamp": "2026-11-19T18:38:46Z",
-            "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
-        "price": 243.46,
-        "currency": "USD",
-        "change_pct": 2.713,
-        "news": [
-          {
-            "headline": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
-            "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:38:46Z",
-            "primary": false,
-            "symbol": "CRWD"
-          },
-          {
-            "headline": "What Are Okta Investors Betting On?",
-            "url": "https://finnhub.io/api/news?id=c14c568280393edd4b0ef04193d0a03d830195bde68044e3c2ebb8d5a12a57c8",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T16:57:53Z",
-            "primary": false,
-            "symbol": "CRWD"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-      },
-      {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks, Inc.",
-        "status": "LOW PRIORITY",
-        "score": 32,
-        "why": "Net profit margin 3.6% (TTM); Return on equity 1.9% (TTM); Trailing P/E 611.7×; TTM revenue growth 30.3% YoY",
-        "risks": [
-          "High trailing earnings valuation",
-          "High sales multiple",
           "Earnings per share declining",
-          "Large one-session price move (+6.4%)"
+          "Price near reported 52-week low"
         ],
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$361.73",
+            "value": "$65.60",
             "timestamp": "2026-11-19T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:53:49Z",
+            "timestamp": "2026-11-19T21:58:13Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
-            "timestamp": "2026-11-19T18:53:57Z",
-            "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d"
+            "value": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
+            "timestamp": "2026-11-19T18:15:35Z",
+            "url": "https://finnhub.io/api/news?id=842cca2c6ccb7a2b713da05d84011cc5427bdae757bf67ceb80e407856897465"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
-        "price": 361.73,
+        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "price": 65.6,
         "currency": "USD",
-        "change_pct": 6.416,
+        "change_pct": -4.596,
         "news": [
           {
-            "headline": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
-            "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d",
+            "headline": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
+            "url": "https://finnhub.io/api/news?id=842cca2c6ccb7a2b713da05d84011cc5427bdae757bf67ceb80e407856897465",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:53:57Z",
+            "published_at": "2026-11-19T18:15:35Z",
             "primary": false,
-            "symbol": "PANW"
+            "symbol": "UBER"
           },
           {
-            "headline": "Okta Stocks Jump 8.14% as Cybersecurity Rally Extends Into Second Day",
-            "url": "https://finnhub.io/api/news?id=8fb6a3d8333886743afdf7db1f51fc03ffbb5683287c9bba1dfaf7277a51f4e0",
+            "headline": "$100K In Anthropic Stock: Buy Now Or Wait?",
+            "url": "https://finnhub.io/api/news?id=2973eced62c2247f92bc7999d58401a4c9457239fbea02cec302f075fbb3910e",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:38:50Z",
+            "published_at": "2026-11-19T16:06:50Z",
             "primary": false,
-            "symbol": "PANW"
+            "symbol": "UBER"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -2445,6 +2661,14 @@
         "flagged_at": "2026-11-19T21:53:49Z",
         "reference_price": 221.68,
         "score": 79,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "MCD",
+        "flagged_at": "2026-11-19T21:58:13Z",
+        "reference_price": 272.35,
+        "score": 76,
         "price_at": "2026-11-19T21:00:00Z"
       }
     ],

@@ -990,8 +990,504 @@
           "symbol": "SHOP"
         }
       ]
+    },
+    "UBER": {
+      "metrics": {
+        "52WeekHigh": 92.923,
+        "52WeekLow": 64.0401,
+        "peTTM": 38.3137,
+        "psTTM": 2.3486,
+        "netProfitMarginTTM": 6.13,
+        "roeTTM": 12.98,
+        "revenueGrowthTTMYoy": 13.94,
+        "epsGrowthTTMYoy": -78.41,
+        "currentRatioQuarterly": 1.2318,
+        "totalDebt/totalEquityQuarterly": 0.5663,
+        "marketCapitalization": 132756.84
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "Uber Technologies, Inc.",
+      "profile": {
+        "weburl": "https://www.uber.com"
+      },
+      "news": [
+        {
+          "headline": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
+          "url": "https://finnhub.io/api/news?id=842cca2c6ccb7a2b713da05d84011cc5427bdae757bf67ceb80e407856897465",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:35Z",
+          "primary": false,
+          "symbol": "UBER"
+        },
+        {
+          "headline": "$100K In Anthropic Stock: Buy Now Or Wait?",
+          "url": "https://finnhub.io/api/news?id=2973eced62c2247f92bc7999d58401a4c9457239fbea02cec302f075fbb3910e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:06:50Z",
+          "primary": false,
+          "symbol": "UBER"
+        },
+        {
+          "headline": "Tractor Supply boosts same-day delivery options",
+          "url": "https://finnhub.io/api/news?id=e6198aa1707b5351ae326361d660e169be14ffb8c43df5d3b0a3c46792f8cda6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:55:00Z",
+          "primary": false,
+          "symbol": "UBER"
+        },
+        {
+          "headline": "Uber Technologies (UBER) Starts Commercial Drone Food Deliveries In Texas With 1 Million Daily Goal",
+          "url": "https://finnhub.io/api/news?id=8015d5c2037c1302232e470335b08ef876e99d22406d33de6097892ccf9a1b67",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:17:19Z",
+          "primary": false,
+          "symbol": "UBER"
+        },
+        {
+          "headline": "UBER or LYFT: Which Stock Looks Stronger After Q3 Earnings Results?",
+          "url": "https://finnhub.io/api/news?id=6fbfc811664148aa3bb15ab49aa2a4dd71c61fe9e87b68758459df50eb1b7b46",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:14:00Z",
+          "primary": false,
+          "symbol": "UBER"
+        }
+      ]
+    },
+    "NFLX": {
+      "metrics": {
+        "52WeekHigh": 115.25,
+        "52WeekLow": 59.405,
+        "peTTM": 16.5936,
+        "psTTM": 4.9268,
+        "netProfitMarginTTM": 29.69,
+        "roeTTM": 50.41,
+        "revenueGrowthTTMYoy": 14.65,
+        "epsGrowthTTMYoy": 44.57,
+        "currentRatioQuarterly": 1.0749,
+        "totalDebt/totalEquityQuarterly": 0.5167,
+        "marketCapitalization": 245031.47
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "Netflix, Inc.",
+      "profile": {
+        "weburl": "https://www.netflix.com/"
+      },
+      "news": [
+        {
+          "headline": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
+          "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:17:13Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
+        {
+          "headline": "Why Netflix's Fall Could Pay Off At Tax Time",
+          "url": "https://finnhub.io/api/news?id=8b971ae30d0e63abee843530752bfedb5d086f03677c0c423e7ee2827335522e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:47:26Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
+        {
+          "headline": "Why Alphabet's Cheap P/E May Mislead Investors",
+          "url": "https://finnhub.io/api/news?id=2bc0e97e4bdb56fc44a4ca90ea7be40fcc36a01fcebcc052bf351a46c25a2a96",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:24:30Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
+        {
+          "headline": "Amazon Beat QQQ, But The Ride Was Much Harder",
+          "url": "https://finnhub.io/api/news?id=a69dfd784d09785bf2dcd1c36b935e29cd796fa639e347b804e976edf6fe8d39",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:21Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
+        {
+          "headline": "Are You Overpaying For Alphabet Stock Versus Its Tech Rivals?",
+          "url": "https://finnhub.io/api/news?id=53be281e4d5407872ee614abb09e5ce871859af70a29c4eccd92518649356f1e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:02:31Z",
+          "primary": false,
+          "symbol": "NFLX"
+        }
+      ]
+    },
+    "COST": {
+      "metrics": {
+        "52WeekHigh": 1123.6699,
+        "52WeekLow": 844.06,
+        "peTTM": 52.6712,
+        "psTTM": 1.603,
+        "netProfitMarginTTM": 3.04,
+        "roeTTM": 28.02,
+        "revenueGrowthTTMYoy": 10.14,
+        "epsGrowthTTMYoy": 14.01,
+        "currentRatioQuarterly": 1.0598,
+        "totalDebt/totalEquityQuarterly": 0.1721,
+        "marketCapitalization": 485944.5
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "Costco Wholesale Corp",
+      "profile": {
+        "weburl": "https://www.costco.com/"
+      },
+      "news": [
+        {
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:19:22Z",
+          "primary": false,
+          "symbol": "COST"
+        },
+        {
+          "headline": "Tariff Refunds Are About A Fifth Of Target's Guidance",
+          "url": "https://finnhub.io/api/news?id=af0a86e26dc0efd2ce54da04aae98f50105356ec5d9d70aa25d055b6bad0a1e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:20Z",
+          "primary": false,
+          "symbol": "COST"
+        },
+        {
+          "headline": "Costco has a plan for the money you didn’t mean to spend",
+          "url": "https://finnhub.io/api/news?id=72aa79d12ead8009202f617aeb59897b0e704ac6f09728e52800d0f58d270701",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:14Z",
+          "primary": false,
+          "symbol": "COST"
+        },
+        {
+          "headline": "Costco Just Surpassed $1,100 Per Share Ahead of Its $30 Special Dividend Payment. Is the Stock a Buy Before Nov. 24?.",
+          "url": "https://finnhub.io/api/news?id=631d39d79e224396eda5bc69efb05fe86e08fd6592b19b34504806551f2fd7d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:23:37Z",
+          "primary": false,
+          "symbol": "COST"
+        },
+        {
+          "headline": "The outages keep coming. Some Americans are preparing for a collapse.",
+          "url": "https://finnhub.io/api/news?id=1bdab6117825c0351fe9815e4a001d859e17c587e9cc229b8edffcd861689d23",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:22:24Z",
+          "primary": false,
+          "symbol": "COST"
+        }
+      ]
+    },
+    "WMT": {
+      "metrics": {
+        "52WeekHigh": 135.16,
+        "52WeekLow": 99.68,
+        "peTTM": 44.5314,
+        "psTTM": 1.336,
+        "netProfitMarginTTM": 3.0,
+        "roeTTM": 22.74,
+        "revenueGrowthTTMYoy": 6.16,
+        "epsGrowthTTMYoy": 4.13,
+        "currentRatioQuarterly": 0.7671,
+        "totalDebt/totalEquityQuarterly": 0.5827,
+        "marketCapitalization": 983075.06
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "Walmart Inc.",
+      "profile": {
+        "weburl": "https://corporate.walmart.com"
+      },
+      "news": [
+        {
+          "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
+          "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:26:55Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "Walmart’s CEO Revealed the Diesel Price That Could End the Company’s Low-Price Streak",
+          "url": "https://finnhub.io/api/news?id=24f94b72b2d491a2671d568cfe9325bb7ebbfb9b227053897a4327644bd090b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:19:32Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:19:22Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "TD Cowen Backs Walmart Despite a Soft Fourth-Quarter Guide",
+          "url": "https://finnhub.io/api/news?id=5439892f24cc53805d1e25c2fe8c21be85193650db2436209b6d94c2fe53c870",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:53:09Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "Walmart: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=9bdbb4053d445366b1bf584246153e53e156e3b75b60a3a47f8f312c660a096e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:48:15Z",
+          "primary": false,
+          "symbol": "WMT"
+        }
+      ]
+    },
+    "HD": {
+      "metrics": {
+        "52WeekHigh": 397.63,
+        "52WeekLow": 277.15,
+        "peTTM": 23.4258,
+        "psTTM": 1.9618,
+        "netProfitMarginTTM": 8.37,
+        "roeTTM": 93.36,
+        "revenueGrowthTTMYoy": 3.03,
+        "epsGrowthTTMYoy": -1.86,
+        "currentRatioQuarterly": 1.0841,
+        "totalDebt/totalEquityQuarterly": 2.8942,
+        "marketCapitalization": 335902.16
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "The Home Depot, Inc.",
+      "profile": {
+        "weburl": "https://www.homedepot.com/"
+      },
+      "news": [
+        {
+          "headline": "GME Stock Ads 2% After Disclosure Reveals Small Buy-In From Donald Trump",
+          "url": "https://finnhub.io/api/news?id=089ad25cb731f76f600bc3b791e7dbd71bc0a856abd1fe06d572b1f3a1428593",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:32:06Z",
+          "primary": false,
+          "symbol": "HD"
+        },
+        {
+          "headline": "Trump's New Filing Reveals Nvidia, SpaceX And Tesla Purchases. White House Says He Didn't Direct Trades.",
+          "url": "https://finnhub.io/api/news?id=7e39c3eb9adb88e50e7faadaa5284d7934094ae8b6a43264ec16cbb53adefa30",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:57Z",
+          "primary": false,
+          "symbol": "HD"
+        },
+        {
+          "headline": "Build A 52% Return In Weeks With Home Depot Stock As The Foundation",
+          "url": "https://finnhub.io/api/news?id=c90b10b71e27dc529052a31e5f93a54dbf47e6f1ddbff74aeb38e6f35539fd53",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:52:49Z",
+          "primary": false,
+          "symbol": "HD"
+        },
+        {
+          "headline": "Tariff Refunds Are About A Fifth Of Target's Guidance",
+          "url": "https://finnhub.io/api/news?id=af0a86e26dc0efd2ce54da04aae98f50105356ec5d9d70aa25d055b6bad0a1e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:20Z",
+          "primary": false,
+          "symbol": "HD"
+        },
+        {
+          "headline": "Trump Sold Home Depot, McDonald’s as Portfolio Shifted to ETFs",
+          "url": "https://finnhub.io/api/news?id=5367a24ec6ca198998145c860c0a1130451ed1cb5a5dc5b593f409c9bb4a0672",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:57:10Z",
+          "primary": false,
+          "symbol": "HD"
+        }
+      ]
+    },
+    "MCD": {
+      "metrics": {
+        "52WeekHigh": 341.75,
+        "52WeekLow": 229.2,
+        "peTTM": 21.5039,
+        "psTTM": 6.9616,
+        "netProfitMarginTTM": 32.37,
+        "roeTTM": 95.13000000000001,
+        "revenueGrowthTTMYoy": 5.78,
+        "epsGrowthTTMYoy": 7.78,
+        "currentRatioQuarterly": 1.0814,
+        "totalDebt/totalEquityQuarterly": 40.6406,
+        "marketCapitalization": 193406.19
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "McDonald's Corp",
+      "profile": {
+        "weburl": "https://www.mcdonalds.com/"
+      },
+      "news": [
+        {
+          "headline": "McDonald's Comparable Sales Trends Improving Amid New Initiatives, Oppenheimer Says",
+          "url": "https://finnhub.io/api/news?id=33c047da3286049df9acd5c948e645d07815c0328d5416445c2c0a78cd390da6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:38:09Z",
+          "primary": false,
+          "symbol": "MCD"
+        },
+        {
+          "headline": "GME Stock Ads 2% After Disclosure Reveals Small Buy-In From Donald Trump",
+          "url": "https://finnhub.io/api/news?id=089ad25cb731f76f600bc3b791e7dbd71bc0a856abd1fe06d572b1f3a1428593",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:32:06Z",
+          "primary": false,
+          "symbol": "MCD"
+        },
+        {
+          "headline": "Trump's New Filing Reveals Nvidia, SpaceX And Tesla Purchases. White House Says He Didn't Direct Trades.",
+          "url": "https://finnhub.io/api/news?id=7e39c3eb9adb88e50e7faadaa5284d7934094ae8b6a43264ec16cbb53adefa30",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:57Z",
+          "primary": false,
+          "symbol": "MCD"
+        },
+        {
+          "headline": "McDonald’s taps former McKinsey partner to lead U.S. strategy overhaul - Bloomberg",
+          "url": "https://finnhub.io/api/news?id=64d1eb4d851314fa869094723dfefcdd0e1b93451bf9edad9fec11ce0b5b4b25",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:47:21Z",
+          "primary": false,
+          "symbol": "MCD"
+        },
+        {
+          "headline": "Trump Sold Home Depot, McDonald’s as Portfolio Shifted to ETFs",
+          "url": "https://finnhub.io/api/news?id=5367a24ec6ca198998145c860c0a1130451ed1cb5a5dc5b593f409c9bb4a0672",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:57:10Z",
+          "primary": false,
+          "symbol": "MCD"
+        }
+      ]
+    },
+    "V": {
+      "metrics": {
+        "52WeekHigh": 442.2254,
+        "52WeekLow": 293.89,
+        "peTTM": 33.0509,
+        "psTTM": 16.9232,
+        "netProfitMarginTTM": 51.2,
+        "roeTTM": 64.52,
+        "revenueGrowthTTMYoy": 14.76,
+        "epsGrowthTTMYoy": 18.51,
+        "currentRatioQuarterly": 0.9651,
+        "totalDebt/totalEquityQuarterly": 0.6112,
+        "marketCapitalization": 776827.2
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "Visa Inc.",
+      "profile": {
+        "weburl": "https://usa.visa.com/"
+      },
+      "news": [
+        {
+          "headline": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
+          "url": "https://finnhub.io/api/news?id=757ebb268527300a58e35cdd5e32e8ac7c7655f8c1d2ad6cfcaba72145336f74",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:24:33Z",
+          "primary": false,
+          "symbol": "V"
+        },
+        {
+          "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
+          "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:14Z",
+          "primary": false,
+          "symbol": "V"
+        },
+        {
+          "headline": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+          "url": "https://finnhub.io/api/news?id=d5d652dc5838a16509d959c1e4a91873f80de89109322177818d72a2e26dadc1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:57:32Z",
+          "primary": false,
+          "symbol": "V"
+        },
+        {
+          "headline": "Update: JPMorgan, Visa, Mastercard Reportedly Say Some Customer Info Leaked by Hackers",
+          "url": "https://finnhub.io/api/news?id=058d73972dad0237daad176d7f6af51f2bc95cf1eb76eedf4cf6e47a25e5c7e9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:28:22Z",
+          "primary": false,
+          "symbol": "V"
+        },
+        {
+          "headline": "93% of Audited Merchant Accounts Missed Visa CEDP Discounts, Verisave and Canyon Payments Analysis Finds",
+          "url": "https://finnhub.io/api/news?id=067769477b0986cd89b322a7087de644cfc2741267612d3d0f5dced6053d66e8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:45:00Z",
+          "primary": false,
+          "symbol": "V"
+        }
+      ]
+    },
+    "MA": {
+      "metrics": {
+        "52WeekHigh": 681.99,
+        "52WeekLow": 464.52,
+        "peTTM": 33.0516,
+        "psTTM": 15.4456,
+        "netProfitMarginTTM": 46.73,
+        "roeTTM": 252.92,
+        "revenueGrowthTTMYoy": 15.3,
+        "epsGrowthTTMYoy": 22.29,
+        "currentRatioQuarterly": 1.0117,
+        "totalDebt/totalEquityQuarterly": 3.5448,
+        "marketCapitalization": 560488.56
+      },
+      "updated_at": "2026-11-19T21:58:13Z",
+      "name": "Mastercard Incorporated",
+      "profile": {
+        "weburl": "https://www.mastercard.us/"
+      },
+      "news": [
+        {
+          "headline": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
+          "url": "https://finnhub.io/api/news?id=757ebb268527300a58e35cdd5e32e8ac7c7655f8c1d2ad6cfcaba72145336f74",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:24:33Z",
+          "primary": false,
+          "symbol": "MA"
+        },
+        {
+          "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
+          "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:14Z",
+          "primary": false,
+          "symbol": "MA"
+        },
+        {
+          "headline": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+          "url": "https://finnhub.io/api/news?id=d5d652dc5838a16509d959c1e4a91873f80de89109322177818d72a2e26dadc1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:57:32Z",
+          "primary": false,
+          "symbol": "MA"
+        },
+        {
+          "headline": "Update: JPMorgan, Visa, Mastercard Reportedly Say Some Customer Info Leaked by Hackers",
+          "url": "https://finnhub.io/api/news?id=058d73972dad0237daad176d7f6af51f2bc95cf1eb76eedf4cf6e47a25e5c7e9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:28:22Z",
+          "primary": false,
+          "symbol": "MA"
+        },
+        {
+          "headline": "Visa, Mastercard, JPMorgan Hit By Reported Data Leak, Payment Information Not Affected",
+          "url": "https://finnhub.io/api/news?id=b980aa8feda1217d8a54e270e243edbe86a64d707216d40d0f71195e7150a51a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:53:41Z",
+          "primary": false,
+          "symbol": "MA"
+        }
+      ]
     }
   },
-  "cursor": 16,
-  "updated_at": "2026-11-19T21:53:49Z"
+  "cursor": 24,
+  "updated_at": "2026-11-19T21:58:13Z"
 }

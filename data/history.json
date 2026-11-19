@@ -351,6 +351,14 @@
       "reference_price": 221.68,
       "score": 79,
       "price_at": "2026-11-19T21:00:00Z"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "MCD",
+      "flagged_at": "2026-11-19T21:58:13Z",
+      "reference_price": 272.35,
+      "score": 76,
+      "price_at": "2026-11-19T21:00:00Z"
     }
   ]
 }
