@@ -1,0 +1,502 @@
+{
+  "companies": {
+    "AAPL": {
+      "metrics": {
+        "52WeekHigh": 360.83,
+        "52WeekLow": 243.42,
+        "peTTM": 38.8056,
+        "psTTM": 10.7117,
+        "netProfitMarginTTM": 27.6,
+        "roeTTM": 127.61,
+        "revenueGrowthTTMYoy": 15.06,
+        "epsGrowthTTMYoy": 20.31,
+        "currentRatioQuarterly": 1.0232,
+        "totalDebt/totalEquityQuarterly": 0.7147,
+        "marketCapitalization": 5129133.5
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Apple Inc.",
+      "profile": {
+        "weburl": "https://www.apple.com/"
+      },
+      "news": [
+        {
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:19:22Z",
+          "primary": false,
+          "symbol": "AAPL"
+        },
+        {
+          "headline": "Apple (AAPL) Faces UK Backdoor Admission And French Obsolescence Trial",
+          "url": "https://finnhub.io/api/news?id=d1b374a01a979a32f88833503bbe3e671d4c6b3fdb4ebf2e8546bbf8d6871b60",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:15:55Z",
+          "primary": false,
+          "symbol": "AAPL"
+        },
+        {
+          "headline": "Roundtable 100 analysts lift Apple on record R&D spend",
+          "url": "https://finnhub.io/api/news?id=93699b6ab030f02bbd9ff1a2927aeb58e095d85c21936dc7854c66457f957f0f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:57:34Z",
+          "primary": false,
+          "symbol": "AAPL"
+        },
+        {
+          "headline": "Apple’s head of iPhone camera software retires after eight years - Bloomberg",
+          "url": "https://finnhub.io/api/news?id=c5031232df75360574ed9e2a257abf0f373e1103bed00bba93f4593d7f1f3831",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:55:51Z",
+          "primary": false,
+          "symbol": "AAPL"
+        },
+        {
+          "headline": "Why Netflix's Fall Could Pay Off At Tax Time",
+          "url": "https://finnhub.io/api/news?id=8b971ae30d0e63abee843530752bfedb5d086f03677c0c423e7ee2827335522e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:47:26Z",
+          "primary": false,
+          "symbol": "AAPL"
+        }
+      ]
+    },
+    "MSFT": {
+      "metrics": {
+        "52WeekHigh": 559.15,
+        "52WeekLow": 349.2,
+        "peTTM": 26.4135,
+        "psTTM": 10.8744,
+        "netProfitMarginTTM": 41.17,
+        "roeTTM": 33.21,
+        "revenueGrowthTTMYoy": 17.91,
+        "epsGrowthTTMYoy": 36.24,
+        "currentRatioQuarterly": 1.2248,
+        "totalDebt/totalEquityQuarterly": 0.2263,
+        "marketCapitalization": 3767382.8
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Microsoft Corporation",
+      "profile": {
+        "weburl": "https://www.microsoft.com/en-in/"
+      },
+      "news": [
+        {
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:19:22Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:02Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "JPMorgan Chase Reveals Data Breach Involving Third-Party Vendors",
+          "url": "https://finnhub.io/api/news?id=b82a09e8f6eb1f4aa7dcb6ad0ffa136c672e4e45afc1bb432d323be442f267bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:45:43Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
+          "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:42:45Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "Qualcomm lays off 100s amid global restructuring, raises $4 billion",
+          "url": "https://finnhub.io/api/news?id=a240fca6e108d3f9c9c9486150bcf0df1a2d44090275ef86a1cd5c3b78194776",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:33:00Z",
+          "primary": false,
+          "symbol": "MSFT"
+        }
+      ]
+    },
+    "NVDA": {
+      "metrics": {
+        "52WeekHigh": 243.37,
+        "52WeekLow": 148.8,
+        "peTTM": 16.0797,
+        "psTTM": 10.0555,
+        "netProfitMarginTTM": 62.53,
+        "roeTTM": 106.67,
+        "revenueGrowthTTMYoy": 93.33,
+        "epsGrowthTTMYoy": 130.51,
+        "currentRatioQuarterly": 4.0837,
+        "totalDebt/totalEquityQuarterly": 0.1214,
+        "marketCapitalization": 3638136.2
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "NVIDIA Corporation",
+      "profile": {
+        "weburl": "https://www.nvidia.com"
+      },
+      "news": [
+        {
+          "headline": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
+          "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:49:17Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "‘SpaceX Has Gone All In With Nvidia’: Nvidia’s Biggest Customer Is Also Its Biggest Stock Holding at $19.7B",
+          "url": "https://finnhub.io/api/news?id=7571f738999d03e723c6bd002c6640c79ec07f69ea5c4bd327e807d708cba6d6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:42:17Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "Anthropic vs. SpaceX: How 2026's Two Biggest IPOs Stack Up.",
+          "url": "https://finnhub.io/api/news?id=26cfd8dd63ffb42d93bfcef9fff3cbcb5ea378ca2dde6885ee6784fe7ab9215d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:35:02Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:34:02Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "Trump Discloses Up to $380,000 in Nvidia Buys, Calls Huang’s Exit ‘Such a Tragedy’",
+          "url": "https://finnhub.io/api/news?id=dff6f0b6d1dcce9325452d0088fd6ed65949392c659427ebcd9ae797a399fbff",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:22:08Z",
+          "primary": false,
+          "symbol": "NVDA"
+        }
+      ]
+    },
+    "GOOGL": {
+      "metrics": {
+        "52WeekHigh": 408.61,
+        "52WeekLow": 272.11,
+        "peTTM": 14.6757,
+        "psTTM": 7.3424,
+        "netProfitMarginTTM": 50.03,
+        "roeTTM": 42.620000000000005,
+        "revenueGrowthTTMYoy": 22.21,
+        "epsGrowthTTMYoy": 91.92,
+        "currentRatioQuarterly": 2.7856,
+        "totalDebt/totalEquityQuarterly": 0.1846,
+        "marketCapitalization": 3458978.2
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Alphabet Inc.",
+      "profile": {
+        "weburl": "https://abc.xyz/"
+      },
+      "news": [
+        {
+          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:34:02Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
+          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:25:57Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Missed the Anthropic IPO? These 3 Stocks Give You Immediate Exposure.",
+          "url": "https://finnhub.io/api/news?id=8d4298e5aed40b19d3041b80423f61d8a4ebc2c2a5eaff98f497e3275d621c21",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:17:02Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Nvidia will not be the leader 5 years from now: Tiernan Ray",
+          "url": "https://finnhub.io/api/news?id=2dd6bb128fa6181706eb5e2cbb71bc3433a251538ebcd95e3153a25ab98d78b4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:59:54Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Why AI competition from China won't be a risk US tech companies",
+          "url": "https://finnhub.io/api/news?id=c093bf51c3078840c42b0542340d6e44f85e282f744d91993e190e2e88069681",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:48:51Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        }
+      ]
+    },
+    "AMZN": {
+      "metrics": {
+        "52WeekHigh": 287.2,
+        "52WeekLow": 196.0,
+        "peTTM": 21.4804,
+        "psTTM": 3.6304,
+        "netProfitMarginTTM": 16.9,
+        "roeTTM": 26.71,
+        "revenueGrowthTTMYoy": 15.35,
+        "epsGrowthTTMYoy": 74.76,
+        "currentRatioQuarterly": 0.9888,
+        "totalDebt/totalEquityQuarterly": 0.2821,
+        "marketCapitalization": 2895109.5
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Amazon.com Inc",
+      "profile": {
+        "weburl": "https://www.amazon.com/"
+      },
+      "news": [
+        {
+          "headline": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
+          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:47:02Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Natera vs. Tempus AI: Which Blood Test Pioneer Has the Better Stock Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=80e11a0944355d574a43f7c340ee02387570924e260aff1b475f7d448a04f577",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:40:02Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:34:02Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
+          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:25:57Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Missed the Anthropic IPO? These 3 Stocks Give You Immediate Exposure.",
+          "url": "https://finnhub.io/api/news?id=8d4298e5aed40b19d3041b80423f61d8a4ebc2c2a5eaff98f497e3275d621c21",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:17:02Z",
+          "primary": false,
+          "symbol": "AMZN"
+        }
+      ]
+    },
+    "META": {
+      "metrics": {
+        "52WeekHigh": 779.8192,
+        "52WeekLow": 520.26,
+        "peTTM": 20.9387,
+        "psTTM": 6.5214,
+        "netProfitMarginTTM": 31.15,
+        "roeTTM": 30.270000000000003,
+        "revenueGrowthTTMYoy": 27.53,
+        "epsGrowthTTMYoy": 29.84,
+        "currentRatioQuarterly": 1.9028,
+        "totalDebt/totalEquityQuarterly": 0.2971,
+        "marketCapitalization": 1575615.9
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Meta Platforms, Inc.",
+      "profile": {
+        "weburl": "https://www.meta.com/"
+      },
+      "news": [
+        {
+          "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
+          "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:45:22Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
+          "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:42:45Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Why Alphabet's Cheap P/E May Mislead Investors",
+          "url": "https://finnhub.io/api/news?id=2bc0e97e4bdb56fc44a4ca90ea7be40fcc36a01fcebcc052bf351a46c25a2a96",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:24:30Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Trump Media Gains 3% Despite Market Wobble and Looming $883.5 Million Note Deadline; Rumble Falls 3%",
+          "url": "https://finnhub.io/api/news?id=d13ff456a4f4635f04f3f70dd3d04f108f8d4770aca53a8ca8c432d0e0653770",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:43Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Can Google Borrow Another $100 Billion?",
+          "url": "https://finnhub.io/api/news?id=937d168c02925d59addc81789627acfe9fbab995dd90b7f4f4a80a48c20d7c96",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:21Z",
+          "primary": false,
+          "symbol": "META"
+        }
+      ]
+    },
+    "AVGO": {
+      "metrics": {
+        "52WeekHigh": 495.0,
+        "52WeekLow": 289.767,
+        "peTTM": 43.723,
+        "psTTM": 18.7765,
+        "netProfitMarginTTM": 42.94,
+        "roeTTM": 43.91,
+        "revenueGrowthTTMYoy": 48.69,
+        "epsGrowthTTMYoy": 100.1,
+        "currentRatioQuarterly": 2.5037,
+        "totalDebt/totalEquityQuarterly": 0.596,
+        "marketCapitalization": 1673061.9
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Broadcom Inc",
+      "profile": {
+        "weburl": "https://www.broadcom.com"
+      },
+      "news": [
+        {
+          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
+          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:25:57Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "What's Happening To Intel's Factory Cash?",
+          "url": "https://finnhub.io/api/news?id=1d0969fd34281717551314f11af5ca47e1102b0e1a51846e9761ea048f28b878",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:14:07Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "Why AI competition from China won't be a risk US tech companies",
+          "url": "https://finnhub.io/api/news?id=c093bf51c3078840c42b0542340d6e44f85e282f744d91993e190e2e88069681",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:48:51Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "What Does A Fed Hike Mean For AI Stocks?",
+          "url": "https://finnhub.io/api/news?id=af484df95e7eb86be66e775760409a881d22c7e25e7a8f2c02404afec7b70b9f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:20Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "$1 Million In Nvidia Five Years Ago: What Is It Worth Now?",
+          "url": "https://finnhub.io/api/news?id=9796fd6ed80be227e10473c7c0c72313ca0a815deea4cbec04b4238b033e06e1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:20Z",
+          "primary": false,
+          "symbol": "AVGO"
+        }
+      ]
+    },
+    "TSM": {
+      "metrics": {
+        "52WeekHigh": 2590.0,
+        "52WeekLow": 1375.0,
+        "peTTM": 22.1375,
+        "psTTM": 11.4065,
+        "netProfitMarginTTM": 51.53,
+        "roeTTM": 41.19,
+        "revenueGrowthTTMYoy": 36.17,
+        "epsGrowthTTMYoy": 60.55,
+        "currentRatioQuarterly": 2.5841,
+        "totalDebt/totalEquityQuarterly": 0.1405,
+        "marketCapitalization": 56402904.0
+      },
+      "updated_at": "2026-11-19T21:50:38Z",
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "profile": {
+        "weburl": "https://www.tsmc.com/"
+      },
+      "news": [
+        {
+          "headline": "Market Chatter: TSMC Tightening Restrictions on Chinese Chip Designers in Response to New US Rules",
+          "url": "https://finnhub.io/api/news?id=62a81aedb2f5bc748096d53de54a47607cbdf12ee74716f57d0b1a05e64dc3fc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:35:17Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "Has Nvidia Peaked? TheTechTalk Podcast Episode 3",
+          "url": "https://finnhub.io/api/news?id=b46d6cec60156bd251481b1e5d378f6250d6ae1d454537554eead7ce34ac2038",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T13:31:51Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "$1 Million In SMH Five Years Ago: What Is It Worth Now?",
+          "url": "https://finnhub.io/api/news?id=e92aea79850428621b74736c2eedace56435d94e9e43cf02131029fbfc8678c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:20:51Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "AI Cash Kings: Why This Chip Giant's Fundamentals Defy The Selloff",
+          "url": "https://finnhub.io/api/news?id=2bfb503487aaabc8a4516c8742e55add699264154dc189f9d1e36b7452b8de80",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T12:53:00Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "TSMC, Samsung Reportedly Suspend Some Chip Deliveries To Chinese Customers Amid New US Export Rules",
+          "url": "https://finnhub.io/api/news?id=61bfd8a2e96c14b75a589d37a8848957001770be9e65eb374fa2f620a380a173",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:26:33Z",
+          "primary": false,
+          "symbol": "TSM"
+        }
+      ]
+    }
+  },
+  "cursor": 8,
+  "updated_at": "2026-11-19T21:50:38Z"
+}

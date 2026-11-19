@@ -1,0 +1,292 @@
+{
+  "week_start": "2026-11-16",
+  "generated_at": "2026-11-19T21:50:38Z",
+  "shortlist": [
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc",
+      "status": "INVESTIGATE",
+      "score": 83,
+      "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 21.5×; TTM revenue growth 15.3% YoY",
+      "risks": [
+        "Company-specific, sector and market drawdowns remain possible"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$257.37",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 essential fields available",
+          "timestamp": "2026-11-19T21:50:38Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
+          "timestamp": "2026-11-19T19:47:02Z",
+          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T21:50:38Z",
+      "price": 257.37,
+      "currency": "USD",
+      "change_pct": -3.873,
+      "news": [
+        {
+          "headline": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
+          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:47:02Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Natera vs. Tempus AI: Which Blood Test Pioneer Has the Better Stock Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=80e11a0944355d574a43f7c340ee02387570924e260aff1b475f7d448a04f577",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:40:02Z",
+          "primary": false,
+          "symbol": "AMZN"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "status": "INVESTIGATE",
+      "score": 80,
+      "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.9×; TTM revenue growth 27.5% YoY",
+      "risks": [
+        "Company-specific, sector and market drawdowns remain possible"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$596.22",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 essential fields available",
+          "timestamp": "2026-11-19T21:50:38Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
+          "timestamp": "2026-11-19T18:45:22Z",
+          "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T21:50:38Z",
+      "price": 596.22,
+      "currency": "USD",
+      "change_pct": -3.271,
+      "news": [
+        {
+          "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
+          "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:45:22Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
+          "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:42:45Z",
+          "primary": false,
+          "symbol": "META"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "status": "INVESTIGATE",
+      "score": 76,
+      "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.7×; TTM revenue growth 22.2% YoY",
+      "risks": [
+        "Price near reported 52-week low"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$272.66",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 essential fields available",
+          "timestamp": "2026-11-19T21:50:38Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
+          "timestamp": "2026-11-19T19:34:02Z",
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T21:50:38Z",
+      "price": 272.66,
+      "currency": "USD",
+      "change_pct": -3.463,
+      "news": [
+        {
+          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:34:02Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
+          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:25:57Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "status": "WATCH",
+      "score": 74,
+      "why": "Net profit margin 41.2% (TTM); Return on equity 33.2% (TTM); Trailing P/E 26.4×; TTM revenue growth 17.9% YoY",
+      "risks": [
+        "Company-specific, sector and market drawdowns remain possible"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$498.30",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 essential fields available",
+          "timestamp": "2026-11-19T21:50:38Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "Walmart, Costco see some panic-buying after tech outages",
+          "timestamp": "2026-11-19T19:19:22Z",
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T21:50:38Z",
+      "price": 498.3,
+      "currency": "USD",
+      "change_pct": -1.965,
+      "news": [
+        {
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:19:22Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:02Z",
+          "primary": false,
+          "symbol": "MSFT"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "status": "WATCH",
+      "score": 73,
+      "why": "Net profit margin 62.5% (TTM); Return on equity 106.7% (TTM); Trailing P/E 16.1×; TTM revenue growth 93.3% YoY",
+      "risks": [
+        "Price near reported 52-week low"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$145.98",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 essential fields available",
+          "timestamp": "2026-11-19T21:50:38Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
+          "timestamp": "2026-11-19T19:49:17Z",
+          "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T21:50:38Z",
+      "price": 145.98,
+      "currency": "USD",
+      "change_pct": -3.299,
+      "news": [
+        {
+          "headline": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
+          "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:49:17Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "‘SpaceX Has Gone All In With Nvidia’: Nvidia’s Biggest Customer Is Also Its Biggest Stock Holding at $19.7B",
+          "url": "https://finnhub.io/api/news?id=7571f738999d03e723c6bd002c6640c79ec07f69ea5c4bd327e807d708cba6d6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:42:17Z",
+          "primary": false,
+          "symbol": "NVDA"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+    }
+  ],
+  "verdict": "Candidates for independent investigation, NOT buy instructions",
+  "method": "Rules-based financial screening of the configured US universe; not AI-generated financial advice.",
+  "basis": "Finnhub quote and last reported company metrics; excludes fees, FX and NZ tax. Verify before trading.",
+  "core_etfs": [
+    "VOO",
+    "VTI",
+    "VT",
+    "QQQ",
+    "SPY"
+  ],
+  "note": "Broad diversified funds may suit long-term investing; a high score does not prove an undervalued company."
+}
