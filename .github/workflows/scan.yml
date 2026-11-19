@@ -4,6 +4,10 @@ on:
     # Best-effort hourly UTC; GitHub sometimes delays or skips runs.
     - cron: '17 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/scan.yml'
 permissions:
   contents: write
   pages: write
@@ -29,13 +33,28 @@ jobs:
         run: python scanner.py
       - name: Save snapshot for next run
         run: |
+          # Preserve the new scan, then sync with the latest remote HEAD.
+          # This makes manual reruns of older jobs safe as well.
+          cp data/latest.json /tmp/scout-latest.json
           git config user.name "scout-data-bot"
           git config user.email "scout-data-bot@users.noreply.github.com"
-          git add data/latest.json
-          if ! git diff --cached --quiet; then
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/scout-latest.json data/latest.json
+            git add data/latest.json
+            if git diff --cached --quiet; then
+              echo "Snapshot already saved"
+              break
+            fi
             git commit -m "Refresh market research snapshot"
-            git push
-          fi
+            if git push origin HEAD:main; then
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::warning::Snapshot push unsuccessful; continuing with current site data"
+            fi
+          done
       - name: Prepare public website
         run: |
           mkdir -p site/assets site/data
