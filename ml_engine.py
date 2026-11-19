@@ -14,16 +14,24 @@ from zoneinfo import ZoneInfo
 UTC = timezone.utc
 NY = ZoneInfo('America/New_York')
 NZ = ZoneInfo('Pacific/Auckland')
-SCHEMA = 1
+SCHEMA = 2
 HORIZON_DAYS = 30
 BENCHMARK = 'SPY'
 FEATURES = ['rules_score','pe','ps','profit_margin','roe','sales_growth',
-            'eps_growth','below_high','day_change','debt_to_equity']
-MIN_TRAIN = 120
-MIN_VALID = 40
-MIN_TRAIN_WEEKS = 6
-MIN_VALID_WEEKS = 2
+            'eps_growth','below_high','day_change','debt_to_equity',
+            'missing_pe','missing_ps','missing_margin','missing_roe',
+            'missing_sales_growth','missing_eps_growth','missing_high',
+            'missing_debt_to_equity']
+# Independent validation: 30d labels overlap across nearby weekly cohorts.
+# Six holdout weeks separated by five weeks, with six weeks purged before each.
+MIN_TRAIN = 250
+MIN_HOLDOUT_PER_WEEK = 20
+MIN_TRAIN_WEEKS = 20
+MIN_VALID_FOLDS = 6
+PURGE_WEEKS = 6
+HOLDOUT_SPACING_WEEKS = 5
 MIN_SYMBOLS = 20
+ROUND_TRIP_FRICTION_PCT = 1.0  # illustrative research-only estimate, not an executable fee quote
 
 
 def num(value):
@@ -74,6 +82,10 @@ def features(candidate, cached, quote):
         clip((high-price)/high, -0.3, 0.8) if high and high>0 else 0,
         clip(quote.get('change_pct'), -15, 15)/15,
         clip(metrics.get('totalDebt/totalEquityQuarterly'), 0, 6)/6,
+        *(1.0 if num(metrics.get(k)) is None else 0.0
+          for k in ('peTTM','psTTM','netProfitMarginTTM','roeTTM',
+                    'revenueGrowthTTMYoy','epsGrowthTTMYoy','52WeekHigh',
+                    'totalDebt/totalEquityQuarterly')),
     )]
 
 
@@ -156,11 +168,16 @@ def outcomes(history, now):
         market=(bend/bprice-1)*100
         excess=own-market
         if not all(math.isfinite(v) for v in (own,market,excess)):continue
-        # Do not advertise probability estimates from the classifier.
+        # Missing split/dividend-adjusted history: reject extreme changes until
+        # confirmed by corporate-action data. Never call a split a 90% loss.
+        if abs(own)>60 or abs(market)>40:continue
+        # Friction is illustrative; true fees, FX and tax vary by investor.
+        net_excess=excess-ROUND_TRIP_FRICTION_PCT
         paired.append({'week':ep['week'],'symbol':ep['symbol'],'features':x,
                        'score':ep['score_at_signal'],'return_pct':round(own,4),
                        'benchmark_return_pct':round(market,4),
-                       'excess_pct':round(excess,4),'label':int(excess>1.0),
+                       'excess_pct':round(excess,4),'net_excess_est_pct':round(net_excess,4),
+                       'label':int(net_excess>1.0),
                        'end_at':stamp(end),'horizon_days':HORIZON_DAYS,
                        'entry_at':ep['quote_at']})
     return sorted(paired,key=lambda r:(r['week'],r['symbol']))
@@ -220,56 +237,92 @@ def weekly_top_excess(rows, sort_key):
 
 
 def evaluate_training(history,now,previous=None):
+    """Purged, chronological walk-forward tests on disjoint market weeks.
+
+    The training label of *every* example must be known before its validation
+    week's first observation; future observations are never used to tune a past
+    holdout. Five-week spacing reduces 30-day label overlap. Passing this test
+    is only a limited experimental result, not statistical proof of an edge.
+    """
     rows=outcomes(history,now)
     weeks=sorted({r['week'] for r in rows})
     observed=sorted({r['week'] for r in history.get('episodes',[])})
-    base={'checked_at':stamp(now),'last_review_week':(now.astimezone(NZ).date()-timedelta(days=now.astimezone(NZ).weekday())).isoformat(),
-          'status':'COLLECTING','model_active':False,'recorded_signals':len(history.get('episodes',[])),
+    week_now=(now.astimezone(NZ).date()-timedelta(days=now.astimezone(NZ).weekday())).isoformat()
+    base={'checked_at':stamp(now),'last_review_week':week_now,
+          'status':'COLLECTING','model_active':False,
+          'recorded_signals':len(history.get('episodes',[])),
           'matured_outcomes':len(rows),'observed_weeks':len(observed),
           'matured_weeks':len(weeks),'horizon_days':HORIZON_DAYS,
-          'benchmark':BENCHMARK,'method':'Frozen weekly fundamentals; 30-day paired outcomes vs SPY; chronological holdout; regularized logistic regression.',
-          'validation':None,'reason':'Not enough forward outcomes yet.',
-          'warning':'Hypothetical USD gross price changes, excluding spreads, commissions, FX, tax and dividends; no guaranteed predictive advantage.'}
+          'benchmark':BENCHMARK,
+          'method':'Frozen weekly fundamentals, 30d matched USD outcomes vs SPY, purged forward-only walk-forward, L2 logistic regression.',
+          'validation':None,'reason':'Not enough independent forward results yet.',
+          'warning':'Research-only. 1% illustrated round-trip friction, no dividends, FX movements or NZ tax; possible split/corporate-action gaps. No guaranteed predictive advantage.'}
     cold={'active':False,'feature_schema':SCHEMA,'features':FEATURES,'trained_at':None}
-    if len(weeks)<MIN_TRAIN_WEEKS+MIN_VALID_WEEKS:
-        base['reason']=f'Waiting for at least {MIN_TRAIN_WEEKS+MIN_VALID_WEEKS} matured, separate weekly observation cohorts (currently {len(weeks)}).'
+    required_weeks=MIN_TRAIN_WEEKS+PURGE_WEEKS+HOLDOUT_SPACING_WEEKS*(MIN_VALID_FOLDS-1)+1
+    if len(weeks)<required_weeks:
+        base['reason']=f'Need at least {required_weeks} matured weekly cohorts (currently {len(weeks)}) to obtain {MIN_VALID_FOLDS} separated forward tests.'
         return cold,base
-    val_weeks=set(weeks[-MIN_VALID_WEEKS:]);train=[r for r in rows if r['week'] not in val_weeks]
-    val=[r for r in rows if r['week'] in val_weeks]
-    base['training_samples']=len(train);base['holdout_samples']=len(val)
-    if len(train)<MIN_TRAIN or len(val)<MIN_VALID or len({r['symbol'] for r in train})<MIN_SYMBOLS:
-        base['reason']=f'Need at least {MIN_TRAIN} training examples, {MIN_VALID} later holdout examples and {MIN_SYMBOLS} unique stocks; currently {len(train)} / {len(val)} / {len({r["symbol"] for r in train})}.'
+    # Use latest six independent test weeks, never their labels to train models
+    # used to score those same weeks.
+    indexes=list(range(len(weeks)-1,MIN_TRAIN_WEEKS+PURGE_WEEKS-1,-HOLDOUT_SPACING_WEEKS))[:MIN_VALID_FOLDS]
+    if len(indexes)<MIN_VALID_FOLDS:
+        base['reason']='Not enough non-overlapping validation windows.'
         return cold,base
-    if len({r['label'] for r in train})<2:
-        base['reason']='Recorded historical outcomes lack both winners and non-winners; cannot fit a useful classifier.'
-        return cold,base
-    provisional=train_logistic(train)
-    for r in val:r['prediction']=predict(provisional,r['features'])
-    model_excess=weekly_top_excess(val,lambda r:r['prediction'])
-    rules_excess=weekly_top_excess(val,lambda r:r['score'])
-    uplift=model_excess-rules_excess
-    base['validation']={'method':'Most recent 2 matured weekly cohorts, unseen during training',
-                        'holdout_samples':len(val),'holdout_weeks':sorted(val_weeks),
-                        'model_top20_excess_pct':round(model_excess,3),
-                        'rules_top20_excess_pct':round(rules_excess,3),
-                        'lift_percentage_points':round(uplift,3),
-                        'passes_gate':bool(uplift>=0.5 and model_excess>0)}
-    if not base['validation']['passes_gate']:
+    fold_results=[]
+    for idx in sorted(indexes):
+        val_week=weeks[idx]
+        # Purge six full weekly cohorts before the test week.
+        train_end=weeks[idx-PURGE_WEEKS]
+        val_rows=[dict(r) for r in rows if r['week']==val_week]
+        cutoff=datetime.fromisoformat(val_week).replace(tzinfo=UTC)
+        train=[r for r in rows if r['week']<train_end and
+               (dt(r.get('end_at')) is not None and dt(r['end_at'])<cutoff)]
+        if (len(train)<MIN_TRAIN or len(val_rows)<MIN_HOLDOUT_PER_WEEK or
+            len({r['symbol'] for r in train})<MIN_SYMBOLS or
+            len({r['label'] for r in train})<2):
+            base['reason']=f'Insufficient point-in-time examples for walk-forward week {val_week}: {len(train)} train, {len(val_rows)} test.'
+            base['validation']={'completed_folds':len(fold_results),'required_folds':MIN_VALID_FOLDS}
+            return cold,base
+        provisional=train_logistic(train)
+        for r in val_rows:r['prediction']=predict(provisional,r['features'])
+        ml_gross=weekly_top_excess(val_rows,lambda r:r['prediction'])
+        rules_gross=weekly_top_excess(val_rows,lambda r:r['score'])
+        fold_results.append({'week':val_week,'train_samples':len(train),'test_samples':len(val_rows),
+                             'ml_excess_pct':round(ml_gross,4),
+                             'rules_excess_pct':round(rules_gross,4),
+                             'lift_pp':round(ml_gross-rules_gross,4)})
+    lift=sum(f['lift_pp'] for f in fold_results)/len(fold_results)
+    gross=sum(f['ml_excess_pct'] for f in fold_results)/len(fold_results)
+    baseline=sum(f['rules_excess_pct'] for f in fold_results)/len(fold_results)
+    wins=sum(f['lift_pp']>0 for f in fold_results)
+    passes=lift>=1.0 and wins>=5 and gross-ROUND_TRIP_FRICTION_PCT>1.0
+    base['validation']={'method':'Six chronologically separate, purged walk-forward test weeks; previous 6 weeks excluded from training',
+                        'test_weeks':[f['week'] for f in fold_results],
+                        'holdout_samples':sum(f['test_samples'] for f in fold_results),
+                        'holdout_weeks':[f['week'] for f in fold_results],
+                        'independent_test_weeks':len(fold_results),'fold_wins':wins,
+                        'model_top20_excess_pct':round(gross,3),
+                        'rules_top20_excess_pct':round(baseline,3),
+                        'model_est_after_friction_excess_pct':round(gross-ROUND_TRIP_FRICTION_PCT,3),
+                        'lift_percentage_points':round(lift,3),
+                        'round_trip_friction_assumed_pct':ROUND_TRIP_FRICTION_PCT,
+                        'passes_gate':passes,
+                        'folds':fold_results}
+    if not passes:
         base['status']='NO VALIDATED EDGE'
-        base['reason']='On untouched later weeks, the model did not beat the rules by at least 0.5 percentage points while outperforming SPY. Rules remain in control.'
+        base['reason']='The model has not demonstrated sufficiently stable excess performance across six separated, previously unseen weeks. Rules remain in control.'
         return cold,base
-    # Only after validation, fit a production model using all matured rows.
-    model=train_logistic(rows)
-    model.update({'active':True,'trained_at':stamp(now),'training_rows':len(rows),
-                  'validated_lift_pp':round(uplift,3),'holdout_weeks':sorted(val_weeks),
-                  'notice':'Ranking aid only; output is NOT a calibrated return probability.'})
-    base['status']='VALIDATED (LIMITED)';base['model_active']=True
-    base['reason']='Recent held-out outcomes cleared the minimum conservative gate; model may reorder research candidates, but not trigger buys.'
-    return model,base
+    final=train_logistic(rows)
+    final.update({'active':True,'trained_at':stamp(now),'training_rows':len(rows),
+                  'validated_lift_pp':round(lift,3),'holdout_weeks':[f['week'] for f in fold_results],
+                  'notice':'Experimental research re-ranking only. Not a calibrated probability or buy signal.'})
+    base['status']='EXPERIMENTAL VALIDATION';base['model_active']=True
+    base['reason']='Six purged, separate forward tests passed strict gates. This is preliminary evidence only; future live performance can still fail.'
+    return final,base
 
 
 def rank_with_model(candidates,companies,quotes,model,now=None):
-    """At most 20% weight to validated ML, retaining rules and all risk gates."""
+    """At most 10% weight to tested ML, retaining rules and all risk gates."""
     candidates=[dict(c) for c in candidates]
     if (not model or not model.get('active') or model.get('feature_schema')!=SCHEMA or
         (now is not None and (not dt(model.get('trained_at')) or
@@ -295,6 +348,6 @@ def rank_with_model(candidates,companies,quotes,model,now=None):
         ml=mapping.get(c.get('symbol'))
         if ml is None:c['ranking_score']=score;c['rank_method']='FINANCIAL RULES';continue
         c['ml_relative_rank']=round(ml)
-        c['ranking_score']=round(.8*score+.2*ml,1)
-        c['rank_method']='80% RULES / 20% TESTED ML'
+        c['ranking_score']=round(.9*score+.1*ml,1)
+        c['rank_method']='90% RULES / 10% TESTED ML'
     return candidates

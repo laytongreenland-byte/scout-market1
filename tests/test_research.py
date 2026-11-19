@@ -45,6 +45,28 @@ class ResearchTests(unittest.TestCase):
         c=research.evaluate('ACME',self.quote,dict(self.cache,news=news),self.now)
         self.assertEqual(research.urgent_alerts([c],[self.quote],self.now,[]),[])
 
+    def test_news_relevance_rejects_wrong_company(self):
+        dt=int(self.now.timestamp())
+        entries=[{'headline':'Walmart earnings beat estimates','url':'https://news.example/walmart','datetime':dt},
+                 {'headline':'Acme announces new product','url':'https://acme.com/news','datetime':dt}]
+        found=research.get_news(entries,'ACME',{'weburl':'https://acme.com','name':'Acme Industries Inc'},self.now,lambda u:u.startswith('https://'))
+        self.assertEqual(len(found),1)
+        self.assertIn('Acme',found[0]['headline'])
+
+    def test_future_quote_never_scored(self):
+        q=dict(self.quote,price_at=research.iso(self.now+timedelta(hours=8)))
+        self.assertIsNone(research.evaluate('ACME',q,self.cache,self.now)['score'])
+
+    def test_extreme_unadjusted_returns_are_not_pnl(self):
+        quote=dict(self.quote)
+        c=research.evaluate('ACME',quote,self.cache,self.now)
+        h=research.update_history({},[c],[quote],self.now)
+        new=datetime(2026,12,2,10,0,tzinfo=timezone.utc)
+        future=dict(quote,price=10,price_at=research.iso(new))
+        h=research.update_history(h,[],[future],new)
+        self.assertNotIn('return_7d_pct',h['calls'][0])
+        self.assertIn('split',h['calls'][0]['return_unverified'].lower())
+
     def test_history_no_invented_profit(self):
         c=research.evaluate('ACME',self.quote,self.cache,self.now)
         hist=research.update_history({},[c],[self.quote],self.now)

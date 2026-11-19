@@ -10,6 +10,7 @@ import hashlib
 import json
 import math
 import os
+import re
 import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
@@ -47,7 +48,9 @@ def date_of(value):
 
 def hours_old(value, now):
     d = date_of(value)
-    return max(0.0, (now-d).total_seconds()/3600) if d else float('inf')
+    if not d or d>now+timedelta(minutes=10):
+        return float('inf')
+    return max(0.0, (now-d).total_seconds()/3600)
 
 
 def fh_json(endpoint, params, token, fetch):
@@ -59,29 +62,40 @@ def fh_json(endpoint, params, token, fetch):
     return json.loads(fetch(url))
 
 
+def headline_relevant(headline, symbol, profile):
+    """Cheap high-precision relevance check; better to omit a true story than
+    attach a demonstrably unrelated article to an investment candidate."""
+    name=str(profile.get('name') or '').strip()
+    tokens=[w for w in re.findall(r'[A-Za-z]{4,}',name)
+            if w.lower() not in ('incorporated','corporation','holdings',
+                                  'company','limited','group','class','international','the')]
+    lead=next(iter(tokens),None)
+    ticker_match=bool(len(symbol)>=3 and re.search(r'(?<![A-Z0-9])'+re.escape(symbol)+r'(?![A-Z0-9])',headline.upper()))
+    name_match=bool(lead and re.search(r'(?i)\b'+re.escape(lead)+r'\b',headline))
+    return ticker_match or name_match
+
+
 def get_news(obj, symbol, profile, now, verified_url):
     if not isinstance(obj, list):
         return []
     host = urllib.parse.urlsplit(str(profile.get('weburl') or '')).hostname or ''
     host = host.lower().removeprefix('www.')
-    out = []
+    out=[]
     for n in obj:
-        if not isinstance(n, dict):
-            continue
-        url = n.get('url')
-        dt = numeric(n.get('datetime'))
-        if not isinstance(url, str) or not verified_url(url) or not dt:
-            continue
-        when = datetime.fromtimestamp(dt, UTC)
-        if when > now + timedelta(minutes=10) or now-when > timedelta(days=8):
-            continue
-        headline = str(n.get('headline') or '').strip()[:230]
-        if not headline:
-            continue
-        src_host = (urllib.parse.urlsplit(url).hostname or '').lower().removeprefix('www.')
-        primary = bool((host and len(host)>5 and (src_host == host or src_host.endswith('.'+host))) or src_host == 'sec.gov' or src_host.endswith('.sec.gov'))
-        out.append({'headline':headline, 'url':url, 'source':str(n.get('source') or 'Finnhub news')[:80],
-                    'published_at':iso(when), 'primary':primary, 'symbol':symbol})
+        if not isinstance(n, dict):continue
+        url=n.get('url')
+        timestamp=numeric(n.get('datetime'))
+        if not isinstance(url,str) or not verified_url(url) or not timestamp:continue
+        when=datetime.fromtimestamp(timestamp,UTC)
+        if when>now+timedelta(minutes=10) or now-when>timedelta(days=8):continue
+        headline=str(n.get('headline') or '').strip()[:230]
+        if not headline or not headline_relevant(headline,symbol,profile):continue
+        src_host=(urllib.parse.urlsplit(url).hostname or '').lower().removeprefix('www.')
+        primary=bool((host and len(host)>5 and (src_host==host or src_host.endswith('.'+host)))
+                     or src_host=='sec.gov' or src_host.endswith('.sec.gov'))
+        out.append({'headline':headline,'url':url,
+                    'source':str(n.get('source') or 'Finnhub news')[:80],
+                    'published_at':iso(when),'primary':primary,'symbol':symbol})
     out.sort(key=lambda n:n['published_at'],reverse=True)
     return out[:5]
 
@@ -122,6 +136,12 @@ def evaluate(symbol, quote, cached, now):
     score = 0
     reasons = []
     risks = []
+    industry=(cached or {}).get('profile',{}).get('industry') or 'Unclassified'
+    cap=numeric(metrics.get('marketCapitalization'))
+    if industry=='Unclassified':
+        risks.append('Industry not independently classified; cross-sector scores are not directly comparable')
+    if cap is not None and cap<2000: # Finnhub market-cap value is in USD millions
+        risks.append('Smaller listed company: liquidity and volatility require extra review')
     if margin is not None:
         score += 12 if margin>=15 else 8 if margin>=8 else 3 if margin>0 else 0
         reasons.append(f'Net profit margin {margin:.1f}% (TTM)')
@@ -162,7 +182,7 @@ def evaluate(symbol, quote, cached, now):
     if pe is None or growth is None or margin is None or high is None:
         status='WATCH'
         risks.append('Important valuation or growth evidence missing')
-    elif score>=76 and not (pe>40 or margin<=0 or growth<0 or (change is not None and abs(change)>=8)):
+    elif score>=76 and not (pe>40 or margin<=0 or growth<0 or (cap is not None and cap<2000) or (change is not None and abs(change)>=8)):
         status='INVESTIGATE'
     elif score>=58:
         status='WATCH'
@@ -171,18 +191,18 @@ def evaluate(symbol, quote, cached, now):
     if not risks:
         risks=['Company-specific, sector and market drawdowns remain possible']
     evidence = [{'label':'Quote (USD)', 'value':f'${price:.2f}', 'timestamp':q.get('price_at'),'url':QUOTE_URL},
-                {'label':'Finnhub financial metrics','value':f'{count}/5 essential fields available',
+                {'label':'Finnhub financial metrics','value':f'{count}/5 fields; retrieval time, not accounting period',
                  'timestamp':updated,'url':MARKET_URL}]
     if cached and cached.get('news'):
         n=cached['news'][0]
         evidence.append({'label':'Latest company-related article','value':n['headline'],
                          'timestamp':n['published_at'],'url':n['url']})
     return {'symbol':symbol,'name':(cached or {}).get('name') or symbol,'status':status,
-            'score':score,'why':'; '.join(reasons[:4]),'risks':risks[:4],
+            'score':score,'industry':industry,'why':'; '.join(reasons[:4]),'risks':risks[:4],
             'evidence':evidence,'as_of':q.get('price_at'),'fundamentals_at':updated,
             'price':price,'currency':'USD', 'change_pct':change, 'news':(cached or {}).get('news',[])[:2],
             'data_quality':'Partial' if count<5 else 'Measured 5/5 core fields',
-            'limitations':'A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.'}
+            'limitations':'Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.'}
 
 
 def primary_catalysts(candidate, now):
@@ -267,8 +287,14 @@ def update_history(history, candidates, quotes, now, companies=None):
                    and target<=date_of(d.get('price_at'))<=target+timedelta(days=10)]
             if found:
                 d=min(found,key=lambda v:v['price_at'])
-                c[k]=round((d['price']/ref-1)*100,2)
-                c[k+'_observed_on']=d['date']
+                pct=(d['price']/ref-1)*100
+                # We have unadjusted free quotes; do not present likely stock
+                # splits or bad ticks as exceptional performance.
+                if abs(pct)>60:
+                    c['return_unverified']='Extreme price change requires split/corporate-action validation'
+                else:
+                    c[k]=round(pct,2)
+                    c[k+'_observed_on']=d['date']
     hist['daily']=days[-25000:]
     hist['calls']=calls[-1000:]
     return add_weekly_observations(hist,candidates,quotes,companies or {},now)
@@ -288,11 +314,11 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
             try:
                 m=extract_metric(fh_json('stock/metric',{'symbol':sym,'metric':'all'},token,fetch))
                 if not m:raise ValueError('No metric data')
-                if not old.get('profile'):
+                if not old.get('profile') or not old.get('profile',{}).get('industry'):
                     try:
                         profile=fh_json('stock/profile2',{'symbol':sym},token,fetch)
                         if isinstance(profile,dict) and profile.get('weburl'):
-                            old['profile']={'weburl':profile.get('weburl')}
+                            old['profile']={'weburl':profile.get('weburl'),'industry':str(profile.get('finnhubIndustry') or 'Unclassified')[:80], 'name':str(profile.get('name') or sym)[:110]}
                             old['name']=str(profile.get('name') or sym)[:110]
                     except Exception as ex:
                         problems.append(sym+' profile: '+type(ex).__name__)
@@ -310,6 +336,14 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
             except Exception as ex:
                 problems.append(sym+' metrics: '+type(ex).__name__)
         idx=(idx+len(batch))%max(1,len(equities))
+    # Clean older cached articles too, so old, unrelated headlines don't remain
+    # attached to a candidate until its next scheduled fundamentals refresh.
+    for sym,entry in data.items():
+        if isinstance(entry,dict):
+            profile=dict(entry.get('profile') or {})
+            profile['name']=profile.get('name') or entry.get('name','')
+            entry['news']=[n for n in entry.get('news',[])
+                           if headline_relevant(n.get('headline',''),sym,profile)]
     # Profile data isn't required for rankings. News is treated as secondary until
     # a verified issuer host is recorded; do not guess primary-source provenance.
     quote_map={x.get('symbol'):x for x in quotes}
@@ -318,21 +352,60 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     ranked=sorted([c for c in candidates if c.get('score') is not None],
                   key=lambda c:c.get('ranking_score') if c.get('ranking_score') is not None else c['score'],reverse=True)
     serious=[c for c in ranked if c['status']=='INVESTIGATE']
-    shortlist=(serious + [c for c in ranked if c['status']=='WATCH'])[:5]
+    # Avoid a shortlist dominated by several closely related businesses.
+    # Sector classifications are broad and incomplete; never claim diversification.
+    shortlist=[]
+    sectors={}
+    for c in serious + [c for c in ranked if c['status']=='WATCH']:
+        group=c.get('industry') or 'Unclassified'
+        if group!='Unclassified' and sectors.get(group,0)>=2:
+            continue
+        shortlist.append(c)
+        sectors[group]=sectors.get(group,0)+1
+        if len(shortlist)>=5:break
     # A shortlist is still useful when no company qualifies for consideration.
     week_monday=(now.astimezone(ZoneInfo('Pacific/Auckland')).date()-timedelta(days=now.astimezone(ZoneInfo('Pacific/Auckland')).weekday())).isoformat()
     prev=prev_summary if isinstance(prev_summary,dict) else {}
-    if prev.get('week_start')==week_monday and prev.get('shortlist'):
+    if prev.get('week_start')==week_monday and prev.get('shortlist') and prev.get('method_version')==4:
         weekly=prev
     else:
-        weekly={'week_start':week_monday,'generated_at':iso(now),'shortlist':shortlist,
+        weekly={'week_start':week_monday,'generated_at':iso(now),'method_version':4,'shortlist':shortlist,
                 'verdict':'Candidates for independent investigation, NOT buy instructions' if serious else 'No sufficiently strong purchase case; watchlist only',
-                'method':'Rules-based financial screening of the configured US universe; not AI-generated financial advice.',
+                'method':'Rules-based financial screening of the configured US universe, with approximate industry concentration limit; not AI-generated financial advice.',
                 'basis':'Finnhub quote and last reported company metrics; excludes fees, FX and NZ tax. Verify before trading.',
                 'core_etfs':[s for s in symbols if s in ('VT','VTI','VOO','SPY','QQQ')],
                 'note':'Broad diversified funds may suit long-term investing; a high score does not prove an undervalued company.'}
     alerts=urgent_alerts(candidates,quotes,now,[])
     history=update_history(prev_history,candidates,quotes,now,data)
+    # Live ML progress must reflect freshly frozen observations, not the stale
+    # Monday-only training report.
+    learning=dict(ml_report or {})
+    learning['recorded_signals']=len(history.get('episodes',[]))
+    learning['observed_weeks']=len({r.get('week') for r in history.get('episodes',[])})
+    # Read-only observed outcomes: training is still strictly weekly.
+    from ml_engine import outcomes
+    completed=outcomes(history,now)
+    learning['matured_outcomes']=len(completed)
+    learning['matured_weeks']=len({r['week'] for r in completed})
+    paper={'matured_outcomes':len(completed),'matured_weeks':learning['matured_weeks'],
+           'benchmark':'SPY','measurement':'Top 20% highest rules scores of each matured week, measured against SPY over ~30 days; USD price changes only',
+           'estimate_round_trip_friction_pct':1.0,'sufficient_for_comparison':False}
+    weekly_returns={}
+    for item in completed:
+        weekly_returns.setdefault(item['week'],[]).append(item)
+    top_cohort_excess=[]
+    for wk,items in weekly_returns.items():
+        if len(items)<20:continue
+        top=sorted(items,key=lambda z:z['score'],reverse=True)[:max(1,round(len(items)*.2))]
+        top_cohort_excess.append(sum(z['excess_pct'] for z in top)/len(top))
+    paper['usable_rule_weeks']=len(top_cohort_excess)
+    if top_cohort_excess:
+        top_cohort_excess.sort()
+        paper['mean_excess_pct']=round(sum(top_cohort_excess)/len(top_cohort_excess),3)
+        paper['median_excess_pct']=round(top_cohort_excess[len(top_cohort_excess)//2],3)
+        paper['positive_excess_fraction']=round(sum(x>0 for x in top_cohort_excess)/len(top_cohort_excess),3)
+    if len(top_cohort_excess)>=12 and len(completed)>=240:
+        paper['sufficient_for_comparison']=True
     cache={'companies':data,'cursor':idx,'updated_at':iso(now)}
     mov=[{'symbol':q['symbol'],'change_pct':q.get('change_pct'),'price':q.get('price'),'price_at':q.get('price_at')}
          for q in quotes if isinstance(q.get('change_pct'),(int,float)) and abs(q['change_pct'])>=4 and not q.get('stale') and hours_old(q.get('price_at'),now)<=75]
@@ -340,10 +413,11 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     public={'generated_at':iso(now),'universe_size':len(symbols),'screened_with_financials':sum(c.get('score') is not None for c in candidates),
             'updated_company_metrics_this_scan':processed,'candidates':ranked[:20],
              'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
-            'learning':ml_report or {'status':'COLLECTING','reason':'Waiting for initial learning report','model_active':False},
+            'learning':learning or {'status':'COLLECTING','reason':'Waiting for initial learning report','model_active':False},
+            'paper_diagnostics':paper,
             'research_log':history['calls'][-50:],
             'limitations':['No guaranteed real-time prices or complete market coverage.',
-                           'Machine learning can influence up to 20% of ranking only after positive chronological validation; these are NOT predictions of gains.',
+                           'Machine learning can influence at most 10% of rankings only after six purged, separated forward tests; no probabilities of gains.',
                            'Latest available financial data may be delayed or incomplete; timestamps and quality gates apply.',
                            'Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends.']}
     return public,cache,history,weekly,problems

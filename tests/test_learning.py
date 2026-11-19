@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime,timedelta,timezone
 from ml_engine import (features,add_weekly_observations,outcomes,evaluate_training,
-                       rank_with_model,train_logistic,predict,FEATURES)
+                       rank_with_model,train_logistic,predict,FEATURES,SCHEMA)
 
 UTC=timezone.utc
 class LearningTests(unittest.TestCase):
@@ -73,7 +73,7 @@ class WalkForwardTests(unittest.TestCase):
         from ml_engine import evaluate_training
         start=datetime(2025,1,6,19,0,tzinfo=UTC)
         episodes=[]; daily=[]
-        for w in range(11):
+        for w in range(56):
             entry=start+timedelta(days=w*7)
             end=entry+timedelta(days=31)
             daily.append({'symbol':'SPY','price':101,'price_at':end.isoformat()})
@@ -85,9 +85,10 @@ class WalkForwardTests(unittest.TestCase):
                 episodes.append({'week':entry.date().isoformat(),'symbol':symbol,'observed_at':entry.isoformat(),
                                  'quote_at':entry.isoformat(),'reference_price':100,'benchmark_symbol':'SPY',
                                  'benchmark_price':100,'benchmark_quote_at':entry.isoformat(),
-                                 'score_at_signal':score,'feature_schema':1,'features':x})
+                                 'score_at_signal':score,'feature_schema':SCHEMA,'features':x})
                 daily.append({'symbol':symbol,'price':112 if wins else 95,'price_at':end.isoformat()})
-        model,report=evaluate_training({'episodes':episodes,'daily':daily},start+timedelta(days=115))
+        model,report=evaluate_training({'episodes':episodes,'daily':daily},start+timedelta(days=56*7+40))
         self.assertTrue(model['active'],report)
         self.assertGreater(report['validation']['lift_percentage_points'],.5)
-        self.assertEqual(report['validation']['holdout_samples'],60)
+        self.assertEqual(report['validation']['holdout_samples'],180)
+        self.assertEqual(report['validation']['independent_test_weeks'],6)

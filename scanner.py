@@ -190,7 +190,10 @@ def prices(symbols: list[str], api_key: str, previous_quotes: list[dict]) -> tup
                 raise ValueError('No valid current price returned')
             # Finnhub t is the quote provider timestamp; never replace it with the scan time.
             epoch = obj.get('t')
-            asof = stamp(datetime.fromtimestamp(epoch, UTC)) if isinstance(epoch, (int, float)) and epoch > 0 else None
+            asof_dt = datetime.fromtimestamp(epoch, UTC) if isinstance(epoch, (int, float)) and epoch > 0 else None
+            if not asof_dt or asof_dt>NOW+timedelta(minutes=10):
+                raise ValueError('Missing or future-dated quote timestamp')
+            asof=stamp(asof_dt)
             quotes.append({'symbol': sym, 'price': val, 'previous_close': pc if isinstance(pc, (int, float)) and pc > 0 else None,
                            'change_pct': round((val/pc - 1)*100, 3) if isinstance(pc, (int, float)) and pc > 0 else None,
                            'price_at': asof, 'source': 'Finnhub', 'currency': 'USD'})
@@ -245,16 +248,21 @@ def main() -> None:
             source(name, False, 0, f'{type(e).__name__}: {str(e)[:110]}')
 
     sec_successes, sec_errors = 0, []
-    for symbol, cik in config.get('sec_ciks', {}).items():
-        try:
-            results = sec_submissions(symbol, cik)
-            events.extend(results)
-            sec_successes += 1
-        except Exception as e:
-            sec_errors.append(f'{symbol}: {type(e).__name__}')
-        time.sleep(.28)
-    source('SEC EDGAR company submissions', sec_successes > 0, sec_successes,
-           f'{len(sec_errors)} unavailable: '+', '.join(sec_errors[:5]) if sec_errors else '')
+    agent=os.environ.get('SEC_USER_AGENT','').strip()
+    if not agent or '@' not in agent:
+        source('SEC EDGAR company submissions',False,0,
+               'Not configured: SEC requires a descriptive application + contact email in the private SEC_USER_AGENT GitHub secret')
+    else:
+        for symbol, cik in config.get('sec_ciks', {}).items():
+            try:
+                results = sec_submissions(symbol, cik)
+                events.extend(results)
+                sec_successes += 1
+            except Exception as e:
+                sec_errors.append(f'{symbol}: {type(e).__name__}')
+            time.sleep(.28)
+        source('SEC EDGAR company submissions', sec_successes > 0, sec_successes,
+               f'{len(sec_errors)} unavailable: '+', '.join(sec_errors[:5]) if sec_errors else '')
 
     key = os.environ.get('FINNHUB_API_KEY', '').strip()
     quote_results, good_quotes, price_errors = prices(symbols, key, previous.get('quotes', []))
