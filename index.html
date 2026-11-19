@@ -33,10 +33,22 @@
         <div id="latest-events" class="stack"></div>
       </section>
       <section class="tab-panel" id="tab-research" aria-labelledby="nav-research">
-        <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunities</h1><p>Weekly shortlisted companies, ranked by transparent financial rules and verified quote timestamps. Not AI predictions or buying instructions.</p></div>
+        <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunities</h1><p>Weekly investment research with a conservative, out-of-sample-tested learning loop. Never a guarantee or a buy instruction.</p></div>
         <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">Universe is restricted to selected liquid US shares and ETFs. NZX company announcements are monitored, but NZX prices and fundamentals are not yet screened.</div></div>
         <div class="section-title"><h2>High-priority catalysts</h2><span>Strict evidence threshold</span></div>
         <div id="urgent-list" class="stack"></div>
+        <div class="section-title"><h2>Learning engine</h2><span>Weekly checks</span></div>
+        <div class="card learning-card">
+          <div class="flex-between"><strong>Model status</strong><span class="learning-status" id="learning-status">Loading</span></div>
+          <div class="learning-metrics">
+            <div><span>Weekly observations</span><strong id="learning-recorded">—</strong></div>
+            <div><span>30-day outcomes</span><strong id="learning-outcomes">—</strong></div>
+            <div><span>Weeks evaluated</span><strong id="learning-weeks">—</strong></div>
+          </div>
+          <p id="learning-reason" class="muted">Scout is collecting outcomes before it can train and validate a model.</p>
+          <div id="learning-validation" class="learning-validation"></div>
+          <p class="muted">Learns from recorded 30-day USD price changes against SPY. Later weeks are held out for testing. ML influences rankings only after exceeding the original rules on unseen observations. Results exclude fees, tax, FX and dividends.</p>
+        </div>
         <div class="section-title"><h2>Weekly shortlist</h2><span id="weekly-status">Not generated</span></div>
         <div class="notice" id="weekly-verdict">Waiting for research</div>
         <div id="weekly-list" class="stack"></div>
@@ -63,7 +75,7 @@
         <div class="page-heading"><div class="eyebrow">YOUR SYSTEM</div><h1>Setup & integrity</h1><p>Transparent about what has — and hasn't — been checked.</p></div>
         <div class="card settings-card"><div class="setting-title">Scanner status</div><div id="sources-list" class="source-list"></div></div>
         <div class="card settings-card"><div class="setting-title">Your research budget</div><div class="budget-row"><label for="initial-budget">Initial NZD</label><input id="initial-budget" type="number" min="0" step="50" value="750" inputmode="decimal"></div><div class="budget-row"><label for="monthly-budget">Monthly NZD</label><input id="monthly-budget" type="number" min="0" step="10" value="50" inputmode="decimal"></div><div class="allocation" id="allocation"></div><div class="hint">Saved only in this browser, never sent to an account. This is a sample allocation, not a recommendation.</div></div>
-        <div class="card settings-card"><div class="setting-title">How this works</div><p>GitHub Actions checks publicly accessible sources on a schedule and writes a JSON snapshot. This site reads only that snapshot. Optional API keys stay in GitHub Secrets, never in the website.</p><p>Scout uses a transparent rules-based financial screen, not a paid AI API. Your separately scheduled ChatGPT research provides the AI review and notification layer; its messages are not embedded here. For urgent issuer-sourced catalysts the workflow can open an issue in this public GitHub repository. For quieter GitHub alerts, choose Watch → Custom → Issues in your repository and enable GitHub mobile/email notifications.</p><p class="muted">This free system is a research tool — not a trading platform, investment adviser or reliable real-time price-alert service.</p></div>
+        <div class="card settings-card"><div class="setting-title">How this works</div><p>GitHub Actions checks publicly accessible sources on a schedule and writes a JSON snapshot. This site reads only that snapshot. Optional API keys stay in GitHub Secrets, never in the website.</p><p>Scout uses a transparent rules-based screen plus an optional weekly, out-of-sample-tested machine-learning ranking. The model starts DISABLED and may remain disabled if it fails validation. Your separately scheduled ChatGPT research provides the AI review and notification layer; its messages are not embedded here. For urgent issuer-sourced catalysts the workflow can open an issue in this public GitHub repository. To receive GitHub notifications, watch the repository with All Activity.</p><p class="muted">This free system is a research tool — not a trading platform, investment adviser or reliable real-time price-alert service.</p></div>
         <div class="source-footer"><span>Scout · free starter build</span><span id="data-age">Waiting for data</span></div>
       </section>
     </main>

@@ -17,12 +17,22 @@ function candidateHtml(c,compact=false){
   const price=typeof c.price==='number'?`USD ${fmt(c.price)}`:'No fresh quote';
   const risks=(c.risks||[]).slice(0,compact?1:3).map(r=>`<li>${escapeHtml(r)}</li>`).join('');
   const evidence=(c.evidence||[]).filter(e=>safeLink(e.url)).slice(0,compact?1:3).map(e=>`<a href="${escapeHtml(safeLink(e.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.label)} ↗</a>`).join(' · ');
-  return `<article class="card candidate ${badgeStatus(c.status)}"><div class="flex-between"><div class="candidate-brand"><strong>${escapeHtml(c.symbol)}</strong><span>${escapeHtml(c.name||'')}</span></div><span class="grade">${score}</span></div><div class="flex-between candidate-sub"><span class="status ${badgeStatus(c.status)}">${escapeHtml(c.status||'WATCH')}</span><span>${price}</span></div><p class="candidate-thesis">${escapeHtml(c.why||'Review underlying company financials before drawing conclusions.')}</p>${!compact?`<div class="risk-label">MAIN RISKS</div><ul class="risk-list">${risks}</ul><div class="evidence">${evidence||'No verified evidence links yet'}</div><div class="asof">Quote: ${escapeHtml(nzTime(c.as_of))} · Metrics: ${escapeHtml(nzTime(c.fundamentals_at))}</div>`:''}<div class="candidate-disclaimer">${compact?'Research ranking, not a buy signal':'No projected returns. Independently verify financial results, FX, tax and trading costs.'}</div></article>`;
+  return `<article class="card candidate ${badgeStatus(c.status)}"><div class="flex-between"><div class="candidate-brand"><strong>${escapeHtml(c.symbol)}</strong><span>${escapeHtml(c.name||'')}</span></div><span class="grade">${score}</span></div><div class="flex-between candidate-sub"><span class="status ${badgeStatus(c.status)}">${escapeHtml(c.status||'WATCH')}</span><span>${price}</span></div><p class="candidate-thesis">${escapeHtml(c.why||'Review underlying company financials before drawing conclusions.')}</p>${!compact?`<div class="risk-label">MAIN RISKS</div><ul class="risk-list">${risks}</ul><div class="evidence">${evidence||'No verified evidence links yet'}</div><div class="asof">Quote: ${escapeHtml(nzTime(c.as_of))} · Metrics: ${escapeHtml(nzTime(c.fundamentals_at))}</div>`:''}<div class="candidate-disclaimer">${compact?'Research ranking, not a buy signal':'Research score is not a profit probability. Independently verify valuation, FX, tax and trading costs.'}</div></article>`;
 }
 function alertHtml(a){return `<div class="card urgent-card"><div class="flex-between"><span class="tag negative">URGENT RESEARCH · NOT A BUY SIGNAL</span><time>${escapeHtml(nzTime(a.published_at))}</time></div><h3>${escapeHtml(a.symbol)}: ${escapeHtml(a.headline)}</h3><p>${escapeHtml(a.why)}</p><p class="muted">${escapeHtml(a.risk)}</p>${safeLink(a.source_url)?`<a href="${escapeHtml(safeLink(a.source_url))}" target="_blank" rel="noopener noreferrer">Verify source ↗</a>`:''}</div>`}
 function renderResearch(data){
   const r=data.research||{};
   const w=r.weekly||{};
+  const ml=r.learning||{};
+  $('learning-status').textContent=ml.model_active?'VALIDATED · LIMITED':(ml.status||'COLLECTING');
+  $('learning-recorded').textContent=String(ml.recorded_signals??0);
+  $('learning-outcomes').textContent=String(ml.matured_outcomes??0);
+  $('learning-weeks').textContent=String(ml.matured_weeks??0);
+  $('learning-reason').textContent=ml.reason||'No historical outcomes have matured yet.';
+  const v=ml.validation;
+  $('learning-validation').textContent=v?
+    `Unseen-weeks comparison: ML top-20% gross excess ${v.model_top20_excess_pct}% vs original rules ${v.rules_top20_excess_pct}%; improvement ${v.lift_percentage_points} percentage points (${v.holdout_samples} observations).`:
+    'Model remains off until enough genuine 30-day outcomes have been collected and later weeks validate an improvement.';
   const shortlist=w.shortlist||[];
   $('research-count').textContent=`${r.screened_with_financials||0} of ${r.universe_size||0} symbols screened with company financials`;
   $('research-checked').textContent=r.generated_at?'Screened '+nzTime(r.generated_at):'Awaiting the first research scan';

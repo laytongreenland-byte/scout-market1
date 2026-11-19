@@ -14,6 +14,7 @@ import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
+from ml_engine import add_weekly_observations, rank_with_model
 
 UTC = timezone.utc
 MARKET_URL = 'https://finnhub.io/docs/api/stock-metrics'
@@ -219,47 +220,61 @@ def urgent_alerts(candidates, quotes, now, previous_ids):
     return result[:5]
 
 
-def update_history(history, candidates, quotes, now):
-    """Record hypothetical reference prices and eventual changes, not investment P&L."""
+def update_history(history, candidates, quotes, now, companies=None):
+    """Archive verified NY session quotes and freeze full-universe weekly features.
+
+    Saved observations support later forward evaluation; they cannot be backfilled
+    with today's fundamental information.
+    """
     hist = dict(history) if isinstance(history,dict) else {}
     days=list(hist.get('daily',[]))
     calls=list(hist.get('calls',[]))
-    today=now.astimezone(ZoneInfo('Pacific/Auckland')).date().isoformat()
-    qmap={q.get('symbol'):q for q in quotes}
-    seen={(d.get('date'),d.get('symbol')) for d in days}
-    for sym,q in qmap.items():
+    qm={q.get('symbol'):q for q in quotes}
+    for sym,q in qm.items():
         p=numeric(q.get('price'))
-        if p and not q.get('stale') and hours_old(q.get('price_at'),now)<75 and (today,sym) not in seen:
-            days.append({'date':today,'symbol':sym,'price':p,'price_at':q.get('price_at')})
-    days=[d for d in days if (datetime.fromisoformat(today).date()-datetime.fromisoformat(d['date']).date()).days<=90]
-    monday=(now.astimezone(ZoneInfo('Pacific/Auckland')).date()-timedelta(days=now.astimezone(ZoneInfo('Pacific/Auckland')).weekday())).isoformat()
+        at=date_of(q.get('price_at'))
+        if not p or p<=0 or not at or q.get('stale') or hours_old(q.get('price_at'),now)>75:
+            continue
+        date=at.astimezone(ZoneInfo('America/New_York')).date().isoformat()
+        # The newest quote for the same source market-session replaces an older
+        # observation, rather than counting repeated hourly scans as new cases.
+        matching=next((i for i,d in enumerate(days) if d.get('symbol')==sym and
+                       (date_of(d.get('price_at')).astimezone(ZoneInfo('America/New_York')).date().isoformat()
+                        if date_of(d.get('price_at')) else d.get('date'))==date),None)
+        row={'date':date,'symbol':sym,'price':p,'price_at':iso(at),'currency':'USD'}
+        if matching is None:days.append(row)
+        elif not date_of(days[matching].get('price_at')) or at>=date_of(days[matching].get('price_at')):
+            days[matching]=row
+    days=[d for d in days if (now.date()-date_of(d.get('price_at')).date()).days<=440
+          if date_of(d.get('price_at'))]
+    week=(now.astimezone(ZoneInfo('Pacific/Auckland')).date()-timedelta(days=now.astimezone(ZoneInfo('Pacific/Auckland')).weekday())).isoformat()
     current={(r.get('week'),r.get('symbol')) for r in calls}
     for c in candidates:
-        if c.get('status')!='INVESTIGATE' or (monday,c['symbol']) in current:
-            continue
-        q=qmap.get(c['symbol'],{})
-        if q.get('stale') or hours_old(q.get('price_at'),now)>75:
-            continue
-        calls.append({'week':monday,'symbol':c['symbol'],'flagged_at':iso(now),
-                      'reference_price':c['price'],'score':c['score'], 'price_at':q.get('price_at')})
+        if c.get('status')!='INVESTIGATE' or (week,c['symbol']) in current:continue
+        q=qm.get(c['symbol'],{})
+        if q.get('stale') or hours_old(q.get('price_at'),now)>75:continue
+        calls.append({'week':week,'symbol':c['symbol'],'flagged_at':iso(now),
+                      'reference_price':c['price'],'score':c['score'],'price_at':q.get('price_at')})
     for c in calls:
         ref=numeric(c.get('reference_price'))
         flagged=date_of(c.get('flagged_at'))
-        if not ref or not flagged:
-            continue
+        if not ref or not flagged:continue
         for horizon in (7,30):
             k=f'return_{horizon}d_pct'
             if k in c:continue
-            target=flagged.date()+timedelta(days=horizon)
-            candidates_d=[d for d in days if d.get('symbol')==c['symbol'] and d['date']>=target.isoformat()]
-            if candidates_d:
-                d=min(candidates_d,key=lambda v:v['date'])
+            target=flagged+timedelta(days=horizon)
+            found=[d for d in days if d.get('symbol')==c['symbol'] and date_of(d.get('price_at'))
+                   and target<=date_of(d.get('price_at'))<=target+timedelta(days=10)]
+            if found:
+                d=min(found,key=lambda v:v['price_at'])
                 c[k]=round((d['price']/ref-1)*100,2)
                 c[k+'_observed_on']=d['date']
-    return {'daily':days[-6500:],'calls':calls[-250:]}
+    hist['daily']=days[-25000:]
+    hist['calls']=calls[-1000:]
+    return add_weekly_observations(hist,candidates,quotes,companies or {},now)
 
 
-def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_summary, token, fetch, verified_url, now):
+def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_summary, token, fetch, verified_url, now, ml_model=None, ml_report=None):
     cache=dict(prev_cache) if isinstance(prev_cache,dict) else {}
     data=dict(cache.get('companies',{}))
     equities=[x for x in symbols if x not in ('VOO','VTI','VT','QQQ','SPY','SCHD','IVV','VEA','VWO')]
@@ -299,7 +314,9 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     # a verified issuer host is recorded; do not guess primary-source provenance.
     quote_map={x.get('symbol'):x for x in quotes}
     candidates=[evaluate(s,quote_map.get(s),data.get(s),now) for s in equities]
-    ranked=sorted([c for c in candidates if c.get('score') is not None],key=lambda c:c['score'],reverse=True)
+    candidates=rank_with_model(candidates,data,quotes,ml_model or {},now)
+    ranked=sorted([c for c in candidates if c.get('score') is not None],
+                  key=lambda c:c.get('ranking_score') if c.get('ranking_score') is not None else c['score'],reverse=True)
     serious=[c for c in ranked if c['status']=='INVESTIGATE']
     shortlist=(serious + [c for c in ranked if c['status']=='WATCH'])[:5]
     # A shortlist is still useful when no company qualifies for consideration.
@@ -315,17 +332,18 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
                 'core_etfs':[s for s in symbols if s in ('VT','VTI','VOO','SPY','QQQ')],
                 'note':'Broad diversified funds may suit long-term investing; a high score does not prove an undervalued company.'}
     alerts=urgent_alerts(candidates,quotes,now,[])
-    history=update_history(prev_history,candidates,quotes,now)
+    history=update_history(prev_history,candidates,quotes,now,data)
     cache={'companies':data,'cursor':idx,'updated_at':iso(now)}
     mov=[{'symbol':q['symbol'],'change_pct':q.get('change_pct'),'price':q.get('price'),'price_at':q.get('price_at')}
          for q in quotes if isinstance(q.get('change_pct'),(int,float)) and abs(q['change_pct'])>=4 and not q.get('stale') and hours_old(q.get('price_at'),now)<=75]
     mov.sort(key=lambda q:abs(q['change_pct']),reverse=True)
     public={'generated_at':iso(now),'universe_size':len(symbols),'screened_with_financials':sum(c.get('score') is not None for c in candidates),
             'updated_company_metrics_this_scan':processed,'candidates':ranked[:20],
-            'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
+             'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
+            'learning':ml_report or {'status':'COLLECTING','reason':'Waiting for initial learning report','model_active':False},
             'research_log':history['calls'][-50:],
             'limitations':['No guaranteed real-time prices or complete market coverage.',
-                           'These are rules-based research ranks, NOT predictive AI recommendations or expected returns.',
+                           'Machine learning can influence up to 20% of ranking only after positive chronological validation; these are NOT predictions of gains.',
                            'Latest available financial data may be delayed or incomplete; timestamps and quality gates apply.',
                            'Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends.']}
     return public,cache,history,weekly,problems

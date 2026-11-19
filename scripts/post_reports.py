@@ -77,6 +77,16 @@ def main():
                             f"{c.get('why','')} | Risks: {risks} | Sources: {docs}")
             body=f"@{owner}\n\n## Scout weekly evidence-based research shortlist\n\n"
             body+=f"**Verdict:** {w.get('verdict','No vetted opportunity')}\n\n"
+            learning=research.get('learning') or {}
+            validation=learning.get('validation') or {}
+            body+=(f"**Weekly learning:** {learning.get('status','UNKNOWN')} — "
+                  f"{learning.get('recorded_signals',0)} recorded observations, "
+                  f"{learning.get('matured_outcomes',0)} matured 30-day outcomes.\n")
+            if validation:
+                body+=(f"Chronological held-out comparison: ML lift "
+                      f"{validation.get('lift_percentage_points','?')} percentage points vs rules "
+                      f"on {validation.get('holdout_samples','?')} rows.\n")
+            body+='No verified ML improvement means financial rules remain in control.\n\n'
             body+='\n'.join(rows) if rows else 'No sufficiently documented research candidates.'
             body+=(f"\n\nFull screen: https://{owner}.github.io/{repo.split('/')[1]}/\n\n"
                   'Rule-based ranking only, not personalized financial advice. Price/financial reports can lag; ' 

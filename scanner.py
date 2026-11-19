@@ -24,6 +24,8 @@ CONFIG = ROOT / 'config' / 'watchlist.json'
 CACHE = ROOT / 'data' / 'research_cache.json'
 HISTORY = ROOT / 'data' / 'history.json'
 WEEKLY = ROOT / 'data' / 'weekly.json'
+MODEL = ROOT / 'data' / 'ml_model.json'
+LEARNING = ROOT / 'data' / 'ml_report.json'
 LAST_FINNHUB_CALL = None
 UTC = timezone.utc
 NOW = datetime.now(UTC)
@@ -274,9 +276,13 @@ def main() -> None:
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     history = json.loads(HISTORY.read_text()) if HISTORY.exists() else {}
     prior_weekly = json.loads(WEEKLY.read_text()) if WEEKLY.exists() else {}
+    ml_model = json.loads(MODEL.read_text()) if MODEL.exists() else {}
+    ml_report = json.loads(LEARNING.read_text()) if LEARNING.exists() else {}
     research, new_cache, new_history, new_weekly, problems = generate_research(
         symbols, quote_results, fresh, cache, history, prior_weekly,
-        key, fetch, verified_url, NOW)
+        key, fetch, verified_url, NOW, ml_model, ml_report)
+    research['learning'] = dict(ml_report, recorded_signals=len(new_history.get('episodes', [])),
+                                 observed_weeks=len({v.get('week') for v in new_history.get('episodes', [])}))
     source('Finnhub fundamentals and issuer news',
            research['updated_company_metrics_this_scan'] > 0,
            research['updated_company_metrics_this_scan'],
@@ -294,7 +300,7 @@ def main() -> None:
         'priorities': priority_events(fresh),
         'warnings': [
             'This scanner is best effort and does not monitor every market or source.',
-            'Rules-based research rankings are NOT predictions or investment recommendations.',
+            'Machine learning rankings remain disabled until sufficient real forward validation exists. No profit forecasts or trade recommendations.',
             'Prices are not NZD and may be delayed or unavailable. NZX prices are not currently supplied.',
         ],
     }

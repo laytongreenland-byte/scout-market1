@@ -10,6 +10,8 @@ on:
       - '.github/workflows/scan.yml'
       - 'scanner.py'
       - 'research.py'
+      - 'ml_engine.py'
+      - 'learner.py'
       - 'app.js'
       - 'style.css'
       - 'index.html'
@@ -38,6 +40,8 @@ jobs:
           python-version: '3.12'
       - name: Check research scanner tests
         run: python -m unittest discover -s tests -v
+      - name: Review learning outcomes (weekly, NZ time)
+        run: python learner.py
       - name: Check public sources
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
@@ -51,6 +55,8 @@ jobs:
           cp data/research_cache.json /tmp/scout-cache.json
           cp data/history.json /tmp/scout-history.json
           cp data/weekly.json /tmp/scout-weekly.json
+          cp data/ml_model.json /tmp/scout-model.json
+          cp data/ml_report.json /tmp/scout-ml-report.json
           git config user.name "scout-data-bot"
           git config user.email "scout-data-bot@users.noreply.github.com"
           for attempt in 1 2 3; do
@@ -60,7 +66,9 @@ jobs:
             cp /tmp/scout-cache.json data/research_cache.json
             cp /tmp/scout-history.json data/history.json
             cp /tmp/scout-weekly.json data/weekly.json
-            git add data/latest.json data/research_cache.json data/history.json data/weekly.json
+            cp /tmp/scout-model.json data/ml_model.json
+            cp /tmp/scout-ml-report.json data/ml_report.json
+            git add data/latest.json data/research_cache.json data/history.json data/weekly.json data/ml_model.json data/ml_report.json
             if git diff --cached --quiet; then
               echo "Research snapshot already saved"
               break

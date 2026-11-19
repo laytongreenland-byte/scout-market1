@@ -15,7 +15,7 @@ Scout is now a mobile-first, automated *research screener* — still **not** a s
 
 ## Get notifications on your phone (no subscription)
 
-In your public GitHub repository select **Watch → Custom → Issues**. Enable GitHub mobile push notifications or email notification preferences on your device. GitHub does not guarantee instant notification delivery; the scanner runs at most hourly and GitHub scheduled jobs can be delayed or skipped. Urgent alerts only appear when the strict evidence conditions are met, and many weeks can legitimately have none.
+In your public GitHub repository select **Watch → All Activity**. Enable GitHub mobile push notifications or email notification preferences on your device. GitHub does not guarantee instant notification delivery; the scanner runs at most hourly and GitHub scheduled jobs can be delayed or skipped. Urgent alerts only appear when the strict evidence conditions are met, and many weeks can legitimately have none.
 
 GitHub Issues: https://github.com/laytongreenland-byte/scout-market1/issues
 
@@ -44,3 +44,13 @@ The price feed and free API access have provider limits, latency and usage right
 - `tests/`: stdlib offline tests (`python -m unittest discover -s tests -v`)
 
 Change tracked symbols only via `config/watchlist.json`. For an independent offline sanity check, run `SCOUT_OFFLINE=1 python scanner.py`; the application will mark unavailable sources rather than fabricating prices or recommendations.
+
+## Weekly evidence-based machine learning (v3)
+
+- `learner.py` checks for a new research week after **Monday 19:00 NZ time**, using the existing hourly GitHub Actions job (best effort, not guaranteed to run on time). All code and training run with the Python standard library, so there are no added hosting, paid API, or model fees.
+- The hourly scanner archives one actual provider-reported USD quote per NY trading session and **freezes** up to one financial feature snapshot per stock each NZ week, including the matching SPY benchmark quote. It never uses current company fundamentals to invent past predictions.
+- After **30 calendar days**, Scout looks for a dated, same-session stock and SPY quote within the next 10 days. If either is missing, it marks the outcome pending rather than guessing. Label: did the stock outperform SPY by more than one percentage point, gross, over the measured period? **No single-week result is a training set.**
+- The model is a small, deterministic, L2-regularised **logistic regression** trained on those frozen observations; no paid AI service, GPU or API token is required. Before enabling it, Scout requires at least **six matured training weeks, two later held-out weeks, 120 training observations, 40 holdout observations and 20 unique stocks**. It must improve the top 20% average excess return versus the original rules by at least **0.5 percentage points** and outperform SPY during the chronological holdout.
+- If evidence is weak or deteriorates, it falls back to the transparent original financial rules. A model that does pass can only supply **20% of a research ranking**, never change company risk gates, create buy signals, or trigger trades.
+- The Research screen shows how many signals and matured observations exist, whether the model is validated, and the *actual held-out results*. This is hypothesis testing with a very small, correlated sample, **not proof of outperformance**; fees, FX, spreads, taxes, dividends and data gaps are not included. Expect learning to remain disabled for several months while the dataset builds.
+- Training output (`data/ml_report.json`, `data/ml_model.json`) and frozen research observations (`data/history.json`) are public because the repository is public. They do not contain portfolio holdings, bank details or account credentials. API keys remain GitHub Secrets.
