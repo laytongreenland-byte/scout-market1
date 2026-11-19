@@ -495,8 +495,503 @@
           "symbol": "TSM"
         }
       ]
+    },
+    "AMD": {
+      "metrics": {
+        "52WeekHigh": 658.52,
+        "52WeekLow": 188.22,
+        "peTTM": 112.5771,
+        "psTTM": 18.8776,
+        "netProfitMarginTTM": 16.77,
+        "roeTTM": 11.58,
+        "revenueGrowthTTMYoy": 41.87,
+        "epsGrowthTTMYoy": 127.4,
+        "currentRatioQuarterly": 2.7248,
+        "totalDebt/totalEquityQuarterly": 0.1035,
+        "marketCapitalization": 857724.6
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "Advanced Micro Devices, Inc.",
+      "profile": {
+        "weburl": "https://www.amd.com/"
+      },
+      "news": [
+        {
+          "headline": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
+          "url": "https://finnhub.io/api/news?id=204e1b3db81f63571ad455ae5e081f481f4568e77a71d7b09278754a3a87db7e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:54:25Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "Billionaire Stanley Druckenmiller Cut TSMC 94% in One Quarter, Leaving Just $14.9 Million",
+          "url": "https://finnhub.io/api/news?id=eb77753cac79e94cc854f23a10a3f565a7b6761a2b976b593310ccc7a3a3804a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:46:51Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "What's Happening To Intel's Factory Cash?",
+          "url": "https://finnhub.io/api/news?id=1d0969fd34281717551314f11af5ca47e1102b0e1a51846e9761ea048f28b878",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:14:07Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "AMD Is Still Up 125% This Year. Did Today Just Mark the Top for AMD Stock?",
+          "url": "https://finnhub.io/api/news?id=19d40f50a071ec70863e91c0b8c1ae3cd02975d8418c321f956112a3da551f1b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:02:28Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "Why AI competition from China won't be a risk US tech companies",
+          "url": "https://finnhub.io/api/news?id=c093bf51c3078840c42b0542340d6e44f85e282f744d91993e190e2e88069681",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:48:51Z",
+          "primary": false,
+          "symbol": "AMD"
+        }
+      ]
+    },
+    "ORCL": {
+      "metrics": {
+        "52WeekHigh": 250.25,
+        "52WeekLow": 109.21,
+        "peTTM": 18.2015,
+        "psTTM": 4.7978,
+        "netProfitMarginTTM": 26.36,
+        "roeTTM": 42.58,
+        "revenueGrowthTTMYoy": 21.62,
+        "epsGrowthTTMYoy": 49.08,
+        "currentRatioQuarterly": 1.1708,
+        "totalDebt/totalEquityQuarterly": 2.0146,
+        "marketCapitalization": 344373.3
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "Oracle Corporation",
+      "profile": {
+        "weburl": "https://www.oracle.com/"
+      },
+      "news": [
+        {
+          "headline": "Why CoreWeave Can't Pay Down Debt From Its Cash",
+          "url": "https://finnhub.io/api/news?id=c90837d0a7c335ee315b795e767efcab021c11a7356d328e3ff626ca74592f0d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:21Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "Can Google Borrow Another $100 Billion?",
+          "url": "https://finnhub.io/api/news?id=937d168c02925d59addc81789627acfe9fbab995dd90b7f4f4a80a48c20d7c96",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:21Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "What Does A Fed Hike Mean For AI Stocks?",
+          "url": "https://finnhub.io/api/news?id=af484df95e7eb86be66e775760409a881d22c7e25e7a8f2c02404afec7b70b9f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:20Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "Nvidia Holders' Real Risk Sits With Its Neocloud Buyers",
+          "url": "https://finnhub.io/api/news?id=bf3d1d22ca83f9cec978aeb7ea5917d7838c9759357756961ba393eb73ac8352",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:00:19Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "Why Is Oracle Spending $1.61 For Every Cash Dollar?",
+          "url": "https://finnhub.io/api/news?id=450e86ed20915c3b3e988afadda85d138826734281261b977518171f3836d037",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:01:58Z",
+          "primary": false,
+          "symbol": "ORCL"
+        }
+      ]
+    },
+    "CRM": {
+      "metrics": {
+        "52WeekHigh": 269.11,
+        "52WeekLow": 146.32,
+        "peTTM": 16.2181,
+        "psTTM": 3.5664,
+        "netProfitMarginTTM": 21.99,
+        "roeTTM": 20.150000000000002,
+        "revenueGrowthTTMYoy": 11.23,
+        "epsGrowthTTMYoy": 59.27,
+        "currentRatioQuarterly": 0.8385,
+        "totalDebt/totalEquityQuarterly": 1.0237,
+        "marketCapitalization": 156699.19
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "Salesforce, Inc.",
+      "profile": {
+        "weburl": "https://www.salesforce.com/"
+      },
+      "news": [
+        {
+          "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
+          "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:10:04Z",
+          "primary": false,
+          "symbol": "CRM"
+        },
+        {
+          "headline": "Here’s Why You Should Add Salesforce (CRM) To Your Portfolio",
+          "url": "https://finnhub.io/api/news?id=dd63e1baa444943bc26f568ded8d45d252e4af13fe6118b669ad08d42d4d596e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:56:08Z",
+          "primary": false,
+          "symbol": "CRM"
+        },
+        {
+          "headline": "Software Stocks Are Throwing a Party. Salesforce Didn’t Get the Invite—Yet.",
+          "url": "https://finnhub.io/api/news?id=bc731f5ed9706bf54e0257d5c2bfed582790ad10b085b752625aad1e62fe97cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:01:00Z",
+          "primary": false,
+          "symbol": "CRM"
+        },
+        {
+          "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
+          "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "CRM"
+        },
+        {
+          "headline": "Salesforce to Lead Consortium Bringing Trusted American SI to Global Markets",
+          "url": "https://finnhub.io/api/news?id=a53938e57d654f15f34194ae566e97c26043801b3b0f48bf60919ce91899b8d6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "CRM"
+        }
+      ]
+    },
+    "ADBE": {
+      "metrics": {
+        "52WeekHigh": 362.71,
+        "52WeekLow": 190.12,
+        "peTTM": 12.0864,
+        "psTTM": 3.39,
+        "netProfitMarginTTM": 28.05,
+        "roeTTM": 62.88,
+        "revenueGrowthTTMYoy": 12.03,
+        "epsGrowthTTMYoy": 11.68,
+        "currentRatioQuarterly": 0.7704,
+        "totalDebt/totalEquityQuarterly": 0.5409,
+        "marketCapitalization": 88037.04
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "Adobe Inc",
+      "profile": {
+        "weburl": "https://www.adobe.com/"
+      },
+      "news": [
+        {
+          "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:17:02Z",
+          "primary": false,
+          "symbol": "ADBE"
+        },
+        {
+          "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
+          "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "ADBE"
+        },
+        {
+          "headline": "CreatorIQ Appoints Ray Ball as Chief People Officer to Support Next Phase of Global Growth",
+          "url": "https://finnhub.io/api/news?id=6fd041e9152631bc3de5bfbe2da80931db83fd570896947d0c9834000eed4f9e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:00:00Z",
+          "primary": false,
+          "symbol": "ADBE"
+        },
+        {
+          "headline": "How Risky Is Adobe Stock After Its Long Slide?",
+          "url": "https://finnhub.io/api/news?id=8c7fe360d61e05499dd6730584a4b0b1ce00c231b5fba6469c83575b65cfbc80",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:54:10Z",
+          "primary": false,
+          "symbol": "ADBE"
+        },
+        {
+          "headline": "Nemetschek: 20% Below Intrinsic Value Despite AI Risks",
+          "url": "https://finnhub.io/api/news?id=da7b51da9728d5e4b9447b66a61162e20abc1d9650d6c462b2d0cfc4e0415f22",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T04:58:04Z",
+          "primary": false,
+          "symbol": "ADBE"
+        }
+      ]
+    },
+    "NOW": {
+      "metrics": {
+        "52WeekHigh": 175.0,
+        "52WeekLow": 81.24,
+        "peTTM": 65.0743,
+        "psTTM": 6.0937,
+        "netProfitMarginTTM": 9.36,
+        "roeTTM": 11.49,
+        "revenueGrowthTTMYoy": 21.82,
+        "epsGrowthTTMYoy": -16.02,
+        "currentRatioQuarterly": 0.7187,
+        "totalDebt/totalEquityQuarterly": 0.5745,
+        "marketCapitalization": 94032.414
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "ServiceNow, Inc.",
+      "profile": {
+        "weburl": "https://www.servicenow.com/"
+      },
+      "news": [
+        {
+          "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:02Z",
+          "primary": false,
+          "symbol": "NOW"
+        },
+        {
+          "headline": "UiPath's ARR Nears $2 Billion: Can It Sustain the Growth Momentum?",
+          "url": "https://finnhub.io/api/news?id=cd9fba52edf63e604b43c4e57d13e4b3d09488679fd67b9b611fa56652503865",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:27:00Z",
+          "primary": false,
+          "symbol": "NOW"
+        },
+        {
+          "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
+          "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "NOW"
+        },
+        {
+          "headline": "IT Asset Management (ITAM) Software - Global Strategic Business Report 2026: Capitalize on the $3.5 Billion Market by 2032 with ServiceNow, IBM, Microsoft, Oracle, and BMC Software",
+          "url": "https://finnhub.io/api/news?id=5b6b2c2649650ea04d246a320bac1afff61304d3ed1fe8c016140ed2fdda79d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:15:00Z",
+          "primary": false,
+          "symbol": "NOW"
+        },
+        {
+          "headline": "Atlassian’s CEO Puts $8 Million Into the Stock While Other Executives Sell. Here’s What That Tells Investors",
+          "url": "https://finnhub.io/api/news?id=8451101e2bf56026ffa074525277ab6ec0b70e332d95a6b68d8b21d2c362354e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:19:39Z",
+          "primary": false,
+          "symbol": "NOW"
+        }
+      ]
+    },
+    "PANW": {
+      "metrics": {
+        "52WeekHigh": 432.325,
+        "52WeekLow": 139.57,
+        "peTTM": 611.6854,
+        "psTTM": 22.353,
+        "netProfitMarginTTM": 3.65,
+        "roeTTM": 1.95,
+        "revenueGrowthTTMYoy": 30.29,
+        "epsGrowthTTMYoy": -60.86,
+        "currentRatioQuarterly": 0.656,
+        "totalDebt/totalEquityQuarterly": 0.0673,
+        "marketCapitalization": 278316.84
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "Palo Alto Networks, Inc.",
+      "profile": {
+        "weburl": "https://www.paloaltonetworks.com/"
+      },
+      "news": [
+        {
+          "headline": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:53:57Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Okta Stocks Jump 8.14% as Cybersecurity Rally Extends Into Second Day",
+          "url": "https://finnhub.io/api/news?id=8fb6a3d8333886743afdf7db1f51fc03ffbb5683287c9bba1dfaf7277a51f4e0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:38:50Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
+          "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:38:46Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Stock Market Today: Major Indexes, AI Players Slide After Anthropic's Debut (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=422c90ba772818c79ba97a5fef6bd8e998e777547d45577c26d0ac7d0f70f663",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:33:53Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Stifel Holds $415 Target on Palo Alto as Peers Go Higher",
+          "url": "https://finnhub.io/api/news?id=04230bc735d78eb4730c4c5b72cefed5e6fb62e7112fd23d9fcfb7e5c5134702",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:08:23Z",
+          "primary": false,
+          "symbol": "PANW"
+        }
+      ]
+    },
+    "CRWD": {
+      "metrics": {
+        "52WeekHigh": 286.9899,
+        "52WeekLow": 85.68,
+        "peTTM": 4169.3028,
+        "psTTM": 45.1688,
+        "netProfitMarginTTM": 1.08,
+        "roeTTM": 1.29,
+        "revenueGrowthTTMYoy": 24.3,
+        "currentRatioQuarterly": 1.5701,
+        "totalDebt/totalEquityQuarterly": 0.1463,
+        "marketCapitalization": 243737.44
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "CrowdStrike Holdings, Inc.",
+      "profile": {
+        "weburl": "https://ir.crowdstrike.com/"
+      },
+      "news": [
+        {
+          "headline": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
+          "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:38:46Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "What Are Okta Investors Betting On?",
+          "url": "https://finnhub.io/api/news?id=c14c568280393edd4b0ef04193d0a03d830195bde68044e3c2ebb8d5a12a57c8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:57:53Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "Cybersecurity Stocks Fly on Palo Alto Earnings. Look Out for Whiplash.",
+          "url": "https://finnhub.io/api/news?id=70c34be36fda0ec3db7cc8a809bddd5044600d5d9c6396782097e3f6c673ef7c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:54:00Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "Anthropic makes its IPO debut on the Nasdaq: Sozzi hot takes and what to watch",
+          "url": "https://finnhub.io/api/news?id=a0b9d2fe24b8e77373c0c398f575145248ae59a48589700509de65ccdef44eee",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:35:38Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "Stock Market Today: Nasdaq Clings To Gain, Dow Struggles; Palo Alto Jumps (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=e6a18ce3adbc9eb5d17592bb255992d72139aeda2b28e8f618f88b022b5d964a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:31:17Z",
+          "primary": false,
+          "symbol": "CRWD"
+        }
+      ]
+    },
+    "SHOP": {
+      "metrics": {
+        "52WeekHigh": 180.88,
+        "52WeekLow": 94.0,
+        "peTTM": 85.3365,
+        "psTTM": 12.8062,
+        "netProfitMarginTTM": 15.01,
+        "roeTTM": 16.54,
+        "revenueGrowthTTMYoy": 32.45,
+        "epsGrowthTTMYoy": 20.77,
+        "currentRatioQuarterly": 4.8602,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 181425.33
+      },
+      "updated_at": "2026-11-19T21:53:49Z",
+      "name": "Shopify Inc.",
+      "profile": {
+        "weburl": "https://www.shopify.com/"
+      },
+      "news": [
+        {
+          "headline": "Shop Pay Inclusion in Meta’s Muse AI Agent Reinforces AI Growth Thesis for Shopify (SHOP)",
+          "url": "https://finnhub.io/api/news?id=f8b1e959fba9f1fd1ffd0975133539bb41b6bbc0db88008f4b621f3e17641026",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:30:40Z",
+          "primary": false,
+          "symbol": "SHOP"
+        },
+        {
+          "headline": "An $18 Billion Hedge Fund Just Bought These 3 Stocks",
+          "url": "https://finnhub.io/api/news?id=35322179be625b519e126f14ce4a9ab04d4c0db919a2e3d47c3d040d751f7cfd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:10:22Z",
+          "primary": false,
+          "symbol": "SHOP"
+        },
+        {
+          "headline": "Black Friday Is Nov. 27. Here's What Shopify Stock Did the Week After in Each of the Last 11 Years.",
+          "url": "https://finnhub.io/api/news?id=2285bee9ee8a0356d116095627f9dd5a41e07948b76639af949d1d6b4e13f831",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T08:57:02Z",
+          "primary": false,
+          "symbol": "SHOP"
+        },
+        {
+          "headline": "Shopify: Unrestrained Growth Opportunity As Agentic Commerce Rises",
+          "url": "https://finnhub.io/api/news?id=26545e7bca37b5d216179d51e9b72aa4234a303611b14f6535f84fc74cb535d8",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T05:31:45Z",
+          "primary": false,
+          "symbol": "SHOP"
+        },
+        {
+          "headline": "Shopify: Please, Focus On The Long Term Here",
+          "url": "https://finnhub.io/api/news?id=941f32b322c5708df84e8689ad0f506daff64cb4a92cc2fa25af4e8580675896",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T03:58:51Z",
+          "primary": false,
+          "symbol": "SHOP"
+        }
+      ]
     }
   },
-  "cursor": 8,
-  "updated_at": "2026-11-19T21:50:38Z"
+  "cursor": 16,
+  "updated_at": "2026-11-19T21:53:49Z"
 }

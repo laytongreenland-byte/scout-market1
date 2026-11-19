@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T21:50:38Z",
+  "generated_at": "2026-11-19T21:53:49Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T21:50:38Z",
+      "checked_at": "2026-11-19T21:53:49Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T21:50:38Z",
+      "checked_at": "2026-11-19T21:53:49Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T21:50:38Z",
+      "checked_at": "2026-11-19T21:53:49Z",
       "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-19T21:50:38Z",
+      "checked_at": "2026-11-19T21:53:49Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-19T21:50:38Z",
+      "checked_at": "2026-11-19T21:53:49Z",
       "error": ""
     }
   ],
@@ -1191,9 +1191,9 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-19T21:50:38Z",
+    "generated_at": "2026-11-19T21:53:49Z",
     "universe_size": 53,
-    "screened_with_financials": 8,
+    "screened_with_financials": 16,
     "updated_company_metrics_this_scan": 8,
     "candidates": [
       {
@@ -1307,6 +1307,61 @@
         "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
       },
       {
+        "symbol": "ADBE",
+        "name": "Adobe Inc",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$221.68",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-19T18:17:02Z",
+            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 221.68,
+        "currency": "USD",
+        "change_pct": -1.998,
+        "news": [
+          {
+            "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:17:02Z",
+            "primary": false,
+            "symbol": "ADBE"
+          },
+          {
+            "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
+            "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:00:00Z",
+            "primary": false,
+            "symbol": "ADBE"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
         "status": "INVESTIGATE",
@@ -1356,6 +1411,61 @@
             "published_at": "2026-11-19T19:25:57Z",
             "primary": false,
             "symbol": "GOOGL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "status": "WATCH",
+        "score": 75,
+        "why": "Net profit margin 22.0% (TTM); Return on equity 20.2% (TTM); Trailing P/E 16.2×; TTM revenue growth 11.2% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$183.31",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
+            "timestamp": "2026-11-19T19:10:04Z",
+            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 183.31,
+        "currency": "USD",
+        "change_pct": -3.724,
+        "news": [
+          {
+            "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
+            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:10:04Z",
+            "primary": false,
+            "symbol": "CRM"
+          },
+          {
+            "headline": "Here’s Why You Should Add Salesforce (CRM) To Your Portfolio",
+            "url": "https://finnhub.io/api/news?id=dd63e1baa444943bc26f568ded8d45d252e4af13fe6118b669ad08d42d4d596e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:56:08Z",
+            "primary": false,
+            "symbol": "CRM"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -1466,6 +1576,62 @@
             "published_at": "2026-11-19T19:42:17Z",
             "primary": false,
             "symbol": "NVDA"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "status": "WATCH",
+        "score": 73,
+        "why": "Net profit margin 26.4% (TTM); Return on equity 42.6% (TTM); Trailing P/E 18.2×; TTM revenue growth 21.6% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$110.57",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Why CoreWeave Can't Pay Down Debt From Its Cash",
+            "timestamp": "2026-11-19T18:23:21Z",
+            "url": "https://finnhub.io/api/news?id=c90837d0a7c335ee315b795e767efcab021c11a7356d328e3ff626ca74592f0d"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 110.57,
+        "currency": "USD",
+        "change_pct": -2.915,
+        "news": [
+          {
+            "headline": "Why CoreWeave Can't Pay Down Debt From Its Cash",
+            "url": "https://finnhub.io/api/news?id=c90837d0a7c335ee315b795e767efcab021c11a7356d328e3ff626ca74592f0d",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:23:21Z",
+            "primary": false,
+            "symbol": "ORCL"
+          },
+          {
+            "headline": "Can Google Borrow Another $100 Billion?",
+            "url": "https://finnhub.io/api/news?id=937d168c02925d59addc81789627acfe9fbab995dd90b7f4f4a80a48c20d7c96",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:23:21Z",
+            "primary": false,
+            "symbol": "ORCL"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -1633,6 +1799,290 @@
             "published_at": "2026-11-19T19:15:55Z",
             "primary": false,
             "symbol": "AAPL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc.",
+        "status": "LOW PRIORITY",
+        "score": 57,
+        "why": "Net profit margin 15.0% (TTM); Return on equity 16.5% (TTM); Trailing P/E 85.3×; TTM revenue growth 32.5% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "High sales multiple"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$131.97",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Shop Pay Inclusion in Meta’s Muse AI Agent Reinforces AI Growth Thesis for Shopify (SHOP)",
+            "timestamp": "2026-11-19T16:30:40Z",
+            "url": "https://finnhub.io/api/news?id=f8b1e959fba9f1fd1ffd0975133539bb41b6bbc0db88008f4b621f3e17641026"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 131.97,
+        "currency": "USD",
+        "change_pct": -5.344,
+        "news": [
+          {
+            "headline": "Shop Pay Inclusion in Meta’s Muse AI Agent Reinforces AI Growth Thesis for Shopify (SHOP)",
+            "url": "https://finnhub.io/api/news?id=f8b1e959fba9f1fd1ffd0975133539bb41b6bbc0db88008f4b621f3e17641026",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:30:40Z",
+            "primary": false,
+            "symbol": "SHOP"
+          },
+          {
+            "headline": "An $18 Billion Hedge Fund Just Bought These 3 Stocks",
+            "url": "https://finnhub.io/api/news?id=35322179be625b519e126f14ce4a9ab04d4c0db919a2e3d47c3d040d751f7cfd",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:10:22Z",
+            "primary": false,
+            "symbol": "SHOP"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "status": "LOW PRIORITY",
+        "score": 53,
+        "why": "Net profit margin 16.8% (TTM); Return on equity 11.6% (TTM); Trailing P/E 112.6×; TTM revenue growth 41.9% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "High sales multiple",
+          "Large one-session price move (-7.7%)"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$489.19",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
+            "timestamp": "2026-11-19T19:54:25Z",
+            "url": "https://finnhub.io/api/news?id=204e1b3db81f63571ad455ae5e081f481f4568e77a71d7b09278754a3a87db7e"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 489.19,
+        "currency": "USD",
+        "change_pct": -7.724,
+        "news": [
+          {
+            "headline": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
+            "url": "https://finnhub.io/api/news?id=204e1b3db81f63571ad455ae5e081f481f4568e77a71d7b09278754a3a87db7e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:54:25Z",
+            "primary": false,
+            "symbol": "AMD"
+          },
+          {
+            "headline": "Billionaire Stanley Druckenmiller Cut TSMC 94% in One Quarter, Leaving Just $14.9 Million",
+            "url": "https://finnhub.io/api/news?id=eb77753cac79e94cc854f23a10a3f565a7b6761a2b976b593310ccc7a3a3804a",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:46:51Z",
+            "primary": false,
+            "symbol": "AMD"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "NOW",
+        "name": "ServiceNow, Inc.",
+        "status": "LOW PRIORITY",
+        "score": 41,
+        "why": "Net profit margin 9.4% (TTM); Return on equity 11.5% (TTM); Trailing P/E 65.1×; TTM revenue growth 21.8% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "Earnings per share declining",
+          "Large drawdown: recovery is not assured"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$88.87",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-19T19:03:02Z",
+            "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 88.87,
+        "currency": "USD",
+        "change_pct": -1.899,
+        "news": [
+          {
+            "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:03:02Z",
+            "primary": false,
+            "symbol": "NOW"
+          },
+          {
+            "headline": "UiPath's ARR Nears $2 Billion: Can It Sustain the Growth Momentum?",
+            "url": "https://finnhub.io/api/news?id=cd9fba52edf63e604b43c4e57d13e4b3d09488679fd67b9b611fa56652503865",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T17:27:00Z",
+            "primary": false,
+            "symbol": "NOW"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "status": "LOW PRIORITY",
+        "score": 39,
+        "why": "Net profit margin 1.1% (TTM); Return on equity 1.3% (TTM); Trailing P/E 4169.3×; TTM revenue growth 24.3% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "High sales multiple"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$243.46",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
+            "timestamp": "2026-11-19T18:38:46Z",
+            "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 243.46,
+        "currency": "USD",
+        "change_pct": 2.713,
+        "news": [
+          {
+            "headline": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
+            "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:38:46Z",
+            "primary": false,
+            "symbol": "CRWD"
+          },
+          {
+            "headline": "What Are Okta Investors Betting On?",
+            "url": "https://finnhub.io/api/news?id=c14c568280393edd4b0ef04193d0a03d830195bde68044e3c2ebb8d5a12a57c8",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:57:53Z",
+            "primary": false,
+            "symbol": "CRWD"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      },
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "status": "LOW PRIORITY",
+        "score": 32,
+        "why": "Net profit margin 3.6% (TTM); Return on equity 1.9% (TTM); Trailing P/E 611.7×; TTM revenue growth 30.3% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "High sales multiple",
+          "Earnings per share declining",
+          "Large one-session price move (+6.4%)"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$361.73",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T21:53:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
+            "timestamp": "2026-11-19T18:53:57Z",
+            "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "price": 361.73,
+        "currency": "USD",
+        "change_pct": 6.416,
+        "news": [
+          {
+            "headline": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
+            "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:53:57Z",
+            "primary": false,
+            "symbol": "PANW"
+          },
+          {
+            "headline": "Okta Stocks Jump 8.14% as Cybersecurity Rally Extends Into Second Day",
+            "url": "https://finnhub.io/api/news?id=8fb6a3d8333886743afdf7db1f51fc03ffbb5683287c9bba1dfaf7277a51f4e0",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:38:50Z",
+            "primary": false,
+            "symbol": "PANW"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -1987,6 +2437,14 @@
         "flagged_at": "2026-11-19T21:50:38Z",
         "reference_price": 596.22,
         "score": 80,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "ADBE",
+        "flagged_at": "2026-11-19T21:53:49Z",
+        "reference_price": 221.68,
+        "score": 79,
         "price_at": "2026-11-19T21:00:00Z"
       }
     ],
