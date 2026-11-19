@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T22:56:56Z",
+  "generated_at": "2026-11-19T23:53:40Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T22:56:56Z",
+      "checked_at": "2026-11-19T23:53:40Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T22:56:56Z",
+      "checked_at": "2026-11-19T23:53:40Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T22:56:56Z",
+      "checked_at": "2026-11-19T23:53:40Z",
       "error": "Not configured: SEC requires a descriptive application + contact email in the private SEC_USER_AGENT GitHub secret"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-19T22:56:56Z",
+      "checked_at": "2026-11-19T23:53:40Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-19T22:56:56Z",
+      "checked_at": "2026-11-19T23:53:40Z",
       "error": ""
     }
   ],
@@ -1191,7 +1191,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-19T22:56:56Z",
+    "generated_at": "2026-11-19T23:53:40Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1259,10 +1259,10 @@
         "name": "Amazon.com Inc",
         "status": "INVESTIGATE",
         "score": 83,
-        "industry": "Unclassified",
+        "industry": "Retail",
         "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 21.5×; TTM revenue growth 15.3% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
@@ -1274,16 +1274,39 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:50:38Z",
+            "timestamp": "2026-11-19T23:53:40Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Blue Owl Taps Wall Street For $513M To Finance Amazon Data Center",
+            "timestamp": "2026-11-19T21:50:19Z",
+            "url": "https://finnhub.io/api/news?id=b40f6a6b11503956ae36b3a5338a2abecc1acddce5f2a417b65f0ad371d68910"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:50:38Z",
+        "fundamentals_at": "2026-11-19T23:53:40Z",
         "price": 257.37,
         "currency": "USD",
         "change_pct": -3.873,
-        "news": [],
+        "news": [
+          {
+            "headline": "Blue Owl Taps Wall Street For $513M To Finance Amazon Data Center",
+            "url": "https://finnhub.io/api/news?id=b40f6a6b11503956ae36b3a5338a2abecc1acddce5f2a417b65f0ad371d68910",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:50:19Z",
+            "primary": false,
+            "symbol": "AMZN"
+          },
+          {
+            "headline": "IBD Stock Of The Day: Amazon Chases Entry As Anthropic IPO Swings AI Sentiment",
+            "url": "https://finnhub.io/api/news?id=b02f8b85f133087631c4472cb83185177df24d105095b05d2a73b8c0dab084e9",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:39:58Z",
+            "primary": false,
+            "symbol": "AMZN"
+          }
+        ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "ranking_score": 83,
@@ -1352,10 +1375,10 @@
         "name": "Meta Platforms, Inc.",
         "status": "INVESTIGATE",
         "score": 80,
-        "industry": "Unclassified",
+        "industry": "Media",
         "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.9×; TTM revenue growth 27.5% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
@@ -1367,35 +1390,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:50:38Z",
+            "timestamp": "2026-11-19T23:53:40Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-            "timestamp": "2026-11-19T18:45:22Z",
-            "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e"
+            "value": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
+            "timestamp": "2026-11-19T20:24:40Z",
+            "url": "https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:50:38Z",
+        "fundamentals_at": "2026-11-19T23:53:40Z",
         "price": 596.22,
         "currency": "USD",
         "change_pct": -3.271,
         "news": [
           {
-            "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-            "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
+            "headline": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
+            "url": "https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:45:22Z",
+            "published_at": "2026-11-19T20:24:40Z",
             "primary": false,
             "symbol": "META"
           },
           {
-            "headline": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
-            "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e",
+            "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
+            "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:42:45Z",
+            "published_at": "2026-11-19T18:45:22Z",
             "primary": false,
             "symbol": "META"
           }
@@ -1758,10 +1781,9 @@
         "name": "Alphabet Inc.",
         "status": "INVESTIGATE",
         "score": 76,
-        "industry": "Unclassified",
+        "industry": "Media",
         "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.7×; TTM revenue growth 22.2% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable",
           "Price near reported 52-week low"
         ],
         "evidence": [
@@ -1774,16 +1796,39 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:50:38Z",
+            "timestamp": "2026-11-19T23:53:40Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+            "timestamp": "2026-11-19T21:47:00Z",
+            "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:50:38Z",
+        "fundamentals_at": "2026-11-19T23:53:40Z",
         "price": 272.66,
         "currency": "USD",
         "change_pct": -3.463,
-        "news": [],
+        "news": [
+          {
+            "headline": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+            "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:47:00Z",
+            "primary": false,
+            "symbol": "GOOGL"
+          },
+          {
+            "headline": "Stanley Druckenmiller dumps entire $120M Alphabet stake to buy gold mining stock",
+            "url": "https://finnhub.io/api/news?id=7054e8472efb3c2ccf21afe1cebad979876786702b5f655bde12534d62fc2bb3",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:03:00Z",
+            "primary": false,
+            "symbol": "GOOGL"
+          }
+        ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "ranking_score": 76,
@@ -1968,10 +2013,10 @@
         "name": "Microsoft Corporation",
         "status": "WATCH",
         "score": 74,
-        "industry": "Unclassified",
+        "industry": "Technology",
         "why": "Net profit margin 41.2% (TTM); Return on equity 33.2% (TTM); Trailing P/E 26.4×; TTM revenue growth 17.9% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
@@ -1983,16 +2028,39 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:50:38Z",
+            "timestamp": "2026-11-19T23:53:40Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Microsoft well positioned to weather AI slowdown, says Jefferies after Ignite meetings",
+            "timestamp": "2026-11-19T18:30:00Z",
+            "url": "https://finnhub.io/api/news?id=10515c0238cae9ffd54c26e6f52089be7b414da4a8390748dfc7fddc22c86e63"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:50:38Z",
+        "fundamentals_at": "2026-11-19T23:53:40Z",
         "price": 498.3,
         "currency": "USD",
         "change_pct": -1.965,
-        "news": [],
+        "news": [
+          {
+            "headline": "Microsoft well positioned to weather AI slowdown, says Jefferies after Ignite meetings",
+            "url": "https://finnhub.io/api/news?id=10515c0238cae9ffd54c26e6f52089be7b414da4a8390748dfc7fddc22c86e63",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:30:00Z",
+            "primary": false,
+            "symbol": "MSFT"
+          },
+          {
+            "headline": "Microsoft's Satya Nadella Says Selling AI Capacity to Just One or Two Customers ‘Is Not a Business’",
+            "url": "https://finnhub.io/api/news?id=252d3ab3be3578a8c4cfb79307a3f9c7b093081fc72f10aa94643690411f5479",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:18:01Z",
+            "primary": false,
+            "symbol": "MSFT"
+          }
+        ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "ranking_score": 74,
@@ -2003,10 +2071,9 @@
         "name": "NVIDIA Corporation",
         "status": "WATCH",
         "score": 73,
-        "industry": "Unclassified",
+        "industry": "Semiconductors",
         "why": "Net profit margin 62.5% (TTM); Return on equity 106.7% (TTM); Trailing P/E 16.1×; TTM revenue growth 93.3% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable",
           "Price near reported 52-week low"
         ],
         "evidence": [
@@ -2019,35 +2086,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:50:38Z",
+            "timestamp": "2026-11-19T23:53:40Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
-            "timestamp": "2026-11-19T19:49:17Z",
-            "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b"
+            "value": "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings?",
+            "timestamp": "2026-11-19T21:35:02Z",
+            "url": "https://finnhub.io/api/news?id=4584327b670259c6eac873ac0eaeb3ea95512630706dc9c997750cdd744dfbad"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:50:38Z",
+        "fundamentals_at": "2026-11-19T23:53:40Z",
         "price": 145.98,
         "currency": "USD",
         "change_pct": -3.299,
         "news": [
           {
-            "headline": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
-            "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b",
+            "headline": "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings?",
+            "url": "https://finnhub.io/api/news?id=4584327b670259c6eac873ac0eaeb3ea95512630706dc9c997750cdd744dfbad",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:49:17Z",
+            "published_at": "2026-11-19T21:35:02Z",
             "primary": false,
             "symbol": "NVDA"
           },
           {
-            "headline": "‘SpaceX Has Gone All In With Nvidia’: Nvidia’s Biggest Customer Is Also Its Biggest Stock Holding at $19.7B",
-            "url": "https://finnhub.io/api/news?id=7571f738999d03e723c6bd002c6640c79ec07f69ea5c4bd327e807d708cba6d6",
+            "headline": "Jensen Huang's Nvidia comeback: Why the math doesn't add up",
+            "url": "https://finnhub.io/api/news?id=9affe9ec240084bab3e50edba20e890a34906b650cd74a8937e4ef572bbde696",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:42:17Z",
+            "published_at": "2026-11-19T21:30:21Z",
             "primary": false,
             "symbol": "NVDA"
           }

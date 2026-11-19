@@ -14,10 +14,12 @@
         "totalDebt/totalEquityQuarterly": 0.7147,
         "marketCapitalization": 5129133.5
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Apple Inc.",
       "profile": {
-        "weburl": "https://www.apple.com/"
+        "weburl": "https://www.apple.com/",
+        "industry": "Technology",
+        "name": "Apple Inc."
       },
       "news": [
         {
@@ -43,6 +45,22 @@
           "published_at": "2026-11-19T18:55:51Z",
           "primary": false,
           "symbol": "AAPL"
+        },
+        {
+          "headline": "Apple Marks a Big Moment for Its Free Radio Bet",
+          "url": "https://finnhub.io/api/news?id=772c8d8cf0969eb8dd60aa6f461a0a6ae5b6352bd91011d5a73a882ed81a5f1f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:05:53Z",
+          "primary": false,
+          "symbol": "AAPL"
+        },
+        {
+          "headline": "Apple’s Longest-Serving Director Just Cashed Out $32 Million",
+          "url": "https://finnhub.io/api/news?id=07be0054fe8ae99e81c0a871c9561fad18f21305c85ab84998da27ce956e3e98",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:03:54Z",
+          "primary": false,
+          "symbol": "AAPL"
         }
       ]
     },
@@ -60,12 +78,55 @@
         "totalDebt/totalEquityQuarterly": 0.2263,
         "marketCapitalization": 3767382.8
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Microsoft Corporation",
       "profile": {
-        "weburl": "https://www.microsoft.com/en-in/"
+        "weburl": "https://www.microsoft.com/en-in/",
+        "industry": "Technology",
+        "name": "Microsoft Corporation"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Microsoft well positioned to weather AI slowdown, says Jefferies after Ignite meetings",
+          "url": "https://finnhub.io/api/news?id=10515c0238cae9ffd54c26e6f52089be7b414da4a8390748dfc7fddc22c86e63",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:30:00Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "Microsoft's Satya Nadella Says Selling AI Capacity to Just One or Two Customers ‘Is Not a Business’",
+          "url": "https://finnhub.io/api/news?id=252d3ab3be3578a8c4cfb79307a3f9c7b093081fc72f10aa94643690411f5479",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:18:01Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "Microsoft CEO Sounds Alarm on AI Software Risks After Major Outlook Outage",
+          "url": "https://finnhub.io/api/news?id=fdbfb4718f3fe3c0228269bbda844f23f435861888b9dc10cbd766bafe17c47b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:07:18Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "Bill Ackman's Microsoft Bet Has More at Stake Than It Seems",
+          "url": "https://finnhub.io/api/news?id=d1a932d408d02b76b94dade0c904f2bbea3b343a9dbd8603ae1fde30868aa70a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:46:36Z",
+          "primary": false,
+          "symbol": "MSFT"
+        },
+        {
+          "headline": "Microsoft Stocks Rise 3.16% as Anthropic Commits $47.2 Billion Minimum to Azure",
+          "url": "https://finnhub.io/api/news?id=63edebe1b1024237b5dcc3f9fa1d38d338fc2dd6563cb680a195667c95c81c8b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:30:14Z",
+          "primary": false,
+          "symbol": "MSFT"
+        }
+      ]
     },
     "NVDA": {
       "metrics": {
@@ -81,12 +142,38 @@
         "totalDebt/totalEquityQuarterly": 0.1214,
         "marketCapitalization": 3638136.2
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "NVIDIA Corporation",
       "profile": {
-        "weburl": "https://www.nvidia.com"
+        "weburl": "https://www.nvidia.com",
+        "industry": "Semiconductors",
+        "name": "NVIDIA Corporation"
       },
       "news": [
+        {
+          "headline": "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings?",
+          "url": "https://finnhub.io/api/news?id=4584327b670259c6eac873ac0eaeb3ea95512630706dc9c997750cdd744dfbad",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:35:02Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "Jensen Huang's Nvidia comeback: Why the math doesn't add up",
+          "url": "https://finnhub.io/api/news?id=9affe9ec240084bab3e50edba20e890a34906b650cd74a8937e4ef572bbde696",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:30:21Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
+        {
+          "headline": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+          "url": "https://finnhub.io/api/news?id=895b43336fdc01fcc219a5231eece6dad6f2c100add7b60cb93093f5f868936e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:12:06Z",
+          "primary": false,
+          "symbol": "NVDA"
+        },
         {
           "headline": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
           "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b",
@@ -100,14 +187,6 @@
           "url": "https://finnhub.io/api/news?id=7571f738999d03e723c6bd002c6640c79ec07f69ea5c4bd327e807d708cba6d6",
           "source": "Yahoo",
           "published_at": "2026-11-19T19:42:17Z",
-          "primary": false,
-          "symbol": "NVDA"
-        },
-        {
-          "headline": "Trump Discloses Up to $380,000 in Nvidia Buys, Calls Huang’s Exit ‘Such a Tragedy’",
-          "url": "https://finnhub.io/api/news?id=dff6f0b6d1dcce9325452d0088fd6ed65949392c659427ebcd9ae797a399fbff",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:22:08Z",
           "primary": false,
           "symbol": "NVDA"
         }
@@ -127,12 +206,55 @@
         "totalDebt/totalEquityQuarterly": 0.1846,
         "marketCapitalization": 3458978.2
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Alphabet Inc.",
       "profile": {
-        "weburl": "https://abc.xyz/"
+        "weburl": "https://abc.xyz/",
+        "industry": "Media",
+        "name": "Alphabet Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+          "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:47:00Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Stanley Druckenmiller dumps entire $120M Alphabet stake to buy gold mining stock",
+          "url": "https://finnhub.io/api/news?id=7054e8472efb3c2ccf21afe1cebad979876786702b5f655bde12534d62fc2bb3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:03:00Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Why Alphabet's Cheap P/E May Mislead Investors",
+          "url": "https://finnhub.io/api/news?id=2bc0e97e4bdb56fc44a4ca90ea7be40fcc36a01fcebcc052bf351a46c25a2a96",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:24:30Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Why Alphabet Stock Popped Today",
+          "url": "https://finnhub.io/api/news?id=f2bc810322c0fe73de4ba671bd1c8c1466a937138f783822758d2a2844597dcf",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:18:02Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        },
+        {
+          "headline": "Anthropic Jumps 17% in Record Nasdaq Debut but Fades From $111.50 Open; Alphabet Ticks Up, Amazon Dips",
+          "url": "https://finnhub.io/api/news?id=131b659a39764999e78e308d6508a1bc1bea85c351b0e8b67b2ce4826708cf8f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:07:34Z",
+          "primary": false,
+          "symbol": "GOOGL"
+        }
+      ]
     },
     "AMZN": {
       "metrics": {
@@ -148,12 +270,55 @@
         "totalDebt/totalEquityQuarterly": 0.2821,
         "marketCapitalization": 2895109.5
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Amazon.com Inc",
       "profile": {
-        "weburl": "https://www.amazon.com/"
+        "weburl": "https://www.amazon.com/",
+        "industry": "Retail",
+        "name": "Amazon.com Inc"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Blue Owl Taps Wall Street For $513M To Finance Amazon Data Center",
+          "url": "https://finnhub.io/api/news?id=b40f6a6b11503956ae36b3a5338a2abecc1acddce5f2a417b65f0ad371d68910",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:50:19Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "IBD Stock Of The Day: Amazon Chases Entry As Anthropic IPO Swings AI Sentiment",
+          "url": "https://finnhub.io/api/news?id=b02f8b85f133087631c4472cb83185177df24d105095b05d2a73b8c0dab084e9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:39:58Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Amazon Threatens Major Delivery Changes Over New York City Bill",
+          "url": "https://finnhub.io/api/news?id=45a4b11508dfb99b2f219e3dafce21384970644a091c824c6f4271696c52d86a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:43:13Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Amazon Faces Pressure Over 5,000 Delivery Jobs as New York Weighs Labor Bill",
+          "url": "https://finnhub.io/api/news?id=61e4318b66a4ac909f32702c9c9e5cbc53e7ac8ada54f288aa39b26cbc1fe9cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:24:38Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Amazon Beat QQQ, But The Ride Was Much Harder",
+          "url": "https://finnhub.io/api/news?id=a69dfd784d09785bf2dcd1c36b935e29cd796fa639e347b804e976edf6fe8d39",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:21Z",
+          "primary": false,
+          "symbol": "AMZN"
+        }
+      ]
     },
     "META": {
       "metrics": {
@@ -169,12 +334,22 @@
         "totalDebt/totalEquityQuarterly": 0.2971,
         "marketCapitalization": 1575615.9
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Meta Platforms, Inc.",
       "profile": {
-        "weburl": "https://www.meta.com/"
+        "weburl": "https://www.meta.com/",
+        "industry": "Media",
+        "name": "Meta Platforms, Inc."
       },
       "news": [
+        {
+          "headline": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
+          "url": "https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:24:40Z",
+          "primary": false,
+          "symbol": "META"
+        },
         {
           "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
           "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
@@ -188,6 +363,22 @@
           "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e",
           "source": "Yahoo",
           "published_at": "2026-11-19T18:42:45Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Meta Stock Down 21%: Too Much AI Spending?",
+          "url": "https://finnhub.io/api/news?id=5d2de555fc95fb87cc44f10053a84c1fed60c185e0e3f1bc6316324073fb8b1e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:10:15Z",
+          "primary": false,
+          "symbol": "META"
+        },
+        {
+          "headline": "Meta’s Advertising Business Could Drive Another Major Earnings Surprise",
+          "url": "https://finnhub.io/api/news?id=0a7eaa60d6e77746cb12dfd243bb45eba9c39b2e22e9ba8794f4da79864851ba",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:33:48Z",
           "primary": false,
           "symbol": "META"
         }
@@ -207,12 +398,55 @@
         "totalDebt/totalEquityQuarterly": 0.596,
         "marketCapitalization": 1673061.9
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Broadcom Inc",
       "profile": {
-        "weburl": "https://www.broadcom.com"
+        "weburl": "https://www.broadcom.com",
+        "industry": "Semiconductors",
+        "name": "Broadcom Inc"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Why Broadcom Stock Took a Wild Ride on Thursday",
+          "url": "https://finnhub.io/api/news?id=d77f52f8399a52b4b30d22b88899487be4453dbf376381910e6ffcd3752f840d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:01:23Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "Broadcom Stocks Rise 4.21% as Chip Supplier Joins Anthropic's $26 Billion Placement",
+          "url": "https://finnhub.io/api/news?id=a85581ff822adde27adac8faf4b776ac135632501b44717e48e6fbe531b53259",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:30:26Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "Cathie Wood and 26 Other Big Funds Bought Broadcom Last Quarter. David Tepper and 26 Others Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=6708140789b9eca7faaeb8599ebf3009c6976f665e9936c23e20129d8aa4c1ef",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:50:40Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "Broadcom’s $13.67B Quarterly FCF Beats Marvell’s Scaling Story, Plain and Simple",
+          "url": "https://finnhub.io/api/news?id=45e35d0b9be95c38c405e5c775870df25d5850049834f1a2869fd3aea9978061",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:45:36Z",
+          "primary": false,
+          "symbol": "AVGO"
+        },
+        {
+          "headline": "Global Wired Interface Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on High-Speed, Fiber Optic Demand with Intel, Broadcom, Qualcomm, and Infineon",
+          "url": "https://finnhub.io/api/news?id=031c9915bdf630291103012213920ebd657b35c85c2168c7e122c6331b1f347e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:36:00Z",
+          "primary": false,
+          "symbol": "AVGO"
+        }
+      ]
     },
     "TSM": {
       "metrics": {
@@ -228,12 +462,55 @@
         "totalDebt/totalEquityQuarterly": 0.1405,
         "marketCapitalization": 56402904.0
       },
-      "updated_at": "2026-11-19T21:50:38Z",
+      "updated_at": "2026-11-19T23:53:40Z",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd",
       "profile": {
-        "weburl": "https://www.tsmc.com/"
+        "weburl": "https://www.tsmc.com/",
+        "industry": "Semiconductors",
+        "name": "Taiwan Semiconductor Manufacturing Co Ltd"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "ETFs Are Net Sellers of Taiwan Semiconductor (TSM) on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=43ec38a3faee4e2a53f72873e87741cc4bd51d4e0796f4ee56297ff1a3a968a2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:02:27Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "Taiwan Semiconductor Stock (TSM) Looks Too Cheap for Its Growth Outlook",
+          "url": "https://finnhub.io/api/news?id=577b730dc54eeee20d2020cd6580cd5560e373c9c34c7849e191068b5a5900a3",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:08:00Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "Why You Should Buy and Hold Taiwan Semiconductor (TSM) for Three Years",
+          "url": "https://finnhub.io/api/news?id=0274eda04550c19002244c4117bf011c85ffcb55ac24005966f46427b371da87",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:32:19Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "25 Big Funds Bought Taiwan Semiconductor Last Quarter. It’s Down 21% Since. Time to Buy?",
+          "url": "https://finnhub.io/api/news?id=c32b497b7ad63dc01728201a69b9a5a8378c857804b34fb65a786a98fb3bc47c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:29:45Z",
+          "primary": false,
+          "symbol": "TSM"
+        },
+        {
+          "headline": "NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%",
+          "url": "https://finnhub.io/api/news?id=cac43d5a03826dcd10f1b6962fa659a9d2347fe79bd3e524f4262528aaeb0639",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:06:50Z",
+          "primary": false,
+          "symbol": "TSM"
+        }
+      ]
     },
     "AMD": {
       "metrics": {
@@ -2219,6 +2496,6 @@
       ]
     }
   },
-  "cursor": 0,
-  "updated_at": "2026-11-19T22:56:56Z"
+  "cursor": 8,
+  "updated_at": "2026-11-19T23:53:40Z"
 }
