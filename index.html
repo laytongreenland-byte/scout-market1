@@ -24,10 +24,27 @@
           <div class="hero-main"><div class="pulse-disc"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="20" opacity=".2"/><circle cx="32" cy="32" r="10" opacity=".55"/><circle cx="32" cy="32" r="3"/></svg></div><div><div class="hero-number" id="event-count">—</div><div class="hero-desc" id="hero-desc">Awaiting the first source check</div></div></div>
           <div class="hero-bottom" id="source-health">No verified sources yet</div>
         </div>
+        <div id="overview-alerts"></div>
+        <div class="section-title"><h2>This week's screened opportunities</h2><button class="text-action" data-goto="research" type="button">Full shortlist →</button></div>
+        <div id="overview-shortlist" class="stack"></div>
         <div class="section-title"><h2>Research priorities</h2><span id="priority-caption">Evidence-led</span></div>
         <div id="priorities"><div class="empty-state card"><div class="empty-icon">◎</div><strong>No unverified buying tips</strong><p>When the scanner runs, high-interest developments appear here for investigation. Nothing is labelled a buy without sufficient evidence.</p></div></div>
         <div class="section-title"><h2>Latest disclosures</h2><button class="text-action" data-goto="signals" type="button">View all →</button></div>
         <div id="latest-events" class="stack"></div>
+      </section>
+      <section class="tab-panel" id="tab-research" aria-labelledby="nav-research">
+        <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunities</h1><p>Weekly shortlisted companies, ranked by transparent financial rules and verified quote timestamps. Not AI predictions or buying instructions.</p></div>
+        <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">Universe is restricted to selected liquid US shares and ETFs. NZX company announcements are monitored, but NZX prices and fundamentals are not yet screened.</div></div>
+        <div class="section-title"><h2>High-priority catalysts</h2><span>Strict evidence threshold</span></div>
+        <div id="urgent-list" class="stack"></div>
+        <div class="section-title"><h2>Weekly shortlist</h2><span id="weekly-status">Not generated</span></div>
+        <div class="notice" id="weekly-verdict">Waiting for research</div>
+        <div id="weekly-list" class="stack"></div>
+        <div class="section-title"><h2>Significant price moves</h2><span>Research triggers only</span></div>
+        <div class="card" id="movers-list"></div>
+        <div class="section-title"><h2>Paper research log</h2><span>Reference prices only</span></div>
+        <div class="card" id="research-log"></div>
+        <div class="card note-card"><strong>What the scores mean</strong><p>Rules assign points for trailing profits, sales growth, valuation ratios and price context. A high score is NOT a probability of profit or intrinsic value. 'Investigate' means review the evidence, not buy a share. Returns in the paper log exclude brokerage, spreads, tax, foreign exchange and dividends.</p></div>
       </section>
       <section class="tab-panel" id="tab-watchlist" aria-labelledby="nav-watchlist">
         <div class="page-heading"><div class="eyebrow">TRACKED MARKETS</div><h1>Watchlist</h1><p>Free US quote API when configured. NZX disclosures are monitored separately.</p></div>
@@ -46,12 +63,13 @@
         <div class="page-heading"><div class="eyebrow">YOUR SYSTEM</div><h1>Setup & integrity</h1><p>Transparent about what has — and hasn't — been checked.</p></div>
         <div class="card settings-card"><div class="setting-title">Scanner status</div><div id="sources-list" class="source-list"></div></div>
         <div class="card settings-card"><div class="setting-title">Your research budget</div><div class="budget-row"><label for="initial-budget">Initial NZD</label><input id="initial-budget" type="number" min="0" step="50" value="750" inputmode="decimal"></div><div class="budget-row"><label for="monthly-budget">Monthly NZD</label><input id="monthly-budget" type="number" min="0" step="10" value="50" inputmode="decimal"></div><div class="allocation" id="allocation"></div><div class="hint">Saved only in this browser, never sent to an account. This is a sample allocation, not a recommendation.</div></div>
-        <div class="card settings-card"><div class="setting-title">How this works</div><p>GitHub Actions checks publicly accessible sources on a schedule and writes a JSON snapshot. This site reads only that snapshot. Optional API keys stay in GitHub Secrets, never in the website.</p><p>The AI research tasks in ChatGPT are separate from this website. They are not automatically imported into this dashboard.</p><p class="muted">This free system is a research tool — not a trading platform, investment adviser or reliable real-time price-alert service.</p></div>
+        <div class="card settings-card"><div class="setting-title">How this works</div><p>GitHub Actions checks publicly accessible sources on a schedule and writes a JSON snapshot. This site reads only that snapshot. Optional API keys stay in GitHub Secrets, never in the website.</p><p>Scout uses a transparent rules-based financial screen, not a paid AI API. Your separately scheduled ChatGPT research provides the AI review and notification layer; its messages are not embedded here. For urgent issuer-sourced catalysts the workflow can open an issue in this public GitHub repository. To receive GitHub notifications, watch the repository with All Activity.</p><p class="muted">This free system is a research tool — not a trading platform, investment adviser or reliable real-time price-alert service.</p></div>
         <div class="source-footer"><span>Scout · free starter build</span><span id="data-age">Waiting for data</span></div>
       </section>
     </main>
     <nav class="bottom-nav" aria-label="Main navigation">
       <button class="active" id="nav-overview" data-tab="overview" aria-current="page"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg><span>Overview</span></button>
+      <button id="nav-research" data-tab="research"><svg viewBox="0 0 24 24"><path d="M4 20V6m0 14h16M7 16l4-4 3 2 6-8"/><circle cx="20" cy="6" r="2"/></svg><span>Research</span></button>
       <button id="nav-watchlist" data-tab="watchlist"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h17M7 15l5-5 4 3 5-7"/></svg><span>Watchlist</span></button>
       <button id="nav-signals" data-tab="signals"><svg viewBox="0 0 24 24"><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2ZM18 8a6 6 0 0 0-12 0c0 8-3 8-3 10h18c0-2-3-2-3-10Z"/></svg><span>Signals</span></button>
       <button id="nav-settings" data-tab="settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.1 2.1-.06-.06A1.7 1.7 0 0 0 15.8 19.4a1.7 1.7 0 0 0-.8 1.6h-6a1.7 1.7 0 0 0-.8-1.6 1.7 1.7 0 0 0-1.88-.34l-.06.06-2.1-2.1.06-.06A1.7 1.7 0 0 0 4.6 15 1.7 1.7 0 0 0 3 14.2v-4A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.1-2.1.06.06A1.7 1.7 0 0 0 8.2 4.6 1.7 1.7 0 0 0 9 3h6a1.7 1.7 0 0 0 .8 1.6 1.7 1.7 0 0 0 1.88.34l.06-.06 2.1 2.1-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.6 1.2v4a1.7 1.7 0 0 0-1.6.8Z"/></svg><span>Setup</span></button>

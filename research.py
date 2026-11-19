@@ -1,0 +1,331 @@
+"""Explainable, rules-based investment *research*; no LLM or trade execution.
+
+Every score is derived from recorded quotes, Finnhub metrics and dated articles.
+Missing/old data means no actionable classification. All public output is
+research only, not a recommendation to buy or a forecast of returns.
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+import math
+import os
+import time
+import urllib.parse
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
+
+UTC = timezone.utc
+MARKET_URL = 'https://finnhub.io/docs/api/stock-metrics'
+QUOTE_URL = 'https://finnhub.io/docs/api/quote'
+
+
+def numeric(v):
+    if isinstance(v, bool):
+        return None
+    try:
+        n = float(v)
+        return n if math.isfinite(n) else None
+    except (TypeError, ValueError):
+        return None
+
+
+def iso(now):
+    return now.astimezone(UTC).isoformat(timespec='seconds').replace('+00:00', 'Z')
+
+
+def date_of(value):
+    try:
+        d = datetime.fromisoformat((value or '').replace('Z', '+00:00'))
+        if d.tzinfo is None:
+            return None
+        return d.astimezone(UTC)
+    except (ValueError, TypeError):
+        return None
+
+
+def hours_old(value, now):
+    d = date_of(value)
+    return max(0.0, (now-d).total_seconds()/3600) if d else float('inf')
+
+
+def fh_json(endpoint, params, token, fetch):
+    if not token:
+        raise RuntimeError('Free Finnhub key missing')
+    args = dict(params)
+    args['token'] = token
+    url = 'https://finnhub.io/api/v1/' + endpoint + '?' + urllib.parse.urlencode(args)
+    return json.loads(fetch(url))
+
+
+def get_news(obj, symbol, profile, now, verified_url):
+    if not isinstance(obj, list):
+        return []
+    host = urllib.parse.urlsplit(str(profile.get('weburl') or '')).hostname or ''
+    host = host.lower().removeprefix('www.')
+    out = []
+    for n in obj:
+        if not isinstance(n, dict):
+            continue
+        url = n.get('url')
+        dt = numeric(n.get('datetime'))
+        if not isinstance(url, str) or not verified_url(url) or not dt:
+            continue
+        when = datetime.fromtimestamp(dt, UTC)
+        if when > now + timedelta(minutes=10) or now-when > timedelta(days=8):
+            continue
+        headline = str(n.get('headline') or '').strip()[:230]
+        if not headline:
+            continue
+        src_host = (urllib.parse.urlsplit(url).hostname or '').lower().removeprefix('www.')
+        primary = bool((host and len(host)>5 and (src_host == host or src_host.endswith('.'+host))) or src_host == 'sec.gov' or src_host.endswith('.sec.gov'))
+        out.append({'headline':headline, 'url':url, 'source':str(n.get('source') or 'Finnhub news')[:80],
+                    'published_at':iso(when), 'primary':primary, 'symbol':symbol})
+    out.sort(key=lambda n:n['published_at'],reverse=True)
+    return out[:5]
+
+
+def extract_metric(obj):
+    if not isinstance(obj, dict):
+        return {}
+    m = obj.get('metric')
+    if not isinstance(m, dict):
+        return {}
+    fields = ['52WeekHigh','52WeekLow','peTTM','psTTM','netProfitMarginTTM','roeTTM',
+              'revenueGrowthTTMYoy','epsGrowthTTMYoy','currentRatioQuarterly',
+              'totalDebt/totalEquityQuarterly','freeCashFlowTTM','marketCapitalization']
+    return {k:numeric(m.get(k)) for k in fields if numeric(m.get(k)) is not None}
+
+
+def evaluate(symbol, quote, cached, now):
+    """Scores 0..100 only if meaningful metrics exist; never imply calibrated odds."""
+    q = quote or {}
+    price = numeric(q.get('price'))
+    if not price or q.get('stale') or hours_old(q.get('price_at'),now)>75:
+        return {'symbol':symbol,'status':'INSUFFICIENT DATA','score':None,
+                'why':'Price unavailable or stale','risks':['No timely verified quote'], 'evidence':[], 'as_of':q.get('price_at')}
+    metrics = (cached or {}).get('metrics',{})
+    updated = (cached or {}).get('updated_at')
+    needed = ['peTTM','netProfitMarginTTM','roeTTM','revenueGrowthTTMYoy','52WeekHigh']
+    count = sum(numeric(metrics.get(k)) is not None for k in needed)
+    if count<4 or hours_old(updated,now)>24*10:
+        return {'symbol':symbol,'status':'INSUFFICIENT DATA','score':None,
+                'why':'Awaiting sufficient up-to-date company financial metrics',
+                'risks':['Financial data incomplete or older than 10 days'], 'evidence':[], 'as_of':q.get('price_at')}
+    pe, ps = numeric(metrics.get('peTTM')), numeric(metrics.get('psTTM'))
+    margin, roe = numeric(metrics.get('netProfitMarginTTM')),numeric(metrics.get('roeTTM'))
+    growth,eps = numeric(metrics.get('revenueGrowthTTMYoy')), numeric(metrics.get('epsGrowthTTMYoy'))
+    high = numeric(metrics.get('52WeekHigh'))
+    low = numeric(metrics.get('52WeekLow'))
+    change=numeric(q.get('change_pct'))
+    score = 0
+    reasons = []
+    risks = []
+    if margin is not None:
+        score += 12 if margin>=15 else 8 if margin>=8 else 3 if margin>0 else 0
+        reasons.append(f'Net profit margin {margin:.1f}% (TTM)')
+        if margin <= 0: risks.append('Unprofitable on trailing net margin')
+    if roe is not None:
+        score += 10 if roe>=15 else 6 if roe>=8 else 2 if roe>0 else 0
+        reasons.append(f'Return on equity {roe:.1f}% (TTM)')
+    if pe is not None:
+        score += 16 if 5<=pe<=24 else 10 if 24<pe<=35 else 4 if 35<pe<=50 else 0
+        reasons.append(f'Trailing P/E {pe:.1f}×')
+        if pe>40: risks.append('High trailing earnings valuation')
+        if pe<=0:risks.append('P/E not meaningful or earnings weak')
+    if ps is not None:
+        score += 6 if 0<ps<=5 else 3 if ps<=10 else 0
+        if ps>12: risks.append('High sales multiple')
+    if growth is not None:
+        score += 15 if growth>=12 else 11 if growth>=5 else 5 if growth>=0 else 0
+        reasons.append(f'TTM revenue growth {growth:.1f}% YoY')
+        if growth<0: risks.append('Revenue contracting year on year')
+    if eps is not None:
+        score += 8 if eps>=15 else 5 if eps>=5 else 2 if eps>=0 else 0
+        if eps < -10: risks.append('Earnings per share declining')
+    if high and high>price:
+        distance=(high-price)/high*100
+        score += 12 if 8<=distance<=30 else 8 if distance<8 or 30<distance<=45 else 2
+        reasons.append(f'{distance:.1f}% below reported 52-week high')
+        if distance>45:risks.append('Large drawdown: recovery is not assured')
+    elif high:
+        score += 4
+        risks.append('At or above reported 52-week high')
+    if low and low>0 and price<low*1.05:
+        risks.append('Price near reported 52-week low')
+    if change is not None:
+        score += 7 if -2 <= change <=3 else 4 if -5<=change<=5 else 0
+        if abs(change)>=6: risks.append(f'Large one-session price move ({change:+.1f}%)')
+    # Score deliberately never incorporates news keyword sentiment as an assurance of value.
+    score = max(0,min(100,round(score)))
+    if pe is None or growth is None or margin is None or high is None:
+        status='WATCH'
+        risks.append('Important valuation or growth evidence missing')
+    elif score>=76 and not (pe>40 or margin<=0 or growth<0 or (change is not None and abs(change)>=8)):
+        status='INVESTIGATE'
+    elif score>=58:
+        status='WATCH'
+    else:
+        status='LOW PRIORITY'
+    if not risks:
+        risks=['Company-specific, sector and market drawdowns remain possible']
+    evidence = [{'label':'Quote (USD)', 'value':f'${price:.2f}', 'timestamp':q.get('price_at'),'url':QUOTE_URL},
+                {'label':'Finnhub financial metrics','value':f'{count}/5 essential fields available',
+                 'timestamp':updated,'url':MARKET_URL}]
+    if cached and cached.get('news'):
+        n=cached['news'][0]
+        evidence.append({'label':'Latest company-related article','value':n['headline'],
+                         'timestamp':n['published_at'],'url':n['url']})
+    return {'symbol':symbol,'name':(cached or {}).get('name') or symbol,'status':status,
+            'score':score,'why':'; '.join(reasons[:4]),'risks':risks[:4],
+            'evidence':evidence,'as_of':q.get('price_at'),'fundamentals_at':updated,
+            'price':price,'currency':'USD', 'change_pct':change, 'news':(cached or {}).get('news',[])[:2],
+            'data_quality':'Partial' if count<5 else 'Measured 5/5 core fields',
+            'limitations':'A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.'}
+
+
+def primary_catalysts(candidate, now):
+    # An independently dated issuer-originating article with very specific good news.
+    words=('raises guidance','raised guidance','raises outlook','raised outlook',
+           'upgrades guidance','increases guidance','wins major contract',
+           'awarded major contract','secures major contract')
+    return [n for n in candidate.get('news',[])
+            if n.get('primary') and hours_old(n.get('published_at'),now)<=36
+            and any(w in n.get('headline','').lower() for w in words)]
+
+
+def urgent_alerts(candidates, quotes, now, previous_ids):
+    """Narrow attention alerts, NOT buy alerts. Avoid chasing news spikes."""
+    result=[]
+    old=set(previous_ids or [])
+    qmap={q.get('symbol'):q for q in quotes}
+    for c in candidates:
+        if c.get('status')!='INVESTIGATE' or c.get('score',0)<80:
+            continue
+        q=qmap.get(c['symbol'],{})
+        move=numeric(q.get('change_pct'))
+        if move is None or not -3<=move<=5 or hours_old(q.get('price_at'),now)>15:
+            continue
+        for n in primary_catalysts(c,now):
+            ident=hashlib.sha256((c['symbol']+'|'+n['url']).encode()).hexdigest()[:18]
+            if ident in old:
+                continue
+            result.append({'id':ident,'symbol':c['symbol'],'headline':n['headline'],
+                           'published_at':n['published_at'],'score':c['score'],'status':'URGENT RESEARCH',
+                           'source_url':n['url'],'quote_time':q.get('price_at'),'price':c['price'],
+                           'currency':'USD', 'change_pct':move,
+                           'why':'Issuer-originated specific catalyst plus strong screened fundamentals; check valuation and filing details immediately.',
+                           'risk':'Not a buy signal. Price may already reflect news; verify issuer announcement, liquidity and execution price.'})
+    return result[:5]
+
+
+def update_history(history, candidates, quotes, now):
+    """Record hypothetical reference prices and eventual changes, not investment P&L."""
+    hist = dict(history) if isinstance(history,dict) else {}
+    days=list(hist.get('daily',[]))
+    calls=list(hist.get('calls',[]))
+    today=now.astimezone(ZoneInfo('Pacific/Auckland')).date().isoformat()
+    qmap={q.get('symbol'):q for q in quotes}
+    seen={(d.get('date'),d.get('symbol')) for d in days}
+    for sym,q in qmap.items():
+        p=numeric(q.get('price'))
+        if p and not q.get('stale') and hours_old(q.get('price_at'),now)<75 and (today,sym) not in seen:
+            days.append({'date':today,'symbol':sym,'price':p,'price_at':q.get('price_at')})
+    days=[d for d in days if (datetime.fromisoformat(today).date()-datetime.fromisoformat(d['date']).date()).days<=90]
+    monday=(now.astimezone(ZoneInfo('Pacific/Auckland')).date()-timedelta(days=now.astimezone(ZoneInfo('Pacific/Auckland')).weekday())).isoformat()
+    current={(r.get('week'),r.get('symbol')) for r in calls}
+    for c in candidates:
+        if c.get('status')!='INVESTIGATE' or (monday,c['symbol']) in current:
+            continue
+        q=qmap.get(c['symbol'],{})
+        if q.get('stale') or hours_old(q.get('price_at'),now)>75:
+            continue
+        calls.append({'week':monday,'symbol':c['symbol'],'flagged_at':iso(now),
+                      'reference_price':c['price'],'score':c['score'], 'price_at':q.get('price_at')})
+    for c in calls:
+        ref=numeric(c.get('reference_price'))
+        flagged=date_of(c.get('flagged_at'))
+        if not ref or not flagged:
+            continue
+        for horizon in (7,30):
+            k=f'return_{horizon}d_pct'
+            if k in c:continue
+            target=flagged.date()+timedelta(days=horizon)
+            candidates_d=[d for d in days if d.get('symbol')==c['symbol'] and d['date']>=target.isoformat()]
+            if candidates_d:
+                d=min(candidates_d,key=lambda v:v['date'])
+                c[k]=round((d['price']/ref-1)*100,2)
+                c[k+'_observed_on']=d['date']
+    return {'daily':days[-6500:],'calls':calls[-250:]}
+
+
+def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_summary, token, fetch, verified_url, now):
+    cache=dict(prev_cache) if isinstance(prev_cache,dict) else {}
+    data=dict(cache.get('companies',{}))
+    equities=[x for x in symbols if x not in ('VOO','VTI','VT','QQQ','SPY','SCHD','IVV','VEA','VWO')]
+    idx=int(cache.get('cursor') or 0)%max(1,len(equities))
+    batch=[equities[(idx+i)%len(equities)] for i in range(min(8,len(equities)))]
+    problems=[]
+    processed=0
+    if token and os.environ.get('SCOUT_OFFLINE') != '1':
+        for sym in batch:
+            old=data.get(sym,{})
+            try:
+                m=extract_metric(fh_json('stock/metric',{'symbol':sym,'metric':'all'},token,fetch))
+                if not m:raise ValueError('No metric data')
+                if not old.get('profile'):
+                    try:
+                        profile=fh_json('stock/profile2',{'symbol':sym},token,fetch)
+                        if isinstance(profile,dict) and profile.get('weburl'):
+                            old['profile']={'weburl':profile.get('weburl')}
+                            old['name']=str(profile.get('name') or sym)[:110]
+                    except Exception as ex:
+                        problems.append(sym+' profile: '+type(ex).__name__)
+                date_from=(now-timedelta(days=8)).date().isoformat()
+                date_to=now.date().isoformat()
+                news=[]
+                try:
+                    n=fh_json('company-news',{'symbol':sym,'from':date_from,'to':date_to},token,fetch)
+                    news=get_news(n,sym,old.get('profile',{}),now,verified_url)
+                except Exception as ex:
+                    problems.append(sym+' news: '+type(ex).__name__)
+                    news=old.get('news',[])
+                data[sym]={'metrics':m,'updated_at':iso(now),'name':old.get('name',sym),'profile':old.get('profile',{}),'news':news}
+                processed+=1
+            except Exception as ex:
+                problems.append(sym+' metrics: '+type(ex).__name__)
+        idx=(idx+len(batch))%max(1,len(equities))
+    # Profile data isn't required for rankings. News is treated as secondary until
+    # a verified issuer host is recorded; do not guess primary-source provenance.
+    quote_map={x.get('symbol'):x for x in quotes}
+    candidates=[evaluate(s,quote_map.get(s),data.get(s),now) for s in equities]
+    ranked=sorted([c for c in candidates if c.get('score') is not None],key=lambda c:c['score'],reverse=True)
+    serious=[c for c in ranked if c['status']=='INVESTIGATE']
+    shortlist=(serious + [c for c in ranked if c['status']=='WATCH'])[:5]
+    # A shortlist is still useful when no company qualifies for consideration.
+    week_monday=(now.astimezone(ZoneInfo('Pacific/Auckland')).date()-timedelta(days=now.astimezone(ZoneInfo('Pacific/Auckland')).weekday())).isoformat()
+    prev=prev_summary if isinstance(prev_summary,dict) else {}
+    if prev.get('week_start')==week_monday and prev.get('shortlist'):
+        weekly=prev
+    else:
+        weekly={'week_start':week_monday,'generated_at':iso(now),'shortlist':shortlist,
+                'verdict':'Candidates for independent investigation, NOT buy instructions' if serious else 'No sufficiently strong purchase case; watchlist only',
+                'method':'Rules-based financial screening of the configured US universe; not AI-generated financial advice.',
+                'basis':'Finnhub quote and last reported company metrics; excludes fees, FX and NZ tax. Verify before trading.',
+                'core_etfs':[s for s in symbols if s in ('VT','VTI','VOO','SPY','QQQ')],
+                'note':'Broad diversified funds may suit long-term investing; a high score does not prove an undervalued company.'}
+    alerts=urgent_alerts(candidates,quotes,now,[])
+    history=update_history(prev_history,candidates,quotes,now)
+    cache={'companies':data,'cursor':idx,'updated_at':iso(now)}
+    mov=[{'symbol':q['symbol'],'change_pct':q.get('change_pct'),'price':q.get('price'),'price_at':q.get('price_at')}
+         for q in quotes if isinstance(q.get('change_pct'),(int,float)) and abs(q['change_pct'])>=4 and not q.get('stale') and hours_old(q.get('price_at'),now)<=75]
+    mov.sort(key=lambda q:abs(q['change_pct']),reverse=True)
+    public={'generated_at':iso(now),'universe_size':len(symbols),'screened_with_financials':sum(c.get('score') is not None for c in candidates),
+            'updated_company_metrics_this_scan':processed,'candidates':ranked[:20],
+            'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
+            'research_log':history['calls'][-50:],
+            'limitations':['No guaranteed real-time prices or complete market coverage.',
+                           'These are rules-based research ranks, NOT predictive AI recommendations or expected returns.',
+                           'Latest available financial data may be delayed or incomplete; timestamps and quality gates apply.',
+                           'Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends.']}
+    return public,cache,history,weekly,problems

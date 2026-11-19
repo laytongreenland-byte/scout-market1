@@ -8,10 +8,20 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/scan.yml'
+      - 'scanner.py'
+      - 'research.py'
+      - 'app.js'
+      - 'style.css'
+      - 'index.html'
+      - 'config/watchlist.json'
+      - 'scripts/post_reports.py'
+      - 'sw.js'
+      - 'tests/**'
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 concurrency:
   group: scout-data-and-pages
   cancel-in-progress: false
@@ -26,6 +36,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check research scanner tests
+        run: python -m unittest discover -s tests -v
       - name: Check public sources
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
@@ -33,28 +45,40 @@ jobs:
         run: python scanner.py
       - name: Save snapshot for next run
         run: |
-          # Preserve the new scan, then sync with the latest remote HEAD.
-          # This makes manual reruns of older jobs safe as well.
+          # Save the new scan before synchronizing an up-to-date remote commit.
+          # A job queued before another deploy must never lose the fresh dataset.
           cp data/latest.json /tmp/scout-latest.json
+          cp data/research_cache.json /tmp/scout-cache.json
+          cp data/history.json /tmp/scout-history.json
+          cp data/weekly.json /tmp/scout-weekly.json
           git config user.name "scout-data-bot"
           git config user.email "scout-data-bot@users.noreply.github.com"
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --hard origin/main
             cp /tmp/scout-latest.json data/latest.json
-            git add data/latest.json
+            cp /tmp/scout-cache.json data/research_cache.json
+            cp /tmp/scout-history.json data/history.json
+            cp /tmp/scout-weekly.json data/weekly.json
+            git add data/latest.json data/research_cache.json data/history.json data/weekly.json
             if git diff --cached --quiet; then
-              echo "Snapshot already saved"
+              echo "Research snapshot already saved"
               break
             fi
-            git commit -m "Refresh market research snapshot"
+            git commit -m "Refresh Scout research snapshot"
             if git push origin HEAD:main; then
               break
             fi
             if [ "$attempt" -eq 3 ]; then
-              echo "::warning::Snapshot push unsuccessful; continuing with current site data"
+              echo "::warning::Snapshot push unsuccessful after 3 attempts"
+              exit 1
             fi
           done
+      - name: Publish time-sensitive and weekly research notifications
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/post_reports.py
       - name: Prepare public website
         run: |
           mkdir -p site/assets site/data

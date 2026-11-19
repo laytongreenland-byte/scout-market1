@@ -16,10 +16,15 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from research import generate_research
 
 ROOT = Path(__file__).parent
 DATA = ROOT / 'data' / 'latest.json'
 CONFIG = ROOT / 'config' / 'watchlist.json'
+CACHE = ROOT / 'data' / 'research_cache.json'
+HISTORY = ROOT / 'data' / 'history.json'
+WEEKLY = ROOT / 'data' / 'weekly.json'
+LAST_FINNHUB_CALL = None
 UTC = timezone.utc
 NOW = datetime.now(UTC)
 NZX_FEED = 'https://nzxplorer.co.nz/rss/announcements'
@@ -49,6 +54,13 @@ def fetch(url: str, *, sec=False) -> bytes:
     ua = os.environ.get('SEC_USER_AGENT', '').strip() if sec else ''
     if sec and (not ua or '@' not in ua):
         raise RuntimeError('SEC_USER_AGENT not set (must identify an app and contact email)')
+    # Free Finnhub access: pace all endpoint requests across the hourly scan.
+    global LAST_FINNHUB_CALL
+    if urllib.parse.urlsplit(url).hostname == 'finnhub.io':
+        current = time.monotonic()
+        if LAST_FINNHUB_CALL is not None:
+            time.sleep(max(0.0, 1.1 - (current-LAST_FINNHUB_CALL)))
+        LAST_FINNHUB_CALL = time.monotonic()
     req = urllib.request.Request(url, headers={
         'User-Agent': ua if sec else 'ScoutMarketResearch/1.0 (personal non-commercial research)',
         'Accept': 'application/json, application/atom+xml, application/rss+xml, */*',
@@ -212,7 +224,7 @@ def priority_events(events: list[dict]) -> list[dict]:
 def main() -> None:
     config = json.loads(CONFIG.read_text())
     previous = json.loads(DATA.read_text()) if DATA.exists() else {}
-    symbols = config.get('us_symbols', [])[:24]
+    symbols = config.get('us_symbols', [])[:65]
     sources, events = [], []
     def source(name, ok, count, error=''):
         sources.append({'name': name, 'ok': ok, 'count': count, 'checked_at': stamp(NOW), 'error': error})
@@ -258,16 +270,31 @@ def main() -> None:
             continue
         unique[e['id']] = e
     fresh = sorted(unique.values(), key=lambda e: e.get('published_at') or '', reverse=True)[:120]
+    # Explainable opportunity research, rotation-limited to preserve free API limits.
+    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    history = json.loads(HISTORY.read_text()) if HISTORY.exists() else {}
+    prior_weekly = json.loads(WEEKLY.read_text()) if WEEKLY.exists() else {}
+    research, new_cache, new_history, new_weekly, problems = generate_research(
+        symbols, quote_results, fresh, cache, history, prior_weekly,
+        key, fetch, verified_url, NOW)
+    source('Finnhub fundamentals and issuer news',
+           research['updated_company_metrics_this_scan'] > 0,
+           research['updated_company_metrics_this_scan'],
+           ', '.join(problems[:4]))
+    CACHE.parent.mkdir(parents=True, exist_ok=True)
+    CACHE.write_text(json.dumps(new_cache, ensure_ascii=False, indent=2)+'\n')
+    HISTORY.write_text(json.dumps(new_history, ensure_ascii=False, indent=2)+'\n')
+    WEEKLY.write_text(json.dumps(new_weekly, ensure_ascii=False, indent=2)+'\n')
     success_count = sum(bool(s['ok']) for s in sources)
     state = 'ok' if success_count == len(sources) else 'partial' if success_count else 'unavailable'
     data = {
         'generated_at': stamp(NOW), 'status': state,
         'sources': sources, 'tracked_symbols': symbols,
-        'quotes': quote_results, 'events': fresh,
+        'quotes': quote_results, 'events': fresh, 'research': research,
         'priorities': priority_events(fresh),
         'warnings': [
             'This scanner is best effort and does not monitor every market or source.',
-            'News classification is keyword screening, never a recommendation to buy or sell.',
+            'Rules-based research rankings are NOT predictions or investment recommendations.',
             'Prices are not NZD and may be delayed or unavailable. NZX prices are not currently supplied.',
         ],
     }
