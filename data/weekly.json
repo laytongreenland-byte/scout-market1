@@ -1,15 +1,75 @@
 {
   "week_start": "2026-11-16",
-  "generated_at": "2026-11-19T21:50:38Z",
+  "generated_at": "2026-11-19T22:53:47Z",
+  "method_version": 4,
   "shortlist": [
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "status": "INVESTIGATE",
+      "score": 86,
+      "industry": "Unclassified",
+      "why": "Net profit margin 33.3% (TTM); Return on equity 17.9% (TTM); Trailing P/E 13.2×; TTM revenue growth 109.0% YoY",
+      "risks": [
+        "Industry not independently classified; cross-sector scores are not directly comparable"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$320.22",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 fields; retrieval time, not accounting period",
+          "timestamp": "2026-11-19T22:13:01Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
+          "timestamp": "2026-11-19T20:29:13Z",
+          "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T22:13:01Z",
+      "price": 320.22,
+      "currency": "USD",
+      "change_pct": -1.2,
+      "news": [
+        {
+          "headline": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
+          "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:29:13Z",
+          "primary": false,
+          "symbol": "JPM"
+        },
+        {
+          "headline": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
+          "url": "https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:23:00Z",
+          "primary": false,
+          "symbol": "JPM"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "ranking_score": 86,
+      "rank_method": "FINANCIAL RULES"
+    },
     {
       "symbol": "AMZN",
       "name": "Amazon.com Inc",
       "status": "INVESTIGATE",
       "score": 83,
+      "industry": "Unclassified",
       "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 21.5×; TTM revenue growth 15.3% YoY",
       "risks": [
-        "Company-specific, sector and market drawdowns remain possible"
+        "Industry not independently classified; cross-sector scores are not directly comparable"
       ],
       "evidence": [
         {
@@ -20,15 +80,9 @@
         },
         {
           "label": "Finnhub financial metrics",
-          "value": "5/5 essential fields available",
+          "value": "5/5 fields; retrieval time, not accounting period",
           "timestamp": "2026-11-19T21:50:38Z",
           "url": "https://finnhub.io/docs/api/stock-metrics"
-        },
-        {
-          "label": "Latest company-related article",
-          "value": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
-          "timestamp": "2026-11-19T19:47:02Z",
-          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa"
         }
       ],
       "as_of": "2026-11-19T21:00:00Z",
@@ -36,35 +90,79 @@
       "price": 257.37,
       "currency": "USD",
       "change_pct": -3.873,
-      "news": [
+      "news": [],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "ranking_score": 83,
+      "rank_method": "FINANCIAL RULES"
+    },
+    {
+      "symbol": "XOM",
+      "name": "XOM",
+      "status": "INVESTIGATE",
+      "score": 82,
+      "industry": "Unclassified",
+      "why": "Net profit margin 10.5% (TTM); Return on equity 15.6% (TTM); Trailing P/E 15.8×; TTM revenue growth 19.5% YoY",
+      "risks": [
+        "Industry not independently classified; cross-sector scores are not directly comparable"
+      ],
+      "evidence": [
         {
-          "headline": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
-          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:47:02Z",
-          "primary": false,
-          "symbol": "AMZN"
+          "label": "Quote (USD)",
+          "value": "$158.93",
+          "timestamp": "2026-11-19T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
         },
         {
-          "headline": "Natera vs. Tempus AI: Which Blood Test Pioneer Has the Better Stock Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=80e11a0944355d574a43f7c340ee02387570924e260aff1b475f7d448a04f577",
+          "label": "Finnhub financial metrics",
+          "value": "5/5 fields; retrieval time, not accounting period",
+          "timestamp": "2026-11-19T22:53:47Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
+          "timestamp": "2026-11-19T21:16:12Z",
+          "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5"
+        }
+      ],
+      "as_of": "2026-11-19T21:00:00Z",
+      "fundamentals_at": "2026-11-19T22:53:47Z",
+      "price": 158.93,
+      "currency": "USD",
+      "change_pct": -1.028,
+      "news": [
+        {
+          "headline": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
+          "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5",
           "source": "Yahoo",
-          "published_at": "2026-11-19T19:40:02Z",
+          "published_at": "2026-11-19T21:16:12Z",
           "primary": false,
-          "symbol": "AMZN"
+          "symbol": "XOM"
+        },
+        {
+          "headline": "Erste Group Upgrades ExxonMobil (XOM). Here’s What Drove It.",
+          "url": "https://finnhub.io/api/news?id=96a9ce12691a3f825b75bd273c69e8db02bb73d75a08c8ac0ed4731263e8965d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:41:39Z",
+          "primary": false,
+          "symbol": "XOM"
         }
       ],
       "data_quality": "Measured 5/5 core fields",
-      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "ranking_score": 82,
+      "rank_method": "FINANCIAL RULES"
     },
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
       "status": "INVESTIGATE",
       "score": 80,
+      "industry": "Unclassified",
       "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.9×; TTM revenue growth 27.5% YoY",
       "risks": [
-        "Company-specific, sector and market drawdowns remain possible"
+        "Industry not independently classified; cross-sector scores are not directly comparable"
       ],
       "evidence": [
         {
@@ -75,7 +173,7 @@
         },
         {
           "label": "Finnhub financial metrics",
-          "value": "5/5 essential fields available",
+          "value": "5/5 fields; retrieval time, not accounting period",
           "timestamp": "2026-11-19T21:50:38Z",
           "url": "https://finnhub.io/docs/api/stock-metrics"
         },
@@ -110,176 +208,71 @@
         }
       ],
       "data_quality": "Measured 5/5 core fields",
-      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "ranking_score": 80,
+      "rank_method": "FINANCIAL RULES"
     },
     {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
+      "symbol": "ADBE",
+      "name": "Adobe Inc",
       "status": "INVESTIGATE",
-      "score": 76,
-      "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.7×; TTM revenue growth 22.2% YoY",
+      "score": 79,
+      "industry": "Unclassified",
+      "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
       "risks": [
-        "Price near reported 52-week low"
+        "Industry not independently classified; cross-sector scores are not directly comparable"
       ],
       "evidence": [
         {
           "label": "Quote (USD)",
-          "value": "$272.66",
+          "value": "$221.68",
           "timestamp": "2026-11-19T21:00:00Z",
           "url": "https://finnhub.io/docs/api/quote"
         },
         {
           "label": "Finnhub financial metrics",
-          "value": "5/5 essential fields available",
-          "timestamp": "2026-11-19T21:50:38Z",
+          "value": "5/5 fields; retrieval time, not accounting period",
+          "timestamp": "2026-11-19T21:53:49Z",
           "url": "https://finnhub.io/docs/api/stock-metrics"
         },
         {
           "label": "Latest company-related article",
-          "value": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
-          "timestamp": "2026-11-19T19:34:02Z",
-          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd"
+          "value": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+          "timestamp": "2026-11-19T18:17:02Z",
+          "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522"
         }
       ],
       "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T21:50:38Z",
-      "price": 272.66,
+      "fundamentals_at": "2026-11-19T21:53:49Z",
+      "price": 221.68,
       "currency": "USD",
-      "change_pct": -3.463,
+      "change_pct": -1.998,
       "news": [
         {
-          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
-          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd",
+          "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
           "source": "Yahoo",
-          "published_at": "2026-11-19T19:34:02Z",
+          "published_at": "2026-11-19T18:17:02Z",
           "primary": false,
-          "symbol": "GOOGL"
+          "symbol": "ADBE"
         },
         {
-          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
-          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80",
+          "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
+          "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
           "source": "Yahoo",
-          "published_at": "2026-11-19T19:25:57Z",
+          "published_at": "2026-11-19T16:00:00Z",
           "primary": false,
-          "symbol": "GOOGL"
+          "symbol": "ADBE"
         }
       ],
       "data_quality": "Measured 5/5 core fields",
-      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-    },
-    {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "status": "WATCH",
-      "score": 74,
-      "why": "Net profit margin 41.2% (TTM); Return on equity 33.2% (TTM); Trailing P/E 26.4×; TTM revenue growth 17.9% YoY",
-      "risks": [
-        "Company-specific, sector and market drawdowns remain possible"
-      ],
-      "evidence": [
-        {
-          "label": "Quote (USD)",
-          "value": "$498.30",
-          "timestamp": "2026-11-19T21:00:00Z",
-          "url": "https://finnhub.io/docs/api/quote"
-        },
-        {
-          "label": "Finnhub financial metrics",
-          "value": "5/5 essential fields available",
-          "timestamp": "2026-11-19T21:50:38Z",
-          "url": "https://finnhub.io/docs/api/stock-metrics"
-        },
-        {
-          "label": "Latest company-related article",
-          "value": "Walmart, Costco see some panic-buying after tech outages",
-          "timestamp": "2026-11-19T19:19:22Z",
-          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557"
-        }
-      ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T21:50:38Z",
-      "price": 498.3,
-      "currency": "USD",
-      "change_pct": -1.965,
-      "news": [
-        {
-          "headline": "Walmart, Costco see some panic-buying after tech outages",
-          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:19:22Z",
-          "primary": false,
-          "symbol": "MSFT"
-        },
-        {
-          "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:03:02Z",
-          "primary": false,
-          "symbol": "MSFT"
-        }
-      ],
-      "data_quality": "Measured 5/5 core fields",
-      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "status": "WATCH",
-      "score": 73,
-      "why": "Net profit margin 62.5% (TTM); Return on equity 106.7% (TTM); Trailing P/E 16.1×; TTM revenue growth 93.3% YoY",
-      "risks": [
-        "Price near reported 52-week low"
-      ],
-      "evidence": [
-        {
-          "label": "Quote (USD)",
-          "value": "$145.98",
-          "timestamp": "2026-11-19T21:00:00Z",
-          "url": "https://finnhub.io/docs/api/quote"
-        },
-        {
-          "label": "Finnhub financial metrics",
-          "value": "5/5 essential fields available",
-          "timestamp": "2026-11-19T21:50:38Z",
-          "url": "https://finnhub.io/docs/api/stock-metrics"
-        },
-        {
-          "label": "Latest company-related article",
-          "value": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
-          "timestamp": "2026-11-19T19:49:17Z",
-          "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b"
-        }
-      ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T21:50:38Z",
-      "price": 145.98,
-      "currency": "USD",
-      "change_pct": -3.299,
-      "news": [
-        {
-          "headline": "Short Seller Raises Questions About Nvidia's Former Top Sales Executive. $2.5 Billion China Chip Case In Focus.",
-          "url": "https://finnhub.io/api/news?id=6de128a88288cc80aae5ace163107c28abb3b7895f2a6c85127eb973735ee74b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:49:17Z",
-          "primary": false,
-          "symbol": "NVDA"
-        },
-        {
-          "headline": "‘SpaceX Has Gone All In With Nvidia’: Nvidia’s Biggest Customer Is Also Its Biggest Stock Holding at $19.7B",
-          "url": "https://finnhub.io/api/news?id=7571f738999d03e723c6bd002c6640c79ec07f69ea5c4bd327e807d708cba6d6",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:42:17Z",
-          "primary": false,
-          "symbol": "NVDA"
-        }
-      ],
-      "data_quality": "Measured 5/5 core fields",
-      "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "ranking_score": 79,
+      "rank_method": "FINANCIAL RULES"
     }
   ],
   "verdict": "Candidates for independent investigation, NOT buy instructions",
-  "method": "Rules-based financial screening of the configured US universe; not AI-generated financial advice.",
+  "method": "Rules-based financial screening of the configured US universe, with approximate industry concentration limit; not AI-generated financial advice.",
   "basis": "Finnhub quote and last reported company metrics; excludes fees, FX and NZ tax. Verify before trading.",
   "core_etfs": [
     "VOO",
