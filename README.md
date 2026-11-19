@@ -15,7 +15,7 @@ Scout is now a mobile-first, automated *research screener* — still **not** a s
 
 ## Get notifications on your phone (no subscription)
 
-In your public GitHub repository select **Watch → All Activity**. Enable GitHub mobile push notifications or email notification preferences on your device. GitHub does not guarantee instant notification delivery; the scanner runs at most hourly and GitHub scheduled jobs can be delayed or skipped. Urgent alerts only appear when the strict evidence conditions are met, and many weeks can legitimately have none.
+In your public GitHub repository select **Watch → Custom → Issues**. Enable GitHub mobile push notifications or email notification preferences on your device. GitHub does not guarantee instant notification delivery; the scanner runs at most hourly and GitHub scheduled jobs can be delayed or skipped. Urgent alerts only appear when the strict evidence conditions are met, and many weeks can legitimately have none.
 
 GitHub Issues: https://github.com/laytongreenland-byte/scout-market1/issues
 
