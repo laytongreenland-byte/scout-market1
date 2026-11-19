@@ -1,322 +1,375 @@
 {
   "daily": [
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "AAPL",
       "price": 349.21,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "MSFT",
       "price": 498.3,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "NVDA",
       "price": 145.98,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "GOOGL",
       "price": 272.66,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "AMZN",
       "price": 257.37,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "META",
       "price": 596.22,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "AVGO",
       "price": 346.65,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "TSM",
       "price": 352.09,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "AMD",
       "price": 489.19,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "ORCL",
       "price": 110.57,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "CRM",
       "price": 183.31,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "ADBE",
       "price": 221.68,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "NOW",
       "price": 88.87,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "PANW",
       "price": 361.73,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "CRWD",
       "price": 243.46,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "SHOP",
       "price": 131.97,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "UBER",
       "price": 65.6,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "NFLX",
       "price": 58.46,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "COST",
       "price": 1093.83,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "WMT",
       "price": 126.04,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "HD",
       "price": 336.68,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "MCD",
       "price": 272.35,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "V",
       "price": 402.25,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "MA",
       "price": 626.5,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "JPM",
       "price": 320.22,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "BRK.B",
       "price": 572.04,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "BAC",
       "price": 48.57,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "GS",
       "price": 847.53,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "UNH",
       "price": 330.48,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "JNJ",
       "price": 267.14,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "ABBV",
       "price": 283.54,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "LLY",
       "price": 1351.12,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "MRK",
       "price": 132.81,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "XOM",
       "price": 158.93,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "CVX",
       "price": 206.5,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "CAT",
       "price": 537.37,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "DE",
       "price": 624.89,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "GE",
       "price": 318.88,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "RTX",
       "price": 193.44,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "LMT",
       "price": 571.85,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "NEE",
       "price": 83.79,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "PLD",
       "price": 123.36,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "AMT",
       "price": 181.15,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "KO",
       "price": 96.09,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "PEP",
       "price": 139.0,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "PG",
       "price": 167.85,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "SPGI",
       "price": 442.66,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "ISRG",
       "price": 407.24,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "VOO",
       "price": 658.01,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "VTI",
       "price": 352.41,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "VT",
       "price": 147.17,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "QQQ",
       "price": 645.04,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "symbol": "SPY",
       "price": 715.87,
-      "price_at": "2026-11-19T21:00:00Z"
+      "price_at": "2026-11-19T21:00:00Z",
+      "currency": "USD"
     }
   ],
   "calls": [
@@ -359,6 +412,832 @@
       "reference_price": 272.35,
       "score": 76,
       "price_at": "2026-11-19T21:00:00Z"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "JPM",
+      "flagged_at": "2026-11-19T22:13:01Z",
+      "reference_price": 320.22,
+      "score": 86,
+      "price_at": "2026-11-19T21:00:00Z"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "BAC",
+      "flagged_at": "2026-11-19T22:13:01Z",
+      "reference_price": 48.57,
+      "score": 79,
+      "price_at": "2026-11-19T21:00:00Z"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "GS",
+      "flagged_at": "2026-11-19T22:13:01Z",
+      "reference_price": 847.53,
+      "score": 79,
+      "price_at": "2026-11-19T21:00:00Z"
+    }
+  ],
+  "episodes": [
+    {
+      "week": "2026-11-16",
+      "symbol": "AAPL",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 349.21,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 64,
+      "feature_schema": 1,
+      "features": [
+        0.64,
+        0.388056,
+        0.357057,
+        0.552,
+        1.0,
+        0.1506,
+        0.1354,
+        0.032204,
+        -0.061267,
+        0.119117
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "MSFT",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 498.3,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 74,
+      "feature_schema": 1,
+      "features": [
+        0.74,
+        0.264135,
+        0.36248,
+        0.8234,
+        0.3321,
+        0.1791,
+        0.2416,
+        0.108826,
+        -0.131,
+        0.037717
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "NVDA",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 145.98,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 73,
+      "feature_schema": 1,
+      "features": [
+        0.73,
+        0.160797,
+        0.335183,
+        1.0,
+        1.0,
+        0.9333,
+        0.870067,
+        0.400173,
+        -0.219933,
+        0.020233
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "GOOGL",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 272.66,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 76,
+      "feature_schema": 1,
+      "features": [
+        0.76,
+        0.146757,
+        0.244747,
+        1.0,
+        0.4262,
+        0.2221,
+        0.6128,
+        0.332713,
+        -0.230867,
+        0.030767
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "AMZN",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 257.37,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 83,
+      "feature_schema": 1,
+      "features": [
+        0.83,
+        0.214804,
+        0.121013,
+        0.338,
+        0.2671,
+        0.1535,
+        0.4984,
+        0.103865,
+        -0.2582,
+        0.047017
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "META",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 596.22,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 80,
+      "feature_schema": 1,
+      "features": [
+        0.8,
+        0.209387,
+        0.21738,
+        0.623,
+        0.3027,
+        0.2753,
+        0.198933,
+        0.235438,
+        -0.218067,
+        0.049517
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "AVGO",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 346.65,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 65,
+      "feature_schema": 1,
+      "features": [
+        0.65,
+        0.43723,
+        0.625883,
+        0.8588,
+        0.4391,
+        0.4869,
+        0.667333,
+        0.299697,
+        -0.139333,
+        0.099333
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "TSM",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 352.09,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 67,
+      "feature_schema": 1,
+      "features": [
+        0.67,
+        0.221375,
+        0.380217,
+        1.0,
+        0.4119,
+        0.3617,
+        0.403667,
+        0.8,
+        -0.1936,
+        0.023417
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "AMD",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 489.19,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 53,
+      "feature_schema": 1,
+      "features": [
+        0.53,
+        1.0,
+        0.629253,
+        0.3354,
+        0.1158,
+        0.4187,
+        0.849333,
+        0.257137,
+        -0.514933,
+        0.01725
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "ORCL",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 110.57,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 73,
+      "feature_schema": 1,
+      "features": [
+        0.73,
+        0.182015,
+        0.159927,
+        0.5272,
+        0.4258,
+        0.2162,
+        0.3272,
+        0.558162,
+        -0.194333,
+        0.335767
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "CRM",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 183.31,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 75,
+      "feature_schema": 1,
+      "features": [
+        0.75,
+        0.162181,
+        0.11888,
+        0.4398,
+        0.2015,
+        0.1123,
+        0.395133,
+        0.318829,
+        -0.248267,
+        0.170617
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "ADBE",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 221.68,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 79,
+      "feature_schema": 1,
+      "features": [
+        0.79,
+        0.120864,
+        0.113,
+        0.561,
+        0.6288,
+        0.1203,
+        0.077867,
+        0.388823,
+        -0.1332,
+        0.09015
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "NOW",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 88.87,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 41,
+      "feature_schema": 1,
+      "features": [
+        0.41,
+        0.650743,
+        0.203123,
+        0.1872,
+        0.1149,
+        0.2182,
+        -0.1068,
+        0.492171,
+        -0.1266,
+        0.09575
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "PANW",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 361.73,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 32,
+      "feature_schema": 1,
+      "features": [
+        0.32,
+        1.0,
+        0.7451,
+        0.073,
+        0.0195,
+        0.3029,
+        -0.405733,
+        0.163292,
+        0.427733,
+        0.011217
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "CRWD",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 243.46,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 39,
+      "feature_schema": 1,
+      "features": [
+        0.39,
+        1.0,
+        1.0,
+        0.0216,
+        0.0129,
+        0.243,
+        0.0,
+        0.151677,
+        0.180867,
+        0.024383
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "SHOP",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 131.97,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 57,
+      "feature_schema": 1,
+      "features": [
+        0.57,
+        0.853365,
+        0.426873,
+        0.3002,
+        0.1654,
+        0.3245,
+        0.138467,
+        0.2704,
+        -0.356267,
+        0.0
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "UBER",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 65.6,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 50,
+      "feature_schema": 1,
+      "features": [
+        0.5,
+        0.383137,
+        0.078287,
+        0.1226,
+        0.1298,
+        0.1394,
+        -0.522733,
+        0.294039,
+        -0.3064,
+        0.094383
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "NFLX",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 58.46,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 73,
+      "feature_schema": 1,
+      "features": [
+        0.73,
+        0.165936,
+        0.164227,
+        0.5938,
+        0.5041,
+        0.1465,
+        0.297133,
+        0.492755,
+        -0.151533,
+        0.086117
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "COST",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 1093.83,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 50,
+      "feature_schema": 1,
+      "features": [
+        0.5,
+        0.526712,
+        0.053433,
+        0.0608,
+        0.2802,
+        0.1014,
+        0.0934,
+        0.026556,
+        -0.016933,
+        0.028683
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "WMT",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 126.04,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 51,
+      "feature_schema": 1,
+      "features": [
+        0.51,
+        0.445314,
+        0.044533,
+        0.06,
+        0.2274,
+        0.0616,
+        0.027533,
+        0.067476,
+        -0.069067,
+        0.097117
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "HD",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 336.68,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 64,
+      "feature_schema": 1,
+      "features": [
+        0.64,
+        0.234258,
+        0.065393,
+        0.1674,
+        0.9336,
+        0.0303,
+        -0.0124,
+        0.153283,
+        -0.018933,
+        0.482367
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "MCD",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 272.35,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 76,
+      "feature_schema": 1,
+      "features": [
+        0.76,
+        0.215039,
+        0.232053,
+        0.6474,
+        0.9513,
+        0.0578,
+        0.051867,
+        0.203072,
+        -0.040867,
+        1.0
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "V",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 402.25,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 71,
+      "feature_schema": 1,
+      "features": [
+        0.71,
+        0.330509,
+        0.564107,
+        1.0,
+        0.6452,
+        0.1476,
+        0.1234,
+        0.090396,
+        -0.208267,
+        0.101867
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "MA",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 626.5,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 71,
+      "feature_schema": 1,
+      "features": [
+        0.71,
+        0.330516,
+        0.514853,
+        0.9346,
+        1.0,
+        0.153,
+        0.1486,
+        0.081365,
+        -0.1748,
+        0.5908
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "JPM",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 320.22,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 86,
+      "feature_schema": 1,
+      "features": [
+        0.86,
+        0.131772,
+        0.096532,
+        0.665291,
+        0.1791,
+        1.0,
+        0.1192,
+        0.126276,
+        -0.08,
+        0.552717
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "BRK.B",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 572.04,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 62,
+      "feature_schema": 1,
+      "features": [
+        0.62,
+        0.142911,
+        0.10621,
+        0.446,
+        0.1187,
+        0.0393,
+        0.2422,
+        0.8,
+        -0.029933,
+        0.02865
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "BAC",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 48.57,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 79,
+      "feature_schema": 1,
+      "features": [
+        0.79,
+        0.10515,
+        0.077625,
+        0.6031,
+        0.1069,
+        0.993671,
+        0.096867,
+        0.255347,
+        -0.046333,
+        0.391083
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "GS",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 847.53,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 79,
+      "feature_schema": 1,
+      "features": [
+        0.79,
+        0.113607,
+        0.059723,
+        0.3154,
+        0.179,
+        0.105,
+        0.2642,
+        0.265566,
+        -0.195867,
+        1.0
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "UNH",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 330.48,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 52,
+      "feature_schema": 1,
+      "features": [
+        0.52,
+        0.214571,
+        0.025267,
+        0.0706,
+        0.161,
+        0.0333,
+        -0.057267,
+        0.284086,
+        -0.3702,
+        0.118967
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "JNJ",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 267.14,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 52,
+      "feature_schema": 1,
+      "features": [
+        0.52,
+        0.411494,
+        0.222243,
+        0.324,
+        0.1955,
+        0.078,
+        -0.242733,
+        0.079619,
+        -0.135933,
+        0.091283
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "ABBV",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 283.54,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 63,
+      "feature_schema": 1,
+      "features": [
+        0.63,
+        0.488838,
+        0.255277,
+        0.3134,
+        0.9559,
+        0.1068,
+        1.0,
+        0.064008,
+        -0.0576,
+        1.0
+      ],
+      "quote_source": "Finnhub"
+    },
+    {
+      "week": "2026-11-16",
+      "symbol": "LLY",
+      "observed_at": "2026-11-19T22:13:01Z",
+      "quote_at": "2026-11-19T21:00:00Z",
+      "reference_price": 1351.12,
+      "benchmark_symbol": "SPY",
+      "benchmark_price": 715.87,
+      "benchmark_quote_at": "2026-11-19T21:00:00Z",
+      "score_at_signal": 65,
+      "feature_schema": 1,
+      "features": [
+        0.65,
+        0.471657,
+        0.501497,
+        0.638,
+        0.8365,
+        0.4551,
+        0.337667,
+        0.084142,
+        -0.152467,
+        0.204867
+      ],
+      "quote_source": "Finnhub"
     }
   ]
 }

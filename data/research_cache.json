@@ -1486,8 +1486,502 @@
           "symbol": "MA"
         }
       ]
+    },
+    "JPM": {
+      "metrics": {
+        "52WeekHigh": 366.5,
+        "52WeekLow": 279.1,
+        "peTTM": 13.1772,
+        "psTTM": 2.89596,
+        "netProfitMarginTTM": 33.26454,
+        "roeTTM": 17.91,
+        "revenueGrowthTTMYoy": 108.9793,
+        "epsGrowthTTMYoy": 17.88,
+        "totalDebt/totalEquityQuarterly": 3.3163,
+        "marketCapitalization": 869420.0
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "JPMorgan Chase & Co.",
+      "profile": {
+        "weburl": "https://www.jpmorganchase.com"
+      },
+      "news": [
+        {
+          "headline": "Can banks provide the added security AI assistants require?",
+          "url": "https://finnhub.io/api/news?id=acd47b939a09ff00e04495fd31f5fbf940597cfaa3314a6886f76e3987ed63cc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:33:45Z",
+          "primary": false,
+          "symbol": "JPM"
+        },
+        {
+          "headline": "3 Dow Dividend Passive Income Stocks for Retirement, Led by a 64-Year Streak",
+          "url": "https://finnhub.io/api/news?id=2e35dc99458cbde1baf01b504b6ade172b88e6d3936b028ad96612f99128b447",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:32:19Z",
+          "primary": false,
+          "symbol": "JPM"
+        },
+        {
+          "headline": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
+          "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:29:13Z",
+          "primary": false,
+          "symbol": "JPM"
+        },
+        {
+          "headline": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
+          "url": "https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:23:00Z",
+          "primary": false,
+          "symbol": "JPM"
+        },
+        {
+          "headline": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+          "url": "https://finnhub.io/api/news?id=b5bc2fe9188d18fadd0ed4f5289566287c68f9bacf2ce56fc5e6f5f49edd8012",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:15:32Z",
+          "primary": false,
+          "symbol": "JPM"
+        }
+      ]
+    },
+    "BRK.B": {
+      "metrics": {
+        "52WeekHigh": 894950.0,
+        "52WeekLow": 698000.0,
+        "peTTM": 14.2911,
+        "psTTM": 3.1863,
+        "netProfitMarginTTM": 22.3,
+        "roeTTM": 11.87,
+        "revenueGrowthTTMYoy": 3.93,
+        "epsGrowthTTMYoy": 36.33,
+        "currentRatioQuarterly": 1.228,
+        "totalDebt/totalEquityQuarterly": 0.1719,
+        "marketCapitalization": 1225722.8
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "Berkshire Hathaway Inc",
+      "profile": {
+        "weburl": "https://www.berkshirehathaway.com/"
+      },
+      "news": [
+        {
+          "headline": "What State Street Financial SPDR ETF (XLF) Sold: Berkshire Leads on Tuesday",
+          "url": "https://finnhub.io/api/news?id=c7dc414bfb2ae44d21f936672272c964fafecdfbb2d07837aeb8dd7ac034378f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:06:15Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "What Berkshire Hathaway's Third-Quarter Report Says About Its Insurance Business",
+          "url": "https://finnhub.io/api/news?id=bb58c2c21870da32866a8d57a60c6f92bd786f487079be130efc3d853677f3a2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:50:02Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "Warren Buffett Paid $1.3 Billion for Coca-Cola. Here's What It Now Pays Berkshire Hathaway in Yearly Dividends.",
+          "url": "https://finnhub.io/api/news?id=4bc321b29ec9bf3338b1e21c7cddc7c5d97a895c5f3ba7c55b59f6dcc8c330cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:25:02Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "Berkshire Hathaway (BRK.A) Stock May Be 25% Undervalued Following $9.6 Billion Buybacks",
+          "url": "https://finnhub.io/api/news?id=f8499597b7bf4abb95126ed489d28b8d7c83cf89f8942f2e6ed7dc20246b7417",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:08:07Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "Berkshire’s stake in this stock was worth $30B. Now it’s $8B",
+          "url": "https://finnhub.io/api/news?id=598306946a1fc36510ede9d6e218a0cdee213163a427082ff51a9079c52f23ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T05:03:00Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        }
+      ]
+    },
+    "BAC": {
+      "metrics": {
+        "52WeekHigh": 65.225,
+        "52WeekLow": 46.12,
+        "peTTM": 10.515,
+        "psTTM": 2.32875,
+        "netProfitMarginTTM": 30.15501,
+        "roeTTM": 10.69,
+        "revenueGrowthTTMYoy": 99.36713,
+        "epsGrowthTTMYoy": 14.53,
+        "totalDebt/totalEquityQuarterly": 2.3465,
+        "marketCapitalization": 337730.72
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "Bank of America Corporation",
+      "profile": {
+        "weburl": "https://www.bankofamerica.com"
+      },
+      "news": [
+        {
+          "headline": "U.S. banks have another strong year in sight. But what could go wrong?",
+          "url": "https://finnhub.io/api/news?id=5543114188b6a86fe6e3266480d7148540927d8766a0c1164ebc0f07cc00923f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:27:41Z",
+          "primary": false,
+          "symbol": "BAC"
+        },
+        {
+          "headline": "MongoDB faces lower expectations ahead of earnings as Bank of America cuts price target",
+          "url": "https://finnhub.io/api/news?id=84ad69ff38da23e1319e9f9fbe69df08006eeda5373b7924fce8a1e7551e5266",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:55:00Z",
+          "primary": false,
+          "symbol": "BAC"
+        },
+        {
+          "headline": "Bank of America Corporation (BAC): One of the Best Affordable Blue Chip Stock to Buy Now",
+          "url": "https://finnhub.io/api/news?id=c321cc8debc4aebd5c1c722eff156d60bf503e85d82e4fb4783e4cbf8f7ad66e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:54:20Z",
+          "primary": false,
+          "symbol": "BAC"
+        },
+        {
+          "headline": "Roblox shares face near-term pressure as Bank of America maintains 'neutral' rating",
+          "url": "https://finnhub.io/api/news?id=306cb436582e7e2b50e0a5e737d0157e454ed934f60b0759d91f018596fb1284",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:00Z",
+          "primary": false,
+          "symbol": "BAC"
+        },
+        {
+          "headline": "Is A Fed Hike Still Good News For JPMorgan?",
+          "url": "https://finnhub.io/api/news?id=c1708b11adf4054d47bc5930e838467592c74588a1e2033fea7faef9dca84d76",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:04:25Z",
+          "primary": false,
+          "symbol": "BAC"
+        }
+      ]
+    },
+    "GS": {
+      "metrics": {
+        "52WeekHigh": 1153.99,
+        "52WeekLow": 754.0,
+        "peTTM": 11.3607,
+        "psTTM": 1.7917,
+        "netProfitMarginTTM": 15.77,
+        "roeTTM": 17.9,
+        "revenueGrowthTTMYoy": 10.5,
+        "epsGrowthTTMYoy": 39.63,
+        "currentRatioQuarterly": 0.2999,
+        "totalDebt/totalEquityQuarterly": 11.256,
+        "marketCapitalization": 251855.33
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "The Goldman Sachs Group, Inc.",
+      "profile": {
+        "weburl": "https://www.goldmansachs.com/"
+      },
+      "news": [
+        {
+          "headline": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
+          "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:15:00Z",
+          "primary": false,
+          "symbol": "GS"
+        },
+        {
+          "headline": "U.S. banks have another strong year in sight. But what could go wrong?",
+          "url": "https://finnhub.io/api/news?id=5543114188b6a86fe6e3266480d7148540927d8766a0c1164ebc0f07cc00923f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:27:41Z",
+          "primary": false,
+          "symbol": "GS"
+        },
+        {
+          "headline": "Ken Fisher Is Betting on Goldman Sachs (GS) Ahead of a Midterm Rally – Here’s Why",
+          "url": "https://finnhub.io/api/news?id=97af02a1e4f4d3b85efd025eadac2903b015a395d236cde401239bdfd7662ea4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:13Z",
+          "primary": false,
+          "symbol": "GS"
+        },
+        {
+          "headline": "Two Big Winners of the Anthropic IPO",
+          "url": "https://finnhub.io/api/news?id=c767471cd9a80521e7c7fba3d3dd8ef851bac6c43e183595cb61b473a6d93063",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:27:29Z",
+          "primary": false,
+          "symbol": "GS"
+        },
+        {
+          "headline": "Goldman Sachs Forecasts 17% S&P 500 Rally in 2027 as AI Investment Supports Earnings Growth",
+          "url": "https://finnhub.io/api/news?id=8a254ce166939f6a4020bdc754072fa8c9175469c4549cd372c5e01b995a239f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:50:26Z",
+          "primary": false,
+          "symbol": "GS"
+        }
+      ]
+    },
+    "UNH": {
+      "metrics": {
+        "52WeekHigh": 461.62,
+        "52WeekLow": 255.97,
+        "peTTM": 21.4571,
+        "psTTM": 0.758,
+        "netProfitMarginTTM": 3.53,
+        "roeTTM": 16.1,
+        "revenueGrowthTTMYoy": 3.33,
+        "epsGrowthTTMYoy": -8.59,
+        "currentRatioQuarterly": 0.7762,
+        "totalDebt/totalEquityQuarterly": 0.7138,
+        "marketCapitalization": 340824.47
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "UnitedHealth Group Incorporated",
+      "profile": {
+        "weburl": "https://www.unitedhealthgroup.com"
+      },
+      "news": [
+        {
+          "headline": "Stock Market Today: Major Indexes, AI Players Slide After Anthropic's Debut (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=422c90ba772818c79ba97a5fef6bd8e998e777547d45577c26d0ac7d0f70f663",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:33:53Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "Clark Howard Says 3 Million Seniors Just Got Dumped by Medicare Advantage and Have Two Months to Act",
+          "url": "https://finnhub.io/api/news?id=01076089fb29ccace3d4752a81f918cc6b6742f0cff09b1c913e9485b74a421e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:40:12Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "Stock Market Today: Indexes Fall As Anthropic Starts Trading; These Players Hit Sell-Rule Alarms (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=31ee865761258ac8302e635aa38e693fffbf08054c6e041fa0e1bb6b47996f81",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:04:31Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "Managed Care and Pharmacy Benefit Scale Keep UnitedHealth Group (UNH) Attractively Valued",
+          "url": "https://finnhub.io/api/news?id=07674e667d47b60c62a4e0c27fc4e725dc25c42df7ac005f7e7927d28fd27014",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:39:05Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "Before the Bell: Rate-Hike Signals, Health Insurer Losses and Cyber Gains",
+          "url": "https://finnhub.io/api/news?id=4203198d812eaea050e1ec0c11c9f29b45782e5643ed928a11ea1ed474072797",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:15:00Z",
+          "primary": false,
+          "symbol": "UNH"
+        }
+      ]
+    },
+    "JNJ": {
+      "metrics": {
+        "52WeekHigh": 290.2495,
+        "52WeekLow": 198.53,
+        "peTTM": 41.1494,
+        "psTTM": 6.6673,
+        "netProfitMarginTTM": 16.2,
+        "roeTTM": 19.55,
+        "revenueGrowthTTMYoy": 7.8,
+        "epsGrowthTTMYoy": -36.41,
+        "currentRatioQuarterly": 1.0161,
+        "totalDebt/totalEquityQuarterly": 0.5477,
+        "marketCapitalization": 662299.25
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "Johnson & Johnson",
+      "profile": {
+        "weburl": "https://www.jnj.com/"
+      },
+      "news": [
+        {
+          "headline": "Sector Update: Healthcare Stocks Retreat Late Afternoon",
+          "url": "https://finnhub.io/api/news?id=a15e2431317a87fd245912d737db8aa9aabc19ec5b4091597e60ee64b379ac60",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:51:59Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "3 Dow Dividend Passive Income Stocks for Retirement, Led by a 64-Year Streak",
+          "url": "https://finnhub.io/api/news?id=2e35dc99458cbde1baf01b504b6ade172b88e6d3936b028ad96612f99128b447",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:32:19Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "Best Blue Chip Stocks: 21 Hedge Fund Top Picks",
+          "url": "https://finnhub.io/api/news?id=cb0cdeec4d7d60cdf6d62087606fd8ce868e66aab5d7deaf3bc7bdc4cd6e778e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:46:25Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "Sector Update: Healthcare Stocks Softer in Afternoon Trading",
+          "url": "https://finnhub.io/api/news?id=9b3285df69666ca3b7acf443ee1b4322e9e8d7c4c1e4119793c0ca5ee1b52fa1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:32:11Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "How Retirees Can Turn $1 Million Into Passive Income With These 5 Dividend Stocks",
+          "url": "https://finnhub.io/api/news?id=7142db15103cecd87c81a4ff56ae96bb9bef1a8dc3233e0102eea20c3c2bdd54",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:00:50Z",
+          "primary": false,
+          "symbol": "JNJ"
+        }
+      ]
+    },
+    "ABBV": {
+      "metrics": {
+        "52WeekHigh": 302.93,
+        "52WeekLow": 190.75,
+        "peTTM": 48.8838,
+        "psTTM": 7.6583,
+        "netProfitMarginTTM": 15.67,
+        "roeTTM": 95.59,
+        "revenueGrowthTTMYoy": 10.68,
+        "epsGrowthTTMYoy": 332.88,
+        "currentRatioQuarterly": 0.8696,
+        "totalDebt/totalEquityQuarterly": 49.2176,
+        "marketCapitalization": 505555.94
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "AbbVie Inc.",
+      "profile": {
+        "weburl": "https://www.abbvie.com/"
+      },
+      "news": [
+        {
+          "headline": "Senate Nears a Vote on a Landmark Permitting Bill. Here’s Who Could Benefit.",
+          "url": "https://finnhub.io/api/news?id=27aae0d5bc00863eccb34a7b4761df15fedd7290984bbf8692fb7670a137a94b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:07:00Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "Does AbbVie (ABBV) Need This New Solid Tumor Cancer Partnership?",
+          "url": "https://finnhub.io/api/news?id=9a7e4729dcec55932965efd4bce692996ca887dc536a968c1bdf56098da36468",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:11:41Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "PFE Inks $2.6B Licensing Deal With Chinese Biotech for CAR-T Therapies",
+          "url": "https://finnhub.io/api/news?id=308fd906c230c04805662da12c581be700d65aba96c3d91baa92ebab3c25a388",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:22:00Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "AbbVie and Disco ink $2.5bn pact for next-generation cancer bispecifics",
+          "url": "https://finnhub.io/api/news?id=821c85dc0d45c2a407fe6c9c55e56eef58dae4f71c6aab3272530165f467d11f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:33:40Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "Eli Lilly Stopped Touting Dose Counts. Should You Worry?",
+          "url": "https://finnhub.io/api/news?id=ea7782c57ffe7bac810f6b3440f1d7c82ad7a200d5f5f90a5beb47aed9b03c57",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:09:30Z",
+          "primary": false,
+          "symbol": "ABBV"
+        }
+      ]
+    },
+    "LLY": {
+      "metrics": {
+        "52WeekHigh": 1475.25,
+        "52WeekLow": 850.51,
+        "peTTM": 47.1657,
+        "psTTM": 15.0449,
+        "netProfitMarginTTM": 31.9,
+        "roeTTM": 83.65,
+        "revenueGrowthTTMYoy": 45.51,
+        "epsGrowthTTMYoy": 50.65,
+        "currentRatioQuarterly": 1.3887,
+        "totalDebt/totalEquityQuarterly": 1.2292,
+        "marketCapitalization": 1300815.1
+      },
+      "updated_at": "2026-11-19T22:13:01Z",
+      "name": "Eli Lilly and Company",
+      "profile": {
+        "weburl": "https://www.lilly.com/"
+      },
+      "news": [
+        {
+          "headline": "Healthcare ETFs Shine as Investors Rotate Out of Tech",
+          "url": "https://finnhub.io/api/news?id=bbbb6331adae3d0f2d378612fc20739d8394d0f1201fda41aabb435df9dbad31",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:47:00Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
+        {
+          "headline": "Best Blue Chip Stocks: 21 Hedge Fund Top Picks",
+          "url": "https://finnhub.io/api/news?id=cb0cdeec4d7d60cdf6d62087606fd8ce868e66aab5d7deaf3bc7bdc4cd6e778e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:46:25Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
+        {
+          "headline": "Eli Lilly (LLY) – The Only Healthcare Name in Ken Fisher’s Fastest-Growing Top Positions",
+          "url": "https://finnhub.io/api/news?id=8c4a7a48d9bffe78ea8eb8589ee589fb9a9fbf17ac51f6ed4a17fc88e8a43a2e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:17:58Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
+        {
+          "headline": "$1,000 Invested in Eli Lilly 10 Years Ago Would Be Worth a Fortune Today",
+          "url": "https://finnhub.io/api/news?id=053647133e25bcfd0a4e91b82ce148fe5a99658d53ebcb1aeeb6bce57612e791",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:17:41Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
+        {
+          "headline": "PFE Inks $2.6B Licensing Deal With Chinese Biotech for CAR-T Therapies",
+          "url": "https://finnhub.io/api/news?id=308fd906c230c04805662da12c581be700d65aba96c3d91baa92ebab3c25a388",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:22:00Z",
+          "primary": false,
+          "symbol": "LLY"
+        }
+      ]
     }
   },
-  "cursor": 24,
-  "updated_at": "2026-11-19T21:58:13Z"
+  "cursor": 32,
+  "updated_at": "2026-11-19T22:13:01Z"
 }

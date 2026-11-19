@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T21:58:13Z",
+  "generated_at": "2026-11-19T22:13:01Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T21:58:13Z",
+      "checked_at": "2026-11-19T22:13:01Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T21:58:13Z",
+      "checked_at": "2026-11-19T22:13:01Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T21:58:13Z",
+      "checked_at": "2026-11-19T22:13:01Z",
       "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-19T21:58:13Z",
+      "checked_at": "2026-11-19T22:13:01Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-19T21:58:13Z",
+      "checked_at": "2026-11-19T22:13:01Z",
       "error": ""
     }
   ],
@@ -1191,11 +1191,68 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-19T21:58:13Z",
+    "generated_at": "2026-11-19T22:13:01Z",
     "universe_size": 53,
-    "screened_with_financials": 24,
+    "screened_with_financials": 32,
     "updated_company_metrics_this_scan": 8,
     "candidates": [
+      {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase & Co.",
+        "status": "INVESTIGATE",
+        "score": 86,
+        "why": "Net profit margin 33.3% (TTM); Return on equity 17.9% (TTM); Trailing P/E 13.2×; TTM revenue growth 109.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$320.22",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T22:13:01Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Can banks provide the added security AI assistants require?",
+            "timestamp": "2026-11-19T20:33:45Z",
+            "url": "https://finnhub.io/api/news?id=acd47b939a09ff00e04495fd31f5fbf940597cfaa3314a6886f76e3987ed63cc"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T22:13:01Z",
+        "price": 320.22,
+        "currency": "USD",
+        "change_pct": -1.2,
+        "news": [
+          {
+            "headline": "Can banks provide the added security AI assistants require?",
+            "url": "https://finnhub.io/api/news?id=acd47b939a09ff00e04495fd31f5fbf940597cfaa3314a6886f76e3987ed63cc",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T20:33:45Z",
+            "primary": false,
+            "symbol": "JPM"
+          },
+          {
+            "headline": "3 Dow Dividend Passive Income Stocks for Retirement, Led by a 64-Year Streak",
+            "url": "https://finnhub.io/api/news?id=2e35dc99458cbde1baf01b504b6ade172b88e6d3936b028ad96612f99128b447",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T20:32:19Z",
+            "primary": false,
+            "symbol": "JPM"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 86,
+        "rank_method": "FINANCIAL RULES"
+      },
       {
         "symbol": "AMZN",
         "name": "Amazon.com Inc",
@@ -1249,7 +1306,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 83,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "META",
@@ -1304,7 +1363,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 80,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "ADBE",
@@ -1359,7 +1420,123 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "BAC",
+        "name": "Bank of America Corporation",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "why": "Net profit margin 30.2% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.5×; TTM revenue growth 99.4% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$48.57",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T22:13:01Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "U.S. banks have another strong year in sight. But what could go wrong?",
+            "timestamp": "2026-11-19T19:27:41Z",
+            "url": "https://finnhub.io/api/news?id=5543114188b6a86fe6e3266480d7148540927d8766a0c1164ebc0f07cc00923f"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T22:13:01Z",
+        "price": 48.57,
+        "currency": "USD",
+        "change_pct": -0.695,
+        "news": [
+          {
+            "headline": "U.S. banks have another strong year in sight. But what could go wrong?",
+            "url": "https://finnhub.io/api/news?id=5543114188b6a86fe6e3266480d7148540927d8766a0c1164ebc0f07cc00923f",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:27:41Z",
+            "primary": false,
+            "symbol": "BAC"
+          },
+          {
+            "headline": "MongoDB faces lower expectations ahead of earnings as Bank of America cuts price target",
+            "url": "https://finnhub.io/api/news?id=84ad69ff38da23e1319e9f9fbe69df08006eeda5373b7924fce8a1e7551e5266",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:55:00Z",
+            "primary": false,
+            "symbol": "BAC"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "GS",
+        "name": "The Goldman Sachs Group, Inc.",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "why": "Net profit margin 15.8% (TTM); Return on equity 17.9% (TTM); Trailing P/E 11.4×; TTM revenue growth 10.5% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$847.53",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T22:13:01Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
+            "timestamp": "2026-11-19T21:15:00Z",
+            "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T22:13:01Z",
+        "price": 847.53,
+        "currency": "USD",
+        "change_pct": -2.938,
+        "news": [
+          {
+            "headline": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
+            "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:15:00Z",
+            "primary": false,
+            "symbol": "GS"
+          },
+          {
+            "headline": "U.S. banks have another strong year in sight. But what could go wrong?",
+            "url": "https://finnhub.io/api/news?id=5543114188b6a86fe6e3266480d7148540927d8766a0c1164ebc0f07cc00923f",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:27:41Z",
+            "primary": false,
+            "symbol": "GS"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "GOOGL",
@@ -1414,7 +1591,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "MCD",
@@ -1469,7 +1648,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "CRM",
@@ -1524,7 +1705,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "MSFT",
@@ -1579,7 +1762,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 74,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "NVDA",
@@ -1634,7 +1819,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "ORCL",
@@ -1690,7 +1877,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "NFLX",
@@ -1746,7 +1935,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "V",
@@ -1801,7 +1992,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 71,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "MA",
@@ -1856,7 +2049,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 71,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "TSM",
@@ -1912,7 +2107,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 67,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "AVGO",
@@ -1968,7 +2165,67 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 65,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "LLY",
+        "name": "Eli Lilly and Company",
+        "status": "WATCH",
+        "score": 65,
+        "why": "Net profit margin 31.9% (TTM); Return on equity 83.7% (TTM); Trailing P/E 47.2×; TTM revenue growth 45.5% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "High sales multiple"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$1351.12",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 essential fields available",
+            "timestamp": "2026-11-19T22:13:01Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Healthcare ETFs Shine as Investors Rotate Out of Tech",
+            "timestamp": "2026-11-19T20:47:00Z",
+            "url": "https://finnhub.io/api/news?id=bbbb6331adae3d0f2d378612fc20739d8394d0f1201fda41aabb435df9dbad31"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-19T22:13:01Z",
+        "price": 1351.12,
+        "currency": "USD",
+        "change_pct": -2.287,
+        "news": [
+          {
+            "headline": "Healthcare ETFs Shine as Investors Rotate Out of Tech",
+            "url": "https://finnhub.io/api/news?id=bbbb6331adae3d0f2d378612fc20739d8394d0f1201fda41aabb435df9dbad31",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T20:47:00Z",
+            "primary": false,
+            "symbol": "LLY"
+          },
+          {
+            "headline": "Best Blue Chip Stocks: 21 Hedge Fund Top Picks",
+            "url": "https://finnhub.io/api/news?id=cb0cdeec4d7d60cdf6d62087606fd8ce868e66aab5d7deaf3bc7bdc4cd6e778e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:46:25Z",
+            "primary": false,
+            "symbol": "LLY"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 65,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "AAPL",
@@ -2023,7 +2280,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 64,
+        "rank_method": "FINANCIAL RULES"
       },
       {
         "symbol": "HD",
@@ -2078,231 +2337,9 @@
           }
         ],
         "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc.",
-        "status": "LOW PRIORITY",
-        "score": 57,
-        "why": "Net profit margin 15.0% (TTM); Return on equity 16.5% (TTM); Trailing P/E 85.3×; TTM revenue growth 32.5% YoY",
-        "risks": [
-          "High trailing earnings valuation",
-          "High sales multiple"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$131.97",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:53:49Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Shop Pay Inclusion in Meta’s Muse AI Agent Reinforces AI Growth Thesis for Shopify (SHOP)",
-            "timestamp": "2026-11-19T16:30:40Z",
-            "url": "https://finnhub.io/api/news?id=f8b1e959fba9f1fd1ffd0975133539bb41b6bbc0db88008f4b621f3e17641026"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
-        "price": 131.97,
-        "currency": "USD",
-        "change_pct": -5.344,
-        "news": [
-          {
-            "headline": "Shop Pay Inclusion in Meta’s Muse AI Agent Reinforces AI Growth Thesis for Shopify (SHOP)",
-            "url": "https://finnhub.io/api/news?id=f8b1e959fba9f1fd1ffd0975133539bb41b6bbc0db88008f4b621f3e17641026",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T16:30:40Z",
-            "primary": false,
-            "symbol": "SHOP"
-          },
-          {
-            "headline": "An $18 Billion Hedge Fund Just Bought These 3 Stocks",
-            "url": "https://finnhub.io/api/news?id=35322179be625b519e126f14ce4a9ab04d4c0db919a2e3d47c3d040d751f7cfd",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T16:10:22Z",
-            "primary": false,
-            "symbol": "SHOP"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "status": "LOW PRIORITY",
-        "score": 53,
-        "why": "Net profit margin 16.8% (TTM); Return on equity 11.6% (TTM); Trailing P/E 112.6×; TTM revenue growth 41.9% YoY",
-        "risks": [
-          "High trailing earnings valuation",
-          "High sales multiple",
-          "Large one-session price move (-7.7%)"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$489.19",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:53:49Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
-            "timestamp": "2026-11-19T19:54:25Z",
-            "url": "https://finnhub.io/api/news?id=204e1b3db81f63571ad455ae5e081f481f4568e77a71d7b09278754a3a87db7e"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
-        "price": 489.19,
-        "currency": "USD",
-        "change_pct": -7.724,
-        "news": [
-          {
-            "headline": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
-            "url": "https://finnhub.io/api/news?id=204e1b3db81f63571ad455ae5e081f481f4568e77a71d7b09278754a3a87db7e",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T19:54:25Z",
-            "primary": false,
-            "symbol": "AMD"
-          },
-          {
-            "headline": "Billionaire Stanley Druckenmiller Cut TSMC 94% in One Quarter, Leaving Just $14.9 Million",
-            "url": "https://finnhub.io/api/news?id=eb77753cac79e94cc854f23a10a3f565a7b6761a2b976b593310ccc7a3a3804a",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T19:46:51Z",
-            "primary": false,
-            "symbol": "AMD"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-      },
-      {
-        "symbol": "WMT",
-        "name": "Walmart Inc.",
-        "status": "LOW PRIORITY",
-        "score": 51,
-        "why": "Net profit margin 3.0% (TTM); Return on equity 22.7% (TTM); Trailing P/E 44.5×; TTM revenue growth 6.2% YoY",
-        "risks": [
-          "High trailing earnings valuation"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$126.04",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:58:13Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
-            "timestamp": "2026-11-19T19:26:55Z",
-            "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:58:13Z",
-        "price": 126.04,
-        "currency": "USD",
-        "change_pct": -1.036,
-        "news": [
-          {
-            "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
-            "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T19:26:55Z",
-            "primary": false,
-            "symbol": "WMT"
-          },
-          {
-            "headline": "Walmart’s CEO Revealed the Diesel Price That Could End the Company’s Low-Price Streak",
-            "url": "https://finnhub.io/api/news?id=24f94b72b2d491a2671d568cfe9325bb7ebbfb9b227053897a4327644bd090b0",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T19:19:32Z",
-            "primary": false,
-            "symbol": "WMT"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
-      },
-      {
-        "symbol": "UBER",
-        "name": "Uber Technologies, Inc.",
-        "status": "LOW PRIORITY",
-        "score": 50,
-        "why": "Net profit margin 6.1% (TTM); Return on equity 13.0% (TTM); Trailing P/E 38.3×; TTM revenue growth 13.9% YoY",
-        "risks": [
-          "Earnings per share declining",
-          "Price near reported 52-week low"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$65.60",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 essential fields available",
-            "timestamp": "2026-11-19T21:58:13Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
-            "timestamp": "2026-11-19T18:15:35Z",
-            "url": "https://finnhub.io/api/news?id=842cca2c6ccb7a2b713da05d84011cc5427bdae757bf67ceb80e407856897465"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:58:13Z",
-        "price": 65.6,
-        "currency": "USD",
-        "change_pct": -4.596,
-        "news": [
-          {
-            "headline": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
-            "url": "https://finnhub.io/api/news?id=842cca2c6ccb7a2b713da05d84011cc5427bdae757bf67ceb80e407856897465",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:15:35Z",
-            "primary": false,
-            "symbol": "UBER"
-          },
-          {
-            "headline": "$100K In Anthropic Stock: Buy Now Or Wait?",
-            "url": "https://finnhub.io/api/news?id=2973eced62c2247f92bc7999d58401a4c9457239fbea02cec302f075fbb3910e",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T16:06:50Z",
-            "primary": false,
-            "symbol": "UBER"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate."
+        "limitations": "A rules-based ranking, not an AI forecast or verified intrinsic-value estimate.",
+        "ranking_score": 64,
+        "rank_method": "FINANCIAL RULES"
       }
     ],
     "daily_movers": [
@@ -2630,6 +2667,17 @@
       "note": "Broad diversified funds may suit long-term investing; a high score does not prove an undervalued company."
     },
     "urgent_alerts": [],
+    "learning": {
+      "status": "COLLECTING",
+      "model_active": false,
+      "recorded_signals": 32,
+      "matured_outcomes": 0,
+      "matured_weeks": 0,
+      "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
+      "validation": null,
+      "last_review_week": null,
+      "observed_weeks": 1
+    },
     "research_log": [
       {
         "week": "2026-11-16",
@@ -2670,11 +2718,35 @@
         "reference_price": 272.35,
         "score": 76,
         "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "JPM",
+        "flagged_at": "2026-11-19T22:13:01Z",
+        "reference_price": 320.22,
+        "score": 86,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "BAC",
+        "flagged_at": "2026-11-19T22:13:01Z",
+        "reference_price": 48.57,
+        "score": 79,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "GS",
+        "flagged_at": "2026-11-19T22:13:01Z",
+        "reference_price": 847.53,
+        "score": 79,
+        "price_at": "2026-11-19T21:00:00Z"
       }
     ],
     "limitations": [
       "No guaranteed real-time prices or complete market coverage.",
-      "These are rules-based research ranks, NOT predictive AI recommendations or expected returns.",
+      "Machine learning can influence up to 20% of ranking only after positive chronological validation; these are NOT predictions of gains.",
       "Latest available financial data may be delayed or incomplete; timestamps and quality gates apply.",
       "Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends."
     ]
@@ -2682,7 +2754,7 @@
   "priorities": [],
   "warnings": [
     "This scanner is best effort and does not monitor every market or source.",
-    "Rules-based research rankings are NOT predictions or investment recommendations.",
+    "Machine learning rankings remain disabled until sufficient real forward validation exists. No profit forecasts or trade recommendations.",
     "Prices are not NZD and may be delayed or unavailable. NZX prices are not currently supplied."
   ]
 }
