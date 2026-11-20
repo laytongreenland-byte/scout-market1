@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T05:58:15Z",
+  "generated_at": "2026-11-20T06:02:33Z",
   "status": "ok",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T05:58:15Z",
+      "checked_at": "2026-11-20T06:02:33Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T05:58:15Z",
+      "checked_at": "2026-11-20T06:02:33Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-20T05:58:15Z",
+      "checked_at": "2026-11-20T06:02:33Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T05:58:15Z",
+      "checked_at": "2026-11-20T06:02:33Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T05:58:15Z",
+      "checked_at": "2026-11-20T06:02:33Z",
       "error": ""
     }
   ],
@@ -1550,7 +1550,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T05:58:15Z",
+    "generated_at": "2026-11-20T06:02:33Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1944,14 +1944,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
+          "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 266.41,
           "entry_floor": 239.77,
           "exit_review_low": 341.55,
           "exit_review_high": 404.35,
           "bear_case": 189.66,
           "scenario_upside_pct": 54.1,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -2434,14 +2434,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
+          "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 319.26,
           "entry_floor": 287.33,
           "exit_review_low": 409.3,
           "exit_review_high": 499.85,
           "bear_case": 217.04,
           "scenario_upside_pct": 50.1,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -2484,7 +2484,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T02:24:26Z",
+            "timestamp": "2026-11-20T06:02:33Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2495,7 +2495,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T02:24:26Z",
+        "fundamentals_at": "2026-11-20T06:02:33Z",
         "price": 272.35,
         "currency": "USD",
         "change_pct": -0.613,
@@ -2545,7 +2545,7 @@
             "scenario_exit_pe": 16.39,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T02:24:26Z"
+            "metrics_retrieved_at": "2026-11-20T06:02:33Z"
           }
         },
         "ranking_score": 76,
@@ -2869,14 +2869,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
+          "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 171.35,
           "entry_floor": 154.22,
           "exit_review_low": 219.68,
           "exit_review_high": 268.28,
           "bear_case": 116.49,
           "scenario_upside_pct": 50.5,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -3008,7 +3008,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T02:24:26Z",
+            "timestamp": "2026-11-20T06:02:33Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -3019,7 +3019,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T02:24:26Z",
+        "fundamentals_at": "2026-11-20T06:02:33Z",
         "price": 58.46,
         "currency": "USD",
         "change_pct": -2.273,
@@ -3069,7 +3069,7 @@
             "scenario_exit_pe": 18.52,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T02:24:26Z"
+            "metrics_retrieved_at": "2026-11-20T06:02:33Z"
           }
         },
         "ranking_score": 73,
@@ -3302,14 +3302,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
+          "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 266.41,
           "entry_floor": 239.77,
           "exit_review_low": 341.55,
           "exit_review_high": 404.35,
           "bear_case": 189.66,
           "scenario_upside_pct": 54.1,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -3389,14 +3389,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
+          "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 171.35,
           "entry_floor": 154.22,
           "exit_review_low": 219.68,
           "exit_review_high": 268.28,
           "bear_case": 116.49,
           "scenario_upside_pct": 50.5,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -3476,14 +3476,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
+          "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 319.26,
           "entry_floor": 287.33,
           "exit_review_low": 409.3,
           "exit_review_high": 499.85,
           "bear_case": 217.04,
           "scenario_upside_pct": 50.1,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -3615,7 +3615,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T02:24:26Z",
+            "timestamp": "2026-11-20T06:02:33Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -3626,7 +3626,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T02:24:26Z",
+        "fundamentals_at": "2026-11-20T06:02:33Z",
         "price": 58.46,
         "currency": "USD",
         "change_pct": -2.273,
@@ -3676,7 +3676,7 @@
             "scenario_exit_pe": 18.52,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T02:24:26Z"
+            "metrics_retrieved_at": "2026-11-20T06:02:33Z"
           }
         },
         "ranking_score": 73,
