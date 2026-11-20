@@ -7057,8 +7057,739 @@
           "symbol": "BIIB"
         }
       ]
+    },
+    "EMR": {
+      "metrics": {
+        "52WeekHigh": 172.0,
+        "52WeekLow": 122.64,
+        "peTTM": 33.1122,
+        "psTTM": 4.682,
+        "netProfitMarginTTM": 14.14,
+        "roeTTM": 13.139999999999999,
+        "revenueGrowthTTMYoy": 5.37,
+        "epsGrowthTTMYoy": 19.53,
+        "currentRatioQuarterly": 0.9406,
+        "totalDebt/totalEquityQuarterly": 0.587,
+        "marketCapitalization": 88873.195
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Emerson Electric Co",
+      "profile": {
+        "weburl": "https://www.emerson.com/en-us",
+        "industry": "Electrical Equipment",
+        "name": "Emerson Electric Co"
+      },
+      "news": [
+        {
+          "headline": "Emerson and Databricks Collaborate to Bring Industrial and Enterprise AI Together",
+          "url": "https://finnhub.io/api/news?id=9267588765af8d7f79eae1d3c1f41893ba85885b349d6e876203b14ff8e09288",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:00:00Z",
+          "primary": false,
+          "symbol": "EMR"
+        },
+        {
+          "headline": "Emerson Electric (EMR) Completed A €750 Million Eurobond Offering",
+          "url": "https://finnhub.io/api/news?id=e608a13b1273a001c400fecf27252e41bb1c9755ce2ed9cbf8e5c91211e0522e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:14:57Z",
+          "primary": false,
+          "symbol": "EMR"
+        },
+        {
+          "headline": "Emerson and Averna Powered by Spherea Launch Pass/Fail, a Podcast Showcasing the People Behind Test Engineering",
+          "url": "https://finnhub.io/api/news?id=6a8375ad1f2ae6879f495cb96299632a4305fdc7fabc9ce0babe61cf3db35ce5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:04:00Z",
+          "primary": false,
+          "symbol": "EMR"
+        },
+        {
+          "headline": "Emerson Electric (NYSE:EMR): A Quality Investing Candidate Built on Durable Cash Flow",
+          "url": "https://finnhub.io/api/news?id=e6a52be1edf548660ff890dd8af4901b0885d88886d12203f774be90e06339db",
+          "source": "ChartMill",
+          "published_at": "2026-11-17T12:01:17Z",
+          "primary": false,
+          "symbol": "EMR"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Underweight on Emerson Electric, Raises Price Target to $175",
+          "url": "https://finnhub.io/api/news?id=47794ae063a5cc2f9eb3e62d26a7a2da8ddc22b35072ee50ece6ddd53b08ec37",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T07:52:05Z",
+          "primary": false,
+          "symbol": "EMR"
+        }
+      ]
+    },
+    "FANG": {
+      "metrics": {
+        "52WeekHigh": 216.9,
+        "52WeekLow": 139.41,
+        "peTTM": 33.1728,
+        "psTTM": 2.8455,
+        "netProfitMarginTTM": 8.58,
+        "roeTTM": 3.9,
+        "revenueGrowthTTMYoy": 21.45,
+        "epsGrowthTTMYoy": -63.19,
+        "currentRatioQuarterly": 0.5484,
+        "totalDebt/totalEquityQuarterly": 0.3395,
+        "marketCapitalization": 48664.543
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Diamondback Energy, Inc.",
+      "profile": {
+        "weburl": "https://ir.diamondbackenergy.com/",
+        "industry": "Energy",
+        "name": "Diamondback Energy, Inc."
+      },
+      "news": [
+        {
+          "headline": "Diamondback to buy certain Double Eagle subsidiaries in $5bn Permian deal",
+          "url": "https://finnhub.io/api/news?id=bc6ee111cad877a18cc32448ef2d2694c060f29da783ed62422ddb44ec6b26ab",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:21:21Z",
+          "primary": false,
+          "symbol": "FANG"
+        },
+        {
+          "headline": "Bernstein sees gas supercycle intact after Diamondback deal",
+          "url": "https://finnhub.io/api/news?id=0a1f723d6d112e493310fc2c0a3e07084c3f0cf0220ce48108ce149f75a9875d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:59:06Z",
+          "primary": false,
+          "symbol": "FANG"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Diamondback Energy Stock?",
+          "url": "https://finnhub.io/api/news?id=7ffd8d1de230c4bf406ec651359cbdf7a16884265ed2e9b08513c1f11925831a",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:57:41Z",
+          "primary": false,
+          "symbol": "FANG"
+        },
+        {
+          "headline": "Truist Securities Maintains Buy on Diamondback Energy, Raises Price Target to $242",
+          "url": "https://finnhub.io/api/news?id=9c807ba974ff197f18c014284a91308c89d031fa4cadffd60d88ca687d53b17c",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T10:40:45Z",
+          "primary": false,
+          "symbol": "FANG"
+        },
+        {
+          "headline": "Diamondback to acquire Double Eagle Midland Basin assets",
+          "url": "https://finnhub.io/api/news?id=fd3f525f64efef122459e9cba0f4a76d24488a77ad0a375d3685c284f4ec7f83",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T10:23:54Z",
+          "primary": false,
+          "symbol": "FANG"
+        }
+      ]
+    },
+    "MAA": {
+      "metrics": {
+        "52WeekHigh": 144.41,
+        "52WeekLow": 113.95,
+        "peTTM": 33.9981,
+        "psTTM": 5.925,
+        "netProfitMarginTTM": 17.43,
+        "roeTTM": 7.049999999999999,
+        "revenueGrowthTTMYoy": 0.96,
+        "epsGrowthTTMYoy": -29.91,
+        "currentRatioQuarterly": 0.0656,
+        "totalDebt/totalEquityQuarterly": 1.1016,
+        "marketCapitalization": 13180.309
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Mid-America Apartment Communities Inc",
+      "profile": {
+        "weburl": "https://www.maac.com/",
+        "industry": "Real Estate",
+        "name": "Mid-America Apartment Communities Inc"
+      },
+      "news": [
+        {
+          "headline": "Mid-America Apartment Communities, Inc. Details $760.0 Million Active Development Pipeline and Financial Outlook",
+          "url": "https://finnhub.io/api/news?id=732a3cda6f54e929520fb87e1fff001868934432a22854d0c42bb00125ebaa6b",
+          "source": "Fintel",
+          "published_at": "2026-11-17T06:18:42Z",
+          "primary": false,
+          "symbol": "MAA"
+        },
+        {
+          "headline": "Why Morgan Stanley Downgraded Mid-America (MAA) but Still Sees Quality",
+          "url": "https://finnhub.io/api/news?id=516327b7bc418a1a9cb63fa246164f9b23a36f8a290b3bc2fcc9479946e2cfeb",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T21:09:54Z",
+          "primary": false,
+          "symbol": "MAA"
+        },
+        {
+          "headline": "Better High-Yield Dividend Stock: NNN REIT vs. Mid-America Apartment Communities",
+          "url": "https://finnhub.io/api/news?id=6cdc732d955c131ee402d2bf1ff0001c7c18bc47466260013da2c0ac23452251",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T17:54:23Z",
+          "primary": false,
+          "symbol": "MAA"
+        }
+      ]
+    },
+    "CMG": {
+      "metrics": {
+        "52WeekHigh": 41.42,
+        "52WeekLow": 27.31,
+        "peTTM": 33.9396,
+        "psTTM": 3.6765,
+        "netProfitMarginTTM": 10.83,
+        "roeTTM": 55.67999999999999,
+        "revenueGrowthTTMYoy": 7.86,
+        "epsGrowthTTMYoy": -5.98,
+        "currentRatioQuarterly": 0.8102,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 46740.83
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Chipotle Mexican Grill, Inc.",
+      "profile": {
+        "weburl": "https://www.chipotle.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Chipotle Mexican Grill, Inc."
+      },
+      "news": [
+        {
+          "headline": "Chipotle sets another single-day sales record",
+          "url": "https://finnhub.io/api/news?id=6c685ce6c5f34d86a33464e4dc1d5dbdf75331610de3ea98b429e99ffec88b78",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:28:48Z",
+          "primary": false,
+          "symbol": "CMG"
+        },
+        {
+          "headline": "Chipotle Mexican Grill vs. Kraft Heinz: Which Consumer Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=80e1ff6e78e464ddffe5cdd8b40c280b456dfc916323d17c2d817b174cd9160d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:05:02Z",
+          "primary": false,
+          "symbol": "CMG"
+        },
+        {
+          "headline": "Can Brisket Help Chipotle Exit 2026 With 3%-4% Comp Growth?",
+          "url": "https://finnhub.io/api/news?id=7a9a52d75ba53e916823186af7059f9b8e7b7e38f349fbc4cf53325680e0b5c3",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:47:00Z",
+          "primary": false,
+          "symbol": "CMG"
+        },
+        {
+          "headline": "Chipotle Mexican Grill, Inc. (CMG) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finnhub.io/api/news?id=e3a336e8a46ede17a11d4a5d36c896e5a832081ebf89bf64bca9938a07105780",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:00:03Z",
+          "primary": false,
+          "symbol": "CMG"
+        },
+        {
+          "headline": "SMOOTHIE KING DELIVERS 8.7% Q3 SAME-STORE SALES GROWTH, OUTPACING STARBUCKS, CHIPOTLE AND CAVA AS DEMAND FOR HEALTH AND WELLNESS KEEPS GROWING",
+          "url": "https://finnhub.io/api/news?id=9f4852cfbafa37e0c7cefd352b1af8f22d68200c9078b055aa8c7a2dce3f5e13",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:00:00Z",
+          "primary": false,
+          "symbol": "CMG"
+        }
+      ]
+    },
+    "KKR": {
+      "metrics": {
+        "52WeekHigh": 144.84,
+        "52WeekLow": 82.67,
+        "peTTM": 24.0807,
+        "psTTM": 3.8113,
+        "netProfitMarginTTM": 15.83,
+        "roeTTM": 11.129999999999999,
+        "revenueGrowthTTMYoy": 19.79,
+        "epsGrowthTTMYoy": 47.11,
+        "currentRatioQuarterly": 0.4048,
+        "totalDebt/totalEquityQuarterly": 1.7763,
+        "marketCapitalization": 82192.82
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "KKR & Co Inc",
+      "profile": {
+        "weburl": "https://ir.kkr.com/",
+        "industry": "Financial Services",
+        "name": "KKR & Co Inc"
+      },
+      "news": [
+        {
+          "headline": "KKR Invests in Gentari’s Renewables Platform in India",
+          "url": "https://finnhub.io/api/news?id=1c82623cd1289138e7736603547c70c4c9abd9f829db9b315eef2b48b4154f32",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T05:34:00Z",
+          "primary": false,
+          "symbol": "KKR"
+        },
+        {
+          "headline": "Litmus Music Announces Strategic Investment from Carlyle and KKR to Accelerate Growth",
+          "url": "https://finnhub.io/api/news?id=fc9c8bc61412fd18a70f78fb259c4cfbb59aa3fff67623b953cfcfcd44b5a3be",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:50:00Z",
+          "primary": false,
+          "symbol": "KKR"
+        },
+        {
+          "headline": "Mizuho Initiates Coverage of KKR at Outperform",
+          "url": "https://finnhub.io/api/news?id=ab243a9e716821fbfb220935f3be4663f608b5f8eac3e1799a59dcbdec8e27c5",
+          "source": "Fintel",
+          "published_at": "2026-11-18T00:18:04Z",
+          "primary": false,
+          "symbol": "KKR"
+        },
+        {
+          "headline": "Integer Announces Completion of Acquisition by KKR",
+          "url": "https://finnhub.io/api/news?id=08c1187e2c699189fb2014f1d773405ea8d447b1ce039d70e668d9b2859e5189",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:59:00Z",
+          "primary": false,
+          "symbol": "KKR"
+        },
+        {
+          "headline": "'Blackstone in talks to back giant NBA Europe arena fund; Arctos, which is owned by investment giant KKR, and Ares are also holding discussions with the NBA about committing capital to a giant infrastructure fund for a new Europea",
+          "url": "https://finnhub.io/api/news?id=0b2cc4d070afd37a54ac94aef87859dad3e18ebee46e78ff72948c6812a687bb",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T09:10:11Z",
+          "primary": false,
+          "symbol": "KKR"
+        }
+      ]
+    },
+    "MRNA": {
+      "metrics": {
+        "52WeekHigh": 280.8,
+        "52WeekLow": 22.28,
+        "psTTM": 32.2615,
+        "netProfitMarginTTM": -110.46,
+        "roeTTM": -37.62,
+        "revenueGrowthTTMYoy": 13.13,
+        "currentRatioQuarterly": 3.6213,
+        "totalDebt/totalEquityQuarterly": 0.523,
+        "marketCapitalization": 81460.31
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Moderna, Inc.",
+      "profile": {
+        "weburl": "https://www.modernatx.com/",
+        "industry": "Biotechnology",
+        "name": "Moderna, Inc."
+      },
+      "news": [
+        {
+          "headline": "Moderna vs. BioNTech: Why Only 1 Is a Buy Heading Into 2027",
+          "url": "https://finnhub.io/api/news?id=8cc2349da4e1f8dc5cd8dd993c5bb98269575651f29e930f8c70fb05c3a5a601",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:15:00Z",
+          "primary": false,
+          "symbol": "MRNA"
+        },
+        {
+          "headline": "Moderna: Can the Vaccine Business Fund Its Next Phase of Growth?",
+          "url": "https://finnhub.io/api/news?id=9561f126bb83fc673441719c63243c2280283009a2e8c15f7edb081e5ede90be",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:17:00Z",
+          "primary": false,
+          "symbol": "MRNA"
+        },
+        {
+          "headline": "Bireme Capital Sold Moderna (MRNA) Following Record Rally",
+          "url": "https://finnhub.io/api/news?id=57fc84d4e2959fc8579da3535098dc585609e3ed922d38494042c456b46af2d6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:56:53Z",
+          "primary": false,
+          "symbol": "MRNA"
+        },
+        {
+          "headline": "Moderna Just Dropped 17% in a Week as 2027 Cash Costs Head to $4 Billion. Time to Sell, or Load Up?",
+          "url": "https://finnhub.io/api/news?id=2e7741bb97b8c5138ec6fc7be38d153498f40931cb57cd3007a0debb79de2dac",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:25:41Z",
+          "primary": false,
+          "symbol": "MRNA"
+        },
+        {
+          "headline": "While Moderna sank 17%, this generic drugmaker quietly jumped 64%",
+          "url": "https://finnhub.io/api/news?id=df90824655aaecae8607fcd51138240f75fc1f9c48fd441cc3cf942c88facbe2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:27:25Z",
+          "primary": false,
+          "symbol": "MRNA"
+        }
+      ]
+    },
+    "PH": {
+      "metrics": {
+        "52WeekHigh": 1099.94,
+        "52WeekLow": 806.22,
+        "peTTM": 30.9503,
+        "psTTM": 5.1439,
+        "netProfitMarginTTM": 16.62,
+        "roeTTM": 24.709999999999997,
+        "revenueGrowthTTMYoy": 11.87,
+        "epsGrowthTTMYoy": 3.71,
+        "currentRatioQuarterly": 0.9438,
+        "totalDebt/totalEquityQuarterly": 1.0946,
+        "marketCapitalization": 115258.77
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Parker-Hannifin Corporation",
+      "profile": {
+        "weburl": "https://www.parker.com/us/en/home.html",
+        "industry": "Machinery",
+        "name": "Parker-Hannifin Corporation"
+      },
+      "news": [
+        {
+          "headline": "Parker Hannifin Stock Is Waiting On One Answer",
+          "url": "https://finnhub.io/api/news?id=1906beb9bdf4dd2029f08a8dabd66d0876bc5482d813e2906f7f5392e5b03652",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:18:20Z",
+          "primary": false,
+          "symbol": "PH"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Parker Hannifin, Raises Price Target to $1050",
+          "url": "https://finnhub.io/api/news?id=0f9604c2b7163b94be369b679d0afd2ab737119e9f38506c291b28448b610625",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T12:06:45Z",
+          "primary": false,
+          "symbol": "PH"
+        },
+        {
+          "headline": "Zacks Industry Outlook Highlights Parker-Hannifin, IDEX, Crane and Applied Industrial",
+          "url": "https://finnhub.io/api/news?id=afd2f118b23fbfcead906f116381bb61b1799636dc8a8022510c7b692dd69310",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T08:05:00Z",
+          "primary": false,
+          "symbol": "PH"
+        },
+        {
+          "headline": "Sterile Filtration - Global Strategic Business Report: Secure Share of the $10.1 Billion 2030 Market as 3M, Merck KGaA, Parker Hannifin and Pentair Capitalize on 7.1% CAGR",
+          "url": "https://finnhub.io/api/news?id=d6c2275ec065524b4e92963683dc19489160fd80a1892f6c3ae00358290ec37c",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T15:08:00Z",
+          "primary": false,
+          "symbol": "PH"
+        },
+        {
+          "headline": "Parker-Hannifin (PH) Lifted Full Year Guidance, Is The Stock Fully Priced?",
+          "url": "https://finnhub.io/api/news?id=cd0a7ddae322bc1ffb7421f752668a23c8e72733a4cdf17f3cf013ac6077c456",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T02:17:17Z",
+          "primary": false,
+          "symbol": "PH"
+        }
+      ]
+    },
+    "DVN": {
+      "metrics": {
+        "52WeekHigh": 52.71,
+        "52WeekLow": 34.23,
+        "peTTM": 13.2803,
+        "psTTM": 2.1537,
+        "netProfitMarginTTM": 16.22,
+        "roeTTM": 12.559999999999999,
+        "revenueGrowthTTMYoy": 27.1,
+        "epsGrowthTTMYoy": -5.64,
+        "currentRatioQuarterly": 0.7043,
+        "totalDebt/totalEquityQuarterly": 0.2532,
+        "marketCapitalization": 47822.406
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Devon Energy Corporation",
+      "profile": {
+        "weburl": "https://www.devonenergy.com",
+        "industry": "Energy",
+        "name": "Devon Energy Corporation"
+      },
+      "news": [
+        {
+          "headline": "DVN Short Strangle Takes Advantage of High Implied Volatility",
+          "url": "https://finnhub.io/api/news?id=bc64165ce6a093f675bc4dd631c2c17fe8a9fe2c189f91c29f754e551328e8b8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:00:02Z",
+          "primary": false,
+          "symbol": "DVN"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Overweight on Devon Energy, Raises Price Target to $65",
+          "url": "https://finnhub.io/api/news?id=d2d09d0e9c4ddd0961682aa34ca3ee8496fea6d20a22bfcec38c530773dc38ee",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T11:46:40Z",
+          "primary": false,
+          "symbol": "DVN"
+        },
+        {
+          "headline": "What Is Devon Getting For All That Spending?",
+          "url": "https://finnhub.io/api/news?id=71fc8edb5c6f16454d2708ef0a06a0b48fe6c1b763a4e9d4e08386d4e77f8948",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T16:13:08Z",
+          "primary": false,
+          "symbol": "DVN"
+        },
+        {
+          "headline": "Seaport Global Maintains Buy on Devon Energy, Lowers Price Target to $57",
+          "url": "https://finnhub.io/api/news?id=460e028052d71f0a8b4c11b3fe0c6e4dcc33735ddf1a7ebafe089504c144c733",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T09:29:18Z",
+          "primary": false,
+          "symbol": "DVN"
+        },
+        {
+          "headline": "What Do Rate Hikes Imply for Devon Energy (DVN)?",
+          "url": "https://finnhub.io/api/news?id=d470d50e44f45aeea2534b686f58571476207c039e18f416477da598b6e0e583",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T17:09:45Z",
+          "primary": false,
+          "symbol": "DVN"
+        }
+      ]
+    },
+    "VMRK": {
+      "metrics": {
+        "52WeekHigh": 71.5,
+        "52WeekLow": 57.57,
+        "psTTM": 13.8814,
+        "netProfitMarginTTM": -4.2,
+        "roeTTM": -0.8699999999999999,
+        "revenueGrowthTTMYoy": 15.05,
+        "epsGrowthTTMYoy": -91.52,
+        "currentRatioQuarterly": 0.3073,
+        "totalDebt/totalEquityQuarterly": 0.4742,
+        "marketCapitalization": 49172.12
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Vivmark Residential",
+      "profile": {
+        "weburl": "https://www.equityapartments.com",
+        "industry": "Real Estate",
+        "name": "Vivmark Residential"
+      },
+      "news": [
+        {
+          "headline": "Vivmark Residential (VMRK) Presents at REITworld: 2026 Annual Conference - Slideshow",
+          "url": "https://finnhub.io/api/news?id=8a8d371665fc63f99ea41fdf8a0bf8dd8cbda05deb1781e0e003f8721fcfba8b",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T18:45:56Z",
+          "primary": false,
+          "symbol": "VMRK"
+        },
+        {
+          "headline": "Vivmark Residential to Participate in REITworld Real Estate Conference",
+          "url": "https://finnhub.io/api/news?id=2e686736c8a8394416d08ea77106e47459f0dadac9f7c5149dbd1feeaeddbced",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:30:00Z",
+          "primary": false,
+          "symbol": "VMRK"
+        },
+        {
+          "headline": "RBC Capital Maintains Sector Perform on Vivmark Residential, Raises Price Target to $68",
+          "url": "https://finnhub.io/api/news?id=d85db6bb597025cd2f6c22d9c929bf715180fc09e236ca9656e4f981a28233bf",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T11:22:47Z",
+          "primary": false,
+          "symbol": "VMRK"
+        }
+      ]
+    },
+    "YUM": {
+      "metrics": {
+        "52WeekHigh": 170.14,
+        "52WeekLow": 134.26,
+        "peTTM": 12.286,
+        "psTTM": 4.8085,
+        "netProfitMarginTTM": 39.14,
+        "roeTTM": 117.63999999999999,
+        "revenueGrowthTTMYoy": 9.13,
+        "epsGrowthTTMYoy": 142.85,
+        "currentRatioQuarterly": 0.9633,
+        "totalDebt/totalEquityQuarterly": 30.9679,
+        "marketCapitalization": 42300.617
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Yum! Brands, Inc.",
+      "profile": {
+        "weburl": "https://www.yum.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Yum! Brands, Inc."
+      },
+      "news": [
+        {
+          "headline": "Stonegate Capital Partners Updates Coverage on Yum! Brands (YUM) 26Q3",
+          "url": "https://finnhub.io/api/news?id=b1fc46822dc62ccbd56229158daecf53be5b7a7554aaf7e4db654af91ec111ab",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:17:00Z",
+          "primary": false,
+          "symbol": "YUM"
+        },
+        {
+          "headline": "Yum! Brands (YUM) Stock Looks Fully Priced On Its 39% Run",
+          "url": "https://finnhub.io/api/news?id=a83ec2da36fd7c8c26d1f356efdac14e704c44e42017ba511e07a6a8fb03af23",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:16:23Z",
+          "primary": false,
+          "symbol": "YUM"
+        },
+        {
+          "headline": "Yum! Brands (YUM) Moves To End Franchises, Is A 10.6% Undervalued View Still Intact?",
+          "url": "https://finnhub.io/api/news?id=fbc20f6e9006f1b79340cb65024749a6d37d644e305508056202fcb01b4fb61f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:12:16Z",
+          "primary": false,
+          "symbol": "YUM"
+        },
+        {
+          "headline": "Yum! Brands (YUM) Faces Franchise Fallout After 84 Store Operator Files Chapter 11",
+          "url": "https://finnhub.io/api/news?id=2d87d775198920f4191762a342e3d5e93440911c04516c9d1aae611dffe9822f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:08:42Z",
+          "primary": false,
+          "symbol": "YUM"
+        },
+        {
+          "headline": "Here's How Much $1000 Invested In Yum Brands 20 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=ac4dbc95895dc0f47b47f6c654fc017b827ce9fb0a17ac6cf922ce541c08c31d",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T18:00:32Z",
+          "primary": false,
+          "symbol": "YUM"
+        }
+      ]
+    },
+    "AXP": {
+      "metrics": {
+        "52WeekHigh": 387.49,
+        "52WeekLow": 290.97,
+        "peTTM": 17.1637,
+        "psTTM": 2.5424,
+        "netProfitMarginTTM": 14.81,
+        "roeTTM": 35.64,
+        "revenueGrowthTTMYoy": 8.99,
+        "epsGrowthTTMYoy": 19.29,
+        "currentRatioQuarterly": 0.2494,
+        "totalDebt/totalEquityQuarterly": 6.0053,
+        "marketCapitalization": 210340.95
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "American Express Company",
+      "profile": {
+        "weburl": "https://www.americanexpress.com/",
+        "industry": "Financial Services",
+        "name": "American Express Company"
+      },
+      "news": [
+        {
+          "headline": "American Express vs. S&P Global: Steady Revenue vs. Flat Trends",
+          "url": "https://finnhub.io/api/news?id=e719254c5bf49ac7cb28546a7a837141155e202d8165225d34b3db317998e2d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:30:02Z",
+          "primary": false,
+          "symbol": "AXP"
+        },
+        {
+          "headline": "American Express vs. PayPal: Comparing Total Quarterly Revenue Scale",
+          "url": "https://finnhub.io/api/news?id=038ca67b97fa8e924deab681421010dff3ccb77dcf2b95423e4f1d72b69d1e53",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:40:02Z",
+          "primary": false,
+          "symbol": "AXP"
+        },
+        {
+          "headline": "Visa vs. American Express: Which Stock Has More Growth Potential?",
+          "url": "https://finnhub.io/api/news?id=0d5c329978ec53368481fd278e86f462977316672eea5702cce4d7a39ebabc41",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:59:00Z",
+          "primary": false,
+          "symbol": "AXP"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of American Express (AXP) on Monday",
+          "url": "https://finnhub.io/api/news?id=a19de949411ed6655cfd05c3c2a8bb11603a572052bb42f83a8b1bcb68e35c98",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:03:38Z",
+          "primary": false,
+          "symbol": "AXP"
+        },
+        {
+          "headline": "$1000 Invested In American Express 10 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=48e4e7504c334ea8fb66b1d86a26e1d34ed106704a1524b8f61868b33c569401",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T10:00:20Z",
+          "primary": false,
+          "symbol": "AXP"
+        }
+      ]
+    },
+    "BNTX": {
+      "metrics": {
+        "52WeekHigh": 124.0,
+        "52WeekLow": 79.52,
+        "psTTM": 7.7494,
+        "netProfitMarginTTM": -60.87,
+        "roeTTM": -8.03,
+        "revenueGrowthTTMYoy": -10.65,
+        "currentRatioQuarterly": 8.5518,
+        "totalDebt/totalEquityQuarterly": 0.0203,
+        "marketCapitalization": 20642.5
+      },
+      "updated_at": "2026-11-20T11:15:24Z",
+      "name": "Biontech SE",
+      "profile": {
+        "weburl": "https://www.biontech.com/",
+        "industry": "Biotechnology",
+        "name": "Biontech SE"
+      },
+      "news": [
+        {
+          "headline": "BioNTech: Priority Review Voucher Purchase Hints At Much Needed Approval Shot",
+          "url": "https://finnhub.io/api/news?id=7c12ac96011cbca3ab04ce740c5dccfaf53f389d28da51c9f1b55dff9f932197",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T11:47:03Z",
+          "primary": false,
+          "symbol": "BNTX"
+        },
+        {
+          "headline": "BioNTech (BNTX) Stock Looks Fully Valued As Sales Face Pressure",
+          "url": "https://finnhub.io/api/news?id=c6ecf52b0f5851f31d15529b27a6d59098b6f409d27a8338b6cf7c9295abc41e",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T12:11:11Z",
+          "primary": false,
+          "symbol": "BNTX"
+        },
+        {
+          "headline": "Could Expanded Patent Lawsuits Change The Bull Case For BioNTech (BNTX)?",
+          "url": "https://finnhub.io/api/news?id=4c7930d065c3cc6f22e08bc7074e220cdd7beba7967c0feaf50d897afaae1d77",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T10:14:11Z",
+          "primary": false,
+          "symbol": "BNTX"
+        },
+        {
+          "headline": "BioNTech (BNTX) Dropped, So What Is Driving Attention Now?",
+          "url": "https://finnhub.io/api/news?id=e7868389a3999c56bc0e8973a271d326487f3ad0efb0203bfe79322275db3bb8",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T09:11:32Z",
+          "primary": false,
+          "symbol": "BNTX"
+        },
+        {
+          "headline": "BioNTech May Be the Next Moderna. Even if it Isn’t, the Stock Is a Buy.",
+          "url": "https://finnhub.io/api/news?id=88213bd6e5fb61a3e271bee3ab89cc61c8c8425d7dd346595eaa2deaa4763419",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T01:02:00Z",
+          "primary": false,
+          "symbol": "BNTX"
+        }
+      ]
     }
   },
-  "cursor": 116,
-  "updated_at": "2026-11-20T10:16:19Z"
+  "cursor": 128,
+  "updated_at": "2026-11-20T11:15:24Z"
 }
