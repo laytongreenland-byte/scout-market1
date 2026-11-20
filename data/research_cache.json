@@ -16200,8 +16200,707 @@
           "symbol": "CHRW"
         }
       ]
+    },
+    "CPT": {
+      "metrics": {
+        "52WeekHigh": 119.81,
+        "52WeekLow": 95.3,
+        "peTTM": 39.7213,
+        "psTTM": 8.2627,
+        "netProfitMarginTTM": 20.8,
+        "roeTTM": 7.8,
+        "revenueGrowthTTMYoy": 0.48,
+        "epsGrowthTTMYoy": 112.28,
+        "currentRatioQuarterly": 0.4129,
+        "totalDebt/totalEquityQuarterly": 1.2752,
+        "marketCapitalization": 12957.431
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Camden Property Trust",
+      "profile": {
+        "weburl": "https://www.camdenliving.com/",
+        "industry": "Real Estate",
+        "name": "Camden Property Trust"
+      },
+      "news": [
+        {
+          "headline": "Camden Property Trust (CPT) Bought Back Shares, Is It Trading At A Discount?",
+          "url": "https://finnhub.io/api/news?id=51bbae3573d7ca434ecc10150b37bc7e35788ce403a8402b8113446894aef32b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:11:26Z",
+          "primary": false,
+          "symbol": "CPT"
+        },
+        {
+          "headline": "Camden Property Trust (CPT) Stock Could Be A Bargain On A 32% Five Year Slump",
+          "url": "https://finnhub.io/api/news?id=35e368eaf9b9a134a293dfcb7608a9c2741fd76d2d3a24895986160b4b2e75a2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:09:15Z",
+          "primary": false,
+          "symbol": "CPT"
+        },
+        {
+          "headline": "A $1,500,000 Portfolio in Kimco Realty, Camden Property Trust and STAG Industrial Pays $64,784 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=e074f0469b1948e31b389f545d5149f2f31456a539c22283372417dbd1426673",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T00:05:16Z",
+          "primary": false,
+          "symbol": "CPT"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting Camden’s Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=2807bac39fb02833e5570905f11337046cb49ba0e63a8bcea10e107b3077f593",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:14:08Z",
+          "primary": false,
+          "symbol": "CPT"
+        }
+      ]
+    },
+    "COF": {
+      "metrics": {
+        "52WeekHigh": 259.64,
+        "52WeekLow": 174.24,
+        "peTTM": 10.2189,
+        "psTTM": 1.11745,
+        "netProfitMarginTTM": 14.90322,
+        "roeTTM": 9.67,
+        "revenueGrowthTTMYoy": 38.19094,
+        "epsGrowthTTMYoy": 475.18,
+        "totalDebt/totalEquityQuarterly": 0.4399,
+        "marketCapitalization": 111049.04
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Capital One Financial Corp",
+      "profile": {
+        "weburl": "https://www.capitalone.com/",
+        "industry": "Financial Services",
+        "name": "Capital One Financial Corp"
+      },
+      "news": [
+        {
+          "headline": "Why Is Capital One (COF) Down 10.8% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=f028687540521e88183a0d0999b1645427d4aeb34a8d48b233caa9861d3e6eef",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:03Z",
+          "primary": false,
+          "symbol": "COF"
+        },
+        {
+          "headline": "Capital One Series N Preferreds: Lock In A 7.85% Qualified Yield At A Steep Discount",
+          "url": "https://finnhub.io/api/news?id=6928ef97d165ecdf3cd5bb617333db9faf2929bfa55a46b22e2c663eb6870df7",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T07:50:03Z",
+          "primary": false,
+          "symbol": "COF"
+        },
+        {
+          "headline": "Capital One Business Travel Introduces Complimentary Flight Disruption Rebooking for Select Customers",
+          "url": "https://finnhub.io/api/news?id=a0de1dfb27c161c0e2a4e8e9c66eebec96f84d575bad082070dd9dfa96f631b6",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:00:00Z",
+          "primary": false,
+          "symbol": "COF"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Capital One Financial Stock?",
+          "url": "https://finnhub.io/api/news?id=8bdb96fb5fd23bdcf56ed8c3ea52c017746ce9a5e6b5f701df27dc912eabf6a1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:59:11Z",
+          "primary": false,
+          "symbol": "COF"
+        },
+        {
+          "headline": "What Capital One Financial Holders Got Wrong Before The Slide",
+          "url": "https://finnhub.io/api/news?id=feb61ae6a55c84b0845b432ae0ad932a7d4f8fa26027efb0b1b1134341868042",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T02:15:56Z",
+          "primary": false,
+          "symbol": "COF"
+        }
+      ]
+    },
+    "CCL": {
+      "metrics": {
+        "52WeekHigh": 34.03,
+        "52WeekLow": 21.45,
+        "peTTM": 12.4174,
+        "psTTM": 1.4117,
+        "netProfitMarginTTM": 11.37,
+        "roeTTM": 23.91,
+        "revenueGrowthTTMYoy": 5.2,
+        "epsGrowthTTMYoy": 21.01,
+        "currentRatioQuarterly": 0.2742,
+        "totalDebt/totalEquityQuarterly": 1.6854,
+        "marketCapitalization": 38953.355
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Carnival Corporation Ltd",
+      "profile": {
+        "weburl": "https://www.carnivalcorp.com",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Carnival Corporation Ltd"
+      },
+      "news": [
+        {
+          "headline": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
+          "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:07:41Z",
+          "primary": false,
+          "symbol": "CCL"
+        },
+        {
+          "headline": "Carnival Orders Two ~130,000-Ton Next-Generation Cruise Ships From Fincantieri’s Marghera Yard For Carnival Cruise Line, Due 2033 And 2035",
+          "url": "https://finnhub.io/api/news?id=87c17a6d0ca791383555a8231770500567e5bc820a75707f101c4cfff702d654",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T03:19:04Z",
+          "primary": false,
+          "symbol": "CCL"
+        },
+        {
+          "headline": "CARNIVAL CRUISE LINE UNVEILS THE NEXT WAVE OF VACATIONS FROM SEA TO SHORE, INCLUDING A NEW SHIP CLASS AND EXPANSION OF CELEBRATION KEY",
+          "url": "https://finnhub.io/api/news?id=21d47b704406c28e33f5fcd8fee49e35c80deb8d1813df6ab17d8eeefdbc83f9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:30:00Z",
+          "primary": false,
+          "symbol": "CCL"
+        },
+        {
+          "headline": "Carnival Remains A 'Buy' With Impressive Growth",
+          "url": "https://finnhub.io/api/news?id=9ac2ef95946afc0e28e2c32a7ef2dc2a06230401f535c0330473ec06e6853904",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T18:29:53Z",
+          "primary": false,
+          "symbol": "CCL"
+        },
+        {
+          "headline": "What Will Move Carnival Stock Through Spring 2027?",
+          "url": "https://finnhub.io/api/news?id=ac25af8001a1f8109430c14d0453be2ff617fcc7069f7996a29042e6b6fef1ed",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:26:35Z",
+          "primary": false,
+          "symbol": "CCL"
+        }
+      ]
+    },
+    "CARR": {
+      "metrics": {
+        "52WeekHigh": 76.76,
+        "52WeekLow": 50.24,
+        "psTTM": 1.8458,
+        "netProfitMarginTTM": -7.9,
+        "roeTTM": -14.280000000000001,
+        "revenueGrowthTTMYoy": 3.33,
+        "currentRatioQuarterly": 0.9973,
+        "totalDebt/totalEquityQuarterly": 1.1412,
+        "marketCapitalization": 42069.8
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Carrier Global Corporation",
+      "profile": {
+        "weburl": "https://www.carrier.com/",
+        "industry": "Building",
+        "name": "Carrier Global Corporation"
+      },
+      "news": [
+        {
+          "headline": "Carrier (CARR) Stock Looks Undervalued After Its 8% Monthly Slide",
+          "url": "https://finnhub.io/api/news?id=e16165d646ce989298e6593d2834b5e6dd836f0b55ca8d6afd5b7ea11f76a93c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:14:25Z",
+          "primary": false,
+          "symbol": "CARR"
+        },
+        {
+          "headline": "Carrier Global (CARR) Draws Fresh Attention, Is The Discount Too Wide?",
+          "url": "https://finnhub.io/api/news?id=eb4fc61f095514f4737fdd03055b891b777170297918c51d644ab809b7b23c98",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:13:58Z",
+          "primary": false,
+          "symbol": "CARR"
+        },
+        {
+          "headline": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
+          "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:15:00Z",
+          "primary": false,
+          "symbol": "CARR"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of Carrier (CARR) on Tuesday",
+          "url": "https://finnhub.io/api/news?id=17cbfe0fe29597c904c2a7e1233116b9a954376f1c9b563d773023cb5273e5c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:03:48Z",
+          "primary": false,
+          "symbol": "CARR"
+        },
+        {
+          "headline": "Carrier Accelerates Integration of 75F Technology Across HVAC Portfolio",
+          "url": "https://finnhub.io/api/news?id=2a64642ce26e526fcbeaee066d7e64ab308595864aa791bab3049a817eb9bcb6",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:15:00Z",
+          "primary": false,
+          "symbol": "CARR"
+        }
+      ]
+    },
+    "CVNA": {
+      "metrics": {
+        "52WeekHigh": 97.38,
+        "52WeekLow": 54.46,
+        "peTTM": 45.6146,
+        "psTTM": 2.8348,
+        "netProfitMarginTTM": 6.21,
+        "roeTTM": 43.91,
+        "revenueGrowthTTMYoy": 50.28,
+        "epsGrowthTTMYoy": 13.3,
+        "currentRatioQuarterly": 4.0507,
+        "totalDebt/totalEquityQuarterly": 1.2013,
+        "marketCapitalization": 77818.52
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Carvana Co",
+      "profile": {
+        "weburl": "https://www.carvana.com/",
+        "industry": "Retail",
+        "name": "Carvana Co"
+      },
+      "news": [
+        {
+          "headline": "Can Carvana Stock Hit $95?",
+          "url": "https://finnhub.io/api/news?id=90451f55d823cd50143be595b7df46597301478fa377662e137401d71b1269be",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:40:22Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
+        {
+          "headline": "Carvana Is Up 22% in a Month. Is Its First 200,000-Car Quarter Really That Good?",
+          "url": "https://finnhub.io/api/news?id=1d660560f2f9d88ace5920b1a6831024b49b95a6746afd9a681f48368e660973",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:01:46Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
+        {
+          "headline": "Here is What to Know Beyond Why Carvana Co. (CVNA) is a Trending Stock",
+          "url": "https://finnhub.io/api/news?id=7bdad9378c66113fc8b523a3cc10665214d2d49cbb8f7f3c3c822ea5008b9062",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:03Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
+        {
+          "headline": "Carvana Expands Same-Day Delivery to Rhode Island",
+          "url": "https://finnhub.io/api/news?id=fbbddbd5e17cd7e25ffb4eb9fb285bc10cb0ed10ec8b3502a2752e63be4975ac",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
+        {
+          "headline": "Carvana Expands Same-Day Delivery to Southern Maine",
+          "url": "https://finnhub.io/api/news?id=caa958b1b27851a8a8e7a533718e6f3bf6f2455d56257940f4c684e1564835c6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "CVNA"
+        }
+      ]
+    },
+    "CASY": {
+      "metrics": {
+        "52WeekHigh": 927.85,
+        "52WeekLow": 529.84,
+        "peTTM": 33.1646,
+        "psTTM": 1.3726,
+        "netProfitMarginTTM": 4.14,
+        "roeTTM": 19.68,
+        "revenueGrowthTTMYoy": 13.78,
+        "epsGrowthTTMYoy": 33.36,
+        "currentRatioQuarterly": 1.0185,
+        "totalDebt/totalEquityQuarterly": 0.5937,
+        "marketCapitalization": 25630.027
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Caseys General Stores Inc",
+      "profile": {
+        "weburl": "https://www.caseys.com/",
+        "industry": "Retail",
+        "name": "Caseys General Stores Inc"
+      },
+      "news": [
+        {
+          "headline": "Will Casey's (CASY) Beat Estimates Again in Its Next Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=a325e7f9a0ca921f1108ec03a27ad387d3157fb3b4c0891da05a63d927681c42",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:10:02Z",
+          "primary": false,
+          "symbol": "CASY"
+        },
+        {
+          "headline": "Caseys General Stores (CASY) Stock Looks Reasonably Priced On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=183019caf74785c676995f0a21ad98a44cea3ea20b6ac2b02e3e3cc327eac8eb",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:10:46Z",
+          "primary": false,
+          "symbol": "CASY"
+        },
+        {
+          "headline": "Casey's General Stores (CASY) Heads Into Earnings With Valuation Still In Question",
+          "url": "https://finnhub.io/api/news?id=9b02023bbfb157d222ac5a8bc077df87ca173f6558d4066521d6c80cc3eae987",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:12:56Z",
+          "primary": false,
+          "symbol": "CASY"
+        },
+        {
+          "headline": "Casey's General Stores (NASDAQ:CASY) Combines Strong Growth With a High-Quality Technical Setup",
+          "url": "https://finnhub.io/api/news?id=fb35e05e7081affb6e9f43c27b5ac167400b392833ad626c28798dd4eb8118b5",
+          "source": "ChartMill",
+          "published_at": "2026-11-13T11:11:00Z",
+          "primary": false,
+          "symbol": "CASY"
+        }
+      ]
+    },
+    "CBOE": {
+      "metrics": {
+        "52WeekHigh": 378.88,
+        "52WeekLow": 227.15,
+        "peTTM": 27.6825,
+        "psTTM": 7.4007,
+        "netProfitMarginTTM": 26.73,
+        "roeTTM": 25.75,
+        "revenueGrowthTTMYoy": 11.68,
+        "epsGrowthTTMYoy": 50.4,
+        "currentRatioQuarterly": 1.5652,
+        "totalDebt/totalEquityQuarterly": 0.2566,
+        "marketCapitalization": 37457.16
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Cboe Global Markets Inc",
+      "profile": {
+        "weburl": "https://www.cboe.com/",
+        "industry": "Financial Services",
+        "name": "Cboe Global Markets Inc"
+      },
+      "news": [
+        {
+          "headline": "Cboe In Buy Zone As It Expands Into Prediction Markets",
+          "url": "https://finnhub.io/api/news?id=473e3fa2506ea3a7e060ba248b546c3a3681befbc71e0a3d86575231430f6fd1",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T18:28:21Z",
+          "primary": false,
+          "symbol": "CBOE"
+        },
+        {
+          "headline": "Wall Street panics, Cboe profits: Why the stock jumped 10% this month",
+          "url": "https://finnhub.io/api/news?id=f523e07b51be71297ad6331dc0f485e8ef40c3d23dfde9c1be98001e79bae521",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T07:29:50Z",
+          "primary": false,
+          "symbol": "CBOE"
+        }
+      ]
+    },
+    "CDW": {
+      "metrics": {
+        "52WeekHigh": 175.19,
+        "52WeekLow": 97.12,
+        "peTTM": 19.1921,
+        "psTTM": 0.8604,
+        "netProfitMarginTTM": 4.48,
+        "roeTTM": 42.94,
+        "revenueGrowthTTMYoy": 10.94,
+        "epsGrowthTTMYoy": 8.45,
+        "currentRatioQuarterly": 1.2648,
+        "totalDebt/totalEquityQuarterly": 2.7028,
+        "marketCapitalization": 21094.021
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "CDW Corporation",
+      "profile": {
+        "weburl": "https://www.cdw.com/",
+        "industry": "Electrical Equipment",
+        "name": "CDW Corporation"
+      },
+      "news": [
+        {
+          "headline": "CDW Canada Named an IDC CIO Awards Canada 2026 Winner",
+          "url": "https://finnhub.io/api/news?id=578ba1a775af41fb2f44ed4bf45f22af5bbeca84287b0b5a89ca229bdcbfdf6f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:00:00Z",
+          "primary": false,
+          "symbol": "CDW"
+        },
+        {
+          "headline": "CDW Expands AI Ecosystem Through New DevRev Alliance Built Using OpenAI Models",
+          "url": "https://finnhub.io/api/news?id=ccd4df81d7db42ded0f988796a8d9932ddb5f7a7cb9a5be60546fcd28460218f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:30:00Z",
+          "primary": false,
+          "symbol": "CDW"
+        },
+        {
+          "headline": "CDW Introduces New Capabilities to Help Organizations Realize Value from AI Investments",
+          "url": "https://finnhub.io/api/news?id=3a6b3eebc4e5cb99376932e53a50a8924556a583fa89b4e5584cb608e0e59e66",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:30:00Z",
+          "primary": false,
+          "symbol": "CDW"
+        },
+        {
+          "headline": "CDW to Participate in the UBS Global Technology and AI Conference",
+          "url": "https://finnhub.io/api/news?id=3fc23985f8aade344880f7ff329f897a4c1f92ee3eabeb67cb851bcf0e18fbbf",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:00:00Z",
+          "primary": false,
+          "symbol": "CDW"
+        },
+        {
+          "headline": "Barclays Maintains Equal-Weight on CDW, Raises Price Target to $164",
+          "url": "https://finnhub.io/api/news?id=91f0dee553ad86c5b489c55f85704096bfa56d2ec90e5ba22fb43ab30e7ba57b",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T11:13:13Z",
+          "primary": false,
+          "symbol": "CDW"
+        }
+      ]
+    },
+    "CNC": {
+      "metrics": {
+        "52WeekHigh": 78.08,
+        "52WeekLow": 31.63,
+        "peTTM": 21.922,
+        "psTTM": 0.1616,
+        "netProfitMarginTTM": -3.25,
+        "roeTTM": 6.78,
+        "revenueGrowthTTMYoy": 17.02,
+        "currentRatioQuarterly": 1.1235,
+        "totalDebt/totalEquityQuarterly": 0.6999,
+        "marketCapitalization": 32006.145
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Centene Corp",
+      "profile": {
+        "weburl": "https://www.centene.com/",
+        "industry": "Health Care",
+        "name": "Centene Corp"
+      },
+      "news": [
+        {
+          "headline": "Centene's Q3 Beat Supports Continued Earnings Recovery, RBC Says",
+          "url": "https://finnhub.io/api/news?id=c5456d7b46d96afe96acbddaede3e9d9c30826fb5f76f5841bf26fc351f659df",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:46:38Z",
+          "primary": false,
+          "symbol": "CNC"
+        },
+        {
+          "headline": "Bernstein Keeps Its Outperform Rating on Centene (CNC). Here’s Why.",
+          "url": "https://finnhub.io/api/news?id=31d293a604bb850b0548f0e47fca0d91d7d76cd32578583acc26ea2c8847f80a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:39:41Z",
+          "primary": false,
+          "symbol": "CNC"
+        },
+        {
+          "headline": "What Triggered The Move In Centene Stock?",
+          "url": "https://finnhub.io/api/news?id=6cb21490c506404e1401eae4e33d60271f2de2a8186963f45e67b7bbb0b66551",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:20:45Z",
+          "primary": false,
+          "symbol": "CNC"
+        },
+        {
+          "headline": "Centene (CNC) Stock Still Looks Undervalued On Its 96% Run",
+          "url": "https://finnhub.io/api/news?id=e73752550c32cfdf72dbed7a19bf07e12afe50aae3a93a4f6233f08101842a67",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:10:58Z",
+          "primary": false,
+          "symbol": "CNC"
+        },
+        {
+          "headline": "Centene (CNC) Could Be 4% Undervalued As Recovery Narrative Holds",
+          "url": "https://finnhub.io/api/news?id=c50e8b3e0df10d4ff84dc3f731f2b68ae17f76cc1e23cd8365cd8cbd7c33a1fa",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:09:37Z",
+          "primary": false,
+          "symbol": "CNC"
+        }
+      ]
+    },
+    "CNP": {
+      "metrics": {
+        "52WeekHigh": 45.26,
+        "52WeekLow": 36.37,
+        "peTTM": 22.469,
+        "psTTM": 3.4478,
+        "netProfitMarginTTM": 5.74,
+        "roeTTM": 10.03,
+        "revenueGrowthTTMYoy": 1.35,
+        "epsGrowthTTMYoy": 10.44,
+        "currentRatioQuarterly": 1.1493,
+        "totalDebt/totalEquityQuarterly": 2.1208,
+        "marketCapitalization": 25951.738
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "CenterPoint Energy, Inc.",
+      "profile": {
+        "weburl": "https://www.centerpointenergy.com/",
+        "industry": "Utilities",
+        "name": "CenterPoint Energy, Inc."
+      },
+      "news": [
+        {
+          "headline": "CenterPoint Energy, Inc. (CNP): Is This Utility Stock Positioned for Long-Term Growth?",
+          "url": "https://finnhub.io/api/news?id=7800681a554e1913d9eb1b8f6347d3a3b276e692d79341813e499e57ada6898c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:50:08Z",
+          "primary": false,
+          "symbol": "CNP"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains In-Line on CenterPoint Energy, Lowers Price Target to $41",
+          "url": "https://finnhub.io/api/news?id=93a4d60c3f15f014491b7cc5c18592caf83b70458366a705b8d7ff07dfa248ed",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T09:18:56Z",
+          "primary": false,
+          "symbol": "CNP"
+        }
+      ]
+    },
+    "CF": {
+      "metrics": {
+        "52WeekHigh": 141.96,
+        "52WeekLow": 75.42,
+        "peTTM": 7.6226,
+        "psTTM": 2.0948,
+        "netProfitMarginTTM": 27.48,
+        "roeTTM": 40.300000000000004,
+        "revenueGrowthTTMYoy": 17.87,
+        "epsGrowthTTMYoy": 70.84,
+        "currentRatioQuarterly": 2.9839,
+        "totalDebt/totalEquityQuarterly": 0.5613,
+        "marketCapitalization": 16632.594
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "CF Industries Holdings Inc",
+      "profile": {
+        "weburl": "https://www.cfindustries.com/",
+        "industry": "Chemicals",
+        "name": "CF Industries Holdings Inc"
+      },
+      "news": [
+        {
+          "headline": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
+          "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T08:09:00Z",
+          "primary": false,
+          "symbol": "CF"
+        },
+        {
+          "headline": "Is CF Industries Holdings (CF) A Bargain After Cost Pressures Clouded Its Valuation?",
+          "url": "https://finnhub.io/api/news?id=ca05f6882222bc1ceb9f545fbf9038c06864757b1578f2491f92a04302e51b83",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T06:09:56Z",
+          "primary": false,
+          "symbol": "CF"
+        },
+        {
+          "headline": "CF Industries Holdings (CF) Yazoo City Outage Now Stretches Into First Half Of 2027",
+          "url": "https://finnhub.io/api/news?id=0804b25715ac5975dbc5f10f05ca381738d42208aa2cc8950e2d3a38cefafdf0",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:11:29Z",
+          "primary": false,
+          "symbol": "CF"
+        },
+        {
+          "headline": "Why Is CF Industries Stock's Cash Yield Nearly 12%?",
+          "url": "https://finnhub.io/api/news?id=5c2cdf4634ee703eca41117f74d7e375a151ca3dd34dbefd396e6d83495c03b1",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:13:41Z",
+          "primary": false,
+          "symbol": "CF"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on CF Industries Stock?",
+          "url": "https://finnhub.io/api/news?id=bfec494f71c4790276c6711368abf9749a103fcaf00a52644eb6a7a756910b5c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:44:05Z",
+          "primary": false,
+          "symbol": "CF"
+        }
+      ]
+    },
+    "CRL": {
+      "metrics": {
+        "52WeekHigh": 379.63,
+        "52WeekLow": 146.2,
+        "peTTM": 402.3985,
+        "psTTM": 4.0663,
+        "netProfitMarginTTM": 1.01,
+        "roeTTM": 1.32,
+        "revenueGrowthTTMYoy": -1.16,
+        "currentRatioQuarterly": 1.4092,
+        "totalDebt/totalEquityQuarterly": 0.7582,
+        "marketCapitalization": 16171.1875
+      },
+      "updated_at": "2026-11-20T21:56:58Z",
+      "name": "Charles River Laboratories International, Inc.",
+      "profile": {
+        "weburl": "https://www.criver.com/",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Charles River Laboratories International, Inc."
+      },
+      "news": [
+        {
+          "headline": "Charles River Stock Surges 102.3% in a Year: What's Fueling the Drive?",
+          "url": "https://finnhub.io/api/news?id=05bf0362b8c76bcf362ba2a1bd7c829b6b23dd5486c74128bd74e0b558b84040",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:57:00Z",
+          "primary": false,
+          "symbol": "CRL"
+        },
+        {
+          "headline": "Oncology Based in-Vivo CRO - Global Strategic Business Report 2026: Capitalize on the $1.7 Billion 2032 Market with Charles River, Crown Bioscience, Wuxi AppTec and Eurofins",
+          "url": "https://finnhub.io/api/news?id=7b0974b68d67d4e725db662e1b6db62b14f0e8304a0c6988059a9422c0fa1f39",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:01:00Z",
+          "primary": false,
+          "symbol": "CRL"
+        },
+        {
+          "headline": "Global Preclinical CRO Services Market Opportunities and Strategies to 2035 | Capitalize on AI, Oncology and Biomarkers with Charles River, WuXi AppTec, Eurofins and Pharmaron",
+          "url": "https://finnhub.io/api/news?id=fd413adea9dc94f89140e40778670f231c7cf5e268f04394fa61cbc1e58dff94",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:37:00Z",
+          "primary": false,
+          "symbol": "CRL"
+        },
+        {
+          "headline": "Charles River Laboratories International (CRL) Recovers Following Cyclical Contraction",
+          "url": "https://finnhub.io/api/news?id=e1ff40e76d9ccb4476664975852ba458088868d7476a2d0ea5a4fc60d64794e7",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:01:16Z",
+          "primary": false,
+          "symbol": "CRL"
+        },
+        {
+          "headline": "Should You Continue to Hold Charles River Stock in Your Portfolio?",
+          "url": "https://finnhub.io/api/news?id=8a423808060a8ef369d432f4e13f0a5cc731811713e5fdc0f923498f6d2f0301",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:47:00Z",
+          "primary": false,
+          "symbol": "CRL"
+        }
+      ]
     }
   },
-  "cursor": 272,
-  "updated_at": "2026-11-20T21:05:16Z"
+  "cursor": 284,
+  "updated_at": "2026-11-20T21:56:58Z"
 }
