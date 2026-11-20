@@ -45,7 +45,8 @@ class MarketCatalogTests(unittest.TestCase):
 
     def test_combined_directory_never_claims_sharesies_availability(self):
         m={mc.SOURCES['NASDAQ']:listings('NASDAQ'),mc.SOURCES['OTHER_US']:listings('OTHER_US')}
-        got=mc.build(lambda url:m[url],NOW)
+        with patch.object(mc,'fetch_apac',side_effect=TimeoutError('offline during test')):
+            got=mc.build(lambda url:m[url],NOW)
         self.assertEqual(got['status'],'READY')
         self.assertGreater(got['counts']['listed_total'],4000)
         self.assertFalse(got['sharesies_availability_verified'])
@@ -53,10 +54,26 @@ class MarketCatalogTests(unittest.TestCase):
         self.assertFalse(got['valuation_done'])
         self.assertEqual(got['markets']['ASX']['status'],'NOT_CONNECTED')
         self.assertEqual(got['markets']['NZX']['status'],'NOT_CONNECTED')
-        self.assertEqual(len(got['items']),len({x['symbol'] for x in got['items']}))
+        self.assertEqual(len(got['items']),len({(x['market'],x['symbol']) for x in got['items']}))
+
+    def test_asx_directory_parser_validates_rows(self):
+        csv_data='ASX listed companies\\nASX code,Company name,GICS industry group\\n'
+        csv_data+=''.join(f'{i:04d},Test Company {i},Industrials\\n' for i in range(1100))
+        result=mc.parse_asx(csv_data.encode())
+        self.assertEqual(len(result),1100)
+        self.assertTrue(all(x['market']=='ASX' for x in result))
+        with self.assertRaises(ValueError):
+            mc.parse_asx(b'wrong columns')
+
+    def test_nzx_directory_parser_fails_closed(self):
+        rows=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(110)]
+        self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows}).encode())),110)
+        with self.assertRaises(ValueError):
+            mc.parse_nzx(json.dumps({'data':rows[:3]}).encode())
 
     def test_failure_is_explicit_not_silently_full(self):
-        out=mc.build(lambda url:listings('NASDAQ') if url==mc.SOURCES['NASDAQ'] else (_ for _ in ()).throw(TimeoutError()),NOW)
+        with patch.object(mc,'fetch_apac',side_effect=TimeoutError('offline during test')):
+            out=mc.build(lambda url:listings('NASDAQ') if url==mc.SOURCES['NASDAQ'] else (_ for _ in ()).throw(TimeoutError()),NOW)
         self.assertEqual(out['status'],'PARTIAL')
         self.assertFalse(out['sources']['OTHER_US']['ok'])
         self.assertTrue(out['sources']['NASDAQ']['ok'])
