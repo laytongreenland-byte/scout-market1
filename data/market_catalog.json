@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "status": "PENDING",
+  "platform": "Sharesies NZ (target only, availability NOT verified)",
+  "sharesies_availability_verified": false,
+  "prices_collected": false,
+  "valuation_done": false,
+  "markets": {
+    "US": {
+      "status": "NOT_CONNECTED",
+      "listed_in_directory": 0,
+      "notes": "First exchange directory check pending"
+    },
+    "ASX": {
+      "status": "NOT_CONNECTED",
+      "listed_in_directory": 0,
+      "notes": "Verified listing and usable quote feeds not connected"
+    },
+    "NZX": {
+      "status": "NOT_CONNECTED",
+      "listed_in_directory": 0,
+      "notes": "Verified listing and usable quote feeds not connected"
+    }
+  },
+  "sources": {},
+  "counts": {
+    "listed_total": 0,
+    "shares": 0,
+    "etfs": 0,
+    "other": 0
+  },
+  "items": [],
+  "cautions": [
+    "Directory not yet collected",
+    "Exchange listing is not proof of Sharesies availability",
+    "No quote or buy/sell signal comes from the directory"
+  ]
+}
