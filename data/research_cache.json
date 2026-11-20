@@ -12765,8 +12765,758 @@
           "symbol": "PNC"
         }
       ]
+    },
+    "CAH": {
+      "metrics": {
+        "52WeekHigh": 286.29,
+        "52WeekLow": 180.45,
+        "peTTM": 34.7071,
+        "psTTM": 0.2448,
+        "netProfitMarginTTM": 0.71,
+        "roeTTM": 37.169999999999995,
+        "revenueGrowthTTMYoy": 10.0,
+        "epsGrowthTTMYoy": 16.77,
+        "currentRatioQuarterly": 0.8848,
+        "totalDebt/totalEquityQuarterly": 5.6543,
+        "marketCapitalization": 63097.42
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Cardinal Health, Inc.",
+      "profile": {
+        "weburl": "https://www.cardinalhealth.com/en.html",
+        "industry": "Health Care",
+        "name": "Cardinal Health, Inc."
+      },
+      "news": [
+        {
+          "headline": "Jim Cramer Says Cardinal Health Is “the Stock That Is Made for This Moment”",
+          "url": "https://finnhub.io/api/news?id=f96124b150579e660c5c8a1f1576099e20bb265e8526155d6a18c2afc840f223",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:47:24Z",
+          "primary": false,
+          "symbol": "CAH"
+        },
+        {
+          "headline": "Barclays Maintains Overweight on Cardinal Health, Raises Price Target to $320",
+          "url": "https://finnhub.io/api/news?id=decf4678bce9ef2cd5bbd5a1f83b18b1d320657b9004384215e7d5f0e27dc825",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:54:48Z",
+          "primary": false,
+          "symbol": "CAH"
+        },
+        {
+          "headline": "Cardinal Health (CAH) Is Facing Multiple Class I Medical Kit Recalls",
+          "url": "https://finnhub.io/api/news?id=baebfbab3f54cb535d2759586de53e10b21d27fc8d49b1c406ecec71714aaafb",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T08:15:09Z",
+          "primary": false,
+          "symbol": "CAH"
+        },
+        {
+          "headline": "Wells Fargo Maintains Overweight on Cardinal Health, Raises Price Target to $321",
+          "url": "https://finnhub.io/api/news?id=f023d7ff59995ecc556b546e6fbd7d2567a93d88bb603463a17eb42f835ac0d2",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T10:02:19Z",
+          "primary": false,
+          "symbol": "CAH"
+        },
+        {
+          "headline": "Cramer's Stop Trading: Cardinal Health",
+          "url": "https://finnhub.io/api/news?id=a6cea8a5b8b115ab6dcc51b39303392daf88994e34d0c88a4c78970884e6ac1e",
+          "source": "CNBC",
+          "published_at": "2026-11-17T09:59:34Z",
+          "primary": false,
+          "symbol": "CAH"
+        }
+      ]
+    },
+    "PWR": {
+      "metrics": {
+        "52WeekHigh": 788.75,
+        "52WeekLow": 408.36,
+        "peTTM": 53.9721,
+        "psTTM": 2.435,
+        "netProfitMarginTTM": 4.51,
+        "roeTTM": 17.64,
+        "revenueGrowthTTMYoy": 37.13,
+        "epsGrowthTTMYoy": 63.75,
+        "currentRatioQuarterly": 1.1639,
+        "totalDebt/totalEquityQuarterly": 0.6636,
+        "marketCapitalization": 90798.04
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Quanta Services Inc",
+      "profile": {
+        "weburl": "https://www.quantaservices.com/",
+        "industry": "Construction",
+        "name": "Quanta Services Inc"
+      },
+      "news": [
+        {
+          "headline": "Earnings Estimates Moving Higher for Quanta Services (PWR): Time to Buy?",
+          "url": "https://finnhub.io/api/news?id=302b42740fb947b18bca8a98d4348c577d8e583b3417aac6b656d113b2545e1b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:20:02Z",
+          "primary": false,
+          "symbol": "PWR"
+        },
+        {
+          "headline": "Quanta Services (PWR) Shares Moved, So What Is Drawing Attention Now?",
+          "url": "https://finnhub.io/api/news?id=2880076a951e61f3fd945739558d2121f31a3208857a4217e171d71a3fa0a47e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T07:12:51Z",
+          "primary": false,
+          "symbol": "PWR"
+        },
+        {
+          "headline": "What Is The True Hidden Price Of Quanta Services Stock?",
+          "url": "https://finnhub.io/api/news?id=9421be1181882aeac34ac76e034a7a536676b28c1482e28563b38e20622f2d83",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:33:01Z",
+          "primary": false,
+          "symbol": "PWR"
+        },
+        {
+          "headline": "Quanta vs. Primoris: Which Infrastructure Stock Is the Better Buy?",
+          "url": "https://finnhub.io/api/news?id=9154aacd77537d49af1c03c7e0cb1812e3060e272d271aea81f20811f6c3b83e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:32:00Z",
+          "primary": false,
+          "symbol": "PWR"
+        },
+        {
+          "headline": "Jim Cramer Saw Two Ways Quanta Could Profit From AI. Its Latest Outlook Shows Why",
+          "url": "https://finnhub.io/api/news?id=c952f02a81d69b6b52c473e20488372add44a48d23a932923e6cde6e82a540de",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:02:55Z",
+          "primary": false,
+          "symbol": "PWR"
+        }
+      ]
+    },
+    "ENPH": {
+      "metrics": {
+        "52WeekHigh": 73.74,
+        "52WeekLow": 22.15,
+        "peTTM": 33.0301,
+        "psTTM": 2.475,
+        "netProfitMarginTTM": 7.49,
+        "roeTTM": 7.870000000000001,
+        "revenueGrowthTTMYoy": -19.9,
+        "epsGrowthTTMYoy": -52.88,
+        "currentRatioQuarterly": 4.0922,
+        "totalDebt/totalEquityQuarterly": 0.4615,
+        "marketCapitalization": 2998.2417
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Enphase Energy, Inc.",
+      "profile": {
+        "weburl": "https://enphase.com/",
+        "industry": "Semiconductors",
+        "name": "Enphase Energy, Inc."
+      },
+      "news": [
+        {
+          "headline": "Thurman J. Rodgers Sells $23M of Enphase Energy as Shares Near 52-Week Low",
+          "url": "https://finnhub.io/api/news?id=fefaa40b658f3e0fc6dbbadebce853d2c286ddbf4c58bd66a55c1e0e926235d3",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:05:20Z",
+          "primary": false,
+          "symbol": "ENPH"
+        },
+        {
+          "headline": "Enphase Energy (ENPH) Hits New Record Low. Why Investors Are Losing Confidence",
+          "url": "https://finnhub.io/api/news?id=7b181ee3517455518811b4c5f0123ac31d6338ff4f780127136c6dcfb132c514",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T04:48:22Z",
+          "primary": false,
+          "symbol": "ENPH"
+        },
+        {
+          "headline": "Solar Stocks Rebound After A Brutal Rout: Is The Worst Over For ENPH, FSLR, CSIQ, SEDG Stocks?",
+          "url": "https://finnhub.io/api/news?id=ddccd7ac02e3aebb55a0b7de9c20edec962a5f887122b2535f930f25c7cd321c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T02:53:53Z",
+          "primary": false,
+          "symbol": "ENPH"
+        },
+        {
+          "headline": "First Solar and Enphase Fall 5% as Solar Selloff Stretches On; SolarEdge Drops 4%",
+          "url": "https://finnhub.io/api/news?id=315e6c538aa23436abb725bf60f977b53141db674e6a26bc1e8a5008f02819dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T18:58:32Z",
+          "primary": false,
+          "symbol": "ENPH"
+        },
+        {
+          "headline": "Enphase Energy to Showcase Product Innovations at RE+ 2026",
+          "url": "https://finnhub.io/api/news?id=7e9047a89079a2323e6e4590c2b9d92dd34e3267ca3374a56f7c48d3eeff06b1",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:00:00Z",
+          "primary": false,
+          "symbol": "ENPH"
+        }
+      ]
+    },
+    "AMAT": {
+      "metrics": {
+        "52WeekHigh": 739.67,
+        "52WeekLow": 215.5,
+        "peTTM": 27.6729,
+        "psTTM": 8.1044,
+        "netProfitMarginTTM": 29.29,
+        "roeTTM": 41.449999999999996,
+        "revenueGrowthTTMYoy": 21.43,
+        "epsGrowthTTMYoy": 45.61,
+        "currentRatioQuarterly": 2.3436,
+        "totalDebt/totalEquityQuarterly": 0.2502,
+        "marketCapitalization": 279163.75
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Applied Materials Inc",
+      "profile": {
+        "weburl": "https://www.appliedmaterials.com/",
+        "industry": "Semiconductors",
+        "name": "Applied Materials Inc"
+      },
+      "news": [
+        {
+          "headline": "AMAT's AGS Gains From Growing Installed Base: What's Ahead?",
+          "url": "https://finnhub.io/api/news?id=2388de7ea1704e6a1dfea17b0439d8d4c22360a24b023f9c97a3e2dfaab01968",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:02:00Z",
+          "primary": false,
+          "symbol": "AMAT"
+        },
+        {
+          "headline": "A $3 Billion Fund Is Betting Big on Applied Materials",
+          "url": "https://finnhub.io/api/news?id=ed6aa0f7b605a3b870efb10f42e5ef33998145d5694cd7c497e5f43208c748bf",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:04:04Z",
+          "primary": false,
+          "symbol": "AMAT"
+        },
+        {
+          "headline": "Multiple Compression Weighs on Applied Materials (AMAT) in Q3",
+          "url": "https://finnhub.io/api/news?id=7cb529b2602af787be93962119d201f98f095f8974d8cb20b846b2722e9aabfb",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:49:26Z",
+          "primary": false,
+          "symbol": "AMAT"
+        },
+        {
+          "headline": "Here’s What Underpins Long-Term Outlook for Applied Materials (AMAT)",
+          "url": "https://finnhub.io/api/news?id=7ec1b3d282ad838d0a3c24f717e1f0a97fb41d79e3f02b73b5bbc76a82caf87b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:10:02Z",
+          "primary": false,
+          "symbol": "AMAT"
+        },
+        {
+          "headline": "Applied Materials Sinks 7% in a Week, but Customers Want Its Tools “As Fast as We Can Get Them”",
+          "url": "https://finnhub.io/api/news?id=6fad1f2c6ffcd1403467609542f3512c19b1e71fb74a769e97b9d7f300a5863d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:07:18Z",
+          "primary": false,
+          "symbol": "AMAT"
+        }
+      ]
+    },
+    "MO": {
+      "metrics": {
+        "52WeekHigh": 79.97,
+        "52WeekLow": 54.7,
+        "peTTM": 15.131,
+        "psTTM": 5.2219,
+        "netProfitMarginTTM": 34.51,
+        "roeTTM": 149.65,
+        "revenueGrowthTTMYoy": 0.47,
+        "epsGrowthTTMYoy": -7.64,
+        "currentRatioQuarterly": 0.5788,
+        "totalDebt/totalEquityQuarterly": 8.6709,
+        "marketCapitalization": 122803.234
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Altria Group Inc",
+      "profile": {
+        "weburl": "https://www.altria.com/",
+        "industry": "Tobacco",
+        "name": "Altria Group Inc"
+      },
+      "news": [
+        {
+          "headline": "Here's How Much $10,000 Invested in Altria Stock Could Pay in Dividends Over the Next Decade",
+          "url": "https://finnhub.io/api/news?id=4c4623cb8a13a304da68acf154dea82d59dbe21cb0e76fad4e9153979183f51f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:00:02Z",
+          "primary": false,
+          "symbol": "MO"
+        },
+        {
+          "headline": "Will Altria's Smoke-Free Business Become Its Next Growth Engine?",
+          "url": "https://finnhub.io/api/news?id=14f2d603fcbd96fef1e30e6cc8edf50c9a64428c6d4646eda380f1902d2d3b55",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:51:00Z",
+          "primary": false,
+          "symbol": "MO"
+        },
+        {
+          "headline": "Altria: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=cb7d1b2e937f88b0a0e1e4026e46fec61666685d96ccedc3853225e10ee1d36e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T20:35:02Z",
+          "primary": false,
+          "symbol": "MO"
+        },
+        {
+          "headline": "Altria or BP: Only One Gets My Dividend Dollars for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=7e4640608dd81406622775aac5dd45655bb3fc41ece99fe94c104d874cca0d93",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:20:14Z",
+          "primary": false,
+          "symbol": "MO"
+        },
+        {
+          "headline": "Altria or Bristol Myers Squibb: The One Dividend Stock I’d Hold for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=3b4be79bbc6bd0e70b50920e6d613f119232f8a864fb22b194e13ce7cdd1f081",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:23:52Z",
+          "primary": false,
+          "symbol": "MO"
+        }
+      ]
+    },
+    "TFC": {
+      "metrics": {
+        "52WeekHigh": 56.2,
+        "52WeekLow": 43.13,
+        "peTTM": 10.8331,
+        "psTTM": 1.76233,
+        "netProfitMarginTTM": 23.80457,
+        "roeTTM": 8.14,
+        "revenueGrowthTTMYoy": 58.19041,
+        "epsGrowthTTMYoy": 3.43,
+        "totalDebt/totalEquityQuarterly": 1.0702,
+        "marketCapitalization": 56191.25
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Truist Financial Corporation",
+      "profile": {
+        "weburl": "https://www.truist.com/",
+        "industry": "Banking",
+        "name": "Truist Financial Corporation"
+      },
+      "news": [
+        {
+          "headline": "Inside Truist’s plan to ward off merchant-focused fintechs",
+          "url": "https://finnhub.io/api/news?id=3f96437f6621faa015f5f03fdc849ade6f0384dfe338c990e216dfbc4a2057af",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:39:00Z",
+          "primary": false,
+          "symbol": "TFC"
+        },
+        {
+          "headline": "Walmart Is Up 24% in a Year. Truist Sees Another 6%",
+          "url": "https://finnhub.io/api/news?id=ebaf0422e4d512d0ac339a538100f1e56ddbdc860c8967e65c7cb00757cbf0ae",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:48:56Z",
+          "primary": false,
+          "symbol": "TFC"
+        },
+        {
+          "headline": "A $1,500,000 Portfolio in HP, Truist and PepsiCo Pays $65,144 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=fc9fc53afe01a768905b9beae3e59ead32ef790a4528b34f6e1b96c9f6fe4a5f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T10:50:34Z",
+          "primary": false,
+          "symbol": "TFC"
+        },
+        {
+          "headline": "Truist (TFC) Stock Could Be 32% Undervalued On Excess Returns",
+          "url": "https://finnhub.io/api/news?id=f9ddd44d4c1d9ecf9273cff2c1c1673dd0ea2b7a326e351e970bedc5c41724e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:16:47Z",
+          "primary": false,
+          "symbol": "TFC"
+        },
+        {
+          "headline": "A 67-Year-Old With $500,000 in Nike, HP and Truist Collects $1,872 a Month in Dividends. How Safe Is Each Check?",
+          "url": "https://finnhub.io/api/news?id=56e89b2228c53108cbd6e14c764897977432638ff172f036f97a4100d45f488a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:50:47Z",
+          "primary": false,
+          "symbol": "TFC"
+        }
+      ]
+    },
+    "MCK": {
+      "metrics": {
+        "52WeekHigh": 1121.5,
+        "52WeekLow": 723.68,
+        "peTTM": 25.8627,
+        "psTTM": 0.2903,
+        "netProfitMarginTTM": 1.12,
+        "roeTTM": 39.43,
+        "revenueGrowthTTMYoy": 8.19,
+        "epsGrowthTTMYoy": 21.02,
+        "currentRatioQuarterly": 0.8964,
+        "totalDebt/totalEquityQuarterly": 1.2917,
+        "marketCapitalization": 121554.516
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "McKesson Corp",
+      "profile": {
+        "weburl": "https://www.mckesson.com/",
+        "industry": "Health Care",
+        "name": "McKesson Corp"
+      },
+      "news": [
+        {
+          "headline": "McKesson (MCK) Stock Still Sits Below Fair Value On Raised EPS Guidance",
+          "url": "https://finnhub.io/api/news?id=98d84b32808268b2afaf047018da0925b0becd57cc92f9fd7098b41134d42ef4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T07:15:03Z",
+          "primary": false,
+          "symbol": "MCK"
+        },
+        {
+          "headline": "McKesson (MCK) Dropped, So What Is Driving Attention Now?",
+          "url": "https://finnhub.io/api/news?id=30cb0e033117a2340f2e7b1122a0d8bb00cf3fc04b6d6efa1490bf099da6001c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:18:27Z",
+          "primary": false,
+          "symbol": "MCK"
+        },
+        {
+          "headline": "Two Deals and a Higher Target: UBS’s Call on McKesson (MCK)",
+          "url": "https://finnhub.io/api/news?id=595c385fcdf58e62b0c490d2fa1a834160303a1c4fa8c9da1020aff723eb4ff2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:33:31Z",
+          "primary": false,
+          "symbol": "MCK"
+        },
+        {
+          "headline": "Brokers Suggest Investing in McKesson (MCK): Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=9d6ce115890bf9e9ebf632023e073b56bff8d9456ffde2eb16de58eda93215dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:30:03Z",
+          "primary": false,
+          "symbol": "MCK"
+        },
+        {
+          "headline": "The Early Signs Before McKesson Stock's 44% Rise",
+          "url": "https://finnhub.io/api/news?id=dabe95e4f34c728224b1d321068bc9f72900d1f51f6e51630b7e993a46baa3a8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:35:51Z",
+          "primary": false,
+          "symbol": "MCK"
+        }
+      ]
+    },
+    "JCI": {
+      "metrics": {
+        "52WeekHigh": 160.4099,
+        "52WeekLow": 108.41,
+        "peTTM": 28.7551,
+        "psTTM": 3.1964,
+        "netProfitMarginTTM": 11.12,
+        "roeTTM": 21.21,
+        "revenueGrowthTTMYoy": 8.77,
+        "epsGrowthTTMYoy": -8.13,
+        "currentRatioQuarterly": 0.9039,
+        "totalDebt/totalEquityQuarterly": 0.6816,
+        "marketCapitalization": 82038.305
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Johnson Controls International PLC",
+      "profile": {
+        "weburl": "https://www.johnsoncontrols.com/",
+        "industry": "Building",
+        "name": "Johnson Controls International PLC"
+      },
+      "news": [
+        {
+          "headline": "Is Johnson Controls Stock Engineered To Make You Money?",
+          "url": "https://finnhub.io/api/news?id=6c5f1a54c48c42baaf9c409daa5e95179c398825641460a5d347775e0d624932",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:41:52Z",
+          "primary": false,
+          "symbol": "JCI"
+        },
+        {
+          "headline": "Here's How Much $1000 Invested In Johnson Controls Intl 15 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=f88ac4e669c6d2fd91f9f3800bd73c330e3eaded585d95cf759b7fa3e7bdd2d2",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:00:16Z",
+          "primary": false,
+          "symbol": "JCI"
+        },
+        {
+          "headline": "Hospital HVAC Systems - Global Strategic Business Report 2026: Capture $5.5 Billion in Growth by 2032 with Carrier, Daikin, Johnson Controls, and Trane",
+          "url": "https://finnhub.io/api/news?id=fde9403b5b56aaca66a7c02e25801d750838358e01b845a6bd94b1cd46a5a50f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:31:00Z",
+          "primary": false,
+          "symbol": "JCI"
+        },
+        {
+          "headline": "Implied Volatility Surging for Johnson Controls International Stock Options",
+          "url": "https://finnhub.io/api/news?id=caa1ad9c1c13846b9a6653cfd10f0cfe6394aeb1ee6621fa28bd13198ce7b541",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:38:00Z",
+          "primary": false,
+          "symbol": "JCI"
+        },
+        {
+          "headline": "What Does Allegion Offer That Johnson Controls Does Not?",
+          "url": "https://finnhub.io/api/news?id=ce1fdab88fbef1952f2939011e434762ee77f57b14152ac6b194abc37dbce5e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T01:53:21Z",
+          "primary": false,
+          "symbol": "JCI"
+        }
+      ]
+    },
+    "NEM": {
+      "metrics": {
+        "52WeekHigh": 135.29,
+        "52WeekLow": 81.34,
+        "peTTM": 11.4266,
+        "psTTM": 3.9684,
+        "netProfitMarginTTM": 34.73,
+        "roeTTM": 26.450000000000003,
+        "revenueGrowthTTMYoy": 23.73,
+        "epsGrowthTTMYoy": 33.86,
+        "currentRatioQuarterly": 2.4501,
+        "totalDebt/totalEquityQuarterly": 0.1565,
+        "marketCapitalization": 105582.03
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Newmont Corporation",
+      "profile": {
+        "weburl": "https://newmont.com/",
+        "industry": "Metals & Mining",
+        "name": "Newmont Corporation"
+      },
+      "news": [
+        {
+          "headline": "Newmont (NYSE:NEM) and the GARP Case for Growth at a Reasonable Price",
+          "url": "https://finnhub.io/api/news?id=4e7000d85a2921250fd0a420446563fe77e004b04a9ad8caf0f3ed04b3e64d5e",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T13:30:54Z",
+          "primary": false,
+          "symbol": "NEM"
+        },
+        {
+          "headline": "Will Metals Sell Off Change Newmont (NEM) Stock Narrative",
+          "url": "https://finnhub.io/api/news?id=9f4dcb2c275b2596fa9e2e881f164531f2cf077c30f3e60db2f566cb40ce25d4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T08:09:45Z",
+          "primary": false,
+          "symbol": "NEM"
+        },
+        {
+          "headline": "Newmont (NEM) Slides With Metals Sell Off, Is It Trading At A 26% Discount?",
+          "url": "https://finnhub.io/api/news?id=202ea825e4f5953b199aff7d143a87605897e2d6d47beb4071b66c16ba1ea3a9",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:10:18Z",
+          "primary": false,
+          "symbol": "NEM"
+        },
+        {
+          "headline": "Newmont Stocks Fall 5.13% as Gold Slides Below $3,800 on Fed Hike Bets",
+          "url": "https://finnhub.io/api/news?id=d529e6da4602946356200e70183c59d9b07cd8011647b2f16572bc93cfd5bf2d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:08:05Z",
+          "primary": false,
+          "symbol": "NEM"
+        },
+        {
+          "headline": "Why Is Newmont Stock Falling Wednesday?",
+          "url": "https://finnhub.io/api/news?id=b9f851cff4eca14b4c3ac301be541be3b7d718259215c9568fc0d90bd4ff9840",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T11:19:45Z",
+          "primary": false,
+          "symbol": "NEM"
+        }
+      ]
+    },
+    "MU": {
+      "metrics": {
+        "52WeekHigh": 1255.0,
+        "52WeekLow": 192.59,
+        "peTTM": 9.5789,
+        "psTTM": 6.111,
+        "netProfitMarginTTM": 63.8,
+        "roeTTM": 91.77,
+        "revenueGrowthTTMYoy": 256.33,
+        "epsGrowthTTMYoy": 878.77,
+        "currentRatioQuarterly": 3.3138,
+        "totalDebt/totalEquityQuarterly": 0.0374,
+        "marketCapitalization": 813911.94
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Micron Technology, Inc.",
+      "profile": {
+        "weburl": "https://www.micron.com/",
+        "industry": "Semiconductors",
+        "name": "Micron Technology, Inc."
+      },
+      "news": [
+        {
+          "headline": "Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+          "url": "https://finnhub.io/api/news?id=d48200e955537884fd7f5707965d11048c0e4b65c11cbbcde3e9cdf72e727732",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:41:04Z",
+          "primary": false,
+          "symbol": "MU"
+        },
+        {
+          "headline": "Prediction: This Is What Will Happen to Micron’s Stock Price in December",
+          "url": "https://finnhub.io/api/news?id=6136dfbe0f8fbf93ca6b5ef63a84fce30ef86d38da811d2b4c86718d8c3d0a24",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:38:02Z",
+          "primary": false,
+          "symbol": "MU"
+        },
+        {
+          "headline": "Micron Stocks Fall 2.10% After 7.8% Anthropic Rally Reverses",
+          "url": "https://finnhub.io/api/news?id=8dc0f94d9848c0943536f18a92c5a840d4e6a34d6ec39a591a5798cd115418f6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:24:06Z",
+          "primary": false,
+          "symbol": "MU"
+        },
+        {
+          "headline": "Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off",
+          "url": "https://finnhub.io/api/news?id=214f309e9937acea30a968e82be15a1a5e12fefc39482341a684d327e8ca905a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:20:02Z",
+          "primary": false,
+          "symbol": "MU"
+        },
+        {
+          "headline": "Why Micron Stock Crashed Today",
+          "url": "https://finnhub.io/api/news?id=dff12097aeb89761d50359f48512f22f86c904517ad8725fc741819a205a5305",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:54:02Z",
+          "primary": false,
+          "symbol": "MU"
+        }
+      ]
+    },
+    "TSLA": {
+      "metrics": {
+        "52WeekHigh": 498.83,
+        "52WeekLow": 297.38,
+        "peTTM": 445.8262,
+        "psTTM": 13.8608,
+        "netProfitMarginTTM": 3.11,
+        "roeTTM": 3.7600000000000002,
+        "revenueGrowthTTMYoy": 8.3,
+        "epsGrowthTTMYoy": -39.17,
+        "currentRatioQuarterly": 1.7387,
+        "totalDebt/totalEquityQuarterly": 0.1067,
+        "marketCapitalization": 1435560.5
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Tesla Inc",
+      "profile": {
+        "weburl": "https://www.tesla.com/",
+        "industry": "Automobiles",
+        "name": "Tesla Inc"
+      },
+      "news": [
+        {
+          "headline": "Tesla Falls 4% Despite HSBC Upgrade and $359 Target Tied to SpaceX Merger Talk; Rivian Drops 5%, Lucid Slides 4%",
+          "url": "https://finnhub.io/api/news?id=dae7e5a60bcff3b16866c80aa940d96a61687168634b2854127af6bc031a16d7",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:57:39Z",
+          "primary": false,
+          "symbol": "TSLA"
+        },
+        {
+          "headline": "Why Avoiding Tesla (TSLA) Boosted Fund Performance",
+          "url": "https://finnhub.io/api/news?id=1f3904042c10ec4ce67a136f39e9f34dec287785039abde29925b5557e8af729",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:50:30Z",
+          "primary": false,
+          "symbol": "TSLA"
+        },
+        {
+          "headline": "Tesla proposes $3.1 billion Texas polysilicon refinery",
+          "url": "https://finnhub.io/api/news?id=be877e7a5ba550c3026b5e312bafcb69d02f4565297c659136cd0262545eb8dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:05:18Z",
+          "primary": false,
+          "symbol": "TSLA"
+        },
+        {
+          "headline": "Tesla (TSLA) Down 0.1% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=df3c8e4ac610f28eb78de71fac8f16e0e3da7cd7e70dc3cbe9cbb0cf29acb066",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:11Z",
+          "primary": false,
+          "symbol": "TSLA"
+        },
+        {
+          "headline": "Can Tesla (TSLA) Robotaxis Catch Waymo? JPMorgan Is Watching",
+          "url": "https://finnhub.io/api/news?id=9486d53265a5f0c224c08567deeb49281c9570da79ffcd7c275e48918148f0d4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:23:48Z",
+          "primary": false,
+          "symbol": "TSLA"
+        }
+      ]
+    },
+    "FITB": {
+      "metrics": {
+        "52WeekHigh": 59.5,
+        "52WeekLow": 40.68,
+        "peTTM": 21.4496,
+        "psTTM": 2.09431,
+        "netProfitMarginTTM": 28.8455,
+        "roeTTM": 8.86,
+        "revenueGrowthTTMYoy": 58.17837,
+        "epsGrowthTTMYoy": -5.54,
+        "totalDebt/totalEquityQuarterly": 0.5656,
+        "marketCapitalization": 46610.05
+      },
+      "updated_at": "2026-11-20T19:10:18Z",
+      "name": "Fifth Third Bancorp",
+      "profile": {
+        "weburl": "https://www.53.com/",
+        "industry": "Banking",
+        "name": "Fifth Third Bancorp"
+      },
+      "news": [
+        {
+          "headline": "Fifth Third Bancorp (FITB) Down 0.3% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=f81effd7dbc2b399ba75e694f4b0a57ec128d2670b13bb1c9d077ae1bd1e3c9d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:30:04Z",
+          "primary": false,
+          "symbol": "FITB"
+        },
+        {
+          "headline": "U.S. Bancorp or Fifth Third Bancorp: The One Dividend Stock I’d Hold for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=2516c477303e648f8533cdb830d573e5660a2e0bc8a84f769d13e6527776b016",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:46:47Z",
+          "primary": false,
+          "symbol": "FITB"
+        },
+        {
+          "headline": "Fifth Third Bancorp to Participate in the Goldman Sachs U.S. Financial Services Conference",
+          "url": "https://finnhub.io/api/news?id=c04b06306032df6d32c15dd62dbbcaf80b45a98db828a162ca93309ce76a06b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:30:00Z",
+          "primary": false,
+          "symbol": "FITB"
+        }
+      ]
     }
   },
-  "cursor": 212,
-  "updated_at": "2026-11-20T18:45:56Z"
+  "cursor": 224,
+  "updated_at": "2026-11-20T19:10:18Z"
 }
