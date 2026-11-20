@@ -23,6 +23,7 @@ NOW=datetime.now(timezone.utc)
 FRESH_DAYS=7
 ASX_DIRECTORY='https://www.asx.com.au/asx/research/ASXListedCompanies.csv'
 NZX_DIRECTORY='https://nzxplorer.co.nz/api/v1/companies'
+NZX_PAGES=[NZX_DIRECTORY+'?limit=100&offset='+str(n) for n in (0,100,200)]
 MAX_BYTES=4_000_000
 SOURCES={
     'NASDAQ':'https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt',
@@ -101,7 +102,7 @@ def parse_listing(source,payload):
 
 
 def fetch_apac(url,key=None):
-    if url not in (ASX_DIRECTORY,NZX_DIRECTORY):
+    if url not in (ASX_DIRECTORY,NZX_DIRECTORY,*NZX_PAGES):
         raise ValueError('Unapproved exchange source')
     headers={'User-Agent':'Mozilla/5.0 (compatible; ScoutMarketDiscovery/1.0)', 'Accept':'application/json, text/csv;q=0.9, */*;q=0.1'}
     if key:
@@ -158,8 +159,8 @@ def parse_nzx(payload):
             continue
         seen.add(ticker)
         output.append({'symbol':ticker,'name':name,'exchange':'NZX','market':'NZX','type':'SHARE'})
-    if not 80<=len(output)<=350:
-        raise ValueError('NZX response may be paginated or incomplete')
+    if not 0<=len(output)<=100:
+        raise ValueError('NZX response page too large')
     return sorted(output,key=lambda x:x['symbol'])
 
 def apac_discovery(old=None):
@@ -179,7 +180,13 @@ def apac_discovery(old=None):
         try:
             if market=='NZX' and not key:
                 raise ValueError('NZXPLORER_API_KEY not configured')
-            fresh=parser(fetch_apac(url,key))
+            if market=='NZX':
+                pages=[parser(fetch_apac(page,key)) for page in NZX_PAGES]
+                fresh=list({record['symbol']:record for page in pages for record in page}.values())
+                if not 80<=len(fresh)<=350 or (len(pages[0])==100 and len(pages[1])==100 and pages[0]==pages[1]):
+                    raise ValueError('NZX directory incomplete or pagination ignored')
+            else:
+                fresh=parser(fetch_apac(url,key))
             chosen=fresh
             status='DISCOVERED'
             note='Company directory verified; prices and fundamentals NOT connected'
