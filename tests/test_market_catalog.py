@@ -66,8 +66,8 @@ class MarketCatalogTests(unittest.TestCase):
             mc.parse_asx(b'wrong columns')
 
     def test_nzx_directory_parser_fails_closed(self):
-        rows=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(110)]
-        self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows}).encode())),110)
+        rows=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(100)]
+        self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows}).encode())),100)
         with self.assertRaises(ValueError):
             mc.parse_nzx(json.dumps({'data':rows[:3]}).encode())
 
