@@ -4141,8 +4141,676 @@
           "symbol": "OXY"
         }
       ]
+    },
+    "SPG": {
+      "metrics": {
+        "52WeekHigh": 238.5,
+        "52WeekLow": 177.88,
+        "peTTM": 16.2483,
+        "psTTM": 10.251,
+        "netProfitMarginTTM": 63.09,
+        "roeTTM": 97.13000000000001,
+        "revenueGrowthTTMYoy": 16.22,
+        "epsGrowthTTMYoy": 62.09,
+        "currentRatioQuarterly": 0.3265,
+        "totalDebt/totalEquityQuarterly": 6.9579,
+        "marketCapitalization": 73332.95
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Simon Property Group Inc",
+      "profile": {
+        "weburl": "https://www.simon.com/",
+        "industry": "Real Estate",
+        "name": "Simon Property Group Inc"
+      },
+      "news": [
+        {
+          "headline": "This Holiday Season, It's a Simon® Thing",
+          "url": "https://finnhub.io/api/news?id=21eaf095f614652e3104203d3be90a6963fdf03ad7af01eaec7495acd928e86b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:00:00Z",
+          "primary": false,
+          "symbol": "SPG"
+        },
+        {
+          "headline": "Citigroup Maintains Neutral on Simon Property Group, Raises Price Target to $237",
+          "url": "https://finnhub.io/api/news?id=15535396d95c878986bf676f0525e6a3e5bb0c8d6ad563a961ddf292173b98da",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T12:18:51Z",
+          "primary": false,
+          "symbol": "SPG"
+        },
+        {
+          "headline": "Simon® Breaks Ground on Sagefield™, Bringing Curated Retail, Distinctive Dining, and Design Excellence to South Nashville",
+          "url": "https://finnhub.io/api/news?id=c7360fa52664ddb4003772c22a80a3fbb6677d69dc6b0bb54f19de790eb26ab1",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T20:10:00Z",
+          "primary": false,
+          "symbol": "SPG"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains In-Line on Simon Property Group, Raises Price Target to $227",
+          "url": "https://finnhub.io/api/news?id=91bf07f9736f885f773d241ae45282f98ebf1bfe59d189fdc1e4a3e3adcb57b5",
+          "source": "Benzinga",
+          "published_at": "2026-11-12T10:05:41Z",
+          "primary": false,
+          "symbol": "SPG"
+        }
+      ]
+    },
+    "SKYD": {
+      "metrics": {
+        "52WeekHigh": 9.84,
+        "52WeekLow": 6.61,
+        "psTTM": 1.0874,
+        "netProfitMarginTTM": -0.99,
+        "roeTTM": -2.4699999999999998,
+        "revenueGrowthTTMYoy": 2.46,
+        "currentRatioQuarterly": 1.0965,
+        "totalDebt/totalEquityQuarterly": 1.2569,
+        "marketCapitalization": 32005.594
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Skydance Corporation",
+      "profile": {
+        "weburl": "https://www.skydance.com",
+        "industry": "Media",
+        "name": "Skydance Corporation"
+      },
+      "news": [
+        {
+          "headline": "Skydance (SKYD) Stock Looks Like A Bargain At This Price",
+          "url": "https://finnhub.io/api/news?id=392db88361442eb6d4e012a201675c1230b560a55243e826b0a75c815ea8f0df",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:20:04Z",
+          "primary": false,
+          "symbol": "SKYD"
+        },
+        {
+          "headline": "Is Skydance (SKYD) Undervalued After Insider Buying And The Warner Deal?",
+          "url": "https://finnhub.io/api/news?id=0dc73f7b93f567931812e5ebe6e137e7941975137737072a987235ebb42170b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:14:15Z",
+          "primary": false,
+          "symbol": "SKYD"
+        },
+        {
+          "headline": "Skydance (SKYD) Just Closed Its $111 Billion Merger",
+          "url": "https://finnhub.io/api/news?id=32667de697175aed1c0069118090032de0f7f17234ed8b41bc931de7588fa45e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:22:19Z",
+          "primary": false,
+          "symbol": "SKYD"
+        },
+        {
+          "headline": "Reported Earlier, 'Skydance Opts Out of Bidding for Costly FIFA World Cup Rights' - Bloomberg",
+          "url": "https://finnhub.io/api/news?id=f5be4d29fb0eb54f2d8f268ad1fe5e8461824f7688ccc3ece240354b509a5e7a",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T02:25:15Z",
+          "primary": false,
+          "symbol": "SKYD"
+        },
+        {
+          "headline": "Skydance's David Ellison calls Elon Musk 'the greatest entrepreneur of our time'",
+          "url": "https://finnhub.io/api/news?id=2a75c124e39a09ad39808d1506930b868dde62c11fd8f163ac33563649195fcc",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T20:54:05Z",
+          "primary": false,
+          "symbol": "SKYD"
+        }
+      ]
+    },
+    "MELI": {
+      "metrics": {
+        "52WeekHigh": 2342.0,
+        "52WeekLow": 1417.3986,
+        "peTTM": 38.1731,
+        "psTTM": 1.8728,
+        "netProfitMarginTTM": 4.91,
+        "roeTTM": 25.15,
+        "revenueGrowthTTMYoy": 47.07,
+        "epsGrowthTTMYoy": -8.99,
+        "currentRatioQuarterly": 1.1697,
+        "totalDebt/totalEquityQuarterly": 1.6085,
+        "marketCapitalization": 72147.125
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "MercadoLibre, Inc.",
+      "profile": {
+        "weburl": "https://www.mercadolibre.com.uy/",
+        "industry": "Retail",
+        "name": "MercadoLibre, Inc."
+      },
+      "news": [
+        {
+          "headline": "Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?",
+          "url": "https://finnhub.io/api/news?id=34c4c8a521af137c1ae9cbfec4ba966145f4e967609aa6a4718219f7d8626f86",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T01:25:00Z",
+          "primary": false,
+          "symbol": "MELI"
+        },
+        {
+          "headline": "MercadoLibre: Margin Pressure And Brazil Fears Open A Buying Opportunity",
+          "url": "https://finnhub.io/api/news?id=37abcd7d13f48fe9ba1c0b29014d6dee97ea13f9c405bdb205102077c458e0b0",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T05:54:35Z",
+          "primary": false,
+          "symbol": "MELI"
+        },
+        {
+          "headline": "Booking Holdings vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=17e7dd253692657769db2ca057f98097305a5c204593983942d753253c4c347b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:10:01Z",
+          "primary": false,
+          "symbol": "MELI"
+        },
+        {
+          "headline": "MercadoLibre vs. Shopify: Comparing Recent Revenue Scale and Growth Trajectories",
+          "url": "https://finnhub.io/api/news?id=7c15438e1fee55cc6d3007d5394a1a443742e17b2b09f2e9a907ee61121dca72",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:20:02Z",
+          "primary": false,
+          "symbol": "MELI"
+        },
+        {
+          "headline": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+          "url": "https://finnhub.io/api/news?id=fcc4ab31da72ebea36439132786a5dd95a457b24aa25901f233f4f8d26c5a504",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T22:44:00Z",
+          "primary": false,
+          "symbol": "MELI"
+        }
+      ]
+    },
+    "TGT": {
+      "metrics": {
+        "52WeekHigh": 171.91,
+        "52WeekLow": 83.44,
+        "peTTM": 15.5546,
+        "psTTM": 0.698,
+        "netProfitMarginTTM": 4.49,
+        "roeTTM": 28.58,
+        "revenueGrowthTTMYoy": 4.05,
+        "epsGrowthTTMYoy": 30.63,
+        "currentRatioQuarterly": 0.9924,
+        "totalDebt/totalEquityQuarterly": 0.8346,
+        "marketCapitalization": 76435.42
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Target Corp",
+      "profile": {
+        "weburl": "https://corporate.target.com/",
+        "industry": "Retail",
+        "name": "Target Corp"
+      },
+      "news": [
+        {
+          "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
+          "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:26:55Z",
+          "primary": false,
+          "symbol": "TGT"
+        },
+        {
+          "headline": "Tariff Refunds Are About A Fifth Of Target's Guidance",
+          "url": "https://finnhub.io/api/news?id=af0a86e26dc0efd2ce54da04aae98f50105356ec5d9d70aa25d055b6bad0a1e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:23:20Z",
+          "primary": false,
+          "symbol": "TGT"
+        },
+        {
+          "headline": "Target booked $301 million from tariff refunds this quarter, nearly a fifth of its operating profit",
+          "url": "https://finnhub.io/api/news?id=87af978b38d660e3b68d0339ce8ba05a4a540a00e0cd810a898cb8929feffe05",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:53:10Z",
+          "primary": false,
+          "symbol": "TGT"
+        },
+        {
+          "headline": "Target's Q3 Results Met High Bar for Comp Sales, Showed Another Quarter of Progress, RBC Says",
+          "url": "https://finnhub.io/api/news?id=aca9584623ef87c9da198f838a2f39653a2555a63a55d75dd3510dfe0b972f02",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:02:38Z",
+          "primary": false,
+          "symbol": "TGT"
+        },
+        {
+          "headline": "Is Target finally catching up to Walmart?",
+          "url": "https://finnhub.io/api/news?id=5d3ec026fd32158e9f1e9e3754ed4be9559764a20a64e42b1630772f34199951",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:07:41Z",
+          "primary": false,
+          "symbol": "TGT"
+        }
+      ]
+    },
+    "PFE": {
+      "metrics": {
+        "52WeekHigh": 31.44,
+        "52WeekLow": 23.62,
+        "peTTM": 39.0827,
+        "psTTM": 2.4774,
+        "netProfitMarginTTM": 6.34,
+        "roeTTM": 4.6,
+        "revenueGrowthTTMYoy": 1.33,
+        "epsGrowthTTMYoy": -59.38,
+        "currentRatioQuarterly": 1.4187,
+        "totalDebt/totalEquityQuarterly": 0.7042,
+        "marketCapitalization": 157620.33
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Pfizer Inc.",
+      "profile": {
+        "weburl": "https://www.pfizer.com/",
+        "industry": "Pharmaceuticals",
+        "name": "Pfizer Inc."
+      },
+      "news": [
+        {
+          "headline": "Pfizer Is Shopping for China’s Biotech Breakthroughs",
+          "url": "https://finnhub.io/api/news?id=23b2a5b0526be1efdb1d16ccab683991f84c918dd387d321f8bf95cd9398b812",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:56:55Z",
+          "primary": false,
+          "symbol": "PFE"
+        },
+        {
+          "headline": "Most-Active S&P 500 Stocks: Ford, Super Micro, Pfizer Lead Session Volume",
+          "url": "https://finnhub.io/api/news?id=57ace738ee9013b49dac801de5d3489eae89e39e87a2953122373ec19c2c0eb3",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T19:05:54Z",
+          "primary": false,
+          "symbol": "PFE"
+        },
+        {
+          "headline": "PFE Inks $2.6B Licensing Deal With Chinese Biotech for CAR-T Therapies",
+          "url": "https://finnhub.io/api/news?id=308fd906c230c04805662da12c581be700d65aba96c3d91baa92ebab3c25a388",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:22:00Z",
+          "primary": false,
+          "symbol": "PFE"
+        },
+        {
+          "headline": "3 ETFs That Give You Pfizer With Very Different Mixes",
+          "url": "https://finnhub.io/api/news?id=ece72e431e378623db8a43e42e2a2dabd804715a7826d34c260c3e6ce598595d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:18:06Z",
+          "primary": false,
+          "symbol": "PFE"
+        },
+        {
+          "headline": "Can New Products and Acquisitions Revive Pfizer's Growth Story?",
+          "url": "https://finnhub.io/api/news?id=ef9f22b47067b64657039cc4bffbc86c329ecd73fd7b578fc096cd4b29652a5a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:18:00Z",
+          "primary": false,
+          "symbol": "PFE"
+        }
+      ]
+    },
+    "GEV": {
+      "metrics": {
+        "52WeekHigh": 1195.94,
+        "52WeekLow": 530.16,
+        "peTTM": 19.7153,
+        "psTTM": 4.6409,
+        "netProfitMarginTTM": 23.54,
+        "roeTTM": 85.61,
+        "revenueGrowthTTMYoy": 16.91,
+        "epsGrowthTTMYoy": 521.89,
+        "currentRatioQuarterly": 0.8273,
+        "totalDebt/totalEquityQuarterly": 0.2456,
+        "marketCapitalization": 204388.92
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "GE Vernova Inc.",
+      "profile": {
+        "weburl": "https://www.gevernova.com/",
+        "industry": "Electrical Equipment",
+        "name": "GE Vernova Inc."
+      },
+      "news": [
+        {
+          "headline": "GE Vernova Is Down 34% From Its July High Despite 3 Guidance Raises. Is It Time to Buy?",
+          "url": "https://finnhub.io/api/news?id=60ee10205946749c299287fa52a452e836efb9bffdb79149eb5734c412a98558",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:36:05Z",
+          "primary": false,
+          "symbol": "GEV"
+        },
+        {
+          "headline": "What Erste Group Doubts About GE Vernova (GEV) Next Year",
+          "url": "https://finnhub.io/api/news?id=1ae79637fb377b21e7a5c390351784977acd32586360e4e121b35fce33713bab",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:17:56Z",
+          "primary": false,
+          "symbol": "GEV"
+        },
+        {
+          "headline": "GE Vernova Stock Is a Buy. Not for AI, but for Services.",
+          "url": "https://finnhub.io/api/news?id=7624bfebaa15fb7cf4e894b7ee7568fbe8fe5849bb1e1af04d787ffdd901d54d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "GEV"
+        },
+        {
+          "headline": "Could GE Vernova (GEV) Gain From A $97 Million AI Infrastructure Rollout?",
+          "url": "https://finnhub.io/api/news?id=3b6b59e45e1989077d7ff8d11eda20a676cb954ac9cfd7adb7c9de3838fa750a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:11:31Z",
+          "primary": false,
+          "symbol": "GEV"
+        },
+        {
+          "headline": "GE Vernova Down 24%: What Would Its CEO Say?",
+          "url": "https://finnhub.io/api/news?id=73e55bdfd78cd18a516a0c16e81251ef47f82a22c750bd77660148c285db23b9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T00:36:26Z",
+          "primary": false,
+          "symbol": "GEV"
+        }
+      ]
+    },
+    "MPC": {
+      "metrics": {
+        "52WeekHigh": 493.98,
+        "52WeekLow": 161.93,
+        "peTTM": 6.9575,
+        "psTTM": 0.5763,
+        "netProfitMarginTTM": 8.28,
+        "roeTTM": 76.64999999999999,
+        "revenueGrowthTTMYoy": 30.61,
+        "epsGrowthTTMYoy": 444.83,
+        "currentRatioQuarterly": 1.4456,
+        "totalDebt/totalEquityQuarterly": 1.4228,
+        "marketCapitalization": 101795.45
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Marathon Petroleum Corporation",
+      "profile": {
+        "weburl": "https://www.marathonpetroleum.com/",
+        "industry": "Energy",
+        "name": "Marathon Petroleum Corporation"
+      },
+      "news": [
+        {
+          "headline": "What Moved Marathon Petroleum Stock?",
+          "url": "https://finnhub.io/api/news?id=1a409fd9dc5067ae499fda8ccad857700df1169ba8811da503ee48946c1e238b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:45:48Z",
+          "primary": false,
+          "symbol": "MPC"
+        },
+        {
+          "headline": "Marathon Petroleum Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=5ca9663eb3050d9acaccb3e063c365658a205cc56e792d47d14691e8f93f4917",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:23:02Z",
+          "primary": false,
+          "symbol": "MPC"
+        },
+        {
+          "headline": "Marathon Petroleum vs. Par Pacific: Picking the Better Refining Play",
+          "url": "https://finnhub.io/api/news?id=7fe8c7e14047e57a58b3deefbe6fda9883386576c9452187c8da6d4d3d1beb7d",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T16:07:00Z",
+          "primary": false,
+          "symbol": "MPC"
+        },
+        {
+          "headline": "Marathon Petroleum (NYSE:MPC): An Undervalued Value Stock With Decent Fundamentals",
+          "url": "https://finnhub.io/api/news?id=df1d0faafef26e3a1c1c7266d63cfd159ba40c87e57034a9ab5e83a22ff62529",
+          "source": "ChartMill",
+          "published_at": "2026-11-14T13:01:16Z",
+          "primary": false,
+          "symbol": "MPC"
+        },
+        {
+          "headline": "Mizuho Maintains Neutral on Marathon Petroleum, Lowers Price Target to $440",
+          "url": "https://finnhub.io/api/news?id=7d5a5417360991bc0e1d2fa9b54f63fd5b69a4f64bc44d28584ac17ca2012e34",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T13:27:27Z",
+          "primary": false,
+          "symbol": "MPC"
+        }
+      ]
+    },
+    "PSA": {
+      "metrics": {
+        "52WeekHigh": 345.8907,
+        "52WeekLow": 256.54,
+        "peTTM": 32.14,
+        "psTTM": 12.1356,
+        "netProfitMarginTTM": 37.76,
+        "roeTTM": 18.029999999999998,
+        "revenueGrowthTTMYoy": 5.16,
+        "epsGrowthTTMYoy": -0.6,
+        "currentRatioQuarterly": 0.2926,
+        "totalDebt/totalEquityQuarterly": 0.8407,
+        "marketCapitalization": 61073.52
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Public Storage",
+      "profile": {
+        "weburl": "https://www.publicstorage.com/",
+        "industry": "Real Estate",
+        "name": "Public Storage"
+      },
+      "news": [
+        {
+          "headline": "Public Storage Announces Departure of President, Chief Digital & Transformation Officer Natalia N. Johnson Effective January 31, 2027",
+          "url": "https://finnhub.io/api/news?id=aea4c527c0aca841f5fd66d7373675058b8aeca95c871e32296f50dd576eae77",
+          "source": "Fintel",
+          "published_at": "2026-11-12T20:52:42Z",
+          "primary": false,
+          "symbol": "PSA"
+        },
+        {
+          "headline": "Truist Securities Maintains Buy on Public Storage, Raises Price Target to $365",
+          "url": "https://finnhub.io/api/news?id=a426bcc894b159f853a9f31db2d99040e573ebc640234c79846cbbbabb8984a9",
+          "source": "Benzinga",
+          "published_at": "2026-11-12T14:09:29Z",
+          "primary": false,
+          "symbol": "PSA"
+        }
+      ]
+    },
+    "FOXA": {
+      "metrics": {
+        "52WeekHigh": 76.39,
+        "52WeekLow": 48.34,
+        "peTTM": 17.2273,
+        "psTTM": 1.9463,
+        "netProfitMarginTTM": 11.3,
+        "roeTTM": 17.65,
+        "revenueGrowthTTMYoy": 9.01,
+        "epsGrowthTTMYoy": 6.43,
+        "currentRatioQuarterly": 3.7884,
+        "totalDebt/totalEquityQuarterly": 0.53,
+        "marketCapitalization": 34954.195
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Fox Corporation",
+      "profile": {
+        "weburl": "https://www.foxcorporation.com/",
+        "industry": "Media",
+        "name": "Fox Corporation"
+      },
+      "news": []
+    },
+    "GRAB": {
+      "metrics": {
+        "52WeekHigh": 5.52,
+        "52WeekLow": 2.67,
+        "peTTM": 20.3079,
+        "psTTM": 3.0027,
+        "netProfitMarginTTM": 14.79,
+        "roeTTM": 8.77,
+        "revenueGrowthTTMYoy": 22.95,
+        "epsGrowthTTMYoy": 372.26,
+        "currentRatioQuarterly": 1.3844,
+        "totalDebt/totalEquityQuarterly": 0.3066,
+        "marketCapitalization": 11920.756
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Grab Holdings Limited",
+      "profile": {
+        "weburl": "https://www.grab.com/sg/",
+        "industry": "Road & Rail",
+        "name": "Grab Holdings Limited"
+      },
+      "news": [
+        {
+          "headline": "Grab vs. Uber Technologies: Which Gig Economy Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=66a2ce0e5183c6b85fa82912b5f8cfdde238a611f57607f96f8f7b5091d4fd2a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:50:52Z",
+          "primary": false,
+          "symbol": "GRAB"
+        },
+        {
+          "headline": "Stock Market Today, Nov. 17: Grab Holdings Shares Slip Amid Broader Stock Market Sell-Off",
+          "url": "https://finnhub.io/api/news?id=9ffeef0c38868eb49a5514893a9b59585394b57f135367528ec6db5de1461e00",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T23:06:32Z",
+          "primary": false,
+          "symbol": "GRAB"
+        }
+      ]
+    },
+    "DG": {
+      "metrics": {
+        "52WeekHigh": 158.23,
+        "52WeekLow": 99.5,
+        "peTTM": 17.337,
+        "psTTM": 0.6767,
+        "netProfitMarginTTM": 3.9,
+        "roeTTM": 19.56,
+        "revenueGrowthTTMYoy": 4.77,
+        "epsGrowthTTMYoy": 42.34,
+        "currentRatioQuarterly": 1.2088,
+        "totalDebt/totalEquityQuarterly": 0.4921,
+        "marketCapitalization": 29531.764
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Dollar General Corp",
+      "profile": {
+        "weburl": "https://www.dollargeneral.com/",
+        "industry": "Retail",
+        "name": "Dollar General Corp"
+      },
+      "news": [
+        {
+          "headline": "Walmart or Dollar General: Which Stock Should Investors Favor?",
+          "url": "https://finnhub.io/api/news?id=a017daf993454a953120e68a6acb11ccd59cae72832a416d1b026528a3844e3f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:40:00Z",
+          "primary": false,
+          "symbol": "DG"
+        },
+        {
+          "headline": "Learn Why The Bull Case For Dollar General Stock Could Change Following December 3 Earnings",
+          "url": "https://finnhub.io/api/news?id=485f815813f5b431e77d9307089e727b22e13b87fd28f8df775c86e7ed949d56",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:09:34Z",
+          "primary": false,
+          "symbol": "DG"
+        },
+        {
+          "headline": "Stifel Initiates Coverage On Dollar General with Hold Rating, Announces Price Target of $145",
+          "url": "https://finnhub.io/api/news?id=adb42728a1b19291603648f1ecc18891e214e22dcfa4c9f4ba09cb2ebcb38aa0",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T08:34:25Z",
+          "primary": false,
+          "symbol": "DG"
+        },
+        {
+          "headline": "Why the Market Dipped But Dollar General (DG) Gained Today",
+          "url": "https://finnhub.io/api/news?id=c45b371acae6fb4d892f4e643f5aaef7ddeb162c357473d3190c77637c1fd2c7",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T22:15:02Z",
+          "primary": false,
+          "symbol": "DG"
+        },
+        {
+          "headline": "Family Dollar Pays $63M to Settle FTC, 17-State Pricing Case",
+          "url": "https://finnhub.io/api/news?id=64f0199389717e53fa1d21e102e849127904b1a670e3e6e0409390704f371f1c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T17:33:55Z",
+          "primary": false,
+          "symbol": "DG"
+        }
+      ]
+    },
+    "WFC": {
+      "metrics": {
+        "52WeekHigh": 97.76,
+        "52WeekLow": 72.78,
+        "peTTM": 10.6705,
+        "psTTM": 1.90599,
+        "netProfitMarginTTM": 22.19029,
+        "roeTTM": 12.839999999999998,
+        "revenueGrowthTTMYoy": 72.74767,
+        "epsGrowthTTMYoy": 15.87,
+        "totalDebt/totalEquityQuarterly": 2.5123,
+        "marketCapitalization": 245123.31
+      },
+      "updated_at": "2026-11-20T07:48:44Z",
+      "name": "Wells Fargo & Company",
+      "profile": {
+        "weburl": "https://www.wellsfargo.com",
+        "industry": "Banking",
+        "name": "Wells Fargo & Company"
+      },
+      "news": [
+        {
+          "headline": "Wells Fargo grapples with change in venerable business line",
+          "url": "https://finnhub.io/api/news?id=d03a1c116c6b37fac80c9883d7a680b1405af87e8950c3bd6f1c29557420a89b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:54:39Z",
+          "primary": false,
+          "symbol": "WFC"
+        },
+        {
+          "headline": "Wells Fargo: Better Execution, Same Valuation Problem",
+          "url": "https://finnhub.io/api/news?id=8d2aa5cb12962dfafbbadac0ca383f0781a0d094ae8c825973b40c18656a8558",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T07:57:03Z",
+          "primary": false,
+          "symbol": "WFC"
+        },
+        {
+          "headline": "Wells Fargo Loses a $1.3 Billion Financial Advisor Team to &Partners",
+          "url": "https://finnhub.io/api/news?id=3eb70fc59b6908b6e1dacb15f4ccab4bf4975cb9fefd540d9787280814892af3",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T19:07:00Z",
+          "primary": false,
+          "symbol": "WFC"
+        },
+        {
+          "headline": "Wells Fargo resets its S&P 500 price target for 2027",
+          "url": "https://finnhub.io/api/news?id=e99bf609792f7a0740e99948544a903cb01ce2f55dc3ba72049d3f129849e7ca",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:47:00Z",
+          "primary": false,
+          "symbol": "WFC"
+        },
+        {
+          "headline": "Wells Fargo reportedly taps JPMorgan executive Allison Beer as next COO",
+          "url": "https://finnhub.io/api/news?id=0c4a797c4c36910ec8e93751c854ed9c34a9d713c74ee6fc616ce7a412c0deb1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:20:14Z",
+          "primary": false,
+          "symbol": "WFC"
+        }
+      ]
     }
   },
-  "cursor": 68,
-  "updated_at": "2026-11-20T07:33:27Z"
+  "cursor": 80,
+  "updated_at": "2026-11-20T07:48:44Z"
 }
