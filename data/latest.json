@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T04:01:51Z",
+  "generated_at": "2026-11-20T05:10:43Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T04:01:51Z",
+      "checked_at": "2026-11-20T05:10:43Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T04:01:51Z",
+      "checked_at": "2026-11-20T05:10:43Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-20T04:01:51Z",
+      "checked_at": "2026-11-20T05:10:43Z",
       "error": "Not configured: SEC requires a descriptive application + contact email in the private SEC_USER_AGENT GitHub secret"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T04:01:51Z",
+      "checked_at": "2026-11-20T05:10:43Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T04:01:51Z",
+      "checked_at": "2026-11-20T05:10:43Z",
       "error": ""
     }
   ],
@@ -1191,7 +1191,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T04:01:51Z",
+    "generated_at": "2026-11-20T05:10:43Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1332,7 +1332,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:53:47Z",
+            "timestamp": "2026-11-20T05:10:43Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1343,7 +1343,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:53:47Z",
+        "fundamentals_at": "2026-11-20T05:10:43Z",
         "price": 158.93,
         "currency": "USD",
         "change_pct": -1.028,
@@ -1666,7 +1666,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Energy",
-        "why": "Net profit margin 11.9% (TTM); Return on equity 14.3% (TTM); Trailing P/E 15.2×; TTM revenue growth 20.8% YoY",
+        "why": "Net profit margin 11.9% (TTM); Return on equity 14.3% (TTM); Trailing P/E 15.0×; TTM revenue growth 20.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -1680,7 +1680,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:53:47Z",
+            "timestamp": "2026-11-20T05:10:43Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1691,7 +1691,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:53:47Z",
+        "fundamentals_at": "2026-11-20T05:10:43Z",
         "price": 206.5,
         "currency": "USD",
         "change_pct": 0.301,
@@ -1724,7 +1724,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Aerospace & Defense",
-        "why": "Net profit margin 8.2% (TTM); Return on equity 78.8% (TTM); Trailing P/E 20.4×; TTM revenue growth 7.9% YoY",
+        "why": "Net profit margin 8.2% (TTM); Return on equity 78.8% (TTM); Trailing P/E 20.3×; TTM revenue growth 7.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -1738,7 +1738,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:53:47Z",
+            "timestamp": "2026-11-20T05:10:43Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1749,7 +1749,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:53:47Z",
+        "fundamentals_at": "2026-11-20T05:10:43Z",
         "price": 571.85,
         "currency": "USD",
         "change_pct": -1.097,
@@ -2248,7 +2248,7 @@
         "status": "WATCH",
         "score": 73,
         "industry": "Machinery",
-        "why": "Net profit margin 15.2% (TTM); Return on equity 58.5% (TTM); Trailing P/E 21.5×; TTM revenue growth 20.3% YoY",
+        "why": "Net profit margin 15.2% (TTM); Return on equity 58.5% (TTM); Trailing P/E 20.9×; TTM revenue growth 20.3% YoY",
         "risks": [
           "Large drawdown: recovery is not assured",
           "Price near reported 52-week low"
@@ -2263,7 +2263,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:53:47Z",
+            "timestamp": "2026-11-20T05:10:43Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2274,7 +2274,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:53:47Z",
+        "fundamentals_at": "2026-11-20T05:10:43Z",
         "price": 537.37,
         "currency": "USD",
         "change_pct": -3.83,

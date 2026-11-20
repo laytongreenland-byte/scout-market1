@@ -2059,7 +2059,7 @@
         "totalDebt/totalEquityQuarterly": 1.1979,
         "marketCapitalization": 339661.56
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "Merck & Co Inc",
       "profile": {
         "weburl": "https://www.merck.com/",
@@ -2123,7 +2123,7 @@
         "totalDebt/totalEquityQuarterly": 0.1289,
         "marketCapitalization": 639979.6
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "XOM",
       "profile": {},
       "news": [
@@ -2173,17 +2173,17 @@
       "metrics": {
         "52WeekHigh": 236.48,
         "52WeekLow": 146.49,
-        "peTTM": 15.1891,
-        "psTTM": 1.8148,
+        "peTTM": 15.0212,
+        "psTTM": 1.7947,
         "netProfitMarginTTM": 11.95,
         "roeTTM": 14.299999999999999,
         "revenueGrowthTTMYoy": 20.75,
         "epsGrowthTTMYoy": 92.96,
         "currentRatioQuarterly": 1.3419,
         "totalDebt/totalEquityQuarterly": 0.1726,
-        "marketCapitalization": 409741.28
+        "marketCapitalization": 405211.0
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "Chevron Corporation",
       "profile": {
         "weburl": "https://www.chevron.com/",
@@ -2237,17 +2237,17 @@
       "metrics": {
         "52WeekHigh": 1073.46,
         "52WeekLow": 537.08,
-        "peTTM": 21.5121,
-        "psTTM": 3.2725,
+        "peTTM": 20.9414,
+        "psTTM": 3.1856,
         "netProfitMarginTTM": 15.21,
         "roeTTM": 58.53,
         "revenueGrowthTTMYoy": 20.26,
         "epsGrowthTTMYoy": 30.81,
         "currentRatioQuarterly": 1.4222,
         "totalDebt/totalEquityQuarterly": 2.104,
-        "marketCapitalization": 254509.3
+        "marketCapitalization": 247757.52
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "Caterpillar Inc",
       "profile": {
         "weburl": "https://www.caterpillar.com",
@@ -2272,6 +2272,14 @@
           "symbol": "CAT"
         },
         {
+          "headline": "Dow Jones Decliners: UNH, NKE, CAT Lead Today's Session",
+          "url": "https://finnhub.io/api/news?id=b6162d886ac583e3fa73417f71ed6a81fb35f3b2fc24e5365a930308760a2b6d",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T17:41:08Z",
+          "primary": false,
+          "symbol": "CAT"
+        },
+        {
           "headline": "Caterpillar vs. Deere: Which Heavy Equipment Stock Should You Bet On?",
           "url": "https://finnhub.io/api/news?id=fd12e9e7dc3414efc0ecef1db7d4fda227cee011cda99ecdde742110b11c7110",
           "source": "Yahoo",
@@ -2284,14 +2292,6 @@
           "url": "https://finnhub.io/api/news?id=ed20311dbe389990d9590cf19907f5a537f62a1c582e6932c557017773a348bf",
           "source": "Yahoo",
           "published_at": "2026-11-19T15:12:00Z",
-          "primary": false,
-          "symbol": "CAT"
-        },
-        {
-          "headline": "Is Caterpillar Stock Priced Right Against Its Rivals?",
-          "url": "https://finnhub.io/api/news?id=e2f16340810e973482ae83bd54691ac7c0e2a38fc4b9e1a0a978ce7b4ef749a0",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:05:05Z",
           "primary": false,
           "symbol": "CAT"
         }
@@ -2311,7 +2311,7 @@
         "totalDebt/totalEquityQuarterly": 2.2807,
         "marketCapitalization": 173840.97
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "Deere & Co",
       "profile": {
         "weburl": "https://www.deere.com/",
@@ -2319,6 +2319,14 @@
         "name": "Deere & Co"
       },
       "news": [
+        {
+          "headline": "Deere (DE) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "url": "https://finnhub.io/api/news?id=aee3373ce0c5c3aa538410b934db0c7e986f0c154a1889328de35854b1d8a374",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:45:03Z",
+          "primary": false,
+          "symbol": "DE"
+        },
         {
           "headline": "Caterpillar vs. Deere: Which Heavy Equipment Stock Should You Bet On?",
           "url": "https://finnhub.io/api/news?id=fd12e9e7dc3414efc0ecef1db7d4fda227cee011cda99ecdde742110b11c7110",
@@ -2350,14 +2358,6 @@
           "published_at": "2026-11-19T13:30:03Z",
           "primary": false,
           "symbol": "DE"
-        },
-        {
-          "headline": "Lawn Mowers - Global Strategic Business Report 2026: Capitalize on the $11.6 Billion Revenue Shift to 2032 - Deere, Honda, Husqvarna, Bosch, and Toro Battle for Share",
-          "url": "https://finnhub.io/api/news?id=178b83c1d323760a9131f76fe5997b5a50d927572b27d1c3820e05c4f2fc9b47",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:21:00Z",
-          "primary": false,
-          "symbol": "DE"
         }
       ]
     },
@@ -2375,7 +2375,7 @@
         "totalDebt/totalEquityQuarterly": 1.1029,
         "marketCapitalization": 339042.78
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "General Electric Company",
       "profile": {
         "weburl": "https://www.ge.com/",
@@ -2421,17 +2421,17 @@
       "metrics": {
         "52WeekHigh": 226.88,
         "52WeekLow": 166.74,
-        "peTTM": 31.6764,
-        "psTTM": 2.7731,
+        "peTTM": 31.2228,
+        "psTTM": 2.7333,
         "netProfitMarginTTM": 8.75,
         "roeTTM": 12.58,
         "revenueGrowthTTMYoy": 11.63,
         "epsGrowthTTMYoy": 26.39,
         "currentRatioQuarterly": 1.0454,
         "totalDebt/totalEquityQuarterly": 0.5398,
-        "marketCapitalization": 266177.16
+        "marketCapitalization": 262364.97
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "RTX Corporation",
       "profile": {
         "weburl": "https://www.rtx.com/",
@@ -2485,17 +2485,17 @@
       "metrics": {
         "52WeekHigh": 692.0,
         "52WeekLow": 437.25,
-        "peTTM": 20.4439,
-        "psTTM": 1.683,
+        "peTTM": 20.2722,
+        "psTTM": 1.6689,
         "netProfitMarginTTM": 8.23,
         "roeTTM": 78.85,
         "revenueGrowthTTMYoy": 7.86,
         "epsGrowthTTMYoy": 57.17,
         "currentRatioQuarterly": 1.2633,
         "totalDebt/totalEquityQuarterly": 2.037,
-        "marketCapitalization": 133151.08
+        "marketCapitalization": 132033.02
       },
-      "updated_at": "2026-11-19T22:53:47Z",
+      "updated_at": "2026-11-20T05:10:43Z",
       "name": "Lockheed Martin Corporation",
       "profile": {
         "weburl": "https://www.lockheedmartin.com/",
@@ -3010,6 +3010,6 @@
       ]
     }
   },
-  "cursor": 32,
-  "updated_at": "2026-11-20T04:01:51Z"
+  "cursor": 40,
+  "updated_at": "2026-11-20T05:10:43Z"
 }
