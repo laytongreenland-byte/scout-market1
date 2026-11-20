@@ -1548,7 +1548,7 @@
         "totalDebt/totalEquityQuarterly": 3.3163,
         "marketCapitalization": 851335.3
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "JPMorgan Chase & Co.",
       "profile": {
         "weburl": "https://www.jpmorganchase.com",
@@ -1612,7 +1612,7 @@
         "totalDebt/totalEquityQuarterly": 0.1719,
         "marketCapitalization": 1210982.4
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "Berkshire Hathaway Inc",
       "profile": {
         "weburl": "https://www.berkshirehathaway.com/",
@@ -1675,7 +1675,7 @@
         "totalDebt/totalEquityQuarterly": 2.3465,
         "marketCapitalization": 337109.72
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "Bank of America Corporation",
       "profile": {
         "weburl": "https://www.bankofamerica.com",
@@ -1739,7 +1739,7 @@
         "totalDebt/totalEquityQuarterly": 11.256,
         "marketCapitalization": 251855.33
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "The Goldman Sachs Group, Inc.",
       "profile": {
         "weburl": "https://www.goldmansachs.com/",
@@ -1747,6 +1747,14 @@
         "name": "The Goldman Sachs Group, Inc."
       },
       "news": [
+        {
+          "headline": "Anthropic’s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays",
+          "url": "https://finnhub.io/api/news?id=0c8538f87f6109dabdd608208c10236adbd3f4a2e644556078b3531e837192b4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:38:22Z",
+          "primary": false,
+          "symbol": "GS"
+        },
         {
           "headline": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
           "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66",
@@ -1778,14 +1786,6 @@
           "published_at": "2026-11-19T15:07:00Z",
           "primary": false,
           "symbol": "GS"
-        },
-        {
-          "headline": "Goldman Sachs, Morgan Stanley set to reap $113 million from Anthropic IPO",
-          "url": "https://finnhub.io/api/news?id=25b8fc9a96e652b5e0fd9c1a5ce7f99553d752e51eaeaf501992a8d4c42d3c8b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:49:33Z",
-          "primary": false,
-          "symbol": "GS"
         }
       ]
     },
@@ -1803,7 +1803,7 @@
         "totalDebt/totalEquityQuarterly": 0.7138,
         "marketCapitalization": 289440.16
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "UnitedHealth Group Incorporated",
       "profile": {
         "weburl": "https://www.unitedhealthgroup.com",
@@ -1867,7 +1867,7 @@
         "totalDebt/totalEquityQuarterly": 0.5477,
         "marketCapitalization": 639790.9
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "Johnson & Johnson",
       "profile": {
         "weburl": "https://www.jnj.com/",
@@ -1931,7 +1931,7 @@
         "totalDebt/totalEquityQuarterly": 49.2176,
         "marketCapitalization": 505555.94
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "AbbVie Inc.",
       "profile": {
         "weburl": "https://www.abbvie.com/",
@@ -1995,7 +1995,7 @@
         "totalDebt/totalEquityQuarterly": 1.2292,
         "marketCapitalization": 1300815.1
       },
-      "updated_at": "2026-11-20T04:01:51Z",
+      "updated_at": "2026-11-20T06:15:11Z",
       "name": "Eli Lilly and Company",
       "profile": {
         "weburl": "https://www.lilly.com/",
@@ -3010,6 +3010,6 @@
       ]
     }
   },
-  "cursor": 24,
-  "updated_at": "2026-11-20T06:02:33Z"
+  "cursor": 32,
+  "updated_at": "2026-11-20T06:15:11Z"
 }

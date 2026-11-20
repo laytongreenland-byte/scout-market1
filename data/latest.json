@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T06:02:33Z",
+  "generated_at": "2026-11-20T06:15:11Z",
   "status": "ok",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T06:02:33Z",
+      "checked_at": "2026-11-20T06:15:11Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T06:02:33Z",
+      "checked_at": "2026-11-20T06:15:11Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-20T06:02:33Z",
+      "checked_at": "2026-11-20T06:15:11Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T06:02:33Z",
+      "checked_at": "2026-11-20T06:15:11Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T06:02:33Z",
+      "checked_at": "2026-11-20T06:15:11Z",
       "error": ""
     }
   ],
@@ -1550,7 +1550,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T06:02:33Z",
+    "generated_at": "2026-11-20T06:15:11Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1575,7 +1575,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T04:01:51Z",
+            "timestamp": "2026-11-20T06:15:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1586,7 +1586,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T04:01:51Z",
+        "fundamentals_at": "2026-11-20T06:15:11Z",
         "price": 320.22,
         "currency": "USD",
         "change_pct": -1.2,
@@ -1994,7 +1994,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T04:01:51Z",
+            "timestamp": "2026-11-20T06:15:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2005,7 +2005,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T04:01:51Z",
+        "fundamentals_at": "2026-11-20T06:15:11Z",
         "price": 48.57,
         "currency": "USD",
         "change_pct": -0.695,
@@ -2073,35 +2073,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T04:01:51Z",
+            "timestamp": "2026-11-20T06:15:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
-            "timestamp": "2026-11-19T21:15:00Z",
-            "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66"
+            "value": "Anthropic’s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays",
+            "timestamp": "2026-11-19T23:38:22Z",
+            "url": "https://finnhub.io/api/news?id=0c8538f87f6109dabdd608208c10236adbd3f4a2e644556078b3531e837192b4"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T04:01:51Z",
+        "fundamentals_at": "2026-11-20T06:15:11Z",
         "price": 847.53,
         "currency": "USD",
         "change_pct": -2.938,
         "news": [
           {
-            "headline": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
-            "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66",
+            "headline": "Anthropic’s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays",
+            "url": "https://finnhub.io/api/news?id=0c8538f87f6109dabdd608208c10236adbd3f4a2e644556078b3531e837192b4",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:15:00Z",
+            "published_at": "2026-11-19T23:38:22Z",
             "primary": false,
             "symbol": "GS"
           },
           {
-            "headline": "Ken Fisher Is Betting on Goldman Sachs (GS) Ahead of a Midterm Rally – Here’s Why",
-            "url": "https://finnhub.io/api/news?id=97af02a1e4f4d3b85efd025eadac2903b015a395d236cde401239bdfd7662ea4",
+            "headline": "Carrier to Present at the Goldman Sachs 2026 Industrials and Materials Conference",
+            "url": "https://finnhub.io/api/news?id=2b230656cf7cb42de45d0901f1c973db19a8f2dd4648e2c4fcfc44c2ec0e0c66",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:15:13Z",
+            "published_at": "2026-11-19T21:15:00Z",
             "primary": false,
             "symbol": "GS"
           }
