@@ -207,8 +207,8 @@ def prices(symbols: list[str], api_key: str, previous_quotes: list[dict]) -> tup
             # Finnhub t is the quote provider timestamp; never replace it with the scan time.
             epoch = obj.get('t')
             asof_dt = datetime.fromtimestamp(epoch, UTC) if isinstance(epoch, (int, float)) and epoch > 0 else None
-            if not asof_dt or asof_dt>NOW+timedelta(minutes=10):
-                raise ValueError('Missing or future-dated quote timestamp')
+            if not asof_dt or asof_dt>NOW+timedelta(minutes=10) or asof_dt<NOW-timedelta(hours=75):
+                raise ValueError('Missing, stale or future-dated quote timestamp')
             asof=stamp(asof_dt)
             quotes.append({'symbol': sym, 'price': val, 'previous_close': pc if isinstance(pc, (int, float)) and pc > 0 else None,
                            'change_pct': round((val/pc - 1)*100, 3) if isinstance(pc, (int, float)) and pc > 0 else None,
