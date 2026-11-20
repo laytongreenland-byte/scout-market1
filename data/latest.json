@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:11:08Z",
+  "generated_at": "2026-11-20T13:23:07Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 140,
+    "financially_screened": 152,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T12:11:08Z",
+      "checked_at": "2026-11-20T13:23:07Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T12:11:08Z",
+      "checked_at": "2026-11-20T13:23:07Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-20T12:11:08Z",
+      "checked_at": "2026-11-20T13:23:07Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-20T12:11:08Z",
+      "checked_at": "2026-11-20T13:23:07Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-20T12:11:08Z",
+      "checked_at": "2026-11-20T13:23:07Z",
       "error": ""
     }
   ],
@@ -6970,11 +6970,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T12:11:08Z",
+    "generated_at": "2026-11-20T13:23:07Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 140,
+    "screened_with_financials": 152,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -8922,6 +8922,85 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "CB",
+        "name": "Chubb Limited",
+        "status": "INVESTIGATE",
+        "score": 78,
+        "industry": "Insurance",
+        "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 12.5×; TTM revenue growth 5.7% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$370.11",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Chubb Limited Board Declares Quarterly Dividend",
+            "timestamp": "2026-11-19T16:00:00Z",
+            "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 370.11,
+        "currency": "USD",
+        "change_pct": -0.245,
+        "news": [
+          {
+            "headline": "Chubb Limited Board Declares Quarterly Dividend",
+            "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:00:00Z",
+            "primary": false,
+            "symbol": "CB"
+          },
+          {
+            "headline": "Are Wall Street Analysts Predicting Chubb Limited Stock Will Climb or Sink?",
+            "url": "https://finnhub.io/api/news?id=326dbf93ab04575ac1ad51187b57aa6106955612e1c58c73a217cbb8590062e2",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T15:33:19Z",
+            "primary": false,
+            "symbol": "CB"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Insurance; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 78,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "PSX",
         "name": "Phillips 66",
         "status": "INVESTIGATE",
@@ -9517,6 +9596,172 @@
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
             "metrics_retrieved_at": "2026-11-20T08:06:57Z"
+          }
+        },
+        "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "ICE",
+        "name": "Intercontinental Exchange, Inc.",
+        "status": "WATCH",
+        "score": 75,
+        "industry": "Financial Services",
+        "why": "Net profit margin 29.6% (TTM); Return on equity 14.1% (TTM); Trailing P/E 23.1×; TTM revenue growth 12.1% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$170.88",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Intercontinental Exchange (ICE) Rose on Strong Trading Volumes Amid Continued Volatility",
+            "timestamp": "2026-11-18T16:02:31Z",
+            "url": "https://finnhub.io/api/news?id=a2cd8cac5f04884b1bdf6c20aedc6e3cdfe5ebbe51ccc7c11fee979c5ac5714a"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 170.88,
+        "currency": "USD",
+        "change_pct": -0.541,
+        "news": [
+          {
+            "headline": "Intercontinental Exchange (ICE) Rose on Strong Trading Volumes Amid Continued Volatility",
+            "url": "https://finnhub.io/api/news?id=a2cd8cac5f04884b1bdf6c20aedc6e3cdfe5ebbe51ccc7c11fee979c5ac5714a",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T16:02:31Z",
+            "primary": false,
+            "symbol": "ICE"
+          },
+          {
+            "headline": "Intercontinental Exchange (ICE) Adds Digital Asset Custody Deal And Data Center Risk Tool",
+            "url": "https://finnhub.io/api/news?id=638e9ed5ab784ddc16dc5cc49a96cfede87c5beed5dfede1140a29d3d157d436",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T05:11:25Z",
+            "primary": false,
+            "symbol": "ICE"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "ONON",
+        "name": "On Holding AG",
+        "status": "WATCH",
+        "score": 75,
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "why": "Net profit margin 13.1% (TTM); Return on equity 23.5% (TTM); Trailing P/E 19.7×; TTM revenue growth 16.7% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$30.82",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Earnings Beat Might Change The Case For Investing In On Holding Stock (ONON)",
+            "timestamp": "2026-11-20T02:12:10Z",
+            "url": "https://finnhub.io/api/news?id=452d751a2fba09453b955d5126e16428b5732479e6270924348bd3ec8880d94c"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 30.82,
+        "currency": "USD",
+        "change_pct": -4.965,
+        "news": [
+          {
+            "headline": "Earnings Beat Might Change The Case For Investing In On Holding Stock (ONON)",
+            "url": "https://finnhub.io/api/news?id=452d751a2fba09453b955d5126e16428b5732479e6270924348bd3ec8880d94c",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T02:12:10Z",
+            "primary": false,
+            "symbol": "ONON"
+          },
+          {
+            "headline": "Co-CEO Buying and $1B Share Authorization Validate On Holding AG’s (ONON) Multi-Year Growth Thesis",
+            "url": "https://finnhub.io/api/news?id=ff301d506c454df57338b59cc04140c993a31aa7a34beb4a465f2a9932888dac",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T14:25:21Z",
+            "primary": false,
+            "symbol": "ONON"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 24.91,
+          "entry_floor": 22.42,
+          "exit_review_low": 31.94,
+          "exit_review_high": 38.66,
+          "bear_case": 17.17,
+          "scenario_upside_pct": 3.6,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 19.72,
+            "earnings_growth_assumed_pct": 7.52,
+            "scenario_exit_pe": 19.01,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T13:23:07Z"
           }
         },
         "ranking_score": 75,
@@ -11164,6 +11409,85 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "HAL",
+        "name": "Halliburton Company",
+        "status": "WATCH",
+        "score": 72,
+        "industry": "Energy",
+        "why": "Net profit margin 8.9% (TTM); Return on equity 18.5% (TTM); Trailing P/E 13.2×; TTM revenue growth 1.5% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$31.73",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Why Is Halliburton (HAL) Down 7.5% Since Last Earnings Report?",
+            "timestamp": "2026-11-19T15:30:05Z",
+            "url": "https://finnhub.io/api/news?id=4ca25f35f60b3f7e8b34582e87e025c3fc4ff15a37f275fabf79001b51950f11"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 31.73,
+        "currency": "USD",
+        "change_pct": 0.922,
+        "news": [
+          {
+            "headline": "Why Is Halliburton (HAL) Down 7.5% Since Last Earnings Report?",
+            "url": "https://finnhub.io/api/news?id=4ca25f35f60b3f7e8b34582e87e025c3fc4ff15a37f275fabf79001b51950f11",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T15:30:05Z",
+            "primary": false,
+            "symbol": "HAL"
+          },
+          {
+            "headline": "Charities Nationwide Receive Funds Raised Through the Halliburton Charity Golf Tournament",
+            "url": "https://finnhub.io/api/news?id=086d094219fe1c31dfac075d65c1ced13ee621724402fa4ed01ba32043b56b72",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T13:00:00Z",
+            "primary": false,
+            "symbol": "HAL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 72,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "V",
         "name": "Visa Inc.",
         "status": "WATCH",
@@ -11465,6 +11789,85 @@
           "bear_case": null,
           "scenario_upside_pct": null,
           "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 71,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "SO",
+        "name": "Southern Co",
+        "status": "WATCH",
+        "score": 71,
+        "industry": "Utilities",
+        "why": "Net profit margin 16.7% (TTM); Return on equity 12.9% (TTM); Trailing P/E 21.6×; TTM revenue growth 8.2% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$93.29",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Southern (SO) Wraps Up $1.75 Billion Composite Units Offering With 35 Million Units",
+            "timestamp": "2026-11-20T09:11:54Z",
+            "url": "https://finnhub.io/api/news?id=aa51c5bf58997b2dfce98b5d55f5e990abda4990151b754cd625974734270a8a"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 93.29,
+        "currency": "USD",
+        "change_pct": -1.186,
+        "news": [
+          {
+            "headline": "Southern (SO) Wraps Up $1.75 Billion Composite Units Offering With 35 Million Units",
+            "url": "https://finnhub.io/api/news?id=aa51c5bf58997b2dfce98b5d55f5e990abda4990151b754cd625974734270a8a",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T09:11:54Z",
+            "primary": false,
+            "symbol": "SO"
+          },
+          {
+            "headline": "One Unsettled Question Sits Under Southern Stock",
+            "url": "https://finnhub.io/api/news?id=bd55212a3dff7ed91afc6b408a12e299bad8a7362a857b3dcebbdf05d0f3fd2e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T11:18:20Z",
+            "primary": false,
+            "symbol": "SO"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Utilities; earnings multiple scenario withheld.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -11864,6 +12267,93 @@
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
         },
         "ranking_score": 70,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "TT",
+        "name": "Trane Technologies PLC",
+        "status": "WATCH",
+        "score": 69,
+        "industry": "Building",
+        "why": "Net profit margin 13.6% (TTM); Return on equity 36.1% (TTM); Trailing P/E 28.5×; TTM revenue growth 10.3% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$401.83",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "TRANE TECHNOLOGIES PLC (NYSE:TT): A Dividend Quality Play for Income Investors",
+            "timestamp": "2026-11-19T13:00:47Z",
+            "url": "https://finnhub.io/api/news?id=846d88d6d3bf557262668c17b67ae59ecde0341880e45eee6d21adb3b54e9630"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 401.83,
+        "currency": "USD",
+        "change_pct": -1.945,
+        "news": [
+          {
+            "headline": "TRANE TECHNOLOGIES PLC (NYSE:TT): A Dividend Quality Play for Income Investors",
+            "url": "https://finnhub.io/api/news?id=846d88d6d3bf557262668c17b67ae59ecde0341880e45eee6d21adb3b54e9630",
+            "source": "ChartMill",
+            "published_at": "2026-11-19T13:00:47Z",
+            "primary": false,
+            "symbol": "TT"
+          },
+          {
+            "headline": "Trane Technologies to Present at the UBS Global Industrials & Transportation Conference",
+            "url": "https://finnhub.io/api/news?id=a422b57ccba0845df84cf69180264eca95c72af6c6cee27aa08e115fb3554b43",
+            "source": "Yahoo",
+            "published_at": "2026-11-16T11:30:00Z",
+            "primary": false,
+            "symbol": "TT"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 198.62,
+          "entry_floor": 178.75,
+          "exit_review_low": 254.64,
+          "exit_review_high": 299.52,
+          "bear_case": 142.7,
+          "scenario_upside_pct": -36.6,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 28.45,
+            "earnings_growth_assumed_pct": 3.14,
+            "scenario_exit_pe": 17.48,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T13:23:07Z"
+          }
+        },
+        "ranking_score": 69,
         "rank_method": "FINANCIAL RULES"
       },
       {
@@ -12612,6 +13102,85 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "ITW",
+        "name": "Illinois Tool Works Inc",
+        "status": "WATCH",
+        "score": 67,
+        "industry": "Machinery",
+        "why": "Net profit margin 19.4% (TTM); Return on equity 103.4% (TTM); Trailing P/E 24.4×; TTM revenue growth 4.8% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$276.89",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T13:23:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Global Lanyard Quick Release Buckle Market Report 2026: Size, Share, Trends and Forecast 2030 | Capitalize on Safety and Eco-Friendly Demand with ITW, YKK, Duraflex and Ningbo MH",
+            "timestamp": "2026-11-17T14:32:00Z",
+            "url": "https://finnhub.io/api/news?id=05261a7c2d5c8557fc43a075944af862ed5a21ecc4033d8b8e8c389ac87ebb24"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "price": 276.89,
+        "currency": "USD",
+        "change_pct": -1.913,
+        "news": [
+          {
+            "headline": "Global Lanyard Quick Release Buckle Market Report 2026: Size, Share, Trends and Forecast 2030 | Capitalize on Safety and Eco-Friendly Demand with ITW, YKK, Duraflex and Ningbo MH",
+            "url": "https://finnhub.io/api/news?id=05261a7c2d5c8557fc43a075944af862ed5a21ecc4033d8b8e8c389ac87ebb24",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T14:32:00Z",
+            "primary": false,
+            "symbol": "ITW"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 145.86,
+          "entry_floor": 131.27,
+          "exit_review_low": 187.0,
+          "exit_review_high": 218.46,
+          "bear_case": 105.8,
+          "scenario_upside_pct": -32.5,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 24.43,
+            "earnings_growth_assumed_pct": 2.16,
+            "scenario_exit_pe": 16.15,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T13:23:07Z"
+          }
+        },
+        "ranking_score": 67,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
         "status": "WATCH",
@@ -12944,583 +13513,6 @@
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
         },
         "ranking_score": 65,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "RTX",
-        "name": "RTX Corporation",
-        "status": "WATCH",
-        "score": 65,
-        "industry": "Aerospace & Defense",
-        "why": "Net profit margin 8.8% (TTM); Return on equity 12.6% (TTM); Trailing P/E 31.2×; TTM revenue growth 11.6% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$193.44",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:42:07Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "RTX (RTX) Starts Building India Propeller MRO Facility",
-            "timestamp": "2026-11-19T20:11:34Z",
-            "url": "https://finnhub.io/api/news?id=0c2bf354ef0df56bc711f2ff087f1959bed054061020f672c5f8dcb2d52f11e5"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:42:07Z",
-        "price": 193.44,
-        "currency": "USD",
-        "change_pct": -2.031,
-        "news": [
-          {
-            "headline": "RTX (RTX) Starts Building India Propeller MRO Facility",
-            "url": "https://finnhub.io/api/news?id=0c2bf354ef0df56bc711f2ff087f1959bed054061020f672c5f8dcb2d52f11e5",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T20:11:34Z",
-            "primary": false,
-            "symbol": "RTX"
-          },
-          {
-            "headline": "RTX (RTX) Up 3.1% Since Last Earnings Report: Can It Continue?",
-            "url": "https://finnhub.io/api/news?id=4924d7cb6d2d7317aee3a13fff6e8e7c53c35567b4eb65a1369f0ef584d44b50",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T15:30:07Z",
-            "primary": false,
-            "symbol": "RTX"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 90.47,
-          "entry_floor": 81.42,
-          "exit_review_low": 115.98,
-          "exit_review_high": 138.35,
-          "bear_case": 63.71,
-          "scenario_upside_pct": -40.0,
-          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 31.22,
-            "earnings_growth_assumed_pct": 5.23,
-            "scenario_exit_pe": 17.79,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T06:42:07Z"
-          }
-        },
-        "ranking_score": 65,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "LOW",
-        "name": "Lowe's Companies Inc",
-        "status": "WATCH",
-        "score": 65,
-        "industry": "Retail",
-        "why": "Net profit margin 7.2% (TTM); Return on equity 264.5% (TTM); Trailing P/E 18.3×; TTM revenue growth 9.6% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$219.14",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:33:27Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Lowe's Companies, Inc. to Host 2026 Analyst and Investor Conference on Dec. 9",
-            "timestamp": "2026-11-19T21:30:00Z",
-            "url": "https://finnhub.io/api/news?id=80b9c67e95202ba4891589d4cef005dbab4b0aa4205da6fb2ce8079602139a46"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:33:27Z",
-        "price": 219.14,
-        "currency": "USD",
-        "change_pct": -1.634,
-        "news": [
-          {
-            "headline": "Lowe's Companies, Inc. to Host 2026 Analyst and Investor Conference on Dec. 9",
-            "url": "https://finnhub.io/api/news?id=80b9c67e95202ba4891589d4cef005dbab4b0aa4205da6fb2ce8079602139a46",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T21:30:00Z",
-            "primary": false,
-            "symbol": "LOW"
-          },
-          {
-            "headline": "Lowe's Strategic Investments Broaden Growth Algorithm, UBS Says",
-            "url": "https://finnhub.io/api/news?id=5fb4e884160dac92941a6ebc92dde9a97353de24d996cd902b511a3064c2efc5",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T20:00:50Z",
-            "primary": false,
-            "symbol": "LOW"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 65,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "EMR",
-        "name": "Emerson Electric Co",
-        "status": "WATCH",
-        "score": 65,
-        "industry": "Electrical Equipment",
-        "why": "Net profit margin 14.1% (TTM); Return on equity 13.1% (TTM); Trailing P/E 33.1×; TTM revenue growth 5.4% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$157.60",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T11:15:24Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Emerson and Databricks Collaborate to Bring Industrial and Enterprise AI Together",
-            "timestamp": "2026-11-19T14:00:00Z",
-            "url": "https://finnhub.io/api/news?id=9267588765af8d7f79eae1d3c1f41893ba85885b349d6e876203b14ff8e09288"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T11:15:24Z",
-        "price": 157.6,
-        "currency": "USD",
-        "change_pct": -2.716,
-        "news": [
-          {
-            "headline": "Emerson and Databricks Collaborate to Bring Industrial and Enterprise AI Together",
-            "url": "https://finnhub.io/api/news?id=9267588765af8d7f79eae1d3c1f41893ba85885b349d6e876203b14ff8e09288",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T14:00:00Z",
-            "primary": false,
-            "symbol": "EMR"
-          },
-          {
-            "headline": "Emerson Electric (EMR) Completed A €750 Million Eurobond Offering",
-            "url": "https://finnhub.io/api/news?id=e608a13b1273a001c400fecf27252e41bb1c9755ce2ed9cbf8e5c91211e0522e",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T07:14:57Z",
-            "primary": false,
-            "symbol": "EMR"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 61.94,
-          "entry_floor": 55.75,
-          "exit_review_low": 79.41,
-          "exit_review_high": 92.94,
-          "bear_case": 44.81,
-          "scenario_upside_pct": -49.6,
-          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 33.11,
-            "earnings_growth_assumed_pct": 2.42,
-            "scenario_exit_pe": 16.29,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T11:15:24Z"
-          }
-        },
-        "ranking_score": 65,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "AAPL",
-        "name": "Apple Inc.",
-        "status": "WATCH",
-        "score": 64,
-        "industry": "Technology",
-        "why": "Net profit margin 27.6% (TTM); Return on equity 127.6% (TTM); Trailing P/E 38.5×; TTM revenue growth 15.1% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$349.21",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:42:10Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Apple (AAPL) Stock Could Be 33% Overvalued On Fresh Service Outage Concerns",
-            "timestamp": "2026-11-20T03:17:50Z",
-            "url": "https://finnhub.io/api/news?id=d194eb1b64440e60d388413f16ffa218fa98d02ca81c13178e3c363876ce1d1e"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:42:10Z",
-        "price": 349.21,
-        "currency": "USD",
-        "change_pct": -0.919,
-        "news": [
-          {
-            "headline": "Apple (AAPL) Stock Could Be 33% Overvalued On Fresh Service Outage Concerns",
-            "url": "https://finnhub.io/api/news?id=d194eb1b64440e60d388413f16ffa218fa98d02ca81c13178e3c363876ce1d1e",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T03:17:50Z",
-            "primary": false,
-            "symbol": "AAPL"
-          },
-          {
-            "headline": "1 Unstoppable Stock to Buy Before It Joins NVDA and AAPL in the $1 Trillion Club",
-            "url": "https://finnhub.io/api/news?id=4f82b251780aa7db8aa1944b697a8649176ccaf7a0a0167f826265319474ce94",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T00:52:02Z",
-            "primary": false,
-            "symbol": "AAPL"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 140.74,
-          "entry_floor": 126.66,
-          "exit_review_low": 180.43,
-          "exit_review_high": 217.38,
-          "bear_case": 97.67,
-          "scenario_upside_pct": -48.3,
-          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 38.46,
-            "earnings_growth_assumed_pct": 6.78,
-            "scenario_exit_pe": 18.61,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
-          }
-        },
-        "ranking_score": 64,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "HD",
-        "name": "The Home Depot, Inc.",
-        "status": "WATCH",
-        "score": 64,
-        "industry": "Retail",
-        "why": "Net profit margin 8.4% (TTM); Return on equity 93.4% (TTM); Trailing P/E 23.4×; TTM revenue growth 3.0% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$336.68",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:02:33Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "The Home Depot Declares Quarterly Dividend of $2.33",
-            "timestamp": "2026-11-19T21:15:00Z",
-            "url": "https://finnhub.io/api/news?id=7907b3cbb2418d9db4f9e48ed8b1e5e33457ecf2f6ee4d93864ab19aa7499257"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:02:33Z",
-        "price": 336.68,
-        "currency": "USD",
-        "change_pct": -0.284,
-        "news": [
-          {
-            "headline": "The Home Depot Declares Quarterly Dividend of $2.33",
-            "url": "https://finnhub.io/api/news?id=7907b3cbb2418d9db4f9e48ed8b1e5e33457ecf2f6ee4d93864ab19aa7499257",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T21:15:00Z",
-            "primary": false,
-            "symbol": "HD"
-          },
-          {
-            "headline": "Is Home Depot (HD) Undervalued Following Its Q3 Results Guidance Reset And CEO Change?",
-            "url": "https://finnhub.io/api/news?id=c9b78d50447f4e5b1a55693318f51424539d284366a45ae0b813f980a90861c5",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T21:12:47Z",
-            "primary": false,
-            "symbol": "HD"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 64,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "VZ",
-        "name": "Verizon Communications Inc",
-        "status": "WATCH",
-        "score": 64,
-        "industry": "Telecommunication",
-        "why": "Net profit margin 11.8% (TTM); Return on equity 15.7% (TTM); Trailing P/E 11.7×; TTM revenue growth 1.4% YoY",
-        "risks": [
-          "Earnings per share declining"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$45.74",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:33:27Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete",
-            "timestamp": "2026-11-19T17:46:02Z",
-            "url": "https://finnhub.io/api/news?id=505796c1ca88163529e6e870818b05c3dd1f64bbab96c0170d39e5aed38fbb2c"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:33:27Z",
-        "price": 45.74,
-        "currency": "USD",
-        "change_pct": -0.845,
-        "news": [
-          {
-            "headline": "Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete",
-            "url": "https://finnhub.io/api/news?id=505796c1ca88163529e6e870818b05c3dd1f64bbab96c0170d39e5aed38fbb2c",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T17:46:02Z",
-            "primary": false,
-            "symbol": "VZ"
-          },
-          {
-            "headline": "Elon Musk Moves Step Closer to Creating Phone Service After Verizon and T-Mobile Shut Out",
-            "url": "https://finnhub.io/api/news?id=0d3fb1bdb45e29c69343719a42824ad2c0fe85a3511a857e65fd6db2598b82dc",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T17:24:29Z",
-            "primary": false,
-            "symbol": "VZ"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 64,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "VRTX",
-        "name": "Vertex Pharmaceuticals Incorporated",
-        "status": "WATCH",
-        "score": 64,
-        "industry": "Biotechnology",
-        "why": "Net profit margin 30.7% (TTM); Return on equity 20.1% (TTM); Trailing P/E 33.4×; TTM revenue growth 10.5% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$520.66",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T09:12:51Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Genomics, Vertex extend drug discovery alliance in $220m deal",
-            "timestamp": "2026-11-19T10:53:16Z",
-            "url": "https://finnhub.io/api/news?id=d6dcebcbcdf3663cc79f494adf2a136a45a21750c8e0c16f1f16b8913b70e9f2"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T09:12:51Z",
-        "price": 520.66,
-        "currency": "USD",
-        "change_pct": -2.943,
-        "news": [
-          {
-            "headline": "Genomics, Vertex extend drug discovery alliance in $220m deal",
-            "url": "https://finnhub.io/api/news?id=d6dcebcbcdf3663cc79f494adf2a136a45a21750c8e0c16f1f16b8913b70e9f2",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T10:53:16Z",
-            "primary": false,
-            "symbol": "VRTX"
-          },
-          {
-            "headline": "Should You Pick Vertex Stock Over Its Biotech Rivals?",
-            "url": "https://finnhub.io/api/news?id=2a9da3efec569b13b6a6ebcb196f334a1b3ad0455f9bd8b96a3f1fec9dd6bb6b",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T17:13:07Z",
-            "primary": false,
-            "symbol": "VRTX"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Sector-specific valuation required for Biotechnology; earnings multiple scenario withheld.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 64,
         "rank_method": "FINANCIAL RULES"
       }
     ],
@@ -14636,7 +14628,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 140,
+      "recorded_signals": 152,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14654,23 +14646,183 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-20T12:11:08Z",
+      "generated_at": "2026-11-20T13:23:07Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 111,
-        "purchase_scenarios": 10,
+        "recorded": 119,
+        "purchase_scenarios": 11,
         "opened": 0,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 10,
+        "waiting": 11,
         "unverified": 0,
-        "skipped": 101,
+        "skipped": 108,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|HAL|NO RELIABLE PRICE RANGE",
+          "symbol": "HAL",
+          "name": "Halliburton Company",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 31.73,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 8.9% (TTM); Return on equity 18.5% (TTM); Trailing P/E 13.2×; TTM revenue growth 1.5% YoY",
+          "score": 72,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ICE|NO RELIABLE PRICE RANGE",
+          "symbol": "ICE",
+          "name": "Intercontinental Exchange, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 170.88,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 29.6% (TTM); Return on equity 14.1% (TTM); Trailing P/E 23.1×; TTM revenue growth 12.1% YoY",
+          "score": 75,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ITW|ABOVE BASE CASE",
+          "symbol": "ITW",
+          "name": "Illinois Tool Works Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 276.89,
+          "buy_ceiling": 145.86,
+          "sell_review": 187.0,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 19.4% (TTM); Return on equity 103.4% (TTM); Trailing P/E 24.4×; TTM revenue growth 4.8% YoY",
+          "score": 67,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ONON|WAIT FOR ENTRY",
+          "symbol": "ONON",
+          "name": "On Holding AG",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 30.82,
+          "buy_ceiling": 24.91,
+          "sell_review": 31.94,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 13.1% (TTM); Return on equity 23.5% (TTM); Trailing P/E 19.7×; TTM revenue growth 16.7% YoY",
+          "score": 75,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|CB|NO RELIABLE PRICE RANGE",
+          "symbol": "CB",
+          "name": "Chubb Limited",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 370.11,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 12.5×; TTM revenue growth 5.7% YoY",
+          "score": 78,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MDT|ABOVE BASE CASE",
+          "symbol": "MDT",
+          "name": "Medtronic PLC",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 100.61,
+          "buy_ceiling": 57.64,
+          "sell_review": 73.9,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 13.9% (TTM); Return on equity 10.6% (TTM); Trailing P/E 24.6×; TTM revenue growth 9.8% YoY",
+          "score": 61,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|TT|ABOVE BASE CASE",
+          "symbol": "TT",
+          "name": "Trane Technologies PLC",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 401.83,
+          "buy_ceiling": 198.62,
+          "sell_review": 254.64,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 13.6% (TTM); Return on equity 36.1% (TTM); Trailing P/E 28.5×; TTM revenue growth 10.3% YoY",
+          "score": 69,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|SO|NO RELIABLE PRICE RANGE",
+          "symbol": "SO",
+          "name": "Southern Co",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T13:23:07Z",
+          "quote_at": "2026-11-19T21:00:00Z",
+          "reference_price": 93.29,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 16.7% (TTM); Return on equity 12.9% (TTM); Trailing P/E 21.6×; TTM revenue growth 8.2% YoY",
+          "score": 71,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|MMM|ABOVE BASE CASE",
           "symbol": "MMM",
@@ -16892,8 +17044,8 @@
           "currency": "USD"
         }
       ],
-      "published_records": 111,
-      "legacy_research_flags": 27,
+      "published_records": 119,
+      "legacy_research_flags": 28,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17117,6 +17269,14 @@
         "flagged_at": "2026-11-20T12:11:08Z",
         "reference_price": 49.3,
         "score": 79,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "CB",
+        "flagged_at": "2026-11-20T13:23:07Z",
+        "reference_price": 370.11,
+        "score": 78,
         "price_at": "2026-11-19T21:00:00Z"
       }
     ],

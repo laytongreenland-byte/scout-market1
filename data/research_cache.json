@@ -8460,8 +8460,687 @@
           "symbol": "DHR"
         }
       ]
+    },
+    "PCAR": {
+      "metrics": {
+        "52WeekHigh": 139.24,
+        "52WeekLow": 94.0,
+        "peTTM": 19.6012,
+        "psTTM": 1.8615,
+        "netProfitMarginTTM": 9.5,
+        "roeTTM": 13.76,
+        "revenueGrowthTTMYoy": -1.53,
+        "epsGrowthTTMYoy": 2.51,
+        "currentRatioQuarterly": 1.7935,
+        "totalDebt/totalEquityQuarterly": 0.7147,
+        "marketCapitalization": 54132.64
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Paccar Inc",
+      "profile": {
+        "weburl": "https://www.paccar.com/",
+        "industry": "Machinery",
+        "name": "Paccar Inc"
+      },
+      "news": []
+    },
+    "HAL": {
+      "metrics": {
+        "52WeekHigh": 43.59,
+        "52WeekLow": 24.92,
+        "peTTM": 13.1923,
+        "psTTM": 1.1745,
+        "netProfitMarginTTM": 8.9,
+        "roeTTM": 18.459999999999997,
+        "revenueGrowthTTMYoy": 1.53,
+        "epsGrowthTTMYoy": 58.03,
+        "currentRatioQuarterly": 2.0193,
+        "totalDebt/totalEquityQuarterly": 0.6442,
+        "marketCapitalization": 26397.738
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Halliburton Company",
+      "profile": {
+        "weburl": "https://www.halliburton.com/",
+        "industry": "Energy",
+        "name": "Halliburton Company"
+      },
+      "news": [
+        {
+          "headline": "Why Is Halliburton (HAL) Down 7.5% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=4ca25f35f60b3f7e8b34582e87e025c3fc4ff15a37f275fabf79001b51950f11",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:05Z",
+          "primary": false,
+          "symbol": "HAL"
+        },
+        {
+          "headline": "Charities Nationwide Receive Funds Raised Through the Halliburton Charity Golf Tournament",
+          "url": "https://finnhub.io/api/news?id=086d094219fe1c31dfac075d65c1ced13ee621724402fa4ed01ba32043b56b72",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "HAL"
+        },
+        {
+          "headline": "Halliburton (HAL) Has Fresh Attention, But What Is The Market Weighing?",
+          "url": "https://finnhub.io/api/news?id=b1c17fab5d8f7572909382199ef859f820c19f75e1d6cfc3c6b670d54729ed7c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T00:19:19Z",
+          "primary": false,
+          "symbol": "HAL"
+        },
+        {
+          "headline": "Halliburton Targets Egypt Growth With Proposed 50-Well Program",
+          "url": "https://finnhub.io/api/news?id=929a41a539066ef8631165e650fb58c01362bdf3a141a378f2ed68c308d01caf",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:18:00Z",
+          "primary": false,
+          "symbol": "HAL"
+        },
+        {
+          "headline": "Egypt’s EGPC agrees 50-well programme preparations with Halliburton",
+          "url": "https://finnhub.io/api/news?id=c0f19198fc271404ccdf48e397256567b879415cc51bbc2cf7d212a68624e7d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T12:54:15Z",
+          "primary": false,
+          "symbol": "HAL"
+        }
+      ]
+    },
+    "LULU": {
+      "metrics": {
+        "52WeekHigh": 225.98,
+        "52WeekLow": 90.38,
+        "peTTM": 9.049,
+        "psTTM": 1.1566,
+        "netProfitMarginTTM": 12.78,
+        "roeTTM": 29.73,
+        "revenueGrowthTTMYoy": 1.74,
+        "epsGrowthTTMYoy": -17.09,
+        "currentRatioQuarterly": 2.19,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 12831.211
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "lululemon athletica inc.",
+      "profile": {
+        "weburl": "https://shop.lululemon.com/",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "name": "lululemon athletica inc."
+      },
+      "news": [
+        {
+          "headline": "Lululemon Stock Jumps 7%: What's Going On?",
+          "url": "https://finnhub.io/api/news?id=a0a3ffc2abc808c731c073c329486dc4dce018b9b4c618aa5eb31344548796a0",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T14:19:17Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
+        {
+          "headline": "Here's Why Lululemon (LULU) Fell More Than Broader Market",
+          "url": "https://finnhub.io/api/news?id=e8ffc630203c8a38ba1558633653455051a1671ea0c77d49d3b5e2f00245b3f8",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:45:03Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
+        {
+          "headline": "Will Lower Revenue Outlook Change Lululemon's (LULU) Narrative",
+          "url": "https://finnhub.io/api/news?id=f54516af338fb8349b84b15dd434adb3d69ffc2a0ad1a1c7fbae5d027b7438bb",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T18:08:59Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
+        {
+          "headline": "Will Lululemon (LULU) Beat Estimates Again in Its Next Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=00d45cf555db21f495d3e9cdafd8b1e394cf759609349f853e3b823ba8c613a0",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:10:02Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
+        {
+          "headline": "One Reason Lululemon Stock Looks Better Than Its Price",
+          "url": "https://finnhub.io/api/news?id=d031d093100d098d07d149693b02b8c87194ab49e98e96517a20407e84ec68a9",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:13:43Z",
+          "primary": false,
+          "symbol": "LULU"
+        }
+      ]
+    },
+    "ICE": {
+      "metrics": {
+        "52WeekHigh": 181.38,
+        "52WeekLow": 121.79,
+        "peTTM": 23.07,
+        "psTTM": 6.8345,
+        "netProfitMarginTTM": 29.62,
+        "roeTTM": 14.13,
+        "revenueGrowthTTMYoy": 12.14,
+        "epsGrowthTTMYoy": 33.38,
+        "currentRatioQuarterly": 1.0296,
+        "totalDebt/totalEquityQuarterly": 0.7794,
+        "marketCapitalization": 96017.47
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Intercontinental Exchange, Inc.",
+      "profile": {
+        "weburl": "https://www.ice.com/",
+        "industry": "Financial Services",
+        "name": "Intercontinental Exchange, Inc."
+      },
+      "news": [
+        {
+          "headline": "Intercontinental Exchange (ICE) Rose on Strong Trading Volumes Amid Continued Volatility",
+          "url": "https://finnhub.io/api/news?id=a2cd8cac5f04884b1bdf6c20aedc6e3cdfe5ebbe51ccc7c11fee979c5ac5714a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:02:31Z",
+          "primary": false,
+          "symbol": "ICE"
+        },
+        {
+          "headline": "Intercontinental Exchange (ICE) Adds Digital Asset Custody Deal And Data Center Risk Tool",
+          "url": "https://finnhub.io/api/news?id=638e9ed5ab784ddc16dc5cc49a96cfede87c5beed5dfede1140a29d3d157d436",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:11:25Z",
+          "primary": false,
+          "symbol": "ICE"
+        },
+        {
+          "headline": "Intercontinental Exchange, Inc. (ICE) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=72d325b3f8230b3084ff5e4246f32ec599a3ebc17f773b4677da3ea9610617fb",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T16:42:57Z",
+          "primary": false,
+          "symbol": "ICE"
+        },
+        {
+          "headline": "Bill Ackman Is Buying Intercontinental Exchange",
+          "url": "https://finnhub.io/api/news?id=244b9c94899af54b538eead8cdcb8d02f1e9ff77c9923279a85179162bc70224",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:52:09Z",
+          "primary": false,
+          "symbol": "ICE"
+        },
+        {
+          "headline": "Intercontinental Exchange Launches Data Center Risk Tool: NYSE Content Update",
+          "url": "https://finnhub.io/api/news?id=a413c595fd91c87df53f22bb425029e15bbd01d62d441839f26bfcae24bd3c61",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:55:00Z",
+          "primary": false,
+          "symbol": "ICE"
+        }
+      ]
+    },
+    "ABT": {
+      "metrics": {
+        "52WeekHigh": 132.03,
+        "52WeekLow": 81.97,
+        "peTTM": 38.522,
+        "psTTM": 3.7548,
+        "netProfitMarginTTM": 9.75,
+        "roeTTM": 9.11,
+        "revenueGrowthTTMYoy": 10.0,
+        "epsGrowthTTMYoy": -66.33,
+        "currentRatioQuarterly": 1.4547,
+        "totalDebt/totalEquityQuarterly": 0.6106,
+        "marketCapitalization": 181091.83
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Abbott Laboratories",
+      "profile": {
+        "weburl": "https://www.abbott.com",
+        "industry": "Health Care",
+        "name": "Abbott Laboratories"
+      },
+      "news": [
+        {
+          "headline": "Leerink Partners Upgrades Abbott Laboratories to Outperform from Market Perform",
+          "url": "https://finnhub.io/api/news?id=d0075ab9249be8e8a3d075d56f1cb835fc9715a20845b0c104778115c8855455",
+          "source": "Fintel",
+          "published_at": "2026-11-20T00:19:34Z",
+          "primary": false,
+          "symbol": "ABT"
+        },
+        {
+          "headline": "Abbott Laboratories (ABT) Starts VOYAGER CE Trial With New Encantor TAVI System",
+          "url": "https://finnhub.io/api/news?id=7334bdb0f5adeb7d0f2f8b4a24a7c060528ac84df8c22138d7bdb08b2687cd80",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:21:47Z",
+          "primary": false,
+          "symbol": "ABT"
+        },
+        {
+          "headline": "Global Point-of-Care Connectivity Solutions Market to Reach $1.7 Billion by 2032 | Abbott, Roche, Siemens Healthineers and GE HealthCare Accelerate AI-Driven Care",
+          "url": "https://finnhub.io/api/news?id=ca9763f9ec0ed30c33c9f93cc8d8a7788e925c4ad32b045da5d4999a1d4eaa1c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:14:00Z",
+          "primary": false,
+          "symbol": "ABT"
+        },
+        {
+          "headline": "Point-of-Care/Rapid Diagnostics - Global Strategic Business Report 2026: Capture a $40.7 Billion Market by 2032 with Abbott, Roche, Danaher and Siemens",
+          "url": "https://finnhub.io/api/news?id=4381a9ec4c94eac44f8e18b6bf486b35053db1a75828c04601830a55dddf2f1f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:05:00Z",
+          "primary": false,
+          "symbol": "ABT"
+        },
+        {
+          "headline": "Nerve Repair and Regeneration Devices - Global Strategic Business Report: Secure Share of a $17.6B Market by 2030 as Abbott, Boston Scientific, Collagen Matrix and Inspire Medical Accelerate",
+          "url": "https://finnhub.io/api/news?id=1e5f846a3b5e9f2646ae490fda2fb4796c0cc4cab533642874ad79f353e12082",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:49:00Z",
+          "primary": false,
+          "symbol": "ABT"
+        }
+      ]
+    },
+    "ITW": {
+      "metrics": {
+        "52WeekHigh": 303.16,
+        "52WeekLow": 238.82,
+        "peTTM": 24.4299,
+        "psTTM": 4.7375,
+        "netProfitMarginTTM": 19.39,
+        "roeTTM": 103.39,
+        "revenueGrowthTTMYoy": 4.8,
+        "epsGrowthTTMYoy": 8.83,
+        "currentRatioQuarterly": 1.2937,
+        "totalDebt/totalEquityQuarterly": 2.9838,
+        "marketCapitalization": 78859.82
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Illinois Tool Works Inc",
+      "profile": {
+        "weburl": "https://www.itw.com/",
+        "industry": "Machinery",
+        "name": "Illinois Tool Works Inc"
+      },
+      "news": [
+        {
+          "headline": "Global Lanyard Quick Release Buckle Market Report 2026: Size, Share, Trends and Forecast 2030 | Capitalize on Safety and Eco-Friendly Demand with ITW, YKK, Duraflex and Ningbo MH",
+          "url": "https://finnhub.io/api/news?id=05261a7c2d5c8557fc43a075944af862ed5a21ecc4033d8b8e8c389ac87ebb24",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:32:00Z",
+          "primary": false,
+          "symbol": "ITW"
+        }
+      ]
+    },
+    "ASML": {
+      "metrics": {
+        "52WeekHigh": 1741.0,
+        "52WeekLow": 837.1,
+        "peTTM": 46.2305,
+        "psTTM": 13.6326,
+        "netProfitMarginTTM": 29.49,
+        "roeTTM": 41.52,
+        "revenueGrowthTTMYoy": 9.84,
+        "epsGrowthTTMYoy": 3.58,
+        "currentRatioQuarterly": 1.303,
+        "totalDebt/totalEquityQuarterly": 0.1431,
+        "marketCapitalization": 481606.56
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "ASML Holding NV",
+      "profile": {
+        "weburl": "https://www.asml.com/en/",
+        "industry": "Semiconductors",
+        "name": "ASML Holding NV"
+      },
+      "news": [
+        {
+          "headline": "14 ETFs Add to ASML Holding (ASML) on Nov. 18",
+          "url": "https://finnhub.io/api/news?id=dbdfcd0f0990053d9e87104bd12108306caab1058783b246dad97e9a74fccd61",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:01:44Z",
+          "primary": false,
+          "symbol": "ASML"
+        },
+        {
+          "headline": "Why Ken Fisher Keeps Adding to ASML Holding (ASML) While Its Order Book Is Sold Out",
+          "url": "https://finnhub.io/api/news?id=59a38ea25c5f3f007958921d539b67b6345465c5cf85b7c5f76f7bd86aac779c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:10:01Z",
+          "primary": false,
+          "symbol": "ASML"
+        },
+        {
+          "headline": "ASML Rides on Improving Profitability: Will It Sustain?",
+          "url": "https://finnhub.io/api/news?id=52c22c16cd7371a0d0754d713c2b49161a747ea8aad0a716550b01abbcc8d36f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:08:00Z",
+          "primary": false,
+          "symbol": "ASML"
+        },
+        {
+          "headline": "Why ASML Holding (ASML)’s Monopoly in EUV Technology Gives It a Powerful Competitive Advantage",
+          "url": "https://finnhub.io/api/news?id=ad323b0d2d5747e9c8b5579a50e9789891a7da052a8fa767d5db21e8a528f66e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:04:44Z",
+          "primary": false,
+          "symbol": "ASML"
+        },
+        {
+          "headline": "Why Nvidia and ASML still fit an underweight tech strategy",
+          "url": "https://finnhub.io/api/news?id=01bef8f96e93c2194a5e1809c5dcf7f868f33a8fef51226a04e41d9e90219f49",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T00:44:54Z",
+          "primary": false,
+          "symbol": "ASML"
+        }
+      ]
+    },
+    "ONON": {
+      "metrics": {
+        "52WeekHigh": 51.08,
+        "52WeekLow": 26.365,
+        "peTTM": 19.7231,
+        "psTTM": 2.586,
+        "netProfitMarginTTM": 13.11,
+        "roeTTM": 23.5,
+        "revenueGrowthTTMYoy": 16.71,
+        "epsGrowthTTMYoy": 94.82,
+        "currentRatioQuarterly": 3.1122,
+        "totalDebt/totalEquityQuarterly": 0.3403,
+        "marketCapitalization": 10310.050999999998
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "On Holding AG",
+      "profile": {
+        "weburl": "https://www.on-running.com/",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "name": "On Holding AG"
+      },
+      "news": [
+        {
+          "headline": "Earnings Beat Might Change The Case For Investing In On Holding Stock (ONON)",
+          "url": "https://finnhub.io/api/news?id=452d751a2fba09453b955d5126e16428b5732479e6270924348bd3ec8880d94c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T02:12:10Z",
+          "primary": false,
+          "symbol": "ONON"
+        },
+        {
+          "headline": "Co-CEO Buying and $1B Share Authorization Validate On Holding AG’s (ONON) Multi-Year Growth Thesis",
+          "url": "https://finnhub.io/api/news?id=ff301d506c454df57338b59cc04140c993a31aa7a34beb4a465f2a9932888dac",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:25:21Z",
+          "primary": false,
+          "symbol": "ONON"
+        },
+        {
+          "headline": "On Holding AG (ONON) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finnhub.io/api/news?id=c4a36eb6fd13f62ad975cc3fd5991d0f489083bb218efefb0f3dc787f153787b",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:00:04Z",
+          "primary": false,
+          "symbol": "ONON"
+        },
+        {
+          "headline": "ONON Q3 Earnings Call Highlights Margins and Growth Plans",
+          "url": "https://finnhub.io/api/news?id=88f670ef148a2d3762e1efd985a79c37f3a4a7f392a3ebc3b063bda4045711c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T17:13:00Z",
+          "primary": false,
+          "symbol": "ONON"
+        }
+      ]
+    },
+    "CB": {
+      "metrics": {
+        "52WeekHigh": 384.26,
+        "52WeekLow": 291.03,
+        "peTTM": 12.5442,
+        "psTTM": 2.2773,
+        "netProfitMarginTTM": 18.15,
+        "roeTTM": 15.17,
+        "revenueGrowthTTMYoy": 5.7,
+        "epsGrowthTTMYoy": 19.31,
+        "currentRatioQuarterly": 0.162,
+        "totalDebt/totalEquityQuarterly": 0.246,
+        "marketCapitalization": 140845.86
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Chubb Limited",
+      "profile": {
+        "weburl": "https://www.chubb.com/",
+        "industry": "Insurance",
+        "name": "Chubb Limited"
+      },
+      "news": [
+        {
+          "headline": "Chubb Limited Board Declares Quarterly Dividend",
+          "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "CB"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting Chubb Limited Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=326dbf93ab04575ac1ad51187b57aa6106955612e1c58c73a217cbb8590062e2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:33:19Z",
+          "primary": false,
+          "symbol": "CB"
+        },
+        {
+          "headline": "Why Is Chubb (CB) Up 4.5% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=49018fa999b064520264f44007891deb9d16eafb79f099cc72b37ce6d210380e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:03Z",
+          "primary": false,
+          "symbol": "CB"
+        },
+        {
+          "headline": "Travelers Has Surged 40% in 2026. Chubb Offers Retirees a Different Dividend Opportunity",
+          "url": "https://finnhub.io/api/news?id=9f9a0368a91e1cdc5553ee9404cb1be1d3a73ee70f970731b6ba283fd2879b4b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:17:53Z",
+          "primary": false,
+          "symbol": "CB"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Chubb, Raises Price Target to $380",
+          "url": "https://finnhub.io/api/news?id=06404532a5d1d4aa868ee7f1c8038527500bb3665f54369b4d756b6248128377",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T11:04:31Z",
+          "primary": false,
+          "symbol": "CB"
+        }
+      ]
+    },
+    "MDT": {
+      "metrics": {
+        "52WeekHigh": 106.33,
+        "52WeekLow": 73.31,
+        "peTTM": 24.6203,
+        "psTTM": 3.4319,
+        "netProfitMarginTTM": 13.94,
+        "roeTTM": 10.61,
+        "revenueGrowthTTMYoy": 9.77,
+        "epsGrowthTTMYoy": 12.25,
+        "currentRatioQuarterly": 2.0671,
+        "totalDebt/totalEquityQuarterly": 0.5605,
+        "marketCapitalization": 128837.99
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Medtronic PLC",
+      "profile": {
+        "weburl": "https://www.medtronic.com/",
+        "industry": "Health Care",
+        "name": "Medtronic PLC"
+      },
+      "news": [
+        {
+          "headline": "Medtronic (MDT) Won FDA Clearance For Hugo In 3.5 Million US Surgeries",
+          "url": "https://finnhub.io/api/news?id=4e5f26ab639075bf6eb76d9615a8ebae11d5c6c93f478280589d4aa34d55c497",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T10:13:15Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "Connected Health Devices - Global Strategic Business Report 2026: Capitalize on 21.3% CAGR and $11.6B Revenue Opportunity by 2032 with Apple, Medtronic, Microsoft, Roche and Epic Systems",
+          "url": "https://finnhub.io/api/news?id=d85ef2b0dd7de414e8e72978189f18078e2d2387f1558c359559defb49f178d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:10:00Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "Global Clinical-Grade Wearables for Pharma and Biotech Market Report 2026 | Capitalize on 21.5% CAGR to $7.48B by 2030 as Abbott, Medtronic, DexCom and Philips Scale AI-Driven RPM",
+          "url": "https://finnhub.io/api/news?id=14c754643edf917176d78ca9a1ede6dc690f2ae9d72c7dcea357021ea4ed1f79",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:46:00Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "What Piper Sandler Sees Ahead for Medtronic (MDT)",
+          "url": "https://finnhub.io/api/news?id=22a1c2d80b32c092fc0b7df9974d64e3fc9bf47478ed01b44282661b408ea16a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:38:40Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "Global Autonomous Surgical Robotics Market Opportunities and Strategies to 2035 | Capture $9.64B AI-Led Surgery Growth with Stryker, Medtronic, CMR Surgical and THINK Surgical",
+          "url": "https://finnhub.io/api/news?id=691191036c63a3140af70057c593af792de99de92070d0cf14c6e39d30820a60",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:36:00Z",
+          "primary": false,
+          "symbol": "MDT"
+        }
+      ]
+    },
+    "TT": {
+      "metrics": {
+        "52WeekHigh": 505.87,
+        "52WeekLow": 348.06,
+        "peTTM": 28.4506,
+        "psTTM": 3.8585,
+        "netProfitMarginTTM": 13.56,
+        "roeTTM": 36.1,
+        "revenueGrowthTTMYoy": 10.34,
+        "epsGrowthTTMYoy": 8.96,
+        "currentRatioQuarterly": 1.1237,
+        "totalDebt/totalEquityQuarterly": 0.463,
+        "marketCapitalization": 89622.36
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Trane Technologies PLC",
+      "profile": {
+        "weburl": "https://www.tranetechnologies.com/",
+        "industry": "Building",
+        "name": "Trane Technologies PLC"
+      },
+      "news": [
+        {
+          "headline": "TRANE TECHNOLOGIES PLC (NYSE:TT): A Dividend Quality Play for Income Investors",
+          "url": "https://finnhub.io/api/news?id=846d88d6d3bf557262668c17b67ae59ecde0341880e45eee6d21adb3b54e9630",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T13:00:47Z",
+          "primary": false,
+          "symbol": "TT"
+        },
+        {
+          "headline": "Trane Technologies to Present at the UBS Global Industrials & Transportation Conference",
+          "url": "https://finnhub.io/api/news?id=a422b57ccba0845df84cf69180264eca95c72af6c6cee27aa08e115fb3554b43",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T11:30:00Z",
+          "primary": false,
+          "symbol": "TT"
+        },
+        {
+          "headline": "Is Trane Technologies (TT) A Bargain As It Backs Clean Tech Training?",
+          "url": "https://finnhub.io/api/news?id=f07b1bbe6b6f50e0ff5698184db13eedff11909af5bdaf28843404d9b130581c",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T03:15:47Z",
+          "primary": false,
+          "symbol": "TT"
+        },
+        {
+          "headline": "Trane Technologies (TT) Commits $1 Million To Clean Tech Workforce Training",
+          "url": "https://finnhub.io/api/news?id=0e8693d07704c397b666decda760eab45478e1d4427ef4fc8947b6d3595ac3bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T02:09:17Z",
+          "primary": false,
+          "symbol": "TT"
+        }
+      ]
+    },
+    "SO": {
+      "metrics": {
+        "52WeekHigh": 99.58,
+        "52WeekLow": 81.69,
+        "peTTM": 21.6223,
+        "psTTM": 3.6122,
+        "netProfitMarginTTM": 16.71,
+        "roeTTM": 12.9,
+        "revenueGrowthTTMYoy": 8.23,
+        "epsGrowthTTMYoy": 8.48,
+        "currentRatioQuarterly": 0.8385,
+        "totalDebt/totalEquityQuarterly": 1.7596,
+        "marketCapitalization": 107938.64
+      },
+      "updated_at": "2026-11-20T13:23:07Z",
+      "name": "Southern Co",
+      "profile": {
+        "weburl": "https://www.southerncompany.com/",
+        "industry": "Utilities",
+        "name": "Southern Co"
+      },
+      "news": [
+        {
+          "headline": "Southern (SO) Wraps Up $1.75 Billion Composite Units Offering With 35 Million Units",
+          "url": "https://finnhub.io/api/news?id=aa51c5bf58997b2dfce98b5d55f5e990abda4990151b754cd625974734270a8a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:11:54Z",
+          "primary": false,
+          "symbol": "SO"
+        },
+        {
+          "headline": "One Unsettled Question Sits Under Southern Stock",
+          "url": "https://finnhub.io/api/news?id=bd55212a3dff7ed91afc6b408a12e299bad8a7362a857b3dcebbdf05d0f3fd2e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:18:20Z",
+          "primary": false,
+          "symbol": "SO"
+        },
+        {
+          "headline": "How Many Shares of Southern Company, Edison International or WEC Energy Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=d4e3cf820c3b3cadb62d9a0b3fe6dc7f1381b2413660c3c3c64b8f16baa93d8f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:49:11Z",
+          "primary": false,
+          "symbol": "SO"
+        },
+        {
+          "headline": "Southern Company: AI Customers Must Pay Even If They Don't Use The Power",
+          "url": "https://finnhub.io/api/news?id=4f2055a76a134e1bf154454ab84b3ab4b1b73b6c565e9ce57e22de55d65ee6f7",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T06:43:16Z",
+          "primary": false,
+          "symbol": "SO"
+        },
+        {
+          "headline": "The Southern Company Completes Offering of 40,000,000 Corporate Units",
+          "url": "https://finnhub.io/api/news?id=b2c6a6ae030d2a4f646aed6f14b23ae430ffbb7b1ad1bf72496c05f2cc1e670a",
+          "source": "Fintel",
+          "published_at": "2026-11-17T20:38:51Z",
+          "primary": false,
+          "symbol": "SO"
+        }
+      ]
     }
   },
-  "cursor": 140,
-  "updated_at": "2026-11-20T12:11:08Z"
+  "cursor": 152,
+  "updated_at": "2026-11-20T13:23:07Z"
 }
