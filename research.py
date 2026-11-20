@@ -422,7 +422,7 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     public={'generated_at':iso(now),'universe_size':len(symbols),'equity_universe_size':len(equities),
             'etf_universe_size':len(etfs),
             'screened_with_financials':sum(c.get('score') is not None for c in candidates),
-            'updated_company_metrics_this_scan':processed,'candidates':ranked[:20],
+            'updated_company_metrics_this_scan':processed,'candidates':ranked[:80],
             'entry_candidates':entry_candidates[:8],'entry_watch':entry_watch,
             'pricing_method':'Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.',
              'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
