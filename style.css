@@ -48,3 +48,42 @@
 .scout-more>summary::-webkit-details-marker{display:none}
 .scout-more[open]>summary{margin-bottom:12px}
 .scout-more>summary:focus-visible{outline:2px solid #57e5d1}
+
+/* Results: keep the app honest. Nothing is coloured a win until a completed paper exit. */
+.bottom-nav{grid-template-columns:repeat(6,minmax(0,1fr));padding-left:5px;padding-right:5px}
+.bottom-nav button{min-width:0;padding:7px 1px;font-size:9px;gap:4px}
+.bottom-nav svg{width:20px;height:20px}
+.results-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:13px 0 8px}
+.results-grid>div{min-width:0;border:1px solid #34475e;border-radius:12px;padding:12px 7px;text-align:center;background:#18283e}
+.results-grid strong{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+.results-grid span{display:block;color:#b4c5d8;font-size:10px;line-height:1.4;margin-top:5px}
+.results-sub{font-size:11px;color:#a5b9ce;line-height:1.6;margin:10px 0 18px}
+.results-explainer{font-size:12px;line-height:1.6;color:#bcd0e2;margin:12px 0 17px}
+.results-explainer strong{color:#f3fafc;font-size:13px}
+.results-explainer p{margin:8px 0 0}
+.results-card{padding:14px 15px;margin-bottom:11px;border-left:3px solid #577084}
+.results-card.results-good{border-left-color:#62c9a6}
+.results-card.results-bad{border-left-color:#e78d9d}
+.results-symbol{font-size:17px;color:#f2f8fc}
+.results-company{font-size:11px;color:#a2b7cb}
+.results-state{font-size:10px;font-weight:800;text-align:right;color:#d7e1ec;white-space:nowrap}
+.results-good .results-state{color:#80eac2}
+.results-bad .results-state{color:#ff9da8}
+.results-meta{font-size:11px;color:#98acc5;line-height:1.5;margin:10px 0}
+.results-original,.results-realized,.results-outcomes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:11px}
+.results-original>div,.results-realized>div,.results-outcomes>div{border:1px solid #3c516b;border-radius:10px;padding:10px 8px;min-width:0;background:#13263a}
+.results-original span,.results-realized span,.results-outcomes span{display:block;font-size:10px;color:#adbfce;line-height:1.4}
+.results-original strong,.results-realized strong,.results-outcomes strong{display:block;color:#f5fbff;font-size:14px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums;margin-top:5px}
+.results-original>div:first-child strong{color:#91e2c6}
+.results-original>div:nth-child(2) strong{color:#f3d18c}
+.results-outcomes{grid-template-columns:repeat(3,minmax(0,1fr))}
+.results-outcomes strong{font-size:13px}
+.results-up{color:#75dab3!important}
+.results-down{color:#ff9da8!important}
+.results-original-note{font-size:11px;color:#aebecf;margin:12px 0}
+.results-observed{font-size:11px;color:#b9d1e1;line-height:1.5;margin:12px 0}
+.results-explanation{font-size:11px;line-height:1.6;color:#d0e4eb;margin:10px 0 0}
+.results-drill{border-top:1px solid #31465e;margin-top:12px;padding-top:10px;font-size:11px;color:#b3c8d7;line-height:1.6}
+.results-drill summary{cursor:pointer;font-weight:700;color:#93d9d9;padding:3px 0}
+.results-drill p{margin:9px 0}
+@media(max-width:360px){.results-grid strong{font-size:20px}.results-outcomes{grid-template-columns:1fr 1fr}.results-outcomes strong{font-size:12px}}

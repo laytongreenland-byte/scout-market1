@@ -16,6 +16,6 @@ jobs:
       - name: Check Python syntax
         run: python -m compileall -q scanner.py research.py price_plan.py ml_engine.py learner.py
       - name: Check JavaScript syntax
-        run: node --check app.js && node --check compass.js
+        run: node --check app.js && node --check compass.js && node --check results.js
       - name: Run research, pricing and learning tests
         run: python -m unittest discover -s tests -v

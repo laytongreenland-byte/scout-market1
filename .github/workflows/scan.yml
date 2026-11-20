@@ -14,6 +14,8 @@ on:
       - 'learner.py'
       - 'app.js'
       - 'compass.js'
+      - 'results.js'
+      - 'trade_journal.py'
       - 'style.css'
       - 'index.html'
       - 'config/watchlist.json'
@@ -92,7 +94,7 @@ jobs:
       - name: Prepare public website
         run: |
           mkdir -p site/assets site/data
-          cp index.html style.css app.js compass.js sw.js manifest.webmanifest site/
+          cp index.html style.css app.js compass.js results.js sw.js manifest.webmanifest site/
           cp assets/icon.svg site/assets/
           cp data/latest.json site/data/
           touch site/.nojekyll
