@@ -6308,8 +6308,757 @@
           "symbol": "WMB"
         }
       ]
+    },
+    "CCI": {
+      "metrics": {
+        "52WeekHigh": 95.07,
+        "52WeekLow": 65.32,
+        "peTTM": 42.4032,
+        "psTTM": 8.5325,
+        "netProfitMarginTTM": 20.12,
+        "roeTTM": 21.01,
+        "revenueGrowthTTMYoy": -15.63,
+        "currentRatioQuarterly": 0.2314,
+        "totalDebt/totalEquityQuarterly": 4.5436,
+        "marketCapitalization": 34855.42
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Crown Castle Inc",
+      "profile": {
+        "weburl": "https://www.crowncastle.com/",
+        "industry": "Real Estate",
+        "name": "Crown Castle Inc"
+      },
+      "news": [
+        {
+          "headline": "Crown Castle Inc. (CCI) Presents at Morgan Stanley European Technology, Media and Telecom Conference Transcript",
+          "url": "https://finnhub.io/api/news?id=ade2f9c11a77da4e32c5e681155d677433c35b8a4fb93af999a05dd16496b809",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T20:52:56Z",
+          "primary": false,
+          "symbol": "CCI"
+        },
+        {
+          "headline": "Crown Castle Sees Growth Rebound in 2027 as New Spectrum Fuels Tower Demand",
+          "url": "https://finnhub.io/api/news?id=fb33cd6d954a7d8eacfa986bdadb91cc93583963279898471457b56f3138607d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:12:33Z",
+          "primary": false,
+          "symbol": "CCI"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Crown Castle Stock?",
+          "url": "https://finnhub.io/api/news?id=d13712bad22dd43bdcdf684512525f14642670719d3f0b80242187807c49a1e6",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T12:46:40Z",
+          "primary": false,
+          "symbol": "CCI"
+        }
+      ]
+    },
+    "SONY": {
+      "metrics": {
+        "52WeekHigh": 4725.0,
+        "52WeekLow": 3043.0,
+        "psTTM": 1.9305,
+        "netProfitMarginTTM": -1.03,
+        "roeTTM": -1.6099999999999999,
+        "revenueGrowthTTMYoy": 8.0,
+        "currentRatioQuarterly": 1.2466,
+        "totalDebt/totalEquityQuarterly": 0.2441,
+        "marketCapitalization": 25130188.0
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Sony Group Corp",
+      "profile": {
+        "weburl": "https://www.sony.com/",
+        "industry": "Consumer products",
+        "name": "Sony Group Corp"
+      },
+      "news": [
+        {
+          "headline": "Sony shares rise as Playstation dominates GTA VI sales",
+          "url": "https://finnhub.io/api/news?id=bbf77aa8a5b8f19d84438c49581df913a42c28a56f1b95f824eb76f3eb3cc282",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T06:37:34Z",
+          "primary": false,
+          "symbol": "SONY"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Sony Group 10 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=6c02ec68ce115e3dbfc1f40910c0fccebb549a4554cd28cdcec77de73b2e08ad",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T16:15:18Z",
+          "primary": false,
+          "symbol": "SONY"
+        },
+        {
+          "headline": "Sony: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=d7fc5b0a7cdfca8703d07c1fa207020aa3e894a0181c3fb4ae25a74092832e7c",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T04:26:01Z",
+          "primary": false,
+          "symbol": "SONY"
+        },
+        {
+          "headline": "Forget Take-Two: Sony Is the Overlooked Winner of GTA VI’s Huge Preorders",
+          "url": "https://finnhub.io/api/news?id=5142c8c8cb8ae2ae74dd62b125ba1de3f472edb6c770b14dd5af31e47718f621",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T12:19:18Z",
+          "primary": false,
+          "symbol": "SONY"
+        },
+        {
+          "headline": "Sony Group Corporation Repurchases 11,592,100 Shares for 45,604,126,353 Yen",
+          "url": "https://finnhub.io/api/news?id=181d65c10926ce648da1cf0ec38ec93c308f3cb922ef605acd073f3c334c3c75",
+          "source": "Fintel",
+          "published_at": "2026-11-13T10:28:26Z",
+          "primary": false,
+          "symbol": "SONY"
+        }
+      ]
+    },
+    "BBY": {
+      "metrics": {
+        "52WeekHigh": 106.83,
+        "52WeekLow": 55.1,
+        "peTTM": 16.5243,
+        "psTTM": 0.4981,
+        "netProfitMarginTTM": 3.01,
+        "roeTTM": 42.82,
+        "revenueGrowthTTMYoy": 1.45,
+        "epsGrowthTTMYoy": 65.82,
+        "currentRatioQuarterly": 1.1169,
+        "totalDebt/totalEquityQuarterly": 0.3673,
+        "marketCapitalization": 21018.91
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Best Buy Co., Inc.",
+      "profile": {
+        "weburl": "https://investors.bestbuy.com/investor-relations/overview/default.aspx",
+        "industry": "Retail",
+        "name": "Best Buy Co., Inc."
+      },
+      "news": [
+        {
+          "headline": "Best Buy (BBY) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+          "url": "https://finnhub.io/api/news?id=4c0abed9a6a921b0e050b9a0555c4f2e0a2fc8944e9c527d05670c3feda67a3b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:15:05Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "What Is Best Buy (BBY) Gaining From Exclusive App Delivery Across 300 Stores?",
+          "url": "https://finnhub.io/api/news?id=812d07ce415349c9fc676ccaeecf36597083663e4cc5df871c135c3f14dc1eba",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:16:28Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Best Buy faces test of earnings growth as UBS questions sustainability of sales momentum",
+          "url": "https://finnhub.io/api/news?id=0bdfcd1bf3f3ab7638cac39d9ded2084349b843714b409926468ca7558336a63",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T18:23:00Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Best Buy Stock?",
+          "url": "https://finnhub.io/api/news?id=6789277d5fc2956b54cccb52bdc45f38d7e87aede88f74f7d051efa58c4716ff",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:48:18Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Best Buy or Vail Resorts: Only One Gets My Dividend Dollars for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=cb5715c4a91b2b0120b5f5eded8489e06da3851ab835cdcc6118867afa8ee8b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:47:17Z",
+          "primary": false,
+          "symbol": "BBY"
+        }
+      ]
+    },
+    "BLK": {
+      "metrics": {
+        "52WeekHigh": 1242.12,
+        "52WeekLow": 917.39,
+        "peTTM": 27.4085,
+        "psTTM": 6.6375,
+        "netProfitMarginTTM": 24.22,
+        "roeTTM": 12.11,
+        "revenueGrowthTTMYoy": 24.72,
+        "epsGrowthTTMYoy": 8.97,
+        "currentRatioQuarterly": 2.4339,
+        "totalDebt/totalEquityQuarterly": 0.2192,
+        "marketCapitalization": 189447.5
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "BlackRock, Inc.",
+      "profile": {
+        "weburl": "https://www.blackrock.com/",
+        "industry": "Financial Services",
+        "name": "BlackRock, Inc."
+      },
+      "news": [
+        {
+          "headline": "BlackRock’s Bitcoin ETF Sees Record $541 Million Outflow in a Single Day",
+          "url": "https://finnhub.io/api/news?id=52b8080da9e0206bca1a7b048a5043a7cc31dd3bd29abf87ef4b1d166de1d2c3",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T07:00:00Z",
+          "primary": false,
+          "symbol": "BLK"
+        },
+        {
+          "headline": "BlackRock to acquire Brazilian asset manager SulAmérica",
+          "url": "https://finnhub.io/api/news?id=0af147deb948b64c9f35d7c8d54cb7cd3617a5c4b85abadbd1a317610477e196",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:03:24Z",
+          "primary": false,
+          "symbol": "BLK"
+        },
+        {
+          "headline": "25 ETFs Add to BlackRock (BLK) Holdings on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=300a79681cc292fb2d4cecfc10e2b5ff753a353f5da6b9a48f5f4492327d770d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:00:54Z",
+          "primary": false,
+          "symbol": "BLK"
+        },
+        {
+          "headline": "BlackRock's HPS Seeks $9.5 Billion. New Fund Targets Private Credit Investors.",
+          "url": "https://finnhub.io/api/news?id=ccfc257fac9ef8e42b1bae5c999b4cdddac1c093abb0ba37eb76801427979157",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:26:54Z",
+          "primary": false,
+          "symbol": "BLK"
+        },
+        {
+          "headline": "BlackRock (BLK) Seeks ETIF Approval As Valuation Debate Comes Into View",
+          "url": "https://finnhub.io/api/news?id=af4983c4cb682f61289998d4b50bf2f704a9cd48e5863a4a784d8f28872948aa",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:12:44Z",
+          "primary": false,
+          "symbol": "BLK"
+        }
+      ]
+    },
+    "REGN": {
+      "metrics": {
+        "52WeekHigh": 991.73,
+        "52WeekLow": 591.52,
+        "peTTM": 20.3008,
+        "psTTM": 5.7881,
+        "netProfitMarginTTM": 28.51,
+        "roeTTM": 15.07,
+        "revenueGrowthTTMYoy": 18.59,
+        "epsGrowthTTMYoy": 8.37,
+        "currentRatioQuarterly": 3.3529,
+        "totalDebt/totalEquityQuarterly": 0.0808,
+        "marketCapitalization": 97796.84
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Regeneron Pharmaceuticals, Inc.",
+      "profile": {
+        "weburl": "https://www.regeneron.com/",
+        "industry": "Biotechnology",
+        "name": "Regeneron Pharmaceuticals, Inc."
+      },
+      "news": [
+        {
+          "headline": "Sanofi and Regeneron’s rare disease wins; Lilly’s dealmaking dance",
+          "url": "https://finnhub.io/api/news?id=f5164a01cbe750265dce9285cd8f59278ee714e0a5c89b18131a334a099c61d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:52:13Z",
+          "primary": false,
+          "symbol": "REGN"
+        },
+        {
+          "headline": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
+          "url": "https://finnhub.io/api/news?id=04238e882969a53f3539451f5ae4cfc40530405a1dd57f2ba43bb34e4f93db22",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:10:00Z",
+          "primary": false,
+          "symbol": "REGN"
+        },
+        {
+          "headline": "REGN Gets FDA Nod for Livsayis in Generalized Myasthenia Gravis",
+          "url": "https://finnhub.io/api/news?id=973d71eb9affa65a81ddc6543aef1b7f1fb734185fe09bd4e242b4899d7390d7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:42:00Z",
+          "primary": false,
+          "symbol": "REGN"
+        },
+        {
+          "headline": "Regeneron Wins FDA Nod For Livsayis, 4x-Year GMG Shot",
+          "url": "https://finnhub.io/api/news?id=eefaa0d02c95b030852a01d94b17de67d7d4364fa187a117e43c1811ac35c9a5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:10:41Z",
+          "primary": false,
+          "symbol": "REGN"
+        },
+        {
+          "headline": "Regeneron Highlights New Data Across Malignant and Classical Hematology Programs at American Society of Hematology (ASH)",
+          "url": "https://finnhub.io/api/news?id=fa2ac28d4999d3baa15d94cd8fae45c7d5d0e11fa7ca3110433b5f6517fa5a7b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:00:00Z",
+          "primary": false,
+          "symbol": "REGN"
+        }
+      ]
+    },
+    "ETN": {
+      "metrics": {
+        "52WeekHigh": 478.0,
+        "52WeekLow": 311.92,
+        "peTTM": 33.8643,
+        "psTTM": 4.1282,
+        "netProfitMarginTTM": 12.19,
+        "roeTTM": 19.400000000000002,
+        "revenueGrowthTTMYoy": 20.09,
+        "epsGrowthTTMYoy": 0.07,
+        "currentRatioQuarterly": 1.234,
+        "totalDebt/totalEquityQuarterly": 0.9585,
+        "marketCapitalization": 132036.97
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Eaton Corporation PLC",
+      "profile": {
+        "weburl": "https://www.eaton.com/",
+        "industry": "Electrical Equipment",
+        "name": "Eaton Corporation PLC"
+      },
+      "news": [
+        {
+          "headline": "The Concern Behind Erste Group’s Call on Eaton (ETN)",
+          "url": "https://finnhub.io/api/news?id=730960687d2bc6f4477f6c5b0ce3d7fd617cc11fb4775b5d24e29ba5ec268bbe",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:16:51Z",
+          "primary": false,
+          "symbol": "ETN"
+        },
+        {
+          "headline": "Is Eaton A Better Data Center Play Than Rockwell?",
+          "url": "https://finnhub.io/api/news?id=331419fd27e9861ae505990e2037394b63910e6f591e03aa69e9ff03cf975994",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:03:28Z",
+          "primary": false,
+          "symbol": "ETN"
+        },
+        {
+          "headline": "Eaton Stock Has One Thing Left To Prove",
+          "url": "https://finnhub.io/api/news?id=3f1b175ff02bd2d07d28ff25dfaf1a4b2ad3b1a5aba459138553445b4ec939ae",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:08:31Z",
+          "primary": false,
+          "symbol": "ETN"
+        },
+        {
+          "headline": "Flex vs. Eaton: Which AI Power Infrastructure Stock is a Better Buy?",
+          "url": "https://finnhub.io/api/news?id=2b0198e3d67ba5cb01a8ab0fb5d17f43cdb42ed8e21cbf538b54e9844db5ad6b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:14:00Z",
+          "primary": false,
+          "symbol": "ETN"
+        },
+        {
+          "headline": "Is Eaton Stock Priced Right Against Its Rivals?",
+          "url": "https://finnhub.io/api/news?id=6069cad420cc36a90b7a294cde6971c62623b3870d2094730778378c85264cb1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:35:48Z",
+          "primary": false,
+          "symbol": "ETN"
+        }
+      ]
+    },
+    "LNG": {
+      "metrics": {
+        "52WeekHigh": 330.73,
+        "52WeekLow": 186.2001,
+        "peTTM": 19.8806,
+        "psTTM": 2.6008,
+        "netProfitMarginTTM": 13.08,
+        "roeTTM": 49.769999999999996,
+        "revenueGrowthTTMYoy": 22.47,
+        "epsGrowthTTMYoy": -20.11,
+        "currentRatioQuarterly": 0.9001,
+        "totalDebt/totalEquityQuarterly": 3.6508,
+        "marketCapitalization": 60397.324
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Cheniere Energy, Inc.",
+      "profile": {
+        "weburl": "https://www.cheniere.com/",
+        "industry": "Energy",
+        "name": "Cheniere Energy, Inc."
+      },
+      "news": [
+        {
+          "headline": "Cheniere Energy's 'Impressive' Contract Wins Highlight Premium Business Model, RBC Says",
+          "url": "https://finnhub.io/api/news?id=189c10fcfe6185d12e73daf89a7616aab4ac1bf2551dcd705e7d2ab9d3e8144a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:35:41Z",
+          "primary": false,
+          "symbol": "LNG"
+        },
+        {
+          "headline": "RBC Capital Maintains Outperform on Cheniere Energy, Raises Price Target to $373",
+          "url": "https://finnhub.io/api/news?id=d66181ffc32b802a065dae8eda7fc83f70cb41883adff7e1729d5e77c8da5419",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T10:54:44Z",
+          "primary": false,
+          "symbol": "LNG"
+        },
+        {
+          "headline": "Cheniere Energy: Why Profits Fell While The Business Grew",
+          "url": "https://finnhub.io/api/news?id=c240e8dbc47d42c541d9ab5a42a4c0f9f49ef582ac5c0192ff236077e79743b6",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T09:51:51Z",
+          "primary": false,
+          "symbol": "LNG"
+        },
+        {
+          "headline": "Cheniere Energy (LNG) Names Zach Davis President In Key Leadership Shift",
+          "url": "https://finnhub.io/api/news?id=2edae237359740aba967d8cb1a0310b02a687a26b91ceebb3bb50c20b919aa42",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:13:17Z",
+          "primary": false,
+          "symbol": "LNG"
+        },
+        {
+          "headline": "U.S. Energy Secretary Says In Social Media Post That Poland's Orlen Enters Agreement To Transport More American LNG To Slovakia And Hungary",
+          "url": "https://finnhub.io/api/news?id=c4699e51376655cb3a0168a914b8bc8f82deea8d05bfcc77ac5c5d9016f521a3",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T14:06:11Z",
+          "primary": false,
+          "symbol": "LNG"
+        }
+      ]
+    },
+    "VICI": {
+      "metrics": {
+        "52WeekHigh": 30.485,
+        "52WeekLow": 22.425,
+        "peTTM": 11.2288,
+        "psTTM": 6.3397,
+        "netProfitMarginTTM": 56.46,
+        "roeTTM": 8.219999999999999,
+        "revenueGrowthTTMYoy": 4.7,
+        "epsGrowthTTMYoy": -17.18,
+        "currentRatioQuarterly": 0.3922,
+        "totalDebt/totalEquityQuarterly": 0.6128,
+        "marketCapitalization": 26345.25
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "VICI Properties Inc",
+      "profile": {
+        "weburl": "https://viciproperties.com/",
+        "industry": "Real Estate",
+        "name": "VICI Properties Inc"
+      },
+      "news": [
+        {
+          "headline": "VICI Properties Faces Higher Credit Provisions: Can Risks Ease?",
+          "url": "https://finnhub.io/api/news?id=7d535ffb11d05b2f44d6ecb19d2224c72aed85349261b99b8ed740e12a0fa6ea",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:35:00Z",
+          "primary": false,
+          "symbol": "VICI"
+        },
+        {
+          "headline": "3 REIT Giants Paying Big Dividends, Led by VICI’s 7.6% Yield",
+          "url": "https://finnhub.io/api/news?id=e51eff923d75bc8c6233b5299bb69ceb406d8835a0d2541ade86fcff84ceedc5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:17:59Z",
+          "primary": false,
+          "symbol": "VICI"
+        },
+        {
+          "headline": "VICI Properties: The Discount Is An Opportunity",
+          "url": "https://finnhub.io/api/news?id=8f41602aafa97e6c7b13e79f4b82520e928049b24fa340bf8c094a9f0dbfac06",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T08:24:47Z",
+          "primary": false,
+          "symbol": "VICI"
+        },
+        {
+          "headline": "Can Shares Rally Higher on VICI's $2B Buyback Plan & Raised Outlook?",
+          "url": "https://finnhub.io/api/news?id=f6437b68fc53a8bcecd5110c1bb17d31a76bdb26db75143ecfe3f88e3b51c607",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:05:00Z",
+          "primary": false,
+          "symbol": "VICI"
+        },
+        {
+          "headline": "VICI Properties Inc. Subsidiary Enters Into Credit Agreement Amendment for $500 million Term Loan Facility",
+          "url": "https://finnhub.io/api/news?id=106b744f8b7d85db368d4210df57a6da00c72fdb776f484b0822dc4d50acc85d",
+          "source": "Fintel",
+          "published_at": "2026-11-13T15:18:31Z",
+          "primary": false,
+          "symbol": "VICI"
+        }
+      ]
+    },
+    "NTES": {
+      "metrics": {
+        "52WeekHigh": 149.11,
+        "52WeekLow": 106.06,
+        "peTTM": 15.6684,
+        "psTTM": 4.3688,
+        "netProfitMarginTTM": 27.88,
+        "roeTTM": 20.06,
+        "revenueGrowthTTMYoy": 6.31,
+        "epsGrowthTTMYoy": -5.35,
+        "currentRatioQuarterly": 3.4533,
+        "totalDebt/totalEquityQuarterly": 0.0754,
+        "marketCapitalization": 76408.76
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "NetEase, Inc.",
+      "profile": {
+        "weburl": "https://www.163.com/",
+        "industry": "Media",
+        "name": "NetEase, Inc."
+      },
+      "news": [
+        {
+          "headline": "NetEase shares slump as Q3 earnings disappoint",
+          "url": "https://finnhub.io/api/news?id=1e78b4dcf6693c0689806aa53c5e8438a948a7df87d52fa0e8cb7ffe1c19d181",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T05:20:49Z",
+          "primary": false,
+          "symbol": "NTES"
+        },
+        {
+          "headline": "NetEase Inc (NTES) (Q3 2026) Earnings Call Highlights: Margin Expansion and Strong Cash ...",
+          "url": "https://finnhub.io/api/news?id=f60edc3dd78e7a0f9dede7a288e7b6f3d65590770e64c1228595e66ba7d38dc1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:01:03Z",
+          "primary": false,
+          "symbol": "NTES"
+        },
+        {
+          "headline": "NetEase: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=283ddb182a319d9b4aa90b8fb71befb94c48deed80f40b6848cb83390dfe4298",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:59:46Z",
+          "primary": false,
+          "symbol": "NTES"
+        },
+        {
+          "headline": "NetEase (NTES) Q3 2026 Earnings Call Transcript",
+          "url": "https://finnhub.io/api/news?id=95c953063d71b06ce03dd8008282ec0073d1c83f30b86c9250d07740b29ddb97",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:29:37Z",
+          "primary": false,
+          "symbol": "NTES"
+        },
+        {
+          "headline": "NetEase Stocks Slide 8.66% as Game Revenue Slips 8.3% From Prior Quarter",
+          "url": "https://finnhub.io/api/news?id=b034353dd079575f4bc362a788978ee2e18223e8fbdf13319a195833f03306d1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:28:43Z",
+          "primary": false,
+          "symbol": "NTES"
+        }
+      ]
+    },
+    "SBUX": {
+      "metrics": {
+        "52WeekHigh": 111.5,
+        "52WeekLow": 81.97,
+        "peTTM": 61.4154,
+        "psTTM": 3.1762,
+        "netProfitMarginTTM": 5.17,
+        "roeTTM": 115.68,
+        "revenueGrowthTTMYoy": 4.49,
+        "epsGrowthTTMYoy": -24.99,
+        "currentRatioQuarterly": 0.7597,
+        "totalDebt/totalEquityQuarterly": 8.0719,
+        "marketCapitalization": 121768.375
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Starbucks Corp",
+      "profile": {
+        "weburl": "https://www.starbucks.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Starbucks Corp"
+      },
+      "news": [
+        {
+          "headline": "Starbucks Has Raised Its Dividend 16 Straight Years. These 3 Restaurant Stocks Keep Paying",
+          "url": "https://finnhub.io/api/news?id=f6d30ae8949f76c90b51c064d4821732bba53346d2ffed7312a07edc0d9465c4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:17:53Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "Starbucks apparently sold a lot of holiday drinks on Tuesday",
+          "url": "https://finnhub.io/api/news?id=6d2e35b65c7ae4f6b0117975a48511dc0dcda6b7740441d8b8c12b3ee157ee57",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:02:57Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "What Is The One Risk Every Starbucks Investor Should Know?",
+          "url": "https://finnhub.io/api/news?id=403210d497bfae3c4a05a26ac892e87437dfe6718be9838498f2ab43e4a61968",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:58:51Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "Monster Beverage vs. Starbucks: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=dbcbde904a1d724d71204cd23d45196c38ad373f7bd2cce52c92c08eee719ce9",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:05:02Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "Starbucks inventory availability at ‘all-time high’ with daily deliveries, CEO says",
+          "url": "https://finnhub.io/api/news?id=662dd143899f7b79ca2f769e39e2b385ae7ac426ec4a66012486b5d582c343f7",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:38:15Z",
+          "primary": false,
+          "symbol": "SBUX"
+        }
+      ]
+    },
+    "BX": {
+      "metrics": {
+        "52WeekHigh": 165.14,
+        "52WeekLow": 101.73,
+        "peTTM": 40.6582,
+        "psTTM": 8.9899,
+        "netProfitMarginTTM": 22.11,
+        "roeTTM": 40.77,
+        "revenueGrowthTTMYoy": 22.11,
+        "epsGrowthTTMYoy": 28.69,
+        "currentRatioQuarterly": 0.6717,
+        "totalDebt/totalEquityQuarterly": 1.5163,
+        "marketCapitalization": 144600.67
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Blackstone Inc.",
+      "profile": {
+        "weburl": "https://www.blackstone.com",
+        "industry": "Financial Services",
+        "name": "Blackstone Inc."
+      },
+      "news": [
+        {
+          "headline": "Market Chatter: Blackstone, Carlyle Among Lenders to Take Over Vivid Seats in Debt Deal",
+          "url": "https://finnhub.io/api/news?id=c9525dd39008ef5292ac52a6dc73dfe8d0caa99110f806263ef2833210079bab",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:39:57Z",
+          "primary": false,
+          "symbol": "BX"
+        },
+        {
+          "headline": "Blackstone’s Jon Gray Says AI Demand Is Too Strong for Bubble Fears to Stick",
+          "url": "https://finnhub.io/api/news?id=a1702a1edaee96f7cecf4f423e3e714ed5b185f03aff591d92b68ff0bc3d606f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:50:49Z",
+          "primary": false,
+          "symbol": "BX"
+        },
+        {
+          "headline": "Why Amazon Wants the Chips and Blackstone Wants the Buildings",
+          "url": "https://finnhub.io/api/news?id=51e6f542a450e76e4d0f3629a5053a8b893f338c1cc560e687b1b477384ef5aa",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T19:05:00Z",
+          "primary": false,
+          "symbol": "BX"
+        },
+        {
+          "headline": "Blackstone’s Gray says market shakeout could benefit firm",
+          "url": "https://finnhub.io/api/news?id=8c5065f8f3280a0b3c2a21befa6156c0e9fabc9d200fca6d5bfdf23706263566",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:21:59Z",
+          "primary": false,
+          "symbol": "BX"
+        },
+        {
+          "headline": "Blackstone Bought Offices For $39B, Then Sold Most Before The 2008 Crash. CEO Schwarzman Says, ‘We Made 2.2 Times Our Money’",
+          "url": "https://finnhub.io/api/news?id=4a8aefc2751273de5151a7bbdb06d0b122631dfe093660337ae5b3961f3a5c46",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T14:30:36Z",
+          "primary": false,
+          "symbol": "BX"
+        }
+      ]
+    },
+    "BIIB": {
+      "metrics": {
+        "52WeekHigh": 261.0,
+        "52WeekLow": 160.36,
+        "peTTM": 104.8843,
+        "psTTM": 3.5395,
+        "netProfitMarginTTM": 3.37,
+        "roeTTM": 1.8599999999999999,
+        "revenueGrowthTTMYoy": 2.3,
+        "epsGrowthTTMYoy": -78.7,
+        "currentRatioQuarterly": 1.9455,
+        "totalDebt/totalEquityQuarterly": 0.4065,
+        "marketCapitalization": 36447.293
+      },
+      "updated_at": "2026-11-20T10:16:19Z",
+      "name": "Biogen Inc.",
+      "profile": {
+        "weburl": "https://www.biogen.com",
+        "industry": "Biotechnology",
+        "name": "Biogen Inc."
+      },
+      "news": [
+        {
+          "headline": "Biogen: M&A Growth And Alzheimer's Progress Are Now Priced In (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=9242f1a7cb0e894232f7888cf2e0bbb31d864d22fa96029859f86bc4dcb83ecf",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T14:46:01Z",
+          "primary": false,
+          "symbol": "BIIB"
+        },
+        {
+          "headline": "Should Biogen Stock Holders Look At Amgen Instead?",
+          "url": "https://finnhub.io/api/news?id=ed494b7858dafa5485ab5d9561bf8a6cce20d3df43128501617a00efa63da5b1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:30:44Z",
+          "primary": false,
+          "symbol": "BIIB"
+        },
+        {
+          "headline": "Biogen reports two-year Phase II data for diranersen in Alzheimer’s",
+          "url": "https://finnhub.io/api/news?id=9c9c0e77735192dd1a869653c05a6059e2592843475e4e3f20b0b1ee85ef93f5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:59:10Z",
+          "primary": false,
+          "symbol": "BIIB"
+        },
+        {
+          "headline": "What Could Biogen (BIIB) Gain From Its New Protein Degrader Research Deal?",
+          "url": "https://finnhub.io/api/news?id=618f4a176fe0cc2d878a7052262ff31f8beb508209ecb4c280efa6cf65316d67",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T03:29:56Z",
+          "primary": false,
+          "symbol": "BIIB"
+        },
+        {
+          "headline": "Biogen (BIIB) Posts Positive Two Year Diranersen Results And Five Year Lecanemab Data",
+          "url": "https://finnhub.io/api/news?id=ddf5884ed970e272cf50796266f085450f7a6796a490609701f955426cdf895f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:16:04Z",
+          "primary": false,
+          "symbol": "BIIB"
+        }
+      ]
     }
   },
-  "cursor": 104,
-  "updated_at": "2026-11-20T09:12:51Z"
+  "cursor": 116,
+  "updated_at": "2026-11-20T10:16:19Z"
 }
