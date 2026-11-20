@@ -4809,8 +4809,750 @@
           "symbol": "WFC"
         }
       ]
+    },
+    "BMY": {
+      "metrics": {
+        "52WeekHigh": 68.64,
+        "52WeekLow": 45.27,
+        "peTTM": 12.8308,
+        "psTTM": 2.3706,
+        "netProfitMarginTTM": 18.48,
+        "roeTTM": 43.88,
+        "revenueGrowthTTMYoy": 4.16,
+        "epsGrowthTTMYoy": 52.39,
+        "currentRatioQuarterly": 1.5873,
+        "totalDebt/totalEquityQuarterly": 1.832,
+        "marketCapitalization": 118608.086
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Bristol-Myers Squibb Company",
+      "profile": {
+        "weburl": "https://www.bms.com",
+        "industry": "Pharmaceuticals",
+        "name": "Bristol-Myers Squibb Company"
+      },
+      "news": [
+        {
+          "headline": "Is Bristol-Myers Squibb (BMY) Fully Valued Following Its Hematology Data Update?",
+          "url": "https://finnhub.io/api/news?id=a6569b045ba1c2186a0a04eda6434ceb2f60a3e1fde7ddb543142441047ecc28",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:11:09Z",
+          "primary": false,
+          "symbol": "BMY"
+        },
+        {
+          "headline": "Which Dates Could Move Bristol Myers Squibb Stock Most?",
+          "url": "https://finnhub.io/api/news?id=adb0e9141f536effdd12b620e75f1d3c2dd010ab089e9b0720a82567d4a3504d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:08:04Z",
+          "primary": false,
+          "symbol": "BMY"
+        },
+        {
+          "headline": "Bristol Myers Squibb Demonstrates Breadth and Clinical Momentum Across Blood Cancers and Rare Hematologic Disorders at ASH 2026",
+          "url": "https://finnhub.io/api/news?id=2d2b2afa524749b2257dbdedcede0b4767d0d4cb6768a935aaf36df8ebc1ac25",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:59:00Z",
+          "primary": false,
+          "symbol": "BMY"
+        },
+        {
+          "headline": "Bristol-Myers Squibb (NYSE:BMY): Dividend Quality Screen Highlights Income Case and Sustainability Risk",
+          "url": "https://finnhub.io/api/news?id=75ddbc2f22fc8d1da4723c554e03cd0cb8fe9fd271ed01fbc3330c22172b469b",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T10:11:07Z",
+          "primary": false,
+          "symbol": "BMY"
+        },
+        {
+          "headline": "Evotec shares rise after second IND acceptance with Bristol Myers",
+          "url": "https://finnhub.io/api/news?id=b4b9af59e1c2af99cfe870464e7176f7e7f801cbca04b859e0243f9d02a3aeee",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:10:58Z",
+          "primary": false,
+          "symbol": "BMY"
+        }
+      ]
+    },
+    "NOC": {
+      "metrics": {
+        "52WeekHigh": 774.0,
+        "52WeekLow": 470.06,
+        "peTTM": 17.0663,
+        "psTTM": 1.7696,
+        "netProfitMarginTTM": 10.37,
+        "roeTTM": 25.7,
+        "revenueGrowthTTMYoy": 6.51,
+        "epsGrowthTTMYoy": 14.01,
+        "currentRatioQuarterly": 1.2344,
+        "totalDebt/totalEquityQuarterly": 0.8134,
+        "marketCapitalization": 77139.59
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Northrop Grumman Corp",
+      "profile": {
+        "weburl": "https://www.northropgrumman.com",
+        "industry": "Aerospace & Defense",
+        "name": "Northrop Grumman Corp"
+      },
+      "news": [
+        {
+          "headline": "Northrop Grumman (NOC) Up 0.7% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=5058c8a11566fb3b6f9c0291719a7b7afac331834168100e99426755d54a3ede",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:06Z",
+          "primary": false,
+          "symbol": "NOC"
+        },
+        {
+          "headline": "Northrop Grumman Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=58cbc34501642e5b5f2ed33bca58ba1dbf570f3418b67fa6238e2ffcb2701ca7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:40:03Z",
+          "primary": false,
+          "symbol": "NOC"
+        },
+        {
+          "headline": "Northrop Grumman Corporation (NOC) a Top Drone Stock According to Analysts",
+          "url": "https://finnhub.io/api/news?id=4b2cd26071cf6cd305ee53e7828f98d0d0f9f94e2751de5ec199fa52721915ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T23:37:00Z",
+          "primary": false,
+          "symbol": "NOC"
+        },
+        {
+          "headline": "Northrop Grumman Board Declares Quarterly Dividend",
+          "url": "https://finnhub.io/api/news?id=bca117c6760f8739b2576070ddf9459849c69951f5af3cf0cb8711e2f1cb8938",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T22:40:00Z",
+          "primary": false,
+          "symbol": "NOC"
+        },
+        {
+          "headline": "Northrop Grumman: A 29% Selloff Is Not Enough",
+          "url": "https://finnhub.io/api/news?id=3d6ed4c64192ef3b9d5318547ad8038d5896af0c55710af2d351315e8e2ae110",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T03:45:21Z",
+          "primary": false,
+          "symbol": "NOC"
+        }
+      ]
+    },
+    "VLO": {
+      "metrics": {
+        "52WeekHigh": 461.5198,
+        "52WeekLow": 159.9,
+        "peTTM": 7.1431,
+        "psTTM": 0.6031,
+        "netProfitMarginTTM": 8.44,
+        "roeTTM": 51.49,
+        "revenueGrowthTTMYoy": 24.58,
+        "epsGrowthTTMYoy": 823.9,
+        "currentRatioQuarterly": 1.7238,
+        "totalDebt/totalEquityQuarterly": 0.3933,
+        "marketCapitalization": 92466.89
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Valero Energy Corp",
+      "profile": {
+        "weburl": "https://www.valero.com/",
+        "industry": "Energy",
+        "name": "Valero Energy Corp"
+      },
+      "news": [
+        {
+          "headline": "Valero's Crude Flexibility & Gulf Coast Network Boost Prospects",
+          "url": "https://finnhub.io/api/news?id=51a0e9b1fa94873d5f2a2da2499405e315759b33128802d8b9890e993abcf28c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:19:00Z",
+          "primary": false,
+          "symbol": "VLO"
+        },
+        {
+          "headline": "Here is What to Know Beyond Why Valero Energy Corporation (VLO) is a Trending Stock",
+          "url": "https://finnhub.io/api/news?id=767bfe98073aed6103f21ad008e3e8a3fa69ab350a59cfd90cda0c4207a955e4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:03Z",
+          "primary": false,
+          "symbol": "VLO"
+        },
+        {
+          "headline": "Valero Energy vs. Phillips 66: Which is the Stronger Refining Player?",
+          "url": "https://finnhub.io/api/news?id=969a673baaf84bde363973cbce046c2c604c79c29500ca917da58a1971cda35e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:51:00Z",
+          "primary": false,
+          "symbol": "VLO"
+        },
+        {
+          "headline": "What Sent Valero Energy Stock Lower?",
+          "url": "https://finnhub.io/api/news?id=d00d0f5e5420cfa48a2be02989ef1a7a3385f4077b68e990ee24f28a35be2298",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:41:40Z",
+          "primary": false,
+          "symbol": "VLO"
+        },
+        {
+          "headline": "Phillips 66 and Valero Are Turning Strong Refining Margins Into Bigger Dividends",
+          "url": "https://finnhub.io/api/news?id=9ea2d243f6cc8a38b1fb160a1c8b62b6ebff4096f3511f56c89c0731d79c2f09",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:17:46Z",
+          "primary": false,
+          "symbol": "VLO"
+        }
+      ]
+    },
+    "WELL": {
+      "metrics": {
+        "52WeekHigh": 255.2,
+        "52WeekLow": 181.47,
+        "peTTM": 106.3176,
+        "psTTM": 12.8468,
+        "netProfitMarginTTM": 12.08,
+        "roeTTM": 3.6799999999999997,
+        "revenueGrowthTTMYoy": 39.22,
+        "epsGrowthTTMYoy": 57.21,
+        "currentRatioQuarterly": 1.1404,
+        "totalDebt/totalEquityQuarterly": 0.3951,
+        "marketCapitalization": 177199.75
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Welltower Inc.",
+      "profile": {
+        "weburl": "https://welltower.com/",
+        "industry": "Real Estate",
+        "name": "Welltower Inc."
+      },
+      "news": [
+        {
+          "headline": "Welltower (NYSE:WELL) Passes Minervini Trend Template and High Growth Momentum Screen",
+          "url": "https://finnhub.io/api/news?id=f76c6bee8ccaadb804bff9e043de4527aaa2d7c966c7b384312c0c8493c0b5f6",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T10:21:39Z",
+          "primary": false,
+          "symbol": "WELL"
+        },
+        {
+          "headline": "Welltower and Ventas Are Riding the Same Senior Housing Boom, but Their Valuations Tell Different Stories",
+          "url": "https://finnhub.io/api/news?id=457003d424afd0bffed121e487c73063436816cb0edcb4f3b281d3f1b7f0c31f",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:47:14Z",
+          "primary": false,
+          "symbol": "WELL"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Welltower 5 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=b25ad3def762df5f411140ed006c50e38801960442a7bd6b561817626c55908d",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T11:45:16Z",
+          "primary": false,
+          "symbol": "WELL"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Welltower, Raises Price Target to $270",
+          "url": "https://finnhub.io/api/news?id=c4472ba48c35ad21a6358a609cfed350667ffa80dd3bbb19a98651305c249ce1",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T14:00:38Z",
+          "primary": false,
+          "symbol": "WELL"
+        },
+        {
+          "headline": "Wells Fargo Maintains Overweight on Welltower, Raises Price Target to $283",
+          "url": "https://finnhub.io/api/news?id=a5c5f3142b59b2fd0d146332d778594b9396a9b3927ec0235c1d0e808df0357d",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T10:29:15Z",
+          "primary": false,
+          "symbol": "WELL"
+        }
+      ]
+    },
+    "TCOM": {
+      "metrics": {
+        "52WeekHigh": 613.0,
+        "52WeekLow": 294.6,
+        "peTTM": 7.7612,
+        "psTTM": 2.8643,
+        "netProfitMarginTTM": 36.9,
+        "roeTTM": 14.6,
+        "revenueGrowthTTMYoy": 14.52,
+        "epsGrowthTTMYoy": 32.5,
+        "currentRatioQuarterly": 1.3268,
+        "totalDebt/totalEquityQuarterly": 0.1658,
+        "marketCapitalization": 221118.23
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Trip.com Group Ltd",
+      "profile": {
+        "weburl": "https://group.trip.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Trip.com Group Ltd"
+      },
+      "news": [
+        {
+          "headline": "Trip.com (TCOM) Stock Moves -1.84%: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=26434e685f3d0f9cc44e989d07be66bada0513a4e7856cb31c78d581df1af979",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:00:02Z",
+          "primary": false,
+          "symbol": "TCOM"
+        },
+        {
+          "headline": "Brokers Suggest Investing in Trip.com (TCOM): Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=e24161849a345aa3d7598801ac6b1aedd083d13568f8e855b63842cce7f69508",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:30:02Z",
+          "primary": false,
+          "symbol": "TCOM"
+        },
+        {
+          "headline": "Trip.com Group Limited to Report Third Quarter of 2026 Financial Results on December 1, 2026 U.S. Time",
+          "url": "https://finnhub.io/api/news?id=713d72343dd4f73d91be8ecec7f357d77a92038abec741ebc97cda6c15247dfc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:00:00Z",
+          "primary": false,
+          "symbol": "TCOM"
+        },
+        {
+          "headline": "Wall Street Analysts See a 39.76% Upside in Trip.com (TCOM): Can the Stock Really Move This High?",
+          "url": "https://finnhub.io/api/news?id=b4ea28267537e4864328cfe68d590bc71797e7ab763dbce6adb44e656768dbe9",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:55:02Z",
+          "primary": false,
+          "symbol": "TCOM"
+        }
+      ]
+    },
+    "DLTR": {
+      "metrics": {
+        "52WeekHigh": 148.535,
+        "52WeekLow": 85.88,
+        "peTTM": 16.5743,
+        "psTTM": 1.3317,
+        "netProfitMarginTTM": 8.03,
+        "roeTTM": 45.58,
+        "revenueGrowthTTMYoy": 48.09,
+        "currentRatioQuarterly": 1.1337,
+        "totalDebt/totalEquityQuarterly": 0.8564,
+        "marketCapitalization": 26726.06
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Dollar Tree Inc",
+      "profile": {
+        "weburl": "https://www.dollartree.com/",
+        "industry": "Retail",
+        "name": "Dollar Tree Inc"
+      },
+      "news": [
+        {
+          "headline": "Warren Buffett Stopped Giving Bill Gates’s Foundation Berkshire Shares. It Just Sold $1 Billion More and Bought a Dollar Store. Here’s When the Rest Runs Out",
+          "url": "https://finnhub.io/api/news?id=0cea0d09c4213dbd13ec2eacfd21780eff9385bf0c44f8f4bcca265ff9659781",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:43:03Z",
+          "primary": false,
+          "symbol": "DLTR"
+        },
+        {
+          "headline": "Dollar Tree Gears Up for Q3 Earnings: Can It Top Expectations?",
+          "url": "https://finnhub.io/api/news?id=dbfe3a44ecf03fed28b8e97d01d9268c77dd3fb0d2e4c1fc6b6304d7ba3419f3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:40:00Z",
+          "primary": false,
+          "symbol": "DLTR"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Dollar Tree Stock?",
+          "url": "https://finnhub.io/api/news?id=416d7a5180e9cb9a3e4beeefb1a3a00014a73b187fb432c03a268c775ad8ee82",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:49:09Z",
+          "primary": false,
+          "symbol": "DLTR"
+        },
+        {
+          "headline": "Dollar Tree (DLTR) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+          "url": "https://finnhub.io/api/news?id=5b2779ad4c9eb6b7222f069bac8fd2dee1c1c02d6bc538b08f4f5f071f655631",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:15:03Z",
+          "primary": false,
+          "symbol": "DLTR"
+        },
+        {
+          "headline": "Bill Gates’ Foundation Keeps Cutting Warren Buffett's Berkshire Hathaway Stake, Adds 1.36 Million Dollar Tree Shares In Q3",
+          "url": "https://finnhub.io/api/news?id=1f3381a78ec99d95821222745c616b90863075c72286ef5db21549c54706de8b",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T04:54:39Z",
+          "primary": false,
+          "symbol": "DLTR"
+        }
+      ]
+    },
+    "C": {
+      "metrics": {
+        "52WeekHigh": 147.96,
+        "52WeekLow": 95.83,
+        "peTTM": 9.9199,
+        "psTTM": 1.09533,
+        "netProfitMarginTTM": 17.3666,
+        "roeTTM": 9.15,
+        "revenueGrowthTTMYoy": 99.23775,
+        "epsGrowthTTMYoy": 42.89,
+        "totalDebt/totalEquityQuarterly": 3.9037,
+        "marketCapitalization": 191771.98
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Citigroup Inc.",
+      "profile": {
+        "weburl": "http://www.citigroup.com/",
+        "industry": "Banking",
+        "name": "Citigroup Inc."
+      },
+      "news": [
+        {
+          "headline": "Citigroup Series II Preferreds: Decent Yield At A Discounted Price",
+          "url": "https://finnhub.io/api/news?id=5396d9dd25eddb483977df0f6e0f2e241a2afb01eafa15e9116d8703b34d2fbf",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T02:22:01Z",
+          "primary": false,
+          "symbol": "C"
+        },
+        {
+          "headline": "Citigroup (C) Stock Moves -1.76%: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=e724e8794591f982e79291e7a3c910e0d72d0a12229cfafde2db7524b09ac589",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:45:02Z",
+          "primary": false,
+          "symbol": "C"
+        },
+        {
+          "headline": "Citigroup Targets $5T in Client Wealth: Can Organic Growth Pay Off?",
+          "url": "https://finnhub.io/api/news?id=52a1ade6596202947ef8c3a1f2fdcf8f971cc27ffe89bdef476681ba9c887849",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:08:00Z",
+          "primary": false,
+          "symbol": "C"
+        },
+        {
+          "headline": "Citigroup: The Turnaround Story Isn't Over",
+          "url": "https://finnhub.io/api/news?id=86e679108a581320bbaab5ad9e40d668afe0fb7855426c9989e330bc22f16e10",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T14:33:14Z",
+          "primary": false,
+          "symbol": "C"
+        },
+        {
+          "headline": "Citigroup: The Turnaround Has Earned Its Premium",
+          "url": "https://finnhub.io/api/news?id=f609607fb65e09b03b635872f275e976d05a588119f0e808f583d7c6d236c3ab",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T06:45:00Z",
+          "primary": false,
+          "symbol": "C"
+        }
+      ]
+    },
+    "AMGN": {
+      "metrics": {
+        "52WeekHigh": 483.99,
+        "52WeekLow": 312.39,
+        "peTTM": 25.5676,
+        "psTTM": 6.1719,
+        "netProfitMarginTTM": 24.14,
+        "roeTTM": 85.59,
+        "revenueGrowthTTMYoy": 8.15,
+        "epsGrowthTTMYoy": 33.3,
+        "currentRatioQuarterly": 1.4792,
+        "totalDebt/totalEquityQuarterly": 3.763,
+        "marketCapitalization": 240105.22
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Amgen Inc",
+      "profile": {
+        "weburl": "https://www.amgen.com/",
+        "industry": "Biotechnology",
+        "name": "Amgen Inc"
+      },
+      "news": [
+        {
+          "headline": "Viridian Therapeutics' Lumvoa Emerging as Rival to Amgen's Tepezza, BofA Securities Says",
+          "url": "https://finnhub.io/api/news?id=3d315990262f036f3536c99ce9f2c9adef6f79911c090d5522b1150b11fc9b84",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:02:12Z",
+          "primary": false,
+          "symbol": "AMGN"
+        },
+        {
+          "headline": "Amgen (AMGN) Has Advanced MariTide Into Phase 3 Trials",
+          "url": "https://finnhub.io/api/news?id=8f0b1b2ee5d53fa92ebdbb4e24761f969a9302a1a5d0662fff723046521d3d0b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:19:53Z",
+          "primary": false,
+          "symbol": "AMGN"
+        },
+        {
+          "headline": "Should Biogen Stock Holders Look At Amgen Instead?",
+          "url": "https://finnhub.io/api/news?id=ed494b7858dafa5485ab5d9561bf8a6cce20d3df43128501617a00efa63da5b1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:30:44Z",
+          "primary": false,
+          "symbol": "AMGN"
+        },
+        {
+          "headline": "Biotechnology Market Companies 2027 Analysis: Amgen, Gilead, Regeneron, Vertex and Moderna Post Strong 2026 Results as Billion-Dollar Deals Reshape a Market Headed for USD 6.34 Trillion by 2035",
+          "url": "https://finnhub.io/api/news?id=7cc14baa024674eab6a4db0c98f5ac483e587145f710fd118d4c0982e814d166",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:00:00Z",
+          "primary": false,
+          "symbol": "AMGN"
+        },
+        {
+          "headline": "Amgen (AMGN) Just Gave Investors Something To Think About",
+          "url": "https://finnhub.io/api/news?id=681c38c8cca3d71e2036ab9eef2fac1c857ea37eb9cee2923a7630bbbf416479",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:12:32Z",
+          "primary": false,
+          "symbol": "AMGN"
+        }
+      ]
+    },
+    "GD": {
+      "metrics": {
+        "52WeekHigh": 400.0,
+        "52WeekLow": 306.77,
+        "peTTM": 20.2531,
+        "psTTM": 1.6688,
+        "netProfitMarginTTM": 8.24,
+        "roeTTM": 17.599999999999998,
+        "revenueGrowthTTMYoy": 9.73,
+        "epsGrowthTTMYoy": 10.22,
+        "currentRatioQuarterly": 1.4274,
+        "totalDebt/totalEquityQuarterly": 0.2571,
+        "marketCapitalization": 94318.89
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "General Dynamics Corp",
+      "profile": {
+        "weburl": "https://www.gd.com",
+        "industry": "Aerospace & Defense",
+        "name": "General Dynamics Corp"
+      },
+      "news": [
+        {
+          "headline": "General Dynamics Wins $332.5M Army Contract",
+          "url": "https://finnhub.io/api/news?id=b3fc4a238b325714e9dba88a717ea033d8feedac694582bc2753d89b9c1a9bad",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T18:43:05Z",
+          "primary": false,
+          "symbol": "GD"
+        },
+        {
+          "headline": "Which ETFs Give You General Dynamics Without Going All In?",
+          "url": "https://finnhub.io/api/news?id=d7402e81821e4b59ebad0e7723079b0144d234c8853adaeb26ce732470c50672",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:13:06Z",
+          "primary": false,
+          "symbol": "GD"
+        },
+        {
+          "headline": "Zacks.com featured highlights include Super Micro Computer, General Dynamics and Consolidated Edison",
+          "url": "https://finnhub.io/api/news?id=86999e51d98b897aae611b711a48ef6af039b1542dd4a8fefaa426160f0cc29c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T09:47:00Z",
+          "primary": false,
+          "symbol": "GD"
+        },
+        {
+          "headline": "General Dynamics (GD) Could Be 4% Undervalued Following Its Submarine Backlog Story",
+          "url": "https://finnhub.io/api/news?id=e6697183a7b93fa535e7a56b38bb7cab781e93dcfe4485da6a8469e19e3cb1f6",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T06:16:32Z",
+          "primary": false,
+          "symbol": "GD"
+        },
+        {
+          "headline": "Can General Dynamics (GD) Stock Stay Below Fair Value After New Navy Work?",
+          "url": "https://finnhub.io/api/news?id=022700f3da1179420d8532067ce2d45d616f81b68f4318dd73888b4e7ad7338d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:11:35Z",
+          "primary": false,
+          "symbol": "GD"
+        }
+      ]
+    },
+    "PSX": {
+      "metrics": {
+        "52WeekHigh": 299.39,
+        "52WeekLow": 127.16,
+        "peTTM": 7.5939,
+        "psTTM": 0.5678,
+        "netProfitMarginTTM": 7.48,
+        "roeTTM": 40.75,
+        "revenueGrowthTTMYoy": 27.46,
+        "epsGrowthTTMYoy": 748.57,
+        "currentRatioQuarterly": 1.344,
+        "totalDebt/totalEquityQuarterly": 0.5397,
+        "marketCapitalization": 95501.42
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Phillips 66",
+      "profile": {
+        "weburl": "https://www.phillips66.com/",
+        "industry": "Energy",
+        "name": "Phillips 66"
+      },
+      "news": [
+        {
+          "headline": "Phillips 66 Expands Arkestro's Predictive Procurement Platform Across Enterprise",
+          "url": "https://finnhub.io/api/news?id=f774438e864e2f5e6e3ef88dae4a4a9e2370486b37d993ae4772850d45555f58",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:00:00Z",
+          "primary": false,
+          "symbol": "PSX"
+        },
+        {
+          "headline": "Valero Energy vs. Phillips 66: Which is the Stronger Refining Player?",
+          "url": "https://finnhub.io/api/news?id=969a673baaf84bde363973cbce046c2c604c79c29500ca917da58a1971cda35e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:51:00Z",
+          "primary": false,
+          "symbol": "PSX"
+        },
+        {
+          "headline": "Phillips 66 and Valero Are Turning Strong Refining Margins Into Bigger Dividends",
+          "url": "https://finnhub.io/api/news?id=9ea2d243f6cc8a38b1fb160a1c8b62b6ebff4096f3511f56c89c0731d79c2f09",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:17:46Z",
+          "primary": false,
+          "symbol": "PSX"
+        },
+        {
+          "headline": "Phillips 66: Priced For A War Premium The Futures Say Won't Last",
+          "url": "https://finnhub.io/api/news?id=f51e7e610fb6720ad22743aee176398d26298b3777488d1ea03fff661edaecfa",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T10:06:35Z",
+          "primary": false,
+          "symbol": "PSX"
+        },
+        {
+          "headline": "Phillips 66 Named Official Fuel Partner of the LA28 Olympic and Paralympic Games and Team USA",
+          "url": "https://finnhub.io/api/news?id=9c281291b65d508627be07f28644629150ec572527ecbbfc72e74596f8fe939f",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T18:00:00Z",
+          "primary": false,
+          "symbol": "PSX"
+        }
+      ]
+    },
+    "VTR": {
+      "metrics": {
+        "52WeekHigh": 101.6,
+        "52WeekLow": 73.82,
+        "peTTM": 173.7183,
+        "psTTM": 6.7103,
+        "netProfitMarginTTM": 3.86,
+        "roeTTM": 1.81,
+        "revenueGrowthTTMYoy": 22.13,
+        "epsGrowthTTMYoy": -0.13,
+        "currentRatioQuarterly": 0.1427,
+        "totalDebt/totalEquityQuarterly": 0.763,
+        "marketCapitalization": 45525.305
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Ventas, Inc.",
+      "profile": {
+        "weburl": "https://www.ventasreit.com/",
+        "industry": "Real Estate",
+        "name": "Ventas, Inc."
+      },
+      "news": [
+        {
+          "headline": "Welltower and Ventas Are Riding the Same Senior Housing Boom, but Their Valuations Tell Different Stories",
+          "url": "https://finnhub.io/api/news?id=457003d424afd0bffed121e487c73063436816cb0edcb4f3b281d3f1b7f0c31f",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:47:14Z",
+          "primary": false,
+          "symbol": "VTR"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Ventas, Lowers Price Target to $101",
+          "url": "https://finnhub.io/api/news?id=99ae8f12aacf49c2afa543dbe69820db63488af7070e01139c3d1551aecb162d",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T13:59:21Z",
+          "primary": false,
+          "symbol": "VTR"
+        },
+        {
+          "headline": "Wells Fargo Maintains Overweight on Ventas, Raises Price Target to $102",
+          "url": "https://finnhub.io/api/news?id=a8eee84f112465f2e0d3088236c10077736fd359a80fe1043b0a80c177c13e82",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T10:28:00Z",
+          "primary": false,
+          "symbol": "VTR"
+        }
+      ]
+    },
+    "NVO": {
+      "metrics": {
+        "52WeekHigh": 409.95,
+        "52WeekLow": 224.25,
+        "peTTM": 10.3338,
+        "psTTM": 3.6527,
+        "netProfitMarginTTM": 35.35,
+        "roeTTM": 59.089999999999996,
+        "revenueGrowthTTMYoy": 5.61,
+        "epsGrowthTTMYoy": 4.93,
+        "currentRatioQuarterly": 0.8729,
+        "totalDebt/totalEquityQuarterly": 0.6333,
+        "marketCapitalization": 1203297.5
+      },
+      "updated_at": "2026-11-20T08:06:57Z",
+      "name": "Novo Nordisk A/S",
+      "profile": {
+        "weburl": "https://www.novonordisk.com/",
+        "industry": "Pharmaceuticals",
+        "name": "Novo Nordisk A/S"
+      },
+      "news": [
+        {
+          "headline": "Novo Nordisk: A Return To Growth May Be Just Around The Corner",
+          "url": "https://finnhub.io/api/news?id=7fa6a8b70cdd3b3543d3e6aff0cf5d9ea78eb09c276c085ffda63679cb2d6736",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T18:41:34Z",
+          "primary": false,
+          "symbol": "NVO"
+        },
+        {
+          "headline": "Novo Nordisk: The Worst May Be Behind",
+          "url": "https://finnhub.io/api/news?id=49a6b9642a8bc3e1d5a72953643e1818c3f6df6d75a58a17c79b668b5260ba8e",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T11:57:59Z",
+          "primary": false,
+          "symbol": "NVO"
+        },
+        {
+          "headline": "nference and Novo partner to advance understanding of cardiometabolic disease and healthy ageing",
+          "url": "https://finnhub.io/api/news?id=860c11a6fca3c0f15b18d7e968beffddfc9039405fb72bd12776b22f5798be1f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:30:00Z",
+          "primary": false,
+          "symbol": "NVO"
+        },
+        {
+          "headline": "Novo Nordisk (NVO) Stock May Be Undervalued On Raised 2026 Outlook",
+          "url": "https://finnhub.io/api/news?id=2e5ef560e2a92e63fe83a9894f5ed9377ed3876fb49aa1a7d38c8bbf3fd9a8ff",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T06:17:27Z",
+          "primary": false,
+          "symbol": "NVO"
+        },
+        {
+          "headline": "Novo Nordisk (NVO) Could Be 47% Below Fair Value Following Its AI Push",
+          "url": "https://finnhub.io/api/news?id=16839b226014151f679049119f8ca79d809de0ef2a4a984d6bc782c998ef6c7d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:12:52Z",
+          "primary": false,
+          "symbol": "NVO"
+        }
+      ]
     }
   },
-  "cursor": 80,
-  "updated_at": "2026-11-20T07:48:44Z"
+  "cursor": 92,
+  "updated_at": "2026-11-20T08:06:57Z"
 }
