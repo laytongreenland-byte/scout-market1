@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T05:40:15Z",
-  "status": "partial",
+  "generated_at": "2026-11-20T05:42:10Z",
+  "status": "ok",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T05:40:15Z",
+      "checked_at": "2026-11-20T05:42:10Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T05:40:15Z",
+      "checked_at": "2026-11-20T05:42:10Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
-      "ok": false,
-      "count": 0,
-      "checked_at": "2026-11-20T05:40:15Z",
-      "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
+      "ok": true,
+      "count": 9,
+      "checked_at": "2026-11-20T05:42:10Z",
+      "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T05:40:15Z",
+      "checked_at": "2026-11-20T05:42:10Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T05:40:15Z",
+      "checked_at": "2026-11-20T05:42:10Z",
       "error": ""
     }
   ],
@@ -574,6 +574,18 @@
   ],
   "events": [
     {
+      "id": "5f4e137f22b4738eed92",
+      "type": "SEC",
+      "ticker": "BRK.B",
+      "title": "BRK.B: 8-K filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526468549/d197844d8k.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-19T21:05:28Z",
+      "sentiment": "neutral",
+      "form": "8-K"
+    },
+    {
       "id": "741d13680a238206fde5",
       "type": "MACRO",
       "ticker": null,
@@ -583,6 +595,18 @@
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
+    },
+    {
+      "id": "9637e46ccca491413887",
+      "type": "SEC",
+      "ticker": "GOOGL",
+      "title": "GOOGL: 424B5 filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526467927/d115240d424b5.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-19T14:34:38Z",
+      "sentiment": "neutral",
+      "form": "424B5"
     },
     {
       "id": "8f401eee5aa7ed2f32d8",
@@ -1124,6 +1148,30 @@
       "sentiment": "neutral"
     },
     {
+      "id": "98beccfd5bc6e166b702",
+      "type": "SEC",
+      "ticker": "NVDA",
+      "title": "NVDA: 8-K filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-17T21:20:51Z",
+      "sentiment": "neutral",
+      "form": "8-K"
+    },
+    {
+      "id": "012c0d33b26da2939a7f",
+      "type": "SEC",
+      "ticker": "BRK.B",
+      "title": "BRK.B: 424B5 filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-17T16:32:44Z",
+      "sentiment": "neutral",
+      "form": "424B5"
+    },
+    {
       "id": "49f0b87ec44b426ef201",
       "type": "NZX",
       "ticker": null,
@@ -1157,6 +1205,18 @@
       "sentiment": "neutral"
     },
     {
+      "id": "79c4c601e0f4007ec571",
+      "type": "SEC",
+      "ticker": "META",
+      "title": "META: 8-K filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-12T21:27:49Z",
+      "sentiment": "neutral",
+      "form": "8-K"
+    },
+    {
       "id": "a8b13018d46d7c994018",
       "type": "MACRO",
       "ticker": null,
@@ -1188,10 +1248,34 @@
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
+    },
+    {
+      "id": "412f6f83fad97c1f82ff",
+      "type": "SEC",
+      "ticker": "NVDA",
+      "title": "NVDA: 8-K filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-12T13:52:41Z",
+      "sentiment": "neutral",
+      "form": "8-K"
+    },
+    {
+      "id": "be48ad764ebdea88cd34",
+      "type": "SEC",
+      "ticker": "COST",
+      "title": "COST: 8-K filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000134/cost-20261107.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-10T21:16:20Z",
+      "sentiment": "neutral",
+      "form": "8-K"
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T05:40:15Z",
+    "generated_at": "2026-11-20T05:42:10Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1274,7 +1358,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:40:15Z",
+            "timestamp": "2026-11-20T05:42:10Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1285,7 +1369,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:40:15Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
         "price": 257.37,
         "currency": "USD",
         "change_pct": -3.873,
@@ -1390,7 +1474,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:40:15Z",
+            "timestamp": "2026-11-20T05:42:10Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1401,7 +1485,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:40:15Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
         "price": 596.22,
         "currency": "USD",
         "change_pct": -3.271,
@@ -1796,7 +1880,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:40:15Z",
+            "timestamp": "2026-11-20T05:42:10Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1807,7 +1891,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:40:15Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
         "price": 272.66,
         "currency": "USD",
         "change_pct": -3.463,
@@ -2028,7 +2112,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:40:15Z",
+            "timestamp": "2026-11-20T05:42:10Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2039,7 +2123,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:40:15Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
         "price": 498.3,
         "currency": "USD",
         "change_pct": -1.965,
@@ -2086,7 +2170,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:40:15Z",
+            "timestamp": "2026-11-20T05:42:10Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2097,7 +2181,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:40:15Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
         "price": 145.98,
         "currency": "USD",
         "change_pct": -3.299,
