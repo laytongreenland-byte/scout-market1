@@ -60,13 +60,20 @@ const ScoutCompass=(()=>{
       const plan=choice.price_plan;
       const buyReady=plan.signal==='ENTRY CANDIDATE';
       const goodReasons=(choice.why||'').split(';').map(x=>x.trim()).filter(Boolean).slice(0,2);
+      const natural=x=>{
+        const text=x.replace(/\s*\(TTM\)/g,'').trim();
+        return text.replace(/^Net profit margin\s+/i,'a net profit margin of ')
+          .replace(/^Return on equity\s+/i,'a return on equity of ')
+          .replace(/^Trailing P\/E\s+/i,'a trailing P/E of ')
+          .replace(/^TTM revenue growth\s+/i,'revenue growth of ');
+      };
       const plainReasons=goodReasons.length>=2?
-        goodReasons[0].replace(/\s*\(TTM\)/g,'')+' and '+goodReasons[1].replace(/\s*\(TTM\)/g,''):
-        goodReasons[0]||'its financial results currently meet Scout’s quality screen';
+        natural(goodReasons[0])+' and '+natural(goodReasons[1]):
+        goodReasons.length?natural(goodReasons[0]):'its financial results currently meet Scout’s quality screen';
       el('compass-check').textContent=buyReady?'RESEARCH BUY CASE':'WAIT — NOT A BUY';
       el('compass-title').textContent=choice.symbol+(buyReady?' — worth considering at this price':' — I would wait for a better price');
       el('compass-explain').textContent=
-        'Because of '+plainReasons+', Scout finds the business interesting. '+
+        'Scout likes this business because of '+plainReasons+'. '+
         (buyReady?'The current quote meets its estimated entry limit.':'But its latest price is above the amount Scout would consider paying.');
       priceBox.hidden=false;
       el('scout-latest-price').textContent='USD '+nzd(choice.price);
