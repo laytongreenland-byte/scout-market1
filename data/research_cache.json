@@ -9883,8 +9883,719 @@
           "symbol": "PGR"
         }
       ]
+    },
+    "EW": {
+      "metrics": {
+        "52WeekHigh": 108.0,
+        "52WeekLow": 74.66,
+        "peTTM": 58.6598,
+        "psTTM": 8.9756,
+        "netProfitMarginTTM": 15.3,
+        "roeTTM": 9.69,
+        "revenueGrowthTTMYoy": 13.44,
+        "epsGrowthTTMYoy": -24.16,
+        "currentRatioQuarterly": 4.5966,
+        "totalDebt/totalEquityQuarterly": 0.0551,
+        "marketCapitalization": 59909.25
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Edwards Lifesciences Corporation",
+      "profile": {
+        "weburl": "https://www.edwards.com",
+        "industry": "Health Care",
+        "name": "Edwards Lifesciences Corporation"
+      },
+      "news": [
+        {
+          "headline": "Is Buying Edwards Stock At Its High A Bad Idea?",
+          "url": "https://finnhub.io/api/news?id=d4ae3c52ef1a61eb12153e38674498cba0d689ed98e38144672d04148899b886",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:40:35Z",
+          "primary": false,
+          "symbol": "EW"
+        },
+        {
+          "headline": "Edwards Lifesciences Corporation Enters into $750 million Amended and Restated Credit Agreement",
+          "url": "https://finnhub.io/api/news?id=b4ccf9605c003271b1b7d7e8fc78e2fbe0c73c2003a75c6d5cf52568754fbca0",
+          "source": "Fintel",
+          "published_at": "2026-11-19T23:30:52Z",
+          "primary": false,
+          "symbol": "EW"
+        },
+        {
+          "headline": "Edwards Lifesciences: Momentum Returns, But Valuation Warrants Caution",
+          "url": "https://finnhub.io/api/news?id=5d5efe5f0eaf48a5f1d9586887dd86d9c31d1b043528c5b23e9549beb6d0fc7a",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T10:00:10Z",
+          "primary": false,
+          "symbol": "EW"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting Edwards Lifesciences Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=008a9d593f5f6aafc11284075f1902ff3ecd94120fcf8d432289b5991d0e48b2",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T15:27:12Z",
+          "primary": false,
+          "symbol": "EW"
+        },
+        {
+          "headline": "$1000 Invested In Edwards Lifesciences 20 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=5286c3d4704455061d7a802659448bf33c3d695af86022232c6bbda90a8def8e",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T10:30:18Z",
+          "primary": false,
+          "symbol": "EW"
+        }
+      ]
+    },
+    "CTAS": {
+      "metrics": {
+        "52WeekHigh": 233.46,
+        "52WeekLow": 161.16,
+        "peTTM": 41.9575,
+        "psTTM": 7.4784,
+        "netProfitMarginTTM": 17.82,
+        "roeTTM": 42.08,
+        "revenueGrowthTTMYoy": 9.51,
+        "epsGrowthTTMYoy": 12.69,
+        "currentRatioQuarterly": 1.4537,
+        "totalDebt/totalEquityQuarterly": 0.4667,
+        "marketCapitalization": 86455.164
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Cintas Corporation",
+      "profile": {
+        "weburl": "https://www.cintas.com/",
+        "industry": "Commercial Services & Supplies",
+        "name": "Cintas Corporation"
+      },
+      "news": [
+        {
+          "headline": "How Has Cintas's Story Changed?",
+          "url": "https://finnhub.io/api/news?id=06da7693dbef9b700e5714ef412b0617778aead97f5593bbc3ef23da0be52348",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:18:32Z",
+          "primary": false,
+          "symbol": "CTAS"
+        },
+        {
+          "headline": "Cintas: What Happens If The UniFirst Deal Falls Through?",
+          "url": "https://finnhub.io/api/news?id=72d34adc7219c58ed4aa2dd7f97e58e575839c5ca6feb116e770a75d3fb8d8ba",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T08:45:00Z",
+          "primary": false,
+          "symbol": "CTAS"
+        },
+        {
+          "headline": "Actionable Now: Cintas Stock Makes Impressive Run After Earnings",
+          "url": "https://finnhub.io/api/news?id=00a65edef5e21ddf8192244214cfeb6723ce204761b8c203d5256a2b126e766d",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T16:56:48Z",
+          "primary": false,
+          "symbol": "CTAS"
+        }
+      ]
+    },
+    "EXC": {
+      "metrics": {
+        "52WeekHigh": 50.65,
+        "52WeekLow": 39.73,
+        "peTTM": 17.8577,
+        "psTTM": 1.8161,
+        "netProfitMarginTTM": 10.17,
+        "roeTTM": 8.95,
+        "revenueGrowthTTMYoy": 6.67,
+        "epsGrowthTTMYoy": -8.02,
+        "currentRatioQuarterly": 1.0307,
+        "totalDebt/totalEquityQuarterly": 1.7653,
+        "marketCapitalization": 47108.5
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Exelon Corp",
+      "profile": {
+        "weburl": "https://www.exeloncorp.com/",
+        "industry": "Utilities",
+        "name": "Exelon Corp"
+      },
+      "news": [
+        {
+          "headline": "$100,000 in Dominion Energy and Exelon Could Pay $3,846 a Year in Dividends",
+          "url": "https://finnhub.io/api/news?id=59d66eaca2f46f854b73065a98bec2db396734cbd490a73b8ad9862439a1e8bb",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:47:43Z",
+          "primary": false,
+          "symbol": "EXC"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains Outperform on Exelon, Lowers Price Target to $56",
+          "url": "https://finnhub.io/api/news?id=ab6e3a367f8feb36a7c8dfa8532db7b69bc992ede33febad2e176a6828ff95ab",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T09:22:33Z",
+          "primary": false,
+          "symbol": "EXC"
+        },
+        {
+          "headline": "Exelon (EXC) Study Warns Northern Illinois Could Face Nearly Double Severe Rainfall",
+          "url": "https://finnhub.io/api/news?id=c9d042f0c4f27a26423e99c0a845eb7a28c9f86436ec8cfb4b16ca94b34f504c",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T12:16:54Z",
+          "primary": false,
+          "symbol": "EXC"
+        }
+      ]
+    },
+    "INTU": {
+      "metrics": {
+        "52WeekHigh": 682.27,
+        "52WeekLow": 252.84,
+        "peTTM": 18.3331,
+        "psTTM": 3.9029,
+        "netProfitMarginTTM": 21.29,
+        "roeTTM": 23.419999999999998,
+        "revenueGrowthTTMYoy": 13.9,
+        "epsGrowthTTMYoy": 20.37,
+        "currentRatioQuarterly": 1.5065,
+        "totalDebt/totalEquityQuarterly": 0.4038,
+        "marketCapitalization": 83709.0
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Intuit Inc.",
+      "profile": {
+        "weburl": "https://www.intuit.com/",
+        "industry": "Technology",
+        "name": "Intuit Inc."
+      },
+      "news": [
+        {
+          "headline": "Intuit (INTU) Q1 2027 Earnings Call Transcript",
+          "url": "https://finnhub.io/api/news?id=2131579fa40b01acf2c830a99320b458a4be38eda1db3fbf6786d3dea8e5db00",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:34:08Z",
+          "primary": false,
+          "symbol": "INTU"
+        },
+        {
+          "headline": "Is the post earnings selloff in Intuit stock a buy after Mailchimp sale?",
+          "url": "https://finnhub.io/api/news?id=69e6c16059c3bda9542a58f5a1169734e81f3c49f56ed3b1e8911797599ec44f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:01:18Z",
+          "primary": false,
+          "symbol": "INTU"
+        },
+        {
+          "headline": "Intuit Q1 Earnings Call Highlights Credit Karma Drag & Mailchimp Sale",
+          "url": "https://finnhub.io/api/news?id=aad47ea398f261d6153fc2b673006feb23acd6a85bc2146996850dc3dcdf0a4b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:00:00Z",
+          "primary": false,
+          "symbol": "INTU"
+        },
+        {
+          "headline": "Anthropic, Nvidia, AMD, Intuit, Bloom Energy, and More Stocks That Explain Today’s Market",
+          "url": "https://finnhub.io/api/news?id=c5d06f600cd7ea1974612f75f43fe3b82649dfcda85aa0630ecc53b9250ba2b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:53:00Z",
+          "primary": false,
+          "symbol": "INTU"
+        },
+        {
+          "headline": "Intuit Plunged 53% Year-to-Date: This Wall Street Pro Says the Tax Software Titan Has Teeth, Predicting 60% Gains From Here",
+          "url": "https://finnhub.io/api/news?id=88f74ce0a837d92045df76015dda34cd5f57cb9393a024788a7ded84604a53cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:45:10Z",
+          "primary": false,
+          "symbol": "INTU"
+        }
+      ]
+    },
+    "MNST": {
+      "metrics": {
+        "52WeekHigh": 50.17,
+        "52WeekLow": 35.43,
+        "peTTM": 40.4817,
+        "psTTM": 9.1719,
+        "netProfitMarginTTM": 22.66,
+        "roeTTM": 24.01,
+        "revenueGrowthTTMYoy": 20.18,
+        "epsGrowthTTMYoy": 25.06,
+        "currentRatioQuarterly": 3.8152,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 87911.86
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Monster Beverage Corporation",
+      "profile": {
+        "weburl": "https://monsterbevcorp.com/",
+        "industry": "Beverages",
+        "name": "Monster Beverage Corporation"
+      },
+      "news": [
+        {
+          "headline": "Monster Beverage vs. Starbucks: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=dbcbde904a1d724d71204cd23d45196c38ad373f7bd2cce52c92c08eee719ce9",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:05:02Z",
+          "primary": false,
+          "symbol": "MNST"
+        },
+        {
+          "headline": "Coca-Cola vs. Monster Beverage: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=0bf30477c1912bd764baacd7bfd8162a690c27e6d84c94cbacf00d2c22e2276a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:05:02Z",
+          "primary": false,
+          "symbol": "MNST"
+        },
+        {
+          "headline": "Wolfe Research Initiates Coverage On Monster Beverage with Outperform Rating",
+          "url": "https://finnhub.io/api/news?id=14e1692f873cc5ba60d5f8f14f709648e92b1ad040074c4761248be238f96948",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T06:22:42Z",
+          "primary": false,
+          "symbol": "MNST"
+        },
+        {
+          "headline": "Following Earnings, Is Monster Beverage (MNST) A Bargain Or Already Fully Priced?",
+          "url": "https://finnhub.io/api/news?id=7aa9711110f2734d449cb05db7a4abd182515e53f579f21fc96a95788e562b60",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T06:15:55Z",
+          "primary": false,
+          "symbol": "MNST"
+        },
+        {
+          "headline": "Monster Beverage (MNST) Took A $19.9 Million Property Impairment In The Third Quarter",
+          "url": "https://finnhub.io/api/news?id=220be6dae631a951a469cf5cec694796d9b4b15bca6e979f7abbbc14d26fadab",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:11:58Z",
+          "primary": false,
+          "symbol": "MNST"
+        }
+      ]
+    },
+    "TRV": {
+      "metrics": {
+        "52WeekHigh": 418.0,
+        "52WeekLow": 268.0,
+        "peTTM": 9.8195,
+        "psTTM": 1.672,
+        "netProfitMarginTTM": 17.03,
+        "roeTTM": 26.240000000000002,
+        "revenueGrowthTTMYoy": 1.08,
+        "epsGrowthTTMYoy": 49.97,
+        "currentRatioQuarterly": 1.0,
+        "totalDebt/totalEquityQuarterly": 0.3384,
+        "marketCapitalization": 81816.07
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "The Travelers Companies, Inc.",
+      "profile": {
+        "weburl": "https://www.travelers.com/",
+        "industry": "Insurance",
+        "name": "The Travelers Companies, Inc."
+      },
+      "news": [
+        {
+          "headline": "27 ETFs Add to Travelers (TRV) Holdings on Wednesday",
+          "url": "https://finnhub.io/api/news?id=d02dbcb56842109a938c1922fa913d9eee111647543ad300922f769cd7317a72",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:01:50Z",
+          "primary": false,
+          "symbol": "TRV"
+        },
+        {
+          "headline": "Mizuho Maintains Neutral on Travelers Companies, Raises Price Target to $373",
+          "url": "https://finnhub.io/api/news?id=8ce983120c6bd9950d8571101e180c9877123dbb0fd707430f5602c20c787b13",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:20:30Z",
+          "primary": false,
+          "symbol": "TRV"
+        },
+        {
+          "headline": "Travelers Has Surged 40% in 2026. Chubb Offers Retirees a Different Dividend Opportunity",
+          "url": "https://finnhub.io/api/news?id=9f9a0368a91e1cdc5553ee9404cb1be1d3a73ee70f970731b6ba283fd2879b4b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:17:53Z",
+          "primary": false,
+          "symbol": "TRV"
+        },
+        {
+          "headline": "Berkshire vs. Travelers: Which Insurance Stock Has More Upside?",
+          "url": "https://finnhub.io/api/news?id=1456dcde1dafe5e5d69b144a54e4a19acbf134d2e1cc713bda63034d2fb043ba",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T17:22:00Z",
+          "primary": false,
+          "symbol": "TRV"
+        },
+        {
+          "headline": "S&P 500 Premarket Movers: Travelers, Palo Alto Networks Gain; Cisco, AMD Fall",
+          "url": "https://finnhub.io/api/news?id=09203bb194b481564c1c98458464545d818ab702b1d01de2b36ef8ddc668627f",
+          "source": "ChartMill",
+          "published_at": "2026-11-13T13:36:22Z",
+          "primary": false,
+          "symbol": "TRV"
+        }
+      ]
+    },
+    "IDXX": {
+      "metrics": {
+        "52WeekHigh": 769.98,
+        "52WeekLow": 500.61,
+        "peTTM": 46.1258,
+        "psTTM": 11.696,
+        "netProfitMarginTTM": 25.36,
+        "roeTTM": 71.17999999999999,
+        "revenueGrowthTTMYoy": 11.87,
+        "epsGrowthTTMYoy": 17.61,
+        "currentRatioQuarterly": 1.1865,
+        "totalDebt/totalEquityQuarterly": 0.4541,
+        "marketCapitalization": 54529.547
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "IDEXX Laboratories, Inc.",
+      "profile": {
+        "weburl": "https://ir.idexx.com",
+        "industry": "Health Care",
+        "name": "IDEXX Laboratories, Inc."
+      },
+      "news": [
+        {
+          "headline": "Is IDEXX Laboratories (IDXX) Cheap Or Fully Valued On Its Recent Rebound?",
+          "url": "https://finnhub.io/api/news?id=d4d3fb0b8011a72c759b3fd6150cce815e5b105be4c78e4a69c90c470a75c5ad",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:13:51Z",
+          "primary": false,
+          "symbol": "IDXX"
+        },
+        {
+          "headline": "IDEXX Laboratories (IDXX) Stock May Be Overvalued Following Its 44% Run",
+          "url": "https://finnhub.io/api/news?id=25946f415d55875d7451668000581876e80e6f36171713d8e91fcf691b1a00bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:13:58Z",
+          "primary": false,
+          "symbol": "IDXX"
+        },
+        {
+          "headline": "Here's How Much You'd Have If You Invested $1000 in Idexx Laboratories a Decade Ago",
+          "url": "https://finnhub.io/api/news?id=e5c70094e22aef3ea637ed9327d0ff90ddd442a7b5e00df1ac522c6c2b619279",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:30:02Z",
+          "primary": false,
+          "symbol": "IDXX"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In IDEXX Laboratories 20 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=f5e31f94e994f1bf158600685bd40d83ce76c344bd5477e24331623dffb7f843",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T11:15:29Z",
+          "primary": false,
+          "symbol": "IDXX"
+        }
+      ]
+    },
+    "UNP": {
+      "metrics": {
+        "52WeekHigh": 315.99,
+        "52WeekLow": 219.89,
+        "peTTM": 22.3871,
+        "psTTM": 6.4691,
+        "netProfitMarginTTM": 28.9,
+        "roeTTM": 37.82,
+        "revenueGrowthTTMYoy": 7.4,
+        "epsGrowthTTMYoy": 8.88,
+        "currentRatioQuarterly": 1.1627,
+        "totalDebt/totalEquityQuarterly": 1.3772,
+        "marketCapitalization": 170544.62
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Union Pacific Corporation",
+      "profile": {
+        "weburl": "https://www.up.com/index.htm",
+        "industry": "Road & Rail",
+        "name": "Union Pacific Corporation"
+      },
+      "news": [
+        {
+          "headline": "Union Pacific and Norfolk Southern Look Forward to a Full Evaluation of Merger Application",
+          "url": "https://finnhub.io/api/news?id=9242e230ad75412db6d919bf25856795ca8852605b10efc93c9dc1bcd9353b16",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:57:00Z",
+          "primary": false,
+          "symbol": "UNP"
+        },
+        {
+          "headline": "The Zacks Analyst Blog Highlights Merck, Caterpillar,  Union Pacific, Daily Journal and Community Bancorp",
+          "url": "https://finnhub.io/api/news?id=644f6886a6e44ab1659b69944ec1b09e19a3a53dc878ba111018a4bd29cd598a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:48:00Z",
+          "primary": false,
+          "symbol": "UNP"
+        },
+        {
+          "headline": "iShares U.S. Transportation (IYT) Sells Union Pacific and Uber on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=9399d2448453e95ddf609f2b3be7a1f20aaf79a7bd1ed9d244d3013287cada60",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:06:51Z",
+          "primary": false,
+          "symbol": "UNP"
+        },
+        {
+          "headline": "Union Pacific: Improving Fundamentals And Merger Optionality Support A Buy",
+          "url": "https://finnhub.io/api/news?id=fdb136dbfa860615792e24faceb72a67b2c93c85c24feceb0fafd38831952921",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T09:05:20Z",
+          "primary": false,
+          "symbol": "UNP"
+        },
+        {
+          "headline": "Top Stock Reports for Merck, Caterpillar & Union Pacific",
+          "url": "https://finnhub.io/api/news?id=f4c183549c7e8de6c054f2d4e9f7f6e069b180a5e44128dbecce3484378a5cd9",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T20:27:00Z",
+          "primary": false,
+          "symbol": "UNP"
+        }
+      ]
+    },
+    "XEL": {
+      "metrics": {
+        "52WeekHigh": 84.23,
+        "52WeekLow": 68.72,
+        "peTTM": 19.0401,
+        "psTTM": 3.4297,
+        "netProfitMarginTTM": 18.01,
+        "roeTTM": 11.01,
+        "revenueGrowthTTMYoy": 4.56,
+        "epsGrowthTTMYoy": 30.89,
+        "currentRatioQuarterly": 0.6926,
+        "totalDebt/totalEquityQuarterly": 1.6437,
+        "marketCapitalization": 50817.934
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Xcel Energy Inc",
+      "profile": {
+        "weburl": "https://mn.my.xcelenergy.com/s/",
+        "industry": "Utilities",
+        "name": "Xcel Energy Inc"
+      },
+      "news": [
+        {
+          "headline": "AEP and Xcel Energy Are Betting on Data Centers, but Their Dividends Tell Different Stories",
+          "url": "https://finnhub.io/api/news?id=fa01f5175610b9b6984228a10fa64bbdcbf206a531132a0e4c671fe126b4c860",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:47:48Z",
+          "primary": false,
+          "symbol": "XEL"
+        },
+        {
+          "headline": "How Much Did Xcel Stock Really Pay Its Holders?",
+          "url": "https://finnhub.io/api/news?id=a81b43f3b3d9320a2c93320057ce47a33580b81f05aa4f47b0b44cdca55ad446",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T11:42:12Z",
+          "primary": false,
+          "symbol": "XEL"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains Outperform on Xcel Energy, Raises Price Target to $101",
+          "url": "https://finnhub.io/api/news?id=9ce27a1015560cbdd15e5439e7b41ffd4e2ebd949b08851897242677e6b1f33d",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T09:29:00Z",
+          "primary": false,
+          "symbol": "XEL"
+        }
+      ]
+    },
+    "ADP": {
+      "metrics": {
+        "52WeekHigh": 316.14,
+        "52WeekLow": 188.16,
+        "peTTM": 26.2796,
+        "psTTM": 5.3421,
+        "netProfitMarginTTM": 20.33,
+        "roeTTM": 75.85,
+        "revenueGrowthTTMYoy": 6.5,
+        "epsGrowthTTMYoy": 11.24,
+        "currentRatioQuarterly": 1.0284,
+        "totalDebt/totalEquityQuarterly": 0.9751,
+        "marketCapitalization": 118931.15
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Automatic Data Processing Inc",
+      "profile": {
+        "weburl": "https://www.adp.com/",
+        "industry": "Professional Services",
+        "name": "Automatic Data Processing Inc"
+      },
+      "news": [
+        {
+          "headline": "ADP Acquires ZenBusiness",
+          "url": "https://finnhub.io/api/news?id=7d012cec2d56e2b100232ab38c0a9db448444458bb6c7de744061ac958476c24",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:29:00Z",
+          "primary": false,
+          "symbol": "ADP"
+        },
+        {
+          "headline": "Automatic Data Processing Offers 'Attractive Entry Point' After Valuation Pullback, BofA Says",
+          "url": "https://finnhub.io/api/news?id=d96ab0ceb923eb22a966faeb47ce6fc6860821620fdba436686aff80891b2db0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:47:45Z",
+          "primary": false,
+          "symbol": "ADP"
+        },
+        {
+          "headline": "ADP Acquires ZenBusiness, Terms Undisclosed",
+          "url": "https://finnhub.io/api/news?id=eef94f519945ebbecfc21dde02e702a20fd36e3b3a57a9c702ac7b2486da5465",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T15:31:18Z",
+          "primary": false,
+          "symbol": "ADP"
+        },
+        {
+          "headline": "Automatic Data Processing Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=e02ea865f97d7c6d02b04466e947b189f3ecf1c1bed0a91a8f286af166d3dfcb",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:37:04Z",
+          "primary": false,
+          "symbol": "ADP"
+        },
+        {
+          "headline": "B of A Securities Reinstates Buy on Automatic Data Processing, Announces $345 Price Target",
+          "url": "https://finnhub.io/api/news?id=c94ef30859f9f41a47b711753ef8c1f7ba60de41ce5fb128340a5884504a1423",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:50:09Z",
+          "primary": false,
+          "symbol": "ADP"
+        }
+      ]
+    },
+    "KDP": {
+      "metrics": {
+        "52WeekHigh": 38.285,
+        "52WeekLow": 24.88,
+        "peTTM": 28.4337,
+        "psTTM": 2.0248,
+        "netProfitMarginTTM": 7.12,
+        "roeTTM": 5.75,
+        "revenueGrowthTTMYoy": 42.99,
+        "epsGrowthTTMYoy": 3.99,
+        "currentRatioQuarterly": 0.5182,
+        "totalDebt/totalEquityQuarterly": 1.0001,
+        "marketCapitalization": 46830.23
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Keurig Dr Pepper Inc",
+      "profile": {
+        "weburl": "https://www.keurigdrpepper.com/",
+        "industry": "Beverages",
+        "name": "Keurig Dr Pepper Inc"
+      },
+      "news": [
+        {
+          "headline": "Keurig Dr Pepper (KDP) Stock Gets Fair Value Bump As Analysts Weigh Split Plan",
+          "url": "https://finnhub.io/api/news?id=6623d86ba09bbcc137125909ab4d7a844e55ac2ffca74d4237209a3ae050dc40",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:11:18Z",
+          "primary": false,
+          "symbol": "KDP"
+        },
+        {
+          "headline": "KEURIG® TAKES THE GRIND OUT OF HOLIDAY HASSLES, BREWING UP LITTLE MOMENTS OF RELIEF & JOY",
+          "url": "https://finnhub.io/api/news?id=83aa4a8cfeec81fd64d993f04e5a0fb7a588c504781e406c50c0e5e164f71481",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:01:00Z",
+          "primary": false,
+          "symbol": "KDP"
+        },
+        {
+          "headline": "Wolfe Research Initiates Coverage On Keurig Dr Pepper with Outperform Rating, Announces Price Target of $42",
+          "url": "https://finnhub.io/api/news?id=fcfc818338f1a35d53ffaa71b83da0291bf9c7759536d2186b1c96bd2e870ff5",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T06:20:36Z",
+          "primary": false,
+          "symbol": "KDP"
+        },
+        {
+          "headline": "What Threatens Keurig Dr Pepper Stock Most?",
+          "url": "https://finnhub.io/api/news?id=c838c38a7f21725707be3c675a82df8a97d2ffb4f84dba2f77ec7db0268f7507",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T17:38:14Z",
+          "primary": false,
+          "symbol": "KDP"
+        },
+        {
+          "headline": "Implied Volatility Surging for Keurig Dr Pepper Stock Options",
+          "url": "https://finnhub.io/api/news?id=75734501752e2553d2e4da5cccb12639127eff0f7bb2b714d0516afdfc129bc4",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:04:00Z",
+          "primary": false,
+          "symbol": "KDP"
+        }
+      ]
+    },
+    "ALL": {
+      "metrics": {
+        "52WeekHigh": 281.11,
+        "52WeekLow": 191.13,
+        "peTTM": 5.6249,
+        "psTTM": 0.9322,
+        "netProfitMarginTTM": 16.57,
+        "roeTTM": 36.309999999999995,
+        "revenueGrowthTTMYoy": 5.06,
+        "epsGrowthTTMYoy": 42.38,
+        "totalDebt/totalEquityQuarterly": 0.2319,
+        "marketCapitalization": 65467.71
+      },
+      "updated_at": "2026-11-20T16:04:55Z",
+      "name": "Allstate Corp",
+      "profile": {
+        "weburl": "https://www.allstateinvestors.com/",
+        "industry": "Insurance",
+        "name": "Allstate Corp"
+      },
+      "news": [
+        {
+          "headline": "Mizuho Maintains Outperform on Allstate, Raises Price Target to $311",
+          "url": "https://finnhub.io/api/news?id=6fa8d74c39187ab954bc1e3df0d3ceac03e2322f71cc833e87813dae1d2591c2",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:18:43Z",
+          "primary": false,
+          "symbol": "ALL"
+        },
+        {
+          "headline": "The Allstate Corporation Announces Estimated October Catastrophe Losses of $232 million",
+          "url": "https://finnhub.io/api/news?id=0d8a9a76371d46952244674cb0528453999b2828dd521db61203894ff39804d7",
+          "source": "Fintel",
+          "published_at": "2026-11-19T14:21:42Z",
+          "primary": false,
+          "symbol": "ALL"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Allstate Stock?",
+          "url": "https://finnhub.io/api/news?id=a8d1a04ba7275f0ccc70e4d2e730ea9c4b888a1f02c10030867b0a67d8fc1c6b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:48:39Z",
+          "primary": false,
+          "symbol": "ALL"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Allstate, Raises Price Target to $275",
+          "url": "https://finnhub.io/api/news?id=d9ca36b29907ab1d491981157a9b94577e132dedbaac4c2dbcf0f6d895b5369a",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T11:53:30Z",
+          "primary": false,
+          "symbol": "ALL"
+        },
+        {
+          "headline": "JP Morgan Maintains Overweight on Allstate, Lowers Price Target to $291",
+          "url": "https://finnhub.io/api/news?id=12ff3be65a19ecb43769b7a63ace5181d1ba45c555f8c04af0317fac70a175e5",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T14:19:50Z",
+          "primary": false,
+          "symbol": "ALL"
+        }
+      ]
     }
   },
-  "cursor": 164,
-  "updated_at": "2026-11-20T15:04:23Z"
+  "cursor": 176,
+  "updated_at": "2026-11-20T16:04:55Z"
 }
