@@ -68,7 +68,7 @@ function renderResearch(data){
   const liveMap=new Map([...(r.candidates||[]),...watch,...entries].map(c=>[c.symbol,c]));
   const liveCandidate=c=>{const x=liveMap.get(c.symbol);return x?Object.assign({},c,{price:x.price,as_of:x.as_of,price_plan:x.price_plan}):Object.assign({},c,{price_plan:null})};
   const shortlist=w.shortlist||[];
-  $('research-count').textContent=`${r.screened_with_financials||0} of ${r.universe_size||0} symbols screened with company financials`;
+  $('research-count').textContent=`${r.screened_with_financials||0} of ${r.equity_universe_size||r.universe_size||0} shares screened with financials; ETFs tracked separately`;
   $('research-checked').textContent=r.generated_at?'Screened '+nzTime(r.generated_at):'Awaiting the first research scan';
   $('weekly-status').textContent=w.generated_at?`Research week ${w.week_start} · compiled ${nzTime(w.generated_at)}`:'Waiting for first weekly shortlist';
   $('weekly-verdict').textContent=w.verdict||'No ranked investment candidates yet';
