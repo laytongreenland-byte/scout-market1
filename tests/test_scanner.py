@@ -23,6 +23,27 @@ class ScannerTests(unittest.TestCase):
                       published_at=scanner.stamp(scanner.NOW), url='https://unverified.invalid/a')]
         self.assertEqual(len(scanner.priority_events(items)), 1)
 
+    def test_old_delisted_price_never_counts_as_fresh(self):
+        import json
+        from datetime import timedelta
+        payload={'c':65.55,'pc':65.25,'t':int((scanner.NOW-timedelta(days=14)).timestamp())}
+        with patch.object(scanner,'fetch',return_value=json.dumps(payload).encode()):
+            with patch.object(scanner.time,'sleep'):
+                quotes, count, errors = scanner.prices(['EQR'],'test-token',[])
+        self.assertEqual(count,0)
+        self.assertIsNone(quotes[0]['price'])
+        self.assertTrue(errors)
+
+    def test_current_quote_remains_valid(self):
+        import json
+        payload={'c':123.45,'pc':120.0,'t':int(scanner.NOW.timestamp())}
+        with patch.object(scanner,'fetch',return_value=json.dumps(payload).encode()):
+            with patch.object(scanner.time,'sleep'):
+                quotes, count, errors = scanner.prices(['TEST'],'test-token',[])
+        self.assertEqual(count,1)
+        self.assertEqual(quotes[0]['price'],123.45)
+        self.assertEqual(errors,[])
+
     def test_finnhub_no_key_does_not_make_up_quotes(self):
         quotes, count, errors = scanner.prices(['AAPL'], '', [])
         self.assertIsNone(quotes[0]['price'])
