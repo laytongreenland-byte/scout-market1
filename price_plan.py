@@ -101,6 +101,9 @@ def entry_plan(candidate, quote, company, now):
     elif (candidate or {}).get('status')=='INVESTIGATE' and score>=80 and price<=ceiling:
         signal='ENTRY CANDIDATE'
         reason='Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.'
+    elif price<=ceiling:
+        signal='QUALITY GATE NOT MET'
+        reason='Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.'
     elif price>=base:
         signal='ABOVE BASE CASE'
         reason='Quote is at or above the illustrative base-case level; no attractive entry indicated.'
