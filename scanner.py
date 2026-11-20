@@ -340,7 +340,7 @@ def main() -> None:
             'nzx_prices_available':False,
         },
         'sources': sources, 'tracked_symbols': symbols,
-        'quotes': quote_results, 'events': fresh, 'research': research,
+        'quotes': quote_results, 'etf_symbols':etfs, 'events': fresh, 'research': research,
         'priorities': priority_events(fresh),
         'warnings': [
             'This scanner is best effort and does not monitor every market or source.',
