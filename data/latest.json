@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T05:42:10Z",
+  "generated_at": "2026-11-20T05:58:15Z",
   "status": "ok",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T05:42:10Z",
+      "checked_at": "2026-11-20T05:58:15Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T05:42:10Z",
+      "checked_at": "2026-11-20T05:58:15Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-20T05:42:10Z",
+      "checked_at": "2026-11-20T05:58:15Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T05:42:10Z",
+      "checked_at": "2026-11-20T05:58:15Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T05:42:10Z",
+      "checked_at": "2026-11-20T05:58:15Z",
       "error": ""
     }
   ],
@@ -574,6 +574,116 @@
   ],
   "events": [
     {
+      "id": "ab4040e27519955ee60f",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[SKT] Results of 2026 Annual Shareholder Meeting",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/sky-network-television",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "33ef79ad5b7fd068b28d",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[CO2] CO2's NTA as at 19 November 2026: 1.5465",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/carbon-fund",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "02cf46610330f928e82d",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[NPH] SPH Notice - Investment Services Group Limited",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/napier-port",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "3ea6d267e8900e93f37a",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[PCT] Annual Meetings of Shareholders – Voting Results",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/precinct-properties",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a75a0662fdeefa6557a0",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[VHP] SPH Notice - SPH Wealth Holdings Limited",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/vital-healthcare-property-trust",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "2be0ce8f8c67e69928c0",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[AIR] Air NZ issue and lapse of LTI Plan share rights",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/air",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "bf5e1461b95925f1b3ad",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[AIR] Disclosure of Senior Managers Relevant Interests",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/air",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a363d0fbccfc253f6a71",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[CO2] Carbon Fund acquisition of CO2 units",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/carbon-fund",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "919373dc89d465a89bc9",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[MEX] Appointment of Joint Company Secretary",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/minerals-exploration",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "347bdfd58238cc88f226",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[NZX] SPH Notice - Investment Services Group Limited",
+      "published_at": "2026-11-20T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/nzx",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
       "id": "5f4e137f22b4738eed92",
       "type": "SEC",
       "ticker": "BRK.B",
@@ -818,6 +928,237 @@
       "sentiment": "neutral"
     },
     {
+      "id": "cb53b4148aa8dfb26e5a",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[AFI] Notification of buy-back",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/australian-foundation-investment",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "9f83b04c16a33477109d",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[VNT] Appendix 3C daily buyback notification",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/ventia-services",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "8729d327350494f638c2",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[TEM] Net Asset Value(s)",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/templeton-emerging-markets-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "1d837e085d8806deb8aa",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[BIT] Transaction in Own Shares",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/the-bankers-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "62fff1d52f7cda920096",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[BIT] Net Asset Value(s)",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/the-bankers-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "34df3281a6c530ac340e",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[HFL] Net Asset Value(s)",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/henderson-far-east-income",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "0f4b67955f058484da82",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[PCT] Precinct FY27 First Quarter Dividends",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/precinct-properties",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "aacf30ace16254c3f401",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[SKT] Sky ASM - Q1 Dividend Announced and Guidance Reiterated",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/sky-network-television",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "2a6e3affc2428157052b",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[TRA] Turners absorbs oil shock to deliver a record first half",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/turners-automotive",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "886f330a18bdeaf49c34",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FCG] Determination of Director’s Independence",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fonterra-co-operative-group",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "262983f84b4f49dae33b",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FCT] Net Asset Value as at 18 November 2026",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fandc-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "48e1b07fea9a53ba2171",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FSF] Fonterra increases FY27 forecast Farmgate Milk Price",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fonterra-shareholders-fund",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "994ac471420b7322e6da",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FSF] Determination of Director’s Independence",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fonterra-shareholders-fund",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "b6e6082f8ac9490307be",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[IFT] Lodgement of Product Disclosure Statement for Capital Bond",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/infratil",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "f5412992ec290b3e1fc4",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[MEX] Results of Annual General Meeting",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/minerals-exploration",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "fd15235067482182bac2",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[PHL] Capital Change Notice",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/promisia-healthcare",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "806d721f14c39f320d8c",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[VSL] ASX Appendix 3Y - Change of Director's Interest Notice - RC",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/vulcan-steel",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "3c0cb7a7821eb728c938",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[PCT] Precinct 2026 Annual Meeting of Shareholders",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/precinct-properties",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "f38767ba17440935bceb",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[LOD] Lodestone Energy delivers strong growth",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/lodestone-energy",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "c60cd972f678c012f679",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[BPG] H1 FY27 Investor Webinar",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/black-pearl",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "17047922dd0cb0a522c5",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FCG] Fonterra increases FY27 forecast Farmgate Milk Price",
+      "published_at": "2026-11-19T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fonterra-co-operative-group",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
       "id": "a36ff5f72c6464679227",
       "type": "MACRO",
       "ticker": null,
@@ -857,17 +1198,6 @@
       "title": "[CO2] CO2's NTA as at 17 November 2026: 1.5717",
       "published_at": "2026-11-18T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/carbon-fund",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "cb53b4148aa8dfb26e5a",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[AFI] Notification of buy-back",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/australian-foundation-investment",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
@@ -939,17 +1269,6 @@
       "sentiment": "neutral"
     },
     {
-      "id": "9f83b04c16a33477109d",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[VNT] Appendix 3C daily buyback notification",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/ventia-services",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
       "id": "1a1a8ab31c9454025c2b",
       "type": "NZX",
       "ticker": null,
@@ -983,34 +1302,12 @@
       "sentiment": "neutral"
     },
     {
-      "id": "8729d327350494f638c2",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[TEM] Net Asset Value(s)",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/templeton-emerging-markets-investment-trust-plc",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
       "id": "e076b8d420d6942126b1",
       "type": "NZX",
       "ticker": null,
       "title": "[ATM] 2026 Annual Meeting",
       "published_at": "2026-11-18T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/the-a2-milk",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "1d837e085d8806deb8aa",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[BIT] Transaction in Own Shares",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/the-bankers-investment-trust-plc",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
@@ -1044,17 +1341,6 @@
       "title": "[VHP] SPH Notice - Forsyth Barr Investment Management Limited",
       "published_at": "2026-11-18T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/vital-healthcare-property-trust",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "62fff1d52f7cda920096",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[BIT] Net Asset Value(s)",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/the-bankers-investment-trust-plc",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
@@ -1132,17 +1418,6 @@
       "title": "[TEM] Transaction in Own Shares",
       "published_at": "2026-11-18T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/templeton-emerging-markets-investment-trust-plc",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "34df3281a6c530ac340e",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[HFL] Net Asset Value(s)",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/henderson-far-east-income",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
@@ -1275,7 +1550,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T05:42:10Z",
+    "generated_at": "2026-11-20T05:58:15Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1335,6 +1610,27 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 86,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1393,6 +1689,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 186.64,
+          "entry_floor": 167.98,
+          "exit_review_low": 239.28,
+          "exit_review_high": 288.51,
+          "bear_case": 129.37,
+          "scenario_upside_pct": -7.0,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 21.48,
+            "earnings_growth_assumed_pct": 6.91,
+            "scenario_exit_pe": 18.68,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
         "ranking_score": 83,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1451,6 +1776,27 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Industry unavailable; cannot apply this earnings-based method safely.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 82,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1509,6 +1855,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 523.16,
+          "entry_floor": 470.84,
+          "exit_review_low": 670.72,
+          "exit_review_high": 819.09,
+          "bear_case": 355.66,
+          "scenario_upside_pct": 12.5,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 20.94,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 21.61,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
         "ranking_score": 80,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1532,7 +1907,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T01:16:49Z",
+            "timestamp": "2026-11-20T05:58:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1543,7 +1918,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T01:16:49Z",
+        "fundamentals_at": "2026-11-20T05:58:15Z",
         "price": 221.68,
         "currency": "USD",
         "change_pct": -1.998,
@@ -1567,6 +1942,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 266.41,
+          "entry_floor": 239.77,
+          "exit_review_low": 341.55,
+          "exit_review_high": 404.35,
+          "bear_case": 189.66,
+          "scenario_upside_pct": 54.1,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 12.09,
+            "earnings_growth_assumed_pct": 4.09,
+            "scenario_exit_pe": 17.89,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+          }
+        },
         "ranking_score": 79,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1625,6 +2029,27 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 79,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1683,6 +2108,27 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 79,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1741,6 +2187,27 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Utilities; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 79,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1799,6 +2266,27 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 78,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1857,6 +2345,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 384.78,
+          "entry_floor": 346.3,
+          "exit_review_low": 493.31,
+          "exit_review_high": 581.85,
+          "bear_case": 275.38,
+          "scenario_upside_pct": -13.7,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 20.27,
+            "earnings_growth_assumed_pct": 3.54,
+            "scenario_exit_pe": 16.89,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:33:45Z"
+          }
+        },
         "ranking_score": 78,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1915,6 +2432,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 319.26,
+          "entry_floor": 287.33,
+          "exit_review_low": 409.3,
+          "exit_review_high": 499.85,
+          "bear_case": 217.04,
+          "scenario_upside_pct": 50.1,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 14.76,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.33,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
         "ranking_score": 76,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1973,6 +2519,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 166.12,
+          "entry_floor": 149.51,
+          "exit_review_low": 212.98,
+          "exit_review_high": 249.58,
+          "bear_case": 119.98,
+          "scenario_upside_pct": -21.8,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 21.5,
+            "earnings_growth_assumed_pct": 2.6,
+            "scenario_exit_pe": 16.39,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T02:24:26Z"
+          }
+        },
         "ranking_score": 76,
         "rank_method": "FINANCIAL RULES"
       },
@@ -1996,7 +2571,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T01:16:49Z",
+            "timestamp": "2026-11-20T05:58:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2007,7 +2582,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T01:16:49Z",
+        "fundamentals_at": "2026-11-20T05:58:15Z",
         "price": 183.31,
         "currency": "USD",
         "change_pct": -3.724,
@@ -2031,6 +2606,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 163.93,
+          "entry_floor": 147.53,
+          "exit_review_low": 210.16,
+          "exit_review_high": 250.4,
+          "bear_case": 115.63,
+          "scenario_upside_pct": 14.6,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.22,
+            "earnings_growth_assumed_pct": 5.05,
+            "scenario_exit_pe": 17.7,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+          }
+        },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2089,6 +2693,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 106.08,
+          "entry_floor": 95.47,
+          "exit_review_low": 136.0,
+          "exit_review_high": 159.66,
+          "bear_case": 76.42,
+          "scenario_upside_pct": -2.2,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 17.38,
+            "earnings_growth_assumed_pct": 2.86,
+            "scenario_exit_pe": 16.53,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:38:05Z"
+          }
+        },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2147,6 +2780,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 306.89,
+          "entry_floor": 276.2,
+          "exit_review_low": 393.45,
+          "exit_review_high": 477.78,
+          "bear_case": 210.45,
+          "scenario_upside_pct": -21.0,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 26.41,
+            "earnings_growth_assumed_pct": 8.06,
+            "scenario_exit_pe": 19.3,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
         "ranking_score": 74,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2205,6 +2867,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 171.35,
+          "entry_floor": 154.22,
+          "exit_review_low": 219.68,
+          "exit_review_high": 268.28,
+          "bear_case": 116.49,
+          "scenario_upside_pct": 50.5,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.08,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 22.2,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
         "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2229,41 +2920,70 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T01:16:49Z",
+            "timestamp": "2026-11-20T05:58:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Why Is Oracle Spending $1.61 For Every Cash Dollar?",
-            "timestamp": "2026-11-19T17:01:58Z",
-            "url": "https://finnhub.io/api/news?id=450e86ed20915c3b3e988afadda85d138826734281261b977518171f3836d037"
+            "value": "Oracle (ORCL) Stock May Be 39% Undervalued As Nashville Buildout Starts",
+            "timestamp": "2026-11-20T00:21:03Z",
+            "url": "https://finnhub.io/api/news?id=82af6326a2310c7c895b08ed5bf2e1211bfd523cdbb11b155fb774b7780e2d30"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T01:16:49Z",
+        "fundamentals_at": "2026-11-20T05:58:15Z",
         "price": 110.57,
         "currency": "USD",
         "change_pct": -2.915,
         "news": [
           {
-            "headline": "Why Is Oracle Spending $1.61 For Every Cash Dollar?",
-            "url": "https://finnhub.io/api/news?id=450e86ed20915c3b3e988afadda85d138826734281261b977518171f3836d037",
+            "headline": "Oracle (ORCL) Stock May Be 39% Undervalued As Nashville Buildout Starts",
+            "url": "https://finnhub.io/api/news?id=82af6326a2310c7c895b08ed5bf2e1211bfd523cdbb11b155fb774b7780e2d30",
             "source": "Yahoo",
-            "published_at": "2026-11-19T17:01:58Z",
+            "published_at": "2026-11-20T00:21:03Z",
             "primary": false,
             "symbol": "ORCL"
           },
           {
-            "headline": "David Tepper and 27 Other Big Funds Bought Oracle Last Quarter, While 12 Sold. Who’s Right?",
-            "url": "https://finnhub.io/api/news?id=48bd78848893b9acbe1818a9e5b4d3f8c9aedbb636c63bfc1fcaeaef1b9241d5",
+            "headline": "The Biggest Fear Around Oracle Could Soon End. Wall Street Sees ORCL Stock Surging 100% From Here.",
+            "url": "https://finnhub.io/api/news?id=0128fb9b6ea4fbcb6a79b45923f0adf55e38e7406526a034fe3f9b9f007f1aaa",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:30:20Z",
+            "published_at": "2026-11-19T21:28:06Z",
             "primary": false,
             "symbol": "ORCL"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 104.28,
+          "entry_floor": 93.85,
+          "exit_review_low": 133.69,
+          "exit_review_high": 163.26,
+          "bear_case": 70.89,
+          "scenario_upside_pct": 20.9,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 18.2,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.19,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+          }
+        },
         "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2323,6 +3043,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 54.48,
+          "entry_floor": 49.03,
+          "exit_review_low": 69.85,
+          "exit_review_high": 84.05,
+          "bear_case": 37.88,
+          "scenario_upside_pct": 19.5,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.52,
+            "earnings_growth_assumed_pct": 6.59,
+            "scenario_exit_pe": 18.52,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T02:24:26Z"
+          }
+        },
         "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2382,6 +3131,35 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 433.28,
+          "entry_floor": 389.95,
+          "exit_review_low": 555.49,
+          "exit_review_high": 678.37,
+          "bear_case": 294.56,
+          "scenario_upside_pct": 3.4,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 20.94,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 19.86,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:33:45Z"
+          }
+        },
         "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
       },
@@ -2440,10 +3218,734 @@
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
         "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
       }
     ],
+    "entry_candidates": [],
+    "entry_watch": [
+      {
+        "symbol": "ADBE",
+        "name": "Adobe Inc",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Technology",
+        "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$221.68",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:58:15Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
+            "timestamp": "2026-11-19T21:45:02Z",
+            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:58:15Z",
+        "price": 221.68,
+        "currency": "USD",
+        "change_pct": -1.998,
+        "news": [
+          {
+            "headline": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
+            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:45:02Z",
+            "primary": false,
+            "symbol": "ADBE"
+          },
+          {
+            "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:17:02Z",
+            "primary": false,
+            "symbol": "ADBE"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 266.41,
+          "entry_floor": 239.77,
+          "exit_review_low": 341.55,
+          "exit_review_high": 404.35,
+          "bear_case": 189.66,
+          "scenario_upside_pct": 54.1,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 12.09,
+            "earnings_growth_assumed_pct": 4.09,
+            "scenario_exit_pe": 17.89,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+          }
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "status": "WATCH",
+        "score": 73,
+        "industry": "Semiconductors",
+        "why": "Net profit margin 62.5% (TTM); Return on equity 106.7% (TTM); Trailing P/E 16.1×; TTM revenue growth 93.3% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$145.98",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:42:10Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
+            "timestamp": "2026-11-20T03:54:48Z",
+            "url": "https://finnhub.io/api/news?id=b56d56ff02059d99e6f54ee92544133669e648a260e405cc5a29b772d3b956d2"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
+        "price": 145.98,
+        "currency": "USD",
+        "change_pct": -3.299,
+        "news": [
+          {
+            "headline": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
+            "url": "https://finnhub.io/api/news?id=b56d56ff02059d99e6f54ee92544133669e648a260e405cc5a29b772d3b956d2",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T03:54:48Z",
+            "primary": false,
+            "symbol": "NVDA"
+          },
+          {
+            "headline": "Nasdaq, Dow, S&P 500 Futures Slip As Anthropic’s Record Debut Fails To Lift AI Stocks: SLV, GLD, AMD, NVDA In Focus",
+            "url": "https://finnhub.io/api/news?id=a8b56c625f0d8da587cbb59af8bbb0baffa8ca5c6f7ab1e7370e539625a7be10",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T02:48:14Z",
+            "primary": false,
+            "symbol": "NVDA"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 171.35,
+          "entry_floor": 154.22,
+          "exit_review_low": 219.68,
+          "exit_review_high": 268.28,
+          "bear_case": 116.49,
+          "scenario_upside_pct": 50.5,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.08,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 22.2,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "industry": "Media",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$272.66",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:42:10Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+            "timestamp": "2026-11-19T23:05:02Z",
+            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
+        "price": 272.66,
+        "currency": "USD",
+        "change_pct": -3.463,
+        "news": [
+          {
+            "headline": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T23:05:02Z",
+            "primary": false,
+            "symbol": "GOOGL"
+          },
+          {
+            "headline": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+            "url": "https://finnhub.io/api/news?id=761e947e45580e96816de82c91ae31a183fa7ed0ae3d4dd27e077a2e1bb60bae",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T22:18:30Z",
+            "primary": false,
+            "symbol": "GOOGL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 319.26,
+          "entry_floor": 287.33,
+          "exit_review_low": 409.3,
+          "exit_review_high": 499.85,
+          "bear_case": 217.04,
+          "scenario_upside_pct": 50.1,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 14.76,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.33,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "status": "WATCH",
+        "score": 73,
+        "industry": "Technology",
+        "why": "Net profit margin 26.4% (TTM); Return on equity 42.6% (TTM); Trailing P/E 18.2×; TTM revenue growth 21.6% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$110.57",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:58:15Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Oracle (ORCL) Stock May Be 39% Undervalued As Nashville Buildout Starts",
+            "timestamp": "2026-11-20T00:21:03Z",
+            "url": "https://finnhub.io/api/news?id=82af6326a2310c7c895b08ed5bf2e1211bfd523cdbb11b155fb774b7780e2d30"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:58:15Z",
+        "price": 110.57,
+        "currency": "USD",
+        "change_pct": -2.915,
+        "news": [
+          {
+            "headline": "Oracle (ORCL) Stock May Be 39% Undervalued As Nashville Buildout Starts",
+            "url": "https://finnhub.io/api/news?id=82af6326a2310c7c895b08ed5bf2e1211bfd523cdbb11b155fb774b7780e2d30",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T00:21:03Z",
+            "primary": false,
+            "symbol": "ORCL"
+          },
+          {
+            "headline": "The Biggest Fear Around Oracle Could Soon End. Wall Street Sees ORCL Stock Surging 100% From Here.",
+            "url": "https://finnhub.io/api/news?id=0128fb9b6ea4fbcb6a79b45923f0adf55e38e7406526a034fe3f9b9f007f1aaa",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:28:06Z",
+            "primary": false,
+            "symbol": "ORCL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 104.28,
+          "entry_floor": 93.85,
+          "exit_review_low": 133.69,
+          "exit_review_high": 163.26,
+          "bear_case": 70.89,
+          "scenario_upside_pct": 20.9,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 18.2,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.19,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+          }
+        },
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "status": "WATCH",
+        "score": 73,
+        "industry": "Media",
+        "why": "Net profit margin 29.7% (TTM); Return on equity 50.4% (TTM); Trailing P/E 16.5×; TTM revenue growth 14.7% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$58.46",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T02:24:26Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Josh Brown: Netflix Can Clear Wall Street’s 10.6% Growth Bar “Standing on Their Head”",
+            "timestamp": "2026-11-19T20:06:09Z",
+            "url": "https://finnhub.io/api/news?id=a002023a6a63e34436cb6f9dd48e7fed4c57513d36499f1e7378bb5c4e9f17a8"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T02:24:26Z",
+        "price": 58.46,
+        "currency": "USD",
+        "change_pct": -2.273,
+        "news": [
+          {
+            "headline": "Josh Brown: Netflix Can Clear Wall Street’s 10.6% Growth Bar “Standing on Their Head”",
+            "url": "https://finnhub.io/api/news?id=a002023a6a63e34436cb6f9dd48e7fed4c57513d36499f1e7378bb5c4e9f17a8",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T20:06:09Z",
+            "primary": false,
+            "symbol": "NFLX"
+          },
+          {
+            "headline": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
+            "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:17:13Z",
+            "primary": false,
+            "symbol": "NFLX"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 54.48,
+          "entry_floor": 49.03,
+          "exit_review_low": 69.85,
+          "exit_review_high": 84.05,
+          "bear_case": 37.88,
+          "scenario_upside_pct": 19.5,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.52,
+            "earnings_growth_assumed_pct": 6.59,
+            "scenario_exit_pe": 18.52,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T02:24:26Z"
+          }
+        },
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "status": "WATCH",
+        "score": 75,
+        "industry": "Technology",
+        "why": "Net profit margin 22.0% (TTM); Return on equity 20.2% (TTM); Trailing P/E 16.2×; TTM revenue growth 11.2% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$183.31",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:58:15Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-19T19:52:04Z",
+            "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:58:15Z",
+        "price": 183.31,
+        "currency": "USD",
+        "change_pct": -3.724,
+        "news": [
+          {
+            "headline": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:52:04Z",
+            "primary": false,
+            "symbol": "CRM"
+          },
+          {
+            "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
+            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T19:10:04Z",
+            "primary": false,
+            "symbol": "CRM"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 163.93,
+          "entry_floor": 147.53,
+          "exit_review_low": 210.16,
+          "exit_review_high": 250.4,
+          "bear_case": 115.63,
+          "scenario_upside_pct": 14.6,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.22,
+            "earnings_growth_assumed_pct": 5.05,
+            "scenario_exit_pe": 17.7,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+          }
+        },
+        "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "META",
+        "name": "Meta Platforms, Inc.",
+        "status": "INVESTIGATE",
+        "score": 80,
+        "industry": "Media",
+        "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.9×; TTM revenue growth 27.5% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$596.22",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:42:10Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Meta Platforms 'Reevaluating' 2030 Net Zero Goal as AI Buildout Strains Clean Energy Supply",
+            "timestamp": "2026-11-20T00:43:14Z",
+            "url": "https://finnhub.io/api/news?id=832d041d280ca00ab0d85cbe1186224da1e9f967ad3f38b774c3b6642cc81998"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:42:10Z",
+        "price": 596.22,
+        "currency": "USD",
+        "change_pct": -3.271,
+        "news": [
+          {
+            "headline": "Meta Platforms 'Reevaluating' 2030 Net Zero Goal as AI Buildout Strains Clean Energy Supply",
+            "url": "https://finnhub.io/api/news?id=832d041d280ca00ab0d85cbe1186224da1e9f967ad3f38b774c3b6642cc81998",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T00:43:14Z",
+            "primary": false,
+            "symbol": "META"
+          },
+          {
+            "headline": "Apple May Try to Challenge Meta for Personal Agent Supremacy",
+            "url": "https://finnhub.io/api/news?id=d3bd1f54c91f49844eb556ea25a0a0ba7bcc6a79f066b3ae3d022a1ba916c309",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T23:51:00Z",
+            "primary": false,
+            "symbol": "META"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 523.16,
+          "entry_floor": 470.84,
+          "exit_review_low": 670.72,
+          "exit_review_high": 819.09,
+          "bear_case": 355.66,
+          "scenario_upside_pct": 12.5,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 20.94,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 21.61,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+          }
+        },
+        "ranking_score": 80,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "CAT",
+        "name": "Caterpillar Inc",
+        "status": "WATCH",
+        "score": 73,
+        "industry": "Machinery",
+        "why": "Net profit margin 15.2% (TTM); Return on equity 58.5% (TTM); Trailing P/E 20.9×; TTM revenue growth 20.3% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$537.37",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T05:33:45Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Caterpillar CEO Joe Creed joins Walmart board of directors",
+            "timestamp": "2026-11-19T18:26:59Z",
+            "url": "https://finnhub.io/api/news?id=cd4235135a36b7af8f833058a202ffc4dd5aea77213d17746825c2179c438902"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T05:33:45Z",
+        "price": 537.37,
+        "currency": "USD",
+        "change_pct": -3.83,
+        "news": [
+          {
+            "headline": "Caterpillar CEO Joe Creed joins Walmart board of directors",
+            "url": "https://finnhub.io/api/news?id=cd4235135a36b7af8f833058a202ffc4dd5aea77213d17746825c2179c438902",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:26:59Z",
+            "primary": false,
+            "symbol": "CAT"
+          },
+          {
+            "headline": "Caterpillar (CAT) Isn’t Just a Bulldozer Stock Anymore, and Ken Fisher Knows Why",
+            "url": "https://finnhub.io/api/news?id=c1ff1385ec65d1db9e085fc61d6a551d25bbc9ab806aff794b35faec8940b46f",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T18:14:00Z",
+            "primary": false,
+            "symbol": "CAT"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 433.28,
+          "entry_floor": 389.95,
+          "exit_review_low": 555.49,
+          "exit_review_high": 678.37,
+          "bear_case": 294.56,
+          "scenario_upside_pct": 3.4,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 20.94,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 19.86,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T05:33:45Z"
+          }
+        },
+        "ranking_score": 73,
+        "rank_method": "FINANCIAL RULES"
+      }
+    ],
+    "pricing_method": "Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.",
     "daily_movers": [
       {
         "symbol": "AMD",
@@ -2884,6 +4386,8 @@
       "No guaranteed real-time prices or complete market coverage.",
       "Machine learning can influence at most 10% of rankings only after six purged, separated forward tests; no probabilities of gains.",
       "Latest available financial data may be delayed or incomplete; timestamps and quality gates apply.",
+      "Entry and exit review zones are bounded earnings-multiple scenarios, not analyst price targets, proven fair values or guaranteed returns.",
+      "Do not trade based solely on Scout; verify issuer filings, market conditions and NZ trading costs.",
       "Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends."
     ]
   },

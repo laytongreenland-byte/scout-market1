@@ -526,7 +526,7 @@
         "totalDebt/totalEquityQuarterly": 0.1035,
         "marketCapitalization": 804823.6
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "Advanced Micro Devices, Inc.",
       "profile": {
         "weburl": "https://www.amd.com/",
@@ -534,6 +534,22 @@
         "name": "Advanced Micro Devices, Inc."
       },
       "news": [
+        {
+          "headline": "Nasdaq, Dow, S&P 500 Futures Slip As Anthropic’s Record Debut Fails To Lift AI Stocks: SLV, GLD, AMD, NVDA In Focus",
+          "url": "https://finnhub.io/api/news?id=a8b56c625f0d8da587cbb59af8bbb0baffa8ca5c6f7ab1e7370e539625a7be10",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T02:48:14Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "AMD Just Plunged Almost 8%, Lost $67 Billion and Kept Falling After Hours. A Short Seller Says It Shares Nvidia’s China Risk",
+          "url": "https://finnhub.io/api/news?id=9804c9b35af8b14126bd7ff3c1561a50e812778cd5f91dd2f21edd65824860ff",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T02:07:02Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
         {
           "headline": "Dow Jones Futures: Ugly Market Reversal To New Lows As Anthropic IPO Debuts, AMD Dives",
           "url": "https://finnhub.io/api/news?id=a3449dec0994761a4ab4981a03068555b867f3fee015f9c88730362ff1f4188a",
@@ -543,34 +559,18 @@
           "symbol": "AMD"
         },
         {
+          "headline": "Shots Fired: Hunterbrook Shorts AMD Over China. Its China and Hong Kong Billing Share Is Nearly 2.5x Nvidia’s",
+          "url": "https://finnhub.io/api/news?id=9734c8e20940752ce4ae0321c597f3f9fdd3291149ba6159b7ac6988b17098da",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:37:49Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
           "headline": "Dow Jones Futures Fall After Ugly Market Reversal To New Lows; Anthropic IPO Debuts, AMD Dives",
           "url": "https://finnhub.io/api/news?id=69bbf58b91dbdb01dff38a7d669d331425154da8f5881991f205ab376c7c0be3",
           "source": "Yahoo",
           "published_at": "2026-11-19T21:52:20Z",
-          "primary": false,
-          "symbol": "AMD"
-        },
-        {
-          "headline": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
-          "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:47:00Z",
-          "primary": false,
-          "symbol": "AMD"
-        },
-        {
-          "headline": "AMD Shares Tumble 7% After Short Seller Questions China Ties. Chipmaker Denies Allegations.",
-          "url": "https://finnhub.io/api/news?id=5081b6bb2311c52a25f72efc2252b0890f3342e93a67068d77298ce93bcbe637",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:18:46Z",
-          "primary": false,
-          "symbol": "AMD"
-        },
-        {
-          "headline": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
-          "url": "https://finnhub.io/api/news?id=895b43336fdc01fcc219a5231eece6dad6f2c100add7b60cb93093f5f868936e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:12:06Z",
           "primary": false,
           "symbol": "AMD"
         }
@@ -590,7 +590,7 @@
         "totalDebt/totalEquityQuarterly": 2.0146,
         "marketCapitalization": 344373.3
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "Oracle Corporation",
       "profile": {
         "weburl": "https://www.oracle.com/",
@@ -598,6 +598,22 @@
         "name": "Oracle Corporation"
       },
       "news": [
+        {
+          "headline": "Oracle (ORCL) Stock May Be 39% Undervalued As Nashville Buildout Starts",
+          "url": "https://finnhub.io/api/news?id=82af6326a2310c7c895b08ed5bf2e1211bfd523cdbb11b155fb774b7780e2d30",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:21:03Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "The Biggest Fear Around Oracle Could Soon End. Wall Street Sees ORCL Stock Surging 100% From Here.",
+          "url": "https://finnhub.io/api/news?id=0128fb9b6ea4fbcb6a79b45923f0adf55e38e7406526a034fe3f9b9f007f1aaa",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:28:06Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
         {
           "headline": "Why Is Oracle Spending $1.61 For Every Cash Dollar?",
           "url": "https://finnhub.io/api/news?id=450e86ed20915c3b3e988afadda85d138826734281261b977518171f3836d037",
@@ -621,22 +637,6 @@
           "published_at": "2026-11-19T15:15:00Z",
           "primary": false,
           "symbol": "ORCL"
-        },
-        {
-          "headline": "Global Job Costing Market Report 2026 | Capitalize on AI and Cloud as Market Hits $4.68 Billion by 2030 at 9.2% CAGR; Microsoft, Oracle, SAP, Intuit, and Autodesk Lead",
-          "url": "https://finnhub.io/api/news?id=0b2744c7e0a421ee3733abc16e4628ad881ca69254b4253644ae57e81c1ba12a",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:48:00Z",
-          "primary": false,
-          "symbol": "ORCL"
-        },
-        {
-          "headline": "Despite Oracle Falling 40% Year-to-Date This Wall Street Analyst Predicts 250% Returns Within a Year",
-          "url": "https://finnhub.io/api/news?id=d1a55cccb65d8de92ca298b61c8cedc783e1e0c7550e938d8cbcbe15d595461e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:45:11Z",
-          "primary": false,
-          "symbol": "ORCL"
         }
       ]
     },
@@ -654,7 +654,7 @@
         "totalDebt/totalEquityQuarterly": 1.0237,
         "marketCapitalization": 156699.19
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "Salesforce, Inc.",
       "profile": {
         "weburl": "https://www.salesforce.com/",
@@ -718,7 +718,7 @@
         "totalDebt/totalEquityQuarterly": 0.5409,
         "marketCapitalization": 88037.04
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "Adobe Inc",
       "profile": {
         "weburl": "https://www.adobe.com/",
@@ -782,7 +782,7 @@
         "totalDebt/totalEquityQuarterly": 0.5745,
         "marketCapitalization": 94032.414
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "ServiceNow, Inc.",
       "profile": {
         "weburl": "https://www.servicenow.com/",
@@ -846,7 +846,7 @@
         "totalDebt/totalEquityQuarterly": 0.0673,
         "marketCapitalization": 278316.84
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "Palo Alto Networks, Inc.",
       "profile": {
         "weburl": "https://www.paloaltonetworks.com/",
@@ -854,6 +854,14 @@
         "name": "Palo Alto Networks, Inc."
       },
       "news": [
+        {
+          "headline": "Palo Alto (PANW) Is Turning Heads Again. Here’s Why",
+          "url": "https://finnhub.io/api/news?id=ee6d31b82fe4f0831c9e8691969e08396727fdbed20b7db6afe6406e801c47da",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T02:23:36Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
         {
           "headline": "Palo Alto Networks (PANW) Stock Jumps As Q1 Results Boost ARR Confidence",
           "url": "https://finnhub.io/api/news?id=7b14878fc675c3e85b2e54a30f9ae847e41dc7365ced985bda47988aff701b92",
@@ -885,14 +893,6 @@
           "published_at": "2026-11-19T20:15:52Z",
           "primary": false,
           "symbol": "PANW"
-        },
-        {
-          "headline": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:53:57Z",
-          "primary": false,
-          "symbol": "PANW"
         }
       ]
     },
@@ -909,7 +909,7 @@
         "totalDebt/totalEquityQuarterly": 0.1463,
         "marketCapitalization": 249379.33
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "CrowdStrike Holdings, Inc.",
       "profile": {
         "weburl": "https://ir.crowdstrike.com/",
@@ -917,6 +917,14 @@
         "name": "CrowdStrike Holdings, Inc."
       },
       "news": [
+        {
+          "headline": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
+          "url": "https://finnhub.io/api/news?id=2cd9d1fd2fdd27cdf8adfbd40c375c7eb472e62504d6b4b1247eb496f00e995f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T01:27:55Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
         {
           "headline": "Why Is CrowdStrike Stock Surging Thursday?",
           "url": "https://finnhub.io/api/news?id=078325c7aed939b3af71bc544468b7bbbd64d162ebf3c619b6bd572f95b100bf",
@@ -948,14 +956,6 @@
           "published_at": "2026-11-18T21:22:25Z",
           "primary": false,
           "symbol": "CRWD"
-        },
-        {
-          "headline": "29 Big Funds Bought CrowdStrike Last Quarter, While 7 Sold. Who’s Right?",
-          "url": "https://finnhub.io/api/news?id=724783724d8f4f9f4eabdd79ca43545f56d116d76638d136aad5667e24cc5e4c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:40:08Z",
-          "primary": false,
-          "symbol": "CRWD"
         }
       ]
     },
@@ -973,7 +973,7 @@
         "totalDebt/totalEquityQuarterly": 0.0,
         "marketCapitalization": 173783.39
       },
-      "updated_at": "2026-11-20T01:16:49Z",
+      "updated_at": "2026-11-20T05:58:15Z",
       "name": "Shopify Inc.",
       "profile": {
         "weburl": "https://www.shopify.com/",
@@ -3010,6 +3010,6 @@
       ]
     }
   },
-  "cursor": 8,
-  "updated_at": "2026-11-20T05:42:10Z"
+  "cursor": 16,
+  "updated_at": "2026-11-20T05:58:15Z"
 }
