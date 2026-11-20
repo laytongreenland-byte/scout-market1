@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T05:38:05Z",
+  "generated_at": "2026-11-20T05:40:15Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T05:38:05Z",
+      "checked_at": "2026-11-20T05:40:15Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T05:38:05Z",
+      "checked_at": "2026-11-20T05:40:15Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-20T05:38:05Z",
-      "error": "9 unavailable: AAPL: SEC HTTP request rejected; check User-Agent formatting, MSFT: SEC HTTP request rejected; check User-Agent formatting, NVDA: SEC HTTP request rejected; check User-Agent formatting, GOOGL: SEC HTTP request rejected; check User-Agent formatting, AMZN: SEC HTTP request rejected; check User-Agent formatting"
+      "checked_at": "2026-11-20T05:40:15Z",
+      "error": "9 unavailable: AAPL: RuntimeError, MSFT: RuntimeError, NVDA: RuntimeError, GOOGL: RuntimeError, AMZN: RuntimeError"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T05:38:05Z",
+      "checked_at": "2026-11-20T05:40:15Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T05:38:05Z",
+      "checked_at": "2026-11-20T05:40:15Z",
       "error": ""
     }
   ],
@@ -1191,7 +1191,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T05:38:05Z",
+    "generated_at": "2026-11-20T05:40:15Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1274,35 +1274,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T23:53:40Z",
+            "timestamp": "2026-11-20T05:40:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Blue Owl Taps Wall Street For $513M To Finance Amazon Data Center",
-            "timestamp": "2026-11-19T21:50:19Z",
-            "url": "https://finnhub.io/api/news?id=b40f6a6b11503956ae36b3a5338a2abecc1acddce5f2a417b65f0ad371d68910"
+            "value": "How High Can ANT Stock Go? Wall Street Debut Sparks Valuation Debate – One Analyst Sees Amazon-Google Scale Opportunity In Anthropic",
+            "timestamp": "2026-11-20T02:23:55Z",
+            "url": "https://finnhub.io/api/news?id=0b444deb956e3539dd1fef6e6045135e63d56e729af95d8b18d954e81d8b166a"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T23:53:40Z",
+        "fundamentals_at": "2026-11-20T05:40:15Z",
         "price": 257.37,
         "currency": "USD",
         "change_pct": -3.873,
         "news": [
           {
-            "headline": "Blue Owl Taps Wall Street For $513M To Finance Amazon Data Center",
-            "url": "https://finnhub.io/api/news?id=b40f6a6b11503956ae36b3a5338a2abecc1acddce5f2a417b65f0ad371d68910",
+            "headline": "How High Can ANT Stock Go? Wall Street Debut Sparks Valuation Debate – One Analyst Sees Amazon-Google Scale Opportunity In Anthropic",
+            "url": "https://finnhub.io/api/news?id=0b444deb956e3539dd1fef6e6045135e63d56e729af95d8b18d954e81d8b166a",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:50:19Z",
+            "published_at": "2026-11-20T02:23:55Z",
             "primary": false,
             "symbol": "AMZN"
           },
           {
-            "headline": "IBD Stock Of The Day: Amazon Chases Entry As Anthropic IPO Swings AI Sentiment",
-            "url": "https://finnhub.io/api/news?id=b02f8b85f133087631c4472cb83185177df24d105095b05d2a73b8c0dab084e9",
+            "headline": "Peter Thiel Now Has as Much Money in an Argentine Oil Stock as in Amazon. It’s Down 23% Since September 30",
+            "url": "https://finnhub.io/api/news?id=9b9efd601f3651cc8ad50200fb406f8935199cd8fd1fc80867111d250c05ce6c",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:39:58Z",
+            "published_at": "2026-11-20T01:17:06Z",
             "primary": false,
             "symbol": "AMZN"
           }
@@ -1390,35 +1390,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T23:53:40Z",
+            "timestamp": "2026-11-20T05:40:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
-            "timestamp": "2026-11-19T20:24:40Z",
-            "url": "https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9"
+            "value": "Meta Platforms 'Reevaluating' 2030 Net Zero Goal as AI Buildout Strains Clean Energy Supply",
+            "timestamp": "2026-11-20T00:43:14Z",
+            "url": "https://finnhub.io/api/news?id=832d041d280ca00ab0d85cbe1186224da1e9f967ad3f38b774c3b6642cc81998"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T23:53:40Z",
+        "fundamentals_at": "2026-11-20T05:40:15Z",
         "price": 596.22,
         "currency": "USD",
         "change_pct": -3.271,
         "news": [
           {
-            "headline": "Meta trades at 21x P/E, yet shareholders face a massive new bill",
-            "url": "https://finnhub.io/api/news?id=4c978823529e3b521d8c43c053a30b1781bb985fe7c725f99fd83765d83191d9",
+            "headline": "Meta Platforms 'Reevaluating' 2030 Net Zero Goal as AI Buildout Strains Clean Energy Supply",
+            "url": "https://finnhub.io/api/news?id=832d041d280ca00ab0d85cbe1186224da1e9f967ad3f38b774c3b6642cc81998",
             "source": "Yahoo",
-            "published_at": "2026-11-19T20:24:40Z",
+            "published_at": "2026-11-20T00:43:14Z",
             "primary": false,
             "symbol": "META"
           },
           {
-            "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-            "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
+            "headline": "Apple May Try to Challenge Meta for Personal Agent Supremacy",
+            "url": "https://finnhub.io/api/news?id=d3bd1f54c91f49844eb556ea25a0a0ba7bcc6a79f066b3ae3d022a1ba916c309",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:45:22Z",
+            "published_at": "2026-11-19T23:51:00Z",
             "primary": false,
             "symbol": "META"
           }
@@ -1782,7 +1782,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.7×; TTM revenue growth 22.2% YoY",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -1796,35 +1796,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T23:53:40Z",
+            "timestamp": "2026-11-20T05:40:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
-            "timestamp": "2026-11-19T21:47:00Z",
-            "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e"
+            "value": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+            "timestamp": "2026-11-19T23:05:02Z",
+            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T23:53:40Z",
+        "fundamentals_at": "2026-11-20T05:40:15Z",
         "price": 272.66,
         "currency": "USD",
         "change_pct": -3.463,
         "news": [
           {
-            "headline": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
-            "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e",
+            "headline": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:47:00Z",
+            "published_at": "2026-11-19T23:05:02Z",
             "primary": false,
             "symbol": "GOOGL"
           },
           {
-            "headline": "Stanley Druckenmiller dumps entire $120M Alphabet stake to buy gold mining stock",
-            "url": "https://finnhub.io/api/news?id=7054e8472efb3c2ccf21afe1cebad979876786702b5f655bde12534d62fc2bb3",
+            "headline": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+            "url": "https://finnhub.io/api/news?id=761e947e45580e96816de82c91ae31a183fa7ed0ae3d4dd27e077a2e1bb60bae",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:03:00Z",
+            "published_at": "2026-11-19T22:18:30Z",
             "primary": false,
             "symbol": "GOOGL"
           }
@@ -2028,35 +2028,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T23:53:40Z",
+            "timestamp": "2026-11-20T05:40:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Microsoft well positioned to weather AI slowdown, says Jefferies after Ignite meetings",
-            "timestamp": "2026-11-19T18:30:00Z",
-            "url": "https://finnhub.io/api/news?id=10515c0238cae9ffd54c26e6f52089be7b414da4a8390748dfc7fddc22c86e63"
+            "value": "Microsoft CEO Nadella faces uncomfortable reality after outage",
+            "timestamp": "2026-11-20T03:47:00Z",
+            "url": "https://finnhub.io/api/news?id=1a012ab702ee1615ee21bf68513a11c942746bfaf5b9522649bed16b905ea14b"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T23:53:40Z",
+        "fundamentals_at": "2026-11-20T05:40:15Z",
         "price": 498.3,
         "currency": "USD",
         "change_pct": -1.965,
         "news": [
           {
-            "headline": "Microsoft well positioned to weather AI slowdown, says Jefferies after Ignite meetings",
-            "url": "https://finnhub.io/api/news?id=10515c0238cae9ffd54c26e6f52089be7b414da4a8390748dfc7fddc22c86e63",
+            "headline": "Microsoft CEO Nadella faces uncomfortable reality after outage",
+            "url": "https://finnhub.io/api/news?id=1a012ab702ee1615ee21bf68513a11c942746bfaf5b9522649bed16b905ea14b",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:30:00Z",
+            "published_at": "2026-11-20T03:47:00Z",
             "primary": false,
             "symbol": "MSFT"
           },
           {
-            "headline": "Microsoft's Satya Nadella Says Selling AI Capacity to Just One or Two Customers ‘Is Not a Business’",
-            "url": "https://finnhub.io/api/news?id=252d3ab3be3578a8c4cfb79307a3f9c7b093081fc72f10aa94643690411f5479",
+            "headline": "Microsoft reveals 80% server failure behind global outage",
+            "url": "https://finnhub.io/api/news?id=114544199ae83790949084ed5bb219114620f7c8fc010ae5510bc0fb9737272f",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:18:01Z",
+            "published_at": "2026-11-19T22:17:00Z",
             "primary": false,
             "symbol": "MSFT"
           }
@@ -2086,35 +2086,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T23:53:40Z",
+            "timestamp": "2026-11-20T05:40:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings?",
-            "timestamp": "2026-11-19T21:35:02Z",
-            "url": "https://finnhub.io/api/news?id=4584327b670259c6eac873ac0eaeb3ea95512630706dc9c997750cdd744dfbad"
+            "value": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
+            "timestamp": "2026-11-20T03:54:48Z",
+            "url": "https://finnhub.io/api/news?id=b56d56ff02059d99e6f54ee92544133669e648a260e405cc5a29b772d3b956d2"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T23:53:40Z",
+        "fundamentals_at": "2026-11-20T05:40:15Z",
         "price": 145.98,
         "currency": "USD",
         "change_pct": -3.299,
         "news": [
           {
-            "headline": "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings?",
-            "url": "https://finnhub.io/api/news?id=4584327b670259c6eac873ac0eaeb3ea95512630706dc9c997750cdd744dfbad",
+            "headline": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
+            "url": "https://finnhub.io/api/news?id=b56d56ff02059d99e6f54ee92544133669e648a260e405cc5a29b772d3b956d2",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:35:02Z",
+            "published_at": "2026-11-20T03:54:48Z",
             "primary": false,
             "symbol": "NVDA"
           },
           {
-            "headline": "Jensen Huang's Nvidia comeback: Why the math doesn't add up",
-            "url": "https://finnhub.io/api/news?id=9affe9ec240084bab3e50edba20e890a34906b650cd74a8937e4ef572bbde696",
+            "headline": "Nasdaq, Dow, S&P 500 Futures Slip As Anthropic’s Record Debut Fails To Lift AI Stocks: SLV, GLD, AMD, NVDA In Focus",
+            "url": "https://finnhub.io/api/news?id=a8b56c625f0d8da587cbb59af8bbb0baffa8ca5c6f7ab1e7370e539625a7be10",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:30:21Z",
+            "published_at": "2026-11-20T02:48:14Z",
             "primary": false,
             "symbol": "NVDA"
           }
