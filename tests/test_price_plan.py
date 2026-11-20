@@ -33,7 +33,12 @@ class PricePlanTests(unittest.TestCase):
 
     def test_watch_grade_cannot_trigger_entry(self):
         p=self.get(price=80,candidate=dict(self.candidate,status='WATCH',score=72))
-        self.assertNotEqual(p['signal'],'ENTRY CANDIDATE')
+        self.assertEqual(p['signal'],'QUALITY GATE NOT MET')
+        self.assertIn('No entry signal',p['reason'])
+
+    def test_score_just_below_gate_is_not_waiting_for_price(self):
+        p=self.get(price=80,candidate=dict(self.candidate,score=79))
+        self.assertEqual(p['signal'],'QUALITY GATE NOT MET')
 
     def test_financials_get_no_fake_pe_based_targets(self):
         c=dict(self.company,profile={'industry':'Banking'})

@@ -15,11 +15,11 @@ const badgeStatus=s=>s==='INVESTIGATE'?'investigate':s==='LOW PRIORITY'?'low':'w
 function pricePlanHtml(p,compact=false){
   if(!p)return '<div class="price-plan plan-missing">No current entry-price assessment available.</div>';
   const signal=String(p.signal||'NO RELIABLE PRICE RANGE');
-  const cls=signal==='ENTRY CANDIDATE'?'plan-entry':signal==='ABOVE BASE CASE'||signal==='POSSIBLE VALUE TRAP'?'plan-risk':signal==='WAIT FOR ENTRY'?'plan-wait':'plan-missing';
+  const cls=signal==='ENTRY CANDIDATE'?'plan-entry':signal==='ABOVE BASE CASE'||signal==='POSSIBLE VALUE TRAP'||signal==='QUALITY GATE NOT MET'?'plan-risk':signal==='WAIT FOR ENTRY'?'plan-wait':'plan-missing';
   const money=v=>typeof v==='number'&&Number.isFinite(v)&&v>0?'USD '+fmt(v):'Not available';
   let html='<section class="price-plan '+cls+'"><div class="plan-header"><strong>'+escapeHtml(signal)+'</strong><span>ILLUSTRATIVE · NOT A TRADE ORDER</span></div>';
   if(typeof p.entry_ceiling==='number'){
-    html+='<div class="plan-values"><div><span>Possible entry zone</span><strong>'+money(p.entry_floor)+' – '+money(p.entry_ceiling)+'</strong></div><div><span>Review / take-profit zone</span><strong>'+money(p.exit_review_low)+' – '+money(p.exit_review_high)+'</strong></div></div>';
+    html+='<div class="plan-values"><div><span>'+(signal==='ENTRY CANDIDATE'?'Research entry zone':signal==='QUALITY GATE NOT MET'?'Unqualified scenario zone':'Possible entry zone (not triggered)')+'</span><strong>'+money(p.entry_floor)+' – '+money(p.entry_ceiling)+'</strong></div><div><span>Review / take-profit zone</span><strong>'+money(p.exit_review_low)+' – '+money(p.exit_review_high)+'</strong></div></div>';
   }else{
     html+='<p class="plan-reason">'+escapeHtml(p.reason||'Insufficient market evidence')+'</p>';
   }
