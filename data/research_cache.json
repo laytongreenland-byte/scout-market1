@@ -1539,21 +1539,31 @@
       "metrics": {
         "52WeekHigh": 366.5,
         "52WeekLow": 279.1,
-        "peTTM": 13.1772,
+        "peTTM": 12.9031,
         "psTTM": 2.89596,
         "netProfitMarginTTM": 33.26454,
         "roeTTM": 17.91,
         "revenueGrowthTTMYoy": 108.9793,
         "epsGrowthTTMYoy": 17.88,
         "totalDebt/totalEquityQuarterly": 3.3163,
-        "marketCapitalization": 869420.0
+        "marketCapitalization": 851335.3
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "JPMorgan Chase & Co.",
       "profile": {
-        "weburl": "https://www.jpmorganchase.com"
+        "weburl": "https://www.jpmorganchase.com",
+        "industry": "Banking",
+        "name": "JPMorgan Chase & Co."
       },
       "news": [
+        {
+          "headline": "Vendor attack exposes JPMorgan Reserve cardholder emails",
+          "url": "https://finnhub.io/api/news?id=7571cedd3d4c36e218c21af790d7b5efe824a7f2f854c7399c3c299105fbfad7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:22:13Z",
+          "primary": false,
+          "symbol": "JPM"
+        },
         {
           "headline": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
           "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd",
@@ -1577,6 +1587,14 @@
           "published_at": "2026-11-19T20:15:32Z",
           "primary": false,
           "symbol": "JPM"
+        },
+        {
+          "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
+          "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:03:14Z",
+          "primary": false,
+          "symbol": "JPM"
         }
       ]
     },
@@ -1584,59 +1602,61 @@
       "metrics": {
         "52WeekHigh": 894950.0,
         "52WeekLow": 698000.0,
-        "peTTM": 14.2911,
-        "psTTM": 3.1863,
+        "peTTM": 14.1193,
+        "psTTM": 3.148,
         "netProfitMarginTTM": 22.3,
         "roeTTM": 11.87,
         "revenueGrowthTTMYoy": 3.93,
         "epsGrowthTTMYoy": 36.33,
         "currentRatioQuarterly": 1.228,
         "totalDebt/totalEquityQuarterly": 0.1719,
-        "marketCapitalization": 1225722.8
+        "marketCapitalization": 1210982.4
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "Berkshire Hathaway Inc",
       "profile": {
-        "weburl": "https://www.berkshirehathaway.com/"
+        "weburl": "https://www.berkshirehathaway.com/",
+        "industry": "Financial Services",
+        "name": "Berkshire Hathaway Inc"
       },
       "news": [
+        {
+          "headline": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
+          "url": "https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:23:00Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "Berkshire almost doubles stake in tumbling housing stock",
+          "url": "https://finnhub.io/api/news?id=e41191a6f6186b3bad7ef89476de8037dfdf71fbb363cce3de2629bf5983c2c2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:17:00Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "Warren Buffett Says Berkshire Will Never Prefer Cash Over Good Businesses. History Says Your Portfolio Shouldn't Either.",
+          "url": "https://finnhub.io/api/news?id=8632d4afae4c7e75f026c18967ec511c9bc2b2003ff415be6b1edf9cc56955e3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:50:02Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
+        {
+          "headline": "Forget Apple. Warren Buffett’s Berkshire Is Pouring Nearly $1 Billion Into This Little-Known Tech Stock.",
+          "url": "https://finnhub.io/api/news?id=68146e0e2403b4a25181685199d91b8f0fdc70fd03af1e4f4427ead61c5f5c5a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:30:03Z",
+          "primary": false,
+          "symbol": "BRK.B"
+        },
         {
           "headline": "What State Street Financial SPDR ETF (XLF) Sold: Berkshire Leads on Tuesday",
           "url": "https://finnhub.io/api/news?id=c7dc414bfb2ae44d21f936672272c964fafecdfbb2d07837aeb8dd7ac034378f",
           "source": "Yahoo",
           "published_at": "2026-11-19T11:06:15Z",
-          "primary": false,
-          "symbol": "BRK.B"
-        },
-        {
-          "headline": "What Berkshire Hathaway's Third-Quarter Report Says About Its Insurance Business",
-          "url": "https://finnhub.io/api/news?id=bb58c2c21870da32866a8d57a60c6f92bd786f487079be130efc3d853677f3a2",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T10:50:02Z",
-          "primary": false,
-          "symbol": "BRK.B"
-        },
-        {
-          "headline": "Warren Buffett Paid $1.3 Billion for Coca-Cola. Here's What It Now Pays Berkshire Hathaway in Yearly Dividends.",
-          "url": "https://finnhub.io/api/news?id=4bc321b29ec9bf3338b1e21c7cddc7c5d97a895c5f3ba7c55b59f6dcc8c330cd",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T09:25:02Z",
-          "primary": false,
-          "symbol": "BRK.B"
-        },
-        {
-          "headline": "Berkshire Hathaway (BRK.A) Stock May Be 25% Undervalued Following $9.6 Billion Buybacks",
-          "url": "https://finnhub.io/api/news?id=f8499597b7bf4abb95126ed489d28b8d7c83cf89f8942f2e6ed7dc20246b7417",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T09:08:07Z",
-          "primary": false,
-          "symbol": "BRK.B"
-        },
-        {
-          "headline": "Berkshire’s stake in this stock was worth $30B. Now it’s $8B",
-          "url": "https://finnhub.io/api/news?id=598306946a1fc36510ede9d6e218a0cdee213163a427082ff51a9079c52f23ce",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T05:03:00Z",
           "primary": false,
           "symbol": "BRK.B"
         }
@@ -1646,19 +1666,21 @@
       "metrics": {
         "52WeekHigh": 65.225,
         "52WeekLow": 46.12,
-        "peTTM": 10.515,
+        "peTTM": 10.4956,
         "psTTM": 2.32875,
         "netProfitMarginTTM": 30.15501,
         "roeTTM": 10.69,
         "revenueGrowthTTMYoy": 99.36713,
         "epsGrowthTTMYoy": 14.53,
         "totalDebt/totalEquityQuarterly": 2.3465,
-        "marketCapitalization": 337730.72
+        "marketCapitalization": 337109.72
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "Bank of America Corporation",
       "profile": {
-        "weburl": "https://www.bankofamerica.com"
+        "weburl": "https://www.bankofamerica.com",
+        "industry": "Banking",
+        "name": "Bank of America Corporation"
       },
       "news": [
         {
@@ -1684,6 +1706,22 @@
           "published_at": "2026-11-19T18:15:00Z",
           "primary": false,
           "symbol": "BAC"
+        },
+        {
+          "headline": "Viridian Therapeutics initiated at 'buy' by Bank of America with $47 price target",
+          "url": "https://finnhub.io/api/news?id=0056c996cc2df85ddca97695d6e59f26488ea6d8f63e474fa64510dcb27db55a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:48:00Z",
+          "primary": false,
+          "symbol": "BAC"
+        },
+        {
+          "headline": "Bank of America Chicago Marathon and Nike Extend Partnership Through 2036",
+          "url": "https://finnhub.io/api/news?id=eef745b73a4b6b6c504fc43bd7ae7b5c12bd777ff059ae4454bf30240de36948",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:50:00Z",
+          "primary": false,
+          "symbol": "BAC"
         }
       ]
     },
@@ -1701,10 +1739,12 @@
         "totalDebt/totalEquityQuarterly": 11.256,
         "marketCapitalization": 251855.33
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "The Goldman Sachs Group, Inc.",
       "profile": {
-        "weburl": "https://www.goldmansachs.com/"
+        "weburl": "https://www.goldmansachs.com/",
+        "industry": "Financial Services",
+        "name": "The Goldman Sachs Group, Inc."
       },
       "news": [
         {
@@ -1730,6 +1770,22 @@
           "published_at": "2026-11-19T15:50:26Z",
           "primary": false,
           "symbol": "GS"
+        },
+        {
+          "headline": "Goldman Sachs sends a signal investors can't ignore for 2027",
+          "url": "https://finnhub.io/api/news?id=96fc908c9ac8a0eac082309914a533f34eb500fa0c052e411f77f739d774b503",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:07:00Z",
+          "primary": false,
+          "symbol": "GS"
+        },
+        {
+          "headline": "Goldman Sachs, Morgan Stanley set to reap $113 million from Anthropic IPO",
+          "url": "https://finnhub.io/api/news?id=25b8fc9a96e652b5e0fd9c1a5ce7f99553d752e51eaeaf501992a8d4c42d3c8b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:49:33Z",
+          "primary": false,
+          "symbol": "GS"
         }
       ]
     },
@@ -1737,22 +1793,56 @@
       "metrics": {
         "52WeekHigh": 461.62,
         "52WeekLow": 255.97,
-        "peTTM": 21.4571,
-        "psTTM": 0.758,
+        "peTTM": 18.2221,
+        "psTTM": 0.6437,
         "netProfitMarginTTM": 3.53,
         "roeTTM": 16.1,
         "revenueGrowthTTMYoy": 3.33,
         "epsGrowthTTMYoy": -8.59,
         "currentRatioQuarterly": 0.7762,
         "totalDebt/totalEquityQuarterly": 0.7138,
-        "marketCapitalization": 340824.47
+        "marketCapitalization": 289440.16
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "UnitedHealth Group Incorporated",
       "profile": {
-        "weburl": "https://www.unitedhealthgroup.com"
+        "weburl": "https://www.unitedhealthgroup.com",
+        "industry": "Health Care",
+        "name": "UnitedHealth Group Incorporated"
       },
       "news": [
+        {
+          "headline": "Bernstein’s $500 Target Says UnitedHealth’s Selloff Went Too Far",
+          "url": "https://finnhub.io/api/news?id=344325c6d9ca90facc6349f73e8de561b8c76e484570de58b9066d9b821f91f6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:37:37Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "UnitedHealth Stock Continues Slide on Medicare for All Push. What Lies Ahead for Insurers.",
+          "url": "https://finnhub.io/api/news?id=19877dd53d0d22b6528435d9cd1aa77664386c7b086b5355d7321858e79bcd00",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:54:00Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "Dow Jones Losers Today: NIKE and UnitedHealth Lead Declines",
+          "url": "https://finnhub.io/api/news?id=764a49d7747e3d89111c720cc2e3ed6b4fcd0e72e6268381837376f4b640bb41",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T20:10:56Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
+        {
+          "headline": "Dow Jones Decliners: UNH, NKE, CAT Lead Today's Session",
+          "url": "https://finnhub.io/api/news?id=b6162d886ac583e3fa73417f71ed6a81fb35f3b2fc24e5365a930308760a2b6d",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T17:41:08Z",
+          "primary": false,
+          "symbol": "UNH"
+        },
         {
           "headline": "Managed Care and Pharmacy Benefit Scale Keep UnitedHealth Group (UNH) Attractively Valued",
           "url": "https://finnhub.io/api/news?id=07674e667d47b60c62a4e0c27fc4e725dc25c42df7ac005f7e7927d28fd27014",
@@ -1767,22 +1857,65 @@
       "metrics": {
         "52WeekHigh": 290.2495,
         "52WeekLow": 198.53,
-        "peTTM": 41.1494,
-        "psTTM": 6.6673,
+        "peTTM": 39.7509,
+        "psTTM": 6.4407,
         "netProfitMarginTTM": 16.2,
         "roeTTM": 19.55,
         "revenueGrowthTTMYoy": 7.8,
         "epsGrowthTTMYoy": -36.41,
         "currentRatioQuarterly": 1.0161,
         "totalDebt/totalEquityQuarterly": 0.5477,
-        "marketCapitalization": 662299.25
+        "marketCapitalization": 639790.9
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "Johnson & Johnson",
       "profile": {
-        "weburl": "https://www.jnj.com/"
+        "weburl": "https://www.jnj.com/",
+        "industry": "Pharmaceuticals",
+        "name": "Johnson & Johnson"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Johnson & Johnson Delivered 'Immaculate' Prostate Cancer Data at ESMO. Here's Why Investors Should Care",
+          "url": "https://finnhub.io/api/news?id=0278945ce74d73a6c4332a188184624ec6f582d790f00a9613f6bb94e646dd1a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:05:00Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "What Does Johnson & Johnson (JNJ) Appeal Loss Mean For Investors?",
+          "url": "https://finnhub.io/api/news?id=03470eb2e34a46b857ece6cf16474600ff07041cf472b390bd2c4620e63d8798",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:17:45Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "Johnson & Johnson Begins Ottava Surgical Robot Rollout With First Hospital Installation in Texas",
+          "url": "https://finnhub.io/api/news?id=9a816f438dd8b36e0e791966a59ab7afe79d5921cbd84eb7fbec173560b3ba3b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:27:13Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "Johnson & Johnson Announces First Commercial Installation of the OTTAVA™ Robotic Surgical System at Memorial Hermann Health System",
+          "url": "https://finnhub.io/api/news?id=30a51a760b2fb80b94f6299ab48a563d2a55009f195fc75fdc7dca73217a67a0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:51:00Z",
+          "primary": false,
+          "symbol": "JNJ"
+        },
+        {
+          "headline": "Johnson & Johnson Seeks U.S. FDA Approval for CAPLYTA in Bipolar Mania, Marking Fifth Potential Indication",
+          "url": "https://finnhub.io/api/news?id=2d380f5accf1d614df7418c5c0cc9f7ca69cbdaa0af5e9e9570f9a670b1546fc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "JNJ"
+        }
+      ]
     },
     "ABBV": {
       "metrics": {
@@ -1798,10 +1931,12 @@
         "totalDebt/totalEquityQuarterly": 49.2176,
         "marketCapitalization": 505555.94
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "AbbVie Inc.",
       "profile": {
-        "weburl": "https://www.abbvie.com/"
+        "weburl": "https://www.abbvie.com/",
+        "industry": "Biotechnology",
+        "name": "AbbVie Inc."
       },
       "news": [
         {
@@ -1817,6 +1952,30 @@
           "url": "https://finnhub.io/api/news?id=821c85dc0d45c2a407fe6c9c55e56eef58dae4f71c6aab3272530165f467d11f",
           "source": "Yahoo",
           "published_at": "2026-11-19T15:33:40Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "DISCO Pharmaceuticals Announces Strategic Collaboration with AbbVie to Advance Next-Generation AND-Gated Bispecific Therapeutics for Solid Tumors",
+          "url": "https://finnhub.io/api/news?id=421e9c488a3963f1a44fb83cc0145c3e0de740de9ee3b243c9ba9394b1bd5c47",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:00:00Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "AbbVie, DISCO Pharmaceuticals Team Up On AND-Gated Bispecific Solid Tumor Therapeutics Using DISCOtech Platform; Deal Carries $40M Upfront, Up To $2.5B Milestones",
+          "url": "https://finnhub.io/api/news?id=c530e48f73a5dab2fceb8ee1e27fdb7fc7b99a3f11cec9c0496c838b00ac70a8",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T03:38:13Z",
+          "primary": false,
+          "symbol": "ABBV"
+        },
+        {
+          "headline": "How Did AbbVie's Neuroscience Franchise Perform in Q3?",
+          "url": "https://finnhub.io/api/news?id=0d6f64642075a9d098b2f36519d660d9efc8294dd21abc5fa2da5928b59f1c5f",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T17:03:00Z",
           "primary": false,
           "symbol": "ABBV"
         }
@@ -1836,12 +1995,30 @@
         "totalDebt/totalEquityQuarterly": 1.2292,
         "marketCapitalization": 1300815.1
       },
-      "updated_at": "2026-11-19T22:13:01Z",
+      "updated_at": "2026-11-20T04:01:51Z",
       "name": "Eli Lilly and Company",
       "profile": {
-        "weburl": "https://www.lilly.com/"
+        "weburl": "https://www.lilly.com/",
+        "industry": "Pharmaceuticals",
+        "name": "Eli Lilly and Company"
       },
       "news": [
+        {
+          "headline": "Jefferies Has Wall Street’s Highest Target on Eli Lilly (LLY). Why?",
+          "url": "https://finnhub.io/api/news?id=1cb817c97feff148a343f791255169b4c4d072108e0eaf21bffecd766090a065",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:33:46Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
+        {
+          "headline": "Sanofi and Regeneron’s rare disease wins; Lilly’s dealmaking dance",
+          "url": "https://finnhub.io/api/news?id=f5164a01cbe750265dce9285cd8f59278ee714e0a5c89b18131a334a099c61d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:52:13Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
         {
           "headline": "Eli Lilly (LLY) – The Only Healthcare Name in Ken Fisher’s Fastest-Growing Top Positions",
           "url": "https://finnhub.io/api/news?id=8c4a7a48d9bffe78ea8eb8589ee589fb9a9fbf17ac51f6ed4a17fc88e8a43a2e",
@@ -1855,6 +2032,14 @@
           "url": "https://finnhub.io/api/news?id=053647133e25bcfd0a4e91b82ce148fe5a99658d53ebcb1aeeb6bce57612e791",
           "source": "Yahoo",
           "published_at": "2026-11-19T18:17:41Z",
+          "primary": false,
+          "symbol": "LLY"
+        },
+        {
+          "headline": "Sector Rotation Dragged Eli Lilly (LLY) Down in Q3 Despite Intact Momentum",
+          "url": "https://finnhub.io/api/news?id=5ad669cea129969f89093a22967197a0fda75308fcead088cddd9f1949ef89f8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:43:16Z",
           "primary": false,
           "symbol": "LLY"
         }
@@ -2825,6 +3010,6 @@
       ]
     }
   },
-  "cursor": 24,
-  "updated_at": "2026-11-20T02:24:26Z"
+  "cursor": 32,
+  "updated_at": "2026-11-20T04:01:51Z"
 }
