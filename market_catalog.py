@@ -21,6 +21,8 @@ ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'data'/'market_catalog.json'
 NOW=datetime.now(timezone.utc)
 FRESH_DAYS=7
+ASX_DIRECTORY='https://www.asx.com.au/asx/research/ASXListedCompanies.csv'
+NZX_DIRECTORY='https://nzxplorer.co.nz/api/v1/companies'
 MAX_BYTES=4_000_000
 SOURCES={
     'NASDAQ':'https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt',
@@ -97,7 +99,101 @@ def parse_listing(source,payload):
         unique.append(item)
     return unique
 
-def build(fetcher=fetch_source,now=None):
+
+def fetch_apac(url,key=None):
+    if url not in (ASX_DIRECTORY,NZX_DIRECTORY):
+        raise ValueError('Unapproved exchange source')
+    headers={'User-Agent':'ScoutMarketDiscovery/1.0 (personal investment research)'}
+    if key:
+        headers['X-API-Key']=key
+    req=urllib.request.Request(url,headers=headers)
+    with urllib.request.urlopen(req,timeout=18) as response:
+        content=response.read(MAX_BYTES+1)
+    if len(content)>MAX_BYTES:
+        raise ValueError('APAC directory too large')
+    return content
+
+def parse_asx(payload):
+    """ASX public listed-company CSV; discovery only, not current prices."""
+    if len(payload)>MAX_BYTES:
+        raise ValueError('ASX CSV too large')
+    content=payload.decode('utf-8-sig')
+    lines=content.splitlines()
+    header=next((i for i,line in enumerate(lines[:12])
+                 if 'ASX code' in line and 'Company name' in line),None)
+    if header is None:
+        raise ValueError('ASX CSV header missing')
+    table=csv.DictReader(io.StringIO('\n'.join(lines[header:])))
+    result=[]
+    seen=set()
+    for entry in table:
+        code=str(entry.get('ASX code') or '').strip().upper()
+        name=str(entry.get('Company name') or '').strip()[:160]
+        if not re.fullmatch(r'[A-Z0-9]{2,6}',code) or not name or code in seen:
+            continue
+        seen.add(code)
+        result.append({'symbol':code,'name':name,'exchange':'ASX','market':'ASX','type':'SHARE'})
+    if not 900<=len(result)<=4000:
+        raise ValueError('ASX directory count outside validation range')
+    return sorted(result,key=lambda x:x['symbol'])
+
+def parse_nzx(payload):
+    """NZXplorer authenticated company list; reject partial/ambiguous responses."""
+    if len(payload)>MAX_BYTES:
+        raise ValueError('NZX response too large')
+    document=json.loads(payload)
+    data=document.get('data') if isinstance(document,dict) else document
+    if isinstance(data,dict):
+        data=data.get('companies') or data.get('results') or data.get('items')
+    if not isinstance(data,list):
+        raise ValueError('Unexpected NZX company schema')
+    output=[]
+    seen=set()
+    for entry in data:
+        if not isinstance(entry,dict):
+            continue
+        ticker=str(entry.get('ticker') or entry.get('symbol') or '').strip().upper()
+        name=str(entry.get('name') or entry.get('company_name') or '').strip()[:160]
+        if not re.fullmatch(r'[A-Z0-9]{2,6}',ticker) or not name or ticker in seen:
+            continue
+        seen.add(ticker)
+        output.append({'symbol':ticker,'name':name,'exchange':'NZX','market':'NZX','type':'SHARE'})
+    if not 80<=len(output)<=350:
+        raise ValueError('NZX response may be paginated or incomplete')
+    return sorted(output,key=lambda x:x['symbol'])
+
+def apac_discovery(old=None):
+    """Each region fails independently; retain previously validated per-market data."""
+    old=old if isinstance(old,dict) else {}
+    old_items=old.get('items',[])
+    old_markets=old.get('markets',{})
+    items=[]
+    markets={}
+    sources={}
+    definitions=[
+        ('ASX',ASX_DIRECTORY,None,parse_asx),
+        ('NZX',NZX_DIRECTORY,os.environ.get('NZXPLORER_API_KEY'),parse_nzx),
+    ]
+    for market,url,key,parser in definitions:
+        prior=[x for x in old_items if isinstance(x,dict) and x.get('market')==market]
+        try:
+            if market=='NZX' and not key:
+                raise ValueError('NZXPLORER_API_KEY not configured')
+            fresh=parser(fetch_apac(url,key))
+            chosen=fresh
+            status='DISCOVERED'
+            note='Company directory verified; prices and fundamentals NOT connected'
+            sources[market]={'ok':True,'count':len(fresh),'url':url}
+        except Exception as exc:
+            chosen=prior
+            status='STALE_DIRECTORY' if prior else 'NOT_CONNECTED'
+            note=type(exc).__name__+': directory unavailable; prices and fundamentals NOT connected'
+            sources[market]={'ok':False,'count':len(prior),'url':url,'note':note}
+        items.extend(chosen)
+        markets[market]={'status':status,'listed_in_directory':len(chosen),'notes':note}
+    return items,markets,sources
+
+def build(fetcher=fetch_source,now=None,old=None):
     now=now or NOW
     collected=[]
     source_status={}
@@ -121,10 +217,13 @@ def build(fetcher=fetch_source,now=None):
             continue
         seen.add(row['symbol'])
         items.append(row)
-    items.sort(key=lambda row:row['symbol'])
+    apac_items,apac_markets,apac_sources=apac_discovery(old)
+    items.extend(apac_items)
+    source_status.update(apac_sources)
+    items.sort(key=lambda row:(row['market'],row['symbol']))
     status='READY' if all(s['ok'] for s in source_status.values()) else 'PARTIAL' if items else 'UNAVAILABLE'
     return {
-        'schema_version':1,
+        'schema_version':2,
         'generated_at':stamp(now),
         'status':status,
         'platform':'Sharesies NZ (target only, availability NOT verified)',
@@ -135,10 +234,7 @@ def build(fetcher=fetch_source,now=None):
             'US':{'status':'DISCOVERED' if items else 'UNAVAILABLE',
                   'listed_in_directory':len(items),
                   'notes':'US securities listed on covered exchanges; actual Sharesies availability unknown'},
-            'ASX':{'status':'NOT_CONNECTED','listed_in_directory':0,
-                   'notes':'Reliable licensed/reference directory and usable price feed not connected'},
-            'NZX':{'status':'NOT_CONNECTED','listed_in_directory':0,
-                   'notes':'Reliable complete current instrument directory and usable price feed not connected'},
+            **apac_markets,
         },
         'sources':source_status,
         'counts':{
@@ -151,7 +247,7 @@ def build(fetcher=fetch_source,now=None):
         'cautions':[
             'This is a market DISCOVERY catalogue only; it does not fetch prices or recommend anything.',
             'Exchange-listed does not mean available on Sharesies. Check broker availability before any purchase.',
-            'US listings are not the entire Sharesies catalogue; ASX and NZX remain unconnected.',
+            'Directory discovery is not the full Sharesies catalogue; APAC prices and financial screening remain unconnected.',
             'Not every listed security is an ordinary company share: many are ETFs, warrants, units or preferred stocks.',
             'No credentials, orders, Sharesies account access or existing trade history are affected.'
         ],
@@ -167,12 +263,12 @@ def main():
             old=json.loads(OUT.read_text())
         except (json.JSONDecodeError,OSError):
             old=None
-    if os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and old.get('status')=='READY':
+    if os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and old.get('schema_version')==2 and old.get('status')=='READY':
         at=parse_date(old.get('generated_at'))
         if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS):
             print('Exchange catalogue is recent; keeping verified existing file')
             return 0
-    result=build()
+    result=build(old=old)
     if result['status']!='READY' and old and old.get('status')=='READY':
         print('WARN: Exchange directory refresh incomplete; preserving last complete catalogue',file=sys.stderr)
         return 0
