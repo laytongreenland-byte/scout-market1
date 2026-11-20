@@ -2,7 +2,9 @@
 """Scout: public, best-effort research-feed collection; does NOT issue trade advice."""
 from __future__ import annotations
 
+import csv
 import hashlib
+import io
 import json
 import os
 import re
@@ -31,6 +33,9 @@ UTC = timezone.utc
 NOW = datetime.now(UTC)
 NZX_FEED = 'https://nzxplorer.co.nz/rss/announcements'
 FED_FEED = 'https://www.federalreserve.gov/feeds/press_all.xml'
+SP500_CSV = 'https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv'
+# Avoid known obsolete symbols returned by an outdated third-party index snapshot.
+OBSOLETE_SYMBOLS = {'AVB','MMC','EQR','WBD'}
 
 
 def stamp(dt: datetime | None) -> str | None:
@@ -76,6 +81,31 @@ def fetch(url: str, *, sec=False) -> bytes:
     })
     with urllib.request.urlopen(req, timeout=22) as r:
         return r.read(4_000_000)
+
+
+def discover_sp500(fetcher=fetch) -> list[str]:
+    """Best-effort major-company discovery from a public index constituent CSV.
+
+    An additional, unverified feed does not silently become an investable signal.
+    An invalid or missing list is rejected in full, with the configured
+    curated watchlist retained as the reliable fallback.
+    """
+    raw = fetcher(SP500_CSV)
+    if len(raw) > 2_000_000:
+        raise ValueError('S&P 500 CSV unexpectedly large')
+    rows = list(csv.DictReader(io.StringIO(raw.decode('utf-8-sig'))))
+    if not 470 <= len(rows) <= 540 or not all('Symbol' in row for row in rows):
+        raise ValueError('S&P 500 constituent list has unexpected schema or count')
+    names = []
+    for row in rows:
+        symbol = str(row.get('Symbol') or '').strip().upper()
+        if symbol in OBSOLETE_SYMBOLS or not re.fullmatch(r'[A-Z][A-Z0-9.]{0,6}', symbol):
+            continue
+        names.append(symbol)
+    unique = list(dict.fromkeys(names))
+    if len(unique) < 455:
+        raise ValueError('Too few valid S&P 500 tickers to expand coverage safely')
+    return unique
 
 
 def feed_items(data: bytes) -> list[dict]:
@@ -245,8 +275,19 @@ def priority_events(events: list[dict]) -> list[dict]:
 def main() -> None:
     config = json.loads(CONFIG.read_text())
     previous = json.loads(DATA.read_text()) if DATA.exists() else {}
-    # Bounded, verified watch universe; avoid silently ignoring most configured symbols.
-    symbols = list(dict.fromkeys(config.get('us_symbols', [])))[:340]
+    core_symbols = list(dict.fromkeys(config.get('us_symbols', [])))
+    index_added, index_error, index_checked = 0, '', False
+    expanded = []
+    if os.environ.get('SCOUT_OFFLINE') != '1':
+        try:
+            expanded = discover_sp500()
+            index_checked = True
+        except Exception as e:
+            index_error = type(e).__name__ + ': S&P 500 list unavailable; curated fallback in use'
+    # Preserve existing curated names first, then include index stocks.
+    # A bounded aggregate prevents indefinite API scans on a free plan.
+    symbols = list(dict.fromkeys(core_symbols + expanded))[:720]
+    index_added = len(set(symbols)-set(core_symbols))
     etfs = [s for s in config.get('etf_symbols', []) if s in symbols]
     sources, events = [], []
     def source(name, ok, count, error=''):
@@ -336,7 +377,12 @@ def main() -> None:
             'etf_symbols':len(etfs), 'quotes_fresh_this_scan':good_quotes,
             'quotes_unavailable_or_unverified':len(symbols)-good_quotes,
             'financially_screened':research.get('screened_with_financials',0),
-            'universe_note':config.get('universe_description','Curated sample, not the full market'),
+            'sp500_constituents_source':'Community maintained public S&P 500 constituents CSV; may lag index changes',
+            'sp500_discovery_checked':index_checked,
+            'sp500_additional_symbols':index_added,
+            'sp500_discovery_warning':index_error,
+            'universe_note':config.get('universe_description','Curated sample, not the full market')+
+                (' plus a best-effort S&P 500 constituent scan' if index_checked else '; index expansion unavailable'),
             'nzx_prices_available':False,
         },
         'sources': sources, 'tracked_symbols': symbols,
