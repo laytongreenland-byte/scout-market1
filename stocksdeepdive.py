@@ -75,7 +75,7 @@ def get(path):
 def entries(value):
     if isinstance(value, list): return value
     if not isinstance(value, dict): return []
-    for key in ("results", "rows", "stocks", "items", "rankings", "data",
+    for key in ("results", "rows", "stocks", "items", "rankings", "points", "data",
                 "companies", "scan", "tickers"):
         sub = value.get(key)
         if isinstance(sub, list): return sub
