@@ -4,7 +4,7 @@
 const ScoutMarket=(()=>{
   const $=id=>document.getElementById(id);
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  let catalog=null,latest=null,query='',type='all';
+  let catalog=null,latest=null,apac=null,query='',type='all';
   const count=n=>Number(n||0).toLocaleString('en-NZ');
   function render(){
     const stats=$('market-directory-stats'),markets=$('market-directory-markets');
@@ -32,8 +32,10 @@ const ScoutMarket=(()=>{
     const matches=catalog.items.filter(x=>(type==='all'||x.type===type)&&
       ((x.symbol||'').toLowerCase().includes(query)||(x.name||'').toLowerCase().includes(query)));
     const shown=matches.slice(0,35);
+    const quotes=new Map((apac?.quotes||[]).filter(q=>q&&q.market&&q.symbol&&q.price_type==='EOD'&&q.research_only===true).map(q=>[q.market+':'+q.symbol,q]));
     list.innerHTML=shown.map(x=>'<div class="market-directory-row"><div><strong>'+esc(x.symbol)+'</strong>'+
-      '<p>'+esc(x.name||'Unknown security')+'</p></div><small>'+esc(x.exchange)+' · '+esc(x.type)+'</small></div>').join('')+
+      '<p>'+esc(x.name||'Unknown security')+'</p></div><small>'+esc(x.exchange)+' · '+esc(x.type)+\
+      (quotes.has(x.market+':'+x.symbol)?' · EOD '+esc(quotes.get(x.market+':'+x.symbol).currency)+' '+esc(quotes.get(x.market+':'+x.symbol).close)+' ('+esc(quotes.get(x.market+':'+x.symbol).date)+')':'')+'</small></div>').join('')+
       '<div class="market-directory-message">'+(matches.length?count(matches.length)+' exchange listings matched. Showing first '+shown.length+'.':'No matching securities in the available exchange directory.')+'</div>';
   }
   async function load(){
@@ -47,6 +49,10 @@ const ScoutMarket=(()=>{
     }catch{
       catalog=null;
     }
+    try{
+      const response=await fetch('./data/apac.json?nocache='+Date.now(),{cache:'no-store'});
+      if(response.ok){const v=await response.json();if(v&&Array.isArray(v.quotes))apac=v}
+    }catch{apac=null}
     render();
   }
   function setup(){
