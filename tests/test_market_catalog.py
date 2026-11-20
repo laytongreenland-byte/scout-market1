@@ -72,6 +72,29 @@ class MarketCatalogTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             mc.parse_nzx(json.dumps({'data':rows + [{'ticker':'Z999','name':'extra'}]}).encode())
 
+    def test_us_count_does_not_include_asx_or_nzx(self):
+        m={mc.SOURCES["NASDAQ"]:listings("NASDAQ"),mc.SOURCES["OTHER_US"]:listings("OTHER_US")}
+        asx=[{"market":"ASX","symbol":"BHP","name":"BHP","type":"SHARE","exchange":"ASX"}]
+        with patch.object(mc,"apac_discovery",return_value=(asx,{
+              "ASX":{"status":"DISCOVERED","listed_in_directory":1},
+              "NZX":{"status":"NOT_CONNECTED","listed_in_directory":0}},{})):
+            report=mc.build(lambda url:m[url],NOW)
+        self.assertEqual(report["markets"]["US"]["listed_in_directory"],
+                         sum(1 for x in report["items"] if x["market"]=="US"))
+        self.assertEqual(report["counts"]["listed_total"],
+                         report["markets"]["US"]["listed_in_directory"]+1)
+
+    def test_recent_failed_nzx_check_is_not_repeated_hourly(self):
+        now=mc.NOW
+        prior={"schema_version":2,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
+               "markets":{"NZX":{"status":"NOT_CONNECTED","last_attempt_at":mc.stamp(now-timedelta(hours=2))}}}
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)/"market_catalog.json"
+            path.write_text(json.dumps(prior))
+            with patch.object(mc,"OUT",path),patch.dict("os.environ",{"NZXPLORER_API_KEY":"dummy"},clear=False),patch.object(mc,"build",side_effect=AssertionError("retried too early")):
+                self.assertEqual(mc.main(),0)
+            self.assertEqual(json.loads(path.read_text()),prior)
+
     def test_failure_is_explicit_not_silently_full(self):
         with patch.object(mc,'fetch_apac',side_effect=TimeoutError('offline during test')):
             out=mc.build(lambda url:listings('NASDAQ') if url==mc.SOURCES['NASDAQ'] else (_ for _ in ()).throw(TimeoutError()),NOW)
