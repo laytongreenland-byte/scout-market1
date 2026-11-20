@@ -59,7 +59,13 @@ class UniverseCoverageTests(unittest.TestCase):
 
     def test_compass_and_cache_are_published(self):
         workflow = (ROOT / ".github/workflows/scan.yml").read_text()
-        self.assertIn("cp index.html style.css app.js compass.js", workflow)
+        # GitHub Pages publishes root files directly; scanner must not duplicate deployment.
+        self.assertNotIn("actions/deploy-pages@", workflow)
+        self.assertNotIn("actions/upload-pages-artifact@", workflow)
+        self.assertIn("git add data/stocksdeepdive.json data/apac.json", workflow)
+        self.assertTrue((ROOT / ".nojekyll").exists())
+        self.assertTrue((ROOT / "compass.js").exists())
+        self.assertTrue((ROOT / "data" / "research_cache.json").exists())
         html = (ROOT / "index.html").read_text()
         self.assertIn('<script src="./compass.js" defer></script>', html)
         self.assertLess(html.index('src="./compass.js"'), html.index('src="./app.js"'))
