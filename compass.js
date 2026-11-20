@@ -40,17 +40,55 @@ const ScoutCompass=(()=>{
     const screened=cov.financially_screened??r.screened_with_financials??0;
     el('coverage-grid').innerHTML=[[count,'Tracked assets'],[priced,'Recent quotes'],[screened,'Company screens']].map(v=>'<div><strong>'+safe(v[0])+'</strong><span>'+safe(v[1])+'</span></div>').join('');
     el('coverage-disclaimer').textContent='Curated, not the entire market. '+(cov.etf_symbols??0)+' ETFs and '+(cov.equity_symbols??0)+' shares. A quote is NOT a company analysis; many companies are screened on a rotating schedule.';
-    if(entries.length){
-      const top=entries[0];
-      el('compass-check').textContent='PRELIMINARY · VERIFY';
-      el('compass-title').textContent=entries.length+' potential entry research candidate'+(entries.length===1?'':'s');
-      el('compass-explain').textContent=top.symbol+': '+explainCandidate(top)+' A model screen is not a buy instruction.';
-      el('compass-meta').textContent='Based on '+(r.screened_with_financials||0)+' screened companies · forecasts not yet independently validated';
+    // Never promote a price level unless the stock meets existing quality
+    // gates, its quote is recent, and both entry and exit levels are present.
+    const candidatePool=entries.length?entries:(r.candidates||[]).filter(c=>
+      c.status==='INVESTIGATE' && c.score>=80 &&
+      c.price_plan?.signal==='WAIT FOR ENTRY');
+    const currentEnough=c=>c&&typeof c.price==='number'&&c.price>0&&
+      typeof c.price_plan?.entry_ceiling==='number'&&c.price_plan.entry_ceiling>0&&
+      typeof c.price_plan?.exit_review_low==='number'&&c.price_plan.exit_review_low>c.price_plan.entry_ceiling&&
+      ageHours(c.as_of)<=75 && ageHours(data.generated_at)<=24;
+    const choice=candidatePool.filter(currentEnough).sort((a,b)=>{
+      if(entries.length)return (b.score||0)-(a.score||0);
+      // Prefer a financially qualified business closest to its entry ceiling.
+      const delta=c=>c.price/c.price_plan.entry_ceiling;
+      return delta(a)-delta(b)||((b.score||0)-(a.score||0));
+    })[0];
+    const priceBox=el('scout-decision-prices');
+    if(choice){
+      const plan=choice.price_plan;
+      const buyReady=plan.signal==='ENTRY CANDIDATE';
+      const goodReasons=(choice.why||'').split(';').map(x=>x.trim()).filter(Boolean).slice(0,2);
+      const natural=x=>{
+        const text=x.replace(/\s*\(TTM\)/g,'').trim();
+        return text.replace(/^Net profit margin\s+/i,'a net profit margin of ')
+          .replace(/^Return on equity\s+/i,'a return on equity of ')
+          .replace(/^Trailing P\/E\s+/i,'a trailing P/E of ')
+          .replace(/^TTM revenue growth\s+/i,'revenue growth of ');
+      };
+      const plainReasons=goodReasons.length>=2?
+        natural(goodReasons[0])+' and '+natural(goodReasons[1]):
+        goodReasons.length?natural(goodReasons[0]):'its financial results currently meet Scout’s quality screen';
+      el('compass-check').textContent=buyReady?'RESEARCH BUY CASE':'WAIT — NOT A BUY';
+      el('compass-title').textContent=choice.symbol+(buyReady?' — worth considering at this price':' — I would wait for a better price');
+      el('compass-explain').textContent=
+        'Scout likes this business because of '+plainReasons+'. '+
+        (buyReady?'The current quote meets its estimated entry limit.':'But its latest price is above the amount Scout would consider paying.');
+      priceBox.hidden=false;
+      el('scout-latest-price').textContent='USD '+nzd(choice.price);
+      el('scout-buy-price').textContent='USD '+nzd(plan.entry_ceiling)+' or less';
+      el('scout-sell-price').textContent='USD '+nzd(plan.exit_review_low);
+      el('scout-risk').textContent='Main risk: '+((choice.risks||[])[0]||'The business or market may decline')+
+        '. Downside scenario: USD '+nzd(plan.bear_case)+'.';
+      el('compass-meta').textContent='Prices are unvalidated model estimates, not guaranteed returns or trade instructions. Quote '+nzTime(choice.as_of)+'. Prices in USD; fees and FX extra.';
     }else{
-      el('compass-check').textContent='NO QUALIFIED ENTRY';
-      el('compass-title').textContent='No compelling purchase case right now';
-      el('compass-explain').textContent='None of '+screened+' financially screened companies currently passes both the business and purchase-price gates. Doing nothing is a valid outcome.';
-      el('compass-meta').textContent=screened<(cov.equity_symbols??screened)?'Research still expanding: financial statements are checked in rotating batches.':'Scout has not established any predictive track record.';
+      el('compass-check').textContent='NOTHING TO BUY';
+      el('compass-title').textContent='I would not buy anything from this screen today.';
+      el('compass-explain').textContent='Scout has reviewed '+screened+' companies, but none currently has both a strong business case and a trustworthy purchase price that passes the checks. I would wait rather than guess.';
+      priceBox.hidden=true;
+      el('scout-risk').textContent='';
+      el('compass-meta').textContent='No guaranteed prediction is possible. Data may be incomplete, stale or missing; the learning model has not yet proved an advantage.';
     }
     refreshCost();
   }

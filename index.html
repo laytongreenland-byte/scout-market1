@@ -18,14 +18,21 @@
     </header>
     <main>
       <section class="tab-panel active" id="tab-overview" aria-labelledby="nav-overview">
-        <div class="intro"><div class="eyebrow">SCOUT COMPASS · PRACTICAL INVESTING RESEARCH</div><h1>Know when to<br><em>do nothing.</em></h1><p>Simple decisions. Real evidence. Your money, your pace.</p></div>
+        <div class="intro"><div class="eyebrow">SCOUT · YOUR INVESTMENT ASSISTANT</div><h1>What would<br><em>Scout do?</em></h1><p>One clear opinion, with reasons and a price. Or a clear reason to wait.</p></div>
         <div class="card compass-hero" aria-live="polite">
-          <div class="flex-between"><span class="mini-label">THE SHORT ANSWER</span><span class="mini-label" id="compass-check">Analysing</span></div>
-          <div class="compass-title" id="compass-title">Checking investment opportunities…</div>
-          <p id="compass-explain" class="compass-explain">Scout will only highlight a company when its business and price checks both pass.</p>
-          <div class="compass-meta" id="compass-meta">Unverified signals are never shown as buying advice.</div>
-          <button class="compass-action" data-goto="research" type="button">Understand the decision →</button>
+          <div class="flex-between"><span class="mini-label">SCOUT'S VIEW</span><span class="mini-label" id="compass-check">Analysing</span></div>
+          <div class="compass-title" id="compass-title">Checking the market…</div>
+          <p id="compass-explain" class="compass-explain">Looking for a strong company at a reasonable price.</p>
+          <div id="scout-decision-prices" class="decision-prices" hidden>
+            <div><span>Latest price</span><strong id="scout-latest-price">—</strong></div>
+            <div><span>Price worth considering</span><strong id="scout-buy-price">—</strong></div>
+            <div><span>Review selling near</span><strong id="scout-sell-price">—</strong></div>
+          </div>
+          <p class="decision-risk" id="scout-risk"></p>
+          <div class="compass-meta" id="compass-meta">Illustrative research, not guaranteed price targets.</div>
+          <button class="compass-action" data-goto="research" type="button">Show me the supporting research →</button>
         </div>
+        <details class="scout-more"><summary>More information and market details</summary>
         <div class="coverage-grid" id="coverage-grid">
           <div><strong>—</strong><span>Tracked</span></div>
           <div><strong>—</strong><span>Prices</span></div>
@@ -51,9 +58,10 @@
         <div id="priorities"><div class="empty-state card"><div class="empty-icon">◎</div><strong>No unverified buying tips</strong><p>When the scanner runs, high-interest developments appear here for investigation. Nothing is labelled a buy without sufficient evidence.</p></div></div>
         <div class="section-title"><h2>Latest disclosures</h2><button class="text-action" data-goto="signals" type="button">View all →</button></div>
         <div id="latest-events" class="stack"></div>
+        </details>
       </section>
       <section class="tab-panel" id="tab-research" aria-labelledby="nav-research">
-        <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunity desk</h1><p>What looks interesting, at what price, and what would make the idea wrong. No pressure to buy.</p></div>
+        <div class="page-heading"><div class="eyebrow">HOW SCOUT REACHED ITS OPINION</div><h1>The research</h1><p>Company financials, indicative buy and exit prices, and reasons to avoid an investment. The model is not proven to predict returns.</p></div>
         <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">Universe is restricted to selected liquid US shares and ETFs. NZX company announcements are monitored, but NZX prices and fundamentals are not yet screened.</div></div>
         <div class="section-title"><h2>Current entry and exit zones</h2><span id="entry-status">Calculating</span></div>
         <div class="notice">CLEAR RESEARCH SIGNALS — NOT TRADE ORDERS. Entry ranges are conservative illustrative scenarios based on reported P/E, earnings growth, profitability and 52-week prices. The exit range is where to <strong>review taking profit</strong>, not a promised selling price. No estimate is shown if inputs are unsuitable. All figures are USD, before fees, foreign exchange and NZ tax.</div>

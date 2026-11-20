@@ -32,3 +32,19 @@
 .show-more{display:block;width:100%;text-align:center;color:#d2f8f1;background:#173a43;border:1px solid #40797a;padding:11px 13px;border-radius:11px;margin:12px 0 16px;font-size:12px;font-weight:700}
 .show-more[hidden]{display:none}
 @media(max-width:375px){.compass-title{font-size:20px}.coverage-grid strong{font-size:20px}.coverage-grid>div{padding:10px 5px}}
+
+/* Simplified Scout opinion card: the entire answer is visible without opening the research tools. */
+.decision-prices{display:grid;grid-template-columns:1fr;gap:8px;margin:16px 0 13px}
+.decision-prices[hidden]{display:none!important}
+.decision-prices>div{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 12px;border:1px solid #35536a;border-radius:10px;background:#10273b}
+.decision-prices span{color:#aec2d6;font-size:12px;line-height:1.3}
+.decision-prices strong{text-align:right;color:#f2fffd;font-size:15px;line-height:1.35;font-variant-numeric:tabular-nums}
+.decision-prices>div:nth-child(2) strong{color:#7beac4}
+.decision-prices>div:nth-child(3) strong{color:#f9d78c}
+.decision-risk{font-size:11px;color:#d7bdbe;line-height:1.6;margin:8px 0 13px}
+.decision-risk:empty{display:none}
+.scout-more{margin:14px 0}
+.scout-more>summary{cursor:pointer;list-style:none;padding:13px 14px;color:#aed6dc;font-size:12px;border:1px solid #3a566c;border-radius:11px;text-align:center}
+.scout-more>summary::-webkit-details-marker{display:none}
+.scout-more[open]>summary{margin-bottom:12px}
+.scout-more>summary:focus-visible{outline:2px solid #57e5d1}

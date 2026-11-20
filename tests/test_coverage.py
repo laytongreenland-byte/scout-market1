@@ -52,7 +52,8 @@ class UniverseCoverageTests(unittest.TestCase):
 
     def test_scanner_bounded_without_secret_in_frontend(self):
         scanner_text = (ROOT / "scanner.py").read_text()
-        self.assertIn("[:340]", scanner_text)
+        self.assertIn("[:720]", scanner_text)
+        self.assertIn("discover_sp500()", scanner_text)
         self.assertIn("'quotes_fresh_this_scan':good_quotes", scanner_text)
         self.assertIn("'etf_symbols':etfs", scanner_text)
 

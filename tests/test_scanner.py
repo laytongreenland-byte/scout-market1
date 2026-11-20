@@ -44,6 +44,27 @@ class ScannerTests(unittest.TestCase):
         self.assertEqual(quotes[0]['price'],123.45)
         self.assertEqual(errors,[])
 
+
+    def test_sp500_index_discovery_accepts_full_valid_list(self):
+        header='Symbol,Security,GICS Sector\n'
+        csv_bytes=(header+''.join(f'Q{i:03d},Sample {i},Industrials\n' for i in range(500))).encode()
+        found=scanner.discover_sp500(lambda _:csv_bytes)
+        self.assertEqual(len(found),500)
+        self.assertIn('Q001',found)
+
+    def test_sp500_index_discovery_refuses_small_or_corrupt_lists(self):
+        with self.assertRaises(ValueError):
+            scanner.discover_sp500(lambda _:b'Symbol,Security\nAAPL,Apple\n')
+
+    def test_sp500_index_discovery_omits_delisted_symbols(self):
+        header='Symbol,Security\n'
+        csv_bytes=(header+'AVB,Old listing\nMMC,Old listing\n'+
+                   ''.join(f'Q{i:03d},Sample {i}\n' for i in range(500))).encode()
+        found=scanner.discover_sp500(lambda _:csv_bytes)
+        self.assertNotIn('AVB',found)
+        self.assertNotIn('MMC',found)
+        self.assertEqual(len(found),500)
+
     def test_finnhub_no_key_does_not_make_up_quotes(self):
         quotes, count, errors = scanner.prices(['AAPL'], '', [])
         self.assertIsNone(quotes[0]['price'])
