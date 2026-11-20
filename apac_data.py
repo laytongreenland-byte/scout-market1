@@ -83,7 +83,9 @@ def fetch_nzx(symbol,key):
 
 def fetch_asx(symbol,key):
     params=urllib.parse.urlencode({'action':'price_bars','ticker':symbol,
-        'market':'AU','interval':'1D','limit':15})
+        'market':'AU','interval':'1D',
+        'from':(datetime.now(TZ).date()-timedelta(days=30)).isoformat(),
+        'limit':50})
     return request(ASX_ROOT+'?'+params,key)
 
 def build(now=None,catalog=None,previous=None,fetchers=None):
