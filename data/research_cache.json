@@ -7788,8 +7788,680 @@
           "symbol": "BNTX"
         }
       ]
+    },
+    "MMM": {
+      "metrics": {
+        "52WeekHigh": 196.9,
+        "52WeekLow": 139.34,
+        "peTTM": 26.166,
+        "psTTM": 3.6647,
+        "netProfitMarginTTM": 14.01,
+        "roeTTM": 94.02000000000001,
+        "revenueGrowthTTMYoy": 1.7,
+        "epsGrowthTTMYoy": 7.21,
+        "currentRatioQuarterly": 1.4083,
+        "totalDebt/totalEquityQuarterly": 3.6339,
+        "marketCapitalization": 92523.01
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "3M Company",
+      "profile": {
+        "weburl": "https://www.3m.com/",
+        "industry": "Industrial Conglomerates",
+        "name": "3M Company"
+      },
+      "news": [
+        {
+          "headline": "3M (MMM) Looks Fairly Valued After Its PFAS Settlement Put A Key Risk In View",
+          "url": "https://finnhub.io/api/news?id=1353e04b86788fc38c437bc4fc1ac27b2291e9967db24117775875f200b43036",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T07:11:46Z",
+          "primary": false,
+          "symbol": "MMM"
+        }
+      ]
+    },
+    "EQT": {
+      "metrics": {
+        "52WeekHigh": 68.24,
+        "52WeekLow": 47.9366,
+        "peTTM": 11.8443,
+        "psTTM": 3.3711,
+        "netProfitMarginTTM": 28.46,
+        "roeTTM": 10.66,
+        "revenueGrowthTTMYoy": 18.24,
+        "epsGrowthTTMYoy": 44.78,
+        "currentRatioQuarterly": 0.7074,
+        "totalDebt/totalEquityQuarterly": 0.218,
+        "marketCapitalization": 31440.113
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "EQT Corporation",
+      "profile": {
+        "weburl": "https://www.eqt.com/",
+        "industry": "Energy",
+        "name": "EQT Corporation"
+      },
+      "news": [
+        {
+          "headline": "Morgan Stanley Maintains Overweight on EQT, Lowers Price Target to $66",
+          "url": "https://finnhub.io/api/news?id=153d031915f9326e65efab21f96bb29d1ba3578972697fe78690e7c952dd0151",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T11:52:44Z",
+          "primary": false,
+          "symbol": "EQT"
+        },
+        {
+          "headline": "$1000 Invested In EQT 5 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=3042948fb8d71b205c330d8d2af3d17160a24ffb8f9d71a91d6636a813449dbe",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T16:00:17Z",
+          "primary": false,
+          "symbol": "EQT"
+        }
+      ]
+    },
+    "ESS": {
+      "metrics": {
+        "52WeekHigh": 303.345,
+        "52WeekLow": 238.46,
+        "peTTM": 49.9061,
+        "psTTM": 8.9059,
+        "netProfitMarginTTM": 17.85,
+        "roeTTM": 6.43,
+        "revenueGrowthTTMYoy": 4.51,
+        "epsGrowthTTMYoy": -58.98,
+        "currentRatioQuarterly": 0.7277,
+        "totalDebt/totalEquityQuarterly": 1.2467,
+        "marketCapitalization": 17331.883
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Essex Property Trust, Inc.",
+      "profile": {
+        "weburl": "https://www.essexapartmenthomes.com/",
+        "industry": "Real Estate",
+        "name": "Essex Property Trust, Inc."
+      },
+      "news": [
+        {
+          "headline": "Essex Property Trust: Q3 Performance Underpins The Bet On Quality West Coast Portfolio",
+          "url": "https://finnhub.io/api/news?id=239af4bc23c9e865c90e09a715151d042f84d34a226893c3b3f100b7f0b68974",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T06:06:30Z",
+          "primary": false,
+          "symbol": "ESS"
+        },
+        {
+          "headline": "Zacks Industry Outlook Highlights Invitation Homes,  Essex Property and Equity LifeStyle",
+          "url": "https://finnhub.io/api/news?id=b55b7388c69c1f1408bb5ec3fd30c9930b706de453dfd6309310549a8e4b4043",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:14:00Z",
+          "primary": false,
+          "symbol": "ESS"
+        },
+        {
+          "headline": "Essex Property: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=ba8ed43ce452a34945850d68e93d3baa013ea20f7ed25a5482c56eb98a09883c",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T22:05:02Z",
+          "primary": false,
+          "symbol": "ESS"
+        }
+      ]
+    },
+    "DRI": {
+      "metrics": {
+        "52WeekHigh": 240.28,
+        "52WeekLow": 169.0,
+        "peTTM": 22.8928,
+        "psTTM": 2.0249,
+        "netProfitMarginTTM": 8.85,
+        "roeTTM": 55.900000000000006,
+        "revenueGrowthTTMYoy": 8.1,
+        "epsGrowthTTMYoy": 9.83,
+        "currentRatioQuarterly": 0.2979,
+        "totalDebt/totalEquityQuarterly": 2.1157,
+        "marketCapitalization": 27066.123
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Darden Restaurants Inc",
+      "profile": {
+        "weburl": "https://www.darden.com",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Darden Restaurants Inc"
+      },
+      "news": [
+        {
+          "headline": "Darden Restaurants to Release Fiscal 2027 Second Quarter Results on December 18, 2026",
+          "url": "https://finnhub.io/api/news?id=172f3866a8e08984ba107e1a89bcb90d504648f921048966c3ba89eaa65e409f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:15:00Z",
+          "primary": false,
+          "symbol": "DRI"
+        },
+        {
+          "headline": "Darden Restaurants Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=ecf9082b50d86b46a8a7da133a2cf70a273c35dd0341738498aff86ab9976f7a",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:10:04Z",
+          "primary": false,
+          "symbol": "DRI"
+        }
+      ]
+    },
+    "MCO": {
+      "metrics": {
+        "52WeekHigh": 546.88,
+        "52WeekLow": 402.28,
+        "peTTM": 28.7806,
+        "psTTM": 10.1485,
+        "netProfitMarginTTM": 35.26,
+        "roeTTM": 86.44,
+        "revenueGrowthTTMYoy": 9.0,
+        "epsGrowthTTMYoy": 31.9,
+        "currentRatioQuarterly": 1.287,
+        "totalDebt/totalEquityQuarterly": 2.1147,
+        "marketCapitalization": 82974.4
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Moody's Corporation",
+      "profile": {
+        "weburl": "https://www.moodys.com/",
+        "industry": "Financial Services",
+        "name": "Moody's Corporation"
+      },
+      "news": [
+        {
+          "headline": "NVDA Stock Alert: What to Know as Moody's Cuts Nvidia's Outlook Rating",
+          "url": "https://finnhub.io/api/news?id=57b426e789b204aa9f0dc8af33fd8a8fc6baeac7466be0c6d22b5875d008d2d0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:22:27Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Moody’s Sees AI Infrastructure and Private Credit Fueling Growth as Private Markets Demand More Ratings",
+          "url": "https://finnhub.io/api/news?id=f1bf538a5b885f60722ab9b31cf9f8dd4c68e990250a1d6e95eb0ed2571889dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:31:04Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Moody's Corporation (MCO) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=3f3c224409544799a81813687b6a7773c6086a6e489435597f2b2d37fd0feff7",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T18:22:46Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Moody’s Names Timothy Bhatt as Chief Information Officer",
+          "url": "https://finnhub.io/api/news?id=734b0086ba98604360288afff6d5898b72b643906ccb28b256173372a9c307a7",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:00:00Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Micron, Moody’s, Digital Realty and a Health Care Stock on CNBC’s ‘Final Trades’",
+          "url": "https://finnhub.io/api/news?id=bc95a2404b72622f1cafc4faf67129ce87af87a86b031c81df05602ca2494590",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T11:18:00Z",
+          "primary": false,
+          "symbol": "MCO"
+        }
+      ]
+    },
+    "TMO": {
+      "metrics": {
+        "52WeekHigh": 727.56,
+        "52WeekLow": 435.27,
+        "peTTM": 36.6306,
+        "psTTM": 5.4701,
+        "netProfitMarginTTM": 14.93,
+        "roeTTM": 13.29,
+        "revenueGrowthTTMYoy": 8.27,
+        "epsGrowthTTMYoy": 9.42,
+        "currentRatioQuarterly": 1.8077,
+        "totalDebt/totalEquityQuarterly": 0.7554,
+        "marketCapitalization": 259014.67
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Thermo Fisher Scientific Inc.",
+      "profile": {
+        "weburl": "https://corporate.thermofisher.com/us/en/index.html",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Thermo Fisher Scientific Inc."
+      },
+      "news": [
+        {
+          "headline": "How Investors May Respond To Thermo Fisher Scientific (TMO) Adenovirus Medium Launch",
+          "url": "https://finnhub.io/api/news?id=170c752e6568395bbef70a0af723624a27329afc15dff0ffb844ad47bebca36c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:15:04Z",
+          "primary": false,
+          "symbol": "TMO"
+        },
+        {
+          "headline": "Thermo Fisher Scientific Sees Faster 2027 Growth as Biotech Spending Recovers",
+          "url": "https://finnhub.io/api/news?id=3769dd2d4b3a8b2b98d90f52cb631764da2ebe0114cc0c882a6b3dfaa820523c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:14:30Z",
+          "primary": false,
+          "symbol": "TMO"
+        },
+        {
+          "headline": "Thermo Fisher Scientific Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=fb31030a58ab3bba369905157badb266ad7d0f6702b7e966560c6057eef7646a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:50:36Z",
+          "primary": false,
+          "symbol": "TMO"
+        },
+        {
+          "headline": "Thermo Fisher Scientific Inc. (TMO) Presents at UBS 2026 CEO Call Series Transcript",
+          "url": "https://finnhub.io/api/news?id=412ceb100dbb58235f9aa3485380f5de60f9637072db3a61d8e20526a298a145",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T10:52:55Z",
+          "primary": false,
+          "symbol": "TMO"
+        },
+        {
+          "headline": "Thermo Fisher Scientific Launches Gibco™ VaxEvo™ CD 293 Medium to Advance Adenovirus Vaccine Production",
+          "url": "https://finnhub.io/api/news?id=29a1da9e69d85e13b2b4f05c3ad50a8b673eb1f60328ff29ee7e19546fc6bf5a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:30:00Z",
+          "primary": false,
+          "symbol": "TMO"
+        }
+      ]
+    },
+    "CMI": {
+      "metrics": {
+        "52WeekHigh": 737.76,
+        "52WeekLow": 426.51,
+        "peTTM": 17.6421,
+        "psTTM": 1.6343,
+        "netProfitMarginTTM": 9.26,
+        "roeTTM": 26.090000000000003,
+        "revenueGrowthTTMYoy": 6.69,
+        "epsGrowthTTMYoy": 24.35,
+        "currentRatioQuarterly": 1.7405,
+        "totalDebt/totalEquityQuarterly": 0.564,
+        "marketCapitalization": 58554.195
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Cummins Inc",
+      "profile": {
+        "weburl": "https://www.cummins.com/",
+        "industry": "Machinery",
+        "name": "Cummins Inc"
+      },
+      "news": [
+        {
+          "headline": "Parallel Systems Appoints Technology Industry Veteran Andrew Cummins as Chief Commercial Officer to Drive Commercial Deployment of Autonomous Electric Rail Platform",
+          "url": "https://finnhub.io/api/news?id=c9beffe694ceb3203f3beae2c598b9f02b43ef3e96383a8f94bff8d06ddca4db",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:00:00Z",
+          "primary": false,
+          "symbol": "CMI"
+        },
+        {
+          "headline": "Cummins (CMI) Stock May Be 45% Undervalued Following Record EBITDA",
+          "url": "https://finnhub.io/api/news?id=8bfe1e0ccc32492aecad2a58ddb62a51a0adfb4f39eb6276b373341b57eb3826",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:10:08Z",
+          "primary": false,
+          "symbol": "CMI"
+        },
+        {
+          "headline": "Cummins (CMI) Just Gave Investors Something To Think About",
+          "url": "https://finnhub.io/api/news?id=d91525ea3ce72f262294bc64a1c323f0d07475740bf112ebece23e31014b2390",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T08:09:38Z",
+          "primary": false,
+          "symbol": "CMI"
+        },
+        {
+          "headline": "What Is Cummins (CMI) Signaling With Its New S29 Mining Engine?",
+          "url": "https://finnhub.io/api/news?id=85d859200f726e7f52ea1bc224bf46010db3ab1dda54814033ad117850ddb620",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:14:25Z",
+          "primary": false,
+          "symbol": "CMI"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Overweight on Cummins, Lowers Price Target to $588",
+          "url": "https://finnhub.io/api/news?id=725c6f4f03a78cec824d8d85a36bedcf393e55144aac920e68f296eb8dff3193",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T11:08:43Z",
+          "primary": false,
+          "symbol": "CMI"
+        }
+      ]
+    },
+    "OKE": {
+      "metrics": {
+        "52WeekHigh": 99.845,
+        "52WeekLow": 68.2,
+        "peTTM": 13.4058,
+        "psTTM": 4.3159,
+        "netProfitMarginTTM": 2.85,
+        "roeTTM": 17.86,
+        "revenueGrowthTTMYoy": -14.68,
+        "epsGrowthTTMYoy": 18.41,
+        "currentRatioQuarterly": 0.8426,
+        "totalDebt/totalEquityQuarterly": 1.2232,
+        "marketCapitalization": 54521.355
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "ONEOK, Inc. (Oklahoma)",
+      "profile": {
+        "weburl": "https://www.oneok.com",
+        "industry": "Energy",
+        "name": "ONEOK, Inc. (Oklahoma)"
+      },
+      "news": [
+        {
+          "headline": "ONEOK or Kimberly-Clark: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=b932dd531df4ef1b45cd50da40452c0ea1a7865040a73707afdc22491523b61e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:01:48Z",
+          "primary": false,
+          "symbol": "OKE"
+        },
+        {
+          "headline": "GSK or ONEOK: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=caa92df33ba5d8b9b30401c5f5f60169e933173e4dd4cce14d98e81fbd55e91b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:17:27Z",
+          "primary": false,
+          "symbol": "OKE"
+        },
+        {
+          "headline": "Better Dividend Stock for Retirees: ONEOK vs. Kinetik",
+          "url": "https://finnhub.io/api/news?id=f34fd5f96e59d8919117a61d4a9497f6ee70ee39fd58c0a087a6fa6b80f6b905",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:11:09Z",
+          "primary": false,
+          "symbol": "OKE"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on ONEOK Stock?",
+          "url": "https://finnhub.io/api/news?id=d0c4ac78d8d38468c12109d880493bb34c2b9820154ae6beebedf64c7000972c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T11:05:14Z",
+          "primary": false,
+          "symbol": "OKE"
+        },
+        {
+          "headline": "ONEOK or Viper Energy: The One Dividend Stock I’d Hold for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=1ef9f8eeafbdb45056f7273e35640ba237e35451433c748f29836baa9547024a",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T17:41:20Z",
+          "primary": false,
+          "symbol": "OKE"
+        }
+      ]
+    },
+    "IRM": {
+      "metrics": {
+        "52WeekHigh": 134.68,
+        "52WeekLow": 77.77,
+        "peTTM": 71.3819,
+        "psTTM": 4.1966,
+        "netProfitMarginTTM": 5.88,
+        "roeTTM": 85.19,
+        "revenueGrowthTTMYoy": 17.46,
+        "epsGrowthTTMYoy": 186.8,
+        "currentRatioQuarterly": 0.5546,
+        "totalDebt/totalEquityQuarterly": 685.5862,
+        "marketCapitalization": 32728.953
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Iron Mountain Inc",
+      "profile": {
+        "weburl": "https://www.ironmountain.com",
+        "industry": "Real Estate",
+        "name": "Iron Mountain Inc"
+      },
+      "news": [
+        {
+          "headline": "Here’s How Much You Would Have Made Owning Iron Mountain Stock In The Last 5 Years",
+          "url": "https://finnhub.io/api/news?id=0397167c512afda21efdb05a82aa4cf97a13c1f7b42577c19de2543e3ae2cee3",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T12:45:21Z",
+          "primary": false,
+          "symbol": "IRM"
+        },
+        {
+          "headline": "Iron Mountain Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=3a20133e134a0cfa2515012dba884a69bbc08a5af3bb2cbbff8676ae7a775ff8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:05:02Z",
+          "primary": false,
+          "symbol": "IRM"
+        },
+        {
+          "headline": "Iron Mountain Sees Billion-Dollar Growth in Data Centers and IT Asset Services",
+          "url": "https://finnhub.io/api/news?id=4a0ea2e349cd3df8e40ef217cc79fa39d93edf861bebf0459163ded6a3bae8d0",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T04:12:06Z",
+          "primary": false,
+          "symbol": "IRM"
+        },
+        {
+          "headline": "Iron Mountain Incorporated (IRM) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=28ed1ef0b1883912423e2246b025d96a046b4e48cf861ddb528783ba72696d4d",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T12:53:00Z",
+          "primary": false,
+          "symbol": "IRM"
+        },
+        {
+          "headline": "AI Adoption Stalled by \"Information Tax\" in Financial Services: Iron Mountain Advances InSight DXP to Bridge the Data-to-AI Gap",
+          "url": "https://finnhub.io/api/news?id=921d7ed7754c492b85d4195eb3de091e25ce123316600149989d2e3ad1b5969a",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:00:00Z",
+          "primary": false,
+          "symbol": "IRM"
+        }
+      ]
+    },
+    "NKE": {
+      "metrics": {
+        "52WeekHigh": 69.14,
+        "52WeekLow": 31.97,
+        "peTTM": 16.6441,
+        "psTTM": 1.1218,
+        "netProfitMarginTTM": 6.74,
+        "roeTTM": 21.240000000000002,
+        "revenueGrowthTTMYoy": -1.18,
+        "epsGrowthTTMYoy": 6.93,
+        "currentRatioQuarterly": 2.0749,
+        "totalDebt/totalEquityQuarterly": 0.5186,
+        "marketCapitalization": 51480.066
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "NIKE, Inc.",
+      "profile": {
+        "weburl": "https://about.nike.com/",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "name": "NIKE, Inc."
+      },
+      "news": [
+        {
+          "headline": "Here’s How Many Shares of Nike You Need for $20,000 in Yearly Dividends",
+          "url": "https://finnhub.io/api/news?id=ede2637d22feb14259688c86d7d283e982d543e06f064820ceaf4a697e2f059e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:05:02Z",
+          "primary": false,
+          "symbol": "NKE"
+        },
+        {
+          "headline": "Nike Promised Free Sneakers to Every Valedictorian in America: We Did the Math on the Bill",
+          "url": "https://finnhub.io/api/news?id=719c4b5db499d9b4d33039633285b4e31bd7a9e9bb48056647a94a1dbb4136de",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:53:07Z",
+          "primary": false,
+          "symbol": "NKE"
+        },
+        {
+          "headline": "Mónica Gil to Resign from NIKE, Inc. Board of Directors Effective November 19, 2026",
+          "url": "https://finnhub.io/api/news?id=2e6833a48d02fe4fca6d2be1d4510d561a0cd022ff0257e22afee865489f8224",
+          "source": "Fintel",
+          "published_at": "2026-11-20T00:21:05Z",
+          "primary": false,
+          "symbol": "NKE"
+        },
+        {
+          "headline": "NIKE, Inc. Appoints Alexandre Arnault to Compensation Committee",
+          "url": "https://finnhub.io/api/news?id=28ec502488ac4778cd8423a2d6ab20f97f1957c6e76cdcb1070351898397db40",
+          "source": "Fintel",
+          "published_at": "2026-11-20T00:21:04Z",
+          "primary": false,
+          "symbol": "NKE"
+        },
+        {
+          "headline": "NIKE, Inc. Declares $0.41 Quarterly Dividend",
+          "url": "https://finnhub.io/api/news?id=406b81157e739203c04bee8b65177a4fef0aeee6d00f7151b133d6ea055996b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:30:00Z",
+          "primary": false,
+          "symbol": "NKE"
+        }
+      ]
+    },
+    "CME": {
+      "metrics": {
+        "52WeekHigh": 329.16,
+        "52WeekLow": 218.31,
+        "peTTM": 24.8938,
+        "psTTM": 8.6695,
+        "netProfitMarginTTM": 34.83,
+        "roeTTM": 16.29,
+        "revenueGrowthTTMYoy": 12.28,
+        "epsGrowthTTMYoy": 17.13,
+        "currentRatioQuarterly": 1.0194,
+        "totalDebt/totalEquityQuarterly": 0.129,
+        "marketCapitalization": 109928.66
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "CME Group Inc.",
+      "profile": {
+        "weburl": "https://www.cmegroup.com/",
+        "industry": "Financial Services",
+        "name": "CME Group Inc."
+      },
+      "news": [
+        {
+          "headline": "Why Is CME Group (CME) Pushing Into Wind Power Futures Now?",
+          "url": "https://finnhub.io/api/news?id=8cf325542183d70ec87001f3c92b8307bacc76c85a9ec3b68b8356d8dfe6a8c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:13:35Z",
+          "primary": false,
+          "symbol": "CME"
+        },
+        {
+          "headline": "CME Group Announces First Trade for Wind Power Contracts",
+          "url": "https://finnhub.io/api/news?id=453ea39b2e33f096b7bef6bebbf19b1e3ee4504615797cf29119d70b8ee084bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:00:00Z",
+          "primary": false,
+          "symbol": "CME"
+        },
+        {
+          "headline": "CME Group CEO Terry Duffy on the CME Group Tour Championship, prediction markets",
+          "url": "https://finnhub.io/api/news?id=9c0f1bb301dcd86ac923596485e599303251766a020d26ceb6b13723f07008e3",
+          "source": "CNBC",
+          "published_at": "2026-11-18T14:55:43Z",
+          "primary": false,
+          "symbol": "CME"
+        },
+        {
+          "headline": "CME vs. Upstart: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=5c32cdb89f530a54e2f6d6f2715431e4dfbebe02dfd8f9d7acbecada1bf088eb",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:31:02Z",
+          "primary": false,
+          "symbol": "CME"
+        },
+        {
+          "headline": "CME Group (CME) Stock Looks Fully Valued After Its 69% Run",
+          "url": "https://finnhub.io/api/news?id=b049eb1817a56889e895a374b30910524d114d90d28c25472f87bab7e64b38c7",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T04:33:56Z",
+          "primary": false,
+          "symbol": "CME"
+        }
+      ]
+    },
+    "DHR": {
+      "metrics": {
+        "52WeekHigh": 242.8,
+        "52WeekLow": 160.93,
+        "peTTM": 37.1299,
+        "psTTM": 6.2797,
+        "netProfitMarginTTM": 16.91,
+        "roeTTM": 8.18,
+        "revenueGrowthTTMYoy": 5.52,
+        "epsGrowthTTMYoy": 25.73,
+        "currentRatioQuarterly": 1.6339,
+        "totalDebt/totalEquityQuarterly": 0.4939,
+        "marketCapitalization": 160809.56
+      },
+      "updated_at": "2026-11-20T12:11:08Z",
+      "name": "Danaher Corporation",
+      "profile": {
+        "weburl": "https://www.danaher.com/",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Danaher Corporation"
+      },
+      "news": [
+        {
+          "headline": "Point-of-Care/Rapid Diagnostics - Global Strategic Business Report 2026: Capture a $40.7 Billion Market by 2032 with Abbott, Roche, Danaher and Siemens",
+          "url": "https://finnhub.io/api/news?id=4381a9ec4c94eac44f8e18b6bf486b35053db1a75828c04601830a55dddf2f1f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:05:00Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
+        {
+          "headline": "Danaher Targets Faster Growth With Acquisitions, AI and a Diagnostics Push",
+          "url": "https://finnhub.io/api/news?id=a9d9f00f020109637501b75cd2b62d891c58932acfb2402640f5a936225a0252",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T08:12:31Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
+        {
+          "headline": "Danaher Corporation (DHR) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=7def365114971fc7d8e50f6e3b98e2b30872ccc708361cce45fa639314716bc9",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T08:03:04Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
+        {
+          "headline": "Global Point of Care (POC) Immunoassay Analyzer Expansion Market 2026 | Capture 8.8% CAGR to 2030 as Roche, Abbott, Siemens Healthineers and Danaher Scale AI-Enabled POC Testing",
+          "url": "https://finnhub.io/api/news?id=7a5be0e38962e65db947ba1227636fd2bdb15130f3e558bf2c78c2e1ffc7539c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T15:27:00Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
+        {
+          "headline": "Danaher (DHR) Is A Key Supplier In Fast Growing Bioprocessing Markets",
+          "url": "https://finnhub.io/api/news?id=a9accd96c6b20b7c96de1753ed40ffc11135a7f71e1f0ab345fa38f94e14a876",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T19:09:08Z",
+          "primary": false,
+          "symbol": "DHR"
+        }
+      ]
     }
   },
-  "cursor": 128,
-  "updated_at": "2026-11-20T11:15:24Z"
+  "cursor": 140,
+  "updated_at": "2026-11-20T12:11:08Z"
 }
