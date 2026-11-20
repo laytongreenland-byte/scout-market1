@@ -16,6 +16,7 @@ import urllib.parse
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from ml_engine import add_weekly_observations, rank_with_model
+from price_plan import entry_plan
 
 UTC = timezone.utc
 MARKET_URL = 'https://finnhub.io/docs/api/stock-metrics'
@@ -348,10 +349,17 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     # a verified issuer host is recorded; do not guess primary-source provenance.
     quote_map={x.get('symbol'):x for x in quotes}
     candidates=[evaluate(s,quote_map.get(s),data.get(s),now) for s in equities]
+    # Price scenarios do not bypass quality gates or influence ML outcome labels.
+    for candidate in candidates:
+        sym=candidate['symbol']
+        candidate['price_plan']=entry_plan(candidate,quote_map.get(sym),data.get(sym),now)
     candidates=rank_with_model(candidates,data,quotes,ml_model or {},now)
     ranked=sorted([c for c in candidates if c.get('score') is not None],
                   key=lambda c:c.get('ranking_score') if c.get('ranking_score') is not None else c['score'],reverse=True)
     serious=[c for c in ranked if c['status']=='INVESTIGATE']
+    entry_candidates=[c for c in ranked if c.get('price_plan',{}).get('signal')=='ENTRY CANDIDATE']
+    priced=[c for c in ranked if c.get('price_plan',{}).get('entry_ceiling') is not None]
+    entry_watch=sorted(priced,key=lambda c:c['price']/max(.01,c['price_plan']['entry_ceiling']))[:8]
     # Avoid a shortlist dominated by several closely related businesses.
     # Sector classifications are broad and incomplete; never claim diversification.
     shortlist=[]
@@ -412,6 +420,8 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     mov.sort(key=lambda q:abs(q['change_pct']),reverse=True)
     public={'generated_at':iso(now),'universe_size':len(symbols),'screened_with_financials':sum(c.get('score') is not None for c in candidates),
             'updated_company_metrics_this_scan':processed,'candidates':ranked[:20],
+            'entry_candidates':entry_candidates[:8],'entry_watch':entry_watch,
+            'pricing_method':'Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.',
              'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
             'learning':learning or {'status':'COLLECTING','reason':'Waiting for initial learning report','model_active':False},
             'paper_diagnostics':paper,
@@ -419,5 +429,7 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
             'limitations':['No guaranteed real-time prices or complete market coverage.',
                            'Machine learning can influence at most 10% of rankings only after six purged, separated forward tests; no probabilities of gains.',
                            'Latest available financial data may be delayed or incomplete; timestamps and quality gates apply.',
-                           'Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends.']}
+                           'Entry and exit review zones are bounded earnings-multiple scenarios, not analyst price targets, proven fair values or guaranteed returns.',
+                            'Do not trade based solely on Scout; verify issuer filings, market conditions and NZ trading costs.',
+                            'Reference returns in the log exclude transaction fees, spreads, FX, tax and dividends.']}
     return public,cache,history,weekly,problems

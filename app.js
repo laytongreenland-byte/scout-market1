@@ -12,12 +12,32 @@ function prioritiesHtml(items){if(!items.length)return `<div class="empty-state 
 function quoteHtml(q){const valid=typeof q.price==='number'&&q.price>0;const stale=Boolean(q.stale)||ageHours(q.price_at)>75;const pct=q.change_pct;const ch=typeof pct==='number'?`<div class="quote-change ${pct>0?'up':pct<0?'down':''}">${pct>0?'+':''}${fmt(pct)}% vs previous close</div>`:`<div class="quote-change">Change unavailable</div>`;return `<div class="quote-row"><div class="ticker-circle">${escapeHtml(q.symbol.slice(0,5))}</div><div class="quote-left"><strong>${escapeHtml(q.symbol)}</strong><div>${valid?(stale?'STALE · ':'As of ')+escapeHtml(nzTime(q.price_at)):'No verified quote'} · ${escapeHtml(q.source||'Finnhub')}</div></div><div class="quote-right"><div class="quote-price">${valid?escapeHtml(q.currency||'USD')+' '+fmt(q.price):'—'}</div>${valid&&!stale?ch:stale?'<div class="quote-change down">Stale — verify independently</div>':''}</div></div>`}
 // Transparent, evidence-backed opportunity screen. A rank is NOT a trade instruction.
 const badgeStatus=s=>s==='INVESTIGATE'?'investigate':s==='LOW PRIORITY'?'low':'watch';
+function pricePlanHtml(p,compact=false){
+  if(!p)return '<div class="price-plan plan-missing">No current entry-price assessment available.</div>';
+  const signal=String(p.signal||'NO RELIABLE PRICE RANGE');
+  const cls=signal==='ENTRY CANDIDATE'?'plan-entry':signal==='ABOVE BASE CASE'||signal==='POSSIBLE VALUE TRAP'?'plan-risk':signal==='WAIT FOR ENTRY'?'plan-wait':'plan-missing';
+  const money=v=>typeof v==='number'&&Number.isFinite(v)&&v>0?'USD '+fmt(v):'Not available';
+  let html='<section class="price-plan '+cls+'"><div class="plan-header"><strong>'+escapeHtml(signal)+'</strong><span>ILLUSTRATIVE · NOT A TRADE ORDER</span></div>';
+  if(typeof p.entry_ceiling==='number'){
+    html+='<div class="plan-values"><div><span>Possible entry zone</span><strong>'+money(p.entry_floor)+' – '+money(p.entry_ceiling)+'</strong></div><div><span>Review / take-profit zone</span><strong>'+money(p.exit_review_low)+' – '+money(p.exit_review_high)+'</strong></div></div>';
+  }else{
+    html+='<p class="plan-reason">'+escapeHtml(p.reason||'Insufficient market evidence')+'</p>';
+  }
+  if(!compact && typeof p.entry_ceiling==='number'){
+    html+='<div class="plan-downside">Bear-case scenario: '+money(p.bear_case)+' · Illustrative base-case change from current quote: '+(typeof p.scenario_upside_pct==='number'?(p.scenario_upside_pct>0?'+':'')+fmt(p.scenario_upside_pct)+'%':'—')+'</div>';
+    html+='<p class="plan-reason">'+escapeHtml(p.reason||'')+'</p>';
+    if(p.assumptions)html+='<div class="plan-method">Inputs: trailing P/E '+escapeHtml(p.assumptions.trailing_pe)+'× · assumed earnings growth '+escapeHtml(p.assumptions.earnings_growth_assumed_pct)+'% · scenario exit P/E '+escapeHtml(p.assumptions.scenario_exit_pe)+'× · valuation haircut '+escapeHtml(p.assumptions.valuation_haircut_pct)+'%. Upper entry limit also capped by the lower half of the reported 52-week range.</div>';
+    html+='<div class="plan-method">'+escapeHtml(p.horizon||'Scenario only')+' · Quote '+escapeHtml(nzTime(p.as_of))+'. Financial ratios may reflect older accounting periods. '+escapeHtml(p.caution||'')+'</div>';
+  }
+  return html+'</section>';
+}
+
 function candidateHtml(c,compact=false){
   const score=typeof c.score==='number'?c.score+'/100':'—';
   const price=typeof c.price==='number'?`USD ${fmt(c.price)}`:'No fresh quote';
   const risks=(c.risks||[]).slice(0,compact?1:3).map(r=>`<li>${escapeHtml(r)}</li>`).join('');
   const evidence=(c.evidence||[]).filter(e=>safeLink(e.url)).slice(0,compact?1:3).map(e=>`<a href="${escapeHtml(safeLink(e.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.label)} ↗</a>`).join(' · ');
-  return `<article class="card candidate ${badgeStatus(c.status)}"><div class="flex-between"><div class="candidate-brand"><strong>${escapeHtml(c.symbol)}</strong><span>${escapeHtml(c.name||'')}</span></div><span class="grade">${score}</span></div><div class="flex-between candidate-sub"><span class="status ${badgeStatus(c.status)}">${escapeHtml(c.status||'WATCH')}</span><span>${price}</span></div><p class="candidate-thesis">${escapeHtml(c.why||'Review underlying company financials before drawing conclusions.')}</p>${!compact?`<div class="risk-label">MAIN RISKS</div><ul class="risk-list">${risks}</ul><div class="evidence">${evidence||'No verified evidence links yet'}</div><div class="asof">Quote: ${escapeHtml(nzTime(c.as_of))} · Metrics: ${escapeHtml(nzTime(c.fundamentals_at))}</div>`:''}<div class="candidate-disclaimer">${compact?'Research ranking, not a buy signal':'Research score is not a profit probability. Independently verify valuation, FX, tax and trading costs.'}</div></article>`;
+  return `<article class="card candidate ${badgeStatus(c.status)}"><div class="flex-between"><div class="candidate-brand"><strong>${escapeHtml(c.symbol)}</strong><span>${escapeHtml(c.name||'')}</span></div><span class="grade">${score}</span></div><div class="flex-between candidate-sub"><span class="status ${badgeStatus(c.status)}">${escapeHtml(c.status||'WATCH')}</span><span>${price}</span></div>${pricePlanHtml(c.price_plan,compact)}<p class="candidate-thesis">${escapeHtml(c.why||'Review underlying company financials before drawing conclusions.')}</p>${!compact?`<div class="risk-label">MAIN RISKS</div><ul class="risk-list">${risks}</ul><div class="evidence">${evidence||'No verified evidence links yet'}</div><div class="asof">Quote: ${escapeHtml(nzTime(c.as_of))} · Metrics: ${escapeHtml(nzTime(c.fundamentals_at))}</div>`:''}<div class="candidate-disclaimer">${compact?'Research ranking, not a buy signal':'Research score is not a profit probability. Independently verify valuation, FX, tax and trading costs.'}</div></article>`;
 }
 function alertHtml(a){return `<div class="card urgent-card"><div class="flex-between"><span class="tag negative">URGENT RESEARCH · NOT A BUY SIGNAL</span><time>${escapeHtml(nzTime(a.published_at))}</time></div><h3>${escapeHtml(a.symbol)}: ${escapeHtml(a.headline)}</h3><p>${escapeHtml(a.why)}</p><p class="muted">${escapeHtml(a.risk)}</p>${safeLink(a.source_url)?`<a href="${escapeHtml(safeLink(a.source_url))}" target="_blank" rel="noopener noreferrer">Verify source ↗</a>`:''}</div>`}
 function renderResearch(data){
@@ -37,14 +57,24 @@ function renderResearch(data){
   $('paper-performance').textContent=paper.matured_outcomes?
     `${paper.matured_outcomes} paired 30-day observations from ${paper.matured_weeks} weekly cohorts. ${paper.usable_rule_weeks||0} weeks with enough candidates to compare the highest-scoring 20%. ${paper.usable_rule_weeks?'Average top-quintile gross excess vs SPY: '+paper.mean_excess_pct+'%.':''} ${paper.sufficient_for_comparison?'Still preliminary.':'INSUFFICIENT independent history for performance claims.'} Excludes broker costs, FX movements, tax and dividends.`:
     'No completed 30-day SPY-matched observations yet. A high research score is not evidence of profit.';
+  const entries=r.entry_candidates||[];
+  const watch=r.entry_watch||[];
+  $('entry-status').textContent=entries.length?entries.length+' preliminary entry candidates (verify before trading)':'No evidence-backed entry candidate at current prices';
+  $('entry-list').innerHTML=entries.length?entries.slice(0,4).map(c=>candidateHtml(c,false)).join(''):
+    '<div class="empty-state card"><strong>NO ENTRY SIGNAL RIGHT NOW</strong><p>Scout has not found a company meeting both its financial-quality and margin-of-safety checks. This is a valid result, not a system failure.</p></div>'+
+    watch.slice(0,3).map(c=>candidateHtml(c,false)).join('');
+  $('overview-entry').innerHTML=entries.length?candidateHtml(entries[0],true):
+    '<div class="card small-notice">No purchase-price scenario currently meets Scout’s conservative evidence checks. See Research for watch levels.</div>';
+  const liveMap=new Map([...(r.candidates||[]),...watch,...entries].map(c=>[c.symbol,c]));
+  const liveCandidate=c=>{const x=liveMap.get(c.symbol);return x?Object.assign({},c,{price:x.price,as_of:x.as_of,price_plan:x.price_plan}):Object.assign({},c,{price_plan:null})};
   const shortlist=w.shortlist||[];
   $('research-count').textContent=`${r.screened_with_financials||0} of ${r.universe_size||0} symbols screened with company financials`;
   $('research-checked').textContent=r.generated_at?'Screened '+nzTime(r.generated_at):'Awaiting the first research scan';
   $('weekly-status').textContent=w.generated_at?`Research week ${w.week_start} · compiled ${nzTime(w.generated_at)}`:'Waiting for first weekly shortlist';
   $('weekly-verdict').textContent=w.verdict||'No ranked investment candidates yet';
-  $('weekly-list').innerHTML=shortlist.length?shortlist.map(c=>candidateHtml(c,false)).join(''):
+  $('weekly-list').innerHTML=shortlist.length?shortlist.map(c=>candidateHtml(liveCandidate(c),false)).join(''):
     `<div class="empty-state card"><strong>No evidence-backed candidates yet</strong><p>The free service is loading company metrics gradually. Missing data does not count as an opportunity.</p></div>`;
-  $('overview-shortlist').innerHTML=shortlist.length?shortlist.slice(0,2).map(c=>candidateHtml(c,true)).join(''):
+  $('overview-shortlist').innerHTML=shortlist.length?shortlist.slice(0,2).map(c=>candidateHtml(liveCandidate(c),true)).join(''):
     `<div class="empty-state card"><strong>Financial screening still warming up</strong><p>Hourly scans collect prices and rotate through company metrics.</p></div>`;
   const alerts=r.urgent_alerts||[];
   $('urgent-list').innerHTML=alerts.length?alerts.map(alertHtml).join(''):
