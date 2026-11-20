@@ -59,7 +59,7 @@ def fetch(url: str, *, sec=False) -> bytes:
         # Rebuild a standards-safe User-Agent from the private contact address.
         # Pasted rich text can contain invalid control/unicode characters that
         # Python's HTTP client rejects. Never print or publish the email.
-        match = re.search(r'[A-Za-z0-9._%+\\-]+@[A-Za-z0-9.\\-]+\\.[A-Za-z]{2,}', raw_ua)
+        match = re.search(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+[.][A-Za-z]{2,}', raw_ua)
         if not match:
             raise RuntimeError('SEC_USER_AGENT requires a plain-text contact email')
         ua = 'ScoutMarketResearch/1.0 (' + match.group(0) + ')'
