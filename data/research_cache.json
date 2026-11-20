@@ -14143,8 +14143,736 @@
           "symbol": "LNT"
         }
       ]
+    },
+    "GOOG": {
+      "metrics": {
+        "52WeekHigh": 408.61,
+        "52WeekLow": 272.11,
+        "peTTM": 14.7618,
+        "psTTM": 7.3854,
+        "netProfitMarginTTM": 50.03,
+        "roeTTM": 42.620000000000005,
+        "revenueGrowthTTMYoy": 22.21,
+        "epsGrowthTTMYoy": 91.92,
+        "currentRatioQuarterly": 2.7856,
+        "totalDebt/totalEquityQuarterly": 0.1846,
+        "marketCapitalization": 3479263.5
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Alphabet Inc.",
+      "profile": {
+        "weburl": "https://abc.xyz/",
+        "industry": "Media",
+        "name": "Alphabet Inc."
+      },
+      "news": [
+        {
+          "headline": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
+          "url": "https://finnhub.io/api/news?id=b7b18fa6cf0a6f25245ed725b62b50694fea0a5de8de5958e80e247725eb1426",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:20:02Z",
+          "primary": false,
+          "symbol": "GOOG"
+        },
+        {
+          "headline": "Alphabet’s (GOOGL) AI Investment Is Surging – Here’s Why the Funding Matters",
+          "url": "https://finnhub.io/api/news?id=3c382669ecafa3aad0b606fd6ecbb57a4c2191b684ed6ac1c2c53e1bf4a6237e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:05:36Z",
+          "primary": false,
+          "symbol": "GOOG"
+        },
+        {
+          "headline": "Alphabet Stock Slides Nearly 20%. Trader Sees Rebound Clues",
+          "url": "https://finnhub.io/api/news?id=4e071b521df3ea5272d0f3eed4e17a4bfea34263dcbbbf7e266d97fab279af95",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:38:28Z",
+          "primary": false,
+          "symbol": "GOOG"
+        },
+        {
+          "headline": "Nvidia Falls Behind Alphabet, Loses $2.3 Trillion In Market Value Since October Peak",
+          "url": "https://finnhub.io/api/news?id=b20804cdd58452053b6eab592da4fe6ad238b380cb9b51bd2f4c70583e25f83f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:51:23Z",
+          "primary": false,
+          "symbol": "GOOG"
+        },
+        {
+          "headline": "Anthropic IPO: Here's What Its Spending Commitments Mean to Microsoft, SpaceX, Amazon, and Alphabet",
+          "url": "https://finnhub.io/api/news?id=08456cfd3965b858752580271c3bbd94491294f14963535ff8dba0e4c8a6e626",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:40:02Z",
+          "primary": false,
+          "symbol": "GOOG"
+        }
+      ]
+    },
+    "AMCR": {
+      "metrics": {
+        "52WeekHigh": 50.94,
+        "52WeekLow": 36.25,
+        "peTTM": 18.6045,
+        "psTTM": 0.8457,
+        "netProfitMarginTTM": 4.55,
+        "roeTTM": 9.28,
+        "revenueGrowthTTMYoy": 37.29,
+        "epsGrowthTTMYoy": 85.53,
+        "currentRatioQuarterly": 1.3975,
+        "totalDebt/totalEquityQuarterly": 1.2652,
+        "marketCapitalization": 20204.506
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Amcor PLC",
+      "profile": {
+        "weburl": "https://www.amcor.com/",
+        "industry": "Packaging",
+        "name": "Amcor PLC"
+      },
+      "news": [
+        {
+          "headline": "Which Gives You More Of A Packaging Rebound, Smurfit WestRock Or Amcor?",
+          "url": "https://finnhub.io/api/news?id=136f3c5eb994384c377ba331638997377a3504e963d3a42e70d7d2b9a6664645",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:08:49Z",
+          "primary": false,
+          "symbol": "AMCR"
+        },
+        {
+          "headline": "Better Dividend Stock for Retirees: Amcor vs. LKQ",
+          "url": "https://finnhub.io/api/news?id=bd893e6215f8729ea07ee96430fad07eeb045a11d36ab29c7bd4e64687729657",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:10:29Z",
+          "primary": false,
+          "symbol": "AMCR"
+        },
+        {
+          "headline": "Should You Buy Amcor Stock At This Price?",
+          "url": "https://finnhub.io/api/news?id=68d6045bcbcb0446b83b34de1da70fbf25f4fd75f64e50c359e6345a9ab0663e",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T21:28:17Z",
+          "primary": false,
+          "symbol": "AMCR"
+        },
+        {
+          "headline": "Amcor plc Shareholders Approve Share Repurchase Renewal and 2026 Omnibus Management Share Plan",
+          "url": "https://finnhub.io/api/news?id=d4431b35fcfb2eeb9d431db7771be1e13c6731fa670acb9c01294e3565235a94",
+          "source": "Fintel",
+          "published_at": "2026-11-13T15:08:35Z",
+          "primary": false,
+          "symbol": "AMCR"
+        }
+      ]
+    },
+    "AEE": {
+      "metrics": {
+        "52WeekHigh": 118.32,
+        "52WeekLow": 96.57,
+        "peTTM": 19.3631,
+        "psTTM": 3.4664,
+        "netProfitMarginTTM": 17.9,
+        "roeTTM": 11.66,
+        "revenueGrowthTTMYoy": -0.29,
+        "epsGrowthTTMYoy": 10.68,
+        "currentRatioQuarterly": 0.7439,
+        "totalDebt/totalEquityQuarterly": 1.5846,
+        "marketCapitalization": 30961.613
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Ameren Corporation",
+      "profile": {
+        "weburl": "https://www.ameren.com",
+        "industry": "Utilities",
+        "name": "Ameren Corporation"
+      },
+      "news": [
+        {
+          "headline": "AEP vs. Ameren: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=76e046234d34684913b452ba2584ba334458609ed400c90b17ab3f8307550bca",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:16:56Z",
+          "primary": false,
+          "symbol": "AEE"
+        },
+        {
+          "headline": "Ameren Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=426571019fd19d417bf87dd494cd802977da04bba4e78abaf3e75f979bc3fb13",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T13:33:05Z",
+          "primary": false,
+          "symbol": "AEE"
+        }
+      ]
+    },
+    "AWK": {
+      "metrics": {
+        "52WeekHigh": 153.69,
+        "52WeekLow": 120.57,
+        "peTTM": 26.313,
+        "psTTM": 5.5945,
+        "netProfitMarginTTM": 21.26,
+        "roeTTM": 9.99,
+        "revenueGrowthTTMYoy": 5.38,
+        "epsGrowthTTMYoy": 1.31,
+        "currentRatioQuarterly": 0.392,
+        "totalDebt/totalEquityQuarterly": 1.3693,
+        "marketCapitalization": 29891.584
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "American Water Works Company, Inc.",
+      "profile": {
+        "weburl": "https://www.amwater.com/",
+        "industry": "Utilities",
+        "name": "American Water Works Company, Inc."
+      },
+      "news": [
+        {
+          "headline": "Virginia American Water Urges Customers to Prepare for Cold Weather",
+          "url": "https://finnhub.io/api/news?id=cabe44102468ab34378baa9ca9236c21f9c91523f128ba853d1d255fda50ee61",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:00:00Z",
+          "primary": false,
+          "symbol": "AWK"
+        },
+        {
+          "headline": "Maryland American Water Urges Customers to Prepare for Cold Weather",
+          "url": "https://finnhub.io/api/news?id=49fbdaca0addabf76e5b7db8363d7e5ed77085b85bbbefd2fcc5636b134cc1f6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:00:00Z",
+          "primary": false,
+          "symbol": "AWK"
+        },
+        {
+          "headline": "American Water Works (AWK) Launched A New Monterey Peninsula Groundwater Well",
+          "url": "https://finnhub.io/api/news?id=ab62cf6691a02e0f5c17b3b50b43a77948425dd88856ac04701b54ae3f4865f4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:16:34Z",
+          "primary": false,
+          "symbol": "AWK"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for American Water Works Stock?",
+          "url": "https://finnhub.io/api/news?id=9b7f4b806ec85dabd3f01bf8c4542bb382ef7f041c5ce5307c53b3676da1f530",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:23Z",
+          "primary": false,
+          "symbol": "AWK"
+        },
+        {
+          "headline": "Pennsylvania American Water Completes Acquisition of the Indian Creek Valley Water Authority Water System",
+          "url": "https://finnhub.io/api/news?id=5b86bdde233da25d599af8ccb810c54d08dfb877e0ffa492d95498ff69c4bcd7",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T22:43:00Z",
+          "primary": false,
+          "symbol": "AWK"
+        }
+      ]
+    },
+    "AMP": {
+      "metrics": {
+        "52WeekHigh": 572.56,
+        "52WeekLow": 422.37,
+        "peTTM": 10.2698,
+        "psTTM": 2.1226,
+        "netProfitMarginTTM": 20.67,
+        "roeTTM": 68.69,
+        "revenueGrowthTTMYoy": 8.77,
+        "epsGrowthTTMYoy": 22.02,
+        "currentRatioQuarterly": 0.6827,
+        "totalDebt/totalEquityQuarterly": 7.6926,
+        "marketCapitalization": 42742.99
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Ameriprise Financial Inc",
+      "profile": {
+        "weburl": "https://www.ameriprise.com/",
+        "industry": "Financial Services",
+        "name": "Ameriprise Financial Inc"
+      },
+      "news": [
+        {
+          "headline": "Ameriprise Financial, Inc. (AMP) Authorized a $5.5 Billion Buyback: What Makes the Stock Attractive?",
+          "url": "https://finnhub.io/api/news?id=7efaae8d52a06fb2a91f4f82cce944772aa14a0251a2cf57533f7c930c9eba6a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:21:58Z",
+          "primary": false,
+          "symbol": "AMP"
+        },
+        {
+          "headline": "Ameriprise Financial Recognized as One of the \"World's Best Employers of 2026\" by Forbes",
+          "url": "https://finnhub.io/api/news?id=aeafcf863a67742dbcc6fff07b6259bf45978b9d52ccca61914310ea3360e690",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:00:00Z",
+          "primary": false,
+          "symbol": "AMP"
+        },
+        {
+          "headline": "LPL Financial and Ameriprise Settle Heated Legal Battle Over Advisor Recruiting",
+          "url": "https://finnhub.io/api/news?id=f5905207bfb7303cf9fea375221fe01288e5f41c0a64577951cf1d7bdb71ff2f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:48:00Z",
+          "primary": false,
+          "symbol": "AMP"
+        },
+        {
+          "headline": "Ameriprise, LPL Agree To End Multi-Year Court Standoff",
+          "url": "https://finnhub.io/api/news?id=44055c02b718c93845274468bcffd16bd59e6567d3a5f4ea4556cb7679ac76b2",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:48:07Z",
+          "primary": false,
+          "symbol": "AMP"
+        },
+        {
+          "headline": "Tinker Federal Credit Union Selects Ameriprise Financial to Manage its Investment Program",
+          "url": "https://finnhub.io/api/news?id=c2d18d5e88dfe578b21766a95307f4f145d1971c506f76c51565bd8a590cefc3",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T19:05:00Z",
+          "primary": false,
+          "symbol": "AMP"
+        }
+      ]
+    },
+    "AME": {
+      "metrics": {
+        "52WeekHigh": 261.16,
+        "52WeekLow": 188.47,
+        "peTTM": 32.841,
+        "psTTM": 6.5395,
+        "netProfitMarginTTM": 19.91,
+        "roeTTM": 14.66,
+        "revenueGrowthTTMYoy": 14.34,
+        "epsGrowthTTMYoy": 11.87,
+        "currentRatioQuarterly": 1.431,
+        "totalDebt/totalEquityQuarterly": 0.5702,
+        "marketCapitalization": 53568.684
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "AMETEK Inc",
+      "profile": {
+        "weburl": "https://www.ametek.com/",
+        "industry": "Electrical Equipment",
+        "name": "AMETEK Inc"
+      },
+      "news": [
+        {
+          "headline": "AMETEK, Inc. Enters into Underwriting Agreements for $500,000,000, C$600,000,000, and €750,000,000 Senior Notes",
+          "url": "https://finnhub.io/api/news?id=6ab52d7b6120dcc791d55c383c04c036f420c0a70929d083af149930d1b58485",
+          "source": "Fintel",
+          "published_at": "2026-11-18T11:30:57Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for AMETEK Stock?",
+          "url": "https://finnhub.io/api/news?id=2ab68d12cb1cfd885891e32227beda06df726d1e70463567d8a2689fe9bbef20",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:12:22Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning AMETEK Stock In The Last 20 Years",
+          "url": "https://finnhub.io/api/news?id=01ee0aeb2648a8e99d0e1f232b7c6a55bd7da3356c9fb0b18101a2d6116b8b8b",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T17:30:41Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
+          "headline": "Truist Securities Reiterates Buy on AMETEK, Raises Price Target to $329",
+          "url": "https://finnhub.io/api/news?id=26ffae2098b0f885cb38fd35a8dbd234ea634700c91d4bf02a102032c8a10f32",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T10:36:23Z",
+          "primary": false,
+          "symbol": "AME"
+        }
+      ]
+    },
+    "APH": {
+      "metrics": {
+        "52WeekHigh": 89.93,
+        "52WeekLow": 39.41,
+        "peTTM": 31.7732,
+        "psTTM": 5.7034,
+        "netProfitMarginTTM": 17.95,
+        "roeTTM": 39.54,
+        "revenueGrowthTTMYoy": 57.57,
+        "epsGrowthTTMYoy": 53.3,
+        "currentRatioQuarterly": 1.9407,
+        "totalDebt/totalEquityQuarterly": 1.0436,
+        "marketCapitalization": 188478.72
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Amphenol Corp",
+      "profile": {
+        "weburl": "https://www.amphenol.com/",
+        "industry": "Electrical Equipment",
+        "name": "Amphenol Corp"
+      },
+      "news": [
+        {
+          "headline": "Wall Street Analysts Think Amphenol (APH) Could Surge 42.32%: Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=14019f50456b782f3aab65ad7f0bdb2f9562c1b18ac9261378b1bf2a5e97d892",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:55:04Z",
+          "primary": false,
+          "symbol": "APH"
+        },
+        {
+          "headline": "ETFs Are Buying Amphenol (APH) on Nov. 18",
+          "url": "https://finnhub.io/api/news?id=586f477629789efe57477e8816f20e71d3372a1cb5cfa8600f63a34a0e494af0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:01:15Z",
+          "primary": false,
+          "symbol": "APH"
+        },
+        {
+          "headline": "Amphenol: More Connections Per System Drive Profit Growth",
+          "url": "https://finnhub.io/api/news?id=5661d80dcc2ab420bd6f577ab9901fccdea995638b246e73ca7da7807e35d24d",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T01:53:02Z",
+          "primary": false,
+          "symbol": "APH"
+        },
+        {
+          "headline": "Vertiv's 800 VDC Push Boosts AI Prospects: Can It Beat APH and SMCI?",
+          "url": "https://finnhub.io/api/news?id=97519a517036a9f07a00c30aab871e5bb855c5e310660db8163cdc1dbb3bdc54",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:46:00Z",
+          "primary": false,
+          "symbol": "APH"
+        },
+        {
+          "headline": "How Much Of Amphenol Stock Rides On One Market?",
+          "url": "https://finnhub.io/api/news?id=2231b739fe0fa753d7a5213ad5e1ec6ed3cd2609e02b7ebe5ab84b115d730c17",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:26:35Z",
+          "primary": false,
+          "symbol": "APH"
+        }
+      ]
+    },
+    "ADI": {
+      "metrics": {
+        "52WeekHigh": 445.91,
+        "52WeekLow": 224.25,
+        "peTTM": 44.9292,
+        "psTTM": 13.3832,
+        "netProfitMarginTTM": 29.79,
+        "roeTTM": 12.26,
+        "revenueGrowthTTMYoy": 33.65,
+        "epsGrowthTTMYoy": 114.38,
+        "currentRatioQuarterly": 1.2504,
+        "totalDebt/totalEquityQuarterly": 0.2719,
+        "marketCapitalization": 185782.4
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Analog Devices, Inc.",
+      "profile": {
+        "weburl": "https://www.analog.com/",
+        "industry": "Semiconductors",
+        "name": "Analog Devices, Inc."
+      },
+      "news": [
+        {
+          "headline": "Power-Over-Ethernet (PoE) Chipsets - Global Strategic Business Report 2026: Capitalize on 13% CAGR and $2.2B by 2032; Benchmark Cisco, Analog Devices, NXP, Microchip and Texas Instruments",
+          "url": "https://finnhub.io/api/news?id=c638370ee015e05f4e42f6d4b78a7ee3f90c70413371c0042d4b5fb9c32083e0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:06:00Z",
+          "primary": false,
+          "symbol": "ADI"
+        },
+        {
+          "headline": "Power Monitoring - Global Strategic Business Report: Capitalize on the $4.5B Market by 2030 as ABB, Eaton, Analog Devices, Advantech, and Delta Electronics Reshape Energy ROI",
+          "url": "https://finnhub.io/api/news?id=8a7734604f8d00cb767aa5d95fad14fe458ca7102a744cefe95f791f45bc9175",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:56:00Z",
+          "primary": false,
+          "symbol": "ADI"
+        },
+        {
+          "headline": "ADI Set to Report Q4 Earnings: What's in the Cards for the Stock?",
+          "url": "https://finnhub.io/api/news?id=edffe534e499d6b1c10bb3e3875158da4ef6bf6aa35576a8e9036445c2549934",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:36:00Z",
+          "primary": false,
+          "symbol": "ADI"
+        },
+        {
+          "headline": "Analog Devices (ADI) Stock Moves -1.19%: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=79e2f28127a23e82b996d623733acc036a59a92a48755e904d5ade2bba1407c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:00:02Z",
+          "primary": false,
+          "symbol": "ADI"
+        },
+        {
+          "headline": "Unveiling Analog Devices (ADI) Q4 Outlook: Wall Street Estimates for Key Metrics",
+          "url": "https://finnhub.io/api/news?id=3e2f3cb8c92cdce0cebcd0d85da449cbe7bf07c7e9777de5025ce9b1c08f3147",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:15:04Z",
+          "primary": false,
+          "symbol": "ADI"
+        }
+      ]
+    },
+    "APA": {
+      "metrics": {
+        "52WeekHigh": 52.96,
+        "52WeekLow": 23.06,
+        "peTTM": 6.9039,
+        "psTTM": 1.5837,
+        "netProfitMarginTTM": 22.94,
+        "roeTTM": 32.440000000000005,
+        "revenueGrowthTTMYoy": -1.88,
+        "epsGrowthTTMYoy": 48.01,
+        "currentRatioQuarterly": 0.8453,
+        "totalDebt/totalEquityQuarterly": 0.4585,
+        "marketCapitalization": 14981.434
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "APA Corporation",
+      "profile": {
+        "weburl": "https://apacorp.com/",
+        "industry": "Energy",
+        "name": "APA Corporation"
+      },
+      "news": [
+        {
+          "headline": "APA vs. LNG: Which Stock Should Value Investors Buy Now?",
+          "url": "https://finnhub.io/api/news?id=59647eacb6d556ecf936c2e786306f5afba016abae50dc94df98e86e5a4c8197",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:40:03Z",
+          "primary": false,
+          "symbol": "APA"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Underweight on APA, Raises Price Target to $44",
+          "url": "https://finnhub.io/api/news?id=70a797feef1342b7b4f2ccec79f55d33e90e580dfc9f4d7b9b06be4b431128e9",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T10:58:18Z",
+          "primary": false,
+          "symbol": "APA"
+        },
+        {
+          "headline": "APA Corporation: The Market Is Still Underestimating Its Improving Fundamentals (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=9d5556f1fc7b75b7a91444eee53da9f9e7602ef96c0a005b605ee160f00dbe60",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T23:39:37Z",
+          "primary": false,
+          "symbol": "APA"
+        },
+        {
+          "headline": "APA (NASDAQ:APA): A Mixed Quality Investment With Strong Cash Flow and Weak Revenue Growth",
+          "url": "https://finnhub.io/api/news?id=e6f9716052ef124d3edc08934d22796ba8aec22b0a9f74b768a2de6ac07027ad",
+          "source": "ChartMill",
+          "published_at": "2026-11-17T10:10:59Z",
+          "primary": false,
+          "symbol": "APA"
+        },
+        {
+          "headline": "APA Has Rallied by 91% This Year. Here’s Why You Should Take Some Chips Off The Table",
+          "url": "https://finnhub.io/api/news?id=c935f51d60639971a72458b06e447ec459cca57a92766ab3405b3b657663dc61",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T17:23:43Z",
+          "primary": false,
+          "symbol": "APA"
+        }
+      ]
+    },
+    "APO": {
+      "metrics": {
+        "52WeekHigh": 153.29,
+        "52WeekLow": 99.56,
+        "peTTM": 36.6194,
+        "psTTM": 2.1486,
+        "netProfitMarginTTM": 5.87,
+        "roeTTM": 8.58,
+        "revenueGrowthTTMYoy": 40.69,
+        "epsGrowthTTMYoy": -44.88,
+        "currentRatioQuarterly": 0.0518,
+        "totalDebt/totalEquityQuarterly": 0.9561,
+        "marketCapitalization": 68661.41
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "Apollo Global Management, Inc.",
+      "profile": {
+        "weburl": "https://www.apollo.com/",
+        "industry": "Financial Services",
+        "name": "Apollo Global Management, Inc."
+      },
+      "news": [
+        {
+          "headline": "Apollo views daily pricing as key to expanding alternatives access. Industry peers are skeptical.",
+          "url": "https://finnhub.io/api/news?id=c4501ac38a664218081674caa1581be870f4889e51681094c6f3b9ee2f6f76c3",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:43:11Z",
+          "primary": false,
+          "symbol": "APO"
+        },
+        {
+          "headline": "Apollo and Goldman Sachs Announce Pricing of $44 Billion SpaceX GPU Financing",
+          "url": "https://finnhub.io/api/news?id=2bb15c363d1aa8b6a3e9b2da03b4cb4e67a49f855c43443aa55c43b57e8c4f8b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:02:00Z",
+          "primary": false,
+          "symbol": "APO"
+        },
+        {
+          "headline": "Apollo-backed insurer Athora weighs sale of Belgian unit, Bloomberg reports",
+          "url": "https://finnhub.io/api/news?id=29570fff2bae9a6174091d7c6cf840bdb774cf1e7d16eec31da6e204da1a7d56",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:24:24Z",
+          "primary": false,
+          "symbol": "APO"
+        },
+        {
+          "headline": "APO Targets More Than 20% FRE Growth in 2027: What's Driving It?",
+          "url": "https://finnhub.io/api/news?id=93b40159587f72fbaacfc83820551a7580b4f11cb3edf078b3158bea4f79112f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:00:00Z",
+          "primary": false,
+          "symbol": "APO"
+        },
+        {
+          "headline": "Apollo Global Management Targets Over 20% Earnings Growth in 2027 as Credit Expands",
+          "url": "https://finnhub.io/api/news?id=d8a49ca7ddd3524e3b5baf3d273fbc424be36ae410ef80a9cdbdee65ab8f1f1a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T04:12:11Z",
+          "primary": false,
+          "symbol": "APO"
+        }
+      ]
+    },
+    "APP": {
+      "metrics": {
+        "52WeekHigh": 738.01,
+        "52WeekLow": 225.1901,
+        "peTTM": 25.0489,
+        "psTTM": 16.5041,
+        "netProfitMarginTTM": 65.89,
+        "roeTTM": 182.97,
+        "revenueGrowthTTMYoy": 57.79,
+        "epsGrowthTTMYoy": 80.18,
+        "currentRatioQuarterly": 3.8045,
+        "totalDebt/totalEquityQuarterly": 1.0659,
+        "marketCapitalization": 125577.664
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "AppLovin Corporation",
+      "profile": {
+        "weburl": "https://www.applovin.com/",
+        "industry": "Media",
+        "name": "AppLovin Corporation"
+      },
+      "news": [
+        {
+          "headline": "AppLovin Just Gained 45% in a Month. What Will It Take to Hit $500?",
+          "url": "https://finnhub.io/api/news?id=a4d506bb297f91433fc6e3b7885a8565eb8ff8fe75ee61574e543abb90b77543",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:22:57Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "StoneX Maintains Buy on AppLovin, Raises Price Target to $469",
+          "url": "https://finnhub.io/api/news?id=17027b5cdbbdb79eb1ee295214ea174cbab02ed807bd6a57ea12dc86aa613a1e",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:14:18Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "First Trust NASDAQ-100 Tech (QTEC) Sells AppLovin and Texas Instruments on Tuesday",
+          "url": "https://finnhub.io/api/news?id=05e873c00446501c6096195b25a55dfcd6e0e7dd9b04c87e8a5bfe962babb97c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:06:26Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "Invesco S&P 500 Equal Weight (RSP) Buys $0.6 Million More AppLovin on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=edb74f0d69e333823012ee7bb4e6e425dc055b407c6fd492ad14f0bac310ea71",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:05:38Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "AppLovin: AXON Upgrades Reignite Growth, But Competitive Risks Remain",
+          "url": "https://finnhub.io/api/news?id=44aaa195aa4647a43a15c4f0a852851d29ec67c02a6d7d1186b105d08b068750",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T00:42:19Z",
+          "primary": false,
+          "symbol": "APP"
+        }
+      ]
+    },
+    "APTV": {
+      "metrics": {
+        "52WeekHigh": 88.93,
+        "52WeekLow": 37.4312,
+        "peTTM": 9.9583,
+        "psTTM": 0.4582,
+        "netProfitMarginTTM": 4.6,
+        "roeTTM": 8.55,
+        "revenueGrowthTTMYoy": -17.07,
+        "epsGrowthTTMYoy": 188.3,
+        "currentRatioQuarterly": 1.9734,
+        "totalDebt/totalEquityQuarterly": 0.6095,
+        "marketCapitalization": 7657.9307
+      },
+      "updated_at": "2026-11-20T20:09:04Z",
+      "name": "APTIV PLC",
+      "profile": {
+        "weburl": "https://www.aptiv.com/",
+        "industry": "Auto Components",
+        "name": "APTIV PLC"
+      },
+      "news": [
+        {
+          "headline": "Is Trending Stock Aptiv PLC (APTV) a Buy Now?",
+          "url": "https://finnhub.io/api/news?id=6280c1487e7b4f1ad2ec4d50fa9f6d9bb76a51fd5190a6fb36c2b46de9c1533f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:00:03Z",
+          "primary": false,
+          "symbol": "APTV"
+        },
+        {
+          "headline": "Aptiv Introduces Next-Generation ADAS Platform Purpose-Built for the AI Era",
+          "url": "https://finnhub.io/api/news?id=c20b5cf4590252766ee8619fb99f08a3c9868be43d3fabd6993d0ceda424621e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "APTV"
+        },
+        {
+          "headline": "Learn Why The Bull Case For Aptiv Stock Could Change Following Industrial Robot Deal",
+          "url": "https://finnhub.io/api/news?id=3e8c2b5a9b48bf549d9b7c4e64045d34304350b6e89b2639997d68058f46a036",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T23:21:32Z",
+          "primary": false,
+          "symbol": "APTV"
+        },
+        {
+          "headline": "Aptiv to Present at UBS Global Industrials and Transportation Conference",
+          "url": "https://finnhub.io/api/news?id=a270e7d236f3a79cc5ae165e954cbda49ced5c6409b45bdf5b77c471a281e935",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:30:00Z",
+          "primary": false,
+          "symbol": "APTV"
+        },
+        {
+          "headline": "TARSBOT and Aptiv Deepen Strategic Collaboration on Embodied AI",
+          "url": "https://finnhub.io/api/news?id=05553d69b920f5f27e50aebd4ece8f3b7b0a97887c0e51b1384c34c1e21bb76a",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:00:00Z",
+          "primary": false,
+          "symbol": "APTV"
+        }
+      ]
     }
   },
-  "cursor": 236,
-  "updated_at": "2026-11-20T19:25:50Z"
+  "cursor": 248,
+  "updated_at": "2026-11-20T20:09:04Z"
 }
