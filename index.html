@@ -25,6 +25,8 @@
           <div class="hero-bottom" id="source-health">No verified sources yet</div>
         </div>
         <div id="overview-alerts"></div>
+        <div class="section-title"><h2>Potential entry today</h2><button class="text-action" data-goto="research" type="button">See price zones →</button></div>
+        <div id="overview-entry" class="stack"></div>
         <div class="section-title"><h2>This week's screened opportunities</h2><button class="text-action" data-goto="research" type="button">Full shortlist →</button></div>
         <div id="overview-shortlist" class="stack"></div>
         <div class="section-title"><h2>Research priorities</h2><span id="priority-caption">Evidence-led</span></div>
@@ -35,6 +37,9 @@
       <section class="tab-panel" id="tab-research" aria-labelledby="nav-research">
         <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunities</h1><p>Weekly investment research with a conservative, out-of-sample-tested learning loop. Never a guarantee or a buy instruction.</p></div>
         <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">Universe is restricted to selected liquid US shares and ETFs. NZX company announcements are monitored, but NZX prices and fundamentals are not yet screened.</div></div>
+        <div class="section-title"><h2>Current entry and exit zones</h2><span id="entry-status">Calculating</span></div>
+        <div class="notice">CLEAR RESEARCH SIGNALS — NOT TRADE ORDERS. Entry ranges are conservative illustrative scenarios based on reported P/E, earnings growth, profitability and 52-week prices. The exit range is where to <strong>review taking profit</strong>, not a promised selling price. No estimate is shown if inputs are unsuitable. All figures are USD, before fees, foreign exchange and NZ tax.</div>
+        <div id="entry-list" class="stack"></div>
         <div class="section-title"><h2>High-priority catalysts</h2><span>Strict evidence threshold</span></div>
         <div id="urgent-list" class="stack"></div>
         <div class="section-title"><h2>Learning engine</h2><span>Weekly checks</span></div>
@@ -57,7 +62,7 @@
         <div class="card" id="movers-list"></div>
         <div class="section-title"><h2>Paper research log</h2><span>Reference prices only</span></div>
         <div class="card" id="research-log"></div>
-        <div class="card note-card"><strong>What the scores mean</strong><p>Rules assign points for trailing profits, sales growth, valuation ratios and price context. A high score is NOT a probability of profit or intrinsic value. 'Investigate' means review the evidence, not buy a share. Returns in the paper log exclude brokerage, spreads, tax, foreign exchange and dividends.</p></div>
+        <div class="card note-card"><strong>What the scores and price zones mean</strong><p>Only a company meeting both quality gates and a conservative illustrative entry-price scenario can be labelled ENTRY CANDIDATE. Scenario earnings growth and P/E multiples are assumptions, NOT analyst consensus targets or proven fair values. Review the latest filing and execution price before considering a purchase. Rules assign points for trailing profits, sales growth, valuation ratios and price context. A high score is NOT a probability of profit or intrinsic value. 'Investigate' means review the evidence, not buy a share. Returns in the paper log exclude brokerage, spreads, tax, foreign exchange and dividends.</p></div>
       </section>
       <section class="tab-panel" id="tab-watchlist" aria-labelledby="nav-watchlist">
         <div class="page-heading"><div class="eyebrow">TRACKED MARKETS</div><h1>Watchlist</h1><p>Free US quote API when configured. NZX disclosures are monitored separately.</p></div>
