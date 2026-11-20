@@ -17,6 +17,7 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from ml_engine import add_weekly_observations, rank_with_model
 from price_plan import entry_plan
+from trade_journal import record_decisions, update_results, public_results
 
 UTC = timezone.utc
 MARKET_URL = 'https://finnhub.io/docs/api/stock-metrics'
@@ -296,7 +297,9 @@ def update_history(history, candidates, quotes, now, companies=None):
                 else:
                     c[k]=round(pct,2)
                     c[k+'_observed_on']=d['date']
-    hist['daily']=days[-25000:]
+    # Retain enough daily closes for a 14-day entry and 30-day holding window
+    # across the expanded symbol universe, rather than truncating outcomes.
+    hist['daily']=days[-90000:]
     hist['calls']=calls[-1000:]
     return add_weekly_observations(hist,candidates,quotes,companies or {},now)
 
@@ -386,6 +389,10 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
                 'note':'Broad diversified funds may suit long-term investing; a high score does not prove an undervalued company.'}
     alerts=urgent_alerts(candidates,quotes,now,[])
     history=update_history(prev_history,candidates,quotes,now,data)
+    # Freeze the original signal before any later scan may change its valuation.
+    history=record_decisions(history,candidates,now)
+    history=update_results(history,now)
+    scoreboard=public_results(history,now)
     # Live ML progress must reflect freshly frozen observations, not the stale
     # Monday-only training report.
     learning=dict(ml_report or {})
@@ -428,6 +435,7 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
              'daily_movers':mov[:20],'weekly':weekly,'urgent_alerts':alerts,
             'learning':learning or {'status':'COLLECTING','reason':'Waiting for initial learning report','model_active':False},
             'paper_diagnostics':paper,
+            'scoreboard':scoreboard,
             'research_log':history['calls'][-50:],
             'limitations':['No guaranteed real-time prices or complete market coverage.',
                            'Machine learning can influence at most 10% of rankings only after six purged, separated forward tests; no probabilities of gains.',
