@@ -13,6 +13,7 @@ on:
       - 'ml_engine.py'
       - 'learner.py'
       - 'app.js'
+      - 'compass.js'
       - 'style.css'
       - 'index.html'
       - 'config/watchlist.json'
@@ -30,6 +31,7 @@ concurrency:
 jobs:
   scan-and-publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 22
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -90,7 +92,7 @@ jobs:
       - name: Prepare public website
         run: |
           mkdir -p site/assets site/data
-          cp index.html style.css app.js sw.js manifest.webmanifest site/
+          cp index.html style.css app.js compass.js sw.js manifest.webmanifest site/
           cp assets/icon.svg site/assets/
           cp data/latest.json site/data/
           touch site/.nojekyll
