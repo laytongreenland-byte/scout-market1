@@ -27,22 +27,16 @@ on:
       - 'sw.js'
       - 'tests/**'
 permissions:
-  actions: read
   contents: write
-  pages: write
-  id-token: write
   issues: write
 concurrency:
   group: scout-data-and-pages
   # Do not cancel a successful research run halfway through committing data.
   cancel-in-progress: false
 jobs:
-  scan-and-publish:
+  scan-and-commit:
     runs-on: ubuntu-latest
     timeout-minutes: 22
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -117,34 +111,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/post_reports.py
-      - name: Prepare public website
-        run: |
-          mkdir -p site/assets site/data
-          cp index.html style.css app.js compass.js results.js market.js sw.js manifest.webmanifest site/
-          cp assets/icon.svg site/assets/
-          cp data/latest.json data/market_catalog.json data/apac.json data/stocksdeepdive.json site/data/
-          touch site/.nojekyll
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - name: Confirm Pages artifact is registered
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          # The Pages upload API can acknowledge upload before artifact indexing completes.
-          # Retry only the metadata lookup; never upload the artifact twice.
-          for attempt in 1 2 3 4 5 6 7 8 9 10; do
-            if gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?per_page=100" --jq '.artifacts | any(.name == "github-pages" and .expired == false)' | grep -qx true; then
-              echo "Pages artifact registered (check $attempt)"
-              exit 0
-            fi
-            echo "Pages artifact not indexed (check $attempt); retrying"
-            sleep 6
-          done
-          echo "::error::Pages upload was not visible in the artifacts API after 60 seconds"
-          exit 1
-      - name: Publish website
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # GitHub Pages is configured for branch-based deployment and independently
+      # publishes changes to main. Do not upload/deploy another Pages artifact here.
+      # Avoids duplicate deployments and intermittent missing-artifact races.
