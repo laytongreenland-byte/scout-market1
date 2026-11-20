@@ -2549,17 +2549,17 @@
       "metrics": {
         "52WeekHigh": 98.75,
         "52WeekLow": 74.41,
-        "peTTM": 15.2341,
-        "psTTM": 6.1497,
+        "peTTM": 15.0791,
+        "psTTM": 6.0871,
         "netProfitMarginTTM": 40.37,
         "roeTTM": 20.369999999999997,
         "revenueGrowthTTMYoy": 9.61,
         "epsGrowthTTMYoy": 76.43,
         "currentRatioQuarterly": 0.5289,
         "totalDebt/totalEquityQuarterly": 1.8526,
-        "marketCapitalization": 177264.3
+        "marketCapitalization": 175460.61
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "NextEra Energy, Inc.",
       "profile": {
         "weburl": "https://www.nexteraenergy.com",
@@ -2567,6 +2567,14 @@
         "name": "NextEra Energy, Inc."
       },
       "news": [
+        {
+          "headline": "DOJ closes antitrust probe into NextEra’s $66.8 bln Dominion deal",
+          "url": "https://finnhub.io/api/news?id=b6c32e0bef5414c6d68bd2d2dac74edd55275cc37ab837936cf8ae576590da0c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T03:25:04Z",
+          "primary": false,
+          "symbol": "NEE"
+        },
         {
           "headline": "NextEra-Dominion merger hearings kick off with focus on scope",
           "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a",
@@ -2598,14 +2606,6 @@
           "published_at": "2026-11-17T20:50:02Z",
           "primary": false,
           "symbol": "NEE"
-        },
-        {
-          "headline": "Ratepayers, Community Leaders and Legislators Rally to Stop NextEra",
-          "url": "https://finnhub.io/api/news?id=5afbed2af5ed091a7715b1b0756b029cafbd7ecdc1844a972ef5daf801924a82",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T19:24:00Z",
-          "primary": false,
-          "symbol": "NEE"
         }
       ]
     },
@@ -2623,7 +2623,7 @@
         "totalDebt/totalEquityQuarterly": 0.6588,
         "marketCapitalization": 121410.94
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "Prologis, Inc.",
       "profile": {
         "weburl": "https://www.prologis.com",
@@ -2661,17 +2661,17 @@
       "metrics": {
         "52WeekHigh": 202.5,
         "52WeekLow": 160.06,
-        "peTTM": 25.4031,
-        "psTTM": 7.6455,
+        "peTTM": 25.2589,
+        "psTTM": 7.6021,
         "netProfitMarginTTM": 30.1,
         "roeTTM": 91.97,
         "revenueGrowthTTMYoy": 5.31,
         "epsGrowthTTMYoy": 13.21,
         "currentRatioQuarterly": 0.3526,
         "totalDebt/totalEquityQuarterly": 10.6861,
-        "marketCapitalization": 84173.08
+        "marketCapitalization": 83695.414
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "American Tower Corporation",
       "profile": {
         "weburl": "https://www.americantower.com",
@@ -2703,7 +2703,7 @@
         "totalDebt/totalEquityQuarterly": 1.1136,
         "marketCapitalization": 421973.6
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "Coca-Cola Co",
       "profile": {
         "weburl": "https://www.coca-colacompany.com/",
@@ -2711,6 +2711,14 @@
         "name": "Coca-Cola Co"
       },
       "news": [
+        {
+          "headline": "Coca-Cola (KO) Stock Fair Value Edges Higher After Q3 Beat And Analyst Target Increases",
+          "url": "https://finnhub.io/api/news?id=17ca686248287d0baeacdb67c90e3a1db287dc22c2a52dfe8d61726bd0630ee8",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:17:34Z",
+          "primary": false,
+          "symbol": "KO"
+        },
         {
           "headline": "Coca-Cola Stock Could Lose Its Fizz. Its Valuation Is the Highest in 25 Years.",
           "url": "https://finnhub.io/api/news?id=ec77b51316ed87bd29c2e1905399a6a51bda0ddb50112814b3aaeb38ac610cf7",
@@ -2742,14 +2750,6 @@
           "published_at": "2026-11-19T00:05:05Z",
           "primary": false,
           "symbol": "KO"
-        },
-        {
-          "headline": "Coca-Cola Stocks Move Lower Even as TD Cowen Names It Top 2027 Pick",
-          "url": "https://finnhub.io/api/news?id=901093cd49ec01f499c2ce6edf7c2df8e2af83fb0b4c3b09604d6c5f274ac5f2",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T18:31:15Z",
-          "primary": false,
-          "symbol": "KO"
         }
       ]
     },
@@ -2757,17 +2757,17 @@
       "metrics": {
         "52WeekHigh": 171.48,
         "52WeekLow": 123.47,
-        "peTTM": 17.7847,
-        "psTTM": 1.9725,
+        "peTTM": 17.3776,
+        "psTTM": 1.9274,
         "netProfitMarginTTM": 11.09,
         "roeTTM": 50.57000000000001,
         "revenueGrowthTTMYoy": 6.36,
         "epsGrowthTTMYoy": 51.3,
         "currentRatioQuarterly": 0.9429,
         "totalDebt/totalEquityQuarterly": 2.3273,
-        "marketCapitalization": 193781.78
+        "marketCapitalization": 189346.05
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "PepsiCo, Inc.",
       "profile": {
         "weburl": "https://www.pepsico.com/",
@@ -2821,17 +2821,17 @@
       "metrics": {
         "52WeekHigh": 173.59,
         "52WeekLow": 137.62,
-        "peTTM": 24.6496,
-        "psTTM": 4.4924,
+        "peTTM": 24.3704,
+        "psTTM": 4.4415,
         "netProfitMarginTTM": 18.23,
         "roeTTM": 29.57,
         "revenueGrowthTTMYoy": 3.52,
         "epsGrowthTTMYoy": -3.15,
         "currentRatioQuarterly": 0.7225,
         "totalDebt/totalEquityQuarterly": 0.7065,
-        "marketCapitalization": 394985.03
+        "marketCapitalization": 390511.7
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "The Procter & Gamble Company",
       "profile": {
         "weburl": "https://us.pg.com/",
@@ -2839,6 +2839,14 @@
         "name": "The Procter & Gamble Company"
       },
       "news": [
+        {
+          "headline": "Procter & Gamble’s Job Cuts Come as Earnings Growth Gets Harder to Come By",
+          "url": "https://finnhub.io/api/news?id=bd3441399f607192b154816bf393abe41550814dafcbb68a4c110706e957719c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:56:00Z",
+          "primary": false,
+          "symbol": "PG"
+        },
         {
           "headline": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
           "url": "https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257",
@@ -2870,14 +2878,6 @@
           "published_at": "2026-11-17T02:08:54Z",
           "primary": false,
           "symbol": "PG"
-        },
-        {
-          "headline": "How Many Shares of Kimberly-Clark, Clorox or Procter & Gamble Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=90cf39df7cc4bcf98087c340fe0ac5acbebcaedb01ebcbe6898785bd50010eb8",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T13:50:29Z",
-          "primary": false,
-          "symbol": "PG"
         }
       ]
     },
@@ -2885,17 +2885,17 @@
       "metrics": {
         "52WeekHigh": 522.47,
         "52WeekLow": 361.03,
-        "peTTM": 25.9177,
-        "psTTM": 8.1218,
+        "peTTM": 25.777,
+        "psTTM": 8.0777,
         "netProfitMarginTTM": 31.34,
         "roeTTM": 17.549999999999997,
         "revenueGrowthTTMYoy": 5.99,
         "epsGrowthTTMYoy": 22.22,
         "currentRatioQuarterly": 0.7359,
         "totalDebt/totalEquityQuarterly": 0.6587,
-        "marketCapitalization": 129225.82
+        "marketCapitalization": 128524.266
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "S&P Global Inc.",
       "profile": {
         "weburl": "https://www.spglobal.com/",
@@ -2959,7 +2959,7 @@
         "totalDebt/totalEquityQuarterly": 0.0,
         "marketCapitalization": 145919.67
       },
-      "updated_at": "2026-11-19T22:56:56Z",
+      "updated_at": "2026-11-20T05:38:05Z",
       "name": "Intuitive Surgical, Inc.",
       "profile": {
         "weburl": "https://www.intuitive.com/en-us/about-us/company",
@@ -3010,6 +3010,6 @@
       ]
     }
   },
-  "cursor": 40,
-  "updated_at": "2026-11-20T05:33:45Z"
+  "cursor": 0,
+  "updated_at": "2026-11-20T05:38:05Z"
 }

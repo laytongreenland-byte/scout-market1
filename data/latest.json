@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T05:33:45Z",
+  "generated_at": "2026-11-20T05:38:05Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T05:33:45Z",
+      "checked_at": "2026-11-20T05:38:05Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T05:33:45Z",
+      "checked_at": "2026-11-20T05:38:05Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-20T05:33:45Z",
-      "error": "9 unavailable: AAPL: ValueError, MSFT: ValueError, NVDA: ValueError, GOOGL: ValueError, AMZN: ValueError"
+      "checked_at": "2026-11-20T05:38:05Z",
+      "error": "9 unavailable: AAPL: SEC HTTP request rejected; check User-Agent formatting, MSFT: SEC HTTP request rejected; check User-Agent formatting, NVDA: SEC HTTP request rejected; check User-Agent formatting, GOOGL: SEC HTTP request rejected; check User-Agent formatting, AMZN: SEC HTTP request rejected; check User-Agent formatting"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T05:33:45Z",
+      "checked_at": "2026-11-20T05:38:05Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T05:33:45Z",
+      "checked_at": "2026-11-20T05:38:05Z",
       "error": ""
     }
   ],
@@ -1191,7 +1191,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T05:33:45Z",
+    "generated_at": "2026-11-20T05:38:05Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1608,7 +1608,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Utilities",
-        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.2×; TTM revenue growth 9.6% YoY",
+        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.1×; TTM revenue growth 9.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -1622,35 +1622,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:56:56Z",
+            "timestamp": "2026-11-20T05:38:05Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "NextEra-Dominion merger hearings kick off with focus on scope",
-            "timestamp": "2026-11-18T15:50:14Z",
-            "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a"
+            "value": "DOJ closes antitrust probe into NextEra’s $66.8 bln Dominion deal",
+            "timestamp": "2026-11-20T03:25:04Z",
+            "url": "https://finnhub.io/api/news?id=b6c32e0bef5414c6d68bd2d2dac74edd55275cc37ab837936cf8ae576590da0c"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:56:56Z",
+        "fundamentals_at": "2026-11-20T05:38:05Z",
         "price": 83.79,
         "currency": "USD",
         "change_pct": -1.168,
         "news": [
           {
-            "headline": "NextEra-Dominion merger hearings kick off with focus on scope",
-            "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a",
+            "headline": "DOJ closes antitrust probe into NextEra’s $66.8 bln Dominion deal",
+            "url": "https://finnhub.io/api/news?id=b6c32e0bef5414c6d68bd2d2dac74edd55275cc37ab837936cf8ae576590da0c",
             "source": "Yahoo",
-            "published_at": "2026-11-18T15:50:14Z",
+            "published_at": "2026-11-20T03:25:04Z",
             "primary": false,
             "symbol": "NEE"
           },
           {
-            "headline": "What State Street Utilities Select Sector SPDR (XLU) Sold: NextEra Leads on Monday",
-            "url": "https://finnhub.io/api/news?id=a22e9e7538546a937af39d95c5dff9a38a7f44ab16186757430d926237bee538",
+            "headline": "NextEra-Dominion merger hearings kick off with focus on scope",
+            "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a",
             "source": "Yahoo",
-            "published_at": "2026-11-18T11:05:56Z",
+            "published_at": "2026-11-18T15:50:14Z",
             "primary": false,
             "symbol": "NEE"
           }
@@ -1956,7 +1956,7 @@
         "status": "WATCH",
         "score": 75,
         "industry": "Beverages",
-        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.8×; TTM revenue growth 6.4% YoY",
+        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.4×; TTM revenue growth 6.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -1970,7 +1970,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:56:56Z",
+            "timestamp": "2026-11-20T05:38:05Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1981,7 +1981,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:56:56Z",
+        "fundamentals_at": "2026-11-20T05:38:05Z",
         "price": 139.0,
         "currency": "USD",
         "change_pct": -2.023,
@@ -2307,7 +2307,7 @@
         "status": "WATCH",
         "score": 73,
         "industry": "Financial Services",
-        "why": "Net profit margin 31.3% (TTM); Return on equity 17.5% (TTM); Trailing P/E 25.9×; TTM revenue growth 6.0% YoY",
+        "why": "Net profit margin 31.3% (TTM); Return on equity 17.5% (TTM); Trailing P/E 25.8×; TTM revenue growth 6.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -2321,7 +2321,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T22:56:56Z",
+            "timestamp": "2026-11-20T05:38:05Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2332,7 +2332,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T22:56:56Z",
+        "fundamentals_at": "2026-11-20T05:38:05Z",
         "price": 442.66,
         "currency": "USD",
         "change_pct": -0.833,
