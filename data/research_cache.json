@@ -15565,8 +15565,643 @@
           "symbol": "BAX"
         }
       ]
+    },
+    "BDX": {
+      "metrics": {
+        "52WeekHigh": 220.36,
+        "52WeekLow": 140.11,
+        "peTTM": 50.4486,
+        "psTTM": 2.8588,
+        "netProfitMarginTTM": 5.67,
+        "roeTTM": 4.65,
+        "revenueGrowthTTMYoy": -7.4,
+        "epsGrowthTTMYoy": -28.83,
+        "currentRatioQuarterly": 0.8715,
+        "totalDebt/totalEquityQuarterly": 0.6622,
+        "marketCapitalization": 57814.1
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Becton Dickinson and Co",
+      "profile": {
+        "weburl": "https://www.bd.com/",
+        "industry": "Health Care",
+        "name": "Becton Dickinson and Co"
+      },
+      "news": [
+        {
+          "headline": "Becton, Dickinson and Company Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=0dbf2034122410135427cecc8e8ee10b03c55f38cf78e1cacbf4286b324b3888",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:26:04Z",
+          "primary": false,
+          "symbol": "BDX"
+        },
+        {
+          "headline": "Accelerating Organic Growth Drives Becton, Dickinson and Company’s (BDX) Outperformance",
+          "url": "https://finnhub.io/api/news?id=6e5fcb4adbb49bca3d811919e30fbfa4fc84ced36bdc6f65852b22e72cf87cf2",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:04:54Z",
+          "primary": false,
+          "symbol": "BDX"
+        }
+      ]
+    },
+    "TECH": {
+      "metrics": {
+        "52WeekHigh": 72.88,
+        "52WeekLow": 43.2,
+        "peTTM": 62.8408,
+        "psTTM": 9.4057,
+        "netProfitMarginTTM": 14.97,
+        "roeTTM": 8.9,
+        "revenueGrowthTTMYoy": -0.38,
+        "epsGrowthTTMYoy": 158.94,
+        "currentRatioQuarterly": 4.5473,
+        "totalDebt/totalEquityQuarterly": 0.0949,
+        "marketCapitalization": 11428.351
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Bio-Techne Corporation",
+      "profile": {
+        "weburl": "https://www.bio-techne.com/",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Bio-Techne Corporation"
+      },
+      "news": [
+        {
+          "headline": "Are Wall Street Analysts Predicting Bio-Techne Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=3a62565852dc94e8682351528eb4da006a4ff7aef35e7aff1c0683695bfbf901",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:15:49Z",
+          "primary": false,
+          "symbol": "TECH"
+        }
+      ]
+    },
+    "XYZ": {
+      "metrics": {
+        "52WeekHigh": 89.395,
+        "52WeekLow": 48.21,
+        "peTTM": 103.6637,
+        "psTTM": 1.864,
+        "netProfitMarginTTM": 1.8,
+        "roeTTM": 2.08,
+        "revenueGrowthTTMYoy": 6.98,
+        "epsGrowthTTMYoy": -85.15,
+        "currentRatioQuarterly": 2.229,
+        "totalDebt/totalEquityQuarterly": 0.3172,
+        "marketCapitalization": 47804.4
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Block, Inc.",
+      "profile": {
+        "weburl": "https://squareup.com",
+        "industry": "Financial Services",
+        "name": "Block, Inc."
+      },
+      "news": [
+        {
+          "headline": "Block (XYZ), Why Is It Back In Focus?",
+          "url": "https://finnhub.io/api/news?id=1c49a5791168bf7e5ab5fb0e791928934d4d2d407127bcb65848a02aac8d960e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:14:48Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Block (SQ) Stock May Be 20% Undervalued Following Fresh AI Tools News",
+          "url": "https://finnhub.io/api/news?id=6ed91ac1d66280c677f37f942d12b308a9a9442c34a2695cad15828c500815be",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:15:06Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Wall Street Analysts Think Block (XYZ) Could Surge 27.81%: Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=f29d4978b267cbd79e73aa34d17640cc60be2bb4c2c37ff6babc3bb92b36913e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:55:03Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Cathie Wood’s ARK Invest Sells $85 Million of Nvidia, Adds Block, Circle and Coinbase",
+          "url": "https://finnhub.io/api/news?id=6334437a3613f22c4ab974c69831ec8d003189502153ff1410d5067248c70150",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:38:00Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Nift Surpasses $1 Billion in Gift Value, Adds Senior Leaders from Block, CVS Health and Taboola to Scale North America and EMEA",
+          "url": "https://finnhub.io/api/news?id=f5c0d93c0deda3b48310d0d14555bc1de6b8b77f157e3ab87e6021b78ee320d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:00:00Z",
+          "primary": false,
+          "symbol": "XYZ"
+        }
+      ]
+    },
+    "BE": {
+      "metrics": {
+        "52WeekHigh": 351.28,
+        "52WeekLow": 75.7,
+        "peTTM": 98.1023,
+        "psTTM": 13.2762,
+        "netProfitMarginTTM": 13.53,
+        "roeTTM": 39.6,
+        "revenueGrowthTTMYoy": 110.59,
+        "epsGrowthTTMYoy": 2094.25,
+        "currentRatioQuarterly": 3.7417,
+        "totalDebt/totalEquityQuarterly": 1.376,
+        "marketCapitalization": 50847.035
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Bloom Energy Corporation",
+      "profile": {
+        "weburl": "https://www.bloomenergy.com/",
+        "industry": "Electrical Equipment",
+        "name": "Bloom Energy Corporation"
+      },
+      "news": [
+        {
+          "headline": "Where Will Bloom Energy Stock Be in 5 Years After More Than Doubling Its Revenue in 2026?",
+          "url": "https://finnhub.io/api/news?id=da775b31c4332e89b14c101f628f7425bf20225f2aec031bdbb7eae830612813",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:23:02Z",
+          "primary": false,
+          "symbol": "BE"
+        },
+        {
+          "headline": "Bloom Energy Tumbles 10% Despite BMO Upgrade With $230 Target; FuelCell Energy Slides 7%, Plug Power Drops 3%",
+          "url": "https://finnhub.io/api/news?id=a8b8e6aa18f721b5bcd4544aa6b785265dc1baa53f08a4c248de593410021fa3",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:53:00Z",
+          "primary": false,
+          "symbol": "BE"
+        },
+        {
+          "headline": "Leopold Aschenbrenner and 12 Other Big Funds Sold Bloom Energy Last Quarter, While 16 Bought. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=924ee78f50b285baf088b8c30e76c48fc04670d5cdcd266e01efef13c4db8353",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:57:47Z",
+          "primary": false,
+          "symbol": "BE"
+        },
+        {
+          "headline": "Bloom Energy Is Down 50% From Its High. Should You Buy the Dip?",
+          "url": "https://finnhub.io/api/news?id=b87851f7f5852e0c7087dcac27d2342ca816ffaee179b36b461326c873f6bd34",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:35:00Z",
+          "primary": false,
+          "symbol": "BE"
+        },
+        {
+          "headline": "Anthropic, Nvidia, AMD, Intuit, Bloom Energy, and More Stocks That Explain Today’s Market",
+          "url": "https://finnhub.io/api/news?id=c5d06f600cd7ea1974612f75f43fe3b82649dfcda85aa0630ecc53b9250ba2b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:53:00Z",
+          "primary": false,
+          "symbol": "BE"
+        }
+      ]
+    },
+    "BNY": {
+      "metrics": {
+        "52WeekHigh": 165.84,
+        "52WeekLow": 105.42,
+        "peTTM": 15.1978,
+        "roeTTM": 14.760000000000002,
+        "epsGrowthTTMYoy": 29.77,
+        "totalDebt/totalEquityQuarterly": 1.5207,
+        "marketCapitalization": 99454.4
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Bank of New York Mellon Corp",
+      "profile": {
+        "weburl": "https://www.bny.com/corporate/apac/en.html",
+        "industry": "Financial Services",
+        "name": "Bank of New York Mellon Corp"
+      },
+      "news": [
+        {
+          "headline": "How Could BNY (BNY) Shape Human Led AI Through Its New Academic Chair?",
+          "url": "https://finnhub.io/api/news?id=32871bbb6966d7618d4d6801df0f88069451ee896840c2efb50cf32aa370ab6a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:11:40Z",
+          "primary": false,
+          "symbol": "BNY"
+        },
+        {
+          "headline": "BNY to Speak at the Goldman Sachs Financial Services Conference",
+          "url": "https://finnhub.io/api/news?id=dc4c07eb4079a77bba8fe453ba326ab6eb3e2dcaa3863f9bac42d392ec98b91f",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:30:00Z",
+          "primary": false,
+          "symbol": "BNY"
+        },
+        {
+          "headline": "BNY and Microsoft complete first AI agent-negotiated Treasury trade",
+          "url": "https://finnhub.io/api/news?id=62e7f6547ac3bc5a101a4bd7129906c38db322625cb884e70b82d4d5c1edfc98",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:19:11Z",
+          "primary": false,
+          "symbol": "BNY"
+        },
+        {
+          "headline": "Bank of New York Mellon Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=c56ac1c40c4be112166144fa5f7a1ad73f3d84042bcee17cee4ffbe5f92198b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:48:29Z",
+          "primary": false,
+          "symbol": "BNY"
+        },
+        {
+          "headline": "BNY-Figment Tie-Up to Enhance Digital Asset Custody & Staking",
+          "url": "https://finnhub.io/api/news?id=3799c7e2676758a25daff7d254f2eb88de1e842f321012528864767eb25cf498",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T13:19:00Z",
+          "primary": false,
+          "symbol": "BNY"
+        }
+      ]
+    },
+    "BKNG": {
+      "metrics": {
+        "52WeekHigh": 220.81,
+        "52WeekLow": 146.28,
+        "peTTM": 15.4226,
+        "psTTM": 3.8139,
+        "netProfitMarginTTM": 24.73,
+        "roeTTM": 139.63,
+        "revenueGrowthTTMYoy": 11.47,
+        "epsGrowthTTMYoy": 50.68,
+        "currentRatioQuarterly": 1.1147,
+        "totalDebt/totalEquityQuarterly": 11.2905,
+        "marketCapitalization": 110703.65
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Booking Holdings Inc.",
+      "profile": {
+        "weburl": "https://www.bookingholdings.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Booking Holdings Inc."
+      },
+      "news": [
+        {
+          "headline": "Can Booking Holdings Stock Jump 40%?",
+          "url": "https://finnhub.io/api/news?id=9821479ac8330d4fe9b7498325367a511a3e4efb0db3a0e5c961798edb69650b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:07:26Z",
+          "primary": false,
+          "symbol": "BKNG"
+        },
+        {
+          "headline": "Bernstein Maintains Market Perform on Booking Holdings, Lowers Price Target to $172",
+          "url": "https://finnhub.io/api/news?id=bf8f100fcace47c07b5a118f499eff6e4d1938ecec82f2c2f7c4d20c76e4a33c",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T10:02:05Z",
+          "primary": false,
+          "symbol": "BKNG"
+        },
+        {
+          "headline": "Can Booking Holdings Stock Rally 50% After This Dip?",
+          "url": "https://finnhub.io/api/news?id=23106d136633d5b0e8007f476a2fd422cedb851ad6910f36bb36cd97c0326dd2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:00:32Z",
+          "primary": false,
+          "symbol": "BKNG"
+        },
+        {
+          "headline": "Should Booking Holdings Stock Investors Worry About Its Outlook?",
+          "url": "https://finnhub.io/api/news?id=0f5945c5628f940bf4d94563090d693926313f4758c962be247dcab9a0dcaab9",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T19:42:39Z",
+          "primary": false,
+          "symbol": "BKNG"
+        },
+        {
+          "headline": "Booking Holdings vs. MercadoLibre: Which Consumer Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=17e7dd253692657769db2ca057f98097305a5c204593983942d753253c4c347b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:10:01Z",
+          "primary": false,
+          "symbol": "BKNG"
+        }
+      ]
+    },
+    "BR": {
+      "metrics": {
+        "52WeekHigh": 233.1,
+        "52WeekLow": 133.831,
+        "peTTM": 19.8494,
+        "psTTM": 2.7677,
+        "netProfitMarginTTM": 13.94,
+        "roeTTM": 37.79,
+        "revenueGrowthTTMYoy": 7.09,
+        "epsGrowthTTMYoy": 15.72,
+        "currentRatioQuarterly": 1.2146,
+        "totalDebt/totalEquityQuarterly": 1.2805,
+        "marketCapitalization": 20913.342
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Broadridge Financial Solutions Inc",
+      "profile": {
+        "weburl": "https://www.broadridge.com/",
+        "industry": "Professional Services",
+        "name": "Broadridge Financial Solutions Inc"
+      },
+      "news": [
+        {
+          "headline": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:50:20Z",
+          "primary": false,
+          "symbol": "BR"
+        },
+        {
+          "headline": "Broadridge Named Leader in Inaugural Everest Group BFS Agentic Business Operations PEAK Matrix® Assessment 2026",
+          "url": "https://finnhub.io/api/news?id=d4a841505e1ca41563879945e43a8341c3bf7debc936bca0711e8fdb7834ec07",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:00:00Z",
+          "primary": false,
+          "symbol": "BR"
+        },
+        {
+          "headline": "Broadridge: The Tollbooth Still Works, But The Shares Need A Better Bargain",
+          "url": "https://finnhub.io/api/news?id=3e3e879953c022052e53d5fa96cf30d33d3a1442eee85650fe0287deb622828c",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T04:52:14Z",
+          "primary": false,
+          "symbol": "BR"
+        },
+        {
+          "headline": "PRIIPs KID Production Market Report 2026 | Capitalize on 12.7% CAGR to $2.41B by 2030 as Deloitte, Accenture, Broadridge and Regnology Scale AI and Cloud Compliance",
+          "url": "https://finnhub.io/api/news?id=23c94b9f0021e5ff64c7172e5cbfe048ab1987a62b5a804f4c64e9dc704b61ee",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:25:00Z",
+          "primary": false,
+          "symbol": "BR"
+        },
+        {
+          "headline": "Broadridge Partners With Talos And Marex Group To Enable Institutional Trading Of Tokenized Securities And Securing Collateral Outside Of Market Hours",
+          "url": "https://finnhub.io/api/news?id=793003359d181f804bb8e7dd5e6f3326c586f93e65ceb1039724c29341a6f721",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T07:43:33Z",
+          "primary": false,
+          "symbol": "BR"
+        }
+      ]
+    },
+    "BRO": {
+      "metrics": {
+        "52WeekHigh": 82.58,
+        "52WeekLow": 53.81,
+        "peTTM": 19.67,
+        "psTTM": 3.4677,
+        "netProfitMarginTTM": 17.63,
+        "roeTTM": 9.69,
+        "revenueGrowthTTMYoy": 26.12,
+        "epsGrowthTTMYoy": 7.87,
+        "currentRatioQuarterly": 1.1423,
+        "totalDebt/totalEquityQuarterly": 0.6166,
+        "marketCapitalization": 23958.102
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Brown & Brown Inc",
+      "profile": {
+        "weburl": "https://www.bbrown.com/",
+        "industry": "Insurance",
+        "name": "Brown & Brown Inc"
+      },
+      "news": [
+        {
+          "headline": "BRO Lags Industry, Trades at a Discount: Time to Hold or Exit?",
+          "url": "https://finnhub.io/api/news?id=7c5ce04bf321bb49439a8b11bcb39d2543c63d5222fbef8ac6c9256317a314d8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:13:00Z",
+          "primary": false,
+          "symbol": "BRO"
+        },
+        {
+          "headline": "Wells Fargo Upgrades Brown & Brown to Overweight, Raises Price Target to $82",
+          "url": "https://finnhub.io/api/news?id=d7c7e3be32d8de07b8ff1f2cdc3934f78a3f4d3263fdcbc6a41ab87ae0748aa0",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T08:56:22Z",
+          "primary": false,
+          "symbol": "BRO"
+        },
+        {
+          "headline": "Brown & Brown: The Deal Is Working, But The Stock Still Needs Proof",
+          "url": "https://finnhub.io/api/news?id=5730e64c5adca319387b437f90dbc81874c55c8293859654376f46b0b0b613de",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T07:56:16Z",
+          "primary": false,
+          "symbol": "BRO"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Underweight on Brown & Brown, Raises Price Target to $60",
+          "url": "https://finnhub.io/api/news?id=798767bd577001c03b2da2936bf8dac6f48e2291f485669c6fad2c160cca6c27",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T11:02:43Z",
+          "primary": false,
+          "symbol": "BRO"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Brown & Brown, Raises Price Target to $84",
+          "url": "https://finnhub.io/api/news?id=c69f693e4e56541e85da88a63a99092cfe1d0395809afe6e894a38a992192547",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T13:33:28Z",
+          "primary": false,
+          "symbol": "BRO"
+        }
+      ]
+    },
+    "BF.B": {
+      "metrics": {
+        "52WeekHigh": 31.92,
+        "52WeekLow": 22.61,
+        "peTTM": 19.2556,
+        "psTTM": 3.5462,
+        "netProfitMarginTTM": 18.42,
+        "roeTTM": 17.8,
+        "revenueGrowthTTMYoy": -0.84,
+        "epsGrowthTTMYoy": -13.07,
+        "currentRatioQuarterly": 3.263,
+        "totalDebt/totalEquityQuarterly": 0.615,
+        "marketCapitalization": 13883.266
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Brown-Forman Corporation",
+      "profile": {
+        "weburl": "https://www.brown-forman.com/",
+        "industry": "Beverages",
+        "name": "Brown-Forman Corporation"
+      },
+      "news": [
+        {
+          "headline": "Brown-Forman Increases Cash Dividend for 43rd Consecutive Year",
+          "url": "https://finnhub.io/api/news?id=333a6a5aa7a2f6167447647a5ac811f1d931557ee7cd4cec1d37456da387b549",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:02:00Z",
+          "primary": false,
+          "symbol": "BF.B"
+        },
+        {
+          "headline": "Brown-Forman: Strong Brands, But Weak Growth",
+          "url": "https://finnhub.io/api/news?id=8b256e84812de252205535827da605e03bd01d20886af1fdb5cf2a56b73b383b",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T02:10:48Z",
+          "primary": false,
+          "symbol": "BF.B"
+        },
+        {
+          "headline": "Brown Forman And 2 Other Dividend Stocks To Watch",
+          "url": "https://finnhub.io/api/news?id=42fc58a28fc1e6baf39d0b5d7100dfa833045f15514d809288613043d70d94a7",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T09:11:39Z",
+          "primary": false,
+          "symbol": "BF.B"
+        }
+      ]
+    },
+    "BG": {
+      "metrics": {
+        "52WeekHigh": 134.865,
+        "52WeekLow": 88.24,
+        "peTTM": 17.5248,
+        "psTTM": 0.1922,
+        "netProfitMarginTTM": 1.1,
+        "roeTTM": 6.329999999999999,
+        "revenueGrowthTTMYoy": 80.53,
+        "epsGrowthTTMYoy": -48.66,
+        "currentRatioQuarterly": 1.5666,
+        "totalDebt/totalEquityQuarterly": 0.9565,
+        "marketCapitalization": 17647.445
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "Bunge Global SA",
+      "profile": {
+        "weburl": "https://www.bunge.com/",
+        "industry": "Food Products",
+        "name": "Bunge Global SA"
+      },
+      "news": [
+        {
+          "headline": "Bunge and CP Expand Blockchain-Enabled Soy Traceability Collaboration to Vietnam",
+          "url": "https://finnhub.io/api/news?id=c54a1db36ea3aa9504d57be31e8f4d3f0c1e8d7d5e1c3e9ada7318a16d0f9b7b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T09:00:00Z",
+          "primary": false,
+          "symbol": "BG"
+        }
+      ]
+    },
+    "BXP": {
+      "metrics": {
+        "52WeekHigh": 74.94,
+        "52WeekLow": 49.72,
+        "peTTM": 18.8172,
+        "psTTM": 2.82,
+        "netProfitMarginTTM": 14.99,
+        "roeTTM": 10.33,
+        "revenueGrowthTTMYoy": 2.67,
+        "currentRatioQuarterly": 1.7615,
+        "totalDebt/totalEquityQuarterly": 3.2633,
+        "marketCapitalization": 10029.019
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "BXP, Inc.",
+      "profile": {
+        "weburl": "https://www.bxp.com/",
+        "industry": "Real Estate",
+        "name": "BXP, Inc."
+      },
+      "news": [
+        {
+          "headline": "BXP: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=eac9751bbf5dab1674880efcd2798a3b3928f6e1cda601ac025c1d283c8381bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T18:05:02Z",
+          "primary": false,
+          "symbol": "BXP"
+        },
+        {
+          "headline": "UBS Maintains Neutral on BXP, Lowers Price Target to $66",
+          "url": "https://finnhub.io/api/news?id=2ccc5bc8a48556f1be1ceb048b9fa9adff133992656c4c2d34ab29065f98f2a7",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T12:52:25Z",
+          "primary": false,
+          "symbol": "BXP"
+        }
+      ]
+    },
+    "CHRW": {
+      "metrics": {
+        "52WeekHigh": 210.33,
+        "52WeekLow": 122.21,
+        "peTTM": 23.7208,
+        "psTTM": 0.8708,
+        "netProfitMarginTTM": 3.67,
+        "roeTTM": 39.589999999999996,
+        "revenueGrowthTTMYoy": 10.38,
+        "epsGrowthTTMYoy": 12.84,
+        "currentRatioQuarterly": 1.3388,
+        "totalDebt/totalEquityQuarterly": 1.1836,
+        "marketCapitalization": 15864.677
+      },
+      "updated_at": "2026-11-20T21:05:16Z",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "profile": {
+        "weburl": "https://www.chrobinson.com/",
+        "industry": "Logistics & Transportation",
+        "name": "C.H. Robinson Worldwide, Inc."
+      },
+      "news": [
+        {
+          "headline": "C.H. Robinson Worldwide, Inc. (CHRW) Presents at 2026 Stephens Annual Investment Conference | NASH2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=fface102c4c9e24e9cbc02da83bb57b268abba217f4621501a32a5f8a53b69c8",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T14:22:50Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "C.H. Robinson Worldwide Targets $300 Million in RXO Savings as Freight Costs Rise",
+          "url": "https://finnhub.io/api/news?id=eeb40558c88ab6c94a0e403db0f3be17f3617a0dccede856f6b46eacf715a045",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T01:12:08Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "RICO Case Against TQL, CH Robinson: What’s At Stake for Brokers?",
+          "url": "https://finnhub.io/api/news?id=5993d35dbe86d0705953aa1b336e070137a4c7b16eb69c072e3f49a1fbab5d08",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T19:48:35Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "C.H. Robinson Worldwide (CHRW) Extends Credit For RXO Deal, Is The Valuation Still Compelling?",
+          "url": "https://finnhub.io/api/news?id=24ed53b983268aede0432ef90d4587dcf937b36abbbac0d543d89292b06ab84a",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T14:17:38Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for C.H. Robinson Stock?",
+          "url": "https://finnhub.io/api/news?id=7d3d7da6d0a2591ffe7e9bbecce6f352d0c74c2cf225cf09d77b1474b9330293",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T13:01:23Z",
+          "primary": false,
+          "symbol": "CHRW"
+        }
+      ]
     }
   },
-  "cursor": 260,
-  "updated_at": "2026-11-20T20:27:20Z"
+  "cursor": 272,
+  "updated_at": "2026-11-20T21:05:16Z"
 }
