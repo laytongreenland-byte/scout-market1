@@ -245,7 +245,9 @@ def priority_events(events: list[dict]) -> list[dict]:
 def main() -> None:
     config = json.loads(CONFIG.read_text())
     previous = json.loads(DATA.read_text()) if DATA.exists() else {}
-    symbols = config.get('us_symbols', [])[:65]
+    # Bounded, verified watch universe; avoid silently ignoring most configured symbols.
+    symbols = list(dict.fromkeys(config.get('us_symbols', [])))[:340]
+    etfs = [s for s in config.get('etf_symbols', []) if s in symbols]
     sources, events = [], []
     def source(name, ok, count, error=''):
         sources.append({'name': name, 'ok': ok, 'count': count, 'checked_at': stamp(NOW), 'error': error})
@@ -314,7 +316,7 @@ def main() -> None:
     ml_report = json.loads(LEARNING.read_text()) if LEARNING.exists() else {}
     research, new_cache, new_history, new_weekly, problems = generate_research(
         symbols, quote_results, fresh, cache, history, prior_weekly,
-        key, fetch, verified_url, NOW, ml_model, ml_report)
+        key, fetch, verified_url, NOW, ml_model, ml_report, etf_symbols=etfs)
     research['learning'] = dict(ml_report, recorded_signals=len(new_history.get('episodes', [])),
                                  observed_weeks=len({v.get('week') for v in new_history.get('episodes', [])}))
     source('Finnhub fundamentals and issuer news',
@@ -329,8 +331,16 @@ def main() -> None:
     state = 'ok' if success_count == len(sources) else 'partial' if success_count else 'unavailable'
     data = {
         'generated_at': stamp(NOW), 'status': state,
+        'coverage': {
+            'configured_symbols':len(symbols), 'equity_symbols':len(symbols)-len(etfs),
+            'etf_symbols':len(etfs), 'quotes_fresh_this_scan':good_quotes,
+            'quotes_unavailable_or_unverified':len(symbols)-good_quotes,
+            'financially_screened':research.get('screened_with_financials',0),
+            'universe_note':config.get('universe_description','Curated sample, not the full market'),
+            'nzx_prices_available':False,
+        },
         'sources': sources, 'tracked_symbols': symbols,
-        'quotes': quote_results, 'events': fresh, 'research': research,
+        'quotes': quote_results, 'etf_symbols':etfs, 'events': fresh, 'research': research,
         'priorities': priority_events(fresh),
         'warnings': [
             'This scanner is best effort and does not monitor every market or source.',

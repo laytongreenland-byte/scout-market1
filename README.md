@@ -64,3 +64,11 @@ The method uses a capped, discounted past-growth assumption for a hypothetical n
 - Entry and exit levels refresh from each research scan, not just the frozen weekly shortlist. The weekly list refreshes live pricing but retains its original weekly research thesis. Missing/stale quotes and missing metrics suppress scenario price levels rather than inventing numbers.
 - These scenarios are intentionally not integrated with automated buying, and they do not train the ML algorithm or count as investment-return evidence. Trading costs (including FX, fees, spreads, NZ tax and dividends) are not reflected in the calculated targets.
 
+
+## Scout Compass (November 2026)
+
+**Distinctive purpose:** a decision-first dashboard for a small New Zealand investor, not a Bloomberg clone, brokerage account or high-frequency trading service. The first screen explains whether any candidate passes the *financial quality* AND *illustrative price* gates, including a genuinely useful **no entry** result. An NZD small-trade estimate exposes hypothetical round-trip brokerage and FX fee drag. Filters let users find a symbol, see the company's plain-language verdict, valuation assumptions and primary evidence.
+
+**Coverage:** Curated 225 US-listed equities (including some global company ADRs) and 64 diversified/sector ETFs, 289 unique symbol identifiers, across multiple sectors. These are **not** the whole US stock market, the whole global market or an NZX price feed. Valid price quotes are retrieved by Finnhub per symbol; about 12 company financial metrics/news records are refreshed by rotation per hourly scan. First-time financial coverage therefore takes multiple runs (and any provider refusal slows it). ETF quotes are **not** scored as company stocks with P/E/ROE rules. Frontend counts clearly distinguish configured tickers, successfully fetched quotes and companies with sufficient current financial evidence. If a ticker becomes invalid or unavailable, no fake price or score should appear.
+
+**Interpretation:** Scout displays transparent research classifications and conditional price *scenarios*, not real analyst targets or calibrated investment predictions. It does not calculate NZD share costs without a live USD/NZD conversion rate, connect to a broker, buy/sell automatically, know investor holdings, or claim measured excess returns before outcomes mature.

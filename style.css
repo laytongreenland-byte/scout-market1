@@ -7,3 +7,28 @@
 
 /* Scout entry/exit research scenarios — intentionally neutral rather than a trading button. */
 .price-plan{margin:12px 0 10px;border:1px solid #4b5b73;background:#102239;border-radius:13px;padding:12px;font-size:12px;line-height:1.5}.plan-header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap;margin-bottom:9px}.plan-header strong{font-size:12px;letter-spacing:.3px}.plan-header span{color:#95a9c2;font-size:9px;letter-spacing:.2px}.plan-entry{border-color:#367f72;background:#112e31}.plan-entry .plan-header strong{color:#77e4ba}.plan-wait{border-color:#706446}.plan-wait .plan-header strong{color:#f6be64}.plan-risk{border-color:#794959}.plan-risk .plan-header strong{color:#ff929e}.plan-missing{color:#adbed1}.plan-values{display:grid;grid-template-columns:1fr 1fr;gap:12px}.plan-values span{display:block;color:#99b1c9;font-size:10px;margin-bottom:3px}.plan-values strong{display:block;color:#f3f8ff;font-size:12px;overflow-wrap:anywhere}.plan-downside{margin-top:12px;color:#d9b9bb;font-size:11px}.plan-reason{color:#d6e3ef;font-size:11px;line-height:1.6;margin-top:8px}.plan-method{color:#9fb1c9;font-size:10px;line-height:1.6;margin-top:9px}.candidate .price-plan{margin-bottom:13px}@media(max-width:360px){.plan-values{grid-template-columns:1fr}}
+
+/* Scout Compass: decision-first, legible on small Android screens */
+.compass-hero{padding:19px 17px;margin:13px 0 13px;border:1px solid rgba(87,229,209,.4);background:linear-gradient(140deg,#18354a,#112438 65%,#132339)}
+.compass-title{font-size:23px;font-weight:800;line-height:1.22;letter-spacing:-.55px;margin:15px 0 9px;color:#f6fbff}
+.compass-explain{font-size:13px;line-height:1.7;color:#d9e4f1;margin:0 0 10px}
+.compass-meta{font-size:11px;line-height:1.5;color:#96adc7;margin-bottom:13px}
+.compass-action{border:1px solid #548a93;color:#b9fff3;background:#153b45;border-radius:11px;padding:10px 13px;font-weight:700;font-size:12px}
+.coverage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:13px 0 8px}
+.coverage-grid>div{border:1px solid #314458;border-radius:13px;padding:12px 10px;background:#17283c;text-align:center;min-width:0}
+.coverage-grid strong{display:block;font-size:23px;line-height:1.2;font-variant-numeric:tabular-nums}
+.coverage-grid span{display:block;font-size:10px;color:#b0c4d9;margin-top:5px}
+.coverage-disclaimer{font-size:11px;color:#a2b6cc;line-height:1.55;margin:8px 4px 15px}
+.money-glance{padding:13px 15px;margin-bottom:18px;background:#16263d}
+.money-glance .flex-between{gap:12px;margin-bottom:8px}
+.money-glance p{margin:6px 0;font-size:12px;color:#b8cce1;line-height:1.6}
+.money-glance p strong{font-size:14px;color:#f9f9fd}
+.money-glance .text-action{margin-top:6px;font-size:12px}
+.plain-verdict{background:#132c42;border-left:3px solid #60bdb8;border-radius:0 8px 8px 0;padding:10px 11px;font-size:12px;color:#e4f5f5;line-height:1.6;margin:10px 0}
+.discovery-tools{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:12px}
+.discovery-tools input,.discovery-tools select{background:#1b2b42;color:#f4f7ff;border:1px solid #466078;border-radius:10px;padding:11px 10px;min-height:43px;min-width:0;font-size:12px}
+.discovery-tools input{flex:1 1 155px}.discovery-tools select{flex:1 1 150px}
+.discovery-tools input:focus-visible,.discovery-tools select:focus-visible,.show-more:focus-visible{outline:2px solid #57e5d1;outline-offset:2px}
+.show-more{display:block;width:100%;text-align:center;color:#d2f8f1;background:#173a43;border:1px solid #40797a;padding:11px 13px;border-radius:11px;margin:12px 0 16px;font-size:12px;font-weight:700}
+.show-more[hidden]{display:none}
+@media(max-width:375px){.compass-title{font-size:20px}.coverage-grid strong{font-size:20px}.coverage-grid>div{padding:10px 5px}}
