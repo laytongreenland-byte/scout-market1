@@ -9139,8 +9139,752 @@
           "symbol": "SO"
         }
       ]
+    },
+    "IBM": {
+      "metrics": {
+        "52WeekHigh": 332.46,
+        "52WeekLow": 199.19,
+        "peTTM": 19.2714,
+        "psTTM": 3.0804,
+        "netProfitMarginTTM": 15.98,
+        "roeTTM": 32.940000000000005,
+        "revenueGrowthTTMYoy": 6.83,
+        "epsGrowthTTMYoy": 40.18,
+        "currentRatioQuarterly": 0.8549,
+        "totalDebt/totalEquityQuarterly": 1.7958,
+        "marketCapitalization": 215222.9
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "International Business Machines Corporation",
+      "profile": {
+        "weburl": "https://www.ibm.com",
+        "industry": "Technology",
+        "name": "International Business Machines Corporation"
+      },
+      "news": [
+        {
+          "headline": "Quantum X Labs Demonstrates Accurate Quantum Radiation Simulation on IBM Quantum Computer",
+          "url": "https://finnhub.io/api/news?id=d7c819dfdfdd0eab92a0a5b58cb3372029a84e6d7d4f205f1bf8685da5260930",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:56:00Z",
+          "primary": false,
+          "symbol": "IBM"
+        },
+        {
+          "headline": "IBM Stock Is Down About 23% in 2026. Here's Where I Think It Will Be in 2030.",
+          "url": "https://finnhub.io/api/news?id=91566299124be84c345d4bff4a77e5568d1dfb437c785cb4b62072ddc9b8d6a1",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T02:24:01Z",
+          "primary": false,
+          "symbol": "IBM"
+        },
+        {
+          "headline": "International Business Machines Corporation Files Underwriting Agreement and Forms of Notes for ¥108,800,000,000 Debt Offering",
+          "url": "https://finnhub.io/api/news?id=d5bb2c6750bc11b90a5aa6de6e6f8c0b4d0204da3c23f21512873aeda40665ff",
+          "source": "Fintel",
+          "published_at": "2026-11-20T01:58:47Z",
+          "primary": false,
+          "symbol": "IBM"
+        },
+        {
+          "headline": "IBM (IBM) Stock May Be 27% Below Fair Value On Quantum Platform News",
+          "url": "https://finnhub.io/api/news?id=8a9be27bad3b2776432131fc7b3c08d1f9748bbaa6a5f7c51d1e1bb67ef9395e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:20:28Z",
+          "primary": false,
+          "symbol": "IBM"
+        },
+        {
+          "headline": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:50:20Z",
+          "primary": false,
+          "symbol": "IBM"
+        }
+      ]
+    },
+    "MRSH": {
+      "metrics": {
+        "52WeekHigh": 214.0,
+        "52WeekLow": 156.6,
+        "peTTM": 24.0628,
+        "psTTM": 3.4168,
+        "netProfitMarginTTM": 14.2,
+        "roeTTM": 27.150000000000002,
+        "revenueGrowthTTMYoy": 7.58,
+        "epsGrowthTTMYoy": 0.08,
+        "currentRatioQuarterly": 1.0904,
+        "totalDebt/totalEquityQuarterly": 1.3992,
+        "marketCapitalization": 97237.92
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Marsh & McLennan Companies, Inc.",
+      "profile": {
+        "weburl": "https://www.marshmclennan.com/",
+        "industry": "Insurance",
+        "name": "Marsh & McLennan Companies, Inc."
+      },
+      "news": [
+        {
+          "headline": "Marsh McLennan (MRSH) Stock Could Trade At A Discount To Fair Value",
+          "url": "https://finnhub.io/api/news?id=f93362f1e40f78c8a626ab501bafe94c62a55c6949dc875f44f01ebf8015dabe",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:13:03Z",
+          "primary": false,
+          "symbol": "MRSH"
+        },
+        {
+          "headline": "Marsh & McLennan Companies (MRSH) Is Back In The Spotlight, What Is Driving Attention?",
+          "url": "https://finnhub.io/api/news?id=42632f62f84d16d0efb5d84646c0bc8d511b7b9ed0ba7e0b88a5a9fd7bdf9386",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T08:11:41Z",
+          "primary": false,
+          "symbol": "MRSH"
+        },
+        {
+          "headline": "Wells Fargo Upgrades Marsh & McLennan Companies to Overweight from Equal-Weight",
+          "url": "https://finnhub.io/api/news?id=19eabe4d35687b5dd6c79a471602465f0899884a4b1c57826d2f02dee878d4d7",
+          "source": "Fintel",
+          "published_at": "2026-11-20T00:50:37Z",
+          "primary": false,
+          "symbol": "MRSH"
+        },
+        {
+          "headline": "Marsh to Highlight How Perspective Drives Performance at the Formula 1® Heineken Las Vegas Grand Prix",
+          "url": "https://finnhub.io/api/news?id=8f5519562d691956f5f77ab829d085eb708d346107612bc2b7d084dd2d94fd03",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:34:00Z",
+          "primary": false,
+          "symbol": "MRSH"
+        },
+        {
+          "headline": "Marsh’s Oliver Wyman to Acquire Financial Services and Technology Consultancy Synpulse",
+          "url": "https://finnhub.io/api/news?id=bf1a5efcded1e4e1f87ed8732e9996d439ec7b3507d6bc0eec3293bff3ee57dc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:08:00Z",
+          "primary": false,
+          "symbol": "MRSH"
+        }
+      ]
+    },
+    "SYK": {
+      "metrics": {
+        "52WeekHigh": 389.33,
+        "52WeekLow": 267.0,
+        "peTTM": 32.9209,
+        "psTTM": 4.5351,
+        "netProfitMarginTTM": 13.78,
+        "roeTTM": 15.61,
+        "revenueGrowthTTMYoy": 7.87,
+        "epsGrowthTTMYoy": 23.27,
+        "currentRatioQuarterly": 2.182,
+        "totalDebt/totalEquityQuarterly": 0.6043,
+        "marketCapitalization": 119272.39
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Stryker Corporation",
+      "profile": {
+        "weburl": "https://www.stryker.com/",
+        "industry": "Health Care",
+        "name": "Stryker Corporation"
+      },
+      "news": [
+        {
+          "headline": "Stryker Sticks to Growth Goals Despite Cyberattack and Slower Orthopedic Market",
+          "url": "https://finnhub.io/api/news?id=43ab188c757c1b312eb7fd536cb3a8a865eea32e769991de723d9b435164bc28",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:14:09Z",
+          "primary": false,
+          "symbol": "SYK"
+        },
+        {
+          "headline": "Global Autonomous Surgical Robotics Market Opportunities and Strategies to 2035 | Capture $9.64B AI-Led Surgery Growth with Stryker, Medtronic, CMR Surgical and THINK Surgical",
+          "url": "https://finnhub.io/api/news?id=691191036c63a3140af70057c593af792de99de92070d0cf14c6e39d30820a60",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:36:00Z",
+          "primary": false,
+          "symbol": "SYK"
+        },
+        {
+          "headline": "Earnings Beat Might Change The Case For Investing In Stryker Stock (SYK)",
+          "url": "https://finnhub.io/api/news?id=9025b6654b743eb78cacb3524b7b357fe1bb636f26a7bdce71113ddc80ee277c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:12:38Z",
+          "primary": false,
+          "symbol": "SYK"
+        },
+        {
+          "headline": "Stryker Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=a56d961bbae83cc90cb8ae26c30a5b04332e3d0cc5d1083a031b695dc6bab2e4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T06:12:03Z",
+          "primary": false,
+          "symbol": "SYK"
+        },
+        {
+          "headline": "Stryker (SYK) Could Be 2% Above Fair Value After Third Quarter EPS Growth",
+          "url": "https://finnhub.io/api/news?id=b4f926cfcfbc1411af43911231da4c929935da9268caa0f46cb7a35d04ecc979",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T06:11:07Z",
+          "primary": false,
+          "symbol": "SYK"
+        }
+      ]
+    },
+    "URI": {
+      "metrics": {
+        "52WeekHigh": 1202.12,
+        "52WeekLow": 701.59,
+        "peTTM": 23.854,
+        "psTTM": 3.8952,
+        "netProfitMarginTTM": 16.33,
+        "roeTTM": 31.009999999999998,
+        "revenueGrowthTTMYoy": 9.45,
+        "epsGrowthTTMYoy": 17.05,
+        "currentRatioQuarterly": 0.796,
+        "totalDebt/totalEquityQuarterly": 1.5133,
+        "marketCapitalization": 68150.77
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "United Rentals, Inc.",
+      "profile": {
+        "weburl": "https://www.unitedrentals.com/",
+        "industry": "Trading Companies & Distributors",
+        "name": "United Rentals, Inc."
+      },
+      "news": [
+        {
+          "headline": "United Rentals Climbs 17% in 6 Months: Should You Buy the Stock?",
+          "url": "https://finnhub.io/api/news?id=329a976aee34c9f88fce77cabb9fbffa3ad2eeea993e35c85b8c3ab0ae0ffc3c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:21:00Z",
+          "primary": false,
+          "symbol": "URI"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of United Rentals (URI) on Nov. 13",
+          "url": "https://finnhub.io/api/news?id=a40495615a51f4cd8143c1dcb43b7790b7c94623006f98b9a3919c61c73ebdf5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:02:45Z",
+          "primary": false,
+          "symbol": "URI"
+        }
+      ]
+    },
+    "DUK": {
+      "metrics": {
+        "52WeekHigh": 134.49,
+        "52WeekLow": 112.4,
+        "peTTM": 18.8092,
+        "psTTM": 2.9989,
+        "netProfitMarginTTM": 15.94,
+        "roeTTM": 9.959999999999999,
+        "revenueGrowthTTMYoy": 6.8,
+        "epsGrowthTTMYoy": 7.67,
+        "currentRatioQuarterly": 0.6814,
+        "totalDebt/totalEquityQuarterly": 1.6756,
+        "marketCapitalization": 101400.27
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Duke Energy Corp",
+      "profile": {
+        "weburl": "https://www.duke-energy.com/",
+        "industry": "Utilities",
+        "name": "Duke Energy Corp"
+      },
+      "news": [
+        {
+          "headline": "Duke Energy: A Hold Until Data Centers Start Buying More Power",
+          "url": "https://finnhub.io/api/news?id=88b6a45a38816a5f774aa30cf4def212f7db139d45943ba23bd615a45fcb5acf",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T08:18:33Z",
+          "primary": false,
+          "symbol": "DUK"
+        },
+        {
+          "headline": "Duke Energy Corporation Consummates Sale of $875,000,000 of 6.05% Senior Notes due 2036",
+          "url": "https://finnhub.io/api/news?id=5a056c55ad50bb594e6540b0509d90736047b29edf67a28fa37e045ee7ad3048",
+          "source": "Fintel",
+          "published_at": "2026-11-20T00:11:06Z",
+          "primary": false,
+          "symbol": "DUK"
+        },
+        {
+          "headline": "Duke Energy Foundation commits $50,000 to help Florida families in need this holiday season",
+          "url": "https://finnhub.io/api/news?id=d029eaa77fcc3673a82659cf07adf866d17e1a5c1a484d512ef16e93fd79784f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:59:00Z",
+          "primary": false,
+          "symbol": "DUK"
+        },
+        {
+          "headline": "BMO Capital Maintains Outperform on Duke Energy, Raises Price Target to $138",
+          "url": "https://finnhub.io/api/news?id=ce96af99236db7e1ea222a886caa6c53b89fef4d2187af0eeca7064151104ee1",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:51:11Z",
+          "primary": false,
+          "symbol": "DUK"
+        },
+        {
+          "headline": "What Does Duke Energy (DUK) Winning Carolinas Plan Approval Mean For Investors?",
+          "url": "https://finnhub.io/api/news?id=072dceef0101214bfd571215d5d9b876f0d03e1b9cc468519da6a8ae0391f657",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:23:04Z",
+          "primary": false,
+          "symbol": "DUK"
+        }
+      ]
+    },
+    "CSCO": {
+      "metrics": {
+        "52WeekHigh": 130.3656,
+        "52WeekLow": 72.8,
+        "peTTM": 24.9582,
+        "psTTM": 5.5758,
+        "netProfitMarginTTM": 22.34,
+        "roeTTM": 30.15,
+        "revenueGrowthTTMYoy": 16.05,
+        "epsGrowthTTMYoy": 45.27,
+        "currentRatioQuarterly": 0.9609,
+        "totalDebt/totalEquityQuarterly": 0.5774,
+        "marketCapitalization": 373349.84
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Cisco Systems Inc",
+      "profile": {
+        "weburl": "https://www.cisco.com/",
+        "industry": "Communications",
+        "name": "Cisco Systems Inc"
+      },
+      "news": [
+        {
+          "headline": "Anthropic Defies Tech Rout On Debut — Tom Lee Sees ‘Big Payoff’ Ahead And Says Cisco’s Wild 1997 Ride Shows Why",
+          "url": "https://finnhub.io/api/news?id=dec81606ca50617960840a00296dd633aa3cb2c8546d69a0be3493f01570c310",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T05:18:58Z",
+          "primary": false,
+          "symbol": "CSCO"
+        },
+        {
+          "headline": "HSBC Just Turned Bullish on Cisco Stock Again. Here’s Why It Expects 40% Upside.",
+          "url": "https://finnhub.io/api/news?id=3e43f26f5982e3ccd0360d82d73d3b395354b212bbc44e0c994cf8a7cd52ffd7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:57:46Z",
+          "primary": false,
+          "symbol": "CSCO"
+        },
+        {
+          "headline": "What Is Cisco Systems (CSCO) Really Gaining From Its New AI Alliances?",
+          "url": "https://finnhub.io/api/news?id=7ca2b56ea256778e304cc82e8845bfdece1eaf8f8a5579ac425af7876892739c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:10:30Z",
+          "primary": false,
+          "symbol": "CSCO"
+        },
+        {
+          "headline": "Cisco’s CEO Just Sold $27 Million of Stock in 3 Days",
+          "url": "https://finnhub.io/api/news?id=9bdf5e90b546e392313cd58aab4997a39fb8142acfb9de1b5103ff2002eeb9b7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:02:27Z",
+          "primary": false,
+          "symbol": "CSCO"
+        },
+        {
+          "headline": "Connected Logistics - Global Strategic Business Report 2026: Capitalize on a $100.8 Billion Market by 2032 with Cisco, IBM, SAP, Intel, and AT&T",
+          "url": "https://finnhub.io/api/news?id=6efafaee222231f0fcb6766016063c2661b0340da51087774332ae27943331e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:01:00Z",
+          "primary": false,
+          "symbol": "CSCO"
+        }
+      ]
+    },
+    "AON": {
+      "metrics": {
+        "52WeekHigh": 382.34,
+        "52WeekLow": 266.33,
+        "peTTM": 17.7431,
+        "psTTM": 3.9458,
+        "netProfitMarginTTM": 22.24,
+        "roeTTM": 40.45,
+        "revenueGrowthTTMYoy": 3.83,
+        "epsGrowthTTMYoy": 46.2,
+        "currentRatioQuarterly": 1.5847,
+        "totalDebt/totalEquityQuarterly": 2.7761,
+        "marketCapitalization": 69765.766
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Aon PLC",
+      "profile": {
+        "weburl": "https://www.aon.com/",
+        "industry": "Insurance",
+        "name": "Aon PLC"
+      },
+      "news": [
+        {
+          "headline": "Aon (AON) Stock Still Looks Undervalued After Its 15% Five Year Run",
+          "url": "https://finnhub.io/api/news?id=0856ef30f216139b345b33389f42b627bde9fc918d2386b50b55d993210ade52",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:13:59Z",
+          "primary": false,
+          "symbol": "AON"
+        },
+        {
+          "headline": "Aon (AON) Unveils Cortina Syndicate 1956 and Names Two Key Leaders",
+          "url": "https://finnhub.io/api/news?id=4f9b459d55af49803301084b4a027e23691c101e83a32a75436948004b2d110c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:15:30Z",
+          "primary": false,
+          "symbol": "AON"
+        },
+        {
+          "headline": "Aon Strengthens Digital Claims Capabilities With Swiss Re Corporate",
+          "url": "https://finnhub.io/api/news?id=245d51710392eb655653784b2aecdeafdfa4352b873baec688127faf6daea630",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:10:00Z",
+          "primary": false,
+          "symbol": "AON"
+        },
+        {
+          "headline": "Aon connects claims platform with Swiss Re Corporate Solutions",
+          "url": "https://finnhub.io/api/news?id=03d953499a675a601e693e34e835007224537d83fd910274530c96c5c509f490",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:12:03Z",
+          "primary": false,
+          "symbol": "AON"
+        },
+        {
+          "headline": "Aon plc Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=5a042a34d71e9863afd4fb6fe9c87dbf6c81343ad666b053e0b77cff33c5bd04",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:04:29Z",
+          "primary": false,
+          "symbol": "AON"
+        }
+      ]
+    },
+    "BSX": {
+      "metrics": {
+        "52WeekHigh": 101.91,
+        "52WeekLow": 39.57,
+        "peTTM": 17.9766,
+        "psTTM": 2.9871,
+        "netProfitMarginTTM": 16.62,
+        "roeTTM": 13.91,
+        "revenueGrowthTTMYoy": 8.88,
+        "epsGrowthTTMYoy": 26.25,
+        "currentRatioQuarterly": 1.3648,
+        "totalDebt/totalEquityQuarterly": 0.4664,
+        "marketCapitalization": 62936.13
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Boston Scientific Corporation",
+      "profile": {
+        "weburl": "https://www.bostonscientific.com/en-US/Home.html",
+        "industry": "Health Care",
+        "name": "Boston Scientific Corporation"
+      },
+      "news": [
+        {
+          "headline": "Boston Scientific Prices $7.66 Billion in Notes to Fund Penumbra Acquisition",
+          "url": "https://finnhub.io/api/news?id=eb429db61f9dc91ee32a6cb67434a5737ccb9003785772fe0ab69fae00717c0b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:03:26Z",
+          "primary": false,
+          "symbol": "BSX"
+        },
+        {
+          "headline": "Boston Scientific announces pricing of $3.0 billion and €4.25 billion offerings of senior notes",
+          "url": "https://finnhub.io/api/news?id=0a9a1247cef72d6810b2dcb1c1006260d349c04697e401e7244d1bedde94540c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T01:45:00Z",
+          "primary": false,
+          "symbol": "BSX"
+        },
+        {
+          "headline": "Recall And Debt Build Might Change The Case For Investing In Boston Scientific (BSX)",
+          "url": "https://finnhub.io/api/news?id=76f2828081bb51c1e71bdb3486d4af7be3527ef403ace241780207c862aa977c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:17:00Z",
+          "primary": false,
+          "symbol": "BSX"
+        },
+        {
+          "headline": "BSX's Weak Solvency and Cash Conversion Raise Financing Risk",
+          "url": "https://finnhub.io/api/news?id=59ca8e79c08a8c131474d2ebe3aa1bdb2479435d4b4bb72c546ad1d36c8afcfa",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:01:00Z",
+          "primary": false,
+          "symbol": "BSX"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning Boston Scientific Stock In The Last 15 Years",
+          "url": "https://finnhub.io/api/news?id=3cfda0f50bc2cea6d690cf4bd976e25091d64558252c0b04b8fc61619db1d832",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T17:45:16Z",
+          "primary": false,
+          "symbol": "BSX"
+        }
+      ]
+    },
+    "FAST": {
+      "metrics": {
+        "52WeekHigh": 56.27,
+        "52WeekLow": 38.97,
+        "peTTM": 42.8792,
+        "psTTM": 6.6973,
+        "netProfitMarginTTM": 15.62,
+        "roeTTM": 35.120000000000005,
+        "revenueGrowthTTMYoy": 13.53,
+        "epsGrowthTTMYoy": 15.59,
+        "currentRatioQuarterly": 3.9302,
+        "totalDebt/totalEquityQuarterly": 0.0241,
+        "marketCapitalization": 60806.98
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Fastenal Company",
+      "profile": {
+        "weburl": "https://www.fastenal.com/",
+        "industry": "Trading Companies & Distributors",
+        "name": "Fastenal Company"
+      },
+      "news": [
+        {
+          "headline": "Baird Downgrades Fastenal to Neutral, Lowers Price Target to $56",
+          "url": "https://finnhub.io/api/news?id=dfe1b4f94eadbc2b94cac3b1e12cda7c39ba1f53d863e85e9abc0676fecef3be",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T08:48:25Z",
+          "primary": false,
+          "symbol": "FAST"
+        },
+        {
+          "headline": "Fastenal Raised Its Dividend Twice in 2026. Why Wall Street Still Isn’t Sold on This Dividend Aristocrat.",
+          "url": "https://finnhub.io/api/news?id=70c944950a5bb6d1c9e4880385454b088dddde49bfca15b3328ba2a7eb37684a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:35:27Z",
+          "primary": false,
+          "symbol": "FAST"
+        },
+        {
+          "headline": "Has Buying Fastenal Stock At A High Paid Off?",
+          "url": "https://finnhub.io/api/news?id=db4cdb9f76d478bd5eaabe2f9d100b59b765a592731ea7c7816fe9fb7052e978",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:40:50Z",
+          "primary": false,
+          "symbol": "FAST"
+        },
+        {
+          "headline": "$1000 Invested In Fastenal 10 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=190b9d154b53f921983870f2e4b3aa412b45677ed382a2607729c5d6f6b12e85",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T16:30:15Z",
+          "primary": false,
+          "symbol": "FAST"
+        },
+        {
+          "headline": "Fastenal (FAST) Up 10.3% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=6604575e8f738adfdec68d99d417edebcec65749a28d8c496e0b82513963d6b4",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T15:30:03Z",
+          "primary": false,
+          "symbol": "FAST"
+        }
+      ]
+    },
+    "AEP": {
+      "metrics": {
+        "52WeekHigh": 140.58,
+        "52WeekLow": 112.54,
+        "peTTM": 20.277,
+        "psTTM": 2.9453,
+        "netProfitMarginTTM": 14.53,
+        "roeTTM": 10.489999999999998,
+        "revenueGrowthTTMYoy": 11.41,
+        "epsGrowthTTMYoy": -10.33,
+        "currentRatioQuarterly": 0.5129,
+        "totalDebt/totalEquityQuarterly": 1.6564,
+        "marketCapitalization": 68049.45
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "American Electric Power Company Inc",
+      "profile": {
+        "weburl": "https://www.aep.com/",
+        "industry": "Utilities",
+        "name": "American Electric Power Company Inc"
+      },
+      "news": [
+        {
+          "headline": "AEP and Xcel Energy Are Betting on Data Centers, but Their Dividends Tell Different Stories",
+          "url": "https://finnhub.io/api/news?id=fa01f5175610b9b6984228a10fa64bbdcbf206a531132a0e4c671fe126b4c860",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:47:48Z",
+          "primary": false,
+          "symbol": "AEP"
+        },
+        {
+          "headline": "Better Dividend Stock: AEP vs. Atmos Energy",
+          "url": "https://finnhub.io/api/news?id=848061ace6aca86c44886563c326083aebe9623c9a5450866bc4a0f11293c81f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:58:43Z",
+          "primary": false,
+          "symbol": "AEP"
+        },
+        {
+          "headline": "AEP vs. Ameren: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=76e046234d34684913b452ba2584ba334458609ed400c90b17ab3f8307550bca",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:16:56Z",
+          "primary": false,
+          "symbol": "AEP"
+        },
+        {
+          "headline": "Is AEP Stock Undervalued?",
+          "url": "https://finnhub.io/api/news?id=bf9fd8c190970b87d043f1c5c434d44bc34e0ab15214d84225ba1af6b065a9e1",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:29:48Z",
+          "primary": false,
+          "symbol": "AEP"
+        },
+        {
+          "headline": "American Electric Power: A Safer Way To Profit From The AI Boom",
+          "url": "https://finnhub.io/api/news?id=d10f535d9544e4f4a0749fd1a7c0dfa48be4cd44fff08259b2e789d56f53df18",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T11:11:58Z",
+          "primary": false,
+          "symbol": "AEP"
+        }
+      ]
+    },
+    "ACN": {
+      "metrics": {
+        "52WeekHigh": 291.09,
+        "52WeekLow": 118.15,
+        "peTTM": 16.0696,
+        "psTTM": 1.8125,
+        "netProfitMarginTTM": 11.28,
+        "roeTTM": 26.66,
+        "revenueGrowthTTMYoy": 6.47,
+        "epsGrowthTTMYoy": 11.62,
+        "currentRatioQuarterly": 1.4271,
+        "totalDebt/totalEquityQuarterly": 0.3203,
+        "marketCapitalization": 134455.28
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "Accenture PLC",
+      "profile": {
+        "weburl": "https://www.accenture.com/ie-en/",
+        "industry": "Technology",
+        "name": "Accenture PLC"
+      },
+      "news": [
+        {
+          "headline": "Accenture (NYSE:ACN): A Quality Investing Candidate With Exceptional ROIC and Cash Flow",
+          "url": "https://finnhub.io/api/news?id=8b05b50a3019eeb8fe6942a0d5818f6990a1242a222c14a8ced81072beb50816",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T12:40:45Z",
+          "primary": false,
+          "symbol": "ACN"
+        },
+        {
+          "headline": "Accenture (ACN) Gains as AI Disruption Fears Eased",
+          "url": "https://finnhub.io/api/news?id=09e19d569a5bfdf01a0c745479ceb4bce2dbd950fd9e583e11e94d7463fefdc4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:19:58Z",
+          "primary": false,
+          "symbol": "ACN"
+        },
+        {
+          "headline": "B of A Securities Reinstates Buy on Accenture, Announces $288 Price Target",
+          "url": "https://finnhub.io/api/news?id=2973efa9c18551ce1753a8f107099bec8a63dec1dba68505565de6e791820587",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:58:07Z",
+          "primary": false,
+          "symbol": "ACN"
+        },
+        {
+          "headline": "Is Accenture Stock About To Rebound?",
+          "url": "https://finnhub.io/api/news?id=2af3844a887618b670c38c258fe1b8b622ed97394cf489ba78f67caeb28cf85e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:47:16Z",
+          "primary": false,
+          "symbol": "ACN"
+        },
+        {
+          "headline": "Can Accenture Stock Jump 30%?",
+          "url": "https://finnhub.io/api/news?id=cbe7e3058f3ccf6e6397163998c8ffde383f68743e5586354c84627be4fc9dcb",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T22:27:09Z",
+          "primary": false,
+          "symbol": "ACN"
+        }
+      ]
+    },
+    "PGR": {
+      "metrics": {
+        "52WeekHigh": 241.02,
+        "52WeekLow": 189.2,
+        "peTTM": 11.4636,
+        "psTTM": 1.4529,
+        "netProfitMarginTTM": 12.67,
+        "roeTTM": 35.44,
+        "revenueGrowthTTMYoy": 7.67,
+        "epsGrowthTTMYoy": 8.93,
+        "currentRatioQuarterly": 0.08,
+        "totalDebt/totalEquityQuarterly": 0.2433,
+        "marketCapitalization": 133230.12
+      },
+      "updated_at": "2026-11-20T15:04:23Z",
+      "name": "The Progressive Corporation",
+      "profile": {
+        "weburl": "https://www.progressive.com/",
+        "industry": "Insurance",
+        "name": "The Progressive Corporation"
+      },
+      "news": [
+        {
+          "headline": "Mizuho Maintains Neutral on Progressive, Lowers Price Target to $236",
+          "url": "https://finnhub.io/api/news?id=4064944fd751e48e3f6dc0ace321eda8d58e57917ba77de1a4a4d2c4aec9475f",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:19:39Z",
+          "primary": false,
+          "symbol": "PGR"
+        },
+        {
+          "headline": "Progressive's October Earnings Decline Y/Y on Escalating Expenses",
+          "url": "https://finnhub.io/api/news?id=a410a7bf03b8f4db6ca5f2f64b0180f7d38001076fb3c1739063296442b2d566",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:35:00Z",
+          "primary": false,
+          "symbol": "PGR"
+        },
+        {
+          "headline": "B of A Securities Maintains Buy on Progressive, Lowers Price Target to $261",
+          "url": "https://finnhub.io/api/news?id=32f856ec625fea6cd1cbadf21060876f72a4e3b70059341f342ba33a16e3e447",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:35:40Z",
+          "primary": false,
+          "symbol": "PGR"
+        },
+        {
+          "headline": "Citigroup Maintains Buy on Progressive, Lowers Price Target to $260",
+          "url": "https://finnhub.io/api/news?id=bf9d5386b678869bd6773641c04e85b05abc007c74d1f4a7c11e42102f479ac9",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:53:29Z",
+          "primary": false,
+          "symbol": "PGR"
+        },
+        {
+          "headline": "Wells Fargo Maintains Underweight on Progressive, Lowers Price Target to $194",
+          "url": "https://finnhub.io/api/news?id=a694f1b3135b78c5d732af74def46327118916ea43d81b1f25926e3f6cae7e40",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:39:16Z",
+          "primary": false,
+          "symbol": "PGR"
+        }
+      ]
     }
   },
-  "cursor": 152,
-  "updated_at": "2026-11-20T13:23:07Z"
+  "cursor": 164,
+  "updated_at": "2026-11-20T15:04:23Z"
 }
