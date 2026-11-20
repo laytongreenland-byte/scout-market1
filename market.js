@@ -1,0 +1,62 @@
+'use strict';
+// Separate public listing discovery. This data NEVER counts as quotes,
+// financial diligence, Sharesies availability or a Scout buy candidate.
+const ScoutMarket=(()=>{
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let catalog=null,latest=null,query='',type='all';
+  const count=n=>Number(n||0).toLocaleString('en-NZ');
+  function render(){
+    const stats=$('market-directory-stats'),markets=$('market-directory-markets');
+    const list=$('market-directory-results'),footer=$('market-directory-disclaimer');
+    if(!stats||!markets||!list||!footer)return;
+    if(!catalog||!(catalog.items||[]).length){
+      stats.textContent='US exchange directory not yet available. Current Scout price scanning is unaffected.';
+      markets.innerHTML='<span>US: discovery pending</span><span>ASX: not connected</span><span>NZX: not connected</span>';
+      list.innerHTML='<div class="market-directory-message">The first catalogue refresh may not have completed yet. Try again after a successful market scan.</div>';
+      footer.textContent='No unsupported instruments have been added to Scout recommendations.';
+      return;
+    }
+    const total=catalog.counts?.listed_total??catalog.items.length;
+    const quoted=latest?.coverage?.quotes_fresh_this_scan??0;
+    const screened=latest?.research?.screened_with_financials??0;
+    stats.textContent=count(total)+' US-exchange listings discovered · '+count(quoted)+' Scout price quotes · '+count(screened)+' companies screened financially.';
+    const usReady=catalog.status==='READY';
+    markets.innerHTML='<span>US: '+esc(usReady?'2 official directories':'partial directory')+'</span>'+
+      '<span>ASX: not connected</span><span>NZX: not connected</span>';
+    footer.textContent='This is NOT the full Sharesies investment catalogue. US-exchange-listed does not confirm a security is tradable on Sharesies. NZX/ASX feeds and reliable prices/fundamentals for newly discovered listings are not connected. A company appearing here is not an investment recommendation.';
+    if(!query){
+      list.innerHTML='<div class="market-directory-message">Search by company or ticker to explore exchange listings. No extra quote API requests will be made.</div>';
+      return;
+    }
+    const matches=catalog.items.filter(x=>(type==='all'||x.type===type)&&
+      ((x.symbol||'').toLowerCase().includes(query)||(x.name||'').toLowerCase().includes(query)));
+    const shown=matches.slice(0,35);
+    list.innerHTML=shown.map(x=>'<div class="market-directory-row"><div><strong>'+esc(x.symbol)+'</strong>'+
+      '<p>'+esc(x.name||'Unknown security')+'</p></div><small>'+esc(x.exchange)+' · '+esc(x.type)+'</small></div>').join('')+
+      '<div class="market-directory-message">'+(matches.length?count(matches.length)+' exchange listings matched. Showing first '+shown.length+'.':'No matching securities in the available US exchange directory.')+'</div>';
+  }
+  async function load(){
+    try{
+      const response=await fetch('./data/market_catalog.json?nocache='+Date.now(),{cache:'no-store'});
+      if(!response.ok)throw Error('Directory unavailable');
+      const obj=await response.json();
+      if(!obj||!Array.isArray(obj.items)||!obj.counts||obj.sharesies_availability_verified!==false)
+        throw Error('Directory schema not recognised');
+      catalog=obj;
+    }catch{
+      catalog=null;
+    }
+    render();
+  }
+  function setup(){
+    $('market-directory-search').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();render()});
+    $('market-directory-type').addEventListener('change',e=>{type=e.target.value;render()});
+    load();
+  }
+  function updateLatest(snapshot){
+    latest=snapshot;
+    render();
+  }
+  return {setup,render:updateLatest,load};
+})();
