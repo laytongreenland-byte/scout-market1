@@ -1027,22 +1027,32 @@
       "metrics": {
         "52WeekHigh": 92.923,
         "52WeekLow": 64.0401,
-        "peTTM": 38.3137,
-        "psTTM": 2.3486,
+        "peTTM": 37.3031,
+        "psTTM": 2.2866,
         "netProfitMarginTTM": 6.13,
         "roeTTM": 12.98,
         "revenueGrowthTTMYoy": 13.94,
         "epsGrowthTTMYoy": -78.41,
         "currentRatioQuarterly": 1.2318,
         "totalDebt/totalEquityQuarterly": 0.5663,
-        "marketCapitalization": 132756.84
+        "marketCapitalization": 129255.125
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "Uber Technologies, Inc.",
       "profile": {
-        "weburl": "https://www.uber.com"
+        "weburl": "https://www.uber.com",
+        "industry": "Road & Rail",
+        "name": "Uber Technologies, Inc."
       },
       "news": [
+        {
+          "headline": "Uber tests rides for kids as young as 10, with extra pay for drivers",
+          "url": "https://finnhub.io/api/news?id=b3fd6a44162aba89e080231a791228568f155379cb538bcfcdf42292c6b5bcd8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:33:24Z",
+          "primary": false,
+          "symbol": "UBER"
+        },
         {
           "headline": "Uber Technologies (UBER) Starts Commercial Drone Food Deliveries In Texas With 1 Million Daily Goal",
           "url": "https://finnhub.io/api/news?id=8015d5c2037c1302232e470335b08ef876e99d22406d33de6097892ccf9a1b67",
@@ -1058,6 +1068,22 @@
           "published_at": "2026-11-19T15:14:00Z",
           "primary": false,
           "symbol": "UBER"
+        },
+        {
+          "headline": "Uber Eats Launches Auto Parts Category With AutoParts.com",
+          "url": "https://finnhub.io/api/news?id=e5ffe72d097596e1859fde02eea8662a32b66740192fdd4c3186f66bb337ea24",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "UBER"
+        },
+        {
+          "headline": "iShares U.S. Transportation (IYT) Sells Union Pacific and Uber on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=9399d2448453e95ddf609f2b3be7a1f20aaf79a7bd1ed9d244d3013287cada60",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:06:51Z",
+          "primary": false,
+          "symbol": "UBER"
         }
       ]
     },
@@ -1065,22 +1091,32 @@
       "metrics": {
         "52WeekHigh": 115.25,
         "52WeekLow": 59.405,
-        "peTTM": 16.5936,
-        "psTTM": 4.9268,
+        "peTTM": 16.5222,
+        "psTTM": 4.9056,
         "netProfitMarginTTM": 29.69,
         "roeTTM": 50.41,
         "revenueGrowthTTMYoy": 14.65,
         "epsGrowthTTMYoy": 44.57,
         "currentRatioQuarterly": 1.0749,
         "totalDebt/totalEquityQuarterly": 0.5167,
-        "marketCapitalization": 245031.47
+        "marketCapitalization": 243977.38
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "Netflix, Inc.",
       "profile": {
-        "weburl": "https://www.netflix.com/"
+        "weburl": "https://www.netflix.com/",
+        "industry": "Media",
+        "name": "Netflix, Inc."
       },
       "news": [
+        {
+          "headline": "Josh Brown: Netflix Can Clear Wall Street’s 10.6% Growth Bar “Standing on Their Head”",
+          "url": "https://finnhub.io/api/news?id=a002023a6a63e34436cb6f9dd48e7fed4c57513d36499f1e7378bb5c4e9f17a8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:06:09Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
         {
           "headline": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
           "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da",
@@ -1094,6 +1130,22 @@
           "url": "https://finnhub.io/api/news?id=8b971ae30d0e63abee843530752bfedb5d086f03677c0c423e7ee2827335522e",
           "source": "Yahoo",
           "published_at": "2026-11-19T18:47:26Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
+        {
+          "headline": "Netflix Just Dropped 15% in a Month. Is There “More Pain” Ahead, or Is It Time to Load Up?",
+          "url": "https://finnhub.io/api/news?id=4d7db59b0514a6234d2db03c0e2296249f75019de468524e9011bae0b5f123c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:35:36Z",
+          "primary": false,
+          "symbol": "NFLX"
+        },
+        {
+          "headline": "Netflix (NFLX) Down 8% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=12b3fed49af362c4944f83635c0ba8ecfd9dcaa50db02b64955bbea7b184f9ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:06Z",
           "primary": false,
           "symbol": "NFLX"
         }
@@ -1113,12 +1165,22 @@
         "totalDebt/totalEquityQuarterly": 0.1721,
         "marketCapitalization": 485944.5
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "Costco Wholesale Corp",
       "profile": {
-        "weburl": "https://www.costco.com/"
+        "weburl": "https://www.costco.com/",
+        "industry": "Retail",
+        "name": "Costco Wholesale Corp"
       },
       "news": [
+        {
+          "headline": "Doomsday Deals: Mizuho Hikes Its Costco Stock Price Target as Panic-Buying Spikes on Apocalypse Fears",
+          "url": "https://finnhub.io/api/news?id=dd3581dee74ea9e7a884c5c928bdba72e25fdd2707734a7b6a5569537e17c8f9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:57:05Z",
+          "primary": false,
+          "symbol": "COST"
+        },
         {
           "headline": "Walmart, Costco see some panic-buying after tech outages",
           "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
@@ -1142,6 +1204,14 @@
           "published_at": "2026-11-19T17:23:37Z",
           "primary": false,
           "symbol": "COST"
+        },
+        {
+          "headline": "What Does Costco Wholesale (COST) Panic Buying Mean For Sales And Inventory?",
+          "url": "https://finnhub.io/api/news?id=e74411d6864239af2f7d5e4d7555ad04c81a10b2abc47ea2aa2a7f21accc3c7f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:15:26Z",
+          "primary": false,
+          "symbol": "COST"
         }
       ]
     },
@@ -1149,59 +1219,61 @@
       "metrics": {
         "52WeekHigh": 135.16,
         "52WeekLow": 99.68,
-        "peTTM": 44.5314,
-        "psTTM": 1.336,
-        "netProfitMarginTTM": 3.0,
-        "roeTTM": 22.74,
-        "revenueGrowthTTMYoy": 6.16,
-        "epsGrowthTTMYoy": 4.13,
-        "currentRatioQuarterly": 0.7671,
-        "totalDebt/totalEquityQuarterly": 0.5827,
-        "marketCapitalization": 983075.06
+        "peTTM": 45.902,
+        "psTTM": 1.2953,
+        "netProfitMarginTTM": 2.82,
+        "roeTTM": 21.099999999999998,
+        "revenueGrowthTTMYoy": 5.99,
+        "epsGrowthTTMYoy": -7.61,
+        "currentRatioQuarterly": 0.8144,
+        "totalDebt/totalEquityQuarterly": 0.5397,
+        "marketCapitalization": 965228.25
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "Walmart Inc.",
       "profile": {
-        "weburl": "https://corporate.walmart.com"
+        "weburl": "https://corporate.walmart.com",
+        "industry": "Retail",
+        "name": "Walmart Inc."
       },
       "news": [
+        {
+          "headline": "Walmart Inc. Q3 2027 Earnings Call Summary",
+          "url": "https://finnhub.io/api/news?id=1e8891cb595b2dfbc6f58ce6d03a69fd71b67211fa614e3bd10a87521ee81228",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:12:23Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "Walmart Inc (WMT) (Q3 2027) Earnings Call Highlights: Raised Guidance, 23% US E-Commerce Growth ...",
+          "url": "https://finnhub.io/api/news?id=84cbf4580475c3398816dbe01484fef0a6154f749c79edbb0e620abd3d47bc93",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:00:48Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "Walmart is building an omnichannel environment around agentic AI",
+          "url": "https://finnhub.io/api/news?id=7a3c0e49ac81ec673901eb0816d32e0a944ae7fbf723afff32770f1fadaed3fb",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:27:28Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
+        {
+          "headline": "Walmart Global Ad Sales Jump 25% YoY On 37% U.S. Increase",
+          "url": "https://finnhub.io/api/news?id=13344c104906da8a3fe2db9c8013eddde116321d186a62da942b66c66ad79009",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:28:35Z",
+          "primary": false,
+          "symbol": "WMT"
+        },
         {
           "headline": "Tariff Refunds Appear to Fund Price Cuts at Target, Walmart, But No Direct Payouts to Customers",
           "url": "https://finnhub.io/api/news?id=655bc41ff727285eaade3e660858976118eb56c625ff08b677817d151e1064e1",
           "source": "Yahoo",
           "published_at": "2026-11-19T19:26:55Z",
-          "primary": false,
-          "symbol": "WMT"
-        },
-        {
-          "headline": "Walmart’s CEO Revealed the Diesel Price That Could End the Company’s Low-Price Streak",
-          "url": "https://finnhub.io/api/news?id=24f94b72b2d491a2671d568cfe9325bb7ebbfb9b227053897a4327644bd090b0",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:19:32Z",
-          "primary": false,
-          "symbol": "WMT"
-        },
-        {
-          "headline": "Walmart, Costco see some panic-buying after tech outages",
-          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:19:22Z",
-          "primary": false,
-          "symbol": "WMT"
-        },
-        {
-          "headline": "TD Cowen Backs Walmart Despite a Soft Fourth-Quarter Guide",
-          "url": "https://finnhub.io/api/news?id=5439892f24cc53805d1e25c2fe8c21be85193650db2436209b6d94c2fe53c870",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:53:09Z",
-          "primary": false,
-          "symbol": "WMT"
-        },
-        {
-          "headline": "Walmart: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=9bdbb4053d445366b1bf584246153e53e156e3b75b60a3a47f8f312c660a096e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:48:15Z",
           "primary": false,
           "symbol": "WMT"
         }
@@ -1221,12 +1293,30 @@
         "totalDebt/totalEquityQuarterly": 2.8942,
         "marketCapitalization": 335902.16
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "The Home Depot, Inc.",
       "profile": {
-        "weburl": "https://www.homedepot.com/"
+        "weburl": "https://www.homedepot.com/",
+        "industry": "Retail",
+        "name": "The Home Depot, Inc."
       },
       "news": [
+        {
+          "headline": "The Home Depot Declares Quarterly Dividend of $2.33",
+          "url": "https://finnhub.io/api/news?id=7907b3cbb2418d9db4f9e48ed8b1e5e33457ecf2f6ee4d93864ab19aa7499257",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:15:00Z",
+          "primary": false,
+          "symbol": "HD"
+        },
+        {
+          "headline": "Is Home Depot (HD) Undervalued Following Its Q3 Results Guidance Reset And CEO Change?",
+          "url": "https://finnhub.io/api/news?id=c9b78d50447f4e5b1a55693318f51424539d284366a45ae0b813f980a90861c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:12:47Z",
+          "primary": false,
+          "symbol": "HD"
+        },
         {
           "headline": "Build A 52% Return In Weeks With Home Depot Stock As The Foundation",
           "url": "https://finnhub.io/api/news?id=c90b10b71e27dc529052a31e5f93a54dbf47e6f1ddbff74aeb38e6f35539fd53",
@@ -1240,6 +1330,14 @@
           "url": "https://finnhub.io/api/news?id=5367a24ec6ca198998145c860c0a1130451ed1cb5a5dc5b593f409c9bb4a0672",
           "source": "Yahoo",
           "published_at": "2026-11-19T16:57:10Z",
+          "primary": false,
+          "symbol": "HD"
+        },
+        {
+          "headline": "Home Depot faces a customer challenge despite sales growth",
+          "url": "https://finnhub.io/api/news?id=7e731a699ed5ab973813096624c00676d8de62670908fe12a758f40acec3302f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:17:00Z",
           "primary": false,
           "symbol": "HD"
         }
@@ -1259,10 +1357,12 @@
         "totalDebt/totalEquityQuarterly": 40.6406,
         "marketCapitalization": 193406.19
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "McDonald's Corp",
       "profile": {
-        "weburl": "https://www.mcdonalds.com/"
+        "weburl": "https://www.mcdonalds.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "McDonald's Corp"
       },
       "news": [
         {
@@ -1288,6 +1388,22 @@
           "published_at": "2026-11-19T16:57:10Z",
           "primary": false,
           "symbol": "MCD"
+        },
+        {
+          "headline": "Dividend Stocks for 2027: Kimberly-Clark vs. McDonald's",
+          "url": "https://finnhub.io/api/news?id=76da8ab8cb68b3a839fd18c74ba39cfd6a3928b57af8b0330dd9471517a15720",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T01:20:02Z",
+          "primary": false,
+          "symbol": "MCD"
+        },
+        {
+          "headline": "McDonald's testing cheaper menu prices",
+          "url": "https://finnhub.io/api/news?id=5aded5ed01efc6d4a9075c48d608647b61195aa09189f7ac28023464784c2a97",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T00:17:00Z",
+          "primary": false,
+          "symbol": "MCD"
         }
       ]
     },
@@ -1305,12 +1421,38 @@
         "totalDebt/totalEquityQuarterly": 0.6112,
         "marketCapitalization": 776827.2
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "Visa Inc.",
       "profile": {
-        "weburl": "https://usa.visa.com/"
+        "weburl": "https://usa.visa.com/",
+        "industry": "Financial Services",
+        "name": "Visa Inc."
       },
       "news": [
+        {
+          "headline": "What Morgan Stanley Saw Before Raising Its Visa (V) Target",
+          "url": "https://finnhub.io/api/news?id=9a9d17306e20b6a10bb99b199cc81c8e4a344afc6013e538130f2b7e34914823",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:33:17Z",
+          "primary": false,
+          "symbol": "V"
+        },
+        {
+          "headline": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+          "url": "https://finnhub.io/api/news?id=b5bc2fe9188d18fadd0ed4f5289566287c68f9bacf2ce56fc5e6f5f49edd8012",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:15:32Z",
+          "primary": false,
+          "symbol": "V"
+        },
+        {
+          "headline": "Visa (V) Could Be 70% Overvalued After Its Stablecoin Payments Tie Up",
+          "url": "https://finnhub.io/api/news?id=f174610c100807bfead06159e1c344304f20fdeceef1ef2ff276e05aa050dbd8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:12:19Z",
+          "primary": false,
+          "symbol": "V"
+        },
         {
           "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
           "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
@@ -1324,14 +1466,6 @@
           "url": "https://finnhub.io/api/news?id=058d73972dad0237daad176d7f6af51f2bc95cf1eb76eedf4cf6e47a25e5c7e9",
           "source": "Yahoo",
           "published_at": "2026-11-19T18:28:22Z",
-          "primary": false,
-          "symbol": "V"
-        },
-        {
-          "headline": "93% of Audited Merchant Accounts Missed Visa CEDP Discounts, Verisave and Canyon Payments Analysis Finds",
-          "url": "https://finnhub.io/api/news?id=067769477b0986cd89b322a7087de644cfc2741267612d3d0f5dced6053d66e8",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:45:00Z",
           "primary": false,
           "symbol": "V"
         }
@@ -1351,12 +1485,22 @@
         "totalDebt/totalEquityQuarterly": 3.5448,
         "marketCapitalization": 560488.56
       },
-      "updated_at": "2026-11-19T21:58:13Z",
+      "updated_at": "2026-11-20T02:24:26Z",
       "name": "Mastercard Incorporated",
       "profile": {
-        "weburl": "https://www.mastercard.us/"
+        "weburl": "https://www.mastercard.us/",
+        "industry": "Financial Services",
+        "name": "Mastercard Incorporated"
       },
       "news": [
+        {
+          "headline": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+          "url": "https://finnhub.io/api/news?id=b5bc2fe9188d18fadd0ed4f5289566287c68f9bacf2ce56fc5e6f5f49edd8012",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:15:32Z",
+          "primary": false,
+          "symbol": "MA"
+        },
         {
           "headline": "JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
           "url": "https://finnhub.io/api/news?id=3f542816272eebb2eca9e21445e71c64bc4a311af55521083108b9bb6852d444",
@@ -1378,6 +1522,14 @@
           "url": "https://finnhub.io/api/news?id=b980aa8feda1217d8a54e270e243edbe86a64d707216d40d0f71195e7150a51a",
           "source": "Yahoo",
           "published_at": "2026-11-19T16:53:41Z",
+          "primary": false,
+          "symbol": "MA"
+        },
+        {
+          "headline": "From a Cup of Bubble Tea to a Transaction: Yeahka and Mastercard Deploy Agent Pay Capabilities",
+          "url": "https://finnhub.io/api/news?id=669bc81533be63181ed25997f35f7bb0a91397e6966d071a52decbbcd5c27f39",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:42:00Z",
           "primary": false,
           "symbol": "MA"
         }
@@ -2673,6 +2825,6 @@
       ]
     }
   },
-  "cursor": 16,
-  "updated_at": "2026-11-20T01:16:49Z"
+  "cursor": 24,
+  "updated_at": "2026-11-20T02:24:26Z"
 }

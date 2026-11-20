@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-20T01:16:49Z",
+  "generated_at": "2026-11-20T02:24:26Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T01:16:49Z",
+      "checked_at": "2026-11-20T02:24:26Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T01:16:49Z",
+      "checked_at": "2026-11-20T02:24:26Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-20T01:16:49Z",
+      "checked_at": "2026-11-20T02:24:26Z",
       "error": "Not configured: SEC requires a descriptive application + contact email in the private SEC_USER_AGENT GitHub secret"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-20T01:16:49Z",
+      "checked_at": "2026-11-20T02:24:26Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-20T01:16:49Z",
+      "checked_at": "2026-11-20T02:24:26Z",
       "error": ""
     }
   ],
@@ -1191,7 +1191,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T01:16:49Z",
+    "generated_at": "2026-11-20T02:24:26Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1839,10 +1839,10 @@
         "name": "McDonald's Corp",
         "status": "INVESTIGATE",
         "score": 76,
-        "industry": "Unclassified",
+        "industry": "Hotels, Restaurants & Leisure",
         "why": "Net profit margin 32.4% (TTM); Return on equity 95.1% (TTM); Trailing P/E 21.5×; TTM revenue growth 5.8% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
@@ -1854,7 +1854,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:58:13Z",
+            "timestamp": "2026-11-20T02:24:26Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -1865,7 +1865,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "fundamentals_at": "2026-11-20T02:24:26Z",
         "price": 272.35,
         "currency": "USD",
         "change_pct": -0.613,
@@ -2188,10 +2188,9 @@
         "name": "Netflix, Inc.",
         "status": "WATCH",
         "score": 73,
-        "industry": "Unclassified",
-        "why": "Net profit margin 29.7% (TTM); Return on equity 50.4% (TTM); Trailing P/E 16.6×; TTM revenue growth 14.7% YoY",
+        "industry": "Media",
+        "why": "Net profit margin 29.7% (TTM); Return on equity 50.4% (TTM); Trailing P/E 16.5×; TTM revenue growth 14.7% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable",
           "Large drawdown: recovery is not assured",
           "Price near reported 52-week low"
         ],
@@ -2205,35 +2204,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:58:13Z",
+            "timestamp": "2026-11-20T02:24:26Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
-            "timestamp": "2026-11-19T19:17:13Z",
-            "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da"
+            "value": "Josh Brown: Netflix Can Clear Wall Street’s 10.6% Growth Bar “Standing on Their Head”",
+            "timestamp": "2026-11-19T20:06:09Z",
+            "url": "https://finnhub.io/api/news?id=a002023a6a63e34436cb6f9dd48e7fed4c57513d36499f1e7378bb5c4e9f17a8"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:58:13Z",
+        "fundamentals_at": "2026-11-20T02:24:26Z",
         "price": 58.46,
         "currency": "USD",
         "change_pct": -2.273,
         "news": [
           {
-            "headline": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
-            "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da",
+            "headline": "Josh Brown: Netflix Can Clear Wall Street’s 10.6% Growth Bar “Standing on Their Head”",
+            "url": "https://finnhub.io/api/news?id=a002023a6a63e34436cb6f9dd48e7fed4c57513d36499f1e7378bb5c4e9f17a8",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:17:13Z",
+            "published_at": "2026-11-19T20:06:09Z",
             "primary": false,
             "symbol": "NFLX"
           },
           {
-            "headline": "Why Netflix's Fall Could Pay Off At Tax Time",
-            "url": "https://finnhub.io/api/news?id=8b971ae30d0e63abee843530752bfedb5d086f03677c0c423e7ee2827335522e",
+            "headline": "Fixing Netflix's Growing Subscriber Satisfaction Problem",
+            "url": "https://finnhub.io/api/news?id=a2156083c787eff7378de68eaef14c7f8a3e9b13baab35541e39248d9c54c2da",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:47:26Z",
+            "published_at": "2026-11-19T19:17:13Z",
             "primary": false,
             "symbol": "NFLX"
           }
