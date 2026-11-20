@@ -182,8 +182,14 @@ def build(now=None, fetch=None, previous=None):
         return None
 
     # Daily small fixed set: no search scraping and no unbounded API loops.
+    asx_blocked = False
     for universe in UNIVERSES:
+        if asx_blocked and universe != 's-p-500' and (universe.startswith('asx-') or universe=='all-ordinaries'):
+            report['source_status']['scan/' + universe]='SKIPPED_PROVIDER_AUTH_REQUIRED'
+            continue
         data = try_get("scan/" + universe, "/scan/" + universe)
+        if (universe.startswith('asx-') or universe=='all-ordinaries') and report['source_status'].get('scan/' + universe) in ('HTTP_401','HTTP_403'):
+            asx_blocked = True
         if data is not None:
             cleaned = slim_scan(data, universe)
             if cleaned:
@@ -221,6 +227,9 @@ def build(now=None, fetch=None, previous=None):
             "as_of":previous.get("generated_at"),
             "status":"STALE_DO_NOT_USE_FOR_SIGNALS",
             "universe_counts":{k:len(v) for k,v in previous["scans"].items()}}
+    report["asx_research_status"] = ("ACCESS_DENIED" if asx_blocked else
+                                     "AVAILABLE" if any(k.startswith("asx-") or k=="all-ordinaries" for k in report["scans"])
+                                     else "NOT_AVAILABLE")
     report["status"] = ("AVAILABLE" if report["scans"] else
                         "PARTIAL" if report["fresh_source_count"] else "UNAVAILABLE")
     return report
