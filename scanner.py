@@ -146,7 +146,16 @@ def fetch_rss(url: str, name: str, type_: str, max_count=60):
 
 
 def sec_submissions(symbol: str, cik: str) -> list[dict]:
-    data = json.loads(fetch(f'https://data.sec.gov/submissions/CIK{cik}.json', sec=True))
+    # Distinguish a rejected HTTP request from a non-JSON SEC response.
+    # Never echo the configured private User-Agent in errors or public data.
+    try:
+        response = fetch(f'https://data.sec.gov/submissions/CIK{cik}.json', sec=True)
+    except ValueError:
+        raise RuntimeError('SEC HTTP request rejected; check User-Agent formatting') from None
+    try:
+        data = json.loads(response)
+    except (ValueError, UnicodeError):
+        raise RuntimeError('SEC endpoint returned invalid JSON') from None
     recent = data.get('filings', {}).get('recent', {})
     count = min(25, len(recent.get('accessionNumber', [])))
     oldest = NOW - timedelta(days=10)
@@ -259,7 +268,17 @@ def main() -> None:
                 events.extend(results)
                 sec_successes += 1
             except Exception as e:
-                sec_errors.append(f'{symbol}: {type(e).__name__}')
+                # Only publish allowlisted diagnostics, never untrusted text or secrets.
+                if isinstance(e, urllib.error.HTTPError):
+                    reason = f'SEC HTTP {e.code}'
+                elif isinstance(e, RuntimeError) and str(e) in (
+                    'SEC HTTP request rejected; check User-Agent formatting',
+                    'SEC endpoint returned invalid JSON',
+                ):
+                    reason = str(e)
+                else:
+                    reason = type(e).__name__
+                sec_errors.append(f'{symbol}: {reason}')
             time.sleep(.28)
         source('SEC EDGAR company submissions', sec_successes > 0, sec_successes,
                f'{len(sec_errors)} unavailable: '+', '.join(sec_errors[:5]) if sec_errors else '')
