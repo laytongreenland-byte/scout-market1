@@ -5,7 +5,7 @@ Public site displays historical closes only when a verified date and market matc
 Missing/ambiguous provider data is not a price. No broker or trading integration.
 """
 from __future__ import annotations
-import json, os, re, urllib.request, urllib.parse
+import json, os, re, urllib.request, urllib.parse, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -28,6 +28,8 @@ def request(url,key):
     if not (url.startswith(NZX_ROOT) or url.startswith(ASX_ROOT+'?')):
         raise ValueError('Unsupported APAC source')
     if not key: raise ValueError('Provider key unavailable')
+    if url.startswith(NZX_ROOT):
+        time.sleep(7)  # 10 requests/minute account-wide, including directory calls
     req=urllib.request.Request(url,headers={
         'X-API-Key':key,
         'User-Agent':'Mozilla/5.0 (compatible; ScoutMarketResearch/1.0)',
