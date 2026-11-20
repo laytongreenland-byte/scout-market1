@@ -221,7 +221,7 @@ def build(fetcher=fetch_source,now=None,old=None):
     items.extend(apac_items)
     source_status.update(apac_sources)
     items.sort(key=lambda row:(row['market'],row['symbol']))
-    status='READY' if all(s['ok'] for s in source_status.values()) else 'PARTIAL' if items else 'UNAVAILABLE'
+    status='READY' if all(source_status[k]['ok'] for k in SOURCES) else 'PARTIAL' if items else 'UNAVAILABLE'
     return {
         'schema_version':2,
         'generated_at':stamp(now),
@@ -265,7 +265,7 @@ def main():
             old=None
     if os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and old.get('schema_version')==2 and old.get('status')=='READY':
         at=parse_date(old.get('generated_at'))
-        if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS):
+        if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS) and (not os.environ.get('NZXPLORER_API_KEY') or old.get('markets',{}).get('NZX',{}).get('status')=='DISCOVERED'):
             print('Exchange catalogue is recent; keeping verified existing file')
             return 0
     result=build(old=old)
