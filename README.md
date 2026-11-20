@@ -52,3 +52,15 @@ SCOUT_OFFLINE=1 python scanner.py
 ```
 
 The offline test intentionally reports missing sources and never fabricates market information. Files: `scanner.py` (collector), `research.py` (screening), `ml_engine.py` (purged forward validation), `learner.py` (weekly review), `scripts/post_reports.py` (optional Issues), `app.js` (mobile UI), and `tests/` (offline checks).
+
+## Scenario entry / exit research (v5)
+
+Scout calculates **illustrative USD price zones** from fresh Finnhub quotes, published trailing P/E and growth ratios, profitability, industry and observed 52-week range. This is **not** an analyst consensus price target, an intrinsically valued company, a trading recommendation, a stop-loss, or machine-learned return forecast.
+
+The method uses a capped, discounted past-growth assumption for a hypothetical next-12-month earnings proxy; an explicit scenario P/E from revenue-growth brackets (12–23×); a 22% valuation haircut; and an entry ceiling capped at the lower half of the observed 52-week trading range. It shows a base-case **exit review** and higher bull-case **profit-taking review** level, plus a bear-case downside reference. This model is heuristic; it is **not fitted or shown to be profitable** and can miss major changes to business outlook, stock splits, and accounting restatements.
+
+- **ENTRY CANDIDATE** is shown only if the company's original status is INVESTIGATE, financial score ≥80, the quote is below the illustrative entry ceiling, and price is not below the bear-case warning band. You still must independently verify company filings, valuation, liquidity, portfolio suitability, fees, tax and news.
+- **WAIT FOR ENTRY**, **ABOVE BASE CASE**, **POSSIBLE VALUE TRAP**, and **NO RELIABLE PRICE RANGE** explicitly mean no purchase trigger. Financial firms, insurers, banks, REITs, utilities, energy and biotech are excluded from simplistic P/E-based target levels; their valuation methods differ.
+- Entry and exit levels refresh from each research scan, not just the frozen weekly shortlist. The weekly list refreshes live pricing but retains its original weekly research thesis. Missing/stale quotes and missing metrics suppress scenario price levels rather than inventing numbers.
+- These scenarios are intentionally not integrated with automated buying, and they do not train the ML algorithm or count as investment-return evidence. Trading costs (including FX, fees, spreads, NZ tax and dividends) are not reflected in the calculated targets.
+
