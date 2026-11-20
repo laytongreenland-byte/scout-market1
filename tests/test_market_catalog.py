@@ -57,8 +57,8 @@ class MarketCatalogTests(unittest.TestCase):
         self.assertEqual(len(got['items']),len({(x['market'],x['symbol']) for x in got['items']}))
 
     def test_asx_directory_parser_validates_rows(self):
-        csv_data='ASX listed companies\\nASX code,Company name,GICS industry group\\n'
-        csv_data+=''.join(f'{i:04d},Test Company {i},Industrials\\n' for i in range(1100))
+        csv_data='ASX listed companies\nASX code,Company name,GICS industry group\n'
+        csv_data+=''.join(f'{i:04d},Test Company {i},Industrials\n' for i in range(1100))
         result=mc.parse_asx(csv_data.encode())
         self.assertEqual(len(result),1100)
         self.assertTrue(all(x['market']=='ASX' for x in result))
