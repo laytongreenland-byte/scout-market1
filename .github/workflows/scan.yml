@@ -48,8 +48,10 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Review learning outcomes (weekly, NZ time)
         run: python learner.py
-      - name: Update US exchange directory (optional and separate)
+      - name: Update exchange directories (US, ASX, optional NZX)
         continue-on-error: true
+        env:
+          NZXPLORER_API_KEY: ${{ secrets.NZXPLORER_API_KEY }}
         run: python market_catalog.py
       - name: Check public sources
         env:
