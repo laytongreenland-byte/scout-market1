@@ -1,14 +1,18 @@
 {
-  "generated_at": "2026-11-20T06:53:52Z",
+  "generated_at": "2026-11-20T07:33:27Z",
   "status": "ok",
   "coverage": {
-    "configured_symbols": 289,
-    "equity_symbols": 225,
+    "configured_symbols": 587,
+    "equity_symbols": 523,
     "etf_symbols": 64,
-    "quotes_fresh_this_scan": 289,
+    "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 56,
-    "universe_note": "Curated multi-sector US-listed equity, international ADR and ETF discovery sample. NOT the full US or global market; NZX disclosures only, not NZX share prices.",
+    "financially_screened": 68,
+    "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
+    "sp500_discovery_checked": true,
+    "sp500_additional_symbols": 298,
+    "sp500_discovery_warning": "",
+    "universe_note": "Curated multi-sector US-listed equity, international ADR and ETF discovery sample. NOT the full US or global market; NZX disclosures only, not NZX share prices. plus a best-effort S&P 500 constituent scan",
     "nzx_prices_available": false
   },
   "sources": [
@@ -16,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T06:53:52Z",
+      "checked_at": "2026-11-20T07:33:27Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T06:53:52Z",
+      "checked_at": "2026-11-20T07:33:27Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-20T06:53:52Z",
+      "checked_at": "2026-11-20T07:33:27Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
-      "count": 289,
-      "checked_at": "2026-11-20T06:53:52Z",
+      "count": 587,
+      "checked_at": "2026-11-20T07:33:27Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-20T06:53:52Z",
+      "checked_at": "2026-11-20T07:33:27Z",
       "error": ""
     }
   ],
@@ -337,7 +341,305 @@
     "VGT",
     "VHT",
     "XBI",
-    "IBB"
+    "IBB",
+    "AOS",
+    "AES",
+    "A",
+    "APD",
+    "ABNB",
+    "AKAM",
+    "ALB",
+    "ARE",
+    "ALGN",
+    "ALLE",
+    "LNT",
+    "GOOG",
+    "AMCR",
+    "AEE",
+    "AWK",
+    "AMP",
+    "AME",
+    "APH",
+    "ADI",
+    "APA",
+    "APO",
+    "APP",
+    "APTV",
+    "ACGL",
+    "ADM",
+    "ARES",
+    "AJG",
+    "AIZ",
+    "ATO",
+    "AZO",
+    "AVY",
+    "AXON",
+    "BKR",
+    "BALL",
+    "BAX",
+    "BDX",
+    "TECH",
+    "XYZ",
+    "BE",
+    "BNY",
+    "BKNG",
+    "BR",
+    "BRO",
+    "BF.B",
+    "BG",
+    "BXP",
+    "CHRW",
+    "CPT",
+    "COF",
+    "CCL",
+    "CARR",
+    "CVNA",
+    "CASY",
+    "CBOE",
+    "CDW",
+    "CNC",
+    "CNP",
+    "CF",
+    "CRL",
+    "CHTR",
+    "CHD",
+    "CIEN",
+    "CINF",
+    "CFG",
+    "CMS",
+    "CTSH",
+    "COHR",
+    "COIN",
+    "FIX",
+    "ED",
+    "STZ",
+    "COO",
+    "CPRT",
+    "GLW",
+    "CPAY",
+    "CSGP",
+    "CRH",
+    "DDOG",
+    "DVA",
+    "DELL",
+    "DAL",
+    "DPZ",
+    "DASH",
+    "DOV",
+    "DOW",
+    "DHI",
+    "DD",
+    "EBAY",
+    "ECHO",
+    "ECL",
+    "EIX",
+    "EME",
+    "ETR",
+    "EFX",
+    "ERIE",
+    "EG",
+    "EVRG",
+    "P",
+    "ES",
+    "EXE",
+    "EXPE",
+    "EXPD",
+    "EXR",
+    "FFIV",
+    "FDS",
+    "FICO",
+    "FRT",
+    "FDXF",
+    "FERG",
+    "FIS",
+    "FE",
+    "FISV",
+    "FLEX",
+    "F",
+    "FTNT",
+    "FTV",
+    "FOX",
+    "BEN",
+    "FCX",
+    "GRMN",
+    "IT",
+    "GEN",
+    "GNRC",
+    "GIS",
+    "GM",
+    "GPC",
+    "GPN",
+    "GL",
+    "GDDY",
+    "HIG",
+    "HAS",
+    "DOC",
+    "HSIC",
+    "HSY",
+    "HPE",
+    "HLT",
+    "HONA",
+    "HRL",
+    "HST",
+    "HWM",
+    "HPQ",
+    "HUBB",
+    "HBAN",
+    "HII",
+    "IEX",
+    "ILMN",
+    "INCY",
+    "IR",
+    "PODD",
+    "INTC",
+    "IBKR",
+    "IFF",
+    "IP",
+    "IVZ",
+    "INVH",
+    "IQV",
+    "JBHT",
+    "JBL",
+    "JKHY",
+    "J",
+    "KEY",
+    "KEYS",
+    "KIM",
+    "KHC",
+    "KR",
+    "LHX",
+    "LH",
+    "LVS",
+    "LDOS",
+    "LEN",
+    "LII",
+    "LIN",
+    "LYV",
+    "L",
+    "LITE",
+    "LYB",
+    "MTB",
+    "MAR",
+    "MLM",
+    "MRVL",
+    "MAS",
+    "MKC",
+    "MTD",
+    "MGM",
+    "MCHP",
+    "MDLZ",
+    "MPWR",
+    "MOS",
+    "MSI",
+    "MSCI",
+    "NDAQ",
+    "NTAP",
+    "NWSA",
+    "NWS",
+    "NI",
+    "NDSN",
+    "NTRS",
+    "NCLH",
+    "NRG",
+    "NUE",
+    "NVR",
+    "NXPI",
+    "ORLY",
+    "OKTA",
+    "ODFL",
+    "OMC",
+    "ON",
+    "OTIS",
+    "PKG",
+    "PLTR",
+    "PAYX",
+    "PYPL",
+    "PNR",
+    "PCG",
+    "PNW",
+    "PPG",
+    "PPL",
+    "PFG",
+    "PTC",
+    "PEG",
+    "PHM",
+    "Q",
+    "QCOM",
+    "DGX",
+    "RL",
+    "RJF",
+    "RDDT",
+    "REG",
+    "RF",
+    "RMD",
+    "RVTY",
+    "HOOD",
+    "ROK",
+    "ROL",
+    "ROP",
+    "RCL",
+    "SNDK",
+    "SBAC",
+    "STX",
+    "SHW",
+    "SWKS",
+    "SJM",
+    "SW",
+    "SNA",
+    "SOLV",
+    "LUV",
+    "SWK",
+    "STT",
+    "STLD",
+    "STE",
+    "SMCI",
+    "SYF",
+    "SYY",
+    "TROW",
+    "TTWO",
+    "TPR",
+    "TRGP",
+    "TEL",
+    "TDY",
+    "TER",
+    "TXN",
+    "TPL",
+    "TXT",
+    "TKO",
+    "TSCO",
+    "TDG",
+    "TRMB",
+    "TWLO",
+    "TYL",
+    "TSN",
+    "UDR",
+    "ULTA",
+    "UAL",
+    "UHS",
+    "VEEV",
+    "VLTO",
+    "VRSN",
+    "VRSK",
+    "VRT",
+    "VTRS",
+    "VMC",
+    "VYLR",
+    "WRB",
+    "GWW",
+    "WAB",
+    "WAT",
+    "WEC",
+    "WST",
+    "WDC",
+    "WY",
+    "WSM",
+    "WTW",
+    "WDAY",
+    "WYNN",
+    "XYL",
+    "ZBRA",
+    "ZBH",
+    "ZTS"
   ],
   "quotes": [
     {
@@ -2940,6 +3242,2688 @@
       "price_at": "2026-11-19T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
+    },
+    {
+      "symbol": "AOS",
+      "price": 63.71,
+      "previous_close": 64.55,
+      "change_pct": -1.301,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AES",
+      "price": 15.02,
+      "previous_close": 15.02,
+      "change_pct": 0.0,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "A",
+      "price": 175.34,
+      "previous_close": 177.33,
+      "change_pct": -1.122,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APD",
+      "price": 303.83,
+      "previous_close": 308.11,
+      "change_pct": -1.389,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ABNB",
+      "price": 172.79,
+      "previous_close": 180.21,
+      "change_pct": -4.117,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AKAM",
+      "price": 91.71,
+      "previous_close": 91.7,
+      "change_pct": 0.011,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ALB",
+      "price": 82.93,
+      "previous_close": 85.82,
+      "change_pct": -3.368,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARE",
+      "price": 41.77,
+      "previous_close": 42.37,
+      "change_pct": -1.416,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ALGN",
+      "price": 159.68,
+      "previous_close": 163.96,
+      "change_pct": -2.61,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ALLE",
+      "price": 185.98,
+      "previous_close": 187.82,
+      "change_pct": -0.98,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LNT",
+      "price": 71.4,
+      "previous_close": 72.08,
+      "change_pct": -0.943,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GOOG",
+      "price": 271.02,
+      "previous_close": 279.2,
+      "change_pct": -2.93,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AMCR",
+      "price": 42.46,
+      "previous_close": 43.7,
+      "change_pct": -2.838,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AEE",
+      "price": 111.54,
+      "previous_close": 112.82,
+      "change_pct": -1.135,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AWK",
+      "price": 148.28,
+      "previous_close": 150.13,
+      "change_pct": -1.232,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AMP",
+      "price": 492.36,
+      "previous_close": 501.42,
+      "change_pct": -1.807,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AME",
+      "price": 231.15,
+      "previous_close": 235.61,
+      "change_pct": -1.893,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APH",
+      "price": 75.61,
+      "previous_close": 76.33,
+      "change_pct": -0.943,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ADI",
+      "price": 377.44,
+      "previous_close": 381.98,
+      "change_pct": -1.189,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APA",
+      "price": 44.62,
+      "previous_close": 45.52,
+      "change_pct": -1.977,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APO",
+      "price": 116.29,
+      "previous_close": 117.26,
+      "change_pct": -0.827,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APP",
+      "price": 379.02,
+      "previous_close": 390.91,
+      "change_pct": -3.042,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APTV",
+      "price": 37.36,
+      "previous_close": 38.58,
+      "change_pct": -3.162,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ACGL",
+      "price": 108.16,
+      "previous_close": 108.62,
+      "change_pct": -0.423,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ADM",
+      "price": 67.13,
+      "previous_close": 67.78,
+      "change_pct": -0.959,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARES",
+      "price": 124.42,
+      "previous_close": 127.98,
+      "change_pct": -2.782,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AJG",
+      "price": 277.62,
+      "previous_close": 282.22,
+      "change_pct": -1.63,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AIZ",
+      "price": 316.03,
+      "previous_close": 318.96,
+      "change_pct": -0.919,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ATO",
+      "price": 168.69,
+      "previous_close": 171.66,
+      "change_pct": -1.73,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AZO",
+      "price": 3277.44,
+      "previous_close": 3308.69,
+      "change_pct": -0.944,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AVY",
+      "price": 183.14,
+      "previous_close": 187.84,
+      "change_pct": -2.502,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AXON",
+      "price": 306.98,
+      "previous_close": 300.69,
+      "change_pct": 2.092,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BKR",
+      "price": 46.67,
+      "previous_close": 47.3,
+      "change_pct": -1.332,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BALL",
+      "price": 63.49,
+      "previous_close": 64.89,
+      "change_pct": -2.157,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BAX",
+      "price": 25.39,
+      "previous_close": 26.16,
+      "change_pct": -2.943,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BDX",
+      "price": 212.68,
+      "previous_close": 216.08,
+      "change_pct": -1.573,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TECH",
+      "price": 72.7,
+      "previous_close": 72.75,
+      "change_pct": -0.069,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XYZ",
+      "price": 74.23,
+      "previous_close": 79.01,
+      "change_pct": -6.05,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BE",
+      "price": 168.11,
+      "previous_close": 170.98,
+      "change_pct": -1.679,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BNY",
+      "price": 144.83,
+      "previous_close": 147.8,
+      "change_pct": -2.009,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BKNG",
+      "price": 147.32,
+      "previous_close": 153.28,
+      "change_pct": -3.888,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BR",
+      "price": 181.94,
+      "previous_close": 184.9,
+      "change_pct": -1.601,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BRO",
+      "price": 72.35,
+      "previous_close": 72.9,
+      "change_pct": -0.754,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BF.B",
+      "price": 30.12,
+      "previous_close": 30.76,
+      "change_pct": -2.081,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BG",
+      "price": 91.75,
+      "previous_close": 93.19,
+      "change_pct": -1.545,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BXP",
+      "price": 62.27,
+      "previous_close": 63.88,
+      "change_pct": -2.52,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CHRW",
+      "price": 137.94,
+      "previous_close": 137.47,
+      "change_pct": 0.342,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CPT",
+      "price": 96.28,
+      "previous_close": 97.7,
+      "change_pct": -1.453,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "COF",
+      "price": 181.76,
+      "previous_close": 184.3,
+      "change_pct": -1.378,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CCL",
+      "price": 27.57,
+      "previous_close": 28.97,
+      "change_pct": -4.833,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CARR",
+      "price": 51.52,
+      "previous_close": 52.06,
+      "change_pct": -1.037,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CVNA",
+      "price": 68,
+      "previous_close": 71.78,
+      "change_pct": -5.266,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CASY",
+      "price": 685.5,
+      "previous_close": 698.67,
+      "change_pct": -1.885,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CBOE",
+      "price": 357.69,
+      "previous_close": 359.91,
+      "change_pct": -0.617,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CDW",
+      "price": 167.61,
+      "previous_close": 169.01,
+      "change_pct": -0.828,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CNC",
+      "price": 65.58,
+      "previous_close": 67.45,
+      "change_pct": -2.772,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CNP",
+      "price": 39.12,
+      "previous_close": 39.88,
+      "change_pct": -1.906,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CF",
+      "price": 115.76,
+      "previous_close": 113.7,
+      "change_pct": 1.812,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CRL",
+      "price": 327.93,
+      "previous_close": 333.25,
+      "change_pct": -1.596,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CHTR",
+      "price": 133.18,
+      "previous_close": 139.19,
+      "change_pct": -4.318,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CHD",
+      "price": 109.68,
+      "previous_close": 111.86,
+      "change_pct": -1.949,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CIEN",
+      "price": 262.63,
+      "previous_close": 266.56,
+      "change_pct": -1.474,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CINF",
+      "price": 188.04,
+      "previous_close": 188.83,
+      "change_pct": -0.418,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CFG",
+      "price": 60.51,
+      "previous_close": 62.03,
+      "change_pct": -2.45,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CMS",
+      "price": 69.53,
+      "previous_close": 69.74,
+      "change_pct": -0.301,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CTSH",
+      "price": 56.31,
+      "previous_close": 57.95,
+      "change_pct": -2.83,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "COHR",
+      "price": 214.94,
+      "previous_close": 212.84,
+      "change_pct": 0.987,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "COIN",
+      "price": 108.87,
+      "previous_close": 110.51,
+      "change_pct": -1.484,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FIX",
+      "price": 1114.02,
+      "previous_close": 1140.59,
+      "change_pct": -2.329,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ED",
+      "price": 119.09,
+      "previous_close": 119.27,
+      "change_pct": -0.151,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "STZ",
+      "price": 141.44,
+      "previous_close": 143.62,
+      "change_pct": -1.518,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "COO",
+      "price": 60.33,
+      "previous_close": 60.75,
+      "change_pct": -0.691,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CPRT",
+      "price": 30.86,
+      "previous_close": 31.46,
+      "change_pct": -1.907,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GLW",
+      "price": 105.97,
+      "previous_close": 108.15,
+      "change_pct": -2.016,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CPAY",
+      "price": 434.29,
+      "previous_close": 455.22,
+      "change_pct": -4.598,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CSGP",
+      "price": 28.7,
+      "previous_close": 29.9,
+      "change_pct": -4.013,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CRH",
+      "price": 90.54,
+      "previous_close": 92.58,
+      "change_pct": -2.203,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DDOG",
+      "price": 166.46,
+      "previous_close": 167.11,
+      "change_pct": -0.389,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DVA",
+      "price": 156.34,
+      "previous_close": 161.79,
+      "change_pct": -3.369,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DELL",
+      "price": 312.54,
+      "previous_close": 313.11,
+      "change_pct": -0.182,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DAL",
+      "price": 83.17,
+      "previous_close": 84.88,
+      "change_pct": -2.015,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DPZ",
+      "price": 352.28,
+      "previous_close": 353.54,
+      "change_pct": -0.356,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DASH",
+      "price": 157.13,
+      "previous_close": 166.8,
+      "change_pct": -5.797,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DOV",
+      "price": 199.91,
+      "previous_close": 202.69,
+      "change_pct": -1.372,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DOW",
+      "price": 30.25,
+      "previous_close": 30.37,
+      "change_pct": -0.395,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DHI",
+      "price": 142.64,
+      "previous_close": 144.39,
+      "change_pct": -1.212,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DD",
+      "price": 149.69,
+      "previous_close": 150.23,
+      "change_pct": -0.359,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EBAY",
+      "price": 117.22,
+      "previous_close": 121.46,
+      "change_pct": -3.491,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ECHO",
+      "price": 92.31,
+      "previous_close": 96.92,
+      "change_pct": -4.757,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ECL",
+      "price": 297.32,
+      "previous_close": 300.68,
+      "change_pct": -1.117,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EIX",
+      "price": 63.02,
+      "previous_close": 63.01,
+      "change_pct": 0.016,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EME",
+      "price": 636.08,
+      "previous_close": 646.23,
+      "change_pct": -1.571,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ETR",
+      "price": 106.18,
+      "previous_close": 108,
+      "change_pct": -1.685,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EFX",
+      "price": 176.51,
+      "previous_close": 179.66,
+      "change_pct": -1.753,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ERIE",
+      "price": 268.94,
+      "previous_close": 276.18,
+      "change_pct": -2.621,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EG",
+      "price": 421.96,
+      "previous_close": 420.04,
+      "change_pct": 0.457,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EVRG",
+      "price": 86.47,
+      "previous_close": 87.19,
+      "change_pct": -0.826,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "P",
+      "price": 105.5,
+      "previous_close": 100.74,
+      "change_pct": 4.725,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ES",
+      "price": 70.65,
+      "previous_close": 71.53,
+      "change_pct": -1.23,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EXE",
+      "price": 82.44,
+      "previous_close": 84.47,
+      "change_pct": -2.403,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EXPE",
+      "price": 239.19,
+      "previous_close": 245.79,
+      "change_pct": -2.685,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EXPD",
+      "price": 193.14,
+      "previous_close": 188.88,
+      "change_pct": 2.255,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EXR",
+      "price": 155.95,
+      "previous_close": 157.04,
+      "change_pct": -0.694,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FFIV",
+      "price": 318.09,
+      "previous_close": 321.04,
+      "change_pct": -0.919,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FDS",
+      "price": 308,
+      "previous_close": 316.67,
+      "change_pct": -2.738,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FICO",
+      "price": 677.64,
+      "previous_close": 677.75,
+      "change_pct": -0.016,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FRT",
+      "price": 110.43,
+      "previous_close": 112.33,
+      "change_pct": -1.691,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FDXF",
+      "price": 126.58,
+      "previous_close": 129.43,
+      "change_pct": -2.202,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FERG",
+      "price": 247.39,
+      "previous_close": 251.23,
+      "change_pct": -1.528,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FIS",
+      "price": 25.94,
+      "previous_close": 26.73,
+      "change_pct": -2.955,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FE",
+      "price": 47.13,
+      "previous_close": 47.69,
+      "change_pct": -1.174,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FISV",
+      "price": 56.62,
+      "previous_close": 60.48,
+      "change_pct": -6.382,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FLEX",
+      "price": 74.22,
+      "previous_close": 74.84,
+      "change_pct": -0.828,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "F",
+      "price": 11.24,
+      "previous_close": 11.28,
+      "change_pct": -0.355,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FTNT",
+      "price": 131.46,
+      "previous_close": 131.81,
+      "change_pct": -0.266,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FTV",
+      "price": 65.41,
+      "previous_close": 66.73,
+      "change_pct": -1.978,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FOX",
+      "price": 56.98,
+      "previous_close": 58.68,
+      "change_pct": -2.897,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BEN",
+      "price": 33.27,
+      "previous_close": 34.44,
+      "change_pct": -3.397,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FCX",
+      "price": 49.12,
+      "previous_close": 51.45,
+      "change_pct": -4.529,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GRMN",
+      "price": 271.78,
+      "previous_close": 279.52,
+      "change_pct": -2.769,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IT",
+      "price": 172.3,
+      "previous_close": 178.84,
+      "change_pct": -3.657,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GEN",
+      "price": 30.15,
+      "previous_close": 30.47,
+      "change_pct": -1.05,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GNRC",
+      "price": 205.09,
+      "previous_close": 205.45,
+      "change_pct": -0.175,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GIS",
+      "price": 34.48,
+      "previous_close": 34.53,
+      "change_pct": -0.145,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GM",
+      "price": 81.75,
+      "previous_close": 82.13,
+      "change_pct": -0.463,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GPC",
+      "price": 121.54,
+      "previous_close": 123.64,
+      "change_pct": -1.698,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GPN",
+      "price": 83.52,
+      "previous_close": 85.62,
+      "change_pct": -2.453,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GL",
+      "price": 153.59,
+      "previous_close": 155.15,
+      "change_pct": -1.005,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GDDY",
+      "price": 102.15,
+      "previous_close": 103.08,
+      "change_pct": -0.902,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HIG",
+      "price": 135.58,
+      "previous_close": 135.97,
+      "change_pct": -0.287,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HAS",
+      "price": 114.71,
+      "previous_close": 118.64,
+      "change_pct": -3.313,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DOC",
+      "price": 19.19,
+      "previous_close": 19.34,
+      "change_pct": -0.776,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HSIC",
+      "price": 84.8,
+      "previous_close": 85.69,
+      "change_pct": -1.039,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HSY",
+      "price": 174.05,
+      "previous_close": 175.94,
+      "change_pct": -1.074,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HPE",
+      "price": 45.49,
+      "previous_close": 45.78,
+      "change_pct": -0.633,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HLT",
+      "price": 362.3,
+      "previous_close": 373.03,
+      "change_pct": -2.876,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HONA",
+      "price": 155.84,
+      "previous_close": 157.85,
+      "change_pct": -1.273,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HRL",
+      "price": 23.06,
+      "previous_close": 23.15,
+      "change_pct": -0.389,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HST",
+      "price": 24.49,
+      "previous_close": 25.35,
+      "change_pct": -3.393,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HWM",
+      "price": 218.17,
+      "previous_close": 221.15,
+      "change_pct": -1.348,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HPQ",
+      "price": 27.82,
+      "previous_close": 28.66,
+      "change_pct": -2.931,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HUBB",
+      "price": 418.74,
+      "previous_close": 426.47,
+      "change_pct": -1.813,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HBAN",
+      "price": 14.71,
+      "previous_close": 14.94,
+      "change_pct": -1.539,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HII",
+      "price": 286.56,
+      "previous_close": 287.89,
+      "change_pct": -0.462,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IEX",
+      "price": 227.01,
+      "previous_close": 233.14,
+      "change_pct": -2.629,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ILMN",
+      "price": 200.655,
+      "previous_close": 210.01,
+      "change_pct": -4.455,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "INCY",
+      "price": 115.87,
+      "previous_close": 117.8,
+      "change_pct": -1.638,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IR",
+      "price": 80.55,
+      "previous_close": 82.6,
+      "change_pct": -2.482,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PODD",
+      "price": 137.23,
+      "previous_close": 139.98,
+      "change_pct": -1.965,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "INTC",
+      "price": 55.72,
+      "previous_close": 54.67,
+      "change_pct": 1.921,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IBKR",
+      "price": 75.65,
+      "previous_close": 76.45,
+      "change_pct": -1.046,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IFF",
+      "price": 78.61,
+      "previous_close": 80.08,
+      "change_pct": -1.836,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IP",
+      "price": 31.11,
+      "previous_close": 32.52,
+      "change_pct": -4.336,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IVZ",
+      "price": 27.77,
+      "previous_close": 28.65,
+      "change_pct": -3.072,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "INVH",
+      "price": 26.09,
+      "previous_close": 26.44,
+      "change_pct": -1.324,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IQV",
+      "price": 250.55,
+      "previous_close": 257.84,
+      "change_pct": -2.827,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "JBHT",
+      "price": 225.36,
+      "previous_close": 227.4,
+      "change_pct": -0.897,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "JBL",
+      "price": 246.44,
+      "previous_close": 247.4,
+      "change_pct": -0.388,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "JKHY",
+      "price": 170.27,
+      "previous_close": 174.58,
+      "change_pct": -2.469,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "J",
+      "price": 154.58,
+      "previous_close": 157.24,
+      "change_pct": -1.692,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KEY",
+      "price": 20.03,
+      "previous_close": 20.48,
+      "change_pct": -2.197,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KEYS",
+      "price": 281.42,
+      "previous_close": 286.3,
+      "change_pct": -1.705,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KIM",
+      "price": 25.34,
+      "previous_close": 25.66,
+      "change_pct": -1.247,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KHC",
+      "price": 24.92,
+      "previous_close": 25.44,
+      "change_pct": -2.044,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KR",
+      "price": 67.94,
+      "previous_close": 69.05,
+      "change_pct": -1.608,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LHX",
+      "price": 256.54,
+      "previous_close": 256.36,
+      "change_pct": 0.07,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LH",
+      "price": 368.88,
+      "previous_close": 370.78,
+      "change_pct": -0.512,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LVS",
+      "price": 39.33,
+      "previous_close": 39.27,
+      "change_pct": 0.153,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LDOS",
+      "price": 124.76,
+      "previous_close": 125.71,
+      "change_pct": -0.756,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LEN",
+      "price": 79.93,
+      "previous_close": 82.91,
+      "change_pct": -3.594,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LII",
+      "price": 342.62,
+      "previous_close": 342.58,
+      "change_pct": 0.012,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LIN",
+      "price": 510.21,
+      "previous_close": 512.16,
+      "change_pct": -0.381,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LYV",
+      "price": 179.16,
+      "previous_close": 181.56,
+      "change_pct": -1.322,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "L",
+      "price": 109.7,
+      "previous_close": 109.98,
+      "change_pct": -0.255,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LITE",
+      "price": 535.15,
+      "previous_close": 551.07,
+      "change_pct": -2.889,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LYB",
+      "price": 58.19,
+      "previous_close": 58.46,
+      "change_pct": -0.462,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MTB",
+      "price": 210.77,
+      "previous_close": 214.17,
+      "change_pct": -1.588,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MAR",
+      "price": 414.04,
+      "previous_close": 425.9,
+      "change_pct": -2.785,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MLM",
+      "price": 506.75,
+      "previous_close": 518.52,
+      "change_pct": -2.27,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MRVL",
+      "price": 138.47,
+      "previous_close": 145.54,
+      "change_pct": -4.858,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MAS",
+      "price": 82.79,
+      "previous_close": 84.33,
+      "change_pct": -1.826,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MKC",
+      "price": 45.83,
+      "previous_close": 46.33,
+      "change_pct": -1.079,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MTD",
+      "price": 1705.66,
+      "previous_close": 1737.26,
+      "change_pct": -1.819,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MGM",
+      "price": 33.41,
+      "previous_close": 33.74,
+      "change_pct": -0.978,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MCHP",
+      "price": 58.47,
+      "previous_close": 59.67,
+      "change_pct": -2.011,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MDLZ",
+      "price": 65.69,
+      "previous_close": 66.565,
+      "change_pct": -1.315,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MPWR",
+      "price": 1295.86,
+      "previous_close": 1310.91,
+      "change_pct": -1.148,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MOS",
+      "price": 19.85,
+      "previous_close": 19.93,
+      "change_pct": -0.401,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MSI",
+      "price": 521.92,
+      "previous_close": 524.53,
+      "change_pct": -0.498,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MSCI",
+      "price": 624.33,
+      "previous_close": 636.9,
+      "change_pct": -1.974,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NDAQ",
+      "price": 103.95,
+      "previous_close": 105.72,
+      "change_pct": -1.674,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NTAP",
+      "price": 170.18,
+      "previous_close": 172.19,
+      "change_pct": -1.167,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NWSA",
+      "price": 25.31,
+      "previous_close": 26.13,
+      "change_pct": -3.138,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NWS",
+      "price": 28.09,
+      "previous_close": 29.17,
+      "change_pct": -3.702,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NI",
+      "price": 44.56,
+      "previous_close": 44.92,
+      "change_pct": -0.801,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NDSN",
+      "price": 316.81,
+      "previous_close": 322.34,
+      "change_pct": -1.716,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NTRS",
+      "price": 166.71,
+      "previous_close": 171.56,
+      "change_pct": -2.827,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NCLH",
+      "price": 17.07,
+      "previous_close": 17.99,
+      "change_pct": -5.114,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NRG",
+      "price": 93.85,
+      "previous_close": 93.66,
+      "change_pct": 0.203,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NUE",
+      "price": 247.43,
+      "previous_close": 250.42,
+      "change_pct": -1.194,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NVR",
+      "price": 5494.21,
+      "previous_close": 5628.48,
+      "change_pct": -2.386,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NXPI",
+      "price": 251.76,
+      "previous_close": 252.47,
+      "change_pct": -0.281,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ORLY",
+      "price": 92.61,
+      "previous_close": 93.37,
+      "change_pct": -0.814,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "OKTA",
+      "price": 206.85,
+      "previous_close": 195.61,
+      "change_pct": 5.746,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ODFL",
+      "price": 173.83,
+      "previous_close": 175.11,
+      "change_pct": -0.731,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "OMC",
+      "price": 85.57,
+      "previous_close": 88.17,
+      "change_pct": -2.949,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ON",
+      "price": 65.72,
+      "previous_close": 67.23,
+      "change_pct": -2.246,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "OTIS",
+      "price": 75.95,
+      "previous_close": 77.67,
+      "change_pct": -2.214,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PKG",
+      "price": 236.96,
+      "previous_close": 243,
+      "change_pct": -2.486,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PLTR",
+      "price": 153.68,
+      "previous_close": 156.67,
+      "change_pct": -1.908,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PAYX",
+      "price": 111.4,
+      "previous_close": 113.67,
+      "change_pct": -1.997,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PYPL",
+      "price": 56.37,
+      "previous_close": 57.89,
+      "change_pct": -2.626,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PNR",
+      "price": 68.68,
+      "previous_close": 68.37,
+      "change_pct": 0.453,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PCG",
+      "price": 13.94,
+      "previous_close": 13.71,
+      "change_pct": 1.678,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PNW",
+      "price": 102.02,
+      "previous_close": 104.52,
+      "change_pct": -2.392,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PPG",
+      "price": 118.95,
+      "previous_close": 122.78,
+      "change_pct": -3.119,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PPL",
+      "price": 34.71,
+      "previous_close": 35.1,
+      "change_pct": -1.111,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PFG",
+      "price": 107.13,
+      "previous_close": 110.37,
+      "change_pct": -2.936,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PTC",
+      "price": 195.63,
+      "previous_close": 195.85,
+      "change_pct": -0.112,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PEG",
+      "price": 74.11,
+      "previous_close": 74.47,
+      "change_pct": -0.483,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PHM",
+      "price": 122.52,
+      "previous_close": 125.01,
+      "change_pct": -1.992,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "Q",
+      "price": 113.63,
+      "previous_close": 115.82,
+      "change_pct": -1.891,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "QCOM",
+      "price": 162.01,
+      "previous_close": 159.81,
+      "change_pct": 1.377,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DGX",
+      "price": 259.09,
+      "previous_close": 259.69,
+      "change_pct": -0.231,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RL",
+      "price": 376.97,
+      "previous_close": 384.17,
+      "change_pct": -1.874,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RJF",
+      "price": 158.88,
+      "previous_close": 162.28,
+      "change_pct": -2.095,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RDDT",
+      "price": 89.88,
+      "previous_close": 94.09,
+      "change_pct": -4.474,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "REG",
+      "price": 74.04,
+      "previous_close": 75.18,
+      "change_pct": -1.516,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RF",
+      "price": 27.3,
+      "previous_close": 27.95,
+      "change_pct": -2.326,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RMD",
+      "price": 236.88,
+      "previous_close": 242.61,
+      "change_pct": -2.362,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RVTY",
+      "price": 151.59,
+      "previous_close": 152.43,
+      "change_pct": -0.551,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HOOD",
+      "price": 68.65,
+      "previous_close": 69.17,
+      "change_pct": -0.752,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ROK",
+      "price": 383.1,
+      "previous_close": 395.86,
+      "change_pct": -3.223,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ROL",
+      "price": 37.97,
+      "previous_close": 37.7,
+      "change_pct": 0.716,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ROP",
+      "price": 462.96,
+      "previous_close": 470.87,
+      "change_pct": -1.68,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RCL",
+      "price": 303.15,
+      "previous_close": 320.65,
+      "change_pct": -5.458,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SNDK",
+      "price": 755.16,
+      "previous_close": 776.22,
+      "change_pct": -2.713,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SBAC",
+      "price": 169.66,
+      "previous_close": 173.41,
+      "change_pct": -2.163,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "STX",
+      "price": 521.39,
+      "previous_close": 515.9,
+      "change_pct": 1.064,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SHW",
+      "price": 339.83,
+      "previous_close": 346.6,
+      "change_pct": -1.953,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SWKS",
+      "price": 78.66,
+      "previous_close": 82.43,
+      "change_pct": -4.574,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SJM",
+      "price": 131.29,
+      "previous_close": 133.72,
+      "change_pct": -1.817,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SW",
+      "price": 38.63,
+      "previous_close": 40.33,
+      "change_pct": -4.215,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SNA",
+      "price": 357.22,
+      "previous_close": 361.97,
+      "change_pct": -1.312,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SOLV",
+      "price": 85.8,
+      "previous_close": 86.48,
+      "change_pct": -0.786,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LUV",
+      "price": 45.61,
+      "previous_close": 47.07,
+      "change_pct": -3.102,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SWK",
+      "price": 107.64,
+      "previous_close": 110.83,
+      "change_pct": -2.878,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "STT",
+      "price": 161.23,
+      "previous_close": 165.15,
+      "change_pct": -2.374,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "STLD",
+      "price": 218.26,
+      "previous_close": 222.69,
+      "change_pct": -1.989,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "STE",
+      "price": 254.76,
+      "previous_close": 259.57,
+      "change_pct": -1.853,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SMCI",
+      "price": 23.84,
+      "previous_close": 24.37,
+      "change_pct": -2.175,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SYF",
+      "price": 68.94,
+      "previous_close": 70.16,
+      "change_pct": -1.739,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SYY",
+      "price": 77.15,
+      "previous_close": 77.92,
+      "change_pct": -0.988,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TROW",
+      "price": 104.91,
+      "previous_close": 109.76,
+      "change_pct": -4.419,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TTWO",
+      "price": 208.65,
+      "previous_close": 216.61,
+      "change_pct": -3.675,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TPR",
+      "price": 123.68,
+      "previous_close": 128.41,
+      "change_pct": -3.684,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TRGP",
+      "price": 285.42,
+      "previous_close": 290.17,
+      "change_pct": -1.637,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TEL",
+      "price": 211.21,
+      "previous_close": 212.09,
+      "change_pct": -0.415,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TDY",
+      "price": 621.83,
+      "previous_close": 627.83,
+      "change_pct": -0.956,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TER",
+      "price": 227.43,
+      "previous_close": 235.21,
+      "change_pct": -3.308,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TXN",
+      "price": 285.75,
+      "previous_close": 292.43,
+      "change_pct": -2.284,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TPL",
+      "price": 277.72,
+      "previous_close": 285.9,
+      "change_pct": -2.861,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TXT",
+      "price": 81.12,
+      "previous_close": 82.79,
+      "change_pct": -2.017,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TKO",
+      "price": 181.47,
+      "previous_close": 190.13,
+      "change_pct": -4.555,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TSCO",
+      "price": 38.74,
+      "previous_close": 39.01,
+      "change_pct": -0.692,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TDG",
+      "price": 1158.65,
+      "previous_close": 1177.44,
+      "change_pct": -1.596,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TRMB",
+      "price": 51.99,
+      "previous_close": 53.94,
+      "change_pct": -3.615,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TWLO",
+      "price": 178.78,
+      "previous_close": 195.93,
+      "change_pct": -8.753,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TYL",
+      "price": 404.16,
+      "previous_close": 410.37,
+      "change_pct": -1.513,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TSN",
+      "price": 63.86,
+      "previous_close": 64.25,
+      "change_pct": -0.607,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UDR",
+      "price": 35.33,
+      "previous_close": 36.08,
+      "change_pct": -2.079,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ULTA",
+      "price": 629.34,
+      "previous_close": 648.51,
+      "change_pct": -2.956,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UAL",
+      "price": 105.53,
+      "previous_close": 107.63,
+      "change_pct": -1.951,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UHS",
+      "price": 174.98,
+      "previous_close": 186.07,
+      "change_pct": -5.96,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VEEV",
+      "price": 262.92,
+      "previous_close": 277.2,
+      "change_pct": -5.152,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VLTO",
+      "price": 116.08,
+      "previous_close": 117.87,
+      "change_pct": -1.519,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VRSN",
+      "price": 306.45,
+      "previous_close": 307.12,
+      "change_pct": -0.218,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VRSK",
+      "price": 200.52,
+      "previous_close": 202.31,
+      "change_pct": -0.885,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VRT",
+      "price": 184.99,
+      "previous_close": 194.48,
+      "change_pct": -4.88,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VTRS",
+      "price": 19.88,
+      "previous_close": 20.28,
+      "change_pct": -1.972,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VMC",
+      "price": 274.19,
+      "previous_close": 279.74,
+      "change_pct": -1.984,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VYLR",
+      "price": 67.77,
+      "previous_close": 69.82,
+      "change_pct": -2.936,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WRB",
+      "price": 77.4,
+      "previous_close": 76.93,
+      "change_pct": 0.611,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GWW",
+      "price": 1423.88,
+      "previous_close": 1448.12,
+      "change_pct": -1.674,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WAB",
+      "price": 280.73,
+      "previous_close": 290.58,
+      "change_pct": -3.39,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WAT",
+      "price": 456.48,
+      "previous_close": 466.1,
+      "change_pct": -2.064,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WEC",
+      "price": 116.11,
+      "previous_close": 117.47,
+      "change_pct": -1.158,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WST",
+      "price": 396.69,
+      "previous_close": 404.02,
+      "change_pct": -1.814,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WDC",
+      "price": 296.78,
+      "previous_close": 288.19,
+      "change_pct": 2.981,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WY",
+      "price": 19.54,
+      "previous_close": 20.05,
+      "change_pct": -2.544,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WSM",
+      "price": 220.66,
+      "previous_close": 260.09,
+      "change_pct": -15.16,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WTW",
+      "price": 331.26,
+      "previous_close": 332.56,
+      "change_pct": -0.391,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WDAY",
+      "price": 173.36,
+      "previous_close": 177.45,
+      "change_pct": -2.305,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WYNN",
+      "price": 82.1,
+      "previous_close": 83.2,
+      "change_pct": -1.322,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XYL",
+      "price": 95.24,
+      "previous_close": 95.2,
+      "change_pct": 0.042,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ZBRA",
+      "price": 312.51,
+      "previous_close": 319.61,
+      "change_pct": -2.221,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ZBH",
+      "price": 101.47,
+      "previous_close": 103.32,
+      "change_pct": -1.791,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ZTS",
+      "price": 80.79,
+      "previous_close": 85.57,
+      "change_pct": -5.586,
+      "price_at": "2026-11-19T21:00:00Z",
+      "source": "Finnhub",
+      "currency": "USD"
     }
   ],
   "etf_symbols": [
@@ -3986,11 +6970,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T06:53:52Z",
-    "universe_size": 289,
-    "equity_universe_size": 225,
+    "generated_at": "2026-11-20T07:33:27Z",
+    "universe_size": 587,
+    "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 56,
+    "screened_with_financials": 68,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -4123,6 +7107,164 @@
             "published_at": "2026-11-18T14:02:47Z",
             "primary": false,
             "symbol": "COP"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 86,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "EOG",
+        "name": "EOG Resources, Inc.",
+        "status": "INVESTIGATE",
+        "score": 86,
+        "industry": "Energy",
+        "why": "Net profit margin 27.8% (TTM); Return on equity 26.1% (TTM); Trailing P/E 9.4×; TTM revenue growth 30.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$149.49",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
+            "timestamp": "2026-11-19T09:30:50Z",
+            "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 149.49,
+        "currency": "USD",
+        "change_pct": -0.134,
+        "news": [
+          {
+            "headline": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
+            "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2",
+            "source": "ChartMill",
+            "published_at": "2026-11-19T09:30:50Z",
+            "primary": false,
+            "symbol": "EOG"
+          },
+          {
+            "headline": "Is Permian Resources Spending Too Much?",
+            "url": "https://finnhub.io/api/news?id=d5cb415558c408e0f74de0c224c45336eda319e22186f9d2871448b36758806f",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T12:48:07Z",
+            "primary": false,
+            "symbol": "EOG"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 86,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "OXY",
+        "name": "Occidental Petroleum Corp",
+        "status": "INVESTIGATE",
+        "score": 86,
+        "industry": "Energy",
+        "why": "Net profit margin 38.1% (TTM); Return on equity 20.6% (TTM); Trailing P/E 6.5×; TTM revenue growth 16.6% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$53.81",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Should You Buy Occidental Stock For Its Cash Flow?",
+            "timestamp": "2026-11-19T11:39:01Z",
+            "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 53.81,
+        "currency": "USD",
+        "change_pct": 0.093,
+        "news": [
+          {
+            "headline": "Should You Buy Occidental Stock For Its Cash Flow?",
+            "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T11:39:01Z",
+            "primary": false,
+            "symbol": "OXY"
+          },
+          {
+            "headline": "Occidental Petroleum Corporation Commences Cash Tender Offers for Up to $500.0 Million in Two Separate Pools",
+            "url": "https://finnhub.io/api/news?id=eb6eb9bd100d8c31ba4d686a6e35f371f8c7cfc97866a8b13ffc06de3fd92a76",
+            "source": "Fintel",
+            "published_at": "2026-11-19T02:00:16Z",
+            "primary": false,
+            "symbol": "OXY"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -6155,6 +9297,93 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "DECK",
+        "name": "Deckers Outdoor Corporation",
+        "status": "WATCH",
+        "score": 68,
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 10.5×; TTM revenue growth 6.3% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$78.95",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+            "timestamp": "2026-11-17T13:00:03Z",
+            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 78.95,
+        "currency": "USD",
+        "change_pct": -5.562,
+        "news": [
+          {
+            "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T13:00:03Z",
+            "primary": false,
+            "symbol": "DECK"
+          },
+          {
+            "headline": "Deckers: Time To Dip A Toe In",
+            "url": "https://finnhub.io/api/news?id=b8b44e1a413a24a79c8444a1566b3df019ecec52f19eb2803a532fe3c9bcad82",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-17T04:46:08Z",
+            "primary": false,
+            "symbol": "DECK"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 99.37,
+          "entry_floor": 89.44,
+          "exit_review_low": 127.4,
+          "exit_review_high": 149.56,
+          "bear_case": 71.6,
+          "scenario_upside_pct": 61.4,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 10.53,
+            "earnings_growth_assumed_pct": 2.85,
+            "scenario_exit_pe": 16.52,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T07:33:27Z"
+          }
+        },
+        "ranking_score": 68,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "TSM",
         "name": "Taiwan Semiconductor Manufacturing Co Ltd",
         "status": "WATCH",
@@ -6220,6 +9449,85 @@
           "bear_case": null,
           "scenario_upside_pct": null,
           "reason": "52-week price bounds conflict with the quote; check for a split or bad data.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 67,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "GEHC",
+        "name": "GE HealthCare Technologies Inc.",
+        "status": "WATCH",
+        "score": 67,
+        "industry": "Health Care",
+        "why": "Net profit margin 9.9% (TTM); Return on equity 19.7% (TTM); Trailing P/E 17.6×; TTM revenue growth 6.9% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$81.89",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "GE HealthCare Wins FDA Nod for AI Feeding Tube Detection Software",
+            "timestamp": "2026-11-19T16:50:00Z",
+            "url": "https://finnhub.io/api/news?id=6e82a9bde5a7df1692b6c4740ee9d0c1ec45e78c69eaeab944e764fd571e7663"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 81.89,
+        "currency": "USD",
+        "change_pct": -2.116,
+        "news": [
+          {
+            "headline": "GE HealthCare Wins FDA Nod for AI Feeding Tube Detection Software",
+            "url": "https://finnhub.io/api/news?id=6e82a9bde5a7df1692b6c4740ee9d0c1ec45e78c69eaeab944e764fd571e7663",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:50:00Z",
+            "primary": false,
+            "symbol": "GEHC"
+          },
+          {
+            "headline": "GE HealthCare’s Phase 2 Results Support Advancement of Investigational Manganese-Based MRI Contrast Agent Mangaciclanol Into Phase 3 of LUMINA Clinical Trial",
+            "url": "https://finnhub.io/api/news?id=90796ff3f9b4c726b83530b1c1c838db983dbad54c1126483d5ddda7304752cf",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T13:00:00Z",
+            "primary": false,
+            "symbol": "GEHC"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -6490,6 +9798,85 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "LOW",
+        "name": "Lowe's Companies Inc",
+        "status": "WATCH",
+        "score": 65,
+        "industry": "Retail",
+        "why": "Net profit margin 7.2% (TTM); Return on equity 264.5% (TTM); Trailing P/E 18.3×; TTM revenue growth 9.6% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$219.14",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Lowe's Companies, Inc. to Host 2026 Analyst and Investor Conference on Dec. 9",
+            "timestamp": "2026-11-19T21:30:00Z",
+            "url": "https://finnhub.io/api/news?id=80b9c67e95202ba4891589d4cef005dbab4b0aa4205da6fb2ce8079602139a46"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 219.14,
+        "currency": "USD",
+        "change_pct": -1.634,
+        "news": [
+          {
+            "headline": "Lowe's Companies, Inc. to Host 2026 Analyst and Investor Conference on Dec. 9",
+            "url": "https://finnhub.io/api/news?id=80b9c67e95202ba4891589d4cef005dbab4b0aa4205da6fb2ce8079602139a46",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T21:30:00Z",
+            "primary": false,
+            "symbol": "LOW"
+          },
+          {
+            "headline": "Lowe's Strategic Investments Broaden Growth Algorithm, UBS Says",
+            "url": "https://finnhub.io/api/news?id=5fb4e884160dac92941a6ebc92dde9a97353de24d996cd902b511a3064c2efc5",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T20:00:50Z",
+            "primary": false,
+            "symbol": "LOW"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 65,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "AAPL",
         "name": "Apple Inc.",
         "status": "WATCH",
@@ -6627,6 +10014,85 @@
             "published_at": "2026-11-19T21:12:47Z",
             "primary": false,
             "symbol": "HD"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 64,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "VZ",
+        "name": "Verizon Communications Inc",
+        "status": "WATCH",
+        "score": 64,
+        "industry": "Telecommunication",
+        "why": "Net profit margin 11.8% (TTM); Return on equity 15.7% (TTM); Trailing P/E 11.7×; TTM revenue growth 1.4% YoY",
+        "risks": [
+          "Earnings per share declining"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$45.74",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete",
+            "timestamp": "2026-11-19T17:46:02Z",
+            "url": "https://finnhub.io/api/news?id=505796c1ca88163529e6e870818b05c3dd1f64bbab96c0170d39e5aed38fbb2c"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 45.74,
+        "currency": "USD",
+        "change_pct": -0.845,
+        "news": [
+          {
+            "headline": "Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete",
+            "url": "https://finnhub.io/api/news?id=505796c1ca88163529e6e870818b05c3dd1f64bbab96c0170d39e5aed38fbb2c",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T17:46:02Z",
+            "primary": false,
+            "symbol": "VZ"
+          },
+          {
+            "headline": "Elon Musk Moves Step Closer to Creating Phone Service After Verizon and T-Mobile Shut Out",
+            "url": "https://finnhub.io/api/news?id=0d3fb1bdb45e29c69343719a42824ad2c0fe85a3511a857e65fd6db2598b82dc",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T17:24:29Z",
+            "primary": false,
+            "symbol": "VZ"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -7137,6 +10603,277 @@
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
         },
         "ranking_score": 62,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "SLB",
+        "name": "SLB N.V.",
+        "status": "WATCH",
+        "score": 60,
+        "industry": "Energy",
+        "why": "Net profit margin 8.4% (TTM); Return on equity 11.7% (TTM); Trailing P/E 23.0×; TTM revenue growth 4.7% YoY",
+        "risks": [
+          "Earnings per share declining"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$47.90",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "SLB Expands Norway Footprint With Var Energi Offshore Drilling Deal",
+            "timestamp": "2026-11-17T14:22:00Z",
+            "url": "https://finnhub.io/api/news?id=b1827a5b2ecdd137d46532273d42323b30c71afb16dc70a63b24e36f11d5a881"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 47.9,
+        "currency": "USD",
+        "change_pct": -1.054,
+        "news": [
+          {
+            "headline": "SLB Expands Norway Footprint With Var Energi Offshore Drilling Deal",
+            "url": "https://finnhub.io/api/news?id=b1827a5b2ecdd137d46532273d42323b30c71afb16dc70a63b24e36f11d5a881",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T14:22:00Z",
+            "primary": false,
+            "symbol": "SLB"
+          },
+          {
+            "headline": "SLB Stock: Analyst Estimates & Ratings",
+            "url": "https://finnhub.io/api/news?id=bf810f063b40066e6fdc47b0ce5fe3f4a304b07fde11f3f50b275e60127cd0cb",
+            "source": "Yahoo",
+            "published_at": "2026-11-16T07:47:54Z",
+            "primary": false,
+            "symbol": "SLB"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 60,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "status": "WATCH",
+        "score": 60,
+        "industry": "Telecommunication",
+        "why": "Net profit margin 10.2% (TTM); Return on equity 12.0% (TTM); Trailing P/E 11.3×; TTM revenue growth 3.5% YoY",
+        "risks": [
+          "Earnings per share declining"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$21.85",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 21.85,
+        "currency": "USD",
+        "change_pct": -0.456,
+        "news": [],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 60,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "SE",
+        "name": "Sea Ltd",
+        "status": "WATCH",
+        "score": 60,
+        "industry": "Retail",
+        "why": "Net profit margin 5.8% (TTM); Return on equity 13.6% (TTM); Trailing P/E 23.2×; TTM revenue growth 44.1% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$65.94",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 65.94,
+        "currency": "USD",
+        "change_pct": -3.878,
+        "news": [],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 60,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "O",
+        "name": "Realty Income Corporation",
+        "status": "WATCH",
+        "score": 59,
+        "industry": "Real Estate",
+        "why": "Net profit margin 21.9% (TTM); Return on equity 3.4% (TTM); Trailing P/E 40.4×; TTM revenue growth 10.8% YoY",
+        "risks": [
+          "High trailing earnings valuation"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$57.66",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Is Realty Income the Easiest Way to Collect Monthly Income in 2027?",
+            "timestamp": "2026-11-18T19:47:01Z",
+            "url": "https://finnhub.io/api/news?id=df291fbd0acd30e59b92c582584b4a0fbfbecc65facb54dfdd58af4dc9df95fc"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 57.66,
+        "currency": "USD",
+        "change_pct": -1.064,
+        "news": [
+          {
+            "headline": "Is Realty Income the Easiest Way to Collect Monthly Income in 2027?",
+            "url": "https://finnhub.io/api/news?id=df291fbd0acd30e59b92c582584b4a0fbfbecc65facb54dfdd58af4dc9df95fc",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T19:47:01Z",
+            "primary": false,
+            "symbol": "O"
+          },
+          {
+            "headline": "Better Dividend Stock: Realty Income vs. Americold Realty Trust",
+            "url": "https://finnhub.io/api/news?id=5d552fc9d94441ad6e9038da0c9b4bff098b428fbe7a02f7ee832e994207987b",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T16:57:27Z",
+            "primary": false,
+            "symbol": "O"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Real Estate; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 59,
         "rank_method": "FINANCIAL RULES"
       },
       {
@@ -8094,6 +11831,86 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "DLR",
+        "name": "Digital Realty Trust, Inc.",
+        "status": "LOW PRIORITY",
+        "score": 44,
+        "industry": "Real Estate",
+        "why": "Net profit margin 13.1% (TTM); Return on equity 3.6% (TTM); Trailing P/E 72.8×; TTM revenue growth 20.0% YoY",
+        "risks": [
+          "High trailing earnings valuation",
+          "Earnings per share declining"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$174.02",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "DLR Boosts Frankfurt Data Center Capacity With New Power Connection",
+            "timestamp": "2026-11-18T17:18:00Z",
+            "url": "https://finnhub.io/api/news?id=7df9efa7f66042233c8e0f2eae21f697af8c58372c77c743178ca740bbbe74cb"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 174.02,
+        "currency": "USD",
+        "change_pct": -2.406,
+        "news": [
+          {
+            "headline": "DLR Boosts Frankfurt Data Center Capacity With New Power Connection",
+            "url": "https://finnhub.io/api/news?id=7df9efa7f66042233c8e0f2eae21f697af8c58372c77c743178ca740bbbe74cb",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T17:18:00Z",
+            "primary": false,
+            "symbol": "DLR"
+          },
+          {
+            "headline": "Digital Realty Supports Growth at Digital Park Fechenheim with Dedicated 110 kV Power Connection Now Online",
+            "url": "https://finnhub.io/api/news?id=2e50e4264bcfce40602f20da1d05f859ac1e9971cdaa17765598e182c3838095",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T08:00:00Z",
+            "primary": false,
+            "symbol": "DLR"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Current company screen does not establish a credible entry candidate.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 44,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "NOW",
         "name": "ServiceNow, Inc.",
         "status": "LOW PRIORITY",
@@ -8394,6 +12211,87 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "BIDU",
+        "name": "Baidu, Inc.",
+        "status": "LOW PRIORITY",
+        "score": 33,
+        "industry": "Media",
+        "why": "Net profit margin 6.3% (TTM); Return on equity 3.0% (TTM); Trailing P/E 19.7×; TTM revenue growth -2.7% YoY",
+        "risks": [
+          "Revenue contracting year on year",
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$66.38",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Barclays Maintains Equal-Weight on Baidu, Lowers Price Target to $72",
+            "timestamp": "2026-11-18T09:52:51Z",
+            "url": "https://finnhub.io/api/news?id=f5bfb495a2b66f731cd8bab92d4c6b6f709d74d06d6d18750a8882ea1f827a73"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 66.38,
+        "currency": "USD",
+        "change_pct": -4.089,
+        "news": [
+          {
+            "headline": "Barclays Maintains Equal-Weight on Baidu, Lowers Price Target to $72",
+            "url": "https://finnhub.io/api/news?id=f5bfb495a2b66f731cd8bab92d4c6b6f709d74d06d6d18750a8882ea1f827a73",
+            "source": "Benzinga",
+            "published_at": "2026-11-18T09:52:51Z",
+            "primary": false,
+            "symbol": "BIDU"
+          },
+          {
+            "headline": "Susquehanna Maintains Neutral on Baidu, Lowers Price Target to $75",
+            "url": "https://finnhub.io/api/news?id=0dff8dfb3a00997cf8b5764ad973ee59976f7ab4ba3c8e89f73fdc886d77c734",
+            "source": "Benzinga",
+            "published_at": "2026-11-18T09:34:12Z",
+            "primary": false,
+            "symbol": "BIDU"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Current company screen does not establish a credible entry candidate.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 33,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
         "status": "LOW PRIORITY",
@@ -8558,6 +12456,93 @@
     ],
     "entry_candidates": [],
     "entry_watch": [
+      {
+        "symbol": "DECK",
+        "name": "Deckers Outdoor Corporation",
+        "status": "WATCH",
+        "score": 68,
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 10.5×; TTM revenue growth 6.3% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$78.95",
+            "timestamp": "2026-11-19T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T07:33:27Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+            "timestamp": "2026-11-17T13:00:03Z",
+            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563"
+          }
+        ],
+        "as_of": "2026-11-19T21:00:00Z",
+        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "price": 78.95,
+        "currency": "USD",
+        "change_pct": -5.562,
+        "news": [
+          {
+            "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T13:00:03Z",
+            "primary": false,
+            "symbol": "DECK"
+          },
+          {
+            "headline": "Deckers: Time To Dip A Toe In",
+            "url": "https://finnhub.io/api/news?id=b8b44e1a413a24a79c8444a1566b3df019ecec52f19eb2803a532fe3c9bcad82",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-17T04:46:08Z",
+            "primary": false,
+            "symbol": "DECK"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 99.37,
+          "entry_floor": 89.44,
+          "exit_review_low": 127.4,
+          "exit_review_high": 149.56,
+          "bear_case": 71.6,
+          "scenario_upside_pct": 61.4,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-19T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 10.53,
+            "earnings_growth_assumed_pct": 2.85,
+            "scenario_exit_pe": 16.52,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-20T07:33:27Z"
+          }
+        },
+        "ranking_score": 68,
+        "rank_method": "FINANCIAL RULES"
+      },
       {
         "symbol": "ADBE",
         "name": "Adobe Inc",
@@ -9168,98 +13153,16 @@
         },
         "ranking_score": 80,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "CAT",
-        "name": "Caterpillar Inc",
-        "status": "WATCH",
-        "score": 73,
-        "industry": "Machinery",
-        "why": "Net profit margin 15.2% (TTM); Return on equity 58.5% (TTM); Trailing P/E 20.9×; TTM revenue growth 20.3% YoY",
-        "risks": [
-          "Large drawdown: recovery is not assured",
-          "Price near reported 52-week low"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$537.37",
-            "timestamp": "2026-11-19T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:42:07Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Caterpillar CEO Joe Creed joins Walmart board of directors",
-            "timestamp": "2026-11-19T18:26:59Z",
-            "url": "https://finnhub.io/api/news?id=cd4235135a36b7af8f833058a202ffc4dd5aea77213d17746825c2179c438902"
-          }
-        ],
-        "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:42:07Z",
-        "price": 537.37,
-        "currency": "USD",
-        "change_pct": -3.83,
-        "news": [
-          {
-            "headline": "Caterpillar CEO Joe Creed joins Walmart board of directors",
-            "url": "https://finnhub.io/api/news?id=cd4235135a36b7af8f833058a202ffc4dd5aea77213d17746825c2179c438902",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:26:59Z",
-            "primary": false,
-            "symbol": "CAT"
-          },
-          {
-            "headline": "Caterpillar (CAT) Isn’t Just a Bulldozer Stock Anymore, and Ken Fisher Knows Why",
-            "url": "https://finnhub.io/api/news?id=c1ff1385ec65d1db9e085fc61d6a551d25bbc9ab806aff794b35faec8940b46f",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:14:00Z",
-            "primary": false,
-            "symbol": "CAT"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 433.28,
-          "entry_floor": 389.95,
-          "exit_review_low": 555.49,
-          "exit_review_high": 678.37,
-          "bear_case": 294.56,
-          "scenario_upside_pct": 3.4,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-19T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 20.94,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 19.86,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T06:42:07Z"
-          }
-        },
-        "ranking_score": 73,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "pricing_method": "Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.",
     "daily_movers": [
+      {
+        "symbol": "WSM",
+        "change_pct": -15.16,
+        "price": 220.66,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
       {
         "symbol": "NTES",
         "change_pct": -11.391,
@@ -9270,6 +13173,12 @@
         "symbol": "PDD",
         "change_pct": 11.039,
         "price": 86,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "TWLO",
+        "change_pct": -8.753,
+        "price": 178.78,
         "price_at": "2026-11-19T21:00:00Z"
       },
       {
@@ -9291,6 +13200,42 @@
         "price_at": "2026-11-19T21:00:00Z"
       },
       {
+        "symbol": "FISV",
+        "change_pct": -6.382,
+        "price": 56.62,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "XYZ",
+        "change_pct": -6.05,
+        "price": 74.23,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "UHS",
+        "change_pct": -5.96,
+        "price": 174.98,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "DASH",
+        "change_pct": -5.797,
+        "price": 157.13,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "OKTA",
+        "change_pct": 5.746,
+        "price": 206.85,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "ZTS",
+        "change_pct": -5.586,
+        "price": 80.79,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
         "symbol": "DECK",
         "change_pct": -5.562,
         "price": 78.95,
@@ -9300,6 +13245,12 @@
         "symbol": "UNH",
         "change_pct": -5.553,
         "price": 330.48,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "symbol": "RCL",
+        "change_pct": -5.458,
+        "price": 303.15,
         "price_at": "2026-11-19T21:00:00Z"
       },
       {
@@ -9321,63 +13272,9 @@
         "price_at": "2026-11-19T21:00:00Z"
       },
       {
-        "symbol": "ONON",
-        "change_pct": -4.965,
-        "price": 30.82,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "MELI",
-        "change_pct": -4.752,
-        "price": 1355.49,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "LULU",
-        "change_pct": -4.739,
-        "price": 105.53,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "UBER",
-        "change_pct": -4.596,
-        "price": 65.6,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "SKYD",
-        "change_pct": -4.374,
-        "price": 6.34,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "CI",
-        "change_pct": -4.321,
-        "price": 273.04,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "NEM",
-        "change_pct": -4.286,
-        "price": 100.05,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "SBUX",
-        "change_pct": -4.253,
-        "price": 104.47,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "BIDU",
-        "change_pct": -4.089,
-        "price": 66.38,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "symbol": "CEG",
-        "change_pct": -4.076,
-        "price": 252.03,
+        "symbol": "CVNA",
+        "change_pct": -5.266,
+        "price": 68,
         "price_at": "2026-11-19T21:00:00Z"
       }
     ],
@@ -9670,7 +13567,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 56,
+      "recorded_signals": 68,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -9789,6 +13686,22 @@
         "symbol": "COP",
         "flagged_at": "2026-11-20T06:53:52Z",
         "reference_price": 134.99,
+        "score": 86,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "EOG",
+        "flagged_at": "2026-11-20T07:33:27Z",
+        "reference_price": 149.49,
+        "score": 86,
+        "price_at": "2026-11-19T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "OXY",
+        "flagged_at": "2026-11-20T07:33:27Z",
+        "reference_price": 53.81,
         "score": 86,
         "price_at": "2026-11-19T21:00:00Z"
       }

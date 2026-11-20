@@ -3479,8 +3479,670 @@
         "name": "JD.com Inc"
       },
       "news": []
+    },
+    "EOG": {
+      "metrics": {
+        "52WeekHigh": 165.93,
+        "52WeekLow": 101.59,
+        "peTTM": 9.4478,
+        "psTTM": 2.6294,
+        "netProfitMarginTTM": 27.83,
+        "roeTTM": 26.05,
+        "revenueGrowthTTMYoy": 30.03,
+        "epsGrowthTTMYoy": 53.85,
+        "currentRatioQuarterly": 1.8985,
+        "totalDebt/totalEquityQuarterly": 0.2393,
+        "marketCapitalization": 77339.695
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "EOG Resources, Inc.",
+      "profile": {
+        "weburl": "https://www.eogresources.com/",
+        "industry": "Energy",
+        "name": "EOG Resources, Inc."
+      },
+      "news": [
+        {
+          "headline": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
+          "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T09:30:50Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "Is Permian Resources Spending Too Much?",
+          "url": "https://finnhub.io/api/news?id=d5cb415558c408e0f74de0c224c45336eda319e22186f9d2871448b36758806f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:48:07Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on EOG Resources, Raises Price Target to $167",
+          "url": "https://finnhub.io/api/news?id=206b6d55ca3eb6d8f3815a25b914018855f8be89acef000fd8df363142406fe4",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T11:51:59Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "EOG Resources (EOG) Stock May Be 50% Undervalued As Record Output Lifts Dividend",
+          "url": "https://finnhub.io/api/news?id=3f7218b51030a80414fe2eb7f6f8c284bc90da628244e7df90c36d450e8a0a28",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T07:07:30Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "EOG Resources (EOG) Lifts Dividend And Output On An Undervalued View",
+          "url": "https://finnhub.io/api/news?id=d93f32a948524eb5256de98946ee6c35523f534fa5a652d9de25b32d9d376efb",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T06:16:38Z",
+          "primary": false,
+          "symbol": "EOG"
+        }
+      ]
+    },
+    "DLR": {
+      "metrics": {
+        "52WeekHigh": 208.14,
+        "52WeekLow": 146.23,
+        "peTTM": 72.8065,
+        "psTTM": 9.5063,
+        "netProfitMarginTTM": 13.06,
+        "roeTTM": 3.64,
+        "revenueGrowthTTMYoy": 19.99,
+        "epsGrowthTTMYoy": -36.97,
+        "currentRatioQuarterly": 0.5544,
+        "totalDebt/totalEquityQuarterly": 0.6935,
+        "marketCapitalization": 67459.28
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Digital Realty Trust, Inc.",
+      "profile": {
+        "weburl": "https://www.digitalrealty.com",
+        "industry": "Real Estate",
+        "name": "Digital Realty Trust, Inc."
+      },
+      "news": [
+        {
+          "headline": "DLR Boosts Frankfurt Data Center Capacity With New Power Connection",
+          "url": "https://finnhub.io/api/news?id=7df9efa7f66042233c8e0f2eae21f697af8c58372c77c743178ca740bbbe74cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:18:00Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Digital Realty Supports Growth at Digital Park Fechenheim with Dedicated 110 kV Power Connection Now Online",
+          "url": "https://finnhub.io/api/news?id=2e50e4264bcfce40602f20da1d05f859ac1e9971cdaa17765598e182c3838095",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T08:00:00Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Digital Realty Innovation Lab (DRIL) Launches in Singapore, Enabling Asia Pacific Enterprises to Validate and Scale AI-Ready Infrastructure",
+          "url": "https://finnhub.io/api/news?id=dfb651d7f34844f7969843a5c2d5a7fa1d55267f2020973765cbf236197763c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T06:15:00Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Digital Realty Expands Sovereign Cloud Ecosystem with Four New OVHcloud Deployments",
+          "url": "https://finnhub.io/api/news?id=a3a5496206d8f1eb48f22646fd7810542d14ff743d97c86f620bd3fe1a44db70",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T17:02:00Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Why Equinix and Digital Realty Benefit From Data Center Zoning Battles",
+          "url": "https://finnhub.io/api/news?id=9f40041d6a4b998a9fbf537f5b57cc4545777ad2059bb89e9b01e3d5666c7186",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T13:00:00Z",
+          "primary": false,
+          "symbol": "DLR"
+        }
+      ]
+    },
+    "VZ": {
+      "metrics": {
+        "52WeekHigh": 51.68,
+        "52WeekLow": 38.68,
+        "peTTM": 11.6516,
+        "psTTM": 1.3726,
+        "netProfitMarginTTM": 11.78,
+        "roeTTM": 15.73,
+        "revenueGrowthTTMYoy": 1.38,
+        "epsGrowthTTMYoy": -16.44,
+        "currentRatioQuarterly": 0.6264,
+        "totalDebt/totalEquityQuarterly": 1.5684,
+        "marketCapitalization": 191319.12
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Verizon Communications Inc",
+      "profile": {
+        "weburl": "https://www.verizon.com/",
+        "industry": "Telecommunication",
+        "name": "Verizon Communications Inc"
+      },
+      "news": [
+        {
+          "headline": "Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete",
+          "url": "https://finnhub.io/api/news?id=505796c1ca88163529e6e870818b05c3dd1f64bbab96c0170d39e5aed38fbb2c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:46:02Z",
+          "primary": false,
+          "symbol": "VZ"
+        },
+        {
+          "headline": "Elon Musk Moves Step Closer to Creating Phone Service After Verizon and T-Mobile Shut Out",
+          "url": "https://finnhub.io/api/news?id=0d3fb1bdb45e29c69343719a42824ad2c0fe85a3511a857e65fd6db2598b82dc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:24:29Z",
+          "primary": false,
+          "symbol": "VZ"
+        },
+        {
+          "headline": "How Many Shares of AT&T, Verizon or Comcast Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=fb832736e9dc63b47493cb513a8f2961efdb80d3a1033f2418bde2b1188f09d7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:05:35Z",
+          "primary": false,
+          "symbol": "VZ"
+        },
+        {
+          "headline": "Verizon Survey: Small Businesses Turn to Social Media & AI for Holidays",
+          "url": "https://finnhub.io/api/news?id=59adf52dd17b3cdd925277d29345542d2bee66ed3c9796e9af8263c7d4f4762e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:00:00Z",
+          "primary": false,
+          "symbol": "VZ"
+        },
+        {
+          "headline": "A $600,000 Portfolio in Healthpeak, Verizon and NNN REIT Pays $37,054 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=ae6fef000a1927b2eb2ba80f6dca17ba773291da7f0a83777982cc8372392eb6",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:20:32Z",
+          "primary": false,
+          "symbol": "VZ"
+        }
+      ]
+    },
+    "BIDU": {
+      "metrics": {
+        "52WeekHigh": 165.3,
+        "52WeekLow": 69.065,
+        "peTTM": 19.7332,
+        "psTTM": 1.2459,
+        "netProfitMarginTTM": 6.31,
+        "roeTTM": 2.97,
+        "revenueGrowthTTMYoy": -2.7,
+        "epsGrowthTTMYoy": -2.69,
+        "currentRatioQuarterly": 2.5383,
+        "totalDebt/totalEquityQuarterly": 0.3845,
+        "marketCapitalization": 23723.059
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Baidu, Inc.",
+      "profile": {
+        "weburl": "https://www.baidu.com/",
+        "industry": "Media",
+        "name": "Baidu, Inc."
+      },
+      "news": [
+        {
+          "headline": "Barclays Maintains Equal-Weight on Baidu, Lowers Price Target to $72",
+          "url": "https://finnhub.io/api/news?id=f5bfb495a2b66f731cd8bab92d4c6b6f709d74d06d6d18750a8882ea1f827a73",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:52:51Z",
+          "primary": false,
+          "symbol": "BIDU"
+        },
+        {
+          "headline": "Susquehanna Maintains Neutral on Baidu, Lowers Price Target to $75",
+          "url": "https://finnhub.io/api/news?id=0dff8dfb3a00997cf8b5764ad973ee59976f7ab4ba3c8e89f73fdc886d77c734",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:34:12Z",
+          "primary": false,
+          "symbol": "BIDU"
+        },
+        {
+          "headline": "Baidu (BIDU) AI Linked Revenue Reached 53% Of General Business Revenue",
+          "url": "https://finnhub.io/api/news?id=a3e83c2d15e8a5db3d70282d510e1ada93362c7f9cd19efde59930bd52fd3154",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T08:15:01Z",
+          "primary": false,
+          "symbol": "BIDU"
+        },
+        {
+          "headline": "Baidu shares hit record low as Q3 earnings, AI concerns weigh",
+          "url": "https://finnhub.io/api/news?id=814f9a4400c39d9aca4437d47b000355dd1bee0b8dc0ce662c35281dd54d69d0",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:54:22Z",
+          "primary": false,
+          "symbol": "BIDU"
+        },
+        {
+          "headline": "Baidu Q3 2026: Between A Skinnier Cash Cow And An Expensive AI Bet",
+          "url": "https://finnhub.io/api/news?id=c17c14464a9ced3c39e9452140536733eb053e8a13c63349b66cd7b79b679869",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T03:59:11Z",
+          "primary": false,
+          "symbol": "BIDU"
+        }
+      ]
+    },
+    "DECK": {
+      "metrics": {
+        "52WeekHigh": 122.29,
+        "52WeekLow": 77.2,
+        "peTTM": 10.529,
+        "psTTM": 2.0009,
+        "netProfitMarginTTM": 19.0,
+        "roeTTM": 43.56,
+        "revenueGrowthTTMYoy": 6.34,
+        "epsGrowthTTMYoy": 11.93,
+        "currentRatioQuarterly": 2.7242,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 11158.926
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Deckers Outdoor Corporation",
+      "profile": {
+        "weburl": "https://www.deckers.com/",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "name": "Deckers Outdoor Corporation"
+      },
+      "news": [
+        {
+          "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:00:03Z",
+          "primary": false,
+          "symbol": "DECK"
+        },
+        {
+          "headline": "Deckers: Time To Dip A Toe In",
+          "url": "https://finnhub.io/api/news?id=b8b44e1a413a24a79c8444a1566b3df019ecec52f19eb2803a532fe3c9bcad82",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T04:46:08Z",
+          "primary": false,
+          "symbol": "DECK"
+        }
+      ]
+    },
+    "SLB": {
+      "metrics": {
+        "52WeekHigh": 60.46,
+        "52WeekLow": 34.65,
+        "peTTM": 23.0198,
+        "psTTM": 1.9327,
+        "netProfitMarginTTM": 8.4,
+        "roeTTM": 11.73,
+        "revenueGrowthTTMYoy": 4.65,
+        "epsGrowthTTMYoy": -20.51,
+        "currentRatioQuarterly": 1.389,
+        "totalDebt/totalEquityQuarterly": 0.4704,
+        "marketCapitalization": 71292.234
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "SLB N.V.",
+      "profile": {
+        "weburl": "https://www.slb.com/",
+        "industry": "Energy",
+        "name": "SLB N.V."
+      },
+      "news": [
+        {
+          "headline": "SLB Expands Norway Footprint With Var Energi Offshore Drilling Deal",
+          "url": "https://finnhub.io/api/news?id=b1827a5b2ecdd137d46532273d42323b30c71afb16dc70a63b24e36f11d5a881",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:22:00Z",
+          "primary": false,
+          "symbol": "SLB"
+        },
+        {
+          "headline": "SLB Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=bf810f063b40066e6fdc47b0ce5fe3f4a304b07fde11f3f50b275e60127cd0cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T07:47:54Z",
+          "primary": false,
+          "symbol": "SLB"
+        },
+        {
+          "headline": "SLB LTD (NYSE:SLB): A Quality Investing Candidate With Strong Free Cash Flow",
+          "url": "https://finnhub.io/api/news?id=5d2a568f6bb8ea89500ec314097c3d07d9d498edde7d402f0330c03b7e88db31",
+          "source": "ChartMill",
+          "published_at": "2026-11-14T09:50:38Z",
+          "primary": false,
+          "symbol": "SLB"
+        },
+        {
+          "headline": "SLB Limited (SLB) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finnhub.io/api/news?id=6642eea515b57bc5eadb602aeae27b6936b6ae4b647ed481febbab15f1d13995",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T13:00:03Z",
+          "primary": false,
+          "symbol": "SLB"
+        },
+        {
+          "headline": "SLB Selected by Vår Energi for Integrated Drilling Services Offshore Norway",
+          "url": "https://finnhub.io/api/news?id=05d3dba80c8d1f244ba949dc361cb9f9484612b8d8938a1b11eb3682c6e8f700",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T12:50:00Z",
+          "primary": false,
+          "symbol": "SLB"
+        }
+      ]
+    },
+    "O": {
+      "metrics": {
+        "52WeekHigh": 67.94,
+        "52WeekLow": 53.15,
+        "peTTM": 40.3618,
+        "psTTM": 8.8174,
+        "netProfitMarginTTM": 21.85,
+        "roeTTM": 3.44,
+        "revenueGrowthTTMYoy": 10.79,
+        "epsGrowthTTMYoy": 35.32,
+        "currentRatioQuarterly": 1.3094,
+        "totalDebt/totalEquityQuarterly": 0.7948,
+        "marketCapitalization": 54720.37
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Realty Income Corporation",
+      "profile": {
+        "weburl": "https://www.realtyincome.com/",
+        "industry": "Real Estate",
+        "name": "Realty Income Corporation"
+      },
+      "news": [
+        {
+          "headline": "Is Realty Income the Easiest Way to Collect Monthly Income in 2027?",
+          "url": "https://finnhub.io/api/news?id=df291fbd0acd30e59b92c582584b4a0fbfbecc65facb54dfdd58af4dc9df95fc",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T19:47:01Z",
+          "primary": false,
+          "symbol": "O"
+        },
+        {
+          "headline": "Better Dividend Stock: Realty Income vs. Americold Realty Trust",
+          "url": "https://finnhub.io/api/news?id=5d552fc9d94441ad6e9038da0c9b4bff098b428fbe7a02f7ee832e994207987b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:57:27Z",
+          "primary": false,
+          "symbol": "O"
+        },
+        {
+          "headline": "Realty Income or Sabra Health Care REIT: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=7e4a4619c5b3ca9269e171ec1bbe67bc9c7aca58b5597d7bd5b30be66d632901",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:11:00Z",
+          "primary": false,
+          "symbol": "O"
+        },
+        {
+          "headline": "Realty Income and 2 More Monthly Dividend Stocks Built for Retirement Income",
+          "url": "https://finnhub.io/api/news?id=9368e6ab46d03933a57c5f98ebdd4310c7fff053866e9181addb64d449f7cb20",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:47:33Z",
+          "primary": false,
+          "symbol": "O"
+        },
+        {
+          "headline": "Realty Income vs. Agree Realty: Which REIT Wins on Dividends and Growth?",
+          "url": "https://finnhub.io/api/news?id=9630156a884e510fb4aac0738ef61e2b34093e930e5d8d511c146fc138c97851",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T08:24:09Z",
+          "primary": false,
+          "symbol": "O"
+        }
+      ]
+    },
+    "T": {
+      "metrics": {
+        "52WeekHigh": 29.44,
+        "52WeekLow": 19.89,
+        "peTTM": 11.2574,
+        "psTTM": 1.1476,
+        "netProfitMarginTTM": 10.19,
+        "roeTTM": 12.01,
+        "revenueGrowthTTMYoy": 3.51,
+        "epsGrowthTTMYoy": -39.35,
+        "currentRatioQuarterly": 0.8684,
+        "totalDebt/totalEquityQuarterly": 1.495,
+        "marketCapitalization": 147865.6
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "AT&T Inc.",
+      "profile": {
+        "weburl": "https://www.att.com/",
+        "industry": "Telecommunication",
+        "name": "AT&T Inc."
+      },
+      "news": []
+    },
+    "SE": {
+      "metrics": {
+        "52WeekHigh": 148.26,
+        "52WeekLow": 68.5,
+        "peTTM": 23.2317,
+        "psTTM": 1.346,
+        "netProfitMarginTTM": 5.79,
+        "roeTTM": 13.62,
+        "revenueGrowthTTMYoy": 44.12,
+        "epsGrowthTTMYoy": 23.67,
+        "currentRatioQuarterly": 1.4253,
+        "totalDebt/totalEquityQuarterly": 0.0914,
+        "marketCapitalization": 40809.08
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Sea Ltd",
+      "profile": {
+        "weburl": "https://www.sea.com/",
+        "industry": "Retail",
+        "name": "Sea Ltd"
+      },
+      "news": []
+    },
+    "LOW": {
+      "metrics": {
+        "52WeekHigh": 293.06,
+        "52WeekLow": 178.45,
+        "peTTM": 18.3423,
+        "psTTM": 1.3304,
+        "netProfitMarginTTM": 7.25,
+        "roeTTM": 264.53000000000003,
+        "revenueGrowthTTMYoy": 9.64,
+        "epsGrowthTTMYoy": -1.02,
+        "currentRatioQuarterly": 1.1171,
+        "totalDebt/totalEquityQuarterly": 52.2337,
+        "marketCapitalization": 122893.27
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Lowe's Companies Inc",
+      "profile": {
+        "weburl": "https://www.lowes.com/",
+        "industry": "Retail",
+        "name": "Lowe's Companies Inc"
+      },
+      "news": [
+        {
+          "headline": "Lowe's Companies, Inc. to Host 2026 Analyst and Investor Conference on Dec. 9",
+          "url": "https://finnhub.io/api/news?id=80b9c67e95202ba4891589d4cef005dbab4b0aa4205da6fb2ce8079602139a46",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:30:00Z",
+          "primary": false,
+          "symbol": "LOW"
+        },
+        {
+          "headline": "Lowe's Strategic Investments Broaden Growth Algorithm, UBS Says",
+          "url": "https://finnhub.io/api/news?id=5fb4e884160dac92941a6ebc92dde9a97353de24d996cd902b511a3064c2efc5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:00:50Z",
+          "primary": false,
+          "symbol": "LOW"
+        },
+        {
+          "headline": "Lowe's Companies (LOW) Could Be 12% Undervalued On Earnings Beat And Higher Guidance",
+          "url": "https://finnhub.io/api/news?id=05e4e97f00f09741931ffe88519d0e1df10b1fe1b32082f4344e7fdbd7e2d84e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:08:42Z",
+          "primary": false,
+          "symbol": "LOW"
+        },
+        {
+          "headline": "How Earnings Beat Will Impact Lowe's (LOW) Investors",
+          "url": "https://finnhub.io/api/news?id=4320ae2a36b835335ae0e70bb5e830936fa6aa6fc9bfcceca262104d8b544672",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:36Z",
+          "primary": false,
+          "symbol": "LOW"
+        },
+        {
+          "headline": "Lowe’s earnings analysis: questions answered and next catalysts",
+          "url": "https://finnhub.io/api/news?id=2254357e9f64ce0ffe3f5bafa3d6fe96c8f545c0e69360a596d059b50b0aee35",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:58:59Z",
+          "primary": false,
+          "symbol": "LOW"
+        }
+      ]
+    },
+    "GEHC": {
+      "metrics": {
+        "52WeekHigh": 89.77,
+        "52WeekLow": 58.75,
+        "peTTM": 17.5689,
+        "psTTM": 1.7482,
+        "netProfitMarginTTM": 9.95,
+        "roeTTM": 19.74,
+        "revenueGrowthTTMYoy": 6.87,
+        "epsGrowthTTMYoy": -2.24,
+        "currentRatioQuarterly": 1.304,
+        "totalDebt/totalEquityQuarterly": 0.8633,
+        "marketCapitalization": 37825.85
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "GE HealthCare Technologies Inc.",
+      "profile": {
+        "weburl": "https://www.gehealthcare.com",
+        "industry": "Health Care",
+        "name": "GE HealthCare Technologies Inc."
+      },
+      "news": [
+        {
+          "headline": "GE HealthCare Wins FDA Nod for AI Feeding Tube Detection Software",
+          "url": "https://finnhub.io/api/news?id=6e82a9bde5a7df1692b6c4740ee9d0c1ec45e78c69eaeab944e764fd571e7663",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:50:00Z",
+          "primary": false,
+          "symbol": "GEHC"
+        },
+        {
+          "headline": "GE HealthCare’s Phase 2 Results Support Advancement of Investigational Manganese-Based MRI Contrast Agent Mangaciclanol Into Phase 3 of LUMINA Clinical Trial",
+          "url": "https://finnhub.io/api/news?id=90796ff3f9b4c726b83530b1c1c838db983dbad54c1126483d5ddda7304752cf",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "GEHC"
+        },
+        {
+          "headline": "GE Healthcare Announces Phase 2 Results Support Advancement Into Phase 3 For International, Multicenter LUMINA Trial Of Mangaciclanol, With Dose Selection Of 0.1mmol/Kg",
+          "url": "https://finnhub.io/api/news?id=7a26f16e989807c7ff769841274d998cd30a493b16bcf5e13824c9baddb4d945",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T09:04:22Z",
+          "primary": false,
+          "symbol": "GEHC"
+        },
+        {
+          "headline": "GE HealthCare Expands Global Research Network for Photon-Counting CT",
+          "url": "https://finnhub.io/api/news?id=3bc5d0373dd59b4af30ef213022fd0101b3dbf9ad27d6dae93638356e87d272a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:54:00Z",
+          "primary": false,
+          "symbol": "GEHC"
+        },
+        {
+          "headline": "GE HealthCare (GEHC) Stock May Be Below Fair Value Following Raised Guidance",
+          "url": "https://finnhub.io/api/news?id=bc05b9380438c8f5d87d6b187809956acbda1327d75eaaa76cb1a2bd8a783ba1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:11:25Z",
+          "primary": false,
+          "symbol": "GEHC"
+        }
+      ]
+    },
+    "OXY": {
+      "metrics": {
+        "52WeekHigh": 67.45,
+        "52WeekLow": 38.8,
+        "peTTM": 6.5121,
+        "psTTM": 2.4796,
+        "netProfitMarginTTM": 38.08,
+        "roeTTM": 20.59,
+        "revenueGrowthTTMYoy": 16.61,
+        "epsGrowthTTMYoy": 288.45,
+        "currentRatioQuarterly": 1.3848,
+        "totalDebt/totalEquityQuarterly": 0.2741,
+        "marketCapitalization": 53594.36
+      },
+      "updated_at": "2026-11-20T07:33:27Z",
+      "name": "Occidental Petroleum Corp",
+      "profile": {
+        "weburl": "https://www.oxy.com/",
+        "industry": "Energy",
+        "name": "Occidental Petroleum Corp"
+      },
+      "news": [
+        {
+          "headline": "Should You Buy Occidental Stock For Its Cash Flow?",
+          "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:39:01Z",
+          "primary": false,
+          "symbol": "OXY"
+        },
+        {
+          "headline": "Occidental Petroleum Corporation Commences Cash Tender Offers for Up to $500.0 Million in Two Separate Pools",
+          "url": "https://finnhub.io/api/news?id=eb6eb9bd100d8c31ba4d686a6e35f371f8c7cfc97866a8b13ffc06de3fd92a76",
+          "source": "Fintel",
+          "published_at": "2026-11-19T02:00:16Z",
+          "primary": false,
+          "symbol": "OXY"
+        },
+        {
+          "headline": "Why You Should Think About Occidental Petroleum Differently Now",
+          "url": "https://finnhub.io/api/news?id=7cd85366d9ce2509042a4085b28e2e7783fb16de66944a81eec99688e29fcfc0",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:21:47Z",
+          "primary": false,
+          "symbol": "OXY"
+        },
+        {
+          "headline": "OXY vs. DTM: Which Stock Is the Better Value Option?",
+          "url": "https://finnhub.io/api/news?id=af0af3b8c81cb791842b494c169b7953c23aedb64ecc80d409d86fc5ac7d8a90",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:40:02Z",
+          "primary": false,
+          "symbol": "OXY"
+        },
+        {
+          "headline": "Is Occidental Petroleum (OXY) Stock Undervalued Right Now?",
+          "url": "https://finnhub.io/api/news?id=c7d6a1961489e43c729de61c67e1867fdd4fe8407bb7b759d3f6a5ce150b8d7d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:40:03Z",
+          "primary": false,
+          "symbol": "OXY"
+        }
+      ]
     }
   },
-  "cursor": 56,
-  "updated_at": "2026-11-20T06:53:52Z"
+  "cursor": 68,
+  "updated_at": "2026-11-20T07:33:27Z"
 }
