@@ -103,7 +103,7 @@ def parse_listing(source,payload):
 def fetch_apac(url,key=None):
     if url not in (ASX_DIRECTORY,NZX_DIRECTORY):
         raise ValueError('Unapproved exchange source')
-    headers={'User-Agent':'ScoutMarketDiscovery/1.0 (personal investment research)'}
+    headers={'User-Agent':'Mozilla/5.0 (compatible; ScoutMarketDiscovery/1.0)', 'Accept':'application/json, text/csv;q=0.9, */*;q=0.1'}
     if key:
         headers['X-API-Key']=key
     req=urllib.request.Request(url,headers=headers)
