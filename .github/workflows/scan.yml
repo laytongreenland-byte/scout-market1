@@ -16,6 +16,7 @@ on:
       - 'market.js'
       - 'market_catalog.py'
       - 'apac_data.py'
+      - 'stocksdeepdive.py'
       - 'compass.js'
       - 'results.js'
       - 'trade_journal.py'
@@ -60,6 +61,9 @@ jobs:
           NZXPLORER_API_KEY: ${{ secrets.NZXPLORER_API_KEY }}
           SEABEE_API_KEY: ${{ secrets.SEABEE_API_KEY }}
         run: python apac_data.py
+      - name: Collect free StocksDeepDive research (read-only)
+        continue-on-error: true
+        run: python stocksdeepdive.py
       - name: Check public sources
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
@@ -71,6 +75,7 @@ jobs:
           # A job queued before another deploy must never lose the fresh dataset.
           cp data/market_catalog.json /tmp/scout-market-catalog.json
           cp data/apac.json /tmp/scout-apac.json
+          cp data/stocksdeepdive.json /tmp/scout-stocksdeepdive.json
           cp data/latest.json /tmp/scout-latest.json
           cp data/research_cache.json /tmp/scout-cache.json
           cp data/history.json /tmp/scout-history.json
@@ -84,13 +89,14 @@ jobs:
             git reset --hard origin/main
             cp /tmp/scout-market-catalog.json data/market_catalog.json
             cp /tmp/scout-apac.json data/apac.json
+            cp /tmp/scout-stocksdeepdive.json data/stocksdeepdive.json
             cp /tmp/scout-latest.json data/latest.json
             cp /tmp/scout-cache.json data/research_cache.json
             cp /tmp/scout-history.json data/history.json
             cp /tmp/scout-weekly.json data/weekly.json
             cp /tmp/scout-model.json data/ml_model.json
             cp /tmp/scout-ml-report.json data/ml_report.json
-            git add data/apac.json data/market_catalog.json data/latest.json data/research_cache.json data/history.json data/weekly.json data/ml_model.json data/ml_report.json
+            git add data/stocksdeepdive.json data/apac.json data/market_catalog.json data/latest.json data/research_cache.json data/history.json data/weekly.json data/ml_model.json data/ml_report.json
             if git diff --cached --quiet; then
               echo "Research snapshot already saved"
               break
@@ -114,7 +120,7 @@ jobs:
           mkdir -p site/assets site/data
           cp index.html style.css app.js compass.js results.js market.js sw.js manifest.webmanifest site/
           cp assets/icon.svg site/assets/
-          cp data/latest.json data/market_catalog.json data/apac.json site/data/
+          cp data/latest.json data/market_catalog.json data/apac.json data/stocksdeepdive.json site/data/
           touch site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
