@@ -53,9 +53,16 @@ def parse_date(raw: str | None, default_timezone=UTC) -> datetime | None:
 def fetch(url: str, *, sec=False) -> bytes:
     if os.environ.get('SCOUT_OFFLINE') == '1':
         raise RuntimeError('Offline test mode: network disabled')
-    ua = os.environ.get('SEC_USER_AGENT', '').strip() if sec else ''
-    if sec and (not ua or '@' not in ua):
-        raise RuntimeError('SEC_USER_AGENT not set (must identify an app and contact email)')
+    raw_ua = os.environ.get('SEC_USER_AGENT', '').strip() if sec else ''
+    ua = ''
+    if sec:
+        # Rebuild a standards-safe User-Agent from the private contact address.
+        # Pasted rich text can contain invalid control/unicode characters that
+        # Python's HTTP client rejects. Never print or publish the email.
+        match = re.search(r'[A-Za-z0-9._%+\\-]+@[A-Za-z0-9.\\-]+\\.[A-Za-z]{2,}', raw_ua)
+        if not match:
+            raise RuntimeError('SEC_USER_AGENT requires a plain-text contact email')
+        ua = 'ScoutMarketResearch/1.0 (' + match.group(0) + ')'
     # Free Finnhub access: pace all endpoint requests across the hourly scan.
     global LAST_FINNHUB_CALL
     if urllib.parse.urlsplit(url).hostname == 'finnhub.io':
