@@ -23,7 +23,7 @@ const ScoutMarket=(()=>{
     stats.textContent=count(total)+' exchange listings discovered (US/ASX/NZX) · '+count(quoted)+' US Scout price quotes · '+count(screened)+' US companies screened financially.';
     const usReady=catalog.status==='READY';
     markets.innerHTML='<span>US: '+esc(usReady?'2 official directories':'partial directory')+'</span>'+
-      '<span>ASX: not connected</span><span>NZX: not connected</span>';
+      ['ASX','NZX'].map(m=>'<span>'+m+': '+esc(catalog.markets?.[m]?.status==='DISCOVERED'?count(catalog.markets[m].listed_in_directory)+' listed (no prices)':catalog.markets?.[m]?.status==='STALE_DIRECTORY'?'cached directory (stale)':'not connected')+'</span>').join('');
     footer.textContent='Exchange directory listings do NOT confirm Sharesies availability. ASX/NZX directory discovery does not include integrated prices, financial screening or investment signals. US screening is unchanged. No discovered listing is a buy recommendation.';
     if(!query){
       list.innerHTML='<div class="market-directory-message">Search by company or ticker to explore exchange listings. No extra quote API requests will be made.</div>';
