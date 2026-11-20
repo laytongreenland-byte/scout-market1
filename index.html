@@ -18,7 +18,25 @@
     </header>
     <main>
       <section class="tab-panel active" id="tab-overview" aria-labelledby="nav-overview">
-        <div class="intro"><div class="eyebrow">YOUR INVESTMENT RESEARCH DESK</div><h1>Smarter investing.<br><em>Less noise.</em></h1><p>Real sources, clear risks, zero fabricated signals.</p></div>
+        <div class="intro"><div class="eyebrow">SCOUT COMPASS · PRACTICAL INVESTING RESEARCH</div><h1>Know when to<br><em>do nothing.</em></h1><p>Simple decisions. Real evidence. Your money, your pace.</p></div>
+        <div class="card compass-hero" aria-live="polite">
+          <div class="flex-between"><span class="mini-label">THE SHORT ANSWER</span><span class="mini-label" id="compass-check">Analysing</span></div>
+          <div class="compass-title" id="compass-title">Checking investment opportunities…</div>
+          <p id="compass-explain" class="compass-explain">Scout will only highlight a company when its business and price checks both pass.</p>
+          <div class="compass-meta" id="compass-meta">Unverified signals are never shown as buying advice.</div>
+          <button class="compass-action" data-goto="research" type="button">Understand the decision →</button>
+        </div>
+        <div class="coverage-grid" id="coverage-grid">
+          <div><strong>—</strong><span>Tracked</span></div>
+          <div><strong>—</strong><span>Prices</span></div>
+          <div><strong>—</strong><span>Researched</span></div>
+        </div>
+        <p class="coverage-disclaimer" id="coverage-disclaimer">A checked price is not the same as a researched company.</p>
+        <div class="card money-glance">
+          <div class="flex-between"><strong>Is a small trade worthwhile?</strong><span class="mini-label">NZ$ COST CHECK</span></div>
+          <div id="cost-glance">Using your saved example broker and FX fees.</div>
+          <button class="text-action" data-goto="settings" type="button">Change your costs →</button>
+        </div>
         <div class="hero card">
           <div class="flex-between"><span class="mini-label">MARKET SCAN</span><span class="tiny-clock" id="scan-time">Not yet run</span></div>
           <div class="hero-main"><div class="pulse-disc"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="20" opacity=".2"/><circle cx="32" cy="32" r="10" opacity=".55"/><circle cx="32" cy="32" r="3"/></svg></div><div><div class="hero-number" id="event-count">—</div><div class="hero-desc" id="hero-desc">Awaiting the first source check</div></div></div>
@@ -35,7 +53,7 @@
         <div id="latest-events" class="stack"></div>
       </section>
       <section class="tab-panel" id="tab-research" aria-labelledby="nav-research">
-        <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunities</h1><p>Weekly investment research with a conservative, out-of-sample-tested learning loop. Never a guarantee or a buy instruction.</p></div>
+        <div class="page-heading"><div class="eyebrow">EVIDENCE FIRST · NO TRADE EXECUTION</div><h1>Opportunity desk</h1><p>What looks interesting, at what price, and what would make the idea wrong. No pressure to buy.</p></div>
         <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">Universe is restricted to selected liquid US shares and ETFs. NZX company announcements are monitored, but NZX prices and fundamentals are not yet screened.</div></div>
         <div class="section-title"><h2>Current entry and exit zones</h2><span id="entry-status">Calculating</span></div>
         <div class="notice">CLEAR RESEARCH SIGNALS — NOT TRADE ORDERS. Entry ranges are conservative illustrative scenarios based on reported P/E, earnings growth, profitability and 52-week prices. The exit range is where to <strong>review taking profit</strong>, not a promised selling price. No estimate is shown if inputs are unsuitable. All figures are USD, before fees, foreign exchange and NZ tax.</div>
@@ -55,6 +73,17 @@
           <div class="learning-validation" id="paper-performance">No benchmark-matched 30-day results yet.</div>
           <p class="muted">Learns from recorded 30-day USD price changes against SPY. Later weeks are held out for testing. ML influences rankings only after exceeding the original rules on unseen observations. Results exclude fees, tax, FX and dividends.</p>
         </div>
+        <div class="section-title"><h2>Research the broader market</h2><span id="discovery-status">Building evidence</span></div>
+        <div class="discovery-tools">
+          <input id="discovery-search" placeholder="Find a ticker or company" aria-label="Search researched companies" autocomplete="off">
+          <select id="discovery-filter" aria-label="Filter research decisions">
+            <option value="all">All researched companies</option>
+            <option value="entry">Entry candidates</option>
+            <option value="watch">Wait / watch</option>
+            <option value="risk">Avoid / quality concerns</option>
+          </select>
+        </div>
+        <div id="discovery-list" class="stack"></div>
         <div class="section-title"><h2>Weekly shortlist</h2><span id="weekly-status">Not generated</span></div>
         <div class="notice" id="weekly-verdict">Waiting for research</div>
         <div id="weekly-list" class="stack"></div>
@@ -65,10 +94,18 @@
         <div class="card note-card"><strong>What the scores and price zones mean</strong><p>Only a company meeting both quality gates and a conservative illustrative entry-price scenario can be labelled ENTRY CANDIDATE. Scenario earnings growth and P/E multiples are assumptions, NOT analyst consensus targets or proven fair values. Review the latest filing and execution price before considering a purchase. Rules assign points for trailing profits, sales growth, valuation ratios and price context. A high score is NOT a probability of profit or intrinsic value. 'Investigate' means review the evidence, not buy a share. Returns in the paper log exclude brokerage, spreads, tax, foreign exchange and dividends.</p></div>
       </section>
       <section class="tab-panel" id="tab-watchlist" aria-labelledby="nav-watchlist">
-        <div class="page-heading"><div class="eyebrow">TRACKED MARKETS</div><h1>Watchlist</h1><p>Free US quote API when configured. NZX disclosures are monitored separately.</p></div>
+        <div class="page-heading"><div class="eyebrow">CURATED DISCOVERY UNIVERSE</div><h1>Market coverage</h1><p>Tracked prices from a larger US-listed equities, international ADR and ETF sample. Not the whole world market, and not all financially assessed yet.</p></div>
+        <div class="discovery-tools">
+          <input id="quote-search" type="search" placeholder="Find ticker (e.g. NVDA)" aria-label="Search price watchlist" autocomplete="off">
+          <select id="quote-filter" aria-label="Filter watchlist by asset type">
+            <option value="all">All tracked assets</option><option value="stocks">Company shares</option><option value="etfs">ETFs only</option>
+          </select>
+        </div>
+        <div class="notice" id="quote-coverage-note">Price coverage and financial analysis are different things.</div>
         <div class="notice" id="quote-warning">Prices are not configured. No live prices will be invented.</div>
         <div class="quotes" id="quotes"></div>
-        <div class="card note-card"><strong>Why no flashing BUY buttons?</strong><p>A sharp price move is a reason to investigate, not evidence of an undervalued investment. Every trade idea needs a business case, risk and exit conditions.</p></div>
+        <button type="button" id="quote-show-all" class="show-more">Show more tracked prices</button>
+        <div class="card note-card"><strong>Why not scan every listed company?</strong><p>The free feed supplies one quote per API call. A wider universe costs scan time and does not automatically provide reliable fundamentals or up-to-date issuer disclosures. We track a diversified curated sample, deep-screen a rotating batch and display gaps honestly. A sharp move on its own is not an investment thesis.</p></div>
       </section>
       <section class="tab-panel" id="tab-signals" aria-labelledby="nav-signals">
         <div class="page-heading"><div class="eyebrow">PUBLIC-SOURCE EVIDENCE</div><h1>Disclosures & signals</h1><p>Primary announcements and filings, with source links and timestamps.</p></div>
@@ -90,7 +127,7 @@
           <div class="hint">Illustrative percentages only, not current broker quotations. Fees may be capped, waived or have minimums. No financial account connection.</div>
         </div>
         <div class="card settings-card"><div class="setting-title">How this works</div><p>GitHub Actions checks publicly accessible sources on a schedule and writes a JSON snapshot. This site reads only that snapshot. Optional API keys stay in GitHub Secrets, never in the website.</p><p>Scout uses a transparent rules-based screen plus an optional weekly, out-of-sample-tested machine-learning ranking. The model starts DISABLED and may remain disabled if it fails validation. Your separately scheduled ChatGPT research provides the AI review and notification layer; its messages are not embedded here. For urgent issuer-sourced catalysts the workflow can open an issue in this public GitHub repository. To receive GitHub notifications, watch the repository with All Activity.</p><p class="muted">This free system is a research tool — not a trading platform, investment adviser or reliable real-time price-alert service.</p></div>
-        <div class="source-footer"><span>Scout · free starter build</span><span id="data-age">Waiting for data</span></div>
+        <div class="source-footer"><span>Scout Compass · research prototype</span><span id="data-age">Waiting for data</span></div>
       </section>
     </main>
     <nav class="bottom-nav" aria-label="Main navigation">
