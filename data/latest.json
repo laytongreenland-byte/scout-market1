@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:56:58Z",
+  "generated_at": "2026-11-20T22:55:54Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 283,
+    "financially_screened": 295,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-20T21:56:58Z",
+      "checked_at": "2026-11-20T22:55:54Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-20T21:56:58Z",
+      "checked_at": "2026-11-20T22:55:54Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-20T21:56:58Z",
+      "checked_at": "2026-11-20T22:55:54Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-20T21:56:58Z",
+      "checked_at": "2026-11-20T22:55:54Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-20T21:56:58Z",
+      "checked_at": "2026-11-20T22:55:54Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-20T21:56:58Z",
+    "generated_at": "2026-11-20T22:55:54Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 283,
+    "screened_with_financials": 295,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -8742,6 +8742,85 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "CFG",
+        "name": "Citizens Financial Group Inc",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Banking",
+        "why": "Net profit margin 24.6% (TTM); Return on equity 8.7% (TTM); Trailing P/E 11.5×; TTM revenue growth 62.7% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$58.71",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T22:55:54Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
+            "timestamp": "2026-11-20T08:22:47Z",
+            "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-20T22:55:54Z",
+        "price": 58.71,
+        "currency": "USD",
+        "change_pct": -2.975,
+        "news": [
+          {
+            "headline": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
+            "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-20T08:22:47Z",
+            "primary": false,
+            "symbol": "CFG"
+          },
+          {
+            "headline": "Cantor Fitzgerald Maintains Overweight on Citizens Financial Group, Raises Price Target to $80",
+            "url": "https://finnhub.io/api/news?id=36707d3385ec932219c925c5cf13ebc372471e8aaa9547cbe8264ba0ab1ea85b",
+            "source": "Benzinga",
+            "published_at": "2026-11-16T07:36:37Z",
+            "primary": false,
+            "symbol": "CFG"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
         "status": "INVESTIGATE",
@@ -9583,6 +9662,85 @@
             "market_range_entry_cap": "52-week low + 50% of observed range",
             "metrics_retrieved_at": "2026-11-20T21:05:16Z"
           }
+        },
+        "ranking_score": 78,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "CINF",
+        "name": "Cincinnati Financial Corporation",
+        "status": "INVESTIGATE",
+        "score": 78,
+        "industry": "Insurance",
+        "why": "Net profit margin 22.1% (TTM); Return on equity 16.5% (TTM); Trailing P/E 10.8×; TTM revenue growth 6.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$186.54",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-20T22:55:54Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Cincinnati Financial (CINF) Has Fresh Attention, But What Is The Market Weighing?",
+            "timestamp": "2026-11-20T17:10:41Z",
+            "url": "https://finnhub.io/api/news?id=9f4f040cb2118dbb0db16e01873974cc7df6fadadf4ca33e89cf2bee9b73d989"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-20T22:55:54Z",
+        "price": 186.54,
+        "currency": "USD",
+        "change_pct": -0.798,
+        "news": [
+          {
+            "headline": "Cincinnati Financial (CINF) Has Fresh Attention, But What Is The Market Weighing?",
+            "url": "https://finnhub.io/api/news?id=9f4f040cb2118dbb0db16e01873974cc7df6fadadf4ca33e89cf2bee9b73d989",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T17:10:41Z",
+            "primary": false,
+            "symbol": "CINF"
+          },
+          {
+            "headline": "Cincinnati Financial Corporation Declares Regular Quarterly Cash Dividend",
+            "url": "https://finnhub.io/api/news?id=77e0bffddbbca54bf893e82f9e11ac771172868ed482cfe1d9c8c956366ba63b",
+            "source": "Yahoo",
+            "published_at": "2026-11-13T18:00:00Z",
+            "primary": false,
+            "symbol": "CINF"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Insurance; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
         },
         "ranking_score": 78,
         "rank_method": "FINANCIAL RULES"
@@ -13398,164 +13556,6 @@
         },
         "ranking_score": 73,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "COR",
-        "name": "Cencora, Inc.",
-        "status": "WATCH",
-        "score": 73,
-        "industry": "Health Care",
-        "why": "Net profit margin 1.0% (TTM); Return on equity 115.8% (TTM); Trailing P/E 18.7×; TTM revenue growth 5.0% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$339.09",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:25:50Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Here's Why You Should Retain Cencora Stock in Your Portfolio for Now",
-            "timestamp": "2026-11-18T11:24:00Z",
-            "url": "https://finnhub.io/api/news?id=bfeb3136a1fe0fa43af2939ca279d89a2edaa5ca9478e3c898cea9f3851e9040"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:25:50Z",
-        "price": 339.09,
-        "currency": "USD",
-        "change_pct": -0.633,
-        "news": [
-          {
-            "headline": "Here's Why You Should Retain Cencora Stock in Your Portfolio for Now",
-            "url": "https://finnhub.io/api/news?id=bfeb3136a1fe0fa43af2939ca279d89a2edaa5ca9478e3c898cea9f3851e9040",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T11:24:00Z",
-            "primary": false,
-            "symbol": "COR"
-          },
-          {
-            "headline": "Barclays Maintains Overweight on Cencora, Raises Price Target to $415",
-            "url": "https://finnhub.io/api/news?id=673b6866238fc8ff456d945cca5049e5442bcb4805e0101b39f2ce5b8faf40dc",
-            "source": "Benzinga",
-            "published_at": "2026-11-18T09:56:12Z",
-            "primary": false,
-            "symbol": "COR"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 73,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "AMCR",
-        "name": "Amcor PLC",
-        "status": "WATCH",
-        "score": 73,
-        "industry": "Packaging",
-        "why": "Net profit margin 4.5% (TTM); Return on equity 9.3% (TTM); Trailing P/E 18.6×; TTM revenue growth 37.3% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$42.35",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T20:09:04Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Which Gives You More Of A Packaging Rebound, Smurfit WestRock Or Amcor?",
-            "timestamp": "2026-11-20T19:08:49Z",
-            "url": "https://finnhub.io/api/news?id=136f3c5eb994384c377ba331638997377a3504e963d3a42e70d7d2b9a6664645"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T20:09:04Z",
-        "price": 42.35,
-        "currency": "USD",
-        "change_pct": -0.259,
-        "news": [
-          {
-            "headline": "Which Gives You More Of A Packaging Rebound, Smurfit WestRock Or Amcor?",
-            "url": "https://finnhub.io/api/news?id=136f3c5eb994384c377ba331638997377a3504e963d3a42e70d7d2b9a6664645",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T19:08:49Z",
-            "primary": false,
-            "symbol": "AMCR"
-          },
-          {
-            "headline": "Better Dividend Stock for Retirees: Amcor vs. LKQ",
-            "url": "https://finnhub.io/api/news?id=bd893e6215f8729ea07ee96430fad07eeb045a11d36ab29c7bd4e64687729657",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T15:10:29Z",
-            "primary": false,
-            "symbol": "AMCR"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Unstable or unsuitable earnings, growth, valuation or liquidity inputs.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 73,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -14172,56 +14172,56 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
-        "symbol": "CCL",
-        "name": "Carnival Corporation Ltd",
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
         "status": "WATCH",
-        "score": 75,
-        "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 11.4% (TTM); Return on equity 23.9% (TTM); Trailing P/E 12.4×; TTM revenue growth 5.2% YoY",
+        "score": 65,
+        "industry": "Technology",
+        "why": "Net profit margin 11.8% (TTM); Return on equity 17.4% (TTM); Trailing P/E 9.9×; TTM revenue growth 5.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$26.59",
+            "value": "$58.06",
             "timestamp": "2026-11-20T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T21:56:58Z",
+            "timestamp": "2026-11-20T22:55:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
-            "timestamp": "2026-11-20T09:07:41Z",
-            "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26"
+            "value": "How Did IBM Stock Leave Cognizant Behind?",
+            "timestamp": "2026-11-19T21:55:11Z",
+            "url": "https://finnhub.io/api/news?id=5823f77f54e85cf1f6dc3b10c3a1433216f3630693efce432eb208d68016fabe"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T21:56:58Z",
-        "price": 26.59,
+        "fundamentals_at": "2026-11-20T22:55:54Z",
+        "price": 58.06,
         "currency": "USD",
-        "change_pct": -3.555,
+        "change_pct": 3.108,
         "news": [
           {
-            "headline": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
-            "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26",
+            "headline": "How Did IBM Stock Leave Cognizant Behind?",
+            "url": "https://finnhub.io/api/news?id=5823f77f54e85cf1f6dc3b10c3a1433216f3630693efce432eb208d68016fabe",
             "source": "Yahoo",
-            "published_at": "2026-11-20T09:07:41Z",
+            "published_at": "2026-11-19T21:55:11Z",
             "primary": false,
-            "symbol": "CCL"
+            "symbol": "CTSH"
           },
           {
-            "headline": "Carnival Orders Two ~130,000-Ton Next-Generation Cruise Ships From Fincantieri’s Marghera Yard For Carnival Cruise Line, Due 2033 And 2035",
-            "url": "https://finnhub.io/api/news?id=87c17a6d0ca791383555a8231770500567e5bc820a75707f101c4cfff702d654",
+            "headline": "B of A Securities Reinstates Neutral on Cognizant Tech Solns, Announces $70 Price Target",
+            "url": "https://finnhub.io/api/news?id=d21db56130cf4e6edb0168e9e022db16084f78c36a78b9027b8ed6cbfa1648a2",
             "source": "Benzinga",
-            "published_at": "2026-11-20T03:19:04Z",
+            "published_at": "2026-11-19T12:49:04Z",
             "primary": false,
-            "symbol": "CCL"
+            "symbol": "CTSH"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
@@ -14229,12 +14229,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 27.74,
-          "entry_floor": 24.97,
-          "exit_review_low": 35.61,
-          "exit_review_high": 41.66,
-          "bear_case": 20.11,
-          "scenario_upside_pct": 33.9,
+          "entry_ceiling": 62.05,
+          "entry_floor": 55.85,
+          "exit_review_low": 97.25,
+          "exit_review_high": 113.67,
+          "bear_case": 54.98,
+          "scenario_upside_pct": 67.5,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14247,15 +14247,15 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 12.42,
-            "earnings_growth_assumed_pct": 2.34,
-            "scenario_exit_pe": 16.25,
+            "trailing_pe": 9.88,
+            "earnings_growth_assumed_pct": 2.23,
+            "scenario_exit_pe": 16.19,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T21:56:58Z"
+            "metrics_retrieved_at": "2026-11-20T22:55:54Z"
           }
         },
-        "ranking_score": 75,
+        "ranking_score": 65,
         "rank_method": "FINANCIAL RULES"
       }
     ],
@@ -14671,7 +14671,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 283,
+      "recorded_signals": 295,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14689,10 +14689,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-20T21:56:58Z",
+      "generated_at": "2026-11-20T22:55:54Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 220,
+        "recorded": 228,
         "purchase_scenarios": 16,
         "opened": 1,
         "closed": 0,
@@ -14702,10 +14702,170 @@
         "not_triggered": 0,
         "waiting": 16,
         "unverified": 0,
-        "skipped": 204,
+        "skipped": 212,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|CINF|NO RELIABLE PRICE RANGE",
+          "symbol": "CINF",
+          "name": "Cincinnati Financial Corporation",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 186.54,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 22.1% (TTM); Return on equity 16.5% (TTM); Trailing P/E 10.8×; TTM revenue growth 6.0% YoY",
+          "score": 78,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|CFG|NO RELIABLE PRICE RANGE",
+          "symbol": "CFG",
+          "name": "Citizens Financial Group Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 58.71,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 24.6% (TTM); Return on equity 8.7% (TTM); Trailing P/E 11.5×; TTM revenue growth 62.7% YoY",
+          "score": 79,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|CMS|NO RELIABLE PRICE RANGE",
+          "symbol": "CMS",
+          "name": "CMS Energy Corporation",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 70.12,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Earnings per share declining",
+          "why": "Net profit margin 10.3% (TTM); Return on equity 9.2% (TTM); Trailing P/E 24.8×; TTM revenue growth 7.4% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|CTSH|QUALITY GATE NOT MET",
+          "symbol": "CTSH",
+          "name": "Cognizant Technology Solutions Corporation",
+          "signal": "QUALITY GATE NOT MET",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 58.06,
+          "buy_ceiling": 62.05,
+          "sell_review": 97.25,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 11.8% (TTM); Return on equity 17.4% (TTM); Trailing P/E 9.9×; TTM revenue growth 5.0% YoY",
+          "score": 65,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|COIN|NO RELIABLE PRICE RANGE",
+          "symbol": "COIN",
+          "name": "Coinbase Global, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 101.97,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Unprofitable on trailing net margin",
+          "why": "Net profit margin -12.5% (TTM); Return on equity -5.1% (TTM); TTM revenue growth -26.6% YoY; 64.2% below reported 52-week high",
+          "score": 5,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|FIX|ABOVE BASE CASE",
+          "symbol": "FIX",
+          "name": "Comfort Systems USA, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 1042.47,
+          "buy_ceiling": 809.02,
+          "sell_review": 1037.21,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 13.0% (TTM); Return on equity 55.2% (TTM); Trailing P/E 24.3×; TTM revenue growth 50.7% YoY",
+          "score": 59,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ED|NO RELIABLE PRICE RANGE",
+          "symbol": "ED",
+          "name": "Consolidated Edison, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 119.36,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 12.5% (TTM); Return on equity 8.9% (TTM); Trailing P/E 19.7×; TTM revenue growth 9.5% YoY",
+          "score": 67,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|STZ|NO RELIABLE PRICE RANGE",
+          "symbol": "STZ",
+          "name": "Constellation Brands, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-20T22:55:54Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 141.87,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Revenue contracting year on year",
+          "why": "Net profit margin 20.9% (TTM); Return on equity 23.6% (TTM); Trailing P/E 12.6×; TTM revenue growth -4.3% YoY",
+          "score": 71,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|COF|NO RELIABLE PRICE RANGE",
           "symbol": "COF",
@@ -16945,170 +17105,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|MCO|NO RELIABLE PRICE RANGE",
-          "symbol": "MCO",
-          "name": "Moody's Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T12:11:08Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 471.84,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 35.3% (TTM); Return on equity 86.4% (TTM); Trailing P/E 28.8×; TTM revenue growth 9.0% YoY",
-          "score": 70,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CMI|ABOVE BASE CASE",
-          "symbol": "CMI",
-          "name": "Cummins Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T12:11:08Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 421.19,
-          "buy_ceiling": 318.62,
-          "sell_review": 408.49,
-          "risk": "Price near reported 52-week low",
-          "why": "Net profit margin 9.3% (TTM); Return on equity 26.1% (TTM); Trailing P/E 17.6×; TTM revenue growth 6.7% YoY",
-          "score": 74,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|OKE|NO RELIABLE PRICE RANGE",
-          "symbol": "OKE",
-          "name": "ONEOK, Inc. (Oklahoma)",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T12:11:08Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 86.52,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 2.9% (TTM); Return on equity 17.9% (TTM); Trailing P/E 13.4×; TTM revenue growth -14.7% YoY",
-          "score": 62,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|IRM|NO RELIABLE PRICE RANGE",
-          "symbol": "IRM",
-          "name": "Iron Mountain Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T12:11:08Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 108.78,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "High trailing earnings valuation",
-          "why": "Net profit margin 5.9% (TTM); Return on equity 85.2% (TTM); Trailing P/E 71.4×; TTM revenue growth 17.5% YoY",
-          "score": 58,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CME|NO RELIABLE PRICE RANGE",
-          "symbol": "CME",
-          "name": "CME Group Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T12:11:08Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 306.31,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 34.8% (TTM); Return on equity 16.3% (TTM); Trailing P/E 24.9×; TTM revenue growth 12.3% YoY",
-          "score": 73,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|DHR|ABOVE BASE CASE",
-          "symbol": "DHR",
-          "name": "Danaher Corporation",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T12:11:08Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 227.56,
-          "buy_ceiling": 79.95,
-          "sell_review": 102.5,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 16.9% (TTM); Return on equity 8.2% (TTM); Trailing P/E 37.1×; TTM revenue growth 5.5% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|EMR|ABOVE BASE CASE",
-          "symbol": "EMR",
-          "name": "Emerson Electric Co",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T11:15:24Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 157.6,
-          "buy_ceiling": 61.94,
-          "sell_review": 79.41,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 14.1% (TTM); Return on equity 13.1% (TTM); Trailing P/E 33.1×; TTM revenue growth 5.4% YoY",
-          "score": 65,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|FANG|NO RELIABLE PRICE RANGE",
-          "symbol": "FANG",
-          "name": "Diamondback Energy, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T11:15:24Z",
-          "quote_at": "2026-11-19T21:00:00Z",
-          "reference_price": 176.77,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Earnings per share declining",
-          "why": "Net profit margin 8.6% (TTM); Return on equity 3.9% (TTM); Trailing P/E 33.2×; TTM revenue growth 21.4% YoY",
-          "score": 60,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 62,
+      "legacy_research_flags": 64,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17118,22 +17118,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "COP",
-        "flagged_at": "2026-11-20T06:53:52Z",
-        "reference_price": 134.99,
-        "score": 86,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "week": "2026-11-16",
-        "symbol": "EOG",
-        "flagged_at": "2026-11-20T07:33:27Z",
-        "reference_price": 149.49,
-        "score": 86,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "OXY",
@@ -17516,6 +17500,22 @@
         "flagged_at": "2026-11-20T21:56:58Z",
         "reference_price": 115.53,
         "score": 86,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "CINF",
+        "flagged_at": "2026-11-20T22:55:54Z",
+        "reference_price": 186.54,
+        "score": 78,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "CFG",
+        "flagged_at": "2026-11-20T22:55:54Z",
+        "reference_price": 58.71,
+        "score": 79,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],

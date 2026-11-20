@@ -16899,8 +16899,717 @@
           "symbol": "CRL"
         }
       ]
+    },
+    "CHTR": {
+      "metrics": {
+        "52WeekHigh": 254.11,
+        "52WeekLow": 101.11,
+        "peTTM": 4.818,
+        "psTTM": 0.4361,
+        "netProfitMarginTTM": 9.05,
+        "roeTTM": 30.43,
+        "revenueGrowthTTMYoy": -1.5,
+        "epsGrowthTTMYoy": 5.45,
+        "currentRatioQuarterly": 0.3609,
+        "totalDebt/totalEquityQuarterly": 5.7049,
+        "marketCapitalization": 23723.73
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Charter Communications, Inc.",
+      "profile": {
+        "weburl": "https://corporate.charter.com/",
+        "industry": "Media",
+        "name": "Charter Communications, Inc."
+      },
+      "news": [
+        {
+          "headline": "Charter Announces Expiration and Results of Tender Offers for Eight Series of Notes",
+          "url": "https://finnhub.io/api/news?id=b02a078b1dfd3d4bb5730db3726405696bf5b3e8a33cae6915567eb0845e72cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:00:00Z",
+          "primary": false,
+          "symbol": "CHTR"
+        },
+        {
+          "headline": "Charter Announces Pricing Terms of Tender Offers for Eight Series of Notes",
+          "url": "https://finnhub.io/api/news?id=50441682acbd399d7a7bcc6161671ca2031e9af978ebe53b5407ecdf924aed03",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T22:06:00Z",
+          "primary": false,
+          "symbol": "CHTR"
+        },
+        {
+          "headline": "Is Charter Stock Worth The Wait?",
+          "url": "https://finnhub.io/api/news?id=f5e759fb6cfa5a393568d2e256e6a22f4a0126de2464f891535bbfe75b36338f",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:40:50Z",
+          "primary": false,
+          "symbol": "CHTR"
+        },
+        {
+          "headline": "Consumer Defensive Stocks Extend Winning Streak To 6 Weeks As SPY, QQQ Rebound: TTD, CHTR, TSLA Lead Gains",
+          "url": "https://finnhub.io/api/news?id=7ad1076430e5efa8d9006005add6f8a3e9082960c33f3fefeea48bd4df2d7afb",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T01:13:20Z",
+          "primary": false,
+          "symbol": "CHTR"
+        },
+        {
+          "headline": "Charter Communications (CHTR) Expands Enterprise Reach With Managed Secure Networking Launch",
+          "url": "https://finnhub.io/api/news?id=7c0f9dcbffe6bdd0238727d96991e4ab5037055516bf8d8802ae55a5827987e8",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T06:08:07Z",
+          "primary": false,
+          "symbol": "CHTR"
+        }
+      ]
+    },
+    "CHD": {
+      "metrics": {
+        "52WeekHigh": 115.46,
+        "52WeekLow": 81.49,
+        "peTTM": 33.315,
+        "psTTM": 4.1329,
+        "netProfitMarginTTM": 12.41,
+        "roeTTM": 18.21,
+        "revenueGrowthTTMYoy": 1.7,
+        "epsGrowthTTMYoy": 2.26,
+        "currentRatioQuarterly": 0.9571,
+        "totalDebt/totalEquityQuarterly": 0.4922,
+        "marketCapitalization": 25812.465
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Church & Dwight Co Inc",
+      "profile": {
+        "weburl": "https://churchdwight.com/",
+        "industry": "Consumer products",
+        "name": "Church & Dwight Co Inc"
+      },
+      "news": [
+        {
+          "headline": "Church & Dwight to Acquire 45 Percent of Bali Treatment for Close to $225M",
+          "url": "https://finnhub.io/api/news?id=299080b8547af0c288bdef8b1ba9a310669991e20d1086e0b7a0605fd568db05",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:14:43Z",
+          "primary": false,
+          "symbol": "CHD"
+        },
+        {
+          "headline": "Adult Stores - Global Strategic Business Report 2026-2032: Capitalize on the US$11.7B Revenue Shift to 2032 as Satisfyer, TENGA, Doc Johnson and Church & Dwight Shape Competition",
+          "url": "https://finnhub.io/api/news?id=5b72ce7c2b5a8c65b43dec6e1706b95d708d6d4772d5e0561d66c258709e64cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:11:00Z",
+          "primary": false,
+          "symbol": "CHD"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Church & Dwight Stock?",
+          "url": "https://finnhub.io/api/news?id=dfd95baaad8dafe061f13e978328ac6a52b3b227e3fdaa4c575c95eadcf194ef",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:11:39Z",
+          "primary": false,
+          "symbol": "CHD"
+        },
+        {
+          "headline": "Church & Dwight (CHD) Stock Sees Modest Fair Value Lift After Analyst Target Increases",
+          "url": "https://finnhub.io/api/news?id=0cd53c38b64b2fabba9f23642d668417918354d5890b1c27dec636f640b782ca",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T08:09:31Z",
+          "primary": false,
+          "symbol": "CHD"
+        },
+        {
+          "headline": "Church & Dwight (CHD) Stock Could Be 17% Undervalued After Hair Care Investment",
+          "url": "https://finnhub.io/api/news?id=1fd648fbe844d86e9a37ae11bf0f782a7359cdb9c3410e01976fd097f5d74abe",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T03:17:18Z",
+          "primary": false,
+          "symbol": "CHD"
+        }
+      ]
+    },
+    "CIEN": {
+      "metrics": {
+        "52WeekHigh": 637.51,
+        "52WeekLow": 168.22,
+        "peTTM": 57.7627,
+        "psTTM": 6.2782,
+        "netProfitMarginTTM": 10.87,
+        "roeTTM": 22.82,
+        "revenueGrowthTTMYoy": 32.57,
+        "epsGrowthTTMYoy": 362.8,
+        "currentRatioQuarterly": 3.7972,
+        "totalDebt/totalEquityQuarterly": 1.0566,
+        "marketCapitalization": 37800.48
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Ciena Corporation",
+      "profile": {
+        "weburl": "https://www.ciena.com/",
+        "industry": "Communications",
+        "name": "Ciena Corporation"
+      },
+      "news": [
+        {
+          "headline": "CIEN Targets a $50B Market: How AI Could Expand Its Growth Opportunity",
+          "url": "https://finnhub.io/api/news?id=ddd046e519426b2371b4fb7caaca9f401440a8be78b829c7e496398bf49b8536",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:10:00Z",
+          "primary": false,
+          "symbol": "CIEN"
+        },
+        {
+          "headline": "Ciena Won Jim Cramer’s Praise. Its 2027 Growth Outlook Depends on Two Conditions",
+          "url": "https://finnhub.io/api/news?id=1796434b3557bcce3162f6b368377a1b3392304491cf8b12951d4d90558b03f5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:02:50Z",
+          "primary": false,
+          "symbol": "CIEN"
+        },
+        {
+          "headline": "How Does Ciena (CIEN) Change The Optical Networking Race With 800 Gb/s?",
+          "url": "https://finnhub.io/api/news?id=5b1fc483ad8fa04c19a4bf8c8ab01df7ddb4960b45125e21a0a548287d04ed6e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T06:15:30Z",
+          "primary": false,
+          "symbol": "CIEN"
+        },
+        {
+          "headline": "Global Optical Transport Network Equipment Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on 5G and AI Network Demand with Nokia, Ciena, Huawei, and Ekinops",
+          "url": "https://finnhub.io/api/news?id=b9209f76cdf80d901aba43a1eb10cf2e45b516594faa22b1a3c5f7e3f13893b8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:54:00Z",
+          "primary": false,
+          "symbol": "CIEN"
+        },
+        {
+          "headline": "Ciena: Data Transmission Moat At A Discount (Rating Upgrade)",
+          "url": "https://finnhub.io/api/news?id=a6f7eafd55c5d4c1dd0d1f250e779620b16279c3978d41704846f106c34455ff",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T03:24:31Z",
+          "primary": false,
+          "symbol": "CIEN"
+        }
+      ]
+    },
+    "CINF": {
+      "metrics": {
+        "52WeekHigh": 195.72,
+        "52WeekLow": 153.4,
+        "peTTM": 10.8045,
+        "psTTM": 2.3843,
+        "netProfitMarginTTM": 22.07,
+        "roeTTM": 16.53,
+        "revenueGrowthTTMYoy": 5.95,
+        "epsGrowthTTMYoy": 26.96,
+        "currentRatioQuarterly": 1.8654,
+        "totalDebt/totalEquityQuarterly": 0.0499,
+        "marketCapitalization": 28783.188
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Cincinnati Financial Corporation",
+      "profile": {
+        "weburl": "https://www.cinfin.com/",
+        "industry": "Insurance",
+        "name": "Cincinnati Financial Corporation"
+      },
+      "news": [
+        {
+          "headline": "Cincinnati Financial (CINF) Has Fresh Attention, But What Is The Market Weighing?",
+          "url": "https://finnhub.io/api/news?id=9f4f040cb2118dbb0db16e01873974cc7df6fadadf4ca33e89cf2bee9b73d989",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:10:41Z",
+          "primary": false,
+          "symbol": "CINF"
+        },
+        {
+          "headline": "Cincinnati Financial Corporation Declares Regular Quarterly Cash Dividend",
+          "url": "https://finnhub.io/api/news?id=77e0bffddbbca54bf893e82f9e11ac771172868ed482cfe1d9c8c956366ba63b",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T18:00:00Z",
+          "primary": false,
+          "symbol": "CINF"
+        },
+        {
+          "headline": "Keefe, Bruyette & Woods Maintains Market Perform on Cincinnati Financial, Raises Price Target to $191",
+          "url": "https://finnhub.io/api/news?id=8e9e2c7aae4791a243056e1b82f0e2afa1b8e4dc00797628f933b6ae1fa1fef4",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T12:58:58Z",
+          "primary": false,
+          "symbol": "CINF"
+        }
+      ]
+    },
+    "CFG": {
+      "metrics": {
+        "52WeekHigh": 75.33,
+        "52WeekLow": 49.0,
+        "peTTM": 11.465,
+        "psTTM": 1.48499,
+        "netProfitMarginTTM": 24.5614,
+        "roeTTM": 8.74,
+        "revenueGrowthTTMYoy": 62.72879,
+        "epsGrowthTTMYoy": 36.38,
+        "totalDebt/totalEquityQuarterly": 0.4061,
+        "marketCapitalization": 26002.668
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Citizens Financial Group Inc",
+      "profile": {
+        "weburl": "https://www.citizensbank.com/",
+        "industry": "Banking",
+        "name": "Citizens Financial Group Inc"
+      },
+      "news": [
+        {
+          "headline": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
+          "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T08:22:47Z",
+          "primary": false,
+          "symbol": "CFG"
+        },
+        {
+          "headline": "Cantor Fitzgerald Maintains Overweight on Citizens Financial Group, Raises Price Target to $80",
+          "url": "https://finnhub.io/api/news?id=36707d3385ec932219c925c5cf13ebc372471e8aaa9547cbe8264ba0ab1ea85b",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T07:36:37Z",
+          "primary": false,
+          "symbol": "CFG"
+        }
+      ]
+    },
+    "CMS": {
+      "metrics": {
+        "52WeekHigh": 80.36,
+        "52WeekLow": 62.285,
+        "peTTM": 24.7502,
+        "psTTM": 2.5391,
+        "netProfitMarginTTM": 10.26,
+        "roeTTM": 9.15,
+        "revenueGrowthTTMYoy": 7.39,
+        "epsGrowthTTMYoy": -19.28,
+        "currentRatioQuarterly": 0.9463,
+        "totalDebt/totalEquityQuarterly": 2.0776,
+        "marketCapitalization": 21582.146
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "CMS Energy Corporation",
+      "profile": {
+        "weburl": "https://www.cmsenergy.com/",
+        "industry": "Utilities",
+        "name": "CMS Energy Corporation"
+      },
+      "news": [
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for CMS Energy Stock?",
+          "url": "https://finnhub.io/api/news?id=194d255c52401def8f9ed5f0b06cb2aaf8916849a989101fdc578d17d6f83306",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:04:20Z",
+          "primary": false,
+          "symbol": "CMS"
+        },
+        {
+          "headline": "CMS Energy Corporation Amends Bylaws and Updates 2027 Annual Meeting Deadlines",
+          "url": "https://finnhub.io/api/news?id=36f83e451ca9b1ed15bd0c59cdf7505d92e261a5d26928b2c596076deda394d2",
+          "source": "Fintel",
+          "published_at": "2026-11-17T21:21:17Z",
+          "primary": false,
+          "symbol": "CMS"
+        },
+        {
+          "headline": "CMS Energy Declares Quarterly Dividend on Cumulative Redeemable Perpetual Preferred Stock",
+          "url": "https://finnhub.io/api/news?id=dcb94ad81a82c408ea989fc0ba4d63091572db12107edca31f840fbbc9b4e4f5",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T20:00:00Z",
+          "primary": false,
+          "symbol": "CMS"
+        },
+        {
+          "headline": "Consumers Energy, the Principal Subsidiary of CMS Energy, Declares Quarterly Dividend on Preferred Stock",
+          "url": "https://finnhub.io/api/news?id=4571363a0a4b8918a7f3c18624ac0f90b0f60fa58150cdf47a0205ffc4cf46c8",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T18:00:00Z",
+          "primary": false,
+          "symbol": "CMS"
+        }
+      ]
+    },
+    "CTSH": {
+      "metrics": {
+        "52WeekHigh": 87.03,
+        "52WeekLow": 37.08,
+        "peTTM": 9.8814,
+        "psTTM": 1.1614,
+        "netProfitMarginTTM": 11.75,
+        "roeTTM": 17.36,
+        "revenueGrowthTTMYoy": 4.96,
+        "epsGrowthTTMYoy": 27.27,
+        "currentRatioQuarterly": 2.2237,
+        "totalDebt/totalEquityQuarterly": 0.1054,
+        "marketCapitalization": 25424.855
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Cognizant Technology Solutions Corporation",
+      "profile": {
+        "weburl": "https://www.cognizant.com/",
+        "industry": "Technology",
+        "name": "Cognizant Technology Solutions Corporation"
+      },
+      "news": [
+        {
+          "headline": "How Did IBM Stock Leave Cognizant Behind?",
+          "url": "https://finnhub.io/api/news?id=5823f77f54e85cf1f6dc3b10c3a1433216f3630693efce432eb208d68016fabe",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:55:11Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
+        {
+          "headline": "B of A Securities Reinstates Neutral on Cognizant Tech Solns, Announces $70 Price Target",
+          "url": "https://finnhub.io/api/news?id=d21db56130cf4e6edb0168e9e022db16084f78c36a78b9027b8ed6cbfa1648a2",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:49:04Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
+        {
+          "headline": "Here Is Why Investors Should Pay Attention to Cognizant Technology (CTSH)",
+          "url": "https://finnhub.io/api/news?id=821d899b6bfe1a007476f14417b394ca3e5106dcd7f460ec258d469c99dc279e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:12:33Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
+        {
+          "headline": "What Changed for Deutsche Bank on Cognizant (CTSH)?",
+          "url": "https://finnhub.io/api/news?id=38cb29fb6466a2657455d140e11abdfb70f5af4b7c43a66cb4e2569b0e3b92f5",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:12:01Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
+        {
+          "headline": "Introducing Cognizant® Patient Hub Operations: AI-enabled patient access offering designed to shorten the path from prescription to therapy",
+          "url": "https://finnhub.io/api/news?id=1c41b992b0e9ed13a6a406a6e04c05fadc3b6a554a3279c677b5a86c25de5764",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:00:00Z",
+          "primary": false,
+          "symbol": "CTSH"
+        }
+      ]
+    },
+    "COHR": {
+      "metrics": {
+        "52WeekHigh": 440.0,
+        "52WeekLow": 130.42,
+        "peTTM": 43.5168,
+        "psTTM": 5.3017,
+        "netProfitMarginTTM": 12.18,
+        "roeTTM": 9.3,
+        "revenueGrowthTTMYoy": 30.84,
+        "epsGrowthTTMYoy": 283.93,
+        "currentRatioQuarterly": 2.2925,
+        "totalDebt/totalEquityQuarterly": 0.3531,
+        "marketCapitalization": 41920.684
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Coherent Corp.",
+      "profile": {
+        "weburl": "https://www.coherent.com/",
+        "industry": "Electrical Equipment",
+        "name": "Coherent Corp."
+      },
+      "news": [
+        {
+          "headline": "Ken Fisher and 12 Other Big Funds Sold Coherent Last Quarter, While 14 Bought. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=54557a0ec8e0c1009065ed4665219dd9621635c0b7f436eca87634ed02e9f1bc",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:57:50Z",
+          "primary": false,
+          "symbol": "COHR"
+        },
+        {
+          "headline": "Applied Optoelectronics Sinks 7% as Optics Stocks Reverse Thursday’s Rally; Coherent Declines 4%, Lumentum Slides 5%",
+          "url": "https://finnhub.io/api/news?id=cef1719c5d3ae3d146c7ea1e600323056c8fd73f0d4190d45a3bd149e1dc6b6c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:54:46Z",
+          "primary": false,
+          "symbol": "COHR"
+        },
+        {
+          "headline": "Wall Street Analysts Think Coherent (COHR) Could Surge 70.08%: Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=8224ed6df6410a9395af15895133df8f1ac7933e8077720feb002bd421fe9818",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:55:04Z",
+          "primary": false,
+          "symbol": "COHR"
+        },
+        {
+          "headline": "Coherent Stocks Jump 10.78% After $2 Billion Buyback Authorization",
+          "url": "https://finnhub.io/api/news?id=653d18ca59089f29a02888691923e4c1c0bc044683bc9604b0b4e7b37fba5aef",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:38:43Z",
+          "primary": false,
+          "symbol": "COHR"
+        },
+        {
+          "headline": "Coherent Soars 6% on New $2 Billion Buyback as Anthropic IPO Revives AI Trade",
+          "url": "https://finnhub.io/api/news?id=d5c65e399a718374979f4ca1c407280e6ac2ccaef1210212a5bc097c11b15156",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:57:32Z",
+          "primary": false,
+          "symbol": "COHR"
+        }
+      ]
+    },
+    "COIN": {
+      "metrics": {
+        "52WeekHigh": 284.74,
+        "52WeekLow": 114.11,
+        "psTTM": 5.1201,
+        "netProfitMarginTTM": -12.46,
+        "roeTTM": -5.08,
+        "revenueGrowthTTMYoy": -26.62,
+        "currentRatioQuarterly": 2.4245,
+        "totalDebt/totalEquityQuarterly": 0.4804,
+        "marketCapitalization": 28824.857
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Coinbase Global, Inc.",
+      "profile": {
+        "weburl": "https://www.coinbase.com",
+        "industry": "Financial Services",
+        "name": "Coinbase Global, Inc."
+      },
+      "news": [
+        {
+          "headline": "What Coinbase Global Bears Saw Before A 54% Drop",
+          "url": "https://finnhub.io/api/news?id=371ecd0abca9bf968ed4d48115f7b0443f742ed42419e315bda2aa343e1f97c8",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T20:12:47Z",
+          "primary": false,
+          "symbol": "COIN"
+        },
+        {
+          "headline": "Coinbase Launches Crypto Options for Non-US Users",
+          "url": "https://finnhub.io/api/news?id=adf5b7ba3f046ee9e4e046c7f74327dc8737b3733118a7bd7fccb1bea3ebe44f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:59:00Z",
+          "primary": false,
+          "symbol": "COIN"
+        },
+        {
+          "headline": "Coinbase Plans Its Own Prediction Markets by Mid-2027. That’s a New Rival for Robinhood",
+          "url": "https://finnhub.io/api/news?id=45ad5ab2bff291b5ccc5959c93e5d3cb85d3f1625103849d32d2a0123979c272",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:53:06Z",
+          "primary": false,
+          "symbol": "COIN"
+        },
+        {
+          "headline": "COIN Lags Industry, Trades at a Premium: Buy, Hold or Sell the Stock?",
+          "url": "https://finnhub.io/api/news?id=a66573616c36e03329d76371526126e175a3a98d0d97e2e0dbdc4991d5825cbf",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:38:00Z",
+          "primary": false,
+          "symbol": "COIN"
+        },
+        {
+          "headline": "Coinbase Sets Mid-2027 Goal to Write Its Own Event Contracts, Bloomberg Reports",
+          "url": "https://finnhub.io/api/news?id=fa3ae8605f781ef185dad7744302310046e946418706db1588e63dcb1f9e8ce4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:19Z",
+          "primary": false,
+          "symbol": "COIN"
+        }
+      ]
+    },
+    "FIX": {
+      "metrics": {
+        "52WeekHigh": 2073.99,
+        "52WeekLow": 850.0,
+        "peTTM": 24.3207,
+        "psTTM": 3.164,
+        "netProfitMarginTTM": 13.01,
+        "roeTTM": 55.24,
+        "revenueGrowthTTMYoy": 50.7,
+        "epsGrowthTTMYoy": 96.12,
+        "currentRatioQuarterly": 1.1463,
+        "totalDebt/totalEquityQuarterly": 0.0149,
+        "marketCapitalization": 39687.305
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Comfort Systems USA, Inc.",
+      "profile": {
+        "weburl": "https://comfortsystemsusa.com/",
+        "industry": "Construction",
+        "name": "Comfort Systems USA, Inc."
+      },
+      "news": [
+        {
+          "headline": "Is Comfort Systems USA Stock Increasing Your Market Risk?",
+          "url": "https://finnhub.io/api/news?id=7421029891c62a19d1b835b3e32d2db379ed2930c093e1dcd63bf41e4c3ccf75",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:31:33Z",
+          "primary": false,
+          "symbol": "FIX"
+        },
+        {
+          "headline": "Comfort Systems: Cheaper With Greater EPS Growth (Upgrade)",
+          "url": "https://finnhub.io/api/news?id=074e6df1055c4ec2db5eb15dd9e5496f978f92fba7924f43916e1990f5b185b0",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T18:02:22Z",
+          "primary": false,
+          "symbol": "FIX"
+        },
+        {
+          "headline": "Can Comfort Systems' 24.8% Gross Margin Hold as Big Projects Scale?",
+          "url": "https://finnhub.io/api/news?id=16c52bff86ddb2f8141ca445367261a2ea0f0d76b15a88a58d8c74158ff8ffe4",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:26:00Z",
+          "primary": false,
+          "symbol": "FIX"
+        },
+        {
+          "headline": "Comfort Systems: Backlog Keeps Building, Shares Keep Falling",
+          "url": "https://finnhub.io/api/news?id=3ee7c64b6e7965674a2f4b5b9a1c13cf2c7484f6d713301f3a86262e85f0e24d",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T11:37:48Z",
+          "primary": false,
+          "symbol": "FIX"
+        },
+        {
+          "headline": "Comfort Systems USA, Inc. Amends Stock Repurchase Program to Authorize Up to 1,000,000 Shares",
+          "url": "https://finnhub.io/api/news?id=1f5ee07ecd27e5f6ac680ea8d19ed3630ef8eec71fb85340d6ead93a4274c3b2",
+          "source": "Fintel",
+          "published_at": "2026-11-18T01:50:51Z",
+          "primary": false,
+          "symbol": "FIX"
+        }
+      ]
+    },
+    "ED": {
+      "metrics": {
+        "52WeekHigh": 122.75,
+        "52WeekLow": 94.96,
+        "peTTM": 19.6733,
+        "psTTM": 2.4663,
+        "netProfitMarginTTM": 12.54,
+        "roeTTM": 8.9,
+        "revenueGrowthTTMYoy": 9.49,
+        "epsGrowthTTMYoy": 10.41,
+        "currentRatioQuarterly": 1.2682,
+        "totalDebt/totalEquityQuarterly": 1.0815,
+        "marketCapitalization": 43615.637
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Consolidated Edison, Inc.",
+      "profile": {
+        "weburl": "https://www.conedison.com/",
+        "industry": "Utilities",
+        "name": "Consolidated Edison, Inc."
+      },
+      "news": [
+        {
+          "headline": "Consolidated Edison, Inc. Enters into Forward Sale Agreement for 6,000,000 Common Shares",
+          "url": "https://finnhub.io/api/news?id=79a878029744b6cef338f39b22db421d9cfd8456589ee2bb18292cbdd50f07b9",
+          "source": "Fintel",
+          "published_at": "2026-11-19T07:28:24Z",
+          "primary": false,
+          "symbol": "ED"
+        },
+        {
+          "headline": "Zacks.com featured highlights include Super Micro Computer, General Dynamics and Consolidated Edison",
+          "url": "https://finnhub.io/api/news?id=86999e51d98b897aae611b711a48ef6af039b1542dd4a8fefaa426160f0cc29c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T09:47:00Z",
+          "primary": false,
+          "symbol": "ED"
+        },
+        {
+          "headline": "Consolidated Edison or Clearway Energy: Only One Gets My Dividend Dollars for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=922849fb75594e801008258c142d24c0956af714c264a6ad9dc8afa6af36c8f4",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:41:29Z",
+          "primary": false,
+          "symbol": "ED"
+        },
+        {
+          "headline": "Consolidated Edison, Inc. Reports CECONY Underwriting Agreement for $700 Million of 6.40% Debentures",
+          "url": "https://finnhub.io/api/news?id=6623af3a13d402836006a82f82c220522c5634902806398f2c4ca3cd17ae7e3b",
+          "source": "Fintel",
+          "published_at": "2026-11-17T04:01:18Z",
+          "primary": false,
+          "symbol": "ED"
+        },
+        {
+          "headline": "Consolidated Edison Announces The Public Offering Of 6,000,000 Of Its Common Shares",
+          "url": "https://finnhub.io/api/news?id=a5888d5b7bb076dfc09eaf7cd779f34013271e3a2ea23119695e386ae3e0aae3",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T17:23:36Z",
+          "primary": false,
+          "symbol": "ED"
+        }
+      ]
+    },
+    "STZ": {
+      "metrics": {
+        "52WeekHigh": 168.6,
+        "52WeekLow": 110.6016,
+        "peTTM": 12.6305,
+        "psTTM": 2.6392,
+        "netProfitMarginTTM": 20.9,
+        "roeTTM": 23.580000000000002,
+        "revenueGrowthTTMYoy": -4.32,
+        "epsGrowthTTMYoy": 62.74,
+        "currentRatioQuarterly": 0.9985,
+        "totalDebt/totalEquityQuarterly": 1.2013,
+        "marketCapitalization": 24303.611
+      },
+      "updated_at": "2026-11-20T22:55:54Z",
+      "name": "Constellation Brands, Inc.",
+      "profile": {
+        "weburl": "https://www.cbrands.com/",
+        "industry": "Beverages",
+        "name": "Constellation Brands, Inc."
+      },
+      "news": [
+        {
+          "headline": "Constellation Brands (NYSE:STZ) Shows Breakout Setup With Strong Technical Strength",
+          "url": "https://finnhub.io/api/news?id=1530091cdd382e700e6e9cf2b32348f749e4da4bfd752a23fec12ce2c99d4827",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T12:50:31Z",
+          "primary": false,
+          "symbol": "STZ"
+        },
+        {
+          "headline": "What Is Constellation Brands No Longer Telling Shareholders?",
+          "url": "https://finnhub.io/api/news?id=92717c03b6c12a1464a16b3912dcff118f80786687698b8ceb7604b8bfa84ed1",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:22:53Z",
+          "primary": false,
+          "symbol": "STZ"
+        },
+        {
+          "headline": "WildStar Partners Sells $65M Of Constellation Brands As Rally Stalls",
+          "url": "https://finnhub.io/api/news?id=0f28d0184b9c68da8f45b0b829bb593d25374bac2d3d61df4a7b0fa712894f1a",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T09:05:16Z",
+          "primary": false,
+          "symbol": "STZ"
+        },
+        {
+          "headline": "Constellation Brands to Present at the 2026 Morgan Stanley Global Consumer & Retail Conference on December 1, 2026",
+          "url": "https://finnhub.io/api/news?id=8c63d9f51b930eee7dcb9f1cfeb06b90a42b9e112a4e9ba0850d79f7f803be4e",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:30:00Z",
+          "primary": false,
+          "symbol": "STZ"
+        }
+      ]
     }
   },
-  "cursor": 284,
-  "updated_at": "2026-11-20T21:56:58Z"
+  "cursor": 296,
+  "updated_at": "2026-11-20T22:55:54Z"
 }
