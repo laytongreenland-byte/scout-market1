@@ -68,8 +68,9 @@ class MarketCatalogTests(unittest.TestCase):
     def test_nzx_directory_parser_fails_closed(self):
         rows=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(100)]
         self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows}).encode())),100)
+        self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows[:3]}).encode())),3)
         with self.assertRaises(ValueError):
-            mc.parse_nzx(json.dumps({'data':rows[:3]}).encode())
+            mc.parse_nzx(json.dumps({'data':rows + [{'ticker':'Z999','name':'extra'}]}).encode())
 
     def test_failure_is_explicit_not_silently_full(self):
         with patch.object(mc,'fetch_apac',side_effect=TimeoutError('offline during test')):
