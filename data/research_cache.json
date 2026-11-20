@@ -13515,8 +13515,636 @@
           "symbol": "FITB"
         }
       ]
+    },
+    "COR": {
+      "metrics": {
+        "52WeekHigh": 377.54,
+        "52WeekLow": 244.82,
+        "peTTM": 18.6916,
+        "psTTM": 0.193,
+        "netProfitMarginTTM": 1.03,
+        "roeTTM": 115.75999999999999,
+        "revenueGrowthTTMYoy": 5.0,
+        "epsGrowthTTMYoy": 125.25,
+        "currentRatioQuarterly": 0.937,
+        "totalDebt/totalEquityQuarterly": 3.0604,
+        "marketCapitalization": 65119.773
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Cencora, Inc.",
+      "profile": {
+        "weburl": "https://www.cencora.com/",
+        "industry": "Health Care",
+        "name": "Cencora, Inc."
+      },
+      "news": [
+        {
+          "headline": "Here's Why You Should Retain Cencora Stock in Your Portfolio for Now",
+          "url": "https://finnhub.io/api/news?id=bfeb3136a1fe0fa43af2939ca279d89a2edaa5ca9478e3c898cea9f3851e9040",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:24:00Z",
+          "primary": false,
+          "symbol": "COR"
+        },
+        {
+          "headline": "Barclays Maintains Overweight on Cencora, Raises Price Target to $415",
+          "url": "https://finnhub.io/api/news?id=673b6866238fc8ff456d945cca5049e5442bcb4805e0101b39f2ce5b8faf40dc",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:56:12Z",
+          "primary": false,
+          "symbol": "COR"
+        },
+        {
+          "headline": "Wells Fargo Maintains Overweight on Cencora, Raises Price Target to $400",
+          "url": "https://finnhub.io/api/news?id=a8bdf2a359dfc1bda48b683e0803fde4148e9c8cc81849d22b614844cd3ead28",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T10:03:47Z",
+          "primary": false,
+          "symbol": "COR"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting Cencora Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=75c86fe0fa173734b64aaf65b987e0430f311b5aa27ad57a209847c2e60d87e8",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:23:50Z",
+          "primary": false,
+          "symbol": "COR"
+        },
+        {
+          "headline": "Update: FTC Sues to Block Covetrus' $3.5 Billion Acquisition of Cencora's MWI Veterinary Supply",
+          "url": "https://finnhub.io/api/news?id=e3b465678de2f796cebef7afb00eb153cf5e273db99af3b73d768206cd7b93bb",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T22:14:39Z",
+          "primary": false,
+          "symbol": "COR"
+        }
+      ]
+    },
+    "AOS": {
+      "metrics": {
+        "52WeekHigh": 81.87,
+        "52WeekLow": 54.16,
+        "peTTM": 17.2801,
+        "psTTM": 2.2474,
+        "netProfitMarginTTM": 13.01,
+        "roeTTM": 26.729999999999997,
+        "revenueGrowthTTMYoy": -0.71,
+        "epsGrowthTTMYoy": -3.39,
+        "currentRatioQuarterly": 1.6369,
+        "totalDebt/totalEquityQuarterly": 0.3692,
+        "marketCapitalization": 8546.752
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "A. O. Smith Corporation",
+      "profile": {
+        "weburl": "https://www.aosmith.com/",
+        "industry": "Building",
+        "name": "A. O. Smith Corporation"
+      },
+      "news": [
+        {
+          "headline": "A. O. Smith Corporation Publishes 2026 Sustainability Report",
+          "url": "https://finnhub.io/api/news?id=fa787a9f9f87d3c0815684b04e47ecdfef5e85b7c814743c1ceff91ae5b98779",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:45:00Z",
+          "primary": false,
+          "symbol": "AOS"
+        }
+      ]
+    },
+    "AES": {
+      "metrics": {
+        "52WeekHigh": 17.65,
+        "52WeekLow": 13.28,
+        "peTTM": 6.003,
+        "psTTM": 0.7898,
+        "netProfitMarginTTM": 13.16,
+        "roeTTM": 37.330000000000005,
+        "revenueGrowthTTMYoy": 12.25,
+        "epsGrowthTTMYoy": 55.36,
+        "currentRatioQuarterly": 0.8644,
+        "totalDebt/totalEquityQuarterly": 5.8235,
+        "marketCapitalization": 10721.31
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "The AES Corporation",
+      "profile": {
+        "weburl": "https://www.aes.com/",
+        "industry": "Utilities",
+        "name": "The AES Corporation"
+      },
+      "news": [
+        {
+          "headline": "AES At $15.02: A Late-Stage Merger-Arb With Little Left To Win",
+          "url": "https://finnhub.io/api/news?id=6cceed4948d8ead31b05031959bbb81e07668f0a0cebf4057f78e25dba1ebc0c",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T16:40:33Z",
+          "primary": false,
+          "symbol": "AES"
+        },
+        {
+          "headline": "The AES Corporation Declares Stub Period Dividend of $0.06369 Per Share Subject to Merger Closing",
+          "url": "https://finnhub.io/api/news?id=1c5ce770b391e6ac09ba722c834c6a36d3022adc838319d02713f23bc570ac21",
+          "source": "Fintel",
+          "published_at": "2026-11-19T00:51:21Z",
+          "primary": false,
+          "symbol": "AES"
+        },
+        {
+          "headline": "S&P 500 Most Active Stocks on Nov. 18: AES Leads Volume, Freeport-McMoRan Drops 6.45%",
+          "url": "https://finnhub.io/api/news?id=721f466408568699a8bfceacc8ebfaea312a21a06117959f059928bcedc7348b",
+          "source": "ChartMill",
+          "published_at": "2026-11-18T19:06:26Z",
+          "primary": false,
+          "symbol": "AES"
+        },
+        {
+          "headline": "AES Announces Stub Period Dividend",
+          "url": "https://finnhub.io/api/news?id=7795fa5ed5083da0ae559bbc51c45ab1c11c2a7c6e008c026bb4a75704c3bd5f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:00:00Z",
+          "primary": false,
+          "symbol": "AES"
+        },
+        {
+          "headline": "The AES Corporation Announces FERC Approval for Merger with Closing Expected December 2, 2026",
+          "url": "https://finnhub.io/api/news?id=793af9b6cb205fe04b3b4a23976e350a7b3c9031ed01608685ce625c73f9c58b",
+          "source": "Fintel",
+          "published_at": "2026-11-18T03:38:43Z",
+          "primary": false,
+          "symbol": "AES"
+        }
+      ]
+    },
+    "A": {
+      "metrics": {
+        "52WeekHigh": 182.99,
+        "52WeekLow": 108.35,
+        "peTTM": 35.1168,
+        "psTTM": 6.8595,
+        "netProfitMarginTTM": 19.53,
+        "roeTTM": 20.47,
+        "revenueGrowthTTMYoy": 8.6,
+        "epsGrowthTTMYoy": 18.74,
+        "currentRatioQuarterly": 2.0502,
+        "totalDebt/totalEquityQuarterly": 0.5363,
+        "marketCapitalization": 50568.164
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Agilent Technologies Inc",
+      "profile": {
+        "weburl": "https://www.agilent.com/",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Agilent Technologies Inc"
+      },
+      "news": [
+        {
+          "headline": "Here's How Much $1000 Invested In Agilent Technologies 15 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=36f745ccf24ad1d95562a53ad67067ebd23d0e8f512dc280e0342baab6964f2b",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T17:18:54Z",
+          "primary": false,
+          "symbol": "A"
+        },
+        {
+          "headline": "Agilent Announces Cash Dividend of 26.25 Cents per Share",
+          "url": "https://finnhub.io/api/news?id=135e28bf47e987b86a6463bb4f20a7cc49b55c5cf2390a7612e93ef9f0730900",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:15:00Z",
+          "primary": false,
+          "symbol": "A"
+        },
+        {
+          "headline": "Agilent Technologies (A) Surged in Q3 on Strong Reshoring Demand and Equipment Upgrades",
+          "url": "https://finnhub.io/api/news?id=6c7dd15231ba055d93f7a47b57a320a3bf607ea09806e19a48790c5b8d2fa42c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:14:33Z",
+          "primary": false,
+          "symbol": "A"
+        },
+        {
+          "headline": "Will Agilent (A) Beat Estimates Again in Its Next Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=50067a7aead2ad64bc56c2d365296f18e63e1340844ddea71c0a04f4fde82153",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:10:02Z",
+          "primary": false,
+          "symbol": "A"
+        },
+        {
+          "headline": "Agilent (A) Q4 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+          "url": "https://finnhub.io/api/news?id=30193e22f4641bfa536639135b606cc4612549fc993a856e5b8d5a585f16596a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:15:05Z",
+          "primary": false,
+          "symbol": "A"
+        }
+      ]
+    },
+    "APD": {
+      "metrics": {
+        "52WeekHigh": 324.0,
+        "52WeekLow": 229.11,
+        "peTTM": 128.945,
+        "psTTM": 5.2815,
+        "netProfitMarginTTM": 4.1,
+        "roeTTM": 3.5900000000000003,
+        "revenueGrowthTTMYoy": 7.92,
+        "currentRatioQuarterly": 1.0653,
+        "totalDebt/totalEquityQuarterly": 1.2449,
+        "marketCapitalization": 68611.63
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Air Products and Chemicals, Inc.",
+      "profile": {
+        "weburl": "https://www.airproducts.com/",
+        "industry": "Chemicals",
+        "name": "Air Products and Chemicals, Inc."
+      },
+      "news": [
+        {
+          "headline": "Air Products & Chemicals (NYSE:APD) Meets Technical Breakout Criteria",
+          "url": "https://finnhub.io/api/news?id=68cbab69d88088bff5ceae35887e69cda303993b0c9943762536b74927803a06",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T12:10:43Z",
+          "primary": false,
+          "symbol": "APD"
+        },
+        {
+          "headline": "Air Products and Chemicals Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=a66b75c0d1993faa2c1f0870fe9910cafe53e537ca76cea6b76c0327a49adc23",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:08:42Z",
+          "primary": false,
+          "symbol": "APD"
+        },
+        {
+          "headline": "Air Products and Chemicals, Inc. Nominates Carol Williams to Board of Directors",
+          "url": "https://finnhub.io/api/news?id=afaecf07bb3459eb298835dc0556781f16277c295476df93330665a080333226",
+          "source": "Fintel",
+          "published_at": "2026-11-19T06:09:32Z",
+          "primary": false,
+          "symbol": "APD"
+        },
+        {
+          "headline": "Air Products to Nominate Carol Williams for Election to Board of Directors",
+          "url": "https://finnhub.io/api/news?id=68a72f731ada2daf2120466200faab769aba30949528687dd3246a0715b3c5ca",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:01:00Z",
+          "primary": false,
+          "symbol": "APD"
+        },
+        {
+          "headline": "Better Dividend Stock for Retirees: AT&T vs. Air Products and Chemicals",
+          "url": "https://finnhub.io/api/news?id=b0a7d22e70d909bd57d02833ffb7fbdcf3b09646244f1ff0c7e05efa307c5ca2",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:04:27Z",
+          "primary": false,
+          "symbol": "APD"
+        }
+      ]
+    },
+    "ABNB": {
+      "metrics": {
+        "52WeekHigh": 197.87,
+        "52WeekLow": 110.81,
+        "peTTM": 31.8818,
+        "psTTM": 7.3383,
+        "netProfitMarginTTM": 23.02,
+        "roeTTM": 38.940000000000005,
+        "revenueGrowthTTMYoy": 16.66,
+        "epsGrowthTTMYoy": 27.21,
+        "currentRatioQuarterly": 1.7341,
+        "totalDebt/totalEquityQuarterly": 0.2546,
+        "marketCapitalization": 102244.95
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Airbnb, Inc.",
+      "profile": {
+        "weburl": "https://www.airbnb.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Airbnb, Inc."
+      },
+      "news": [
+        {
+          "headline": "Airbnb (NASDAQ:ABNB): Strong Growth Meets a Constructive Technical Setup",
+          "url": "https://finnhub.io/api/news?id=36a73741f37bd8d8349c61ae72621c959fb18e46c4324a0aa378f2ae83a87648",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T10:41:43Z",
+          "primary": false,
+          "symbol": "ABNB"
+        },
+        {
+          "headline": "Bernstein Maintains Outperform on Airbnb, Raises Price Target to $234",
+          "url": "https://finnhub.io/api/news?id=23be89d1c4a0d6a1a38900c6edab3f133c333fbff2313085ac801e96b2296c83",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:57:20Z",
+          "primary": false,
+          "symbol": "ABNB"
+        },
+        {
+          "headline": "What Is Airbnb Building That Investors Should Watch?",
+          "url": "https://finnhub.io/api/news?id=3db3846996a159c72a230f608bc6fee128c1bbd2dc7e626b1832ad0b4c1f0532",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:47:16Z",
+          "primary": false,
+          "symbol": "ABNB"
+        },
+        {
+          "headline": "Why PhillipCapital Stopped Short of a Buy on Airbnb (ABNB)",
+          "url": "https://finnhub.io/api/news?id=a1624c38c79ba6b832ddd353528969a3922d9b9cff2c78eadaecfaf2b96fe83f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:47:15Z",
+          "primary": false,
+          "symbol": "ABNB"
+        },
+        {
+          "headline": "Airbnb vs. Shopify: Which Consumer Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=0098d583b91da30c32792a1532b0acba89826a73b10887ff4eaa4d4a7cf1375f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:05:01Z",
+          "primary": false,
+          "symbol": "ABNB"
+        }
+      ]
+    },
+    "AKAM": {
+      "metrics": {
+        "52WeekHigh": 165.45,
+        "52WeekLow": 77.37,
+        "peTTM": 34.096,
+        "psTTM": 3.0126,
+        "netProfitMarginTTM": 8.84,
+        "roeTTM": 7.84,
+        "revenueGrowthTTMYoy": 6.22,
+        "epsGrowthTTMYoy": -24.39,
+        "currentRatioQuarterly": 2.1279,
+        "totalDebt/totalEquityQuarterly": 1.4698,
+        "marketCapitalization": 13225.814
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Akamai Technologies Inc",
+      "profile": {
+        "weburl": "https://www.akamai.com/",
+        "industry": "Technology",
+        "name": "Akamai Technologies Inc"
+      },
+      "news": [
+        {
+          "headline": "Akamai Technologies (AKAM) Expands Mobile Enterprise Browser Security",
+          "url": "https://finnhub.io/api/news?id=3df078be1f0c0bb888d0eafb1364b8b5ba0cd47c3fa12f2eb8719facc00076b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T03:16:34Z",
+          "primary": false,
+          "symbol": "AKAM"
+        },
+        {
+          "headline": "Akamai Technologies: The AI Opportunity Comes At A Cost",
+          "url": "https://finnhub.io/api/news?id=297a8ecfc7a5f31fc125681a4e3051c79500559ef2a833e9a6c4ae46bd2f1776",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T23:11:00Z",
+          "primary": false,
+          "symbol": "AKAM"
+        },
+        {
+          "headline": "Can Akamai Stock Jump 40%?",
+          "url": "https://finnhub.io/api/news?id=8bd4a715a3b2195ca66cbccb43a2866b728fa38a8a48d79756e7dfde60789c20",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:08:59Z",
+          "primary": false,
+          "symbol": "AKAM"
+        },
+        {
+          "headline": "Why Is Akamai Technologies Stock Gaining Thursday?",
+          "url": "https://finnhub.io/api/news?id=a8c564e6f5b9fa0b579cc64ea4adf1bbf9305882b96ae17a77925206be9776a6",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T08:57:54Z",
+          "primary": false,
+          "symbol": "AKAM"
+        },
+        {
+          "headline": "Akamai Extends Its Enterprise Security Controls to Microsoft Edge for Business Browser on Mobile",
+          "url": "https://finnhub.io/api/news?id=463e459bfc5ec8df6dc99a4946a1f9405096d8e0f98a00fdf605be0625a9ed6d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:58:00Z",
+          "primary": false,
+          "symbol": "AKAM"
+        }
+      ]
+    },
+    "ALB": {
+      "metrics": {
+        "52WeekHigh": 221.0,
+        "52WeekLow": 85.22,
+        "peTTM": 14.858,
+        "psTTM": 1.6459,
+        "netProfitMarginTTM": 11.08,
+        "roeTTM": 6.78,
+        "revenueGrowthTTMYoy": 24.4,
+        "currentRatioQuarterly": 2.3437,
+        "totalDebt/totalEquityQuarterly": 0.1785,
+        "marketCapitalization": 10127.605
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Albemarle Corp",
+      "profile": {
+        "weburl": "https://www.albemarle.com/",
+        "industry": "Chemicals",
+        "name": "Albemarle Corp"
+      },
+      "news": [
+        {
+          "headline": "Are Wall Street Analysts Predicting Albemarle Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=1a8b7e1842ffa6f5b9f4664455f95052bfa110c6882c97faf1c3f961846b26ed",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T11:40:34Z",
+          "primary": false,
+          "symbol": "ALB"
+        }
+      ]
+    },
+    "ARE": {
+      "metrics": {
+        "52WeekHigh": 59.76,
+        "52WeekLow": 38.34,
+        "psTTM": 2.7149,
+        "netProfitMarginTTM": -53.01,
+        "roeTTM": -9.29,
+        "revenueGrowthTTMYoy": -15.4,
+        "currentRatioQuarterly": 0.4102,
+        "totalDebt/totalEquityQuarterly": 0.871,
+        "marketCapitalization": 7321.7134
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Alexandria Real Estate Equities, Inc",
+      "profile": {
+        "weburl": "https://www.are.com/",
+        "industry": "Real Estate",
+        "name": "Alexandria Real Estate Equities, Inc"
+      },
+      "news": [
+        {
+          "headline": "Why BofA Is Wary of Alexandria (ARE) Through 2027",
+          "url": "https://finnhub.io/api/news?id=8e8f06a3358c3e68c9fa1f6f4758c52fdd91832aabd04d354bdea20e4a633ec8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:11:38Z",
+          "primary": false,
+          "symbol": "ARE"
+        },
+        {
+          "headline": "Alexandria Real Estate Equities, Inc. Announces Dual Listing on NYSE Texas, Reinforcing Its Strategic Commitment to Texas",
+          "url": "https://finnhub.io/api/news?id=45789b4a7c8d777383c7abe561fc0774c51bb41c70b4a59931922f2262bc55ba",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:05:00Z",
+          "primary": false,
+          "symbol": "ARE"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Alexandria Real Estate, Lowers Price Target to $50",
+          "url": "https://finnhub.io/api/news?id=17a797a9cf860e2af38091fcf55520242476eb1b4d820b140d49d926b9ad583c",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T13:48:00Z",
+          "primary": false,
+          "symbol": "ARE"
+        },
+        {
+          "headline": "Alexandria Real Estate Equities Facing Increasing Earnings Headwinds, BofA Says",
+          "url": "https://finnhub.io/api/news?id=75f690a466a446fa3a75339e47346869a810cdf0a65eac5560f5876080de7e60",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T15:33:33Z",
+          "primary": false,
+          "symbol": "ARE"
+        }
+      ]
+    },
+    "ALGN": {
+      "metrics": {
+        "52WeekHigh": 200.44,
+        "52WeekLow": 130.23,
+        "peTTM": 23.2003,
+        "psTTM": 2.7441,
+        "netProfitMarginTTM": 11.83,
+        "roeTTM": 11.76,
+        "revenueGrowthTTMYoy": 4.42,
+        "epsGrowthTTMYoy": 33.57,
+        "currentRatioQuarterly": 1.4247,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 11411.502
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Align Technology, Inc.",
+      "profile": {
+        "weburl": "https://www.aligntech.com/",
+        "industry": "Health Care",
+        "name": "Align Technology, Inc."
+      },
+      "news": [
+        {
+          "headline": "Align Technology Sees iTero Revenue Rebound in 2027 After Pricing Cuts Outlook",
+          "url": "https://finnhub.io/api/news?id=e6481ff3fa7316f0db1a961bb08a03e2bee0a9f78cd6e88ace5733c24ccaa445",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:12:09Z",
+          "primary": false,
+          "symbol": "ALGN"
+        },
+        {
+          "headline": "Paul J. Clancy and Ian Bell to Join Align Technology Board of Directors",
+          "url": "https://finnhub.io/api/news?id=7c25e04dfaffe868225866ec5fea35b796bbe8d41edc30b9444d696e7690a37b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:01:00Z",
+          "primary": false,
+          "symbol": "ALGN"
+        },
+        {
+          "headline": "Should You Continue to Hold ALGN Stock in Your Portfolio?",
+          "url": "https://finnhub.io/api/news?id=561ef26e66fe34d486fec74e57571f3a6c539be52ece2628e884f881a51edab7",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:52:00Z",
+          "primary": false,
+          "symbol": "ALGN"
+        },
+        {
+          "headline": "Align Technology, Inc. (ALGN) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=d053e639beb6c0cf4f642279920af8693f5b1f71f2251bee35790d4b1ab1ad31",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T12:12:48Z",
+          "primary": false,
+          "symbol": "ALGN"
+        }
+      ]
+    },
+    "ALLE": {
+      "metrics": {
+        "52WeekHigh": 195.42,
+        "52WeekLow": 125.0,
+        "peTTM": 22.916,
+        "psTTM": 3.6068,
+        "netProfitMarginTTM": 15.74,
+        "roeTTM": 32.68,
+        "revenueGrowthTTMYoy": 10.33,
+        "epsGrowthTTMYoy": 8.74,
+        "currentRatioQuarterly": 1.8991,
+        "totalDebt/totalEquityQuarterly": 0.9354,
+        "marketCapitalization": 15837.251
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Allegion PLC",
+      "profile": {
+        "weburl": "https://www.allegion.com/corp/en/index.html",
+        "industry": "Building",
+        "name": "Allegion PLC"
+      },
+      "news": [
+        {
+          "headline": "What Does Allegion Offer That Johnson Controls Does Not?",
+          "url": "https://finnhub.io/api/news?id=ce1fdab88fbef1952f2939011e434762ee77f57b14152ac6b194abc37dbce5e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T01:53:21Z",
+          "primary": false,
+          "symbol": "ALLE"
+        },
+        {
+          "headline": "Here's Why You Should Consider Investing in Allegion Stock Now",
+          "url": "https://finnhub.io/api/news?id=c558f866b31aa27afa2becba2da28921d3507040f94a961259f6d44b199b1aa8",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T13:34:00Z",
+          "primary": false,
+          "symbol": "ALLE"
+        }
+      ]
+    },
+    "LNT": {
+      "metrics": {
+        "52WeekHigh": 78.81,
+        "52WeekLow": 62.54,
+        "peTTM": 19.877,
+        "psTTM": 4.2299,
+        "netProfitMarginTTM": 21.28,
+        "roeTTM": 12.41,
+        "revenueGrowthTTMYoy": 6.25,
+        "epsGrowthTTMYoy": 13.0,
+        "currentRatioQuarterly": 0.5086,
+        "totalDebt/totalEquityQuarterly": 1.609,
+        "marketCapitalization": 18565.107
+      },
+      "updated_at": "2026-11-20T19:25:50Z",
+      "name": "Alliant Energy Corp",
+      "profile": {
+        "weburl": "https://www.alliantenergy.com/",
+        "industry": "Utilities",
+        "name": "Alliant Energy Corp"
+      },
+      "news": [
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Alliant Energy Stock?",
+          "url": "https://finnhub.io/api/news?id=5b39786577c8d8d5962c89d7e21f0ca46714e3cf69f83f8a7cb06aac010625b2",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:04:54Z",
+          "primary": false,
+          "symbol": "LNT"
+        }
+      ]
     }
   },
-  "cursor": 224,
-  "updated_at": "2026-11-20T19:10:18Z"
+  "cursor": 236,
+  "updated_at": "2026-11-20T19:25:50Z"
 }
