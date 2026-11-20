@@ -15,6 +15,7 @@ import re
 import sys
 import urllib.request
 import urllib.error
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -108,6 +109,10 @@ def fetch_apac(url,key=None):
     headers={'User-Agent':'Mozilla/5.0 (compatible; ScoutMarketDiscovery/1.0)', 'Accept':'application/json, text/csv;q=0.9, */*;q=0.1'}
     if key:
         headers['X-API-Key']=key
+    # NZXplorer free tier is 10 requests/minute, shared across directory and prices.
+    # Pacing here and in apac_data.py avoids a burst across process boundaries.
+    if url.startswith(NZX_DIRECTORY):
+        time.sleep(7)
     req=urllib.request.Request(url,headers=headers)
     with urllib.request.urlopen(req,timeout=18) as response:
         content=response.read(MAX_BYTES+1)
