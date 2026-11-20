@@ -12041,8 +12041,732 @@
           "symbol": "AIG"
         }
       ]
+    },
+    "ELV": {
+      "metrics": {
+        "52WeekHigh": 450.69,
+        "52WeekLow": 274.84,
+        "peTTM": 16.8523,
+        "psTTM": 0.4291,
+        "netProfitMarginTTM": 2.55,
+        "roeTTM": 11.59,
+        "revenueGrowthTTMYoy": 3.6,
+        "epsGrowthTTMYoy": -4.07,
+        "currentRatioQuarterly": 0.2256,
+        "totalDebt/totalEquityQuarterly": 0.6884,
+        "marketCapitalization": 86603.84
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Elevance Health Inc",
+      "profile": {
+        "weburl": "https://www.elevancehealth.com/",
+        "industry": "Health Care",
+        "name": "Elevance Health Inc"
+      },
+      "news": [
+        {
+          "headline": "Elevance Health (ELV) Down 12.4% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=01788d35aed74ecb81429604006640019864272edde8bf5c058ff73d3f224a90",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:05Z",
+          "primary": false,
+          "symbol": "ELV"
+        },
+        {
+          "headline": "What Avantis U.S. Large Cap Value ETF (AVLV) Bought: Elevance Leads on Nov. 18",
+          "url": "https://finnhub.io/api/news?id=6f3305701edc04feb5ca243eddb1b1c4439c1a20c5471e31fe01de6d2c23a887",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:04:51Z",
+          "primary": false,
+          "symbol": "ELV"
+        },
+        {
+          "headline": "What Argus Sees in Elevance Health (ELV) for 2027",
+          "url": "https://finnhub.io/api/news?id=65019cdf772081827aaf0d931c4c24c00dfb8f253ee3782e8635d2a7a44e69ab",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:40:43Z",
+          "primary": false,
+          "symbol": "ELV"
+        },
+        {
+          "headline": "What Is Behind The Move In Elevance Health Stock?",
+          "url": "https://finnhub.io/api/news?id=0c7bfa893866d54df857d53eac82ba2bc4a7b6b7660ef6fd68555bf630a2c7b6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:12:25Z",
+          "primary": false,
+          "symbol": "ELV"
+        },
+        {
+          "headline": "Argus Research Upgrades Elevance Health to Buy from Hold",
+          "url": "https://finnhub.io/api/news?id=9854f5cfab7312451df38209efbd36b4caaa8d79c4ecceedc8867534dd5dcf1b",
+          "source": "Fintel",
+          "published_at": "2026-11-19T01:50:18Z",
+          "primary": false,
+          "symbol": "ELV"
+        }
+      ]
+    },
+    "RSG": {
+      "metrics": {
+        "52WeekHigh": 256.79,
+        "52WeekLow": 196.41,
+        "peTTM": 34.0835,
+        "psTTM": 4.4033,
+        "netProfitMarginTTM": 12.92,
+        "roeTTM": 18.47,
+        "revenueGrowthTTMYoy": 4.46,
+        "epsGrowthTTMYoy": 7.25,
+        "currentRatioQuarterly": 0.7487,
+        "totalDebt/totalEquityQuarterly": 1.1485,
+        "marketCapitalization": 75904.016
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Republic Services Inc",
+      "profile": {
+        "weburl": "https://www.republicservices.com/",
+        "industry": "Commercial Services & Supplies",
+        "name": "Republic Services Inc"
+      },
+      "news": [
+        {
+          "headline": "Republic, WM pursue food-grade PP resin projects",
+          "url": "https://finnhub.io/api/news?id=8392cc64ad19ef47dd5648adf5de2f68223704793cd5faf94ff30eedfa1219df",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:15:40Z",
+          "primary": false,
+          "symbol": "RSG"
+        },
+        {
+          "headline": "Republic Services (RSG), Why Is Its Latest Update Drawing Attention?",
+          "url": "https://finnhub.io/api/news?id=ab62d6cdc822d68317b0d4c3dd9e1df385248ebd14333bc06938a666872f160f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:11:30Z",
+          "primary": false,
+          "symbol": "RSG"
+        },
+        {
+          "headline": "Where Does Republic Services (RSG) Value Sit After Its 92% Run?",
+          "url": "https://finnhub.io/api/news?id=9ae44d86710b39c8bea2babd95043c90834a10c1e6cfcaabcd5e7d91873f552d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:14:40Z",
+          "primary": false,
+          "symbol": "RSG"
+        },
+        {
+          "headline": "Is Republic Services Stock A Mistake At Its High?",
+          "url": "https://finnhub.io/api/news?id=9c5df13da7b7fe62c56a713ec1ed9014f6c99650e2e1b143e5835406ed1bc234",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:18:06Z",
+          "primary": false,
+          "symbol": "RSG"
+        },
+        {
+          "headline": "RSG Shares Jump 18.7% in Three Months: Here's What You Should Know",
+          "url": "https://finnhub.io/api/news?id=f63ccb4e43de6347474b6b838705961091aeaa1ea3db376a4767446571d7680c",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:44:00Z",
+          "primary": false,
+          "symbol": "RSG"
+        }
+      ]
+    },
+    "VST": {
+      "metrics": {
+        "52WeekHigh": 189.29,
+        "52WeekLow": 110.89,
+        "peTTM": 16.3292,
+        "psTTM": 2.1884,
+        "netProfitMarginTTM": 13.4,
+        "roeTTM": 48.16,
+        "revenueGrowthTTMYoy": 22.84,
+        "epsGrowthTTMYoy": 140.4,
+        "currentRatioQuarterly": 1.1574,
+        "totalDebt/totalEquityQuarterly": 3.452,
+        "marketCapitalization": 44203.11
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Vistra Corp.",
+      "profile": {
+        "weburl": "https://www.vistracorp.com/",
+        "industry": "Utilities",
+        "name": "Vistra Corp."
+      },
+      "news": [
+        {
+          "headline": "Vistra Just Dropped 16% in a Month, but Its Plans Always Had “a More Conservative View of the AI Build-Out”",
+          "url": "https://finnhub.io/api/news?id=e6bb6a277cd30f60c5207afe4e75a2ffaf45f59188b00f2024bf7ee3b53c9764",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:13:39Z",
+          "primary": false,
+          "symbol": "VST"
+        },
+        {
+          "headline": "Vistra (VST) Could Be 23% Undervalued After Fresh Guidance And Earnings",
+          "url": "https://finnhub.io/api/news?id=a232310a72f38cafc6cbf1ce2665942ff28cbd92ddb3272771388b24c607d860",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T02:11:30Z",
+          "primary": false,
+          "symbol": "VST"
+        },
+        {
+          "headline": "Vistra Closed at $125 After a Record Quarter: Buy the Buyback, or Wait for Texas?",
+          "url": "https://finnhub.io/api/news?id=d7b9d4d97fa145f9d5c8ef7c8abd6a029fb21614775d80f9f14e3ba9de8b0d53",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:30:00Z",
+          "primary": false,
+          "symbol": "VST"
+        },
+        {
+          "headline": "Only 11% of the Power Plants Vistra Just Bought Are in Texas. Here's Why That Matters After the Election.",
+          "url": "https://finnhub.io/api/news?id=2f168ac6fa8911032a10173497ae3a0aedeef5cc38e6d2da2b7de9a8015ab740",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T23:25:00Z",
+          "primary": false,
+          "symbol": "VST"
+        },
+        {
+          "headline": "NextEra Energy vs. Vistra: Which Utilities Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=c5d7fc964034b263f65fd63706e0a4d45ca23159951de450530b494c732fbdd7",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:50:02Z",
+          "primary": false,
+          "symbol": "VST"
+        }
+      ]
+    },
+    "KLAC": {
+      "metrics": {
+        "52WeekHigh": 307.3743,
+        "52WeekLow": 107.2,
+        "peTTM": 35.6918,
+        "psTTM": 12.9382,
+        "netProfitMarginTTM": 36.25,
+        "roeTTM": 87.02,
+        "revenueGrowthTTMYoy": 15.82,
+        "epsGrowthTTMYoy": 25.48,
+        "currentRatioQuarterly": 2.7603,
+        "totalDebt/totalEquityQuarterly": 0.8773,
+        "marketCapitalization": 187678.7
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "KLA Corporation",
+      "profile": {
+        "weburl": "https://www.kla.com/",
+        "industry": "Semiconductors",
+        "name": "KLA Corporation"
+      },
+      "news": [
+        {
+          "headline": "3 Reasons Why Growth Investors Shouldn't Overlook KLA (KLAC)",
+          "url": "https://finnhub.io/api/news?id=0356480e8710bf255c062fcc45dcaf8497139b41084ab191a7069af56b9390e8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:45:02Z",
+          "primary": false,
+          "symbol": "KLAC"
+        },
+        {
+          "headline": "Here's Why KLA (KLAC) Is a Great 'Buy the Bottom' Stock Now",
+          "url": "https://finnhub.io/api/news?id=9638af8825b329c489be91fa8b1dc847fc53a96b83172716ab1186c848de2c97",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:55:04Z",
+          "primary": false,
+          "symbol": "KLAC"
+        },
+        {
+          "headline": "52 ETFs Add to Kla-Tencor (KLAC) Holdings on Nov. 16",
+          "url": "https://finnhub.io/api/news?id=50a908e699ca6c31f141973b93070a5e27cdfa1de3854583262f0458415aa27b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:01:58Z",
+          "primary": false,
+          "symbol": "KLAC"
+        },
+        {
+          "headline": "KLA Corporation (KLAC) Shares Pull Back Amid Semiconductor Sell-Off",
+          "url": "https://finnhub.io/api/news?id=5fe9c215e4a6fa743d0234ef93c0c54f7334bbab5a1c1f3280556e8a7c8a62fd",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:59:30Z",
+          "primary": false,
+          "symbol": "KLAC"
+        },
+        {
+          "headline": "KLAC is Overvalued at 9.37X P/S: Buy, Sell or Hold the Stock?",
+          "url": "https://finnhub.io/api/news?id=0589de958bd9830b2c7eaf6b911162a7233264fb115f644cd2b5fef4ebb43672",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:49:00Z",
+          "primary": false,
+          "symbol": "KLAC"
+        }
+      ]
+    },
+    "EL": {
+      "metrics": {
+        "52WeekHigh": 121.64,
+        "52WeekLow": 66.22,
+        "peTTM": 102.4371,
+        "psTTM": 2.4666,
+        "netProfitMarginTTM": 2.41,
+        "roeTTM": 9.28,
+        "revenueGrowthTTMYoy": 5.82,
+        "currentRatioQuarterly": 1.2508,
+        "totalDebt/totalEquityQuarterly": 1.7957,
+        "marketCapitalization": 37696.86
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Estee Lauder Companies Inc",
+      "profile": {
+        "weburl": "https://www.elcompanies.com/en",
+        "industry": "Consumer products",
+        "name": "Estee Lauder Companies Inc"
+      },
+      "news": []
+    },
+    "USB": {
+      "metrics": {
+        "52WeekHigh": 66.075,
+        "52WeekLow": 45.02,
+        "peTTM": 11.0048,
+        "psTTM": 2.0972,
+        "netProfitMarginTTM": 20.01231,
+        "roeTTM": 12.64,
+        "revenueGrowthTTMYoy": 84.11849,
+        "epsGrowthTTMYoy": 16.66,
+        "totalDebt/totalEquityQuarterly": 1.0996,
+        "marketCapitalization": 92098.94
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "U.S. Bancorp",
+      "profile": {
+        "weburl": "https://www.usbank.com/",
+        "industry": "Banking",
+        "name": "U.S. Bancorp"
+      },
+      "news": [
+        {
+          "headline": "What Is U.S. Bancorp (USB) Signaling With Its $240 Million Housing Fund?",
+          "url": "https://finnhub.io/api/news?id=9d9a7a87600eaa59cfac7c68dc880b7f7726e7b73f2250d74c6203f0bb312894",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:14:34Z",
+          "primary": false,
+          "symbol": "USB"
+        },
+        {
+          "headline": "U.S. Bancorp or Fifth Third Bancorp: The One Dividend Stock I’d Hold for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=2516c477303e648f8533cdb830d573e5660a2e0bc8a84f769d13e6527776b016",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:46:47Z",
+          "primary": false,
+          "symbol": "USB"
+        },
+        {
+          "headline": "U.S. Bancorp vs. Aflac: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=414f9bd761e703259f95e6dc3aae8072b01d09054b5165aa6a3fbe15ee7cfeac",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:58:32Z",
+          "primary": false,
+          "symbol": "USB"
+        },
+        {
+          "headline": "U.S. Bancorp Pays Out 40% of Its Profit as Dividends. Here's How Much Room It Has to Raise Them.",
+          "url": "https://finnhub.io/api/news?id=91c7e47049cdbcabea8957ab9c4fbf38318e1edec5fb978c165bbc1d47111b4b",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T17:35:02Z",
+          "primary": false,
+          "symbol": "USB"
+        },
+        {
+          "headline": "Better Dividend Stock: U.S. Bancorp vs. Hercules Capital",
+          "url": "https://finnhub.io/api/news?id=a227921fc579bc8310066d010ee337ec921c527d4f8f1e5f9cd23097ff33934f",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T14:18:02Z",
+          "primary": false,
+          "symbol": "USB"
+        }
+      ]
+    },
+    "CVS": {
+      "metrics": {
+        "52WeekHigh": 110.68,
+        "52WeekLow": 69.51,
+        "peTTM": 9.4306,
+        "psTTM": 0.2475,
+        "netProfitMarginTTM": 2.62,
+        "roeTTM": 14.11,
+        "revenueGrowthTTMYoy": 6.73,
+        "epsGrowthTTMYoy": 2150.16,
+        "currentRatioQuarterly": 0.8528,
+        "totalDebt/totalEquityQuarterly": 0.7538,
+        "marketCapitalization": 104085.23
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "CVS Health Corporation",
+      "profile": {
+        "weburl": "https://cvshealth.com/",
+        "industry": "Health Care",
+        "name": "CVS Health Corporation"
+      },
+      "news": [
+        {
+          "headline": "Jim Cramer Says Cardinal Health Is “the Stock That Is Made for This Moment”",
+          "url": "https://finnhub.io/api/news?id=f96124b150579e660c5c8a1f1576099e20bb265e8526155d6a18c2afc840f223",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:47:24Z",
+          "primary": false,
+          "symbol": "CVS"
+        },
+        {
+          "headline": "CVS Pharmacy® names Grand Prize winners of first Home Team Heroes youth soccer contest",
+          "url": "https://finnhub.io/api/news?id=6a2c7b1f149cfc3e3fdcbb9b8c2a71aa97e0a4cc16f39f87921103f8a9b71a83",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:40:00Z",
+          "primary": false,
+          "symbol": "CVS"
+        },
+        {
+          "headline": "Why CVS Health (CVS) Cracked the Best Affordable Blue Chip Stocks List",
+          "url": "https://finnhub.io/api/news?id=ce16a6bc1b62ed5b224bc67ee3ae2a677728fd3fac3e88665ddd903067ec8173",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:52:35Z",
+          "primary": false,
+          "symbol": "CVS"
+        },
+        {
+          "headline": "What Is Behind The Move In Elevance Health Stock?",
+          "url": "https://finnhub.io/api/news?id=0c7bfa893866d54df857d53eac82ba2bc4a7b6b7660ef6fd68555bf630a2c7b6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:12:25Z",
+          "primary": false,
+          "symbol": "CVS"
+        },
+        {
+          "headline": "Elizabeth Warren Targets CVS, UnitedHealth and Cigna, Says Healthcare Giants ‘Take a Cut at Every Step’ as She Calls for Breaking Up Conglomerates",
+          "url": "https://finnhub.io/api/news?id=3dc422acba4ca2d73442b267d98593056d03a911a2ba436c73b07a5f83a019e1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:30:05Z",
+          "primary": false,
+          "symbol": "CVS"
+        }
+      ]
+    },
+    "WM": {
+      "metrics": {
+        "52WeekHigh": 248.13,
+        "52WeekLow": 200.575,
+        "peTTM": 30.6416,
+        "psTTM": 3.6084,
+        "netProfitMarginTTM": 11.78,
+        "roeTTM": 30.85,
+        "revenueGrowthTTMYoy": 5.19,
+        "epsGrowthTTMYoy": 20.15,
+        "currentRatioQuarterly": 0.8221,
+        "totalDebt/totalEquityQuarterly": 2.3685,
+        "marketCapitalization": 94069.78
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Waste Management Inc",
+      "profile": {
+        "weburl": "https://www.wm.com/",
+        "industry": "Commercial Services & Supplies",
+        "name": "Waste Management Inc"
+      },
+      "news": [
+        {
+          "headline": "Here's How Much $100 Invested In Waste Management 15 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=d3e0329f49090676df2e5948c0364adb191298a5365aa39bc17a7b81010c9f50",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T19:01:04Z",
+          "primary": false,
+          "symbol": "WM"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Waste Management Stock?",
+          "url": "https://finnhub.io/api/news?id=84b46bf0215ade81244d6625e0f6630a1e811dddb2a56d1d525781ee9aa219bf",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T12:47:56Z",
+          "primary": false,
+          "symbol": "WM"
+        },
+        {
+          "headline": "These 4 Waste and Services Stocks Collect Recurring Revenue",
+          "url": "https://finnhub.io/api/news?id=f8e4e3d72ea223434f319bd2ec74e44e352a6e3b0ffa1ce7ca6cfa2a4e834f30",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T13:25:00Z",
+          "primary": false,
+          "symbol": "WM"
+        },
+        {
+          "headline": "Waste Management (WM) Stock Looks Reasonably Priced On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=a792d7b8b9f9b6e85451d6e6dac65db9c3e380f7d30de5817caf3b666cd3c962",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T20:06:54Z",
+          "primary": false,
+          "symbol": "WM"
+        },
+        {
+          "headline": "Waste Management (WM), Is There More To Its Latest Update?",
+          "url": "https://finnhub.io/api/news?id=15692931da1d10fe2a013d5655b9606db8d4b4e3fa898a3822e8a9301fbc2d53",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T15:11:03Z",
+          "primary": false,
+          "symbol": "WM"
+        }
+      ]
+    },
+    "FSLR": {
+      "metrics": {
+        "52WeekHigh": 320.95,
+        "52WeekLow": 150.25,
+        "peTTM": 8.7191,
+        "psTTM": 3.2363,
+        "netProfitMarginTTM": 37.12,
+        "roeTTM": 18.33,
+        "revenueGrowthTTMYoy": -0.72,
+        "epsGrowthTTMYoy": 32.69,
+        "currentRatioQuarterly": 2.5708,
+        "totalDebt/totalEquityQuarterly": 0.0132,
+        "marketCapitalization": 16227.503
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "First Solar, Inc.",
+      "profile": {
+        "weburl": "https://www.firstsolar.com/en-Emea/",
+        "industry": "Semiconductors",
+        "name": "First Solar, Inc."
+      },
+      "news": [
+        {
+          "headline": "First Solar CEO Urges Bipartisan Support for Industrial Strategy, Enforcement of US Trade and Tax Policy at House Select Committee on China Hearing",
+          "url": "https://finnhub.io/api/news?id=cc95521a0ac7959c58165904c68d97df896cf8d981b3f8a0e7ce34cf7a1e2a18",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:00:00Z",
+          "primary": false,
+          "symbol": "FSLR"
+        },
+        {
+          "headline": "Did The Market Read First Solar Stock Right?",
+          "url": "https://finnhub.io/api/news?id=4e372ab17da171e12dd43f26617c6e3306a21ffad4040b4d6632206deeb74ab8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:41:51Z",
+          "primary": false,
+          "symbol": "FSLR"
+        },
+        {
+          "headline": "First Solar, Inc. (FSLR) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finnhub.io/api/news?id=34d06987138f1e8a38d6d1fcb552418ffb6202e430393544a58e8d91f8d7d802",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:00:05Z",
+          "primary": false,
+          "symbol": "FSLR"
+        },
+        {
+          "headline": "Solar Stocks Rebound After A Brutal Rout: Is The Worst Over For ENPH, FSLR, CSIQ, SEDG Stocks?",
+          "url": "https://finnhub.io/api/news?id=ddccd7ac02e3aebb55a0b7de9c20edec962a5f887122b2535f930f25c7cd321c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T02:53:53Z",
+          "primary": false,
+          "symbol": "FSLR"
+        },
+        {
+          "headline": "First Solar and Enphase Fall 5% as Solar Selloff Stretches On; SolarEdge Drops 4%",
+          "url": "https://finnhub.io/api/news?id=315e6c538aa23436abb725bf60f977b53141db674e6a26bc1e8a5008f02819dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T18:58:32Z",
+          "primary": false,
+          "symbol": "FSLR"
+        }
+      ]
+    },
+    "LRCX": {
+      "metrics": {
+        "52WeekHigh": 438.5,
+        "52WeekLow": 135.5,
+        "peTTM": 31.2918,
+        "psTTM": 10.1199,
+        "netProfitMarginTTM": 32.34,
+        "roeTTM": 71.75,
+        "revenueGrowthTTMYoy": 33.36,
+        "epsGrowthTTMYoy": 48.1,
+        "currentRatioQuarterly": 2.4785,
+        "totalDebt/totalEquityQuarterly": 0.2686,
+        "marketCapitalization": 264412.03
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Lam Research Corporation",
+      "profile": {
+        "weburl": "https://www.lamresearch.com/",
+        "industry": "Semiconductors",
+        "name": "Lam Research Corporation"
+      },
+      "news": [
+        {
+          "headline": "Why Is Lam Research (LRCX) Down 11.5% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=4949efa08c149b84bc258181c2812dd5d59d5abf44dfcd6ecaa800c6eb385170",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:07Z",
+          "primary": false,
+          "symbol": "LRCX"
+        },
+        {
+          "headline": "Lam Research sees wafer-fab spending topping $200 billion in 2027 on AI demand",
+          "url": "https://finnhub.io/api/news?id=e06e8e46aa90a4086966c8a9e971b634c152fa56bc98f31391c8fe4b342dc844",
+          "source": "CNBC",
+          "published_at": "2026-11-19T23:57:30Z",
+          "primary": false,
+          "symbol": "LRCX"
+        },
+        {
+          "headline": "Lam Research Corp (NASDAQ:LRCX): Dividend Quality for Income Investors",
+          "url": "https://finnhub.io/api/news?id=2d2381f8cec0903645af2a9c805c9eeb4f30b10a01aa09b9d8664be2c0827d1f",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T11:01:04Z",
+          "primary": false,
+          "symbol": "LRCX"
+        },
+        {
+          "headline": "Lam Research Corporation (LRCX) Retreated Amid Cyclical Peak Concerns",
+          "url": "https://finnhub.io/api/news?id=c6392fafd78dde377daa662c3c432fff3840c5446bb37e48eafcaba4f42cec3c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:59:11Z",
+          "primary": false,
+          "symbol": "LRCX"
+        },
+        {
+          "headline": "What Is Lam Research No Longer Stressing?",
+          "url": "https://finnhub.io/api/news?id=f7fc3e13ca2c23c0051626c3fda1e9e71680892ee7bc389e80da23599eafacbe",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:02:16Z",
+          "primary": false,
+          "symbol": "LRCX"
+        }
+      ]
+    },
+    "PM": {
+      "metrics": {
+        "52WeekHigh": 214.35,
+        "52WeekLow": 146.35,
+        "peTTM": 27.14,
+        "psTTM": 6.7375,
+        "netProfitMarginTTM": 24.82,
+        "roeTTM": 575.44,
+        "revenueGrowthTTMYoy": 7.87,
+        "epsGrowthTTMYoy": 24.01,
+        "currentRatioQuarterly": 1.0235,
+        "totalDebt/totalEquityQuarterly": 186.0804,
+        "marketCapitalization": 290642.5
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "Philip Morris International Inc.",
+      "profile": {
+        "weburl": "https://www.pmi.com/",
+        "industry": "Tobacco",
+        "name": "Philip Morris International Inc."
+      },
+      "news": [
+        {
+          "headline": "Philip Morris (PM) Down 7.6% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=48ac7542ef40fb1d21fa4007bc01d64fcea27677e5083567933de7ec7f4d8f86",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:09Z",
+          "primary": false,
+          "symbol": "PM"
+        },
+        {
+          "headline": "Philip Morris: My Thesis Has Played Out, Smoke-Free Transition Looks Priced In (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=106997504f881d256591b1b782f28f8cdb90c2e16be3fdfbf3e71e343a7b8200",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T07:45:00Z",
+          "primary": false,
+          "symbol": "PM"
+        },
+        {
+          "headline": "If You Invested $100 In Philip Morris Intl Stock 5 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=97e045f9359ddb42b848a24556ead744cc3d9e00e4b283c67027b3738704e3b7",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T19:30:18Z",
+          "primary": false,
+          "symbol": "PM"
+        },
+        {
+          "headline": "Philip Morris vs. British American Tobacco: Which Tobacco Dividend Is Better for Retirees?",
+          "url": "https://finnhub.io/api/news?id=af881f2e27e19bac725795e7091c6f8eab4a9363743bc3097ab188e7d0c5bfc1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:47:42Z",
+          "primary": false,
+          "symbol": "PM"
+        },
+        {
+          "headline": "Philip Morris: ZYN Execution And Macro Headwinds Mount - Mixed Risk/Reward Ahead (Downgrade)",
+          "url": "https://finnhub.io/api/news?id=5d6021f3de08a0787b0ec3897bc4b478b6c98b991de54b180b6669bc6a27a6f5",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T08:49:51Z",
+          "primary": false,
+          "symbol": "PM"
+        }
+      ]
+    },
+    "PNC": {
+      "metrics": {
+        "52WeekHigh": 258.96,
+        "52WeekLow": 177.08,
+        "peTTM": 11.1054,
+        "psTTM": 2.34179,
+        "netProfitMarginTTM": 28.83245,
+        "roeTTM": 12.61,
+        "revenueGrowthTTMYoy": 72.26733,
+        "epsGrowthTTMYoy": 20.27,
+        "totalDebt/totalEquityQuarterly": 0.6936,
+        "marketCapitalization": 87743.49
+      },
+      "updated_at": "2026-11-20T18:45:56Z",
+      "name": "The PNC Financial Services Group, Inc.",
+      "profile": {
+        "weburl": "https://www.pnc.com/",
+        "industry": "Banking",
+        "name": "The PNC Financial Services Group, Inc."
+      },
+      "news": [
+        {
+          "headline": "PNC Bank Introduces New Personal Loan Experience with Fast Access to Funds, Predictable Monthly Payments",
+          "url": "https://finnhub.io/api/news?id=8ff145c5afe4e059c9377a96c8ff18559f90301b1786da0d7c529e74a1c73785",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:02:00Z",
+          "primary": false,
+          "symbol": "PNC"
+        },
+        {
+          "headline": "PNC Grow Up Great Wins Gold Anthem Award in K-12 Education Innovation",
+          "url": "https://finnhub.io/api/news?id=be264d8bd4d44c631aa30b0ccbf701ed281aa124455905b39c7ae841fc92328e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:30:00Z",
+          "primary": false,
+          "symbol": "PNC"
+        },
+        {
+          "headline": "US Financial 15 Split Corp. Preferred Dividend Declared",
+          "url": "https://finnhub.io/api/news?id=ca700505a058bb17afe7dcf9cdbfff0f119de421187bee5926ec8d47f610bb41",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:00:00Z",
+          "primary": false,
+          "symbol": "PNC"
+        },
+        {
+          "headline": "PNC Bank Introduces Early Pay, Giving Clients Earlier Access to Their Money",
+          "url": "https://finnhub.io/api/news?id=47b48a48f36d5607cbba47a7468ad2b41f47a46e56ffb7b3b29ee86683ef0512",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:05:00Z",
+          "primary": false,
+          "symbol": "PNC"
+        },
+        {
+          "headline": "Here is How a Tightening Cycle Bodes Well For PNC Financial (PNC)",
+          "url": "https://finnhub.io/api/news?id=5bed64ffbdeb686853fb3240b438948b3a122458c772f80df8b7ffbf119bc07e",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T17:04:20Z",
+          "primary": false,
+          "symbol": "PNC"
+        }
+      ]
     }
   },
-  "cursor": 200,
-  "updated_at": "2026-11-20T18:04:54Z"
+  "cursor": 212,
+  "updated_at": "2026-11-20T18:45:56Z"
 }
