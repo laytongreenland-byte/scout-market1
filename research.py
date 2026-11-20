@@ -301,12 +301,13 @@ def update_history(history, candidates, quotes, now, companies=None):
     return add_weekly_observations(hist,candidates,quotes,companies or {},now)
 
 
-def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_summary, token, fetch, verified_url, now, ml_model=None, ml_report=None):
+def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_summary, token, fetch, verified_url, now, ml_model=None, ml_report=None, etf_symbols=None):
     cache=dict(prev_cache) if isinstance(prev_cache,dict) else {}
     data=dict(cache.get('companies',{}))
-    equities=[x for x in symbols if x not in ('VOO','VTI','VT','QQQ','SPY','SCHD','IVV','VEA','VWO')]
+    etfs=set(etf_symbols or ('VOO','VTI','VT','QQQ','SPY','SCHD','IVV','VEA','VWO'))
+    equities=[x for x in symbols if x not in etfs]
     idx=int(cache.get('cursor') or 0)%max(1,len(equities))
-    batch=[equities[(idx+i)%len(equities)] for i in range(min(8,len(equities)))]
+    batch=[equities[(idx+i)%len(equities)] for i in range(min(12,len(equities)))]
     problems=[]
     processed=0
     if token and os.environ.get('SCOUT_OFFLINE') != '1':
@@ -418,7 +419,9 @@ def generate_research(symbols, quotes, events, prev_cache, prev_history, prev_su
     mov=[{'symbol':q['symbol'],'change_pct':q.get('change_pct'),'price':q.get('price'),'price_at':q.get('price_at')}
          for q in quotes if isinstance(q.get('change_pct'),(int,float)) and abs(q['change_pct'])>=4 and not q.get('stale') and hours_old(q.get('price_at'),now)<=75]
     mov.sort(key=lambda q:abs(q['change_pct']),reverse=True)
-    public={'generated_at':iso(now),'universe_size':len(symbols),'screened_with_financials':sum(c.get('score') is not None for c in candidates),
+    public={'generated_at':iso(now),'universe_size':len(symbols),'equity_universe_size':len(equities),
+            'etf_universe_size':len(etfs),
+            'screened_with_financials':sum(c.get('score') is not None for c in candidates),
             'updated_company_metrics_this_scan':processed,'candidates':ranked[:20],
             'entry_candidates':entry_candidates[:8],'entry_watch':entry_watch,
             'pricing_method':'Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.',
