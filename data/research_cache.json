@@ -14871,8 +14871,702 @@
           "symbol": "APTV"
         }
       ]
+    },
+    "ACGL": {
+      "metrics": {
+        "52WeekHigh": 113.633,
+        "52WeekLow": 87.05,
+        "peTTM": 8.0441,
+        "psTTM": 1.9563,
+        "netProfitMarginTTM": 24.32,
+        "roeTTM": 18.35,
+        "revenueGrowthTTMYoy": -4.93,
+        "epsGrowthTTMYoy": 14.48,
+        "currentRatioQuarterly": 0.7232,
+        "totalDebt/totalEquityQuarterly": 0.1864,
+        "marketCapitalization": 35208.82
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Arch Capital Group Ltd.",
+      "profile": {
+        "weburl": "https://www.archgroup.com/",
+        "industry": "Insurance",
+        "name": "Arch Capital Group Ltd."
+      },
+      "news": [
+        {
+          "headline": "AM Best Affirms Credit Ratings of Arch Capital Group Ltd. and Its Subsidiaries",
+          "url": "https://finnhub.io/api/news?id=c05043dd72c65399cc4761c944cf7ae497d6e4dbca104c55c6e9e0b099fb5ab9",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:08:00Z",
+          "primary": false,
+          "symbol": "ACGL"
+        },
+        {
+          "headline": "Mizuho Maintains Neutral on Arch Capital Group, Raises Price Target to $109",
+          "url": "https://finnhub.io/api/news?id=ea14266894a51e5d0bf202cfc2ea8dbd7d8b591f073242c0936a25f9fb1671c9",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:10:45Z",
+          "primary": false,
+          "symbol": "ACGL"
+        },
+        {
+          "headline": "Arch Capital Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=9fd9adf64963e2d550987e90737c5695f942c5ed88997211a2c0f28fbfb10f4d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:34:45Z",
+          "primary": false,
+          "symbol": "ACGL"
+        },
+        {
+          "headline": "Arch Capital: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=1704d9350e6b3ba8a2a47eef6177af07bcefb7c0c35a30b7304ba8e8cf4e6916",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:50:02Z",
+          "primary": false,
+          "symbol": "ACGL"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Arch Capital Group, Raises Price Target to $113",
+          "url": "https://finnhub.io/api/news?id=f67bdb4a7d9487d414f8f33335aff350eefb796647c4d2a17bf893e95fd63238",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T11:58:16Z",
+          "primary": false,
+          "symbol": "ACGL"
+        }
+      ]
+    },
+    "ADM": {
+      "metrics": {
+        "52WeekHigh": 88.75,
+        "52WeekLow": 56.8,
+        "peTTM": 12.9244,
+        "psTTM": 0.3818,
+        "netProfitMarginTTM": 2.95,
+        "roeTTM": 10.68,
+        "revenueGrowthTTMYoy": 1.02,
+        "epsGrowthTTMYoy": 107.95,
+        "currentRatioQuarterly": 1.4452,
+        "totalDebt/totalEquityQuarterly": 0.3664,
+        "marketCapitalization": 32091.23
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Archer-Daniels-Midland Co",
+      "profile": {
+        "weburl": "https://www.adm.com/",
+        "industry": "Food Products",
+        "name": "Archer-Daniels-Midland Co"
+      },
+      "news": [
+        {
+          "headline": "ADM to Present at Goldman Sachs Industrials & Materials Conference 2026",
+          "url": "https://finnhub.io/api/news?id=5c09b767e55a6796fd64966c7c2cea57d3d7ea9ddaa8cc91a770cb4c658a3815",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:00:00Z",
+          "primary": false,
+          "symbol": "ADM"
+        },
+        {
+          "headline": "ADM Raises 2026 Earnings Outlook as Biofuel Strength Lifts Profit",
+          "url": "https://finnhub.io/api/news?id=0d26f7e85c97c1d33230c67b24958a6b69573c72e8de605889280b0ed771209c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T16:41:00Z",
+          "primary": false,
+          "symbol": "ADM"
+        },
+        {
+          "headline": "Is ADM Stock Worth Buying as Earnings Improve but Key Risks Persist?",
+          "url": "https://finnhub.io/api/news?id=ecb4fda450a504cbe5d088d4468bd7439eef4fb8165c9418803447cd0d69225a",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T16:39:00Z",
+          "primary": false,
+          "symbol": "ADM"
+        },
+        {
+          "headline": "ADM Stock Falls 11.8% in the Past Month: Is the Pullback a Buy Now?",
+          "url": "https://finnhub.io/api/news?id=5ae12e18908b0d6309ed1b2f7c326d94709a1dd0f4d24ad2fc6182295dcd5dcc",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T16:34:00Z",
+          "primary": false,
+          "symbol": "ADM"
+        },
+        {
+          "headline": "ADM Announces More Than $60 Million in Investments at Decatur Oilseed Facility",
+          "url": "https://finnhub.io/api/news?id=1c030675c212cd694b0228e610575a36ee01c8645f115e924a9c1533499e9e66",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:00:00Z",
+          "primary": false,
+          "symbol": "ADM"
+        }
+      ]
+    },
+    "ARES": {
+      "metrics": {
+        "52WeekHigh": 181.19,
+        "52WeekLow": 95.8,
+        "peTTM": 44.6054,
+        "psTTM": 4.7406,
+        "netProfitMarginTTM": 10.63,
+        "roeTTM": 15.2,
+        "revenueGrowthTTMYoy": 24.03,
+        "epsGrowthTTMYoy": 23.51,
+        "currentRatioQuarterly": 0.2831,
+        "totalDebt/totalEquityQuarterly": 3.5433,
+        "marketCapitalization": 28384.842
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Ares Management Corporation",
+      "profile": {
+        "weburl": "https://www.aresmgmt.com/",
+        "industry": "Financial Services",
+        "name": "Ares Management Corporation"
+      },
+      "news": [
+        {
+          "headline": "Ares Management Corporation (ARES) Presents at TD Cowen's Financials & Fintech Conference Transcript",
+          "url": "https://finnhub.io/api/news?id=a3ce745829bd35787f41d3cc7d9763a49b319651c4abcaf78b3805bd62734acb",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T18:13:09Z",
+          "primary": false,
+          "symbol": "ARES"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Ares Management 10 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=e0f97b8324bb7a32c06057cdbfc89bcba95e0af9562a8be211998b7b704d0da4",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T10:15:20Z",
+          "primary": false,
+          "symbol": "ARES"
+        },
+        {
+          "headline": "Mizuho starts coverage of asset managers, backs Apollo, Ares and Blackstone",
+          "url": "https://finnhub.io/api/news?id=b6399e69f65220e3142bf97367f1a1349893be56505273dcb0646b37c15afb8e",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T16:13:27Z",
+          "primary": false,
+          "symbol": "ARES"
+        },
+        {
+          "headline": "'Blackstone in talks to back giant NBA Europe arena fund; Arctos, which is owned by investment giant KKR, and Ares are also holding discussions with the NBA about committing capital to a giant infrastructure fund for a new Europea",
+          "url": "https://finnhub.io/api/news?id=0b2cc4d070afd37a54ac94aef87859dad3e18ebee46e78ff72948c6812a687bb",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T09:10:11Z",
+          "primary": false,
+          "symbol": "ARES"
+        },
+        {
+          "headline": "Mizuho Initiates Coverage On Ares Management with Outperform Rating, Announces Price Target of $159",
+          "url": "https://finnhub.io/api/news?id=159833a3d1588790baedd50afc9c8f6e1a935f0b8d0da87bb9a56b98b2205b6d",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T08:00:11Z",
+          "primary": false,
+          "symbol": "ARES"
+        }
+      ]
+    },
+    "AJG": {
+      "metrics": {
+        "52WeekHigh": 294.53,
+        "52WeekLow": 190.75,
+        "peTTM": 41.6701,
+        "psTTM": 4.4662,
+        "netProfitMarginTTM": 10.72,
+        "roeTTM": 7.17,
+        "revenueGrowthTTMYoy": 21.74,
+        "epsGrowthTTMYoy": 4.31,
+        "currentRatioQuarterly": 1.0529,
+        "totalDebt/totalEquityQuarterly": 0.5396,
+        "marketCapitalization": 70843.32
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Arthur J. Gallagher & Co.",
+      "profile": {
+        "weburl": "https://www.ajg.com",
+        "industry": "Insurance",
+        "name": "Arthur J. Gallagher & Co."
+      },
+      "news": [
+        {
+          "headline": "Wells Fargo Downgrades Arthur J. Gallagher to Equal-Weight from Overweight",
+          "url": "https://finnhub.io/api/news?id=4a860231bc9688ad17743a2a02c07a4f6adf2afa40fb3e3c34d2bc602e5d95d4",
+          "source": "Fintel",
+          "published_at": "2026-11-20T01:26:29Z",
+          "primary": false,
+          "symbol": "AJG"
+        },
+        {
+          "headline": "Arthur J. Gallagher & Co. Acquires AgriServ, Inc.",
+          "url": "https://finnhub.io/api/news?id=405d0d8ec2d0f0a8773f5915805088b6a87c9cf9a9a7596a6ffc21da1f59f5bf",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:01:00Z",
+          "primary": false,
+          "symbol": "AJG"
+        },
+        {
+          "headline": "Wells Fargo Downgrades Arthur J. Gallagher to Equal-Weight, Lowers Price Target to $294",
+          "url": "https://finnhub.io/api/news?id=78bf11df2c721d6aab2c8aecbf3ff0b4740fe7cceb7747ede73c421d05d097f3",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T09:33:08Z",
+          "primary": false,
+          "symbol": "AJG"
+        },
+        {
+          "headline": "Arthur J. Gallagher & Co. Acquires Bay and Basin Insurance Services, LLC",
+          "url": "https://finnhub.io/api/news?id=2069f9994044e68d8d89f50636bcf5323f754edcf1ae2a1034d96c9ae3442e1e",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:00:00Z",
+          "primary": false,
+          "symbol": "AJG"
+        },
+        {
+          "headline": "Argus Research Maintains Buy on Arthur J. Gallagher, Raises Price Target to $317",
+          "url": "https://finnhub.io/api/news?id=e32085796c2f886d17d950efcf719535eecbb6d23f2a491f5d765f8e8d0f94a7",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T12:22:21Z",
+          "primary": false,
+          "symbol": "AJG"
+        }
+      ]
+    },
+    "AIZ": {
+      "metrics": {
+        "52WeekHigh": 326.989,
+        "52WeekLow": 209.86,
+        "peTTM": 14.5843,
+        "psTTM": 1.1376,
+        "netProfitMarginTTM": 7.8,
+        "roeTTM": 18.01,
+        "revenueGrowthTTMYoy": 9.43,
+        "epsGrowthTTMYoy": 31.09,
+        "currentRatioQuarterly": 0.0016,
+        "totalDebt/totalEquityQuarterly": 0.3686,
+        "marketCapitalization": 15650.363
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Assurant Inc",
+      "profile": {
+        "weburl": "https://www.assurant.com/",
+        "industry": "Insurance",
+        "name": "Assurant Inc"
+      },
+      "news": [
+        {
+          "headline": "Assurant Board of Directors Approves Common Stock Dividend Increase of 9%",
+          "url": "https://finnhub.io/api/news?id=cb112c5842a1b4b4a7011b27139c6e1eed5689f5a0a86a17a2079d5a0a578135",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:15:00Z",
+          "primary": false,
+          "symbol": "AIZ"
+        },
+        {
+          "headline": "All You Need to Know About Assurant (AIZ) Rating Upgrade to Strong Buy",
+          "url": "https://finnhub.io/api/news?id=ce66e6f6f5c3204f9b53a9926ed40d21755ab12b82feae3b6a9d80ec79973690",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:03Z",
+          "primary": false,
+          "symbol": "AIZ"
+        },
+        {
+          "headline": "AIZ Stock Trading at a Discount to Industry at 2.64X: Time to Buy?",
+          "url": "https://finnhub.io/api/news?id=042fbc675a7e3865e1abd0524d199d843e1688574c413681b1191d6a3cc0469e",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T15:00:00Z",
+          "primary": false,
+          "symbol": "AIZ"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Overweight on Assurant, Raises Price Target to $360",
+          "url": "https://finnhub.io/api/news?id=73989d788b370ecd21e6c59fe43965595b36ef8c5c73c314297bc6382cfcb391",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T10:58:39Z",
+          "primary": false,
+          "symbol": "AIZ"
+        }
+      ]
+    },
+    "ATO": {
+      "metrics": {
+        "52WeekHigh": 192.51,
+        "52WeekLow": 154.72,
+        "peTTM": 20.4346,
+        "psTTM": 5.8231,
+        "netProfitMarginTTM": 28.5,
+        "roeTTM": 9.67,
+        "revenueGrowthTTMYoy": 6.45,
+        "epsGrowthTTMYoy": 15.78,
+        "currentRatioQuarterly": 0.8137,
+        "totalDebt/totalEquityQuarterly": 0.6766,
+        "marketCapitalization": 28658.375
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Atmos Energy Corporation",
+      "profile": {
+        "weburl": "https://www.atmosenergy.com/",
+        "industry": "Utilities",
+        "name": "Atmos Energy Corporation"
+      },
+      "news": [
+        {
+          "headline": "Atmos Energy (ATO) Stock Looks To Trade At A Premium Today",
+          "url": "https://finnhub.io/api/news?id=7bccece8f8deeeae3e40be7080e95780e4dad5683709b7da7792c4eb76bbd051",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:12:02Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
+          "headline": "Atmos Energy (ATO) Following Its Equity Raise, Is The Valuation Case Still Intact?",
+          "url": "https://finnhub.io/api/news?id=8f774c10921b15c7faab26f5577de5e1e13c8f74756dc6aa524dbbae5277f828",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:18:36Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
+          "headline": "Better Dividend Stock: AEP vs. Atmos Energy",
+          "url": "https://finnhub.io/api/news?id=848061ace6aca86c44886563c326083aebe9623c9a5450866bc4a0f11293c81f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:58:43Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
+          "headline": "All You Need to Know About Atmos (ATO) Rating Upgrade to Buy",
+          "url": "https://finnhub.io/api/news?id=6e9750fbd6813e82f006264aa3163da88295f690efc92dc31d7a6e83d58d8936",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:00:02Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
+          "headline": "Are Utilities Stocks Lagging  Atmos Energy (ATO) This Year?",
+          "url": "https://finnhub.io/api/news?id=1a435bcd91e7450eef4658ee11dac5730361c958b6408097874d745f9529a775",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:40:04Z",
+          "primary": false,
+          "symbol": "ATO"
+        }
+      ]
+    },
+    "AZO": {
+      "metrics": {
+        "52WeekHigh": 3996.25,
+        "52WeekLow": 2730.65,
+        "peTTM": 20.4424,
+        "psTTM": 2.5859,
+        "netProfitMarginTTM": 12.65,
+        "roeTTM": 249.27,
+        "revenueGrowthTTMYoy": 7.39,
+        "epsGrowthTTMYoy": 5.6,
+        "currentRatioQuarterly": 0.901,
+        "totalDebt/totalEquityQuarterly": 37.8052,
+        "marketCapitalization": 52593.652
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "AutoZone, Inc.",
+      "profile": {
+        "weburl": "https://www.autozone.com/",
+        "industry": "Retail",
+        "name": "AutoZone, Inc."
+      },
+      "news": [
+        {
+          "headline": "ETFs Bought $166.8 Million of AutoZone (AZO) on Monday",
+          "url": "https://finnhub.io/api/news?id=fc6365f4ef65f1f65e3a0c1cf3a0bcef95bed973b05cd2ab059441d61384a7d0",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:01:48Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
+          "headline": "Stifel Initiates Coverage On AutoZone with Hold Rating, Announces Price Target of $3450",
+          "url": "https://finnhub.io/api/news?id=602c56daf58b6ce9ccaff873803debb76943cce19ea3c1fbf4b6253be5a11d99",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T08:28:21Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
+          "headline": "AutoZone, Inc. (AZO) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finnhub.io/api/news?id=fe3e0d1b4c8c5edb1be7a9d5a215053ee9f1d37e744b9b841b9069bc3b987ff5",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:00:03Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
+          "headline": "AutoZone to hold Stockholders’ Meeting December 16, 2026",
+          "url": "https://finnhub.io/api/news?id=09fea78fec420deb35b760b443c99bf94b1d33a030267a793e027c5f939a9297",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T22:00:00Z",
+          "primary": false,
+          "symbol": "AZO"
+        }
+      ]
+    },
+    "AVY": {
+      "metrics": {
+        "52WeekHigh": 199.54,
+        "52WeekLow": 152.42,
+        "peTTM": 20.0255,
+        "psTTM": 1.5147,
+        "netProfitMarginTTM": 7.56,
+        "roeTTM": 30.620000000000005,
+        "revenueGrowthTTMYoy": 6.77,
+        "epsGrowthTTMYoy": 4.85,
+        "currentRatioQuarterly": 1.1608,
+        "totalDebt/totalEquityQuarterly": 1.5134,
+        "marketCapitalization": 14184.068
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Avery Dennison Corp",
+      "profile": {
+        "weburl": "https://www.averydennison.com/en/home.html",
+        "industry": "Packaging",
+        "name": "Avery Dennison Corp"
+      },
+      "news": [
+        {
+          "headline": "Global Veterinary Asset Tracking Market Report 2026: Trends and Forecast to 2030 | Capitalize on AI, IoT and RFID as Honeywell, Zebra, Avery Dennison and Impinj Accelerate",
+          "url": "https://finnhub.io/api/news?id=dadc1e6ebddddcd7b676f1bc1b174e1064748c62331477f6e76481d63bc72c10",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:44:00Z",
+          "primary": false,
+          "symbol": "AVY"
+        },
+        {
+          "headline": "Tagging Gun Fastener Market Report 2026: Size, Trends, Forecast to 2030 | Capitalize on RFID and Sustainable Fasteners with Avery Dennison, Checkpoint Systems, and Arrow Fastener",
+          "url": "https://finnhub.io/api/news?id=8c12d285f24189a8fd8c5f3aa6f9171e8644820dc49f271130529d756a0aa57e",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:30:00Z",
+          "primary": false,
+          "symbol": "AVY"
+        },
+        {
+          "headline": "Avery Dennison Announces Final Results and Upsize of Cash Tender Offers for Its Senior Notes",
+          "url": "https://finnhub.io/api/news?id=b5de23d62641f3671af160a3353f41da6fcbc247e710e9d4d878bde433a4635b",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T11:45:00Z",
+          "primary": false,
+          "symbol": "AVY"
+        },
+        {
+          "headline": "Avery Dennison Announces Pricing Terms of Cash Tender Offers for Its Senior Notes",
+          "url": "https://finnhub.io/api/news?id=180fef183c6c2bba1736717d88968459175de7b800c9f5b2a99c2e54ba742a55",
+          "source": "Yahoo",
+          "published_at": "2026-11-12T20:42:00Z",
+          "primary": false,
+          "symbol": "AVY"
+        }
+      ]
+    },
+    "AXON": {
+      "metrics": {
+        "52WeekHigh": 665.065,
+        "52WeekLow": 291.105,
+        "peTTM": 96.7086,
+        "psTTM": 7.3158,
+        "netProfitMarginTTM": 7.56,
+        "roeTTM": 7.2700000000000005,
+        "revenueGrowthTTMYoy": 33.58,
+        "epsGrowthTTMYoy": -0.92,
+        "currentRatioQuarterly": 3.0011,
+        "totalDebt/totalEquityQuarterly": 0.7622,
+        "marketCapitalization": 24998.213
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Axon Enterprise, Inc.",
+      "profile": {
+        "weburl": "https://www.axon.com/",
+        "industry": "Aerospace & Defense",
+        "name": "Axon Enterprise, Inc."
+      },
+      "news": [
+        {
+          "headline": "Is It Too Early To Buy Axon Enterprise Stock?",
+          "url": "https://finnhub.io/api/news?id=e3e50b54915447ea3d6de4888be985b34237d93b0040ac641f78bfc0aca142c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:07:16Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Axon Enterprise vs. UiPath: Which Industrials Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=42f14f98bce57bc24ff46877c48b2c2f75cf70e56fbde5f3031985faba7566e3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:33:21Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Connected for Safety: How State and Local Agencies Across the Country Are Modernizing Public Safety with Axon",
+          "url": "https://finnhub.io/api/news?id=a51d39a5c25100a8068a0dd393e95c3ee1e3ffd309caf3f911ef1ca477f1c7b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:00:00Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Siyata PTT Joins Axon Arc as Inaugural Partner",
+          "url": "https://finnhub.io/api/news?id=3d78c2e4891f5269788499b4971653483182b2a47c271e264a9b44cf351764b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Axon Enterprise Doubles Down on Skydio as AI Growth Helps Offset Delayed Federal Deals",
+          "url": "https://finnhub.io/api/news?id=0ad0ff8efa1b39728d91b5a94c03a58787c18d17c407e4609b5663008d6dc1dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:12:08Z",
+          "primary": false,
+          "symbol": "AXON"
+        }
+      ]
+    },
+    "BKR": {
+      "metrics": {
+        "52WeekHigh": 70.41,
+        "52WeekLow": 44.26,
+        "peTTM": 16.0921,
+        "psTTM": 1.6227,
+        "netProfitMarginTTM": 10.08,
+        "roeTTM": 14.829999999999998,
+        "revenueGrowthTTMYoy": 3.71,
+        "epsGrowthTTMYoy": 0.29,
+        "currentRatioQuarterly": 1.2383,
+        "totalDebt/totalEquityQuarterly": 0.9072,
+        "marketCapitalization": 46634.965
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Baker Hughes Company",
+      "profile": {
+        "weburl": "https://www.bakerhughes.com/",
+        "industry": "Energy",
+        "name": "Baker Hughes Company"
+      },
+      "news": [
+        {
+          "headline": "INPEX Awards Baker Hughes-McDermott Contract for Ichthys LNG Expansion",
+          "url": "https://finnhub.io/api/news?id=c1aafa1e193ebee743c1cb625ccee88285c3cdcfc6d64acf8a0c155be739357d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:09:00Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "Baker Hughes and McDermott Win Contract for Major Australian LNG Project",
+          "url": "https://finnhub.io/api/news?id=8e7ca9506dbfa0f16c52e88a9c3b9a64640ddcf5a30053c17b5355fc2c38c207",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:40:00Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "What's Going On With Baker Hughes Stock Thursday?",
+          "url": "https://finnhub.io/api/news?id=ab7cea50fb74ecde14ff3956d746f92fc9213562b9ed4ac8e94f90d6bc103cc1",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T12:23:36Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "INPEX Awards McDermott-Baker Hughes Consortium Contract for Ichthys LNG Development",
+          "url": "https://finnhub.io/api/news?id=403c9221029387a718d577aad6a35d6728f2bf9f4c0d9f3439a94649828e2a0c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:00:00Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Baker Hughes 5 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=409023138149f6fb4a8494316eb80baa6902da7edcf946a7bb55192d3f9d934b",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:45:13Z",
+          "primary": false,
+          "symbol": "BKR"
+        }
+      ]
+    },
+    "BALL": {
+      "metrics": {
+        "52WeekHigh": 69.575,
+        "52WeekLow": 46.65,
+        "peTTM": 31.0809,
+        "psTTM": 1.0925,
+        "netProfitMarginTTM": 3.52,
+        "roeTTM": 9.46,
+        "revenueGrowthTTMYoy": 19.23,
+        "epsGrowthTTMYoy": -19.35,
+        "currentRatioQuarterly": 1.0436,
+        "totalDebt/totalEquityQuarterly": 1.2734,
+        "marketCapitalization": 16535.02
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Ball Corp",
+      "profile": {
+        "weburl": "https://www.ball.com/",
+        "industry": "Packaging",
+        "name": "Ball Corp"
+      },
+      "news": [
+        {
+          "headline": "Do Wall Street Analysts Like Ball Corporation Stock?",
+          "url": "https://finnhub.io/api/news?id=a6ca575eb33ca380dc0bfc0383f05552876c27e63eff19b8796b3986bc573ff7",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:13:13Z",
+          "primary": false,
+          "symbol": "BALL"
+        }
+      ]
+    },
+    "BAX": {
+      "metrics": {
+        "52WeekHigh": 30.0,
+        "52WeekLow": 15.73,
+        "psTTM": 1.1389,
+        "netProfitMarginTTM": -6.23,
+        "roeTTM": -11.62,
+        "revenueGrowthTTMYoy": 5.33,
+        "currentRatioQuarterly": 1.7921,
+        "totalDebt/totalEquityQuarterly": 1.3228,
+        "marketCapitalization": 13223.42
+      },
+      "updated_at": "2026-11-20T20:27:20Z",
+      "name": "Baxter International Inc.",
+      "profile": {
+        "weburl": "https://www.baxter.com/",
+        "industry": "Health Care",
+        "name": "Baxter International Inc."
+      },
+      "news": [
+        {
+          "headline": "Baxter International Inc. Outlines Turnaround Progress and Updates 2026 Guidance",
+          "url": "https://finnhub.io/api/news?id=29db25cb1a848e1ebdd3c3ad4ce4efc4a9ab0954be8ced7fbf934a29aa297264",
+          "source": "Fintel",
+          "published_at": "2026-11-19T15:38:36Z",
+          "primary": false,
+          "symbol": "BAX"
+        },
+        {
+          "headline": "Baxter: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=14214b593552bd262f030cf253d522c6fee7741a087a384659f729fef831efef",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T20:50:02Z",
+          "primary": false,
+          "symbol": "BAX"
+        },
+        {
+          "headline": "Global Gynecological Examination Chairs Market Report 2026: Size, 7% CAGR and Forecast to 2030 | Capitalize on Smart Chairs with Stryker, Baxter, STERIS and Midmark",
+          "url": "https://finnhub.io/api/news?id=5d2a9c86bac425de3ae3a6e2e4326a9657b3b808755165f9e0d95b886499d16c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:45:00Z",
+          "primary": false,
+          "symbol": "BAX"
+        }
+      ]
     }
   },
-  "cursor": 248,
-  "updated_at": "2026-11-20T20:09:04Z"
+  "cursor": 260,
+  "updated_at": "2026-11-20T20:27:20Z"
 }
