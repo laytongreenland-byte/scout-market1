@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-19T23:53:40Z",
+  "generated_at": "2026-11-20T01:16:49Z",
   "status": "partial",
   "sources": [
     {
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-19T23:53:40Z",
+      "checked_at": "2026-11-20T01:16:49Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-19T23:53:40Z",
+      "checked_at": "2026-11-20T01:16:49Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": false,
       "count": 0,
-      "checked_at": "2026-11-19T23:53:40Z",
+      "checked_at": "2026-11-20T01:16:49Z",
       "error": "Not configured: SEC requires a descriptive application + contact email in the private SEC_USER_AGENT GitHub secret"
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 53,
-      "checked_at": "2026-11-19T23:53:40Z",
+      "checked_at": "2026-11-20T01:16:49Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 8,
-      "checked_at": "2026-11-19T23:53:40Z",
+      "checked_at": "2026-11-20T01:16:49Z",
       "error": ""
     }
   ],
@@ -1191,7 +1191,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-19T23:53:40Z",
+    "generated_at": "2026-11-20T01:16:49Z",
     "universe_size": 53,
     "screened_with_financials": 48,
     "updated_company_metrics_this_scan": 8,
@@ -1433,10 +1433,10 @@
         "name": "Adobe Inc",
         "status": "INVESTIGATE",
         "score": 79,
-        "industry": "Unclassified",
+        "industry": "Technology",
         "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
@@ -1448,35 +1448,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:53:49Z",
+            "timestamp": "2026-11-20T01:16:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-            "timestamp": "2026-11-19T18:17:02Z",
-            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522"
+            "value": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
+            "timestamp": "2026-11-19T21:45:02Z",
+            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "fundamentals_at": "2026-11-20T01:16:49Z",
         "price": 221.68,
         "currency": "USD",
         "change_pct": -1.998,
         "news": [
           {
-            "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
+            "headline": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
+            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:17:02Z",
+            "published_at": "2026-11-19T21:45:02Z",
             "primary": false,
             "symbol": "ADBE"
           },
           {
-            "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
-            "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
+            "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
             "source": "Yahoo",
-            "published_at": "2026-11-19T16:00:00Z",
+            "published_at": "2026-11-19T18:17:02Z",
             "primary": false,
             "symbol": "ADBE"
           }
@@ -1897,10 +1897,10 @@
         "name": "Salesforce, Inc.",
         "status": "WATCH",
         "score": 75,
-        "industry": "Unclassified",
+        "industry": "Technology",
         "why": "Net profit margin 22.0% (TTM); Return on equity 20.2% (TTM); Trailing P/E 16.2×; TTM revenue growth 11.2% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
@@ -1912,35 +1912,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:53:49Z",
+            "timestamp": "2026-11-20T01:16:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
-            "timestamp": "2026-11-19T19:10:04Z",
-            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac"
+            "value": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-19T19:52:04Z",
+            "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e"
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "fundamentals_at": "2026-11-20T01:16:49Z",
         "price": 183.31,
         "currency": "USD",
         "change_pct": -3.724,
         "news": [
           {
-            "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
-            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
+            "headline": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:10:04Z",
+            "published_at": "2026-11-19T19:52:04Z",
             "primary": false,
             "symbol": "CRM"
           },
           {
-            "headline": "Here’s Why You Should Add Salesforce (CRM) To Your Portfolio",
-            "url": "https://finnhub.io/api/news?id=dd63e1baa444943bc26f568ded8d45d252e4af13fe6118b669ad08d42d4d596e",
+            "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
+            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:56:08Z",
+            "published_at": "2026-11-19T19:10:04Z",
             "primary": false,
             "symbol": "CRM"
           }
@@ -2129,10 +2129,9 @@
         "name": "Oracle Corporation",
         "status": "WATCH",
         "score": 73,
-        "industry": "Unclassified",
+        "industry": "Technology",
         "why": "Net profit margin 26.4% (TTM); Return on equity 42.6% (TTM); Trailing P/E 18.2×; TTM revenue growth 21.6% YoY",
         "risks": [
-          "Industry not independently classified; cross-sector scores are not directly comparable",
           "Large drawdown: recovery is not assured",
           "Price near reported 52-week low"
         ],
@@ -2146,7 +2145,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-19T21:53:49Z",
+            "timestamp": "2026-11-20T01:16:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -2157,7 +2156,7 @@
           }
         ],
         "as_of": "2026-11-19T21:00:00Z",
-        "fundamentals_at": "2026-11-19T21:53:49Z",
+        "fundamentals_at": "2026-11-20T01:16:49Z",
         "price": 110.57,
         "currency": "USD",
         "change_pct": -2.915,
@@ -2167,6 +2166,14 @@
             "url": "https://finnhub.io/api/news?id=450e86ed20915c3b3e988afadda85d138826734281261b977518171f3836d037",
             "source": "Yahoo",
             "published_at": "2026-11-19T17:01:58Z",
+            "primary": false,
+            "symbol": "ORCL"
+          },
+          {
+            "headline": "David Tepper and 27 Other Big Funds Bought Oracle Last Quarter, While 12 Sold. Who’s Right?",
+            "url": "https://finnhub.io/api/news?id=48bd78848893b9acbe1818a9e5b4d3f8c9aedbb636c63bfc1fcaeaef1b9241d5",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T15:30:20Z",
             "primary": false,
             "symbol": "ORCL"
           }

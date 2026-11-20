@@ -516,27 +516,61 @@
       "metrics": {
         "52WeekHigh": 658.52,
         "52WeekLow": 188.22,
-        "peTTM": 112.5771,
-        "psTTM": 18.8776,
+        "peTTM": 105.6338,
+        "psTTM": 17.7133,
         "netProfitMarginTTM": 16.77,
         "roeTTM": 11.58,
         "revenueGrowthTTMYoy": 41.87,
         "epsGrowthTTMYoy": 127.4,
         "currentRatioQuarterly": 2.7248,
         "totalDebt/totalEquityQuarterly": 0.1035,
-        "marketCapitalization": 857724.6
+        "marketCapitalization": 804823.6
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "Advanced Micro Devices, Inc.",
       "profile": {
-        "weburl": "https://www.amd.com/"
+        "weburl": "https://www.amd.com/",
+        "industry": "Semiconductors",
+        "name": "Advanced Micro Devices, Inc."
       },
       "news": [
         {
-          "headline": "AMD Is Still Up 125% This Year. Did Today Just Mark the Top for AMD Stock?",
-          "url": "https://finnhub.io/api/news?id=19d40f50a071ec70863e91c0b8c1ae3cd02975d8418c321f956112a3da551f1b",
+          "headline": "Dow Jones Futures: Ugly Market Reversal To New Lows As Anthropic IPO Debuts, AMD Dives",
+          "url": "https://finnhub.io/api/news?id=a3449dec0994761a4ab4981a03068555b867f3fee015f9c88730362ff1f4188a",
           "source": "Yahoo",
-          "published_at": "2026-11-19T19:02:28Z",
+          "published_at": "2026-11-19T23:46:36Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "Dow Jones Futures Fall After Ugly Market Reversal To New Lows; Anthropic IPO Debuts, AMD Dives",
+          "url": "https://finnhub.io/api/news?id=69bbf58b91dbdb01dff38a7d669d331425154da8f5881991f205ab376c7c0be3",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:52:20Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+          "url": "https://finnhub.io/api/news?id=95b7d457c2f06088bbba42d7f818bf650bbf4afb8c98db8ab1e3103814fb6d5e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:47:00Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "AMD Shares Tumble 7% After Short Seller Questions China Ties. Chipmaker Denies Allegations.",
+          "url": "https://finnhub.io/api/news?id=5081b6bb2311c52a25f72efc2252b0890f3342e93a67068d77298ce93bcbe637",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:18:46Z",
+          "primary": false,
+          "symbol": "AMD"
+        },
+        {
+          "headline": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+          "url": "https://finnhub.io/api/news?id=895b43336fdc01fcc219a5231eece6dad6f2c100add7b60cb93093f5f868936e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:12:06Z",
           "primary": false,
           "symbol": "AMD"
         }
@@ -556,10 +590,12 @@
         "totalDebt/totalEquityQuarterly": 2.0146,
         "marketCapitalization": 344373.3
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "Oracle Corporation",
       "profile": {
-        "weburl": "https://www.oracle.com/"
+        "weburl": "https://www.oracle.com/",
+        "industry": "Technology",
+        "name": "Oracle Corporation"
       },
       "news": [
         {
@@ -567,6 +603,38 @@
           "url": "https://finnhub.io/api/news?id=450e86ed20915c3b3e988afadda85d138826734281261b977518171f3836d037",
           "source": "Yahoo",
           "published_at": "2026-11-19T17:01:58Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "David Tepper and 27 Other Big Funds Bought Oracle Last Quarter, While 12 Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=48bd78848893b9acbe1818a9e5b4d3f8c9aedbb636c63bfc1fcaeaef1b9241d5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:20Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "IT Asset Management (ITAM) Software - Global Strategic Business Report 2026: Capitalize on the $3.5 Billion Market by 2032 with ServiceNow, IBM, Microsoft, Oracle, and BMC Software",
+          "url": "https://finnhub.io/api/news?id=5b6b2c2649650ea04d246a320bac1afff61304d3ed1fe8c016140ed2fdda79d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:15:00Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "Global Job Costing Market Report 2026 | Capitalize on AI and Cloud as Market Hits $4.68 Billion by 2030 at 9.2% CAGR; Microsoft, Oracle, SAP, Intuit, and Autodesk Lead",
+          "url": "https://finnhub.io/api/news?id=0b2744c7e0a421ee3733abc16e4628ad881ca69254b4253644ae57e81c1ba12a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:48:00Z",
+          "primary": false,
+          "symbol": "ORCL"
+        },
+        {
+          "headline": "Despite Oracle Falling 40% Year-to-Date This Wall Street Analyst Predicts 250% Returns Within a Year",
+          "url": "https://finnhub.io/api/news?id=d1a55cccb65d8de92ca298b61c8cedc783e1e0c7550e938d8cbcbe15d595461e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:45:11Z",
           "primary": false,
           "symbol": "ORCL"
         }
@@ -586,12 +654,22 @@
         "totalDebt/totalEquityQuarterly": 1.0237,
         "marketCapitalization": 156699.19
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "Salesforce, Inc.",
       "profile": {
-        "weburl": "https://www.salesforce.com/"
+        "weburl": "https://www.salesforce.com/",
+        "industry": "Technology",
+        "name": "Salesforce, Inc."
       },
       "news": [
+        {
+          "headline": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:52:04Z",
+          "primary": false,
+          "symbol": "CRM"
+        },
         {
           "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
           "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
@@ -623,14 +701,6 @@
           "published_at": "2026-11-19T16:00:00Z",
           "primary": false,
           "symbol": "CRM"
-        },
-        {
-          "headline": "Salesforce to Lead Consortium Bringing Trusted American SI to Global Markets",
-          "url": "https://finnhub.io/api/news?id=a53938e57d654f15f34194ae566e97c26043801b3b0f48bf60919ce91899b8d6",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:00Z",
-          "primary": false,
-          "symbol": "CRM"
         }
       ]
     },
@@ -648,12 +718,22 @@
         "totalDebt/totalEquityQuarterly": 0.5409,
         "marketCapitalization": 88037.04
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "Adobe Inc",
       "profile": {
-        "weburl": "https://www.adobe.com/"
+        "weburl": "https://www.adobe.com/",
+        "industry": "Technology",
+        "name": "Adobe Inc"
       },
       "news": [
+        {
+          "headline": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:45:02Z",
+          "primary": false,
+          "symbol": "ADBE"
+        },
         {
           "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
           "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
@@ -667,6 +747,14 @@
           "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
           "source": "Yahoo",
           "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "ADBE"
+        },
+        {
+          "headline": "Anthropic’s IPO Tests Waters for the AI Trade. Adobe Stock Investors Should Keep an Eye Out Too.",
+          "url": "https://finnhub.io/api/news?id=b578a474c05f52af4cab4976872fb340c131ae3a01a8122003ba6158f5930501",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:51:10Z",
           "primary": false,
           "symbol": "ADBE"
         },
@@ -694,10 +782,12 @@
         "totalDebt/totalEquityQuarterly": 0.5745,
         "marketCapitalization": 94032.414
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "ServiceNow, Inc.",
       "profile": {
-        "weburl": "https://www.servicenow.com/"
+        "weburl": "https://www.servicenow.com/",
+        "industry": "Technology",
+        "name": "ServiceNow, Inc."
       },
       "news": [
         {
@@ -723,6 +813,22 @@
           "published_at": "2026-11-19T15:15:00Z",
           "primary": false,
           "symbol": "NOW"
+        },
+        {
+          "headline": "Is ServiceNow A Better Buy Than Atlassian Now?",
+          "url": "https://finnhub.io/api/news?id=98c5e6864609bab96cea1754fee71d24deff9ce6def12f847d1b50b932cfafa4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:54:10Z",
+          "primary": false,
+          "symbol": "NOW"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like ServiceNow Stock?",
+          "url": "https://finnhub.io/api/news?id=2a6bcef47c5426f388adb3bdd4b643c65dedd074243b77372b1b6cb137cb2b53",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:25:52Z",
+          "primary": false,
+          "symbol": "NOW"
         }
       ]
     },
@@ -740,33 +846,51 @@
         "totalDebt/totalEquityQuarterly": 0.0673,
         "marketCapitalization": 278316.84
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "Palo Alto Networks, Inc.",
       "profile": {
-        "weburl": "https://www.paloaltonetworks.com/"
+        "weburl": "https://www.paloaltonetworks.com/",
+        "industry": "Technology",
+        "name": "Palo Alto Networks, Inc."
       },
       "news": [
+        {
+          "headline": "Palo Alto Networks (PANW) Stock Jumps As Q1 Results Boost ARR Confidence",
+          "url": "https://finnhub.io/api/news?id=7b14878fc675c3e85b2e54a30f9ae847e41dc7365ced985bda47988aff701b92",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:15:11Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Palo Alto’s CEO Says AI Security “Could Be Bigger Than What We Do Today.” Here’s the Math",
+          "url": "https://finnhub.io/api/news?id=18e09ad69a3c39d0ca2fd18bbf102f731e1c869d657fbf80a0c56f38a586c14c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:37:32Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Palo Alto Networks (PANW) CEO Warns AI Cyberattacks Are Causing Widespread Outages",
+          "url": "https://finnhub.io/api/news?id=5147e2da9fb3d3f065e7b0e7525a2367949c03dc0d136e9b8a3ffc81fc0202a5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:09:19Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
+        {
+          "headline": "Palo Alto Results Show Larger Platforms Capturing Security Spend, UBS Says",
+          "url": "https://finnhub.io/api/news?id=b610db35566998d7885675c3412a424d8dd1b1ce3de10e43399f5d5d735aa58b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:15:52Z",
+          "primary": false,
+          "symbol": "PANW"
+        },
         {
           "headline": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finnhub.io/api/news?id=d0bdcb7f9e2cc0f9d67c9f4aff1f5559d5d36939ca3cae4408dea90d48b7321d",
           "source": "Yahoo",
           "published_at": "2026-11-19T18:53:57Z",
-          "primary": false,
-          "symbol": "PANW"
-        },
-        {
-          "headline": "Zscaler Stocks Jump 8.18% as Palo Alto Forecast Lifts Cybersecurity Names",
-          "url": "https://finnhub.io/api/news?id=def4828feb378f65d198d2ffe03979f4804486181486e259bdaac4610a70f965",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:38:46Z",
-          "primary": false,
-          "symbol": "PANW"
-        },
-        {
-          "headline": "Stifel Holds $415 Target on Palo Alto as Peers Go Higher",
-          "url": "https://finnhub.io/api/news?id=04230bc735d78eb4730c4c5b72cefed5e6fb62e7112fd23d9fcfb7e5c5134702",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:08:23Z",
           "primary": false,
           "symbol": "PANW"
         }
@@ -776,40 +900,85 @@
       "metrics": {
         "52WeekHigh": 286.9899,
         "52WeekLow": 85.68,
-        "peTTM": 4169.3028,
-        "psTTM": 45.1688,
+        "peTTM": 4265.8113,
+        "psTTM": 46.2143,
         "netProfitMarginTTM": 1.08,
         "roeTTM": 1.29,
         "revenueGrowthTTMYoy": 24.3,
         "currentRatioQuarterly": 1.5701,
         "totalDebt/totalEquityQuarterly": 0.1463,
-        "marketCapitalization": 243737.44
+        "marketCapitalization": 249379.33
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "CrowdStrike Holdings, Inc.",
       "profile": {
-        "weburl": "https://ir.crowdstrike.com/"
+        "weburl": "https://ir.crowdstrike.com/",
+        "industry": "Technology",
+        "name": "CrowdStrike Holdings, Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Why Is CrowdStrike Stock Surging Thursday?",
+          "url": "https://finnhub.io/api/news?id=078325c7aed939b3af71bc544468b7bbbd64d162ebf3c619b6bd572f95b100bf",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T07:53:34Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "CrowdStrike (CRWD) is Getting Investor Attention — Here’s Why",
+          "url": "https://finnhub.io/api/news?id=eeb612af02db1a129914847cd119161b551460964bc0259d9dab42131a9a07e6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T03:33:46Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "S&P 500 Postmarket Gainers: PANW, CRWD and OKTA Extend After-Hours Gains",
+          "url": "https://finnhub.io/api/news?id=1d6bf1fd640b7c27cd5a128e9d18bb88f72692d1b6629e6f7c9022002285f253",
+          "source": "ChartMill",
+          "published_at": "2026-11-18T22:06:23Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "Anthropic, UnitedHealth Group, CrowdStrike, Take-Two Interactive and Amazon: Why These 5 Stocks Are on Investors' Radars Today",
+          "url": "https://finnhub.io/api/news?id=effad2c7a29edea26e64e26dfb4e32efcd3017a51aa69181ce088b1cffc7b62f",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T21:22:25Z",
+          "primary": false,
+          "symbol": "CRWD"
+        },
+        {
+          "headline": "29 Big Funds Bought CrowdStrike Last Quarter, While 7 Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=724783724d8f4f9f4eabdd79ca43545f56d116d76638d136aad5667e24cc5e4c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:40:08Z",
+          "primary": false,
+          "symbol": "CRWD"
+        }
+      ]
     },
     "SHOP": {
       "metrics": {
         "52WeekHigh": 180.88,
         "52WeekLow": 94.0,
-        "peTTM": 85.3365,
-        "psTTM": 12.8062,
+        "peTTM": 81.742,
+        "psTTM": 12.2668,
         "netProfitMarginTTM": 15.01,
         "roeTTM": 16.54,
         "revenueGrowthTTMYoy": 32.45,
         "epsGrowthTTMYoy": 20.77,
         "currentRatioQuarterly": 4.8602,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 181425.33
+        "marketCapitalization": 173783.39
       },
-      "updated_at": "2026-11-19T21:53:49Z",
+      "updated_at": "2026-11-20T01:16:49Z",
       "name": "Shopify Inc.",
       "profile": {
-        "weburl": "https://www.shopify.com/"
+        "weburl": "https://www.shopify.com/",
+        "industry": "Technology",
+        "name": "Shopify Inc."
       },
       "news": [
         {
@@ -841,6 +1010,14 @@
           "url": "https://finnhub.io/api/news?id=941f32b322c5708df84e8689ad0f506daff64cb4a92cc2fa25af4e8580675896",
           "source": "SeekingAlpha",
           "published_at": "2026-11-19T03:58:51Z",
+          "primary": false,
+          "symbol": "SHOP"
+        },
+        {
+          "headline": "Shopify: Worth Adding To Your Shopping Cart",
+          "url": "https://finnhub.io/api/news?id=fe43a12470a000a8df2c69d91e9b540fe9efe997204b9e69bd47bf46d42e4553",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T20:40:43Z",
           "primary": false,
           "symbol": "SHOP"
         }
@@ -2496,6 +2673,6 @@
       ]
     }
   },
-  "cursor": 8,
-  "updated_at": "2026-11-19T23:53:40Z"
+  "cursor": 16,
+  "updated_at": "2026-11-20T01:16:49Z"
 }
