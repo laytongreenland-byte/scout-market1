@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import urllib.request
+import urllib.error
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -194,10 +195,15 @@ def apac_discovery(old=None):
         except Exception as exc:
             chosen=prior
             status='STALE_DIRECTORY' if prior else 'NOT_CONNECTED'
-            note=type(exc).__name__+': directory unavailable; prices and fundamentals NOT connected'
+            if isinstance(exc,urllib.error.HTTPError):
+                reason='HTTP_'+str(exc.code)
+            else:
+                reason=type(exc).__name__
+            note=reason+': directory unavailable; prices and fundamentals NOT connected'
             sources[market]={'ok':False,'count':len(prior),'url':url,'note':note}
         items.extend(chosen)
-        markets[market]={'status':status,'listed_in_directory':len(chosen),'notes':note}
+        markets[market]={'status':status,'listed_in_directory':len(chosen),
+                         'notes':note,'last_attempt_at':stamp(NOW)}
     return items,markets,sources
 
 def build(fetcher=fetch_source,now=None,old=None):
@@ -238,8 +244,8 @@ def build(fetcher=fetch_source,now=None,old=None):
         'prices_collected':False,
         'valuation_done':False,
         'markets':{
-            'US':{'status':'DISCOVERED' if items else 'UNAVAILABLE',
-                  'listed_in_directory':len(items),
+            'US':{'status':'DISCOVERED' if collected else 'UNAVAILABLE',
+                  'listed_in_directory':len({row['symbol'] for row in collected}),
                   'notes':'US securities listed on covered exchanges; actual Sharesies availability unknown'},
             **apac_markets,
         },
@@ -272,9 +278,15 @@ def main():
             old=None
     if os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and old.get('schema_version')==2 and old.get('status')=='READY':
         at=parse_date(old.get('generated_at'))
-        if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS) and (not os.environ.get('NZXPLORER_API_KEY') or old.get('markets',{}).get('NZX',{}).get('status')=='DISCOVERED'):
-            print('Exchange catalogue is recent; keeping verified existing file')
-            return 0
+        if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS):
+            nz=old.get('markets',{}).get('NZX',{})
+            nz_attempt=parse_date(nz.get('last_attempt_at'))
+            nz_healthy=nz.get('status')=='DISCOVERED'
+            key_missing=not os.environ.get('NZXPLORER_API_KEY')
+            attempted_recently=nz_attempt and timedelta(0)<=NOW-nz_attempt<timedelta(days=1)
+            if nz_healthy or key_missing or attempted_recently:
+                print('Exchange catalogue recent; retaining validated list (NZX retries at most daily)')
+                return 0
     result=build(old=old)
     if result['status']!='READY' and old and old.get('status')=='READY':
         print('WARN: Exchange directory refresh incomplete; preserving last complete catalogue',file=sys.stderr)
