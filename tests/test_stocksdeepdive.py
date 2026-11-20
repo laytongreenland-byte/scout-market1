@@ -23,6 +23,19 @@ class StocksDeepDiveTests(unittest.TestCase):
         self.assertEqual(report["status"],"UNAVAILABLE")
         self.assertFalse(report["scans"])
         self.assertEqual(report["fresh_source_count"],0)
+    def test_denied_asx_endpoint_does_not_spam_other_asx_calls(self):
+        calls=[]
+        def provider(path):
+            calls.append(path)
+            if path=="/scan/s-p-500":
+                return {"results":[{"ticker":"AAPL","name":"Apple"}]}
+            raise HTTPError(path,401,"Unauthorized",{},None)
+        report=s.build(now=NOW,fetch=provider,previous={})
+        self.assertEqual(calls.count("/scan/asx-200"),1)
+        self.assertNotIn("/scan/asx-300",calls)
+        self.assertEqual(report["asx_research_status"],"ACCESS_DENIED")
+        self.assertEqual(report["source_status"]["scan/asx-300"],"SKIPPED_PROVIDER_AUTH_REQUIRED")
+        self.assertIn("s-p-500",report["scans"])
     def test_provider_history_requires_date_and_close(self):
         data={"currency":"AUD","points":[{"date":"2026-11-20","close":10},
                                             {"date":"2026-11-21","close":-1}]}
