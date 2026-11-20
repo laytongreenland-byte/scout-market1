@@ -25,7 +25,8 @@ const ScoutMarket=(()=>{
     markets.innerHTML='<span>US: '+esc(usReady?'2 official directories':'partial directory')+'</span>'+
       ['ASX','NZX'].map(m=>'<span>'+m+': '+esc(catalog.markets?.[m]?.status==='DISCOVERED'?count(catalog.markets[m].listed_in_directory)+' listed (no prices)':catalog.markets?.[m]?.status==='STALE_DIRECTORY'?'cached directory (stale)':'not connected')+'</span>').join('');
     if(sdd){const n=Object.values(sdd.scans||{}).reduce((a,x)=>a+(Array.isArray(x)?x.length:0),0);
-      markets.innerHTML+='<span>StocksDeepDive: '+esc(sdd.status==='AVAILABLE'?count(n)+' research rows':sdd.status==='PARTIAL'?'partial':'unavailable')+'</span>';
+      const asx=sdd.asx_research_status==='ACCESS_DENIED'?'ASX access denied':sdd.asx_research_status==='AVAILABLE'?'ASX research available':'ASX research unavailable';
+      markets.innerHTML+='<span>StocksDeepDive: '+esc(count(n)+' research rows; '+asx)+'</span>';
     }
     footer.textContent='Exchange directory listings do NOT confirm Sharesies availability. ASX/NZX directory discovery does not include integrated prices, financial screening or investment signals. US screening is unchanged. No discovered listing is a buy recommendation.';
     if(!query){
