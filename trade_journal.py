@@ -247,7 +247,21 @@ def public_results(history,now):
         })
     # The full evidence remains in the git-tracked historical dataset;
     # only a mobile-friendly window is published.
-    shown=sorted(displayed,key=lambda r:r.get('decision_at') or '',reverse=True)[:MAX_PUBLIC]
+    # Keep recent opinions AND older completed outcomes visible. Otherwise
+    # a broad rotating universe would bury every loss beneath new watch ideas.
+    recent=sorted(displayed,key=lambda r:r.get('decision_at') or '',reverse=True)[:MAX_PUBLIC]
+    closed=sorted((r for r in displayed if r['result'].get('status') in
+                   ('TARGET_REACHED','CLOSED_GAIN','CLOSED_LOSS')),
+                  key=lambda r:r['result'].get('exit_at') or '',reverse=True)[:MAX_PUBLIC]
+    misses=sorted((r for r in displayed if r['result'].get('status')=='NO_ENTRY'),
+                  key=lambda r:r.get('decision_at') or '',reverse=True)[:60]
+    seen=set()
+    shown=[]
+    for r in recent+closed+misses:
+        if r['id'] not in seen:
+            shown.append(r)
+            seen.add(r['id'])
+    shown.sort(key=lambda r:r.get('decision_at') or '',reverse=True)
     return {
         'generated_at':stamp(now),'method':METHOD,
         'summary':summary,'records':shown,'published_records':len(shown),
