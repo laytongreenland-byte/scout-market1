@@ -34,7 +34,7 @@ const ScoutMarket=(()=>{
     const shown=matches.slice(0,35);
     const quotes=new Map((apac?.quotes||[]).filter(q=>q&&q.market&&q.symbol&&q.price_type==='EOD'&&q.research_only===true).map(q=>[q.market+':'+q.symbol,q]));
     list.innerHTML=shown.map(x=>'<div class="market-directory-row"><div><strong>'+esc(x.symbol)+'</strong>'+
-      '<p>'+esc(x.name||'Unknown security')+'</p></div><small>'+esc(x.exchange)+' · '+esc(x.type)+\
+      '<p>'+esc(x.name||'Unknown security')+'</p></div><small>'+esc(x.exchange)+' · '+esc(x.type)+
       (quotes.has(x.market+':'+x.symbol)?' · EOD '+esc(quotes.get(x.market+':'+x.symbol).currency)+' '+esc(quotes.get(x.market+':'+x.symbol).close)+' ('+esc(quotes.get(x.market+':'+x.symbol).date)+')':'')+'</small></div>').join('')+
       '<div class="market-directory-message">'+(matches.length?count(matches.length)+' exchange listings matched. Showing first '+shown.length+'.':'No matching securities in the available exchange directory.')+'</div>';
   }
