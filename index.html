@@ -140,6 +140,23 @@
             <option value="all">All tracked assets</option><option value="stocks">Company shares</option><option value="etfs">ETFs only</option>
           </select>
         </div>
+        <div class="card market-directory">
+          <div class="flex-between"><strong>Wider exchange discovery</strong><span class="mini-label">PHASE 1</span></div>
+          <p>Find US-exchange-listed shares and funds beyond Scout's current price watchlist. <strong>Listed does not mean available in Sharesies</strong>, and being in the directory is not a buy signal.</p>
+          <div id="market-directory-stats" class="market-directory-stats">Directory has not been checked yet.</div>
+          <div id="market-directory-markets" class="market-directory-markets"></div>
+          <div class="discovery-tools">
+            <input id="market-directory-search" type="search" placeholder="Search ticker or company name" aria-label="Search US exchange catalogue" autocomplete="off">
+            <select id="market-directory-type" aria-label="Filter catalogue by asset type">
+              <option value="all">All security types</option>
+              <option value="SHARE">Company shares</option>
+              <option value="ETF">ETFs</option>
+              <option value="OTHER">Other securities</option>
+            </select>
+          </div>
+          <div id="market-directory-results" class="market-directory-results"></div>
+          <div class="market-directory-footer" id="market-directory-disclaimer">NZX and ASX full listing feeds are not yet connected. Browse individual investments on Sharesies to verify trading availability.</div>
+        </div>
         <div class="notice" id="quote-coverage-note">Price coverage and financial analysis are different things.</div>
         <div class="notice" id="quote-warning">Prices are not configured. No live prices will be invented.</div>
         <div class="quotes" id="quotes"></div>
@@ -180,6 +197,7 @@
   </div>
   <script src="./compass.js" defer></script>
   <script src="./results.js" defer></script>
+  <script src="./market.js" defer></script>
   <script src="./app.js" defer></script>
 </body>
 </html>
