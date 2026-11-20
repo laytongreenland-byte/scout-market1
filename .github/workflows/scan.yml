@@ -27,7 +27,7 @@ permissions:
   issues: write
 concurrency:
   group: scout-data-and-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   scan-and-publish:
     runs-on: ubuntu-latest
