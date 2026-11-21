@@ -27427,8 +27427,669 @@
           "symbol": "SMCI"
         }
       ]
+    },
+    "SYF": {
+      "metrics": {
+        "52WeekHigh": 88.77,
+        "52WeekLow": 63.08,
+        "peTTM": 6.4411,
+        "psTTM": 0.73096,
+        "netProfitMarginTTM": 14.06407,
+        "roeTTM": 19.99,
+        "revenueGrowthTTMYoy": 20.4839,
+        "epsGrowthTTMYoy": 5.11,
+        "totalDebt/totalEquityQuarterly": 1.0287,
+        "marketCapitalization": 21468.25
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Synchrony Financial",
+      "profile": {
+        "weburl": "https://www.synchrony.com/",
+        "industry": "Financial Services",
+        "name": "Synchrony Financial"
+      },
+      "news": [
+        {
+          "headline": "Synchrony Financial Puts Lending Discipline First, Sees Walmart as Growth Opportunity",
+          "url": "https://finnhub.io/api/news?id=b51c558f5850e66fb04ebdd0b4046183a0edf497ae2fd606f4256f171b854b61",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T01:12:10Z",
+          "primary": false,
+          "symbol": "SYF"
+        },
+        {
+          "headline": "Synchrony (SYF) Down 5.3% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=01b1a9cb946473bc69156f72fb4f3bff90bc3cb12fea60afad5b3810bf3f83ad",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:07Z",
+          "primary": false,
+          "symbol": "SYF"
+        },
+        {
+          "headline": "Synchrony Financial (SYF) Presents at TD Cowen's Financials & Fintech Conference Transcript",
+          "url": "https://finnhub.io/api/news?id=30bfcaeddded9099a363bcb35f619f89087d005ed863cbad6c81ae3bf2c7a379",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T11:53:12Z",
+          "primary": false,
+          "symbol": "SYF"
+        }
+      ]
+    },
+    "SYY": {
+      "metrics": {
+        "52WeekHigh": 91.85,
+        "52WeekLow": 68.19,
+        "peTTM": 21.8115,
+        "psTTM": 0.4626,
+        "netProfitMarginTTM": 2.12,
+        "roeTTM": 64.0,
+        "revenueGrowthTTMYoy": 3.8,
+        "epsGrowthTTMYoy": 0.54,
+        "currentRatioQuarterly": 1.4643,
+        "totalDebt/totalEquityQuarterly": 3.4191,
+        "marketCapitalization": 39391.508
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Sysco Corporation",
+      "profile": {
+        "weburl": "https://www.sysco.com/",
+        "industry": "Retail",
+        "name": "Sysco Corporation"
+      },
+      "news": [
+        {
+          "headline": "Sysco GB invests in new Fairfax Meadow foodservice plant",
+          "url": "https://finnhub.io/api/news?id=37b910e43e65e82843aafb5820faa241aad9e65255f213b69f9e76ec4ef0c813",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:10:07Z",
+          "primary": false,
+          "symbol": "SYY"
+        },
+        {
+          "headline": "Sysco Corporation Stockholders Elect Directors and Approve Executive Compensation at 2026 Annual Meeting",
+          "url": "https://finnhub.io/api/news?id=55df67781f6c6c788a447daa82ddca5ea1e41ac93061c21ce49e72523dfe29dd",
+          "source": "Fintel",
+          "published_at": "2026-11-19T05:20:56Z",
+          "primary": false,
+          "symbol": "SYY"
+        },
+        {
+          "headline": "Sysco (SYY) Affirms Dividend, Is It Still Below Fair Value?",
+          "url": "https://finnhub.io/api/news?id=66b1a4bc2af5a5c804bd02bec319452956fc92fbf5ca7a0a8b9c917e00b07bd4",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:11:50Z",
+          "primary": false,
+          "symbol": "SYY"
+        },
+        {
+          "headline": "Sysco (SYY) Stock Looks Undervalued After Its 19% Three Year Gain",
+          "url": "https://finnhub.io/api/news?id=01570e45cf1f4519cc93b2763557e73e89ab2289f60c4995682054d2d373de0c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:13:43Z",
+          "primary": false,
+          "symbol": "SYY"
+        },
+        {
+          "headline": "Sysco Corporation Announces Transition of Chief Human Resources Officer Ronald L. Phillips",
+          "url": "https://finnhub.io/api/news?id=1cb13b7ad33005f5c323212440c0da126b7d13b6f5af6ade514f1ebc8a135f08",
+          "source": "Fintel",
+          "published_at": "2026-11-18T01:41:05Z",
+          "primary": false,
+          "symbol": "SYY"
+        }
+      ]
+    },
+    "TROW": {
+      "metrics": {
+        "52WeekHigh": 122.0,
+        "52WeekLow": 85.22,
+        "peTTM": 10.2749,
+        "psTTM": 2.9181,
+        "netProfitMarginTTM": 28.4,
+        "roeTTM": 19.88,
+        "revenueGrowthTTMYoy": 6.91,
+        "epsGrowthTTMYoy": 7.79,
+        "currentRatioQuarterly": 2.7376,
+        "totalDebt/totalEquityQuarterly": 0.0017,
+        "marketCapitalization": 22479.354
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "T. Rowe Price Group, Inc.",
+      "profile": {
+        "weburl": "https://www.troweprice.com",
+        "industry": "Financial Services",
+        "name": "T. Rowe Price Group, Inc."
+      },
+      "news": [
+        {
+          "headline": "A $400,000 Portfolio in T. Rowe Price, ONEOK and UDR Pays $20,171 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=2a3c486f4ed13a48a58902c964e602607d8ca4a0269d39fdb85410e1e99cb662",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T11:20:31Z",
+          "primary": false,
+          "symbol": "TROW"
+        },
+        {
+          "headline": "T. Rowe Price Group Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=6faaa74951d780739b9196077ddac39338ce17f12c0ffefbbc288e3ae9067fe2",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:08:43Z",
+          "primary": false,
+          "symbol": "TROW"
+        },
+        {
+          "headline": "A 72-Year-Old With $350,000 in AT&T, ONEOK and T. Rowe Price Collects $1,457 a Month in Dividends. How Safe Is Each Check?",
+          "url": "https://finnhub.io/api/news?id=c0ab0f32963dd47ee635c73c51a0748ccca008a7eb4ffadb3c31aed97a864299",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:50:23Z",
+          "primary": false,
+          "symbol": "TROW"
+        },
+        {
+          "headline": "T. ROWE PRICE EXPANDS CAPITAL APPRECIATION SUITE WITH NEW FIXED INCOME EXCHANGE TRADED FUND",
+          "url": "https://finnhub.io/api/news?id=8fb970f68a522a875ff4ca4a8644277377553c78fe1080d72bb497b4a063d95e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:00:00Z",
+          "primary": false,
+          "symbol": "TROW"
+        },
+        {
+          "headline": "T. ROWE PRICE BUILDS ON COLLABORATIVE INVESTMENT APPROACH WITH EXPANDED PORTFOLIO MANAGEMENT TEAMS",
+          "url": "https://finnhub.io/api/news?id=3bfab2d1cac987b40c800bccde52091e4bda109e9f0128ab5146b39ff6265eda",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:50:00Z",
+          "primary": false,
+          "symbol": "TROW"
+        }
+      ]
+    },
+    "TTWO": {
+      "metrics": {
+        "52WeekHigh": 265.94,
+        "52WeekLow": 183.86,
+        "psTTM": 6.5526,
+        "netProfitMarginTTM": -3.75,
+        "roeTTM": -6.7299999999999995,
+        "revenueGrowthTTMYoy": 3.05,
+        "currentRatioQuarterly": 1.0882,
+        "totalDebt/totalEquityQuarterly": 0.6859,
+        "marketCapitalization": 41999.895
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Take-Two Interactive Software, Inc.",
+      "profile": {
+        "weburl": "https://www.take2games.com/",
+        "industry": "Media",
+        "name": "Take-Two Interactive Software, Inc."
+      },
+      "news": [
+        {
+          "headline": "Decibel puts Take-Two and Anthropic in the same around-the-clock market",
+          "url": "https://finnhub.io/api/news?id=56f9aed6e903faa0f4d1fc442d87dd10dcbc04d7a86d435ff82eee8739cf5480",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:30:00Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "Take-Two Interactive vs. Anthropic: Which Market-Moving Stock Is the Better Buy?",
+          "url": "https://finnhub.io/api/news?id=fa3ecf64b8cc16efb9e5dcbf7ec2f08eda41fc690da081bbfac4461064f8505b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:53:01Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "TTWO Stock Gains As Grand Theft Auto VI Retail Sales Touch $3.8B",
+          "url": "https://finnhub.io/api/news?id=9ad04565f352013c39dce54d489d6796252918783632e2db3a1a1fa08326cae8",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:43:25Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "Analysts See 40% Boost for Take-Two Stock on Blowout Grand Theft Auto VI Sales. Are They Right?",
+          "url": "https://finnhub.io/api/news?id=3d369e584a9b912e3c7cbb1ba07d107f7204a220d375714eb722c3b762147cc5",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:15:02Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "‘GTA 6’ maker Take-Two rakes in nearly $4B, shattering first-day sales record",
+          "url": "https://finnhub.io/api/news?id=07546f61ee6670345adaf4fa5c0f2506530f5fb87d9e03d03fa8c65af2175e5b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T20:25:49Z",
+          "primary": false,
+          "symbol": "TTWO"
+        }
+      ]
+    },
+    "TPR": {
+      "metrics": {
+        "52WeekHigh": 164.8,
+        "52WeekLow": 100.47,
+        "peTTM": 14.9376,
+        "psTTM": 2.9405,
+        "netProfitMarginTTM": 19.68,
+        "roeTTM": 284.25,
+        "revenueGrowthTTMYoy": 13.68,
+        "epsGrowthTTMYoy": 588.53,
+        "currentRatioQuarterly": 1.2403,
+        "totalDebt/totalEquityQuarterly": 7.4331,
+        "marketCapitalization": 24092.922
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Tapestry, Inc.",
+      "profile": {
+        "weburl": "https://www.tapestry.com/",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "name": "Tapestry, Inc."
+      },
+      "news": [
+        {
+          "headline": "Wall Street Analysts See a 31.98% Upside in Tapestry (TPR): Can the Stock Really Move This High?",
+          "url": "https://finnhub.io/api/news?id=73ebc2f910944b1f243e591d59864a20078bb94ecc542437635d44fef85305ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:55:02Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
+        {
+          "headline": "$100 Invested In Tapestry 5 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=b39befe61cd7910df24244a244d7a0778c5950ef0234c6c0447b683d230b967a",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T19:45:23Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
+        {
+          "headline": "Tapestry: Coach Keeps Impressing, But I Am Running Out Of Patience For Kate Spade",
+          "url": "https://finnhub.io/api/news?id=ab99f161397c94aa8f3579e27f05488f1e74661f255518862638b82ff20cd4f1",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T11:53:40Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
+        {
+          "headline": "Tapestry CEO: U.S. luxury consumer discerning and resilient",
+          "url": "https://finnhub.io/api/news?id=4ddbbdc24c7a5935fa6378eab6aac7e82399d6fc7359338f361e8e340bb67169",
+          "source": "CNBC",
+          "published_at": "2026-11-18T07:42:07Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
+        {
+          "headline": "Tapestry Inc (NYSE:TPR): A Quality Dividend Profile for Income Investors",
+          "url": "https://finnhub.io/api/news?id=44ad3f4642f3ed80c72f544edecbdef9bbff35000f5fb267458cf0f26dd25fb7",
+          "source": "ChartMill",
+          "published_at": "2026-11-16T09:21:01Z",
+          "primary": false,
+          "symbol": "TPR"
+        }
+      ]
+    },
+    "TRGP": {
+      "metrics": {
+        "52WeekHigh": 316.6,
+        "52WeekLow": 166.18,
+        "peTTM": 27.0056,
+        "psTTM": 3.6579,
+        "netProfitMarginTTM": 13.54,
+        "roeTTM": 72.17,
+        "revenueGrowthTTMYoy": -1.97,
+        "epsGrowthTTMYoy": 40.38,
+        "currentRatioQuarterly": 0.7707,
+        "totalDebt/totalEquityQuarterly": 5.3543,
+        "marketCapitalization": 61238.01
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Targa Resources Corp.",
+      "profile": {
+        "weburl": "https://www.targaresources.com/",
+        "industry": "Energy",
+        "name": "Targa Resources Corp."
+      },
+      "news": [
+        {
+          "headline": "Do Wall Street Analysts Like Targa Resources Stock?",
+          "url": "https://finnhub.io/api/news?id=899133075219411fed9528dab820ade96dbc47725b5887ab1f66ec0f07e91440",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:43:35Z",
+          "primary": false,
+          "symbol": "TRGP"
+        },
+        {
+          "headline": "Stifel Maintains Buy on Targa Resources, Raises Price Target to $340",
+          "url": "https://finnhub.io/api/news?id=48b79064ab0712f6d1d9fe4a0f5f81d59730040608fbe444a362b6360d5ecb6c",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T08:19:04Z",
+          "primary": false,
+          "symbol": "TRGP"
+        }
+      ]
+    },
+    "TEL": {
+      "metrics": {
+        "52WeekHigh": 252.56,
+        "52WeekLow": 190.27,
+        "peTTM": 18.6145,
+        "psTTM": 3.0452,
+        "netProfitMarginTTM": 16.36,
+        "roeTTM": 24.529999999999998,
+        "revenueGrowthTTMYoy": 15.2,
+        "epsGrowthTTMYoy": 79.16,
+        "currentRatioQuarterly": 1.7306,
+        "totalDebt/totalEquityQuarterly": 0.4155,
+        "marketCapitalization": 60552.875
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "TE Connectivity PLC",
+      "profile": {
+        "weburl": "https://www.te.com/",
+        "industry": "Electrical Equipment",
+        "name": "TE Connectivity PLC"
+      },
+      "news": [
+        {
+          "headline": "What Is TE Connectivity (TEL) Planning With Its $60 Million New York Fiber Build?",
+          "url": "https://finnhub.io/api/news?id=0e1f588cb6c62a81d4eaf6e21fee9e7bf1bbbcd1d2732df16f3647a19936c357",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T05:10:31Z",
+          "primary": false,
+          "symbol": "TEL"
+        }
+      ]
+    },
+    "TDY": {
+      "metrics": {
+        "52WeekHigh": 697.67,
+        "52WeekLow": 483.02,
+        "peTTM": 27.4185,
+        "psTTM": 4.3186,
+        "netProfitMarginTTM": 15.75,
+        "roeTTM": 9.49,
+        "revenueGrowthTTMYoy": 8.57,
+        "epsGrowthTTMYoy": 26.57,
+        "currentRatioQuarterly": 2.3064,
+        "totalDebt/totalEquityQuarterly": 0.1821,
+        "marketCapitalization": 28156.105
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Teledyne Technologies Incorporated",
+      "profile": {
+        "weburl": "https://www.teledyne.com/",
+        "industry": "Electrical Equipment",
+        "name": "Teledyne Technologies Incorporated"
+      },
+      "news": [
+        {
+          "headline": "Teledyne (TDY) Up 0.2% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=abed1c70768607dcca26a20075f893cce4f91adf3a1a4282ddb345091be32562",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:11Z",
+          "primary": false,
+          "symbol": "TDY"
+        },
+        {
+          "headline": "Teledyne Technologies (TDY) Stock Looks Fully Valued With Cash Flow In Focus",
+          "url": "https://finnhub.io/api/news?id=63be617bf19f2b2e92063da3f837762894e441cd33a1e16b2e6c2a2c40de583d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:15:45Z",
+          "primary": false,
+          "symbol": "TDY"
+        },
+        {
+          "headline": "Teledyne LeCroy Introduces Ultra Accelerator Link™ Validation System for AI and HPC Scale-Up Infrastructure",
+          "url": "https://finnhub.io/api/news?id=f3419a646cb3038b6124c5361b7650937099d65be639c319bdf0d4b3d03aae8e",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T17:15:00Z",
+          "primary": false,
+          "symbol": "TDY"
+        }
+      ]
+    },
+    "TER": {
+      "metrics": {
+        "52WeekHigh": 487.91,
+        "52WeekLow": 151.52,
+        "peTTM": 23.6922,
+        "psTTM": 6.5052,
+        "netProfitMarginTTM": 27.46,
+        "roeTTM": 42.04,
+        "revenueGrowthTTMYoy": 74.88,
+        "epsGrowthTTMYoy": 217.05,
+        "currentRatioQuarterly": 2.08,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 32530.934
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Teradyne, Inc.",
+      "profile": {
+        "weburl": "https://www.teradyne.com/",
+        "industry": "Semiconductors",
+        "name": "Teradyne, Inc."
+      },
+      "news": [
+        {
+          "headline": "Teradyne: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=cdbcacbabfe29b5a012a1769b414797331a9fa3f5638e5ece08986ee5589fae6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:50:02Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "Implied Volatility Surging for Teradyne Stock Options",
+          "url": "https://finnhub.io/api/news?id=20d3dc2eff940571175e180151517ec79a460c2d177a117464a0d04fb8712ca1",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:32:00Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "What Is Teradyne (TER) Bringing To Edge AI With Omnyx Edge?",
+          "url": "https://finnhub.io/api/news?id=5d4e16d6ecc3356ea79ff2c653ee08844a1cb1a534fe153b6b297aac8efc8d9c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:15:42Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+          "url": "https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:45:02Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "Why Jefferies Calls Teradyne (TER) a “Compute Test Company”",
+          "url": "https://finnhub.io/api/news?id=f7d024c95977c813cff91e1138d215565718a93731d7d1dbe38d2131ba94758c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:10:20Z",
+          "primary": false,
+          "symbol": "TER"
+        }
+      ]
+    },
+    "TXN": {
+      "metrics": {
+        "52WeekHigh": 334.03,
+        "52WeekLow": 152.73,
+        "peTTM": 35.7253,
+        "psTTM": 12.237,
+        "netProfitMarginTTM": 34.25,
+        "roeTTM": 40.510000000000005,
+        "revenueGrowthTTMYoy": 20.27,
+        "epsGrowthTTMYoy": 40.7,
+        "currentRatioQuarterly": 5.595,
+        "totalDebt/totalEquityQuarterly": 0.7065,
+        "marketCapitalization": 254113.97
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Texas Instruments Incorporated",
+      "profile": {
+        "weburl": "https://www.ti.com/",
+        "industry": "Semiconductors",
+        "name": "Texas Instruments Incorporated"
+      },
+      "news": [
+        {
+          "headline": "Texas Instruments (TXN) Could Be 50% Overvalued As AI Tools And Earnings Impress",
+          "url": "https://finnhub.io/api/news?id=921a9e04fb83a1f0601d771e47ce49f29e070543313a83fc61b5077961cc40f0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:12:49Z",
+          "primary": false,
+          "symbol": "TXN"
+        },
+        {
+          "headline": "Texas Instruments (TXN) Up 2.2% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=46d5df8c471c0de46e2e6f68e86e4e0b842bbd11c3c21df26db5d1757162c909",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:11Z",
+          "primary": false,
+          "symbol": "TXN"
+        },
+        {
+          "headline": "Power-Over-Ethernet (PoE) Chipsets - Global Strategic Business Report 2026: Capitalize on 13% CAGR and $2.2B by 2032; Benchmark Cisco, Analog Devices, NXP, Microchip and Texas Instruments",
+          "url": "https://finnhub.io/api/news?id=c638370ee015e05f4e42f6d4b78a7ee3f90c70413371c0042d4b5fb9c32083e0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:06:00Z",
+          "primary": false,
+          "symbol": "TXN"
+        },
+        {
+          "headline": "Is Texas Instruments' Sales Boom Its Biggest Risk?",
+          "url": "https://finnhub.io/api/news?id=a9d4601707607e23970c6560e08896ad737bb27adce78d81d430daff5fb4966b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:40:49Z",
+          "primary": false,
+          "symbol": "TXN"
+        },
+        {
+          "headline": "First Trust NASDAQ-100 Tech (QTEC) Sells AppLovin and Texas Instruments on Tuesday",
+          "url": "https://finnhub.io/api/news?id=05e873c00446501c6096195b25a55dfcd6e0e7dd9b04c87e8a5bfe962babb97c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:06:26Z",
+          "primary": false,
+          "symbol": "TXN"
+        }
+      ]
+    },
+    "TPL": {
+      "metrics": {
+        "52WeekHigh": 547.2,
+        "52WeekLow": 265.31,
+        "peTTM": 32.27,
+        "psTTM": 19.59,
+        "netProfitMarginTTM": 60.71,
+        "roeTTM": 36.22,
+        "revenueGrowthTTMYoy": 25.3,
+        "epsGrowthTTMYoy": 23.36,
+        "currentRatioQuarterly": 5.4088,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 18960.104
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Texas Pacific Land Corporation",
+      "profile": {
+        "weburl": "https://www.texaspacific.com/",
+        "industry": "Energy",
+        "name": "Texas Pacific Land Corporation"
+      },
+      "news": [
+        {
+          "headline": "Texas Pacific Land Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=00823ee67519a79e6a029b7edba583a6359fa1c197eefbdacd1303b2fe5ec03b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:50:30Z",
+          "primary": false,
+          "symbol": "TPL"
+        },
+        {
+          "headline": "Texas Pacific Land Corporation Announces Redomestication to Texas",
+          "url": "https://finnhub.io/api/news?id=b731172a2af49cb1addf61ba78ffd3400baa498486c7f8cec8b3cb14f17ef348",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:15:00Z",
+          "primary": false,
+          "symbol": "TPL"
+        },
+        {
+          "headline": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
+          "url": "https://finnhub.io/api/news?id=97d7536a0d8b99e7bf15e4ffb6d00cd6d15bffdcb321a21fe7744c8cda4b4337",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T17:22:17Z",
+          "primary": false,
+          "symbol": "TPL"
+        }
+      ]
+    },
+    "TXT": {
+      "metrics": {
+        "52WeekHigh": 101.57,
+        "52WeekLow": 71.87,
+        "peTTM": 14.1538,
+        "psTTM": 0.8915,
+        "netProfitMarginTTM": 6.3,
+        "roeTTM": 12.139999999999999,
+        "revenueGrowthTTMYoy": 8.51,
+        "epsGrowthTTMYoy": 22.25,
+        "currentRatioQuarterly": 1.6822,
+        "totalDebt/totalEquityQuarterly": 0.4687,
+        "marketCapitalization": 13771.652
+      },
+      "updated_at": "2026-11-21T16:55:12Z",
+      "name": "Textron Inc",
+      "profile": {
+        "weburl": "https://www.textron.com/",
+        "industry": "Aerospace & Defense",
+        "name": "Textron Inc"
+      },
+      "news": [
+        {
+          "headline": "Textron finds private equity buyer for industrial business at $1.2B",
+          "url": "https://finnhub.io/api/news?id=22f378f519103391919d85013b1d20d56d3167e4a2c43e362bb20d4596a25f1d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:14:26Z",
+          "primary": false,
+          "symbol": "TXT"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Textron Stock?",
+          "url": "https://finnhub.io/api/news?id=2e779d8a6670802ad50234eacb297a0a0323374887f333c803c995be2aac9a13",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:38:23Z",
+          "primary": false,
+          "symbol": "TXT"
+        },
+        {
+          "headline": "Textron Inc. to Sell Industrial Segment to Kingswood Capital Management Affiliate for $1.2 Billion",
+          "url": "https://finnhub.io/api/news?id=b205816ed6275d7451e3b9c1009971f9f6263ffd2b7169e53badb6e8a7772c2f",
+          "source": "Fintel",
+          "published_at": "2026-11-19T01:31:54Z",
+          "primary": false,
+          "symbol": "TXT"
+        },
+        {
+          "headline": "Textron Sells Industrial Business for $1.2 Billion, Authorizes Buyback",
+          "url": "https://finnhub.io/api/news?id=5363fc55ba2c36ddbb6102aaf56d31d11813694eee01d625196960bda64b7c9a",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T12:50:14Z",
+          "primary": false,
+          "symbol": "TXT"
+        },
+        {
+          "headline": "Textron to Sell its Industrial Segment to Kingswood Capital Management for $1.2 Billion",
+          "url": "https://finnhub.io/api/news?id=f71ae512a01071ca4686486ba86f137f9829050d01ebd47a41700a091a89b93c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:30:00Z",
+          "primary": false,
+          "symbol": "TXT"
+        }
+      ]
     }
   },
-  "cursor": 476,
-  "updated_at": "2026-11-21T15:54:09Z"
+  "cursor": 488,
+  "updated_at": "2026-11-21T16:55:12Z"
 }
