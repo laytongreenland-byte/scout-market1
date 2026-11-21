@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:51:29Z",
+  "generated_at": "2026-11-21T22:50:27Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T21:51:29Z",
+      "checked_at": "2026-11-21T22:50:27Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T21:51:29Z",
+      "checked_at": "2026-11-21T22:50:27Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T21:51:29Z",
+      "checked_at": "2026-11-21T22:50:27Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T21:51:29Z",
+      "checked_at": "2026-11-21T22:50:27Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T21:51:29Z",
+      "checked_at": "2026-11-21T22:50:27Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T21:51:29Z",
+    "generated_at": "2026-11-21T22:50:27Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7641,7 +7641,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Unclassified",
-        "why": "Net profit margin 10.5% (TTM); Return on equity 15.6% (TTM); Trailing P/E 15.8×; TTM revenue growth 19.5% YoY",
+        "why": "Net profit margin 10.5% (TTM); Return on equity 15.6% (TTM); Trailing P/E 15.7×; TTM revenue growth 19.5% YoY",
         "risks": [
           "Industry not independently classified; cross-sector scores are not directly comparable"
         ],
@@ -7655,35 +7655,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:42:07Z",
+            "timestamp": "2026-11-21T22:50:27Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
-            "timestamp": "2026-11-19T21:16:12Z",
-            "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5"
+            "value": "ETFs Are Net Sellers of ExxonMobil (XOM) on Nov. 18",
+            "timestamp": "2026-11-20T11:02:14Z",
+            "url": "https://finnhub.io/api/news?id=2e1ca7d1937af559c40ba9cb0f21e519e063bc448b967325745b417bb04e46cd"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:42:07Z",
+        "fundamentals_at": "2026-11-21T22:50:27Z",
         "price": 159.99,
         "currency": "USD",
         "change_pct": 0.667,
         "news": [
           {
-            "headline": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
-            "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5",
+            "headline": "ETFs Are Net Sellers of ExxonMobil (XOM) on Nov. 18",
+            "url": "https://finnhub.io/api/news?id=2e1ca7d1937af559c40ba9cb0f21e519e063bc448b967325745b417bb04e46cd",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:16:12Z",
+            "published_at": "2026-11-20T11:02:14Z",
             "primary": false,
             "symbol": "XOM"
           },
           {
-            "headline": "Erste Group Upgrades ExxonMobil (XOM). Here’s What Drove It.",
-            "url": "https://finnhub.io/api/news?id=96a9ce12691a3f825b75bd273c69e8db02bb73d75a08c8ac0ed4731263e8965d",
+            "headline": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
+            "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:41:39Z",
+            "published_at": "2026-11-19T21:16:12Z",
             "primary": false,
             "symbol": "XOM"
           }
@@ -10233,7 +10233,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Energy",
-        "why": "Net profit margin 11.9% (TTM); Return on equity 14.3% (TTM); Trailing P/E 15.0×; TTM revenue growth 20.8% YoY",
+        "why": "Net profit margin 11.9% (TTM); Return on equity 14.3% (TTM); Trailing P/E 15.2×; TTM revenue growth 20.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10247,35 +10247,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:42:07Z",
+            "timestamp": "2026-11-21T22:50:27Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Trump Cheers the “Biggest Drop in Gasoline in 18 Years.” Not Good for Exxon and Chevron",
-            "timestamp": "2026-11-19T19:58:17Z",
-            "url": "https://finnhub.io/api/news?id=f910adc4556314ce0bb6fa3bec1fb49925a0cb9bc173d755d5b601acd8651745"
+            "value": "How Many Shares of Chevron, Shell or Exxon Pay $1,000 a Month in Dividends?",
+            "timestamp": "2026-11-21T10:50:32Z",
+            "url": "https://finnhub.io/api/news?id=6a7837123469be1a8022fbc0450a0b581be41d755740d447dfec7cecf4cde45b"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:42:07Z",
+        "fundamentals_at": "2026-11-21T22:50:27Z",
         "price": 208.37,
         "currency": "USD",
         "change_pct": 0.906,
         "news": [
           {
-            "headline": "Trump Cheers the “Biggest Drop in Gasoline in 18 Years.” Not Good for Exxon and Chevron",
-            "url": "https://finnhub.io/api/news?id=f910adc4556314ce0bb6fa3bec1fb49925a0cb9bc173d755d5b601acd8651745",
+            "headline": "How Many Shares of Chevron, Shell or Exxon Pay $1,000 a Month in Dividends?",
+            "url": "https://finnhub.io/api/news?id=6a7837123469be1a8022fbc0450a0b581be41d755740d447dfec7cecf4cde45b",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:58:17Z",
+            "published_at": "2026-11-21T10:50:32Z",
             "primary": false,
             "symbol": "CVX"
           },
           {
-            "headline": "Your Chevron Hedge Works Only While Oil Spikes",
-            "url": "https://finnhub.io/api/news?id=35662103c5bd8be0ade90f27ab35e284609037112cae49683d396f368b046eb4",
+            "headline": "What Does Chevron (CVX) Greece Offshore Exploration Mean For Investors?",
+            "url": "https://finnhub.io/api/news?id=17d9a43edc4e0bbf7660ddb89bb64ff7cd0f83be77c80cfdbab6db2f6c8a1801",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:13:36Z",
+            "published_at": "2026-11-21T01:12:00Z",
             "primary": false,
             "symbol": "CVX"
           }
@@ -12241,7 +12241,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Banking",
-        "why": "Net profit margin 30.2% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.5×; TTM revenue growth 99.4% YoY",
+        "why": "Net profit margin 30.2% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.3×; TTM revenue growth 99.4% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -12255,35 +12255,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:15:11Z",
+            "timestamp": "2026-11-21T22:50:27Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "MongoDB faces lower expectations ahead of earnings as Bank of America cuts price target",
-            "timestamp": "2026-11-19T18:55:00Z",
-            "url": "https://finnhub.io/api/news?id=84ad69ff38da23e1319e9f9fbe69df08006eeda5373b7924fce8a1e7551e5266"
+            "value": "Bank of America (BAC) Could Be 25% Undervalued On Bylaw Reset And Share Price Slide",
+            "timestamp": "2026-11-21T17:07:38Z",
+            "url": "https://finnhub.io/api/news?id=de9a2ab2e89bbf918b6bc56e95757e0ed5126bf8c7dcd43254c81135f5da1b89"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:15:11Z",
+        "fundamentals_at": "2026-11-21T22:50:27Z",
         "price": 47.04,
         "currency": "USD",
         "change_pct": -3.15,
         "news": [
           {
-            "headline": "MongoDB faces lower expectations ahead of earnings as Bank of America cuts price target",
-            "url": "https://finnhub.io/api/news?id=84ad69ff38da23e1319e9f9fbe69df08006eeda5373b7924fce8a1e7551e5266",
+            "headline": "Bank of America (BAC) Could Be 25% Undervalued On Bylaw Reset And Share Price Slide",
+            "url": "https://finnhub.io/api/news?id=de9a2ab2e89bbf918b6bc56e95757e0ed5126bf8c7dcd43254c81135f5da1b89",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:55:00Z",
+            "published_at": "2026-11-21T17:07:38Z",
             "primary": false,
             "symbol": "BAC"
           },
           {
-            "headline": "Bank of America Corporation (BAC): One of the Best Affordable Blue Chip Stock to Buy Now",
-            "url": "https://finnhub.io/api/news?id=c321cc8debc4aebd5c1c722eff156d60bf503e85d82e4fb4783e4cbf8f7ad66e",
+            "headline": "Eli Lilly Is Near Its High. Bank of America Sees Another 19%",
+            "url": "https://finnhub.io/api/news?id=fb6d3882da5f01e49b6b105ed87d00585fbb1a51a73aaade7dbe5bfab56ffb85",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:54:20Z",
+            "published_at": "2026-11-21T14:09:54Z",
             "primary": false,
             "symbol": "BAC"
           }
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T21:51:29Z",
+      "generated_at": "2026-11-21T22:50:27Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 392,
