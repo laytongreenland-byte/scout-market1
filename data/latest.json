@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T20:51:14Z",
-  "status": "partial",
+  "generated_at": "2026-11-21T21:51:29Z",
+  "status": "ok",
   "coverage": {
     "configured_symbols": 587,
     "equity_symbols": 523,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T20:51:14Z",
+      "checked_at": "2026-11-21T21:51:29Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
-      "ok": false,
-      "count": 0,
-      "checked_at": "2026-11-21T20:51:14Z",
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "ok": true,
+      "count": 20,
+      "checked_at": "2026-11-21T21:51:29Z",
+      "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T20:51:14Z",
+      "checked_at": "2026-11-21T21:51:29Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T20:51:14Z",
+      "checked_at": "2026-11-21T21:51:29Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T20:51:14Z",
+      "checked_at": "2026-11-21T21:51:29Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T20:51:14Z",
+    "generated_at": "2026-11-21T21:51:29Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7396,7 +7396,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Banking",
-        "why": "Net profit margin 33.3% (TTM); Return on equity 17.9% (TTM); Trailing P/E 12.9×; TTM revenue growth 109.0% YoY",
+        "why": "Net profit margin 33.3% (TTM); Return on equity 17.9% (TTM); Trailing P/E 12.6×; TTM revenue growth 109.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7410,35 +7410,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:15:11Z",
+            "timestamp": "2026-11-21T21:51:29Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Vendor attack exposes JPMorgan Reserve cardholder emails",
-            "timestamp": "2026-11-19T22:22:13Z",
-            "url": "https://finnhub.io/api/news?id=7571cedd3d4c36e218c21af790d7b5efe824a7f2f854c7399c3c299105fbfad7"
+            "value": "JPMorgan Chase Financial Company LLC Declares Quarterly Coupon on Alerian MLP Index ETN",
+            "timestamp": "2026-11-20T21:05:00Z",
+            "url": "https://finnhub.io/api/news?id=399a1315ce3b86d69f4a145f20b48f70dff632809d613d11ccc61fa20ab9544b"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:15:11Z",
+        "fundamentals_at": "2026-11-21T21:51:29Z",
         "price": 310.53,
         "currency": "USD",
         "change_pct": -3.026,
         "news": [
           {
-            "headline": "Vendor attack exposes JPMorgan Reserve cardholder emails",
-            "url": "https://finnhub.io/api/news?id=7571cedd3d4c36e218c21af790d7b5efe824a7f2f854c7399c3c299105fbfad7",
+            "headline": "JPMorgan Chase Financial Company LLC Declares Quarterly Coupon on Alerian MLP Index ETN",
+            "url": "https://finnhub.io/api/news?id=399a1315ce3b86d69f4a145f20b48f70dff632809d613d11ccc61fa20ab9544b",
             "source": "Yahoo",
-            "published_at": "2026-11-19T22:22:13Z",
+            "published_at": "2026-11-20T21:05:00Z",
             "primary": false,
             "symbol": "JPM"
           },
           {
-            "headline": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
-            "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd",
+            "headline": "Exclusive Research: JPMorgan’s AI strategy puts governance to the test",
+            "url": "https://finnhub.io/api/news?id=459455ded88045bc1adc7d9552d581237492e03c4238641d236456fe3c5f321d",
             "source": "Yahoo",
-            "published_at": "2026-11-19T20:29:13Z",
+            "published_at": "2026-11-20T19:11:47Z",
             "primary": false,
             "symbol": "JPM"
           }
@@ -12168,35 +12168,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:02:33Z",
+            "timestamp": "2026-11-21T21:51:29Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "McDonald's Comparable Sales Trends Improving Amid New Initiatives, Oppenheimer Says",
-            "timestamp": "2026-11-19T19:38:09Z",
-            "url": "https://finnhub.io/api/news?id=33c047da3286049df9acd5c948e645d07815c0328d5416445c2c0a78cd390da6"
+            "value": "McDonald's (MCD) Value Lead Meets A Loyalty Gap In New Zappi Research",
+            "timestamp": "2026-11-21T18:06:17Z",
+            "url": "https://finnhub.io/api/news?id=aa82fa939c0c2c60f3fa1cbbd89e8e8ffbcf57f7b03b3341d0ada354fb78953e"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:02:33Z",
+        "fundamentals_at": "2026-11-21T21:51:29Z",
         "price": 273.24,
         "currency": "USD",
         "change_pct": 0.327,
         "news": [
           {
-            "headline": "McDonald's Comparable Sales Trends Improving Amid New Initiatives, Oppenheimer Says",
-            "url": "https://finnhub.io/api/news?id=33c047da3286049df9acd5c948e645d07815c0328d5416445c2c0a78cd390da6",
+            "headline": "McDonald's (MCD) Value Lead Meets A Loyalty Gap In New Zappi Research",
+            "url": "https://finnhub.io/api/news?id=aa82fa939c0c2c60f3fa1cbbd89e8e8ffbcf57f7b03b3341d0ada354fb78953e",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:38:09Z",
+            "published_at": "2026-11-21T18:06:17Z",
             "primary": false,
             "symbol": "MCD"
           },
           {
-            "headline": "McDonald’s taps former McKinsey partner to lead U.S. strategy overhaul - Bloomberg",
-            "url": "https://finnhub.io/api/news?id=64d1eb4d851314fa869094723dfefcdd0e1b93451bf9edad9fec11ce0b5b4b25",
+            "headline": "How Many Shares of McDonald’s, Starbucks or Darden Pay $1,000 a Month in Dividends?",
+            "url": "https://finnhub.io/api/news?id=86ae0537745940ac094aa9983e153e8aa4ddcb9e68bf7d2312e61394433194a9",
             "source": "Yahoo",
-            "published_at": "2026-11-19T17:47:21Z",
+            "published_at": "2026-11-21T16:51:23Z",
             "primary": false,
             "symbol": "MCD"
           }
@@ -12229,7 +12229,7 @@
             "scenario_exit_pe": 16.39,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T06:02:33Z"
+            "metrics_retrieved_at": "2026-11-21T21:51:29Z"
           }
         },
         "ranking_score": 76,
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T20:51:14Z",
+      "generated_at": "2026-11-21T21:51:29Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 392,
