@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:55:20Z",
+  "generated_at": "2026-11-21T11:53:30Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 413,
+    "financially_screened": 425,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T10:55:20Z",
+      "checked_at": "2026-11-21T11:53:30Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T10:55:20Z",
+      "checked_at": "2026-11-21T11:53:30Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T10:55:20Z",
+      "checked_at": "2026-11-21T11:53:30Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T10:55:20Z",
+      "checked_at": "2026-11-21T11:53:30Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T10:55:20Z",
+      "checked_at": "2026-11-21T11:53:30Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T10:55:20Z",
+    "generated_at": "2026-11-21T11:53:30Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 413,
+    "screened_with_financials": 425,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -7455,6 +7455,85 @@
           "bear_case": null,
           "scenario_upside_pct": null,
           "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 83,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "NTRS",
+        "name": "Northern Trust Corporation",
+        "status": "INVESTIGATE",
+        "score": 83,
+        "industry": "Financial Services",
+        "why": "Net profit margin 23.1% (TTM); Return on equity 18.4% (TTM); Trailing P/E 12.4×; TTM revenue growth 32.9% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$162.20",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T11:53:30Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Why Is Northern Trust (NTRS) Up 0.5% Since Last Earnings Report?",
+            "timestamp": "2026-11-20T15:30:08Z",
+            "url": "https://finnhub.io/api/news?id=8ef2d7875325e05df4591823334c6c2664cbfeb5e1c71d1ccb581be3a331c6cb"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T11:53:30Z",
+        "price": 162.2,
+        "currency": "USD",
+        "change_pct": -2.705,
+        "news": [
+          {
+            "headline": "Why Is Northern Trust (NTRS) Up 0.5% Since Last Earnings Report?",
+            "url": "https://finnhub.io/api/news?id=8ef2d7875325e05df4591823334c6c2664cbfeb5e1c71d1ccb581be3a331c6cb",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T15:30:08Z",
+            "primary": false,
+            "symbol": "NTRS"
+          },
+          {
+            "headline": "Northern Trust Employees Set Volunteer Service Record With More Than 72,000 Hours During ‘Achieving Greater Together’ Month",
+            "url": "https://finnhub.io/api/news?id=e174f75cba4c2b95dec6fd7c200201d338841ff87149707845f25193e531e788",
+            "source": "Yahoo",
+            "published_at": "2026-11-16T19:00:00Z",
+            "primary": false,
+            "symbol": "NTRS"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -9472,6 +9551,93 @@
             "Finnhub P/E, growth and 52-week range"
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "NUE",
+        "name": "Nucor Corporation",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Metals & Mining",
+        "why": "Net profit margin 9.3% (TTM); Return on equity 16.5% (TTM); Trailing P/E 15.1×; TTM revenue growth 21.8% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$239.62",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T11:53:30Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
+            "timestamp": "2026-11-20T15:12:00Z",
+            "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T11:53:30Z",
+        "price": 239.62,
+        "currency": "USD",
+        "change_pct": -3.156,
+        "news": [
+          {
+            "headline": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
+            "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T15:12:00Z",
+            "primary": false,
+            "symbol": "NUE"
+          },
+          {
+            "headline": "Can Nucor Stock Shrug Off Its Raw Materials Slip?",
+            "url": "https://finnhub.io/api/news?id=8bc3488c692d43e9c00d0bd15c0b2c400ea1f41122b30921b8db3295d021a046",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T11:40:22Z",
+            "primary": false,
+            "symbol": "NUE"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 216.85,
+          "entry_floor": 195.16,
+          "exit_review_low": 350.09,
+          "exit_review_high": 427.53,
+          "bear_case": 185.64,
+          "scenario_upside_pct": 46.1,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 15.09,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.23,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T11:53:30Z"
+          }
         },
         "ranking_score": 79,
         "rank_method": "FINANCIAL RULES"
@@ -13389,156 +13555,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "LNT",
-        "name": "Alliant Energy Corp",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Utilities",
-        "why": "Net profit margin 21.3% (TTM); Return on equity 12.4% (TTM); Trailing P/E 19.9×; TTM revenue growth 6.2% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$71.62",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:25:50Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "What Are Wall Street Analysts' Target Price for Alliant Energy Stock?",
-            "timestamp": "2026-11-16T13:04:54Z",
-            "url": "https://finnhub.io/api/news?id=5b39786577c8d8d5962c89d7e21f0ca46714e3cf69f83f8a7cb06aac010625b2"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:25:50Z",
-        "price": 71.62,
-        "currency": "USD",
-        "change_pct": 0.308,
-        "news": [
-          {
-            "headline": "What Are Wall Street Analysts' Target Price for Alliant Energy Stock?",
-            "url": "https://finnhub.io/api/news?id=5b39786577c8d8d5962c89d7e21f0ca46714e3cf69f83f8a7cb06aac010625b2",
-            "source": "Yahoo",
-            "published_at": "2026-11-16T13:04:54Z",
-            "primary": false,
-            "symbol": "LNT"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Sector-specific valuation required for Utilities; earnings multiple scenario withheld.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "ATO",
-        "name": "Atmos Energy Corporation",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Utilities",
-        "why": "Net profit margin 28.5% (TTM); Return on equity 9.7% (TTM); Trailing P/E 20.4×; TTM revenue growth 6.5% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$168.28",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T20:27:20Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Atmos Energy (ATO) Stock Looks To Trade At A Premium Today",
-            "timestamp": "2026-11-19T22:12:02Z",
-            "url": "https://finnhub.io/api/news?id=7bccece8f8deeeae3e40be7080e95780e4dad5683709b7da7792c4eb76bbd051"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T20:27:20Z",
-        "price": 168.28,
-        "currency": "USD",
-        "change_pct": -0.243,
-        "news": [
-          {
-            "headline": "Atmos Energy (ATO) Stock Looks To Trade At A Premium Today",
-            "url": "https://finnhub.io/api/news?id=7bccece8f8deeeae3e40be7080e95780e4dad5683709b7da7792c4eb76bbd051",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T22:12:02Z",
-            "primary": false,
-            "symbol": "ATO"
-          },
-          {
-            "headline": "Atmos Energy (ATO) Following Its Equity Raise, Is The Valuation Case Still Intact?",
-            "url": "https://finnhub.io/api/news?id=8f774c10921b15c7faab26f5577de5e1e13c8f74756dc6aa524dbbae5277f828",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T15:18:36Z",
-            "primary": false,
-            "symbol": "ATO"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Sector-specific valuation required for Utilities; earnings multiple scenario withheld.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -13715,6 +13731,93 @@
           }
         },
         "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "NCLH",
+        "name": "Norwegian Cruise Line Holdings Ltd.",
+        "status": "WATCH",
+        "score": 61,
+        "industry": "Hotels, Restaurants & Leisure",
+        "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 8.9×; TTM revenue growth 4.8% YoY",
+        "risks": [
+          "Large one-session price move (-6.3%)"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$15.99",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T11:53:30Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
+            "timestamp": "2026-11-20T14:11:52Z",
+            "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T11:53:30Z",
+        "price": 15.99,
+        "currency": "USD",
+        "change_pct": -6.327,
+        "news": [
+          {
+            "headline": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
+            "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T14:11:52Z",
+            "primary": false,
+            "symbol": "NCLH"
+          },
+          {
+            "headline": "Norwegian Cruise Line Holdings (NCLH) Chef Studio Launch Keeps Fair Value In Focus",
+            "url": "https://finnhub.io/api/news?id=e0ce6702feca835f3a47a20d257bbaa796d6b9831c57ca6ed52b95a8cfc543ce",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T07:09:59Z",
+            "primary": false,
+            "symbol": "NCLH"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 19.38,
+          "entry_floor": 17.44,
+          "exit_review_low": 29.5,
+          "exit_review_high": 34.47,
+          "bear_case": 16.69,
+          "scenario_upside_pct": 84.5,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 8.95,
+            "earnings_growth_assumed_pct": 2.18,
+            "scenario_exit_pe": 16.16,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T11:53:30Z"
+          }
+        },
+        "ranking_score": 61,
         "rank_method": "FINANCIAL RULES"
       },
       {
@@ -14153,93 +14256,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "status": "INVESTIGATE",
-        "score": 78,
-        "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 13.0% (TTM); Return on equity 178.5% (TTM); Trailing P/E 13.5×; TTM revenue growth 12.9% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$234.96",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T02:56:23Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Will Raised Revenue Guidance Change Expedia's (EXPE) Narrative",
-            "timestamp": "2026-11-18T23:24:29Z",
-            "url": "https://finnhub.io/api/news?id=add118744578e0f85d7a4c229575afd01d7c1d3e8b31e41130201b444c12a1d4"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T02:56:23Z",
-        "price": 234.96,
-        "currency": "USD",
-        "change_pct": -1.768,
-        "news": [
-          {
-            "headline": "Will Raised Revenue Guidance Change Expedia's (EXPE) Narrative",
-            "url": "https://finnhub.io/api/news?id=add118744578e0f85d7a4c229575afd01d7c1d3e8b31e41130201b444c12a1d4",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T23:24:29Z",
-            "primary": false,
-            "symbol": "EXPE"
-          },
-          {
-            "headline": "Expedia Group (EXPE) Lifts 2026 Guidance As Undervalued Narrative Stays In Focus",
-            "url": "https://finnhub.io/api/news?id=e89270f824c7759fe99a62883d819f5bc69d81230eda29fbd8533e40c92b033e",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T15:13:43Z",
-            "primary": false,
-            "symbol": "EXPE"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 260.89,
-          "entry_floor": 234.8,
-          "exit_review_low": 334.48,
-          "exit_review_high": 400.49,
-          "bear_case": 182.71,
-          "scenario_upside_pct": 42.4,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 13.45,
-            "earnings_growth_assumed_pct": 5.81,
-            "scenario_exit_pe": 18.1,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T02:56:23Z"
-          }
-        },
-        "ranking_score": 78,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "pricing_method": "Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.",
@@ -14654,7 +14670,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 413,
+      "recorded_signals": 425,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14672,23 +14688,203 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T10:55:20Z",
+      "generated_at": "2026-11-21T11:53:30Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 312,
-        "purchase_scenarios": 21,
+        "recorded": 321,
+        "purchase_scenarios": 23,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 21,
+        "waiting": 23,
         "unverified": 0,
-        "skipped": 291,
+        "skipped": 298,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|NTAP|ABOVE BASE CASE",
+          "symbol": "NTAP",
+          "name": "NetApp Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 157.65,
+          "buy_ceiling": 98.59,
+          "sell_review": 126.4,
+          "risk": "Large one-session price move (-7.4%)",
+          "why": "Net profit margin 19.2% (TTM); Return on equity 113.7% (TTM); Trailing P/E 23.6×; TTM revenue growth 12.2% YoY",
+          "score": 75,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NI|NO RELIABLE PRICE RANGE",
+          "symbol": "NI",
+          "name": "NiSource Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 44.28,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 13.8% (TTM); Return on equity 9.8% (TTM); Trailing P/E 23.0×; TTM revenue growth 10.1% YoY",
+          "score": 68,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NDSN|ABOVE BASE CASE",
+          "symbol": "NDSN",
+          "name": "Nordson Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 307.22,
+          "buy_ceiling": 130.88,
+          "sell_review": 167.79,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 18.6% (TTM); Return on equity 17.6% (TTM); Trailing P/E 31.5×; TTM revenue growth 7.0% YoY",
+          "score": 70,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NTRS|NO RELIABLE PRICE RANGE",
+          "symbol": "NTRS",
+          "name": "Northern Trust Corporation",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 162.2,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 23.1% (TTM); Return on equity 18.4% (TTM); Trailing P/E 12.4×; TTM revenue growth 32.9% YoY",
+          "score": 83,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NCLH|QUALITY GATE NOT MET",
+          "symbol": "NCLH",
+          "name": "Norwegian Cruise Line Holdings Ltd.",
+          "signal": "QUALITY GATE NOT MET",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 15.99,
+          "buy_ceiling": 19.38,
+          "sell_review": 29.5,
+          "risk": "Large one-session price move (-6.3%)",
+          "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 8.9×; TTM revenue growth 4.8% YoY",
+          "score": 61,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NRG|NO RELIABLE PRICE RANGE",
+          "symbol": "NRG",
+          "name": "NRG Energy Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 87.8,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 2.6% (TTM); Return on equity 25.4% (TTM); Trailing P/E 23.2×; TTM revenue growth 12.8% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NUE|WAIT FOR ENTRY",
+          "symbol": "NUE",
+          "name": "Nucor Corporation",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 239.62,
+          "buy_ceiling": 216.85,
+          "sell_review": 350.09,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 9.3% (TTM); Return on equity 16.5% (TTM); Trailing P/E 15.1×; TTM revenue growth 21.8% YoY",
+          "score": 79,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NXPI|WAIT FOR ENTRY",
+          "symbol": "NXPI",
+          "name": "NXP Semiconductors NV",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 235.15,
+          "buy_ceiling": 183.82,
+          "sell_review": 235.66,
+          "risk": "Large one-session price move (-6.6%)",
+          "why": "Net profit margin 23.4% (TTM); Return on equity 29.0% (TTM); Trailing P/E 19.7×; TTM revenue growth 14.6% YoY",
+          "score": 75,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ORLY|ABOVE BASE CASE",
+          "symbol": "ORLY",
+          "name": "O'Reilly Automotive, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T11:53:30Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 92.65,
+          "buy_ceiling": 46.86,
+          "sell_review": 60.08,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 14.3% (TTM); Return on equity 423.4% (TTM); Trailing P/E 27.4×; TTM revenue growth 8.7% YoY",
+          "score": 69,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|MAS|ABOVE BASE CASE",
           "symbol": "MAS",
@@ -16908,190 +17104,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AIZ|NO RELIABLE PRICE RANGE",
-          "symbol": "AIZ",
-          "name": "Assurant Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:27:20Z",
-          "quote_at": "2026-11-20T20:32:43Z",
-          "reference_price": 317.86,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 7.8% (TTM); Return on equity 18.0% (TTM); Trailing P/E 14.6×; TTM revenue growth 9.4% YoY",
-          "score": 69,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|ATO|NO RELIABLE PRICE RANGE",
-          "symbol": "ATO",
-          "name": "Atmos Energy Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:27:20Z",
-          "quote_at": "2026-11-20T20:32:52Z",
-          "reference_price": 169.36,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 28.5% (TTM); Return on equity 9.7% (TTM); Trailing P/E 20.4×; TTM revenue growth 6.5% YoY",
-          "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AZO|ABOVE BASE CASE",
-          "symbol": "AZO",
-          "name": "AutoZone, Inc.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T20:27:20Z",
-          "quote_at": "2026-11-20T20:32:37Z",
-          "reference_price": 3274.09,
-          "buy_ceiling": 2136.07,
-          "sell_review": 2738.56,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 12.7% (TTM); Return on equity 249.3% (TTM); Trailing P/E 20.4×; TTM revenue growth 7.4% YoY",
-          "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AVY|NO RELIABLE PRICE RANGE",
-          "symbol": "AVY",
-          "name": "Avery Dennison Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:27:20Z",
-          "quote_at": "2026-11-20T20:32:40Z",
-          "reference_price": 181.89,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 7.6% (TTM); Return on equity 30.6% (TTM); Trailing P/E 20.0×; TTM revenue growth 6.8% YoY",
-          "score": 67,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|BALL|NO RELIABLE PRICE RANGE",
-          "symbol": "BALL",
-          "name": "Ball Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:27:20Z",
-          "quote_at": "2026-11-20T20:32:47Z",
-          "reference_price": 63.88,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Earnings per share declining",
-          "why": "Net profit margin 3.5% (TTM); Return on equity 9.5% (TTM); Trailing P/E 31.1×; TTM revenue growth 19.2% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|BAX|NO RELIABLE PRICE RANGE",
-          "symbol": "BAX",
-          "name": "Baxter International Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:27:20Z",
-          "quote_at": "2026-11-20T20:32:50Z",
-          "reference_price": 25.31,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Unprofitable on trailing net margin",
-          "why": "Net profit margin -6.2% (TTM); Return on equity -11.6% (TTM); TTM revenue growth 5.3% YoY; 15.6% below reported 52-week high",
-          "score": 36,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|GOOG|QUALITY GATE NOT MET",
-          "symbol": "GOOG",
-          "name": "Alphabet Inc.",
-          "signal": "QUALITY GATE NOT MET",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:14:21Z",
-          "reference_price": 267.26,
-          "buy_ceiling": 312.93,
-          "sell_review": 401.2,
-          "risk": "Price near reported 52-week low",
-          "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
-          "score": 79,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AMCR|NO RELIABLE PRICE RANGE",
-          "symbol": "AMCR",
-          "name": "Amcor PLC",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:14:20Z",
-          "reference_price": 42.76,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 4.5% (TTM); Return on equity 9.3% (TTM); Trailing P/E 18.6×; TTM revenue growth 37.3% YoY",
-          "score": 73,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AEE|NO RELIABLE PRICE RANGE",
-          "symbol": "AEE",
-          "name": "Ameren Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:14:12Z",
-          "reference_price": 112.61,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 17.9% (TTM); Return on equity 11.7% (TTM); Trailing P/E 19.4×; TTM revenue growth -0.3% YoY",
-          "score": 60,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 78,
+      "legacy_research_flags": 80,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17101,22 +17117,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "ORCL",
-        "flagged_at": "2026-11-20T15:04:23Z",
-        "reference_price": 108.38,
-        "score": 76,
-        "price_at": "2026-11-20T15:04:30Z"
-      },
-      {
-        "week": "2026-11-16",
-        "symbol": "CRM",
-        "flagged_at": "2026-11-20T15:04:23Z",
-        "reference_price": 188.67,
-        "score": 82,
-        "price_at": "2026-11-20T15:04:29Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "NFLX",
@@ -17498,6 +17498,22 @@
         "symbol": "MKC",
         "flagged_at": "2026-11-21T10:55:20Z",
         "reference_price": 47.4,
+        "score": 79,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "NTRS",
+        "flagged_at": "2026-11-21T11:53:30Z",
+        "reference_price": 162.2,
+        "score": 83,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "NUE",
+        "flagged_at": "2026-11-21T11:53:30Z",
+        "reference_price": 239.62,
         "score": 79,
         "price_at": "2026-11-20T21:00:00Z"
       }
