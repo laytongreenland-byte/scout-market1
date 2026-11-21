@@ -28088,8 +28088,710 @@
           "symbol": "TXT"
         }
       ]
+    },
+    "TKO": {
+      "metrics": {
+        "52WeekHigh": 226.94,
+        "52WeekLow": 170.14,
+        "peTTM": 118.173,
+        "psTTM": 7.5986,
+        "netProfitMarginTTM": 6.43,
+        "roeTTM": 8.57,
+        "revenueGrowthTTMYoy": 3.8,
+        "epsGrowthTTMYoy": 186.7,
+        "currentRatioQuarterly": 1.349,
+        "totalDebt/totalEquityQuarterly": 1.4492,
+        "marketCapitalization": 34225.035
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "TKO Group Holdings Inc",
+      "profile": {
+        "weburl": "https://tkogrp.com/",
+        "industry": "Media",
+        "name": "TKO Group Holdings Inc"
+      },
+      "news": [
+        {
+          "headline": "TKO Group (TKO) Owns UFC and WWE. So Why Is George Soros Selling?",
+          "url": "https://finnhub.io/api/news?id=9d3bf23514bccdb56495f38fba085c838045f6e473f4184f9203f5604c987664",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T01:06:02Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "Is TKO Stock Really Expensive?",
+          "url": "https://finnhub.io/api/news?id=683159465861b734e739c903c3eb186601e41a968d39b567d1e450966c850ddf",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:59:13Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "Wall Street Analysts Predict a 26.89% Upside in TKO Group (TKO): Here's  What You Should Know",
+          "url": "https://finnhub.io/api/news?id=1ab81dfb100a2bf6428c00b4eabf4cb108c34a1dc315a25dabcc6ab877376b15",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:55:02Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for TKO Group Stock?",
+          "url": "https://finnhub.io/api/news?id=94a87eea5bb77a4b03ae365c120b528dc6dbfa37e56761356a1fd9353abd6146",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:11:36Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "TKO Group Holdings to Participate in the UBS Global Media and Communications Conference",
+          "url": "https://finnhub.io/api/news?id=d70d650f9fd2cc3905fc17c9c21170ccf23d0762646737d5d60f6ebed932faa4",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:00:00Z",
+          "primary": false,
+          "symbol": "TKO"
+        }
+      ]
+    },
+    "TSCO": {
+      "metrics": {
+        "52WeekHigh": 56.28,
+        "52WeekLow": 28.36,
+        "peTTM": 20.8494,
+        "psTTM": 1.2782,
+        "netProfitMarginTTM": 6.13,
+        "roeTTM": 37.64,
+        "revenueGrowthTTMYoy": 3.53,
+        "epsGrowthTTMYoy": -10.28,
+        "currentRatioQuarterly": 1.3785,
+        "totalDebt/totalEquityQuarterly": 0.8601,
+        "marketCapitalization": 20376.453
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Tractor Supply Company",
+      "profile": {
+        "weburl": "https://www.tractorsupply.com",
+        "industry": "Retail",
+        "name": "Tractor Supply Company"
+      },
+      "news": [
+        {
+          "headline": "ETFs Bought $41.6 Million of Tractor Supply (TSCO) on Nov. 18",
+          "url": "https://finnhub.io/api/news?id=c471f115a62bd3050e3bc130b36279078c1a119a2e0b81fad0e3cfee5c5e5204",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:01:11Z",
+          "primary": false,
+          "symbol": "TSCO"
+        },
+        {
+          "headline": "Delivery Partnership Could Be A Game Changer For Tractor Supply (TSCO)",
+          "url": "https://finnhub.io/api/news?id=8fb26942f46824d3ff5b7a52e240c6067cf2a82b3a1d44591b8322824a8bbbe8",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:14:25Z",
+          "primary": false,
+          "symbol": "TSCO"
+        },
+        {
+          "headline": "Tractor Supply (TSCO) Expands Delivery As Its Stock Looks Slightly Pricey",
+          "url": "https://finnhub.io/api/news?id=842cca2c6ccb7a2b713da05d84011cc5427bdae757bf67ceb80e407856897465",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:35Z",
+          "primary": false,
+          "symbol": "TSCO"
+        },
+        {
+          "headline": "Tractor Supply boosts same-day delivery options",
+          "url": "https://finnhub.io/api/news?id=e6198aa1707b5351ae326361d660e169be14ffb8c43df5d3b0a3c46792f8cda6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:55:00Z",
+          "primary": false,
+          "symbol": "TSCO"
+        },
+        {
+          "headline": "ETFs Are Buying Tractor Supply (TSCO) on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=03c23598c88f39fe26bb3b2d761b57c717f46d55a8620d88cd13e5b4cf847d3e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:01:01Z",
+          "primary": false,
+          "symbol": "TSCO"
+        }
+      ]
+    },
+    "TDG": {
+      "metrics": {
+        "52WeekHigh": 1463.03,
+        "52WeekLow": 1071.25,
+        "peTTM": 29.7841,
+        "psTTM": 5.9438,
+        "netProfitMarginTTM": 19.96,
+        "roeTTM": 37.11,
+        "revenueGrowthTTMYoy": 19.57,
+        "epsGrowthTTMYoy": 2.66,
+        "currentRatioQuarterly": 2.9007,
+        "totalDebt/totalEquityQuarterly": 5.4121,
+        "marketCapitalization": 62755.113
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "TransDigm Group Incorporated",
+      "profile": {
+        "weburl": "https://www.transdigm.com/",
+        "industry": "Aerospace & Defense",
+        "name": "TransDigm Group Incorporated"
+      },
+      "news": [
+        {
+          "headline": "TransDigm Group Heads These 3 Space Stocks To Watch",
+          "url": "https://finnhub.io/api/news?id=7ff0946074e7f4e2c0e09a25e3c639974a326f1e35ff8e916b248c4fd4d96a69",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T05:12:44Z",
+          "primary": false,
+          "symbol": "TDG"
+        },
+        {
+          "headline": "TransDigm Group (TDG) Beats Expectations in Q3 but Faces a Valuation Reset",
+          "url": "https://finnhub.io/api/news?id=7ca363b0c671bab0010414030e38829abd33b51d6f1327a22eaa52d622cb3aba",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:56:04Z",
+          "primary": false,
+          "symbol": "TDG"
+        },
+        {
+          "headline": "Is TransDigm Stock Still Worth Owning After Its Quarter?",
+          "url": "https://finnhub.io/api/news?id=4bd924bf9550b69a357e6cb3ba558aba697fde842ebe35fc6219d12d476e1836",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:42:22Z",
+          "primary": false,
+          "symbol": "TDG"
+        },
+        {
+          "headline": "27 ETFs Add to TransDigm (TDG) Holdings on Nov. 16",
+          "url": "https://finnhub.io/api/news?id=58f661643cc63e715996ae93d462f9693059fc7b273e3ef4a937cf675b4e13c8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:02:08Z",
+          "primary": false,
+          "symbol": "TDG"
+        },
+        {
+          "headline": "Why The Fund Remains Bullish on Aerospace Aftermarket Leader TransDigm Group (DG)",
+          "url": "https://finnhub.io/api/news?id=26e9f6dad51917480a2fd2b635cf8bc3c947ac01e1fa960a283762878536c7da",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:11:34Z",
+          "primary": false,
+          "symbol": "TDG"
+        }
+      ]
+    },
+    "TRMB": {
+      "metrics": {
+        "52WeekHigh": 84.42,
+        "52WeekLow": 47.92,
+        "psTTM": 3.1273,
+        "netProfitMarginTTM": -4.08,
+        "roeTTM": -2.91,
+        "revenueGrowthTTMYoy": 6.88,
+        "currentRatioQuarterly": 0.9283,
+        "totalDebt/totalEquityQuarterly": 0.3082,
+        "marketCapitalization": 12035.325
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Trimble Inc",
+      "profile": {
+        "weburl": "https://www.trimble.com/en",
+        "industry": "Technology",
+        "name": "Trimble Inc"
+      },
+      "news": [
+        {
+          "headline": "Trimble Appoints Matthew C. Brown to Board of Directors",
+          "url": "https://finnhub.io/api/news?id=db776429600a109054c88029a8efaa62e3cd304d75f25b2838abe2e8739a3394",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:05:00Z",
+          "primary": false,
+          "symbol": "TRMB"
+        },
+        {
+          "headline": "Trimble Sees 17% EPS Growth Despite Agricultural and Transportation Headwinds",
+          "url": "https://finnhub.io/api/news?id=dbebe490d74c5099fb2712288397e5aaa8763867ef87c9982fb6d20e2df13c97",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T07:12:03Z",
+          "primary": false,
+          "symbol": "TRMB"
+        }
+      ]
+    },
+    "TWLO": {
+      "metrics": {
+        "52WeekHigh": 308.4,
+        "52WeekLow": 105.0,
+        "peTTM": 25.241,
+        "psTTM": 5.5086,
+        "netProfitMarginTTM": 21.82,
+        "roeTTM": 15.079999999999998,
+        "revenueGrowthTTMYoy": 19.1,
+        "epsGrowthTTMYoy": 1806.67,
+        "currentRatioQuarterly": 4.4705,
+        "totalDebt/totalEquityQuarterly": 0.1083,
+        "marketCapitalization": 32123.043
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Twilio Inc.",
+      "profile": {
+        "weburl": "https://www.twilio.com/en-us",
+        "industry": "Technology",
+        "name": "Twilio Inc."
+      },
+      "news": [
+        {
+          "headline": "How AI Voice Upgrades Will Impact Twilio (TWLO) Stock",
+          "url": "https://finnhub.io/api/news?id=2642e9a4ed70a2d9dc954b72279adf3eb9a46e95854a25b0edb7dd891b4a4139",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T12:09:11Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
+        {
+          "headline": "Can Twilio's Record Profit Margin Last?",
+          "url": "https://finnhub.io/api/news?id=485a459192d88a1bfce14992538dc816c466de1928a62078f7206f9866b12178",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T06:32:47Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
+        {
+          "headline": "Investors Heavily Search Twilio Inc. (TWLO): Here is What You Need to Know",
+          "url": "https://finnhub.io/api/news?id=e7d9f447e7ee4cbd5bfdccfb1e0247c28a5a757bbe9dfe4bfdb9f383edd4b3f7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:03Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
+        {
+          "headline": "Twilio vs. ServiceNow: Which AI Software Stock Has the Edge?",
+          "url": "https://finnhub.io/api/news?id=a767e790f3de6f50c35ef80a58a690ff0469f084b4b8157bb9011bc084e123c4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:06:00Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
+        {
+          "headline": "Twilio Powers Chelsea FC to Cut Campaign Launch Times from 48 Hours to Under 15 Minutes",
+          "url": "https://finnhub.io/api/news?id=28ae6f9f8bf6c0cd473b40fbb91c7512d4d4c47b1fae634cc215b3341b480381",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T09:00:00Z",
+          "primary": false,
+          "symbol": "TWLO"
+        }
+      ]
+    },
+    "TYL": {
+      "metrics": {
+        "52WeekHigh": 481.57,
+        "52WeekLow": 270.71,
+        "peTTM": 48.8354,
+        "psTTM": 6.599,
+        "netProfitMarginTTM": 13.51,
+        "roeTTM": 10.25,
+        "revenueGrowthTTMYoy": 7.96,
+        "epsGrowthTTMYoy": 10.63,
+        "currentRatioQuarterly": 1.3322,
+        "totalDebt/totalEquityQuarterly": 0.5054,
+        "marketCapitalization": 16374.362
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Tyler Technologies, Inc.",
+      "profile": {
+        "weburl": "https://www.tylertech.com",
+        "industry": "Technology",
+        "name": "Tyler Technologies, Inc."
+      },
+      "news": [
+        {
+          "headline": "Arkansas Launches Statewide Digital Services App, Bringing More than 50 Government Services to Residents with Tyler Technologies",
+          "url": "https://finnhub.io/api/news?id=875f399d9ab46aed080eac371f7b736502dd39158d2452edd4a400225c0ea230",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:17:00Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
+          "headline": "TD Cowen Maintains Buy on Tyler Technologies, Raises Price Target to $475",
+          "url": "https://finnhub.io/api/news?id=be0e9ca24b349cb0bc6c2e481e28a1e2194672e5eeb4632fca0ed3396845eb19",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T11:01:08Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
+          "headline": "Truist Securities Reiterates Buy on Tyler Technologies, Raises Price Target to $500",
+          "url": "https://finnhub.io/api/news?id=7cfedaa2a2eefbdb681113e41890e97e90d837b07d023bc7b58ecddf0f6835c1",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:43:07Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
+          "headline": "Tyler Technologies CEO Lynn Moore Sells $13M As Shares Pull Back After Rally",
+          "url": "https://finnhub.io/api/news?id=032725b5b281066a0bd817ea5892d92737895cf598546b858b558f51057346a4",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:05:16Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
+          "headline": "Nova Scotia’s Property Valuation Services Corporation to Deploy Tyler Technologies’ Cloud-Based Appraisal & Tax Solutions",
+          "url": "https://finnhub.io/api/news?id=cee82be29a605a3c9d6890889fdbf551ed37255c7623ce294e939390b7cadf4d",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:17:00Z",
+          "primary": false,
+          "symbol": "TYL"
+        }
+      ]
+    },
+    "TSN": {
+      "metrics": {
+        "52WeekHigh": 69.48,
+        "52WeekLow": 49.96,
+        "peTTM": 39.1921,
+        "psTTM": 0.4021,
+        "netProfitMarginTTM": 1.03,
+        "roeTTM": 3.18,
+        "revenueGrowthTTMYoy": 3.32,
+        "epsGrowthTTMYoy": -26.47,
+        "currentRatioQuarterly": 1.4334,
+        "totalDebt/totalEquityQuarterly": 0.4428,
+        "marketCapitalization": 22496.25
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Tyson Foods Inc",
+      "profile": {
+        "weburl": "https://www.tysonfoods.com/",
+        "industry": "Food Products",
+        "name": "Tyson Foods Inc"
+      },
+      "news": [
+        {
+          "headline": "Tyson Foods changes course after meat plant closures",
+          "url": "https://finnhub.io/api/news?id=b4e26ceedbccb0b9e2d5fec7f718e8efc38e447df97124a7c04293b20a01a9fa",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T15:07:00Z",
+          "primary": false,
+          "symbol": "TSN"
+        },
+        {
+          "headline": "Tyson Foods, Inc. Announces Board and Executive Changes",
+          "url": "https://finnhub.io/api/news?id=12145019814ef642ab6d70f20b816ae01eb5dce99174d85eea4bee7acc5e3238",
+          "source": "Fintel",
+          "published_at": "2026-11-21T03:28:27Z",
+          "primary": false,
+          "symbol": "TSN"
+        },
+        {
+          "headline": "Tyson Foods Announces Updates to Board of Directors",
+          "url": "https://finnhub.io/api/news?id=cdd5f500e1602f638242ee58378eb82a9e341506dd2c5be66efae3ea423a0e1b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:00:00Z",
+          "primary": false,
+          "symbol": "TSN"
+        },
+        {
+          "headline": "Why JPMorgan Downgraded Tyson Foods (TSN)",
+          "url": "https://finnhub.io/api/news?id=346e5c079df55b706a1f2a6a5cb8b9e164276020c70c2808282145ab11dbd1b4",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:08:06Z",
+          "primary": false,
+          "symbol": "TSN"
+        },
+        {
+          "headline": "B of A Securities Maintains Neutral on Tyson Foods, Raises Price Target to $65",
+          "url": "https://finnhub.io/api/news?id=25a60bb5c3a0aa861ee2a6ec6e5ec1fb890ed2fb5a63f451feadfe22a6880be2",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T12:44:02Z",
+          "primary": false,
+          "symbol": "TSN"
+        }
+      ]
+    },
+    "UDR": {
+      "metrics": {
+        "52WeekHigh": 42.0,
+        "52WeekLow": 33.1,
+        "peTTM": 16.313,
+        "psTTM": 6.648,
+        "netProfitMarginTTM": 40.75,
+        "roeTTM": 22.08,
+        "revenueGrowthTTMYoy": 0.62,
+        "epsGrowthTTMYoy": 371.83,
+        "currentRatioQuarterly": 0.0009,
+        "totalDebt/totalEquityQuarterly": 1.8401,
+        "marketCapitalization": 11384.236
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "UDR, Inc.",
+      "profile": {
+        "weburl": "https://www.udr.com/",
+        "industry": "Real Estate",
+        "name": "UDR, Inc."
+      },
+      "news": [
+        {
+          "headline": "A $400,000 Portfolio in T. Rowe Price, ONEOK and UDR Pays $20,171 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=2a3c486f4ed13a48a58902c964e602607d8ca4a0269d39fdb85410e1e99cb662",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T11:20:31Z",
+          "primary": false,
+          "symbol": "UDR"
+        },
+        {
+          "headline": "UDR, Inc.: Apollo Transaction Supports Hold",
+          "url": "https://finnhub.io/api/news?id=f21937f4a028a1af2d784bc913ac507b55ba438db287d8f654f9d0dfa4b1f018",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T12:04:50Z",
+          "primary": false,
+          "symbol": "UDR"
+        }
+      ]
+    },
+    "ULTA": {
+      "metrics": {
+        "52WeekHigh": 714.97,
+        "52WeekLow": 443.6,
+        "peTTM": 21.5555,
+        "psTTM": 2.0133,
+        "netProfitMarginTTM": 9.34,
+        "roeTTM": 45.4,
+        "revenueGrowthTTMYoy": 11.16,
+        "epsGrowthTTMYoy": 5.21,
+        "currentRatioQuarterly": 1.3451,
+        "totalDebt/totalEquityQuarterly": 0.1284,
+        "marketCapitalization": 26082.736
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Ulta Beauty Inc",
+      "profile": {
+        "weburl": "https://www.ulta.com/",
+        "industry": "Retail",
+        "name": "Ulta Beauty Inc"
+      },
+      "news": [
+        {
+          "headline": "Ulta Beauty (ULTA) Stock May Look Pricey Against Its Earnings Power",
+          "url": "https://finnhub.io/api/news?id=1047a1f57e1db97c4cb9fe1dbfb36f2034a6cf2881b5983b341ba5fa8048f079",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:10:22Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Ulta Beauty (ULTA) Adds Japanese Double Cleansing Displays To 400 Stores",
+          "url": "https://finnhub.io/api/news?id=ea94347dc6db0000edfb2a1555652d86cfc1db5022cc98b6ac16fae736c34852",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T03:17:53Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Ulta Beauty to Report Third Quarter Fiscal 2026 Results and Participate in an Upcoming Investor Conference",
+          "url": "https://finnhub.io/api/news?id=df065be1526d494dbd3a88bb0de11d0e7d060edb4e6dccc11540550aad692f11",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:05:00Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Ulta Beauty (ULTA) Stock Gets Fair Value Bump As Analysts Turn More Constructive",
+          "url": "https://finnhub.io/api/news?id=b11c5fe6862a8a843f4d352a97c1376ea6b3277f10d68c01393355cd52352c23",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:14:56Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Will Higher Earnings Estimates Change Ulta Beauty's (ULTA) Narrative",
+          "url": "https://finnhub.io/api/news?id=0f13a9e89bf117d4374febbc6e5bc621bd53bfdb53dd1279158aaf7c5db82b66",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:16:02Z",
+          "primary": false,
+          "symbol": "ULTA"
+        }
+      ]
+    },
+    "UAL": {
+      "metrics": {
+        "52WeekHigh": 138.77,
+        "52WeekLow": 84.64,
+        "peTTM": 10.2883,
+        "psTTM": 0.5613,
+        "netProfitMarginTTM": 5.46,
+        "roeTTM": 21.8,
+        "revenueGrowthTTMYoy": 12.31,
+        "epsGrowthTTMYoy": 9.39,
+        "currentRatioQuarterly": 0.7503,
+        "totalDebt/totalEquityQuarterly": 1.4869,
+        "marketCapitalization": 36791.1
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "United Airlines Holdings, Inc.",
+      "profile": {
+        "weburl": "https://ir.united.com/",
+        "industry": "Airlines",
+        "name": "United Airlines Holdings, Inc."
+      },
+      "news": [
+        {
+          "headline": "United (UAL) Up 5.9% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=7d40408bf16c0cc64d9695caaf724c0c09c66bd8c75dae4b72fad05a508ab474",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:07Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
+        {
+          "headline": "Here's How Much $1000 Invested In United Airlines Holdings 5 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=d2138cdeb9bb5822a03496a16dcc241790d90c0c0ce229418de5fc6b390e8f24",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:30:47Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
+        {
+          "headline": "Can United Airlines Holdings (UAL) Keep Justifying Its Price on Cash Flow?",
+          "url": "https://finnhub.io/api/news?id=2ce1c11f0142f555729f4ea303c706d2a0bba0e6d44067a26ab2752548ae5175",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:15:46Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
+        {
+          "headline": "United Airlines: Cheaper Fuel Helps Earnings, But Fleet Spending Keeps Me At Hold",
+          "url": "https://finnhub.io/api/news?id=c8d56c066b23c2b81cd796fb042ca868575654a04ba27af1722bed42801c82d2",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T08:51:32Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
+        {
+          "headline": "Elon Musk Ally Jason Calacanis Wants United Airlines To ‘Wreck’ Delta’s ‘Painfully Slow WiFi’ Amid Starlink Supremacy Debate",
+          "url": "https://finnhub.io/api/news?id=9395a9d4e282e8fad29fdc96f2b26b4df7c9eec789bd27c30cf61458122d3d26",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T05:45:41Z",
+          "primary": false,
+          "symbol": "UAL"
+        }
+      ]
+    },
+    "UHS": {
+      "metrics": {
+        "52WeekHigh": 246.33,
+        "52WeekLow": 140.08,
+        "peTTM": 7.3464,
+        "psTTM": 0.5851,
+        "netProfitMarginTTM": 7.96,
+        "roeTTM": 19.59,
+        "revenueGrowthTTMYoy": 8.0,
+        "epsGrowthTTMYoy": 13.65,
+        "currentRatioQuarterly": 1.3694,
+        "totalDebt/totalEquityQuarterly": 0.7513,
+        "marketCapitalization": 10738.607
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Universal Health Services, Inc.",
+      "profile": {
+        "weburl": "https://uhs.com",
+        "industry": "Health Care",
+        "name": "Universal Health Services, Inc."
+      },
+      "news": [
+        {
+          "headline": "Universal Health Services, Inc. Announces Dividend",
+          "url": "https://finnhub.io/api/news?id=b9c17e5f684863e7c621a12f1d60cb70efdddb64fd8a340f9c3be87abce60f84",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:20:00Z",
+          "primary": false,
+          "symbol": "UHS"
+        },
+        {
+          "headline": "Universal Health Services (UHS) Expands Outpatient Behavioral Health, Does It Look Fairly Valued?",
+          "url": "https://finnhub.io/api/news?id=f05d7b8cfe6492493916ff516f03730e3e9750b5c996a32c5b635b43089b131c",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T04:33:30Z",
+          "primary": false,
+          "symbol": "UHS"
+        },
+        {
+          "headline": "Universal Health Services Bets on Hospital Recovery as Medicaid Payments Fall in 2027",
+          "url": "https://finnhub.io/api/news?id=b76d83dbd8377d87e1a1b183fd12b69a62edb808834be84a36d873d99d23ee9d",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T16:12:05Z",
+          "primary": false,
+          "symbol": "UHS"
+        }
+      ]
+    },
+    "VEEV": {
+      "metrics": {
+        "52WeekHigh": 325.99,
+        "52WeekLow": 148.05,
+        "peTTM": 43.972,
+        "psTTM": 12.9035,
+        "netProfitMarginTTM": 29.34,
+        "roeTTM": 14.000000000000002,
+        "revenueGrowthTTMYoy": 16.5,
+        "epsGrowthTTMYoy": 25.58,
+        "currentRatioQuarterly": 5.4578,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 44621.508
+      },
+      "updated_at": "2026-11-21T17:51:11Z",
+      "name": "Veeva Systems Inc.",
+      "profile": {
+        "weburl": "https://www.veeva.com/medtech/",
+        "industry": "Health Care",
+        "name": "Veeva Systems Inc."
+      },
+      "news": [
+        {
+          "headline": "Veeva (VEEV) Stock May Be 17% Undervalued On Cash Flow Expectations",
+          "url": "https://finnhub.io/api/news?id=9dc581d35173098c5d161b7a2dac6a06dea4be54a8bccda89d8549ef72bf9356",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T23:16:05Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "Why Is Veeva Stock Falling?",
+          "url": "https://finnhub.io/api/news?id=d8a7dc25a2a70e63f2442094f84d7b4c38ae866c5f03b4dc85495d6792f51c0e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:15:11Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "Veeva Systems Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=bfc8b380cd58b69bd000e85fdaa2ae88ba9c5ae29f1c852d6973dda08d772ddd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:20:05Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "Veeva (VEEV) Is Considered a Good Investment by Brokers: Is That True?",
+          "url": "https://finnhub.io/api/news?id=771bbee0f3e014ec30c836abf8c6167915272ab959265d0189237bbf918607df",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:30:04Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "Why Veeva Systems (VEEV) Dipped More Than Broader Market Today",
+          "url": "https://finnhub.io/api/news?id=6a735ae96544a091d5ff3a28d80c8ef0774cccc8627b65dad0eb318a7d1872da",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:45:02Z",
+          "primary": false,
+          "symbol": "VEEV"
+        }
+      ]
     }
   },
-  "cursor": 488,
-  "updated_at": "2026-11-21T16:55:12Z"
+  "cursor": 500,
+  "updated_at": "2026-11-21T17:51:11Z"
 }

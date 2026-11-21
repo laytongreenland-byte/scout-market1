@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:55:12Z",
+  "generated_at": "2026-11-21T17:51:11Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 485,
+    "financially_screened": 497,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T16:55:12Z",
+      "checked_at": "2026-11-21T17:51:11Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T16:55:12Z",
+      "checked_at": "2026-11-21T17:51:11Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T16:55:12Z",
+      "checked_at": "2026-11-21T17:51:11Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T16:55:12Z",
+      "checked_at": "2026-11-21T17:51:11Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T16:55:12Z",
+      "checked_at": "2026-11-21T17:51:11Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T16:55:12Z",
+    "generated_at": "2026-11-21T17:51:11Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 485,
+    "screened_with_financials": 497,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -14757,7 +14757,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 485,
+      "recorded_signals": 497,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14775,10 +14775,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T16:55:12Z",
+      "generated_at": "2026-11-21T17:51:11Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 366,
+        "recorded": 374,
         "purchase_scenarios": 29,
         "opened": 1,
         "closed": 0,
@@ -14788,10 +14788,170 @@
         "not_triggered": 0,
         "waiting": 29,
         "unverified": 0,
-        "skipped": 337,
+        "skipped": 345,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|TDG|ABOVE BASE CASE",
+          "symbol": "TDG",
+          "name": "TransDigm Group Incorporated",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 1121.22,
+          "buy_ceiling": 583.83,
+          "sell_review": 748.5,
+          "risk": "Price near reported 52-week low",
+          "why": "Net profit margin 20.0% (TTM); Return on equity 37.1% (TTM); Trailing P/E 29.8×; TTM revenue growth 19.6% YoY",
+          "score": 68,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|TRMB|NO RELIABLE PRICE RANGE",
+          "symbol": "TRMB",
+          "name": "Trimble Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 50.62,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Unprofitable on trailing net margin",
+          "why": "Net profit margin -4.1% (TTM); Return on equity -2.9% (TTM); TTM revenue growth 6.9% YoY; 40.0% below reported 52-week high",
+          "score": 29,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|TWLO|ABOVE BASE CASE",
+          "symbol": "TWLO",
+          "name": "Twilio Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 172.1,
+          "buy_ceiling": 113.09,
+          "sell_review": 144.98,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 21.8% (TTM); Return on equity 15.1% (TTM); Trailing P/E 25.2×; TTM revenue growth 19.1% YoY",
+          "score": 70,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|UDR|NO RELIABLE PRICE RANGE",
+          "symbol": "UDR",
+          "name": "UDR, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 35.45,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 40.8% (TTM); Return on equity 22.1% (TTM); Trailing P/E 16.3×; TTM revenue growth 0.6% YoY",
+          "score": 73,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ULTA|ABOVE BASE CASE",
+          "symbol": "ULTA",
+          "name": "Ulta Beauty Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 615.74,
+          "buy_ceiling": 401.1,
+          "sell_review": 514.23,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 9.3% (TTM); Return on equity 45.4% (TTM); Trailing P/E 21.6×; TTM revenue growth 11.2% YoY",
+          "score": 72,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|UAL|NO RELIABLE PRICE RANGE",
+          "symbol": "UAL",
+          "name": "United Airlines Holdings, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 101.03,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 5.5% (TTM); Return on equity 21.8% (TTM); Trailing P/E 10.3×; TTM revenue growth 12.3% YoY",
+          "score": 71,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|UHS|NO RELIABLE PRICE RANGE",
+          "symbol": "UHS",
+          "name": "Universal Health Services, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 179.43,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 8.0% (TTM); Return on equity 19.6% (TTM); Trailing P/E 7.3×; TTM revenue growth 8.0% YoY",
+          "score": 70,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|VEEV|ABOVE BASE CASE",
+          "symbol": "VEEV",
+          "name": "Veeva Systems Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T17:51:11Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 266.22,
+          "buy_ceiling": 96.18,
+          "sell_review": 123.31,
+          "risk": "High trailing earnings valuation",
+          "why": "Net profit margin 29.3% (TTM); Return on equity 14.0% (TTM); Trailing P/E 44.0×; TTM revenue growth 16.5% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|SYF|NO RELIABLE PRICE RANGE",
           "symbol": "SYF",
@@ -17025,166 +17185,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 8.7% (TTM); Return on equity 6.8% (TTM); Trailing P/E 20.9×; TTM revenue growth 7.9% YoY",
           "score": 67,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|FCX|ABOVE BASE CASE",
-          "symbol": "FCX",
-          "name": "Freeport-McMoRan Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-21T03:59:33Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 45.99,
-          "buy_ceiling": 23.59,
-          "sell_review": 30.25,
-          "risk": "Large one-session price move (-6.4%)",
-          "why": "Net profit margin 11.4% (TTM); Return on equity 15.3% (TTM); Trailing P/E 22.9×; TTM revenue growth 0.2% YoY",
-          "score": 61,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|EG|NO RELIABLE PRICE RANGE",
-          "symbol": "EG",
-          "name": "Everest Group, Ltd.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 421.98,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 11.7% (TTM); Return on equity 12.5% (TTM); Trailing P/E 8.3×; TTM revenue growth -8.6% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|ES|NO RELIABLE PRICE RANGE",
-          "symbol": "ES",
-          "name": "Eversource Energy",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 71.04,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 10.4% (TTM); Return on equity 8.6% (TTM); Trailing P/E 18.9×; TTM revenue growth 4.6% YoY",
-          "score": 58,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|EXE|NO RELIABLE PRICE RANGE",
-          "symbol": "EXE",
-          "name": "Expand Energy Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 81.27,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Price near reported 52-week low",
-          "why": "Net profit margin 20.4% (TTM); Return on equity 14.7% (TTM); Trailing P/E 6.7×; TTM revenue growth 60.7% YoY",
-          "score": 78,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|EXPE|QUALITY GATE NOT MET",
-          "symbol": "EXPE",
-          "name": "Expedia Group, Inc.",
-          "signal": "QUALITY GATE NOT MET",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 234.96,
-          "buy_ceiling": 260.89,
-          "sell_review": 334.48,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 13.0% (TTM); Return on equity 178.5% (TTM); Trailing P/E 13.5×; TTM revenue growth 12.9% YoY",
-          "score": 78,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|EXPD|NO RELIABLE PRICE RANGE",
-          "symbol": "EXPD",
-          "name": "Expeditors International of Washington Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 192.56,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 7.9% (TTM); Return on equity 45.8% (TTM); Trailing P/E 24.4×; TTM revenue growth 18.6% YoY",
-          "score": 67,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|FFIV|ABOVE BASE CASE",
-          "symbol": "FFIV",
-          "name": "F5, Inc.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 303.99,
-          "buy_ceiling": 169.46,
-          "sell_review": 217.26,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 21.1% (TTM); Return on equity 19.2% (TTM); Trailing P/E 25.1×; TTM revenue growth 10.6% YoY",
-          "score": 63,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|FDS|NO RELIABLE PRICE RANGE",
-          "symbol": "FDS",
-          "name": "FactSet Research Systems Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T02:56:23Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 311.93,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 21.5% (TTM); Return on equity 25.6% (TTM); Trailing P/E 21.3×; TTM revenue growth 6.7% YoY",
-          "score": 74,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
