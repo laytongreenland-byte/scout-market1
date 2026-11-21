@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:05:22Z",
+  "generated_at": "2026-11-21T14:07:02Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 437,
+    "financially_screened": 449,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T13:05:22Z",
+      "checked_at": "2026-11-21T14:07:02Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T13:05:22Z",
+      "checked_at": "2026-11-21T14:07:02Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T13:05:22Z",
+      "checked_at": "2026-11-21T14:07:02Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T13:05:22Z",
+      "checked_at": "2026-11-21T14:07:02Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T13:05:22Z",
+      "checked_at": "2026-11-21T14:07:02Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T13:05:22Z",
+    "generated_at": "2026-11-21T14:07:02Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 437,
+    "screened_with_financials": 449,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -9730,6 +9730,93 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "RL",
+        "name": "Ralph Lauren Corporation",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "why": "Net profit margin 12.6% (TTM); Return on equity 38.4% (TTM); Trailing P/E 20.4×; TTM revenue growth 12.8% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$366.65",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T14:07:02Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
+            "timestamp": "2026-11-18T15:14:22Z",
+            "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T14:07:02Z",
+        "price": 366.65,
+        "currency": "USD",
+        "change_pct": -2.738,
+        "news": [
+          {
+            "headline": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
+            "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T15:14:22Z",
+            "primary": false,
+            "symbol": "RL"
+          },
+          {
+            "headline": "Is Ralph Lauren (RL) Undervalued On Its Raised 2027 Outlook?",
+            "url": "https://finnhub.io/api/news?id=c7bcd50107c96e0bd238bb071aa93b8b6e216c03d5b9e2fe94d27bd66e895e13",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T14:11:39Z",
+            "primary": false,
+            "symbol": "RL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 268.5,
+          "entry_floor": 241.65,
+          "exit_review_low": 344.23,
+          "exit_review_high": 412.01,
+          "bear_case": 188.15,
+          "scenario_upside_pct": -6.1,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 20.35,
+            "earnings_growth_assumed_pct": 5.75,
+            "scenario_exit_pe": 18.07,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T14:07:02Z"
+          }
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
         "status": "INVESTIGATE",
@@ -10885,6 +10972,172 @@
           "bear_case": null,
           "scenario_upside_pct": null,
           "reason": "Sector-specific valuation required for Insurance; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 78,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "PPG",
+        "name": "PPG Industries, Inc.",
+        "status": "INVESTIGATE",
+        "score": 78,
+        "industry": "Chemicals",
+        "why": "Net profit margin 9.4% (TTM); Return on equity 19.1% (TTM); Trailing P/E 16.7×; TTM revenue growth 6.4% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$117.12",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T14:07:02Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
+            "timestamp": "2026-11-20T13:00:00Z",
+            "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T14:07:02Z",
+        "price": 117.12,
+        "currency": "USD",
+        "change_pct": -1.538,
+        "news": [
+          {
+            "headline": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
+            "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T13:00:00Z",
+            "primary": false,
+            "symbol": "PPG"
+          },
+          {
+            "headline": "Are Wall Street Analysts Predicting PPG Industries Stock Will Climb or Sink?",
+            "url": "https://finnhub.io/api/news?id=ab03de52378cf25f219da215d3b67435825f71c6ef27ec04018a4b28df212040",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T12:39:44Z",
+            "primary": false,
+            "symbol": "PPG"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 92.83,
+          "entry_floor": 83.54,
+          "exit_review_low": 119.01,
+          "exit_review_high": 139.73,
+          "bear_case": 66.86,
+          "scenario_upside_pct": 1.6,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 16.74,
+            "earnings_growth_assumed_pct": 2.88,
+            "scenario_exit_pe": 16.53,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T14:07:02Z"
+          }
+        },
+        "ranking_score": 78,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "RJF",
+        "name": "Raymond James Financial, Inc.",
+        "status": "INVESTIGATE",
+        "score": 78,
+        "industry": "Financial Services",
+        "why": "Net profit margin 13.5% (TTM); Return on equity 18.3% (TTM); Trailing P/E 12.9×; TTM revenue growth 10.2% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$155.82",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T14:07:02Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
+            "timestamp": "2026-11-19T19:30:29Z",
+            "url": "https://finnhub.io/api/news?id=7c54212c367bee1556140a336b3c22f80055a3fb60bdc991d5a7911ccc5c66e0"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T14:07:02Z",
+        "price": 155.82,
+        "currency": "USD",
+        "change_pct": -1.926,
+        "news": [
+          {
+            "headline": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
+            "url": "https://finnhub.io/api/news?id=7c54212c367bee1556140a336b3c22f80055a3fb60bdc991d5a7911ccc5c66e0",
+            "source": "Benzinga",
+            "published_at": "2026-11-19T19:30:29Z",
+            "primary": false,
+            "symbol": "RJF"
+          },
+          {
+            "headline": "Raymond James bullish on Schwab amid ‘compelling valuation’",
+            "url": "https://finnhub.io/api/news?id=e15f22408dc6dc8aac36422b83a5a1a148845cdbf0d5ae8ee62dc0b8e5f7ed9b",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T16:32:16Z",
+            "primary": false,
+            "symbol": "RJF"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -13294,267 +13547,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "ACN",
-        "name": "Accenture PLC",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Technology",
-        "why": "Net profit margin 11.3% (TTM); Return on equity 26.7% (TTM); Trailing P/E 16.1×; TTM revenue growth 6.5% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$221.17",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T15:04:23Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Accenture (NYSE:ACN): A Quality Investing Candidate With Exceptional ROIC and Cash Flow",
-            "timestamp": "2026-11-20T12:40:45Z",
-            "url": "https://finnhub.io/api/news?id=8b05b50a3019eeb8fe6942a0d5818f6990a1242a222c14a8ced81072beb50816"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T15:04:23Z",
-        "price": 221.17,
-        "currency": "USD",
-        "change_pct": 1.185,
-        "news": [
-          {
-            "headline": "Accenture (NYSE:ACN): A Quality Investing Candidate With Exceptional ROIC and Cash Flow",
-            "url": "https://finnhub.io/api/news?id=8b05b50a3019eeb8fe6942a0d5818f6990a1242a222c14a8ced81072beb50816",
-            "source": "ChartMill",
-            "published_at": "2026-11-20T12:40:45Z",
-            "primary": false,
-            "symbol": "ACN"
-          },
-          {
-            "headline": "Accenture (ACN) Gains as AI Disruption Fears Eased",
-            "url": "https://finnhub.io/api/news?id=09e19d569a5bfdf01a0c745479ceb4bce2dbd950fd9e583e11e94d7463fefdc4",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T15:19:58Z",
-            "primary": false,
-            "symbol": "ACN"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 182.84,
-          "entry_floor": 164.56,
-          "exit_review_low": 234.41,
-          "exit_review_high": 275.29,
-          "bear_case": 131.66,
-          "scenario_upside_pct": 6.0,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 16.07,
-            "earnings_growth_assumed_pct": 2.91,
-            "scenario_exit_pe": 16.55,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T15:04:23Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "HCA",
-        "name": "HCA Healthcare, Inc.",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Health Care",
-        "why": "Net profit margin 8.6% (TTM); Return on equity 695.7% (TTM); Trailing P/E 14.2×; TTM revenue growth 5.8% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$475.57",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T17:06:24Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "HCA Healthcare Collects Record-Breaking 21,857 Pounds of Medication During Eighth Annual \"Crush the Crisis\"",
-            "timestamp": "2026-11-19T13:30:00Z",
-            "url": "https://finnhub.io/api/news?id=444ad8d0457dfcafaba3e3038d93413744ea3c4598b3157ae955ecd4259dc198"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T17:06:24Z",
-        "price": 475.57,
-        "currency": "USD",
-        "change_pct": 3.311,
-        "news": [
-          {
-            "headline": "HCA Healthcare Collects Record-Breaking 21,857 Pounds of Medication During Eighth Annual \"Crush the Crisis\"",
-            "url": "https://finnhub.io/api/news?id=444ad8d0457dfcafaba3e3038d93413744ea3c4598b3157ae955ecd4259dc198",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T13:30:00Z",
-            "primary": false,
-            "symbol": "HCA"
-          },
-          {
-            "headline": "JP Morgan Maintains Neutral on HCA Healthcare, Raises Price Target to $475",
-            "url": "https://finnhub.io/api/news?id=8c78e3c76bba81561c61c19c196f52456d41cbde3477b93be637e70556dd1257",
-            "source": "Benzinga",
-            "published_at": "2026-11-18T12:04:35Z",
-            "primary": false,
-            "symbol": "HCA"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 438.62,
-          "entry_floor": 394.76,
-          "exit_review_low": 562.33,
-          "exit_review_high": 659.06,
-          "bear_case": 316.73,
-          "scenario_upside_pct": 18.2,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 14.23,
-            "earnings_growth_assumed_pct": 2.62,
-            "scenario_exit_pe": 16.4,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T17:06:24Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "NEM",
-        "name": "Newmont Corporation",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Metals & Mining",
-        "why": "Net profit margin 34.7% (TTM); Return on equity 26.5% (TTM); Trailing P/E 11.4×; TTM revenue growth 23.7% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$94.68",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:10:18Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Newmont (NYSE:NEM) and the GARP Case for Growth at a Reasonable Price",
-            "timestamp": "2026-11-20T13:30:54Z",
-            "url": "https://finnhub.io/api/news?id=4e7000d85a2921250fd0a420446563fe77e004b04a9ad8caf0f3ed04b3e64d5e"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:10:18Z",
-        "price": 94.68,
-        "currency": "USD",
-        "change_pct": -5.367,
-        "news": [
-          {
-            "headline": "Newmont (NYSE:NEM) and the GARP Case for Growth at a Reasonable Price",
-            "url": "https://finnhub.io/api/news?id=4e7000d85a2921250fd0a420446563fe77e004b04a9ad8caf0f3ed04b3e64d5e",
-            "source": "ChartMill",
-            "published_at": "2026-11-20T13:30:54Z",
-            "primary": false,
-            "symbol": "NEM"
-          },
-          {
-            "headline": "Will Metals Sell Off Change Newmont (NEM) Stock Narrative",
-            "url": "https://finnhub.io/api/news?id=9f4dcb2c275b2596fa9e2e881f164531f2cf077c30f3e60db2f566cb40ce25d4",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T08:09:45Z",
-            "primary": false,
-            "symbol": "NEM"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 108.31,
-          "entry_floor": 99.14,
-          "exit_review_low": 186.96,
-          "exit_review_high": 228.31,
-          "bear_case": 99.14,
-          "scenario_upside_pct": 97.5,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 11.43,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 20.7,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T19:10:18Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -14670,7 +14662,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 437,
+      "recorded_signals": 449,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14688,23 +14680,243 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T13:05:22Z",
+      "generated_at": "2026-11-21T14:07:02Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 327,
-        "purchase_scenarios": 23,
+        "recorded": 338,
+        "purchase_scenarios": 24,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 23,
+        "waiting": 24,
         "unverified": 0,
-        "skipped": 304,
+        "skipped": 314,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|PPG|WAIT FOR ENTRY",
+          "symbol": "PPG",
+          "name": "PPG Industries, Inc.",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 117.12,
+          "buy_ceiling": 92.83,
+          "sell_review": 119.01,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 9.4% (TTM); Return on equity 19.1% (TTM); Trailing P/E 16.7×; TTM revenue growth 6.4% YoY",
+          "score": 78,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|PPL|NO RELIABLE PRICE RANGE",
+          "symbol": "PPL",
+          "name": "PPL Corp",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 34.65,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Revenue contracting year on year",
+          "why": "Net profit margin 21.7% (TTM); Return on equity 8.7% (TTM); Trailing P/E 20.1×; TTM revenue growth -58.8% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|PFG|NO RELIABLE PRICE RANGE",
+          "symbol": "PFG",
+          "name": "Principal Financial Group Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 104.58,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 12.6% (TTM); Return on equity 16.6% (TTM); Trailing P/E 11.3×; TTM revenue growth 1.3% YoY",
+          "score": 69,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|PTC|NO RELIABLE PRICE RANGE",
+          "symbol": "PTC",
+          "name": "PTC Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 195.1,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Revenue contracting year on year",
+          "why": "Net profit margin 37.8% (TTM); Return on equity 28.3% (TTM); Trailing P/E 20.6×; TTM revenue growth -0.2% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|PEG|NO RELIABLE PRICE RANGE",
+          "symbol": "PEG",
+          "name": "Public Service Enterprise Group Incorporated",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 73.9,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Earnings per share declining",
+          "why": "Net profit margin 14.3% (TTM); Return on equity 10.2% (TTM); Trailing P/E 21.2×; TTM revenue growth 5.3% YoY",
+          "score": 66,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|Q|NO RELIABLE PRICE RANGE",
+          "symbol": "Q",
+          "name": "Qnity Electronics, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 103.47,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "High trailing earnings valuation",
+          "why": "Net profit margin 11.2% (TTM); Return on equity 7.6% (TTM); Trailing P/E 40.5×; 41.6% below reported 52-week high",
+          "score": 28,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|QCOM|NO RELIABLE PRICE RANGE",
+          "symbol": "QCOM",
+          "name": "QUALCOMM Incorporated",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 149.94,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Revenue contracting year on year",
+          "why": "Net profit margin 31.6% (TTM); Return on equity 50.3% (TTM); Trailing P/E 12.5×; TTM revenue growth -2.6% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|DGX|ABOVE BASE CASE",
+          "symbol": "DGX",
+          "name": "Quest Diagnostics Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 258.28,
+          "buy_ceiling": 142.29,
+          "sell_review": 182.42,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 9.5% (TTM); Return on equity 15.2% (TTM); Trailing P/E 25.3×; TTM revenue growth 9.1% YoY",
+          "score": 68,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|RL|ABOVE BASE CASE",
+          "symbol": "RL",
+          "name": "Ralph Lauren Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 366.65,
+          "buy_ceiling": 268.5,
+          "sell_review": 344.23,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 12.6% (TTM); Return on equity 38.4% (TTM); Trailing P/E 20.4×; TTM revenue growth 12.8% YoY",
+          "score": 79,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|RJF|NO RELIABLE PRICE RANGE",
+          "symbol": "RJF",
+          "name": "Raymond James Financial, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 155.82,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 13.5% (TTM); Return on equity 18.3% (TTM); Trailing P/E 12.9×; TTM revenue growth 10.2% YoY",
+          "score": 78,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|RDDT|QUALITY GATE NOT MET",
+          "symbol": "RDDT",
+          "name": "Reddit, Inc.",
+          "signal": "QUALITY GATE NOT MET",
+          "decision_at": "2026-11-21T14:07:02Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 85.33,
+          "buy_ceiling": 92.03,
+          "sell_review": 117.99,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 32.1% (TTM); Return on equity 30.6% (TTM); Trailing P/E 17.5×; TTM revenue growth 62.2% YoY",
+          "score": 66,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|OTIS|ABOVE BASE CASE",
           "symbol": "OTIS",
@@ -16884,230 +17096,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CARR|NO RELIABLE PRICE RANGE",
-          "symbol": "CARR",
-          "name": "Carrier Global Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:56:58Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 49.96,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Unprofitable on trailing net margin",
-          "why": "Net profit margin -7.9% (TTM); Return on equity -14.3% (TTM); TTM revenue growth 3.3% YoY; 34.9% below reported 52-week high",
-          "score": 23,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CASY|NO RELIABLE PRICE RANGE",
-          "symbol": "CASY",
-          "name": "Caseys General Stores Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:56:58Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 691.14,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 4.1% (TTM); Return on equity 19.7% (TTM); Trailing P/E 33.2×; TTM revenue growth 13.8% YoY",
-          "score": 71,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CBOE|NO RELIABLE PRICE RANGE",
-          "symbol": "CBOE",
-          "name": "Cboe Global Markets Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:56:58Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 357.71,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 26.7% (TTM); Return on equity 25.8% (TTM); Trailing P/E 27.7×; TTM revenue growth 11.7% YoY",
-          "score": 69,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CDW|NO RELIABLE PRICE RANGE",
-          "symbol": "CDW",
-          "name": "CDW Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:56:58Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 161.78,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 4.5% (TTM); Return on equity 42.9% (TTM); Trailing P/E 19.2×; TTM revenue growth 10.9% YoY",
-          "score": 63,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CNP|NO RELIABLE PRICE RANGE",
-          "symbol": "CNP",
-          "name": "CenterPoint Energy, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:56:58Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 39.11,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 5.7% (TTM); Return on equity 10.0% (TTM); Trailing P/E 22.5×; TTM revenue growth 1.4% YoY",
-          "score": 60,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CF|NO RELIABLE PRICE RANGE",
-          "symbol": "CF",
-          "name": "CF Industries Holdings Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:56:58Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 115.53,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.6×; TTM revenue growth 17.9% YoY",
-          "score": 86,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|UNH|NO RELIABLE PRICE RANGE",
-          "symbol": "UNH",
-          "name": "UnitedHealth Group Incorporated",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:05:16Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 339.885,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 3.5% (TTM); Return on equity 16.1% (TTM); Trailing P/E 18.2×; TTM revenue growth 3.3% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|BKNG|WAIT FOR ENTRY",
-          "symbol": "BKNG",
-          "name": "Booking Holdings Inc.",
-          "signal": "WAIT FOR ENTRY",
-          "decision_at": "2026-11-20T21:05:16Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 144.91,
-          "buy_ceiling": 136.8,
-          "sell_review": 175.38,
-          "risk": "Price near reported 52-week low",
-          "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.4×; TTM revenue growth 11.5% YoY",
-          "score": 78,
-          "result": {
-            "status": "WAITING_TO_BUY",
-            "reason": "No later observed daily close has met the original buy ceiling"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|BR|ABOVE BASE CASE",
-          "symbol": "BR",
-          "name": "Broadridge Financial Solutions Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T21:05:16Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 181.41,
-          "buy_ceiling": 122.85,
-          "sell_review": 157.5,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 13.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 19.8×; TTM revenue growth 7.1% YoY",
-          "score": 78,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|BRO|NO RELIABLE PRICE RANGE",
-          "symbol": "BRO",
-          "name": "Brown & Brown Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:05:16Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 73.07,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 17.6% (TTM); Return on equity 9.7% (TTM); Trailing P/E 19.7×; TTM revenue growth 26.1% YoY",
-          "score": 79,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|BF.B|NO RELIABLE PRICE RANGE",
-          "symbol": "BF.B",
-          "name": "Brown-Forman Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T21:05:16Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 29.92,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 18.4% (TTM); Return on equity 17.8% (TTM); Trailing P/E 19.3×; TTM revenue growth -0.8% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 81,
+      "legacy_research_flags": 84,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17117,30 +17109,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "CAT",
-        "flagged_at": "2026-11-20T15:04:23Z",
-        "reference_price": 534.62,
-        "score": 76,
-        "price_at": "2026-11-20T15:04:53Z"
-      },
-      {
-        "week": "2026-11-16",
-        "symbol": "PEP",
-        "flagged_at": "2026-11-20T15:04:23Z",
-        "reference_price": 142.29,
-        "score": 78,
-        "price_at": "2026-11-20T15:04:52Z"
-      },
-      {
-        "week": "2026-11-16",
-        "symbol": "SPG",
-        "flagged_at": "2026-11-20T15:04:23Z",
-        "reference_price": 226.35,
-        "score": 76,
-        "price_at": "2026-11-20T15:05:04Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "BMY",
@@ -17515,6 +17483,30 @@
         "flagged_at": "2026-11-21T13:05:22Z",
         "reference_price": 112.63,
         "score": 80,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "PPG",
+        "flagged_at": "2026-11-21T14:07:02Z",
+        "reference_price": 117.12,
+        "score": 78,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "RL",
+        "flagged_at": "2026-11-21T14:07:02Z",
+        "reference_price": 366.65,
+        "score": 79,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "RJF",
+        "flagged_at": "2026-11-21T14:07:02Z",
+        "reference_price": 155.82,
+        "score": 78,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],

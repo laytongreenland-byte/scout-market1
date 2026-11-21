@@ -25516,8 +25516,652 @@
         "name": "Pinnacle West Capital Corporation"
       },
       "news": []
+    },
+    "PPG": {
+      "metrics": {
+        "52WeekHigh": 133.43,
+        "52WeekLow": 93.39,
+        "peTTM": 16.7363,
+        "psTTM": 1.5742,
+        "netProfitMarginTTM": 9.41,
+        "roeTTM": 19.05,
+        "revenueGrowthTTMYoy": 6.39,
+        "epsGrowthTTMYoy": 59.33,
+        "currentRatioQuarterly": 1.5786,
+        "totalDebt/totalEquityQuarterly": 0.8062,
+        "marketCapitalization": 26276.053
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "PPG Industries, Inc.",
+      "profile": {
+        "weburl": "https://www.ppg.com/",
+        "industry": "Chemicals",
+        "name": "PPG Industries, Inc."
+      },
+      "news": [
+        {
+          "headline": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
+          "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:00:00Z",
+          "primary": false,
+          "symbol": "PPG"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting PPG Industries Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=ab03de52378cf25f219da215d3b67435825f71c6ef27ec04018a4b28df212040",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:39:44Z",
+          "primary": false,
+          "symbol": "PPG"
+        },
+        {
+          "headline": "PPG inducts six new members into Collegium association",
+          "url": "https://finnhub.io/api/news?id=3f94ac2d9a0dbe99f59f8a1896fa04b79314eb75fdf7f636a9eb6f39a18481d7",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:03:00Z",
+          "primary": false,
+          "symbol": "PPG"
+        }
+      ]
+    },
+    "PPL": {
+      "metrics": {
+        "52WeekHigh": 40.11,
+        "52WeekLow": 31.555,
+        "peTTM": 20.1356,
+        "psTTM": 6.5475,
+        "netProfitMarginTTM": 21.66,
+        "roeTTM": 8.74,
+        "revenueGrowthTTMYoy": -58.81,
+        "epsGrowthTTMYoy": 18.53,
+        "currentRatioQuarterly": 0.7489,
+        "totalDebt/totalEquityQuarterly": 1.3735,
+        "marketCapitalization": 26478.287
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "PPL Corp",
+      "profile": {
+        "weburl": "https://www.pplweb.com/",
+        "industry": "Utilities",
+        "name": "PPL Corp"
+      },
+      "news": [
+        {
+          "headline": "PPL to Pay Quarterly Stock Dividend Jan. 4, 2027",
+          "url": "https://finnhub.io/api/news?id=0b121492b5dee302b61681b1c6202aa30fc2a44d4899bc08c5783ce6c4fe03ba",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:53:00Z",
+          "primary": false,
+          "symbol": "PPL"
+        },
+        {
+          "headline": "Can PPL (PPL) Justify Its Price With Earnings Today?",
+          "url": "https://finnhub.io/api/news?id=e4a75f53085a06c155be8e66cdfa9bc175fa2e1a1552cab0edf021d1276fb640",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:11:07Z",
+          "primary": false,
+          "symbol": "PPL"
+        },
+        {
+          "headline": "What Is Drawing Attention To PPL (PPL) Today?",
+          "url": "https://finnhub.io/api/news?id=35199df571e4558f97c95f16c62d8a7eac04b807e56cb5a47bff9d47aef25aff",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:15:59Z",
+          "primary": false,
+          "symbol": "PPL"
+        },
+        {
+          "headline": "Learn Why The Bull Case For PPL (PPL) Could Change Following Earnings Beat",
+          "url": "https://finnhub.io/api/news?id=d04a594e4f5e5bf1dd7c54b3edf3813e075ab14dbb695bb5241abfe24b2e30d1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:09:53Z",
+          "primary": false,
+          "symbol": "PPL"
+        },
+        {
+          "headline": "Will Increasing Power Demand Boost PPL's Long-Term Earnings Growth?",
+          "url": "https://finnhub.io/api/news?id=0b4ec690c7ddffd3bff152feb6aaa4c3e70bb02be66540750c9408a9b1d31af5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T17:11:00Z",
+          "primary": false,
+          "symbol": "PPL"
+        }
+      ]
+    },
+    "PFG": {
+      "metrics": {
+        "52WeekHigh": 121.18,
+        "52WeekLow": 81.72,
+        "peTTM": 11.3467,
+        "psTTM": 1.4322,
+        "netProfitMarginTTM": 12.62,
+        "roeTTM": 16.59,
+        "revenueGrowthTTMYoy": 1.3,
+        "epsGrowthTTMYoy": 31.23,
+        "totalDebt/totalEquityQuarterly": 0.3812,
+        "marketCapitalization": 22431.201
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Principal Financial Group Inc",
+      "profile": {
+        "weburl": "https://www.principal.com/",
+        "industry": "Insurance",
+        "name": "Principal Financial Group Inc"
+      },
+      "news": [
+        {
+          "headline": "Is Principal Small Cap Growth I Institutional (PGRTX) a Strong Mutual Fund Pick Right Now?",
+          "url": "https://finnhub.io/api/news?id=1e79cb445777fee6b1695c5b9b913ad36e460ab1200b742fae2dc1e9138ea539",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:41:31Z",
+          "primary": false,
+          "symbol": "PFG"
+        },
+        {
+          "headline": "Honorees announced for 2026 Principal® Financial Network Community Awards",
+          "url": "https://finnhub.io/api/news?id=726118567741a5610ebb2e2a8deec4484d74af48b86407cd3042d8379a13f109",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:00:00Z",
+          "primary": false,
+          "symbol": "PFG"
+        }
+      ]
+    },
+    "PTC": {
+      "metrics": {
+        "52WeekHigh": 196.79,
+        "52WeekLow": 108.5,
+        "peTTM": 20.6031,
+        "psTTM": 7.7883,
+        "netProfitMarginTTM": 37.8,
+        "roeTTM": 28.34,
+        "revenueGrowthTTMYoy": -0.21,
+        "epsGrowthTTMYoy": 45.41,
+        "currentRatioQuarterly": 1.632,
+        "totalDebt/totalEquityQuarterly": 0.4718,
+        "marketCapitalization": 21288.84
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "PTC Inc.",
+      "profile": {
+        "weburl": "https://www.ptc.com/",
+        "industry": "Technology",
+        "name": "PTC Inc."
+      },
+      "news": [
+        {
+          "headline": "PTC Expands FedRAMP Offerings to Help U.S. Federal Agencies and Contractors Modernize Product Development",
+          "url": "https://finnhub.io/api/news?id=aa230f5b9a98bc022c092932c4e3214e9fb5d8212f6f53f8dcd4b439e0e70d92",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:30:00Z",
+          "primary": false,
+          "symbol": "PTC"
+        },
+        {
+          "headline": "PTC Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=16d0774edc492b89798a740a920a3846262fc6ba7a83379f5385f176e0e4702c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:44:19Z",
+          "primary": false,
+          "symbol": "PTC"
+        },
+        {
+          "headline": "Invesco S&P 500 Equal Weight (RSP) Buys $0.7 Million More PTC on Nov. 16",
+          "url": "https://finnhub.io/api/news?id=924d8fc409d4ff6f5a938585d445fc98827b742590675e78302fb8b50a6d7f6d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:05:24Z",
+          "primary": false,
+          "symbol": "PTC"
+        },
+        {
+          "headline": "PTC Therapeutics Sees $2 Billion-Plus Sephience Potential, Sets January Guidance Date",
+          "url": "https://finnhub.io/api/news?id=5e14fad967368a7461e6bcbccdcf7d100385f2e68956be94110adddea575cee3",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T00:14:56Z",
+          "primary": false,
+          "symbol": "PTC"
+        },
+        {
+          "headline": "The $22.6 Billion Deal Behind Wolfe Research’s Call on PTC (PTC)",
+          "url": "https://finnhub.io/api/news?id=2effd5bdf280d9cfccacb8078050663fe2bf8919e44b42a7be46617f01db9cca",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T03:05:26Z",
+          "primary": false,
+          "symbol": "PTC"
+        }
+      ]
+    },
+    "PEG": {
+      "metrics": {
+        "52WeekHigh": 87.63,
+        "52WeekLow": 66.15,
+        "peTTM": 21.2109,
+        "psTTM": 3.0363,
+        "netProfitMarginTTM": 14.31,
+        "roeTTM": 10.24,
+        "revenueGrowthTTMYoy": 5.28,
+        "epsGrowthTTMYoy": -15.09,
+        "currentRatioQuarterly": 1.0128,
+        "totalDebt/totalEquityQuarterly": 1.4764,
+        "marketCapitalization": 37458.45
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Public Service Enterprise Group Incorporated",
+      "profile": {
+        "weburl": "https://corporate.pseg.com/",
+        "industry": "Utilities",
+        "name": "Public Service Enterprise Group Incorporated"
+      },
+      "news": [
+        {
+          "headline": "Public Service Enterprise Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=f415fcc13388b72dbb73062e097062b7cd0759f3f2e012f18f9d95b6d2c65063",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:04:50Z",
+          "primary": false,
+          "symbol": "PEG"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains Outperform on Public Service Enterprise, Lowers Price Target to $93",
+          "url": "https://finnhub.io/api/news?id=473510bc867f98252b4cea434ad4c460e6b2a672d5ad05985bf49ff0e6bccf64",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T09:25:19Z",
+          "primary": false,
+          "symbol": "PEG"
+        }
+      ]
+    },
+    "PHM": {
+      "metrics": {
+        "52WeekHigh": 144.5,
+        "52WeekLow": 107.155,
+        "peTTM": 12.5557,
+        "psTTM": 1.4118,
+        "netProfitMarginTTM": 11.24,
+        "roeTTM": 13.8,
+        "revenueGrowthTTMYoy": -9.35,
+        "epsGrowthTTMYoy": -27.87,
+        "currentRatioQuarterly": 4.9572,
+        "totalDebt/totalEquityQuarterly": 0.1674,
+        "marketCapitalization": 22554.307
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "PulteGroup, Inc.",
+      "profile": {
+        "weburl": "https://www.pultegroupinc.com/",
+        "industry": "Consumer products",
+        "name": "PulteGroup, Inc."
+      },
+      "news": [
+        {
+          "headline": "Here is What to Know Beyond Why PulteGroup, Inc. (PHM) is a Trending Stock",
+          "url": "https://finnhub.io/api/news?id=bc371954d16614bc14f9232ddf8d9e26b54cc8df3bfc2f854945e6d947816094",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:00:05Z",
+          "primary": false,
+          "symbol": "PHM"
+        },
+        {
+          "headline": "PulteGroup Increases Quarterly Cash Dividend by 4% to $0.27 Per Share",
+          "url": "https://finnhub.io/api/news?id=4e23b6383db21acf5b70a1de0a640d7db3d9401d9b5bba220caa4149216178f2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:40:00Z",
+          "primary": false,
+          "symbol": "PHM"
+        },
+        {
+          "headline": "PulteGroup Raises Dividend From $0.26 To $0.27",
+          "url": "https://finnhub.io/api/news?id=5390ecf917cfb934c14521738d1c5ca0bb0f4ab72699f393ac0e17a366194350",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T10:40:54Z",
+          "primary": false,
+          "symbol": "PHM"
+        },
+        {
+          "headline": "PulteGroup Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=6af466bce9086094fdb3a2a552d517b192c81150fe293cf24774dae740cbaca3",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:41:55Z",
+          "primary": false,
+          "symbol": "PHM"
+        }
+      ]
+    },
+    "Q": {
+      "metrics": {
+        "52WeekHigh": 177.2799,
+        "52WeekLow": 72.81,
+        "peTTM": 40.5352,
+        "psTTM": 4.5592,
+        "netProfitMarginTTM": 11.25,
+        "roeTTM": 7.64,
+        "currentRatioQuarterly": 2.0083,
+        "totalDebt/totalEquityQuarterly": 0.5536,
+        "marketCapitalization": 23753.598
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Qnity Electronics, Inc.",
+      "profile": {
+        "weburl": "https://www.qnityelectronics.com/",
+        "industry": "Semiconductors",
+        "name": "Qnity Electronics, Inc."
+      },
+      "news": []
+    },
+    "QCOM": {
+      "metrics": {
+        "52WeekHigh": 259.92,
+        "52WeekLow": 121.99,
+        "peTTM": 12.4893,
+        "psTTM": 3.9469,
+        "netProfitMarginTTM": 31.6,
+        "roeTTM": 50.28,
+        "revenueGrowthTTMYoy": -2.63,
+        "epsGrowthTTMYoy": 159.64,
+        "currentRatioQuarterly": 1.8594,
+        "totalDebt/totalEquityQuarterly": 0.4971,
+        "marketCapitalization": 170191.52
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "QUALCOMM Incorporated",
+      "profile": {
+        "weburl": "https://www.qualcomm.com/",
+        "industry": "Semiconductors",
+        "name": "QUALCOMM Incorporated"
+      },
+      "news": [
+        {
+          "headline": "George Soros and 20 Other Big Funds Bought Qualcomm Last Quarter. David Tepper and 14 Others Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=5f5d6fadc1f0f512994ddb26942d1ef2aa4f34a6822974304b0ab1793d16e5c6",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T00:35:15Z",
+          "primary": false,
+          "symbol": "QCOM"
+        },
+        {
+          "headline": "Why Are Investors Ignoring Qualcomm Stock's High Cash Yield?",
+          "url": "https://finnhub.io/api/news?id=091118ba409f38bd9c28c8c32f5e470e65b4983e2de5c505254a5facdfa1f007",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:22:44Z",
+          "primary": false,
+          "symbol": "QCOM"
+        },
+        {
+          "headline": "Here is What to Know Beyond Why QUALCOMM Incorporated (QCOM) is a Trending Stock",
+          "url": "https://finnhub.io/api/news?id=11ee89e8a2e3d064e9466c3046affc6e5832e35f3f95ece447f58f067181c8f2",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:00:04Z",
+          "primary": false,
+          "symbol": "QCOM"
+        },
+        {
+          "headline": "What Should Qualcomm (QCOM) Investors Watch After 500 California Layoffs And New AI Moves?",
+          "url": "https://finnhub.io/api/news?id=855a0f8da8d82051183207df7aa11f15f5d10a3dd89555604321e3397aa3bc5e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T02:16:53Z",
+          "primary": false,
+          "symbol": "QCOM"
+        },
+        {
+          "headline": "Qualcomm lays off 100s amid global restructuring, raises $4 billion",
+          "url": "https://finnhub.io/api/news?id=a240fca6e108d3f9c9c9486150bcf0df1a2d44090275ef86a1cd5c3b78194776",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:33:00Z",
+          "primary": false,
+          "symbol": "QCOM"
+        }
+      ]
+    },
+    "DGX": {
+      "metrics": {
+        "52WeekHigh": 263.19,
+        "52WeekLow": 171.18,
+        "peTTM": 25.3385,
+        "psTTM": 2.4159,
+        "netProfitMarginTTM": 9.53,
+        "roeTTM": 15.21,
+        "revenueGrowthTTMYoy": 9.13,
+        "epsGrowthTTMYoy": 18.02,
+        "currentRatioQuarterly": 1.6996,
+        "totalDebt/totalEquityQuarterly": 0.7272,
+        "marketCapitalization": 28607.158
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Quest Diagnostics Inc",
+      "profile": {
+        "weburl": "https://www.questdiagnostics.com/",
+        "industry": "Health Care",
+        "name": "Quest Diagnostics Inc"
+      },
+      "news": [
+        {
+          "headline": "Quest Diagnostics Stock Gains 49.3% YTD: What's Behind the Rally?",
+          "url": "https://finnhub.io/api/news?id=6e8db98f3322501214184d6893ac3171606998edd35284baf34d2d92a9affb4f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:52:00Z",
+          "primary": false,
+          "symbol": "DGX"
+        },
+        {
+          "headline": "Quest Diagnostics Incorporated (DGX) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=4ddce6006e77b1f419c449906b93c69fb4c6a6147d13409d90ce0fc2881bfc3e",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T13:22:53Z",
+          "primary": false,
+          "symbol": "DGX"
+        },
+        {
+          "headline": "Mammogen Launches Leadership Council to Unite Industry Experts and Survivors, Names Former Quest Diagnostics CMO Dr. Yuri Fesko as Founding Member",
+          "url": "https://finnhub.io/api/news?id=30cb490390fb1858227a4e1ce4f0d2e6684d18482ff89e0e1a3e4b91e5b30f33",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T12:02:00Z",
+          "primary": false,
+          "symbol": "DGX"
+        },
+        {
+          "headline": "Should Labcorp Stock Holders Look At Quest Diagnostics Instead?",
+          "url": "https://finnhub.io/api/news?id=c58a37faee8873e320d9fade49749d13ecda0e55354fce5979e3eb6d80c9ad88",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T17:25:37Z",
+          "primary": false,
+          "symbol": "DGX"
+        }
+      ]
+    },
+    "RL": {
+      "metrics": {
+        "52WeekHigh": 421.6,
+        "52WeekLow": 317.23,
+        "peTTM": 20.3535,
+        "psTTM": 2.5556,
+        "netProfitMarginTTM": 12.56,
+        "roeTTM": 38.35,
+        "revenueGrowthTTMYoy": 12.78,
+        "epsGrowthTTMYoy": 28.57,
+        "currentRatioQuarterly": 1.9687,
+        "totalDebt/totalEquityQuarterly": 0.5358,
+        "marketCapitalization": 21818.986
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Ralph Lauren Corporation",
+      "profile": {
+        "weburl": "https://investor.ralphlauren.com/",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "name": "Ralph Lauren Corporation"
+      },
+      "news": [
+        {
+          "headline": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
+          "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:14:22Z",
+          "primary": false,
+          "symbol": "RL"
+        },
+        {
+          "headline": "Is Ralph Lauren (RL) Undervalued On Its Raised 2027 Outlook?",
+          "url": "https://finnhub.io/api/news?id=c7bcd50107c96e0bd238bb071aa93b8b6e216c03d5b9e2fe94d27bd66e895e13",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:11:39Z",
+          "primary": false,
+          "symbol": "RL"
+        },
+        {
+          "headline": "Zacks.com featured highlights include Ralph Lauren, Expedia, NVIDIA and Lam Research",
+          "url": "https://finnhub.io/api/news?id=0fda8a7cb99bd556cc889e9a6c51337a88e0288945283e562553c3146c303449",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T07:56:00Z",
+          "primary": false,
+          "symbol": "RL"
+        },
+        {
+          "headline": "Ralph Lauren: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=3cc9343e6b0964089127f92320e11f3655c4617680acb0e4e0070cd94725451f",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T00:47:07Z",
+          "primary": false,
+          "symbol": "RL"
+        },
+        {
+          "headline": "What Does Ralph Lauren Stock's Winning Streak Really Prove?",
+          "url": "https://finnhub.io/api/news?id=8a29f494e23e933d70265c367331970eeb11af5772f078e2a594c4b6bff43742",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T18:01:18Z",
+          "primary": false,
+          "symbol": "RL"
+        }
+      ]
+    },
+    "RJF": {
+      "metrics": {
+        "52WeekHigh": 182.73,
+        "52WeekLow": 138.82,
+        "peTTM": 12.8822,
+        "psTTM": 1.7393,
+        "netProfitMarginTTM": 13.5,
+        "roeTTM": 18.32,
+        "revenueGrowthTTMYoy": 10.22,
+        "epsGrowthTTMYoy": 15.69,
+        "currentRatioQuarterly": 0.2511,
+        "totalDebt/totalEquityQuarterly": 5.4036,
+        "marketCapitalization": 30504.96
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Raymond James Financial, Inc.",
+      "profile": {
+        "weburl": "https://www.raymondjames.com/",
+        "industry": "Financial Services",
+        "name": "Raymond James Financial, Inc."
+      },
+      "news": [
+        {
+          "headline": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=7c54212c367bee1556140a336b3c22f80055a3fb60bdc991d5a7911ccc5c66e0",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T19:30:29Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
+        {
+          "headline": "Raymond James bullish on Schwab amid ‘compelling valuation’",
+          "url": "https://finnhub.io/api/news?id=e15f22408dc6dc8aac36422b83a5a1a148845cdbf0d5ae8ee62dc0b8e5f7ed9b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:32:16Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
+        {
+          "headline": "Concurrent Investment Advisors Recruits Big Raymond James Team as Assets Surge Nearly 80% in 2026",
+          "url": "https://finnhub.io/api/news?id=d47ea3f4fa40965790cf8f19ab2a7e7e29a74b30b06d82859823b6e64d597ec2",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T18:06:00Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
+        {
+          "headline": "How Investors May Respond To Raymond James Financial (RJF) Adding Synovus Advisors",
+          "url": "https://finnhub.io/api/news?id=2dad63ca75bda6c7fb1565d9f1e25da346ee6c4b33a9eb7db34e2f8e56346054",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T11:10:10Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
+        {
+          "headline": "Raymond James (RJF) Stock Looks Below Fair Value After Asset Deal",
+          "url": "https://finnhub.io/api/news?id=ddb2414734f9450b5708dfb427dfd081957c2885b41ad7cead1ffc73666aaa71",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T10:08:08Z",
+          "primary": false,
+          "symbol": "RJF"
+        }
+      ]
+    },
+    "RDDT": {
+      "metrics": {
+        "52WeekHigh": 263.4999,
+        "52WeekLow": 89.28,
+        "peTTM": 17.5006,
+        "psTTM": 5.6186,
+        "netProfitMarginTTM": 32.11,
+        "roeTTM": 30.570000000000004,
+        "revenueGrowthTTMYoy": 62.18,
+        "epsGrowthTTMYoy": 175.25,
+        "currentRatioQuarterly": 10.7963,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 17355.264
+      },
+      "updated_at": "2026-11-21T14:07:02Z",
+      "name": "Reddit, Inc.",
+      "profile": {
+        "weburl": "https://www.redditinc.com/",
+        "industry": "Media",
+        "name": "Reddit, Inc."
+      },
+      "news": [
+        {
+          "headline": "How Investors Are Reacting To Reddit (RDDT) Search Traffic Warning",
+          "url": "https://finnhub.io/api/news?id=8824922f450454e240d16767fb046b4909a9b66a5a035aa5605afe5acc7971b2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:14:19Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Investors Heavily Search Reddit Inc. (RDDT): Here is What You Need to Know",
+          "url": "https://finnhub.io/api/news?id=22547f8a198b4f908bf28b644f0ce3fef40be1da2b09556e03a00438ad5b6c75",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:05Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Reddit (RDDT) Moves to Protect Human Data in an Increasingly AI-Written Web",
+          "url": "https://finnhub.io/api/news?id=ca39849a4975d62d791e3031131d4cb5fb297951b7fd286afe24b44227cdaa99",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:55:53Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Is Reddit Stock's Fall A Bargain Or A Warning?",
+          "url": "https://finnhub.io/api/news?id=585980e4b80f6411959478abbae359edb7c5a712024250faf37221c40de7b0e1",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:13:23Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Today's S&P 500 Top Movers: Reddit Leads Gainers, Salesforce Leads Decliners",
+          "url": "https://finnhub.io/api/news?id=90f634a4176d3015e7a44e5a47ae402b8945426602647f63744156f9a7e05b2e",
+          "source": "ChartMill",
+          "published_at": "2026-11-17T17:35:54Z",
+          "primary": false,
+          "symbol": "RDDT"
+        }
+      ]
     }
   },
-  "cursor": 440,
-  "updated_at": "2026-11-21T13:05:22Z"
+  "cursor": 452,
+  "updated_at": "2026-11-21T14:07:02Z"
 }
