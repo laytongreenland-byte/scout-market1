@@ -18327,8 +18327,716 @@
           "symbol": "DASH"
         }
       ]
+    },
+    "DOV": {
+      "metrics": {
+        "52WeekHigh": 237.54,
+        "52WeekLow": 177.87,
+        "peTTM": 22.7283,
+        "psTTM": 3.0902,
+        "netProfitMarginTTM": 13.6,
+        "roeTTM": 15.43,
+        "revenueGrowthTTMYoy": 8.24,
+        "epsGrowthTTMYoy": -47.18,
+        "currentRatioQuarterly": 1.9455,
+        "totalDebt/totalEquityQuarterly": 0.4275,
+        "marketCapitalization": 26503.113
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Dover Corporation",
+      "profile": {
+        "weburl": "https://www.dovercorporation.com/",
+        "industry": "Machinery",
+        "name": "Dover Corporation"
+      },
+      "news": [
+        {
+          "headline": "Dover Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=c96013ae9af76d19cc46c7c5a947ef20ab03c3656be4ed77c23744f923a1d451",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:43:18Z",
+          "primary": false,
+          "symbol": "DOV"
+        },
+        {
+          "headline": "Dover Sees Similar 2027 Setup, Targets 25% EBITDA Margin as AI Spending Surges",
+          "url": "https://finnhub.io/api/news?id=399d2dc3c1bb33fee28543adafd1fb609de3b3aa30eb1f040c95b5d6a0270029",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T15:12:19Z",
+          "primary": false,
+          "symbol": "DOV"
+        }
+      ]
+    },
+    "DOW": {
+      "metrics": {
+        "52WeekHigh": 42.74,
+        "52WeekLow": 20.93,
+        "psTTM": 0.5007,
+        "netProfitMarginTTM": -2.1,
+        "roeTTM": -5.67,
+        "revenueGrowthTTMYoy": 4.16,
+        "currentRatioQuarterly": 1.7556,
+        "totalDebt/totalEquityQuarterly": 1.0858,
+        "marketCapitalization": 21336.42
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Dow Inc.",
+      "profile": {
+        "weburl": "https://investors.dow.com/",
+        "industry": "Chemicals",
+        "name": "Dow Inc."
+      },
+      "news": [
+        {
+          "headline": "Dow sees lowest close since June as volatility index jumps on selling",
+          "url": "https://finnhub.io/api/news?id=afcec18826a54bef29e44d084e127478c960fe448c2e5153e6b988abb616b58e",
+          "source": "CNBC",
+          "published_at": "2026-11-17T18:59:41Z",
+          "primary": false,
+          "symbol": "DOW"
+        },
+        {
+          "headline": "Dow Already Cut Its Dividend 50%. Its Remaining 4.4% Yield Faces Another Test",
+          "url": "https://finnhub.io/api/news?id=220d8316526ffd8429c470b11472e942d771e28535590307b341a8f029bf28a9",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T12:17:14Z",
+          "primary": false,
+          "symbol": "DOW"
+        },
+        {
+          "headline": "DOW's Shares Surge 41% YTD: What's Driving the Momentum?",
+          "url": "https://finnhub.io/api/news?id=6fa3f0c408f39b6ed52081d27ed37d8ccbd34dc79a39f19f1e9e56a48058c5c7",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:57:00Z",
+          "primary": false,
+          "symbol": "DOW"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Dow Stock?",
+          "url": "https://finnhub.io/api/news?id=cbff5c22272a5bbbb192ca38c8aba3e18dba310663e25eddd151f692e77db963",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T14:18:16Z",
+          "primary": false,
+          "symbol": "DOW"
+        },
+        {
+          "headline": "Is Dow (DOW) Still Below Fair Value Or Is Its Recovery Already Priced In?",
+          "url": "https://finnhub.io/api/news?id=365dba9905f8e75c873c802fbd835c7465e251495487be413861414c2216be3c",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T14:11:41Z",
+          "primary": false,
+          "symbol": "DOW"
+        }
+      ]
+    },
+    "DHI": {
+      "metrics": {
+        "52WeekHigh": 170.785,
+        "52WeekLow": 130.4,
+        "peTTM": 13.5585,
+        "psTTM": 1.1856,
+        "netProfitMarginTTM": 8.74,
+        "roeTTM": 12.22,
+        "revenueGrowthTTMYoy": -3.52,
+        "epsGrowthTTMYoy": -12.61,
+        "currentRatioQuarterly": 5.4789,
+        "totalDebt/totalEquityQuarterly": 0.262,
+        "marketCapitalization": 39175.992
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "D.R. Horton, Inc.",
+      "profile": {
+        "weburl": "https://www.drhorton.com/",
+        "industry": "Consumer products",
+        "name": "D.R. Horton, Inc."
+      },
+      "news": [
+        {
+          "headline": "Here’s Why D.R. Horton (DHI) Pulled Back in Q3",
+          "url": "https://finnhub.io/api/news?id=f847e67c8190c58bdacbc7a8bf14bb1be1b0332a249c2ebc88aec9c51e7fb1a1",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:43Z",
+          "primary": false,
+          "symbol": "DHI"
+        },
+        {
+          "headline": "ETFs Bought $55.4 Million of D.R. Horton (DHI) on Nov. 18",
+          "url": "https://finnhub.io/api/news?id=d7f7b1fac65d9f8c4e990830f171edb91668ac19f04439c4d69aa832353bc6b4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:01:04Z",
+          "primary": false,
+          "symbol": "DHI"
+        },
+        {
+          "headline": "ETFs Are Buying DR Horton (DHI) on Nov. 17",
+          "url": "https://finnhub.io/api/news?id=01985d1ef1af7fa8c78105389fc6d1cc35d12849577f5d5c48403781c5989625",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:01:32Z",
+          "primary": false,
+          "symbol": "DHI"
+        }
+      ]
+    },
+    "DD": {
+      "metrics": {
+        "52WeekHigh": 159.48,
+        "52WeekLow": 111.15,
+        "peTTM": 64.6767,
+        "psTTM": 3.6266,
+        "netProfitMarginTTM": 7.95,
+        "roeTTM": 2.18,
+        "revenueGrowthTTMYoy": -16.56,
+        "currentRatioQuarterly": 2.3555,
+        "totalDebt/totalEquityQuarterly": 0.228,
+        "marketCapitalization": 19467.678
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "DuPont de Nemours, Inc.",
+      "profile": {
+        "weburl": "https://www.dupont.com/",
+        "industry": "Industrial Conglomerates",
+        "name": "DuPont de Nemours, Inc."
+      },
+      "news": [
+        {
+          "headline": "High-k and ALD/CVD Metal Precursors - Global Strategic Business Report: Capture a $253.8M Revenue Surge by 2030 as ADEKA, Air Liquide, DuPont, Entegris and Merck Accelerate",
+          "url": "https://finnhub.io/api/news?id=f691f592b0fd5eae2ace177d4d3cdc03756a7162bfb63a50e4cf5544886fa375",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:57:00Z",
+          "primary": false,
+          "symbol": "DD"
+        },
+        {
+          "headline": "Artificial Grass - Global Strategic Business Report 2026: Secure Share of a US$5.8 Billion Market by 2032 as Dow, DuPont, Tarkett, Act Global and Shaw Industries Accelerate Competition",
+          "url": "https://finnhub.io/api/news?id=52a3ca3e234353eeaeb24b6f9bea1a86c2bc5c83a74b56e6faa785f9592954ef",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:13:00Z",
+          "primary": false,
+          "symbol": "DD"
+        },
+        {
+          "headline": "DuPont Advances Water Treatment With First U.S. OxyMem Installation",
+          "url": "https://finnhub.io/api/news?id=f8e8dc35600b8418879031fa24e5d0e1b0517c4691fb0b740820b5081cb10281",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:38:00Z",
+          "primary": false,
+          "symbol": "DD"
+        },
+        {
+          "headline": "DuPont de Nemours Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=ae817c69c742a6c55db28e3f995cc752dd80af1b2c7af968ef49d320a8d93023",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T12:57:26Z",
+          "primary": false,
+          "symbol": "DD"
+        },
+        {
+          "headline": "Metal Replacement - Global Strategic Business Report: Capture $143.8 Billion in New Value by 2032 as BASF, Celanese, Covestro, DuPont, and Toray Disrupt Industry",
+          "url": "https://finnhub.io/api/news?id=38b4a3ca57cb8fd1cdf40abd89f758621533adee47591d50269f625d361af75e",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T15:09:00Z",
+          "primary": false,
+          "symbol": "DD"
+        }
+      ]
+    },
+    "EBAY": {
+      "metrics": {
+        "52WeekHigh": 127.74,
+        "52WeekLow": 78.03,
+        "peTTM": 25.181,
+        "psTTM": 4.2402,
+        "netProfitMarginTTM": 16.84,
+        "roeTTM": 46.11,
+        "revenueGrowthTTMYoy": 15.68,
+        "epsGrowthTTMYoy": -0.53,
+        "currentRatioQuarterly": 0.7813,
+        "totalDebt/totalEquityQuarterly": 1.5261,
+        "marketCapitalization": 52552.69
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "eBay Inc.",
+      "profile": {
+        "weburl": "https://www.ebayinc.com/",
+        "industry": "Retail",
+        "name": "eBay Inc."
+      },
+      "news": [
+        {
+          "headline": "Retail Digital Transformation - Global Strategic Business Report 2026: Capitalize on the $664.4 Billion Market with Amazon, Alibaba, eBay and Flipkart",
+          "url": "https://finnhub.io/api/news?id=aff4169fe917ea058c3aca2b0f4f0dcc659a21b42389399078df0c6669e63e11",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:35:00Z",
+          "primary": false,
+          "symbol": "EBAY"
+        },
+        {
+          "headline": "Ex-Ford worker allegedly hauled $80K+ in brand-new parts — air bags included — out the plant gates and onto eBay",
+          "url": "https://finnhub.io/api/news?id=abdf91046dbb80b69a6f80057f5ceadf2bac2ab12ffb8d94ca252c9bae587180",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T00:55:00Z",
+          "primary": false,
+          "symbol": "EBAY"
+        },
+        {
+          "headline": "$100 Invested In eBay 15 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=00dff314d1c10cadb80690fba7cc86b29689414f31a21631b90c73025fdaf712",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T18:15:22Z",
+          "primary": false,
+          "symbol": "EBAY"
+        },
+        {
+          "headline": "How Has eBay's Growth Story Changed?",
+          "url": "https://finnhub.io/api/news?id=80dd50ab8d0009351182b0231ca77ad363031ac0337d75299cd061072c455503",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T11:42:11Z",
+          "primary": false,
+          "symbol": "EBAY"
+        },
+        {
+          "headline": "EBay, Amazon, Caterpillar and More on CNBC’s ‘Final Trades’",
+          "url": "https://finnhub.io/api/news?id=3d5aee8df397814dfb98da883f6572798aaa78fcf19e7ee941fa65ddcb7b54a3",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T08:28:23Z",
+          "primary": false,
+          "symbol": "EBAY"
+        }
+      ]
+    },
+    "ECHO": {
+      "metrics": {
+        "52WeekHigh": 105.0281,
+        "52WeekLow": 82.48,
+        "peTTM": 2.7157,
+        "psTTM": 2.2076,
+        "netProfitMarginTTM": 81.29,
+        "roeTTM": 93.08999999999999,
+        "revenueGrowthTTMYoy": -19.83,
+        "currentRatioQuarterly": 10.1582,
+        "totalDebt/totalEquityQuarterly": 0.5698,
+        "marketCapitalization": 26860.193
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "EchoStar Corporation",
+      "profile": {
+        "weburl": "https://www.echostar.com/",
+        "industry": "Media",
+        "name": "EchoStar Corporation"
+      },
+      "news": [
+        {
+          "headline": "Here's How Much $100 Invested In EchoStar 5 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=a8dae75a3c53a9afddd64250e4ad93c619d1a3aef071c4523929c8959e07a71b",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T18:47:08Z",
+          "primary": false,
+          "symbol": "ECHO"
+        },
+        {
+          "headline": "EchoStar (ECHO) is a Great Momentum Stock: Should You Buy?",
+          "url": "https://finnhub.io/api/news?id=b4af3d4037d6a76b14ae2f34dd69269cd305e80818c6ccc84c90e5d97fdafa4a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:00:02Z",
+          "primary": false,
+          "symbol": "ECHO"
+        },
+        {
+          "headline": "Citigroup Maintains Buy on EchoStar, Raises Price Target to $139",
+          "url": "https://finnhub.io/api/news?id=69b5e609cbc1e67c60c6c021448cff6dfbbd2be1cfea36fb63278d3cd311eb09",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T14:57:34Z",
+          "primary": false,
+          "symbol": "ECHO"
+        },
+        {
+          "headline": "SpaceX’s Mobile Push Has a Quiet Winner: EchoStar, Paid in SpaceX Stock",
+          "url": "https://finnhub.io/api/news?id=65b903a173ec07c40be09578939a880e4d970a8f7eea9b3b59aee3e607e8a711",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T16:04:16Z",
+          "primary": false,
+          "symbol": "ECHO"
+        }
+      ]
+    },
+    "ECL": {
+      "metrics": {
+        "52WeekHigh": 318.93,
+        "52WeekLow": 243.15,
+        "peTTM": 40.0387,
+        "psTTM": 4.8001,
+        "netProfitMarginTTM": 11.99,
+        "roeTTM": 20.7,
+        "revenueGrowthTTMYoy": 9.33,
+        "epsGrowthTTMYoy": 5.8,
+        "currentRatioQuarterly": 1.1129,
+        "totalDebt/totalEquityQuarterly": 1.2656,
+        "marketCapitalization": 83388.68
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Ecolab Inc.",
+      "profile": {
+        "weburl": "https://www.ecolab.com/",
+        "industry": "Chemicals",
+        "name": "Ecolab Inc."
+      },
+      "news": [
+        {
+          "headline": "Can Ecolab (ECL) Justify Its Price Through Future Cash Flow?",
+          "url": "https://finnhub.io/api/news?id=0e83a112fe6ada3c531ce776ef4d296e29c8f6dbf5f5b727150156e8f7f92f93",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:16:11Z",
+          "primary": false,
+          "symbol": "ECL"
+        },
+        {
+          "headline": "Here's Why You Should Retain Ecolab Stock in Your Portfolio Now",
+          "url": "https://finnhub.io/api/news?id=8530979459e0d0a5a36e49ec5841f61ffb5377fc7537c51bf73b8a93f463c0fd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:44:00Z",
+          "primary": false,
+          "symbol": "ECL"
+        },
+        {
+          "headline": "Ecolab Raises Long-Term Targets as AI Infrastructure Opens a $60 Billion Opportunity",
+          "url": "https://finnhub.io/api/news?id=0ce47d03a396411c98686b40e81346bb18c5ff431bee23ca088d5a3f961619f9",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:12:36Z",
+          "primary": false,
+          "symbol": "ECL"
+        },
+        {
+          "headline": "Ecolab (ECL) Stock Sees Modest Fair Value Lift As Analysts Raise Targets",
+          "url": "https://finnhub.io/api/news?id=9b081251d36e8935184bfb95ffeffdb2b9a36d2bbb82fd45de04e0ee92095e44",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:12:19Z",
+          "primary": false,
+          "symbol": "ECL"
+        },
+        {
+          "headline": "Ecolab (ECL) Leans Into AI Cooling But Is The Valuation Too Rich",
+          "url": "https://finnhub.io/api/news?id=f818f0309c3acb2eea60fa013288a5a7961de814c55117c34ec9a5cf0847214e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:08:45Z",
+          "primary": false,
+          "symbol": "ECL"
+        }
+      ]
+    },
+    "EIX": {
+      "metrics": {
+        "52WeekHigh": 81.62,
+        "52WeekLow": 51.1,
+        "peTTM": 6.4266,
+        "psTTM": 1.3176,
+        "netProfitMarginTTM": 20.5,
+        "roeTTM": 21.64,
+        "revenueGrowthTTMYoy": 2.62,
+        "epsGrowthTTMYoy": 19.36,
+        "currentRatioQuarterly": 0.7663,
+        "totalDebt/totalEquityQuarterly": 2.3252,
+        "marketCapitalization": 24453.229
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Edison International",
+      "profile": {
+        "weburl": "https://www.edison.com/",
+        "industry": "Utilities",
+        "name": "Edison International"
+      },
+      "news": [
+        {
+          "headline": "Can Edison's Ten-Year Record Sales Decline Last?",
+          "url": "https://finnhub.io/api/news?id=f92b4bc83fa53ec3b0f59fa973d7e3545a894dc18e495afa24f797dfaa2a73dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:23:07Z",
+          "primary": false,
+          "symbol": "EIX"
+        },
+        {
+          "headline": "JP Morgan Maintains Neutral on Edison International, Raises Price Target to $64",
+          "url": "https://finnhub.io/api/news?id=f67f92f1e68670a107026973e47e5a0e20ede62d0ad5986ca87497f647c5427d",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T14:59:33Z",
+          "primary": false,
+          "symbol": "EIX"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Edison International Stock?",
+          "url": "https://finnhub.io/api/news?id=1fdd88ed9ccfa5a0999fd975a1f3e298d37cef2dbc50ed1a803dd5be3219b4b9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:09:17Z",
+          "primary": false,
+          "symbol": "EIX"
+        },
+        {
+          "headline": "How Many Shares of Southern Company, Edison International or WEC Energy Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=d4e3cf820c3b3cadb62d9a0b3fe6dc7f1381b2413660c3c3c64b8f16baa93d8f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:49:11Z",
+          "primary": false,
+          "symbol": "EIX"
+        },
+        {
+          "headline": "A $300,000 Portfolio in Omega Healthcare, Edison International and Altria Pays $17,064 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=b6c2b1e83c6704de23278362a0cf82e79a634652b8e8d13e9c12e38f5318cb43",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:21:21Z",
+          "primary": false,
+          "symbol": "EIX"
+        }
+      ]
+    },
+    "EME": {
+      "metrics": {
+        "52WeekHigh": 951.96,
+        "52WeekLow": 564.92,
+        "peTTM": 17.3552,
+        "psTTM": 1.3505,
+        "netProfitMarginTTM": 7.78,
+        "roeTTM": 38.85,
+        "revenueGrowthTTMYoy": 22.13,
+        "epsGrowthTTMYoy": 39.23,
+        "currentRatioQuarterly": 1.1696,
+        "totalDebt/totalEquityQuarterly": 0.0014,
+        "marketCapitalization": 26791.523
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "EMCOR Group, Inc.",
+      "profile": {
+        "weburl": "https://www.emcorgroup.com/",
+        "industry": "Construction",
+        "name": "EMCOR Group, Inc."
+      },
+      "news": [
+        {
+          "headline": "EMCOR Group (EME) Stock May Be Undervalued As It Eyes A Construction Deal",
+          "url": "https://finnhub.io/api/news?id=fcb703ed2b4f2f2beccf1aef2f6c75370cd9dea4f453b629a76bf3283c44f172",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:11:53Z",
+          "primary": false,
+          "symbol": "EME"
+        },
+        {
+          "headline": "EMCOR Group, Inc. Announces Participation in Upcoming Investor Event",
+          "url": "https://finnhub.io/api/news?id=df297cd50e010fbbedc16c2870b62d99fbbd1671b1b33617a58e0ed985d38100",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:30:00Z",
+          "primary": false,
+          "symbol": "EME"
+        },
+        {
+          "headline": "EMCOR Group (EME) Could Be 8% Undervalued After Argus Raised Its Price Target",
+          "url": "https://finnhub.io/api/news?id=a1fe03d3eec216c3c94b9d21b28e65252fe372317b509ff89740657d3150c5ca",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T10:08:27Z",
+          "primary": false,
+          "symbol": "EME"
+        },
+        {
+          "headline": "Emcor Group (EME) is an Incredible Growth Stock: 3 Reasons Why",
+          "url": "https://finnhub.io/api/news?id=2a597f7411af228dd97568c860b951b4d70216af5c6d7492cc15e24d8100955e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:45:03Z",
+          "primary": false,
+          "symbol": "EME"
+        },
+        {
+          "headline": "Are Construction Stocks Lagging  EMCOR Group (EME) This Year?",
+          "url": "https://finnhub.io/api/news?id=874b3c72ed2323f3e6f478d468a5e7e6dd2bb1edf16bcec6d28331456d372d4a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:40:03Z",
+          "primary": false,
+          "symbol": "EME"
+        }
+      ]
+    },
+    "ETR": {
+      "metrics": {
+        "52WeekHigh": 118.45,
+        "52WeekLow": 90.87,
+        "peTTM": 24.5726,
+        "psTTM": 3.6287,
+        "netProfitMarginTTM": 14.77,
+        "roeTTM": 11.23,
+        "revenueGrowthTTMYoy": 10.4,
+        "epsGrowthTTMYoy": 8.12,
+        "currentRatioQuarterly": 1.1838,
+        "totalDebt/totalEquityQuarterly": 1.731,
+        "marketCapitalization": 50735.684
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Entergy Corp",
+      "profile": {
+        "weburl": "https://www.entergy.com",
+        "industry": "Utilities",
+        "name": "Entergy Corp"
+      },
+      "news": [
+        {
+          "headline": "Entergy And 2 More Nuclear Power Stocks To Watch",
+          "url": "https://finnhub.io/api/news?id=46aad861574be24f3b1e5fac3fe3fc50812ead816b1078cf08ef05badef9137e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:13:30Z",
+          "primary": false,
+          "symbol": "ETR"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Entergy Stock?",
+          "url": "https://finnhub.io/api/news?id=67e2ca9de98f22ad9b693151e93f1d7489db7124abc8ff8d404314c176c1fc04",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:20:23Z",
+          "primary": false,
+          "symbol": "ETR"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains Outperform on Entergy, Raises Price Target to $132",
+          "url": "https://finnhub.io/api/news?id=675b43172c9d8e73b3b2e687c2ab4d92cc4026781a55e6611b2f31bc758e840e",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T09:21:57Z",
+          "primary": false,
+          "symbol": "ETR"
+        },
+        {
+          "headline": "Consolidated Edison or Entergy: Only One Gets My Dividend Dollars for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=3ce1399d7d69ddefc3fcc4eccb3f40b26b56ea84acd7ae3c34ab521557241cc5",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T17:41:10Z",
+          "primary": false,
+          "symbol": "ETR"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of Entergy (ETR) on Nov. 11",
+          "url": "https://finnhub.io/api/news?id=f5766eccd8877ea16b74030f7f62c66273b33c6a827ac5200905e10be874124b",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T11:02:42Z",
+          "primary": false,
+          "symbol": "ETR"
+        }
+      ]
+    },
+    "EFX": {
+      "metrics": {
+        "52WeekHigh": 228.67,
+        "52WeekLow": 137.01,
+        "peTTM": 28.5667,
+        "psTTM": 3.2193,
+        "netProfitMarginTTM": 11.27,
+        "roeTTM": 16.509999999999998,
+        "revenueGrowthTTMYoy": 10.92,
+        "epsGrowthTTMYoy": 17.32,
+        "currentRatioQuarterly": 1.0869,
+        "totalDebt/totalEquityQuarterly": 1.1641,
+        "marketCapitalization": 21222.234
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Equifax Inc.",
+      "profile": {
+        "weburl": "https://www.equifax.com/",
+        "industry": "Professional Services",
+        "name": "Equifax Inc."
+      },
+      "news": [
+        {
+          "headline": "Equifax (EFX) Up 2.3% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=0d3ee26e853f7913f0fa337688090967fa3f2e8dbc747f0fbebf539bfb483202",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:04Z",
+          "primary": false,
+          "symbol": "EFX"
+        },
+        {
+          "headline": "Barclays Maintains Equal-Weight on Equifax, Raises Price Target to $185",
+          "url": "https://finnhub.io/api/news?id=24c2b9c99bf5f60332cdb7bd0e754303de389b3827d5b23ed1cb3dc1b10cb612",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:14:25Z",
+          "primary": false,
+          "symbol": "EFX"
+        },
+        {
+          "headline": "HCKT vs. EFX: Which Stock Is the Better Value Option?",
+          "url": "https://finnhub.io/api/news?id=c5e5273f326ba42c3d3efa25dc1b2c3c573af2b8de086b9a179205f691e2f11e",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:40:02Z",
+          "primary": false,
+          "symbol": "EFX"
+        },
+        {
+          "headline": "Equifax Inc. (EFX) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=99ad498fb4a91f7a05f63439dc6e86debfb826a462efcfa4d8b57d3d05e320f2",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T13:53:20Z",
+          "primary": false,
+          "symbol": "EFX"
+        },
+        {
+          "headline": "BMO Capital Maintains Market Perform on Equifax, Raises Price Target to $186",
+          "url": "https://finnhub.io/api/news?id=59fff1dd0cf75f23d7eda2f25cc18bf79b119f6efe0e99606f5df77e0dffc0a9",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T11:09:21Z",
+          "primary": false,
+          "symbol": "EFX"
+        }
+      ]
+    },
+    "ERIE": {
+      "metrics": {
+        "52WeekHigh": 301.61,
+        "52WeekLow": 204.6301,
+        "peTTM": 22.5279,
+        "psTTM": 3.1483,
+        "netProfitMarginTTM": 13.97,
+        "roeTTM": 23.86,
+        "revenueGrowthTTMYoy": 2.04,
+        "epsGrowthTTMYoy": -15.51,
+        "currentRatioQuarterly": 1.3061,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 12979.162
+      },
+      "updated_at": "2026-11-21T01:21:29Z",
+      "name": "Erie Indemnity Co",
+      "profile": {
+        "weburl": "https://www.erieinsurance.com/",
+        "industry": "Insurance",
+        "name": "Erie Indemnity Co"
+      },
+      "news": [
+        {
+          "headline": "Should Earnings Beat Require Action From Erie Indemnity Stock Investors?",
+          "url": "https://finnhub.io/api/news?id=95c9e6cb2b1c72c3ee0c418e9ea5ad8c5aecee98c73cb8f1b9afbf8c4d3bccdb",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T15:11:07Z",
+          "primary": false,
+          "symbol": "ERIE"
+        },
+        {
+          "headline": "Erie Indemnity (ERIE) Backs AI Startups, Is The Stock Already Overvalued?",
+          "url": "https://finnhub.io/api/news?id=5f48b9c02fbc86c6f8f0549f1815bd5c8fef7423acdd8f0d3d86923ddbbdab60",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T14:10:26Z",
+          "primary": false,
+          "symbol": "ERIE"
+        },
+        {
+          "headline": "Erie Indemnity (ERIE) Stock May Trade Near Fair Value On Equity Returns",
+          "url": "https://finnhub.io/api/news?id=a2f335b89603efa6829e86624690fcb57cf34cf5daafadcb687efa81bedd6f19",
+          "source": "Yahoo",
+          "published_at": "2026-11-14T13:06:09Z",
+          "primary": false,
+          "symbol": "ERIE"
+        },
+        {
+          "headline": "Erie Indemnity Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=eff7a1e7bb265707e2677f1b0a9ed7c1750a643afc4dd39e812a0dfa839e5714",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T10:19:27Z",
+          "primary": false,
+          "symbol": "ERIE"
+        }
+      ]
     }
   },
-  "cursor": 308,
-  "updated_at": "2026-11-20T23:55:35Z"
+  "cursor": 320,
+  "updated_at": "2026-11-21T01:21:29Z"
 }
