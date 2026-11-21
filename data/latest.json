@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:55:53Z",
+  "generated_at": "2026-11-21T10:55:20Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 401,
+    "financially_screened": 413,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T09:55:53Z",
+      "checked_at": "2026-11-21T10:55:20Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T09:55:53Z",
+      "checked_at": "2026-11-21T10:55:20Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T09:55:53Z",
+      "checked_at": "2026-11-21T10:55:20Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T09:55:53Z",
+      "checked_at": "2026-11-21T10:55:20Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T09:55:53Z",
+      "checked_at": "2026-11-21T10:55:20Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T09:55:53Z",
+    "generated_at": "2026-11-21T10:55:20Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 401,
+    "screened_with_financials": 413,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -9383,6 +9383,85 @@
           "bear_case": null,
           "scenario_upside_pct": null,
           "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "MKC",
+        "name": "McCormick & Company, Incorporated",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Food Products",
+        "why": "Net profit margin 19.4% (TTM); Return on equity 22.3% (TTM); Trailing P/E 8.3×; TTM revenue growth 13.2% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$47.40",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T10:55:20Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "What Should Investors Know About McCormick (MKC) Merger Investigation?",
+            "timestamp": "2026-11-20T00:16:06Z",
+            "url": "https://finnhub.io/api/news?id=48b10ed875f46d14751215437d462bb8fbd8bef619eecc7e41cbfa9f98ae5bc2"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T10:55:20Z",
+        "price": 47.4,
+        "currency": "USD",
+        "change_pct": 3.426,
+        "news": [
+          {
+            "headline": "What Should Investors Know About McCormick (MKC) Merger Investigation?",
+            "url": "https://finnhub.io/api/news?id=48b10ed875f46d14751215437d462bb8fbd8bef619eecc7e41cbfa9f98ae5bc2",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T00:16:06Z",
+            "primary": false,
+            "symbol": "MKC"
+          },
+          {
+            "headline": "How Investors May Respond To McCormick (MKC) Dividend Increase",
+            "url": "https://finnhub.io/api/news?id=e98fe0e99ddccd86aaa6f6dfba20db5ef4475caeccd59b489f31ea453feff646",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T13:13:22Z",
+            "primary": false,
+            "symbol": "MKC"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Scenario mathematics produced inconsistent or unusable levels.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -13460,93 +13539,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "AZO",
-        "name": "AutoZone, Inc.",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Retail",
-        "why": "Net profit margin 12.7% (TTM); Return on equity 249.3% (TTM); Trailing P/E 20.4×; TTM revenue growth 7.4% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$3255.43",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T20:27:20Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "ETFs Bought $166.8 Million of AutoZone (AZO) on Monday",
-            "timestamp": "2026-11-18T11:01:48Z",
-            "url": "https://finnhub.io/api/news?id=fc6365f4ef65f1f65e3a0c1cf3a0bcef95bed973b05cd2ab059441d61384a7d0"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T20:27:20Z",
-        "price": 3255.43,
-        "currency": "USD",
-        "change_pct": -0.672,
-        "news": [
-          {
-            "headline": "ETFs Bought $166.8 Million of AutoZone (AZO) on Monday",
-            "url": "https://finnhub.io/api/news?id=fc6365f4ef65f1f65e3a0c1cf3a0bcef95bed973b05cd2ab059441d61384a7d0",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T11:01:48Z",
-            "primary": false,
-            "symbol": "AZO"
-          },
-          {
-            "headline": "Stifel Initiates Coverage On AutoZone with Hold Rating, Announces Price Target of $3450",
-            "url": "https://finnhub.io/api/news?id=602c56daf58b6ce9ccaff873803debb76943cce19ea3c1fbf4b6253be5a11d99",
-            "source": "Benzinga",
-            "published_at": "2026-11-17T08:28:21Z",
-            "primary": false,
-            "symbol": "AZO"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 2123.9,
-          "entry_floor": 1911.51,
-          "exit_review_low": 2722.95,
-          "exit_review_high": 3176.54,
-          "bear_case": 1543.61,
-          "scenario_upside_pct": -16.4,
-          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 20.44,
-            "earnings_growth_assumed_pct": 1.96,
-            "scenario_exit_pe": 16.77,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T20:27:20Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -14662,7 +14654,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 401,
+      "recorded_signals": 413,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14680,10 +14672,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T09:55:53Z",
+      "generated_at": "2026-11-21T10:55:20Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 304,
+        "recorded": 312,
         "purchase_scenarios": 21,
         "opened": 1,
         "closed": 0,
@@ -14693,10 +14685,170 @@
         "not_triggered": 0,
         "waiting": 21,
         "unverified": 0,
-        "skipped": 283,
+        "skipped": 291,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|MAS|ABOVE BASE CASE",
+          "symbol": "MAS",
+          "name": "Masco Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 82.6,
+          "buy_ceiling": 57.12,
+          "sell_review": 73.23,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 12.1% (TTM); Return on equity 279.8% (TTM); Trailing P/E 17.3×; TTM revenue growth 0.9% YoY",
+          "score": 68,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MKC|NO RELIABLE PRICE RANGE",
+          "symbol": "MKC",
+          "name": "McCormick & Company, Incorporated",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 47.4,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 19.4% (TTM); Return on equity 22.3% (TTM); Trailing P/E 8.3×; TTM revenue growth 13.2% YoY",
+          "score": 79,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MTD|ABOVE BASE CASE",
+          "symbol": "MTD",
+          "name": "Mettler-Toledo International Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 1666.88,
+          "buy_ceiling": 612.78,
+          "sell_review": 785.61,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 22.2% (TTM); Return on equity 1058.4% (TTM); Trailing P/E 36.2×; TTM revenue growth 6.5% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MGM|NO RELIABLE PRICE RANGE",
+          "symbol": "MGM",
+          "name": "MGM Resorts International",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 32.36,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 3.9% (TTM); Return on equity 28.1% (TTM); Trailing P/E 12.2×; TTM revenue growth 2.6% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MDLZ|ABOVE BASE CASE",
+          "symbol": "MDLZ",
+          "name": "Mondelez International, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 66.28,
+          "buy_ceiling": 42.8,
+          "sell_review": 54.88,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 10.2% (TTM); Return on equity 15.6% (TTM); Trailing P/E 20.4×; TTM revenue growth 6.0% YoY",
+          "score": 74,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MOS|NO RELIABLE PRICE RANGE",
+          "symbol": "MOS",
+          "name": "Mosaic Co",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 18.66,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Unprofitable on trailing net margin",
+          "why": "Net profit margin -9.4% (TTM); Return on equity -9.6% (TTM); TTM revenue growth 0.0% YoY; 42.1% below reported 52-week high",
+          "score": 19,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MSCI|NO RELIABLE PRICE RANGE",
+          "symbol": "MSCI",
+          "name": "MSCI Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 610.48,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "High sales multiple",
+          "why": "Net profit margin 40.3% (TTM); Return on equity 108.7% (TTM); Trailing P/E 32.3×; TTM revenue growth 12.3% YoY",
+          "score": 71,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|NDAQ|NO RELIABLE PRICE RANGE",
+          "symbol": "NDAQ",
+          "name": "Nasdaq Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T10:55:20Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 102.92,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 22.7% (TTM); Return on equity 17.3% (TTM); Trailing P/E 27.8×; TTM revenue growth 12.2% YoY",
+          "score": 73,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|LVS|WAIT FOR ENTRY",
           "symbol": "LVS",
@@ -16936,170 +17088,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AWK|NO RELIABLE PRICE RANGE",
-          "symbol": "AWK",
-          "name": "American Water Works Company, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:13:56Z",
-          "reference_price": 149.93,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 21.3% (TTM); Return on equity 10.0% (TTM); Trailing P/E 26.3×; TTM revenue growth 5.4% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AMP|NO RELIABLE PRICE RANGE",
-          "symbol": "AMP",
-          "name": "Ameriprise Financial Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:14:06Z",
-          "reference_price": 484.54,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.3×; TTM revenue growth 8.8% YoY",
-          "score": 82,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AME|ABOVE BASE CASE",
-          "symbol": "AME",
-          "name": "AMETEK Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:13:59Z",
-          "reference_price": 223.83,
-          "buy_ceiling": 102.1,
-          "sell_review": 130.89,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 19.9% (TTM); Return on equity 14.7% (TTM); Trailing P/E 32.8×; TTM revenue growth 14.3% YoY",
-          "score": 67,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|APH|ABOVE BASE CASE",
-          "symbol": "APH",
-          "name": "Amphenol Corp",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:14:21Z",
-          "reference_price": 69.74,
-          "buy_ceiling": 41.43,
-          "sell_review": 53.11,
-          "risk": "Large one-session price move (-7.8%)",
-          "why": "Net profit margin 17.9% (TTM); Return on equity 39.5% (TTM); Trailing P/E 31.8×; TTM revenue growth 57.6% YoY",
-          "score": 70,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|APA|NO RELIABLE PRICE RANGE",
-          "symbol": "APA",
-          "name": "APA Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T20:09:04Z",
-          "quote_at": "2026-11-20T20:14:20Z",
-          "reference_price": 45.28,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 22.9% (TTM); Return on equity 32.4% (TTM); Trailing P/E 6.9×; TTM revenue growth -1.9% YoY",
-          "score": 71,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|COR|NO RELIABLE PRICE RANGE",
-          "symbol": "COR",
-          "name": "Cencora, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:29:56Z",
-          "reference_price": 340.92,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 1.0% (TTM); Return on equity 115.8% (TTM); Trailing P/E 18.7×; TTM revenue growth 5.0% YoY",
-          "score": 73,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AOS|NO RELIABLE PRICE RANGE",
-          "symbol": "AOS",
-          "name": "A. O. Smith Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:30:57Z",
-          "reference_price": 63.5,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 13.0% (TTM); Return on equity 26.7% (TTM); Trailing P/E 17.3×; TTM revenue growth -0.7% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AES|NO RELIABLE PRICE RANGE",
-          "symbol": "AES",
-          "name": "The AES Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:31:12Z",
-          "reference_price": 15.03,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 13.2% (TTM); Return on equity 37.3% (TTM); Trailing P/E 6.0×; TTM revenue growth 12.2% YoY",
-          "score": 82,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 77,
+      "legacy_research_flags": 78,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17109,14 +17101,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "CB",
-        "flagged_at": "2026-11-20T13:23:07Z",
-        "reference_price": 370.11,
-        "score": 78,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "ORCL",
@@ -17507,6 +17491,14 @@
         "flagged_at": "2026-11-21T09:55:53Z",
         "reference_price": 500.74,
         "score": 82,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "MKC",
+        "flagged_at": "2026-11-21T10:55:20Z",
+        "reference_price": 47.4,
+        "score": 79,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],

@@ -23602,8 +23602,700 @@
           "symbol": "MLM"
         }
       ]
+    },
+    "MRVL": {
+      "metrics": {
+        "52WeekHigh": 329.88,
+        "52WeekLow": 70.685,
+        "peTTM": 40.618,
+        "psTTM": 11.3464,
+        "netProfitMarginTTM": 27.93,
+        "roeTTM": 16.220000000000002,
+        "revenueGrowthTTMYoy": 30.62,
+        "currentRatioQuarterly": 3.1684,
+        "totalDebt/totalEquityQuarterly": 0.2678,
+        "marketCapitalization": 107227.336
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Marvell Technology, Inc.",
+      "profile": {
+        "weburl": "https://www.marvell.com/",
+        "industry": "Semiconductors",
+        "name": "Marvell Technology, Inc."
+      },
+      "news": [
+        {
+          "headline": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+          "url": "https://finnhub.io/api/news?id=350b7b787df4ab1d9e0d47982aacd2338851263fb35869cc7aa66e9b84608c46",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T23:25:54Z",
+          "primary": false,
+          "symbol": "MRVL"
+        },
+        {
+          "headline": "Marvell Reports Dec. 1. History Says What Its Stock Usually Does Next.",
+          "url": "https://finnhub.io/api/news?id=a5a81bd49609165bce32d1a17bfd8065edc25157c928f66ee22e242aafaa6d58",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:43:02Z",
+          "primary": false,
+          "symbol": "MRVL"
+        },
+        {
+          "headline": "Marvell's $115 Billion Lumentum Deal Creates a New Valuation Test",
+          "url": "https://finnhub.io/api/news?id=66a20bf4cbe8b5ec550e6c876a9fe86f3deb80fcc358f15380041849719764eb",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:41:12Z",
+          "primary": false,
+          "symbol": "MRVL"
+        },
+        {
+          "headline": "Marvell and Lumentum deal: good, real, and ugly scenarios",
+          "url": "https://finnhub.io/api/news?id=711ce0cf599256f8891909373c8e66584787422e2e95f1f3d85466dd22cd18ed",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:20:15Z",
+          "primary": false,
+          "symbol": "MRVL"
+        },
+        {
+          "headline": "Lumentum’s CEO Admits “Shareholders Are Not Happy” About the Marvell Deal",
+          "url": "https://finnhub.io/api/news?id=f98e6330b4e5b3ed495081dd75c90f48deaa068d72e8052594c51926f8ff4551",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:28:43Z",
+          "primary": false,
+          "symbol": "MRVL"
+        }
+      ]
+    },
+    "MAS": {
+      "metrics": {
+        "52WeekHigh": 87.86,
+        "52WeekLow": 58.16,
+        "peTTM": 17.2534,
+        "psTTM": 2.081,
+        "netProfitMarginTTM": 12.06,
+        "roeTTM": 279.76,
+        "revenueGrowthTTMYoy": 0.95,
+        "epsGrowthTTMYoy": 18.16,
+        "currentRatioQuarterly": 1.834,
+        "totalDebt/totalEquityQuarterly": 14.3333,
+        "marketCapitalization": 15959.3545
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Masco Corporation",
+      "profile": {
+        "weburl": "https://masco.com/",
+        "industry": "Building",
+        "name": "Masco Corporation"
+      },
+      "news": [
+        {
+          "headline": "Are Wall Street Analysts Bullish on Masco Stock?",
+          "url": "https://finnhub.io/api/news?id=c387fd7c86829fa9f32d06960a22e5c0d3ef1af6a069292e3ee4c01d8e803c1f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:49:50Z",
+          "primary": false,
+          "symbol": "MAS"
+        },
+        {
+          "headline": "Does Raised Earnings Guidance Change The Bull Case For Masco (MAS)",
+          "url": "https://finnhub.io/api/news?id=2541da844ef1e51dc1310492edb036e40ca03118ad0f9c8841e7ab1efb35564b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T23:24:25Z",
+          "primary": false,
+          "symbol": "MAS"
+        },
+        {
+          "headline": "Is Masco (MAS) Trading Below Fair Value On Cash Flow?",
+          "url": "https://finnhub.io/api/news?id=f47a201a8a3643a81a129fd7bdae5affe7bdc28b53db2b8250c84ab1fe7340dd",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T19:07:07Z",
+          "primary": false,
+          "symbol": "MAS"
+        },
+        {
+          "headline": "Masco (MAS) Could Be 9% Below Fair Value As Growth Plans Stay In Focus",
+          "url": "https://finnhub.io/api/news?id=473189df5b9b133cd48abf126d1c7e72fd75115858ef1f0f6d7035e220b0b310",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:11:50Z",
+          "primary": false,
+          "symbol": "MAS"
+        },
+        {
+          "headline": "Masco: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=88a2b17a8aba80993d9d285bb47d2a030d808f752bfef9c462157732a2779c3b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:50:02Z",
+          "primary": false,
+          "symbol": "MAS"
+        }
+      ]
+    },
+    "MKC": {
+      "metrics": {
+        "52WeekHigh": 72.41,
+        "52WeekLow": 43.25,
+        "peTTM": 8.2739,
+        "psTTM": 1.6046,
+        "netProfitMarginTTM": 19.39,
+        "roeTTM": 22.32,
+        "revenueGrowthTTMYoy": 13.23,
+        "epsGrowthTTMYoy": 91.63,
+        "currentRatioQuarterly": 0.6572,
+        "totalDebt/totalEquityQuarterly": 0.7165,
+        "marketCapitalization": 12332.242
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "McCormick & Company, Incorporated",
+      "profile": {
+        "weburl": "https://www.mccormick.com/",
+        "industry": "Food Products",
+        "name": "McCormick & Company, Incorporated"
+      },
+      "news": [
+        {
+          "headline": "What Should Investors Know About McCormick (MKC) Merger Investigation?",
+          "url": "https://finnhub.io/api/news?id=48b10ed875f46d14751215437d462bb8fbd8bef619eecc7e41cbfa9f98ae5bc2",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:16:06Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "How Investors May Respond To McCormick (MKC) Dividend Increase",
+          "url": "https://finnhub.io/api/news?id=e98fe0e99ddccd86aaa6f6dfba20db5ef4475caeccd59b489f31ea453feff646",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:13:22Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like McCormick & Company Stock?",
+          "url": "https://finnhub.io/api/news?id=3e282fe383572436ca4df73c914d86d8de3b984e16c2cdf39a67c6cd7e5ba51f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:17:25Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "McCormick (MKC) Stock Looks Reasonable Despite UK Deal Scrutiny",
+          "url": "https://finnhub.io/api/news?id=af09635456a1ec09659d152d429df343f833761c99ca30095ceb9686dbc238a2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:15:27Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "McCormick (MKC) Could Be 16% Undervalued After Its 41st Straight Dividend Rise",
+          "url": "https://finnhub.io/api/news?id=208c7ba5c8bef3f65e88ac301d1fe82521dc1ae12f11799f9bb1c49ab59a4a8d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T11:11:42Z",
+          "primary": false,
+          "symbol": "MKC"
+        }
+      ]
+    },
+    "MTD": {
+      "metrics": {
+        "52WeekHigh": 1806.58,
+        "52WeekLow": 1023.05,
+        "peTTM": 36.1659,
+        "psTTM": 8.0462,
+        "netProfitMarginTTM": 22.25,
+        "roeTTM": 1058.4199999999998,
+        "revenueGrowthTTMYoy": 6.51,
+        "epsGrowthTTMYoy": 15.07,
+        "currentRatioQuarterly": 1.1007,
+        "totalDebt/totalEquityQuarterly": 26.0579,
+        "marketCapitalization": 33781.562
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Mettler-Toledo International Inc.",
+      "profile": {
+        "weburl": "https://www.mt.com/",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Mettler-Toledo International Inc."
+      },
+      "news": [
+        {
+          "headline": "Mettler-Toledo International Inc. to Present at Upcoming Investor Conference",
+          "url": "https://finnhub.io/api/news?id=5bba49d83ac828b6ed89701a525246fcfac694608f01fcad2d3c71c9384a075f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:30:00Z",
+          "primary": false,
+          "symbol": "MTD"
+        }
+      ]
+    },
+    "MGM": {
+      "metrics": {
+        "52WeekHigh": 51.59,
+        "52WeekLow": 26.71,
+        "peTTM": 12.179,
+        "psTTM": 0.477,
+        "netProfitMarginTTM": 3.92,
+        "roeTTM": 28.1,
+        "revenueGrowthTTMYoy": 2.57,
+        "epsGrowthTTMYoy": 1430.64,
+        "currentRatioQuarterly": 1.2375,
+        "totalDebt/totalEquityQuarterly": 2.344,
+        "marketCapitalization": 8453.082
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "MGM Resorts International",
+      "profile": {
+        "weburl": "https://www.mgmresorts.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "MGM Resorts International"
+      },
+      "news": [
+        {
+          "headline": "MGM Resorts: Holding Up Better Than The Strip",
+          "url": "https://finnhub.io/api/news?id=a6f89dd0dc0380aa1ce9f055c44b5308bb6439f16210a5c9a9085b73a38b6bbd",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T06:30:32Z",
+          "primary": false,
+          "symbol": "MGM"
+        },
+        {
+          "headline": "PEPSI® Turns Up the Flavor on the Las Vegas Strip During Formula 1 Heineken Las Vegas Grand Prix 2026 Race Weekend With MGM Resorts International",
+          "url": "https://finnhub.io/api/news?id=50e29d945da05e6ab5b7917222d9e42c6aa467d3e402c11c65e1a09bdd10903b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:00:00Z",
+          "primary": false,
+          "symbol": "MGM"
+        },
+        {
+          "headline": "MGM vs Wynn: operating scale against valuation upside",
+          "url": "https://finnhub.io/api/news?id=48605a804831299e0f5b713c6a1d5ea3cad56cb6e2414edc6cc6c96b2a3919e9",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:24:54Z",
+          "primary": false,
+          "symbol": "MGM"
+        }
+      ]
+    },
+    "MCHP": {
+      "metrics": {
+        "52WeekHigh": 105.91,
+        "52WeekLow": 48.52,
+        "peTTM": 36.6625,
+        "psTTM": 5.4836,
+        "netProfitMarginTTM": 14.96,
+        "roeTTM": 12.85,
+        "revenueGrowthTTMYoy": 33.02,
+        "currentRatioQuarterly": 2.2424,
+        "totalDebt/totalEquityQuarterly": 0.8308,
+        "marketCapitalization": 30726.867
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Microchip Technology Inc",
+      "profile": {
+        "weburl": "https://www.microchip.com/",
+        "industry": "Semiconductors",
+        "name": "Microchip Technology Inc"
+      },
+      "news": [
+        {
+          "headline": "Microchip Technology: The Easy Money In The Recovery May Be Gone",
+          "url": "https://finnhub.io/api/news?id=59aa89470e18e8f4a9f0bcb7989b31a4cc2214b7b459aa1886773a38215a1ff6",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T23:13:41Z",
+          "primary": false,
+          "symbol": "MCHP"
+        },
+        {
+          "headline": "Microchip Expands RT PolarFire® FPGA Portfolio with New Spaceflight Qualifications",
+          "url": "https://finnhub.io/api/news?id=abb38919bd34795cc7fbbf1534a09399067b267b8c2c8298a09fea942ff965f1",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:09:00Z",
+          "primary": false,
+          "symbol": "MCHP"
+        },
+        {
+          "headline": "Microchip’s Earnings Rebound Meets a Softer Outlook",
+          "url": "https://finnhub.io/api/news?id=6028dcc581adbbff958f36be39e1b01da8365217e23efea686621c6af278fb44",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:16:18Z",
+          "primary": false,
+          "symbol": "MCHP"
+        },
+        {
+          "headline": "Microchip Introduces Advanced, Scalable, Self-Managed Automotive Ethernet Switch Families for Software-Defined Vehicles",
+          "url": "https://finnhub.io/api/news?id=8b7b430f1388f3af5a5a9e862992a2eba56091bbed1bcc482cc180f7c15fbe2d",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:00:00Z",
+          "primary": false,
+          "symbol": "MCHP"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of Microchip Technology (MCHP) on Friday",
+          "url": "https://finnhub.io/api/news?id=9ceafa91ae811521bac89bfdffb78867b85ddeec9d434542031688d5a54ffafe",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:02:13Z",
+          "primary": false,
+          "symbol": "MCHP"
+        }
+      ]
+    },
+    "MDLZ": {
+      "metrics": {
+        "52WeekHigh": 68.92,
+        "52WeekLow": 51.2,
+        "peTTM": 20.3906,
+        "psTTM": 2.0841,
+        "netProfitMarginTTM": 10.22,
+        "roeTTM": 15.559999999999999,
+        "revenueGrowthTTMYoy": 5.98,
+        "epsGrowthTTMYoy": 18.67,
+        "currentRatioQuarterly": 0.6156,
+        "totalDebt/totalEquityQuarterly": 0.8172,
+        "marketCapitalization": 83152.93
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Mondelez International, Inc.",
+      "profile": {
+        "weburl": "https://www.mondelezinternational.com/",
+        "industry": "Food Products",
+        "name": "Mondelez International, Inc."
+      },
+      "news": [
+        {
+          "headline": "Can Mondelez's Emerging Markets Fuel Long-Term Growth?",
+          "url": "https://finnhub.io/api/news?id=1acc9e6fb1554b41f9b54bab15c23429f22a883732109bf291fd8c15f2bee22b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:50:00Z",
+          "primary": false,
+          "symbol": "MDLZ"
+        },
+        {
+          "headline": "Chevron or Mondelez: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=f0e55add63b470dffae44cad65e5f06a7cf490fb726fa2600c61193449820c94",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T10:03:07Z",
+          "primary": false,
+          "symbol": "MDLZ"
+        },
+        {
+          "headline": "Mondelez Grows 6%, Hormel Under 1%: Which To Own?",
+          "url": "https://finnhub.io/api/news?id=a8aebc348d36c4294ceb34656515bd60b0b2f8f81e88ab37cfb8da84c0e9b365",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:13:41Z",
+          "primary": false,
+          "symbol": "MDLZ"
+        },
+        {
+          "headline": "Mondelez's Multi-Million Portfolio Shift: Unloads French Bakery and Cereal Bars Business",
+          "url": "https://finnhub.io/api/news?id=90bda6f2b35922cd96cad298b667eeb76f81b1d9619620eab712efa2862bc566",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:16:48Z",
+          "primary": false,
+          "symbol": "MDLZ"
+        },
+        {
+          "headline": "Princes Group buys Mondelez assets in France",
+          "url": "https://finnhub.io/api/news?id=7ddf786748b624216952af333266cba4ed9cb8af3461d520756188dbfb20858e",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:15:22Z",
+          "primary": false,
+          "symbol": "MDLZ"
+        }
+      ]
+    },
+    "MPWR": {
+      "metrics": {
+        "52WeekHigh": 1714.0898,
+        "52WeekLow": 833.18,
+        "peTTM": 70.431,
+        "psTTM": 16.9047,
+        "netProfitMarginTTM": 24.0,
+        "roeTTM": 24.19,
+        "revenueGrowthTTMYoy": 40.49,
+        "epsGrowthTTMYoy": -53.45,
+        "currentRatioQuarterly": 3.7021,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 63196.5
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Monolithic Power Systems Inc",
+      "profile": {
+        "weburl": "http://www.monolithicpower.com/",
+        "industry": "Semiconductors",
+        "name": "Monolithic Power Systems Inc"
+      },
+      "news": [
+        {
+          "headline": "Could You Have Spotted Monolithic Power Stock's 52% Run?",
+          "url": "https://finnhub.io/api/news?id=db8ac04209ee2fb9a37dfeddd4a8ea18ab8dc1eb942da7db2a2ef8dd8e936eb8",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T06:32:47Z",
+          "primary": false,
+          "symbol": "MPWR"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of Monolithic Power (MPWR) on Friday",
+          "url": "https://finnhub.io/api/news?id=08b1536a9e5d7ea1d76a500357c86d7974b553768ada0ed64ffe733d92472ebf",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:02:06Z",
+          "primary": false,
+          "symbol": "MPWR"
+        },
+        {
+          "headline": "If You Invested $1000 In Monolithic Power Systems Stock 15 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=e35cb53adb9be2b38f5fce7b7fde87ffb753b5e8aebf88a33d6e9ade229cad70",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T10:15:39Z",
+          "primary": false,
+          "symbol": "MPWR"
+        },
+        {
+          "headline": "What Is Monolithic Power Systems No Longer Telling You?",
+          "url": "https://finnhub.io/api/news?id=dc90ba6af29621d3e881bd41ecf6d997994619eefbb9f974d074f90c937dc3ad",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T00:46:25Z",
+          "primary": false,
+          "symbol": "MPWR"
+        },
+        {
+          "headline": "Monolithic Power (MPWR) Sees $56.7 Million in Net ETF Selling on Nov. 12",
+          "url": "https://finnhub.io/api/news?id=1bb27a9bb1cd5b7ed59802d74bcec6f139a64290b2ec8494cf589dde4883ebf9",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T11:03:29Z",
+          "primary": false,
+          "symbol": "MPWR"
+        }
+      ]
+    },
+    "MOS": {
+      "metrics": {
+        "52WeekHigh": 32.25,
+        "52WeekLow": 16.99,
+        "psTTM": 0.5304,
+        "netProfitMarginTTM": -9.43,
+        "roeTTM": -9.62,
+        "revenueGrowthTTMYoy": 0.02,
+        "currentRatioQuarterly": 1.4983,
+        "totalDebt/totalEquityQuarterly": 0.5233,
+        "marketCapitalization": 6310.3877
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Mosaic Co",
+      "profile": {
+        "weburl": "https://www.mosaicco.com/",
+        "industry": "Chemicals",
+        "name": "Mosaic Co"
+      },
+      "news": [
+        {
+          "headline": "Will Mosaic's Cost-Cutting Actions Fuel Stronger Margins Ahead?",
+          "url": "https://finnhub.io/api/news?id=bbc8178d079b751a499bd430af2b766fe3b3605589d8b437496b6c5773a2f4ec",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:13:00Z",
+          "primary": false,
+          "symbol": "MOS"
+        },
+        {
+          "headline": "Reasons Why You Should Retain MOS Stock in Your Portfolio Now",
+          "url": "https://finnhub.io/api/news?id=edf95e1d3958966392341b59e776cf2ee02913134c1a11a11b2121b658b652b7",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T12:23:00Z",
+          "primary": false,
+          "symbol": "MOS"
+        },
+        {
+          "headline": "UBS Maintains Neutral on Mosaic, Raises Price Target to $22",
+          "url": "https://finnhub.io/api/news?id=c4df3636c28a547edb3afd2fb1e567ec9333dfb881ba5c6c75bd477de3a6ddcb",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T11:10:43Z",
+          "primary": false,
+          "symbol": "MOS"
+        }
+      ]
+    },
+    "MSI": {
+      "metrics": {
+        "52WeekHigh": 548.285,
+        "52WeekLow": 359.36,
+        "peTTM": 41.4065,
+        "psTTM": 6.8469,
+        "netProfitMarginTTM": 16.54,
+        "roeTTM": 77.94,
+        "revenueGrowthTTMYoy": 11.4,
+        "epsGrowthTTMYoy": -0.32,
+        "currentRatioQuarterly": 1.0971,
+        "totalDebt/totalEquityQuarterly": 3.2946,
+        "marketCapitalization": 86291.086
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Motorola Solutions Inc",
+      "profile": {
+        "weburl": "https://www.motorolasolutions.com",
+        "industry": "Communications",
+        "name": "Motorola Solutions Inc"
+      },
+      "news": [
+        {
+          "headline": "Global Push-to-Talk Rugged Device Market Report 2026-2030 | Capitalize on 5G and Wearables as Motorola Solutions, Samsung Electronics, Hytera and Honeywell Target $9.05B",
+          "url": "https://finnhub.io/api/news?id=e52e8dbfe8c1abd5cadfe6da626e1b2af0b67a57fd96404b39f46791e8c87611",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:37:00Z",
+          "primary": false,
+          "symbol": "MSI"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Motorola Solutions Stock?",
+          "url": "https://finnhub.io/api/news?id=4b01040a8c3832b3c1394b3914d544cf807f5f5f9930e6fbabaea1bc19ce46e4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:03:23Z",
+          "primary": false,
+          "symbol": "MSI"
+        },
+        {
+          "headline": "Motorola Solutions Increases Quarterly Dividend 11 Percent",
+          "url": "https://finnhub.io/api/news?id=1ae88edca16cc0d43c0d980e83fb0a4c1aac67efe071c618052a62411019fd33",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:15:00Z",
+          "primary": false,
+          "symbol": "MSI"
+        },
+        {
+          "headline": "Motorola Solutions Hikes Quarterly Dividend From $1.21 To $1.34 Per Share",
+          "url": "https://finnhub.io/api/news?id=acf433a121cf60b02e318e3b965710759d793841c54e08236a45a34d3d512512",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T16:17:45Z",
+          "primary": false,
+          "symbol": "MSI"
+        }
+      ]
+    },
+    "MSCI": {
+      "metrics": {
+        "52WeekHigh": 681.04,
+        "52WeekLow": 501.08,
+        "peTTM": 32.2618,
+        "psTTM": 13.0056,
+        "netProfitMarginTTM": 40.31,
+        "roeTTM": 108.67,
+        "revenueGrowthTTMYoy": 12.33,
+        "epsGrowthTTMYoy": 19.74,
+        "currentRatioQuarterly": 0.8248,
+        "totalDebt/totalEquityQuarterly": 6.8032,
+        "marketCapitalization": 44639.598
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "MSCI Inc.",
+      "profile": {
+        "weburl": "https://www.msci.com/",
+        "industry": "Financial Services",
+        "name": "MSCI Inc."
+      },
+      "news": [
+        {
+          "headline": "Anthropic To Join MSCI Large Cap And FTSE Global Indexes After Record IPO",
+          "url": "https://finnhub.io/api/news?id=0a69721a94efdcf1a696b9eb39bc95878c273d5f955ba8fbc585cd0e378d3de2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:06:56Z",
+          "primary": false,
+          "symbol": "MSCI"
+        },
+        {
+          "headline": "Strategy (MSTR) On Bitcoin Buying And MSCI Exit Still Looks Undervalued",
+          "url": "https://finnhub.io/api/news?id=94804c237ad54d843784d58a48f533564bfefc6e07cbbc5d279928c81f956697",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:14:24Z",
+          "primary": false,
+          "symbol": "MSCI"
+        },
+        {
+          "headline": "MSCI (MSCI) Up 5.4% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=d2b92aa5a3e5380bec80e37c946a4c144ffd7b8298d251b197ec1d8fb8c2fdcd",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:05Z",
+          "primary": false,
+          "symbol": "MSCI"
+        },
+        {
+          "headline": "MSCI Inc. (MSCI) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=e058daf214bf4e37ca9105616c1c8dd9acdd3c88e3c3a1f43645ee6aff87a368",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T15:13:18Z",
+          "primary": false,
+          "symbol": "MSCI"
+        },
+        {
+          "headline": "86% Upside for Strategy After MSCI Drops It? Cantor Fitzgerald Sees a Path to $208",
+          "url": "https://finnhub.io/api/news?id=745a97bb7a84c203d1692125f81d835158293265037b0c74283643b9e5b57b0c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T00:39:00Z",
+          "primary": false,
+          "symbol": "MSCI"
+        }
+      ]
+    },
+    "NDAQ": {
+      "metrics": {
+        "52WeekHigh": 111.45,
+        "52WeekLow": 76.55,
+        "peTTM": 27.7854,
+        "psTTM": 6.3036,
+        "netProfitMarginTTM": 22.69,
+        "roeTTM": 17.28,
+        "revenueGrowthTTMYoy": 12.23,
+        "epsGrowthTTMYoy": 30.43,
+        "currentRatioQuarterly": 1.0033,
+        "totalDebt/totalEquityQuarterly": 0.7284,
+        "marketCapitalization": 57904.812
+      },
+      "updated_at": "2026-11-21T10:55:20Z",
+      "name": "Nasdaq Inc",
+      "profile": {
+        "weburl": "https://www.nasdaq.com/",
+        "industry": "Financial Services",
+        "name": "Nasdaq Inc"
+      },
+      "news": [
+        {
+          "headline": "Nasdaq Rises on Record Recurring Revenue",
+          "url": "https://finnhub.io/api/news?id=02ebe4254da0ec666d992b49cd6a2fa319a05388436cb00340c577db85139a40",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:35:45Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        },
+        {
+          "headline": "Nasdaq CEO Adena Friedman and President Nelson Griggs weigh in on Anthropic's historic IPO",
+          "url": "https://finnhub.io/api/news?id=e4a787869e2a672518d5e2f6ffd7943d21017ca5b952ea804a011a00d1654b1f",
+          "source": "CNBC",
+          "published_at": "2026-11-19T16:58:06Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        },
+        {
+          "headline": "Nasdaq, Inc. (NDAQ) Presents at RBC Global Technology, Internet, Media and Telecommunications Conference Transcript",
+          "url": "https://finnhub.io/api/news?id=17c8eb85ceeea30033ecad8aefb7ef35077405a1ee0223d2d03a4aa57958cd55",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T11:12:54Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        },
+        {
+          "headline": "Nasdaq, Inc. (NDAQ) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=c0a3922b5300b1bc82faf6b6c214e62a941fd82e337beb65f5df966679e24c17",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T14:12:46Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        },
+        {
+          "headline": "Nasdaq and Mercedes-AMG PETRONAS F1 Team Renew Multi-Year Partnership",
+          "url": "https://finnhub.io/api/news?id=5b09ed39f0b73d8bf136a6d17b32d97dde5c0b54fafcf97b9cadaa7e9f8dbb7a",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:30:00Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        }
+      ]
     }
   },
-  "cursor": 404,
-  "updated_at": "2026-11-21T09:55:53Z"
+  "cursor": 416,
+  "updated_at": "2026-11-21T10:55:20Z"
 }
