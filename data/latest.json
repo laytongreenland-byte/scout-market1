@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:56:50Z",
+  "generated_at": "2026-11-21T09:55:53Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 389,
+    "financially_screened": 401,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T08:56:50Z",
+      "checked_at": "2026-11-21T09:55:53Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T08:56:50Z",
+      "checked_at": "2026-11-21T09:55:53Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T08:56:50Z",
+      "checked_at": "2026-11-21T09:55:53Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T08:56:50Z",
+      "checked_at": "2026-11-21T09:55:53Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T08:56:50Z",
+      "checked_at": "2026-11-21T09:55:53Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T08:56:50Z",
+    "generated_at": "2026-11-21T09:55:53Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 389,
+    "screened_with_financials": 401,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -7939,6 +7939,172 @@
             "Finnhub P/E, growth and 52-week range"
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 82,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "MTB",
+        "name": "M&T Bank Corporation",
+        "status": "INVESTIGATE",
+        "score": 82,
+        "industry": "Banking",
+        "why": "Net profit margin 30.7% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.1×; TTM revenue growth 86.2% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$208.30",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T09:55:53Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "M&T Bank Corporation to Participate in the Goldman Sachs Financial Services Conference",
+            "timestamp": "2026-11-18T21:30:00Z",
+            "url": "https://finnhub.io/api/news?id=3f07c33b7c039320b261024be38e437d8080901f36cd142567f9b09985e66bf0"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T09:55:53Z",
+        "price": 208.3,
+        "currency": "USD",
+        "change_pct": -1.172,
+        "news": [
+          {
+            "headline": "M&T Bank Corporation to Participate in the Goldman Sachs Financial Services Conference",
+            "url": "https://finnhub.io/api/news?id=3f07c33b7c039320b261024be38e437d8080901f36cd142567f9b09985e66bf0",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T21:30:00Z",
+            "primary": false,
+            "symbol": "MTB"
+          },
+          {
+            "headline": "M&T Bank Just Raised Its Dividend 20% as Earnings Support a Bigger Payout",
+            "url": "https://finnhub.io/api/news?id=74d42fb6ddc2bb6d256477ddb4d953fc13a593bbf2e08925acc082af73688dc9",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T15:17:22Z",
+            "primary": false,
+            "symbol": "MTB"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 82,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "MLM",
+        "name": "Martin Marietta Materials, Inc.",
+        "status": "INVESTIGATE",
+        "score": 82,
+        "industry": "Construction",
+        "why": "Net profit margin 31.9% (TTM); Return on equity 18.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 8.6% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$500.74",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T09:55:53Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Is Martin Marietta Stock Really Expensive?",
+            "timestamp": "2026-11-20T11:31:33Z",
+            "url": "https://finnhub.io/api/news?id=188bdc2026fc14ffb666ad764396a3d6eca156c0e7255db0772958d69d6ea9ef"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T09:55:53Z",
+        "price": 500.74,
+        "currency": "USD",
+        "change_pct": -1.186,
+        "news": [
+          {
+            "headline": "Is Martin Marietta Stock Really Expensive?",
+            "url": "https://finnhub.io/api/news?id=188bdc2026fc14ffb666ad764396a3d6eca156c0e7255db0772958d69d6ea9ef",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T11:31:33Z",
+            "primary": false,
+            "symbol": "MLM"
+          },
+          {
+            "headline": "Top British Hedge Fund Loads Up on Martin Marietta Stock, Trims Stake in Visa",
+            "url": "https://finnhub.io/api/news?id=22bed5a22313dbfcce6bec9c99e6f68cb9841d82add58a46532a3fa61581d081",
+            "source": "Yahoo",
+            "published_at": "2026-11-16T21:46:00Z",
+            "primary": false,
+            "symbol": "MLM"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 441.46,
+          "entry_floor": 397.32,
+          "exit_review_low": 565.98,
+          "exit_review_high": 669.02,
+          "bear_case": 314.98,
+          "scenario_upside_pct": 13.0,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 15.68,
+            "earnings_growth_assumed_pct": 3.86,
+            "scenario_exit_pe": 17.06,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T09:55:53Z"
+          }
         },
         "ranking_score": 82,
         "rank_method": "FINANCIAL RULES"
@@ -13381,164 +13547,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "CCL",
-        "name": "Carnival Corporation Ltd",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 11.4% (TTM); Return on equity 23.9% (TTM); Trailing P/E 12.4×; TTM revenue growth 5.2% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$26.59",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T21:56:58Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
-            "timestamp": "2026-11-20T09:07:41Z",
-            "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T21:56:58Z",
-        "price": 26.59,
-        "currency": "USD",
-        "change_pct": -3.555,
-        "news": [
-          {
-            "headline": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
-            "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T09:07:41Z",
-            "primary": false,
-            "symbol": "CCL"
-          },
-          {
-            "headline": "Carnival Orders Two ~130,000-Ton Next-Generation Cruise Ships From Fincantieri’s Marghera Yard For Carnival Cruise Line, Due 2033 And 2035",
-            "url": "https://finnhub.io/api/news?id=87c17a6d0ca791383555a8231770500567e5bc820a75707f101c4cfff702d654",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T03:19:04Z",
-            "primary": false,
-            "symbol": "CCL"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 27.74,
-          "entry_floor": 24.97,
-          "exit_review_low": 35.61,
-          "exit_review_high": 41.66,
-          "bear_case": 20.11,
-          "scenario_upside_pct": 33.9,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 12.42,
-            "earnings_growth_assumed_pct": 2.34,
-            "scenario_exit_pe": 16.25,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T21:56:58Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "FRT",
-        "name": "Federal Realty Investment Trust",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Real Estate",
-        "why": "Net profit margin 32.6% (TTM); Return on equity 13.4% (TTM); Trailing P/E 21.7×; TTM revenue growth 7.8% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$110.27",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T02:56:23Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Federal Realty Stock: Analyst Estimates & Ratings",
-            "timestamp": "2026-11-20T09:43:06Z",
-            "url": "https://finnhub.io/api/news?id=7e52af476e17764cea81b7871869ee186a0972aa44b6b79b9b9b57e21dae5f87"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T02:56:23Z",
-        "price": 110.27,
-        "currency": "USD",
-        "change_pct": -0.145,
-        "news": [
-          {
-            "headline": "Federal Realty Stock: Analyst Estimates & Ratings",
-            "url": "https://finnhub.io/api/news?id=7e52af476e17764cea81b7871869ee186a0972aa44b6b79b9b9b57e21dae5f87",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T09:43:06Z",
-            "primary": false,
-            "symbol": "FRT"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Sector-specific valuation required for Real Estate; earnings multiple scenario withheld.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -14654,7 +14662,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 389,
+      "recorded_signals": 401,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14672,23 +14680,163 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T08:56:50Z",
+      "generated_at": "2026-11-21T09:55:53Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 297,
-        "purchase_scenarios": 19,
+        "recorded": 304,
+        "purchase_scenarios": 21,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 19,
+        "waiting": 21,
         "unverified": 0,
-        "skipped": 278,
+        "skipped": 283,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|LVS|WAIT FOR ENTRY",
+          "symbol": "LVS",
+          "name": "Las Vegas Sands Corp.",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 38.85,
+          "buy_ceiling": 36.08,
+          "sell_review": 46.26,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 11.8% (TTM); Return on equity 139.8% (TTM); Trailing P/E 15.3×; TTM revenue growth 10.9% YoY",
+          "score": 71,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|LDOS|NO RELIABLE PRICE RANGE",
+          "symbol": "LDOS",
+          "name": "Leidos Holdings, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 122.21,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 8.0% (TTM); Return on equity 27.8% (TTM); Trailing P/E 10.7×; TTM revenue growth 2.7% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|LIN|ABOVE BASE CASE",
+          "symbol": "LIN",
+          "name": "Linde PLC",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 502.83,
+          "buy_ceiling": 201.24,
+          "sell_review": 258.01,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 19.3% (TTM); Return on equity 18.1% (TTM); Trailing P/E 33.1×; TTM revenue growth 8.2% YoY",
+          "score": 67,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|LITE|NO RELIABLE PRICE RANGE",
+          "symbol": "LITE",
+          "name": "Lumentum Holdings Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 460.54,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Unprofitable on trailing net margin",
+          "why": "Net profit margin -230.1% (TTM); Return on equity -300.1% (TTM); TTM revenue growth 83.2% YoY; 59.7% below reported 52-week high",
+          "score": 17,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MTB|NO RELIABLE PRICE RANGE",
+          "symbol": "MTB",
+          "name": "M&T Bank Corporation",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 208.3,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 30.7% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.1×; TTM revenue growth 86.2% YoY",
+          "score": 82,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MAR|ABOVE BASE CASE",
+          "symbol": "MAR",
+          "name": "Marriott International, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 406.64,
+          "buy_ceiling": 131.9,
+          "sell_review": 169.11,
+          "risk": "High trailing earnings valuation",
+          "why": "Net profit margin 9.7% (TTM); Return on equity 309.1% (TTM); Trailing P/E 40.2×; TTM revenue growth 5.8% YoY",
+          "score": 59,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|MLM|WAIT FOR ENTRY",
+          "symbol": "MLM",
+          "name": "Martin Marietta Materials, Inc.",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-21T09:55:53Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 500.74,
+          "buy_ceiling": 441.46,
+          "sell_review": 565.98,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 31.9% (TTM); Return on equity 18.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 8.6% YoY",
+          "score": 82,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|IQV|ABOVE BASE CASE",
           "symbol": "IQV",
@@ -16948,150 +17096,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|A|ABOVE BASE CASE",
-          "symbol": "A",
-          "name": "Agilent Technologies Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:31:17Z",
-          "reference_price": 170.6,
-          "buy_ceiling": 67.15,
-          "sell_review": 86.09,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 19.5% (TTM); Return on equity 20.5% (TTM); Trailing P/E 35.1×; TTM revenue growth 8.6% YoY",
-          "score": 60,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|ABNB|ABOVE BASE CASE",
-          "symbol": "ABNB",
-          "name": "Airbnb, Inc.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:31:25Z",
-          "reference_price": 172.34,
-          "buy_ceiling": 86.12,
-          "sell_review": 110.41,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 23.0% (TTM); Return on equity 38.9% (TTM); Trailing P/E 31.9×; TTM revenue growth 16.7% YoY",
-          "score": 77,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|ARE|NO RELIABLE PRICE RANGE",
-          "symbol": "ARE",
-          "name": "Alexandria Real Estate Equities, Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:31:10Z",
-          "reference_price": 40.86,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Unprofitable on trailing net margin",
-          "why": "Net profit margin -53.0% (TTM); Return on equity -9.3% (TTM); TTM revenue growth -15.4% YoY; 31.6% below reported 52-week high",
-          "score": 18,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|ALGN|ABOVE BASE CASE",
-          "symbol": "ALGN",
-          "name": "Align Technology, Inc.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:31:28Z",
-          "reference_price": 155.78,
-          "buy_ceiling": 85.79,
-          "sell_review": 109.98,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 11.8% (TTM); Return on equity 11.8% (TTM); Trailing P/E 23.2×; TTM revenue growth 4.4% YoY",
-          "score": 65,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|ALLE|ABOVE BASE CASE",
-          "symbol": "ALLE",
-          "name": "Allegion PLC",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:28:28Z",
-          "reference_price": 184.7,
-          "buy_ceiling": 113.25,
-          "sell_review": 145.2,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 15.7% (TTM); Return on equity 32.7% (TTM); Trailing P/E 22.9×; TTM revenue growth 10.3% YoY",
-          "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|LNT|NO RELIABLE PRICE RANGE",
-          "symbol": "LNT",
-          "name": "Alliant Energy Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:25:50Z",
-          "quote_at": "2026-11-20T19:31:10Z",
-          "reference_price": 72.09,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 21.3% (TTM); Return on equity 12.4% (TTM); Trailing P/E 19.9×; TTM revenue growth 6.2% YoY",
-          "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CAH|NO RELIABLE PRICE RANGE",
-          "symbol": "CAH",
-          "name": "Cardinal Health, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:13:49Z",
-          "reference_price": 274.75,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 0.7% (TTM); Return on equity 37.2% (TTM); Trailing P/E 34.7×; TTM revenue growth 10.0% YoY",
-          "score": 63,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 75,
+      "legacy_research_flags": 77,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17101,22 +17109,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "AXP",
-        "flagged_at": "2026-11-20T11:15:24Z",
-        "reference_price": 311.11,
-        "score": 78,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "week": "2026-11-16",
-        "symbol": "EQT",
-        "flagged_at": "2026-11-20T12:11:08Z",
-        "reference_price": 49.3,
-        "score": 79,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "CB",
@@ -17499,6 +17491,22 @@
         "flagged_at": "2026-11-21T08:56:50Z",
         "reference_price": 19.45,
         "score": 79,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "MTB",
+        "flagged_at": "2026-11-21T09:55:53Z",
+        "reference_price": 208.3,
+        "score": 82,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "MLM",
+        "flagged_at": "2026-11-21T09:55:53Z",
+        "reference_price": 500.74,
+        "score": 82,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],
