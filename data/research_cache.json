@@ -20350,8 +20350,642 @@
           "symbol": "FCX"
         }
       ]
+    },
+    "GRMN": {
+      "metrics": {
+        "52WeekHigh": 314.28,
+        "52WeekLow": 186.67,
+        "peTTM": 26.1188,
+        "psTTM": 6.681,
+        "netProfitMarginTTM": 25.58,
+        "roeTTM": 21.91,
+        "revenueGrowthTTMYoy": 13.59,
+        "epsGrowthTTMYoy": 28.51,
+        "currentRatioQuarterly": 3.0464,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 52690.6
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Garmin Ltd.",
+      "profile": {
+        "weburl": "https://www.garmin.com/",
+        "industry": "Consumer products",
+        "name": "Garmin Ltd."
+      },
+      "news": [
+        {
+          "headline": "Garmin Signal VHF named Overall Winner in 2026 DAME Design Awards",
+          "url": "https://finnhub.io/api/news?id=4240c122fcdf754760f68cded881a70709e965660fb378ca9c5f3cbdbb4a02b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:03:00Z",
+          "primary": false,
+          "symbol": "GRMN"
+        }
+      ]
+    },
+    "IT": {
+      "metrics": {
+        "52WeekHigh": 256.9,
+        "52WeekLow": 124.25,
+        "peTTM": 11.3881,
+        "psTTM": 1.6866,
+        "netProfitMarginTTM": 14.81,
+        "roeTTM": 119.82,
+        "revenueGrowthTTMYoy": -0.24,
+        "epsGrowthTTMYoy": 22.98,
+        "currentRatioQuarterly": 0.9116,
+        "totalDebt/totalEquityQuarterly": 47.0619,
+        "marketCapitalization": 10868.917
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Gartner, Inc.",
+      "profile": {
+        "weburl": "https://www.gartner.com/en",
+        "industry": "Technology",
+        "name": "Gartner, Inc."
+      },
+      "news": [
+        {
+          "headline": "Staffbase is the only vendor named a Leader in both the 2026 Gartner® Magic Quadrants™ for Frontline Worker Communications Applications and Intranet Packaged Solutions",
+          "url": "https://finnhub.io/api/news?id=1be66cdd67fa34e722cb69accadaf8b05d8fd50f5fe38e6f6255e1bf6ddccc2a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:18:00Z",
+          "primary": false,
+          "symbol": "IT"
+        },
+        {
+          "headline": "MangoApps Named a Challenger in the 2026 Gartner(R) Magic Quadrant(TM) for Frontline Worker Communications Applications",
+          "url": "https://finnhub.io/api/news?id=733aa6d244371290b33881c67b06aaa2dc01e2fe145d2987c7d9fe78f9459f4b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:47:00Z",
+          "primary": false,
+          "symbol": "IT"
+        },
+        {
+          "headline": "WorkJam Named a Leader in the Inaugural Gartner® Magic Quadrant™ for Frontline Worker Communications Applications",
+          "url": "https://finnhub.io/api/news?id=d14f1faa9482a1df3daf31143923c1b9da51f5a7630668138759923304edc1ad",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:06:00Z",
+          "primary": false,
+          "symbol": "IT"
+        },
+        {
+          "headline": "Unisys Named a Leader in the 2026 Gartner® Magic Quadrant™ for Outsourced Digital Workplace Services Report",
+          "url": "https://finnhub.io/api/news?id=5d6a9e65f69567a76a5de6cf5811585de9264320094a1f59cb054008b4498ae9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:00:00Z",
+          "primary": false,
+          "symbol": "IT"
+        },
+        {
+          "headline": "Gartner, Inc. Adjusts Executive Base Salaries and Grants RSUs Valued Up to $6,534,920",
+          "url": "https://finnhub.io/api/news?id=43f6f00d4473134f4779f366d01a530c6ebfcce3051e95c63570a893266164f4",
+          "source": "Fintel",
+          "published_at": "2026-11-19T13:31:46Z",
+          "primary": false,
+          "symbol": "IT"
+        }
+      ]
+    },
+    "GEN": {
+      "metrics": {
+        "52WeekHigh": 31.6457,
+        "52WeekLow": 17.78,
+        "peTTM": 14.4802,
+        "psTTM": 3.3403,
+        "netProfitMarginTTM": 23.07,
+        "roeTTM": 46.650000000000006,
+        "revenueGrowthTTMYoy": 16.88,
+        "epsGrowthTTMYoy": 116.96,
+        "currentRatioQuarterly": 0.3729,
+        "totalDebt/totalEquityQuarterly": 2.961,
+        "marketCapitalization": 17463.08
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Gen Digital Inc.",
+      "profile": {
+        "weburl": "https://www.gendigital.com/us/en/",
+        "industry": "Technology",
+        "name": "Gen Digital Inc."
+      },
+      "news": [
+        {
+          "headline": "Gen Digital (GEN) Stock Looks Below Fair Value On Its 45% Run",
+          "url": "https://finnhub.io/api/news?id=0637458b7e67093bef67691b67b179a6a8993432f5dc560d1af2632ddb333e85",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T02:14:43Z",
+          "primary": false,
+          "symbol": "GEN"
+        },
+        {
+          "headline": "Gen Digital (GEN) Could Be 5% Below Fair Value Following Digital Grid Cyber Focus",
+          "url": "https://finnhub.io/api/news?id=c6ac97d86da5a54725ef98309b7ee04207c7673575dd369a689f7508cd6ef2f7",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T20:10:42Z",
+          "primary": false,
+          "symbol": "GEN"
+        }
+      ]
+    },
+    "GNRC": {
+      "metrics": {
+        "52WeekHigh": 296.44,
+        "52WeekLow": 134.8,
+        "peTTM": 40.1584,
+        "psTTM": 2.6191,
+        "netProfitMarginTTM": 6.52,
+        "roeTTM": 10.76,
+        "revenueGrowthTTMYoy": 6.13,
+        "epsGrowthTTMYoy": -0.17,
+        "currentRatioQuarterly": 1.9732,
+        "totalDebt/totalEquityQuarterly": 0.4427,
+        "marketCapitalization": 12098.05
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Generac Holdings Inc.",
+      "profile": {
+        "weburl": "https://investors.generac.com/",
+        "industry": "Electrical Equipment",
+        "name": "Generac Holdings Inc."
+      },
+      "news": [
+        {
+          "headline": "Generac Stock In Focus After Earnings Beat And Amazon Supply Deal",
+          "url": "https://finnhub.io/api/news?id=5850d7247851659fe14bd0e69ea670d8e74eb776ce92ef4f51a0f0a84253dc25",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T00:19:37Z",
+          "primary": false,
+          "symbol": "GNRC"
+        },
+        {
+          "headline": "Is Generac Holdings (GNRC) Fully Valued As PWRmicro Wins Best In Show?",
+          "url": "https://finnhub.io/api/news?id=2d080bcccf31138bd9e486a3d22067a65ebf1038e2e5b4cf0be9d5793f75a3d0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T23:12:21Z",
+          "primary": false,
+          "symbol": "GNRC"
+        },
+        {
+          "headline": "Generac (GNRC) Stock May Be 23% Undervalued Despite AI Backlog Growth",
+          "url": "https://finnhub.io/api/news?id=16908f999798cce813dc015a0b54dcc9f92b9ff178e20e732510be5a49245a7d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:08:07Z",
+          "primary": false,
+          "symbol": "GNRC"
+        },
+        {
+          "headline": "How Would You Fix Generac?",
+          "url": "https://finnhub.io/api/news?id=9b8a9d223ab4d685116d55e2979682ebe3b2cabf1c36f337ab7f64f68371f496",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:59:26Z",
+          "primary": false,
+          "symbol": "GNRC"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Generac Holdings Stock?",
+          "url": "https://finnhub.io/api/news?id=7e52e0e29847b5e7b31ee4d6c9a19930f9f868ff903683bbaa68564f31e5797f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T09:30:33Z",
+          "primary": false,
+          "symbol": "GNRC"
+        }
+      ]
+    },
+    "GIS": {
+      "metrics": {
+        "52WeekHigh": 49.59,
+        "52WeekLow": 31.175,
+        "psTTM": 1.058,
+        "netProfitMarginTTM": -4.89,
+        "roeTTM": -10.69,
+        "revenueGrowthTTMYoy": -4.49,
+        "currentRatioQuarterly": 0.7038,
+        "totalDebt/totalEquityQuarterly": 1.8275,
+        "marketCapitalization": 19358.348
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "General Mills Inc",
+      "profile": {
+        "weburl": "https://www.generalmills.com/",
+        "industry": "Food Products",
+        "name": "General Mills Inc"
+      },
+      "news": [
+        {
+          "headline": "Better Dividend Stock for Retirees: General Mills vs. Bristol Myers Squibb",
+          "url": "https://finnhub.io/api/news?id=bc940256fc1fb01e89583be338ba8ec3f43f54789f344bbf771c7ae3c536c886",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:20:25Z",
+          "primary": false,
+          "symbol": "GIS"
+        },
+        {
+          "headline": "Better High-Yield Dividend Stock: BP vs. General Mills",
+          "url": "https://finnhub.io/api/news?id=c07f10b9d3be3a67eec77fcb8dae0f417e210812c61364e6fdf41c6dc0644f39",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:28:04Z",
+          "primary": false,
+          "symbol": "GIS"
+        },
+        {
+          "headline": "Forget Walmart: General Mills Has More to Gain From Its Beat. Walmart Is 22% of Sales",
+          "url": "https://finnhub.io/api/news?id=020b1c01144f2e0dfb09c759548bc7ea6a730de05dee3c8a770781c58d3e7b5c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:27:35Z",
+          "primary": false,
+          "symbol": "GIS"
+        },
+        {
+          "headline": "General Mills to Webcast Fiscal 2027 Second Quarter Earnings Results on December 17, 2026",
+          "url": "https://finnhub.io/api/news?id=c62096df4054df9b21f9dc2edfcd81ca7bebf6680dc77df587114ac576285a8a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "GIS"
+        },
+        {
+          "headline": "General Mills (GIS) Reviews International Ice Cream Business Outside North America",
+          "url": "https://finnhub.io/api/news?id=d5d6486c014cbf7cf3d329365195236bccd10399a795508bc0470d77c5fcac83",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T08:12:42Z",
+          "primary": false,
+          "symbol": "GIS"
+        }
+      ]
+    },
+    "GM": {
+      "metrics": {
+        "52WeekHigh": 93.7,
+        "52WeekLow": 67.61,
+        "peTTM": 17.423,
+        "psTTM": 0.3689,
+        "netProfitMarginTTM": 2.12,
+        "roeTTM": 6.370000000000001,
+        "revenueGrowthTTMYoy": -0.26,
+        "epsGrowthTTMYoy": 35.74,
+        "currentRatioQuarterly": 1.0897,
+        "totalDebt/totalEquityQuarterly": 2.0499,
+        "marketCapitalization": 68960.164
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "General Motors Co",
+      "profile": {
+        "weburl": "https://www.gm.com/",
+        "industry": "Automobiles",
+        "name": "General Motors Co"
+      },
+      "news": [
+        {
+          "headline": "Why Is General Motors (GM) Up 7.9% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=1619e7120d2d607b33612329850be4e5f8c91339843c96ad8a24c9e75266e76a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:04Z",
+          "primary": false,
+          "symbol": "GM"
+        },
+        {
+          "headline": "Are You Sure You Understand General Motors Stock's Risk?",
+          "url": "https://finnhub.io/api/news?id=9db46eb70088b9f3c7b79b7c368f2ebe7edaf88ec2b0509440fd459de9acc7c2",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:02:23Z",
+          "primary": false,
+          "symbol": "GM"
+        },
+        {
+          "headline": "Why Is General Motors (GM) Looking Beyond Mary Barra For Its Next CEO?",
+          "url": "https://finnhub.io/api/news?id=89d35e511494144f0ee2b5aff739a12d52a8978e509c159c649577d090efcbd9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T08:14:59Z",
+          "primary": false,
+          "symbol": "GM"
+        },
+        {
+          "headline": "General Motors Targets Higher 2027 Profit Despite Up to $1.5 Billion in Added Cost Pressure",
+          "url": "https://finnhub.io/api/news?id=cdf73d9750141b2dca292fbff385c2e72b157d2a30552aa83e88f2c83f464604",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T01:13:14Z",
+          "primary": false,
+          "symbol": "GM"
+        },
+        {
+          "headline": "General Motors: A Huge Buyback Meets A Tougher Road Ahead (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=8ccab86338db88b36310e04a768eafc07ae5e4a7f6d418b09052281872d285b2",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T22:50:08Z",
+          "primary": false,
+          "symbol": "GM"
+        }
+      ]
+    },
+    "GPC": {
+      "metrics": {
+        "52WeekHigh": 151.57,
+        "52WeekLow": 90.78,
+        "peTTM": 551.512,
+        "psTTM": 0.6758,
+        "netProfitMarginTTM": 0.12,
+        "roeTTM": 0.69,
+        "revenueGrowthTTMYoy": 5.29,
+        "epsGrowthTTMYoy": -95.7,
+        "currentRatioQuarterly": 1.2232,
+        "totalDebt/totalEquityQuarterly": 1.0992,
+        "marketCapitalization": 17120.037
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Genuine Parts Co",
+      "profile": {
+        "weburl": "https://www.genpt.com/",
+        "industry": "Distributors",
+        "name": "Genuine Parts Co"
+      },
+      "news": [
+        {
+          "headline": "Why Is Genuine Parts (GPC) Down 0.9% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=5ba44584a6d2d6ed19b3e67fdcea7226794b58fbc24d3654f876817d1234e7ae",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:04Z",
+          "primary": false,
+          "symbol": "GPC"
+        },
+        {
+          "headline": "Stifel Initiates Coverage On Genuine Parts with Hold Rating, Announces Price Target of $130",
+          "url": "https://finnhub.io/api/news?id=435f3a2cbc789eed362cb34ff43e3bd5c6808175030fb3d37a84c39331f5e605",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T08:33:31Z",
+          "primary": false,
+          "symbol": "GPC"
+        },
+        {
+          "headline": "Procter & Gamble vs. Genuine Parts: Both Have Raised Their Dividends 70 Years Straight. Which Would I Rather Own Now?",
+          "url": "https://finnhub.io/api/news?id=461348cfd2111655d149b66cafbba5f63f119d5d53c2b0b35152dc09019272b9",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T17:41:07Z",
+          "primary": false,
+          "symbol": "GPC"
+        }
+      ]
+    },
+    "GPN": {
+      "metrics": {
+        "52WeekHigh": 102.905,
+        "52WeekLow": 61.16,
+        "psTTM": 1.9698,
+        "netProfitMarginTTM": -11.21,
+        "roeTTM": -5.55,
+        "revenueGrowthTTMYoy": 29.26,
+        "currentRatioQuarterly": 0.8173,
+        "totalDebt/totalEquityQuarterly": 1.0246,
+        "marketCapitalization": 22639.592
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Global Payments Inc",
+      "profile": {
+        "weburl": "https://www.globalpayments.com/en-ap",
+        "industry": "Financial Services",
+        "name": "Global Payments Inc"
+      },
+      "news": [
+        {
+          "headline": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
+          "url": "https://finnhub.io/api/news?id=9d5032cd45b5316367f657c78638ee9a8db97097bf152e0d03296724223a1193",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:44:48Z",
+          "primary": false,
+          "symbol": "GPN"
+        },
+        {
+          "headline": "Global Payments shares jump on report of $50B GTCR deal",
+          "url": "https://finnhub.io/api/news?id=90a62e22e470dedaab1dbe4b5c36c9f847d96ac54c2b5f89ae823c6bf26975be",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:33:14Z",
+          "primary": false,
+          "symbol": "GPN"
+        },
+        {
+          "headline": "Why Is Global Payments Stock Falling?",
+          "url": "https://finnhub.io/api/news?id=11e06ec98adf03a41de1ec0f9b3995339f17e0e566146ffbf4c1da1ee01d3743",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:24:50Z",
+          "primary": false,
+          "symbol": "GPN"
+        },
+        {
+          "headline": "What Is Next For Global Payments (GPN) After Elliott Pressure And Authentication Upgrade?",
+          "url": "https://finnhub.io/api/news?id=d76dbf16c603dabce52d25321ed6ac8b6f978edb2abcc24b744bc906184375ba",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T12:08:27Z",
+          "primary": false,
+          "symbol": "GPN"
+        },
+        {
+          "headline": "Global Payments (GPN) Stock May Look Reasonable As Buyout Talks Pause",
+          "url": "https://finnhub.io/api/news?id=18da5e4bcb429d6ff5d284730e26b7b377dbf0b2968f5bc8880fb656e8e0ee8c",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T11:08:35Z",
+          "primary": false,
+          "symbol": "GPN"
+        }
+      ]
+    },
+    "GL": {
+      "metrics": {
+        "52WeekHigh": 191.55,
+        "52WeekLow": 129.21,
+        "peTTM": 9.7384,
+        "psTTM": 1.8398,
+        "netProfitMarginTTM": 18.89,
+        "roeTTM": 19.09,
+        "revenueGrowthTTMYoy": 5.62,
+        "epsGrowthTTMYoy": 8.25,
+        "currentRatioQuarterly": 0.6033,
+        "totalDebt/totalEquityQuarterly": 0.4511,
+        "marketCapitalization": 11544.542
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Globe Life Inc.",
+      "profile": {
+        "weburl": "https://home.globelifeinsurance.com/",
+        "industry": "Insurance",
+        "name": "Globe Life Inc."
+      },
+      "news": [
+        {
+          "headline": "Why Is Globe Life (GL) Down 8.8% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=05c4a0d69e68cd8a4e9ed4ba2ed138f1e0d518eb3420eec1363e89b7866ccb2d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:06Z",
+          "primary": false,
+          "symbol": "GL"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Globe Life’s Stock?",
+          "url": "https://finnhub.io/api/news?id=c01d250d7c0ae690cedb1e3263519378cb9cf9a9f833994efcf2b628515a17e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T17:42:10Z",
+          "primary": false,
+          "symbol": "GL"
+        },
+        {
+          "headline": "TD Cowen Maintains Buy on Globe Life, Raises Price Target to $218",
+          "url": "https://finnhub.io/api/news?id=2cffb545148519ab27cd9221e1a45079281a0ed9f30ad15cc9e1c5f51c978666",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T11:33:04Z",
+          "primary": false,
+          "symbol": "GL"
+        }
+      ]
+    },
+    "GDDY": {
+      "metrics": {
+        "52WeekHigh": 131.74,
+        "52WeekLow": 71.59,
+        "peTTM": 13.0065,
+        "psTTM": 2.4142,
+        "netProfitMarginTTM": 18.56,
+        "roeTTM": 660.9499999999999,
+        "revenueGrowthTTMYoy": 6.38,
+        "epsGrowthTTMYoy": 25.96,
+        "currentRatioQuarterly": 0.6105,
+        "totalDebt/totalEquityQuarterly": 563.3433,
+        "marketCapitalization": 12507.061
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "GoDaddy Inc.",
+      "profile": {
+        "weburl": "https://investors.godaddy.net/",
+        "industry": "Technology",
+        "name": "GoDaddy Inc."
+      },
+      "news": [
+        {
+          "headline": "GoDaddy Inc. to Present at the UBS Global Technology and AI Conference and Wells Fargo 10th Annual TMT Summit",
+          "url": "https://finnhub.io/api/news?id=2cb7e706857d5dca443fec3bc868c52ed7615eecce69dc7343850b545144f961",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T21:22:00Z",
+          "primary": false,
+          "symbol": "GDDY"
+        },
+        {
+          "headline": "GoDaddy CFO says AI gives room to manage costs as Airo scales",
+          "url": "https://finnhub.io/api/news?id=9fc2e4d3249c87c39693fc4e3297f8cb65b09b25ed76851b2f62788782e313ca",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T19:28:33Z",
+          "primary": false,
+          "symbol": "GDDY"
+        },
+        {
+          "headline": "New GoDaddy Airo AI Builder Lets Small Businesses Turn Ideas Into Websites and Apps",
+          "url": "https://finnhub.io/api/news?id=47d68a6153ecee86be8ee45f9fc841ba329a5bf672475271d3a69ca36c1afdcc",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T15:30:00Z",
+          "primary": false,
+          "symbol": "GDDY"
+        }
+      ]
+    },
+    "HIG": {
+      "metrics": {
+        "52WeekHigh": 146.065,
+        "52WeekLow": 120.42,
+        "peTTM": 7.868,
+        "psTTM": 1.2516,
+        "netProfitMarginTTM": 15.91,
+        "roeTTM": 24.13,
+        "revenueGrowthTTMYoy": 6.03,
+        "epsGrowthTTMYoy": 34.85,
+        "totalDebt/totalEquityQuarterly": 0.2318,
+        "marketCapitalization": 36255.906
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "The Hartford Insurance Group, Inc.",
+      "profile": {
+        "weburl": "https://www.thehartford.com/",
+        "industry": "Insurance",
+        "name": "The Hartford Insurance Group, Inc."
+      },
+      "news": [
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on The Hartford Insurance Gr, Raises Price Target to $145",
+          "url": "https://finnhub.io/api/news?id=9b96aa66a7fd26d17f3d3370f6f000867592f9dc822670c6fbfb92d8a94d2f7e",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T12:04:39Z",
+          "primary": false,
+          "symbol": "HIG"
+        },
+        {
+          "headline": "Wells Fargo Downgraded Hartford (HIG). What Changed in Commercial?",
+          "url": "https://finnhub.io/api/news?id=a4ce0b8d067afcdb6587f1bfba8860e5be29718a9c3c0f3d180282a86ab13ca1",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T21:10:11Z",
+          "primary": false,
+          "symbol": "HIG"
+        }
+      ]
+    },
+    "HAS": {
+      "metrics": {
+        "52WeekHigh": 124.62,
+        "52WeekLow": 74.78,
+        "peTTM": 16.7867,
+        "psTTM": 3.0955,
+        "netProfitMarginTTM": 18.44,
+        "roeTTM": 136.21,
+        "revenueGrowthTTMYoy": 18.91,
+        "currentRatioQuarterly": 1.4001,
+        "totalDebt/totalEquityQuarterly": 3.8423,
+        "marketCapitalization": 16038.044
+      },
+      "updated_at": "2026-11-21T05:03:10Z",
+      "name": "Hasbro, Inc.",
+      "profile": {
+        "weburl": "https://shop.hasbro.com/en-in",
+        "industry": "Leisure Products",
+        "name": "Hasbro, Inc."
+      },
+      "news": [
+        {
+          "headline": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=910b858f05ec8e35808505b2c578008ae3c24dbfa0023aade76823b9ce085e2f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T10:34:48Z",
+          "primary": false,
+          "symbol": "HAS"
+        },
+        {
+          "headline": "Hasbro (HAS) Up 4.1% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=8c32d54bc6e70f68f80dbdb2a6b17e36cfac021e87e69fbca0120d9d8c2b921c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:05Z",
+          "primary": false,
+          "symbol": "HAS"
+        },
+        {
+          "headline": "Hasbro (HAS) Stock May Trade At A Discount To Fair Value",
+          "url": "https://finnhub.io/api/news?id=c0cfbbd7f59fdb4f0e9eeecbee027f4c26f157e490585dad8dafcb24aea6358e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T19:07:53Z",
+          "primary": false,
+          "symbol": "HAS"
+        },
+        {
+          "headline": "Hasbro (HAS) Stock Dropped, What Is Behind The Latest Attention?",
+          "url": "https://finnhub.io/api/news?id=c5289d85d5a1a37124a06cd67d1f82bbcd27547fc926a9a303c498645301a694",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:13:15Z",
+          "primary": false,
+          "symbol": "HAS"
+        },
+        {
+          "headline": "Stay Ahead of Market Uncertainty With LNG, TTE, LW and HAS",
+          "url": "https://finnhub.io/api/news?id=9fc91d9f01096b2f2ccb5d056301d032fce17f15cd647e8122a9abb7d7cdd742",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:22:00Z",
+          "primary": false,
+          "symbol": "HAS"
+        }
+      ]
     }
   },
-  "cursor": 344,
-  "updated_at": "2026-11-21T03:59:33Z"
+  "cursor": 356,
+  "updated_at": "2026-11-21T05:03:10Z"
 }
