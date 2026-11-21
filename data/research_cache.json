@@ -19683,8 +19683,675 @@
           "symbol": "FRT"
         }
       ]
+    },
+    "FDXF": {
+      "metrics": {
+        "52WeekHigh": 194.27,
+        "52WeekLow": 103.475,
+        "peTTM": 53.1641,
+        "psTTM": 2.7666,
+        "netProfitMarginTTM": 5.2,
+        "currentRatioQuarterly": 1.625,
+        "marketCapitalization": 18926.402
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "FDXF",
+      "profile": {},
+      "news": []
+    },
+    "FERG": {
+      "metrics": {
+        "52WeekHigh": 271.64,
+        "52WeekLow": 212.13,
+        "peTTM": 19.0475,
+        "psTTM": 1.2324,
+        "netProfitMarginTTM": 6.47,
+        "roeTTM": 40.08,
+        "revenueGrowthTTMYoy": 22.22,
+        "epsGrowthTTMYoy": 27.86,
+        "currentRatioQuarterly": 1.7415,
+        "totalDebt/totalEquityQuarterly": 0.8366,
+        "marketCapitalization": 46933.16
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Ferguson Enterprises Inc.",
+      "profile": {
+        "weburl": "https://www.corporate.ferguson.com",
+        "industry": "Trading Companies & Distributors",
+        "name": "Ferguson Enterprises Inc."
+      },
+      "news": [
+        {
+          "headline": "B of A Securities Maintains Buy on Ferguson Enterprises, Raises Price Target to $320",
+          "url": "https://finnhub.io/api/news?id=163d617b25c21fb79845ecafd5657ae405af6fd74d27b4f92b81da58e343b2ba",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T12:47:01Z",
+          "primary": false,
+          "symbol": "FERG"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Ferguson Enterprises Stock?",
+          "url": "https://finnhub.io/api/news?id=e9230b664e6f31a0d8d267110b3c64d03447fbec6d21dabed55d01e46cd5ed6b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T09:59:10Z",
+          "primary": false,
+          "symbol": "FERG"
+        }
+      ]
+    },
+    "FIS": {
+      "metrics": {
+        "52WeekHigh": 68.37,
+        "52WeekLow": 26.715,
+        "peTTM": 3.8612,
+        "psTTM": 1.0335,
+        "netProfitMarginTTM": 26.77,
+        "roeTTM": 22.29,
+        "revenueGrowthTTMYoy": 23.64,
+        "epsGrowthTTMYoy": 2313.58,
+        "currentRatioQuarterly": 0.5457,
+        "totalDebt/totalEquityQuarterly": 1.2798,
+        "marketCapitalization": 13371.299
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Fidelity National Information Services, Inc.",
+      "profile": {
+        "weburl": "https://www.fisglobal.com/",
+        "industry": "Financial Services",
+        "name": "Fidelity National Information Services, Inc."
+      },
+      "news": [
+        {
+          "headline": "Can Splitit Partnership Strengthen FIS' Issuer Processing Growth?",
+          "url": "https://finnhub.io/api/news?id=7ab0602dc3c91130d01e1c79afa558569f2574431b93d18476543c40cdc33397",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:26:00Z",
+          "primary": false,
+          "symbol": "FIS"
+        },
+        {
+          "headline": "Learn Why The Bull Case For FIS Stock Could Change Following Splitit Partnership",
+          "url": "https://finnhub.io/api/news?id=3cc246da9d8b1a664ce46d82e7b3b5ec9703344b27b6c62361450549854e96bf",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T22:15:06Z",
+          "primary": false,
+          "symbol": "FIS"
+        },
+        {
+          "headline": "What Could Fidelity National Information Services (FIS) Gain From This Checkout Partnership?",
+          "url": "https://finnhub.io/api/news?id=d1c555be4b0d0dd330cd26a9e4df1cf9d6992d82af1871e3436eaca6d0b85dce",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:12:59Z",
+          "primary": false,
+          "symbol": "FIS"
+        },
+        {
+          "headline": "FIS (FIS) Stock Could Be Undervalued As Shares Fell 71%",
+          "url": "https://finnhub.io/api/news?id=feed3de5aaf3777946f32f83ab78fc1462118cba80f784afe9597bde8e6f8e63",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T09:10:53Z",
+          "primary": false,
+          "symbol": "FIS"
+        },
+        {
+          "headline": "Splitit and FIS Bring Bank-Issued Credit to the Point of Purchase",
+          "url": "https://finnhub.io/api/news?id=cb08cfa1ee0dc47d307b8a1449fcd1da90c66da681d6dc2bb9dfb82ec4c3ce32",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:13:00Z",
+          "primary": false,
+          "symbol": "FIS"
+        }
+      ]
+    },
+    "FE": {
+      "metrics": {
+        "52WeekHigh": 52.34,
+        "52WeekLow": 42.67,
+        "peTTM": 23.0593,
+        "psTTM": 1.817,
+        "netProfitMarginTTM": 7.88,
+        "roeTTM": 9.41,
+        "revenueGrowthTTMYoy": 7.6,
+        "epsGrowthTTMYoy": -9.93,
+        "currentRatioQuarterly": 0.3754,
+        "totalDebt/totalEquityQuarterly": 2.3161,
+        "marketCapitalization": 27694.256
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "FirstEnergy Corp",
+      "profile": {
+        "weburl": "https://www.firstenergycorp.com/",
+        "industry": "Utilities",
+        "name": "FirstEnergy Corp"
+      },
+      "news": [
+        {
+          "headline": "CRA to Host Auction for FirstEnergy Pennsylvania Electric Company’s Default Service Program DSP-VII",
+          "url": "https://finnhub.io/api/news?id=8d2932e0b2357df5eacdfcce2417f731f73ff3f3c3303be15913d484a1f96998",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:05:00Z",
+          "primary": false,
+          "symbol": "FE"
+        },
+        {
+          "headline": "Can FirstEnergy's Earnings Growth Outpace Rising Operating Expenses?",
+          "url": "https://finnhub.io/api/news?id=200774314bf836c908d42c40b84a0568e887ef2409af230b69e454cf89e8f1b6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:02:00Z",
+          "primary": false,
+          "symbol": "FE"
+        },
+        {
+          "headline": "FirstEnergy Corp. Increases 2026-2030 Capital Investment Plan to $38 billion",
+          "url": "https://finnhub.io/api/news?id=23ea47c437a54979761649bae0ec569d425e6fcd6b7aa3e337d92ed1dc5bce6b",
+          "source": "Fintel",
+          "published_at": "2026-11-20T12:48:42Z",
+          "primary": false,
+          "symbol": "FE"
+        },
+        {
+          "headline": "Is FirstEnergy (FE) Stock Trading Near Fair Value On Earnings?",
+          "url": "https://finnhub.io/api/news?id=dba1262a97b99915e608ca1655ea113a29862e97a1a0cf7b49b7ab39777f1647",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:20:05Z",
+          "primary": false,
+          "symbol": "FE"
+        },
+        {
+          "headline": "FirstEnergy (FE) Could Be 7% Undervalued Following Its Grid Growth Narrative",
+          "url": "https://finnhub.io/api/news?id=f5f68d99aca232bed484dda648a1cde8effd4251f965b17203f6fa036f9ca39c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:10:49Z",
+          "primary": false,
+          "symbol": "FE"
+        }
+      ]
+    },
+    "FISV": {
+      "metrics": {
+        "52WeekHigh": 70.41,
+        "52WeekLow": 43.87,
+        "psTTM": 1.4583,
+        "netProfitMarginTTM": -18.9,
+        "roeTTM": -15.73,
+        "revenueGrowthTTMYoy": -1.71,
+        "currentRatioQuarterly": 1.0422,
+        "totalDebt/totalEquityQuarterly": 1.285,
+        "marketCapitalization": 30332.041
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Fiserv Inc",
+      "profile": {
+        "weburl": "https://www.fiserv.com/",
+        "industry": "Financial Services",
+        "name": "Fiserv Inc"
+      },
+      "news": [
+        {
+          "headline": "FISV Stock Rises 17% in a Month: Here's What Investors Should Know",
+          "url": "https://finnhub.io/api/news?id=9fc801dfbcf16f946d91923cb8a79909235c93b8084226cd5010148a39bc5810",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:55:00Z",
+          "primary": false,
+          "symbol": "FISV"
+        },
+        {
+          "headline": "Is Fiserv (FISV) Cheap Following Its AI Ecommerce Push And Valuation Gap?",
+          "url": "https://finnhub.io/api/news?id=b5809954e6a8c7dea7cd1aa49a4ea306dd965f58e6b2f0342183e2e73ada7110",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T08:10:25Z",
+          "primary": false,
+          "symbol": "FISV"
+        },
+        {
+          "headline": "FISV Stock Slumps Most In 5 Months: Portfolio Review Fuels Speculation, But Analyst Casts Doubt On Debit Network Sale",
+          "url": "https://finnhub.io/api/news?id=cd1fd0892e741276fc5ffa19dd9d5cafa089235b7d3c52409635c74e554bba27",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T03:20:40Z",
+          "primary": false,
+          "symbol": "FISV"
+        },
+        {
+          "headline": "What’s next for issuers after Fiserv cuts a debit network",
+          "url": "https://finnhub.io/api/news?id=2fa5d825989a4535ae3bc7b6950bed5564e7842f2c6d6034839d54480dce8c18",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T17:25:59Z",
+          "primary": false,
+          "symbol": "FISV"
+        },
+        {
+          "headline": "Baird Maintains Outperform on Fiserv, Raises Price Target to $85",
+          "url": "https://finnhub.io/api/news?id=273bb1ebb94eea7d5616bec74a11b8f695f13f3081b35ae1d281f1792095c0c6",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T08:23:20Z",
+          "primary": false,
+          "symbol": "FISV"
+        }
+      ]
+    },
+    "FLEX": {
+      "metrics": {
+        "52WeekHigh": 166.86,
+        "52WeekLow": 53.07,
+        "peTTM": 24.1646,
+        "psTTM": 0.8095,
+        "netProfitMarginTTM": 3.35,
+        "roeTTM": 9.53,
+        "revenueGrowthTTMYoy": 17.55,
+        "epsGrowthTTMYoy": 22.14,
+        "currentRatioQuarterly": 1.3592,
+        "totalDebt/totalEquityQuarterly": 0.7292,
+        "marketCapitalization": 25058.68
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Flex Ltd",
+      "profile": {
+        "weburl": "https://flex.com/",
+        "industry": "Electrical Equipment",
+        "name": "Flex Ltd"
+      },
+      "news": [
+        {
+          "headline": "Flex Wins 2026 Automotive News PACE Award for Fully Symmetric HV DC/DC Architecture",
+          "url": "https://finnhub.io/api/news?id=2253f02d5c2ab40557dbbbdafc515b8347c871c2fbb1bd10e35373f80d20a1a5",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:05:00Z",
+          "primary": false,
+          "symbol": "FLEX"
+        },
+        {
+          "headline": "Flex Ltd. (FLEX) Axiom Innovation Day: Technology, AI Compute Demand and Financials - Slideshow",
+          "url": "https://finnhub.io/api/news?id=42ce20bcb70ff757ace52b4431084dbedc919d977a0f48285cd6fd248552d0cf",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T16:34:28Z",
+          "primary": false,
+          "symbol": "FLEX"
+        },
+        {
+          "headline": "How Much Of Flex Stock's Rise Did The Business Earn?",
+          "url": "https://finnhub.io/api/news?id=1461c0319e911b156c8d71e185e10356229e8cd50e93b46d4939e37c1156752a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:09:57Z",
+          "primary": false,
+          "symbol": "FLEX"
+        },
+        {
+          "headline": "Flex stock gains as Axiom subsidiary secures $4.6B credit",
+          "url": "https://finnhub.io/api/news?id=dd90a541668bb2c617cde7909be2993d80ea9083ec71eadff77395d950b1f258",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:13:11Z",
+          "primary": false,
+          "symbol": "FLEX"
+        },
+        {
+          "headline": "Flex vs. Eaton: Which AI Power Infrastructure Stock is a Better Buy?",
+          "url": "https://finnhub.io/api/news?id=2b0198e3d67ba5cb01a8ab0fb5d17f43cdb42ed8e21cbf538b54e9844db5ad6b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:14:00Z",
+          "primary": false,
+          "symbol": "FLEX"
+        }
+      ]
+    },
+    "F": {
+      "metrics": {
+        "52WeekHigh": 17.78,
+        "52WeekLow": 11.045,
+        "psTTM": 0.2401,
+        "netProfitMarginTTM": -4.17,
+        "roeTTM": -21.349999999999998,
+        "revenueGrowthTTMYoy": -1.38,
+        "currentRatioQuarterly": 1.0831,
+        "totalDebt/totalEquityQuarterly": 4.4168,
+        "marketCapitalization": 44883.766
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Ford Motor Co",
+      "profile": {
+        "weburl": "https://www.ford.com/",
+        "industry": "Automobiles",
+        "name": "Ford Motor Co"
+      },
+      "news": [
+        {
+          "headline": "Ford reopens Canada auto plant, defying Trump tariffs",
+          "url": "https://finnhub.io/api/news?id=1d47e24e7a5b59720e161a8f3614c17f756e2032c10712606341e033bbc9fcaf",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:42:05Z",
+          "primary": false,
+          "symbol": "F"
+        },
+        {
+          "headline": "33% Upside for Ford? DZ Bank Thinks So, and Here’s How It Gets to $15",
+          "url": "https://finnhub.io/api/news?id=9627cfaf1bc39c6da641f0527b642e70941b5245bbb6d99881bcf29534abadac",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:49:07Z",
+          "primary": false,
+          "symbol": "F"
+        },
+        {
+          "headline": "Government of Canada announces major investment in Ford Motor Company of Canada that will strengthen auto manufacturing in Ontario and Canada",
+          "url": "https://finnhub.io/api/news?id=1de45085cc5e62f723f72cac0c48e043c0c7f535df5bbffd905d8c1362272778",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:56:00Z",
+          "primary": false,
+          "symbol": "F"
+        },
+        {
+          "headline": "Ford vs GM vs Stellantis: how the three Detroit automakers compare",
+          "url": "https://finnhub.io/api/news?id=daab0baa34d772d7f646eab5daf6eea2bd4a203f6657303a2704396dc0290a72",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:26:28Z",
+          "primary": false,
+          "symbol": "F"
+        },
+        {
+          "headline": "Ford And GM Saved By US Government, Again",
+          "url": "https://finnhub.io/api/news?id=d04ac3de402a3d63c3e665482936626e1d2089237b57a432d13a901b7de69076",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:20:14Z",
+          "primary": false,
+          "symbol": "F"
+        }
+      ]
+    },
+    "FTNT": {
+      "metrics": {
+        "52WeekHigh": 197.13,
+        "52WeekLow": 73.55,
+        "peTTM": 42.3191,
+        "psTTM": 12.2556,
+        "netProfitMarginTTM": 28.96,
+        "roeTTM": 151.52,
+        "revenueGrowthTTMYoy": 20.23,
+        "epsGrowthTTMYoy": 26.46,
+        "currentRatioQuarterly": 1.3971,
+        "totalDebt/totalEquityQuarterly": 0.2212,
+        "marketCapitalization": 96584.95
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Fortinet, Inc.",
+      "profile": {
+        "weburl": "https://www.fortinet.com/",
+        "industry": "Technology",
+        "name": "Fortinet, Inc."
+      },
+      "news": [
+        {
+          "headline": "Fortinet (FTNT) Outperforms as AI Heightens Enterprise Cyber Defense Investment",
+          "url": "https://finnhub.io/api/news?id=93aa507682b395b981555b746e4c9665d0539741e7485f23524816e774b13ba3",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:33:44Z",
+          "primary": false,
+          "symbol": "FTNT"
+        },
+        {
+          "headline": "What Is Fortinet (FTNT) Signaling With Its Fourth OT Security Leadership Win?",
+          "url": "https://finnhub.io/api/news?id=a2e880b8b1af5469c43c590822f46b6b9a3e2b0cef6d86e4eb3851143b65e75a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T06:15:05Z",
+          "primary": false,
+          "symbol": "FTNT"
+        },
+        {
+          "headline": "Fortinet (FTNT) Stock Looks Fully Priced As Its 148% Run Continues",
+          "url": "https://finnhub.io/api/news?id=eaeb632eb74a8ee5875e18ea058c55bf247a457a49b60bac1de2ee49f6b7c3f4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T05:15:33Z",
+          "primary": false,
+          "symbol": "FTNT"
+        },
+        {
+          "headline": "Westlands Advisory Names Fortinet a Leader in OT Cybersecurity Platforms",
+          "url": "https://finnhub.io/api/news?id=b879dffed2fed48e7239cafec7957a3102ac29b756619a9213709e602bf1d880",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "FTNT"
+        },
+        {
+          "headline": "How Much Downside Is Left In Fortinet Stock?",
+          "url": "https://finnhub.io/api/news?id=69b323a1425e3fa4fdd76cb137ee8d1f605e89b1eea217c083c1420af116cd05",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:09:11Z",
+          "primary": false,
+          "symbol": "FTNT"
+        }
+      ]
+    },
+    "FTV": {
+      "metrics": {
+        "52WeekHigh": 68.94,
+        "52WeekLow": 50.09,
+        "peTTM": 29.5042,
+        "psTTM": 4.3751,
+        "netProfitMarginTTM": 14.83,
+        "roeTTM": 10.620000000000001,
+        "revenueGrowthTTMYoy": -22.06,
+        "epsGrowthTTMYoy": 20.02,
+        "currentRatioQuarterly": 1.2258,
+        "totalDebt/totalEquityQuarterly": 0.5909,
+        "marketCapitalization": 19233.787
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Fortive Corporation",
+      "profile": {
+        "weburl": "https://www.fortive.com/",
+        "industry": "Machinery",
+        "name": "Fortive Corporation"
+      },
+      "news": [
+        {
+          "headline": "Fortive: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=a2de32ede536ebed64f448d4bfed51e815a0260cc250d84c91d38d48c50c4b5b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T22:05:02Z",
+          "primary": false,
+          "symbol": "FTV"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Fortive Stock?",
+          "url": "https://finnhub.io/api/news?id=1c3ac2fcb5c2bed4ea3da193496a86c87d55bdb3a32ddcfb9baa23416825f7d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T10:04:11Z",
+          "primary": false,
+          "symbol": "FTV"
+        }
+      ]
+    },
+    "FOX": {
+      "metrics": {
+        "52WeekHigh": 76.39,
+        "52WeekLow": 48.34,
+        "peTTM": 16.9351,
+        "psTTM": 1.9133,
+        "netProfitMarginTTM": 11.3,
+        "roeTTM": 17.65,
+        "revenueGrowthTTMYoy": 9.01,
+        "epsGrowthTTMYoy": 6.43,
+        "currentRatioQuarterly": 3.7884,
+        "totalDebt/totalEquityQuarterly": 0.53,
+        "marketCapitalization": 34361.33
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Fox Corporation",
+      "profile": {
+        "weburl": "https://www.foxcorporation.com/",
+        "industry": "Media",
+        "name": "Fox Corporation"
+      },
+      "news": [
+        {
+          "headline": "Fox (FOXA) Stock May Be 21% Undervalued After World Cup Rights Bid",
+          "url": "https://finnhub.io/api/news?id=01a31f495a820e7054b938e7c7010845c0d3c3cefc9a758a35cfddad0bf7c01c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:13:09Z",
+          "primary": false,
+          "symbol": "FOX"
+        },
+        {
+          "headline": "Fox (FOXA) Dropped, So What Is Driving Attention Now?",
+          "url": "https://finnhub.io/api/news?id=354901e2c68c347351f823d2893fdaea06567fce7b85734aa9716ab7fe72bca7",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:11:40Z",
+          "primary": false,
+          "symbol": "FOX"
+        },
+        {
+          "headline": "Fox (FOXA) Closes Its Roku Deal And Gives Anthony Wood A Digital Role",
+          "url": "https://finnhub.io/api/news?id=1c30595d5c23b80ec3defb855bfde05e828e762af200641c07bb9db8a968d919",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:16:16Z",
+          "primary": false,
+          "symbol": "FOX"
+        },
+        {
+          "headline": "Newsmax Is Suing to Break Up Fox’s $22 Billion Roku Deal",
+          "url": "https://finnhub.io/api/news?id=26781a56fb36c0a79213b99fa2f6a7c3c09eb32c07893973e43aad60e32c3a58",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:22:51Z",
+          "primary": false,
+          "symbol": "FOX"
+        },
+        {
+          "headline": "CNBC Reported Netflix, Amazon, Fox To Bid For 2030 Men’s World Cup Soccer Rights; Disney Out",
+          "url": "https://finnhub.io/api/news?id=21aa3341c7700c940a671ec12b0b07fd995df4587b233da59a69481354cac885",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T14:41:38Z",
+          "primary": false,
+          "symbol": "FOX"
+        }
+      ]
+    },
+    "BEN": {
+      "metrics": {
+        "52WeekHigh": 36.79,
+        "52WeekLow": 21.11,
+        "peTTM": 20.923,
+        "psTTM": 1.8239,
+        "netProfitMarginTTM": 8.72,
+        "roeTTM": 6.76,
+        "revenueGrowthTTMYoy": 7.94,
+        "epsGrowthTTMYoy": 152.78,
+        "currentRatioQuarterly": 1.1627,
+        "totalDebt/totalEquityQuarterly": 1.3405,
+        "marketCapitalization": 17006.176
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Franklin Templeton, Inc.",
+      "profile": {
+        "weburl": "https://www.franklintempleton.com",
+        "industry": "Financial Services",
+        "name": "Franklin Templeton, Inc."
+      },
+      "news": [
+        {
+          "headline": "Matthew Nicholls of Franklin Templeton, Inc. to Speak at the Goldman Sachs 2026 US Financial Services Conference on December 8, 2026",
+          "url": "https://finnhub.io/api/news?id=0baa0c8b4fed675796032fa3f510dc7acbacd66f988f32165b48fc62a1643307",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:30:00Z",
+          "primary": false,
+          "symbol": "BEN"
+        },
+        {
+          "headline": "Franklin Templeton Builds on Momentum in Latin America by Appointing Nicolas Gomez as Head of the Business",
+          "url": "https://finnhub.io/api/news?id=51062ac0ea2c6ffac1fc6b2402ca2b2ea27ab1e4cfbe61466c5582dddaf4ee32",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:00:00Z",
+          "primary": false,
+          "symbol": "BEN"
+        },
+        {
+          "headline": "Franklin Templeton Announces Distributions for Certain Closed-End Funds for the Months of December 2026, January and February 2027",
+          "url": "https://finnhub.io/api/news?id=ae95b2f3f6ed2aa08d8e45896a217ce00ee6960c8a97a004ebc1fa00cff4a411",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "BEN"
+        },
+        {
+          "headline": "Franklin Templeton Announces Distributions for Certain Closed-End Funds Pursuant to their Managed Distribution Policy for the Months of December 2026, January and February 2027",
+          "url": "https://finnhub.io/api/news?id=80765791d3fc2e56ecbe8de8c9682b0796747b815bb380b7435109f48498f3b6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:00:00Z",
+          "primary": false,
+          "symbol": "BEN"
+        },
+        {
+          "headline": "Franklin Templeton CEO Jenny Johnson on how AI is evolving the financial services industry",
+          "url": "https://finnhub.io/api/news?id=44710d507e39814067254e23a12ffe97904365e2f394f8f33c0cb6b91503c923",
+          "source": "CNBC",
+          "published_at": "2026-11-17T16:53:36Z",
+          "primary": false,
+          "symbol": "BEN"
+        }
+      ]
+    },
+    "FCX": {
+      "metrics": {
+        "52WeekHigh": 80.24,
+        "52WeekLow": 38.85,
+        "peTTM": 22.9029,
+        "psTTM": 2.6074,
+        "netProfitMarginTTM": 11.38,
+        "roeTTM": 15.260000000000002,
+        "revenueGrowthTTMYoy": 0.19,
+        "epsGrowthTTMYoy": 53.11,
+        "currentRatioQuarterly": 2.0167,
+        "totalDebt/totalEquityQuarterly": 0.4936,
+        "marketCapitalization": 67449.164
+      },
+      "updated_at": "2026-11-21T03:59:33Z",
+      "name": "Freeport-McMoRan Inc",
+      "profile": {
+        "weburl": "https://www.fcx.com/",
+        "industry": "Metals & Mining",
+        "name": "Freeport-McMoRan Inc"
+      },
+      "news": [
+        {
+          "headline": "Freeport McMoRan (FCX) Stock Looks Like A Bargain After A Sharp Selloff",
+          "url": "https://finnhub.io/api/news?id=5f91c03a6e22bc4da96a7c2d408a836e6d33e9edbc424da849da71ab6d2f0011",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T10:10:02Z",
+          "primary": false,
+          "symbol": "FCX"
+        },
+        {
+          "headline": "Freeport-McMoRan (FCX) Stock Slid, But What Is Drawing Attention Now?",
+          "url": "https://finnhub.io/api/news?id=056986f074bf46386e21aba83d6e4fdf0cf341c07f783391518a7eee8db4cfa2",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T08:08:49Z",
+          "primary": false,
+          "symbol": "FCX"
+        },
+        {
+          "headline": "Freeport McMoRan (FCX) Lost A Major Hedge Fund Holder",
+          "url": "https://finnhub.io/api/news?id=1e7c309b284d16009f3fab7c936401385ea9f9aec12869cb984bc470fa404000",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T07:15:42Z",
+          "primary": false,
+          "symbol": "FCX"
+        },
+        {
+          "headline": "Is Indonesia Holding Back Freeport-McMoRan Stock?",
+          "url": "https://finnhub.io/api/news?id=03542d80ca3db08aa623d5e56f9636507210086401f1fe30cd1d39cbcc9cfd0a",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:01:53Z",
+          "primary": false,
+          "symbol": "FCX"
+        },
+        {
+          "headline": "Revenue Rose, Yet Erste Group Cut Freeport-McMoRan (FCX). Why?",
+          "url": "https://finnhub.io/api/news?id=8174ba2162be3c632facff2cb6ee9bc33e54cb42b0901a87792f2bb9b974b55b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:18:43Z",
+          "primary": false,
+          "symbol": "FCX"
+        }
+      ]
     }
   },
-  "cursor": 332,
-  "updated_at": "2026-11-21T02:56:23Z"
+  "cursor": 344,
+  "updated_at": "2026-11-21T03:59:33Z"
 }
