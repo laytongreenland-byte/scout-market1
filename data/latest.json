@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T22:50:27Z",
+  "generated_at": "2026-11-21T23:48:12Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T22:50:27Z",
+      "checked_at": "2026-11-21T23:48:12Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T22:50:27Z",
+      "checked_at": "2026-11-21T23:48:12Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T22:50:27Z",
+      "checked_at": "2026-11-21T23:48:12Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T22:50:27Z",
+      "checked_at": "2026-11-21T23:48:12Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T22:50:27Z",
+      "checked_at": "2026-11-21T23:48:12Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T22:50:27Z",
+    "generated_at": "2026-11-21T23:48:12Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8534,7 +8534,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Utilities",
-        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.1×; TTM revenue growth 9.6% YoY",
+        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.3×; TTM revenue growth 9.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8548,35 +8548,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:42:07Z",
+            "timestamp": "2026-11-21T23:48:12Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "DOJ closes antitrust probe into NextEra’s $66.8 bln Dominion deal",
-            "timestamp": "2026-11-20T03:25:04Z",
-            "url": "https://finnhub.io/api/news?id=b6c32e0bef5414c6d68bd2d2dac74edd55275cc37ab837936cf8ae576590da0c"
+            "value": "How Many Shares of Southern Company, NextEra Energy or WEC Energy Pay $1,000 a Month in Dividends?",
+            "timestamp": "2026-11-21T12:50:45Z",
+            "url": "https://finnhub.io/api/news?id=c5e15474264cc831f61393d25f525998fd3d85c7dbf230c3af507db004dfe044"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:42:07Z",
+        "fundamentals_at": "2026-11-21T23:48:12Z",
         "price": 83.45,
         "currency": "USD",
         "change_pct": -0.406,
         "news": [
           {
-            "headline": "DOJ closes antitrust probe into NextEra’s $66.8 bln Dominion deal",
-            "url": "https://finnhub.io/api/news?id=b6c32e0bef5414c6d68bd2d2dac74edd55275cc37ab837936cf8ae576590da0c",
+            "headline": "How Many Shares of Southern Company, NextEra Energy or WEC Energy Pay $1,000 a Month in Dividends?",
+            "url": "https://finnhub.io/api/news?id=c5e15474264cc831f61393d25f525998fd3d85c7dbf230c3af507db004dfe044",
             "source": "Yahoo",
-            "published_at": "2026-11-20T03:25:04Z",
+            "published_at": "2026-11-21T12:50:45Z",
             "primary": false,
             "symbol": "NEE"
           },
           {
-            "headline": "NextEra-Dominion merger hearings kick off with focus on scope",
-            "url": "https://finnhub.io/api/news?id=1fb99acd7592880e0ad7c693358c1e61ca3a9cb9ff1cdd08ff3d94219fc5736a",
+            "headline": "Why Is NextEra (NEE) Up 2.3% Since Last Earnings Report?",
+            "url": "https://finnhub.io/api/news?id=887d694aa91ca3af2adab19f06533af071cceadccc595559ecfb6523cfa1c2c7",
             "source": "Yahoo",
-            "published_at": "2026-11-18T15:50:14Z",
+            "published_at": "2026-11-20T15:30:08Z",
             "primary": false,
             "symbol": "NEE"
           }
@@ -10312,7 +10312,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Aerospace & Defense",
-        "why": "Net profit margin 8.2% (TTM); Return on equity 78.8% (TTM); Trailing P/E 20.3×; TTM revenue growth 7.9% YoY",
+        "why": "Net profit margin 8.2% (TTM); Return on equity 78.8% (TTM); Trailing P/E 20.4×; TTM revenue growth 7.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10326,35 +10326,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:42:07Z",
+            "timestamp": "2026-11-21T23:48:12Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "How Investors Are Reacting To Lockheed Martin Stock As Backlog Hits $292 Billion",
-            "timestamp": "2026-11-19T19:10:21Z",
-            "url": "https://finnhub.io/api/news?id=6bde2941f69373bd4e3d0d844aac115ff65959d131de1d6e5dfabf3f706cdbba"
+            "value": "LMT Gets $740M Awards, GD, RTX Pick Up Missile Contracts – A Look At This Week’s Defense Deals",
+            "timestamp": "2026-11-21T12:00:00Z",
+            "url": "https://finnhub.io/api/news?id=5460dfc551986587159f1efbeec73d5105b5ded6f7680be72d7daa0c6e47108e"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:42:07Z",
+        "fundamentals_at": "2026-11-21T23:48:12Z",
         "price": 565.5,
         "currency": "USD",
         "change_pct": -1.11,
         "news": [
           {
-            "headline": "How Investors Are Reacting To Lockheed Martin Stock As Backlog Hits $292 Billion",
-            "url": "https://finnhub.io/api/news?id=6bde2941f69373bd4e3d0d844aac115ff65959d131de1d6e5dfabf3f706cdbba",
+            "headline": "LMT Gets $740M Awards, GD, RTX Pick Up Missile Contracts – A Look At This Week’s Defense Deals",
+            "url": "https://finnhub.io/api/news?id=5460dfc551986587159f1efbeec73d5105b5ded6f7680be72d7daa0c6e47108e",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:10:21Z",
+            "published_at": "2026-11-21T12:00:00Z",
             "primary": false,
             "symbol": "LMT"
           },
           {
-            "headline": "The One Number Lockheed Martin Stock Investors Should Watch",
-            "url": "https://finnhub.io/api/news?id=94cf77eb1e602b4b8c25ca03e52986e3279aba711ceaf8a36e66c832315709f8",
+            "headline": "Is Lockheed Martin Stock's 6% Cash Yield Solid?",
+            "url": "https://finnhub.io/api/news?id=cc7406fe9662ba1c5214de9dbeddccea0e96c0e39a54a98e88aa88069528bafe",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:00:16Z",
+            "published_at": "2026-11-21T06:32:47Z",
             "primary": false,
             "symbol": "LMT"
           }
@@ -10364,12 +10364,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 380.51,
-          "entry_floor": 342.46,
-          "exit_review_low": 487.83,
-          "exit_review_high": 575.39,
-          "bear_case": 272.33,
-          "scenario_upside_pct": -13.7,
+          "entry_ceiling": 378.62,
+          "entry_floor": 340.76,
+          "exit_review_low": 485.42,
+          "exit_review_high": 572.54,
+          "bear_case": 270.98,
+          "scenario_upside_pct": -14.2,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10382,12 +10382,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 20.27,
+            "trailing_pe": 20.37,
             "earnings_growth_assumed_pct": 3.54,
             "scenario_exit_pe": 16.89,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T06:42:07Z"
+            "metrics_retrieved_at": "2026-11-21T23:48:12Z"
           }
         },
         "ranking_score": 78,
@@ -10399,7 +10399,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Beverages",
-        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.4×; TTM revenue growth 6.4% YoY",
+        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.6×; TTM revenue growth 6.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10413,35 +10413,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:53:52Z",
+            "timestamp": "2026-11-21T23:48:12Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "PepsiCo stands out in consumer staples as sector breaks three-year downtrend",
-            "timestamp": "2026-11-19T21:00:57Z",
-            "url": "https://finnhub.io/api/news?id=e5b8be429ce9a63a3cc8d7dca8a655f90a7e3f7dbfbaa84e06dca9620c15312e"
+            "value": "PEPSICO INC (NASDAQ:PEP): A Quality Investing Case With High ROIC but Mature Growth",
+            "timestamp": "2026-11-21T09:41:00Z",
+            "url": "https://finnhub.io/api/news?id=4ee88a6b605204cf5a05c4d5c56e6758de5128e840d826745362dca8a9a9829c"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:53:52Z",
+        "fundamentals_at": "2026-11-21T23:48:12Z",
         "price": 140.54,
         "currency": "USD",
         "change_pct": 1.108,
         "news": [
           {
-            "headline": "PepsiCo stands out in consumer staples as sector breaks three-year downtrend",
-            "url": "https://finnhub.io/api/news?id=e5b8be429ce9a63a3cc8d7dca8a655f90a7e3f7dbfbaa84e06dca9620c15312e",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T21:00:57Z",
+            "headline": "PEPSICO INC (NASDAQ:PEP): A Quality Investing Case With High ROIC but Mature Growth",
+            "url": "https://finnhub.io/api/news?id=4ee88a6b605204cf5a05c4d5c56e6758de5128e840d826745362dca8a9a9829c",
+            "source": "ChartMill",
+            "published_at": "2026-11-21T09:41:00Z",
             "primary": false,
             "symbol": "PEP"
           },
           {
-            "headline": "Hyatt and PepsiCo Enter New Chapter with a 10-Year Collaboration Supporting Guest Experience and Growth Across 700+ Properties in the United States",
-            "url": "https://finnhub.io/api/news?id=f3f68626bb56e41f8c35ad7f0e706c7c0bed8d5f99bcebad3bf715c9b562aa24",
+            "headline": "PepsiCo Stock And Other Defensive Value Picks For Higher Rates",
+            "url": "https://finnhub.io/api/news?id=138b12a8ff224aa0f3f8745e95673eeeebd4a8eb1ee191e0a3d5d4e2788c8ff4",
             "source": "Yahoo",
-            "published_at": "2026-11-19T16:51:00Z",
+            "published_at": "2026-11-21T05:12:29Z",
             "primary": false,
             "symbol": "PEP"
           }
@@ -10451,12 +10451,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 107.26,
-          "entry_floor": 96.53,
-          "exit_review_low": 137.51,
-          "exit_review_high": 161.43,
-          "bear_case": 77.27,
-          "scenario_upside_pct": -2.2,
+          "entry_ceiling": 105.63,
+          "entry_floor": 95.07,
+          "exit_review_low": 135.42,
+          "exit_review_high": 158.98,
+          "bear_case": 76.1,
+          "scenario_upside_pct": -3.6,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10469,12 +10469,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 17.38,
+            "trailing_pe": 17.65,
             "earnings_growth_assumed_pct": 2.86,
             "scenario_exit_pe": 16.53,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T06:53:52Z"
+            "metrics_retrieved_at": "2026-11-21T23:48:12Z"
           }
         },
         "ranking_score": 78,
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T22:50:27Z",
+      "generated_at": "2026-11-21T23:48:12Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 392,
