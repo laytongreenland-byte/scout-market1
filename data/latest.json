@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T19:54:26Z",
-  "status": "ok",
+  "generated_at": "2026-11-21T20:51:14Z",
+  "status": "partial",
   "coverage": {
     "configured_symbols": 587,
     "equity_symbols": 523,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T19:54:26Z",
+      "checked_at": "2026-11-21T20:51:14Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
-      "ok": true,
-      "count": 20,
-      "checked_at": "2026-11-21T19:54:26Z",
-      "error": ""
+      "ok": false,
+      "count": 0,
+      "checked_at": "2026-11-21T20:51:14Z",
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T19:54:26Z",
+      "checked_at": "2026-11-21T20:51:14Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T19:54:26Z",
+      "checked_at": "2026-11-21T20:51:14Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T19:54:26Z",
+      "checked_at": "2026-11-21T20:51:14Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T19:54:26Z",
+    "generated_at": "2026-11-21T20:51:14Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7309,7 +7309,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Retail",
-        "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 21.5×; TTM revenue growth 15.3% YoY",
+        "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 20.6×; TTM revenue growth 15.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7323,35 +7323,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:42:10Z",
+            "timestamp": "2026-11-21T20:51:14Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "How High Can ANT Stock Go? Wall Street Debut Sparks Valuation Debate – One Analyst Sees Amazon-Google Scale Opportunity In Anthropic",
-            "timestamp": "2026-11-20T02:23:55Z",
-            "url": "https://finnhub.io/api/news?id=0b444deb956e3539dd1fef6e6045135e63d56e729af95d8b18d954e81d8b166a"
+            "value": "Amazon tells NYC shoppers a Mamdani-backed delivery bill could cost them up to $664 a year per household",
+            "timestamp": "2026-11-21T19:30:00Z",
+            "url": "https://finnhub.io/api/news?id=2c94a419747c6db328f4affb876775f01539b5ef8e4a59a016380d52a97876cb"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:42:10Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
         "price": 246.82,
         "currency": "USD",
         "change_pct": -4.099,
         "news": [
           {
-            "headline": "How High Can ANT Stock Go? Wall Street Debut Sparks Valuation Debate – One Analyst Sees Amazon-Google Scale Opportunity In Anthropic",
-            "url": "https://finnhub.io/api/news?id=0b444deb956e3539dd1fef6e6045135e63d56e729af95d8b18d954e81d8b166a",
+            "headline": "Amazon tells NYC shoppers a Mamdani-backed delivery bill could cost them up to $664 a year per household",
+            "url": "https://finnhub.io/api/news?id=2c94a419747c6db328f4affb876775f01539b5ef8e4a59a016380d52a97876cb",
             "source": "Yahoo",
-            "published_at": "2026-11-20T02:23:55Z",
+            "published_at": "2026-11-21T19:30:00Z",
             "primary": false,
             "symbol": "AMZN"
           },
           {
-            "headline": "Peter Thiel Now Has as Much Money in an Argentine Oil Stock as in Amazon. It’s Down 23% Since September 30",
-            "url": "https://finnhub.io/api/news?id=9b9efd601f3651cc8ad50200fb406f8935199cd8fd1fc80867111d250c05ce6c",
+            "headline": "Cathie Wood Just Sold $9 Million of Amazon",
+            "url": "https://finnhub.io/api/news?id=c2ddeb250a604b4036402d9cd5ac4414e7b37cb77f48fae675e01972951d1d8d",
             "source": "Yahoo",
-            "published_at": "2026-11-20T01:17:06Z",
+            "published_at": "2026-11-21T19:05:34Z",
             "primary": false,
             "symbol": "AMZN"
           }
@@ -7361,12 +7361,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 178.99,
-          "entry_floor": 161.09,
-          "exit_review_low": 229.47,
-          "exit_review_high": 276.69,
-          "bear_case": 124.06,
-          "scenario_upside_pct": -7.0,
+          "entry_ceiling": 186.2,
+          "entry_floor": 167.58,
+          "exit_review_low": 238.72,
+          "exit_review_high": 287.84,
+          "bear_case": 129.06,
+          "scenario_upside_pct": -3.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -7379,12 +7379,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 21.48,
+            "trailing_pe": 20.65,
             "earnings_growth_assumed_pct": 6.91,
             "scenario_exit_pe": 18.68,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
           }
         },
         "ranking_score": 83,
@@ -8447,7 +8447,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Technology",
-        "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
+        "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 11.8×; TTM revenue growth 12.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8461,35 +8461,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:58:15Z",
+            "timestamp": "2026-11-21T20:51:14Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
-            "timestamp": "2026-11-19T21:45:02Z",
-            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec"
+            "value": "Adobe (ADBE) Joins 40 Plus Groups Launching The AI Transparency Initiative",
+            "timestamp": "2026-11-20T20:13:24Z",
+            "url": "https://finnhub.io/api/news?id=b8f5022d021b8433fbdef28b7eafff415efe2a5b9f139f654c9d4edd163b3cf4"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:58:15Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
         "price": 217.71,
         "currency": "USD",
         "change_pct": -1.791,
         "news": [
           {
-            "headline": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
-            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec",
+            "headline": "Adobe (ADBE) Joins 40 Plus Groups Launching The AI Transparency Initiative",
+            "url": "https://finnhub.io/api/news?id=b8f5022d021b8433fbdef28b7eafff415efe2a5b9f139f654c9d4edd163b3cf4",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:45:02Z",
+            "published_at": "2026-11-20T20:13:24Z",
             "primary": false,
             "symbol": "ADBE"
           },
           {
-            "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
+            "headline": "Snowflake vs. Adobe: Which Enterprise AI Stock Is a Better Buy?",
+            "url": "https://finnhub.io/api/news?id=2a1dbf0f09c0d7c8596b6fd4faac3bd1a3e6f2cd706a476528ac90393f2bf41c",
             "source": "Yahoo",
-            "published_at": "2026-11-19T18:17:02Z",
+            "published_at": "2026-11-20T15:58:00Z",
             "primary": false,
             "symbol": "ADBE"
           }
@@ -8499,12 +8499,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 261.63,
-          "entry_floor": 235.47,
-          "exit_review_low": 335.43,
-          "exit_review_high": 397.11,
-          "bear_case": 186.26,
-          "scenario_upside_pct": 54.1,
+          "entry_ceiling": 266.97,
+          "entry_floor": 240.27,
+          "exit_review_low": 342.27,
+          "exit_review_high": 405.21,
+          "bear_case": 190.06,
+          "scenario_upside_pct": 57.2,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8517,12 +8517,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 12.09,
+            "trailing_pe": 11.84,
             "earnings_growth_assumed_pct": 4.09,
             "scenario_exit_pe": 17.89,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
           }
         },
         "ranking_score": 79,
@@ -10146,7 +10146,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Technology",
-        "why": "Net profit margin 22.0% (TTM); Return on equity 20.2% (TTM); Trailing P/E 16.2×; TTM revenue growth 11.2% YoY",
+        "why": "Net profit margin 22.0% (TTM); Return on equity 20.2% (TTM); Trailing P/E 15.6×; TTM revenue growth 11.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10160,35 +10160,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:58:15Z",
+            "timestamp": "2026-11-21T20:51:14Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
-            "timestamp": "2026-11-19T19:52:04Z",
-            "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e"
+            "value": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-20T21:47:17Z",
+            "url": "https://finnhub.io/api/news?id=9e72c9827b130344ad5727844d60aeaeb26fdd16c97401afefcf81254bdadc53"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:58:15Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
         "price": 180.62,
         "currency": "USD",
         "change_pct": -1.467,
         "news": [
           {
-            "headline": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=7b243e0f3ce1e35750512f29909a8232d664c469c4dfe22fa8c0358a4183209e",
+            "headline": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=9e72c9827b130344ad5727844d60aeaeb26fdd16c97401afefcf81254bdadc53",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:52:04Z",
+            "published_at": "2026-11-20T21:47:17Z",
             "primary": false,
             "symbol": "CRM"
           },
           {
-            "headline": "Salesforce (CRM) Lands Commerce Backing For Global Trusted AI Export Push",
-            "url": "https://finnhub.io/api/news?id=195fc14d5930d1922197a337a1c7e254fea80795c69525713efc8ba007b5f8ac",
+            "headline": "Coatue Management Just Bought 8 Million Shares of Salesforce Stock. Why Investors Should Care.",
+            "url": "https://finnhub.io/api/news?id=d864169bbd34b4d7a36a01b9abeab2e2181c55c862c85d1d9346a28655e0aa53",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:10:04Z",
+            "published_at": "2026-11-20T19:48:44Z",
             "primary": false,
             "symbol": "CRM"
           }
@@ -10198,12 +10198,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 161.52,
-          "entry_floor": 145.37,
-          "exit_review_low": 207.08,
-          "exit_review_high": 246.73,
-          "bear_case": 113.94,
-          "scenario_upside_pct": 14.6,
+          "entry_ceiling": 167.77,
+          "entry_floor": 150.99,
+          "exit_review_low": 215.09,
+          "exit_review_high": 256.27,
+          "bear_case": 118.34,
+          "scenario_upside_pct": 19.1,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10216,12 +10216,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 16.22,
+            "trailing_pe": 15.61,
             "earnings_growth_assumed_pct": 5.05,
             "scenario_exit_pe": 17.7,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
           }
         },
         "ranking_score": 78,
@@ -11980,7 +11980,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.2×; TTM revenue growth 22.2% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -11994,35 +11994,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:42:10Z",
+            "timestamp": "2026-11-21T20:51:14Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-            "timestamp": "2026-11-19T23:05:02Z",
-            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715"
+            "value": "Alphabet (GOOGL) Nears $84.8 Billion Raise As It Weighs $3 Billion Settlement",
+            "timestamp": "2026-11-21T14:10:06Z",
+            "url": "https://finnhub.io/api/news?id=d616ee0eec0f726a539e697b355c9f61dc20fa8c7d3eb014b7cc40bc14e8c8b3"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:42:10Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
         "price": 265.29,
         "currency": "USD",
         "change_pct": -2.703,
         "news": [
           {
-            "headline": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715",
+            "headline": "Alphabet (GOOGL) Nears $84.8 Billion Raise As It Weighs $3 Billion Settlement",
+            "url": "https://finnhub.io/api/news?id=d616ee0eec0f726a539e697b355c9f61dc20fa8c7d3eb014b7cc40bc14e8c8b3",
             "source": "Yahoo",
-            "published_at": "2026-11-19T23:05:02Z",
+            "published_at": "2026-11-21T14:10:06Z",
             "primary": false,
             "symbol": "GOOGL"
           },
           {
-            "headline": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-            "url": "https://finnhub.io/api/news?id=761e947e45580e96816de82c91ae31a183fa7ed0ae3d4dd27e077a2e1bb60bae",
+            "headline": "Hank Paulson Has “Never Seen So Much Money Chasing One Opportunity.” That’s a Problem for Microsoft, Amazon and Alphabet",
+            "url": "https://finnhub.io/api/news?id=19f64ef7f59409c578137b976ab431855fea21a9162d3dd7b1716bd661119159",
             "source": "Yahoo",
-            "published_at": "2026-11-19T22:18:30Z",
+            "published_at": "2026-11-21T13:46:13Z",
             "primary": false,
             "symbol": "GOOGL"
           }
@@ -12032,12 +12032,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 310.63,
-          "entry_floor": 279.56,
-          "exit_review_low": 398.24,
-          "exit_review_high": 486.34,
-          "bear_case": 211.18,
-          "scenario_upside_pct": 50.1,
+          "entry_ceiling": 322.05,
+          "entry_floor": 289.84,
+          "exit_review_low": 412.88,
+          "exit_review_high": 504.22,
+          "bear_case": 218.94,
+          "scenario_upside_pct": 55.6,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12050,12 +12050,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.76,
+            "trailing_pe": 14.24,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 20.33,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
           }
         },
         "ranking_score": 76,
@@ -12067,7 +12067,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Media",
-        "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.9×; TTM revenue growth 27.5% YoY",
+        "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.3×; TTM revenue growth 27.5% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12081,35 +12081,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:42:10Z",
+            "timestamp": "2026-11-21T20:51:14Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Meta Platforms 'Reevaluating' 2030 Net Zero Goal as AI Buildout Strains Clean Energy Supply",
-            "timestamp": "2026-11-20T00:43:14Z",
-            "url": "https://finnhub.io/api/news?id=832d041d280ca00ab0d85cbe1186224da1e9f967ad3f38b774c3b6642cc81998"
+            "value": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
+            "timestamp": "2026-11-21T18:32:03Z",
+            "url": "https://finnhub.io/api/news?id=756a93a60d2e7a312ae7a9188bbcd22edc3f8a43ef1d80055dc5c19094bf2cc8"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:42:10Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
         "price": 560.84,
         "currency": "USD",
         "change_pct": -5.934,
         "news": [
           {
-            "headline": "Meta Platforms 'Reevaluating' 2030 Net Zero Goal as AI Buildout Strains Clean Energy Supply",
-            "url": "https://finnhub.io/api/news?id=832d041d280ca00ab0d85cbe1186224da1e9f967ad3f38b774c3b6642cc81998",
+            "headline": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
+            "url": "https://finnhub.io/api/news?id=756a93a60d2e7a312ae7a9188bbcd22edc3f8a43ef1d80055dc5c19094bf2cc8",
             "source": "Yahoo",
-            "published_at": "2026-11-20T00:43:14Z",
+            "published_at": "2026-11-21T18:32:03Z",
             "primary": false,
             "symbol": "META"
           },
           {
-            "headline": "Apple May Try to Challenge Meta for Personal Agent Supremacy",
-            "url": "https://finnhub.io/api/news?id=d3bd1f54c91f49844eb556ea25a0a0ba7bcc6a79f066b3ae3d022a1ba916c309",
+            "headline": "AI May Have Just Broken Meta’s Climate Promise",
+            "url": "https://finnhub.io/api/news?id=c2d9d19030f7fef7c082669e93da88e5832f37c2c157a7219a30203db2a21b8c",
             "source": "Yahoo",
-            "published_at": "2026-11-19T23:51:00Z",
+            "published_at": "2026-11-21T17:02:19Z",
             "primary": false,
             "symbol": "META"
           }
@@ -12119,12 +12119,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 492.11,
-          "entry_floor": 442.9,
-          "exit_review_low": 630.91,
-          "exit_review_high": 770.48,
-          "bear_case": 334.56,
-          "scenario_upside_pct": 12.5,
+          "entry_ceiling": 508.75,
+          "entry_floor": 457.88,
+          "exit_review_low": 652.25,
+          "exit_review_high": 796.53,
+          "bear_case": 345.87,
+          "scenario_upside_pct": 16.3,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12137,12 +12137,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 20.94,
+            "trailing_pe": 20.25,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 21.61,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
           }
         },
         "ranking_score": 76,
@@ -13909,6 +13909,269 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "ADBE",
+        "name": "Adobe Inc",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Technology",
+        "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 11.8×; TTM revenue growth 12.0% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$217.71",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T20:51:14Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Adobe (ADBE) Joins 40 Plus Groups Launching The AI Transparency Initiative",
+            "timestamp": "2026-11-20T20:13:24Z",
+            "url": "https://finnhub.io/api/news?id=b8f5022d021b8433fbdef28b7eafff415efe2a5b9f139f654c9d4edd163b3cf4"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
+        "price": 217.71,
+        "currency": "USD",
+        "change_pct": -1.791,
+        "news": [
+          {
+            "headline": "Adobe (ADBE) Joins 40 Plus Groups Launching The AI Transparency Initiative",
+            "url": "https://finnhub.io/api/news?id=b8f5022d021b8433fbdef28b7eafff415efe2a5b9f139f654c9d4edd163b3cf4",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T20:13:24Z",
+            "primary": false,
+            "symbol": "ADBE"
+          },
+          {
+            "headline": "Snowflake vs. Adobe: Which Enterprise AI Stock Is a Better Buy?",
+            "url": "https://finnhub.io/api/news?id=2a1dbf0f09c0d7c8596b6fd4faac3bd1a3e6f2cd706a476528ac90393f2bf41c",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T15:58:00Z",
+            "primary": false,
+            "symbol": "ADBE"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 266.97,
+          "entry_floor": 240.27,
+          "exit_review_low": 342.27,
+          "exit_review_high": 405.21,
+          "bear_case": 190.06,
+          "scenario_upside_pct": 57.2,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 11.84,
+            "earnings_growth_assumed_pct": 4.09,
+            "scenario_exit_pe": 17.89,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
+          }
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "industry": "Media",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.2×; TTM revenue growth 22.2% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$265.29",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T20:51:14Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Alphabet (GOOGL) Nears $84.8 Billion Raise As It Weighs $3 Billion Settlement",
+            "timestamp": "2026-11-21T14:10:06Z",
+            "url": "https://finnhub.io/api/news?id=d616ee0eec0f726a539e697b355c9f61dc20fa8c7d3eb014b7cc40bc14e8c8b3"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
+        "price": 265.29,
+        "currency": "USD",
+        "change_pct": -2.703,
+        "news": [
+          {
+            "headline": "Alphabet (GOOGL) Nears $84.8 Billion Raise As It Weighs $3 Billion Settlement",
+            "url": "https://finnhub.io/api/news?id=d616ee0eec0f726a539e697b355c9f61dc20fa8c7d3eb014b7cc40bc14e8c8b3",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T14:10:06Z",
+            "primary": false,
+            "symbol": "GOOGL"
+          },
+          {
+            "headline": "Hank Paulson Has “Never Seen So Much Money Chasing One Opportunity.” That’s a Problem for Microsoft, Amazon and Alphabet",
+            "url": "https://finnhub.io/api/news?id=19f64ef7f59409c578137b976ab431855fea21a9162d3dd7b1716bd661119159",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T13:46:13Z",
+            "primary": false,
+            "symbol": "GOOGL"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 322.05,
+          "entry_floor": 289.84,
+          "exit_review_low": 412.88,
+          "exit_review_high": 504.22,
+          "bear_case": 218.94,
+          "scenario_upside_pct": 55.6,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 14.24,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.33,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
+          }
+        },
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "status": "WATCH",
+        "score": 66,
+        "industry": "Semiconductors",
+        "why": "Net profit margin 62.5% (TTM); Return on equity 106.7% (TTM); Trailing P/E 15.5×; TTM revenue growth 93.3% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Price near reported 52-week low",
+          "Large one-session price move (-14.0%)"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$125.53",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T20:51:14Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Should You Buy Nvidia Stock Right Now?",
+            "timestamp": "2026-11-21T18:35:02Z",
+            "url": "https://finnhub.io/api/news?id=a8d67609a4f1a97aae1e73c42038616cdcccd58517c8f2e6537178f2ab85593c"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T20:51:14Z",
+        "price": 125.53,
+        "currency": "USD",
+        "change_pct": -14.009,
+        "news": [
+          {
+            "headline": "Should You Buy Nvidia Stock Right Now?",
+            "url": "https://finnhub.io/api/news?id=a8d67609a4f1a97aae1e73c42038616cdcccd58517c8f2e6537178f2ab85593c",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T18:35:02Z",
+            "primary": false,
+            "symbol": "NVDA"
+          },
+          {
+            "headline": "Marvell Just Dropped 22% in a Week as Nvidia’s Turmoil Hit AI Chips. Sell, or Load Up Before Dec. 1?",
+            "url": "https://finnhub.io/api/news?id=121c68f7c2f8cf289e8004efed86200cb4840ab5addf6ebe334b99e1d6617f06",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T18:20:37Z",
+            "primary": false,
+            "symbol": "NVDA"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 152.37,
+          "entry_floor": 137.14,
+          "exit_review_low": 195.35,
+          "exit_review_high": 238.57,
+          "bear_case": 103.59,
+          "scenario_upside_pct": 55.6,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 15.55,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 22.2,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T20:51:14Z"
+          }
+        },
+        "ranking_score": 66,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "NCLH",
         "name": "Norwegian Cruise Line Holdings Ltd.",
         "status": "WATCH",
@@ -13996,182 +14259,6 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
-        "symbol": "ADBE",
-        "name": "Adobe Inc",
-        "status": "INVESTIGATE",
-        "score": 79,
-        "industry": "Technology",
-        "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$217.71",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:58:15Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
-            "timestamp": "2026-11-19T21:45:02Z",
-            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:58:15Z",
-        "price": 217.71,
-        "currency": "USD",
-        "change_pct": -1.791,
-        "news": [
-          {
-            "headline": "Adobe Systems (ADBE) Stock Moves -2.00%: What You Should Know",
-            "url": "https://finnhub.io/api/news?id=a7e128ece3ee934c45d15a92b46da5cd0b56ef70119c0191f20be28e525f59ec",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T21:45:02Z",
-            "primary": false,
-            "symbol": "ADBE"
-          },
-          {
-            "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T18:17:02Z",
-            "primary": false,
-            "symbol": "ADBE"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 261.63,
-          "entry_floor": 235.47,
-          "exit_review_low": 335.43,
-          "exit_review_high": 397.11,
-          "bear_case": 186.26,
-          "scenario_upside_pct": 54.1,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 12.09,
-            "earnings_growth_assumed_pct": 4.09,
-            "scenario_exit_pe": 17.89,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:58:15Z"
-          }
-        },
-        "ranking_score": 79,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "status": "WATCH",
-        "score": 63,
-        "industry": "Semiconductors",
-        "why": "Net profit margin 62.5% (TTM); Return on equity 106.7% (TTM); Trailing P/E 16.1×; TTM revenue growth 93.3% YoY",
-        "risks": [
-          "Large drawdown: recovery is not assured",
-          "Price near reported 52-week low",
-          "Large one-session price move (-14.0%)"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$125.53",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:42:10Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
-            "timestamp": "2026-11-20T03:54:48Z",
-            "url": "https://finnhub.io/api/news?id=b56d56ff02059d99e6f54ee92544133669e648a260e405cc5a29b772d3b956d2"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:42:10Z",
-        "price": 125.53,
-        "currency": "USD",
-        "change_pct": -14.009,
-        "news": [
-          {
-            "headline": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
-            "url": "https://finnhub.io/api/news?id=b56d56ff02059d99e6f54ee92544133669e648a260e405cc5a29b772d3b956d2",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T03:54:48Z",
-            "primary": false,
-            "symbol": "NVDA"
-          },
-          {
-            "headline": "Nasdaq, Dow, S&P 500 Futures Slip As Anthropic’s Record Debut Fails To Lift AI Stocks: SLV, GLD, AMD, NVDA In Focus",
-            "url": "https://finnhub.io/api/news?id=a8b56c625f0d8da587cbb59af8bbb0baffa8ca5c6f7ab1e7370e539625a7be10",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T02:48:14Z",
-            "primary": false,
-            "symbol": "NVDA"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 147.35,
-          "entry_floor": 132.61,
-          "exit_review_low": 188.91,
-          "exit_review_high": 230.7,
-          "bear_case": 100.17,
-          "scenario_upside_pct": 50.5,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 16.08,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 22.2,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
-          }
-        },
-        "ranking_score": 63,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
         "symbol": "GOOG",
         "name": "Alphabet Inc.",
         "status": "INVESTIGATE",
@@ -14253,93 +14340,6 @@
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
             "metrics_retrieved_at": "2026-11-20T20:09:04Z"
-          }
-        },
-        "ranking_score": 76,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "GOOGL",
-        "name": "Alphabet Inc.",
-        "status": "INVESTIGATE",
-        "score": 76,
-        "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
-        "risks": [
-          "Price near reported 52-week low"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$265.29",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T05:42:10Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-            "timestamp": "2026-11-19T23:05:02Z",
-            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T05:42:10Z",
-        "price": 265.29,
-        "currency": "USD",
-        "change_pct": -2.703,
-        "news": [
-          {
-            "headline": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-            "url": "https://finnhub.io/api/news?id=2da92d9ab392349a4bae337b640b778a61668ef7f46641e189891722d7140715",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T23:05:02Z",
-            "primary": false,
-            "symbol": "GOOGL"
-          },
-          {
-            "headline": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-            "url": "https://finnhub.io/api/news?id=761e947e45580e96816de82c91ae31a183fa7ed0ae3d4dd27e077a2e1bb60bae",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T22:18:30Z",
-            "primary": false,
-            "symbol": "GOOGL"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 310.63,
-          "entry_floor": 279.56,
-          "exit_review_low": 398.24,
-          "exit_review_high": 486.34,
-          "bear_case": 211.18,
-          "scenario_upside_pct": 50.1,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 14.76,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 20.33,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T05:42:10Z"
           }
         },
         "ranking_score": 76,
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T19:54:26Z",
+      "generated_at": "2026-11-21T20:51:14Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 392,
