@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T07:19:33Z",
+  "generated_at": "2026-11-21T08:56:50Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 377,
+    "financially_screened": 389,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T07:19:33Z",
+      "checked_at": "2026-11-21T08:56:50Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T07:19:33Z",
+      "checked_at": "2026-11-21T08:56:50Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T07:19:33Z",
+      "checked_at": "2026-11-21T08:56:50Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T07:19:33Z",
+      "checked_at": "2026-11-21T08:56:50Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T07:19:33Z",
+      "checked_at": "2026-11-21T08:56:50Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T07:19:33Z",
+    "generated_at": "2026-11-21T08:56:50Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 377,
+    "screened_with_financials": 389,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -9069,6 +9069,164 @@
             "market_range_entry_cap": "52-week low + 50% of observed range",
             "metrics_retrieved_at": "2026-11-21T05:03:10Z"
           }
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "JKHY",
+        "name": "Jack Henry & Associates Inc",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Financial Services",
+        "why": "Net profit margin 20.0% (TTM); Return on equity 24.5% (TTM); Trailing P/E 23.4×; TTM revenue growth 7.5% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$171.32",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T08:56:50Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Jack Henry (JKHY) Stands Out as One of the Best IT Services Stocks to Look at",
+            "timestamp": "2026-11-18T17:16:12Z",
+            "url": "https://finnhub.io/api/news?id=ba622b794d94042fe082cfb9726ff1efed32a6477c965abdf0fcc449205f4f5b"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T08:56:50Z",
+        "price": 171.32,
+        "currency": "USD",
+        "change_pct": 0.617,
+        "news": [
+          {
+            "headline": "Jack Henry (JKHY) Stands Out as One of the Best IT Services Stocks to Look at",
+            "url": "https://finnhub.io/api/news?id=ba622b794d94042fe082cfb9726ff1efed32a6477c965abdf0fcc449205f4f5b",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T17:16:12Z",
+            "primary": false,
+            "symbol": "JKHY"
+          },
+          {
+            "headline": "Jack Henry Named One of America's Best Companies in Forbes Ranking",
+            "url": "https://finnhub.io/api/news?id=94682e36ad3b74ecb20f71f7e53e053cf7ae9ce3b13733f7a754bffd6a9a9f6e",
+            "source": "Yahoo",
+            "published_at": "2026-11-16T15:02:00Z",
+            "primary": false,
+            "symbol": "JKHY"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "KEY",
+        "name": "KeyCorp",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Banking",
+        "why": "Net profit margin 19.2% (TTM); Return on equity 10.9% (TTM); Trailing P/E 10.0×; TTM revenue growth 57.1% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$19.45",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T08:56:50Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "KeyCorp (KEY) Down 2.6% Since Last Earnings Report: Can It Rebound?",
+            "timestamp": "2026-11-19T15:30:05Z",
+            "url": "https://finnhub.io/api/news?id=1261a19fd6b58e0a5e75283132d69deef407274750e5c8b43a5d21ab2ee85c6d"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T08:56:50Z",
+        "price": 19.45,
+        "currency": "USD",
+        "change_pct": -2.896,
+        "news": [
+          {
+            "headline": "KeyCorp (KEY) Down 2.6% Since Last Earnings Report: Can It Rebound?",
+            "url": "https://finnhub.io/api/news?id=1261a19fd6b58e0a5e75283132d69deef407274750e5c8b43a5d21ab2ee85c6d",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T15:30:05Z",
+            "primary": false,
+            "symbol": "KEY"
+          },
+          {
+            "headline": "KeyCorp (KEY) Stock Looks Below Fair Value On Current Estimates",
+            "url": "https://finnhub.io/api/news?id=14e5821ced24da0d9bc3b3dcdeec36518bd921e2987d0671004874635d1c5089",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T16:14:16Z",
+            "primary": false,
+            "symbol": "KEY"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
         },
         "ranking_score": 79,
         "rank_method": "FINANCIAL RULES"
@@ -13381,172 +13539,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "FOX",
-        "name": "Fox Corporation",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Media",
-        "why": "Net profit margin 11.3% (TTM); Return on equity 17.6% (TTM); Trailing P/E 16.9×; TTM revenue growth 9.0% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$56.14",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T03:59:33Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Fox (FOXA) Stock May Be 21% Undervalued After World Cup Rights Bid",
-            "timestamp": "2026-11-20T18:13:09Z",
-            "url": "https://finnhub.io/api/news?id=01a31f495a820e7054b938e7c7010845c0d3c3cefc9a758a35cfddad0bf7c01c"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T03:59:33Z",
-        "price": 56.14,
-        "currency": "USD",
-        "change_pct": -1.474,
-        "news": [
-          {
-            "headline": "Fox (FOXA) Stock May Be 21% Undervalued After World Cup Rights Bid",
-            "url": "https://finnhub.io/api/news?id=01a31f495a820e7054b938e7c7010845c0d3c3cefc9a758a35cfddad0bf7c01c",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T18:13:09Z",
-            "primary": false,
-            "symbol": "FOX"
-          },
-          {
-            "headline": "Fox (FOXA) Dropped, So What Is Driving Attention Now?",
-            "url": "https://finnhub.io/api/news?id=354901e2c68c347351f823d2893fdaea06567fce7b85734aa9716ab7fe72bca7",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T17:11:40Z",
-            "primary": false,
-            "symbol": "FOX"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 45.37,
-          "entry_floor": 40.83,
-          "exit_review_low": 58.17,
-          "exit_review_high": 67.99,
-          "bear_case": 32.88,
-          "scenario_upside_pct": 3.6,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 16.94,
-            "earnings_growth_assumed_pct": 2.25,
-            "scenario_exit_pe": 17.16,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T03:59:33Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "HAS",
-        "name": "Hasbro, Inc.",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Leisure Products",
-        "why": "Net profit margin 18.4% (TTM); Return on equity 136.2% (TTM); Trailing P/E 16.8×; TTM revenue growth 18.9% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$112.41",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T05:03:10Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
-            "timestamp": "2026-11-20T10:34:48Z",
-            "url": "https://finnhub.io/api/news?id=910b858f05ec8e35808505b2c578008ae3c24dbfa0023aade76823b9ce085e2f"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T05:03:10Z",
-        "price": 112.41,
-        "currency": "USD",
-        "change_pct": -2.005,
-        "news": [
-          {
-            "headline": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
-            "url": "https://finnhub.io/api/news?id=910b858f05ec8e35808505b2c578008ae3c24dbfa0023aade76823b9ce085e2f",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T10:34:48Z",
-            "primary": false,
-            "symbol": "HAS"
-          },
-          {
-            "headline": "Hasbro (HAS) Up 4.1% Since Last Earnings Report: Can It Continue?",
-            "url": "https://finnhub.io/api/news?id=8c32d54bc6e70f68f80dbdb2a6b17e36cfac021e87e69fbca0120d9d8c2b921c",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T15:30:05Z",
-            "primary": false,
-            "symbol": "HAS"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Missing P/E, growth, profit, market-cap or 52-week price inputs.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -14662,7 +14654,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 377,
+      "recorded_signals": 389,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14680,10 +14672,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T07:19:33Z",
+      "generated_at": "2026-11-21T08:56:50Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 287,
+        "recorded": 297,
         "purchase_scenarios": 19,
         "opened": 1,
         "closed": 0,
@@ -14693,10 +14685,210 @@
         "not_triggered": 0,
         "waiting": 19,
         "unverified": 0,
-        "skipped": 268,
+        "skipped": 278,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|IQV|ABOVE BASE CASE",
+          "symbol": "IQV",
+          "name": "IQVIA Holdings Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 245.82,
+          "buy_ceiling": 116.49,
+          "sell_review": 149.34,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 8.1% (TTM); Return on equity 21.8% (TTM); Trailing P/E 29.3×; TTM revenue growth 8.8% YoY",
+          "score": 69,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|JBHT|NO RELIABLE PRICE RANGE",
+          "symbol": "JBHT",
+          "name": "J.B. Hunt Transport Services, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 218.54,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 5.1% (TTM); Return on equity 18.7% (TTM); Trailing P/E 31.1×; TTM revenue growth 10.6% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|JBL|NO RELIABLE PRICE RANGE",
+          "symbol": "JBL",
+          "name": "Jabil Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 225.77,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 2.9% (TTM); Return on equity 74.1% (TTM); Trailing P/E 22.6×; TTM revenue growth 20.6% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|JKHY|NO RELIABLE PRICE RANGE",
+          "symbol": "JKHY",
+          "name": "Jack Henry & Associates Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 171.32,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 20.0% (TTM); Return on equity 24.5% (TTM); Trailing P/E 23.4×; TTM revenue growth 7.5% YoY",
+          "score": 79,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|KEY|NO RELIABLE PRICE RANGE",
+          "symbol": "KEY",
+          "name": "KeyCorp",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 19.45,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 19.2% (TTM); Return on equity 10.9% (TTM); Trailing P/E 10.0×; TTM revenue growth 57.1% YoY",
+          "score": 79,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|KEYS|ABOVE BASE CASE",
+          "symbol": "KEYS",
+          "name": "Keysight Technologies, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 261.51,
+          "buy_ceiling": 123.55,
+          "sell_review": 158.4,
+          "risk": "Large one-session price move (-7.1%)",
+          "why": "Net profit margin 19.1% (TTM); Return on equity 20.2% (TTM); Trailing P/E 38.0×; TTM revenue growth 25.5% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|KIM|NO RELIABLE PRICE RANGE",
+          "symbol": "KIM",
+          "name": "Kimco Realty Corp",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 25.37,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 34.1% (TTM); Return on equity 7.3% (TTM); Trailing P/E 22.7×; TTM revenue growth 3.5% YoY",
+          "score": 61,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|KHC|NO RELIABLE PRICE RANGE",
+          "symbol": "KHC",
+          "name": "The Kraft Heinz Company",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 25.39,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Unprofitable on trailing net margin",
+          "why": "Net profit margin -13.6% (TTM); Return on equity -8.4% (TTM); TTM revenue growth -1.6% YoY; 9.6% below reported 52-week high",
+          "score": 25,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|LHX|ABOVE BASE CASE",
+          "symbol": "LHX",
+          "name": "L3Harris Technologies, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 249.89,
+          "buy_ceiling": 146.85,
+          "sell_review": 188.27,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 8.8% (TTM); Return on equity 10.1% (TTM); Trailing P/E 23.0×; TTM revenue growth 7.3% YoY",
+          "score": 67,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|LH|NO RELIABLE PRICE RANGE",
+          "symbol": "LH",
+          "name": "Labcorp Holdings Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T08:56:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 367.13,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 6.9% (TTM); Return on equity 11.5% (TTM); Trailing P/E 29.8×; TTM revenue growth 6.0% YoY",
+          "score": 59,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|HII|NO RELIABLE PRICE RANGE",
           "symbol": "HII",
@@ -16896,210 +17088,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|PWR|NO RELIABLE PRICE RANGE",
-          "symbol": "PWR",
-          "name": "Quanta Services Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:13:43Z",
-          "reference_price": 559.23,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "High trailing earnings valuation",
-          "why": "Net profit margin 4.5% (TTM); Return on equity 17.6% (TTM); Trailing P/E 54.0×; TTM revenue growth 37.1% YoY",
-          "score": 58,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AMAT|ABOVE BASE CASE",
-          "symbol": "AMAT",
-          "name": "Applied Materials Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:14:11Z",
-          "reference_price": 307.96,
-          "buy_ceiling": 190.55,
-          "sell_review": 244.3,
-          "risk": "Large drawdown: recovery is not assured",
-          "why": "Net profit margin 29.3% (TTM); Return on equity 41.4% (TTM); Trailing P/E 27.7×; TTM revenue growth 21.4% YoY",
-          "score": 60,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|MO|NO RELIABLE PRICE RANGE",
-          "symbol": "MO",
-          "name": "Altria Group Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:14:11Z",
-          "reference_price": 75.24,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 34.5% (TTM); Return on equity 149.7% (TTM); Trailing P/E 15.1×; TTM revenue growth 0.5% YoY",
-          "score": 61,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|TFC|NO RELIABLE PRICE RANGE",
-          "symbol": "TFC",
-          "name": "Truist Financial Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:13:56Z",
-          "reference_price": 46.5,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 23.8% (TTM); Return on equity 8.1% (TTM); Trailing P/E 10.8×; TTM revenue growth 58.2% YoY",
-          "score": 76,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|MCK|NO RELIABLE PRICE RANGE",
-          "symbol": "MCK",
-          "name": "McKesson Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:13:48Z",
-          "reference_price": 1081.91,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 1.1% (TTM); Return on equity 39.4% (TTM); Trailing P/E 25.9×; TTM revenue growth 8.2% YoY",
-          "score": 63,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|JCI|NO RELIABLE PRICE RANGE",
-          "symbol": "JCI",
-          "name": "Johnson Controls International PLC",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:14:07Z",
-          "reference_price": 130.42,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 11.1% (TTM); Return on equity 21.2% (TTM); Trailing P/E 28.8×; TTM revenue growth 8.8% YoY",
-          "score": 61,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|NEM|ENTRY CANDIDATE",
-          "symbol": "NEM",
-          "name": "Newmont Corporation",
-          "signal": "ENTRY CANDIDATE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:14:07Z",
-          "reference_price": 96.0,
-          "buy_ceiling": 108.31,
-          "sell_review": 189.56,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 34.7% (TTM); Return on equity 26.5% (TTM); Trailing P/E 11.4×; TTM revenue growth 23.7% YoY",
-          "score": 83,
-          "result": {
-            "status": "WAITING_TO_BUY",
-            "reason": "No later observed daily close has met the original buy ceiling"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|MU|NO RELIABLE PRICE RANGE",
-          "symbol": "MU",
-          "name": "Micron Technology, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:14:11Z",
-          "reference_price": 606.71,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Large drawdown: recovery is not assured",
-          "why": "Net profit margin 63.8% (TTM); Return on equity 91.8% (TTM); Trailing P/E 9.6×; TTM revenue growth 256.3% YoY",
-          "score": 66,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|FITB|NO RELIABLE PRICE RANGE",
-          "symbol": "FITB",
-          "name": "Fifth Third Bancorp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T19:10:18Z",
-          "quote_at": "2026-11-20T19:14:02Z",
-          "reference_price": 50.25,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 28.8% (TTM); Return on equity 8.9% (TTM); Trailing P/E 21.4×; TTM revenue growth 58.2% YoY",
-          "score": 74,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|RSG|ABOVE BASE CASE",
-          "symbol": "RSG",
-          "name": "Republic Services Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T18:45:56Z",
-          "quote_at": "2026-11-20T18:49:09Z",
-          "reference_price": 249.1,
-          "buy_ceiling": 93.45,
-          "sell_review": 119.81,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 12.9% (TTM); Return on equity 18.5% (TTM); Trailing P/E 34.1×; TTM revenue growth 4.5% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 73,
+      "legacy_research_flags": 75,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17109,22 +17101,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "SCHW",
-        "flagged_at": "2026-11-20T09:12:51Z",
-        "reference_price": 92.12,
-        "score": 83,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
-      {
-        "week": "2026-11-16",
-        "symbol": "YUM",
-        "flagged_at": "2026-11-20T11:15:24Z",
-        "reference_price": 159.33,
-        "score": 78,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "AXP",
@@ -17507,6 +17483,22 @@
         "flagged_at": "2026-11-21T06:02:26Z",
         "reference_price": 403.66,
         "score": 76,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "JKHY",
+        "flagged_at": "2026-11-21T08:56:50Z",
+        "reference_price": 171.32,
+        "score": 79,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "KEY",
+        "flagged_at": "2026-11-21T08:56:50Z",
+        "reference_price": 19.45,
+        "score": 79,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],

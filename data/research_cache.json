@@ -22306,8 +22306,677 @@
           "symbol": "INVH"
         }
       ]
+    },
+    "IQV": {
+      "metrics": {
+        "52WeekHigh": 284.5,
+        "52WeekLow": 154.5,
+        "peTTM": 29.3017,
+        "psTTM": 2.3596,
+        "netProfitMarginTTM": 8.05,
+        "roeTTM": 21.82,
+        "revenueGrowthTTMYoy": 8.85,
+        "epsGrowthTTMYoy": 13.01,
+        "currentRatioQuarterly": 0.8295,
+        "totalDebt/totalEquityQuarterly": 2.4125,
+        "marketCapitalization": 40846.504
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "IQVIA Holdings Inc",
+      "profile": {
+        "weburl": "https://ir.iqvia.com",
+        "industry": "Life Sciences Tools & Services",
+        "name": "IQVIA Holdings Inc"
+      },
+      "news": [
+        {
+          "headline": "ETFs Are Net Sellers of IQVIA (IQV) on Nov. 13",
+          "url": "https://finnhub.io/api/news?id=c2210f15a533030ec31fe3239bccab2ad9e49c2daa8c007dda7116c97f0573fe",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T11:03:03Z",
+          "primary": false,
+          "symbol": "IQV"
+        },
+        {
+          "headline": "IQVIA Stock Jumps 59% in 6 Months: Here's What You Should Know",
+          "url": "https://finnhub.io/api/news?id=7e2432447f8c30e3cdda2319a3b969ff0944f81e01a90d086424fe7607aa8fa4",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T14:12:00Z",
+          "primary": false,
+          "symbol": "IQV"
+        },
+        {
+          "headline": "iShares A.I. Innovation (BAI) Buys $11.9 Million More IQVIA on Nov. 11",
+          "url": "https://finnhub.io/api/news?id=dd9561acdaf1ee2c690fdbe17297dbbbff584b7bd051e5f24ef45626c564a62b",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T11:04:25Z",
+          "primary": false,
+          "symbol": "IQV"
+        }
+      ]
+    },
+    "JBHT": {
+      "metrics": {
+        "52WeekHigh": 299.76,
+        "52WeekLow": 158.15,
+        "peTTM": 31.0732,
+        "psTTM": 1.5765,
+        "netProfitMarginTTM": 5.07,
+        "roeTTM": 18.709999999999997,
+        "revenueGrowthTTMYoy": 10.59,
+        "epsGrowthTTMYoy": 23.08,
+        "currentRatioQuarterly": 1.2277,
+        "totalDebt/totalEquityQuarterly": 0.3093,
+        "marketCapitalization": 21007.771
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "J.B. Hunt Transport Services, Inc.",
+      "profile": {
+        "weburl": "https://www.jbhunt.com",
+        "industry": "Road & Rail",
+        "name": "J.B. Hunt Transport Services, Inc."
+      },
+      "news": [
+        {
+          "headline": "Groundtruth launches AI platform to automate freight billing with J.B. Hunt partnership",
+          "url": "https://finnhub.io/api/news?id=d8156a036e3fb560aab843e90eecc3e017dd09761b88118550141d2d904ecb35",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:41:03Z",
+          "primary": false,
+          "symbol": "JBHT"
+        },
+        {
+          "headline": "J.B. Hunt: Margin Pressures Limit Upside",
+          "url": "https://finnhub.io/api/news?id=6225301f4d9172d59d2f9c38efa109c7906e4f2be671733c1c727bf0ccb22cef",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T10:47:50Z",
+          "primary": false,
+          "symbol": "JBHT"
+        },
+        {
+          "headline": "Is J.B. Hunt Transport Services (JBHT) Priced Below Its Cash Flow Potential?",
+          "url": "https://finnhub.io/api/news?id=f338fa8ad58994ee1928bd5a1dd2270f41165a3d9017ee33e060ef94788c7a8f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:12:48Z",
+          "primary": false,
+          "symbol": "JBHT"
+        },
+        {
+          "headline": "J.B. Hunt Transport Services (JBHT) After Easing Cost Pressures And Fresh Wins Looks Undervalued",
+          "url": "https://finnhub.io/api/news?id=48e22c0a82eaae17d452a2d09746bd0ac5fbdafc967e396b7f47524aa0ab1db2",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:12:33Z",
+          "primary": false,
+          "symbol": "JBHT"
+        },
+        {
+          "headline": "Dedicated Fleet Demand Might Change The Case For Investing In J.B. Hunt Stock (JBHT)",
+          "url": "https://finnhub.io/api/news?id=4a5af26372585e185b13937f0eaa7e8a59507dd54303156a7818e7eaa71b8051",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:09:25Z",
+          "primary": false,
+          "symbol": "JBHT"
+        }
+      ]
+    },
+    "JBL": {
+      "metrics": {
+        "52WeekHigh": 428.9322,
+        "52WeekLow": 189.6,
+        "peTTM": 22.6257,
+        "psTTM": 0.6557,
+        "netProfitMarginTTM": 2.9,
+        "roeTTM": 74.11,
+        "revenueGrowthTTMYoy": 20.64,
+        "epsGrowthTTMYoy": 63.96,
+        "currentRatioQuarterly": 0.9929,
+        "totalDebt/totalEquityQuarterly": 2.0949,
+        "marketCapitalization": 23576.006
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Jabil Inc.",
+      "profile": {
+        "weburl": "https://www.jabil.com/",
+        "industry": "Electrical Equipment",
+        "name": "Jabil Inc."
+      },
+      "news": [
+        {
+          "headline": "JBL's Diverse Portfolio Propels Revenue Growth: Will It Persist?",
+          "url": "https://finnhub.io/api/news?id=a52582114c25956733cce3cab7c586c21bf3ed70cd394174c4ef386395bce042",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:31:00Z",
+          "primary": false,
+          "symbol": "JBL"
+        },
+        {
+          "headline": "Jabil (JBL) Registers a Bigger Fall Than the Market: Important Facts to Note",
+          "url": "https://finnhub.io/api/news?id=5a1b40d84b8d64c2002273196efeb6d048233d5c1a5f6c333b507393b57ab076",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T22:15:02Z",
+          "primary": false,
+          "symbol": "JBL"
+        },
+        {
+          "headline": "IBM vs. Jabil: Which Stock is Better Positioned for AI Growth Now?",
+          "url": "https://finnhub.io/api/news?id=36d4dfc5f987cff5aaac73ffd19d166135c5c68c762ff035b4b7d8bf6f17d8ff",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:08:00Z",
+          "primary": false,
+          "symbol": "JBL"
+        }
+      ]
+    },
+    "JKHY": {
+      "metrics": {
+        "52WeekHigh": 193.39,
+        "52WeekLow": 121.04,
+        "peTTM": 23.3555,
+        "psTTM": 4.6619,
+        "netProfitMarginTTM": 19.96,
+        "roeTTM": 24.46,
+        "revenueGrowthTTMYoy": 7.53,
+        "epsGrowthTTMYoy": 10.6,
+        "currentRatioQuarterly": 1.3751,
+        "totalDebt/totalEquityQuarterly": 0.0405,
+        "marketCapitalization": 12126.1875
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Jack Henry & Associates Inc",
+      "profile": {
+        "weburl": "https://www.jackhenry.com/",
+        "industry": "Financial Services",
+        "name": "Jack Henry & Associates Inc"
+      },
+      "news": [
+        {
+          "headline": "Jack Henry (JKHY) Stands Out as One of the Best IT Services Stocks to Look at",
+          "url": "https://finnhub.io/api/news?id=ba622b794d94042fe082cfb9726ff1efed32a6477c965abdf0fcc449205f4f5b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T17:16:12Z",
+          "primary": false,
+          "symbol": "JKHY"
+        },
+        {
+          "headline": "Jack Henry Named One of America's Best Companies in Forbes Ranking",
+          "url": "https://finnhub.io/api/news?id=94682e36ad3b74ecb20f71f7e53e053cf7ae9ce3b13733f7a754bffd6a9a9f6e",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T15:02:00Z",
+          "primary": false,
+          "symbol": "JKHY"
+        },
+        {
+          "headline": "Should Jack Henry Stock Holders Look At Corpay Instead?",
+          "url": "https://finnhub.io/api/news?id=a68647986b7142ced3f57cdc93a8c8b1dfa715648ac49bc767018343c08afb4c",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T11:42:12Z",
+          "primary": false,
+          "symbol": "JKHY"
+        }
+      ]
+    },
+    "J": {
+      "metrics": {
+        "52WeekHigh": 162.0,
+        "52WeekLow": 105.68,
+        "peTTM": 52.6319,
+        "psTTM": 1.2527,
+        "netProfitMarginTTM": 2.38,
+        "roeTTM": 9.92,
+        "revenueGrowthTTMYoy": 60.21,
+        "epsGrowthTTMYoy": 103.6,
+        "currentRatioQuarterly": 1.2874,
+        "totalDebt/totalEquityQuarterly": 1.0965,
+        "marketCapitalization": 17812.107
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Jacobs Solutions Inc",
+      "profile": {
+        "weburl": "https://www.jacobs.com/",
+        "industry": "Professional Services",
+        "name": "Jacobs Solutions Inc"
+      },
+      "news": [
+        {
+          "headline": "Jacobs (J) Stock May Be A Bargain Despite Fresh Airport Upgrade Wins",
+          "url": "https://finnhub.io/api/news?id=f8bac29276c63429aabed210f671e673574bb95e25d31158951fea12b4b94a93",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:17:34Z",
+          "primary": false,
+          "symbol": "J"
+        },
+        {
+          "headline": "Jacobs Solutions (J) Lands Sanofi Project Following Questions Over Whether Shares Are Fully Valued",
+          "url": "https://finnhub.io/api/news?id=53b1c77f8298a93081062762807ff7932c06fa123e8f10549ff46f0bd06300c6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T20:11:19Z",
+          "primary": false,
+          "symbol": "J"
+        },
+        {
+          "headline": "How to Earn $500 a Month From Jacobs Solutions Stock Ahead of Q4 Earnings",
+          "url": "https://finnhub.io/api/news?id=dcf31797ececda8063ca4007bf980d9b9565d2377c4923e9db442287c610fd6b",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T08:42:32Z",
+          "primary": false,
+          "symbol": "J"
+        },
+        {
+          "headline": "Data Center Engineering Firm Jacobs Solutions In Buy Zone Ahead Of Earnings",
+          "url": "https://finnhub.io/api/news?id=99dc0d7726516d1e83ee36986be0d80c89c05cac576ab47069e3526107810d82",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:52:46Z",
+          "primary": false,
+          "symbol": "J"
+        },
+        {
+          "headline": "Jacobs to Report Q4 Earnings: What to Expect From the Stock?",
+          "url": "https://finnhub.io/api/news?id=6608086be3b8fc40378df11853904815fdc53fe7323bba6085af1cee9a045b69",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:40:00Z",
+          "primary": false,
+          "symbol": "J"
+        }
+      ]
+    },
+    "KEY": {
+      "metrics": {
+        "52WeekHigh": 24.065,
+        "52WeekLow": 17.18,
+        "peTTM": 9.977,
+        "psTTM": 1.67174,
+        "netProfitMarginTTM": 19.17544,
+        "roeTTM": 10.879999999999999,
+        "revenueGrowthTTMYoy": 57.09544,
+        "epsGrowthTTMYoy": 107.09,
+        "totalDebt/totalEquityQuarterly": 0.9381,
+        "marketCapitalization": 21151.275
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "KeyCorp",
+      "profile": {
+        "weburl": "https://www.key.com",
+        "industry": "Banking",
+        "name": "KeyCorp"
+      },
+      "news": [
+        {
+          "headline": "KeyCorp (KEY) Down 2.6% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=1261a19fd6b58e0a5e75283132d69deef407274750e5c8b43a5d21ab2ee85c6d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:30:05Z",
+          "primary": false,
+          "symbol": "KEY"
+        },
+        {
+          "headline": "KeyCorp (KEY) Stock Looks Below Fair Value On Current Estimates",
+          "url": "https://finnhub.io/api/news?id=14e5821ced24da0d9bc3b3dcdeec36518bd921e2987d0671004874635d1c5089",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:14:16Z",
+          "primary": false,
+          "symbol": "KEY"
+        },
+        {
+          "headline": "What KeyCorp (KEY)'s MMG Stake Means For Shareholders",
+          "url": "https://finnhub.io/api/news?id=7ffbaff82ce8c404170021e64448fe5b0742c8f7442e4a239e3c96e96aaa1423",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:14:00Z",
+          "primary": false,
+          "symbol": "KEY"
+        },
+        {
+          "headline": "Will KeyCorp's Investment in MMG Strengthen Its Real Estate Business?",
+          "url": "https://finnhub.io/api/news?id=43af1c041cac39c8da3d460c8289863fa761d4bb8153770f1fa9a5bb055b58e8",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:36:00Z",
+          "primary": false,
+          "symbol": "KEY"
+        },
+        {
+          "headline": "KEYCORP INVESTS IN MMG REAL ESTATE ADVISORS TO BUILD AN INTEGRATED INVESTMENT SALES AND FINANCING PLATFORM",
+          "url": "https://finnhub.io/api/news?id=f239e2faf308d6d5716ada6b13f4f84dcb5e951b2ff5a17d6190f762433e4bad",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T15:04:00Z",
+          "primary": false,
+          "symbol": "KEY"
+        }
+      ]
+    },
+    "KEYS": {
+      "metrics": {
+        "52WeekHigh": 389.93,
+        "52WeekLow": 167.23,
+        "peTTM": 38.024,
+        "psTTM": 7.279,
+        "netProfitMarginTTM": 19.14,
+        "roeTTM": 20.169999999999998,
+        "revenueGrowthTTMYoy": 25.54,
+        "epsGrowthTTMYoy": 131.85,
+        "currentRatioQuarterly": 2.0237,
+        "totalDebt/totalEquityQuarterly": 0.383,
+        "marketCapitalization": 47910.28
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Keysight Technologies, Inc.",
+      "profile": {
+        "weburl": "https://www.keysight.com/us/en/home.html",
+        "industry": "Electrical Equipment",
+        "name": "Keysight Technologies, Inc."
+      },
+      "news": [
+        {
+          "headline": "Keysight Technologies (KEYS) Stock Could Be Cheap After A 107% Run",
+          "url": "https://finnhub.io/api/news?id=736260befd547485e3e408561ffbd743f209fb72ec4f53ca9a3fb12086080a61",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:10:11Z",
+          "primary": false,
+          "symbol": "KEYS"
+        },
+        {
+          "headline": "Keysight (KEYS) Q4 2026 Earnings Call Transcript",
+          "url": "https://finnhub.io/api/news?id=a01c66e90d07795cc93c5ab0bf1ff941fd1c09cb06617651f5f0bcc166874801",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:34:08Z",
+          "primary": false,
+          "symbol": "KEYS"
+        },
+        {
+          "headline": "What Does Keysight Technologies (KEYS) New 6G UAV Lab Push Mean?",
+          "url": "https://finnhub.io/api/news?id=b49ef050ff89ba902701d2fdaa6010e3f74d6e7b80e74ef93ad4a46d54111e9c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:10:52Z",
+          "primary": false,
+          "symbol": "KEYS"
+        },
+        {
+          "headline": "KEYS Q4 Earnings Surpass Expectations on Strong AI Demand",
+          "url": "https://finnhub.io/api/news?id=e3b20d2f6ff7669135ed98ee34fe1d97edae9be8c996472f9612379a93bc12f7",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:16:00Z",
+          "primary": false,
+          "symbol": "KEYS"
+        },
+        {
+          "headline": "Keysight Q4 Earnings Call Takeaways as AI Demand Strains Supply",
+          "url": "https://finnhub.io/api/news?id=5831cb9ef275b5ef7e9fa579b3a809775d1cb23e509b126ac9a4b14c61b576ca",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:00:00Z",
+          "primary": false,
+          "symbol": "KEYS"
+        }
+      ]
+    },
+    "KIM": {
+      "metrics": {
+        "52WeekHigh": 26.645,
+        "52WeekLow": 19.76,
+        "peTTM": 22.7244,
+        "psTTM": 7.7398,
+        "netProfitMarginTTM": 34.06,
+        "roeTTM": 7.2700000000000005,
+        "revenueGrowthTTMYoy": 3.5,
+        "epsGrowthTTMYoy": 25.59,
+        "currentRatioQuarterly": 1.2172,
+        "totalDebt/totalEquityQuarterly": 0.8341,
+        "marketCapitalization": 17007.62
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Kimco Realty Corp",
+      "profile": {
+        "weburl": "https://www.kimcorealty.com/",
+        "industry": "Real Estate",
+        "name": "Kimco Realty Corp"
+      },
+      "news": [
+        {
+          "headline": "A $300,000 Portfolio in Kimco Realty, Eversource and Nike Pays $13,643 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=99da0282bb9b840f7b6b31352a92e283932040e10876680cac92c07e0668ce7a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:50:56Z",
+          "primary": false,
+          "symbol": "KIM"
+        },
+        {
+          "headline": "A $1,200,000 Portfolio in Clorox, Kimco Realty and Eversource Pays $54,576 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=9a3d2467a90e421399a78da8fc1f382f143d6fc7583305214de601f98738eb8c",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:20:22Z",
+          "primary": false,
+          "symbol": "KIM"
+        },
+        {
+          "headline": "A $1,500,000 Portfolio in Kimco Realty, Camden Property Trust and STAG Industrial Pays $64,784 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=e074f0469b1948e31b389f545d5149f2f31456a539c22283372417dbd1426673",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T00:05:16Z",
+          "primary": false,
+          "symbol": "KIM"
+        }
+      ]
+    },
+    "KHC": {
+      "metrics": {
+        "52WeekHigh": 28.09,
+        "52WeekLow": 21.035,
+        "psTTM": 1.2071,
+        "netProfitMarginTTM": -13.64,
+        "roeTTM": -8.44,
+        "revenueGrowthTTMYoy": -1.62,
+        "currentRatioQuarterly": 1.0614,
+        "totalDebt/totalEquityQuarterly": 0.5277,
+        "marketCapitalization": 30057.418
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "The Kraft Heinz Company",
+      "profile": {
+        "weburl": "https://www.kraftheinzcompany.com",
+        "industry": "Food Products",
+        "name": "The Kraft Heinz Company"
+      },
+      "news": [
+        {
+          "headline": "TotalEnergies or Kraft Heinz: The One Dividend Stock I’d Hold for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=a7f1dd46421f73c20e4eb91ed7db927b6d2240ab532d7ba3b58234ccaf754d9d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:20:37Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
+        {
+          "headline": "Better Dividend Stock for Retirees: Plains All American vs. Kraft Heinz",
+          "url": "https://finnhub.io/api/news?id=7f033947f0279637be0c5dfca997f3c9f2738449da05a02be0dfd9d4f80846f5",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:57:02Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
+        {
+          "headline": "After Investor Day, Kraft Heinz Is Still A Better House In A Bad Neighborhood",
+          "url": "https://finnhub.io/api/news?id=80e5846d369759bf3b92d52226ec63e26ef00a6cca2fb78a5d44293d3b66ff1a",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T15:11:49Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
+        {
+          "headline": "Kraft Heinz (NYSE:KHC) Lines Up a High-Quality Technical Breakout Setup",
+          "url": "https://finnhub.io/api/news?id=3ec3dec81e1862f57338d5d3f9a7d8f9f5f85f2d51d9206ff1306e5b38a43f32",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T13:51:00Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
+        {
+          "headline": "Kraft Heinz CEO calls shoppers ‘fragile’ as 2027 price hikes loom. Fed’s Waller: Inflation ‘too high.’ Protect your cash",
+          "url": "https://finnhub.io/api/news?id=842f321e54662a3322ed3a2699d7b4bf7521017cfbc5e6348d736d9d84e70c3f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:00:00Z",
+          "primary": false,
+          "symbol": "KHC"
+        }
+      ]
+    },
+    "KR": {
+      "metrics": {
+        "52WeekHigh": 76.58,
+        "52WeekLow": 54.15,
+        "peTTM": 37.5364,
+        "psTTM": 0.2727,
+        "netProfitMarginTTM": 0.73,
+        "roeTTM": 3.47,
+        "revenueGrowthTTMYoy": 1.58,
+        "epsGrowthTTMYoy": -53.13,
+        "currentRatioQuarterly": 0.7018,
+        "totalDebt/totalEquityQuarterly": 2.9075,
+        "marketCapitalization": 40726.996
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Kroger Co",
+      "profile": {
+        "weburl": "https://www.thekrogerco.com/",
+        "industry": "Retail",
+        "name": "Kroger Co"
+      },
+      "news": [
+        {
+          "headline": "Is Kroger (KR) Undervalued Or Is Its Cash Flow Already Priced In?",
+          "url": "https://finnhub.io/api/news?id=dd3c40187df0e7470191274513c99df9be6385ce4d72c17f428a42921039f899",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T02:11:32Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "Kroger (KR) Report Says Its Baby Food Exceeded FDA Lead Guidance",
+          "url": "https://finnhub.io/api/news?id=ef3d79a7afb9eb27cf0dc75d4e950ad89bfe561b792c3ebfc29524ce23e3ccf6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:12:34Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "Edible Garden Partners with Walmart, Hannaford, Kroger, Meijer, Target and Wakefern/ShopRite to Help Keep Fresh Herbs Affordable This Thanksgiving",
+          "url": "https://finnhub.io/api/news?id=5ecfb35f21eb03ed11934a5696eed26611ca2a33d6d0b24f7a82e3408dd82141",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:48:00Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "Kroger's Stellar Upside Likely Isn't Over Yet",
+          "url": "https://finnhub.io/api/news?id=106ff196b8be2de5d5b1a3d5171d784857080fa24218a7cfdc509cf6670d7f07",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T09:58:10Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "$1000 Invested In Kroger 20 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=351f51065ecf21b6c8496b55cd1a0eea841c5a84f5b07e834da0ebdc46603fb5",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T18:01:01Z",
+          "primary": false,
+          "symbol": "KR"
+        }
+      ]
+    },
+    "LHX": {
+      "metrics": {
+        "52WeekHigh": 379.23,
+        "52WeekLow": 232.3427,
+        "peTTM": 22.9794,
+        "psTTM": 2.013,
+        "netProfitMarginTTM": 8.76,
+        "roeTTM": 10.05,
+        "revenueGrowthTTMYoy": 7.33,
+        "epsGrowthTTMYoy": 17.1,
+        "currentRatioQuarterly": 1.1959,
+        "totalDebt/totalEquityQuarterly": 0.518,
+        "marketCapitalization": 46969.938
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "L3Harris Technologies, Inc.",
+      "profile": {
+        "weburl": "https://www.l3harris.com",
+        "industry": "Aerospace & Defense",
+        "name": "L3Harris Technologies, Inc."
+      },
+      "news": [
+        {
+          "headline": "L3Harris Technologies (LHX) Router Outage Puts Air Traffic Upgrades In Focus",
+          "url": "https://finnhub.io/api/news?id=a53b105f45556660d2a9efe9065a05b4eb85691b3ef7ffad762127f7387ecdbb",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T04:33:54Z",
+          "primary": false,
+          "symbol": "LHX"
+        }
+      ]
+    },
+    "LH": {
+      "metrics": {
+        "52WeekHigh": 375.1,
+        "52WeekLow": 245.0,
+        "peTTM": 29.8337,
+        "psTTM": 2.0524,
+        "netProfitMarginTTM": 6.88,
+        "roeTTM": 11.540000000000001,
+        "revenueGrowthTTMYoy": 6.02,
+        "epsGrowthTTMYoy": 19.73,
+        "currentRatioQuarterly": 1.4067,
+        "totalDebt/totalEquityQuarterly": 0.6689,
+        "marketCapitalization": 29953.055
+      },
+      "updated_at": "2026-11-21T08:56:50Z",
+      "name": "Labcorp Holdings Inc.",
+      "profile": {
+        "weburl": "https://www.labcorp.com/",
+        "industry": "Health Care",
+        "name": "Labcorp Holdings Inc."
+      },
+      "news": [
+        {
+          "headline": "If You Invested $100 In Labcorp Holdings Stock 20 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=9f792e38acce2193cc58ca8193a271a5906dd69ca9ac2e7e744de27694f9d601",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T19:15:32Z",
+          "primary": false,
+          "symbol": "LH"
+        },
+        {
+          "headline": "OTraces Selects Labcorp to Perform Biomarker Testing for Florida Department of Health–Funded Prostate Cancer Study",
+          "url": "https://finnhub.io/api/news?id=eee00a061c3463d93a3acf340dffc3cb18797879bc89efa63aac699c513d4f29",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:30:00Z",
+          "primary": false,
+          "symbol": "LH"
+        },
+        {
+          "headline": "OTraces Selects Labcorp To Perform Reference Laboratory Testing For Florida Department Of Health–Funded Clinical Trial Evaluating OTraces Blood-Based Prostate Cancer Diagnostic Platform",
+          "url": "https://finnhub.io/api/news?id=4117064567060911a642ea7ab778a89548c5106bf752dd5b34c55e5cddaceca6",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:36:30Z",
+          "primary": false,
+          "symbol": "LH"
+        },
+        {
+          "headline": "Labcorp to Expand Clinical Trial Operations in Brazil with Dedicated Kit Assembly and Future Laboratory Operations through Collaboration with Grupo Fleury",
+          "url": "https://finnhub.io/api/news?id=552ddb223589251d40f810d4f6f4427d92492d58f278f1d0cbe85a4efe1fc9d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T21:30:00Z",
+          "primary": false,
+          "symbol": "LH"
+        },
+        {
+          "headline": "Labcorp Collaborates With Grupo Fleury To Expand Clinical Trial Operations In Brazil",
+          "url": "https://finnhub.io/api/news?id=1a404f7006fb4a029eac5c92cd301468159015f7c896bdbabbb8b438543800cc",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T17:31:17Z",
+          "primary": false,
+          "symbol": "LH"
+        }
+      ]
     }
   },
-  "cursor": 380,
-  "updated_at": "2026-11-21T07:19:33Z"
+  "cursor": 392,
+  "updated_at": "2026-11-21T08:56:50Z"
 }
