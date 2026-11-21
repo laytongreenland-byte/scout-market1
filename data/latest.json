@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T18:56:48Z",
+  "generated_at": "2026-11-21T19:54:26Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 509,
+    "financially_screened": 520,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T18:56:48Z",
+      "checked_at": "2026-11-21T19:54:26Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T18:56:48Z",
+      "checked_at": "2026-11-21T19:54:26Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T18:56:48Z",
+      "checked_at": "2026-11-21T19:54:26Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T18:56:48Z",
+      "checked_at": "2026-11-21T19:54:26Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T18:56:48Z",
+      "checked_at": "2026-11-21T19:54:26Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T18:56:48Z",
+    "generated_at": "2026-11-21T19:54:26Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 509,
+    "screened_with_financials": 520,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -13469,70 +13469,70 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
-        "symbol": "DECK",
-        "name": "Deckers Outdoor Corporation",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 10.5×; TTM revenue growth 6.3% YoY",
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "industry": "Technology",
+        "why": "Net profit margin 12.3% (TTM); Return on equity 16.8% (TTM); Trailing P/E 34.2×; TTM revenue growth 13.3% YoY",
         "risks": [
-          "Price near reported 52-week low"
+          "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$77.94",
+            "value": "$174.52",
             "timestamp": "2026-11-20T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:33:27Z",
+            "timestamp": "2026-11-21T19:54:26Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
-            "timestamp": "2026-11-17T13:00:03Z",
-            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563"
+            "value": "Workday (WDAY) Expands Payroll Reach, Is The Stock Now Cheap?",
+            "timestamp": "2026-11-20T00:18:07Z",
+            "url": "https://finnhub.io/api/news?id=cdf8a9e955ae16bfbfcd24b5c8d69e18530d0fad8bdbba8072f76d35df82a4dc"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:33:27Z",
-        "price": 77.94,
+        "fundamentals_at": "2026-11-21T19:54:26Z",
+        "price": 174.52,
         "currency": "USD",
-        "change_pct": -1.279,
+        "change_pct": 0.669,
         "news": [
           {
-            "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
-            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
+            "headline": "Workday (WDAY) Expands Payroll Reach, Is The Stock Now Cheap?",
+            "url": "https://finnhub.io/api/news?id=cdf8a9e955ae16bfbfcd24b5c8d69e18530d0fad8bdbba8072f76d35df82a4dc",
             "source": "Yahoo",
-            "published_at": "2026-11-17T13:00:03Z",
+            "published_at": "2026-11-20T00:18:07Z",
             "primary": false,
-            "symbol": "DECK"
+            "symbol": "WDAY"
           },
           {
-            "headline": "Deckers: Time To Dip A Toe In",
-            "url": "https://finnhub.io/api/news?id=b8b44e1a413a24a79c8444a1566b3df019ecec52f19eb2803a532fe3c9bcad82",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-17T04:46:08Z",
+            "headline": "What Would A Short Seller Say About Workday?",
+            "url": "https://finnhub.io/api/news?id=04bf19dd2e8a3e0c2fc9b2021a19d5ba5c4647b7f84f3e266866093366e3f99d",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T22:13:44Z",
             "primary": false,
-            "symbol": "DECK"
+            "symbol": "WDAY"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 98.1,
-          "entry_floor": 88.29,
-          "exit_review_low": 125.77,
-          "exit_review_high": 147.65,
-          "bear_case": 70.68,
-          "scenario_upside_pct": 61.4,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 76.84,
+          "entry_floor": 69.16,
+          "exit_review_low": 98.52,
+          "exit_review_high": 118.11,
+          "bear_case": 53.71,
+          "scenario_upside_pct": -43.5,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -13544,15 +13544,15 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 10.53,
-            "earnings_growth_assumed_pct": 2.85,
-            "scenario_exit_pe": 16.52,
+            "trailing_pe": 34.18,
+            "earnings_growth_assumed_pct": 6.01,
+            "scenario_exit_pe": 18.2,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T07:33:27Z"
+            "metrics_retrieved_at": "2026-11-21T19:54:26Z"
           }
         },
-        "ranking_score": 75,
+        "ranking_score": 76,
         "rank_method": "FINANCIAL RULES"
       }
     ],
@@ -13646,6 +13646,94 @@
       }
     ],
     "entry_watch": [
+      {
+        "symbol": "WDC",
+        "name": "Western Digital Corp",
+        "status": "WATCH",
+        "score": 66,
+        "industry": "Technology",
+        "why": "Net profit margin 69.2% (TTM); Return on equity 113.8% (TTM); Trailing P/E 11.0×; TTM revenue growth 43.0% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured",
+          "Large one-session price move (-12.0%)"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$261.11",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T19:54:26Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals",
+            "timestamp": "2026-11-21T13:40:48Z",
+            "url": "https://finnhub.io/api/news?id=42807ce1bc6cd5500c7d3fff087d5fed50346391f2e7501fc94a02d666aa7c1e"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T19:54:26Z",
+        "price": 261.11,
+        "currency": "USD",
+        "change_pct": -12.019,
+        "news": [
+          {
+            "headline": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals",
+            "url": "https://finnhub.io/api/news?id=42807ce1bc6cd5500c7d3fff087d5fed50346391f2e7501fc94a02d666aa7c1e",
+            "source": "ChartMill",
+            "published_at": "2026-11-21T13:40:48Z",
+            "primary": false,
+            "symbol": "WDC"
+          },
+          {
+            "headline": "Stanley Druckenmiller and 11 Other Big Funds Bought Western Digital Last Quarter. Ken Fisher and 13 Others Sold. Who’s Right?",
+            "url": "https://finnhub.io/api/news?id=3174c5853df7af4849ebd9bf952c856456de4bde13693d79a899252994387e04",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T10:54:33Z",
+            "primary": false,
+            "symbol": "WDC"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "POSSIBLE VALUE TRAP",
+          "entry_ceiling": 448.33,
+          "entry_floor": 403.49,
+          "exit_review_low": 574.78,
+          "exit_review_high": 701.93,
+          "bear_case": 304.79,
+          "scenario_upside_pct": 120.1,
+          "reason": "Share price is beneath the downside scenario. Verify whether the business has deteriorated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 10.99,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 22.2,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T19:54:26Z"
+          }
+        },
+        "ranking_score": 66,
+        "rank_method": "FINANCIAL RULES"
+      },
       {
         "symbol": "HON",
         "name": "Honeywell International Inc.",
@@ -14256,93 +14344,6 @@
         },
         "ranking_score": 76,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "NEM",
-        "name": "Newmont Corporation",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Metals & Mining",
-        "why": "Net profit margin 34.7% (TTM); Return on equity 26.5% (TTM); Trailing P/E 11.4×; TTM revenue growth 23.7% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$94.68",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:10:18Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Newmont (NYSE:NEM) and the GARP Case for Growth at a Reasonable Price",
-            "timestamp": "2026-11-20T13:30:54Z",
-            "url": "https://finnhub.io/api/news?id=4e7000d85a2921250fd0a420446563fe77e004b04a9ad8caf0f3ed04b3e64d5e"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:10:18Z",
-        "price": 94.68,
-        "currency": "USD",
-        "change_pct": -5.367,
-        "news": [
-          {
-            "headline": "Newmont (NYSE:NEM) and the GARP Case for Growth at a Reasonable Price",
-            "url": "https://finnhub.io/api/news?id=4e7000d85a2921250fd0a420446563fe77e004b04a9ad8caf0f3ed04b3e64d5e",
-            "source": "ChartMill",
-            "published_at": "2026-11-20T13:30:54Z",
-            "primary": false,
-            "symbol": "NEM"
-          },
-          {
-            "headline": "Will Metals Sell Off Change Newmont (NEM) Stock Narrative",
-            "url": "https://finnhub.io/api/news?id=9f4dcb2c275b2596fa9e2e881f164531f2cf077c30f3e60db2f566cb40ce25d4",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T08:09:45Z",
-            "primary": false,
-            "symbol": "NEM"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 108.31,
-          "entry_floor": 99.14,
-          "exit_review_low": 186.96,
-          "exit_review_high": 228.31,
-          "bear_case": 99.14,
-          "scenario_upside_pct": 97.5,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 11.43,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 20.7,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T19:10:18Z"
-          }
-        },
-        "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "pricing_method": "Illustrative 12-month earnings-multiple and 52-week-range scenarios; not analyst consensus, proven fair value or automated trade instructions.",
@@ -14757,7 +14758,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 509,
+      "recorded_signals": 520,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14775,23 +14776,183 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T18:56:48Z",
+      "generated_at": "2026-11-21T19:54:26Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 384,
-        "purchase_scenarios": 29,
+        "recorded": 392,
+        "purchase_scenarios": 30,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 29,
+        "waiting": 30,
         "unverified": 0,
-        "skipped": 355,
+        "skipped": 362,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|WST|ABOVE BASE CASE",
+          "symbol": "WST",
+          "name": "West Pharmaceutical Services, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 390.3,
+          "buy_ceiling": 132.26,
+          "sell_review": 169.57,
+          "risk": "High trailing earnings valuation",
+          "why": "Net profit margin 18.8% (TTM); Return on equity 21.1% (TTM); Trailing P/E 43.8×; TTM revenue growth 12.6% YoY",
+          "score": 71,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|WDC|POSSIBLE VALUE TRAP",
+          "symbol": "WDC",
+          "name": "Western Digital Corp",
+          "signal": "POSSIBLE VALUE TRAP",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 261.11,
+          "buy_ceiling": 448.33,
+          "sell_review": 574.78,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 69.2% (TTM); Return on equity 113.8% (TTM); Trailing P/E 11.0×; TTM revenue growth 43.0% YoY",
+          "score": 66,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|WSM|ABOVE BASE CASE",
+          "symbol": "WSM",
+          "name": "Williams-Sonoma Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 210.7,
+          "buy_ceiling": 118.64,
+          "sell_review": 152.1,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 15.0% (TTM); Return on equity 58.9% (TTM); Trailing P/E 21.9×; TTM revenue growth 2.5% YoY",
+          "score": 70,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|WTW|NO RELIABLE PRICE RANGE",
+          "symbol": "WTW",
+          "name": "Willis Towers Watson Public Limited Company",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 331.01,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Earnings per share declining",
+          "why": "Net profit margin 15.2% (TTM); Return on equity 19.9% (TTM); Trailing P/E 20.2×; TTM revenue growth 4.8% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|WDAY|ABOVE BASE CASE",
+          "symbol": "WDAY",
+          "name": "Workday, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 174.52,
+          "buy_ceiling": 76.84,
+          "sell_review": 98.52,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 12.3% (TTM); Return on equity 16.8% (TTM); Trailing P/E 34.2×; TTM revenue growth 13.3% YoY",
+          "score": 76,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|XYL|ABOVE BASE CASE",
+          "symbol": "XYL",
+          "name": "Xylem Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 94.66,
+          "buy_ceiling": 55.93,
+          "sell_review": 71.71,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 11.9% (TTM); Return on equity 10.0% (TTM); Trailing P/E 20.6×; TTM revenue growth 1.9% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ZBRA|ABOVE BASE CASE",
+          "symbol": "ZBRA",
+          "name": "Zebra Technologies Corp",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 301.53,
+          "buy_ceiling": 194.19,
+          "sell_review": 248.96,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 9.8% (TTM); Return on equity 17.1% (TTM); Trailing P/E 24.8×; TTM revenue growth 16.9% YoY",
+          "score": 73,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|ZTS|WAIT FOR ENTRY",
+          "symbol": "ZTS",
+          "name": "Zoetis Inc",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-21T19:54:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 79.11,
+          "buy_ceiling": 78.12,
+          "sell_review": 100.15,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 27.5% (TTM); Return on equity 69.2% (TTM); Trailing P/E 12.2×; TTM revenue growth 1.4% YoY",
+          "score": 63,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|VLTO|ABOVE BASE CASE",
           "symbol": "VLTO",
@@ -17031,170 +17192,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|HUBB|ABOVE BASE CASE",
-          "symbol": "HUBB",
-          "name": "Hubbell Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-21T06:02:26Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 403.66,
-          "buy_ceiling": 256.21,
-          "sell_review": 328.48,
-          "risk": "Price near reported 52-week low",
-          "why": "Net profit margin 13.8% (TTM); Return on equity 23.2% (TTM); Trailing P/E 23.6×; TTM revenue growth 16.0% YoY",
-          "score": 76,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|HBAN|NO RELIABLE PRICE RANGE",
-          "symbol": "HBAN",
-          "name": "Huntington Bancshares Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T06:02:26Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 14.28,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Earnings per share declining",
-          "why": "Net profit margin 31.2% (TTM); Return on equity 8.2% (TTM); Trailing P/E 11.7×; TTM revenue growth 59.0% YoY",
-          "score": 71,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|GRMN|ABOVE BASE CASE",
-          "symbol": "GRMN",
-          "name": "Garmin Ltd.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-21T05:03:10Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 268.04,
-          "buy_ceiling": 155.11,
-          "sell_review": 198.86,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 25.6% (TTM); Return on equity 21.9% (TTM); Trailing P/E 26.1×; TTM revenue growth 13.6% YoY",
-          "score": 77,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|IT|NO RELIABLE PRICE RANGE",
-          "symbol": "IT",
-          "name": "Gartner, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T05:03:10Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 174.49,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 14.8% (TTM); Return on equity 119.8% (TTM); Trailing P/E 11.4×; TTM revenue growth -0.2% YoY",
-          "score": 63,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|GEN|WAIT FOR ENTRY",
-          "symbol": "GEN",
-          "name": "Gen Digital Inc.",
-          "signal": "WAIT FOR ENTRY",
-          "decision_at": "2026-11-21T05:03:10Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 29.19,
-          "buy_ceiling": 24.71,
-          "sell_review": 41.32,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.5×; TTM revenue growth 16.9% YoY",
-          "score": 79,
-          "result": {
-            "status": "WAITING_TO_BUY",
-            "reason": "No later observed daily close has met the original buy ceiling"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|GIS|NO RELIABLE PRICE RANGE",
-          "symbol": "GIS",
-          "name": "General Mills Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T05:03:10Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 35.74,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Unprofitable on trailing net margin",
-          "why": "Net profit margin -4.9% (TTM); Return on equity -10.7% (TTM); TTM revenue growth -4.5% YoY; 27.9% below reported 52-week high",
-          "score": 22,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|GPN|NO RELIABLE PRICE RANGE",
-          "symbol": "GPN",
-          "name": "Global Payments Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T05:03:10Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 91.83,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Unprofitable on trailing net margin",
-          "why": "Net profit margin -11.2% (TTM); Return on equity -5.5% (TTM); TTM revenue growth 29.3% YoY; 10.8% below reported 52-week high",
-          "score": 33,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|GL|NO RELIABLE PRICE RANGE",
-          "symbol": "GL",
-          "name": "Globe Life Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T05:03:10Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 151.65,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 18.9% (TTM); Return on equity 19.1% (TTM); Trailing P/E 9.7×; TTM revenue growth 5.6% YoY",
-          "score": 79,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 92,
+      "legacy_research_flags": 93,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17204,14 +17205,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "DXCM",
-        "flagged_at": "2026-11-20T17:06:24Z",
-        "reference_price": 79.92,
-        "score": 77,
-        "price_at": "2026-11-20T17:09:04Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "ADSK",
@@ -17602,6 +17595,14 @@
         "flagged_at": "2026-11-21T16:55:12Z",
         "reference_price": 199.97,
         "score": 79,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "WDAY",
+        "flagged_at": "2026-11-21T19:54:26Z",
+        "reference_price": 174.52,
+        "score": 76,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],

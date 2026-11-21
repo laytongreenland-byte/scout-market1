@@ -4,17 +4,17 @@
       "metrics": {
         "52WeekHigh": 360.83,
         "52WeekLow": 243.42,
-        "peTTM": 38.4604,
-        "psTTM": 10.6164,
+        "peTTM": 38.0019,
+        "psTTM": 10.4899,
         "netProfitMarginTTM": 27.6,
         "roeTTM": 127.61,
         "revenueGrowthTTMYoy": 15.06,
         "epsGrowthTTMYoy": 20.31,
         "currentRatioQuarterly": 1.0232,
         "totalDebt/totalEquityQuarterly": 0.7147,
-        "marketCapitalization": 5083502.5
+        "marketCapitalization": 5022903.0
       },
-      "updated_at": "2026-11-20T05:42:10Z",
+      "updated_at": "2026-11-21T19:54:26Z",
       "name": "Apple Inc.",
       "profile": {
         "weburl": "https://www.apple.com/",
@@ -23,42 +23,42 @@
       },
       "news": [
         {
-          "headline": "Apple (AAPL) Stock Could Be 33% Overvalued On Fresh Service Outage Concerns",
-          "url": "https://finnhub.io/api/news?id=d194eb1b64440e60d388413f16ffa218fa98d02ca81c13178e3c363876ce1d1e",
+          "headline": "Mark Gurman Says Apple Is “Not Set Up to Move at the Pace of These AI Companies”",
+          "url": "https://finnhub.io/api/news?id=9bcf0e29db0ab51fe66abb2bbc9f4799832169a6fad5d888a7afd240abba0e7d",
           "source": "Yahoo",
-          "published_at": "2026-11-20T03:17:50Z",
+          "published_at": "2026-11-21T16:07:26Z",
           "primary": false,
           "symbol": "AAPL"
         },
         {
-          "headline": "1 Unstoppable Stock to Buy Before It Joins NVDA and AAPL in the $1 Trillion Club",
-          "url": "https://finnhub.io/api/news?id=4f82b251780aa7db8aa1944b697a8649176ccaf7a0a0167f826265319474ce94",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T00:52:02Z",
+          "headline": "Apple: The Hidden Risk Behind My Downgrade",
+          "url": "https://finnhub.io/api/news?id=7e5f3d0491365e8122c8107a82d1bea53f75d80f949f2caf4dd57af0000d4118",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T10:30:43Z",
           "primary": false,
           "symbol": "AAPL"
         },
         {
-          "headline": "Apple May Try to Challenge Meta for Personal Agent Supremacy",
-          "url": "https://finnhub.io/api/news?id=d3bd1f54c91f49844eb556ea25a0a0ba7bcc6a79f066b3ae3d022a1ba916c309",
+          "headline": "Startup sues Apple in India over tap-to-share contacts feature",
+          "url": "https://finnhub.io/api/news?id=998b6828ca68dd685d9e8fbcf9301358b4beed3322f19d275a6d581d0829706b",
           "source": "Yahoo",
-          "published_at": "2026-11-19T23:51:00Z",
+          "published_at": "2026-11-21T04:00:00Z",
           "primary": false,
           "symbol": "AAPL"
         },
         {
-          "headline": "S&P 500, Nasdaq, Dow End Lower As Anthropic Trading Debut Fails To Provide Adequate Confidence —  ANT, META, AAPL, GME In Focus",
-          "url": "https://finnhub.io/api/news?id=f651be9663f5e6db171be082b341381743ec55ca6369c463dcf5dc2c4cb4a997",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T23:01:05Z",
+          "headline": "Apple: Shows Us How To Win Without Joining The AI Bubble",
+          "url": "https://finnhub.io/api/news?id=508bc8593feda5af9660edbf4dae9b23acdb8bb2fae86f9249fd4c8e5b7d2238",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T03:45:20Z",
           "primary": false,
           "symbol": "AAPL"
         },
         {
-          "headline": "Apple Nears a Rare Long-Term DRAM Supply Deal With Samsung Electronics. What This Means for AAPL Stock.",
-          "url": "https://finnhub.io/api/news?id=073508e2c393d86a1848011b4dbf1b3f107e3e5075eded0e19d9a623157ac096",
+          "headline": "Apple (AAPL) Grows at 12% and Trades at 37 Times Earnings. Is It Worth It?",
+          "url": "https://finnhub.io/api/news?id=2b65ad0d05706854d0e57396615246e01f252c60f34aca03f0cb02f448324194",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:10:52Z",
+          "published_at": "2026-11-21T01:13:27Z",
           "primary": false,
           "symbol": "AAPL"
         }
@@ -29409,8 +29409,640 @@
           "symbol": "WEC"
         }
       ]
+    },
+    "WST": {
+      "metrics": {
+        "52WeekHigh": 438.27,
+        "52WeekLow": 223.83,
+        "peTTM": 43.7961,
+        "psTTM": 8.2378,
+        "netProfitMarginTTM": 18.81,
+        "roeTTM": 21.08,
+        "revenueGrowthTTMYoy": 12.55,
+        "epsGrowthTTMYoy": 32.12,
+        "currentRatioQuarterly": 2.8193,
+        "totalDebt/totalEquityQuarterly": 0.0714,
+        "marketCapitalization": 27981.3
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "West Pharmaceutical Services, Inc.",
+      "profile": {
+        "weburl": "https://www.westpharma.com/",
+        "industry": "Life Sciences Tools & Services",
+        "name": "West Pharmaceutical Services, Inc."
+      },
+      "news": [
+        {
+          "headline": "Reasons to Add West Pharmaceutical Stock to Your Portfolio Now",
+          "url": "https://finnhub.io/api/news?id=febd5fde9d2a385774a4b8d1e8a0330f48362edbb9f0198b30629a03901faf4f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:29:00Z",
+          "primary": false,
+          "symbol": "WST"
+        },
+        {
+          "headline": "West Pharmaceutical Services, Inc. (WST) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=bcddf13d90da4a8a24d827c3f2ba9a652a29f180b7629c9dc58ab2d53533efea",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T08:22:46Z",
+          "primary": false,
+          "symbol": "WST"
+        }
+      ]
+    },
+    "WDC": {
+      "metrics": {
+        "52WeekHigh": 799.87,
+        "52WeekLow": 132.43,
+        "peTTM": 10.9927,
+        "psTTM": 7.6066,
+        "netProfitMarginTTM": 69.2,
+        "roeTTM": 113.77,
+        "revenueGrowthTTMYoy": 43.02,
+        "epsGrowthTTMYoy": 268.84,
+        "currentRatioQuarterly": 1.434,
+        "totalDebt/totalEquityQuarterly": 0.0844,
+        "marketCapitalization": 110158.2
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Western Digital Corp",
+      "profile": {
+        "weburl": "https://www.westerndigital.com/",
+        "industry": "Technology",
+        "name": "Western Digital Corp"
+      },
+      "news": [
+        {
+          "headline": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals",
+          "url": "https://finnhub.io/api/news?id=42807ce1bc6cd5500c7d3fff087d5fed50346391f2e7501fc94a02d666aa7c1e",
+          "source": "ChartMill",
+          "published_at": "2026-11-21T13:40:48Z",
+          "primary": false,
+          "symbol": "WDC"
+        },
+        {
+          "headline": "Stanley Druckenmiller and 11 Other Big Funds Bought Western Digital Last Quarter. Ken Fisher and 13 Others Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=3174c5853df7af4849ebd9bf952c856456de4bde13693d79a899252994387e04",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T10:54:33Z",
+          "primary": false,
+          "symbol": "WDC"
+        },
+        {
+          "headline": "Western Digital (WDC) Secures A US$1.5b Credit Facility, Is The Pullback A Buying Opportunity?",
+          "url": "https://finnhub.io/api/news?id=9fe84bc8346b64324a8c4bef3957022a604bb4bc4d77b542b250c781a9433d52",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T10:07:18Z",
+          "primary": false,
+          "symbol": "WDC"
+        },
+        {
+          "headline": "Credo Technology Group vs. Western Digital: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=e39b3e555f08776efc242bd0a2771ebfab9135fbab0f7c2e89fcdc8fa39b6797",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:17:08Z",
+          "primary": false,
+          "symbol": "WDC"
+        },
+        {
+          "headline": "Navitas Sinks 15%, Western Down 12%, Everpure Down 13% as AI Chip Rout Deepens",
+          "url": "https://finnhub.io/api/news?id=e575b463a0d8fb52d476dd9c255620fe722e05485e954bffcec001fc61d4ea5d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:50:51Z",
+          "primary": false,
+          "symbol": "WDC"
+        }
+      ]
+    },
+    "WY": {
+      "metrics": {
+        "52WeekHigh": 27.75,
+        "52WeekLow": 18.255,
+        "peTTM": 31.4262,
+        "psTTM": 2.0346,
+        "netProfitMarginTTM": 6.47,
+        "roeTTM": 4.81,
+        "revenueGrowthTTMYoy": -1.06,
+        "epsGrowthTTMYoy": 37.5,
+        "currentRatioQuarterly": 1.8172,
+        "totalDebt/totalEquityQuarterly": 0.5707,
+        "marketCapitalization": 14236.077
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Weyerhaeuser Company",
+      "profile": {
+        "weburl": "https://www.weyerhaeuser.com/",
+        "industry": "Real Estate",
+        "name": "Weyerhaeuser Company"
+      },
+      "news": [
+        {
+          "headline": "A $1,200,000 Portfolio in CareTrust REIT, Weyerhaeuser and HP Pays $50,247 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=42ed3eb9c4af914cc03f183df33ccef66bbf7da121e689c277557d2304ad5083",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:48:52Z",
+          "primary": false,
+          "symbol": "WY"
+        },
+        {
+          "headline": "Global Construction Wood Market Report 2026: Size, Share, Trends and Forecast to 2030 | Capitalize on Engineered Wood as Stora Enso, Weyerhaeuser, West Fraser and UPM Scale",
+          "url": "https://finnhub.io/api/news?id=448cce0a8d37e54a781fa8ccf9b6ee3b25043a602ce36de6f6218a645b767c9d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:50:00Z",
+          "primary": false,
+          "symbol": "WY"
+        },
+        {
+          "headline": "Global Decking Market Report 2026: Trends and Forecast to 2030 | Capitalize on $24.58B Composite Demand with Trex, Weyerhaeuser, UFP Industries, and Oldcastle APG",
+          "url": "https://finnhub.io/api/news?id=5eaa281a2924e81c94042409c627660d405044fc4a43ca79e6a580b07b50822c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:48:00Z",
+          "primary": false,
+          "symbol": "WY"
+        },
+        {
+          "headline": "Weyerhaeuser Announces Leadership and Organizational Changes",
+          "url": "https://finnhub.io/api/news?id=e934981cd770871b018acf3978b256cd8f2855853f2a0a22fa5781b0e3374ba2",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:20:00Z",
+          "primary": false,
+          "symbol": "WY"
+        }
+      ]
+    },
+    "WSM": {
+      "metrics": {
+        "52WeekHigh": 274.445,
+        "52WeekLow": 165.51,
+        "peTTM": 21.8726,
+        "psTTM": 3.2906,
+        "netProfitMarginTTM": 15.04,
+        "roeTTM": 58.86,
+        "revenueGrowthTTMYoy": 2.55,
+        "epsGrowthTTMYoy": 14.66,
+        "currentRatioQuarterly": 1.4537,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 26698.531
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Williams-Sonoma Inc",
+      "profile": {
+        "weburl": "https://www.williams-sonomainc.com/",
+        "industry": "Retail",
+        "name": "Williams-Sonoma Inc"
+      },
+      "news": [
+        {
+          "headline": "Williams-Sonoma: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=e49b565ad980ea08970715348bd8b6abb856af1cd08aff7e2ea804e93bf38608",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:00:06Z",
+          "primary": false,
+          "symbol": "WSM"
+        },
+        {
+          "headline": "Williams-Sonoma's Removal of Long-Term Guidance Raises Questions About 2027 Positioning, RBC Says",
+          "url": "https://finnhub.io/api/news?id=11ff0727e268e99bda4a8c4c98af986fd616c5c6790a4bcd3b50b4e3c802f30a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:22:40Z",
+          "primary": false,
+          "symbol": "WSM"
+        },
+        {
+          "headline": "Cracks in the Crockery? Williams-Sonoma Insiders Sell Shares",
+          "url": "https://finnhub.io/api/news?id=13a2986aff0433ed04f78f858ad9c050658395886f4bd25103e2eff8b7740b60",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:05:00Z",
+          "primary": false,
+          "symbol": "WSM"
+        },
+        {
+          "headline": "Telsey Advisory Group Maintains Outperform on Williams-Sonoma, Lowers Price Target to $280",
+          "url": "https://finnhub.io/api/news?id=c87fdf453bfc55b82d4c4e9019e53615a20a7f18f7aa1e1e669b01f47dfea0a3",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T15:39:42Z",
+          "primary": false,
+          "symbol": "WSM"
+        },
+        {
+          "headline": "Citigroup Maintains Neutral on Williams-Sonoma, Lowers Price Target to $245",
+          "url": "https://finnhub.io/api/news?id=40cb52a74d293b2a84bff6f3c966deb36a790cd5b13c9835ec77752b6a409823",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T15:28:18Z",
+          "primary": false,
+          "symbol": "WSM"
+        }
+      ]
+    },
+    "WTW": {
+      "metrics": {
+        "52WeekHigh": 351.51,
+        "52WeekLow": 240.61,
+        "peTTM": 20.1713,
+        "psTTM": 3.0707,
+        "netProfitMarginTTM": 15.22,
+        "roeTTM": 19.919999999999998,
+        "revenueGrowthTTMYoy": 4.76,
+        "epsGrowthTTMYoy": -23.05,
+        "currentRatioQuarterly": 1.1037,
+        "totalDebt/totalEquityQuarterly": 0.8413,
+        "marketCapitalization": 31547.959
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Willis Towers Watson Public Limited Company",
+      "profile": {
+        "weburl": "https://www.wtwco.com/",
+        "industry": "Insurance",
+        "name": "Willis Towers Watson Public Limited Company"
+      },
+      "news": [
+        {
+          "headline": "Wells Fargo Maintains Overweight on Willis Towers Watson, Raises Price Target to $390",
+          "url": "https://finnhub.io/api/news?id=72e5a5a0cc8e1428e89f41e36eb752053e2fb11442383652e51938cbb81f46de",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:38:21Z",
+          "primary": false,
+          "symbol": "WTW"
+        },
+        {
+          "headline": "Willis Towers Watson: Not Much Compelling For Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=fdeefc98bed0d627300a67b1b510210cd59cfe338d804b8915adcec2c625aff3",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T22:34:00Z",
+          "primary": false,
+          "symbol": "WTW"
+        },
+        {
+          "headline": "WTW’s Kristy Banas Recognized with the 2026 N2Growth Leaders40 Top CHRO Award",
+          "url": "https://finnhub.io/api/news?id=6e054913c664ba8798667677b23fed2f1d83f631af1c026fc36ee127d30a4c3b",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:30:00Z",
+          "primary": false,
+          "symbol": "WTW"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Willis Towers Watson, Raises Price Target to $350",
+          "url": "https://finnhub.io/api/news?id=2b3c08a66bab4872b929eac0bc6052df4108c141dc3ae232b78f2ae8de99cf89",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T12:52:35Z",
+          "primary": false,
+          "symbol": "WTW"
+        }
+      ]
+    },
+    "WDAY": {
+      "metrics": {
+        "52WeekHigh": 236.8,
+        "52WeekLow": 110.36,
+        "peTTM": 34.1782,
+        "psTTM": 4.2104,
+        "netProfitMarginTTM": 12.32,
+        "roeTTM": 16.78,
+        "revenueGrowthTTMYoy": 13.35,
+        "epsGrowthTTMYoy": 127.88,
+        "currentRatioQuarterly": 0.9081,
+        "totalDebt/totalEquityQuarterly": 0.4627,
+        "marketCapitalization": 42756.973
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Workday, Inc.",
+      "profile": {
+        "weburl": "https://www.workday.com/",
+        "industry": "Technology",
+        "name": "Workday, Inc."
+      },
+      "news": [
+        {
+          "headline": "Workday (WDAY) Expands Payroll Reach, Is The Stock Now Cheap?",
+          "url": "https://finnhub.io/api/news?id=cdf8a9e955ae16bfbfcd24b5c8d69e18530d0fad8bdbba8072f76d35df82a4dc",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T00:18:07Z",
+          "primary": false,
+          "symbol": "WDAY"
+        },
+        {
+          "headline": "What Would A Short Seller Say About Workday?",
+          "url": "https://finnhub.io/api/news?id=04bf19dd2e8a3e0c2fc9b2021a19d5ba5c4647b7f84f3e266866093366e3f99d",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:13:44Z",
+          "primary": false,
+          "symbol": "WDAY"
+        },
+        {
+          "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
+          "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:00:00Z",
+          "primary": false,
+          "symbol": "WDAY"
+        },
+        {
+          "headline": "Can Healthy Top-Line Growth Benefit Workday's Q3 Earnings?",
+          "url": "https://finnhub.io/api/news?id=7c5b5e3dca7a3c1e9497eb923769067e8f13d4fbe33ab7300990667c8fc473e6",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T14:59:00Z",
+          "primary": false,
+          "symbol": "WDAY"
+        },
+        {
+          "headline": "Barclays Maintains Overweight on Workday, Lowers Price Target to $223",
+          "url": "https://finnhub.io/api/news?id=78a6082da4aedd0f87ed103b0acc2bc198bf4c1bb87518b2ef085542f1b3a86b",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T11:27:39Z",
+          "primary": false,
+          "symbol": "WDAY"
+        }
+      ]
+    },
+    "WYNN": {
+      "metrics": {
+        "52WeekHigh": 134.72,
+        "52WeekLow": 70.79,
+        "peTTM": 21.844,
+        "psTTM": 1.1356,
+        "netProfitMarginTTM": 5.2,
+        "roeTTM": -244.74999999999997,
+        "revenueGrowthTTMYoy": 2.22,
+        "epsGrowthTTMYoy": -22.74,
+        "currentRatioQuarterly": 0.9052,
+        "totalDebt/totalEquityQuarterly": 115.7379,
+        "marketCapitalization": 8254.099
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Wynn Resorts, Limited",
+      "profile": {
+        "weburl": "https://www.wynnresorts.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Wynn Resorts, Limited"
+      },
+      "news": [
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Wynn Resorts Stock?",
+          "url": "https://finnhub.io/api/news?id=ea19c999dc03c8fd309c3204b36c9073f3971ddd24f57aa6ed431ffae307b20c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T08:53:04Z",
+          "primary": false,
+          "symbol": "WYNN"
+        },
+        {
+          "headline": "MGM vs Wynn: operating scale against valuation upside",
+          "url": "https://finnhub.io/api/news?id=48605a804831299e0f5b713c6a1d5ea3cad56cb6e2414edc6cc6c96b2a3919e9",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T14:24:54Z",
+          "primary": false,
+          "symbol": "WYNN"
+        }
+      ]
+    },
+    "XYL": {
+      "metrics": {
+        "52WeekHigh": 146.55,
+        "52WeekLow": 87.4,
+        "peTTM": 20.5668,
+        "psTTM": 2.4565,
+        "netProfitMarginTTM": 11.94,
+        "roeTTM": 10.03,
+        "revenueGrowthTTMYoy": 1.86,
+        "epsGrowthTTMYoy": 16.41,
+        "currentRatioQuarterly": 1.3906,
+        "totalDebt/totalEquityQuarterly": 0.2819,
+        "marketCapitalization": 22253.314
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Xylem Inc",
+      "profile": {
+        "weburl": "https://www.xylem.com/",
+        "industry": "Machinery",
+        "name": "Xylem Inc"
+      },
+      "news": [
+        {
+          "headline": "Xylem Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=7891f96409abc785c25a2b265a27e0006f868fc051497d3f8d64f73b96b6fa4e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:39:10Z",
+          "primary": false,
+          "symbol": "XYL"
+        },
+        {
+          "headline": "What Xylem Investors Missed Before The Fall",
+          "url": "https://finnhub.io/api/news?id=a743955fe2b6623dcfc00ae304f9e155e86fe53408f59b13c2e1c8df393607c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:14:54Z",
+          "primary": false,
+          "symbol": "XYL"
+        },
+        {
+          "headline": "Xylem (XYL), What Is Behind The Fresh Attention?",
+          "url": "https://finnhub.io/api/news?id=aa548c342c922d8925ad23940b5badd5cb3667c10a9d85d116823b309cad3d24",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T10:17:39Z",
+          "primary": false,
+          "symbol": "XYL"
+        },
+        {
+          "headline": "Xylem (XYL) Stock May Be 37% Undervalued On Fresh Buyback News",
+          "url": "https://finnhub.io/api/news?id=10485913ac8e1062eb047ad10861abd1cb6e2db87ee26f0dc4768efb53985f33",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T07:14:32Z",
+          "primary": false,
+          "symbol": "XYL"
+        },
+        {
+          "headline": "Xylem Inc. Announces $1.5 Billion Share Repurchase Authorization",
+          "url": "https://finnhub.io/api/news?id=e27a699ad65c90efb44ca2dc055b0bd76b680a84f0e127d493019677b2dd7700",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T21:45:00Z",
+          "primary": false,
+          "symbol": "XYL"
+        }
+      ]
+    },
+    "ZBRA": {
+      "metrics": {
+        "52WeekHigh": 392.78,
+        "52WeekLow": 199.05,
+        "peTTM": 24.8241,
+        "psTTM": 2.4335,
+        "netProfitMarginTTM": 9.8,
+        "roeTTM": 17.130000000000003,
+        "revenueGrowthTTMYoy": 16.86,
+        "epsGrowthTTMYoy": 24.88,
+        "currentRatioQuarterly": 0.5672,
+        "totalDebt/totalEquityQuarterly": 0.7206,
+        "marketCapitalization": 14944.083
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Zebra Technologies Corp",
+      "profile": {
+        "weburl": "https://www.zebra.com/",
+        "industry": "Electrical Equipment",
+        "name": "Zebra Technologies Corp"
+      },
+      "news": [
+        {
+          "headline": "Zebra Technologies Sees 2027 Growth as Delivery Refreshes Offset Memory Cost Pressures",
+          "url": "https://finnhub.io/api/news?id=9f6eb409dbe7cabd64b95477c35f110217880402ae80acc2e201bab3f91e39e0",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T07:12:05Z",
+          "primary": false,
+          "symbol": "ZBRA"
+        },
+        {
+          "headline": "Zebra Technologies Releases 2025 Sustainability Report, Outlining Steady Progress Toward Key Goals",
+          "url": "https://finnhub.io/api/news?id=aa37f5a4f654988166ff86d1f515e1ed0a49cf48ef7160e566e3511633ee42e5",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:10:00Z",
+          "primary": false,
+          "symbol": "ZBRA"
+        },
+        {
+          "headline": "Purpose-Driven Innovation, Frontline AI Place Zebra Technologies Among TIME's Top Manufacturers in America",
+          "url": "https://finnhub.io/api/news?id=8ca45459e8e4c6d694ba489bf588d164b52fb692d44f9fd67f2bf7561b0337c8",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T15:56:00Z",
+          "primary": false,
+          "symbol": "ZBRA"
+        },
+        {
+          "headline": "Zebra Technologies Corporation (ZBRA) Presents at 2026 Stephens Annual Investment Conference | NASH2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=fe89a355981bc9aa1161b8867e804a8a10c21e66de73c8fa3d2db3ae2f7af640",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T12:42:51Z",
+          "primary": false,
+          "symbol": "ZBRA"
+        }
+      ]
+    },
+    "ZBH": {
+      "metrics": {
+        "52WeekHigh": 112.545,
+        "52WeekLow": 79.12,
+        "peTTM": 26.3388,
+        "psTTM": 2.3572,
+        "netProfitMarginTTM": 8.95,
+        "roeTTM": 6.05,
+        "revenueGrowthTTMYoy": 6.98,
+        "epsGrowthTTMYoy": -2.27,
+        "currentRatioQuarterly": 1.4644,
+        "totalDebt/totalEquityQuarterly": 0.5902,
+        "marketCapitalization": 20201.857
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Zimmer Biomet Holdings, Inc.",
+      "profile": {
+        "weburl": "https://www.zimmerbiomet.com/en",
+        "industry": "Health Care",
+        "name": "Zimmer Biomet Holdings, Inc."
+      },
+      "news": [
+        {
+          "headline": "Zimmer Biomet: Solid Sales And Cash Flow Drive A Buy",
+          "url": "https://finnhub.io/api/news?id=1b977afbe4e59251179cadb22cd1ada6763a80fd83272e9df630198ad2650b10",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T04:01:56Z",
+          "primary": false,
+          "symbol": "ZBH"
+        },
+        {
+          "headline": "Zimmer submits Monogram robot to FDA",
+          "url": "https://finnhub.io/api/news?id=c57fba9f1ad65d61a138c6b54833d683d75d907098528e4397d4e15bb41899de",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:46:43Z",
+          "primary": false,
+          "symbol": "ZBH"
+        },
+        {
+          "headline": "Is Zimmer Biomet Holdings (ZBH) Fairly Valued After Its Surgeon Guided Autonomy Rollout?",
+          "url": "https://finnhub.io/api/news?id=5857df64a028a78656565f7db89f6bc50b91dab0f7a32c9d2b9d86be7c01d88e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:13:27Z",
+          "primary": false,
+          "symbol": "ZBH"
+        },
+        {
+          "headline": "Can Zimmer Biomet Holdings (ZBH) Stay Cheap If Cash Flow Delivers?",
+          "url": "https://finnhub.io/api/news?id=8a7fe789cb4e3f11ac8e8fdb71d8eec8e8edb125dd14f0d8fe282ac4a55959bc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:12:51Z",
+          "primary": false,
+          "symbol": "ZBH"
+        },
+        {
+          "headline": "Zimmer Biomet Eyes Faster Growth in 2027, Targets Earlier Robotics Launch",
+          "url": "https://finnhub.io/api/news?id=1d3aa107a976749ed4a38f2e3d6894023a4ce9db99df882e4d44ffeb7dbdae79",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T18:15:50Z",
+          "primary": false,
+          "symbol": "ZBH"
+        }
+      ]
+    },
+    "ZTS": {
+      "metrics": {
+        "52WeekHigh": 132.49,
+        "52WeekLow": 68.77,
+        "peTTM": 12.1931,
+        "psTTM": 3.3516,
+        "netProfitMarginTTM": 27.49,
+        "roeTTM": 69.25,
+        "revenueGrowthTTMYoy": 1.41,
+        "epsGrowthTTMYoy": 4.59,
+        "currentRatioQuarterly": 3.0839,
+        "totalDebt/totalEquityQuarterly": 2.8742,
+        "marketCapitalization": 31897.182
+      },
+      "updated_at": "2026-11-21T19:54:26Z",
+      "name": "Zoetis Inc",
+      "profile": {
+        "weburl": "https://www.zoetis.com/",
+        "industry": "Pharmaceuticals",
+        "name": "Zoetis Inc"
+      },
+      "news": [
+        {
+          "headline": "Why Did Zoetis Stock Move?",
+          "url": "https://finnhub.io/api/news?id=406e71eaa9132363449bc7b53d84f8071a82a7f32b2caaccf385b2bd6d90ca60",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:15:11Z",
+          "primary": false,
+          "symbol": "ZTS"
+        },
+        {
+          "headline": "Poultry Vaccine License Could Change The Case For Zoetis Stock",
+          "url": "https://finnhub.io/api/news?id=ca83a952bca92a79b6043a48c181ff7095e2232038ec80434d02f36affacca90",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T20:17:29Z",
+          "primary": false,
+          "symbol": "ZTS"
+        },
+        {
+          "headline": "Learn Why The Bull Case For Zoetis (ZTS) Could Change Following USDA Poultry Vaccine License",
+          "url": "https://finnhub.io/api/news?id=413979a45b63d2ecf345beab8c72c72c77e5f520ab7a2d9baef8fda754f40056",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T19:13:51Z",
+          "primary": false,
+          "symbol": "ZTS"
+        },
+        {
+          "headline": "Is New Poultry Vaccine Altering The Investment Case For Zoetis Stock?",
+          "url": "https://finnhub.io/api/news?id=ca8a871f8556ad3300e282566ed4bdbd51232fa31c4e37e825f5fd5d1e8341b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:16:01Z",
+          "primary": false,
+          "symbol": "ZTS"
+        },
+        {
+          "headline": "Zoetis (ZTS) Climbed, So What Is Behind The Latest Attention?",
+          "url": "https://finnhub.io/api/news?id=aac63848614fd17189c7814f53a41a31ec16497975f5e4573c1e9e5c1bb4548f",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:12:47Z",
+          "primary": false,
+          "symbol": "ZTS"
+        }
+      ]
     }
   },
-  "cursor": 512,
-  "updated_at": "2026-11-21T18:56:48Z"
+  "cursor": 1,
+  "updated_at": "2026-11-21T19:54:26Z"
 }
