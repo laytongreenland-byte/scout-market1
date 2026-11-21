@@ -26160,8 +26160,654 @@
           "symbol": "RDDT"
         }
       ]
+    },
+    "REG": {
+      "metrics": {
+        "52WeekHigh": 83.66,
+        "52WeekLow": 66.86,
+        "peTTM": 25.816,
+        "psTTM": 8.2232,
+        "netProfitMarginTTM": 31.85,
+        "roeTTM": 7.64,
+        "revenueGrowthTTMYoy": 8.37,
+        "epsGrowthTTMYoy": 26.83,
+        "currentRatioQuarterly": 0.6606,
+        "totalDebt/totalEquityQuarterly": 0.7162,
+        "marketCapitalization": 13561.907
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Regency Centers Corp",
+      "profile": {
+        "weburl": "https://www.regencycenters.com/",
+        "industry": "Real Estate",
+        "name": "Regency Centers Corp"
+      },
+      "news": [
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Regency Stock?",
+          "url": "https://finnhub.io/api/news?id=e2d547077571402ffab5dd7921560b1e8602f4b9209154b8d69221092fa26fe4",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T03:47:12Z",
+          "primary": false,
+          "symbol": "REG"
+        }
+      ]
+    },
+    "RF": {
+      "metrics": {
+        "52WeekHigh": 32.47,
+        "52WeekLow": 24.03,
+        "peTTM": 10.1018,
+        "psTTM": 1.92217,
+        "netProfitMarginTTM": 30.49189,
+        "roeTTM": 12.32,
+        "revenueGrowthTTMYoy": 45.41902,
+        "epsGrowthTTMYoy": 11.33,
+        "totalDebt/totalEquityQuarterly": 0.5873,
+        "marketCapitalization": 23173.531
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Regions Financial Corporation",
+      "profile": {
+        "weburl": "https://www.regions.com/",
+        "industry": "Banking",
+        "name": "Regions Financial Corporation"
+      },
+      "news": [
+        {
+          "headline": "Is Regions Financial Well-Positioned to Sustain Strong Capital Returns?",
+          "url": "https://finnhub.io/api/news?id=36c66e3348e1cc954735f53d55c53a1190cd451e7b888bda9c39b06172f2ab17",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:48:00Z",
+          "primary": false,
+          "symbol": "RF"
+        },
+        {
+          "headline": "Marcie Braswell Named Executive Director of the Regions Foundation",
+          "url": "https://finnhub.io/api/news?id=3c2f92e44ff314fb31830794130720f224fa060e87c8f770be07211f8dcc8e30",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:00:00Z",
+          "primary": false,
+          "symbol": "RF"
+        }
+      ]
+    },
+    "RMD": {
+      "metrics": {
+        "52WeekHigh": 277.67,
+        "52WeekLow": 180.265,
+        "peTTM": 21.1519,
+        "psTTM": 5.8783,
+        "netProfitMarginTTM": 27.79,
+        "roeTTM": 25.14,
+        "revenueGrowthTTMYoy": 9.04,
+        "epsGrowthTTMYoy": 12.36,
+        "currentRatioQuarterly": 2.6498,
+        "totalDebt/totalEquityQuarterly": 0.0689,
+        "marketCapitalization": 33698.62
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "ResMed Inc.",
+      "profile": {
+        "weburl": "https://www.resmed.com/",
+        "industry": "Health Care",
+        "name": "ResMed Inc."
+      },
+      "news": [
+        {
+          "headline": "Is This the Right Time to Hold Resmed Stock in Your Portfolio?",
+          "url": "https://finnhub.io/api/news?id=58cd7725fda740b258ad0a88d12e84bd5691de017025aaf79a5188e45c88961c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:57:00Z",
+          "primary": false,
+          "symbol": "RMD"
+        },
+        {
+          "headline": "ResMed Inc. Reduces Board Size to ten (10) and Approves Fiscal Year 2027 PSU Award Design",
+          "url": "https://finnhub.io/api/news?id=5746f9401241632aea69d0dfd29f4ed5ee0a2ea50e6035645fa5c2764a7d3e3d",
+          "source": "Fintel",
+          "published_at": "2026-11-19T23:51:26Z",
+          "primary": false,
+          "symbol": "RMD"
+        },
+        {
+          "headline": "Global Virtual Sleep Clinics Market Report 2026: Forecast to 2030 | Capitalize on AI Diagnostics and Home Testing: ResMed, Philips, Teladoc, and Oura Drive Market to $3.46 Billion",
+          "url": "https://finnhub.io/api/news?id=53ee8e204884ab9a0e00d0141a5cfac575a1ae3e301d44bac04adca0fb63923b",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:34:00Z",
+          "primary": false,
+          "symbol": "RMD"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In ResMed 10 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=079edb858a05acd14bf91e71aeb51ed3bf69bef81516babefc52a34087fb4b02",
+          "source": "Benzinga",
+          "published_at": "2026-11-13T17:30:14Z",
+          "primary": false,
+          "symbol": "RMD"
+        }
+      ]
+    },
+    "RVTY": {
+      "metrics": {
+        "52WeekHigh": 171.74,
+        "52WeekLow": 81.22,
+        "peTTM": 64.1821,
+        "psTTM": 5.5242,
+        "netProfitMarginTTM": 8.61,
+        "roeTTM": 3.5000000000000004,
+        "revenueGrowthTTMYoy": 4.56,
+        "epsGrowthTTMYoy": 13.08,
+        "currentRatioQuarterly": 2.6535,
+        "totalDebt/totalEquityQuarterly": 0.3623,
+        "marketCapitalization": 16250.975
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Revvity, Inc.",
+      "profile": {
+        "weburl": "https://www.revvity.com",
+        "industry": "Life Sciences Tools & Services",
+        "name": "Revvity, Inc."
+      },
+      "news": [
+        {
+          "headline": "Revvity, Inc. (RVTY) Analyst/Investor Day - Slideshow",
+          "url": "https://finnhub.io/api/news?id=c3782eed68b6315f74421e2be984f65f361939785c491bc07c1d03160960be67",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T18:28:05Z",
+          "primary": false,
+          "symbol": "RVTY"
+        },
+        {
+          "headline": "Revvity, Inc. (RVTY) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+          "url": "https://finnhub.io/api/news?id=6cfa44b4acbc8544331edb3657c29298ec4cb88b28550d6f49a34881b8b6418a",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-17T05:32:45Z",
+          "primary": false,
+          "symbol": "RVTY"
+        },
+        {
+          "headline": "JP Morgan Maintains Neutral on Revvity, Raises Price Target to $165",
+          "url": "https://finnhub.io/api/news?id=39b578373205251914880c8b156a04ef4c067e90482124a107b98f7a17058898",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T14:09:59Z",
+          "primary": false,
+          "symbol": "RVTY"
+        }
+      ]
+    },
+    "HOOD": {
+      "metrics": {
+        "52WeekHigh": 139.75,
+        "52WeekLow": 63.515,
+        "peTTM": 28.2175,
+        "psTTM": 11.016,
+        "netProfitMarginTTM": 39.04,
+        "roeTTM": 20.919999999999998,
+        "revenueGrowthTTMYoy": 20.88,
+        "epsGrowthTTMYoy": -9.68,
+        "currentRatioQuarterly": 1.2439,
+        "totalDebt/totalEquityQuarterly": 2.2138,
+        "marketCapitalization": 55983.543
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Robinhood Markets, Inc.",
+      "profile": {
+        "weburl": "https://robinhood.com",
+        "industry": "Financial Services",
+        "name": "Robinhood Markets, Inc."
+      },
+      "news": [
+        {
+          "headline": "Robinhood's Quirk on ETFs and the Next Generation of Investors",
+          "url": "https://finnhub.io/api/news?id=b0694f33b36b03590976d2d006c6f3d69be4a483721ca60400c776feccb0e832",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:02:39Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "Coinbase Plans Its Own Prediction Markets by Mid-2027. That’s a New Rival for Robinhood",
+          "url": "https://finnhub.io/api/news?id=45ad5ab2bff291b5ccc5959c93e5d3cb85d3f1625103849d32d2a0123979c272",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:53:06Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "Acorns’ Private-Market Price Falls Over 46% As Robinhood’s Stock Loses Roughly 40% in a Year",
+          "url": "https://finnhub.io/api/news?id=12d33bfd0484467ef1ea12e6847c7521b684f5af3cbcbce9a000c6fa2dcfa4af",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T15:35:48Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "Robinhood Markets vs. Nu: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=fc78c91879e285258a88e3483f8921e05cc52900e5588c9f275ced8292fc2a46",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:15:02Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "Robinhood Just Dropped 29% in a Month. Is It Time to Sell, or Load Up?",
+          "url": "https://finnhub.io/api/news?id=e405a56d12e30e6abcca9b1a779c751ccf0c8846792913f4bb7fd53133dc4360",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:35:19Z",
+          "primary": false,
+          "symbol": "HOOD"
+        }
+      ]
+    },
+    "ROK": {
+      "metrics": {
+        "52WeekHigh": 497.36,
+        "52WeekLow": 347.53,
+        "peTTM": 34.1838,
+        "psTTM": 4.5754,
+        "netProfitMarginTTM": 13.38,
+        "roeTTM": 33.32,
+        "revenueGrowthTTMYoy": 11.31,
+        "epsGrowthTTMYoy": 24.94,
+        "currentRatioQuarterly": 1.0752,
+        "totalDebt/totalEquityQuarterly": 0.9325,
+        "marketCapitalization": 41054.684
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Rockwell Automation Inc",
+      "profile": {
+        "weburl": "https://www.rockwellautomation.com/en-in.html",
+        "industry": "Electrical Equipment",
+        "name": "Rockwell Automation Inc"
+      },
+      "news": [
+        {
+          "headline": "Rockwell Automation Raises Margin Target, Bets on Robots and AI at Investor Day",
+          "url": "https://finnhub.io/api/news?id=97b030f60724b96a32c7e23146fe8b995b4bb7edf0d27845cbccbd2a142ca11c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:12:24Z",
+          "primary": false,
+          "symbol": "ROK"
+        },
+        {
+          "headline": "Global Simulation Table Market Report 2026 | Capitalize on 9.2% CAGR to 2030 as Siemens, Schneider Electric, Rockwell Automation and Synopsys Accelerate AI and Cloud Platforms",
+          "url": "https://finnhub.io/api/news?id=4cee7e4ef1c182f746cb8819ada0939bac61b466b7da100b52a27df8f71ee053",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:41:00Z",
+          "primary": false,
+          "symbol": "ROK"
+        },
+        {
+          "headline": "ROK to Boost Intelligent Devices Segment With AGILOX Buyout",
+          "url": "https://finnhub.io/api/news?id=48375ab1cf972d55d037e7c0191c1abd1fe9163558b8c5e1af19c2efe44f640e",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T17:29:00Z",
+          "primary": false,
+          "symbol": "ROK"
+        },
+        {
+          "headline": "Mizuho Maintains Neutral on Rockwell Automation, Raises Price Target to $415",
+          "url": "https://finnhub.io/api/news?id=32e9ad5c1c27b14e65a53ae7fd00da98badd923a5c9bcb225fab25e65b67cea0",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T09:05:12Z",
+          "primary": false,
+          "symbol": "ROK"
+        },
+        {
+          "headline": "Rockwell Automation, Inc. (ROK) Analyst/Investor Day Transcript",
+          "url": "https://finnhub.io/api/news?id=5071cb407a2eae3cdce4512bc09084c37538562b233f4980b4b0460766adaf60",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T22:32:46Z",
+          "primary": false,
+          "symbol": "ROK"
+        }
+      ]
+    },
+    "ROL": {
+      "metrics": {
+        "52WeekHigh": 66.14,
+        "52WeekLow": 29.285,
+        "peTTM": 35.164,
+        "psTTM": 4.6395,
+        "netProfitMarginTTM": 13.19,
+        "roeTTM": 37.74,
+        "revenueGrowthTTMYoy": 8.35,
+        "epsGrowthTTMYoy": 2.72,
+        "currentRatioQuarterly": 0.6211,
+        "totalDebt/totalEquityQuarterly": 0.523,
+        "marketCapitalization": 18500.354
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Rollins Inc",
+      "profile": {
+        "weburl": "https://www.rollins.com/",
+        "industry": "Commercial Services & Supplies",
+        "name": "Rollins Inc"
+      },
+      "news": [
+        {
+          "headline": "Rollins (ROL) Up 7.5% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=2b26484a2554c16349e32244be9ba179b636904c1c8bb0cbbabbbe1dca73e85a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:09Z",
+          "primary": false,
+          "symbol": "ROL"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Rollins Stock?",
+          "url": "https://finnhub.io/api/news?id=6e5d7e622410195e8a57b11ffa70cbf8424f41a16a10c01ddbc9c682d5ada021",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:46:49Z",
+          "primary": false,
+          "symbol": "ROL"
+        },
+        {
+          "headline": "ETFs Are Buying Rollins (ROL) on Monday",
+          "url": "https://finnhub.io/api/news?id=9250ff5089ceade0afdc37dc3035fd92fb26215cdef279f2177e5cdb78bedf6a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T11:01:51Z",
+          "primary": false,
+          "symbol": "ROL"
+        },
+        {
+          "headline": "Rollins Tests AI Marketing as Digital Leads Drop and Growth Target Faces Uncertainty",
+          "url": "https://finnhub.io/api/news?id=949887b6ce4698b96ddfab42f06cc7e9f98cb4fe8d07aacebba9dbf3aac7c6ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T05:12:05Z",
+          "primary": false,
+          "symbol": "ROL"
+        }
+      ]
+    },
+    "ROP": {
+      "metrics": {
+        "52WeekHigh": 507.24,
+        "52WeekLow": 305.96,
+        "peTTM": 17.9986,
+        "psTTM": 5.5279,
+        "netProfitMarginTTM": 30.71,
+        "roeTTM": 13.530000000000001,
+        "revenueGrowthTTMYoy": 9.24,
+        "epsGrowthTTMYoy": 74.59,
+        "currentRatioQuarterly": 0.4258,
+        "totalDebt/totalEquityQuarterly": 0.507,
+        "marketCapitalization": 46625.36
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Roper Technologies, Inc.",
+      "profile": {
+        "weburl": "https://www.ropertech.com/",
+        "industry": "Technology",
+        "name": "Roper Technologies, Inc."
+      },
+      "news": [
+        {
+          "headline": "Can ROP Benefit From Strength in Its Application Software Segment?",
+          "url": "https://finnhub.io/api/news?id=c2a80ba54838106961515d2c63fee764bbbdb15bb0ad0b9b433d8e9ad339a25a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:47:00Z",
+          "primary": false,
+          "symbol": "ROP"
+        },
+        {
+          "headline": "Roche Holding (SWX:ROP) Secures FDA Nod For Wilserdly And Expands Lab Testing Reach",
+          "url": "https://finnhub.io/api/news?id=51e48446c4db6462e95ae06364b8bef4a8d6c9a5abd4146819b3433ced84920b",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T23:21:31Z",
+          "primary": false,
+          "symbol": "ROP"
+        },
+        {
+          "headline": "Is Roche Holding (SWX:ROP) Overvalued After CHMP Backed Gazyva For Lupus?",
+          "url": "https://finnhub.io/api/news?id=38ababa88f54bd0896bbf9b75614e0df3e588debcf4a359537ea72d595881f02",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T21:17:27Z",
+          "primary": false,
+          "symbol": "ROP"
+        },
+        {
+          "headline": "What Does Roche Holding (SWX:ROP) Gain From Gazyva’s New Kidney And Lupus Progress?",
+          "url": "https://finnhub.io/api/news?id=7f87c4a41c7d1e1e70d6ea7e4e5a913d809cfce2e76c51760eef36123a4eafd1",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T19:17:34Z",
+          "primary": false,
+          "symbol": "ROP"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Roper Technologies 20 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=24cc78516afdcd82bdec45eef1e6977d5e0421c329369e1e6465ad0fd2ca3f1a",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T10:15:26Z",
+          "primary": false,
+          "symbol": "ROP"
+        }
+      ]
+    },
+    "RCL": {
+      "metrics": {
+        "52WeekHigh": 356.39,
+        "52WeekLow": 222.22,
+        "peTTM": 17.4247,
+        "psTTM": 4.1444,
+        "netProfitMarginTTM": 23.78,
+        "roeTTM": 43.55,
+        "revenueGrowthTTMYoy": 9.74,
+        "epsGrowthTTMYoy": 14.35,
+        "currentRatioQuarterly": 0.2168,
+        "totalDebt/totalEquityQuarterly": 1.9086,
+        "marketCapitalization": 79299.78
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Royal Caribbean Cruises Ltd.",
+      "profile": {
+        "weburl": "https://www.royalcaribbeangroup.com/",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Royal Caribbean Cruises Ltd."
+      },
+      "news": [
+        {
+          "headline": "Royal Caribbean (RCL) Recently Broke Out Above the 20-Day Moving Average",
+          "url": "https://finnhub.io/api/news?id=1cb450558da31847554045025880a0f30a47c1a2e37a08bba84780199e7a1434",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:35:02Z",
+          "primary": false,
+          "symbol": "RCL"
+        },
+        {
+          "headline": "Can RCL's Resort Strategy Capture More of the $2T Vacation Market?",
+          "url": "https://finnhub.io/api/news?id=f05d84d875f060ea1abffe706d5962bccde32a56fe6eda0ea5fc30a7de605479",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:50:00Z",
+          "primary": false,
+          "symbol": "RCL"
+        },
+        {
+          "headline": "If You Invested $1000 in Royal Caribbean a Decade Ago, This is How Much It'd Be Worth Now",
+          "url": "https://finnhub.io/api/news?id=f97e312c83df7dec0192e8d4c96b734ac29c45516d5f2f58901931719aefed27",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:30:02Z",
+          "primary": false,
+          "symbol": "RCL"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning Royal Caribbean Group Stock In The Last 15 Years",
+          "url": "https://finnhub.io/api/news?id=a8ef3a0d12d22d221793cea3789ece87b4da5cbc64bd3e8639303f535403baef",
+          "source": "Benzinga",
+          "published_at": "2026-11-17T19:15:37Z",
+          "primary": false,
+          "symbol": "RCL"
+        },
+        {
+          "headline": "Here is What to Know Beyond Why Royal Caribbean Cruises Ltd. (RCL) is a Trending Stock",
+          "url": "https://finnhub.io/api/news?id=03e680278186041dbabeb055a547b3424a7eb73b6865a064fe9f4a24332c3b2b",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T13:00:04Z",
+          "primary": false,
+          "symbol": "RCL"
+        }
+      ]
+    },
+    "SNDK": {
+      "metrics": {
+        "52WeekHigh": 2354.39,
+        "52WeekLow": 183.0,
+        "peTTM": 5.5324,
+        "psTTM": 3.7089,
+        "netProfitMarginTTM": 67.04,
+        "roeTTM": 134.27,
+        "revenueGrowthTTMYoy": 272.38,
+        "currentRatioQuarterly": 2.5797,
+        "totalDebt/totalEquityQuarterly": 0.0,
+        "marketCapitalization": 107451.23
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "SanDisk Corporation",
+      "profile": {
+        "weburl": "https://www.sandisk.com/",
+        "industry": "Technology",
+        "name": "SanDisk Corporation"
+      },
+      "news": [
+        {
+          "headline": "Sandisk (SNDK) Implements 8 For 1 Stock Split",
+          "url": "https://finnhub.io/api/news?id=58c334672d10798d5fdb7d764d0a542ce67503ad431ddd9bf7a1bf21962f7c1d",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T04:25:29Z",
+          "primary": false,
+          "symbol": "SNDK"
+        },
+        {
+          "headline": "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business",
+          "url": "https://finnhub.io/api/news?id=4cdf85af0d5e8d96af3cd3843a0c790e0eff057951edff344eaff9ebda56ce88",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:12:44Z",
+          "primary": false,
+          "symbol": "SNDK"
+        },
+        {
+          "headline": "Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+          "url": "https://finnhub.io/api/news?id=d48200e955537884fd7f5707965d11048c0e4b65c11cbbcde3e9cdf72e727732",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:41:04Z",
+          "primary": false,
+          "symbol": "SNDK"
+        },
+        {
+          "headline": "SanDisk Stock Has Pulled Back. Here’s Where Shares Could Be Headed Next",
+          "url": "https://finnhub.io/api/news?id=585e28d0df8ca44d51c58f39a7c4a528d052c60de8f36ce4ca230a35e89b7eb0",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:39:15Z",
+          "primary": false,
+          "symbol": "SNDK"
+        },
+        {
+          "headline": "SanDisk slides over 14% as bearish NAND pricing outlook hits chip stocks",
+          "url": "https://finnhub.io/api/news?id=74b1fee8308ae81cdcb9cf9c257e4899dcb7db8698fab8b986e571753bd061dc",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:59:00Z",
+          "primary": false,
+          "symbol": "SNDK"
+        }
+      ]
+    },
+    "SBAC": {
+      "metrics": {
+        "52WeekHigh": 224.46,
+        "52WeekLow": 156.6,
+        "peTTM": 18.4466,
+        "psTTM": 6.3717,
+        "netProfitMarginTTM": 34.54,
+        "roeTTM": -1.71,
+        "revenueGrowthTTMYoy": 2.26,
+        "epsGrowthTTMYoy": 16.75,
+        "currentRatioQuarterly": 0.1959,
+        "totalDebt/totalEquityQuarterly": 43.1384,
+        "marketCapitalization": 18173.604
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "SBA Communications Corp",
+      "profile": {
+        "weburl": "https://sbasite.com/",
+        "industry": "Real Estate",
+        "name": "SBA Communications Corp"
+      },
+      "news": [
+        {
+          "headline": "$2 Billion Refinance Could Reshape The Case For SBA Communications Stock (SBAC)",
+          "url": "https://finnhub.io/api/news?id=6ac028dc70d362e495d8825dc1234c81ebb62d9b0504780691cc794afd36847d",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T03:11:33Z",
+          "primary": false,
+          "symbol": "SBAC"
+        }
+      ]
+    },
+    "STX": {
+      "metrics": {
+        "52WeekHigh": 1145.0,
+        "52WeekLow": 228.61,
+        "peTTM": 23.8653,
+        "psTTM": 7.6029,
+        "netProfitMarginTTM": 31.86,
+        "roeTTM": 245.10999999999999,
+        "revenueGrowthTTMYoy": 44.37,
+        "epsGrowthTTMYoy": 144.03,
+        "currentRatioQuarterly": 1.8181,
+        "totalDebt/totalEquityQuarterly": 0.6809,
+        "marketCapitalization": 104911.73
+      },
+      "updated_at": "2026-11-21T14:58:01Z",
+      "name": "Seagate Technology Holdings PLC",
+      "profile": {
+        "weburl": "https://investors.seagate.com/overview/default.aspx",
+        "industry": "Technology",
+        "name": "Seagate Technology Holdings PLC"
+      },
+      "news": [
+        {
+          "headline": "Seagate Technology Holdings (NASDAQ:STX): An Undervalued Value Stock With Strong Forward Earnings Power",
+          "url": "https://finnhub.io/api/news?id=664e7fe28e195c2d0e0aadf12e86e02a29bdb009b78b7a9041ead2421df0b989",
+          "source": "ChartMill",
+          "published_at": "2026-11-21T13:30:37Z",
+          "primary": false,
+          "symbol": "STX"
+        },
+        {
+          "headline": "Seagate's Solid Performance Is Stonewalled By Pending Price Negotiations (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=dda5c7e2aa3f1d697970363f00e557b321b78c813ebc063714434b8ac087202f",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T01:42:38Z",
+          "primary": false,
+          "symbol": "STX"
+        },
+        {
+          "headline": "Why Seagate Stock And AI Data Center Demand Are Back On Investors Radar",
+          "url": "https://finnhub.io/api/news?id=03012aaa80c1451657a261c9689a57e661762143fb3527877b93a479c69ef12a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:11:27Z",
+          "primary": false,
+          "symbol": "STX"
+        },
+        {
+          "headline": "Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+          "url": "https://finnhub.io/api/news?id=d48200e955537884fd7f5707965d11048c0e4b65c11cbbcde3e9cdf72e727732",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:41:04Z",
+          "primary": false,
+          "symbol": "STX"
+        },
+        {
+          "headline": "Hard Drives Were Left for Dead, But Seagate and Western Digital Are Soaring",
+          "url": "https://finnhub.io/api/news?id=ace03cf86b8f841be925868630d0c4fd51c6effad822f83b4f64b2c6712b8178",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:45:00Z",
+          "primary": false,
+          "symbol": "STX"
+        }
+      ]
     }
   },
-  "cursor": 452,
-  "updated_at": "2026-11-21T14:07:02Z"
+  "cursor": 464,
+  "updated_at": "2026-11-21T14:58:01Z"
 }
