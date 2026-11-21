@@ -20984,8 +20984,641 @@
           "symbol": "HAS"
         }
       ]
+    },
+    "DOC": {
+      "metrics": {
+        "52WeekHigh": 22.949,
+        "52WeekLow": 15.7,
+        "peTTM": 35.8994,
+        "psTTM": 4.4239,
+        "netProfitMarginTTM": 12.32,
+        "roeTTM": 4.87,
+        "revenueGrowthTTMYoy": 9.42,
+        "currentRatioQuarterly": 0.7264,
+        "totalDebt/totalEquityQuarterly": 1.1928,
+        "marketCapitalization": 13558.575
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Healthpeak Properties, Inc",
+      "profile": {
+        "weburl": "https://www.healthpeak.com",
+        "industry": "Real Estate",
+        "name": "Healthpeak Properties, Inc"
+      },
+      "news": [
+        {
+          "headline": "A $600,000 Portfolio in Healthpeak, Verizon and NNN REIT Pays $37,054 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=ae6fef000a1927b2eb2ba80f6dca17ba773291da7f0a83777982cc8372392eb6",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:20:32Z",
+          "primary": false,
+          "symbol": "DOC"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Healthpeak Properties, Lowers Price Target to $23",
+          "url": "https://finnhub.io/api/news?id=0af3fb99d7f78b080a4684b94a6cbf43d6a6c3bfde90c7e877d87aeb587817c0",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T13:56:52Z",
+          "primary": false,
+          "symbol": "DOC"
+        },
+        {
+          "headline": "Wells Fargo Maintains Equal-Weight on Healthpeak Properties, Raises Price Target to $20",
+          "url": "https://finnhub.io/api/news?id=1738608ca9e63e207c0a0f9ad756e94edfd0b997376f46f18cd88eabece93685",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T10:15:57Z",
+          "primary": false,
+          "symbol": "DOC"
+        }
+      ]
+    },
+    "HSIC": {
+      "metrics": {
+        "52WeekHigh": 92.18,
+        "52WeekLow": 68.7,
+        "peTTM": 22.1838,
+        "psTTM": 0.68,
+        "netProfitMarginTTM": 3.07,
+        "roeTTM": 13.13,
+        "revenueGrowthTTMYoy": 6.15,
+        "epsGrowthTTMYoy": 15.46,
+        "currentRatioQuarterly": 1.3274,
+        "totalDebt/totalEquityQuarterly": 1.1155,
+        "marketCapitalization": 9339.391
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Henry Schein, Inc.",
+      "profile": {
+        "weburl": "https://www.henryschein.com/",
+        "industry": "Health Care",
+        "name": "Henry Schein, Inc."
+      },
+      "news": [
+        {
+          "headline": "Are Wall Street Analysts Bullish on Henry Schein Stock?",
+          "url": "https://finnhub.io/api/news?id=4b5d38e75d8f2755c287bdf6a194ee07b9ff60afe066cfe69fd4257210c040b1",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T11:35:48Z",
+          "primary": false,
+          "symbol": "HSIC"
+        },
+        {
+          "headline": "Henry Schein (HSIC) Stock May Be Undervalued After EPS Guidance Reset",
+          "url": "https://finnhub.io/api/news?id=6fc5f8bb87d117b5ed11e17ba02e9e02ad5a21568cdef817bdada8805ab50465",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T02:16:03Z",
+          "primary": false,
+          "symbol": "HSIC"
+        },
+        {
+          "headline": "Cleaner Earnings Guidance Could Be Material For Henry Schein Stock (HSIC)",
+          "url": "https://finnhub.io/api/news?id=8363e11b69974a76553c8d32d94816c7b172436b4d9bb72caf9d638f25e57f87",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T23:22:18Z",
+          "primary": false,
+          "symbol": "HSIC"
+        },
+        {
+          "headline": "Henry Schein (HSIC) Launches BRIDGE Health Network, Is The 16% Undervaluation Convincing?",
+          "url": "https://finnhub.io/api/news?id=553f7320d3b9b76de07fd147fae0f384fad025aec9884afa0711e090e01b1450",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T22:15:20Z",
+          "primary": false,
+          "symbol": "HSIC"
+        },
+        {
+          "headline": "Henry Schein's Core Growth Remains 'Mixed' Despite Accounting Clarity, Morgan Stanley Says",
+          "url": "https://finnhub.io/api/news?id=042ffcfc8a33343a29a9fea82822d6c0ed2f54840a1f8e837fb90054119c7704",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T15:44:58Z",
+          "primary": false,
+          "symbol": "HSIC"
+        }
+      ]
+    },
+    "HSY": {
+      "metrics": {
+        "52WeekHigh": 239.48,
+        "52WeekLow": 156.16,
+        "peTTM": 24.4298,
+        "psTTM": 3.4705,
+        "netProfitMarginTTM": 14.21,
+        "roeTTM": 37.669999999999995,
+        "revenueGrowthTTMYoy": 0.44,
+        "epsGrowthTTMYoy": 21.46,
+        "currentRatioQuarterly": 1.2384,
+        "totalDebt/totalEquityQuarterly": 1.0514,
+        "marketCapitalization": 34980.684
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "The Hershey Company",
+      "profile": {
+        "weburl": "https://www.thehersheycompany.com/",
+        "industry": "Food Products",
+        "name": "The Hershey Company"
+      },
+      "news": [
+        {
+          "headline": "Chipotle Mexican Grill vs. Hershey: Which Consumer Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=7a165618bd79743c29dec076f3403153107056316cccdb066c3389e8c6be1b57",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T02:05:01Z",
+          "primary": false,
+          "symbol": "HSY"
+        },
+        {
+          "headline": "Better Dividend Stock for Retirees: Plains All American vs. Hershey",
+          "url": "https://finnhub.io/api/news?id=447a19a7c0cb8cf22b6b79363f5512b7b9d5f182b10cbac67d1c3025c645a5d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:35:30Z",
+          "primary": false,
+          "symbol": "HSY"
+        },
+        {
+          "headline": "Hershey vs. Energy Transfer: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=b8509dca5688833a2666ae1be7732b9382ba93045172819025c4ce356938a553",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:57:04Z",
+          "primary": false,
+          "symbol": "HSY"
+        },
+        {
+          "headline": "Better Dividend Stock: TotalEnergies vs. Hershey",
+          "url": "https://finnhub.io/api/news?id=f34d7286510da0edf1bc0fc565dbee0adb3bd05e08d0b57c7ba403eb9974a51a",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:34:26Z",
+          "primary": false,
+          "symbol": "HSY"
+        },
+        {
+          "headline": "Hershey turns back the clock 126 years with a sweet deal",
+          "url": "https://finnhub.io/api/news?id=f4e234fef2e408c9bc9cbd9d11441b619dd555bcef5121d8e98072dc068f1030",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T18:01:00Z",
+          "primary": false,
+          "symbol": "HSY"
+        }
+      ]
+    },
+    "HPE": {
+      "metrics": {
+        "52WeekHigh": 73.56,
+        "52WeekLow": 19.84,
+        "peTTM": 19.7455,
+        "psTTM": 1.3162,
+        "netProfitMarginTTM": 6.67,
+        "roeTTM": 11.020000000000001,
+        "revenueGrowthTTMYoy": 26.59,
+        "epsGrowthTTMYoy": 128.23,
+        "currentRatioQuarterly": 1.1127,
+        "totalDebt/totalEquityQuarterly": 0.7635,
+        "marketCapitalization": 55109.7
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Hewlett Packard Enterprise Company",
+      "profile": {
+        "weburl": "https://www.hpe.com/",
+        "industry": "Technology",
+        "name": "Hewlett Packard Enterprise Company"
+      },
+      "news": [
+        {
+          "headline": "What HPE Holders Should Watch In Monday's Margin",
+          "url": "https://finnhub.io/api/news?id=32e4fd9a7332e24af8c1729a44d62f7b63f7c123d0ba911667a8b632b9eeebd7",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:57:41Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
+        {
+          "headline": "Hewlett Packard Enterprise (HPE) Stock Still Looks Reasonable On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=1c4a673df9004f6d169ade5a99b52a7f86902f32efb6ededfa61b6914b0b592a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:10:26Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
+        {
+          "headline": "Is Hewlett Packard Enterprise (HPE) Undervalued Or Is Its AI And Networking Story Priced In?",
+          "url": "https://finnhub.io/api/news?id=5f1fa67b7a81468f8cb3194bc0f757bb18c7fe20356c4cace08fafeca6c48ef5",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:12:37Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
+        {
+          "headline": "HPE's Q4 Earnings Likely to Reflect Rising Demand Across All Offerings",
+          "url": "https://finnhub.io/api/news?id=8d1c959f2731e4357342fd59954b338706612a361142b3d9edcc49f5c34bd31c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:23:00Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
+        {
+          "headline": "Is Hewlett Packard (HPE) a 'Buy' Ahead of Earnings?",
+          "url": "https://finnhub.io/api/news?id=4e3b1c6c755ba0e1c4bfb80fff3fcd27cad81c0b978a965f52f76175353d6098",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:11:00Z",
+          "primary": false,
+          "symbol": "HPE"
+        }
+      ]
+    },
+    "HLT": {
+      "metrics": {
+        "52WeekHigh": 381.34,
+        "52WeekLow": 263.95,
+        "peTTM": 46.8313,
+        "psTTM": 6.2737,
+        "netProfitMarginTTM": 13.4,
+        "roeTTM": 171.01,
+        "revenueGrowthTTMYoy": 8.14,
+        "epsGrowthTTMYoy": 7.26,
+        "currentRatioQuarterly": 0.5902,
+        "totalDebt/totalEquityQuarterly": 73.65,
+        "marketCapitalization": 79613.17
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Hilton Worldwide Holdings Inc.",
+      "profile": {
+        "weburl": "https://www.hilton.com",
+        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Hilton Worldwide Holdings Inc."
+      },
+      "news": [
+        {
+          "headline": "Hotel Stocks Marriott, Hilton, Hyatt Holding Up In Tough Stock Market",
+          "url": "https://finnhub.io/api/news?id=2a86d4a83bd3c4befe2d4bb772e354803c846e4c1092719966ea5324926c4cdb",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T16:59:43Z",
+          "primary": false,
+          "symbol": "HLT"
+        },
+        {
+          "headline": "Hilton Hits New Highs With Growth That Doesn't Depend On Building Hotels",
+          "url": "https://finnhub.io/api/news?id=11f6e3927571e0f3645a9867bee68f9db046bd2722c24da0e791c7301665536a",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-19T00:00:48Z",
+          "primary": false,
+          "symbol": "HLT"
+        },
+        {
+          "headline": "Bernstein Maintains Market Perform on Hilton Worldwide Holdings, Raises Price Target to $380",
+          "url": "https://finnhub.io/api/news?id=4418889aeddc8a20f8139ecb15265547e902a0ced02ff925ccd122937b8acde4",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T12:10:31Z",
+          "primary": false,
+          "symbol": "HLT"
+        }
+      ]
+    },
+    "HONA": {
+      "metrics": {
+        "52WeekHigh": 266.6199,
+        "52WeekLow": 147.4,
+        "peTTM": 11.5086,
+        "psTTM": 1.5978,
+        "netProfitMarginTTM": 13.88,
+        "currentRatioQuarterly": 1.6425,
+        "marketCapitalization": 49406.242
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Honeywell Aerospace Inc",
+      "profile": {
+        "weburl": "https://www.honeywellaerospace.com",
+        "industry": "Aerospace & Defense",
+        "name": "Honeywell Aerospace Inc"
+      },
+      "news": [
+        {
+          "headline": "Select China Committee Report Says U.S., European Aerospace Firms Helped Transfer Technology Benefiting Chinese Military; Flags Honeywell, GE Aerospace, Collins For Licenses Involving Chinese Military-Linked Entities",
+          "url": "https://finnhub.io/api/news?id=1032699320fa85f152ce6f3ef8467a8575feb9d2d517f1247474b299facd7dd9",
+          "source": "Benzinga",
+          "published_at": "2026-11-19T16:00:31Z",
+          "primary": false,
+          "symbol": "HONA"
+        },
+        {
+          "headline": "Seth Klarman and 17 Other Big Funds Bought Honeywell Aerospace Last Quarter. George Soros and 12 Others Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=f90f83cdab277c30b567d95a129a926d5c04e97d42c5b2b0f033b2063f6a5401",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T15:32:33Z",
+          "primary": false,
+          "symbol": "HONA"
+        },
+        {
+          "headline": "Seth Klarman Is Buying Honeywell Aerospace",
+          "url": "https://finnhub.io/api/news?id=eed6830d2155617339d8ee29a8f1d5be522927e3008334f098113bbe1e4e7aed",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T19:05:19Z",
+          "primary": false,
+          "symbol": "HONA"
+        },
+        {
+          "headline": "Seth Klarman’s Baupost Group Takes New Position in Honeywell Aerospace in Q3",
+          "url": "https://finnhub.io/api/news?id=85bbf3b9b19f8f9dffdbb53a05e5ce0a5fe04611e4c6719d67f29bd7cda6a1ee",
+          "source": "Benzinga",
+          "published_at": "2026-11-16T19:42:18Z",
+          "primary": false,
+          "symbol": "HONA"
+        },
+        {
+          "headline": "Honeywell Aerospace: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=bbd25cb7063d85b33dc917bfaa37fee58c9a75b53326f9fb8fbe0f99646e8f82",
+          "source": "Yahoo",
+          "published_at": "2026-11-15T03:55:01Z",
+          "primary": false,
+          "symbol": "HONA"
+        }
+      ]
+    },
+    "HRL": {
+      "metrics": {
+        "52WeekHigh": 26.6,
+        "52WeekLow": 18.96,
+        "peTTM": 37.0312,
+        "psTTM": 1.0448,
+        "netProfitMarginTTM": 2.82,
+        "roeTTM": 4.33,
+        "revenueGrowthTTMYoy": 0.73,
+        "epsGrowthTTMYoy": -54.65,
+        "currentRatioQuarterly": 1.8817,
+        "totalDebt/totalEquityQuarterly": 0.364,
+        "marketCapitalization": 12691.09
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Hormel Foods Corp",
+      "profile": {
+        "weburl": "https://www.hormelfoods.com/",
+        "industry": "Food Products",
+        "name": "Hormel Foods Corp"
+      },
+      "news": [
+        {
+          "headline": "A $400,000 Portfolio in Comcast, Hormel and AT&T Pays $20,500 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=e55572cdaf940e96868e37ffe5ba44e4ef4def48223749f5dc539983e464f74c",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T13:50:21Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
+        {
+          "headline": "Are Wall Street Analysts Bullish on Hormel Foods Stock?",
+          "url": "https://finnhub.io/api/news?id=e2f7faf8b57a7c9bd152e54b28a44355e9de488907bd18be8007659fb9c5715f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:53:07Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
+        {
+          "headline": "Hormel Foods: A Macro Swing In A Weak Stock",
+          "url": "https://finnhub.io/api/news?id=8cfad2b0075074f64a8c76a953d8ad290f2484a705bb49f6a6959ccbef4ab5f3",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-18T10:04:40Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
+        {
+          "headline": "A $1,500,000 Portfolio in Realty Income, Comcast and Hormel Pays $79,746 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=ffc482b63cb697b180e9d1055cc8892c7a6443a9943c8ede90175a3f1488eea0",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T20:50:25Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
+        {
+          "headline": "Does Hormel Foods (HRL) Completing A Major Acquisition Change Its Growth Outlook?",
+          "url": "https://finnhub.io/api/news?id=6152d04c54ff186c2db824d2103d0ac356953872292bf80cf5d422ef19c14eec",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T19:10:01Z",
+          "primary": false,
+          "symbol": "HRL"
+        }
+      ]
+    },
+    "HST": {
+      "metrics": {
+        "52WeekHigh": 26.19,
+        "52WeekLow": 16.77,
+        "peTTM": 17.6413,
+        "psTTM": 2.6483,
+        "netProfitMarginTTM": 15.01,
+        "roeTTM": 14.34,
+        "revenueGrowthTTMYoy": 4.98,
+        "epsGrowthTTMYoy": 28.02,
+        "currentRatioQuarterly": 2.1405,
+        "totalDebt/totalEquityQuarterly": 0.8018,
+        "marketCapitalization": 16512.262
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Host Hotels & Resorts, Inc.",
+      "profile": {
+        "weburl": "https://www.hosthotels.com/",
+        "industry": "Real Estate",
+        "name": "Host Hotels & Resorts, Inc."
+      },
+      "news": [
+        {
+          "headline": "Evercore ISI Group Maintains In-Line on Host Hotels & Resorts, Raises Price Target to $27",
+          "url": "https://finnhub.io/api/news?id=2dedd6bd6ccd59ee19274e5678b9206423c18b37599a75c702f30806a1adb6ff",
+          "source": "Benzinga",
+          "published_at": "2026-11-18T09:57:43Z",
+          "primary": false,
+          "symbol": "HST"
+        },
+        {
+          "headline": "Host Hotels & Resorts (NASDAQ:HST) Offers High-Scoring Breakout Setup Near Resistance",
+          "url": "https://finnhub.io/api/news?id=b6913c467f7d5b580cc42518c16e6db0c4ec94919c772a4db4c825f7e154d726",
+          "source": "ChartMill",
+          "published_at": "2026-11-17T11:40:45Z",
+          "primary": false,
+          "symbol": "HST"
+        }
+      ]
+    },
+    "HWM": {
+      "metrics": {
+        "52WeekHigh": 310.0,
+        "52WeekLow": 183.52,
+        "peTTM": 40.5079,
+        "psTTM": 8.5462,
+        "netProfitMarginTTM": 21.1,
+        "roeTTM": 36.71,
+        "revenueGrowthTTMYoy": 22.02,
+        "epsGrowthTTMYoy": 42.96,
+        "currentRatioQuarterly": 1.8587,
+        "totalDebt/totalEquityQuarterly": 0.7711,
+        "marketCapitalization": 83162.734
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Howmet Aerospace Inc.",
+      "profile": {
+        "weburl": "https://www.howmet.com",
+        "industry": "Aerospace & Defense",
+        "name": "Howmet Aerospace Inc."
+      },
+      "news": [
+        {
+          "headline": "Howmet Gains From Strength in Defense Aerospace: Can the Momentum Sustain?",
+          "url": "https://finnhub.io/api/news?id=82ebaf5da534428fc49d9b65d2594852b6ebba036657c8270f1fc4c992b74222",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:13:00Z",
+          "primary": false,
+          "symbol": "HWM"
+        },
+        {
+          "headline": "3 Reasons Why Growth Investors Shouldn't Overlook Howmet (HWM)",
+          "url": "https://finnhub.io/api/news?id=1f3e61dd96272cd932898d015cb7a85540d7401192b54552cfe95d5c05f23459",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T16:45:03Z",
+          "primary": false,
+          "symbol": "HWM"
+        },
+        {
+          "headline": "Can Howmet Maintain Margin Momentum Amid Cost Pressures?",
+          "url": "https://finnhub.io/api/news?id=3e9435ddb90ea9cd8a6a199a7ae3128f0b1ca63943399b04ae3237f0725cef09",
+          "source": "Yahoo",
+          "published_at": "2026-11-16T13:49:00Z",
+          "primary": false,
+          "symbol": "HWM"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Howmet Aerospace Stock?",
+          "url": "https://finnhub.io/api/news?id=a7e602563987a125e5895d4a7a8f830d20e985a2e831b91868b7d62d1ba068f2",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T13:51:51Z",
+          "primary": false,
+          "symbol": "HWM"
+        },
+        {
+          "headline": "The Zacks Analyst Blog Highlights GE Aerospace, Howmet Aerospace, RTX and Lockheed Martin",
+          "url": "https://finnhub.io/api/news?id=cad3c45fe0378ae4c52e7593d512b3307d282f40ef09fed06b5d955c84e67ceb",
+          "source": "Yahoo",
+          "published_at": "2026-11-13T06:38:00Z",
+          "primary": false,
+          "symbol": "HWM"
+        }
+      ]
+    },
+    "HPQ": {
+      "metrics": {
+        "52WeekHigh": 36.225,
+        "52WeekLow": 17.56,
+        "peTTM": 10.4032,
+        "psTTM": 0.431,
+        "netProfitMarginTTM": 4.14,
+        "roeTTM": 16.85,
+        "revenueGrowthTTMYoy": 8.14,
+        "epsGrowthTTMYoy": -4.42,
+        "currentRatioQuarterly": 0.7875,
+        "totalDebt/totalEquityQuarterly": 0.3195,
+        "marketCapitalization": 25498.14
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "HP Inc",
+      "profile": {
+        "weburl": "https://investor.hp.com/",
+        "industry": "Technology",
+        "name": "HP Inc"
+      },
+      "news": [
+        {
+          "headline": "HPQ Gears Up to Report Q4 Earnings: What to Expect From the Stock?",
+          "url": "https://finnhub.io/api/news?id=e9fb6bdef522473011d321793344a44fdee7da12d3a4a950a2bdb2b7411bffaf",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:04:00Z",
+          "primary": false,
+          "symbol": "HPQ"
+        },
+        {
+          "headline": "HP (HPQ) Suffers a Larger Drop Than the General Market: Key Insights",
+          "url": "https://finnhub.io/api/news?id=7d8212802294a16e759752ebf609bff384d0baaff821151e10e1b0c6644559ee",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T22:00:02Z",
+          "primary": false,
+          "symbol": "HPQ"
+        },
+        {
+          "headline": "What Analyst Projections for Key Metrics Reveal About HP (HPQ) Q4 Earnings",
+          "url": "https://finnhub.io/api/news?id=909a111c273a827e6830aebfab3037aa698aed714c311593a5fcc1913bf3dcfc",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T13:15:06Z",
+          "primary": false,
+          "symbol": "HPQ"
+        },
+        {
+          "headline": "HP (HPQ) Names Emma Walmsley CEO, Is The Stock Slightly Overvalued?",
+          "url": "https://finnhub.io/api/news?id=bcb77a4c542147fb1688bdb114cf27b64a57c405fc2f38a3484506ad4883558e",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T10:08:03Z",
+          "primary": false,
+          "symbol": "HPQ"
+        },
+        {
+          "headline": "Analysts Estimate HP (HPQ) to Report a Decline in Earnings: What to Look Out for",
+          "url": "https://finnhub.io/api/news?id=efdd70ea1d6c6476fa6c9e08e236ec1682e7415e67ec25bbb9b3ce58735efe3d",
+          "source": "Yahoo",
+          "published_at": "2026-11-17T14:00:03Z",
+          "primary": false,
+          "symbol": "HPQ"
+        }
+      ]
+    },
+    "HUBB": {
+      "metrics": {
+        "52WeekHigh": 565.4999,
+        "52WeekLow": 403.82,
+        "peTTM": 23.6142,
+        "psTTM": 3.2551,
+        "netProfitMarginTTM": 13.78,
+        "roeTTM": 23.25,
+        "revenueGrowthTTMYoy": 15.96,
+        "epsGrowthTTMYoy": 5.85,
+        "currentRatioQuarterly": 1.5285,
+        "totalDebt/totalEquityQuarterly": 1.2471,
+        "marketCapitalization": 21462.91
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Hubbell Inc",
+      "profile": {
+        "weburl": "https://www.hubbell.com",
+        "industry": "Electrical Equipment",
+        "name": "Hubbell Inc"
+      },
+      "news": [
+        {
+          "headline": "Global Desk Grommet Audio Jack Market 2026: Size, Trends, and 2030 Forecast | Capitalize on 8.2% CAGR as Legrand, MillerKnoll, Hubbell, Extron, and Crestron Drive Smart Offices",
+          "url": "https://finnhub.io/api/news?id=2ffda44d8b3d3dca544466790631ffb8fe34133e15233ba6d7794197959bef7d",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T14:31:00Z",
+          "primary": false,
+          "symbol": "HUBB"
+        }
+      ]
+    },
+    "HBAN": {
+      "metrics": {
+        "52WeekHigh": 19.46,
+        "52WeekLow": 14.5,
+        "peTTM": 11.7079,
+        "psTTM": 2.07303,
+        "netProfitMarginTTM": 31.21053,
+        "roeTTM": 8.19,
+        "revenueGrowthTTMYoy": 58.9579,
+        "epsGrowthTTMYoy": -12.43,
+        "totalDebt/totalEquityQuarterly": 0.4586,
+        "marketCapitalization": 29152.576
+      },
+      "updated_at": "2026-11-21T06:02:26Z",
+      "name": "Huntington Bancshares Inc",
+      "profile": {
+        "weburl": "https://www.huntington.com/",
+        "industry": "Banking",
+        "name": "Huntington Bancshares Inc"
+      },
+      "news": []
     }
   },
-  "cursor": 356,
-  "updated_at": "2026-11-21T05:03:10Z"
+  "cursor": 368,
+  "updated_at": "2026-11-21T06:02:26Z"
 }

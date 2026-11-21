@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T05:03:10Z",
+  "generated_at": "2026-11-21T06:02:26Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -7,7 +7,7 @@
     "etf_symbols": 64,
     "quotes_fresh_this_scan": 587,
     "quotes_unavailable_or_unverified": 0,
-    "financially_screened": 354,
+    "financially_screened": 365,
     "sp500_constituents_source": "Community maintained public S&P 500 constituents CSV; may lag index changes",
     "sp500_discovery_checked": true,
     "sp500_additional_symbols": 298,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T05:03:10Z",
+      "checked_at": "2026-11-21T06:02:26Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T05:03:10Z",
+      "checked_at": "2026-11-21T06:02:26Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T05:03:10Z",
+      "checked_at": "2026-11-21T06:02:26Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T05:03:10Z",
+      "checked_at": "2026-11-21T06:02:26Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T05:03:10Z",
+      "checked_at": "2026-11-21T06:02:26Z",
       "error": ""
     }
   ],
@@ -6980,11 +6980,11 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T05:03:10Z",
+    "generated_at": "2026-11-21T06:02:26Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
-    "screened_with_financials": 354,
+    "screened_with_financials": 365,
     "updated_company_metrics_this_scan": 12,
     "candidates": [
       {
@@ -11825,6 +11825,85 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "HUBB",
+        "name": "Hubbell Inc",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "industry": "Electrical Equipment",
+        "why": "Net profit margin 13.8% (TTM); Return on equity 23.2% (TTM); Trailing P/E 23.6×; TTM revenue growth 16.0% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$403.66",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-21T06:02:26Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Global Desk Grommet Audio Jack Market 2026: Size, Trends, and 2030 Forecast | Capitalize on 8.2% CAGR as Legrand, MillerKnoll, Hubbell, Extron, and Crestron Drive Smart Offices",
+            "timestamp": "2026-11-18T14:31:00Z",
+            "url": "https://finnhub.io/api/news?id=2ffda44d8b3d3dca544466790631ffb8fe34133e15233ba6d7794197959bef7d"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-21T06:02:26Z",
+        "price": 403.66,
+        "currency": "USD",
+        "change_pct": -3.601,
+        "news": [
+          {
+            "headline": "Global Desk Grommet Audio Jack Market 2026: Size, Trends, and 2030 Forecast | Capitalize on 8.2% CAGR as Legrand, MillerKnoll, Hubbell, Extron, and Crestron Drive Smart Offices",
+            "url": "https://finnhub.io/api/news?id=2ffda44d8b3d3dca544466790631ffb8fe34133e15233ba6d7794197959bef7d",
+            "source": "Yahoo",
+            "published_at": "2026-11-18T14:31:00Z",
+            "primary": false,
+            "symbol": "HUBB"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 256.21,
+          "entry_floor": 230.59,
+          "exit_review_low": 328.48,
+          "exit_review_high": 383.44,
+          "bear_case": 186.05,
+          "scenario_upside_pct": -18.6,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 23.61,
+            "earnings_growth_assumed_pct": 2.05,
+            "scenario_exit_pe": 18.83,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-21T06:02:26Z"
+          }
+        },
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "DECK",
         "name": "Deckers Outdoor Corporation",
         "status": "WATCH",
@@ -13468,85 +13547,6 @@
         },
         "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "V",
-        "name": "Visa Inc.",
-        "status": "WATCH",
-        "score": 74,
-        "industry": "Financial Services",
-        "why": "Net profit margin 51.2% (TTM); Return on equity 64.5% (TTM); Trailing P/E 33.1×; TTM revenue growth 14.8% YoY",
-        "risks": [
-          "High sales multiple"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$401.87",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:02:33Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "What Morgan Stanley Saw Before Raising Its Visa (V) Target",
-            "timestamp": "2026-11-19T22:33:17Z",
-            "url": "https://finnhub.io/api/news?id=9a9d17306e20b6a10bb99b199cc81c8e4a344afc6013e538130f2b7e34914823"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:02:33Z",
-        "price": 401.87,
-        "currency": "USD",
-        "change_pct": -0.094,
-        "news": [
-          {
-            "headline": "What Morgan Stanley Saw Before Raising Its Visa (V) Target",
-            "url": "https://finnhub.io/api/news?id=9a9d17306e20b6a10bb99b199cc81c8e4a344afc6013e538130f2b7e34914823",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T22:33:17Z",
-            "primary": false,
-            "symbol": "V"
-          },
-          {
-            "headline": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
-            "url": "https://finnhub.io/api/news?id=b5bc2fe9188d18fadd0ed4f5289566287c68f9bacf2ce56fc5e6f5f49edd8012",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T20:15:32Z",
-            "primary": false,
-            "symbol": "V"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "NO RELIABLE PRICE RANGE",
-          "entry_ceiling": null,
-          "entry_floor": null,
-          "exit_review_low": null,
-          "exit_review_high": null,
-          "bear_case": null,
-          "scenario_upside_pct": null,
-          "reason": "Sector-specific valuation required for Financial Services; earnings multiple scenario withheld.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
-        },
-        "ranking_score": 74,
-        "rank_method": "FINANCIAL RULES"
       }
     ],
     "entry_candidates": [],
@@ -14662,7 +14662,7 @@
     "learning": {
       "status": "COLLECTING",
       "model_active": false,
-      "recorded_signals": 354,
+      "recorded_signals": 365,
       "matured_outcomes": 0,
       "matured_weeks": 0,
       "reason": "Collecting first genuine 30-day forward outcomes. No model has been validated.",
@@ -14680,10 +14680,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T05:03:10Z",
+      "generated_at": "2026-11-21T06:02:26Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 270,
+        "recorded": 278,
         "purchase_scenarios": 18,
         "opened": 1,
         "closed": 0,
@@ -14693,10 +14693,170 @@
         "not_triggered": 0,
         "waiting": 18,
         "unverified": 0,
-        "skipped": 252,
+        "skipped": 260,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|HSIC|NO RELIABLE PRICE RANGE",
+          "symbol": "HSIC",
+          "name": "Henry Schein, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 83.52,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 3.1% (TTM); Return on equity 13.1% (TTM); Trailing P/E 22.2×; TTM revenue growth 6.2% YoY",
+          "score": 69,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HSY|ABOVE BASE CASE",
+          "symbol": "HSY",
+          "name": "The Hershey Company",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 175.48,
+          "buy_ceiling": 84.83,
+          "sell_review": 108.75,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 14.2% (TTM); Return on equity 37.7% (TTM); Trailing P/E 24.4×; TTM revenue growth 0.4% YoY",
+          "score": 66,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HPE|NO RELIABLE PRICE RANGE",
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise Company",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 40.91,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Large one-session price move (-10.1%)",
+          "why": "Net profit margin 6.7% (TTM); Return on equity 11.0% (TTM); Trailing P/E 19.7×; TTM revenue growth 26.6% YoY",
+          "score": 62,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HST|NO RELIABLE PRICE RANGE",
+          "symbol": "HST",
+          "name": "Host Hotels & Resorts, Inc.",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 24.1,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 15.0% (TTM); Return on equity 14.3% (TTM); Trailing P/E 17.6×; TTM revenue growth 5.0% YoY",
+          "score": 68,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HWM|ABOVE BASE CASE",
+          "symbol": "HWM",
+          "name": "Howmet Aerospace Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 209.16,
+          "buy_ceiling": 89.03,
+          "sell_review": 114.14,
+          "risk": "High trailing earnings valuation",
+          "why": "Net profit margin 21.1% (TTM); Return on equity 36.7% (TTM); Trailing P/E 40.5×; TTM revenue growth 22.0% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HPQ|NO RELIABLE PRICE RANGE",
+          "symbol": "HPQ",
+          "name": "HP Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 27.96,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 4.1% (TTM); Return on equity 16.9% (TTM); Trailing P/E 10.4×; TTM revenue growth 8.1% YoY",
+          "score": 65,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HUBB|ABOVE BASE CASE",
+          "symbol": "HUBB",
+          "name": "Hubbell Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 403.66,
+          "buy_ceiling": 256.21,
+          "sell_review": 328.48,
+          "risk": "Price near reported 52-week low",
+          "why": "Net profit margin 13.8% (TTM); Return on equity 23.2% (TTM); Trailing P/E 23.6×; TTM revenue growth 16.0% YoY",
+          "score": 76,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-16|HBAN|NO RELIABLE PRICE RANGE",
+          "symbol": "HBAN",
+          "name": "Huntington Bancshares Inc",
+          "signal": "NO RELIABLE PRICE RANGE",
+          "decision_at": "2026-11-21T06:02:26Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 14.28,
+          "buy_ceiling": null,
+          "sell_review": null,
+          "risk": "Earnings per share declining",
+          "why": "Net profit margin 31.2% (TTM); Return on equity 8.2% (TTM); Trailing P/E 11.7×; TTM revenue growth 59.0% YoY",
+          "score": 71,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|GRMN|ABOVE BASE CASE",
           "symbol": "GRMN",
@@ -16936,170 +17096,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AFL|NO RELIABLE PRICE RANGE",
-          "symbol": "AFL",
-          "name": "Aflac Incorporated",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T18:04:54Z",
-          "quote_at": "2026-11-20T18:07:40Z",
-          "reference_price": 125.98,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 26.9% (TTM); Return on equity 16.4% (TTM); Trailing P/E 12.6×; TTM revenue growth 13.6% YoY",
-          "score": 82,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|UPS|NO RELIABLE PRICE RANGE",
-          "symbol": "UPS",
-          "name": "United Parcel Service Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T18:04:54Z",
-          "quote_at": "2026-11-20T18:08:15Z",
-          "reference_price": 107.57,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Earnings per share declining",
-          "why": "Net profit margin 4.8% (TTM); Return on equity 28.5% (TTM); Trailing P/E 21.0×; TTM revenue growth 2.1% YoY",
-          "score": 59,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CEG|NO RELIABLE PRICE RANGE",
-          "symbol": "CEG",
-          "name": "Constellation Energy Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T18:04:54Z",
-          "quote_at": "2026-11-20T18:08:22Z",
-          "reference_price": 243.07,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 12.8% (TTM); Return on equity 15.5% (TTM); Trailing P/E 20.4×; TTM revenue growth 37.9% YoY",
-          "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CLX|NO RELIABLE PRICE RANGE",
-          "symbol": "CLX",
-          "name": "The Clorox Company",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T18:04:54Z",
-          "quote_at": "2026-11-20T18:08:21Z",
-          "reference_price": 106.48,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Earnings per share declining",
-          "why": "Net profit margin 9.4% (TTM); Return on equity 181.1% (TTM); Trailing P/E 19.4×; TTM revenue growth 6.3% YoY",
-          "score": 70,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|AIG|NO RELIABLE PRICE RANGE",
-          "symbol": "AIG",
-          "name": "American International Group, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T18:04:54Z",
-          "quote_at": "2026-11-20T18:08:23Z",
-          "reference_price": 80.82,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 11.9% (TTM); Return on equity 8.2% (TTM); Trailing P/E 12.7×; TTM revenue growth 1.2% YoY",
-          "score": 61,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|DXCM|ABOVE BASE CASE",
-          "symbol": "DXCM",
-          "name": "Dexcom Inc",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T17:06:24Z",
-          "quote_at": "2026-11-20T17:09:04Z",
-          "reference_price": 79.92,
-          "buy_ceiling": 38.52,
-          "sell_review": 49.39,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 19.4% (TTM); Return on equity 36.5% (TTM); Trailing P/E 31.1×; TTM revenue growth 13.0% YoY",
-          "score": 77,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|CSX|ABOVE BASE CASE",
-          "symbol": "CSX",
-          "name": "CSX Corporation",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-20T17:06:24Z",
-          "quote_at": "2026-11-20T17:09:09Z",
-          "reference_price": 50.16,
-          "buy_ceiling": 25.47,
-          "sell_review": 32.65,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 24.0% (TTM); Return on equity 25.9% (TTM); Trailing P/E 25.8×; TTM revenue growth 5.8% YoY",
-          "score": 69,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|SRE|NO RELIABLE PRICE RANGE",
-          "symbol": "SRE",
-          "name": "Sempra",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-20T17:06:24Z",
-          "quote_at": "2026-11-20T17:08:53Z",
-          "reference_price": 77.31,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Revenue contracting year on year",
-          "why": "Net profit margin 25.9% (TTM); Return on equity 9.4% (TTM); Trailing P/E 16.5×; TTM revenue growth -0.7% YoY",
-          "score": 67,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 72,
+      "legacy_research_flags": 73,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17109,14 +17109,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-16",
-        "symbol": "KMI",
-        "flagged_at": "2026-11-20T09:12:51Z",
-        "reference_price": 31.09,
-        "score": 78,
-        "price_at": "2026-11-19T21:00:00Z"
-      },
       {
         "week": "2026-11-16",
         "symbol": "SCHW",
@@ -17507,6 +17499,14 @@
         "flagged_at": "2026-11-21T05:03:10Z",
         "reference_price": 136.84,
         "score": 78,
+        "price_at": "2026-11-20T21:00:00Z"
+      },
+      {
+        "week": "2026-11-16",
+        "symbol": "HUBB",
+        "flagged_at": "2026-11-21T06:02:26Z",
+        "reference_price": 403.66,
+        "score": 76,
         "price_at": "2026-11-20T21:00:00Z"
       }
     ],
