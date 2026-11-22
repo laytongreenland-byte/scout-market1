@@ -15011,17 +15011,17 @@
       "metrics": {
         "52WeekHigh": 192.51,
         "52WeekLow": 154.72,
-        "peTTM": 20.4346,
-        "psTTM": 5.8231,
+        "peTTM": 20.4237,
+        "psTTM": 5.82,
         "netProfitMarginTTM": 28.5,
         "roeTTM": 9.67,
         "revenueGrowthTTMYoy": 6.45,
         "epsGrowthTTMYoy": 15.78,
         "currentRatioQuarterly": 0.8137,
         "totalDebt/totalEquityQuarterly": 0.6766,
-        "marketCapitalization": 28658.375
+        "marketCapitalization": 28643.057
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Atmos Energy Corporation",
       "profile": {
         "weburl": "https://www.atmosenergy.com/",
@@ -15075,17 +15075,17 @@
       "metrics": {
         "52WeekHigh": 3996.25,
         "52WeekLow": 2730.65,
-        "peTTM": 20.4424,
-        "psTTM": 2.5859,
+        "peTTM": 20.3648,
+        "psTTM": 2.5761,
         "netProfitMarginTTM": 12.65,
         "roeTTM": 249.27,
         "revenueGrowthTTMYoy": 7.39,
         "epsGrowthTTMYoy": 5.6,
         "currentRatioQuarterly": 0.901,
         "totalDebt/totalEquityQuarterly": 37.8052,
-        "marketCapitalization": 52593.652
+        "marketCapitalization": 52394.0
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "AutoZone, Inc.",
       "profile": {
         "weburl": "https://www.autozone.com/",
@@ -15116,14 +15116,6 @@
           "published_at": "2026-11-16T13:00:03Z",
           "primary": false,
           "symbol": "AZO"
-        },
-        {
-          "headline": "AutoZone to hold Stockholders’ Meeting December 16, 2026",
-          "url": "https://finnhub.io/api/news?id=09fea78fec420deb35b760b443c99bf94b1d33a030267a793e027c5f939a9297",
-          "source": "Yahoo",
-          "published_at": "2026-11-12T22:00:00Z",
-          "primary": false,
-          "symbol": "AZO"
         }
       ]
     },
@@ -15131,17 +15123,17 @@
       "metrics": {
         "52WeekHigh": 199.54,
         "52WeekLow": 152.42,
-        "peTTM": 20.0255,
-        "psTTM": 1.5147,
+        "peTTM": 19.3123,
+        "psTTM": 1.4608,
         "netProfitMarginTTM": 7.56,
         "roeTTM": 30.620000000000005,
         "revenueGrowthTTMYoy": 6.77,
         "epsGrowthTTMYoy": 4.85,
         "currentRatioQuarterly": 1.1608,
         "totalDebt/totalEquityQuarterly": 1.5134,
-        "marketCapitalization": 14184.068
+        "marketCapitalization": 13678.896
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Avery Dennison Corp",
       "profile": {
         "weburl": "https://www.averydennison.com/en/home.html",
@@ -15164,40 +15156,24 @@
           "published_at": "2026-11-17T14:30:00Z",
           "primary": false,
           "symbol": "AVY"
-        },
-        {
-          "headline": "Avery Dennison Announces Final Results and Upsize of Cash Tender Offers for Its Senior Notes",
-          "url": "https://finnhub.io/api/news?id=b5de23d62641f3671af160a3353f41da6fcbc247e710e9d4d878bde433a4635b",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T11:45:00Z",
-          "primary": false,
-          "symbol": "AVY"
-        },
-        {
-          "headline": "Avery Dennison Announces Pricing Terms of Cash Tender Offers for Its Senior Notes",
-          "url": "https://finnhub.io/api/news?id=180fef183c6c2bba1736717d88968459175de7b800c9f5b2a99c2e54ba742a55",
-          "source": "Yahoo",
-          "published_at": "2026-11-12T20:42:00Z",
-          "primary": false,
-          "symbol": "AVY"
         }
       ]
     },
     "AXON": {
       "metrics": {
         "52WeekHigh": 665.065,
-        "52WeekLow": 291.105,
-        "peTTM": 96.7086,
-        "psTTM": 7.3158,
+        "52WeekLow": 289.685,
+        "peTTM": 91.7185,
+        "psTTM": 6.9383,
         "netProfitMarginTTM": 7.56,
         "roeTTM": 7.2700000000000005,
         "revenueGrowthTTMYoy": 33.58,
         "epsGrowthTTMYoy": -0.92,
         "currentRatioQuarterly": 3.0011,
         "totalDebt/totalEquityQuarterly": 0.7622,
-        "marketCapitalization": 24998.213
+        "marketCapitalization": 23708.32
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Axon Enterprise, Inc.",
       "profile": {
         "weburl": "https://www.axon.com/",
@@ -15205,6 +15181,30 @@
         "name": "Axon Enterprise, Inc."
       },
       "news": [
+        {
+          "headline": "Axon Enterprise (AXON) Ties Its Police Tech Into One $8.8 Million City Deal",
+          "url": "https://finnhub.io/api/news?id=e08a27bd72a0467e1f8b05fea7693efb1ffe33609b66f7fcf4a3c648389c4e79",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T09:08:12Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Public Safety Rollouts Might Change The Case For Axon Enterprise Stock",
+          "url": "https://finnhub.io/api/news?id=b2d8a03cbac982d45bde0cf45de0d0892156a4b38a1777241dd66042838ee975",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T08:09:52Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Arista Networks vs. Axon Enterprise: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=c62346160730a4a455f7ce596018671d6ed2bbb615c165573c589a8729c18c82",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T15:21:39Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
         {
           "headline": "Is It Too Early To Buy Axon Enterprise Stock?",
           "url": "https://finnhub.io/api/news?id=e3e50b54915447ea3d6de4888be985b34237d93b0040ac641f78bfc0aca142c9",
@@ -15220,30 +15220,6 @@
           "published_at": "2026-11-19T16:33:21Z",
           "primary": false,
           "symbol": "AXON"
-        },
-        {
-          "headline": "Connected for Safety: How State and Local Agencies Across the Country Are Modernizing Public Safety with Axon",
-          "url": "https://finnhub.io/api/news?id=a51d39a5c25100a8068a0dd393e95c3ee1e3ffd309caf3f911ef1ca477f1c7b5",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:00:00Z",
-          "primary": false,
-          "symbol": "AXON"
-        },
-        {
-          "headline": "Siyata PTT Joins Axon Arc as Inaugural Partner",
-          "url": "https://finnhub.io/api/news?id=3d78c2e4891f5269788499b4971653483182b2a47c271e264a9b44cf351764b5",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:00Z",
-          "primary": false,
-          "symbol": "AXON"
-        },
-        {
-          "headline": "Axon Enterprise Doubles Down on Skydio as AI Growth Helps Offset Delayed Federal Deals",
-          "url": "https://finnhub.io/api/news?id=0ad0ff8efa1b39728d91b5a94c03a58787c18d17c407e4609b5663008d6dc1dd",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T10:12:08Z",
-          "primary": false,
-          "symbol": "AXON"
         }
       ]
     },
@@ -15251,17 +15227,17 @@
       "metrics": {
         "52WeekHigh": 70.41,
         "52WeekLow": 44.26,
-        "peTTM": 16.0921,
-        "psTTM": 1.6227,
+        "peTTM": 15.3554,
+        "psTTM": 1.5484,
         "netProfitMarginTTM": 10.08,
         "roeTTM": 14.829999999999998,
         "revenueGrowthTTMYoy": 3.71,
         "epsGrowthTTMYoy": 0.29,
         "currentRatioQuarterly": 1.2383,
         "totalDebt/totalEquityQuarterly": 0.9072,
-        "marketCapitalization": 46634.965
+        "marketCapitalization": 44499.844
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Baker Hughes Company",
       "profile": {
         "weburl": "https://www.bakerhughes.com/",
@@ -15315,17 +15291,17 @@
       "metrics": {
         "52WeekHigh": 69.575,
         "52WeekLow": 46.65,
-        "peTTM": 31.0809,
-        "psTTM": 1.0925,
+        "peTTM": 31.0637,
+        "psTTM": 1.0919,
         "netProfitMarginTTM": 3.52,
         "roeTTM": 9.46,
         "revenueGrowthTTMYoy": 19.23,
         "epsGrowthTTMYoy": -19.35,
         "currentRatioQuarterly": 1.0436,
         "totalDebt/totalEquityQuarterly": 1.2734,
-        "marketCapitalization": 16535.02
+        "marketCapitalization": 16525.91
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Ball Corp",
       "profile": {
         "weburl": "https://www.ball.com/",
@@ -15347,15 +15323,15 @@
       "metrics": {
         "52WeekHigh": 30.0,
         "52WeekLow": 15.73,
-        "psTTM": 1.1389,
+        "psTTM": 1.1313,
         "netProfitMarginTTM": -6.23,
         "roeTTM": -11.62,
         "revenueGrowthTTMYoy": 5.33,
         "currentRatioQuarterly": 1.7921,
         "totalDebt/totalEquityQuarterly": 1.3228,
-        "marketCapitalization": 13223.42
+        "marketCapitalization": 13135.471
       },
-      "updated_at": "2026-11-20T20:27:20Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Baxter International Inc.",
       "profile": {
         "weburl": "https://www.baxter.com/",
@@ -15393,17 +15369,17 @@
       "metrics": {
         "52WeekHigh": 220.36,
         "52WeekLow": 140.11,
-        "peTTM": 50.4486,
-        "psTTM": 2.8588,
+        "peTTM": 50.5746,
+        "psTTM": 2.866,
         "netProfitMarginTTM": 5.67,
         "roeTTM": 4.65,
         "revenueGrowthTTMYoy": -7.4,
         "epsGrowthTTMYoy": -28.83,
         "currentRatioQuarterly": 0.8715,
         "totalDebt/totalEquityQuarterly": 0.6622,
-        "marketCapitalization": 57814.1
+        "marketCapitalization": 57958.465
       },
-      "updated_at": "2026-11-20T21:05:16Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Becton Dickinson and Co",
       "profile": {
         "weburl": "https://www.bd.com/",
@@ -15433,17 +15409,17 @@
       "metrics": {
         "52WeekHigh": 72.88,
         "52WeekLow": 43.2,
-        "peTTM": 62.8408,
-        "psTTM": 9.4057,
+        "peTTM": 62.7717,
+        "psTTM": 9.3954,
         "netProfitMarginTTM": 14.97,
         "roeTTM": 8.9,
         "revenueGrowthTTMYoy": -0.38,
         "epsGrowthTTMYoy": 158.94,
         "currentRatioQuarterly": 4.5473,
         "totalDebt/totalEquityQuarterly": 0.0949,
-        "marketCapitalization": 11428.351
+        "marketCapitalization": 11415.783
       },
-      "updated_at": "2026-11-20T21:05:16Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Bio-Techne Corporation",
       "profile": {
         "weburl": "https://www.bio-techne.com/",
@@ -15465,17 +15441,17 @@
       "metrics": {
         "52WeekHigh": 89.395,
         "52WeekLow": 48.21,
-        "peTTM": 103.6637,
-        "psTTM": 1.864,
+        "peTTM": 100.9474,
+        "psTTM": 1.8151,
         "netProfitMarginTTM": 1.8,
         "roeTTM": 2.08,
         "revenueGrowthTTMYoy": 6.98,
         "epsGrowthTTMYoy": -85.15,
         "currentRatioQuarterly": 2.229,
         "totalDebt/totalEquityQuarterly": 0.3172,
-        "marketCapitalization": 47804.4
+        "marketCapitalization": 46551.812
       },
-      "updated_at": "2026-11-20T21:05:16Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Block, Inc.",
       "profile": {
         "weburl": "https://squareup.com",
@@ -15483,6 +15459,14 @@
         "name": "Block, Inc."
       },
       "news": [
+        {
+          "headline": "Cathie Wood, Dan Loeb and 7 Other Big Funds Bought Block Last Quarter, While 7 Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=f35038ff94b409dd99a624d63ca3c4af93e4965d98db3bfd80959de275e15d32",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T18:52:27Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
         {
           "headline": "Block (XYZ), Why Is It Back In Focus?",
           "url": "https://finnhub.io/api/news?id=1c49a5791168bf7e5ab5fb0e791928934d4d2d407127bcb65848a02aac8d960e",
@@ -15514,14 +15498,6 @@
           "published_at": "2026-11-17T14:38:00Z",
           "primary": false,
           "symbol": "XYZ"
-        },
-        {
-          "headline": "Nift Surpasses $1 Billion in Gift Value, Adds Senior Leaders from Block, CVS Health and Taboola to Scale North America and EMEA",
-          "url": "https://finnhub.io/api/news?id=f5c0d93c0deda3b48310d0d14555bc1de6b8b77f157e3ab87e6021b78ee320d2",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:00:00Z",
-          "primary": false,
-          "symbol": "XYZ"
         }
       ]
     },
@@ -15529,17 +15505,17 @@
       "metrics": {
         "52WeekHigh": 351.28,
         "52WeekLow": 75.7,
-        "peTTM": 98.1023,
-        "psTTM": 13.2762,
+        "peTTM": 81.2576,
+        "psTTM": 10.9966,
         "netProfitMarginTTM": 13.53,
         "roeTTM": 39.6,
         "revenueGrowthTTMYoy": 110.59,
         "epsGrowthTTMYoy": 2094.25,
         "currentRatioQuarterly": 3.7417,
         "totalDebt/totalEquityQuarterly": 1.376,
-        "marketCapitalization": 50847.035
+        "marketCapitalization": 42116.293
       },
-      "updated_at": "2026-11-20T21:05:16Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Bloom Energy Corporation",
       "profile": {
         "weburl": "https://www.bloomenergy.com/",
@@ -15548,42 +15524,42 @@
       },
       "news": [
         {
-          "headline": "Where Will Bloom Energy Stock Be in 5 Years After More Than Doubling Its Revenue in 2026?",
-          "url": "https://finnhub.io/api/news?id=da775b31c4332e89b14c101f628f7425bf20225f2aec031bdbb7eae830612813",
+          "headline": "Bloom Energy Stock Has Crashed Nearly 60%. Is It a Once-in-a-Decade Opportunity at $145, or Should You Keep Waiting for a Bigger Drop?",
+          "url": "https://finnhub.io/api/news?id=b8048b3c2e0765eb7ab3911935d9bbd71d4d971d3ff6b05b4c4abb299588e4b8",
           "source": "Yahoo",
-          "published_at": "2026-11-20T18:23:02Z",
+          "published_at": "2026-11-22T14:36:02Z",
           "primary": false,
           "symbol": "BE"
         },
         {
-          "headline": "Bloom Energy Tumbles 10% Despite BMO Upgrade With $230 Target; FuelCell Energy Slides 7%, Plug Power Drops 3%",
-          "url": "https://finnhub.io/api/news?id=a8b8e6aa18f721b5bcd4544aa6b785265dc1baa53f08a4c248de593410021fa3",
+          "headline": "Should You Invest $1,000 in Bloom Energy Right Now?",
+          "url": "https://finnhub.io/api/news?id=aba6534181854cf0e46adc2d54a31ebeae8e7de64da5c44590d606d4312fef00",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:53:00Z",
+          "published_at": "2026-11-22T00:50:02Z",
           "primary": false,
           "symbol": "BE"
         },
         {
-          "headline": "Leopold Aschenbrenner and 12 Other Big Funds Sold Bloom Energy Last Quarter, While 16 Bought. Who’s Right?",
-          "url": "https://finnhub.io/api/news?id=924ee78f50b285baf088b8c30e76c48fc04670d5cdcd266e01efef13c4db8353",
+          "headline": "Bloom Energy Sinks 26% in a Week, Vertiv Down 18%, as Nvidia’s Turmoil Hits AI Power Stocks. Time to Buy?",
+          "url": "https://finnhub.io/api/news?id=beb4a339936f70240a4946a70e521b8fc9d2ee0f2d3c955d703776366bd23c86",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:57:47Z",
+          "published_at": "2026-11-21T02:48:01Z",
           "primary": false,
           "symbol": "BE"
         },
         {
-          "headline": "Bloom Energy Is Down 50% From Its High. Should You Buy the Dip?",
-          "url": "https://finnhub.io/api/news?id=b87851f7f5852e0c7087dcac27d2342ca816ffaee179b36b461326c873f6bd34",
+          "headline": "Bloom Energy Supports Lincoln Fire & Rescue Ahead of Ohio State-Nebraska Matchup",
+          "url": "https://finnhub.io/api/news?id=cc5673f106486757b4d51ea9aa652a8bd98ac289769b904a35b6d724558a78a1",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:35:00Z",
+          "published_at": "2026-11-20T21:37:00Z",
           "primary": false,
           "symbol": "BE"
         },
         {
-          "headline": "Anthropic, Nvidia, AMD, Intuit, Bloom Energy, and More Stocks That Explain Today’s Market",
-          "url": "https://finnhub.io/api/news?id=c5d06f600cd7ea1974612f75f43fe3b82649dfcda85aa0630ecc53b9250ba2b0",
+          "headline": "Bloom Energy (BE) Says Its Fuel Cells Can Power AI Data Centers Within Months",
+          "url": "https://finnhub.io/api/news?id=13deec58723b9ada13daea96e2109a2a72da9f2b5dee7837da9f551b26ada61d",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:53:00Z",
+          "published_at": "2026-11-20T20:13:36Z",
           "primary": false,
           "symbol": "BE"
         }
@@ -15593,13 +15569,13 @@
       "metrics": {
         "52WeekHigh": 165.84,
         "52WeekLow": 105.42,
-        "peTTM": 15.1978,
+        "peTTM": 14.5233,
         "roeTTM": 14.760000000000002,
         "epsGrowthTTMYoy": 29.77,
         "totalDebt/totalEquityQuarterly": 1.5207,
-        "marketCapitalization": 99454.4
+        "marketCapitalization": 95040.19
       },
-      "updated_at": "2026-11-20T21:05:16Z",
+      "updated_at": "2026-11-22T19:56:01Z",
       "name": "Bank of New York Mellon Corp",
       "profile": {
         "weburl": "https://www.bny.com/corporate/apac/en.html",
@@ -15636,14 +15612,6 @@
           "url": "https://finnhub.io/api/news?id=c56ac1c40c4be112166144fa5f7a1ad73f3d84042bcee17cee4ffbe5f92198b5",
           "source": "Yahoo",
           "published_at": "2026-11-16T13:48:29Z",
-          "primary": false,
-          "symbol": "BNY"
-        },
-        {
-          "headline": "BNY-Figment Tie-Up to Enhance Digital Asset Custody & Staking",
-          "url": "https://finnhub.io/api/news?id=3799c7e2676758a25daff7d254f2eb88de1e842f321012528864767eb25cf498",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T13:19:00Z",
           "primary": false,
           "symbol": "BNY"
         }
@@ -29866,6 +29834,6 @@
       ]
     }
   },
-  "cursor": 253,
-  "updated_at": "2026-11-22T18:57:56Z"
+  "cursor": 265,
+  "updated_at": "2026-11-22T19:56:01Z"
 }
