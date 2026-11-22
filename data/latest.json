@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T17:50:49Z",
+  "generated_at": "2026-11-22T18:57:56Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T17:50:49Z",
+      "checked_at": "2026-11-22T18:57:56Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T17:50:49Z",
+      "checked_at": "2026-11-22T18:57:56Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T17:50:49Z",
+      "checked_at": "2026-11-22T18:57:56Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T17:50:49Z",
+      "checked_at": "2026-11-22T18:57:56Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T17:50:49Z",
+      "checked_at": "2026-11-22T18:57:56Z",
       "error": ""
     }
   ],
@@ -6932,21 +6932,10 @@
       "published_at": "2026-11-12T21:27:49Z",
       "sentiment": "neutral",
       "form": "8-K"
-    },
-    {
-      "id": "a8b13018d46d7c994018",
-      "type": "MACRO",
-      "ticker": null,
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "published_at": "2026-11-12T18:30:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "source": "Federal Reserve press releases",
-      "primary": true,
-      "sentiment": "neutral"
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T17:50:49Z",
+    "generated_at": "2026-11-22T18:57:56Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -14878,23 +14867,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T17:50:49Z",
+      "generated_at": "2026-11-22T18:57:56Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 780,
-        "purchase_scenarios": 64,
+        "recorded": 781,
+        "purchase_scenarios": 65,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 64,
+        "waiting": 65,
         "unverified": 0,
         "skipped": 716,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|APP|WAIT FOR ENTRY",
+          "symbol": "APP",
+          "name": "AppLovin Corporation",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-22T18:57:56Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 348.29,
+          "buy_ceiling": 285.59,
+          "sell_review": 366.14,
+          "risk": "High sales multiple",
+          "why": "Net profit margin 65.9% (TTM); Return on equity 183.0% (TTM); Trailing P/E 23.0×; TTM revenue growth 57.8% YoY",
+          "score": 63,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|NEM|POSSIBLE VALUE TRAP",
           "symbol": "NEM",
@@ -17268,26 +17277,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.0×; TTM revenue growth 6.8% YoY",
           "score": 78,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|MRSH|NO RELIABLE PRICE RANGE",
-          "symbol": "MRSH",
-          "name": "Marsh & McLennan Companies, Inc.",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 206.22,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 14.2% (TTM); Return on equity 27.2% (TTM); Trailing P/E 24.3×; TTM revenue growth 7.6% YoY",
-          "score": 62,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

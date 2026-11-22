@@ -60059,6 +60059,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|APP|WAIT FOR ENTRY",
+      "week": "2026-11-23",
+      "symbol": "APP",
+      "name": "AppLovin Corporation",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-22T18:57:56Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 348.29,
+      "score": 63,
+      "quality_status": "WATCH",
+      "buy_ceiling": 285.59,
+      "sell_review": 366.14,
+      "bear_case": 194.16,
+      "why": "Net profit margin 65.9% (TTM); Return on equity 183.0% (TTM); Trailing P/E 23.0×; TTM revenue growth 57.8% YoY",
+      "risk": "High sales multiple",
+      "financials_retrieved_at": "2026-11-22T18:57:56Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
