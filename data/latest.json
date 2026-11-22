@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T09:55:50Z",
+  "generated_at": "2026-11-22T10:54:29Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T09:55:50Z",
+      "checked_at": "2026-11-22T10:54:29Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T09:55:50Z",
+      "checked_at": "2026-11-22T10:54:29Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T09:55:50Z",
+      "checked_at": "2026-11-22T10:54:29Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T09:55:50Z",
+      "checked_at": "2026-11-22T10:54:29Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T09:55:50Z",
+      "checked_at": "2026-11-22T10:54:29Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T09:55:50Z",
+    "generated_at": "2026-11-22T10:54:29Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10573,7 +10573,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 12.5×; TTM revenue growth 5.7% YoY",
+        "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 12.6×; TTM revenue growth 5.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10587,35 +10587,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T13:23:07Z",
+            "timestamp": "2026-11-22T10:54:29Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Chubb Limited Board Declares Quarterly Dividend",
-            "timestamp": "2026-11-19T16:00:00Z",
-            "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9"
+            "value": "Mizuho Maintains Neutral on Chubb, Raises Price Target to $368",
+            "timestamp": "2026-11-20T09:12:17Z",
+            "url": "https://finnhub.io/api/news?id=ae37c96d2a7885a4222396bb66911e078c74547b696b6374951fa51ff2ff1f06"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T13:23:07Z",
+        "fundamentals_at": "2026-11-22T10:54:29Z",
         "price": 371.63,
         "currency": "USD",
         "change_pct": 0.411,
         "news": [
           {
-            "headline": "Chubb Limited Board Declares Quarterly Dividend",
-            "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T16:00:00Z",
+            "headline": "Mizuho Maintains Neutral on Chubb, Raises Price Target to $368",
+            "url": "https://finnhub.io/api/news?id=ae37c96d2a7885a4222396bb66911e078c74547b696b6374951fa51ff2ff1f06",
+            "source": "Benzinga",
+            "published_at": "2026-11-20T09:12:17Z",
             "primary": false,
             "symbol": "CB"
           },
           {
-            "headline": "Are Wall Street Analysts Predicting Chubb Limited Stock Will Climb or Sink?",
-            "url": "https://finnhub.io/api/news?id=326dbf93ab04575ac1ad51187b57aa6106955612e1c58c73a217cbb8590062e2",
+            "headline": "Chubb Limited Board Declares Quarterly Dividend",
+            "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:33:19Z",
+            "published_at": "2026-11-19T16:00:00Z",
             "primary": false,
             "symbol": "CB"
           }
@@ -10652,7 +10652,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Technology",
-        "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.3×; TTM revenue growth 6.8% YoY",
+        "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.0×; TTM revenue growth 6.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10666,35 +10666,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T15:04:23Z",
+            "timestamp": "2026-11-22T10:54:29Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Quantum X Labs Demonstrates Accurate Quantum Radiation Simulation on IBM Quantum Computer",
-            "timestamp": "2026-11-20T12:56:00Z",
-            "url": "https://finnhub.io/api/news?id=d7c819dfdfdd0eab92a0a5b58cb3372029a84e6d7d4f205f1bf8685da5260930"
+            "value": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
+            "timestamp": "2026-11-20T23:14:52Z",
+            "url": "https://finnhub.io/api/news?id=60db4e4877318a10c6b40e46aedf228d8a680a4d6f5c36430c115b30f5ae2ff2"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T15:04:23Z",
+        "fundamentals_at": "2026-11-22T10:54:29Z",
         "price": 224.44,
         "currency": "USD",
         "change_pct": 0.25,
         "news": [
           {
-            "headline": "Quantum X Labs Demonstrates Accurate Quantum Radiation Simulation on IBM Quantum Computer",
-            "url": "https://finnhub.io/api/news?id=d7c819dfdfdd0eab92a0a5b58cb3372029a84e6d7d4f205f1bf8685da5260930",
+            "headline": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
+            "url": "https://finnhub.io/api/news?id=60db4e4877318a10c6b40e46aedf228d8a680a4d6f5c36430c115b30f5ae2ff2",
             "source": "Yahoo",
-            "published_at": "2026-11-20T12:56:00Z",
+            "published_at": "2026-11-20T23:14:52Z",
             "primary": false,
             "symbol": "IBM"
           },
           {
-            "headline": "IBM Stock Is Down About 23% in 2026. Here's Where I Think It Will Be in 2030.",
-            "url": "https://finnhub.io/api/news?id=91566299124be84c345d4bff4a77e5568d1dfb437c785cb4b62072ddc9b8d6a1",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T02:24:01Z",
+            "headline": "S&P 500 Unusual Volume Movers: AES, IBM, ROST, INTU",
+            "url": "https://finnhub.io/api/news?id=1723195f94f8438552953667f0d594b71088f4e63b49af7bd831cf67907bcf2c",
+            "source": "ChartMill",
+            "published_at": "2026-11-20T18:05:49Z",
             "primary": false,
             "symbol": "IBM"
           }
@@ -10704,12 +10704,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 155.8,
-          "entry_floor": 140.22,
-          "exit_review_low": 199.74,
-          "exit_review_high": 234.84,
-          "bear_case": 112.01,
-          "scenario_upside_pct": -11.0,
+          "entry_ceiling": 158.08,
+          "entry_floor": 142.27,
+          "exit_review_low": 202.66,
+          "exit_review_high": 238.27,
+          "bear_case": 113.65,
+          "scenario_upside_pct": -9.7,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10722,12 +10722,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.27,
+            "trailing_pe": 18.99,
             "earnings_growth_assumed_pct": 3.07,
             "scenario_exit_pe": 16.64,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T15:04:23Z"
+            "metrics_retrieved_at": "2026-11-22T10:54:29Z"
           }
         },
         "ranking_score": 78,
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T09:55:50Z",
+      "generated_at": "2026-11-22T10:54:29Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 394,

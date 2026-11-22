@@ -8686,18 +8686,18 @@
     "ITW": {
       "metrics": {
         "52WeekHigh": 303.16,
-        "52WeekLow": 238.82,
-        "peTTM": 24.4299,
-        "psTTM": 4.7375,
+        "52WeekLow": 239.24,
+        "peTTM": 24.0857,
+        "psTTM": 4.6707,
         "netProfitMarginTTM": 19.39,
         "roeTTM": 103.39,
         "revenueGrowthTTMYoy": 4.8,
         "epsGrowthTTMYoy": 8.83,
         "currentRatioQuarterly": 1.2937,
         "totalDebt/totalEquityQuarterly": 2.9838,
-        "marketCapitalization": 78859.82
+        "marketCapitalization": 77748.6
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Illinois Tool Works Inc",
       "profile": {
         "weburl": "https://www.itw.com/",
@@ -8705,6 +8705,14 @@
         "name": "Illinois Tool Works Inc"
       },
       "news": [
+        {
+          "headline": "RTX, 3M and Illinois Tool Works Just Fell. Their Dividend Stories Are Still Growing",
+          "url": "https://finnhub.io/api/news?id=c2fca932d206771273073c5e4c82b295fcd4731d612aa965f9b4feec58471c68",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T19:07:21Z",
+          "primary": false,
+          "symbol": "ITW"
+        },
         {
           "headline": "Global Lanyard Quick Release Buckle Market Report 2026: Size, Share, Trends and Forecast 2030 | Capitalize on Safety and Eco-Friendly Demand with ITW, YKK, Duraflex and Ningbo MH",
           "url": "https://finnhub.io/api/news?id=05261a7c2d5c8557fc43a075944af862ed5a21ecc4033d8b8e8c389ac87ebb24",
@@ -8718,18 +8726,18 @@
     "ASML": {
       "metrics": {
         "52WeekHigh": 1741.0,
-        "52WeekLow": 837.1,
-        "peTTM": 46.2305,
-        "psTTM": 13.6326,
+        "52WeekLow": 866.4,
+        "peTTM": 47.2352,
+        "psTTM": 13.9289,
         "netProfitMarginTTM": 29.49,
         "roeTTM": 41.52,
         "revenueGrowthTTMYoy": 9.84,
         "epsGrowthTTMYoy": 3.58,
         "currentRatioQuarterly": 1.303,
         "totalDebt/totalEquityQuarterly": 0.1431,
-        "marketCapitalization": 481606.56
+        "marketCapitalization": 492072.9
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "ASML Holding NV",
       "profile": {
         "weburl": "https://www.asml.com/en/",
@@ -8737,6 +8745,22 @@
         "name": "ASML Holding NV"
       },
       "news": [
+        {
+          "headline": "ASML vs. SK Hynix: Which Artificial Intelligence Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=9d2c08561fbd017dc8f00d02cdf48fa5660c1f4f425dbea533080f59680a662e",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T16:45:01Z",
+          "primary": false,
+          "symbol": "ASML"
+        },
+        {
+          "headline": "ASML vs. Broadcom: Which Tech Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=2483ce28086fa6b415d606c7ac8585b562516742c9fa7ced82b00115bd2912d2",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T14:41:02Z",
+          "primary": false,
+          "symbol": "ASML"
+        },
         {
           "headline": "14 ETFs Add to ASML Holding (ASML) on Nov. 18",
           "url": "https://finnhub.io/api/news?id=dbdfcd0f0990053d9e87104bd12108306caab1058783b246dad97e9a74fccd61",
@@ -8760,22 +8784,6 @@
           "published_at": "2026-11-19T17:08:00Z",
           "primary": false,
           "symbol": "ASML"
-        },
-        {
-          "headline": "Why ASML Holding (ASML)’s Monopoly in EUV Technology Gives It a Powerful Competitive Advantage",
-          "url": "https://finnhub.io/api/news?id=ad323b0d2d5747e9c8b5579a50e9789891a7da052a8fa767d5db21e8a528f66e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:04:44Z",
-          "primary": false,
-          "symbol": "ASML"
-        },
-        {
-          "headline": "Why Nvidia and ASML still fit an underweight tech strategy",
-          "url": "https://finnhub.io/api/news?id=01bef8f96e93c2194a5e1809c5dcf7f868f33a8fef51226a04e41d9e90219f49",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T00:44:54Z",
-          "primary": false,
-          "symbol": "ASML"
         }
       ]
     },
@@ -8783,17 +8791,17 @@
       "metrics": {
         "52WeekHigh": 51.08,
         "52WeekLow": 26.365,
-        "peTTM": 19.7231,
-        "psTTM": 2.586,
+        "peTTM": 19.1358,
+        "psTTM": 2.509,
         "netProfitMarginTTM": 13.11,
         "roeTTM": 23.5,
         "revenueGrowthTTMYoy": 16.71,
         "epsGrowthTTMYoy": 94.82,
         "currentRatioQuarterly": 3.1122,
         "totalDebt/totalEquityQuarterly": 0.3403,
-        "marketCapitalization": 10310.050999999998
+        "marketCapitalization": 10025.703999999998
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "On Holding AG",
       "profile": {
         "weburl": "https://www.on-running.com/",
@@ -8824,14 +8832,6 @@
           "published_at": "2026-11-16T13:00:04Z",
           "primary": false,
           "symbol": "ONON"
-        },
-        {
-          "headline": "ONON Q3 Earnings Call Highlights Margins and Growth Plans",
-          "url": "https://finnhub.io/api/news?id=88f670ef148a2d3762e1efd985a79c37f3a4a7f392a3ebc3b063bda4045711c9",
-          "source": "Yahoo",
-          "published_at": "2026-11-12T17:13:00Z",
-          "primary": false,
-          "symbol": "ONON"
         }
       ]
     },
@@ -8839,17 +8839,17 @@
       "metrics": {
         "52WeekHigh": 384.26,
         "52WeekLow": 291.03,
-        "peTTM": 12.5442,
-        "psTTM": 2.2773,
+        "peTTM": 12.6463,
+        "psTTM": 2.2958,
         "netProfitMarginTTM": 18.15,
         "roeTTM": 15.17,
         "revenueGrowthTTMYoy": 5.7,
         "epsGrowthTTMYoy": 19.31,
         "currentRatioQuarterly": 0.162,
         "totalDebt/totalEquityQuarterly": 0.246,
-        "marketCapitalization": 140845.86
+        "marketCapitalization": 141992.1
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Chubb Limited",
       "profile": {
         "weburl": "https://www.chubb.com/",
@@ -8857,6 +8857,14 @@
         "name": "Chubb Limited"
       },
       "news": [
+        {
+          "headline": "Mizuho Maintains Neutral on Chubb, Raises Price Target to $368",
+          "url": "https://finnhub.io/api/news?id=ae37c96d2a7885a4222396bb66911e078c74547b696b6374951fa51ff2ff1f06",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:12:17Z",
+          "primary": false,
+          "symbol": "CB"
+        },
         {
           "headline": "Chubb Limited Board Declares Quarterly Dividend",
           "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
@@ -8888,14 +8896,6 @@
           "published_at": "2026-11-17T16:17:53Z",
           "primary": false,
           "symbol": "CB"
-        },
-        {
-          "headline": "Morgan Stanley Maintains Equal-Weight on Chubb, Raises Price Target to $380",
-          "url": "https://finnhub.io/api/news?id=06404532a5d1d4aa868ee7f1c8038527500bb3665f54369b4d756b6248128377",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T11:04:31Z",
-          "primary": false,
-          "symbol": "CB"
         }
       ]
     },
@@ -8903,17 +8903,17 @@
       "metrics": {
         "52WeekHigh": 106.33,
         "52WeekLow": 73.31,
-        "peTTM": 24.6203,
-        "psTTM": 3.4319,
+        "peTTM": 24.4296,
+        "psTTM": 3.4053,
         "netProfitMarginTTM": 13.94,
         "roeTTM": 10.61,
         "revenueGrowthTTMYoy": 9.77,
         "epsGrowthTTMYoy": 12.25,
         "currentRatioQuarterly": 2.0671,
         "totalDebt/totalEquityQuarterly": 0.5605,
-        "marketCapitalization": 128837.99
+        "marketCapitalization": 127840.24
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Medtronic PLC",
       "profile": {
         "weburl": "https://www.medtronic.com/",
@@ -8921,6 +8921,30 @@
         "name": "Medtronic PLC"
       },
       "news": [
+        {
+          "headline": "Medtronic Is About to Report Its First Earnings Since Spinning Off MiniMed. Should You Buy the Stock Before Nov. 24?",
+          "url": "https://finnhub.io/api/news?id=8c00c73c393a6d1e5241fbce92169a35921408d9e9b7d04726cd36790c7e965c",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T19:27:02Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "Medtronic (MDT) Stock Fair Value Edges Higher After Analysts Lift Targets",
+          "url": "https://finnhub.io/api/news?id=1924e09c2f2f8a67814b3d693c8edbb56049ee65a6e1f1b6637e1e909d2c806e",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T03:11:18Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "Top Research Reports for Coca-Cola, Medtronic & Palo Alto Networks",
+          "url": "https://finnhub.io/api/news?id=3fb23a61c612ecb6d4b7a0f20e037db85ec2991a9e6f58ff822e60c469eac1a2",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T20:42:00Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
         {
           "headline": "Medtronic (MDT) Won FDA Clearance For Hugo In 3.5 Million US Surgeries",
           "url": "https://finnhub.io/api/news?id=4e5f26ab639075bf6eb76d9615a8ebae11d5c6c93f478280589d4aa34d55c497",
@@ -8936,30 +8960,6 @@
           "published_at": "2026-11-19T15:10:00Z",
           "primary": false,
           "symbol": "MDT"
-        },
-        {
-          "headline": "Global Clinical-Grade Wearables for Pharma and Biotech Market Report 2026 | Capitalize on 21.5% CAGR to $7.48B by 2030 as Abbott, Medtronic, DexCom and Philips Scale AI-Driven RPM",
-          "url": "https://finnhub.io/api/news?id=14c754643edf917176d78ca9a1ede6dc690f2ae9d72c7dcea357021ea4ed1f79",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:46:00Z",
-          "primary": false,
-          "symbol": "MDT"
-        },
-        {
-          "headline": "What Piper Sandler Sees Ahead for Medtronic (MDT)",
-          "url": "https://finnhub.io/api/news?id=22a1c2d80b32c092fc0b7df9974d64e3fc9bf47478ed01b44282661b408ea16a",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:38:40Z",
-          "primary": false,
-          "symbol": "MDT"
-        },
-        {
-          "headline": "Global Autonomous Surgical Robotics Market Opportunities and Strategies to 2035 | Capture $9.64B AI-Led Surgery Growth with Stryker, Medtronic, CMR Surgical and THINK Surgical",
-          "url": "https://finnhub.io/api/news?id=691191036c63a3140af70057c593af792de99de92070d0cf14c6e39d30820a60",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:36:00Z",
-          "primary": false,
-          "symbol": "MDT"
         }
       ]
     },
@@ -8967,17 +8967,17 @@
       "metrics": {
         "52WeekHigh": 505.87,
         "52WeekLow": 348.06,
-        "peTTM": 28.4506,
-        "psTTM": 3.8585,
+        "peTTM": 27.9101,
+        "psTTM": 3.7852,
         "netProfitMarginTTM": 13.56,
         "roeTTM": 36.1,
         "revenueGrowthTTMYoy": 10.34,
         "epsGrowthTTMYoy": 8.96,
         "currentRatioQuarterly": 1.1237,
         "totalDebt/totalEquityQuarterly": 0.463,
-        "marketCapitalization": 89622.36
+        "marketCapitalization": 87919.484
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Trane Technologies PLC",
       "profile": {
         "weburl": "https://www.tranetechnologies.com/",
@@ -8985,6 +8985,14 @@
         "name": "Trane Technologies PLC"
       },
       "news": [
+        {
+          "headline": "Trane Technologies plc (TT) Delivered 11% Revenue Growth, but Its Stock Fell: Is the Market Missing an Opportunity?",
+          "url": "https://finnhub.io/api/news?id=b05382c025131b5b8b5fb1a265e8017af144cc58f9223184da8111ea7cf08607",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:22:40Z",
+          "primary": false,
+          "symbol": "TT"
+        },
         {
           "headline": "TRANE TECHNOLOGIES PLC (NYSE:TT): A Dividend Quality Play for Income Investors",
           "url": "https://finnhub.io/api/news?id=846d88d6d3bf557262668c17b67ae59ecde0341880e45eee6d21adb3b54e9630",
@@ -9000,22 +9008,6 @@
           "published_at": "2026-11-16T11:30:00Z",
           "primary": false,
           "symbol": "TT"
-        },
-        {
-          "headline": "Is Trane Technologies (TT) A Bargain As It Backs Clean Tech Training?",
-          "url": "https://finnhub.io/api/news?id=f07b1bbe6b6f50e0ff5698184db13eedff11909af5bdaf28843404d9b130581c",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T03:15:47Z",
-          "primary": false,
-          "symbol": "TT"
-        },
-        {
-          "headline": "Trane Technologies (TT) Commits $1 Million To Clean Tech Workforce Training",
-          "url": "https://finnhub.io/api/news?id=0e8693d07704c397b666decda760eab45478e1d4427ef4fc8947b6d3595ac3bd",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T02:09:17Z",
-          "primary": false,
-          "symbol": "TT"
         }
       ]
     },
@@ -9023,17 +9015,17 @@
       "metrics": {
         "52WeekHigh": 99.58,
         "52WeekLow": 81.69,
-        "peTTM": 21.6223,
-        "psTTM": 3.6122,
+        "peTTM": 21.7203,
+        "psTTM": 3.6285,
         "netProfitMarginTTM": 16.71,
         "roeTTM": 12.9,
         "revenueGrowthTTMYoy": 8.23,
         "epsGrowthTTMYoy": 8.48,
         "currentRatioQuarterly": 0.8385,
         "totalDebt/totalEquityQuarterly": 1.7596,
-        "marketCapitalization": 107938.64
+        "marketCapitalization": 108427.625
       },
-      "updated_at": "2026-11-20T13:23:07Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Southern Co",
       "profile": {
         "weburl": "https://www.southerncompany.com/",
@@ -9041,6 +9033,22 @@
         "name": "Southern Co"
       },
       "news": [
+        {
+          "headline": "How Many Shares of Southern Company, NextEra Energy or WEC Energy Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=c5e15474264cc831f61393d25f525998fd3d85c7dbf230c3af507db004dfe044",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T12:50:45Z",
+          "primary": false,
+          "symbol": "SO"
+        },
+        {
+          "headline": "Southern Company’s $100 Billion Spending Plan Puts Its Dividend Growth to the Test",
+          "url": "https://finnhub.io/api/news?id=1511c0680d415fe523bd61b52f03bab24d2a1c3dbddf647f92d6c9d5f79dc42c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:17:12Z",
+          "primary": false,
+          "symbol": "SO"
+        },
         {
           "headline": "Southern (SO) Wraps Up $1.75 Billion Composite Units Offering With 35 Million Units",
           "url": "https://finnhub.io/api/news?id=aa51c5bf58997b2dfce98b5d55f5e990abda4990151b754cd625974734270a8a",
@@ -9064,22 +9072,6 @@
           "published_at": "2026-11-18T15:49:11Z",
           "primary": false,
           "symbol": "SO"
-        },
-        {
-          "headline": "Southern Company: AI Customers Must Pay Even If They Don't Use The Power",
-          "url": "https://finnhub.io/api/news?id=4f2055a76a134e1bf154454ab84b3ab4b1b73b6c565e9ce57e22de55d65ee6f7",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T06:43:16Z",
-          "primary": false,
-          "symbol": "SO"
-        },
-        {
-          "headline": "The Southern Company Completes Offering of 40,000,000 Corporate Units",
-          "url": "https://finnhub.io/api/news?id=b2c6a6ae030d2a4f646aed6f14b23ae430ffbb7b1ad1bf72496c05f2cc1e670a",
-          "source": "Fintel",
-          "published_at": "2026-11-17T20:38:51Z",
-          "primary": false,
-          "symbol": "SO"
         }
       ]
     },
@@ -9087,17 +9079,17 @@
       "metrics": {
         "52WeekHigh": 332.46,
         "52WeekLow": 199.19,
-        "peTTM": 19.2714,
-        "psTTM": 3.0804,
+        "peTTM": 18.9938,
+        "psTTM": 3.0361,
         "netProfitMarginTTM": 15.98,
         "roeTTM": 32.940000000000005,
         "revenueGrowthTTMYoy": 6.83,
         "epsGrowthTTMYoy": 40.18,
         "currentRatioQuarterly": 0.8549,
         "totalDebt/totalEquityQuarterly": 1.7958,
-        "marketCapitalization": 215222.9
+        "marketCapitalization": 212122.92
       },
-      "updated_at": "2026-11-20T15:04:23Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "International Business Machines Corporation",
       "profile": {
         "weburl": "https://www.ibm.com",
@@ -9106,42 +9098,42 @@
       },
       "news": [
         {
-          "headline": "Quantum X Labs Demonstrates Accurate Quantum Radiation Simulation on IBM Quantum Computer",
-          "url": "https://finnhub.io/api/news?id=d7c819dfdfdd0eab92a0a5b58cb3372029a84e6d7d4f205f1bf8685da5260930",
+          "headline": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
+          "url": "https://finnhub.io/api/news?id=60db4e4877318a10c6b40e46aedf228d8a680a4d6f5c36430c115b30f5ae2ff2",
           "source": "Yahoo",
-          "published_at": "2026-11-20T12:56:00Z",
+          "published_at": "2026-11-20T23:14:52Z",
           "primary": false,
           "symbol": "IBM"
         },
         {
-          "headline": "IBM Stock Is Down About 23% in 2026. Here's Where I Think It Will Be in 2030.",
-          "url": "https://finnhub.io/api/news?id=91566299124be84c345d4bff4a77e5568d1dfb437c785cb4b62072ddc9b8d6a1",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T02:24:01Z",
+          "headline": "S&P 500 Unusual Volume Movers: AES, IBM, ROST, INTU",
+          "url": "https://finnhub.io/api/news?id=1723195f94f8438552953667f0d594b71088f4e63b49af7bd831cf67907bcf2c",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T18:05:49Z",
           "primary": false,
           "symbol": "IBM"
         },
         {
-          "headline": "International Business Machines Corporation Files Underwriting Agreement and Forms of Notes for ¥108,800,000,000 Debt Offering",
-          "url": "https://finnhub.io/api/news?id=d5bb2c6750bc11b90a5aa6de6e6f8c0b4d0204da3c23f21512873aeda40665ff",
-          "source": "Fintel",
-          "published_at": "2026-11-20T01:58:47Z",
+          "headline": "Why Is IBM (IBM) Down 11.2% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=87a33261222b4763f0433d79fd6db67d071b163a448f0c13d1b408a5c3c785de",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:06Z",
           "primary": false,
           "symbol": "IBM"
         },
         {
-          "headline": "IBM (IBM) Stock May Be 27% Below Fair Value On Quantum Platform News",
-          "url": "https://finnhub.io/api/news?id=8a9be27bad3b2776432131fc7b3c08d1f9748bbaa6a5f7c51d1e1bb67ef9395e",
+          "headline": "Purpose-Built Backup Appliance (PBBA) - Global Strategic Business Report 2026: Capitalize on 8.4% CAGR and $15.9B by 2032 with Key Players Dell EMC, IBM, NetApp and Veeam",
+          "url": "https://finnhub.io/api/news?id=96aa21de38c4a12a0cb1b29768d71667952fd9e5479dcc4094c793c8d35b7b63",
           "source": "Yahoo",
-          "published_at": "2026-11-20T00:20:28Z",
+          "published_at": "2026-11-20T15:09:00Z",
           "primary": false,
           "symbol": "IBM"
         },
         {
-          "headline": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682",
+          "headline": "Financial Process Management Market 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on $13.11B AI and Cloud Growth with Accenture, IBM, TCS, NTT DATA, and Capgemini",
+          "url": "https://finnhub.io/api/news?id=aa31ccab932290eb5fefba6936bc6ce1874c4511d4b7dee60b7cbecd724e6b8b",
           "source": "Yahoo",
-          "published_at": "2026-11-19T23:50:20Z",
+          "published_at": "2026-11-20T14:51:00Z",
           "primary": false,
           "symbol": "IBM"
         }
@@ -9151,17 +9143,17 @@
       "metrics": {
         "52WeekHigh": 214.0,
         "52WeekLow": 156.6,
-        "peTTM": 24.0628,
-        "psTTM": 3.4168,
+        "peTTM": 24.2664,
+        "psTTM": 3.4457,
         "netProfitMarginTTM": 14.2,
         "roeTTM": 27.150000000000002,
         "revenueGrowthTTMYoy": 7.58,
         "epsGrowthTTMYoy": 0.08,
         "currentRatioQuarterly": 1.0904,
         "totalDebt/totalEquityQuarterly": 1.3992,
-        "marketCapitalization": 97237.92
+        "marketCapitalization": 98060.56
       },
-      "updated_at": "2026-11-20T15:04:23Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Marsh & McLennan Companies, Inc.",
       "profile": {
         "weburl": "https://www.marshmclennan.com/",
@@ -9169,6 +9161,14 @@
         "name": "Marsh & McLennan Companies, Inc."
       },
       "news": [
+        {
+          "headline": "Will Synpulse Buyout Boost Marsh's Consulting Growth Prospects?",
+          "url": "https://finnhub.io/api/news?id=d194bd9b21f858baa540a8d030435eccbf6bbb1bf41aeea7cf0d5529f209f3b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:58:00Z",
+          "primary": false,
+          "symbol": "MRSH"
+        },
         {
           "headline": "Marsh McLennan (MRSH) Stock Could Trade At A Discount To Fair Value",
           "url": "https://finnhub.io/api/news?id=f93362f1e40f78c8a626ab501bafe94c62a55c6949dc875f44f01ebf8015dabe",
@@ -9200,14 +9200,6 @@
           "published_at": "2026-11-19T22:34:00Z",
           "primary": false,
           "symbol": "MRSH"
-        },
-        {
-          "headline": "Marsh’s Oliver Wyman to Acquire Financial Services and Technology Consultancy Synpulse",
-          "url": "https://finnhub.io/api/news?id=bf1a5efcded1e4e1f87ed8732e9996d439ec7b3507d6bc0eec3293bff3ee57dc",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:08:00Z",
-          "primary": false,
-          "symbol": "MRSH"
         }
       ]
     },
@@ -9215,17 +9207,17 @@
       "metrics": {
         "52WeekHigh": 389.33,
         "52WeekLow": 267.0,
-        "peTTM": 32.9209,
-        "psTTM": 4.5351,
+        "peTTM": 32.5736,
+        "psTTM": 4.4872,
         "netProfitMarginTTM": 13.78,
         "roeTTM": 15.61,
         "revenueGrowthTTMYoy": 7.87,
         "epsGrowthTTMYoy": 23.27,
         "currentRatioQuarterly": 2.182,
         "totalDebt/totalEquityQuarterly": 0.6043,
-        "marketCapitalization": 119272.39
+        "marketCapitalization": 118014.21
       },
-      "updated_at": "2026-11-20T15:04:23Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Stryker Corporation",
       "profile": {
         "weburl": "https://www.stryker.com/",
@@ -9233,6 +9225,22 @@
         "name": "Stryker Corporation"
       },
       "news": [
+        {
+          "headline": "Stryker: A Great Franchise Still Has Something To Prove",
+          "url": "https://finnhub.io/api/news?id=d06fa8b5d33546f8dbd794a74c560869a1f75578fc670dbf2c65b5b20e5dfbca",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T21:53:47Z",
+          "primary": false,
+          "symbol": "SYK"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning Stryker Stock In The Last 20 Years",
+          "url": "https://finnhub.io/api/news?id=664a4d258bdf755d8e099d0050f01f5f46e43b5906c32fb37643f29d37791986",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T16:00:24Z",
+          "primary": false,
+          "symbol": "SYK"
+        },
         {
           "headline": "Stryker Sticks to Growth Goals Despite Cyberattack and Slower Orthopedic Market",
           "url": "https://finnhub.io/api/news?id=43ab188c757c1b312eb7fd536cb3a8a865eea32e769991de723d9b435164bc28",
@@ -9256,22 +9264,6 @@
           "published_at": "2026-11-19T07:12:38Z",
           "primary": false,
           "symbol": "SYK"
-        },
-        {
-          "headline": "Stryker Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=a56d961bbae83cc90cb8ae26c30a5b04332e3d0cc5d1083a031b695dc6bab2e4",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T06:12:03Z",
-          "primary": false,
-          "symbol": "SYK"
-        },
-        {
-          "headline": "Stryker (SYK) Could Be 2% Above Fair Value After Third Quarter EPS Growth",
-          "url": "https://finnhub.io/api/news?id=b4f926cfcfbc1411af43911231da4c929935da9268caa0f46cb7a35d04ecc979",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T06:11:07Z",
-          "primary": false,
-          "symbol": "SYK"
         }
       ]
     },
@@ -9279,17 +9271,17 @@
       "metrics": {
         "52WeekHigh": 1202.12,
         "52WeekLow": 701.59,
-        "peTTM": 23.854,
-        "psTTM": 3.8952,
+        "peTTM": 22.7709,
+        "psTTM": 3.7184,
         "netProfitMarginTTM": 16.33,
         "roeTTM": 31.009999999999998,
         "revenueGrowthTTMYoy": 9.45,
         "epsGrowthTTMYoy": 17.05,
         "currentRatioQuarterly": 0.796,
         "totalDebt/totalEquityQuarterly": 1.5133,
-        "marketCapitalization": 68150.77
+        "marketCapitalization": 65056.34
       },
-      "updated_at": "2026-11-20T15:04:23Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "United Rentals, Inc.",
       "profile": {
         "weburl": "https://www.unitedrentals.com/",
@@ -9297,6 +9289,22 @@
         "name": "United Rentals, Inc."
       },
       "news": [
+        {
+          "headline": "United Rentals (URI) Stock Could Be A Bargain On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=7c6934d1e53edf2fa3113ce70af291a373c558fde27bb172728c30e364b54126",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T05:17:18Z",
+          "primary": false,
+          "symbol": "URI"
+        },
+        {
+          "headline": "United Rentals (URI) Down 4.6% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=b967df532d2d7f11565998b92b253c23c8a12d3b0cc4f993e0d8770bd67735d1",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:11Z",
+          "primary": false,
+          "symbol": "URI"
+        },
         {
           "headline": "United Rentals Climbs 17% in 6 Months: Should You Buy the Stock?",
           "url": "https://finnhub.io/api/news?id=329a976aee34c9f88fce77cabb9fbffa3ad2eeea993e35c85b8c3ab0ae0ffc3c",
@@ -9319,17 +9327,17 @@
       "metrics": {
         "52WeekHigh": 134.49,
         "52WeekLow": 112.4,
-        "peTTM": 18.8092,
-        "psTTM": 2.9989,
+        "peTTM": 18.7701,
+        "psTTM": 2.9927,
         "netProfitMarginTTM": 15.94,
         "roeTTM": 9.959999999999999,
         "revenueGrowthTTMYoy": 6.8,
         "epsGrowthTTMYoy": 7.67,
         "currentRatioQuarterly": 0.6814,
         "totalDebt/totalEquityQuarterly": 1.6756,
-        "marketCapitalization": 101400.27
+        "marketCapitalization": 101189.75
       },
-      "updated_at": "2026-11-20T15:04:23Z",
+      "updated_at": "2026-11-22T10:54:29Z",
       "name": "Duke Energy Corp",
       "profile": {
         "weburl": "https://www.duke-energy.com/",
@@ -9337,6 +9345,14 @@
         "name": "Duke Energy Corp"
       },
       "news": [
+        {
+          "headline": "How Many Shares of Duke Energy, Consolidated Edison or AEP Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=dfe6da3c1bcd0d1729d1fb32a5848090cf0dcc9c9c7f26888af5db1efebbdf5f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:20:40Z",
+          "primary": false,
+          "symbol": "DUK"
+        },
         {
           "headline": "Duke Energy: A Hold Until Data Centers Start Buying More Power",
           "url": "https://finnhub.io/api/news?id=88b6a45a38816a5f774aa30cf4def212f7db139d45943ba23bd615a45fcb5acf",
@@ -9366,14 +9382,6 @@
           "url": "https://finnhub.io/api/news?id=ce96af99236db7e1ea222a886caa6c53b89fef4d2187af0eeca7064151104ee1",
           "source": "Benzinga",
           "published_at": "2026-11-19T11:51:11Z",
-          "primary": false,
-          "symbol": "DUK"
-        },
-        {
-          "headline": "What Does Duke Energy (DUK) Winning Carolinas Plan Approval Mean For Investors?",
-          "url": "https://finnhub.io/api/news?id=072dceef0101214bfd571215d5d9b876f0d03e1b9cc468519da6a8ae0391f657",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T05:23:04Z",
           "primary": false,
           "symbol": "DUK"
         }
@@ -29986,6 +29994,6 @@
       ]
     }
   },
-  "cursor": 145,
-  "updated_at": "2026-11-22T09:55:50Z"
+  "cursor": 157,
+  "updated_at": "2026-11-22T10:54:29Z"
 }
