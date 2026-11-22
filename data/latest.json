@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:20:07Z",
+  "generated_at": "2026-11-22T08:56:28Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T07:20:07Z",
+      "checked_at": "2026-11-22T08:56:28Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T07:20:07Z",
+      "checked_at": "2026-11-22T08:56:28Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T07:20:07Z",
+      "checked_at": "2026-11-22T08:56:28Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T07:20:07Z",
+      "checked_at": "2026-11-22T08:56:28Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T07:20:07Z",
+      "checked_at": "2026-11-22T08:56:28Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T07:20:07Z",
+    "generated_at": "2026-11-22T08:56:28Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7878,7 +7878,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Energy",
-        "why": "Net profit margin 28.5% (TTM); Return on equity 10.7% (TTM); Trailing P/E 11.8×; TTM revenue growth 18.2% YoY",
+        "why": "Net profit margin 28.5% (TTM); Return on equity 10.7% (TTM); Trailing P/E 11.5×; TTM revenue growth 18.2% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -7892,7 +7892,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T12:11:08Z",
+            "timestamp": "2026-11-22T08:56:28Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -7903,7 +7903,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T12:11:08Z",
+        "fundamentals_at": "2026-11-22T08:56:28Z",
         "price": 48.89,
         "currency": "USD",
         "change_pct": -0.832,
@@ -10486,7 +10486,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 39.1% (TTM); Return on equity 117.6% (TTM); Trailing P/E 12.3×; TTM revenue growth 9.1% YoY",
+        "why": "Net profit margin 39.1% (TTM); Return on equity 117.6% (TTM); Trailing P/E 12.5×; TTM revenue growth 9.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10500,7 +10500,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T11:15:24Z",
+            "timestamp": "2026-11-22T08:56:28Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -10511,7 +10511,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T11:15:24Z",
+        "fundamentals_at": "2026-11-22T08:56:28Z",
         "price": 160.7,
         "currency": "USD",
         "change_pct": 0.86,
@@ -10540,10 +10540,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 152.2,
           "entry_floor": 136.98,
-          "exit_review_low": 234.09,
-          "exit_review_high": 277.17,
-          "bear_case": 129.96,
-          "scenario_upside_pct": 45.7,
+          "exit_review_low": 230.86,
+          "exit_review_high": 273.34,
+          "bear_case": 128.17,
+          "scenario_upside_pct": 43.7,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10556,12 +10556,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 12.29,
+            "trailing_pe": 12.46,
             "earnings_growth_assumed_pct": 4.11,
             "scenario_exit_pe": 17.19,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T11:15:24Z"
+            "metrics_retrieved_at": "2026-11-22T08:56:28Z"
           }
         },
         "ranking_score": 78,
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T07:20:07Z",
+      "generated_at": "2026-11-22T08:56:28Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 393,
