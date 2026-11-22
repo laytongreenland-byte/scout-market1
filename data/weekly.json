@@ -1,63 +1,242 @@
 {
-  "week_start": "2026-11-16",
-  "generated_at": "2026-11-19T22:53:47Z",
+  "week_start": "2026-11-23",
+  "generated_at": "2026-11-22T11:51:41Z",
   "method_version": 4,
   "shortlist": [
     {
-      "symbol": "JPM",
-      "name": "JPMorgan Chase & Co.",
+      "symbol": "COP",
+      "name": "ConocoPhillips",
       "status": "INVESTIGATE",
       "score": 86,
-      "industry": "Unclassified",
-      "why": "Net profit margin 33.3% (TTM); Return on equity 17.9% (TTM); Trailing P/E 13.2×; TTM revenue growth 109.0% YoY",
+      "industry": "Energy",
+      "why": "Net profit margin 17.1% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.9×; TTM revenue growth 13.3% YoY",
       "risks": [
-        "Industry not independently classified; cross-sector scores are not directly comparable"
+        "Company-specific, sector and market drawdowns remain possible"
       ],
       "evidence": [
         {
           "label": "Quote (USD)",
-          "value": "$320.22",
-          "timestamp": "2026-11-19T21:00:00Z",
+          "value": "$136.12",
+          "timestamp": "2026-11-20T21:00:00Z",
           "url": "https://finnhub.io/docs/api/quote"
         },
         {
           "label": "Finnhub financial metrics",
           "value": "5/5 fields; retrieval time, not accounting period",
-          "timestamp": "2026-11-19T22:13:01Z",
+          "timestamp": "2026-11-22T01:17:19Z",
           "url": "https://finnhub.io/docs/api/stock-metrics"
         },
         {
           "label": "Latest company-related article",
-          "value": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
-          "timestamp": "2026-11-19T20:29:13Z",
-          "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd"
+          "value": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
+          "timestamp": "2026-11-21T02:13:15Z",
+          "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7"
         }
       ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T22:13:01Z",
-      "price": 320.22,
+      "as_of": "2026-11-20T21:00:00Z",
+      "fundamentals_at": "2026-11-22T01:17:19Z",
+      "price": 136.12,
       "currency": "USD",
-      "change_pct": -1.2,
+      "change_pct": 0.837,
       "news": [
         {
-          "headline": "Why JPMorgan’s 13x P/E isn’t the bargain it looks like",
-          "url": "https://finnhub.io/api/news?id=8a7bc11c50a3807741039cea9d994c3133063b0c2b971a09ec7f6554aa49e3dd",
+          "headline": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
+          "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:29:13Z",
+          "published_at": "2026-11-21T02:13:15Z",
           "primary": false,
-          "symbol": "JPM"
+          "symbol": "COP"
         },
         {
-          "headline": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
-          "url": "https://finnhub.io/api/news?id=be95547f88c20c682a3b26b94c02418d57626889f77bfab94041a2bb521c7257",
+          "headline": "Learn Why The Bull Case For ConocoPhillips Stock Could Change Following Earnings And Dividend Hike",
+          "url": "https://finnhub.io/api/news?id=f05612f1bc0652149c4e8abea51f2aee47e0c7b92bcffca1ecf85918cdfb46b5",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:23:00Z",
+          "published_at": "2026-11-18T18:10:04Z",
           "primary": false,
-          "symbol": "JPM"
+          "symbol": "COP"
         }
       ],
       "data_quality": "Measured 5/5 core fields",
       "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "price_plan": {
+        "method_version": 1,
+        "signal": "NO RELIABLE PRICE RANGE",
+        "entry_ceiling": null,
+        "entry_floor": null,
+        "exit_review_low": null,
+        "exit_review_high": null,
+        "bear_case": null,
+        "scenario_upside_pct": null,
+        "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+        "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+        "horizon": "Illustrative 12-month scenario, not a return forecast",
+        "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+        "currency": "USD",
+        "as_of": "2026-11-20T21:00:00Z",
+        "basis": [
+          "Finnhub US share quote",
+          "Finnhub P/E, growth and 52-week range"
+        ],
+        "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+      },
+      "ranking_score": 86,
+      "rank_method": "FINANCIAL RULES"
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG Resources, Inc.",
+      "status": "INVESTIGATE",
+      "score": 86,
+      "industry": "Energy",
+      "why": "Net profit margin 27.8% (TTM); Return on equity 26.1% (TTM); Trailing P/E 9.4×; TTM revenue growth 30.0% YoY",
+      "risks": [
+        "Company-specific, sector and market drawdowns remain possible"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$148.60",
+          "timestamp": "2026-11-20T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 fields; retrieval time, not accounting period",
+          "timestamp": "2026-11-22T01:17:19Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
+          "timestamp": "2026-11-19T09:30:50Z",
+          "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2"
+        }
+      ],
+      "as_of": "2026-11-20T21:00:00Z",
+      "fundamentals_at": "2026-11-22T01:17:19Z",
+      "price": 148.6,
+      "currency": "USD",
+      "change_pct": -0.595,
+      "news": [
+        {
+          "headline": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
+          "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2",
+          "source": "ChartMill",
+          "published_at": "2026-11-19T09:30:50Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "Is Permian Resources Spending Too Much?",
+          "url": "https://finnhub.io/api/news?id=d5cb415558c408e0f74de0c224c45336eda319e22186f9d2871448b36758806f",
+          "source": "Yahoo",
+          "published_at": "2026-11-18T12:48:07Z",
+          "primary": false,
+          "symbol": "EOG"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "price_plan": {
+        "method_version": 1,
+        "signal": "NO RELIABLE PRICE RANGE",
+        "entry_ceiling": null,
+        "entry_floor": null,
+        "exit_review_low": null,
+        "exit_review_high": null,
+        "bear_case": null,
+        "scenario_upside_pct": null,
+        "reason": "Sector-specific valuation required for Energy; earnings multiple scenario withheld.",
+        "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+        "horizon": "Illustrative 12-month scenario, not a return forecast",
+        "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+        "currency": "USD",
+        "as_of": "2026-11-20T21:00:00Z",
+        "basis": [
+          "Finnhub US share quote",
+          "Finnhub P/E, growth and 52-week range"
+        ],
+        "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+      },
+      "ranking_score": 86,
+      "rank_method": "FINANCIAL RULES"
+    },
+    {
+      "symbol": "CF",
+      "name": "CF Industries Holdings Inc",
+      "status": "INVESTIGATE",
+      "score": 86,
+      "industry": "Chemicals",
+      "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.6×; TTM revenue growth 17.9% YoY",
+      "risks": [
+        "Company-specific, sector and market drawdowns remain possible"
+      ],
+      "evidence": [
+        {
+          "label": "Quote (USD)",
+          "value": "$115.53",
+          "timestamp": "2026-11-20T21:00:00Z",
+          "url": "https://finnhub.io/docs/api/quote"
+        },
+        {
+          "label": "Finnhub financial metrics",
+          "value": "5/5 fields; retrieval time, not accounting period",
+          "timestamp": "2026-11-20T21:56:58Z",
+          "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
+          "timestamp": "2026-11-19T08:09:00Z",
+          "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de"
+        }
+      ],
+      "as_of": "2026-11-20T21:00:00Z",
+      "fundamentals_at": "2026-11-20T21:56:58Z",
+      "price": 115.53,
+      "currency": "USD",
+      "change_pct": -0.199,
+      "news": [
+        {
+          "headline": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
+          "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T08:09:00Z",
+          "primary": false,
+          "symbol": "CF"
+        },
+        {
+          "headline": "Is CF Industries Holdings (CF) A Bargain After Cost Pressures Clouded Its Valuation?",
+          "url": "https://finnhub.io/api/news?id=ca05f6882222bc1ceb9f545fbf9038c06864757b1578f2491f92a04302e51b83",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T06:09:56Z",
+          "primary": false,
+          "symbol": "CF"
+        }
+      ],
+      "data_quality": "Measured 5/5 core fields",
+      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "price_plan": {
+        "method_version": 1,
+        "signal": "NO RELIABLE PRICE RANGE",
+        "entry_ceiling": null,
+        "entry_floor": null,
+        "exit_review_low": null,
+        "exit_review_high": null,
+        "bear_case": null,
+        "scenario_upside_pct": null,
+        "reason": "Scenario mathematics produced inconsistent or unusable levels.",
+        "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+        "horizon": "Illustrative 12-month scenario, not a return forecast",
+        "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+        "currency": "USD",
+        "as_of": "2026-11-20T21:00:00Z",
+        "basis": [
+          "Finnhub US share quote",
+          "Finnhub P/E, growth and 52-week range"
+        ],
+        "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+      },
       "ranking_score": 86,
       "rank_method": "FINANCIAL RULES"
     },
@@ -66,208 +245,165 @@
       "name": "Amazon.com Inc",
       "status": "INVESTIGATE",
       "score": 83,
-      "industry": "Unclassified",
-      "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 21.5×; TTM revenue growth 15.3% YoY",
+      "industry": "Retail",
+      "why": "Net profit margin 16.9% (TTM); Return on equity 26.7% (TTM); Trailing P/E 20.6×; TTM revenue growth 15.3% YoY",
       "risks": [
-        "Industry not independently classified; cross-sector scores are not directly comparable"
+        "Company-specific, sector and market drawdowns remain possible"
       ],
       "evidence": [
         {
           "label": "Quote (USD)",
-          "value": "$257.37",
-          "timestamp": "2026-11-19T21:00:00Z",
+          "value": "$246.82",
+          "timestamp": "2026-11-20T21:00:00Z",
           "url": "https://finnhub.io/docs/api/quote"
         },
         {
           "label": "Finnhub financial metrics",
           "value": "5/5 fields; retrieval time, not accounting period",
-          "timestamp": "2026-11-19T21:50:38Z",
+          "timestamp": "2026-11-21T20:51:14Z",
           "url": "https://finnhub.io/docs/api/stock-metrics"
+        },
+        {
+          "label": "Latest company-related article",
+          "value": "Amazon tells NYC shoppers a Mamdani-backed delivery bill could cost them up to $664 a year per household",
+          "timestamp": "2026-11-21T19:30:00Z",
+          "url": "https://finnhub.io/api/news?id=2c94a419747c6db328f4affb876775f01539b5ef8e4a59a016380d52a97876cb"
         }
       ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T21:50:38Z",
-      "price": 257.37,
+      "as_of": "2026-11-20T21:00:00Z",
+      "fundamentals_at": "2026-11-21T20:51:14Z",
+      "price": 246.82,
       "currency": "USD",
-      "change_pct": -3.873,
-      "news": [],
+      "change_pct": -4.099,
+      "news": [
+        {
+          "headline": "Amazon tells NYC shoppers a Mamdani-backed delivery bill could cost them up to $664 a year per household",
+          "url": "https://finnhub.io/api/news?id=2c94a419747c6db328f4affb876775f01539b5ef8e4a59a016380d52a97876cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T19:30:00Z",
+          "primary": false,
+          "symbol": "AMZN"
+        },
+        {
+          "headline": "Cathie Wood Just Sold $9 Million of Amazon",
+          "url": "https://finnhub.io/api/news?id=c2ddeb250a604b4036402d9cd5ac4414e7b37cb77f48fae675e01972951d1d8d",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T19:05:34Z",
+          "primary": false,
+          "symbol": "AMZN"
+        }
+      ],
       "data_quality": "Measured 5/5 core fields",
       "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+      "price_plan": {
+        "method_version": 1,
+        "signal": "ABOVE BASE CASE",
+        "entry_ceiling": 186.2,
+        "entry_floor": 167.58,
+        "exit_review_low": 238.72,
+        "exit_review_high": 287.84,
+        "bear_case": 129.06,
+        "scenario_upside_pct": -3.3,
+        "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+        "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+        "horizon": "Illustrative 12-month scenario, not a return forecast",
+        "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+        "currency": "USD",
+        "as_of": "2026-11-20T21:00:00Z",
+        "basis": [
+          "Finnhub US share quote",
+          "Finnhub P/E, growth and 52-week range"
+        ],
+        "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+        "assumptions": {
+          "trailing_pe": 20.65,
+          "earnings_growth_assumed_pct": 6.91,
+          "scenario_exit_pe": 18.68,
+          "valuation_haircut_pct": 22,
+          "market_range_entry_cap": "52-week low + 50% of observed range",
+          "metrics_retrieved_at": "2026-11-21T20:51:14Z"
+        }
+      },
       "ranking_score": 83,
       "rank_method": "FINANCIAL RULES"
     },
     {
-      "symbol": "XOM",
-      "name": "XOM",
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
       "status": "INVESTIGATE",
-      "score": 82,
-      "industry": "Unclassified",
-      "why": "Net profit margin 10.5% (TTM); Return on equity 15.6% (TTM); Trailing P/E 15.8×; TTM revenue growth 19.5% YoY",
+      "score": 83,
+      "industry": "Banking",
+      "why": "Net profit margin 33.3% (TTM); Return on equity 17.9% (TTM); Trailing P/E 12.6×; TTM revenue growth 109.0% YoY",
       "risks": [
-        "Industry not independently classified; cross-sector scores are not directly comparable"
+        "Company-specific, sector and market drawdowns remain possible"
       ],
       "evidence": [
         {
           "label": "Quote (USD)",
-          "value": "$158.93",
-          "timestamp": "2026-11-19T21:00:00Z",
+          "value": "$310.53",
+          "timestamp": "2026-11-20T21:00:00Z",
           "url": "https://finnhub.io/docs/api/quote"
         },
         {
           "label": "Finnhub financial metrics",
           "value": "5/5 fields; retrieval time, not accounting period",
-          "timestamp": "2026-11-19T22:53:47Z",
+          "timestamp": "2026-11-21T21:51:29Z",
           "url": "https://finnhub.io/docs/api/stock-metrics"
         },
         {
           "label": "Latest company-related article",
-          "value": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
-          "timestamp": "2026-11-19T21:16:12Z",
-          "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5"
+          "value": "JPMorgan Chase Financial Company LLC Declares Quarterly Coupon on Alerian MLP Index ETN",
+          "timestamp": "2026-11-20T21:05:00Z",
+          "url": "https://finnhub.io/api/news?id=399a1315ce3b86d69f4a145f20b48f70dff632809d613d11ccc61fa20ab9544b"
         }
       ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T22:53:47Z",
-      "price": 158.93,
+      "as_of": "2026-11-20T21:00:00Z",
+      "fundamentals_at": "2026-11-21T21:51:29Z",
+      "price": 310.53,
       "currency": "USD",
-      "change_pct": -1.028,
+      "change_pct": -3.026,
       "news": [
         {
-          "headline": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
-          "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5",
+          "headline": "JPMorgan Chase Financial Company LLC Declares Quarterly Coupon on Alerian MLP Index ETN",
+          "url": "https://finnhub.io/api/news?id=399a1315ce3b86d69f4a145f20b48f70dff632809d613d11ccc61fa20ab9544b",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:16:12Z",
+          "published_at": "2026-11-20T21:05:00Z",
           "primary": false,
-          "symbol": "XOM"
+          "symbol": "JPM"
         },
         {
-          "headline": "Erste Group Upgrades ExxonMobil (XOM). Here’s What Drove It.",
-          "url": "https://finnhub.io/api/news?id=96a9ce12691a3f825b75bd273c69e8db02bb73d75a08c8ac0ed4731263e8965d",
+          "headline": "Exclusive Research: JPMorgan’s AI strategy puts governance to the test",
+          "url": "https://finnhub.io/api/news?id=459455ded88045bc1adc7d9552d581237492e03c4238641d236456fe3c5f321d",
           "source": "Yahoo",
-          "published_at": "2026-11-19T15:41:39Z",
+          "published_at": "2026-11-20T19:11:47Z",
           "primary": false,
-          "symbol": "XOM"
+          "symbol": "JPM"
         }
       ],
       "data_quality": "Measured 5/5 core fields",
       "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-      "ranking_score": 82,
-      "rank_method": "FINANCIAL RULES"
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "status": "INVESTIGATE",
-      "score": 80,
-      "industry": "Unclassified",
-      "why": "Net profit margin 31.1% (TTM); Return on equity 30.3% (TTM); Trailing P/E 20.9×; TTM revenue growth 27.5% YoY",
-      "risks": [
-        "Industry not independently classified; cross-sector scores are not directly comparable"
-      ],
-      "evidence": [
-        {
-          "label": "Quote (USD)",
-          "value": "$596.22",
-          "timestamp": "2026-11-19T21:00:00Z",
-          "url": "https://finnhub.io/docs/api/quote"
-        },
-        {
-          "label": "Finnhub financial metrics",
-          "value": "5/5 fields; retrieval time, not accounting period",
-          "timestamp": "2026-11-19T21:50:38Z",
-          "url": "https://finnhub.io/docs/api/stock-metrics"
-        },
-        {
-          "label": "Latest company-related article",
-          "value": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-          "timestamp": "2026-11-19T18:45:22Z",
-          "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e"
-        }
-      ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T21:50:38Z",
-      "price": 596.22,
-      "currency": "USD",
-      "change_pct": -3.271,
-      "news": [
-        {
-          "headline": "Meta's New AI Agent Raises Serious Privacy Questions for Investors",
-          "url": "https://finnhub.io/api/news?id=e7a98a7d1eff3a850dc1017189654f8e36dacb3ca199bf0e7a8f4ad85d7ccc5e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:45:22Z",
-          "primary": false,
-          "symbol": "META"
-        },
-        {
-          "headline": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
-          "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:42:45Z",
-          "primary": false,
-          "symbol": "META"
-        }
-      ],
-      "data_quality": "Measured 5/5 core fields",
-      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-      "ranking_score": 80,
-      "rank_method": "FINANCIAL RULES"
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc",
-      "status": "INVESTIGATE",
-      "score": 79,
-      "industry": "Unclassified",
-      "why": "Net profit margin 28.1% (TTM); Return on equity 62.9% (TTM); Trailing P/E 12.1×; TTM revenue growth 12.0% YoY",
-      "risks": [
-        "Industry not independently classified; cross-sector scores are not directly comparable"
-      ],
-      "evidence": [
-        {
-          "label": "Quote (USD)",
-          "value": "$221.68",
-          "timestamp": "2026-11-19T21:00:00Z",
-          "url": "https://finnhub.io/docs/api/quote"
-        },
-        {
-          "label": "Finnhub financial metrics",
-          "value": "5/5 fields; retrieval time, not accounting period",
-          "timestamp": "2026-11-19T21:53:49Z",
-          "url": "https://finnhub.io/docs/api/stock-metrics"
-        },
-        {
-          "label": "Latest company-related article",
-          "value": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-          "timestamp": "2026-11-19T18:17:02Z",
-          "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522"
-        }
-      ],
-      "as_of": "2026-11-19T21:00:00Z",
-      "fundamentals_at": "2026-11-19T21:53:49Z",
-      "price": 221.68,
-      "currency": "USD",
-      "change_pct": -1.998,
-      "news": [
-        {
-          "headline": "Adobe vs. Synopsys: Which Technology Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=c6d5e403dc3c39423f19a5f49376b01d15afcbca1989f57a21a2571f34aa1522",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:17:02Z",
-          "primary": false,
-          "symbol": "ADBE"
-        },
-        {
-          "headline": "Software as a Service (SaaS) Market to Reach USD 1,367.68 Billion by 2035 as AI Agents Reshape Pricing and Salesforce, Adobe, ServiceNow and Workday Build New AI Revenue Lines",
-          "url": "https://finnhub.io/api/news?id=863e362fd92258e0638b4f3793dbfac8601aac633cd2a3d96ff9f3444242e843",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T16:00:00Z",
-          "primary": false,
-          "symbol": "ADBE"
-        }
-      ],
-      "data_quality": "Measured 5/5 core fields",
-      "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-      "ranking_score": 79,
+      "price_plan": {
+        "method_version": 1,
+        "signal": "NO RELIABLE PRICE RANGE",
+        "entry_ceiling": null,
+        "entry_floor": null,
+        "exit_review_low": null,
+        "exit_review_high": null,
+        "bear_case": null,
+        "scenario_upside_pct": null,
+        "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+        "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+        "horizon": "Illustrative 12-month scenario, not a return forecast",
+        "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+        "currency": "USD",
+        "as_of": "2026-11-20T21:00:00Z",
+        "basis": [
+          "Finnhub US share quote",
+          "Finnhub P/E, growth and 52-week range"
+        ],
+        "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+      },
+      "ranking_score": 83,
       "rank_method": "FINANCIAL RULES"
     }
   ],
