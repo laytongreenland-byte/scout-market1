@@ -3076,18 +3076,18 @@
     "BABA": {
       "metrics": {
         "52WeekHigh": 181.1,
-        "52WeekLow": 86.49,
-        "peTTM": 19.6565,
-        "psTTM": 1.3793,
-        "netProfitMarginTTM": 7.02,
-        "roeTTM": 7.01,
-        "revenueGrowthTTMYoy": 4.42,
-        "epsGrowthTTMYoy": -50.71,
-        "currentRatioQuarterly": 1.3618,
-        "totalDebt/totalEquityQuarterly": 0.2541,
-        "marketCapitalization": 216186.14
+        "52WeekLow": 83.25,
+        "peTTM": 22.0086,
+        "psTTM": 1.6275,
+        "netProfitMarginTTM": 7.39,
+        "roeTTM": 7.430000000000001,
+        "revenueGrowthTTMYoy": -17.23,
+        "epsGrowthTTMYoy": -51.17,
+        "currentRatioQuarterly": 1.5023,
+        "totalDebt/totalEquityQuarterly": 0.2171,
+        "marketCapitalization": 204331.52
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Alibaba Group Holding Limited",
       "profile": {
         "weburl": "https://www.alibabagroup.com/",
@@ -3096,42 +3096,42 @@
       },
       "news": [
         {
-          "headline": "Alibaba earnings analysis: questions answered and next catalysts",
-          "url": "https://finnhub.io/api/news?id=641ecea83b524147b0bfb2fb8385f216a7340eb37853188708109c47a2cda668",
+          "headline": "Cathie Wood and 10 Other Big Funds Sold Alibaba Last Quarter, While 14 Bought. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=21a6968a003dcd4ebeac933bc21443f79452fd28ad0cf312c6c7e2d14921078d",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:53:34Z",
+          "published_at": "2026-11-21T19:20:27Z",
           "primary": false,
           "symbol": "BABA"
         },
         {
-          "headline": "Alibaba: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=ad2765b679854925ba4bbed8d511b4ee82f3b0e49824152ca6a184019b87048a",
+          "headline": "Alibaba Sinks 25% in a Month as Chip Curbs Threaten Its 20 GW Plan: Eddie Wu Warns of “Downward Revision”",
+          "url": "https://finnhub.io/api/news?id=790f588375096678ddb60fdcbf488421d898bdce84f5697fe10cb1e22c8e50e5",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:16:26Z",
+          "published_at": "2026-11-21T14:23:12Z",
           "primary": false,
           "symbol": "BABA"
         },
         {
-          "headline": "Alibaba (BABA) Q2 2027 Earnings Call Transcript",
-          "url": "https://finnhub.io/api/news?id=d4b841d5d778e98a5ac61ce725fdc96dfcd911210e1cfe89fa4e57b45935eddb",
+          "headline": "Alibaba’s AI Cloud Revenue Jumped 53%. The Problem? Free Cash Flow.",
+          "url": "https://finnhub.io/api/news?id=5d1f3e3a05bf23f8b9e723b5c191a7770a2e207124a2e79e13c7d42a02d43513",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:01:59Z",
+          "published_at": "2026-11-21T14:11:10Z",
           "primary": false,
           "symbol": "BABA"
         },
         {
-          "headline": "Alibaba Group Holding Ltd (BABA) (Q2 2027) Earnings Call Highlights: AI Cloud Surges 64% as ...",
-          "url": "https://finnhub.io/api/news?id=9df3f3441fefceefd20a4eddf56e77e9c2a2543df5d9c65b3a6fc1bc9bd80675",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:01:02Z",
+          "headline": "Alibaba: 50%+ Cloud Growth, 9.1x P/E, Oversold",
+          "url": "https://finnhub.io/api/news?id=7ad48ad5d9bbdf5cf2a048678b9c5f19b7ba238da7332aa1f67575aa66b2bf6e",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T08:33:13Z",
           "primary": false,
           "symbol": "BABA"
         },
         {
-          "headline": "Is AI Spending Eating Alibaba's Cash?",
-          "url": "https://finnhub.io/api/news?id=173d697e621a6b15a7b476897645bd0ffed45efc9c78393af6d8f9cdebf9c4b5",
+          "headline": "Nvidia’s latest chip scandal has an Alibaba connection, new report claims",
+          "url": "https://finnhub.io/api/news?id=91faef09e55dd67e08aabc895130d2750c45b61365efae90b02b997ce4fb8876",
           "source": "Yahoo",
-          "published_at": "2026-11-19T18:59:14Z",
+          "published_at": "2026-11-21T08:04:54Z",
           "primary": false,
           "symbol": "BABA"
         }
@@ -3141,17 +3141,17 @@
       "metrics": {
         "52WeekHigh": 32.86,
         "52WeekLow": 20.48,
-        "peTTM": 7.7642,
-        "psTTM": 0.7142,
+        "peTTM": 7.8144,
+        "psTTM": 0.7188,
         "netProfitMarginTTM": 9.2,
         "roeTTM": 12.32,
         "revenueGrowthTTMYoy": -0.25,
         "epsGrowthTTMYoy": -47.66,
         "currentRatioQuarterly": 0.8211,
         "totalDebt/totalEquityQuarterly": 0.9442,
-        "marketCapitalization": 87851.9
+        "marketCapitalization": 88420.06
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Comcast Corporation",
       "profile": {
         "weburl": "https://corporate.comcast.com/",
@@ -3159,6 +3159,14 @@
         "name": "Comcast Corporation"
       },
       "news": [
+        {
+          "headline": "Comcast: 4.4x EBITDA Is Too Cheap For The Business Left Behind",
+          "url": "https://finnhub.io/api/news?id=66c4a96c2f82dc52c7477a17d4518dfc94135886dd2529f057047a8e697ca025",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T06:53:05Z",
+          "primary": false,
+          "symbol": "CMCSA"
+        },
         {
           "headline": "Comcast Business Helps Power Content Delivery for 1,200 Movie Theaters Nationwide",
           "url": "https://finnhub.io/api/news?id=82e39dbfc452d93afc966b527cae48a8ae9cf8a2f40d947e3543dbb58c6c1a46",
@@ -3190,14 +3198,6 @@
           "published_at": "2026-11-19T06:15:27Z",
           "primary": false,
           "symbol": "CMCSA"
-        },
-        {
-          "headline": "Comcast’s Network Powers Gaming’s Biggest Moments with Fastly, Delivering Faster Downloads and Less Lag",
-          "url": "https://finnhub.io/api/news?id=e9934a3dee5d5cfb8036c2349c9edb1de83381768420beb6f03a04dcb955de53",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:15:00Z",
-          "primary": false,
-          "symbol": "CMCSA"
         }
       ]
     },
@@ -3205,17 +3205,17 @@
       "metrics": {
         "52WeekHigh": 125.355,
         "52WeekLow": 71.94,
-        "peTTM": 7.9823,
-        "psTTM": 1.6305,
-        "netProfitMarginTTM": 20.43,
-        "roeTTM": 21.98,
-        "revenueGrowthTTMYoy": 10.05,
-        "epsGrowthTTMYoy": -5.9,
-        "currentRatioQuarterly": 2.6175,
+        "peTTM": 12.1621,
+        "psTTM": 2.2772,
+        "netProfitMarginTTM": 18.72,
+        "roeTTM": 19.82,
+        "revenueGrowthTTMYoy": -14.31,
+        "epsGrowthTTMYoy": -33.97,
+        "currentRatioQuarterly": 2.6864,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 110242.055
+        "marketCapitalization": 122412.09
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "PDD Holdings Inc.",
       "profile": {
         "weburl": "https://www.pddholdings.com/",
@@ -3224,42 +3224,42 @@
       },
       "news": [
         {
-          "headline": "PDD Holdings (PDD) Is Making a Big Move. Here’s What’s Happening",
-          "url": "https://finnhub.io/api/news?id=7dabe7d496aac730c1279d845bb7c3d9b819409bd033e2a20d403f057d2ec492",
+          "headline": "PDD Holdings Stocks Surge 11.04% as Operating Profit Jumps 25% on Flat Revenue",
+          "url": "https://finnhub.io/api/news?id=6908f590a2a923f90999902eec181c957e4c44632fa1e26a47235868292ce940",
           "source": "Yahoo",
-          "published_at": "2026-11-20T02:45:34Z",
+          "published_at": "2026-11-20T17:58:43Z",
           "primary": false,
           "symbol": "PDD"
         },
         {
-          "headline": "PDD earnings analysis: questions answered and next catalysts",
-          "url": "https://finnhub.io/api/news?id=fd8356a18370fbe90dc50aa0ff4d7c07cddd6f79830b717426952b2abdad032e",
+          "headline": "Wall Street Analysts Think PDD Holdings Inc. Sponsored ADR (PDD) Could Surge 28.92%: Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=a17e87b3413dd9819fbb5e717b5621450344fc1fd67e3bc3cae56aef55c1f091",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:00:21Z",
+          "published_at": "2026-11-20T13:55:03Z",
           "primary": false,
           "symbol": "PDD"
         },
         {
-          "headline": "PDD Stocks Jump 11.10% as Operating Profit Climbs 25% on Flat Revenue",
-          "url": "https://finnhub.io/api/news?id=052dab1fa6b9693926171402a28b0d2b0b1e4b7f01cdc0806f47c64adb53c7e3",
+          "headline": "PDD Holdings Inc. Sponsored ADR (PDD) Recently Broke Out Above the 20-Day Moving Average",
+          "url": "https://finnhub.io/api/news?id=d5fb0fa5f4277c26fde4de9f3260e91f015d1afbbc20d8703e3fb289a0a638c4",
           "source": "Yahoo",
-          "published_at": "2026-11-19T17:07:38Z",
+          "published_at": "2026-11-20T13:35:01Z",
           "primary": false,
           "symbol": "PDD"
         },
         {
-          "headline": "PDD Q3 Earnings Call Highlights",
-          "url": "https://finnhub.io/api/news?id=ab480c82682acec5acfb2d48c2a6f8af3b7e0fac3eae8f17529930cdd1cf24d0",
+          "headline": "PDD Holdings Inc. Sponsored ADR (PDD) Just Overtook the 50-Day Moving Average",
+          "url": "https://finnhub.io/api/news?id=992aa135015f5d5bfb833b53884e860de406b3776159a3101d90281855260817",
           "source": "Yahoo",
-          "published_at": "2026-11-19T16:16:26Z",
+          "published_at": "2026-11-20T13:30:02Z",
           "primary": false,
           "symbol": "PDD"
         },
         {
-          "headline": "PDD Holdings shares jump 8% as earnings beat estimates despite revenue miss",
-          "url": "https://finnhub.io/api/news?id=7c843eee0cf0d3206890a17a9f4a9387113525150a002618edb8cb5261f31b05",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:34:00Z",
+          "headline": "PDD Holdings: The Pivot Toward Quality Growth Makes It Even More Attractive",
+          "url": "https://finnhub.io/api/news?id=07915210ec8293d4587f7efa774f63d02cfd96ec95dd2952160bb69cd1b1cd01",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T10:25:37Z",
           "primary": false,
           "symbol": "PDD"
         }
@@ -3269,17 +3269,17 @@
       "metrics": {
         "52WeekHigh": 154.28,
         "52WeekLow": 85.7,
-        "peTTM": 13.7497,
-        "psTTM": 2.3455,
+        "peTTM": 13.9257,
+        "psTTM": 2.3755,
         "netProfitMarginTTM": 17.06,
         "roeTTM": 17.75,
         "revenueGrowthTTMYoy": 13.32,
         "epsGrowthTTMYoy": 34.48,
         "currentRatioQuarterly": 1.5182,
         "totalDebt/totalEquityQuarterly": 0.3525,
-        "marketCapitalization": 158905.81
+        "marketCapitalization": 160939.44
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "ConocoPhillips",
       "profile": {
         "weburl": "https://www.conocophillips.com/",
@@ -3287,6 +3287,14 @@
         "name": "ConocoPhillips"
       },
       "news": [
+        {
+          "headline": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
+          "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T02:13:15Z",
+          "primary": false,
+          "symbol": "COP"
+        },
         {
           "headline": "Learn Why The Bull Case For ConocoPhillips Stock Could Change Following Earnings And Dividend Hike",
           "url": "https://finnhub.io/api/news?id=f05612f1bc0652149c4e8abea51f2aee47e0c7b92bcffca1ecf85918cdfb46b5",
@@ -3318,14 +3326,6 @@
           "published_at": "2026-11-18T11:03:50Z",
           "primary": false,
           "symbol": "COP"
-        },
-        {
-          "headline": "EOG vs. ConocoPhillips: The Better Bet as Oil Prices Stay Elevated",
-          "url": "https://finnhub.io/api/news?id=fe873a284268e5886a50b521198aff5f95446867ff23b998e8785f2cd25fb660",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:35:00Z",
-          "primary": false,
-          "symbol": "COP"
         }
       ]
     },
@@ -3333,17 +3333,17 @@
       "metrics": {
         "52WeekHigh": 1128.68,
         "52WeekLow": 720.62,
-        "peTTM": 61.5797,
-        "psTTM": 10.0878,
+        "peTTM": 58.1568,
+        "psTTM": 9.5271,
         "netProfitMarginTTM": 16.38,
         "roeTTM": 11.49,
         "revenueGrowthTTMYoy": 11.06,
         "epsGrowthTTMYoy": 52.48,
         "currentRatioQuarterly": 1.2931,
         "totalDebt/totalEquityQuarterly": 1.7215,
-        "marketCapitalization": 101483.32
+        "marketCapitalization": 95842.47
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Equinix, Inc.",
       "profile": {
         "weburl": "https://www.equinix.com/",
@@ -3351,6 +3351,14 @@
         "name": "Equinix, Inc."
       },
       "news": [
+        {
+          "headline": "Equinix, Inc. (EQIX): Could Its Nordic Data Center Investment Boost Future Earnings?",
+          "url": "https://finnhub.io/api/news?id=6b9ab5f2cd93c2d1bf19084f583c276670d664d1418bc8e308b007f601550ec6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:54:57Z",
+          "primary": false,
+          "symbol": "EQIX"
+        },
         {
           "headline": "Equinix Files for 372K SF DA13 Data Center at Love Field",
           "url": "https://finnhub.io/api/news?id=0edcee34ea5a4bf5219a5813885cced3849f46027c463bcc78a144b559bc8578",
@@ -3382,14 +3390,6 @@
           "published_at": "2026-11-15T13:00:00Z",
           "primary": false,
           "symbol": "EQIX"
-        },
-        {
-          "headline": "Here’s How Much You Would Have Made Owning Equinix Stock In The Last 15 Years",
-          "url": "https://finnhub.io/api/news?id=3d4c8a3adb58ce9ffeeec3cf3ffce7247c81f6c0bfbed6e673ce101e0cf4adcb",
-          "source": "Benzinga",
-          "published_at": "2026-11-12T18:45:19Z",
-          "primary": false,
-          "symbol": "EQIX"
         }
       ]
     },
@@ -3397,17 +3397,17 @@
       "metrics": {
         "52WeekHigh": 224.75,
         "52WeekLow": 143.75,
-        "peTTM": 15.1898,
-        "psTTM": 1.8298,
+        "peTTM": 15.5221,
+        "psTTM": 1.8698,
         "netProfitMarginTTM": 12.05,
         "roeTTM": 19.86,
         "revenueGrowthTTMYoy": 9.28,
         "epsGrowthTTMYoy": -0.2,
         "currentRatioQuarterly": 0.9104,
         "totalDebt/totalEquityQuarterly": 1.5874,
-        "marketCapitalization": 171660.22
+        "marketCapitalization": 175415.53
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "T-Mobile US Inc",
       "profile": {
         "weburl": "https://www.t-mobile.com/",
@@ -3416,42 +3416,42 @@
       },
       "news": [
         {
-          "headline": "Why SpaceX’s latest move has T-Mobile investors on edge",
-          "url": "https://finnhub.io/api/news?id=e0d522980558f868604973f7f92b30be7c102a28307b06faf4b6a90b76258417",
+          "headline": "T-Mobile leak reveals major phone plan change for core customers",
+          "url": "https://finnhub.io/api/news?id=7c28d0daa647ab2f2e511ada83b4a8636c0d805dee6021fe09500dd736dd453e",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:27:10Z",
+          "published_at": "2026-11-21T18:33:00Z",
           "primary": false,
           "symbol": "TMUS"
         },
         {
-          "headline": "Elon Musk Moves Step Closer to Creating Phone Service After Verizon and T-Mobile Shut Out",
-          "url": "https://finnhub.io/api/news?id=0d3fb1bdb45e29c69343719a42824ad2c0fe85a3511a857e65fd6db2598b82dc",
+          "headline": "AT&T vs. T-Mobile: Higher Dividend Yield or Faster Income Growth",
+          "url": "https://finnhub.io/api/news?id=b2fd2a8b25dd5cb2a214e625bcd46dc4e3f2cc7ed73591057c26cabfd2f4b5c3",
           "source": "Yahoo",
-          "published_at": "2026-11-19T17:24:29Z",
+          "published_at": "2026-11-21T17:07:26Z",
           "primary": false,
           "symbol": "TMUS"
         },
         {
-          "headline": "T-Mobile US Remains Attractive Despite The (Distant) SpaceX Risk",
-          "url": "https://finnhub.io/api/news?id=2970bb6ae2a09ae39d5d9315673a7e71a123fc807cd03ee7e186d76c1d676c9c",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-19T13:00:49Z",
+          "headline": "Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock",
+          "url": "https://finnhub.io/api/news?id=8be3c2f2bc93b9f898c7fb01184eb9e486f4670222c24a15af6b8e12c6e681d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T02:11:22Z",
           "primary": false,
           "symbol": "TMUS"
         },
         {
-          "headline": "T-Mobile found a way to stop solving your problems",
-          "url": "https://finnhub.io/api/news?id=c4f2a9e913ea2845d09a9b2ece362e4c7420fa4d73e4d92a7946a6d50786431a",
+          "headline": "Can T Mobile US (TMUS) Turn AI Network Upgrades Into A Real Edge?",
+          "url": "https://finnhub.io/api/news?id=9e4696b76b327bd4bb94d74f7a46014714c8543755c23f0a3ef30950263d18ec",
           "source": "Yahoo",
-          "published_at": "2026-11-19T01:03:00Z",
+          "published_at": "2026-11-20T19:11:18Z",
           "primary": false,
           "symbol": "TMUS"
         },
         {
-          "headline": "T-Mobile Adds New AI-Powered Intelligence and Resilience To Make Its 5G Network Even Stronger",
-          "url": "https://finnhub.io/api/news?id=9c3e63298ee5be829d7eb938617a7526f3bfcfb08db0b90c175346324bc1d251",
+          "headline": "T Mobile US (TMUS) Shows Off F1 5G Push On An Undervalued Narrative",
+          "url": "https://finnhub.io/api/news?id=261bbc32ef76422d1dd34c419691b1b6388a72c0117267e6ac7e4c0b94d8e5b5",
           "source": "Yahoo",
-          "published_at": "2026-11-18T17:30:00Z",
+          "published_at": "2026-11-20T11:09:57Z",
           "primary": false,
           "symbol": "TMUS"
         }
@@ -3461,17 +3461,17 @@
       "metrics": {
         "52WeekHigh": 132.5,
         "52WeekLow": 95.8,
-        "peTTM": 12.4829,
-        "psTTM": 0.1511,
+        "peTTM": 12.6232,
+        "psTTM": 0.1528,
         "netProfitMarginTTM": 1.21,
         "roeTTM": 7.24,
         "revenueGrowthTTMYoy": 1.55,
         "epsGrowthTTMYoy": -47.07,
         "currentRatioQuarterly": 1.1582,
         "totalDebt/totalEquityQuarterly": 0.3276,
-        "marketCapitalization": 235324.34
+        "marketCapitalization": 237613.72
       },
-      "updated_at": "2026-11-20T06:53:52Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "JD.com Inc",
       "profile": {
         "weburl": "https://corporate.jd.com/",
@@ -3484,17 +3484,17 @@
       "metrics": {
         "52WeekHigh": 165.93,
         "52WeekLow": 101.59,
-        "peTTM": 9.4478,
-        "psTTM": 2.6294,
+        "peTTM": 9.412,
+        "psTTM": 2.6195,
         "netProfitMarginTTM": 27.83,
         "roeTTM": 26.05,
         "revenueGrowthTTMYoy": 30.03,
         "epsGrowthTTMYoy": 53.85,
         "currentRatioQuarterly": 1.8985,
         "totalDebt/totalEquityQuarterly": 0.2393,
-        "marketCapitalization": 77339.695
+        "marketCapitalization": 77046.75
       },
-      "updated_at": "2026-11-20T07:33:27Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "EOG Resources, Inc.",
       "profile": {
         "weburl": "https://www.eogresources.com/",
@@ -3548,17 +3548,17 @@
       "metrics": {
         "52WeekHigh": 208.14,
         "52WeekLow": 146.23,
-        "peTTM": 72.8065,
-        "psTTM": 9.5063,
+        "peTTM": 66.3429,
+        "psTTM": 8.6623,
         "netProfitMarginTTM": 13.06,
         "roeTTM": 3.64,
         "revenueGrowthTTMYoy": 19.99,
         "epsGrowthTTMYoy": -36.97,
         "currentRatioQuarterly": 0.5544,
         "totalDebt/totalEquityQuarterly": 0.6935,
-        "marketCapitalization": 67459.28
+        "marketCapitalization": 61470.387
       },
-      "updated_at": "2026-11-20T07:33:27Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Digital Realty Trust, Inc.",
       "profile": {
         "weburl": "https://www.digitalrealty.com",
@@ -3566,6 +3566,14 @@
         "name": "Digital Realty Trust, Inc."
       },
       "news": [
+        {
+          "headline": "Truist Securities Maintains Buy on Digital Realty Trust, Lowers Price Target to $215",
+          "url": "https://finnhub.io/api/news?id=a66512ddf5cbc59555102c48b9fda327004033882dbc7ca73c68dda157a6e958",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T09:40:29Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
         {
           "headline": "DLR Boosts Frankfurt Data Center Capacity With New Power Connection",
           "url": "https://finnhub.io/api/news?id=7df9efa7f66042233c8e0f2eae21f697af8c58372c77c743178ca740bbbe74cb",
@@ -3597,14 +3605,6 @@
           "published_at": "2026-11-16T17:02:00Z",
           "primary": false,
           "symbol": "DLR"
-        },
-        {
-          "headline": "Why Equinix and Digital Realty Benefit From Data Center Zoning Battles",
-          "url": "https://finnhub.io/api/news?id=9f40041d6a4b998a9fbf537f5b57cc4545777ad2059bb89e9b01e3d5666c7186",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T13:00:00Z",
-          "primary": false,
-          "symbol": "DLR"
         }
       ]
     },
@@ -3612,17 +3612,17 @@
       "metrics": {
         "52WeekHigh": 51.68,
         "52WeekLow": 38.68,
-        "peTTM": 11.6516,
-        "psTTM": 1.3726,
+        "peTTM": 11.7246,
+        "psTTM": 1.3812,
         "netProfitMarginTTM": 11.78,
         "roeTTM": 15.73,
         "revenueGrowthTTMYoy": 1.38,
         "epsGrowthTTMYoy": -16.44,
         "currentRatioQuarterly": 0.6264,
         "totalDebt/totalEquityQuarterly": 1.5684,
-        "marketCapitalization": 191319.12
+        "marketCapitalization": 192518.25
       },
-      "updated_at": "2026-11-20T07:33:27Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Verizon Communications Inc",
       "profile": {
         "weburl": "https://www.verizon.com/",
@@ -3631,42 +3631,42 @@
       },
       "news": [
         {
-          "headline": "Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete",
-          "url": "https://finnhub.io/api/news?id=505796c1ca88163529e6e870818b05c3dd1f64bbab96c0170d39e5aed38fbb2c",
+          "headline": "An $850,000 Portfolio in Verizon, NNN REIT and Enterprise Products Pays $52,395 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=067d8295f6cdd3dce6a66bdf89c9dbe172171d2b5c938661a373974424deef04",
           "source": "Yahoo",
-          "published_at": "2026-11-19T17:46:02Z",
+          "published_at": "2026-11-21T21:35:23Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "Elon Musk Moves Step Closer to Creating Phone Service After Verizon and T-Mobile Shut Out",
-          "url": "https://finnhub.io/api/news?id=0d3fb1bdb45e29c69343719a42824ad2c0fe85a3511a857e65fd6db2598b82dc",
+          "headline": "Verizon Pays Out $11.7 Billion a Year in Dividends. Here’s the Free Cash Flow Math Behind Its 6.2%-Yielding Payout.",
+          "url": "https://finnhub.io/api/news?id=0c1bb056686ab121ea025b47fa74c7e4606815c40d2503d0c84fc48a92d92ac9",
           "source": "Yahoo",
-          "published_at": "2026-11-19T17:24:29Z",
+          "published_at": "2026-11-21T21:23:02Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "How Many Shares of AT&T, Verizon or Comcast Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=fb832736e9dc63b47493cb513a8f2961efdb80d3a1033f2418bde2b1188f09d7",
+          "headline": "Musk Says AT&T and Verizon May “Lose Some Revenue” as Starlink’s Phone Service Gets 40x the Bandwidth",
+          "url": "https://finnhub.io/api/news?id=f4534c37ca8311e00e8503beeefd7c269b0aff7fb5eb9f7a70915ded2c51d2ea",
           "source": "Yahoo",
-          "published_at": "2026-11-19T14:05:35Z",
+          "published_at": "2026-11-21T17:20:39Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "Verizon Survey: Small Businesses Turn to Social Media & AI for Holidays",
-          "url": "https://finnhub.io/api/news?id=59adf52dd17b3cdd925277d29345542d2bee66ed3c9796e9af8263c7d4f4762e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:00:00Z",
+          "headline": "Verizon: 6% Yield Surrounded By A CapEx Moat",
+          "url": "https://finnhub.io/api/news?id=048671efe1241ea58e7bed86f5528403cee8f27c23006340bdb0097cd9cb6857",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T08:00:00Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "A $600,000 Portfolio in Healthpeak, Verizon and NNN REIT Pays $37,054 a Year in Dividends. Here’s What Happens if One Cuts",
-          "url": "https://finnhub.io/api/news?id=ae6fef000a1927b2eb2ba80f6dca17ba773291da7f0a83777982cc8372392eb6",
+          "headline": "How AI Contracts Will Impact Verizon (VZ) Investors",
+          "url": "https://finnhub.io/api/news?id=ea8b8015245c5b2d925ba86c9883d65edb0b4f53edb29b8197fa8b910cffa37b",
           "source": "Yahoo",
-          "published_at": "2026-11-18T18:20:32Z",
+          "published_at": "2026-11-20T23:16:12Z",
           "primary": false,
           "symbol": "VZ"
         }
@@ -3675,18 +3675,18 @@
     "BIDU": {
       "metrics": {
         "52WeekHigh": 165.3,
-        "52WeekLow": 69.065,
-        "peTTM": 19.7332,
-        "psTTM": 1.2459,
+        "52WeekLow": 61.7,
+        "peTTM": 18.7831,
+        "psTTM": 1.1859,
         "netProfitMarginTTM": 6.31,
         "roeTTM": 2.97,
         "revenueGrowthTTMYoy": -2.7,
         "epsGrowthTTMYoy": -2.69,
         "currentRatioQuarterly": 2.5383,
         "totalDebt/totalEquityQuarterly": 0.3845,
-        "marketCapitalization": 23723.059
+        "marketCapitalization": 22564.264
       },
-      "updated_at": "2026-11-20T07:33:27Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Baidu, Inc.",
       "profile": {
         "weburl": "https://www.baidu.com/",
@@ -3694,6 +3694,14 @@
         "name": "Baidu, Inc."
       },
       "news": [
+        {
+          "headline": "Which Baidu ETFs Change What Chip News Means For You?",
+          "url": "https://finnhub.io/api/news?id=2910b66b19fbc39d7fe896b13ceca331abac88bb4525e12d7e88fb1e2d1f31cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T16:13:22Z",
+          "primary": false,
+          "symbol": "BIDU"
+        },
         {
           "headline": "Barclays Maintains Equal-Weight on Baidu, Lowers Price Target to $72",
           "url": "https://finnhub.io/api/news?id=f5bfb495a2b66f731cd8bab92d4c6b6f709d74d06d6d18750a8882ea1f827a73",
@@ -3725,14 +3733,6 @@
           "published_at": "2026-11-18T05:54:22Z",
           "primary": false,
           "symbol": "BIDU"
-        },
-        {
-          "headline": "Baidu Q3 2026: Between A Skinnier Cash Cow And An Expensive AI Bet",
-          "url": "https://finnhub.io/api/news?id=c17c14464a9ced3c39e9452140536733eb053e8a13c63349b66cd7b79b679869",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T03:59:11Z",
-          "primary": false,
-          "symbol": "BIDU"
         }
       ]
     },
@@ -3740,17 +3740,17 @@
       "metrics": {
         "52WeekHigh": 122.29,
         "52WeekLow": 77.2,
-        "peTTM": 10.529,
-        "psTTM": 2.0009,
+        "peTTM": 9.8162,
+        "psTTM": 1.8654,
         "netProfitMarginTTM": 19.0,
         "roeTTM": 43.56,
         "revenueGrowthTTMYoy": 6.34,
         "epsGrowthTTMYoy": 11.93,
         "currentRatioQuarterly": 2.7242,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 11158.926
+        "marketCapitalization": 10403.43
       },
-      "updated_at": "2026-11-20T07:33:27Z",
+      "updated_at": "2026-11-22T01:17:19Z",
       "name": "Deckers Outdoor Corporation",
       "profile": {
         "weburl": "https://www.deckers.com/",
@@ -3758,6 +3758,14 @@
         "name": "Deckers Outdoor Corporation"
       },
       "news": [
+        {
+          "headline": "Deckers Outdoor (DECK) Stock Looks Cheap Following Its 2027 Sales Cut",
+          "url": "https://finnhub.io/api/news?id=96759238dd231855b3947b1a0a672c5e7328367387bac492cc8309e6d387edad",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:13:05Z",
+          "primary": false,
+          "symbol": "DECK"
+        },
         {
           "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
           "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
@@ -30043,6 +30051,6 @@
       ]
     }
   },
-  "cursor": 49,
-  "updated_at": "2026-11-21T23:48:12Z"
+  "cursor": 61,
+  "updated_at": "2026-11-22T01:17:19Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T23:48:12Z",
+  "generated_at": "2026-11-22T01:17:19Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-21T23:48:12Z",
+      "checked_at": "2026-11-22T01:17:19Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-21T23:48:12Z",
+      "checked_at": "2026-11-22T01:17:19Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-21T23:48:12Z",
+      "checked_at": "2026-11-22T01:17:19Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-21T23:48:12Z",
+      "checked_at": "2026-11-22T01:17:19Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-21T23:48:12Z",
+      "checked_at": "2026-11-22T01:17:19Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-21T23:48:12Z",
+    "generated_at": "2026-11-22T01:17:19Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -6993,7 +6993,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Energy",
-        "why": "Net profit margin 17.1% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.7×; TTM revenue growth 13.3% YoY",
+        "why": "Net profit margin 17.1% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.9×; TTM revenue growth 13.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7007,35 +7007,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T06:53:52Z",
+            "timestamp": "2026-11-22T01:17:19Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Learn Why The Bull Case For ConocoPhillips Stock Could Change Following Earnings And Dividend Hike",
-            "timestamp": "2026-11-18T18:10:04Z",
-            "url": "https://finnhub.io/api/news?id=f05612f1bc0652149c4e8abea51f2aee47e0c7b92bcffca1ecf85918cdfb46b5"
+            "value": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
+            "timestamp": "2026-11-21T02:13:15Z",
+            "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T06:53:52Z",
+        "fundamentals_at": "2026-11-22T01:17:19Z",
         "price": 136.12,
         "currency": "USD",
         "change_pct": 0.837,
         "news": [
           {
-            "headline": "Learn Why The Bull Case For ConocoPhillips Stock Could Change Following Earnings And Dividend Hike",
-            "url": "https://finnhub.io/api/news?id=f05612f1bc0652149c4e8abea51f2aee47e0c7b92bcffca1ecf85918cdfb46b5",
+            "headline": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
+            "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7",
             "source": "Yahoo",
-            "published_at": "2026-11-18T18:10:04Z",
+            "published_at": "2026-11-21T02:13:15Z",
             "primary": false,
             "symbol": "COP"
           },
           {
-            "headline": "ConocoPhillips (COP) Soared on Higher Commodity Prices and Solid Quarterly Results",
-            "url": "https://finnhub.io/api/news?id=61db6cca1faf85a094766ed81ba7891a85c5ed8e07665a77c0fdad32935b742a",
+            "headline": "Learn Why The Bull Case For ConocoPhillips Stock Could Change Following Earnings And Dividend Hike",
+            "url": "https://finnhub.io/api/news?id=f05612f1bc0652149c4e8abea51f2aee47e0c7b92bcffca1ecf85918cdfb46b5",
             "source": "Yahoo",
-            "published_at": "2026-11-18T14:02:47Z",
+            "published_at": "2026-11-18T18:10:04Z",
             "primary": false,
             "symbol": "COP"
           }
@@ -7086,7 +7086,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:33:27Z",
+            "timestamp": "2026-11-22T01:17:19Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -7097,7 +7097,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "fundamentals_at": "2026-11-22T01:17:19Z",
         "price": 148.6,
         "currency": "USD",
         "change_pct": -0.595,
@@ -13735,6 +13735,93 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "DECK",
+        "name": "Deckers Outdoor Corporation",
+        "status": "WATCH",
+        "score": 75,
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 9.8×; TTM revenue growth 6.3% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$77.94",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-22T01:17:19Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Deckers Outdoor (DECK) Stock Looks Cheap Following Its 2027 Sales Cut",
+            "timestamp": "2026-11-20T14:13:05Z",
+            "url": "https://finnhub.io/api/news?id=96759238dd231855b3947b1a0a672c5e7328367387bac492cc8309e6d387edad"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-22T01:17:19Z",
+        "price": 77.94,
+        "currency": "USD",
+        "change_pct": -1.279,
+        "news": [
+          {
+            "headline": "Deckers Outdoor (DECK) Stock Looks Cheap Following Its 2027 Sales Cut",
+            "url": "https://finnhub.io/api/news?id=96759238dd231855b3947b1a0a672c5e7328367387bac492cc8309e6d387edad",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T14:13:05Z",
+            "primary": false,
+            "symbol": "DECK"
+          },
+          {
+            "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
+            "source": "Yahoo",
+            "published_at": "2026-11-17T13:00:03Z",
+            "primary": false,
+            "symbol": "DECK"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 99.75,
+          "entry_floor": 89.77,
+          "exit_review_low": 134.91,
+          "exit_review_high": 158.37,
+          "bear_case": 75.81,
+          "scenario_upside_pct": 73.1,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 9.82,
+            "earnings_growth_assumed_pct": 2.85,
+            "scenario_exit_pe": 16.52,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-22T01:17:19Z"
+          }
+        },
+        "ranking_score": 75,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "HON",
         "name": "Honeywell International Inc.",
         "status": "WATCH",
@@ -13819,93 +13906,6 @@
           }
         },
         "ranking_score": 63,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "DECK",
-        "name": "Deckers Outdoor Corporation",
-        "status": "WATCH",
-        "score": 75,
-        "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 10.5×; TTM revenue growth 6.3% YoY",
-        "risks": [
-          "Price near reported 52-week low"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$77.94",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:33:27Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
-            "timestamp": "2026-11-17T13:00:03Z",
-            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:33:27Z",
-        "price": 77.94,
-        "currency": "USD",
-        "change_pct": -1.279,
-        "news": [
-          {
-            "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
-            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
-            "source": "Yahoo",
-            "published_at": "2026-11-17T13:00:03Z",
-            "primary": false,
-            "symbol": "DECK"
-          },
-          {
-            "headline": "Deckers: Time To Dip A Toe In",
-            "url": "https://finnhub.io/api/news?id=b8b44e1a413a24a79c8444a1566b3df019ecec52f19eb2803a532fe3c9bcad82",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-17T04:46:08Z",
-            "primary": false,
-            "symbol": "DECK"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 98.1,
-          "entry_floor": 88.29,
-          "exit_review_low": 125.77,
-          "exit_review_high": 147.65,
-          "bear_case": 70.68,
-          "scenario_upside_pct": 61.4,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 10.53,
-            "earnings_growth_assumed_pct": 2.85,
-            "scenario_exit_pe": 16.52,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T07:33:27Z"
-          }
-        },
-        "ranking_score": 75,
         "rank_method": "FINANCIAL RULES"
       },
       {
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-21T23:48:12Z",
+      "generated_at": "2026-11-22T01:17:19Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 392,
