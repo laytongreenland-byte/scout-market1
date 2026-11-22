@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:53:47Z",
+  "generated_at": "2026-11-22T16:55:39Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T15:53:47Z",
+      "checked_at": "2026-11-22T16:55:39Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T15:53:47Z",
+      "checked_at": "2026-11-22T16:55:39Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T15:53:47Z",
+      "checked_at": "2026-11-22T16:55:39Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T15:53:47Z",
+      "checked_at": "2026-11-22T16:55:39Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T15:53:47Z",
+      "checked_at": "2026-11-22T16:55:39Z",
       "error": ""
     }
   ],
@@ -6954,21 +6954,10 @@
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
-    },
-    {
-      "id": "8d77606258c867c18c5d",
-      "type": "MACRO",
-      "ticker": null,
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "published_at": "2026-11-12T16:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-      "source": "Federal Reserve press releases",
-      "primary": true,
-      "sentiment": "neutral"
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T15:53:47Z",
+    "generated_at": "2026-11-22T16:55:39Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8038,35 +8027,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:25:50Z",
+            "timestamp": "2026-11-22T16:55:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "AES At $15.02: A Late-Stage Merger-Arb With Little Left To Win",
-            "timestamp": "2026-11-19T16:40:33Z",
-            "url": "https://finnhub.io/api/news?id=6cceed4948d8ead31b05031959bbb81e07668f0a0cebf4057f78e25dba1ebc0c"
+            "value": "S&P 500 Unusual Volume Movers: AES, IBM, ROST, INTU",
+            "timestamp": "2026-11-20T18:05:49Z",
+            "url": "https://finnhub.io/api/news?id=1723195f94f8438552953667f0d594b71088f4e63b49af7bd831cf67907bcf2c"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:25:50Z",
+        "fundamentals_at": "2026-11-22T16:55:39Z",
         "price": 15.02,
         "currency": "USD",
         "change_pct": 0.0,
         "news": [
           {
-            "headline": "AES At $15.02: A Late-Stage Merger-Arb With Little Left To Win",
-            "url": "https://finnhub.io/api/news?id=6cceed4948d8ead31b05031959bbb81e07668f0a0cebf4057f78e25dba1ebc0c",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-19T16:40:33Z",
+            "headline": "S&P 500 Unusual Volume Movers: AES, IBM, ROST, INTU",
+            "url": "https://finnhub.io/api/news?id=1723195f94f8438552953667f0d594b71088f4e63b49af7bd831cf67907bcf2c",
+            "source": "ChartMill",
+            "published_at": "2026-11-20T18:05:49Z",
             "primary": false,
             "symbol": "AES"
           },
           {
-            "headline": "The AES Corporation Declares Stub Period Dividend of $0.06369 Per Share Subject to Merger Closing",
-            "url": "https://finnhub.io/api/news?id=1c5ce770b391e6ac09ba722c834c6a36d3022adc838319d02713f23bc570ac21",
-            "source": "Fintel",
-            "published_at": "2026-11-19T00:51:21Z",
+            "headline": "AES At $15.02: A Late-Stage Merger-Arb With Little Left To Win",
+            "url": "https://finnhub.io/api/news?id=6cceed4948d8ead31b05031959bbb81e07668f0a0cebf4057f78e25dba1ebc0c",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-19T16:40:33Z",
             "primary": false,
             "symbol": "AES"
           }
@@ -12893,7 +12882,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Banking",
-        "why": "Net profit margin 23.8% (TTM); Return on equity 8.1% (TTM); Trailing P/E 10.8×; TTM revenue growth 58.2% YoY",
+        "why": "Net profit margin 23.8% (TTM); Return on equity 8.1% (TTM); Trailing P/E 10.6×; TTM revenue growth 58.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12907,7 +12896,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:10:18Z",
+            "timestamp": "2026-11-22T16:55:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -12918,7 +12907,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:10:18Z",
+        "fundamentals_at": "2026-11-22T16:55:39Z",
         "price": 45.81,
         "currency": "USD",
         "change_pct": -1.843,
@@ -14900,10 +14889,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T15:53:47Z",
+      "generated_at": "2026-11-22T16:55:39Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 779,
+        "recorded": 780,
         "purchase_scenarios": 64,
         "opened": 1,
         "closed": 0,
@@ -14913,10 +14902,30 @@
         "not_triggered": 0,
         "waiting": 64,
         "unverified": 0,
-        "skipped": 715,
+        "skipped": 716,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|NEM|POSSIBLE VALUE TRAP",
+          "symbol": "NEM",
+          "name": "Newmont Corporation",
+          "signal": "POSSIBLE VALUE TRAP",
+          "decision_at": "2026-11-22T16:55:39Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 94.68,
+          "buy_ceiling": 108.31,
+          "sell_review": 200.62,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 34.7% (TTM); Return on equity 26.5% (TTM); Trailing P/E 10.6×; TTM revenue growth 23.7% YoY",
+          "score": 75,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|LRCX|ABOVE BASE CASE",
           "symbol": "LRCX",
@@ -17290,26 +17299,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 14.2% (TTM); Return on equity 27.2% (TTM); Trailing P/E 24.3×; TTM revenue growth 7.6% YoY",
           "score": 62,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|SYK|ABOVE BASE CASE",
-          "symbol": "SYK",
-          "name": "Stryker Corporation",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 310.0,
-          "buy_ceiling": 129.82,
-          "sell_review": 166.43,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 13.8% (TTM); Return on equity 15.6% (TTM); Trailing P/E 32.6×; TTM revenue growth 7.9% YoY",
-          "score": 72,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
