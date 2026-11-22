@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:17:19Z",
+  "generated_at": "2026-11-22T02:21:41Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T01:17:19Z",
+      "checked_at": "2026-11-22T02:21:41Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T01:17:19Z",
+      "checked_at": "2026-11-22T02:21:41Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T01:17:19Z",
+      "checked_at": "2026-11-22T02:21:41Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T01:17:19Z",
+      "checked_at": "2026-11-22T02:21:41Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T01:17:19Z",
+      "checked_at": "2026-11-22T02:21:41Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T01:17:19Z",
+    "generated_at": "2026-11-22T02:21:41Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7165,35 +7165,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:33:27Z",
+            "timestamp": "2026-11-22T02:21:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Should You Buy Occidental Stock For Its Cash Flow?",
-            "timestamp": "2026-11-19T11:39:01Z",
-            "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca"
+            "value": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
+            "timestamp": "2026-11-21T09:50:53Z",
+            "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:33:27Z",
+        "fundamentals_at": "2026-11-22T02:21:41Z",
         "price": 53.9,
         "currency": "USD",
         "change_pct": 0.167,
         "news": [
           {
-            "headline": "Should You Buy Occidental Stock For Its Cash Flow?",
-            "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T11:39:01Z",
+            "headline": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
+            "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab",
+            "source": "ChartMill",
+            "published_at": "2026-11-21T09:50:53Z",
             "primary": false,
             "symbol": "OXY"
           },
           {
-            "headline": "Occidental Petroleum Corporation Commences Cash Tender Offers for Up to $500.0 Million in Two Separate Pools",
-            "url": "https://finnhub.io/api/news?id=eb6eb9bd100d8c31ba4d686a6e35f371f8c7cfc97866a8b13ffc06de3fd92a76",
-            "source": "Fintel",
-            "published_at": "2026-11-19T02:00:16Z",
+            "headline": "Should You Buy Occidental Stock For Its Cash Flow?",
+            "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T11:39:01Z",
             "primary": false,
             "symbol": "OXY"
           }
@@ -12320,7 +12320,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Real Estate",
-        "why": "Net profit margin 63.1% (TTM); Return on equity 97.1% (TTM); Trailing P/E 16.2×; TTM revenue growth 16.2% YoY",
+        "why": "Net profit margin 63.1% (TTM); Return on equity 97.1% (TTM); Trailing P/E 16.1×; TTM revenue growth 16.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12334,35 +12334,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:48:44Z",
+            "timestamp": "2026-11-22T02:21:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "This Holiday Season, It's a Simon® Thing",
-            "timestamp": "2026-11-19T14:00:00Z",
-            "url": "https://finnhub.io/api/news?id=21eaf095f614652e3104203d3be90a6963fdf03ad7af01eaec7495acd928e86b"
+            "value": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
+            "timestamp": "2026-11-21T11:50:35Z",
+            "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:48:44Z",
+        "fundamentals_at": "2026-11-22T02:21:41Z",
         "price": 224.35,
         "currency": "USD",
         "change_pct": -0.386,
         "news": [
           {
-            "headline": "This Holiday Season, It's a Simon® Thing",
-            "url": "https://finnhub.io/api/news?id=21eaf095f614652e3104203d3be90a6963fdf03ad7af01eaec7495acd928e86b",
+            "headline": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
+            "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94",
             "source": "Yahoo",
-            "published_at": "2026-11-19T14:00:00Z",
+            "published_at": "2026-11-21T11:50:35Z",
             "primary": false,
             "symbol": "SPG"
           },
           {
-            "headline": "Citigroup Maintains Neutral on Simon Property Group, Raises Price Target to $237",
-            "url": "https://finnhub.io/api/news?id=15535396d95c878986bf676f0525e6a3e5bb0c8d6ad563a961ddf292173b98da",
-            "source": "Benzinga",
-            "published_at": "2026-11-17T12:18:51Z",
+            "headline": "Is Wall Street Bullish or Bearish on Simon Property Stock?",
+            "url": "https://finnhub.io/api/news?id=233df8ce2efe174f1a2a40fc29efba9b13de31f1df5859294eda42f4425a2615",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T07:25:21Z",
             "primary": false,
             "symbol": "SPG"
           }
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T01:17:19Z",
+      "generated_at": "2026-11-22T02:21:41Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 392,
