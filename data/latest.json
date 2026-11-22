@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:53:19Z",
+  "generated_at": "2026-11-22T21:53:24Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T20:53:19Z",
+      "checked_at": "2026-11-22T21:53:24Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T20:53:19Z",
+      "checked_at": "2026-11-22T21:53:24Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T20:53:19Z",
+      "checked_at": "2026-11-22T21:53:24Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T20:53:19Z",
+      "checked_at": "2026-11-22T21:53:24Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T20:53:19Z",
+      "checked_at": "2026-11-22T21:53:24Z",
       "error": ""
     }
   ],
@@ -6920,22 +6920,10 @@
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
-    },
-    {
-      "id": "79c4c601e0f4007ec571",
-      "type": "SEC",
-      "ticker": "META",
-      "title": "META: 8-K filed with the SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
-      "source": "SEC EDGAR",
-      "primary": true,
-      "published_at": "2026-11-12T21:27:49Z",
-      "sentiment": "neutral",
-      "form": "8-K"
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T20:53:19Z",
+    "generated_at": "2026-11-22T21:53:24Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7185,7 +7173,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Chemicals",
-        "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.6×; TTM revenue growth 17.9% YoY",
+        "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.7×; TTM revenue growth 17.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7199,35 +7187,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T21:56:58Z",
+            "timestamp": "2026-11-22T21:53:24Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
-            "timestamp": "2026-11-19T08:09:00Z",
-            "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de"
+            "value": "Is CF Industries (NYSE:CF) One of the Best Fertilizer Stocks to Buy Now?",
+            "timestamp": "2026-11-21T14:57:04Z",
+            "url": "https://finnhub.io/api/news?id=a252633b40967efbacc6a2cbebc2ebbcbc060a55afbc830084d286cd3d76cd85"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T21:56:58Z",
+        "fundamentals_at": "2026-11-22T21:53:24Z",
         "price": 115.53,
         "currency": "USD",
         "change_pct": -0.199,
         "news": [
           {
-            "headline": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
-            "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de",
+            "headline": "Is CF Industries (NYSE:CF) One of the Best Fertilizer Stocks to Buy Now?",
+            "url": "https://finnhub.io/api/news?id=a252633b40967efbacc6a2cbebc2ebbcbc060a55afbc830084d286cd3d76cd85",
             "source": "Yahoo",
-            "published_at": "2026-11-19T08:09:00Z",
+            "published_at": "2026-11-21T14:57:04Z",
             "primary": false,
             "symbol": "CF"
           },
           {
-            "headline": "Is CF Industries Holdings (CF) A Bargain After Cost Pressures Clouded Its Valuation?",
-            "url": "https://finnhub.io/api/news?id=ca05f6882222bc1ceb9f545fbf9038c06864757b1578f2491f92a04302e51b83",
+            "headline": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
+            "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de",
             "source": "Yahoo",
-            "published_at": "2026-11-19T06:09:56Z",
+            "published_at": "2026-11-19T08:09:00Z",
             "primary": false,
             "symbol": "CF"
           }
@@ -9121,7 +9109,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 24.6% (TTM); Return on equity 8.7% (TTM); Trailing P/E 11.5×; TTM revenue growth 62.7% YoY",
+        "why": "Net profit margin 24.6% (TTM); Return on equity 8.7% (TTM); Trailing P/E 10.9×; TTM revenue growth 62.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9135,35 +9123,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T22:55:54Z",
+            "timestamp": "2026-11-22T21:53:24Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
-            "timestamp": "2026-11-20T08:22:47Z",
-            "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e"
+            "value": "Citizens Financial Group Targets $450 Million Tech Boost as Private Banking Grows",
+            "timestamp": "2026-11-22T08:12:10Z",
+            "url": "https://finnhub.io/api/news?id=fc4ebe99884b7bc43ad98aecaf95d5b43ad87d76ad2a0f72cc0aa94f9b082057"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T22:55:54Z",
+        "fundamentals_at": "2026-11-22T21:53:24Z",
         "price": 58.71,
         "currency": "USD",
         "change_pct": -2.975,
         "news": [
           {
-            "headline": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
-            "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-20T08:22:47Z",
+            "headline": "Citizens Financial Group Targets $450 Million Tech Boost as Private Banking Grows",
+            "url": "https://finnhub.io/api/news?id=fc4ebe99884b7bc43ad98aecaf95d5b43ad87d76ad2a0f72cc0aa94f9b082057",
+            "source": "Yahoo",
+            "published_at": "2026-11-22T08:12:10Z",
             "primary": false,
             "symbol": "CFG"
           },
           {
-            "headline": "Cantor Fitzgerald Maintains Overweight on Citizens Financial Group, Raises Price Target to $80",
-            "url": "https://finnhub.io/api/news?id=36707d3385ec932219c925c5cf13ebc372471e8aaa9547cbe8264ba0ab1ea85b",
-            "source": "Benzinga",
-            "published_at": "2026-11-16T07:36:37Z",
+            "headline": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
+            "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-20T08:22:47Z",
             "primary": false,
             "symbol": "CFG"
           }
@@ -10947,7 +10935,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 22.1% (TTM); Return on equity 16.5% (TTM); Trailing P/E 10.8×; TTM revenue growth 6.0% YoY",
+        "why": "Net profit margin 22.1% (TTM); Return on equity 16.5% (TTM); Trailing P/E 10.7×; TTM revenue growth 6.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10961,35 +10949,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T22:55:54Z",
+            "timestamp": "2026-11-22T21:53:24Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Cincinnati Financial (CINF) Has Fresh Attention, But What Is The Market Weighing?",
-            "timestamp": "2026-11-20T17:10:41Z",
-            "url": "https://finnhub.io/api/news?id=9f4f040cb2118dbb0db16e01873974cc7df6fadadf4ca33e89cf2bee9b73d989"
+            "value": "Cincinnati Financial (CINF) Stock Looks Expensive On Its 95% Run",
+            "timestamp": "2026-11-21T04:24:49Z",
+            "url": "https://finnhub.io/api/news?id=e07bccc4cf104b89612947051128b84f86b353f8788b4428ad7c6aa09f10ceb7"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T22:55:54Z",
+        "fundamentals_at": "2026-11-22T21:53:24Z",
         "price": 186.54,
         "currency": "USD",
         "change_pct": -0.798,
         "news": [
           {
-            "headline": "Cincinnati Financial (CINF) Has Fresh Attention, But What Is The Market Weighing?",
-            "url": "https://finnhub.io/api/news?id=9f4f040cb2118dbb0db16e01873974cc7df6fadadf4ca33e89cf2bee9b73d989",
+            "headline": "Cincinnati Financial (CINF) Stock Looks Expensive On Its 95% Run",
+            "url": "https://finnhub.io/api/news?id=e07bccc4cf104b89612947051128b84f86b353f8788b4428ad7c6aa09f10ceb7",
             "source": "Yahoo",
-            "published_at": "2026-11-20T17:10:41Z",
+            "published_at": "2026-11-21T04:24:49Z",
             "primary": false,
             "symbol": "CINF"
           },
           {
-            "headline": "Cincinnati Financial Corporation Declares Regular Quarterly Cash Dividend",
-            "url": "https://finnhub.io/api/news?id=77e0bffddbbca54bf893e82f9e11ac771172868ed482cfe1d9c8c956366ba63b",
-            "source": "Yahoo",
-            "published_at": "2026-11-13T18:00:00Z",
+            "headline": "$100 Invested In Cincinnati Financial 15 Years Ago Would Be Worth This Much Today",
+            "url": "https://finnhub.io/api/news?id=30680a90db0571643da8dafc579f483789322be9593b2531cf001c4e0be3bb71",
+            "source": "Benzinga",
+            "published_at": "2026-11-20T17:16:45Z",
             "primary": false,
             "symbol": "CINF"
           }
@@ -14867,7 +14855,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T20:53:19Z",
+      "generated_at": "2026-11-22T21:53:24Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 781,
