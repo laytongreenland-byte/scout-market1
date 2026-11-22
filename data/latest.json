@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:56:28Z",
+  "generated_at": "2026-11-22T09:55:50Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T08:56:28Z",
+      "checked_at": "2026-11-22T09:55:50Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T08:56:28Z",
+      "checked_at": "2026-11-22T09:55:50Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T08:56:28Z",
+      "checked_at": "2026-11-22T09:55:50Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T08:56:28Z",
+      "checked_at": "2026-11-22T09:55:50Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T08:56:28Z",
+      "checked_at": "2026-11-22T09:55:50Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T08:56:28Z",
+    "generated_at": "2026-11-22T09:55:50Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -14776,23 +14776,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T08:56:28Z",
+      "generated_at": "2026-11-22T09:55:50Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 393,
-        "purchase_scenarios": 31,
+        "recorded": 394,
+        "purchase_scenarios": 32,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 31,
+        "waiting": 32,
         "unverified": 0,
         "skipped": 362,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|CMI|WAIT FOR ENTRY",
+          "symbol": "CMI",
+          "name": "Cummins Inc",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-22T09:55:50Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 403.61,
+          "buy_ceiling": 323.13,
+          "sell_review": 414.27,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 9.3% (TTM); Return on equity 26.1% (TTM); Trailing P/E 16.7×; TTM revenue growth 6.7% YoY",
+          "score": 65,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|NOC|WAIT FOR ENTRY",
           "symbol": "NOC",
@@ -17166,26 +17186,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 15.0% (TTM); Return on equity 14.3% (TTM); Trailing P/E 17.6×; TTM revenue growth 5.0% YoY",
           "score": 68,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|HWM|ABOVE BASE CASE",
-          "symbol": "HWM",
-          "name": "Howmet Aerospace Inc.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-21T06:02:26Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 209.16,
-          "buy_ceiling": 89.03,
-          "sell_review": 114.14,
-          "risk": "High trailing earnings valuation",
-          "why": "Net profit margin 21.1% (TTM); Return on equity 36.7% (TTM); Trailing P/E 40.5×; TTM revenue growth 22.0% YoY",
-          "score": 64,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

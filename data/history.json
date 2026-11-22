@@ -34124,6 +34124,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-16|CMI|WAIT FOR ENTRY",
+      "week": "2026-11-16",
+      "symbol": "CMI",
+      "name": "Cummins Inc",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-22T09:55:50Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 403.61,
+      "score": 65,
+      "quality_status": "WATCH",
+      "buy_ceiling": 323.13,
+      "sell_review": 414.27,
+      "bear_case": 232.45,
+      "why": "Net profit margin 9.3% (TTM); Return on equity 26.1% (TTM); Trailing P/E 16.7×; TTM revenue growth 6.7% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-22T09:55:50Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
