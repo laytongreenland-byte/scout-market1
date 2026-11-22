@@ -34103,6 +34103,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-16|NOC|WAIT FOR ENTRY",
+      "week": "2026-11-16",
+      "symbol": "NOC",
+      "name": "Northrop Grumman Corp",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-22T04:00:48Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 534.31,
+      "score": 71,
+      "quality_status": "WATCH",
+      "buy_ceiling": 423.01,
+      "sell_review": 542.32,
+      "bear_case": 304.54,
+      "why": "Net profit margin 10.4% (TTM); Return on equity 25.7% (TTM); Trailing P/E 16.8×; TTM revenue growth 6.5% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-22T04:00:48Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }

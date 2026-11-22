@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:21:41Z",
+  "generated_at": "2026-11-22T04:00:48Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T02:21:41Z",
+      "checked_at": "2026-11-22T04:00:48Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T02:21:41Z",
+      "checked_at": "2026-11-22T04:00:48Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T02:21:41Z",
+      "checked_at": "2026-11-22T04:00:48Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T02:21:41Z",
+      "checked_at": "2026-11-22T04:00:48Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T02:21:41Z",
+      "checked_at": "2026-11-22T04:00:48Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T02:21:41Z",
+    "generated_at": "2026-11-22T04:00:48Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7720,7 +7720,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Energy",
-        "why": "Net profit margin 8.3% (TTM); Return on equity 76.6% (TTM); Trailing P/E 7.0×; TTM revenue growth 30.6% YoY",
+        "why": "Net profit margin 8.3% (TTM); Return on equity 76.6% (TTM); Trailing P/E 6.8×; TTM revenue growth 30.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7734,35 +7734,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:48:44Z",
+            "timestamp": "2026-11-22T04:00:48Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "What Moved Marathon Petroleum Stock?",
-            "timestamp": "2026-11-19T12:45:48Z",
-            "url": "https://finnhub.io/api/news?id=1a409fd9dc5067ae499fda8ccad857700df1169ba8811da503ee48946c1e238b"
+            "value": "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
+            "timestamp": "2026-11-20T21:20:00Z",
+            "url": "https://finnhub.io/api/news?id=adeabb6c8b97b96d0df2addb357f2861345a8b271d72029788dc8dd28c27c1fd"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:48:44Z",
+        "fundamentals_at": "2026-11-22T04:00:48Z",
         "price": 367.19,
         "currency": "USD",
         "change_pct": -0.201,
         "news": [
           {
-            "headline": "What Moved Marathon Petroleum Stock?",
-            "url": "https://finnhub.io/api/news?id=1a409fd9dc5067ae499fda8ccad857700df1169ba8811da503ee48946c1e238b",
+            "headline": "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
+            "url": "https://finnhub.io/api/news?id=adeabb6c8b97b96d0df2addb357f2861345a8b271d72029788dc8dd28c27c1fd",
             "source": "Yahoo",
-            "published_at": "2026-11-19T12:45:48Z",
+            "published_at": "2026-11-20T21:20:00Z",
             "primary": false,
             "symbol": "MPC"
           },
           {
-            "headline": "Marathon Petroleum Stock: Analyst Estimates & Ratings",
-            "url": "https://finnhub.io/api/news?id=5ca9663eb3050d9acaccb3e063c365658a205cc56e792d47d14691e8f93f4917",
+            "headline": "What Moved Marathon Petroleum Stock?",
+            "url": "https://finnhub.io/api/news?id=1a409fd9dc5067ae499fda8ccad857700df1169ba8811da503ee48946c1e238b",
             "source": "Yahoo",
-            "published_at": "2026-11-17T13:23:02Z",
+            "published_at": "2026-11-19T12:45:48Z",
             "primary": false,
             "symbol": "MPC"
           }
@@ -7799,7 +7799,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Energy",
-        "why": "Net profit margin 8.4% (TTM); Return on equity 51.5% (TTM); Trailing P/E 7.1×; TTM revenue growth 24.6% YoY",
+        "why": "Net profit margin 8.4% (TTM); Return on equity 51.5% (TTM); Trailing P/E 7.2×; TTM revenue growth 24.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7813,35 +7813,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T08:06:57Z",
+            "timestamp": "2026-11-22T04:00:48Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Valero's Crude Flexibility & Gulf Coast Network Boost Prospects",
-            "timestamp": "2026-11-19T17:19:00Z",
-            "url": "https://finnhub.io/api/news?id=51a0e9b1fa94873d5f2a2da2499405e315759b33128802d8b9890e993abcf28c"
+            "value": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
+            "timestamp": "2026-11-21T22:17:33Z",
+            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T08:06:57Z",
+        "fundamentals_at": "2026-11-22T04:00:48Z",
         "price": 334.18,
         "currency": "USD",
         "change_pct": -1.265,
         "news": [
           {
-            "headline": "Valero's Crude Flexibility & Gulf Coast Network Boost Prospects",
-            "url": "https://finnhub.io/api/news?id=51a0e9b1fa94873d5f2a2da2499405e315759b33128802d8b9890e993abcf28c",
+            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
+            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
             "source": "Yahoo",
-            "published_at": "2026-11-19T17:19:00Z",
+            "published_at": "2026-11-21T22:17:33Z",
             "primary": false,
             "symbol": "VLO"
           },
           {
-            "headline": "Here is What to Know Beyond Why Valero Energy Corporation (VLO) is a Trending Stock",
-            "url": "https://finnhub.io/api/news?id=767bfe98073aed6103f21ad008e3e8a3fa69ab350a59cfd90cda0c4207a955e4",
+            "headline": "Why Everyone Is Watching Valero Energy (VLO) Right Now",
+            "url": "https://finnhub.io/api/news?id=30e6ea684adef0a0a6bc4e13411d22a751a520044fe19654357e92cd8228318a",
             "source": "Yahoo",
-            "published_at": "2026-11-19T13:00:03Z",
+            "published_at": "2026-11-20T09:07:42Z",
             "primary": false,
             "symbol": "VLO"
           }
@@ -8613,7 +8613,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 22.2% (TTM); Return on equity 12.8% (TTM); Trailing P/E 10.7×; TTM revenue growth 72.7% YoY",
+        "why": "Net profit margin 22.2% (TTM); Return on equity 12.8% (TTM); Trailing P/E 10.6×; TTM revenue growth 72.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8627,35 +8627,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T07:48:44Z",
+            "timestamp": "2026-11-22T04:00:48Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Wells Fargo grapples with change in venerable business line",
-            "timestamp": "2026-11-19T21:54:39Z",
-            "url": "https://finnhub.io/api/news?id=d03a1c116c6b37fac80c9883d7a680b1405af87e8950c3bd6f1c29557420a89b"
+            "value": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far",
+            "timestamp": "2026-11-21T10:33:56Z",
+            "url": "https://finnhub.io/api/news?id=dcc4ca74ad29905cec595c7645827a978ebf632e96efabf4f4973bb3a86a5879"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T07:48:44Z",
+        "fundamentals_at": "2026-11-22T04:00:48Z",
         "price": 78.62,
         "currency": "USD",
         "change_pct": -2.469,
         "news": [
           {
-            "headline": "Wells Fargo grapples with change in venerable business line",
-            "url": "https://finnhub.io/api/news?id=d03a1c116c6b37fac80c9883d7a680b1405af87e8950c3bd6f1c29557420a89b",
+            "headline": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far",
+            "url": "https://finnhub.io/api/news?id=dcc4ca74ad29905cec595c7645827a978ebf632e96efabf4f4973bb3a86a5879",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:54:39Z",
+            "published_at": "2026-11-21T10:33:56Z",
             "primary": false,
             "symbol": "WFC"
           },
           {
-            "headline": "Wells Fargo: Better Execution, Same Valuation Problem",
-            "url": "https://finnhub.io/api/news?id=8d2aa5cb12962dfafbbadac0ca383f0781a0d094ae8c825973b40c18656a8558",
+            "headline": "Wells Fargo: Freedom To Grow Is No Longer The Whole Story",
+            "url": "https://finnhub.io/api/news?id=5e05c40dca8e63171d6936ca5c1b817b9e83d350d8939d2e983189de95c2773d",
             "source": "SeekingAlpha",
-            "published_at": "2026-11-19T07:57:03Z",
+            "published_at": "2026-11-21T10:00:23Z",
             "primary": false,
             "symbol": "WFC"
           }
@@ -12399,7 +12399,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Pharmaceuticals",
-        "why": "Net profit margin 18.5% (TTM); Return on equity 43.9% (TTM); Trailing P/E 12.8×; TTM revenue growth 4.2% YoY",
+        "why": "Net profit margin 18.5% (TTM); Return on equity 43.9% (TTM); Trailing P/E 13.0×; TTM revenue growth 4.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12413,35 +12413,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T08:06:57Z",
+            "timestamp": "2026-11-22T04:00:48Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Bristol-Myers Squibb (BMY) Fully Valued Following Its Hematology Data Update?",
-            "timestamp": "2026-11-20T06:11:09Z",
-            "url": "https://finnhub.io/api/news?id=a6569b045ba1c2186a0a04eda6434ceb2f60a3e1fde7ddb543142441047ecc28"
+            "value": "Bristol Myers Squibb's Growth Portfolio Just Hit $7.7 Billion. Is This Cheap Pharma Stock a No-Brainer Buy?",
+            "timestamp": "2026-11-21T00:35:02Z",
+            "url": "https://finnhub.io/api/news?id=513d34b2c89b8d84ce8772af872b13867647822d0f21c5106091e93dff57fe03"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T08:06:57Z",
+        "fundamentals_at": "2026-11-22T04:00:48Z",
         "price": 58.8,
         "currency": "USD",
         "change_pct": 0.788,
         "news": [
           {
-            "headline": "Is Bristol-Myers Squibb (BMY) Fully Valued Following Its Hematology Data Update?",
-            "url": "https://finnhub.io/api/news?id=a6569b045ba1c2186a0a04eda6434ceb2f60a3e1fde7ddb543142441047ecc28",
+            "headline": "Bristol Myers Squibb's Growth Portfolio Just Hit $7.7 Billion. Is This Cheap Pharma Stock a No-Brainer Buy?",
+            "url": "https://finnhub.io/api/news?id=513d34b2c89b8d84ce8772af872b13867647822d0f21c5106091e93dff57fe03",
             "source": "Yahoo",
-            "published_at": "2026-11-20T06:11:09Z",
+            "published_at": "2026-11-21T00:35:02Z",
             "primary": false,
             "symbol": "BMY"
           },
           {
-            "headline": "Which Dates Could Move Bristol Myers Squibb Stock Most?",
-            "url": "https://finnhub.io/api/news?id=adb0e9141f536effdd12b620e75f1d3c2dd010ab089e9b0720a82567d4a3504d",
+            "headline": "Better Dividend Stock for Retirees: General Mills vs. Bristol Myers Squibb",
+            "url": "https://finnhub.io/api/news?id=bc940256fc1fb01e89583be338ba8ec3f43f54789f344bbf771c7ae3c536c886",
             "source": "Yahoo",
-            "published_at": "2026-11-19T12:08:04Z",
+            "published_at": "2026-11-20T18:20:25Z",
             "primary": false,
             "symbol": "BMY"
           }
@@ -12453,10 +12453,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 56.95,
           "entry_floor": 51.26,
-          "exit_review_low": 74.69,
-          "exit_review_high": 87.08,
-          "bear_case": 42.38,
-          "scenario_upside_pct": 27.0,
+          "exit_review_low": 73.67,
+          "exit_review_high": 85.89,
+          "bear_case": 41.8,
+          "scenario_upside_pct": 25.3,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12469,12 +12469,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 12.83,
+            "trailing_pe": 13.01,
             "earnings_growth_assumed_pct": 1.87,
             "scenario_exit_pe": 16.0,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T08:06:57Z"
+            "metrics_retrieved_at": "2026-11-22T04:00:48Z"
           }
         },
         "ranking_score": 76,
@@ -14776,23 +14776,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T02:21:41Z",
+      "generated_at": "2026-11-22T04:00:48Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 392,
-        "purchase_scenarios": 30,
+        "recorded": 393,
+        "purchase_scenarios": 31,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 30,
+        "waiting": 31,
         "unverified": 0,
         "skipped": 362,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-16|NOC|WAIT FOR ENTRY",
+          "symbol": "NOC",
+          "name": "Northrop Grumman Corp",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-22T04:00:48Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 534.31,
+          "buy_ceiling": 423.01,
+          "sell_review": 542.32,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 10.4% (TTM); Return on equity 25.7% (TTM); Trailing P/E 16.8×; TTM revenue growth 6.5% YoY",
+          "score": 71,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-16|WST|ABOVE BASE CASE",
           "symbol": "WST",
@@ -17166,26 +17186,6 @@
           "risk": "High trailing earnings valuation",
           "why": "Net profit margin 21.1% (TTM); Return on equity 36.7% (TTM); Trailing P/E 40.5×; TTM revenue growth 22.0% YoY",
           "score": 64,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-16|HPQ|NO RELIABLE PRICE RANGE",
-          "symbol": "HPQ",
-          "name": "HP Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-21T06:02:26Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 27.96,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 4.1% (TTM); Return on equity 16.9% (TTM); Trailing P/E 10.4×; TTM revenue growth 8.1% YoY",
-          "score": 65,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
