@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:53:24Z",
+  "generated_at": "2026-11-22T22:52:47Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T21:53:24Z",
+      "checked_at": "2026-11-22T22:52:47Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T21:53:24Z",
+      "checked_at": "2026-11-22T22:52:47Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T21:53:24Z",
+      "checked_at": "2026-11-22T22:52:47Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T21:53:24Z",
+      "checked_at": "2026-11-22T22:52:47Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T21:53:24Z",
+      "checked_at": "2026-11-22T22:52:47Z",
       "error": ""
     }
   ],
@@ -6923,7 +6923,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T21:53:24Z",
+    "generated_at": "2026-11-22T22:52:47Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -14855,23 +14855,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T21:53:24Z",
+      "generated_at": "2026-11-22T22:52:47Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 781,
-        "purchase_scenarios": 65,
+        "recorded": 782,
+        "purchase_scenarios": 66,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 65,
+        "waiting": 66,
         "unverified": 0,
         "skipped": 716,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|FIX|WAIT FOR ENTRY",
+          "symbol": "FIX",
+          "name": "Comfort Systems USA, Inc.",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-22T22:52:47Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 1042.47,
+          "buy_ceiling": 880.35,
+          "sell_review": 1128.66,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 13.0% (TTM); Return on equity 55.2% (TTM); Trailing P/E 22.4×; TTM revenue growth 50.7% YoY",
+          "score": 65,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|APP|WAIT FOR ENTRY",
           "symbol": "APP",
@@ -17245,26 +17265,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 16.7% (TTM); Return on equity 12.9% (TTM); Trailing P/E 21.7×; TTM revenue growth 8.2% YoY",
           "score": 71,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|IBM|ABOVE BASE CASE",
-          "symbol": "IBM",
-          "name": "International Business Machines Corporation",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 224.44,
-          "buy_ceiling": 158.08,
-          "sell_review": 202.66,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.0×; TTM revenue growth 6.8% YoY",
-          "score": 78,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

@@ -60080,6 +60080,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|FIX|WAIT FOR ENTRY",
+      "week": "2026-11-23",
+      "symbol": "FIX",
+      "name": "Comfort Systems USA, Inc.",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-22T22:52:47Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 1042.47,
+      "score": 65,
+      "quality_status": "WATCH",
+      "buy_ceiling": 880.35,
+      "sell_review": 1128.66,
+      "bear_case": 598.5,
+      "why": "Net profit margin 13.0% (TTM); Return on equity 55.2% (TTM); Trailing P/E 22.4×; TTM revenue growth 50.7% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-22T22:52:47Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }

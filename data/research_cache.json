@@ -16908,17 +16908,17 @@
       "metrics": {
         "52WeekHigh": 80.36,
         "52WeekLow": 62.285,
-        "peTTM": 24.7502,
-        "psTTM": 2.5391,
+        "peTTM": 25.2159,
+        "psTTM": 2.5869,
         "netProfitMarginTTM": 10.26,
         "roeTTM": 9.15,
         "revenueGrowthTTMYoy": 7.39,
         "epsGrowthTTMYoy": -19.28,
         "currentRatioQuarterly": 0.9463,
         "totalDebt/totalEquityQuarterly": 2.0776,
-        "marketCapitalization": 21582.146
+        "marketCapitalization": 21988.291
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "CMS Energy Corporation",
       "profile": {
         "weburl": "https://www.cmsenergy.com/",
@@ -16941,22 +16941,6 @@
           "published_at": "2026-11-17T21:21:17Z",
           "primary": false,
           "symbol": "CMS"
-        },
-        {
-          "headline": "CMS Energy Declares Quarterly Dividend on Cumulative Redeemable Perpetual Preferred Stock",
-          "url": "https://finnhub.io/api/news?id=dcb94ad81a82c408ea989fc0ba4d63091572db12107edca31f840fbbc9b4e4f5",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T20:00:00Z",
-          "primary": false,
-          "symbol": "CMS"
-        },
-        {
-          "headline": "Consumers Energy, the Principal Subsidiary of CMS Energy, Declares Quarterly Dividend on Preferred Stock",
-          "url": "https://finnhub.io/api/news?id=4571363a0a4b8918a7f3c18624ac0f90b0f60fa58150cdf47a0205ffc4cf46c8",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T18:00:00Z",
-          "primary": false,
-          "symbol": "CMS"
         }
       ]
     },
@@ -16964,17 +16948,17 @@
       "metrics": {
         "52WeekHigh": 87.03,
         "52WeekLow": 37.08,
-        "peTTM": 9.8814,
-        "psTTM": 1.1614,
+        "peTTM": 10.0873,
+        "psTTM": 1.1856,
         "netProfitMarginTTM": 11.75,
         "roeTTM": 17.36,
         "revenueGrowthTTMYoy": 4.96,
         "epsGrowthTTMYoy": 27.27,
         "currentRatioQuarterly": 2.2237,
         "totalDebt/totalEquityQuarterly": 0.1054,
-        "marketCapitalization": 25424.855
+        "marketCapitalization": 25954.588
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Cognizant Technology Solutions Corporation",
       "profile": {
         "weburl": "https://www.cognizant.com/",
@@ -16982,6 +16966,14 @@
         "name": "Cognizant Technology Solutions Corporation"
       },
       "news": [
+        {
+          "headline": "Cognizant Technology Solutions (CTSH) Puts AI To Work In Healthcare And Cybersecurity",
+          "url": "https://finnhub.io/api/news?id=7edb74103f979e3df934fc18383f280943163ba2d879e3a87146c3604bf888d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T19:06:39Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
         {
           "headline": "How Did IBM Stock Leave Cognizant Behind?",
           "url": "https://finnhub.io/api/news?id=5823f77f54e85cf1f6dc3b10c3a1433216f3630693efce432eb208d68016fabe",
@@ -17013,14 +17005,6 @@
           "published_at": "2026-11-18T16:12:01Z",
           "primary": false,
           "symbol": "CTSH"
-        },
-        {
-          "headline": "Introducing Cognizant® Patient Hub Operations: AI-enabled patient access offering designed to shorten the path from prescription to therapy",
-          "url": "https://finnhub.io/api/news?id=1c41b992b0e9ed13a6a406a6e04c05fadc3b6a554a3279c677b5a86c25de5764",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:00:00Z",
-          "primary": false,
-          "symbol": "CTSH"
         }
       ]
     },
@@ -17028,17 +17012,17 @@
       "metrics": {
         "52WeekHigh": 440.0,
         "52WeekLow": 130.42,
-        "peTTM": 43.5168,
-        "psTTM": 5.3017,
+        "peTTM": 38.2786,
+        "psTTM": 4.6635,
         "netProfitMarginTTM": 12.18,
         "roeTTM": 9.3,
         "revenueGrowthTTMYoy": 30.84,
         "epsGrowthTTMYoy": 283.93,
         "currentRatioQuarterly": 2.2925,
         "totalDebt/totalEquityQuarterly": 0.3531,
-        "marketCapitalization": 41920.684
+        "marketCapitalization": 36874.605
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Coherent Corp.",
       "profile": {
         "weburl": "https://www.coherent.com/",
@@ -17046,6 +17030,14 @@
         "name": "Coherent Corp."
       },
       "news": [
+        {
+          "headline": "S&P 500 Session Movers: Fair Isaac Leads Gainers, Coherent Leads Decliners",
+          "url": "https://finnhub.io/api/news?id=c4289eca8a84b691fe9ea866c88c8d631304a3bc02fda9bba9334321d3204432",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T17:36:11Z",
+          "primary": false,
+          "symbol": "COHR"
+        },
         {
           "headline": "Ken Fisher and 12 Other Big Funds Sold Coherent Last Quarter, While 14 Bought. Who’s Right?",
           "url": "https://finnhub.io/api/news?id=54557a0ec8e0c1009065ed4665219dd9621635c0b7f436eca87634ed02e9f1bc",
@@ -17077,30 +17069,22 @@
           "published_at": "2026-11-19T18:38:43Z",
           "primary": false,
           "symbol": "COHR"
-        },
-        {
-          "headline": "Coherent Soars 6% on New $2 Billion Buyback as Anthropic IPO Revives AI Trade",
-          "url": "https://finnhub.io/api/news?id=d5c65e399a718374979f4ca1c407280e6ac2ccaef1210212a5bc097c11b15156",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:57:32Z",
-          "primary": false,
-          "symbol": "COHR"
         }
       ]
     },
     "COIN": {
       "metrics": {
         "52WeekHigh": 284.74,
-        "52WeekLow": 114.11,
-        "psTTM": 5.1201,
+        "52WeekLow": 108.8,
+        "psTTM": 4.7956,
         "netProfitMarginTTM": -12.46,
         "roeTTM": -5.08,
         "revenueGrowthTTMYoy": -26.62,
         "currentRatioQuarterly": 2.4245,
         "totalDebt/totalEquityQuarterly": 0.4804,
-        "marketCapitalization": 28824.857
+        "marketCapitalization": 26997.984
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Coinbase Global, Inc.",
       "profile": {
         "weburl": "https://www.coinbase.com",
@@ -17109,42 +17093,42 @@
       },
       "news": [
         {
-          "headline": "What Coinbase Global Bears Saw Before A 54% Drop",
-          "url": "https://finnhub.io/api/news?id=371ecd0abca9bf968ed4d48115f7b0443f742ed42419e315bda2aa343e1f97c8",
+          "headline": "Is Coinbase Stock a Buy, Sell, or Hold 64% Below Its 52-Week High?",
+          "url": "https://finnhub.io/api/news?id=03dddec9c03ff60668b319cd63bc00bb46e7b95c1b200850307067c9b5bd8130",
           "source": "Yahoo",
-          "published_at": "2026-11-20T20:12:47Z",
+          "published_at": "2026-11-22T18:40:02Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "Coinbase Launches Crypto Options for Non-US Users",
-          "url": "https://finnhub.io/api/news?id=adf5b7ba3f046ee9e4e046c7f74327dc8737b3733118a7bd7fccb1bea3ebe44f",
+          "headline": "Coinbase Global vs. Mastercard: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=edd0225758c6da1139b166e88ac84c4977b927345053d505129a0cb538fcc0d2",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:59:00Z",
+          "published_at": "2026-11-22T17:03:25Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "Coinbase Plans Its Own Prediction Markets by Mid-2027. That’s a New Rival for Robinhood",
-          "url": "https://finnhub.io/api/news?id=45ad5ab2bff291b5ccc5959c93e5d3cb85d3f1625103849d32d2a0123979c272",
+          "headline": "Coinbase's $21 children's book comes with $50 Bitcoin",
+          "url": "https://finnhub.io/api/news?id=2d2619f9e75ffc2a9d152cef36cc8842fb684b501fb70b5f7a90cd7199d45d3e",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:53:06Z",
+          "published_at": "2026-11-22T08:49:16Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "COIN Lags Industry, Trades at a Premium: Buy, Hold or Sell the Stock?",
-          "url": "https://finnhub.io/api/news?id=a66573616c36e03329d76371526126e175a3a98d0d97e2e0dbdc4991d5825cbf",
+          "headline": "COIN Stock Falls To Lowest Level Since 2023 After Exchange Seeks CFTC Clarity On Sports, Election Contracts",
+          "url": "https://finnhub.io/api/news?id=0cfbb35684647bc799b352cfee282461d988e721c205d1e476b252044b935478",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:38:00Z",
+          "published_at": "2026-11-21T06:41:48Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "Coinbase Sets Mid-2027 Goal to Write Its Own Event Contracts, Bloomberg Reports",
-          "url": "https://finnhub.io/api/news?id=fa3ae8605f781ef185dad7744302310046e946418706db1588e63dcb1f9e8ce4",
+          "headline": "3 Stocks to Watch as Coinbase and Trading Platforms Face a Volatility Test",
+          "url": "https://finnhub.io/api/news?id=747bcd931d2a2addc7f628f497cb248c8cadd2b708775d2c9801a4cbde19be26",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:19Z",
+          "published_at": "2026-11-21T01:10:40Z",
           "primary": false,
           "symbol": "COIN"
         }
@@ -17154,17 +17138,17 @@
       "metrics": {
         "52WeekHigh": 2073.99,
         "52WeekLow": 850.0,
-        "peTTM": 24.3207,
-        "psTTM": 3.164,
+        "peTTM": 22.3502,
+        "psTTM": 2.9077,
         "netProfitMarginTTM": 13.01,
         "roeTTM": 55.24,
         "revenueGrowthTTMYoy": 50.7,
         "epsGrowthTTMYoy": 96.12,
         "currentRatioQuarterly": 1.1463,
         "totalDebt/totalEquityQuarterly": 0.0149,
-        "marketCapitalization": 39687.305
+        "marketCapitalization": 36471.754
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Comfort Systems USA, Inc.",
       "profile": {
         "weburl": "https://comfortsystemsusa.com/",
@@ -17218,17 +17202,17 @@
       "metrics": {
         "52WeekHigh": 122.75,
         "52WeekLow": 94.96,
-        "peTTM": 19.6733,
-        "psTTM": 2.4663,
+        "peTTM": 19.9813,
+        "psTTM": 2.5049,
         "netProfitMarginTTM": 12.54,
         "roeTTM": 8.9,
         "revenueGrowthTTMYoy": 9.49,
         "epsGrowthTTMYoy": 10.41,
         "currentRatioQuarterly": 1.2682,
         "totalDebt/totalEquityQuarterly": 1.0815,
-        "marketCapitalization": 43615.637
+        "marketCapitalization": 44298.523
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Consolidated Edison, Inc.",
       "profile": {
         "weburl": "https://www.conedison.com/",
@@ -17236,6 +17220,22 @@
         "name": "Consolidated Edison, Inc."
       },
       "news": [
+        {
+          "headline": "How Many Shares of Duke Energy, Consolidated Edison or AEP Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=dfe6da3c1bcd0d1729d1fb32a5848090cf0dcc9c9c7f26888af5db1efebbdf5f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:20:40Z",
+          "primary": false,
+          "symbol": "ED"
+        },
+        {
+          "headline": "Consolidated Edison or Sempra: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=3d8c3d98704bbc3ce63e957c395906f528ff91a16b51631360cb9d568ae07e7f",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:26Z",
+          "primary": false,
+          "symbol": "ED"
+        },
         {
           "headline": "Consolidated Edison, Inc. Enters into Forward Sale Agreement for 6,000,000 Common Shares",
           "url": "https://finnhub.io/api/news?id=79a878029744b6cef338f39b22db421d9cfd8456589ee2bb18292cbdd50f07b9",
@@ -17259,22 +17259,6 @@
           "published_at": "2026-11-17T14:41:29Z",
           "primary": false,
           "symbol": "ED"
-        },
-        {
-          "headline": "Consolidated Edison, Inc. Reports CECONY Underwriting Agreement for $700 Million of 6.40% Debentures",
-          "url": "https://finnhub.io/api/news?id=6623af3a13d402836006a82f82c220522c5634902806398f2c4ca3cd17ae7e3b",
-          "source": "Fintel",
-          "published_at": "2026-11-17T04:01:18Z",
-          "primary": false,
-          "symbol": "ED"
-        },
-        {
-          "headline": "Consolidated Edison Announces The Public Offering Of 6,000,000 Of Its Common Shares",
-          "url": "https://finnhub.io/api/news?id=a5888d5b7bb076dfc09eaf7cd779f34013271e3a2ea23119695e386ae3e0aae3",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T17:23:36Z",
-          "primary": false,
-          "symbol": "ED"
         }
       ]
     },
@@ -17282,17 +17266,17 @@
       "metrics": {
         "52WeekHigh": 168.6,
         "52WeekLow": 110.6016,
-        "peTTM": 12.6305,
-        "psTTM": 2.6392,
+        "peTTM": 12.4766,
+        "psTTM": 2.607,
         "netProfitMarginTTM": 20.9,
         "roeTTM": 23.580000000000002,
         "revenueGrowthTTMYoy": -4.32,
         "epsGrowthTTMYoy": 62.74,
         "currentRatioQuarterly": 0.9985,
         "totalDebt/totalEquityQuarterly": 1.2013,
-        "marketCapitalization": 24303.611
+        "marketCapitalization": 24007.475
       },
-      "updated_at": "2026-11-20T22:55:54Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Constellation Brands, Inc.",
       "profile": {
         "weburl": "https://www.cbrands.com/",
@@ -17338,49 +17322,40 @@
       "metrics": {
         "52WeekHigh": 89.83,
         "52WeekLow": 51.01,
-        "peTTM": 20.1159,
-        "psTTM": 2.7077,
+        "peTTM": 19.6324,
+        "psTTM": 2.6426,
         "netProfitMarginTTM": 13.46,
         "roeTTM": 6.88,
         "revenueGrowthTTMYoy": 4.73,
         "epsGrowthTTMYoy": 44.17,
         "currentRatioQuarterly": 1.2223,
         "totalDebt/totalEquityQuarterly": 0.3055,
-        "marketCapitalization": 11472.07
+        "marketCapitalization": 11196.345
       },
-      "updated_at": "2026-11-20T23:55:35Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "The Cooper Companies, Inc.",
       "profile": {
         "weburl": "https://www.coopercos.com/",
         "industry": "Health Care",
         "name": "The Cooper Companies, Inc."
       },
-      "news": [
-        {
-          "headline": "Why Is Everyone Ignoring Cooper Companies Stock's High Cash Yield?",
-          "url": "https://finnhub.io/api/news?id=af862938e27de6b258022e92fe9d6a79524df34c1a0d4d67bac1925b154db5e5",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T12:12:51Z",
-          "primary": false,
-          "symbol": "COO"
-        }
-      ]
+      "news": []
     },
     "CPRT": {
       "metrics": {
         "52WeekHigh": 41.79,
         "52WeekLow": 25.72,
-        "peTTM": 19.2607,
-        "psTTM": 6.1266,
+        "peTTM": 19.4042,
+        "psTTM": 6.1723,
         "netProfitMarginTTM": 31.81,
         "roeTTM": 15.93,
         "revenueGrowthTTMYoy": 0.41,
         "epsGrowthTTMYoy": -2.34,
         "currentRatioQuarterly": 7.9123,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 28588.025
+        "marketCapitalization": 28801.092
       },
-      "updated_at": "2026-11-20T23:55:35Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Copart Inc",
       "profile": {
         "weburl": "https://www.copart.com/",
@@ -17418,17 +17393,17 @@
       "metrics": {
         "52WeekHigh": 271.78,
         "52WeekLow": 77.39,
-        "peTTM": 42.4571,
-        "psTTM": 5.1517,
+        "peTTM": 37.8135,
+        "psTTM": 4.5882,
         "netProfitMarginTTM": 12.13,
         "roeTTM": 17.25,
         "revenueGrowthTTMYoy": 18.8,
         "epsGrowthTTMYoy": 56.46,
         "currentRatioQuarterly": 1.7224,
         "totalDebt/totalEquityQuarterly": 0.5998,
-        "marketCapitalization": 91282.68
+        "marketCapitalization": 81299.04
       },
-      "updated_at": "2026-11-20T23:55:35Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Corning Incorporated",
       "profile": {
         "weburl": "https://www.corning.com/",
@@ -17436,6 +17411,14 @@
         "name": "Corning Incorporated"
       },
       "news": [
+        {
+          "headline": "Owens Corning's Stock Slump May Have a Silver Lining for Dividend Investors",
+          "url": "https://finnhub.io/api/news?id=a055cbfd5b477f9358e047cc96879fddd061c59444f14407018ffbeed2ec9764",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T14:35:00Z",
+          "primary": false,
+          "symbol": "GLW"
+        },
         {
           "headline": "Corning Glass: Copper-To-Fiber And Potential Global AI Buildout Bode Well (Rating Upgrade)",
           "url": "https://finnhub.io/api/news?id=5b67b3a15211d57e282b2d8a0fbecc1a18acf3825d7e13dcb35d78fea62aeab1",
@@ -17467,32 +17450,24 @@
           "published_at": "2026-11-19T12:16:33Z",
           "primary": false,
           "symbol": "GLW"
-        },
-        {
-          "headline": "Jim Cramer’s Trust Scored With Corning, but Buying Back Had a Condition",
-          "url": "https://finnhub.io/api/news?id=2da0c992d57f4bc3ff9ae01555004c4a758dcbf976460c39f49d340a314e084c",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:02:59Z",
-          "primary": false,
-          "symbol": "GLW"
         }
       ]
     },
     "CPAY": {
       "metrics": {
         "52WeekHigh": 479.53,
-        "52WeekLow": 272.83,
-        "peTTM": 24.3534,
-        "psTTM": 5.5338,
+        "52WeekLow": 276.82,
+        "peTTM": 24.1039,
+        "psTTM": 5.4771,
         "netProfitMarginTTM": 22.72,
         "roeTTM": 30.4,
         "revenueGrowthTTMYoy": 20.36,
         "epsGrowthTTMYoy": 12.37,
         "currentRatioQuarterly": 0.972,
         "totalDebt/totalEquityQuarterly": 2.9994,
-        "marketCapitalization": 27782.326
+        "marketCapitalization": 27497.65
       },
-      "updated_at": "2026-11-20T23:55:35Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "Corpay, Inc.",
       "profile": {
         "weburl": "https://www.corpay.com/",
@@ -17500,6 +17475,14 @@
         "name": "Corpay, Inc."
       },
       "news": [
+        {
+          "headline": "Corpay, Inc. (CPAY) M&A Call Transcript",
+          "url": "https://finnhub.io/api/news?id=abf09c6e531447f896062273e8a4a8e1d60d52dd6d8233d51102630fa9d802e6",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T20:42:45Z",
+          "primary": false,
+          "symbol": "CPAY"
+        },
         {
           "headline": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
           "url": "https://finnhub.io/api/news?id=8e08d1247015485bff2ccb68bcd8d8323407e2b5edd5dce13c2485947493c166",
@@ -17531,14 +17514,6 @@
           "published_at": "2026-11-20T15:35:00Z",
           "primary": false,
           "symbol": "CPAY"
-        },
-        {
-          "headline": "Corpay, Inc. to Make $1.1 billion Investment in BILL Holdings, Inc. Alongside TPG",
-          "url": "https://finnhub.io/api/news?id=8810a7a89dbe7c4826593bcefad13b4ad2d6f72458965cfaae1dfbc9bbaaf5bf",
-          "source": "Fintel",
-          "published_at": "2026-11-20T11:52:08Z",
-          "primary": false,
-          "symbol": "CPAY"
         }
       ]
     },
@@ -17546,17 +17521,17 @@
       "metrics": {
         "52WeekHigh": 70.57,
         "52WeekLow": 25.894,
-        "peTTM": 67.214,
-        "psTTM": 3.2656,
+        "peTTM": 66.7407,
+        "psTTM": 3.2426,
         "netProfitMarginTTM": 4.86,
         "roeTTM": 2.22,
         "revenueGrowthTTMYoy": 20.2,
         "epsGrowthTTMYoy": 747.56,
         "currentRatioQuarterly": 1.3212,
         "totalDebt/totalEquityQuarterly": 0.1256,
-        "marketCapitalization": 11997.699
+        "marketCapitalization": 11913.208
       },
-      "updated_at": "2026-11-20T23:55:35Z",
+      "updated_at": "2026-11-22T22:52:47Z",
       "name": "CoStar Group, Inc.",
       "profile": {
         "weburl": "https://www.costargroup.com/",
@@ -29768,6 +29743,6 @@
       ]
     }
   },
-  "cursor": 289,
-  "updated_at": "2026-11-22T21:53:24Z"
+  "cursor": 301,
+  "updated_at": "2026-11-22T22:52:47Z"
 }
