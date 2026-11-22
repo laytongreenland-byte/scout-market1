@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:51:41Z",
+  "generated_at": "2026-11-22T13:03:54Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T11:51:41Z",
+      "checked_at": "2026-11-22T13:03:54Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T11:51:41Z",
+      "checked_at": "2026-11-22T13:03:54Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T11:51:41Z",
+      "checked_at": "2026-11-22T13:03:54Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T11:51:41Z",
+      "checked_at": "2026-11-22T13:03:54Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T11:51:41Z",
+      "checked_at": "2026-11-22T13:03:54Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T11:51:41Z",
+    "generated_at": "2026-11-22T13:03:54Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10739,7 +10739,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 16.6% (TTM); Return on equity 36.3% (TTM); Trailing P/E 5.6×; TTM revenue growth 5.1% YoY",
+        "why": "Net profit margin 16.6% (TTM); Return on equity 36.3% (TTM); Trailing P/E 5.7×; TTM revenue growth 5.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10753,7 +10753,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T16:04:55Z",
+            "timestamp": "2026-11-22T13:03:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -10764,7 +10764,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T16:04:55Z",
+        "fundamentals_at": "2026-11-22T13:03:54Z",
         "price": 267.0,
         "currency": "USD",
         "change_pct": 0.086,
@@ -11561,7 +11561,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Health Care",
-        "why": "Net profit margin 19.4% (TTM); Return on equity 36.5% (TTM); Trailing P/E 31.1×; TTM revenue growth 13.0% YoY",
+        "why": "Net profit margin 19.4% (TTM); Return on equity 36.5% (TTM); Trailing P/E 29.9×; TTM revenue growth 13.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11575,7 +11575,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T17:06:24Z",
+            "timestamp": "2026-11-22T13:03:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11586,7 +11586,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T17:06:24Z",
+        "fundamentals_at": "2026-11-22T13:03:54Z",
         "price": 79.32,
         "currency": "USD",
         "change_pct": -1.085,
@@ -11613,12 +11613,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 38.24,
-          "entry_floor": 34.41,
-          "exit_review_low": 49.02,
-          "exit_review_high": 58.71,
-          "bear_case": 26.77,
-          "scenario_upside_pct": -38.2,
+          "entry_ceiling": 39.78,
+          "entry_floor": 35.8,
+          "exit_review_low": 51.0,
+          "exit_review_high": 61.08,
+          "bear_case": 27.85,
+          "scenario_upside_pct": -35.7,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11631,12 +11631,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 31.06,
+            "trailing_pe": 29.85,
             "earnings_growth_assumed_pct": 5.86,
             "scenario_exit_pe": 18.13,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T17:06:24Z"
+            "metrics_retrieved_at": "2026-11-22T13:03:54Z"
           }
         },
         "ranking_score": 77,
@@ -11648,7 +11648,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Technology",
-        "why": "Net profit margin 21.1% (TTM); Return on equity 52.5% (TTM); Trailing P/E 32.2×; TTM revenue growth 17.9% YoY",
+        "why": "Net profit margin 21.1% (TTM); Return on equity 52.5% (TTM); Trailing P/E 31.1×; TTM revenue growth 17.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11662,35 +11662,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T17:06:24Z",
+            "timestamp": "2026-11-22T13:03:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Autodesk Set to Report Q3 Earnings: What's in Store for the Stock?",
-            "timestamp": "2026-11-20T14:46:00Z",
-            "url": "https://finnhub.io/api/news?id=ebe5c52cb1d8e09e17cc6d44de126f0c6b567716e9e687d61f8e66b4dfe4c432"
+            "value": "Mastrex and Autodesk Make Metal 3D Printing More Accessible",
+            "timestamp": "2026-11-22T00:58:00Z",
+            "url": "https://finnhub.io/api/news?id=fcb74a912a03067a7f173021597dab36bf5f35239ccca2274f97ffc47375e316"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T17:06:24Z",
+        "fundamentals_at": "2026-11-22T13:03:54Z",
         "price": 244.48,
         "currency": "USD",
         "change_pct": 0.423,
         "news": [
           {
-            "headline": "Autodesk Set to Report Q3 Earnings: What's in Store for the Stock?",
-            "url": "https://finnhub.io/api/news?id=ebe5c52cb1d8e09e17cc6d44de126f0c6b567716e9e687d61f8e66b4dfe4c432",
+            "headline": "Mastrex and Autodesk Make Metal 3D Printing More Accessible",
+            "url": "https://finnhub.io/api/news?id=fcb74a912a03067a7f173021597dab36bf5f35239ccca2274f97ffc47375e316",
             "source": "Yahoo",
-            "published_at": "2026-11-20T14:46:00Z",
+            "published_at": "2026-11-22T00:58:00Z",
             "primary": false,
             "symbol": "ADSK"
           },
           {
-            "headline": "Simulation as a Service Market Report 2026: Global Size, Trends, and Forecast to 2030 | Capitalize on AI and Digital Twins with Siemens, Dassault Systèmes, Synopsys, Autodesk",
-            "url": "https://finnhub.io/api/news?id=452531f2a16822ea320427dda561ba213e4fd5288dd83635c01f015095830601",
+            "headline": "Autodesk (ADSK) Brings Cloud Building Code Checks Into Forma Workflows",
+            "url": "https://finnhub.io/api/news?id=67cb02c9eebed505cfb7aa84afb2e52052777579e61c0b98119d3cfe8ff7ee30",
             "source": "Yahoo",
-            "published_at": "2026-11-20T14:42:00Z",
+            "published_at": "2026-11-21T08:14:44Z",
             "primary": false,
             "symbol": "ADSK"
           }
@@ -11700,12 +11700,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 123.58,
-          "entry_floor": 111.22,
-          "exit_review_low": 158.43,
-          "exit_review_high": 192.4,
-          "bear_case": 84.73,
-          "scenario_upside_pct": -35.2,
+          "entry_ceiling": 127.88,
+          "entry_floor": 115.09,
+          "exit_review_low": 163.95,
+          "exit_review_high": 199.1,
+          "bear_case": 87.69,
+          "scenario_upside_pct": -32.9,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11718,12 +11718,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 32.2,
+            "trailing_pe": 31.12,
             "earnings_growth_assumed_pct": 8.07,
             "scenario_exit_pe": 19.31,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T17:06:24Z"
+            "metrics_retrieved_at": "2026-11-22T13:03:54Z"
           }
         },
         "ranking_score": 77,
@@ -12731,7 +12731,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Road & Rail",
-        "why": "Net profit margin 28.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 22.4×; TTM revenue growth 7.4% YoY",
+        "why": "Net profit margin 28.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 22.7×; TTM revenue growth 7.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12745,35 +12745,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T16:04:55Z",
+            "timestamp": "2026-11-22T13:03:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Union Pacific and Norfolk Southern Look Forward to a Full Evaluation of Merger Application",
-            "timestamp": "2026-11-19T22:57:00Z",
-            "url": "https://finnhub.io/api/news?id=9242e230ad75412db6d919bf25856795ca8852605b10efc93c9dc1bcd9353b16"
+            "value": "Union Pacific's bid to control 40% of U.S. rail track could raise prices on everyday goods, union warns",
+            "timestamp": "2026-11-21T15:30:00Z",
+            "url": "https://finnhub.io/api/news?id=4d09e0b19131f830ba8c0ecb980300780f9450ad7b0fcc8647cdefaddfd22978"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T16:04:55Z",
+        "fundamentals_at": "2026-11-22T13:03:54Z",
         "price": 287.29,
         "currency": "USD",
         "change_pct": -1.149,
         "news": [
           {
-            "headline": "Union Pacific and Norfolk Southern Look Forward to a Full Evaluation of Merger Application",
-            "url": "https://finnhub.io/api/news?id=9242e230ad75412db6d919bf25856795ca8852605b10efc93c9dc1bcd9353b16",
+            "headline": "Union Pacific's bid to control 40% of U.S. rail track could raise prices on everyday goods, union warns",
+            "url": "https://finnhub.io/api/news?id=4d09e0b19131f830ba8c0ecb980300780f9450ad7b0fcc8647cdefaddfd22978",
             "source": "Yahoo",
-            "published_at": "2026-11-19T22:57:00Z",
+            "published_at": "2026-11-21T15:30:00Z",
             "primary": false,
             "symbol": "UNP"
           },
           {
-            "headline": "The Zacks Analyst Blog Highlights Merck, Caterpillar,  Union Pacific, Daily Journal and Community Bancorp",
-            "url": "https://finnhub.io/api/news?id=644f6886a6e44ab1659b69944ec1b09e19a3a53dc878ba111018a4bd29cd598a",
+            "headline": "Union Pacific Has Raised Its Dividend for 20 Years. These 3 Railroads Offer Income",
+            "url": "https://finnhub.io/api/news?id=fe986a1ee1898cf522aa2cb4ddfcaa1a329b5dfbce34db18524c670085b80dfd",
             "source": "Yahoo",
-            "published_at": "2026-11-19T13:48:00Z",
+            "published_at": "2026-11-21T15:07:50Z",
             "primary": false,
             "symbol": "UNP"
           }
@@ -12783,12 +12783,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 173.18,
-          "entry_floor": 155.87,
-          "exit_review_low": 222.03,
-          "exit_review_high": 261.11,
-          "bear_case": 124.46,
-          "scenario_upside_pct": -22.7,
+          "entry_ceiling": 171.09,
+          "entry_floor": 153.98,
+          "exit_review_low": 219.35,
+          "exit_review_high": 257.95,
+          "bear_case": 122.96,
+          "scenario_upside_pct": -23.7,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12801,12 +12801,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 22.39,
+            "trailing_pe": 22.66,
             "earnings_growth_assumed_pct": 3.11,
             "scenario_exit_pe": 16.78,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T16:04:55Z"
+            "metrics_retrieved_at": "2026-11-22T13:03:54Z"
           }
         },
         "ranking_score": 76,
@@ -14912,7 +14912,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T11:51:41Z",
+      "generated_at": "2026-11-22T13:03:54Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 777,
