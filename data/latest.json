@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T04:00:48Z",
+  "generated_at": "2026-11-22T05:06:24Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T04:00:48Z",
+      "checked_at": "2026-11-22T05:06:24Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T04:00:48Z",
+      "checked_at": "2026-11-22T05:06:24Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T04:00:48Z",
+      "checked_at": "2026-11-22T05:06:24Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T04:00:48Z",
+      "checked_at": "2026-11-22T05:06:24Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T04:00:48Z",
+      "checked_at": "2026-11-22T05:06:24Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T04:00:48Z",
+    "generated_at": "2026-11-22T05:06:24Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8692,7 +8692,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.9×; TTM revenue growth 99.2% YoY",
+        "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.5×; TTM revenue growth 99.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8706,35 +8706,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T08:06:57Z",
+            "timestamp": "2026-11-22T05:06:24Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Citigroup Series II Preferreds: Decent Yield At A Discounted Price",
-            "timestamp": "2026-11-20T02:22:01Z",
-            "url": "https://finnhub.io/api/news?id=5396d9dd25eddb483977df0f6e0f2e241a2afb01eafa15e9116d8703b34d2fbf"
+            "value": "Does Citigroup (C) Risk Error And USDC Pilot Change The Investment Case?",
+            "timestamp": "2026-11-20T21:15:04Z",
+            "url": "https://finnhub.io/api/news?id=4ef5287cc0a96958cc496ad6d44e44dc4479c55e8e04cbb5b6e88a2c2ab9ed76"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T08:06:57Z",
+        "fundamentals_at": "2026-11-22T05:06:24Z",
         "price": 110.62,
         "currency": "USD",
         "change_pct": -4.042,
         "news": [
           {
-            "headline": "Citigroup Series II Preferreds: Decent Yield At A Discounted Price",
-            "url": "https://finnhub.io/api/news?id=5396d9dd25eddb483977df0f6e0f2e241a2afb01eafa15e9116d8703b34d2fbf",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-20T02:22:01Z",
+            "headline": "Does Citigroup (C) Risk Error And USDC Pilot Change The Investment Case?",
+            "url": "https://finnhub.io/api/news?id=4ef5287cc0a96958cc496ad6d44e44dc4479c55e8e04cbb5b6e88a2c2ab9ed76",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T21:15:04Z",
             "primary": false,
             "symbol": "C"
           },
           {
-            "headline": "Citigroup (C) Stock Moves -1.76%: What You Should Know",
-            "url": "https://finnhub.io/api/news?id=e724e8794591f982e79291e7a3c910e0d72d0a12229cfafde2db7524b09ac589",
+            "headline": "Update: Market Chatter: Citigroup Injects Capital Into Unit After Modeling Error Understated Risk",
+            "url": "https://finnhub.io/api/news?id=64b62263a9ef5ec79bed2f1e7e90f45cab3b80186ee2a67b10b985d486ba5320",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:45:02Z",
+            "published_at": "2026-11-20T13:19:04Z",
             "primary": false,
             "symbol": "C"
           }
@@ -8771,7 +8771,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Financial Services",
-        "why": "Net profit margin 15.6% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.6×; TTM revenue growth 12.0% YoY",
+        "why": "Net profit margin 15.6% (TTM); Return on equity 17.8% (TTM); Trailing P/E 12.7×; TTM revenue growth 12.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8785,35 +8785,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T09:12:51Z",
+            "timestamp": "2026-11-22T05:06:24Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Morgan Stanley (MS) Debuts Four Active UCITS ETFs In Europe",
-            "timestamp": "2026-11-20T03:19:45Z",
-            "url": "https://finnhub.io/api/news?id=88959bc6f3c69619bc77fbfb8aed8c75378cc1a4ccfa2c371a6e5a812e848fca"
+            "value": "Morgan Stanley Announces Accounting Policy Changes Effective October 1, 2026",
+            "timestamp": "2026-11-20T21:11:18Z",
+            "url": "https://finnhub.io/api/news?id=7c6f33d93ff15cc59abdf5135e3175b6a4314abe9e09ecd29d8fec2961df040a"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T09:12:51Z",
+        "fundamentals_at": "2026-11-22T05:06:24Z",
         "price": 165.67,
         "currency": "USD",
         "change_pct": -5.321,
         "news": [
           {
-            "headline": "Morgan Stanley (MS) Debuts Four Active UCITS ETFs In Europe",
-            "url": "https://finnhub.io/api/news?id=88959bc6f3c69619bc77fbfb8aed8c75378cc1a4ccfa2c371a6e5a812e848fca",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T03:19:45Z",
+            "headline": "Morgan Stanley Announces Accounting Policy Changes Effective October 1, 2026",
+            "url": "https://finnhub.io/api/news?id=7c6f33d93ff15cc59abdf5135e3175b6a4314abe9e09ecd29d8fec2961df040a",
+            "source": "Fintel",
+            "published_at": "2026-11-20T21:11:18Z",
             "primary": false,
             "symbol": "MS"
           },
           {
-            "headline": "Anthropic’s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays",
-            "url": "https://finnhub.io/api/news?id=0c8538f87f6109dabdd608208c10236adbd3f4a2e644556078b3531e837192b4",
+            "headline": "Morgan Stanley Ends Anthropic Stock Support After Just One Day",
+            "url": "https://finnhub.io/api/news?id=1e8946f929d3783924a1e7eb877a5d988edc5307603e365fbaa070058cd17bbb",
             "source": "Yahoo",
-            "published_at": "2026-11-19T23:38:22Z",
+            "published_at": "2026-11-20T18:46:22Z",
             "primary": false,
             "symbol": "MS"
           }
@@ -11482,7 +11482,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Energy",
-        "why": "Net profit margin 7.5% (TTM); Return on equity 40.8% (TTM); Trailing P/E 7.6×; TTM revenue growth 27.5% YoY",
+        "why": "Net profit margin 7.5% (TTM); Return on equity 40.8% (TTM); Trailing P/E 7.4×; TTM revenue growth 27.5% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11496,35 +11496,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T08:06:57Z",
+            "timestamp": "2026-11-22T05:06:24Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Phillips 66 Expands Arkestro's Predictive Procurement Platform Across Enterprise",
-            "timestamp": "2026-11-19T15:00:00Z",
-            "url": "https://finnhub.io/api/news?id=f774438e864e2f5e6e3ef88dae4a4a9e2370486b37d993ae4772850d45555f58"
+            "value": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
+            "timestamp": "2026-11-21T22:17:33Z",
+            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T08:06:57Z",
+        "fundamentals_at": "2026-11-22T05:06:24Z",
         "price": 239.33,
         "currency": "USD",
         "change_pct": -1.393,
         "news": [
           {
-            "headline": "Phillips 66 Expands Arkestro's Predictive Procurement Platform Across Enterprise",
-            "url": "https://finnhub.io/api/news?id=f774438e864e2f5e6e3ef88dae4a4a9e2370486b37d993ae4772850d45555f58",
+            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
+            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:00:00Z",
+            "published_at": "2026-11-21T22:17:33Z",
             "primary": false,
             "symbol": "PSX"
           },
           {
-            "headline": "Valero Energy vs. Phillips 66: Which is the Stronger Refining Player?",
-            "url": "https://finnhub.io/api/news?id=969a673baaf84bde363973cbce046c2c604c79c29500ca917da58a1971cda35e",
+            "headline": "Phillips 66 (PSX) Stock May Still Be A Bargain As Strong Q3 Earnings Land",
+            "url": "https://finnhub.io/api/news?id=462558b3ea6bb7db8807433216e31b0faa6eb8b53e04c1bd992304642b0dcb18",
             "source": "Yahoo",
-            "published_at": "2026-11-19T12:51:00Z",
+            "published_at": "2026-11-20T19:10:04Z",
             "primary": false,
             "symbol": "PSX"
           }
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T04:00:48Z",
+      "generated_at": "2026-11-22T05:06:24Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 393,
