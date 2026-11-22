@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T05:06:24Z",
+  "generated_at": "2026-11-22T06:04:28Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T05:06:24Z",
+      "checked_at": "2026-11-22T06:04:28Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T05:06:24Z",
+      "checked_at": "2026-11-22T06:04:28Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T05:06:24Z",
+      "checked_at": "2026-11-22T06:04:28Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T05:06:24Z",
+      "checked_at": "2026-11-22T06:04:28Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T05:06:24Z",
+      "checked_at": "2026-11-22T06:04:28Z",
       "error": ""
     }
   ],
@@ -6980,7 +6980,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T05:06:24Z",
+    "generated_at": "2026-11-22T06:04:28Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8281,7 +8281,7 @@
         "status": "INVESTIGATE",
         "score": 80,
         "industry": "Financial Services",
-        "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 14.9×; TTM revenue growth 12.3% YoY",
+        "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 14.6×; TTM revenue growth 12.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8295,35 +8295,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T09:12:51Z",
+            "timestamp": "2026-11-22T06:04:28Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "$1000 Invested In Charles Schwab 15 Years Ago Would Be Worth This Much Today",
-            "timestamp": "2026-11-19T10:30:23Z",
-            "url": "https://finnhub.io/api/news?id=c367027df2634b5f35c20abb25902e94c18f8cb1c77f5e834d1c3742c254aba2"
+            "value": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
+            "timestamp": "2026-11-20T11:05:16Z",
+            "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T09:12:51Z",
+        "fundamentals_at": "2026-11-22T06:04:28Z",
         "price": 90.16,
         "currency": "USD",
         "change_pct": -2.128,
         "news": [
           {
-            "headline": "$1000 Invested In Charles Schwab 15 Years Ago Would Be Worth This Much Today",
-            "url": "https://finnhub.io/api/news?id=c367027df2634b5f35c20abb25902e94c18f8cb1c77f5e834d1c3742c254aba2",
+            "headline": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
+            "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045",
             "source": "Benzinga",
-            "published_at": "2026-11-19T10:30:23Z",
+            "published_at": "2026-11-20T11:05:16Z",
             "primary": false,
             "symbol": "SCHW"
           },
           {
-            "headline": "A New Dividend ETF King? Charles Schwab and Vanguard Jockey for Top Spot",
-            "url": "https://finnhub.io/api/news?id=4b7e22c62486cca0ce5ef3252ed1974cc94020d6def8c663dbf1b469b9237449",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T20:13:00Z",
+            "headline": "$1000 Invested In Charles Schwab 15 Years Ago Would Be Worth This Much Today",
+            "url": "https://finnhub.io/api/news?id=c367027df2634b5f35c20abb25902e94c18f8cb1c77f5e834d1c3742c254aba2",
+            "source": "Benzinga",
+            "published_at": "2026-11-19T10:30:23Z",
             "primary": false,
             "symbol": "SCHW"
           }
@@ -12486,7 +12486,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Biotechnology",
-        "why": "Net profit margin 28.5% (TTM); Return on equity 15.1% (TTM); Trailing P/E 20.3×; TTM revenue growth 18.6% YoY",
+        "why": "Net profit margin 28.5% (TTM); Return on equity 15.1% (TTM); Trailing P/E 19.8×; TTM revenue growth 18.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12500,7 +12500,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T10:16:19Z",
+            "timestamp": "2026-11-22T06:04:28Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -12511,7 +12511,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T10:16:19Z",
+        "fundamentals_at": "2026-11-22T06:04:28Z",
         "price": 920.69,
         "currency": "USD",
         "change_pct": -0.287,
@@ -13735,6 +13735,93 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "HON",
+        "name": "Honeywell International Inc.",
+        "status": "WATCH",
+        "score": 63,
+        "industry": "Industrial Conglomerates",
+        "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 9.6×; TTM revenue growth 4.2% YoY",
+        "risks": [
+          "Large drawdown: recovery is not assured"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$212.64",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-22T06:04:28Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Could Honeywell Be The Value Stock For Your Portfolio?",
+            "timestamp": "2026-11-20T18:53:21Z",
+            "url": "https://finnhub.io/api/news?id=048a7cb87653b1baf405a01f986fce9e08ba095576c821ab3af2bfb55fcf9c72"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-22T06:04:28Z",
+        "price": 212.64,
+        "currency": "USD",
+        "change_pct": -2.387,
+        "news": [
+          {
+            "headline": "Could Honeywell Be The Value Stock For Your Portfolio?",
+            "url": "https://finnhub.io/api/news?id=048a7cb87653b1baf405a01f986fce9e08ba095576c821ab3af2bfb55fcf9c72",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T18:53:21Z",
+            "primary": false,
+            "symbol": "HON"
+          },
+          {
+            "headline": "Building-to-Grid Technology - Global Strategic Business Report 2026: Capitalize on 21.8% CAGR as Market Hits $6.8 Billion by 2032 - Benchmark ABB, Siemens, Schneider Electric, Eaton and Honeywell",
+            "url": "https://finnhub.io/api/news?id=7074dfc43a013ae217f56206e96ab78eb0ee90fec05098890b3584f874646984",
+            "source": "Yahoo",
+            "published_at": "2026-11-20T14:57:00Z",
+            "primary": false,
+            "symbol": "HON"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 282.53,
+          "entry_floor": 254.28,
+          "exit_review_low": 362.22,
+          "exit_review_high": 422.31,
+          "bear_case": 205.5,
+          "scenario_upside_pct": 70.3,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 9.57,
+            "earnings_growth_assumed_pct": 1.88,
+            "scenario_exit_pe": 16.0,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-22T06:04:28Z"
+          }
+        },
+        "ranking_score": 63,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "DECK",
         "name": "Deckers Outdoor Corporation",
         "status": "WATCH",
@@ -13819,93 +13906,6 @@
           }
         },
         "ranking_score": 75,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "HON",
-        "name": "Honeywell International Inc.",
-        "status": "WATCH",
-        "score": 63,
-        "industry": "Industrial Conglomerates",
-        "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 10.0×; TTM revenue growth 4.2% YoY",
-        "risks": [
-          "Large drawdown: recovery is not assured"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$212.64",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T09:12:51Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Why Every Honeywell Investor Is Looking At This One Number",
-            "timestamp": "2026-11-19T22:20:15Z",
-            "url": "https://finnhub.io/api/news?id=e8cabee928c9d2b39f408e1a15e0b7d6044f0964c78ba6b14a183a3f044f0aae"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T09:12:51Z",
-        "price": 212.64,
-        "currency": "USD",
-        "change_pct": -2.387,
-        "news": [
-          {
-            "headline": "Why Every Honeywell Investor Is Looking At This One Number",
-            "url": "https://finnhub.io/api/news?id=e8cabee928c9d2b39f408e1a15e0b7d6044f0964c78ba6b14a183a3f044f0aae",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T22:20:15Z",
-            "primary": false,
-            "symbol": "HON"
-          },
-          {
-            "headline": "Dehumidifier - Global Strategic Business Report 2026: Capture the $2B Revenue Surge Through 2032 | Honeywell, LG Electronics, Munters, and Whirlpool Intensify Competition",
-            "url": "https://finnhub.io/api/news?id=b8ffc4333b101587061dff7ac244f15061100035d3999ace8a60f67704a92794",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T15:08:00Z",
-            "primary": false,
-            "symbol": "HON"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 269.77,
-          "entry_floor": 242.79,
-          "exit_review_low": 345.86,
-          "exit_review_high": 403.24,
-          "bear_case": 196.22,
-          "scenario_upside_pct": 62.6,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 10.02,
-            "earnings_growth_assumed_pct": 1.88,
-            "scenario_exit_pe": 16.0,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T09:12:51Z"
-          }
-        },
-        "ranking_score": 63,
         "rank_method": "FINANCIAL RULES"
       },
       {
@@ -14776,7 +14776,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T05:06:24Z",
+      "generated_at": "2026-11-22T06:04:28Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 393,

@@ -5881,17 +5881,17 @@
       "metrics": {
         "52WeekHigh": 174.27,
         "52WeekLow": 121.44,
-        "peTTM": 26.7787,
-        "psTTM": 0.8237,
+        "peTTM": 26.4542,
+        "psTTM": 0.8137,
         "netProfitMarginTTM": 3.08,
         "roeTTM": 16.03,
         "revenueGrowthTTMYoy": 14.17,
         "epsGrowthTTMYoy": 15.39,
         "currentRatioQuarterly": 1.1701,
         "totalDebt/totalEquityQuarterly": 0.9375,
-        "marketCapitalization": 36981.344
+        "marketCapitalization": 36533.2
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "CBRE Group, Inc.",
       "profile": {
         "weburl": "https://www.cbre.us",
@@ -5922,22 +5922,6 @@
           "published_at": "2026-11-16T10:53:14Z",
           "primary": false,
           "symbol": "CBRE"
-        },
-        {
-          "headline": "CBRE Group (CBRE) Sees Deal Volume Jump As Undervalued Narrative Holds",
-          "url": "https://finnhub.io/api/news?id=fd701038da83a8869e6ff45b08014f997213c095e985c03fb5c02b5ef6e2eb14",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T09:18:00Z",
-          "primary": false,
-          "symbol": "CBRE"
-        },
-        {
-          "headline": "Here’s How Much You Would Have Made Owning CBRE Group Stock In The Last 10 Years",
-          "url": "https://finnhub.io/api/news?id=dbf30bfa822ea23eb7af943b439ac9e100270c94a29ff55e8d11f4f4be7d0d71",
-          "source": "Benzinga",
-          "published_at": "2026-11-12T18:15:31Z",
-          "primary": false,
-          "symbol": "CBRE"
         }
       ]
     },
@@ -5945,17 +5929,17 @@
       "metrics": {
         "52WeekHigh": 219.65,
         "52WeekLow": 127.5,
-        "peTTM": 28.1608,
-        "psTTM": 5.7486,
+        "peTTM": 27.1588,
+        "psTTM": 5.544,
         "netProfitMarginTTM": 20.41,
         "roeTTM": 17.849999999999998,
         "revenueGrowthTTMYoy": 7.92,
         "epsGrowthTTMYoy": 15.01,
         "currentRatioQuarterly": 1.1572,
         "totalDebt/totalEquityQuarterly": 0.2304,
-        "marketCapitalization": 226413.03
+        "marketCapitalization": 218356.88
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "SAP SE",
       "profile": {
         "weburl": "https://www.sap.com/",
@@ -5963,6 +5947,14 @@
         "name": "SAP SE"
       },
       "news": [
+        {
+          "headline": "SAP CFO Sees Headcount Declining as AI Boosts Productivity, Plans New Revenue Metric",
+          "url": "https://finnhub.io/api/news?id=b41442b5fcef695717d1cf497075ee55a5d513f234f3e37b2e286ff9045745eb",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T15:12:08Z",
+          "primary": false,
+          "symbol": "SAP"
+        },
         {
           "headline": "In HelloNation, Business Performance Expert Martin Rowan of Naperville, IL, Explains How SAP Execution Impacts Operational Stability",
           "url": "https://finnhub.io/api/news?id=0d15e5e8df8169308e75e2f6bdfd6122cf1eb42dae6743e6f3ced4a8c164c6ea",
@@ -5994,32 +5986,24 @@
           "published_at": "2026-11-19T09:13:17Z",
           "primary": false,
           "symbol": "SAP"
-        },
-        {
-          "headline": "SAP (XTRA:SAP) In Focus After Leadership Exit As Undervalued View Holds",
-          "url": "https://finnhub.io/api/news?id=f9cc64b30e5fb9cbccef7e7246b9080a5824b72712a302baace41b8885f8df36",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:11:58Z",
-          "primary": false,
-          "symbol": "SAP"
         }
       ]
     },
     "ROST": {
       "metrics": {
         "52WeekHigh": 257.0,
-        "52WeekLow": 158.49,
-        "peTTM": 26.8267,
-        "psTTM": 2.9102,
-        "netProfitMarginTTM": 10.85,
-        "roeTTM": 42.34,
-        "revenueGrowthTTMYoy": 14.02,
-        "epsGrowthTTMYoy": 31.42,
-        "currentRatioQuarterly": 1.6122,
-        "totalDebt/totalEquityQuarterly": 0.151,
-        "marketCapitalization": 71333.88
+        "52WeekLow": 160.34,
+        "peTTM": 24.7655,
+        "psTTM": 2.7095,
+        "netProfitMarginTTM": 10.94,
+        "roeTTM": 42.11,
+        "revenueGrowthTTMYoy": 14.25,
+        "epsGrowthTTMYoy": 34.36,
+        "currentRatioQuarterly": 1.5799,
+        "totalDebt/totalEquityQuarterly": 0.1472,
+        "marketCapitalization": 68190.47
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Ross Stores Inc",
       "profile": {
         "weburl": "https://www.rossstores.com/",
@@ -6028,42 +6012,42 @@
       },
       "news": [
         {
-          "headline": "Ross Stores Inc (ROST) Q3 2026 Earnings Call Highlights: 8% Comparable Sales Growth, 70 Basis ...",
-          "url": "https://finnhub.io/api/news?id=7ea71e81bc785656d6b33aaa0284aaec25d81c7afddc745fe924cdf3ad959600",
+          "headline": "Ross Stores rolls out pricing shift for customers as sales rise",
+          "url": "https://finnhub.io/api/news?id=6f9af6215dacc1b6781664cff74e0e39243a777ea00f0ba35d376c56ce58899c",
           "source": "Yahoo",
-          "published_at": "2026-11-20T05:01:30Z",
+          "published_at": "2026-11-21T15:17:00Z",
           "primary": false,
           "symbol": "ROST"
         },
         {
-          "headline": "What Ross Stores (ROST) Said on Its Q3 Earnings Call",
-          "url": "https://finnhub.io/api/news?id=1ce7e3c70e1f478697b433d84528ad15dafbeb0990a854586d4d616be2016213",
+          "headline": "Ross Stores: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=ed600c8499010776220552d3c56c963065f5c55cbe9a9319809b94b7ecb0801e",
           "source": "Yahoo",
-          "published_at": "2026-11-20T00:14:07Z",
+          "published_at": "2026-11-20T20:47:33Z",
           "primary": false,
           "symbol": "ROST"
         },
         {
-          "headline": "Ross Stores, Inc. (ROST) Q3 2026 Earnings Call Transcript",
-          "url": "https://finnhub.io/api/news?id=0d4b0e15a645dd196ec30cb4dc3f06e9f5620705d3b9e15bf4fc7ccf130d1476",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-19T22:12:52Z",
+          "headline": "S&P 500 Unusual Volume Movers: AES, IBM, ROST, INTU",
+          "url": "https://finnhub.io/api/news?id=1723195f94f8438552953667f0d594b71088f4e63b49af7bd831cf67907bcf2c",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T18:05:49Z",
           "primary": false,
           "symbol": "ROST"
         },
         {
-          "headline": "Ross Stores Tops Third-Quarter Earnings Views, Offers Soft Holiday-Period Outlook",
-          "url": "https://finnhub.io/api/news?id=eed21679105e754a887f646723c1cd5ca5ce34697ce5d9bba536cf0e3ef49262",
+          "headline": "Ross Stores’ CEO Says “Consumer Confidence Is Extremely Low”",
+          "url": "https://finnhub.io/api/news?id=b3a9cec0120f1f16c3ede5737d609b75fe57aaa27697884b9a1ec0812b926fa9",
           "source": "Yahoo",
-          "published_at": "2026-11-19T22:02:22Z",
+          "published_at": "2026-11-20T16:27:48Z",
           "primary": false,
           "symbol": "ROST"
         },
         {
-          "headline": "Ross Stores Earnings Beat But Tepid Holiday Outlook Sinks Stock",
-          "url": "https://finnhub.io/api/news?id=06ff885dfa93b0d2a08e25730843a6151bafb5984e97debe5972517d1c9f04c0",
+          "headline": "AMD Falls on China Risk; Ross Tumbles on Q4 Guidance | Stock Movers",
+          "url": "https://finnhub.io/api/news?id=0b5e310cf69ad219d15812f45d1c544af867b7778c59d8167284040746503cdd",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:50:00Z",
+          "published_at": "2026-11-20T16:19:25Z",
           "primary": false,
           "symbol": "ROST"
         }
@@ -6073,17 +6057,17 @@
       "metrics": {
         "52WeekHigh": 114.53,
         "52WeekLow": 83.96,
-        "peTTM": 14.9477,
-        "psTTM": 5.217,
+        "peTTM": 14.6299,
+        "psTTM": 5.1061,
         "netProfitMarginTTM": 34.9,
         "roeTTM": 20.380000000000003,
         "revenueGrowthTTMYoy": 12.3,
         "epsGrowthTTMYoy": 34.62,
         "currentRatioQuarterly": 0.3992,
         "totalDebt/totalEquityQuarterly": 5.7191,
-        "marketCapitalization": 159103.39
+        "marketCapitalization": 155720.42
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "The Charles Schwab Corporation",
       "profile": {
         "weburl": "https://www.schwab.com/",
@@ -6091,6 +6075,14 @@
         "name": "The Charles Schwab Corporation"
       },
       "news": [
+        {
+          "headline": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
+          "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T11:05:16Z",
+          "primary": false,
+          "symbol": "SCHW"
+        },
         {
           "headline": "$1000 Invested In Charles Schwab 15 Years Ago Would Be Worth This Much Today",
           "url": "https://finnhub.io/api/news?id=c367027df2634b5f35c20abb25902e94c18f8cb1c77f5e834d1c3742c254aba2",
@@ -6122,14 +6114,6 @@
           "published_at": "2026-11-18T03:10:34Z",
           "primary": false,
           "symbol": "SCHW"
-        },
-        {
-          "headline": "Charles Schwab (SCHW) Expands AI Tools, Is It Still 22% Below Fair Value?",
-          "url": "https://finnhub.io/api/news?id=2e5017d33866cef612b11535feaf5bd7300b13387789ba1f42dd394284a3edd9",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T01:09:35Z",
-          "primary": false,
-          "symbol": "SCHW"
         }
       ]
     },
@@ -6137,17 +6121,17 @@
       "metrics": {
         "52WeekHigh": 568.6699,
         "52WeekLow": 412.27,
-        "peTTM": 33.4377,
-        "psTTM": 10.2647,
+        "peTTM": 32.8505,
+        "psTTM": 10.0845,
         "netProfitMarginTTM": 30.7,
         "roeTTM": 20.080000000000002,
         "revenueGrowthTTMYoy": 10.48,
         "epsGrowthTTMYoy": 9.22,
         "currentRatioQuarterly": 2.3371,
         "totalDebt/totalEquityQuarterly": 0.2151,
-        "marketCapitalization": 132944.8
+        "marketCapitalization": 130610.13
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Vertex Pharmaceuticals Incorporated",
       "profile": {
         "weburl": "https://www.vrtx.com/",
@@ -6155,6 +6139,22 @@
         "name": "Vertex Pharmaceuticals Incorporated"
       },
       "news": [
+        {
+          "headline": "Has Vertex Stock Become A Different Bet?",
+          "url": "https://finnhub.io/api/news?id=f93951fd0ea504d6ed4769de62c62da022483e21e5ac7cad1aa3b7fde919562b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:28:04Z",
+          "primary": false,
+          "symbol": "VRTX"
+        },
+        {
+          "headline": "Vertex Pharmaceuticals: Look For Povetacicept Approval In 2 Weeks As Next Catalyst",
+          "url": "https://finnhub.io/api/news?id=4e14bdd5c328ef8e07a89d1f02bf29b7641e7212018e3e47b4052612a9bd6aa4",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-20T07:21:05Z",
+          "primary": false,
+          "symbol": "VRTX"
+        },
         {
           "headline": "Genomics, Vertex extend drug discovery alliance in $220m deal",
           "url": "https://finnhub.io/api/news?id=d6dcebcbcdf3663cc79f494adf2a136a45a21750c8e0c16f1f16b8913b70e9f2",
@@ -6178,22 +6178,6 @@
           "published_at": "2026-11-18T09:43:00Z",
           "primary": false,
           "symbol": "VRTX"
-        },
-        {
-          "headline": "Vertex Pharmaceuticals (VRTX) Stock May Be Undervalued After Its 187% Run",
-          "url": "https://finnhub.io/api/news?id=0da57f43a602ed40079a57db87dbee00b04f349c003fab110006fbb4ff282b6a",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T05:13:28Z",
-          "primary": false,
-          "symbol": "VRTX"
-        },
-        {
-          "headline": "Vertex Pharmaceuticals (VRTX) Could Be 11% Undervalued On Late Stage Pipeline Focus",
-          "url": "https://finnhub.io/api/news?id=a4bb8dd12b4842e39d7faef573b469e05b223ba2fb5c43b9b24d5e5557315472",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T03:12:56Z",
-          "primary": false,
-          "symbol": "VRTX"
         }
       ]
     },
@@ -6201,17 +6185,17 @@
       "metrics": {
         "52WeekHigh": 496.36,
         "52WeekLow": 196.98,
-        "peTTM": 10.0221,
-        "psTTM": 2.3009,
+        "peTTM": 9.5694,
+        "psTTM": 2.197,
         "netProfitMarginTTM": 22.96,
         "roeTTM": 41.21,
         "revenueGrowthTTMYoy": 4.18,
         "epsGrowthTTMYoy": 16.58,
         "currentRatioQuarterly": 0.9601,
         "totalDebt/totalEquityQuarterly": 0.7402,
-        "marketCapitalization": 70675.74
+        "marketCapitalization": 67483.12
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Honeywell International Inc.",
       "profile": {
         "weburl": "https://www.honeywell.com/us/en",
@@ -6220,42 +6204,42 @@
       },
       "news": [
         {
+          "headline": "Could Honeywell Be The Value Stock For Your Portfolio?",
+          "url": "https://finnhub.io/api/news?id=048a7cb87653b1baf405a01f986fce9e08ba095576c821ab3af2bfb55fcf9c72",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T18:53:21Z",
+          "primary": false,
+          "symbol": "HON"
+        },
+        {
+          "headline": "Building-to-Grid Technology - Global Strategic Business Report 2026: Capitalize on 21.8% CAGR as Market Hits $6.8 Billion by 2032 - Benchmark ABB, Siemens, Schneider Electric, Eaton and Honeywell",
+          "url": "https://finnhub.io/api/news?id=7074dfc43a013ae217f56206e96ab78eb0ee90fec05098890b3584f874646984",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:57:00Z",
+          "primary": false,
+          "symbol": "HON"
+        },
+        {
+          "headline": "Global Push-to-Talk Rugged Device Market Report 2026-2030 | Capitalize on 5G and Wearables as Motorola Solutions, Samsung Electronics, Hytera and Honeywell Target $9.05B",
+          "url": "https://finnhub.io/api/news?id=e52e8dbfe8c1abd5cadfe6da626e1b2af0b67a57fd96404b39f46791e8c87611",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:37:00Z",
+          "primary": false,
+          "symbol": "HON"
+        },
+        {
+          "headline": "Retail Automation - Global Strategic Business Report (2026-2032) Featuring Key Players NCR, Honeywell, Toshiba, Zebra, and GreyOrange",
+          "url": "https://finnhub.io/api/news?id=0e91a9992d900d2c1a7e6f2ce56da8545238cbb8e7c7174bc0c826d7db8a45ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:03:00Z",
+          "primary": false,
+          "symbol": "HON"
+        },
+        {
           "headline": "Why Every Honeywell Investor Is Looking At This One Number",
           "url": "https://finnhub.io/api/news?id=e8cabee928c9d2b39f408e1a15e0b7d6044f0964c78ba6b14a183a3f044f0aae",
           "source": "Yahoo",
           "published_at": "2026-11-19T22:20:15Z",
-          "primary": false,
-          "symbol": "HON"
-        },
-        {
-          "headline": "Dehumidifier - Global Strategic Business Report 2026: Capture the $2B Revenue Surge Through 2032 | Honeywell, LG Electronics, Munters, and Whirlpool Intensify Competition",
-          "url": "https://finnhub.io/api/news?id=b8ffc4333b101587061dff7ac244f15061100035d3999ace8a60f67704a92794",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:08:00Z",
-          "primary": false,
-          "symbol": "HON"
-        },
-        {
-          "headline": "Inkless Sticker Printer Market 2026: Global Size, Trends, and Forecast to 2030 | Capitalize on 9.3% CAGR as Zebra, HP, Honeywell, Canon, and Epson Advance Portable Thermal Printing",
-          "url": "https://finnhub.io/api/news?id=d0aa52cdae5f156f25d880ff9fdef7e73def3d28fab9fcd7c22c51ce7812c44a",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:41:00Z",
-          "primary": false,
-          "symbol": "HON"
-        },
-        {
-          "headline": "Did AI Building Launches Just Shift Honeywell's (HON) Investment Narrative?",
-          "url": "https://finnhub.io/api/news?id=601d7d58b34d23df347dce1334dc445dfeaf6af48c6e4be7bbb7232e3011d62b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T00:21:30Z",
-          "primary": false,
-          "symbol": "HON"
-        },
-        {
-          "headline": "Artificial Intelligence (AI) in Reverse Logistics Market Report 2026 | Capitalize on AI Returns and Circular Commerce Through 2030 with Microsoft, IBM, Oracle, SAP and Honeywell",
-          "url": "https://finnhub.io/api/news?id=a6e7de77bca620a98069b62f027fcceb3a73594ef64a49944e8f2324e63f2232",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:05:00Z",
           "primary": false,
           "symbol": "HON"
         }
@@ -6265,17 +6249,17 @@
       "metrics": {
         "52WeekHigh": 80.08,
         "52WeekLow": 58.09,
-        "peTTM": 26.4575,
-        "psTTM": 6.6144,
+        "peTTM": 26.2115,
+        "psTTM": 6.5529,
         "netProfitMarginTTM": 25.0,
         "roeTTM": 22.85,
         "revenueGrowthTTMYoy": 8.78,
         "epsGrowthTTMYoy": 31.42,
         "currentRatioQuarterly": 0.7484,
         "totalDebt/totalEquityQuarterly": 2.1569,
-        "marketCapitalization": 82706.21
+        "marketCapitalization": 81937.055
       },
-      "updated_at": "2026-11-20T09:12:51Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "The Williams Companies, Inc.",
       "profile": {
         "weburl": "https://www.williams.com/",
@@ -6283,6 +6267,30 @@
         "name": "The Williams Companies, Inc."
       },
       "news": [
+        {
+          "headline": "Williams Companies Slashed Its Dividend in 2016. Here’s What $1,000 Invested Then Is Worth Today",
+          "url": "https://finnhub.io/api/news?id=50674c0c39ca38118bdca5f53f42c4771d43c771bf43d1721bce396c8b268e74",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T22:47:28Z",
+          "primary": false,
+          "symbol": "WMB"
+        },
+        {
+          "headline": "Williams CEO Chad Zamarin Urges House Action Following Senate Passage of Bipartisan Permitting Reform",
+          "url": "https://finnhub.io/api/news?id=7720f476b96dc0b4ea729e4e4b84bfd2ed51c80f38ed8595062c1ff0b7e3d0cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:26:00Z",
+          "primary": false,
+          "symbol": "WMB"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning Williams Companies Stock In The Last 5 Years",
+          "url": "https://finnhub.io/api/news?id=1473129fcf054a8d5d2b467557104597206e8e4282b2e431028fda26ac68b680",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T10:32:33Z",
+          "primary": false,
+          "symbol": "WMB"
+        },
         {
           "headline": "How Many Shares of Kinder Morgan or Williams Pay $1,000 a Month in Dividends?",
           "url": "https://finnhub.io/api/news?id=36c5e24a2c364384a9cfd67d245dbaa3de5d0a7cf3c5649e4fe7c29150ea80f5",
@@ -6298,30 +6306,6 @@
           "published_at": "2026-11-19T09:11:26Z",
           "primary": false,
           "symbol": "WMB"
-        },
-        {
-          "headline": "Williams Companies (WMB) Leans On Power Growth, Is The Upside Already Priced In?",
-          "url": "https://finnhub.io/api/news?id=10eec1834b77759047edfe9ed3a7db563a0222d897c4729adc98497563ad8785",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T07:10:42Z",
-          "primary": false,
-          "symbol": "WMB"
-        },
-        {
-          "headline": "Zacks Industry Outlook Highlights Kinder Morgan, The Williams and MPLX LP",
-          "url": "https://finnhub.io/api/news?id=c051a2c3866cfc96dadb3d4ba6fe5be094a85b0b8b7a329763dfdf5d77a8a822",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T09:53:00Z",
-          "primary": false,
-          "symbol": "WMB"
-        },
-        {
-          "headline": "Can Williams Afford Its Spending Bill?",
-          "url": "https://finnhub.io/api/news?id=718507bc99ec11580c98617f28de8697788476651621634ae2bbbff063c9699a",
-          "source": "Yahoo",
-          "published_at": "2026-11-12T13:52:16Z",
-          "primary": false,
-          "symbol": "WMB"
         }
       ]
     },
@@ -6329,16 +6313,16 @@
       "metrics": {
         "52WeekHigh": 95.07,
         "52WeekLow": 65.32,
-        "peTTM": 42.4032,
-        "psTTM": 8.5325,
+        "peTTM": 42.6516,
+        "psTTM": 8.5825,
         "netProfitMarginTTM": 20.12,
         "roeTTM": 21.01,
         "revenueGrowthTTMYoy": -15.63,
         "currentRatioQuarterly": 0.2314,
         "totalDebt/totalEquityQuarterly": 4.5436,
-        "marketCapitalization": 34855.42
+        "marketCapitalization": 35059.65
       },
-      "updated_at": "2026-11-20T10:16:19Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Crown Castle Inc",
       "profile": {
         "weburl": "https://www.crowncastle.com/",
@@ -6346,6 +6330,22 @@
         "name": "Crown Castle Inc"
       },
       "news": [
+        {
+          "headline": "Crown Castle (CCI) Up 3.9% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=9bae771bc6c05ea84434d8e423fe6bc42a7c1a55d0b97b31f168878569d77df6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:30:04Z",
+          "primary": false,
+          "symbol": "CCI"
+        },
+        {
+          "headline": "Crown Castle vs. American Tower: Higher Yield or Better Dividend Growth",
+          "url": "https://finnhub.io/api/news?id=edf37a5007cf514749c9d7bbc421fdcb25cdcb373dc43838a9ab392667aea927",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:47:10Z",
+          "primary": false,
+          "symbol": "CCI"
+        },
         {
           "headline": "Crown Castle Inc. (CCI) Presents at Morgan Stanley European Technology, Media and Telecom Conference Transcript",
           "url": "https://finnhub.io/api/news?id=ade2f9c11a77da4e32c5e681155d677433c35b8a4fb93af999a05dd16496b809",
@@ -6361,30 +6361,22 @@
           "published_at": "2026-11-18T14:12:33Z",
           "primary": false,
           "symbol": "CCI"
-        },
-        {
-          "headline": "Are Wall Street Analysts Bullish on Crown Castle Stock?",
-          "url": "https://finnhub.io/api/news?id=d13712bad22dd43bdcdf684512525f14642670719d3f0b80242187807c49a1e6",
-          "source": "Yahoo",
-          "published_at": "2026-11-12T12:46:40Z",
-          "primary": false,
-          "symbol": "CCI"
         }
       ]
     },
     "SONY": {
       "metrics": {
-        "52WeekHigh": 4725.0,
+        "52WeekHigh": 4619.0,
         "52WeekLow": 3043.0,
-        "psTTM": 1.9305,
+        "psTTM": 1.987,
         "netProfitMarginTTM": -1.03,
         "roeTTM": -1.6099999999999999,
         "revenueGrowthTTMYoy": 8.0,
         "currentRatioQuarterly": 1.2466,
         "totalDebt/totalEquityQuarterly": 0.2441,
-        "marketCapitalization": 25130188.0
+        "marketCapitalization": 25864954.0
       },
-      "updated_at": "2026-11-20T10:16:19Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Sony Group Corp",
       "profile": {
         "weburl": "https://www.sony.com/",
@@ -6423,14 +6415,6 @@
           "published_at": "2026-11-14T12:19:18Z",
           "primary": false,
           "symbol": "SONY"
-        },
-        {
-          "headline": "Sony Group Corporation Repurchases 11,592,100 Shares for 45,604,126,353 Yen",
-          "url": "https://finnhub.io/api/news?id=181d65c10926ce648da1cf0ec38ec93c308f3cb922ef605acd073f3c334c3c75",
-          "source": "Fintel",
-          "published_at": "2026-11-13T10:28:26Z",
-          "primary": false,
-          "symbol": "SONY"
         }
       ]
     },
@@ -6438,17 +6422,17 @@
       "metrics": {
         "52WeekHigh": 106.83,
         "52WeekLow": 55.1,
-        "peTTM": 16.5243,
-        "psTTM": 0.4981,
+        "peTTM": 16.15,
+        "psTTM": 0.4868,
         "netProfitMarginTTM": 3.01,
         "roeTTM": 42.82,
         "revenueGrowthTTMYoy": 1.45,
         "epsGrowthTTMYoy": 65.82,
         "currentRatioQuarterly": 1.1169,
         "totalDebt/totalEquityQuarterly": 0.3673,
-        "marketCapitalization": 21018.91
+        "marketCapitalization": 20542.828
       },
-      "updated_at": "2026-11-20T10:16:19Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Best Buy Co., Inc.",
       "profile": {
         "weburl": "https://investors.bestbuy.com/investor-relations/overview/default.aspx",
@@ -6457,42 +6441,42 @@
       },
       "news": [
         {
+          "headline": "Best Buy (NYSE:BBY) Flashes High-Quality Technical Breakout Setup",
+          "url": "https://finnhub.io/api/news?id=bed4595c08044dac0f9cd741837be81a34475f55a8232b61bc81f74e9bb3c80d",
+          "source": "ChartMill",
+          "published_at": "2026-11-21T10:10:38Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Best Buy, Target, and Kohl’s try to change holiday shopping",
+          "url": "https://finnhub.io/api/news?id=53e43521bb313fc6ebc148b1944776fa1cede9da070f43c4474ecaec0876593a",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T00:37:00Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Best Buy's Comparable Sales Momentum to Continue, Margin Risks Linger, BofA Says",
+          "url": "https://finnhub.io/api/news?id=f380f68f601e0df2c7cdaf4bcd8af7cbd5875a027f327a4d5f61f37caf3f2a5d",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:07:56Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "B of A Securities Maintains Underperform on Best Buy Co, Raises Price Target to $83",
+          "url": "https://finnhub.io/api/news?id=9464f94ef09856b68b079749ef02765bb9f486ece745218a0ad62a22932e9892",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T13:23:35Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
           "headline": "Best Buy (BBY) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
           "url": "https://finnhub.io/api/news?id=4c0abed9a6a921b0e050b9a0555c4f2e0a2fc8944e9c527d05670c3feda67a3b",
           "source": "Yahoo",
           "published_at": "2026-11-19T13:15:05Z",
-          "primary": false,
-          "symbol": "BBY"
-        },
-        {
-          "headline": "What Is Best Buy (BBY) Gaining From Exclusive App Delivery Across 300 Stores?",
-          "url": "https://finnhub.io/api/news?id=812d07ce415349c9fc676ccaeecf36597083663e4cc5df871c135c3f14dc1eba",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:16:28Z",
-          "primary": false,
-          "symbol": "BBY"
-        },
-        {
-          "headline": "Best Buy faces test of earnings growth as UBS questions sustainability of sales momentum",
-          "url": "https://finnhub.io/api/news?id=0bdfcd1bf3f3ab7638cac39d9ded2084349b843714b409926468ca7558336a63",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T18:23:00Z",
-          "primary": false,
-          "symbol": "BBY"
-        },
-        {
-          "headline": "Are Wall Street Analysts Bullish on Best Buy Stock?",
-          "url": "https://finnhub.io/api/news?id=6789277d5fc2956b54cccb52bdc45f38d7e87aede88f74f7d051efa58c4716ff",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:48:18Z",
-          "primary": false,
-          "symbol": "BBY"
-        },
-        {
-          "headline": "Best Buy or Vail Resorts: Only One Gets My Dividend Dollars for the Next 10 Years",
-          "url": "https://finnhub.io/api/news?id=cb5715c4a91b2b0120b5f5eded8489e06da3851ab835cdcc6118867afa8ee8b0",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:47:17Z",
           "primary": false,
           "symbol": "BBY"
         }
@@ -6502,17 +6486,17 @@
       "metrics": {
         "52WeekHigh": 1242.12,
         "52WeekLow": 917.39,
-        "peTTM": 27.4085,
-        "psTTM": 6.6375,
+        "peTTM": 25.8264,
+        "psTTM": 6.2544,
         "netProfitMarginTTM": 24.22,
         "roeTTM": 12.11,
         "revenueGrowthTTMYoy": 24.72,
         "epsGrowthTTMYoy": 8.97,
         "currentRatioQuarterly": 2.4339,
         "totalDebt/totalEquityQuarterly": 0.2192,
-        "marketCapitalization": 189447.5
+        "marketCapitalization": 178512.08
       },
-      "updated_at": "2026-11-20T10:16:19Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "BlackRock, Inc.",
       "profile": {
         "weburl": "https://www.blackrock.com/",
@@ -6521,42 +6505,42 @@
       },
       "news": [
         {
-          "headline": "BlackRock’s Bitcoin ETF Sees Record $541 Million Outflow in a Single Day",
-          "url": "https://finnhub.io/api/news?id=52b8080da9e0206bca1a7b048a5043a7cc31dd3bd29abf87ef4b1d166de1d2c3",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T07:00:00Z",
+          "headline": "BlackRock: The Growth Is Already Priced In",
+          "url": "https://finnhub.io/api/news?id=fa566ac014ae6d94e35472c7e693fc99056bd557f6807bd4548fedae946ac2fe",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T21:42:52Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "BlackRock to acquire Brazilian asset manager SulAmérica",
-          "url": "https://finnhub.io/api/news?id=0af147deb948b64c9f35d7c8d54cb7cd3617a5c4b85abadbd1a317610477e196",
+          "headline": "S&P Global (SPGI) Could Be 16% Undervalued As Board Adds BlackRock Veteran",
+          "url": "https://finnhub.io/api/news?id=0d1ff42ed62907343b6b0d8f71cdd96636dc1bed7d451f4749a5f85ca0c9d7f9",
           "source": "Yahoo",
-          "published_at": "2026-11-19T12:03:24Z",
+          "published_at": "2026-11-21T07:13:28Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "25 ETFs Add to BlackRock (BLK) Holdings on Nov. 17",
-          "url": "https://finnhub.io/api/news?id=300a79681cc292fb2d4cecfc10e2b5ff753a353f5da6b9a48f5f4492327d770d",
+          "headline": "BlackRock ETF approaching third anniversary just had its worst day",
+          "url": "https://finnhub.io/api/news?id=b1e77b02eca79d3cb7ee1b544bc1319557c33baf7ddabf61fdcf3909d10f132a",
           "source": "Yahoo",
-          "published_at": "2026-11-19T11:00:54Z",
+          "published_at": "2026-11-21T01:30:00Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "BlackRock's HPS Seeks $9.5 Billion. New Fund Targets Private Credit Investors.",
-          "url": "https://finnhub.io/api/news?id=ccfc257fac9ef8e42b1bae5c999b4cdddac1c093abb0ba37eb76801427979157",
+          "headline": "Certain BlackRock Closed-End Funds Announce Discount Management Programs",
+          "url": "https://finnhub.io/api/news?id=e91510cbf2fb625fd560fb019bc90a1bd1c3f8da95746f6e6b1faaf7bfc540cd",
           "source": "Yahoo",
-          "published_at": "2026-11-18T21:26:54Z",
+          "published_at": "2026-11-20T21:33:00Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "BlackRock (BLK) Seeks ETIF Approval As Valuation Debate Comes Into View",
-          "url": "https://finnhub.io/api/news?id=af4983c4cb682f61289998d4b50bf2f704a9cd48e5863a4a784d8f28872948aa",
+          "headline": "Distribution Dates and Amounts Announced for Certain BlackRock Closed-End Funds",
+          "url": "https://finnhub.io/api/news?id=b8e252b0a7b689c1559d5163a11901173290b1c66fe5a3f528d5996ad7330c85",
           "source": "Yahoo",
-          "published_at": "2026-11-18T13:12:44Z",
+          "published_at": "2026-11-20T21:32:00Z",
           "primary": false,
           "symbol": "BLK"
         }
@@ -6566,17 +6550,17 @@
       "metrics": {
         "52WeekHigh": 991.73,
         "52WeekLow": 591.52,
-        "peTTM": 20.3008,
-        "psTTM": 5.7881,
+        "peTTM": 19.7674,
+        "psTTM": 5.636,
         "netProfitMarginTTM": 28.51,
         "roeTTM": 15.07,
         "revenueGrowthTTMYoy": 18.59,
         "epsGrowthTTMYoy": 8.37,
         "currentRatioQuarterly": 3.3529,
         "totalDebt/totalEquityQuarterly": 0.0808,
-        "marketCapitalization": 97796.84
+        "marketCapitalization": 95227.625
       },
-      "updated_at": "2026-11-20T10:16:19Z",
+      "updated_at": "2026-11-22T06:04:28Z",
       "name": "Regeneron Pharmaceuticals, Inc.",
       "profile": {
         "weburl": "https://www.regeneron.com/",
@@ -30059,6 +30043,6 @@
       ]
     }
   },
-  "cursor": 97,
-  "updated_at": "2026-11-22T05:06:24Z"
+  "cursor": 109,
+  "updated_at": "2026-11-22T06:04:28Z"
 }
