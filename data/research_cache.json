@@ -11469,17 +11469,17 @@
       "metrics": {
         "52WeekHigh": 131.185,
         "52WeekLow": 105.76,
-        "peTTM": 12.647,
-        "psTTM": 3.401,
+        "peTTM": 12.6505,
+        "psTTM": 3.4019,
         "netProfitMarginTTM": 26.89,
         "roeTTM": 16.42,
         "revenueGrowthTTMYoy": 13.64,
         "epsGrowthTTMYoy": 110.97,
         "currentRatioQuarterly": 0.1096,
         "totalDebt/totalEquityQuarterly": 0.2854,
-        "marketCapitalization": 61489.547
+        "marketCapitalization": 61506.863
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Aflac Incorporated",
       "profile": {
         "weburl": "https://www.aflac.com/",
@@ -11533,17 +11533,17 @@
       "metrics": {
         "52WeekHigh": 462.869,
         "52WeekLow": 163.11,
-        "peTTM": 36.51,
-        "psTTM": 0.295,
+        "peTTM": 37.5925,
+        "psTTM": 0.3037,
         "netProfitMarginTTM": 0.81,
         "roeTTM": 6.710000000000001,
         "revenueGrowthTTMYoy": 22.04,
         "epsGrowthTTMYoy": -3.71,
         "currentRatioQuarterly": 0.006,
         "totalDebt/totalEquityQuarterly": 0.6642,
-        "marketCapitalization": 45491.508
+        "marketCapitalization": 46840.266
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Humana Inc.",
       "profile": {
         "weburl": "https://www.humana.com",
@@ -11556,6 +11556,14 @@
           "url": "https://finnhub.io/api/news?id=1440917ae2c069e83ad65268b601d6d589938aee26c354caeecf0811b57bd97c",
           "source": "Yahoo",
           "published_at": "2026-11-20T17:14:34Z",
+          "primary": false,
+          "symbol": "HUM"
+        },
+        {
+          "headline": "UnitedHealth and Humana Stocks Got Crushed This Week. Why They Just Got Upgrades Anyway.",
+          "url": "https://finnhub.io/api/news?id=2860ef93b9b6bf8e301fd12bc0d9665f07015ee5edfb057ceef3c02fc61cafa4",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T17:01:00Z",
           "primary": false,
           "symbol": "HUM"
         },
@@ -11582,14 +11590,6 @@
           "published_at": "2026-11-20T13:03:00Z",
           "primary": false,
           "symbol": "HUM"
-        },
-        {
-          "headline": "TD Cowen Upgrades Humana to Buy, Raises Price Target to $485",
-          "url": "https://finnhub.io/api/news?id=3574a065b3b2b8b196b91c84f74a95b16ce28eb3deb2964c8ef723cabdd333eb",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T10:20:57Z",
-          "primary": false,
-          "symbol": "HUM"
         }
       ]
     },
@@ -11597,17 +11597,17 @@
       "metrics": {
         "52WeekHigh": 122.41,
         "52WeekLow": 90.84,
-        "peTTM": 21.01,
-        "psTTM": 1.0168,
+        "peTTM": 20.9301,
+        "psTTM": 1.013,
         "netProfitMarginTTM": 4.84,
         "roeTTM": 28.51,
         "revenueGrowthTTMYoy": 2.11,
         "epsGrowthTTMYoy": -19.74,
         "currentRatioQuarterly": 1.2394,
         "totalDebt/totalEquityQuarterly": 1.7392,
-        "marketCapitalization": 92906.16
+        "marketCapitalization": 92552.79
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "United Parcel Service Inc",
       "profile": {
         "weburl": "https://www.ups.com/",
@@ -11615,6 +11615,14 @@
         "name": "United Parcel Service Inc"
       },
       "news": [
+        {
+          "headline": "Better Dividend Stock: UPS vs. Illinois Tool Works",
+          "url": "https://finnhub.io/api/news?id=c60a687da3678bcddc4ed804fd9fd3db9a4df0c458f71ad870a678472c46ce8a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:32Z",
+          "primary": false,
+          "symbol": "UPS"
+        },
         {
           "headline": "What Have UPS Stock Holders Really Earned?",
           "url": "https://finnhub.io/api/news?id=bc348cb69b5d1a6cb4aa14c01a85fc4ccbfcf411d25c9595b0376dd1f0a14509",
@@ -11646,14 +11654,6 @@
           "published_at": "2026-11-19T13:00:04Z",
           "primary": false,
           "symbol": "UPS"
-        },
-        {
-          "headline": "United Parcel Service (UPS) Agrees Smartways Logistics Deal For Asia Pacific Healthcare Expansion",
-          "url": "https://finnhub.io/api/news?id=fcfbf35d41a66214309d1daff016090b0fd4bb27bd12f001f242ecc5150324aa",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T01:18:37Z",
-          "primary": false,
-          "symbol": "UPS"
         }
       ]
     },
@@ -11661,17 +11661,17 @@
       "metrics": {
         "52WeekHigh": 380.78,
         "52WeekLow": 228.63,
-        "peTTM": 20.4339,
-        "psTTM": 2.6072,
+        "peTTM": 19.2485,
+        "psTTM": 2.4559,
         "netProfitMarginTTM": 12.76,
         "roeTTM": 15.509999999999998,
         "revenueGrowthTTMYoy": 37.88,
         "epsGrowthTTMYoy": 43.01,
         "currentRatioQuarterly": 1.4859,
         "totalDebt/totalEquityQuarterly": 0.7149,
-        "marketCapitalization": 89296.086
+        "marketCapitalization": 84116.11
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Constellation Energy Corp",
       "profile": {
         "weburl": "https://www.constellationenergy.com/",
@@ -11680,10 +11680,26 @@
       },
       "news": [
         {
+          "headline": "45% Upside for Constellation Energy? Barclays Thinks So, and Here’s How",
+          "url": "https://finnhub.io/api/news?id=f05943fe305d17e1019034e8f1c45fd227dce8020624ad0ad8055b177cb7ea8c",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T19:20:40Z",
+          "primary": false,
+          "symbol": "CEG"
+        },
+        {
           "headline": "Constellation Energy Sinks 10% in a Week as AI Stocks Slide, Giving Back Its Earnings Jump. Time to Buy?",
           "url": "https://finnhub.io/api/news?id=de159667e60733262aeb972821eeb473d7e9035e88ec5b33549302a5c6008872",
           "source": "Yahoo",
           "published_at": "2026-11-20T15:30:31Z",
+          "primary": false,
+          "symbol": "CEG"
+        },
+        {
+          "headline": "Barclays Maintains Overweight on Constellation Energy, Raises Price Target to $371",
+          "url": "https://finnhub.io/api/news?id=05cbb6cf74ecbff39abb649b73b77b5666f7e2bb1efa8f7b164c9a734c78a258",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T11:01:20Z",
           "primary": false,
           "symbol": "CEG"
         },
@@ -11702,22 +11718,6 @@
           "published_at": "2026-11-19T12:08:04Z",
           "primary": false,
           "symbol": "CEG"
-        },
-        {
-          "headline": "Capital Group Div Value (CGDV) Adds Home Depot and Constellation on Nov. 17",
-          "url": "https://finnhub.io/api/news?id=ece96cebe8967027714d8ea40a56119c9476611bdaf67804690ed8d992fd5c55",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:04:03Z",
-          "primary": false,
-          "symbol": "CEG"
-        },
-        {
-          "headline": "ETFs Are Buying Constellation Energy (CEG) on Tuesday",
-          "url": "https://finnhub.io/api/news?id=a9a6a9fe82e96fca7f8aab15becbb1cf38eb08817fa75364cba21bfacfb767f9",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:00:51Z",
-          "primary": false,
-          "symbol": "CEG"
         }
       ]
     },
@@ -11725,17 +11725,17 @@
       "metrics": {
         "52WeekHigh": 539.48,
         "52WeekLow": 362.55,
-        "peTTM": 77.2575,
-        "psTTM": 8.8326,
+        "peTTM": 70.5216,
+        "psTTM": 8.0625,
         "netProfitMarginTTM": 11.43,
         "roeTTM": 3.5700000000000003,
         "revenueGrowthTTMYoy": 46.33,
         "epsGrowthTTMYoy": -55.62,
         "currentRatioQuarterly": 1.3369,
         "totalDebt/totalEquityQuarterly": 0.3222,
-        "marketCapitalization": 83172.22
+        "marketCapitalization": 75920.69
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Synopsys, Inc.",
       "profile": {
         "weburl": "https://www.synopsys.com/",
@@ -11743,6 +11743,14 @@
         "name": "Synopsys, Inc."
       },
       "news": [
+        {
+          "headline": "Synopsys (SNPS) Dips More Than Broader Market: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=49fd22dd980f5041726a5c8f9b785ae93dd8edee52e4fe4ff5572c410ab05de2",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T21:45:02Z",
+          "primary": false,
+          "symbol": "SNPS"
+        },
         {
           "headline": "Simulation as a Service Market Report 2026: Global Size, Trends, and Forecast to 2030 | Capitalize on AI and Digital Twins with Siemens, Dassault Systèmes, Synopsys, Autodesk",
           "url": "https://finnhub.io/api/news?id=452531f2a16822ea320427dda561ba213e4fd5288dd83635c01f015095830601",
@@ -11760,26 +11768,18 @@
           "symbol": "SNPS"
         },
         {
+          "headline": "Synopsys Stock Just Scored a New Bullish Rating. Here's Why.",
+          "url": "https://finnhub.io/api/news?id=6a7f0a669889f827f695f2a1a74ffac6a5018821f30551bc67a08f0252e477be",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T12:14:05Z",
+          "primary": false,
+          "symbol": "SNPS"
+        },
+        {
           "headline": "Synopsys (SNPS) Broadens Its Platform Reach Into Packaging Safety Workflows",
           "url": "https://finnhub.io/api/news?id=adf412c22cfa9c2a0393ec7358444b54a3f14d05f472b5825301ae3221ece174",
           "source": "Yahoo",
           "published_at": "2026-11-20T10:13:56Z",
-          "primary": false,
-          "symbol": "SNPS"
-        },
-        {
-          "headline": "Synopsys (SNPS) Stock May Be 17% Overvalued As Guidance Improves",
-          "url": "https://finnhub.io/api/news?id=6f92fe11d8f8d2d300a61372f25837a45265e066bf94acd86e5e89c31bb2b1d4",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T07:13:53Z",
-          "primary": false,
-          "symbol": "SNPS"
-        },
-        {
-          "headline": "Synopsys vs Cadence: value and quality compared",
-          "url": "https://finnhub.io/api/news?id=e975f84881402ef40e6f07b777974caf3147e5388306449a727d178dd087e406",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:01:30Z",
           "primary": false,
           "symbol": "SNPS"
         }
@@ -11789,17 +11789,17 @@
       "metrics": {
         "52WeekHigh": 128.9,
         "52WeekLow": 79.12,
-        "peTTM": 19.3961,
-        "psTTM": 1.8248,
+        "peTTM": 18.7412,
+        "psTTM": 1.7632,
         "netProfitMarginTTM": 9.41,
         "roeTTM": 181.10999999999999,
         "revenueGrowthTTMYoy": 6.28,
         "epsGrowthTTMYoy": -12.95,
         "currentRatioQuarterly": 0.6537,
         "totalDebt/totalEquityQuarterly": 56.3111,
-        "marketCapitalization": 13131.167
+        "marketCapitalization": 12687.768
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "The Clorox Company",
       "profile": {
         "weburl": "https://www.thecloroxcompany.com/",
@@ -11807,6 +11807,30 @@
         "name": "The Clorox Company"
       },
       "news": [
+        {
+          "headline": "Clorox vs. Merck: 49 and 15 Straight Years of Raises. Which Dividend Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=3bc168178e3c51609a9ef3e32297203298cacb7ac2f31d42877d3c52beae89b8",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T18:35:27Z",
+          "primary": false,
+          "symbol": "CLX"
+        },
+        {
+          "headline": "Clorox or Kinder Morgan: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=fbdb12bead507a8ec3e9893c4a93433250c8bfd426f6c784435da96770404031",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:14Z",
+          "primary": false,
+          "symbol": "CLX"
+        },
+        {
+          "headline": "Better High-Yield Dividend Stock: Truist vs. Clorox",
+          "url": "https://finnhub.io/api/news?id=6e9b9222bb5a49474b9f410af82c33ba840d78399633bcc18c01e613759a7bdc",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:58:33Z",
+          "primary": false,
+          "symbol": "CLX"
+        },
         {
           "headline": "An $850,000 Portfolio in Molson Coors, Clorox and Prudential Pays $40,301 a Year in Dividends. Here’s What Happens if One Cuts",
           "url": "https://finnhub.io/api/news?id=363aa1eb3f8c0790e04f1c57974e8f9d8b1d9518985da188b781764f9b942f8c",
@@ -11822,30 +11846,6 @@
           "published_at": "2026-11-19T23:41:02Z",
           "primary": false,
           "symbol": "CLX"
-        },
-        {
-          "headline": "A $1,200,000 Portfolio in Clorox, Kimco Realty and Eversource Pays $54,576 a Year in Dividends. Here’s What Happens if One Cuts",
-          "url": "https://finnhub.io/api/news?id=9a3d2467a90e421399a78da8fc1f382f143d6fc7583305214de601f98738eb8c",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:20:22Z",
-          "primary": false,
-          "symbol": "CLX"
-        },
-        {
-          "headline": "Should You Buy Clorox Stock At This Price?",
-          "url": "https://finnhub.io/api/news?id=89e688e9bc0d91daf4526d04e3afffad7a14816adb2b12b22998270c8ceeeeae",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:06:03Z",
-          "primary": false,
-          "symbol": "CLX"
-        },
-        {
-          "headline": "Clorox Just Declared Another Dividend, but Its $5 Payout Faces a Debt Test",
-          "url": "https://finnhub.io/api/news?id=6b8ec6fc171902043766c8fb8020c26ed7995b571c333371d0de3d5a38ed0e03",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:47:55Z",
-          "primary": false,
-          "symbol": "CLX"
         }
       ]
     },
@@ -11853,17 +11853,17 @@
       "metrics": {
         "52WeekHigh": 87.29,
         "52WeekLow": 71.25,
-        "peTTM": 12.7041,
-        "psTTM": 1.5074,
+        "peTTM": 12.556,
+        "psTTM": 1.4898,
         "netProfitMarginTTM": 11.87,
         "roeTTM": 8.17,
         "revenueGrowthTTMYoy": 1.19,
         "epsGrowthTTMYoy": 11.06,
         "currentRatioQuarterly": 0.0373,
         "totalDebt/totalEquityQuarterly": 0.2677,
-        "marketCapitalization": 41796.547
+        "marketCapitalization": 41309.21
       },
-      "updated_at": "2026-11-20T18:04:54Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "American International Group, Inc.",
       "profile": {
         "weburl": "https://www.aig.com/home",
@@ -11917,17 +11917,17 @@
       "metrics": {
         "52WeekHigh": 450.69,
         "52WeekLow": 274.84,
-        "peTTM": 16.8523,
-        "psTTM": 0.4291,
+        "peTTM": 16.5849,
+        "psTTM": 0.4223,
         "netProfitMarginTTM": 2.55,
         "roeTTM": 11.59,
         "revenueGrowthTTMYoy": 3.6,
         "epsGrowthTTMYoy": -4.07,
         "currentRatioQuarterly": 0.2256,
         "totalDebt/totalEquityQuarterly": 0.6884,
-        "marketCapitalization": 86603.84
+        "marketCapitalization": 85229.73
       },
-      "updated_at": "2026-11-20T18:45:56Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Elevance Health Inc",
       "profile": {
         "weburl": "https://www.elevancehealth.com/",
@@ -11935,6 +11935,14 @@
         "name": "Elevance Health Inc"
       },
       "news": [
+        {
+          "headline": "Will Medicare Repayments Change Elevance Health Stock Narrative",
+          "url": "https://finnhub.io/api/news?id=a00a88f7b39e2ed1f397464c4ec6b6df5a54133982e5d608044368d474f7097d",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T08:11:56Z",
+          "primary": false,
+          "symbol": "ELV"
+        },
         {
           "headline": "Elevance Health (ELV) Down 12.4% Since Last Earnings Report: Can It Rebound?",
           "url": "https://finnhub.io/api/news?id=01788d35aed74ecb81429604006640019864272edde8bf5c058ff73d3f224a90",
@@ -11966,14 +11974,6 @@
           "published_at": "2026-11-19T12:12:25Z",
           "primary": false,
           "symbol": "ELV"
-        },
-        {
-          "headline": "Argus Research Upgrades Elevance Health to Buy from Hold",
-          "url": "https://finnhub.io/api/news?id=9854f5cfab7312451df38209efbd36b4caaa8d79c4ecceedc8867534dd5dcf1b",
-          "source": "Fintel",
-          "published_at": "2026-11-19T01:50:18Z",
-          "primary": false,
-          "symbol": "ELV"
         }
       ]
     },
@@ -11981,17 +11981,17 @@
       "metrics": {
         "52WeekHigh": 256.79,
         "52WeekLow": 196.41,
-        "peTTM": 34.0835,
-        "psTTM": 4.4033,
+        "peTTM": 33.732,
+        "psTTM": 4.3579,
         "netProfitMarginTTM": 12.92,
         "roeTTM": 18.47,
         "revenueGrowthTTMYoy": 4.46,
         "epsGrowthTTMYoy": 7.25,
         "currentRatioQuarterly": 0.7487,
         "totalDebt/totalEquityQuarterly": 1.1485,
-        "marketCapitalization": 75904.016
+        "marketCapitalization": 75121.09
       },
-      "updated_at": "2026-11-20T18:45:56Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Republic Services Inc",
       "profile": {
         "weburl": "https://www.republicservices.com/",
@@ -12004,6 +12004,14 @@
           "url": "https://finnhub.io/api/news?id=8392cc64ad19ef47dd5648adf5de2f68223704793cd5faf94ff30eedfa1219df",
           "source": "Yahoo",
           "published_at": "2026-11-20T15:15:40Z",
+          "primary": false,
+          "symbol": "RSG"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Republic Services Stock?",
+          "url": "https://finnhub.io/api/news?id=337d9b326a78aa6d6f5787dd2941d7ca7d82510a6c8284bfc8d12069d8233ba7",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T13:33:33Z",
           "primary": false,
           "symbol": "RSG"
         },
@@ -12030,14 +12038,6 @@
           "published_at": "2026-11-18T12:18:06Z",
           "primary": false,
           "symbol": "RSG"
-        },
-        {
-          "headline": "RSG Shares Jump 18.7% in Three Months: Here's What You Should Know",
-          "url": "https://finnhub.io/api/news?id=f63ccb4e43de6347474b6b838705961091aeaa1ea3db376a4767446571d7680c",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:44:00Z",
-          "primary": false,
-          "symbol": "RSG"
         }
       ]
     },
@@ -12045,17 +12045,17 @@
       "metrics": {
         "52WeekHigh": 189.29,
         "52WeekLow": 110.89,
-        "peTTM": 16.3292,
-        "psTTM": 2.1884,
+        "peTTM": 15.7163,
+        "psTTM": 2.1062,
         "netProfitMarginTTM": 13.4,
         "roeTTM": 48.16,
         "revenueGrowthTTMYoy": 22.84,
         "epsGrowthTTMYoy": 140.4,
         "currentRatioQuarterly": 1.1574,
         "totalDebt/totalEquityQuarterly": 3.452,
-        "marketCapitalization": 44203.11
+        "marketCapitalization": 42543.938
       },
-      "updated_at": "2026-11-20T18:45:56Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Vistra Corp.",
       "profile": {
         "weburl": "https://www.vistracorp.com/",
@@ -12063,6 +12063,22 @@
         "name": "Vistra Corp."
       },
       "news": [
+        {
+          "headline": "1 Compelling Reason to Buy Vistra Stock Before November Ends",
+          "url": "https://finnhub.io/api/news?id=15d608b21880b477461b8af69f0e10fcb987fe8afbcefd99baa494f83599b1d6",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T20:05:02Z",
+          "primary": false,
+          "symbol": "VST"
+        },
+        {
+          "headline": "Has Buying The Dips In Vistra Stock Paid Off?",
+          "url": "https://finnhub.io/api/news?id=d995f014db8761b03f24ed5ceaa1816896e48fe632f743ebe0b4830c984fae66",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T06:32:47Z",
+          "primary": false,
+          "symbol": "VST"
+        },
         {
           "headline": "Vistra Just Dropped 16% in a Month, but Its Plans Always Had “a More Conservative View of the AI Build-Out”",
           "url": "https://finnhub.io/api/news?id=e6bb6a277cd30f60c5207afe4e75a2ffaf45f59188b00f2024bf7ee3b53c9764",
@@ -12086,22 +12102,6 @@
           "published_at": "2026-11-18T05:30:00Z",
           "primary": false,
           "symbol": "VST"
-        },
-        {
-          "headline": "Only 11% of the Power Plants Vistra Just Bought Are in Texas. Here's Why That Matters After the Election.",
-          "url": "https://finnhub.io/api/news?id=2f168ac6fa8911032a10173497ae3a0aedeef5cc38e6d2da2b7de9a8015ab740",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T23:25:00Z",
-          "primary": false,
-          "symbol": "VST"
-        },
-        {
-          "headline": "NextEra Energy vs. Vistra: Which Utilities Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=c5d7fc964034b263f65fd63706e0a4d45ca23159951de450530b494c732fbdd7",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T20:50:02Z",
-          "primary": false,
-          "symbol": "VST"
         }
       ]
     },
@@ -12109,17 +12109,17 @@
       "metrics": {
         "52WeekHigh": 307.3743,
         "52WeekLow": 107.2,
-        "peTTM": 35.6918,
-        "psTTM": 12.9382,
+        "peTTM": 31.4372,
+        "psTTM": 11.3959,
         "netProfitMarginTTM": 36.25,
         "roeTTM": 87.02,
         "revenueGrowthTTMYoy": 15.82,
         "epsGrowthTTMYoy": 25.48,
         "currentRatioQuarterly": 2.7603,
         "totalDebt/totalEquityQuarterly": 0.8773,
-        "marketCapitalization": 187678.7
+        "marketCapitalization": 165306.83
       },
-      "updated_at": "2026-11-20T18:45:56Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "KLA Corporation",
       "profile": {
         "weburl": "https://www.kla.com/",
@@ -12173,23 +12173,32 @@
       "metrics": {
         "52WeekHigh": 121.64,
         "52WeekLow": 66.22,
-        "peTTM": 102.4371,
-        "psTTM": 2.4666,
+        "peTTM": 97.9277,
+        "psTTM": 2.358,
         "netProfitMarginTTM": 2.41,
         "roeTTM": 9.28,
         "revenueGrowthTTMYoy": 5.82,
         "currentRatioQuarterly": 1.2508,
         "totalDebt/totalEquityQuarterly": 1.7957,
-        "marketCapitalization": 37696.86
+        "marketCapitalization": 36037.387
       },
-      "updated_at": "2026-11-20T18:45:56Z",
+      "updated_at": "2026-11-22T14:56:25Z",
       "name": "Estee Lauder Companies Inc",
       "profile": {
         "weburl": "https://www.elcompanies.com/en",
         "industry": "Consumer products",
         "name": "Estee Lauder Companies Inc"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "What Are Estee Lauder Investors Betting On?",
+          "url": "https://finnhub.io/api/news?id=e61b04ee2afefcd634327e6f8db7407672908987425b1cbff0c168784e1fe6be",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T06:32:47Z",
+          "primary": false,
+          "symbol": "EL"
+        }
+      ]
     },
     "USB": {
       "metrics": {
@@ -29914,6 +29923,6 @@
       ]
     }
   },
-  "cursor": 193,
-  "updated_at": "2026-11-22T14:05:03Z"
+  "cursor": 205,
+  "updated_at": "2026-11-22T14:56:25Z"
 }
