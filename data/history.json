@@ -59996,6 +59996,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|ANET|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "ANET",
+      "name": "Arista Networks, Inc.",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-22T14:05:03Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 167.62,
+      "score": 61,
+      "quality_status": "WATCH",
+      "buy_ceiling": 70.98,
+      "sell_review": 90.99,
+      "bear_case": 48.25,
+      "why": "Net profit margin 40.0% (TTM); Return on equity 33.3% (TTM); Trailing P/E 44.6×; TTM revenue growth 40.7% YoY",
+      "risk": "High trailing earnings valuation",
+      "financials_retrieved_at": "2026-11-22T14:05:03Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }

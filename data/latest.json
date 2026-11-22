@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:03:54Z",
+  "generated_at": "2026-11-22T14:05:03Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T13:03:54Z",
+      "checked_at": "2026-11-22T14:05:03Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T13:03:54Z",
+      "checked_at": "2026-11-22T14:05:03Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T13:03:54Z",
+      "checked_at": "2026-11-22T14:05:03Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T13:03:54Z",
+      "checked_at": "2026-11-22T14:05:03Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T13:03:54Z",
+      "checked_at": "2026-11-22T14:05:03Z",
       "error": ""
     }
   ],
@@ -6965,22 +6965,10 @@
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
-    },
-    {
-      "id": "412f6f83fad97c1f82ff",
-      "type": "SEC",
-      "ticker": "NVDA",
-      "title": "NVDA: 8-K filed with the SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
-      "source": "SEC EDGAR",
-      "primary": true,
-      "published_at": "2026-11-12T13:52:41Z",
-      "sentiment": "neutral",
-      "form": "8-K"
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T13:03:54Z",
+    "generated_at": "2026-11-22T14:05:03Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -11735,7 +11723,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Insurance",
-        "why": "Net profit margin 6.2% (TTM); Return on equity 19.5% (TTM); Trailing P/E 12.1×; TTM revenue growth 14.5% YoY",
+        "why": "Net profit margin 6.2% (TTM); Return on equity 19.5% (TTM); Trailing P/E 11.7×; TTM revenue growth 14.5% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11749,7 +11737,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T17:06:24Z",
+            "timestamp": "2026-11-22T14:05:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11760,7 +11748,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T17:06:24Z",
+        "fundamentals_at": "2026-11-22T14:05:03Z",
         "price": 95.67,
         "currency": "USD",
         "change_pct": -1.977,
@@ -12818,7 +12806,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Consumer products",
-        "why": "Net profit margin 19.9% (TTM); Return on equity 165.5% (TTM); Trailing P/E 19.6×; TTM revenue growth 0.6% YoY",
+        "why": "Net profit margin 19.9% (TTM); Return on equity 165.5% (TTM); Trailing P/E 19.8×; TTM revenue growth 0.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12832,35 +12820,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T18:04:54Z",
+            "timestamp": "2026-11-22T14:05:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Kimberly-Clark Stock a Buy Now That the Kenvue Acquisition Is Finalized?",
-            "timestamp": "2026-11-20T15:20:02Z",
-            "url": "https://finnhub.io/api/news?id=3967942c3d765bb9ba7edefd08ee39aa3d850cea30ce4a4a8e8ffebb6330cd54"
+            "value": "What Do Kimberly Clark (KMB) New Leadership Appointments Mean For Growth?",
+            "timestamp": "2026-11-21T09:15:40Z",
+            "url": "https://finnhub.io/api/news?id=8082e43f3a6bf2fc5c65e57659fd4bcb99557b08f37fa72e85280efdf78947f9"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T18:04:54Z",
+        "fundamentals_at": "2026-11-22T14:05:03Z",
         "price": 106.38,
         "currency": "USD",
         "change_pct": 1.074,
         "news": [
           {
-            "headline": "Is Kimberly-Clark Stock a Buy Now That the Kenvue Acquisition Is Finalized?",
-            "url": "https://finnhub.io/api/news?id=3967942c3d765bb9ba7edefd08ee39aa3d850cea30ce4a4a8e8ffebb6330cd54",
+            "headline": "What Do Kimberly Clark (KMB) New Leadership Appointments Mean For Growth?",
+            "url": "https://finnhub.io/api/news?id=8082e43f3a6bf2fc5c65e57659fd4bcb99557b08f37fa72e85280efdf78947f9",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:20:02Z",
+            "published_at": "2026-11-21T09:15:40Z",
             "primary": false,
             "symbol": "KMB"
           },
           {
-            "headline": "Kimberly-Clark to Webcast its Presentation at Morgan Stanley's Global Consumer & Retail Conference",
-            "url": "https://finnhub.io/api/news?id=e9780297b6098c6547ef3d31693315b2f023676265b26558f30768f33eb861d1",
+            "headline": "GSK or Kimberly-Clark: The One Dividend Stock I’d Hold for the Next 20 Years",
+            "url": "https://finnhub.io/api/news?id=77047dd9371ff96e221001c58d81c96f6f5e641020daf4ff87332304bd7cabe6",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:10:00Z",
+            "published_at": "2026-11-20T16:25:58Z",
             "primary": false,
             "symbol": "KMB"
           }
@@ -12870,12 +12858,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 64.42,
-          "entry_floor": 57.98,
-          "exit_review_low": 82.59,
-          "exit_review_high": 95.16,
-          "bear_case": 47.61,
-          "scenario_upside_pct": -22.4,
+          "entry_ceiling": 63.71,
+          "entry_floor": 57.34,
+          "exit_review_low": 81.68,
+          "exit_review_high": 94.11,
+          "bear_case": 47.09,
+          "scenario_upside_pct": -23.2,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12888,12 +12876,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.55,
+            "trailing_pe": 19.77,
             "earnings_growth_assumed_pct": 0.26,
             "scenario_exit_pe": 15.14,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T18:04:54Z"
+            "metrics_retrieved_at": "2026-11-22T14:05:03Z"
           }
         },
         "ranking_score": 76,
@@ -14912,10 +14900,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T13:03:54Z",
+      "generated_at": "2026-11-22T14:05:03Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 777,
+        "recorded": 778,
         "purchase_scenarios": 64,
         "opened": 1,
         "closed": 0,
@@ -14925,10 +14913,30 @@
         "not_triggered": 0,
         "waiting": 64,
         "unverified": 0,
-        "skipped": 713,
+        "skipped": 714,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|ANET|ABOVE BASE CASE",
+          "symbol": "ANET",
+          "name": "Arista Networks, Inc.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-22T14:05:03Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 167.62,
+          "buy_ceiling": 70.98,
+          "sell_review": 90.99,
+          "risk": "High trailing earnings valuation",
+          "why": "Net profit margin 40.0% (TTM); Return on equity 33.3% (TTM); Trailing P/E 44.6×; TTM revenue growth 40.7% YoY",
+          "score": 61,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|AAPL|ABOVE BASE CASE",
           "symbol": "AAPL",
@@ -17302,26 +17310,6 @@
           "risk": "Large one-session price move (-8.1%)",
           "why": "Net profit margin 16.3% (TTM); Return on equity 31.0% (TTM); Trailing P/E 22.8×; TTM revenue growth 9.4% YoY",
           "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|DUK|NO RELIABLE PRICE RANGE",
-          "symbol": "DUK",
-          "name": "Duke Energy Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 129.78,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 15.9% (TTM); Return on equity 10.0% (TTM); Trailing P/E 18.8×; TTM revenue growth 6.8% YoY",
-          "score": 71,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
