@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:56:01Z",
+  "generated_at": "2026-11-22T20:53:19Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T19:56:01Z",
+      "checked_at": "2026-11-22T20:53:19Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T19:56:01Z",
+      "checked_at": "2026-11-22T20:53:19Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T19:56:01Z",
+      "checked_at": "2026-11-22T20:53:19Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T19:56:01Z",
+      "checked_at": "2026-11-22T20:53:19Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T19:56:01Z",
+      "checked_at": "2026-11-22T20:53:19Z",
       "error": ""
     }
   ],
@@ -6935,7 +6935,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T19:56:01Z",
+    "generated_at": "2026-11-22T20:53:19Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9042,7 +9042,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Insurance",
-        "why": "Net profit margin 17.6% (TTM); Return on equity 9.7% (TTM); Trailing P/E 19.7×; TTM revenue growth 26.1% YoY",
+        "why": "Net profit margin 17.6% (TTM); Return on equity 9.7% (TTM); Trailing P/E 19.9×; TTM revenue growth 26.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9056,7 +9056,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T21:05:16Z",
+            "timestamp": "2026-11-22T20:53:19Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9067,7 +9067,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T21:05:16Z",
+        "fundamentals_at": "2026-11-22T20:53:19Z",
         "price": 73.07,
         "currency": "USD",
         "change_pct": 0.995,
@@ -10773,7 +10773,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.4×; TTM revenue growth 11.5% YoY",
+        "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.0×; TTM revenue growth 11.5% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -10787,35 +10787,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T21:05:16Z",
+            "timestamp": "2026-11-22T20:53:19Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Can Booking Holdings Stock Jump 40%?",
-            "timestamp": "2026-11-20T18:07:26Z",
-            "url": "https://finnhub.io/api/news?id=9821479ac8330d4fe9b7498325367a511a3e4efb0db3a0e5c961798edb69650b"
+            "value": "Alibaba vs. Booking Holdings: Which E-Commerce Retail Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-22T19:33:02Z",
+            "url": "https://finnhub.io/api/news?id=2dc29d1d23c4c64d73427925bd1b44e7c4a6341c247b8a7cdd272b0ed58107e1"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T21:05:16Z",
+        "fundamentals_at": "2026-11-22T20:53:19Z",
         "price": 144.91,
         "currency": "USD",
         "change_pct": -1.636,
         "news": [
           {
-            "headline": "Can Booking Holdings Stock Jump 40%?",
-            "url": "https://finnhub.io/api/news?id=9821479ac8330d4fe9b7498325367a511a3e4efb0db3a0e5c961798edb69650b",
+            "headline": "Alibaba vs. Booking Holdings: Which E-Commerce Retail Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=2dc29d1d23c4c64d73427925bd1b44e7c4a6341c247b8a7cdd272b0ed58107e1",
             "source": "Yahoo",
-            "published_at": "2026-11-20T18:07:26Z",
+            "published_at": "2026-11-22T19:33:02Z",
             "primary": false,
             "symbol": "BKNG"
           },
           {
-            "headline": "Bernstein Maintains Market Perform on Booking Holdings, Lowers Price Target to $172",
-            "url": "https://finnhub.io/api/news?id=bf8f100fcace47c07b5a118f499eff6e4d1938ecec82f2c2f7c4d20c76e4a33c",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T10:02:05Z",
+            "headline": "Is Marriott Stock Worth 41x Earnings Next To Booking?",
+            "url": "https://finnhub.io/api/news?id=b55be6fecffdbd9af19301369a034bb677ef509baad5f121ed75073f9040e597",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T06:32:47Z",
             "primary": false,
             "symbol": "BKNG"
           }
@@ -10825,12 +10825,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 136.8,
-          "entry_floor": 123.12,
-          "exit_review_low": 175.38,
-          "exit_review_high": 209.11,
-          "bear_case": 96.4,
-          "scenario_upside_pct": 21.0,
+          "entry_ceiling": 140.52,
+          "entry_floor": 126.47,
+          "exit_review_low": 180.16,
+          "exit_review_high": 214.81,
+          "bear_case": 99.02,
+          "scenario_upside_pct": 24.3,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10843,12 +10843,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.42,
+            "trailing_pe": 15.01,
             "earnings_growth_assumed_pct": 5.16,
             "scenario_exit_pe": 17.75,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T21:05:16Z"
+            "metrics_retrieved_at": "2026-11-22T20:53:19Z"
           }
         },
         "ranking_score": 78,
@@ -10860,7 +10860,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Professional Services",
-        "why": "Net profit margin 13.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 19.8×; TTM revenue growth 7.1% YoY",
+        "why": "Net profit margin 13.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 19.5×; TTM revenue growth 7.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10874,7 +10874,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T21:05:16Z",
+            "timestamp": "2026-11-22T20:53:19Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -10885,7 +10885,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T21:05:16Z",
+        "fundamentals_at": "2026-11-22T20:53:19Z",
         "price": 181.41,
         "currency": "USD",
         "change_pct": -0.291,
@@ -10912,12 +10912,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 122.85,
-          "entry_floor": 110.56,
-          "exit_review_low": 157.5,
-          "exit_review_high": 185.32,
-          "bear_case": 88.22,
-          "scenario_upside_pct": -13.2,
+          "entry_ceiling": 125.21,
+          "entry_floor": 112.69,
+          "exit_review_low": 160.52,
+          "exit_review_high": 188.88,
+          "bear_case": 89.92,
+          "scenario_upside_pct": -11.5,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10930,12 +10930,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.85,
+            "trailing_pe": 19.47,
             "earnings_growth_assumed_pct": 3.19,
             "scenario_exit_pe": 16.7,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T21:05:16Z"
+            "metrics_retrieved_at": "2026-11-22T20:53:19Z"
           }
         },
         "ranking_score": 78,
@@ -14867,7 +14867,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T19:56:01Z",
+      "generated_at": "2026-11-22T20:53:19Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 781,
