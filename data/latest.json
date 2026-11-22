@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:56:25Z",
+  "generated_at": "2026-11-22T15:53:47Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T14:56:25Z",
+      "checked_at": "2026-11-22T15:53:47Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T14:56:25Z",
+      "checked_at": "2026-11-22T15:53:47Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T14:56:25Z",
+      "checked_at": "2026-11-22T15:53:47Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T14:56:25Z",
+      "checked_at": "2026-11-22T15:53:47Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T14:56:25Z",
+      "checked_at": "2026-11-22T15:53:47Z",
       "error": ""
     }
   ],
@@ -6968,7 +6968,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T14:56:25Z",
+    "generated_at": "2026-11-22T15:53:47Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8838,7 +8838,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 20.0% (TTM); Return on equity 12.6% (TTM); Trailing P/E 11.0×; TTM revenue growth 84.1% YoY",
+        "why": "Net profit margin 20.0% (TTM); Return on equity 12.6% (TTM); Trailing P/E 10.9×; TTM revenue growth 84.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8852,7 +8852,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T18:45:56Z",
+            "timestamp": "2026-11-22T15:53:47Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -8863,7 +8863,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T18:45:56Z",
+        "fundamentals_at": "2026-11-22T15:53:47Z",
         "price": 56.05,
         "currency": "USD",
         "change_pct": -2.113,
@@ -8917,7 +8917,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 28.8% (TTM); Return on equity 12.6% (TTM); Trailing P/E 11.1×; TTM revenue growth 72.3% YoY",
+        "why": "Net profit margin 28.8% (TTM); Return on equity 12.6% (TTM); Trailing P/E 10.7×; TTM revenue growth 72.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8931,7 +8931,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T18:45:56Z",
+            "timestamp": "2026-11-22T15:53:47Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -8942,7 +8942,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T18:45:56Z",
+        "fundamentals_at": "2026-11-22T15:53:47Z",
         "price": 213.12,
         "currency": "USD",
         "change_pct": -2.239,
@@ -14900,10 +14900,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T14:56:25Z",
+      "generated_at": "2026-11-22T15:53:47Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 778,
+        "recorded": 779,
         "purchase_scenarios": 64,
         "opened": 1,
         "closed": 0,
@@ -14913,10 +14913,30 @@
         "not_triggered": 0,
         "waiting": 64,
         "unverified": 0,
-        "skipped": 714,
+        "skipped": 715,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|LRCX|ABOVE BASE CASE",
+          "symbol": "LRCX",
+          "name": "Lam Research Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-22T15:53:47Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 183.27,
+          "buy_ceiling": 127.67,
+          "sell_review": 163.68,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 32.3% (TTM); Return on equity 71.8% (TTM); Trailing P/E 27.1×; TTM revenue growth 33.4% YoY",
+          "score": 60,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|ANET|ABOVE BASE CASE",
           "symbol": "ANET",
@@ -17290,26 +17310,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 13.8% (TTM); Return on equity 15.6% (TTM); Trailing P/E 32.6×; TTM revenue growth 7.9% YoY",
           "score": 72,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|URI|ABOVE BASE CASE",
-          "symbol": "URI",
-          "name": "United Rentals, Inc.",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 973.43,
-          "buy_ceiling": 600.33,
-          "sell_review": 769.65,
-          "risk": "Large one-session price move (-8.1%)",
-          "why": "Net profit margin 16.3% (TTM); Return on equity 31.0% (TTM); Trailing P/E 22.8×; TTM revenue growth 9.4% YoY",
-          "score": 75,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

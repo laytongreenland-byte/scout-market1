@@ -60017,6 +60017,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|LRCX|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-22T15:53:47Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 183.27,
+      "score": 60,
+      "quality_status": "WATCH",
+      "buy_ceiling": 127.67,
+      "sell_review": 163.68,
+      "bear_case": 86.8,
+      "why": "Net profit margin 32.3% (TTM); Return on equity 71.8% (TTM); Trailing P/E 27.1×; TTM revenue growth 33.4% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-22T15:53:47Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
