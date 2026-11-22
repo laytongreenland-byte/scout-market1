@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:55:39Z",
+  "generated_at": "2026-11-22T17:50:49Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T16:55:39Z",
+      "checked_at": "2026-11-22T17:50:49Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T16:55:39Z",
+      "checked_at": "2026-11-22T17:50:49Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T16:55:39Z",
+      "checked_at": "2026-11-22T17:50:49Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T16:55:39Z",
+      "checked_at": "2026-11-22T17:50:49Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T16:55:39Z",
+      "checked_at": "2026-11-22T17:50:49Z",
       "error": ""
     }
   ],
@@ -6943,21 +6943,10 @@
       "source": "Federal Reserve press releases",
       "primary": true,
       "sentiment": "neutral"
-    },
-    {
-      "id": "c41c1b215d188c903298",
-      "type": "MACRO",
-      "ticker": null,
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "published_at": "2026-11-12T17:45:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "Federal Reserve press releases",
-      "primary": true,
-      "sentiment": "neutral"
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T16:55:39Z",
+    "generated_at": "2026-11-22T17:50:49Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8985,7 +8974,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Financial Services",
-        "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.3×; TTM revenue growth 8.8% YoY",
+        "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.0×; TTM revenue growth 8.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8999,35 +8988,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T20:09:04Z",
+            "timestamp": "2026-11-22T17:50:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Ameriprise Financial, Inc. (AMP) Authorized a $5.5 Billion Buyback: What Makes the Stock Attractive?",
-            "timestamp": "2026-11-20T17:21:58Z",
-            "url": "https://finnhub.io/api/news?id=7efaae8d52a06fb2a91f4f82cce944772aa14a0251a2cf57533f7c930c9eba6a"
+            "value": "AM Best Affirms Credit Ratings of Ameriprise Financial, Inc. and Its Subsidiaries",
+            "timestamp": "2026-11-20T21:59:00Z",
+            "url": "https://finnhub.io/api/news?id=d99efb77cc48ad8ac2dae6035387b6e1f5e603675dfacf6d94649b36e9116932"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T20:09:04Z",
+        "fundamentals_at": "2026-11-22T17:50:49Z",
         "price": 480.29,
         "currency": "USD",
         "change_pct": -2.451,
         "news": [
           {
-            "headline": "Ameriprise Financial, Inc. (AMP) Authorized a $5.5 Billion Buyback: What Makes the Stock Attractive?",
-            "url": "https://finnhub.io/api/news?id=7efaae8d52a06fb2a91f4f82cce944772aa14a0251a2cf57533f7c930c9eba6a",
+            "headline": "AM Best Affirms Credit Ratings of Ameriprise Financial, Inc. and Its Subsidiaries",
+            "url": "https://finnhub.io/api/news?id=d99efb77cc48ad8ac2dae6035387b6e1f5e603675dfacf6d94649b36e9116932",
             "source": "Yahoo",
-            "published_at": "2026-11-20T17:21:58Z",
+            "published_at": "2026-11-20T21:59:00Z",
             "primary": false,
             "symbol": "AMP"
           },
           {
-            "headline": "Ameriprise Financial Recognized as One of the \"World's Best Employers of 2026\" by Forbes",
-            "url": "https://finnhub.io/api/news?id=aeafcf863a67742dbcc6fff07b6259bf45978b9d52ccca61914310ea3360e690",
+            "headline": "Ameriprise Financial, Inc. (AMP) Authorized a $5.5 Billion Buyback: What Makes the Stock Attractive?",
+            "url": "https://finnhub.io/api/news?id=7efaae8d52a06fb2a91f4f82cce944772aa14a0251a2cf57533f7c930c9eba6a",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:00:00Z",
+            "published_at": "2026-11-20T17:21:58Z",
             "primary": false,
             "symbol": "AMP"
           }
@@ -11791,7 +11780,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 23.0% (TTM); Return on equity 38.9% (TTM); Trailing P/E 31.9×; TTM revenue growth 16.7% YoY",
+        "why": "Net profit margin 23.0% (TTM); Return on equity 38.9% (TTM); Trailing P/E 31.4×; TTM revenue growth 16.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11805,35 +11794,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T19:25:50Z",
+            "timestamp": "2026-11-22T17:50:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Airbnb (NASDAQ:ABNB): Strong Growth Meets a Constructive Technical Setup",
-            "timestamp": "2026-11-20T10:41:43Z",
-            "url": "https://finnhub.io/api/news?id=36a73741f37bd8d8349c61ae72621c959fb18e46c4324a0aa378f2ae83a87648"
+            "value": "Airbnb vs. DoorDash: Which Stock Is a Better Buy?",
+            "timestamp": "2026-11-21T19:45:02Z",
+            "url": "https://finnhub.io/api/news?id=782339730ef711511e8813297d6902da298cad9de7c8e0ebd678f63e5ec2ba49"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T19:25:50Z",
+        "fundamentals_at": "2026-11-22T17:50:49Z",
         "price": 170.36,
         "currency": "USD",
         "change_pct": -1.406,
         "news": [
           {
-            "headline": "Airbnb (NASDAQ:ABNB): Strong Growth Meets a Constructive Technical Setup",
-            "url": "https://finnhub.io/api/news?id=36a73741f37bd8d8349c61ae72621c959fb18e46c4324a0aa378f2ae83a87648",
-            "source": "ChartMill",
-            "published_at": "2026-11-20T10:41:43Z",
+            "headline": "Airbnb vs. DoorDash: Which Stock Is a Better Buy?",
+            "url": "https://finnhub.io/api/news?id=782339730ef711511e8813297d6902da298cad9de7c8e0ebd678f63e5ec2ba49",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T19:45:02Z",
             "primary": false,
             "symbol": "ABNB"
           },
           {
-            "headline": "Bernstein Maintains Outperform on Airbnb, Raises Price Target to $234",
-            "url": "https://finnhub.io/api/news?id=23be89d1c4a0d6a1a38900c6edab3f133c333fbff2313085ac801e96b2296c83",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T09:57:20Z",
+            "headline": "Airbnb’s New $12 Billion Buyback Is Backed by a 35% Free Cash Flow Margin. Here’s What It Means for Shareholders.",
+            "url": "https://finnhub.io/api/news?id=af8b799f01f45e344925f4c298ff2e5b72f164ac1c28891c59735b0b23e2d76b",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T18:15:15Z",
             "primary": false,
             "symbol": "ABNB"
           }
@@ -11843,12 +11832,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 85.13,
-          "entry_floor": 76.62,
-          "exit_review_low": 109.14,
-          "exit_review_high": 132.08,
-          "bear_case": 58.68,
-          "scenario_upside_pct": -35.9,
+          "entry_ceiling": 86.34,
+          "entry_floor": 77.71,
+          "exit_review_low": 110.7,
+          "exit_review_high": 133.96,
+          "bear_case": 59.52,
+          "scenario_upside_pct": -35.0,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11861,12 +11850,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 31.88,
+            "trailing_pe": 31.43,
             "earnings_growth_assumed_pct": 7.5,
             "scenario_exit_pe": 19.0,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T19:25:50Z"
+            "metrics_retrieved_at": "2026-11-22T17:50:49Z"
           }
         },
         "ranking_score": 77,
@@ -12961,7 +12950,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 13.8×; TTM revenue growth 22.2% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -12975,35 +12964,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T20:09:04Z",
+            "timestamp": "2026-11-22T17:50:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
-            "timestamp": "2026-11-20T18:20:02Z",
-            "url": "https://finnhub.io/api/news?id=b7b18fa6cf0a6f25245ed725b62b50694fea0a5de8de5958e80e247725eb1426"
+            "value": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
+            "timestamp": "2026-11-22T13:49:49Z",
+            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T20:09:04Z",
+        "fundamentals_at": "2026-11-22T17:50:49Z",
         "price": 264.0,
         "currency": "USD",
         "change_pct": -2.59,
         "news": [
           {
-            "headline": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
-            "url": "https://finnhub.io/api/news?id=b7b18fa6cf0a6f25245ed725b62b50694fea0a5de8de5958e80e247725eb1426",
+            "headline": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
+            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01",
             "source": "Yahoo",
-            "published_at": "2026-11-20T18:20:02Z",
+            "published_at": "2026-11-22T13:49:49Z",
             "primary": false,
             "symbol": "GOOG"
           },
           {
-            "headline": "Alphabet’s (GOOGL) AI Investment Is Surging – Here’s Why the Funding Matters",
-            "url": "https://finnhub.io/api/news?id=3c382669ecafa3aad0b606fd6ecbb57a4c2191b684ed6ac1c2c53e1bf4a6237e",
+            "headline": "Alphabet (GOOGL) Stock Gets Fair Value Trim As Analysts Weigh AI Spending And Monetization",
+            "url": "https://finnhub.io/api/news?id=09a67a217b3e3c3ffefc43440d94caad55d7ad51640fec3af177e472435b6025",
             "source": "Yahoo",
-            "published_at": "2026-11-20T18:05:36Z",
+            "published_at": "2026-11-22T00:12:09Z",
             "primary": false,
             "symbol": "GOOG"
           }
@@ -13013,12 +13002,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 309.12,
-          "entry_floor": 278.21,
-          "exit_review_low": 396.3,
-          "exit_review_high": 483.97,
-          "bear_case": 210.15,
-          "scenario_upside_pct": 50.1,
+          "entry_ceiling": 329.76,
+          "entry_floor": 296.78,
+          "exit_review_low": 422.77,
+          "exit_review_high": 516.29,
+          "bear_case": 224.18,
+          "scenario_upside_pct": 60.1,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13031,12 +13020,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.76,
+            "trailing_pe": 13.84,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 20.33,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T20:09:04Z"
+            "metrics_retrieved_at": "2026-11-22T17:50:49Z"
           }
         },
         "ranking_score": 76,
@@ -13886,6 +13875,93 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc.",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "industry": "Media",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 13.8×; TTM revenue growth 22.2% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$264.00",
+            "timestamp": "2026-11-20T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-22T17:50:49Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
+            "timestamp": "2026-11-22T13:49:49Z",
+            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01"
+          }
+        ],
+        "as_of": "2026-11-20T21:00:00Z",
+        "fundamentals_at": "2026-11-22T17:50:49Z",
+        "price": 264.0,
+        "currency": "USD",
+        "change_pct": -2.59,
+        "news": [
+          {
+            "headline": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
+            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01",
+            "source": "Yahoo",
+            "published_at": "2026-11-22T13:49:49Z",
+            "primary": false,
+            "symbol": "GOOG"
+          },
+          {
+            "headline": "Alphabet (GOOGL) Stock Gets Fair Value Trim As Analysts Weigh AI Spending And Monetization",
+            "url": "https://finnhub.io/api/news?id=09a67a217b3e3c3ffefc43440d94caad55d7ad51640fec3af177e472435b6025",
+            "source": "Yahoo",
+            "published_at": "2026-11-22T00:12:09Z",
+            "primary": false,
+            "symbol": "GOOG"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 329.76,
+          "entry_floor": 296.78,
+          "exit_review_low": 422.77,
+          "exit_review_high": 516.29,
+          "bear_case": 224.18,
+          "scenario_upside_pct": 60.1,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-20T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 13.84,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.33,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-22T17:50:49Z"
+          }
+        },
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "ADBE",
         "name": "Adobe Inc",
         "status": "INVESTIGATE",
@@ -14233,93 +14309,6 @@
           }
         },
         "ranking_score": 61,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
-        "symbol": "GOOG",
-        "name": "Alphabet Inc.",
-        "status": "INVESTIGATE",
-        "score": 76,
-        "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
-        "risks": [
-          "Price near reported 52-week low"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$264.00",
-            "timestamp": "2026-11-20T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-20T20:09:04Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
-            "timestamp": "2026-11-20T18:20:02Z",
-            "url": "https://finnhub.io/api/news?id=b7b18fa6cf0a6f25245ed725b62b50694fea0a5de8de5958e80e247725eb1426"
-          }
-        ],
-        "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-20T20:09:04Z",
-        "price": 264.0,
-        "currency": "USD",
-        "change_pct": -2.59,
-        "news": [
-          {
-            "headline": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
-            "url": "https://finnhub.io/api/news?id=b7b18fa6cf0a6f25245ed725b62b50694fea0a5de8de5958e80e247725eb1426",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T18:20:02Z",
-            "primary": false,
-            "symbol": "GOOG"
-          },
-          {
-            "headline": "Alphabet’s (GOOGL) AI Investment Is Surging – Here’s Why the Funding Matters",
-            "url": "https://finnhub.io/api/news?id=3c382669ecafa3aad0b606fd6ecbb57a4c2191b684ed6ac1c2c53e1bf4a6237e",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T18:05:36Z",
-            "primary": false,
-            "symbol": "GOOG"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 309.12,
-          "entry_floor": 278.21,
-          "exit_review_low": 396.3,
-          "exit_review_high": 483.97,
-          "bear_case": 210.15,
-          "scenario_upside_pct": 50.1,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-20T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 14.76,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 20.33,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-20T20:09:04Z"
-          }
-        },
-        "ranking_score": 76,
         "rank_method": "FINANCIAL RULES"
       }
     ],
@@ -14889,7 +14878,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T16:55:39Z",
+      "generated_at": "2026-11-22T17:50:49Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 780,
