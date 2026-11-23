@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent.parent
 sys.path.insert(0,str(ROOT))
-from market_catalog import NZX_DIRECTORY, fetch_apac, parse_nzx
+from market_catalog import NZX_FULL, fetch_apac, parse_nzx
 from apac_data import fetch_nzx, fetch_asx, extract_rows, valid_price
 OUT=ROOT/'data'/'regional_canary.json'
 NOW=datetime.now(timezone.utc)
@@ -33,7 +33,7 @@ def run():
         result['NZX']={'directory':'NO_API_KEY','sample_price':'NO_API_KEY'}
     else:
         try:
-            names=parse_nzx(fetch_apac(NZX_DIRECTORY,nzkey))
+            names=parse_nzx(fetch_apac(NZX_FULL,nzkey))
             result['NZX']['directory']='OK' if 80<=len(names)<=350 else 'INCOMPLETE'
             result['NZX']['listings_seen']=len(names)
         except Exception as exc:
