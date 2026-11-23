@@ -8,6 +8,8 @@ This module never opens trades or updates US history, cache, scoring or model.
 from __future__ import annotations
 
 import json
+import re
+from nzx_paper import score_financials, plan, new_calls, settle, summary as paper_summary
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -54,10 +56,11 @@ def valid_quote(row,today):
     return bool(d and 0<=(today-d).days<=7 and isinstance(px,(float,int)) and
                 not isinstance(px,bool) and 0<float(px)<1_000_000)
 
-def build(catalog,apac,latest,history=None,now=None):
+def build(catalog,apac,latest,history=None,now=None,fundamentals=None):
     now=now or datetime.now(timezone.utc)
     today=now.astimezone(NZ).date()
     history=history if isinstance(history,dict) else {}
+    fundamental_data=(fundamentals or {}).get('companies',{})
     listing={x['symbol']:x for x in catalog.get('items',[])
              if isinstance(x,dict) and x.get('market')=='NZX' and
              isinstance(x.get('symbol'),str) and x.get('symbol') and x.get('name')}
@@ -67,6 +70,11 @@ def build(catalog,apac,latest,history=None,now=None):
     for e in latest.get('events',[]):
         if not isinstance(e,dict) or e.get('type')!='NZX': continue
         sym=e.get('ticker')
+        # The existing NZXplorer RSS feed often omits structured tickers
+        # despite the headline beginning with [AIR], [FPH], etc.
+        if not sym:
+            match=re.match(r'^\\[([A-Z0-9]{2,6})\\]',str(e.get('title','')))
+            sym=match.group(1) if match else None
         if not isinstance(sym,str) or sym not in listing: continue
         if not e.get('url') or not e.get('published_at'): continue
         if sym not in news or e['published_at']>news[sym]['published_at']:
@@ -78,6 +86,7 @@ def build(catalog,apac,latest,history=None,now=None):
         item=news.get(sym)
         px=q.get('close') if q else None
         qday=q.get('date') if q else None
+        financial=score_financials(fundamental_data.get(sym),today) if not is_etf else {'score':None,'status':'ETF WATCH'}
         change=q.get('change_pct') if q else None
         why=(
             (f'Verified NZD exchange close for {qday}; review the fund factsheet, fees and holdings.'
@@ -88,17 +97,26 @@ def build(catalog,apac,latest,history=None,now=None):
         )
         if isinstance(change,(int,float)):
             why+=f' Previous-session price movement {change:+.2f}% (not adjusted for corporate actions).'
-        evidence=[{'label':'Official NZX issuer information','url':f'https://www.nzx.com/instruments/{sym}'}]
+        evidence=[{'label':'Official NZX issuer disclosures','url':f'https://www.nzx.com/instruments/{sym}'}]
         if item:
-            evidence.append({'label':'Recent NZX announcement','url':item['url'],
+            evidence.append({'label':'Issuer-linked announcement feed (third-party)','url':item['url'],
                              'timestamp':item['published_at']})
+        frozen_plan=(plan(q,financial, bool(item)) if q and not is_etf else None)
+        if frozen_plan:
+            why+=' Financial screen: '+financial['why']+'. Price levels below are a mechanical paper-trading experiment, not certified fair value.'
         candidates.append({
             'symbol':sym,'name':row['name'],'market':'NZX','currency':'NZD',
             'type':'ETF' if is_etf else 'SHARE',
-            'status':('ETF WATCH' if is_etf else 'MARKET WATCH') if q else 'INSUFFICIENT DATA',
-            'score':None,'financially_scored':False,'price':px,'price_date':qday,
+            'status':('ETF WATCH' if is_etf else
+                      financial['status'] if q else 'INSUFFICIENT DATA'),
+            'score':financial.get('score') if q else None,
+            'financially_scored':bool(q and financial.get('score') is not None),
+            'price':px,'price_date':qday,
+            'filing_url':item.get('url') if item else None,
+            'fundamentals_at':financial.get('fundamentals_at'),
+            'financial_period':financial.get('financial_period'),
             'change_pct':change,'five_session_change_pct':q.get('five_session_change_pct') if q else None,
-            'as_of':None,'fundamentals_at':None,'industry':'Fund' if is_etf else 'Unverified',
+            'as_of':None,'industry':'Fund' if is_etf else financial.get('sector') or 'Unverified',
             'why':why,
             'risks':(['ETF holdings, tracking difference and trading spreads require independent verification',
                       'Fund fees, distributions and tax are not included in price-only history']
@@ -106,7 +124,7 @@ def build(catalog,apac,latest,history=None,now=None):
                      ['NZX trading can be illiquid; price-only signals do not establish business value',
                       'Dividends, stock splits, fees and tax are not included']),
             'evidence':evidence,'last_issuer_news':item,
-            'price_plan':{'signal':'NO RELIABLE PRICE RANGE','currency':'NZD',
+            'price_plan':frozen_plan or {'signal':'NO RELIABLE PRICE RANGE','currency':'NZD',
                           'entry_ceiling':None,'entry_floor':None,'exit_review_low':None,
                           'exit_review_high':None,'bear_case':None,'as_of':None,
                           'reason':('ETF funds need holdings, costs and suitable NAV/benchmark analysis; no single-company P/E targets.'
@@ -120,8 +138,9 @@ def build(catalog,apac,latest,history=None,now=None):
             observations[key]=row
     for sym,q in quotes.items():
         key=(sym,q['date'])
-        observations[key]={'symbol':sym,'date':q['date'],'price':q['close'],
-                           'currency':'NZD','first_seen_at':history.get('first_seen_at') or stamp(now)}
+        if key not in observations:
+            observations[key]={'symbol':sym,'date':q['date'],'price':q['close'],
+                               'currency':'NZD','first_seen_at':stamp(now)}
     # Store only once-observed daily closes, not retroactive provider price history.
     observations=dict(sorted(observations.items(),key=lambda pair:(pair[0][1],pair[0][0]))[-MAX_HISTORY:])
     frozen=list(history.get('calls',[]))
@@ -160,6 +179,11 @@ def build(catalog,apac,latest,history=None,now=None):
                 call[field]=round(delta,2)
                 call[f'{field}_observed_on']=outcome['date']
     frozen.sort(key=lambda row:row.get('decision_at',''),reverse=True)
+    ideas=[c for c in candidates if c.get('price_plan',{}).get('signal')=='PAPER ENTRY CANDIDATE']
+    paper_calls=new_calls(ideas,history,today,week_key)
+    paper_calls=settle(paper_calls,list(observations.values()),today)
+    paper_calls.sort(key=lambda row:row.get('decision_at',''),reverse=True)
+    trade_summary=paper_summary(paper_calls)
     verified=[c for c in candidates if c['price'] is not None]
     # NZX watch notes, not a valuation-ranked buy shortlist.
     verified.sort(key=lambda c:(1 if c['last_issuer_news'] else 0,
@@ -183,36 +207,43 @@ def build(catalog,apac,latest,history=None,now=None):
                     'etfs':sum(c['type']=='ETF' for c in candidates),
                     'verified_eod':len(verified),
                     'without_recent_eod':len(listing)-len(verified),
-                    'financially_scored':0,
+                    'financially_scored':sum(c.get('financially_scored') is True for c in candidates),
                     'notice':'Verified closes, not complete financial screening or confirmed Sharesies eligibility'},
         'candidates':candidates,
         'weekly':{'week_start':week_key,'generated_at':stamp(now),
-                  'shortlist':[c for c in verified if c['type']=='SHARE'][:5],
+                  'shortlist':sorted((c for c in verified if c['type']=='SHARE'),
+                                      key=lambda c:(c.get('score') or 0),reverse=True)[:5],
                   'etf_watch':[next(c for c in candidates if c['symbol']==sym)
                                for sym in ('FNZ','NZG','USF','TWF','DIV')
                                if sym in listing],
-                  'verdict':'NZX watch notes based on validated price/disclosure evidence; no valuation-ranked buy targets'},
+                  'verdict':'NZX company screens and mechanical paper-trade levels require documented ratios, issuer-linked news and later verified closes; no guaranteed gains'},
         'alerts':mover_alerts[:15],
-        'paper':{'method':'prospective-price-observation-v1','benchmark':None,
-                 'benchmark_status':'No verified NZX benchmark connected; never compare NZD moves to SPY',
-                 'summary':{'recorded':len(frozen),'matured_7d':sum(isinstance(c.get('change_7d_pct'),(int,float)) for c in frozen),
-                            'matured_30d':len(matured),'paper_trades':0},
-                 'records':frozen[:80]},
+        'paper':{'method':'forward-only-educational-paper-v1','benchmark':None,
+                 'benchmark_status':'No verified NZX benchmark; NZD paper returns are never compared with US SPY',
+                 'summary':dict(trade_summary, watch_records=len(frozen),
+                                 matured_7d=sum(isinstance(c.get('change_7d_pct'),(int,float)) for c in frozen),
+                                 matured_30d=len(matured),
+                                 paper_trades=trade_summary['opened']),
+                 'records':paper_calls[:80],
+                 'watch_records':frozen[:40],
+                 'estimated_round_trip_fee_pct':2.0},
         'learning':{'status':'NOT AUTHORISED','model_active':False,
                     'reason':'NZXplorer terms prohibit training ML models on its data without express written permission. No NZX training or NZX/US outcome mixing.'},
-        'limitations':['NZX research is integrated in the UI, but no verified issuer fundamentals or defensible price targets have been calculated.',
-                       'No NZX price-only observation counts as a buy, profit, trading win or successful machine-learning prediction.',
-                       'Provider usage and redistribution require appropriate permissions.'],
+        'limitations':['NZX education paper trades require screened accounting metrics and issuer-linked disclosures. Price levels are mechanical scenarios, not intrinsic value.',
+                       'Paper positions enter only at subsequent observed closes. Results include estimated fees, but not dividends, spreads, splits, NZ tax or liquidity.',
+                       'Provider usage and redistribution require appropriate permissions; NZXplorer financial data are not used for ML training.'],
     }
     new_history={'schema_version':1,'market':'NZX','currency':'NZD',
-                 'observations':list(observations.values()),'calls':frozen}
+                 'observations':list(observations.values()),'calls':frozen,
+                 'paper_trades':paper_calls}
     return out,new_history
 
 def main():
     catalog=read(CATALOG)
     apac=read(APAC)
     latest=read(LATEST)
-    result,hist=build(catalog,apac,latest,read(HISTORY))
+    result,hist=build(catalog,apac,latest,read(HISTORY),
+                      fundamentals=read(ROOT/'data'/'nzx_fundamentals.json'))
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n')
     HISTORY.write_text(json.dumps(hist,ensure_ascii=False,indent=2)+'\n')
