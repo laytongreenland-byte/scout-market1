@@ -28654,17 +28654,17 @@
       "metrics": {
         "52WeekHigh": 331.09,
         "52WeekLow": 237.03,
-        "peTTM": 32.3516,
-        "psTTM": 4.4563,
+        "peTTM": 31.5126,
+        "psTTM": 4.3408,
         "netProfitMarginTTM": 13.77,
         "roeTTM": 13.04,
         "revenueGrowthTTMYoy": 1.61,
         "epsGrowthTTMYoy": 0.44,
         "currentRatioQuarterly": 1.4284,
         "totalDebt/totalEquityQuarterly": 0.5578,
-        "marketCapitalization": 35690.293
+        "marketCapitalization": 34764.652
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Vulcan Materials Co",
       "profile": {
         "weburl": "https://www.vulcanmaterials.com/",
@@ -28677,15 +28677,15 @@
       "metrics": {
         "52WeekHigh": 77.39,
         "52WeekLow": 65.0001,
-        "peTTM": 29.6439,
-        "psTTM": 5.9798,
+        "peTTM": 29.8141,
+        "psTTM": 6.0141,
         "netProfitMarginTTM": 20.17,
         "roeTTM": 9.36,
         "currentRatioQuarterly": 2.0144,
         "totalDebt/totalEquityQuarterly": 0.0059,
-        "marketCapitalization": 45177.273
+        "marketCapitalization": 45436.664
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Vylor Inc.",
       "profile": {
         "weburl": "https://www.vylor.com",
@@ -28713,19 +28713,19 @@
     },
     "WRB": {
       "metrics": {
-        "52WeekHigh": 79.26,
+        "52WeekHigh": 79.7,
         "52WeekLow": 62.8725,
-        "peTTM": 15.0678,
-        "psTTM": 1.8679,
+        "peTTM": 15.6165,
+        "psTTM": 1.936,
         "netProfitMarginTTM": 12.4,
         "roeTTM": 19.16,
         "revenueGrowthTTMYoy": 3.22,
         "epsGrowthTTMYoy": -0.72,
         "currentRatioQuarterly": 0.9239,
         "totalDebt/totalEquityQuarterly": 0.2954,
-        "marketCapitalization": 28071.13
+        "marketCapitalization": 29093.4
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "W. R. Berkley Corporation",
       "profile": {
         "weburl": "https://www.berkley.com",
@@ -28778,18 +28778,18 @@
     "GWW": {
       "metrics": {
         "52WeekHigh": 1521.41,
-        "52WeekLow": 906.52,
-        "peTTM": 30.8173,
-        "psTTM": 3.4415,
+        "52WeekLow": 916.11,
+        "peTTM": 29.4392,
+        "psTTM": 3.2876,
         "netProfitMarginTTM": 11.17,
         "roeTTM": 53.61,
         "revenueGrowthTTMYoy": 9.12,
         "epsGrowthTTMYoy": 27.49,
         "currentRatioQuarterly": 2.6107,
         "totalDebt/totalEquityQuarterly": 0.6185,
-        "marketCapitalization": 66657.73
+        "marketCapitalization": 63677.07
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "WW Grainger Inc",
       "profile": {
         "weburl": "https://www.grainger.com/",
@@ -28797,6 +28797,14 @@
         "name": "WW Grainger Inc"
       },
       "news": [
+        {
+          "headline": "Here's How Much $100 Invested In W.W. Grainger 5 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=e34bb2f2603bca88ae2970f0e2ee4f80817382cc856344ef87d568ff95355eeb",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T10:32:54Z",
+          "primary": false,
+          "symbol": "GWW"
+        },
         {
           "headline": "Baird Downgrades W.W. Grainger to Neutral from Outperform",
           "url": "https://finnhub.io/api/news?id=a58042ac20d42a2a974bf17796c5bdd60f02a3dc803434ab19986bed2063db20",
@@ -28828,14 +28836,6 @@
           "published_at": "2026-11-19T22:11:31Z",
           "primary": false,
           "symbol": "GWW"
-        },
-        {
-          "headline": "Grainger H2 Earnings Call Highlights",
-          "url": "https://finnhub.io/api/news?id=46de02a97fb3135782929f702a2b2407172ec9fa05702283f1b73751fd26d5cf",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:14:27Z",
-          "primary": false,
-          "symbol": "GWW"
         }
       ]
     },
@@ -28843,17 +28843,17 @@
       "metrics": {
         "52WeekHigh": 307.96,
         "52WeekLow": 194.93,
-        "peTTM": 35.193,
-        "psTTM": 3.9417,
+        "peTTM": 33.0343,
+        "psTTM": 3.6999,
         "netProfitMarginTTM": 11.2,
         "roeTTM": 12.22,
         "revenueGrowthTTMYoy": 13.25,
         "epsGrowthTTMYoy": 16.98,
         "currentRatioQuarterly": 1.1002,
         "totalDebt/totalEquityQuarterly": 0.5629,
-        "marketCapitalization": 48143.992
+        "marketCapitalization": 45190.86
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Westinghouse Air Brake Technologies Corp",
       "profile": {
         "weburl": "https://www.wabteccorp.com/",
@@ -28891,17 +28891,17 @@
       "metrics": {
         "52WeekHigh": 483.33,
         "52WeekLow": 282.77,
-        "peTTM": 271.3964,
-        "psTTM": 9.7086,
+        "peTTM": 260.5675,
+        "psTTM": 9.3212,
         "netProfitMarginTTM": 3.58,
         "roeTTM": 1.8800000000000001,
         "revenueGrowthTTMYoy": 52.47,
         "epsGrowthTTMYoy": -63.92,
         "currentRatioQuarterly": 1.8612,
         "totalDebt/totalEquityQuarterly": 0.3347,
-        "marketCapitalization": 45088.98
+        "marketCapitalization": 43289.906
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Waters Corp",
       "profile": {
         "weburl": "https://www.waters.com",
@@ -28955,17 +28955,17 @@
       "metrics": {
         "52WeekHigh": 120.15,
         "52WeekLow": 99.8,
-        "peTTM": 21.3559,
-        "psTTM": 3.913,
+        "peTTM": 21.2709,
+        "psTTM": 3.8974,
         "netProfitMarginTTM": 18.32,
         "roeTTM": 12.8,
         "revenueGrowthTTMYoy": 5.75,
         "epsGrowthTTMYoy": 4.1,
         "currentRatioQuarterly": 0.5301,
         "totalDebt/totalEquityQuarterly": 1.5866,
-        "marketCapitalization": 38669.04
+        "marketCapitalization": 38515.133
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "WEC Energy Group, Inc.",
       "profile": {
         "weburl": "https://www.wecenergygroup.com/",
@@ -29019,17 +29019,17 @@
       "metrics": {
         "52WeekHigh": 438.27,
         "52WeekLow": 223.83,
-        "peTTM": 43.7961,
-        "psTTM": 8.2378,
+        "peTTM": 42.5555,
+        "psTTM": 8.0044,
         "netProfitMarginTTM": 18.81,
         "roeTTM": 21.08,
         "revenueGrowthTTMYoy": 12.55,
         "epsGrowthTTMYoy": 32.12,
         "currentRatioQuarterly": 2.8193,
         "totalDebt/totalEquityQuarterly": 0.0714,
-        "marketCapitalization": 27981.3
+        "marketCapitalization": 27188.703
       },
-      "updated_at": "2026-11-21T19:54:26Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "West Pharmaceutical Services, Inc.",
       "profile": {
         "weburl": "https://www.westpharma.com/",
@@ -29037,6 +29037,14 @@
         "name": "West Pharmaceutical Services, Inc."
       },
       "news": [
+        {
+          "headline": "Is West Pharmaceutical Stock Too Expensive At $390?",
+          "url": "https://finnhub.io/api/news?id=ba80a0e2165c1f157c6929030e5100995d5054fedd662b0a5587a06e29b6f31b",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:03:13Z",
+          "primary": false,
+          "symbol": "WST"
+        },
         {
           "headline": "Reasons to Add West Pharmaceutical Stock to Your Portfolio Now",
           "url": "https://finnhub.io/api/news?id=febd5fde9d2a385774a4b8d1e8a0330f48362edbb9f0198b30629a03901faf4f",
@@ -29059,17 +29067,17 @@
       "metrics": {
         "52WeekHigh": 799.87,
         "52WeekLow": 132.43,
-        "peTTM": 10.9927,
-        "psTTM": 7.6066,
+        "peTTM": 9.7535,
+        "psTTM": 6.749,
         "netProfitMarginTTM": 69.2,
         "roeTTM": 113.77,
         "revenueGrowthTTMYoy": 43.02,
         "epsGrowthTTMYoy": 268.84,
         "currentRatioQuarterly": 1.434,
         "totalDebt/totalEquityQuarterly": 0.0844,
-        "marketCapitalization": 110158.2
+        "marketCapitalization": 97739.55
       },
-      "updated_at": "2026-11-21T19:54:26Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Western Digital Corp",
       "profile": {
         "weburl": "https://www.westerndigital.com/",
@@ -29077,6 +29085,14 @@
         "name": "Western Digital Corp"
       },
       "news": [
+        {
+          "headline": "Western Digital Corporation (WDC) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finnhub.io/api/news?id=8557eed3fafde3bc0c51758a06275fa04fe567caa8307f610a9ea694f27890de",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:00:05Z",
+          "primary": false,
+          "symbol": "WDC"
+        },
         {
           "headline": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals",
           "url": "https://finnhub.io/api/news?id=42807ce1bc6cd5500c7d3fff087d5fed50346391f2e7501fc94a02d666aa7c1e",
@@ -29108,32 +29124,24 @@
           "published_at": "2026-11-20T22:17:08Z",
           "primary": false,
           "symbol": "WDC"
-        },
-        {
-          "headline": "Navitas Sinks 15%, Western Down 12%, Everpure Down 13% as AI Chip Rout Deepens",
-          "url": "https://finnhub.io/api/news?id=e575b463a0d8fb52d476dd9c255620fe722e05485e954bffcec001fc61d4ea5d",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T21:50:51Z",
-          "primary": false,
-          "symbol": "WDC"
         }
       ]
     },
     "WY": {
       "metrics": {
         "52WeekHigh": 27.75,
-        "52WeekLow": 18.255,
-        "peTTM": 31.4262,
-        "psTTM": 2.0346,
+        "52WeekLow": 18.26,
+        "peTTM": 31.1513,
+        "psTTM": 2.0168,
         "netProfitMarginTTM": 6.47,
         "roeTTM": 4.81,
         "revenueGrowthTTMYoy": -1.06,
         "epsGrowthTTMYoy": 37.5,
         "currentRatioQuarterly": 1.8172,
         "totalDebt/totalEquityQuarterly": 0.5707,
-        "marketCapitalization": 14236.077
+        "marketCapitalization": 14111.539
       },
-      "updated_at": "2026-11-21T19:54:26Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Weyerhaeuser Company",
       "profile": {
         "weburl": "https://www.weyerhaeuser.com/",
@@ -29141,6 +29149,14 @@
         "name": "Weyerhaeuser Company"
       },
       "news": [
+        {
+          "headline": "Arclin Expands Firepoint® Distribution in Southern California Through Partnership with Weyerhaeuser",
+          "url": "https://finnhub.io/api/news?id=ae24abd90f8a92b57dc22767cf326a4faa2b4a4f68023c896d084239c59146bf",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:07:00Z",
+          "primary": false,
+          "symbol": "WY"
+        },
         {
           "headline": "A $1,200,000 Portfolio in CareTrust REIT, Weyerhaeuser and HP Pays $50,247 a Year in Dividends. Here’s What Happens if One Cuts",
           "url": "https://finnhub.io/api/news?id=42ed3eb9c4af914cc03f183df33ccef66bbf7da121e689c277557d2304ad5083",
@@ -29179,17 +29195,17 @@
       "metrics": {
         "52WeekHigh": 274.445,
         "52WeekLow": 165.51,
-        "peTTM": 21.8726,
-        "psTTM": 3.2906,
+        "peTTM": 20.2075,
+        "psTTM": 3.0401,
         "netProfitMarginTTM": 15.04,
         "roeTTM": 58.86,
         "revenueGrowthTTMYoy": 2.55,
         "epsGrowthTTMYoy": 14.66,
         "currentRatioQuarterly": 1.4537,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 26698.531
+        "marketCapitalization": 24666.018
       },
-      "updated_at": "2026-11-21T19:54:26Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Williams-Sonoma Inc",
       "profile": {
         "weburl": "https://www.williams-sonomainc.com/",
@@ -29197,6 +29213,22 @@
         "name": "Williams-Sonoma Inc"
       },
       "news": [
+        {
+          "headline": "Williams-Sonoma: Still A Sell, Even After A 15% Drop",
+          "url": "https://finnhub.io/api/news?id=824130a2280b1bf929cf6d18e5106183a8e866005f3eb3d707b6c70a8667a2ff",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T08:56:51Z",
+          "primary": false,
+          "symbol": "WSM"
+        },
+        {
+          "headline": "Williams-Sonoma: No Need To Sell, Just Because Others Do",
+          "url": "https://finnhub.io/api/news?id=8e35617156d799c0536c980d71b92325870f904e0832cc7dd93043795f3b19b2",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T01:19:43Z",
+          "primary": false,
+          "symbol": "WSM"
+        },
         {
           "headline": "Williams-Sonoma: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finnhub.io/api/news?id=e49b565ad980ea08970715348bd8b6abb856af1cd08aff7e2ea804e93bf38608",
@@ -29220,22 +29252,6 @@
           "published_at": "2026-11-20T16:05:00Z",
           "primary": false,
           "symbol": "WSM"
-        },
-        {
-          "headline": "Telsey Advisory Group Maintains Outperform on Williams-Sonoma, Lowers Price Target to $280",
-          "url": "https://finnhub.io/api/news?id=c87fdf453bfc55b82d4c4e9019e53615a20a7f18f7aa1e1e669b01f47dfea0a3",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T15:39:42Z",
-          "primary": false,
-          "symbol": "WSM"
-        },
-        {
-          "headline": "Citigroup Maintains Neutral on Williams-Sonoma, Lowers Price Target to $245",
-          "url": "https://finnhub.io/api/news?id=40cb52a74d293b2a84bff6f3c966deb36a790cd5b13c9835ec77752b6a409823",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T15:28:18Z",
-          "primary": false,
-          "symbol": "WSM"
         }
       ]
     },
@@ -29243,17 +29259,17 @@
       "metrics": {
         "52WeekHigh": 351.51,
         "52WeekLow": 240.61,
-        "peTTM": 20.1713,
-        "psTTM": 3.0707,
+        "peTTM": 19.5169,
+        "psTTM": 2.971,
         "netProfitMarginTTM": 15.22,
         "roeTTM": 19.919999999999998,
         "revenueGrowthTTMYoy": 4.76,
         "epsGrowthTTMYoy": -23.05,
         "currentRatioQuarterly": 1.1037,
         "totalDebt/totalEquityQuarterly": 0.8413,
-        "marketCapitalization": 31547.959
+        "marketCapitalization": 30524.494
       },
-      "updated_at": "2026-11-21T19:54:26Z",
+      "updated_at": "2026-11-23T19:12:04Z",
       "name": "Willis Towers Watson Public Limited Company",
       "profile": {
         "weburl": "https://www.wtwco.com/",
@@ -29261,6 +29277,14 @@
         "name": "Willis Towers Watson Public Limited Company"
       },
       "news": [
+        {
+          "headline": "New medical technologies and pharmaceutical advancements drive persistent global medical inflation, WTW survey finds",
+          "url": "https://finnhub.io/api/news?id=d1f10ceec4fcd3090a196fa10aa08e98fb1ebd57bc1f9e72f1fd46d7d6893659",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:22:00Z",
+          "primary": false,
+          "symbol": "WTW"
+        },
         {
           "headline": "Wells Fargo Maintains Overweight on Willis Towers Watson, Raises Price Target to $390",
           "url": "https://finnhub.io/api/news?id=72e5a5a0cc8e1428e89f41e36eb752053e2fb11442383652e51938cbb81f46de",
@@ -29648,6 +29672,6 @@
       ]
     }
   },
-  "cursor": 505,
-  "updated_at": "2026-11-23T18:08:35Z"
+  "cursor": 517,
+  "updated_at": "2026-11-23T19:12:04Z"
 }
