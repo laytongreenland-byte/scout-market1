@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:20:33Z",
+  "generated_at": "2026-11-23T12:09:03Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T11:20:33Z",
+      "checked_at": "2026-11-23T12:09:03Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T11:20:33Z",
+      "checked_at": "2026-11-23T12:09:03Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T11:20:33Z",
+      "checked_at": "2026-11-23T12:09:03Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T11:20:33Z",
+      "checked_at": "2026-11-23T12:09:03Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T11:20:33Z",
+      "checked_at": "2026-11-23T12:09:03Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T11:20:33Z",
+    "generated_at": "2026-11-23T12:09:03Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10160,7 +10160,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 12.6% (TTM); Return on equity 38.4% (TTM); Trailing P/E 20.4×; TTM revenue growth 12.8% YoY",
+        "why": "Net profit margin 12.6% (TTM); Return on equity 38.4% (TTM); Trailing P/E 20.2×; TTM revenue growth 12.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10174,35 +10174,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T14:07:02Z",
+            "timestamp": "2026-11-23T12:09:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
-            "timestamp": "2026-11-18T15:14:22Z",
-            "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd"
+            "value": "Ralph Lauren: One Of The Best Retail Stocks To Own Long Term",
+            "timestamp": "2026-11-23T04:19:08Z",
+            "url": "https://finnhub.io/api/news?id=38de58e97f7e47fa1d49ba1bb45b662ae8daa76a0d7fb84af017ebd19ed66296"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T14:07:02Z",
+        "fundamentals_at": "2026-11-23T12:09:03Z",
         "price": 366.65,
         "currency": "USD",
         "change_pct": -2.738,
         "news": [
           {
-            "headline": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
-            "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T15:14:22Z",
+            "headline": "Ralph Lauren: One Of The Best Retail Stocks To Own Long Term",
+            "url": "https://finnhub.io/api/news?id=38de58e97f7e47fa1d49ba1bb45b662ae8daa76a0d7fb84af017ebd19ed66296",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-23T04:19:08Z",
             "primary": false,
             "symbol": "RL"
           },
           {
-            "headline": "Is Ralph Lauren (RL) Undervalued On Its Raised 2027 Outlook?",
-            "url": "https://finnhub.io/api/news?id=c7bcd50107c96e0bd238bb071aa93b8b6e216c03d5b9e2fe94d27bd66e895e13",
+            "headline": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
+            "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd",
             "source": "Yahoo",
-            "published_at": "2026-11-18T14:11:39Z",
+            "published_at": "2026-11-18T15:14:22Z",
             "primary": false,
             "symbol": "RL"
           }
@@ -10212,12 +10212,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 268.5,
-          "entry_floor": 241.65,
-          "exit_review_low": 344.23,
-          "exit_review_high": 412.01,
-          "bear_case": 188.15,
-          "scenario_upside_pct": -6.1,
+          "entry_ceiling": 270.35,
+          "entry_floor": 243.32,
+          "exit_review_low": 346.6,
+          "exit_review_high": 414.85,
+          "bear_case": 189.44,
+          "scenario_upside_pct": -5.5,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10230,12 +10230,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 20.35,
+            "trailing_pe": 20.21,
             "earnings_growth_assumed_pct": 5.75,
             "scenario_exit_pe": 18.07,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T14:07:02Z"
+            "metrics_retrieved_at": "2026-11-23T12:09:03Z"
           }
         },
         "ranking_score": 79,
@@ -11733,7 +11733,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Financial Services",
-        "why": "Net profit margin 13.5% (TTM); Return on equity 18.3% (TTM); Trailing P/E 12.9×; TTM revenue growth 10.2% YoY",
+        "why": "Net profit margin 13.5% (TTM); Return on equity 18.3% (TTM); Trailing P/E 12.6×; TTM revenue growth 10.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11747,7 +11747,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T14:07:02Z",
+            "timestamp": "2026-11-23T12:09:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11758,7 +11758,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T14:07:02Z",
+        "fundamentals_at": "2026-11-23T12:09:03Z",
         "price": 155.82,
         "currency": "USD",
         "change_pct": -1.926,
@@ -13559,7 +13559,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Banking",
-        "why": "Net profit margin 30.5% (TTM); Return on equity 12.3% (TTM); Trailing P/E 10.1×; TTM revenue growth 45.4% YoY",
+        "why": "Net profit margin 30.5% (TTM); Return on equity 12.3% (TTM); Trailing P/E 9.8×; TTM revenue growth 45.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13573,7 +13573,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T14:58:01Z",
+            "timestamp": "2026-11-23T12:09:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -13584,7 +13584,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T14:58:01Z",
+        "fundamentals_at": "2026-11-23T12:09:03Z",
         "price": 26.6,
         "currency": "USD",
         "change_pct": -2.564,
@@ -13638,7 +13638,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Health Care",
-        "why": "Net profit margin 27.8% (TTM); Return on equity 25.1% (TTM); Trailing P/E 21.2×; TTM revenue growth 9.0% YoY",
+        "why": "Net profit margin 27.8% (TTM); Return on equity 25.1% (TTM); Trailing P/E 20.8×; TTM revenue growth 9.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13652,7 +13652,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T14:58:01Z",
+            "timestamp": "2026-11-23T12:09:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -13663,7 +13663,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T14:58:01Z",
+        "fundamentals_at": "2026-11-23T12:09:03Z",
         "price": 235.63,
         "currency": "USD",
         "change_pct": -0.528,
@@ -13690,12 +13690,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 155.26,
-          "entry_floor": 139.74,
-          "exit_review_low": 199.06,
-          "exit_review_high": 235.63,
-          "bear_case": 110.56,
-          "scenario_upside_pct": -15.5,
+          "entry_ceiling": 157.87,
+          "entry_floor": 142.08,
+          "exit_review_low": 202.39,
+          "exit_review_high": 239.58,
+          "bear_case": 112.41,
+          "scenario_upside_pct": -14.1,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13708,12 +13708,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 21.15,
+            "trailing_pe": 20.8,
             "earnings_growth_assumed_pct": 4.07,
             "scenario_exit_pe": 17.17,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T14:58:01Z"
+            "metrics_retrieved_at": "2026-11-23T12:09:03Z"
           }
         },
         "ranking_score": 76,
@@ -15247,7 +15247,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T11:20:33Z",
+      "generated_at": "2026-11-23T12:09:03Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 784,

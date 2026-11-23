@@ -25387,17 +25387,17 @@
       "metrics": {
         "52WeekHigh": 144.5,
         "52WeekLow": 107.155,
-        "peTTM": 12.5557,
-        "psTTM": 1.4118,
+        "peTTM": 12.776,
+        "psTTM": 1.4365,
         "netProfitMarginTTM": 11.24,
         "roeTTM": 13.8,
         "revenueGrowthTTMYoy": -9.35,
         "epsGrowthTTMYoy": -27.87,
         "currentRatioQuarterly": 4.9572,
         "totalDebt/totalEquityQuarterly": 0.1674,
-        "marketCapitalization": 22554.307
+        "marketCapitalization": 22950.096
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "PulteGroup, Inc.",
       "profile": {
         "weburl": "https://www.pultegroupinc.com/",
@@ -25443,38 +25443,55 @@
       "metrics": {
         "52WeekHigh": 177.2799,
         "52WeekLow": 72.81,
-        "peTTM": 40.5352,
-        "psTTM": 4.5592,
+        "peTTM": 36.9108,
+        "psTTM": 4.1516,
         "netProfitMarginTTM": 11.25,
         "roeTTM": 7.64,
         "currentRatioQuarterly": 2.0083,
         "totalDebt/totalEquityQuarterly": 0.5536,
-        "marketCapitalization": 23753.598
+        "marketCapitalization": 21629.717
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Qnity Electronics, Inc.",
       "profile": {
         "weburl": "https://www.qnityelectronics.com/",
         "industry": "Semiconductors",
         "name": "Qnity Electronics, Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Meridian to Divest Electronics Business to Qnity Electronics",
+          "url": "https://finnhub.io/api/news?id=fa63c8880b2e8cfde1cf353b1a00f06597ca8847f3d84a2a2028771b44570bf3",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:34:00Z",
+          "primary": false,
+          "symbol": "Q"
+        },
+        {
+          "headline": "Qnity to Acquire Meridian’s Electronics Business, Expands Advanced Packaging and Thermal Management Capabilities",
+          "url": "https://finnhub.io/api/news?id=303fee1b60ea82af57273e68768d274ba9e7e5a0855114c4395ff569ce592c28",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:30:00Z",
+          "primary": false,
+          "symbol": "Q"
+        }
+      ]
     },
     "QCOM": {
       "metrics": {
         "52WeekHigh": 259.92,
         "52WeekLow": 121.99,
-        "peTTM": 12.4893,
-        "psTTM": 3.9469,
+        "peTTM": 11.7734,
+        "psTTM": 3.7207,
         "netProfitMarginTTM": 31.6,
         "roeTTM": 50.28,
         "revenueGrowthTTMYoy": -2.63,
         "epsGrowthTTMYoy": 159.64,
         "currentRatioQuarterly": 1.8594,
         "totalDebt/totalEquityQuarterly": 0.4971,
-        "marketCapitalization": 170191.52
+        "marketCapitalization": 160435.8
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "QUALCOMM Incorporated",
       "profile": {
         "weburl": "https://www.qualcomm.com/",
@@ -25482,6 +25499,14 @@
         "name": "QUALCOMM Incorporated"
       },
       "news": [
+        {
+          "headline": "Qualcomm Is Down 42% and SK hynix Has Plunged 48% Amid the AI Sell-Off. Which Is the Better Stock to Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=451c284b9fdffaee68d84f8658a7ee19e146fb9244f1f4bb6bb64dfc02b10d65",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T10:20:02Z",
+          "primary": false,
+          "symbol": "QCOM"
+        },
         {
           "headline": "George Soros and 20 Other Big Funds Bought Qualcomm Last Quarter. David Tepper and 14 Others Sold. Who’s Right?",
           "url": "https://finnhub.io/api/news?id=5f5d6fadc1f0f512994ddb26942d1ef2aa4f34a6822974304b0ab1793d16e5c6",
@@ -25513,14 +25538,6 @@
           "published_at": "2026-11-20T02:16:53Z",
           "primary": false,
           "symbol": "QCOM"
-        },
-        {
-          "headline": "Qualcomm lays off 100s amid global restructuring, raises $4 billion",
-          "url": "https://finnhub.io/api/news?id=a240fca6e108d3f9c9c9486150bcf0df1a2d44090275ef86a1cd5c3b78194776",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:33:00Z",
-          "primary": false,
-          "symbol": "QCOM"
         }
       ]
     },
@@ -25528,17 +25545,17 @@
       "metrics": {
         "52WeekHigh": 263.19,
         "52WeekLow": 171.18,
-        "peTTM": 25.3385,
-        "psTTM": 2.4159,
+        "peTTM": 25.1689,
+        "psTTM": 2.3998,
         "netProfitMarginTTM": 9.53,
         "roeTTM": 15.21,
         "revenueGrowthTTMYoy": 9.13,
         "epsGrowthTTMYoy": 18.02,
         "currentRatioQuarterly": 1.6996,
         "totalDebt/totalEquityQuarterly": 0.7272,
-        "marketCapitalization": 28607.158
+        "marketCapitalization": 28415.727
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Quest Diagnostics Inc",
       "profile": {
         "weburl": "https://www.questdiagnostics.com/",
@@ -25546,6 +25563,14 @@
         "name": "Quest Diagnostics Inc"
       },
       "news": [
+        {
+          "headline": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom",
+          "url": "https://finnhub.io/api/news?id=4ce64149217524a45bbd69533debb50a58392d9dae8b8b3784ab1a791e64c6f0",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T04:12:10Z",
+          "primary": false,
+          "symbol": "DGX"
+        },
         {
           "headline": "Quest Diagnostics Stock Gains 49.3% YTD: What's Behind the Rally?",
           "url": "https://finnhub.io/api/news?id=6e8db98f3322501214184d6893ac3171606998edd35284baf34d2d92a9affb4f",
@@ -25569,14 +25594,6 @@
           "published_at": "2026-11-17T12:02:00Z",
           "primary": false,
           "symbol": "DGX"
-        },
-        {
-          "headline": "Should Labcorp Stock Holders Look At Quest Diagnostics Instead?",
-          "url": "https://finnhub.io/api/news?id=c58a37faee8873e320d9fade49749d13ecda0e55354fce5979e3eb6d80c9ad88",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T17:25:37Z",
-          "primary": false,
-          "symbol": "DGX"
         }
       ]
     },
@@ -25584,17 +25601,17 @@
       "metrics": {
         "52WeekHigh": 421.6,
         "52WeekLow": 317.23,
-        "peTTM": 20.3535,
-        "psTTM": 2.5556,
+        "peTTM": 20.2142,
+        "psTTM": 2.5381,
         "netProfitMarginTTM": 12.56,
         "roeTTM": 38.35,
         "revenueGrowthTTMYoy": 12.78,
         "epsGrowthTTMYoy": 28.57,
         "currentRatioQuarterly": 1.9687,
         "totalDebt/totalEquityQuarterly": 0.5358,
-        "marketCapitalization": 21818.986
+        "marketCapitalization": 21669.643
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Ralph Lauren Corporation",
       "profile": {
         "weburl": "https://investor.ralphlauren.com/",
@@ -25602,6 +25619,14 @@
         "name": "Ralph Lauren Corporation"
       },
       "news": [
+        {
+          "headline": "Ralph Lauren: One Of The Best Retail Stocks To Own Long Term",
+          "url": "https://finnhub.io/api/news?id=38de58e97f7e47fa1d49ba1bb45b662ae8daa76a0d7fb84af017ebd19ed66296",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T04:19:08Z",
+          "primary": false,
+          "symbol": "RL"
+        },
         {
           "headline": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
           "url": "https://finnhub.io/api/news?id=2d8ad1f160c8fab9905f6b40463d10599e02321d337e6b67f0a032c6b94d40bd",
@@ -25625,22 +25650,6 @@
           "published_at": "2026-11-16T07:56:00Z",
           "primary": false,
           "symbol": "RL"
-        },
-        {
-          "headline": "Ralph Lauren: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=3cc9343e6b0964089127f92320e11f3655c4617680acb0e4e0070cd94725451f",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T00:47:07Z",
-          "primary": false,
-          "symbol": "RL"
-        },
-        {
-          "headline": "What Does Ralph Lauren Stock's Winning Streak Really Prove?",
-          "url": "https://finnhub.io/api/news?id=8a29f494e23e933d70265c367331970eeb11af5772f078e2a594c4b6bff43742",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T18:01:18Z",
-          "primary": false,
-          "symbol": "RL"
         }
       ]
     },
@@ -25648,17 +25657,17 @@
       "metrics": {
         "52WeekHigh": 182.73,
         "52WeekLow": 138.82,
-        "peTTM": 12.8822,
-        "psTTM": 1.7393,
+        "peTTM": 12.6341,
+        "psTTM": 1.7058,
         "netProfitMarginTTM": 13.5,
         "roeTTM": 18.32,
         "revenueGrowthTTMYoy": 10.22,
         "epsGrowthTTMYoy": 15.69,
         "currentRatioQuarterly": 0.2511,
         "totalDebt/totalEquityQuarterly": 5.4036,
-        "marketCapitalization": 30504.96
+        "marketCapitalization": 29917.44
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Raymond James Financial, Inc.",
       "profile": {
         "weburl": "https://www.raymondjames.com/",
@@ -25689,40 +25698,24 @@
           "published_at": "2026-11-17T18:06:00Z",
           "primary": false,
           "symbol": "RJF"
-        },
-        {
-          "headline": "How Investors May Respond To Raymond James Financial (RJF) Adding Synovus Advisors",
-          "url": "https://finnhub.io/api/news?id=2dad63ca75bda6c7fb1565d9f1e25da346ee6c4b33a9eb7db34e2f8e56346054",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T11:10:10Z",
-          "primary": false,
-          "symbol": "RJF"
-        },
-        {
-          "headline": "Raymond James (RJF) Stock Looks Below Fair Value After Asset Deal",
-          "url": "https://finnhub.io/api/news?id=ddb2414734f9450b5708dfb427dfd081957c2885b41ad7cead1ffc73666aaa71",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T10:08:08Z",
-          "primary": false,
-          "symbol": "RJF"
         }
       ]
     },
     "RDDT": {
       "metrics": {
         "52WeekHigh": 263.4999,
-        "52WeekLow": 89.28,
-        "peTTM": 17.5006,
-        "psTTM": 5.6186,
+        "52WeekLow": 84.595,
+        "peTTM": 16.6147,
+        "psTTM": 5.3342,
         "netProfitMarginTTM": 32.11,
         "roeTTM": 30.570000000000004,
         "revenueGrowthTTMYoy": 62.18,
         "epsGrowthTTMYoy": 175.25,
         "currentRatioQuarterly": 10.7963,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 17355.264
+        "marketCapitalization": 16476.688
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Reddit, Inc.",
       "profile": {
         "weburl": "https://www.redditinc.com/",
@@ -25730,6 +25723,22 @@
         "name": "Reddit, Inc."
       },
       "news": [
+        {
+          "headline": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=1f919bdef503726774b890bbd1d7912ac077608e8a29b240fe9a0c3e96002df1",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T23:39:26Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Cathie Wood Has a Warning for Reddit and Shopify. AI Agents Could Make Their Apps Obsolete",
+          "url": "https://finnhub.io/api/news?id=eada773e5501ca9559ceb0945dad65d3768a7f2060881d6282eec700ec0756d3",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T13:00:13Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
         {
           "headline": "How Investors Are Reacting To Reddit (RDDT) Search Traffic Warning",
           "url": "https://finnhub.io/api/news?id=8824922f450454e240d16767fb046b4909a9b66a5a035aa5605afe5acc7971b2",
@@ -25753,22 +25762,6 @@
           "published_at": "2026-11-18T14:55:53Z",
           "primary": false,
           "symbol": "RDDT"
-        },
-        {
-          "headline": "Is Reddit Stock's Fall A Bargain Or A Warning?",
-          "url": "https://finnhub.io/api/news?id=585980e4b80f6411959478abbae359edb7c5a712024250faf37221c40de7b0e1",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T11:13:23Z",
-          "primary": false,
-          "symbol": "RDDT"
-        },
-        {
-          "headline": "Today's S&P 500 Top Movers: Reddit Leads Gainers, Salesforce Leads Decliners",
-          "url": "https://finnhub.io/api/news?id=90f634a4176d3015e7a44e5a47ae402b8945426602647f63744156f9a7e05b2e",
-          "source": "ChartMill",
-          "published_at": "2026-11-17T17:35:54Z",
-          "primary": false,
-          "symbol": "RDDT"
         }
       ]
     },
@@ -25776,17 +25769,17 @@
       "metrics": {
         "52WeekHigh": 83.66,
         "52WeekLow": 66.86,
-        "peTTM": 25.816,
-        "psTTM": 8.2232,
+        "peTTM": 26.2082,
+        "psTTM": 8.3482,
         "netProfitMarginTTM": 31.85,
         "roeTTM": 7.64,
         "revenueGrowthTTMYoy": 8.37,
         "epsGrowthTTMYoy": 26.83,
         "currentRatioQuarterly": 0.6606,
         "totalDebt/totalEquityQuarterly": 0.7162,
-        "marketCapitalization": 13561.907
+        "marketCapitalization": 13767.975
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Regency Centers Corp",
       "profile": {
         "weburl": "https://www.regencycenters.com/",
@@ -25808,16 +25801,16 @@
       "metrics": {
         "52WeekHigh": 32.47,
         "52WeekLow": 24.03,
-        "peTTM": 10.1018,
+        "peTTM": 9.8428,
         "psTTM": 1.92217,
         "netProfitMarginTTM": 30.49189,
         "roeTTM": 12.32,
         "revenueGrowthTTMYoy": 45.41902,
         "epsGrowthTTMYoy": 11.33,
         "totalDebt/totalEquityQuarterly": 0.5873,
-        "marketCapitalization": 23173.531
+        "marketCapitalization": 22579.34
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Regions Financial Corporation",
       "profile": {
         "weburl": "https://www.regions.com/",
@@ -25847,17 +25840,17 @@
       "metrics": {
         "52WeekHigh": 277.67,
         "52WeekLow": 180.265,
-        "peTTM": 21.1519,
-        "psTTM": 5.8783,
+        "peTTM": 20.8032,
+        "psTTM": 5.7814,
         "netProfitMarginTTM": 27.79,
         "roeTTM": 25.14,
         "revenueGrowthTTMYoy": 9.04,
         "epsGrowthTTMYoy": 12.36,
         "currentRatioQuarterly": 2.6498,
         "totalDebt/totalEquityQuarterly": 0.0689,
-        "marketCapitalization": 33698.62
+        "marketCapitalization": 33143.027
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "ResMed Inc.",
       "profile": {
         "weburl": "https://www.resmed.com/",
@@ -25888,14 +25881,6 @@
           "published_at": "2026-11-18T14:34:00Z",
           "primary": false,
           "symbol": "RMD"
-        },
-        {
-          "headline": "Here's How Much $100 Invested In ResMed 10 Years Ago Would Be Worth Today",
-          "url": "https://finnhub.io/api/news?id=079edb858a05acd14bf91e71aeb51ed3bf69bef81516babefc52a34087fb4b02",
-          "source": "Benzinga",
-          "published_at": "2026-11-13T17:30:14Z",
-          "primary": false,
-          "symbol": "RMD"
         }
       ]
     },
@@ -25903,17 +25888,17 @@
       "metrics": {
         "52WeekHigh": 171.74,
         "52WeekLow": 81.22,
-        "peTTM": 64.1821,
-        "psTTM": 5.5242,
+        "peTTM": 64.0289,
+        "psTTM": 5.511,
         "netProfitMarginTTM": 8.61,
         "roeTTM": 3.5000000000000004,
         "revenueGrowthTTMYoy": 4.56,
         "epsGrowthTTMYoy": 13.08,
         "currentRatioQuarterly": 2.6535,
         "totalDebt/totalEquityQuarterly": 0.3623,
-        "marketCapitalization": 16250.975
+        "marketCapitalization": 16212.181
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Revvity, Inc.",
       "profile": {
         "weburl": "https://www.revvity.com",
@@ -25950,7 +25935,7 @@
     "HOOD": {
       "metrics": {
         "52WeekHigh": 139.75,
-        "52WeekLow": 63.515,
+        "52WeekLow": 61.75,
         "peTTM": 28.2175,
         "psTTM": 11.016,
         "netProfitMarginTTM": 39.04,
@@ -25961,7 +25946,7 @@
         "totalDebt/totalEquityQuarterly": 2.2138,
         "marketCapitalization": 55983.543
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T12:09:03Z",
       "name": "Robinhood Markets, Inc.",
       "profile": {
         "weburl": "https://robinhood.com",
@@ -25970,42 +25955,42 @@
       },
       "news": [
         {
+          "headline": "Why Did Robinhood Markets Stock Fall Again?",
+          "url": "https://finnhub.io/api/news?id=3a9a5215327c3c975ae7e3949165fb8660a7698a685270f76b6ac8bb9a5f7f67",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:35:22Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "Alice Huang’s Contacts With Chinese Spy Agency Reportedly Tracked by US Intelligence: Nvidia Stock Climbs Over 7% on Robinhood’s Platform",
+          "url": "https://finnhub.io/api/news?id=61e5ce3449f4cf22b8099be5e9849dbafe424fea5688589a348cbb0406173771",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T06:44:11Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "Why Robinhood’s Outlook Appears to Be Positive Despite the Kalshi Threat",
+          "url": "https://finnhub.io/api/news?id=5a9927886b7499b3fd40b22cddd95fb470c357dd63f1a393feb79f42cff6b728",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T19:59:58Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
+          "headline": "CME vs. Robinhood Markets: Which Financial Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=1df3ea577d9814d71e01677b5ef1daa07672d26ecd3aee29144ac66a97d5275b",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T14:40:02Z",
+          "primary": false,
+          "symbol": "HOOD"
+        },
+        {
           "headline": "Robinhood's Quirk on ETFs and the Next Generation of Investors",
           "url": "https://finnhub.io/api/news?id=b0694f33b36b03590976d2d006c6f3d69be4a483721ca60400c776feccb0e832",
           "source": "Yahoo",
           "published_at": "2026-11-20T18:02:39Z",
-          "primary": false,
-          "symbol": "HOOD"
-        },
-        {
-          "headline": "Coinbase Plans Its Own Prediction Markets by Mid-2027. That’s a New Rival for Robinhood",
-          "url": "https://finnhub.io/api/news?id=45ad5ab2bff291b5ccc5959c93e5d3cb85d3f1625103849d32d2a0123979c272",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T16:53:06Z",
-          "primary": false,
-          "symbol": "HOOD"
-        },
-        {
-          "headline": "Acorns’ Private-Market Price Falls Over 46% As Robinhood’s Stock Loses Roughly 40% in a Year",
-          "url": "https://finnhub.io/api/news?id=12d33bfd0484467ef1ea12e6847c7521b684f5af3cbcbce9a000c6fa2dcfa4af",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T15:35:48Z",
-          "primary": false,
-          "symbol": "HOOD"
-        },
-        {
-          "headline": "Robinhood Markets vs. Nu: Which Financial Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=fc78c91879e285258a88e3483f8921e05cc52900e5588c9f275ced8292fc2a46",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:15:02Z",
-          "primary": false,
-          "symbol": "HOOD"
-        },
-        {
-          "headline": "Robinhood Just Dropped 29% in a Month. Is It Time to Sell, or Load Up?",
-          "url": "https://finnhub.io/api/news?id=e405a56d12e30e6abcca9b1a779c751ccf0c8846792913f4bb7fd53133dc4360",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:35:19Z",
           "primary": false,
           "symbol": "HOOD"
         }
@@ -29654,6 +29639,6 @@
       ]
     }
   },
-  "cursor": 445,
-  "updated_at": "2026-11-23T11:20:33Z"
+  "cursor": 457,
+  "updated_at": "2026-11-23T12:09:03Z"
 }
