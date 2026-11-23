@@ -20267,18 +20267,18 @@
     "GM": {
       "metrics": {
         "52WeekHigh": 93.7,
-        "52WeekLow": 67.61,
-        "peTTM": 17.423,
-        "psTTM": 0.3689,
+        "52WeekLow": 67.78,
+        "peTTM": 16.7751,
+        "psTTM": 0.3551,
         "netProfitMarginTTM": 2.12,
         "roeTTM": 6.370000000000001,
         "revenueGrowthTTMYoy": -0.26,
         "epsGrowthTTMYoy": 35.74,
         "currentRatioQuarterly": 1.0897,
         "totalDebt/totalEquityQuarterly": 2.0499,
-        "marketCapitalization": 68960.164
+        "marketCapitalization": 66395.77
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "General Motors Co",
       "profile": {
         "weburl": "https://www.gm.com/",
@@ -20286,6 +20286,14 @@
         "name": "General Motors Co"
       },
       "news": [
+        {
+          "headline": "General Motors (GM) Joins The NASDAQ Composite, Is The Stock Still Undervalued?",
+          "url": "https://finnhub.io/api/news?id=11443c7afe91b08032b569a32c9bf29e9df66dee3697c42b5e1c7ddfda7a78a5",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T22:08:18Z",
+          "primary": false,
+          "symbol": "GM"
+        },
         {
           "headline": "Why Is General Motors (GM) Up 7.9% Since Last Earnings Report?",
           "url": "https://finnhub.io/api/news?id=1619e7120d2d607b33612329850be4e5f8c91339843c96ad8a24c9e75266e76a",
@@ -20317,14 +20325,6 @@
           "published_at": "2026-11-19T01:13:14Z",
           "primary": false,
           "symbol": "GM"
-        },
-        {
-          "headline": "General Motors: A Huge Buyback Meets A Tougher Road Ahead (Rating Downgrade)",
-          "url": "https://finnhub.io/api/news?id=8ccab86338db88b36310e04a768eafc07ae5e4a7f6d418b09052281872d285b2",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T22:50:08Z",
-          "primary": false,
-          "symbol": "GM"
         }
       ]
     },
@@ -20332,17 +20332,17 @@
       "metrics": {
         "52WeekHigh": 151.57,
         "52WeekLow": 90.78,
-        "peTTM": 551.512,
-        "psTTM": 0.6758,
+        "peTTM": 526.3303,
+        "psTTM": 0.645,
         "netProfitMarginTTM": 0.12,
         "roeTTM": 0.69,
         "revenueGrowthTTMYoy": 5.29,
         "epsGrowthTTMYoy": -95.7,
         "currentRatioQuarterly": 1.2232,
         "totalDebt/totalEquityQuarterly": 1.0992,
-        "marketCapitalization": 17120.037
+        "marketCapitalization": 16338.344
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Genuine Parts Co",
       "profile": {
         "weburl": "https://www.genpt.com/",
@@ -20350,6 +20350,14 @@
         "name": "Genuine Parts Co"
       },
       "news": [
+        {
+          "headline": "Is Genuine Parts (GPC) Undervalued On Its Earnings Miss And Planned Breakup?",
+          "url": "https://finnhub.io/api/news?id=f1d8ab4b5355f8f088c55cd7a5e669b95c7c71ce0e5af2dcec620657030bb9b8",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T17:07:35Z",
+          "primary": false,
+          "symbol": "GPC"
+        },
         {
           "headline": "Why Is Genuine Parts (GPC) Down 0.9% Since Last Earnings Report?",
           "url": "https://finnhub.io/api/news?id=5ba44584a6d2d6ed19b3e67fdcea7226794b58fbc24d3654f876817d1234e7ae",
@@ -20365,14 +20373,6 @@
           "published_at": "2026-11-17T08:33:31Z",
           "primary": false,
           "symbol": "GPC"
-        },
-        {
-          "headline": "Procter & Gamble vs. Genuine Parts: Both Have Raised Their Dividends 70 Years Straight. Which Would I Rather Own Now?",
-          "url": "https://finnhub.io/api/news?id=461348cfd2111655d149b66cafbba5f63f119d5d53c2b0b35152dc09019272b9",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T17:41:07Z",
-          "primary": false,
-          "symbol": "GPC"
         }
       ]
     },
@@ -20380,15 +20380,15 @@
       "metrics": {
         "52WeekHigh": 102.905,
         "52WeekLow": 61.16,
-        "psTTM": 1.9698,
+        "psTTM": 2.1144,
         "netProfitMarginTTM": -11.21,
         "roeTTM": -5.55,
         "revenueGrowthTTMYoy": 29.26,
         "currentRatioQuarterly": 0.8173,
         "totalDebt/totalEquityQuarterly": 1.0246,
-        "marketCapitalization": 22639.592
+        "marketCapitalization": 24301.506
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Global Payments Inc",
       "profile": {
         "weburl": "https://www.globalpayments.com/en-ap",
@@ -20396,6 +20396,14 @@
         "name": "Global Payments Inc"
       },
       "news": [
+        {
+          "headline": "Global Payments (GPN) Gets a Potential Lifeline as New Takeover Buzz Heats Up",
+          "url": "https://finnhub.io/api/news?id=a9e3e3b37bedabe2de4672487fe555c3f30d7c16acfef236dbc3033e6e18533e",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T06:51:05Z",
+          "primary": false,
+          "symbol": "GPN"
+        },
         {
           "headline": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
           "url": "https://finnhub.io/api/news?id=9d5032cd45b5316367f657c78638ee9a8db97097bf152e0d03296724223a1193",
@@ -20413,26 +20421,18 @@
           "symbol": "GPN"
         },
         {
+          "headline": "'GTCR Said to Weigh Possible $50 Billion Global Payments Buyout'- Bloomberg",
+          "url": "https://finnhub.io/api/news?id=1790f7206b7dfa27bfd64d791083e0c1a99e5339e242a8ce7a648d488c6c1fb5",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T14:50:39Z",
+          "primary": false,
+          "symbol": "GPN"
+        },
+        {
           "headline": "Why Is Global Payments Stock Falling?",
           "url": "https://finnhub.io/api/news?id=11e06ec98adf03a41de1ec0f9b3995339f17e0e566146ffbf4c1da1ee01d3743",
           "source": "Yahoo",
           "published_at": "2026-11-18T12:24:50Z",
-          "primary": false,
-          "symbol": "GPN"
-        },
-        {
-          "headline": "What Is Next For Global Payments (GPN) After Elliott Pressure And Authentication Upgrade?",
-          "url": "https://finnhub.io/api/news?id=d76dbf16c603dabce52d25321ed6ac8b6f978edb2abcc24b744bc906184375ba",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T12:08:27Z",
-          "primary": false,
-          "symbol": "GPN"
-        },
-        {
-          "headline": "Global Payments (GPN) Stock May Look Reasonable As Buyout Talks Pause",
-          "url": "https://finnhub.io/api/news?id=18da5e4bcb429d6ff5d284730e26b7b377dbf0b2968f5bc8880fb656e8e0ee8c",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T11:08:35Z",
           "primary": false,
           "symbol": "GPN"
         }
@@ -20442,17 +20442,17 @@
       "metrics": {
         "52WeekHigh": 191.55,
         "52WeekLow": 129.21,
-        "peTTM": 9.7384,
-        "psTTM": 1.8398,
+        "peTTM": 9.6506,
+        "psTTM": 1.8232,
         "netProfitMarginTTM": 18.89,
         "roeTTM": 19.09,
         "revenueGrowthTTMYoy": 5.62,
         "epsGrowthTTMYoy": 8.25,
         "currentRatioQuarterly": 0.6033,
         "totalDebt/totalEquityQuarterly": 0.4511,
-        "marketCapitalization": 11544.542
+        "marketCapitalization": 11440.436
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Globe Life Inc.",
       "profile": {
         "weburl": "https://home.globelifeinsurance.com/",
@@ -20490,17 +20490,17 @@
       "metrics": {
         "52WeekHigh": 131.74,
         "52WeekLow": 71.59,
-        "peTTM": 13.0065,
-        "psTTM": 2.4142,
+        "peTTM": 12.5525,
+        "psTTM": 2.3299,
         "netProfitMarginTTM": 18.56,
         "roeTTM": 660.9499999999999,
         "revenueGrowthTTMYoy": 6.38,
         "epsGrowthTTMYoy": 25.96,
         "currentRatioQuarterly": 0.6105,
         "totalDebt/totalEquityQuarterly": 563.3433,
-        "marketCapitalization": 12507.061
+        "marketCapitalization": 12070.471
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "GoDaddy Inc.",
       "profile": {
         "weburl": "https://investors.godaddy.net/",
@@ -20538,16 +20538,16 @@
       "metrics": {
         "52WeekHigh": 146.065,
         "52WeekLow": 120.42,
-        "peTTM": 7.868,
-        "psTTM": 1.2516,
+        "peTTM": 7.9412,
+        "psTTM": 1.2633,
         "netProfitMarginTTM": 15.91,
         "roeTTM": 24.13,
         "revenueGrowthTTMYoy": 6.03,
         "epsGrowthTTMYoy": 34.85,
         "totalDebt/totalEquityQuarterly": 0.2318,
-        "marketCapitalization": 36255.906
+        "marketCapitalization": 36592.848
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "The Hartford Insurance Group, Inc.",
       "profile": {
         "weburl": "https://www.thehartford.com/",
@@ -20562,31 +20562,23 @@
           "published_at": "2026-11-17T12:04:39Z",
           "primary": false,
           "symbol": "HIG"
-        },
-        {
-          "headline": "Wells Fargo Downgraded Hartford (HIG). What Changed in Commercial?",
-          "url": "https://finnhub.io/api/news?id=a4ce0b8d067afcdb6587f1bfba8860e5be29718a9c3c0f3d180282a86ab13ca1",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T21:10:11Z",
-          "primary": false,
-          "symbol": "HIG"
         }
       ]
     },
     "HAS": {
       "metrics": {
         "52WeekHigh": 124.62,
-        "52WeekLow": 74.78,
-        "peTTM": 16.7867,
-        "psTTM": 3.0955,
+        "52WeekLow": 75.19,
+        "peTTM": 16.4559,
+        "psTTM": 3.0345,
         "netProfitMarginTTM": 18.44,
         "roeTTM": 136.21,
         "revenueGrowthTTMYoy": 18.91,
         "currentRatioQuarterly": 1.4001,
         "totalDebt/totalEquityQuarterly": 3.8423,
-        "marketCapitalization": 16038.044
+        "marketCapitalization": 15721.954
       },
-      "updated_at": "2026-11-21T05:03:10Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Hasbro, Inc.",
       "profile": {
         "weburl": "https://shop.hasbro.com/en-in",
@@ -20640,16 +20632,16 @@
       "metrics": {
         "52WeekHigh": 22.949,
         "52WeekLow": 15.7,
-        "peTTM": 35.8994,
-        "psTTM": 4.4239,
+        "peTTM": 35.127,
+        "psTTM": 4.3287,
         "netProfitMarginTTM": 12.32,
         "roeTTM": 4.87,
         "revenueGrowthTTMYoy": 9.42,
         "currentRatioQuarterly": 0.7264,
         "totalDebt/totalEquityQuarterly": 1.1928,
-        "marketCapitalization": 13558.575
+        "marketCapitalization": 13266.822
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Healthpeak Properties, Inc",
       "profile": {
         "weburl": "https://www.healthpeak.com",
@@ -20657,6 +20649,14 @@
         "name": "Healthpeak Properties, Inc"
       },
       "news": [
+        {
+          "headline": "A 65-Year-Old With $500,000 in Kraft Heinz, Plains All American and Healthpeak Collects $2,737 a Month in Dividends. How Safe Is Each Check?",
+          "url": "https://finnhub.io/api/news?id=ecaa6e3ed91d3534ea0a2279436b7464effe15de3459c001f959da4edef2d14f",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T22:50:21Z",
+          "primary": false,
+          "symbol": "DOC"
+        },
         {
           "headline": "A $600,000 Portfolio in Healthpeak, Verizon and NNN REIT Pays $37,054 a Year in Dividends. Here’s What Happens if One Cuts",
           "url": "https://finnhub.io/api/news?id=ae6fef000a1927b2eb2ba80f6dca17ba773291da7f0a83777982cc8372392eb6",
@@ -20687,17 +20687,17 @@
       "metrics": {
         "52WeekHigh": 92.18,
         "52WeekLow": 68.7,
-        "peTTM": 22.1838,
-        "psTTM": 0.68,
+        "peTTM": 21.9292,
+        "psTTM": 0.6722,
         "netProfitMarginTTM": 3.07,
         "roeTTM": 13.13,
         "revenueGrowthTTMYoy": 6.15,
         "epsGrowthTTMYoy": 15.46,
         "currentRatioQuarterly": 1.3274,
         "totalDebt/totalEquityQuarterly": 1.1155,
-        "marketCapitalization": 9339.391
+        "marketCapitalization": 9232.179
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Henry Schein, Inc.",
       "profile": {
         "weburl": "https://www.henryschein.com/",
@@ -20751,17 +20751,17 @@
       "metrics": {
         "52WeekHigh": 239.48,
         "52WeekLow": 156.16,
-        "peTTM": 24.4298,
-        "psTTM": 3.4705,
+        "peTTM": 24.6305,
+        "psTTM": 3.499,
         "netProfitMarginTTM": 14.21,
         "roeTTM": 37.669999999999995,
         "revenueGrowthTTMYoy": 0.44,
         "epsGrowthTTMYoy": 21.46,
         "currentRatioQuarterly": 1.2384,
         "totalDebt/totalEquityQuarterly": 1.0514,
-        "marketCapitalization": 34980.684
+        "marketCapitalization": 35268.04
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "The Hershey Company",
       "profile": {
         "weburl": "https://www.thehersheycompany.com/",
@@ -20769,6 +20769,22 @@
         "name": "The Hershey Company"
       },
       "news": [
+        {
+          "headline": "Here’s How Much You Need in Hershey and ADM to Earn $20,000 a Year in Dividends",
+          "url": "https://finnhub.io/api/news?id=94ec631913207b30fed7ec38f851a76d9a0880be8d97bd7c517af6fe6c5308b7",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T17:07:21Z",
+          "primary": false,
+          "symbol": "HSY"
+        },
+        {
+          "headline": "Hershey: The Stock Is Even Better Than The Chocolates",
+          "url": "https://finnhub.io/api/news?id=b7c7ac2e4cfd4932c1c359d7eb4271612eecce437e75c886fa39c62d2ec4a0fc",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-21T09:21:33Z",
+          "primary": false,
+          "symbol": "HSY"
+        },
         {
           "headline": "Chipotle Mexican Grill vs. Hershey: Which Consumer Stock Is a Better Buy for 2027?",
           "url": "https://finnhub.io/api/news?id=7a165618bd79743c29dec076f3403153107056316cccdb066c3389e8c6be1b57",
@@ -20792,22 +20808,6 @@
           "published_at": "2026-11-20T14:57:04Z",
           "primary": false,
           "symbol": "HSY"
-        },
-        {
-          "headline": "Better Dividend Stock: TotalEnergies vs. Hershey",
-          "url": "https://finnhub.io/api/news?id=f34d7286510da0edf1bc0fc565dbee0adb3bd05e08d0b57c7ba403eb9974a51a",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T18:34:26Z",
-          "primary": false,
-          "symbol": "HSY"
-        },
-        {
-          "headline": "Hershey turns back the clock 126 years with a sweet deal",
-          "url": "https://finnhub.io/api/news?id=f4e234fef2e408c9bc9cbd9d11441b619dd555bcef5121d8e98072dc068f1030",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T18:01:00Z",
-          "primary": false,
-          "symbol": "HSY"
         }
       ]
     },
@@ -20815,17 +20815,17 @@
       "metrics": {
         "52WeekHigh": 73.56,
         "52WeekLow": 19.84,
-        "peTTM": 19.7455,
-        "psTTM": 1.3162,
+        "peTTM": 19.4578,
+        "psTTM": 1.297,
         "netProfitMarginTTM": 6.67,
         "roeTTM": 11.020000000000001,
         "revenueGrowthTTMYoy": 26.59,
         "epsGrowthTTMYoy": 128.23,
         "currentRatioQuarterly": 1.1127,
         "totalDebt/totalEquityQuarterly": 0.7635,
-        "marketCapitalization": 55109.7
+        "marketCapitalization": 54306.586
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Hewlett Packard Enterprise Company",
       "profile": {
         "weburl": "https://www.hpe.com/",
@@ -20833,6 +20833,30 @@
         "name": "Hewlett Packard Enterprise Company"
       },
       "news": [
+        {
+          "headline": "Ahead of Hewlett Packard Earnings, Here’s What Barchart Data Says Comes Next for HPE Stock",
+          "url": "https://finnhub.io/api/news?id=c669114d421f455c95ce34bf5c7f32137b4965044e9c33a9dead3d7c516bea89",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T14:30:03Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
+        {
+          "headline": "Dell Up 447% In 5 Years, HPE 220%: What Did Michael Dell Do Differently?",
+          "url": "https://finnhub.io/api/news?id=ebf298e9f762544fd967fa47507d66c9de1d93fdb94f8ded2c6ed0bc93cea364",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T18:32:03Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
+        {
+          "headline": "Cisco vs. HPE: One Has Better Financials, the Other Has 93% Upside. Which Stock Wins?",
+          "url": "https://finnhub.io/api/news?id=ecc270e64c1a610340dfb88f0be8e88f4a2d77ae33b6cc880ff04ebea0437e38",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T00:00:03Z",
+          "primary": false,
+          "symbol": "HPE"
+        },
         {
           "headline": "What HPE Holders Should Watch In Monday's Margin",
           "url": "https://finnhub.io/api/news?id=32e4fd9a7332e24af8c1729a44d62f7b63f7c123d0ba911667a8b632b9eeebd7",
@@ -20848,30 +20872,6 @@
           "published_at": "2026-11-20T17:10:26Z",
           "primary": false,
           "symbol": "HPE"
-        },
-        {
-          "headline": "Is Hewlett Packard Enterprise (HPE) Undervalued Or Is Its AI And Networking Story Priced In?",
-          "url": "https://finnhub.io/api/news?id=5f1fa67b7a81468f8cb3194bc0f757bb18c7fe20356c4cace08fafeca6c48ef5",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:12:37Z",
-          "primary": false,
-          "symbol": "HPE"
-        },
-        {
-          "headline": "HPE's Q4 Earnings Likely to Reflect Rising Demand Across All Offerings",
-          "url": "https://finnhub.io/api/news?id=8d1c959f2731e4357342fd59954b338706612a361142b3d9edcc49f5c34bd31c",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:23:00Z",
-          "primary": false,
-          "symbol": "HPE"
-        },
-        {
-          "headline": "Is Hewlett Packard (HPE) a 'Buy' Ahead of Earnings?",
-          "url": "https://finnhub.io/api/news?id=4e3b1c6c755ba0e1c4bfb80fff3fcd27cad81c0b978a965f52f76175353d6098",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:11:00Z",
-          "primary": false,
-          "symbol": "HPE"
         }
       ]
     },
@@ -20879,17 +20879,17 @@
       "metrics": {
         "52WeekHigh": 381.34,
         "52WeekLow": 263.95,
-        "peTTM": 46.8313,
-        "psTTM": 6.2737,
+        "peTTM": 46.6278,
+        "psTTM": 6.2464,
         "netProfitMarginTTM": 13.4,
         "roeTTM": 171.01,
         "revenueGrowthTTMYoy": 8.14,
         "epsGrowthTTMYoy": 7.26,
         "currentRatioQuarterly": 0.5902,
         "totalDebt/totalEquityQuarterly": 73.65,
-        "marketCapitalization": 79613.17
+        "marketCapitalization": 79267.18
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T05:34:35Z",
       "name": "Hilton Worldwide Holdings Inc.",
       "profile": {
         "weburl": "https://www.hilton.com",
@@ -29694,6 +29694,6 @@
       ]
     }
   },
-  "cursor": 349,
-  "updated_at": "2026-11-23T04:16:38Z"
+  "cursor": 361,
+  "updated_at": "2026-11-23T05:34:35Z"
 }

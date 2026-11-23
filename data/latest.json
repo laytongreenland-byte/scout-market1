@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:16:38Z",
+  "generated_at": "2026-11-23T05:34:35Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T04:16:38Z",
+      "checked_at": "2026-11-23T05:34:35Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T04:16:38Z",
+      "checked_at": "2026-11-23T05:34:35Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T04:16:38Z",
+      "checked_at": "2026-11-23T05:34:35Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T04:16:38Z",
+      "checked_at": "2026-11-23T05:34:35Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T04:16:38Z",
+      "checked_at": "2026-11-23T05:34:35Z",
       "error": ""
     }
   ],
@@ -6923,7 +6923,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T04:16:38Z",
+    "generated_at": "2026-11-23T05:34:35Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9289,7 +9289,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T05:03:10Z",
+            "timestamp": "2026-11-23T05:34:35Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9300,7 +9300,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T05:03:10Z",
+        "fundamentals_at": "2026-11-23T05:34:35Z",
         "price": 151.65,
         "currency": "USD",
         "change_pct": -1.263,
@@ -9354,7 +9354,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Technology",
-        "why": "Net profit margin 18.6% (TTM); Return on equity 660.9% (TTM); Trailing P/E 13.0×; TTM revenue growth 6.4% YoY",
+        "why": "Net profit margin 18.6% (TTM); Return on equity 660.9% (TTM); Trailing P/E 12.6×; TTM revenue growth 6.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9368,7 +9368,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T05:03:10Z",
+            "timestamp": "2026-11-23T05:34:35Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9379,7 +9379,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T05:03:10Z",
+        "fundamentals_at": "2026-11-23T05:34:35Z",
         "price": 99.53,
         "currency": "USD",
         "change_pct": -2.565,
@@ -9406,12 +9406,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 101.5,
-          "entry_floor": 91.35,
-          "exit_review_low": 130.12,
-          "exit_review_high": 152.77,
-          "bear_case": 73.11,
-          "scenario_upside_pct": 30.7,
+          "entry_ceiling": 101.67,
+          "entry_floor": 91.5,
+          "exit_review_low": 134.83,
+          "exit_review_high": 158.3,
+          "bear_case": 75.76,
+          "scenario_upside_pct": 35.5,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -9424,12 +9424,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 13.01,
+            "trailing_pe": 12.55,
             "earnings_growth_assumed_pct": 2.87,
             "scenario_exit_pe": 16.53,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T05:03:10Z"
+            "metrics_retrieved_at": "2026-11-23T05:34:35Z"
           }
         },
         "ranking_score": 79,
@@ -11194,7 +11194,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T05:03:10Z",
+            "timestamp": "2026-11-23T05:34:35Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11205,7 +11205,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T05:03:10Z",
+        "fundamentals_at": "2026-11-23T05:34:35Z",
         "price": 136.84,
         "currency": "USD",
         "change_pct": 0.929,
@@ -11215,14 +11215,6 @@
             "url": "https://finnhub.io/api/news?id=9b96aa66a7fd26d17f3d3370f6f000867592f9dc822670c6fbfb92d8a94d2f7e",
             "source": "Benzinga",
             "published_at": "2026-11-17T12:04:39Z",
-            "primary": false,
-            "symbol": "HIG"
-          },
-          {
-            "headline": "Wells Fargo Downgraded Hartford (HIG). What Changed in Commercial?",
-            "url": "https://finnhub.io/api/news?id=a4ce0b8d067afcdb6587f1bfba8860e5be29718a9c3c0f3d180282a86ab13ca1",
-            "source": "Yahoo",
-            "published_at": "2026-11-13T21:10:11Z",
             "primary": false,
             "symbol": "HIG"
           }
@@ -14855,7 +14847,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T04:16:38Z",
+      "generated_at": "2026-11-23T05:34:35Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 783,
