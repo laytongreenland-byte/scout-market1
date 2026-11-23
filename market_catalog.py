@@ -24,6 +24,7 @@ OUT=ROOT/'data'/'market_catalog.json'
 NOW=datetime.now(timezone.utc)
 FRESH_DAYS=7
 ASX_DIRECTORY='https://www.asx.com.au/asx/research/ASXListedCompanies.csv'
+NZX_ETF_FILE=ROOT/'data'/'nzx_etfs.json'
 NZX_DIRECTORY='https://nzxplorer.co.nz/api/v1/companies'
 # NZXplorer defaults to 50 rows. Limit 250 is within the documented 500 maximum.
 NZX_FULL=NZX_DIRECTORY+'?limit=250'
@@ -231,6 +232,29 @@ def apac_discovery(old=None):
                          'notes':note,'last_attempt_at':stamp(NOW)}
     return items,markets,sources
 
+def nzx_etf_list():
+    """Dated issuer-backed NZX ETF discovery metadata. Never implies a price."""
+    try:
+        document=json.loads(NZX_ETF_FILE.read_text())
+        records=document.get('items',[])
+        if document.get('schema_version')!=1 or not 25<=len(records)<=80:
+            return []
+        found={}
+        for x in records:
+            if not isinstance(x,dict) or x.get('market')!='NZX' or x.get('type')!='ETF':
+                return []
+            symbol=x.get('symbol','')
+            name=x.get('name','')
+            if not re.fullmatch(r'[A-Z0-9]{2,6}',symbol) or not isinstance(name,str) or not name.startswith('Smart '):
+                return []
+            found[symbol]={'symbol':symbol,'name':name[:160],'exchange':'NZX',
+                           'market':'NZX','type':'ETF',
+                           'discovery_source':'Smart public ETF catalogue'}
+        return list(found.values()) if len(found)==len(records) else []
+    except (OSError,ValueError,TypeError):
+        return []
+
+
 def build(fetcher=fetch_source,now=None,old=None):
     now=now or NOW
     collected=[]
@@ -257,12 +281,28 @@ def build(fetcher=fetch_source,now=None,old=None):
         items.append(row)
     apac_items,apac_markets,apac_sources=apac_discovery(old)
     items.extend(apac_items)
+    etf_rows=nzx_etf_list()
+    seen_nzx={row['symbol'] for row in items if row['market']=='NZX'}
+    etf_rows=[row for row in etf_rows if row['symbol'] not in seen_nzx]
+    items.extend(etf_rows)
+    if etf_rows:
+        nz=apac_markets.get('NZX',{})
+        nz['listed_in_directory']=int(nz.get('listed_in_directory',0))+len(etf_rows)
+        nz['etf_listings_verified']=len(etf_rows)
+        nz['notes']=(nz.get('notes','')+
+                     '; includes dated Smart NZX-listed ETF symbols, not prices or broker availability')
+        if nz.get('status')=='NOT_CONNECTED':
+            nz['status']='PARTIAL_DISCOVERY'
+        apac_markets['NZX']=nz
+    source_status['SMART_NZX_ETFS']={'ok':bool(etf_rows),'count':len(etf_rows),
+        'url':'https://www.smartinvest.co.nz/funds-and-performance/etfs',
+        'note':'Public ETF listings only; NZXplorer company directory excludes ETFs'}
     source_status.update(apac_sources)
     items.sort(key=lambda row:(row['market'],row['symbol']))
     status='READY' if all(source_status[k]['ok'] for k in SOURCES) else 'PARTIAL' if items else 'UNAVAILABLE'
     return {
         'schema_version':2,
-        'nzx_directory_strategy_version':3,
+        'nzx_directory_strategy_version':4,
         'generated_at':stamp(now),
         'status':status,
         'platform':'Sharesies NZ (target only, availability NOT verified)',
@@ -304,7 +344,7 @@ def main():
             old=None
     if (os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and
             old.get('schema_version')==2 and old.get('status')=='READY' and
-            old.get('nzx_directory_strategy_version')==3):
+            old.get('nzx_directory_strategy_version')==4):
         at=parse_date(old.get('generated_at'))
         if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS):
             nz=old.get('markets',{}).get('NZX',{})
