@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-23T07:04:55.432453+00:00",
+  "research_only": true,
+  "note": "One sampled provider request only; this is not full price coverage.",
+  "NZX": {
+    "directory": "INCOMPLETE",
+    "listings_seen": 50,
+    "sample_price": "OK"
+  },
+  "ASX": {
+    "sample_price": "NO_API_KEY"
+  }
+}
