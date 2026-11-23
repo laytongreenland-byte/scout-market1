@@ -98,6 +98,10 @@ def build(catalog,apac,latest,history=None,now=None,fundamentals=None):
         if isinstance(change,(int,float)):
             why+=f' Previous-session price movement {change:+.2f}% (not adjusted for corporate actions).'
         evidence=[{'label':'Official NZX issuer disclosures','url':f'https://www.nzx.com/instruments/{sym}'}]
+        if financial.get('score') is not None and financial.get('source_url'):
+            evidence.append({'label':'Dated company financial ratios ('+str(financial.get('financial_period') or 'reported')+')',
+                             'url':financial['source_url'],
+                             'timestamp':financial.get('fundamentals_at')})
         if item:
             evidence.append({'label':'Issuer-linked announcement feed (third-party)','url':item['url'],
                              'timestamp':item['published_at']})
