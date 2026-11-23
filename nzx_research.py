@@ -74,13 +74,17 @@ def build(catalog,apac,latest,history=None,now=None):
     candidates=[]
     for sym,row in sorted(listing.items()):
         q=quotes.get(sym)
+        is_etf=row.get('type')=='ETF'
         item=news.get(sym)
         px=q.get('close') if q else None
         qday=q.get('date') if q else None
         change=q.get('change_pct') if q else None
         why=(
-            f'Verified NZD exchange close for {qday}; issuer accounting metrics are not yet independently verified.'
-            if q else 'NZX-listed issuer; no recent validated closing price in Scout.'
+            (f'Verified NZD exchange close for {qday}; review the fund factsheet, fees and holdings.'
+             if is_etf else
+             f'Verified NZD exchange close for {qday}; issuer accounting metrics are not yet independently verified.')
+            if q else ('NZX-listed ETF; no recent verified closing price.'
+                       if is_etf else 'NZX-listed issuer; no recent validated closing price in Scout.')
         )
         if isinstance(change,(int,float)):
             why+=f' Previous-session price movement {change:+.2f}% (not adjusted for corporate actions).'
@@ -90,18 +94,24 @@ def build(catalog,apac,latest,history=None,now=None):
                              'timestamp':item['published_at']})
         candidates.append({
             'symbol':sym,'name':row['name'],'market':'NZX','currency':'NZD',
-            'status':'MARKET WATCH' if q else 'INSUFFICIENT DATA',
+            'type':'ETF' if is_etf else 'SHARE',
+            'status':('ETF WATCH' if is_etf else 'MARKET WATCH') if q else 'INSUFFICIENT DATA',
             'score':None,'financially_scored':False,'price':px,'price_date':qday,
             'change_pct':change,'five_session_change_pct':q.get('five_session_change_pct') if q else None,
-            'as_of':None,'fundamentals_at':None,'industry':'Unverified',
+            'as_of':None,'fundamentals_at':None,'industry':'Fund' if is_etf else 'Unverified',
             'why':why,
-            'risks':['NZX trading can be illiquid; price-only signals do not establish business value',
-                     'Dividends, stock splits, fees and tax are not included'],
+            'risks':(['ETF holdings, tracking difference and trading spreads require independent verification',
+                      'Fund fees, distributions and tax are not included in price-only history']
+                     if is_etf else
+                     ['NZX trading can be illiquid; price-only signals do not establish business value',
+                      'Dividends, stock splits, fees and tax are not included']),
             'evidence':evidence,'last_issuer_news':item,
             'price_plan':{'signal':'NO RELIABLE PRICE RANGE','currency':'NZD',
                           'entry_ceiling':None,'entry_floor':None,'exit_review_low':None,
                           'exit_review_high':None,'bear_case':None,'as_of':None,
-                          'reason':'NZX fundamental valuation and dependable buy/sell levels are not verified. Price data alone is not sufficient.'},
+                          'reason':('ETF funds need holdings, costs and suitable NAV/benchmark analysis; no single-company P/E targets.'
+                                    if is_etf else
+                                    'NZX fundamental valuation and dependable buy/sell levels are not verified. Price data alone is not sufficient.')},
         })
     observations={}
     for row in history.get('observations',[]):
@@ -168,13 +178,19 @@ def build(catalog,apac,latest,history=None,now=None):
     matured=[c for c in frozen if isinstance(c.get('change_30d_pct'),(int,float))]
     out={
         'schema_version':1,'generated_at':stamp(now),'market':'NZX','currency':'NZD',
-        'coverage':{'listed':len(listing),'verified_eod':len(verified),
+        'coverage':{'listed':len(listing),
+                    'companies':sum(c['type']=='SHARE' for c in candidates),
+                    'etfs':sum(c['type']=='ETF' for c in candidates),
+                    'verified_eod':len(verified),
                     'without_recent_eod':len(listing)-len(verified),
                     'financially_scored':0,
                     'notice':'Verified closes, not complete financial screening or confirmed Sharesies eligibility'},
         'candidates':candidates,
         'weekly':{'week_start':week_key,'generated_at':stamp(now),
-                  'shortlist':verified[:5],
+                  'shortlist':[c for c in verified if c['type']=='SHARE'][:5],
+                  'etf_watch':[next(c for c in candidates if c['symbol']==sym)
+                               for sym in ('FNZ','NZG','USF','TWF','DIV')
+                               if sym in listing],
                   'verdict':'NZX watch notes based on validated price/disclosure evidence; no valuation-ranked buy targets'},
         'alerts':mover_alerts[:15],
         'paper':{'method':'prospective-price-observation-v1','benchmark':None,
