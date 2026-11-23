@@ -68,7 +68,7 @@ class UniverseCoverageTests(unittest.TestCase):
         self.assertTrue((ROOT / "data" / "research_cache.json").exists())
         html = (ROOT / "index.html").read_text()
         # Query-string versioning intentionally busts stale mobile/PWA assets.
-        self.assertRegex(html, r'<script src="./compass\\.js(?:\\?v=[^"]+)?" defer></script>')
+        self.assertIn('<script src="./compass.js?v=', html)
         self.assertLess(html.index('src="./compass.js'), html.index('src="./app.js'))
         self.assertIn("ScoutCompass.render(data)", (ROOT / "app.js").read_text())
 
