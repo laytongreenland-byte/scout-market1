@@ -24149,18 +24149,18 @@
     "NTRS": {
       "metrics": {
         "52WeekHigh": 195.78,
-        "52WeekLow": 124.25,
-        "peTTM": 12.4404,
-        "psTTM": 2.8671,
+        "52WeekLow": 124.91,
+        "peTTM": 12.1064,
+        "psTTM": 2.7901,
         "netProfitMarginTTM": 23.05,
         "roeTTM": 18.41,
         "revenueGrowthTTMYoy": 32.9,
         "epsGrowthTTMYoy": 47.46,
         "currentRatioQuarterly": 0.3239,
         "totalDebt/totalEquityQuarterly": 11.086,
-        "marketCapitalization": 30187.812
+        "marketCapitalization": 29377.309
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Northern Trust Corporation",
       "profile": {
         "weburl": "https://www.northerntrust.com/",
@@ -24198,17 +24198,17 @@
       "metrics": {
         "52WeekHigh": 25.13,
         "52WeekLow": 13.631,
-        "peTTM": 8.9491,
-        "psTTM": 0.7335,
+        "peTTM": 8.8168,
+        "psTTM": 0.7226,
         "netProfitMarginTTM": 8.2,
         "roeTTM": 32.15,
         "revenueGrowthTTMYoy": 4.85,
         "epsGrowthTTMYoy": 37.34,
         "currentRatioQuarterly": 0.225,
         "totalDebt/totalEquityQuarterly": 4.791,
-        "marketCapitalization": 7454.0405
+        "marketCapitalization": 7343.8145
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Norwegian Cruise Line Holdings Ltd.",
       "profile": {
         "weburl": "https://www.nclhltd.com/",
@@ -24216,6 +24216,14 @@
         "name": "Norwegian Cruise Line Holdings Ltd."
       },
       "news": [
+        {
+          "headline": "UBS Maintains Neutral on Norwegian Cruise Line, Lowers Price Target to $19",
+          "url": "https://finnhub.io/api/news?id=b12a88eb2b1f47d1bca548edbffa17c5f85792094765d4a8b370f835de1ba339",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T14:23:06Z",
+          "primary": false,
+          "symbol": "NCLH"
+        },
         {
           "headline": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
           "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f",
@@ -24247,14 +24255,6 @@
           "published_at": "2026-11-18T13:00:04Z",
           "primary": false,
           "symbol": "NCLH"
-        },
-        {
-          "headline": "Can NCLH's $325M Savings Plan Drive a Margin Recovery in 2027?",
-          "url": "https://finnhub.io/api/news?id=1274139f9f4f90cd4a0cbfbd2c87abf01dce64b711a8e09158b6ff7d017253ae",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T15:28:00Z",
-          "primary": false,
-          "symbol": "NCLH"
         }
       ]
     },
@@ -24262,17 +24262,17 @@
       "metrics": {
         "52WeekHigh": 189.96,
         "52WeekLow": 79.65,
-        "peTTM": 23.2161,
-        "psTTM": 0.595,
+        "peTTM": 21.7195,
+        "psTTM": 0.5567,
         "netProfitMarginTTM": 2.56,
         "roeTTM": 25.380000000000003,
         "revenueGrowthTTMYoy": 12.8,
         "epsGrowthTTMYoy": 62.08,
         "currentRatioQuarterly": 0.9677,
         "totalDebt/totalEquityQuarterly": 4.7901,
-        "marketCapitalization": 19710.498
+        "marketCapitalization": 18439.87
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "NRG Energy Inc",
       "profile": {
         "weburl": "https://www.nrg.com/",
@@ -24280,6 +24280,14 @@
         "name": "NRG Energy Inc"
       },
       "news": [
+        {
+          "headline": "Goldman Sachs Maintains Buy on NRG Energy, Lowers Price Target to $149",
+          "url": "https://finnhub.io/api/news?id=da027f2f98c756da6ebe874e9e07f566627899cdc71b260177093cef6fb66960",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T12:40:24Z",
+          "primary": false,
+          "symbol": "NRG"
+        },
         {
           "headline": "NRG Energy (NRG) Looks Repriced As Strong Earnings And 2027 Outlook Reset The Story",
           "url": "https://finnhub.io/api/news?id=f2e16ab0710f638d4581c77f4b5483389c8c11aa6f6675baecd6f139d1e8173e",
@@ -24311,14 +24319,6 @@
           "published_at": "2026-11-16T20:30:00Z",
           "primary": false,
           "symbol": "NRG"
-        },
-        {
-          "headline": "How one energy company uses CX to drive customer retention",
-          "url": "https://finnhub.io/api/news?id=6c0cee808e5590b5fd830ff429091840589935832bb98377561aae38960527b7",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T17:00:00Z",
-          "primary": false,
-          "symbol": "NRG"
         }
       ]
     },
@@ -24326,17 +24326,17 @@
       "metrics": {
         "52WeekHigh": 287.7,
         "52WeekLow": 146.0,
-        "peTTM": 15.0927,
-        "psTTM": 1.3978,
+        "peTTM": 14.9892,
+        "psTTM": 1.3882,
         "netProfitMarginTTM": 9.26,
         "roeTTM": 16.470000000000002,
         "revenueGrowthTTMYoy": 21.79,
         "epsGrowthTTMYoy": 120.68,
         "currentRatioQuarterly": 2.4621,
         "totalDebt/totalEquityQuarterly": 0.3109,
-        "marketCapitalization": 54273.402
+        "marketCapitalization": 53901.125
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Nucor Corporation",
       "profile": {
         "weburl": "https://nucor.com/",
@@ -24390,17 +24390,17 @@
       "metrics": {
         "52WeekHigh": 8200.0,
         "52WeekLow": 5459.0,
-        "peTTM": 14.2542,
-        "psTTM": 1.5849,
+        "peTTM": 13.8147,
+        "psTTM": 1.536,
         "netProfitMarginTTM": 11.12,
         "roeTTM": 29.53,
         "revenueGrowthTTMYoy": -11.04,
         "epsGrowthTTMYoy": -20.35,
         "currentRatioQuarterly": 2.9042,
         "totalDebt/totalEquityQuarterly": 0.2642,
-        "marketCapitalization": 14927.537
+        "marketCapitalization": 14467.274
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "NVR, Inc.",
       "profile": {
         "weburl": "https://www.nvrinc.com/",
@@ -24430,17 +24430,17 @@
       "metrics": {
         "52WeekHigh": 339.95,
         "52WeekLow": 183.0,
-        "peTTM": 19.6583,
-        "psTTM": 4.599,
+        "peTTM": 18.3613,
+        "psTTM": 4.2956,
         "netProfitMarginTTM": 23.39,
         "roeTTM": 29.04,
         "revenueGrowthTTMYoy": 14.55,
         "epsGrowthTTMYoy": 57.24,
         "currentRatioQuarterly": 2.1247,
         "totalDebt/totalEquityQuarterly": 0.9082,
-        "marketCapitalization": 63456.855
+        "marketCapitalization": 59270.26
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "NXP Semiconductors NV",
       "profile": {
         "weburl": "https://www.nxp.com/",
@@ -24494,17 +24494,17 @@
       "metrics": {
         "52WeekHigh": 102.46,
         "52WeekLow": 82.59,
-        "peTTM": 27.4078,
-        "psTTM": 3.9118,
+        "peTTM": 27.4196,
+        "psTTM": 3.9135,
         "netProfitMarginTTM": 14.27,
         "roeTTM": 423.35,
         "revenueGrowthTTMYoy": 8.73,
         "epsGrowthTTMYoy": 12.95,
         "currentRatioQuarterly": 0.7731,
         "totalDebt/totalEquityQuarterly": 17.5459,
-        "marketCapitalization": 74277.734
+        "marketCapitalization": 74309.81
       },
-      "updated_at": "2026-11-21T11:53:30Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "O'Reilly Automotive, Inc.",
       "profile": {
         "weburl": "https://corporate.oreillyauto.com/",
@@ -24542,17 +24542,17 @@
       "metrics": {
         "52WeekHigh": 235.0,
         "52WeekLow": 62.66,
-        "peTTM": 114.7616,
-        "psTTM": 11.0542,
+        "peTTM": 113.0784,
+        "psTTM": 10.892,
         "netProfitMarginTTM": 9.63,
         "roeTTM": 4.26,
         "revenueGrowthTTMYoy": 11.22,
         "epsGrowthTTMYoy": 79.18,
         "currentRatioQuarterly": 1.5254,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 33969.42
+        "marketCapitalization": 33471.215
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Okta, Inc.",
       "profile": {
         "weburl": "https://www.okta.com/",
@@ -24560,6 +24560,22 @@
         "name": "Okta, Inc."
       },
       "news": [
+        {
+          "headline": "Monday.com vs. Okta: Which Tech Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=accf3cc8b80a3fa709638e12e285ae495677f56fe0e3f45e3e24008faa3768f8",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T13:08:01Z",
+          "primary": false,
+          "symbol": "OKTA"
+        },
+        {
+          "headline": "Todd McKinnon, Okta CEO: A Fortt Knox Update",
+          "url": "https://finnhub.io/api/news?id=0d0db503c98ffe58ebdaaf6c47f33689b5844ad1ba80882d77c7f96c35cdddc3",
+          "source": "CNBC",
+          "published_at": "2026-11-20T13:25:54Z",
+          "primary": false,
+          "symbol": "OKTA"
+        },
         {
           "headline": "Okta Stocks Jump 8.14% as Cybersecurity Rally Extends Into Second Day",
           "url": "https://finnhub.io/api/news?id=8fb6a3d8333886743afdf7db1f51fc03ffbb5683287c9bba1dfaf7277a51f4e0",
@@ -24583,22 +24599,6 @@
           "published_at": "2026-11-19T13:30:04Z",
           "primary": false,
           "symbol": "OKTA"
-        },
-        {
-          "headline": "Why Is Okta Stock Going Up?",
-          "url": "https://finnhub.io/api/news?id=36c0ca797c1572cdbe0b3c12f892cf1f6c004372ca223bc550400db7e28186b2",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:12:25Z",
-          "primary": false,
-          "symbol": "OKTA"
-        },
-        {
-          "headline": "Why Is Okta (OKTA) Betting On Frictionless Identity And AI Security?",
-          "url": "https://finnhub.io/api/news?id=b7de461d4512b8a3e502c5f43ef190f5b3e511b94718c32867541173e7103cfc",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T09:13:25Z",
-          "primary": false,
-          "symbol": "OKTA"
         }
       ]
     },
@@ -24606,17 +24606,17 @@
       "metrics": {
         "52WeekHigh": 252.03,
         "52WeekLow": 126.01,
-        "peTTM": 30.8419,
-        "psTTM": 6.1936,
+        "peTTM": 29.8029,
+        "psTTM": 5.985,
         "netProfitMarginTTM": 20.08,
         "roeTTM": 25.919999999999998,
         "revenueGrowthTTMYoy": 3.8,
         "epsGrowthTTMYoy": 11.91,
         "currentRatioQuarterly": 2.0442,
         "totalDebt/totalEquityQuarterly": 0.0043,
-        "marketCapitalization": 35840.637
+        "marketCapitalization": 34633.246
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Old Dominion Freight Line, Inc.",
       "profile": {
         "weburl": "https://www.odfl.com/",
@@ -24646,17 +24646,17 @@
       "metrics": {
         "52WeekHigh": 89.565,
         "52WeekLow": 66.33,
-        "peTTM": 33.7566,
-        "psTTM": 1.0099,
+        "peTTM": 32.9708,
+        "psTTM": 0.9864,
         "netProfitMarginTTM": 2.99,
         "roeTTM": 6.859999999999999,
         "revenueGrowthTTMYoy": 46.67,
         "epsGrowthTTMYoy": -73.53,
         "currentRatioQuarterly": 0.9148,
         "totalDebt/totalEquityQuarterly": 1.0068,
-        "marketCapitalization": 23795.027
+        "marketCapitalization": 23241.146
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Omnicom Group Inc",
       "profile": {
         "weburl": "https://www.omnicomgroup.com/",
@@ -24710,17 +24710,17 @@
       "metrics": {
         "52WeekHigh": 134.92,
         "52WeekLow": 44.56,
-        "peTTM": 34.4571,
-        "psTTM": 3.728,
+        "peTTM": 34.3696,
+        "psTTM": 3.7185,
         "netProfitMarginTTM": 10.82,
         "roeTTM": 9.26,
         "revenueGrowthTTMYoy": 2.93,
         "epsGrowthTTMYoy": 123.88,
         "currentRatioQuarterly": 3.548,
         "totalDebt/totalEquityQuarterly": 0.5933,
-        "marketCapitalization": 23744.408
+        "marketCapitalization": 23684.068
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "ON Semiconductor Corp",
       "profile": {
         "weburl": "https://www.onsemi.com/",
@@ -24742,16 +24742,16 @@
       "metrics": {
         "52WeekHigh": 94.565,
         "52WeekLow": 63.575,
-        "peTTM": 18.7517,
-        "psTTM": 1.9278,
+        "peTTM": 18.6073,
+        "psTTM": 1.913,
         "netProfitMarginTTM": 10.28,
         "roeTTM": 14.91993,
         "revenueGrowthTTMYoy": 5.77,
         "epsGrowthTTMYoy": 18.65,
         "currentRatioQuarterly": 0.8592,
-        "marketCapitalization": 29177.652
+        "marketCapitalization": 28953.035
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T09:33:18Z",
       "name": "Otis Worldwide Corporation",
       "profile": {
         "weburl": "https://www.otis.com/",
@@ -29662,6 +29662,6 @@
       ]
     }
   },
-  "cursor": 421,
-  "updated_at": "2026-11-23T08:29:47Z"
+  "cursor": 433,
+  "updated_at": "2026-11-23T09:33:18Z"
 }

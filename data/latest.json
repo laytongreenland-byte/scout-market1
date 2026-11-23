@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T08:29:47Z",
+  "generated_at": "2026-11-23T09:33:18Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T08:29:47Z",
+      "checked_at": "2026-11-23T09:33:18Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T08:29:47Z",
+      "checked_at": "2026-11-23T09:33:18Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T08:29:47Z",
+      "checked_at": "2026-11-23T09:33:18Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T08:29:47Z",
+      "checked_at": "2026-11-23T09:33:18Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T08:29:47Z",
+      "checked_at": "2026-11-23T09:33:18Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T08:29:47Z",
+    "generated_at": "2026-11-23T09:33:18Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7813,7 +7813,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Financial Services",
-        "why": "Net profit margin 23.1% (TTM); Return on equity 18.4% (TTM); Trailing P/E 12.4×; TTM revenue growth 32.9% YoY",
+        "why": "Net profit margin 23.1% (TTM); Return on equity 18.4% (TTM); Trailing P/E 12.1×; TTM revenue growth 32.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7827,7 +7827,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T11:53:30Z",
+            "timestamp": "2026-11-23T09:33:18Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -7838,7 +7838,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T11:53:30Z",
+        "fundamentals_at": "2026-11-23T09:33:18Z",
         "price": 162.2,
         "currency": "USD",
         "change_pct": -2.705,
@@ -10073,7 +10073,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Metals & Mining",
-        "why": "Net profit margin 9.3% (TTM); Return on equity 16.5% (TTM); Trailing P/E 15.1×; TTM revenue growth 21.8% YoY",
+        "why": "Net profit margin 9.3% (TTM); Return on equity 16.5% (TTM); Trailing P/E 15.0×; TTM revenue growth 21.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10087,7 +10087,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T11:53:30Z",
+            "timestamp": "2026-11-23T09:33:18Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -10098,7 +10098,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T11:53:30Z",
+        "fundamentals_at": "2026-11-23T09:33:18Z",
         "price": 239.62,
         "currency": "USD",
         "change_pct": -3.156,
@@ -10127,10 +10127,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 216.85,
           "entry_floor": 195.16,
-          "exit_review_low": 350.09,
-          "exit_review_high": 427.53,
-          "bear_case": 185.64,
-          "scenario_upside_pct": 46.1,
+          "exit_review_low": 352.51,
+          "exit_review_high": 430.49,
+          "bear_case": 186.93,
+          "scenario_upside_pct": 47.1,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10143,12 +10143,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.09,
+            "trailing_pe": 14.99,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 20.23,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T11:53:30Z"
+            "metrics_retrieved_at": "2026-11-23T09:33:18Z"
           }
         },
         "ranking_score": 79,
@@ -14594,7 +14594,7 @@
         "status": "WATCH",
         "score": 61,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 8.9×; TTM revenue growth 4.8% YoY",
+        "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 8.8×; TTM revenue growth 4.8% YoY",
         "risks": [
           "Large one-session price move (-6.3%)"
         ],
@@ -14608,35 +14608,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T11:53:30Z",
+            "timestamp": "2026-11-23T09:33:18Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
-            "timestamp": "2026-11-20T14:11:52Z",
-            "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f"
+            "value": "UBS Maintains Neutral on Norwegian Cruise Line, Lowers Price Target to $19",
+            "timestamp": "2026-11-20T14:23:06Z",
+            "url": "https://finnhub.io/api/news?id=b12a88eb2b1f47d1bca548edbffa17c5f85792094765d4a8b370f835de1ba339"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T11:53:30Z",
+        "fundamentals_at": "2026-11-23T09:33:18Z",
         "price": 15.99,
         "currency": "USD",
         "change_pct": -6.327,
         "news": [
           {
-            "headline": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
-            "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T14:11:52Z",
+            "headline": "UBS Maintains Neutral on Norwegian Cruise Line, Lowers Price Target to $19",
+            "url": "https://finnhub.io/api/news?id=b12a88eb2b1f47d1bca548edbffa17c5f85792094765d4a8b370f835de1ba339",
+            "source": "Benzinga",
+            "published_at": "2026-11-20T14:23:06Z",
             "primary": false,
             "symbol": "NCLH"
           },
           {
-            "headline": "Norwegian Cruise Line Holdings (NCLH) Chef Studio Launch Keeps Fair Value In Focus",
-            "url": "https://finnhub.io/api/news?id=e0ce6702feca835f3a47a20d257bbaa796d6b9831c57ca6ed52b95a8cfc543ce",
+            "headline": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
+            "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f",
             "source": "Yahoo",
-            "published_at": "2026-11-20T07:09:59Z",
+            "published_at": "2026-11-20T14:11:52Z",
             "primary": false,
             "symbol": "NCLH"
           }
@@ -14645,14 +14645,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
+          "signal": "POSSIBLE VALUE TRAP",
           "entry_ceiling": 19.38,
           "entry_floor": 17.44,
-          "exit_review_low": 29.5,
-          "exit_review_high": 34.47,
-          "bear_case": 16.69,
-          "scenario_upside_pct": 84.5,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "exit_review_low": 29.95,
+          "exit_review_high": 34.99,
+          "bear_case": 16.94,
+          "scenario_upside_pct": 87.3,
+          "reason": "Share price is beneath the downside scenario. Verify whether the business has deteriorated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -14664,12 +14664,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 8.95,
+            "trailing_pe": 8.82,
             "earnings_growth_assumed_pct": 2.18,
             "scenario_exit_pe": 16.16,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T11:53:30Z"
+            "metrics_retrieved_at": "2026-11-23T09:33:18Z"
           }
         },
         "ranking_score": 61,
@@ -15247,10 +15247,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T08:29:47Z",
+      "generated_at": "2026-11-23T09:33:18Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 783,
+        "recorded": 784,
         "purchase_scenarios": 67,
         "opened": 1,
         "closed": 0,
@@ -15260,10 +15260,30 @@
         "not_triggered": 0,
         "waiting": 67,
         "unverified": 0,
-        "skipped": 716,
+        "skipped": 717,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|NCLH|POSSIBLE VALUE TRAP",
+          "symbol": "NCLH",
+          "name": "Norwegian Cruise Line Holdings Ltd.",
+          "signal": "POSSIBLE VALUE TRAP",
+          "decision_at": "2026-11-23T09:33:18Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 15.99,
+          "buy_ceiling": 19.38,
+          "sell_review": 29.95,
+          "risk": "Large one-session price move (-6.3%)",
+          "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 8.8×; TTM revenue growth 4.8% YoY",
+          "score": 61,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|CRH|WAIT FOR ENTRY",
           "symbol": "CRH",
@@ -17637,26 +17657,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 13.9% (TTM); Return on equity 10.6% (TTM); Trailing P/E 24.4×; TTM revenue growth 9.8% YoY",
           "score": 61,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|TT|ABOVE BASE CASE",
-          "symbol": "TT",
-          "name": "Trane Technologies PLC",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 386.29,
-          "buy_ceiling": 194.63,
-          "sell_review": 249.53,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 13.6% (TTM); Return on equity 36.1% (TTM); Trailing P/E 27.9×; TTM revenue growth 10.3% YoY",
-          "score": 66,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

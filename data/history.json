@@ -60122,6 +60122,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|NCLH|POSSIBLE VALUE TRAP",
+      "week": "2026-11-23",
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings Ltd.",
+      "signal": "POSSIBLE VALUE TRAP",
+      "decision_at": "2026-11-23T09:33:18Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 15.99,
+      "score": 61,
+      "quality_status": "WATCH",
+      "buy_ceiling": 19.38,
+      "sell_review": 29.95,
+      "bear_case": 16.94,
+      "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 8.8×; TTM revenue growth 4.8% YoY",
+      "risk": "Large one-session price move (-6.3%)",
+      "financials_retrieved_at": "2026-11-23T09:33:18Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
