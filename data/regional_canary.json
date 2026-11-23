@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T07:37:07.370367+00:00",
+  "checked_at": "2026-11-23T07:54:38.897234+00:00",
   "research_only": true,
   "note": "One sampled provider request only; this is not full price coverage.",
   "NZX": {
@@ -7,6 +7,34 @@
     "listings_seen": 128,
     "sample_price": "OK",
     "sample_etf_price": "OK",
+    "announcement_feed": "OK",
+    "announcement_count_sample": 2,
+    "announcement_fields": [
+      "ai_category",
+      "ai_category_confidence",
+      "ai_risk_flags",
+      "ai_sentiment",
+      "ai_sentiment_score",
+      "ai_sub_topics",
+      "ai_summary",
+      "ai_topics",
+      "announcement_date",
+      "announcement_id",
+      "announcement_type",
+      "announcement_url",
+      "category",
+      "has_pdf",
+      "id",
+      "issuer_id",
+      "issuers",
+      "pdf_urls",
+      "title"
+    ],
+    "announcement_link_fields": {
+      "announcement_url": "https://www.nzx.com/announcements/484239",
+      "id": "72825",
+      "announcement_id": "484239"
+    },
     "company_detail": "OK",
     "company_detail_keys": [
       "description",
