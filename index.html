@@ -146,7 +146,13 @@
           <div id="market-directory-stats" class="market-directory-stats">Directory has not been checked yet.</div>
           <div id="market-directory-markets" class="market-directory-markets"></div>
           <div class="discovery-tools">
-            <input id="market-directory-search" type="search" placeholder="Search ticker or company name" aria-label="Search US exchange catalogue" autocomplete="off">
+            <input id="market-directory-search" type="search" placeholder="Search US, Australian or NZ shares" aria-label="Search multi-market exchange catalogue" autocomplete="off">
+            <select id="market-directory-market" aria-label="Filter listings by market">
+              <option value="all">All markets</option>
+              <option value="NZX">New Zealand (NZX)</option>
+              <option value="ASX">Australia (ASX)</option>
+              <option value="US">United States</option>
+            </select>
             <select id="market-directory-type" aria-label="Filter catalogue by asset type">
               <option value="all">All security types</option>
               <option value="SHARE">Company shares</option>
@@ -155,7 +161,7 @@
             </select>
           </div>
           <div id="market-directory-results" class="market-directory-results"></div>
-          <div class="market-directory-footer" id="market-directory-disclaimer">NZX and ASX full listing feeds are not yet connected. Browse individual investments on Sharesies to verify trading availability.</div>
+          <div class="market-directory-footer" id="market-directory-disclaimer">Exchange-listed companies are not guaranteed to be available through Sharesies. Separate data feed health is shown above.</div>
         </div>
         <div class="notice" id="quote-coverage-note">Price coverage and financial analysis are different things.</div>
         <div class="notice" id="quote-warning">Prices are not configured. No live prices will be invented.</div>
