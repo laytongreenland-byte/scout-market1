@@ -5,6 +5,9 @@ on:
     paths:
       - market_catalog.py
       - apac_data.py
+      - nzx_research.py
+      - nzx.js
+      - app.js
       - market.js
       - index.html
       - tests/**
@@ -31,10 +34,10 @@ jobs:
           python-version: '3.12'
       - name: Validate Python syntax
         id: py_compile
-        run: python -m py_compile market_catalog.py apac_data.py scanner.py research.py
+        run: python -m py_compile market_catalog.py apac_data.py nzx_research.py scanner.py research.py
       - name: Validate market UI syntax
         id: js_check
-        run: node --check market.js
+        run: node --check market.js && node --check nzx.js && node --check app.js
       - name: Test Scout without network or secrets
         id: tests
         run: python -m unittest discover -s tests -v
