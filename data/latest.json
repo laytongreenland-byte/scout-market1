@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:59:40Z",
+  "generated_at": "2026-11-23T23:00:53Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T21:59:40Z",
+      "checked_at": "2026-11-23T23:00:53Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T21:59:40Z",
+      "checked_at": "2026-11-23T23:00:53Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T21:59:40Z",
+      "checked_at": "2026-11-23T23:00:53Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T21:59:40Z",
+      "checked_at": "2026-11-23T23:00:53Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T21:59:40Z",
+      "checked_at": "2026-11-23T23:00:53Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T21:59:40Z",
+    "generated_at": "2026-11-23T23:00:53Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8052,7 +8052,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Unclassified",
-        "why": "Net profit margin 10.5% (TTM); Return on equity 15.6% (TTM); Trailing P/E 15.7×; TTM revenue growth 19.5% YoY",
+        "why": "Net profit margin 10.5% (TTM); Return on equity 15.6% (TTM); Trailing P/E 16.1×; TTM revenue growth 19.5% YoY",
         "risks": [
           "Industry not independently classified; cross-sector scores are not directly comparable"
         ],
@@ -8066,35 +8066,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T22:50:27Z",
+            "timestamp": "2026-11-23T23:00:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "ETFs Are Net Sellers of ExxonMobil (XOM) on Nov. 18",
-            "timestamp": "2026-11-20T11:02:14Z",
-            "url": "https://finnhub.io/api/news?id=2e1ca7d1937af559c40ba9cb0f21e519e063bc448b967325745b417bb04e46cd"
+            "value": "What Does ExxonMobil (XOM) Gain From Its $4 Billion Angola Block 15 Bet?",
+            "timestamp": "2026-11-23T13:11:37Z",
+            "url": "https://finnhub.io/api/news?id=fa0799e9bc4f542118392e4d729a5ef42a200d643d6fe3a61e56b67ec8f1d077"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-21T22:50:27Z",
+        "fundamentals_at": "2026-11-23T23:00:53Z",
         "price": 156.9,
         "currency": "USD",
         "change_pct": -1.931,
         "news": [
           {
-            "headline": "ETFs Are Net Sellers of ExxonMobil (XOM) on Nov. 18",
-            "url": "https://finnhub.io/api/news?id=2e1ca7d1937af559c40ba9cb0f21e519e063bc448b967325745b417bb04e46cd",
+            "headline": "What Does ExxonMobil (XOM) Gain From Its $4 Billion Angola Block 15 Bet?",
+            "url": "https://finnhub.io/api/news?id=fa0799e9bc4f542118392e4d729a5ef42a200d643d6fe3a61e56b67ec8f1d077",
             "source": "Yahoo",
-            "published_at": "2026-11-20T11:02:14Z",
+            "published_at": "2026-11-23T13:11:37Z",
             "primary": false,
             "symbol": "XOM"
           },
           {
-            "headline": "ExxonMobil Holdings (XOM) Gets Mozambique Approval For $30 Billion Rovuma LNG Plan",
-            "url": "https://finnhub.io/api/news?id=719657c6eb198e2c31353713e981a56007dd69f2a61e9c65d0c884f6fdb595d5",
+            "headline": "46 ETFs Add to ExxonMobil (XOM) Holdings on Thursday",
+            "url": "https://finnhub.io/api/news?id=3fec4829531ecd50bd6ee9f9612ce0c69ba90fc92617e80674e47f8cdd331731",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:16:12Z",
+            "published_at": "2026-11-23T11:01:20Z",
             "primary": false,
             "symbol": "XOM"
           }
@@ -9593,7 +9593,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Utilities",
-        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.3×; TTM revenue growth 9.6% YoY",
+        "why": "Net profit margin 40.4% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.0×; TTM revenue growth 9.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9607,35 +9607,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T23:48:12Z",
+            "timestamp": "2026-11-23T23:00:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "How Many Shares of Southern Company, NextEra Energy or WEC Energy Pay $1,000 a Month in Dividends?",
-            "timestamp": "2026-11-21T12:50:45Z",
-            "url": "https://finnhub.io/api/news?id=c5e15474264cc831f61393d25f525998fd3d85c7dbf230c3af507db004dfe044"
+            "value": "DOJ closes NextEra-Dominion antitrust probe as state hearings continue",
+            "timestamp": "2026-11-23T16:27:12Z",
+            "url": "https://finnhub.io/api/news?id=052ed519afa30764802dad8d0d1d4cc298202c36bc7c0893c0e590690cb7e580"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-21T23:48:12Z",
+        "fundamentals_at": "2026-11-23T23:00:53Z",
         "price": 83.97,
         "currency": "USD",
         "change_pct": 0.623,
         "news": [
           {
-            "headline": "How Many Shares of Southern Company, NextEra Energy or WEC Energy Pay $1,000 a Month in Dividends?",
-            "url": "https://finnhub.io/api/news?id=c5e15474264cc831f61393d25f525998fd3d85c7dbf230c3af507db004dfe044",
+            "headline": "DOJ closes NextEra-Dominion antitrust probe as state hearings continue",
+            "url": "https://finnhub.io/api/news?id=052ed519afa30764802dad8d0d1d4cc298202c36bc7c0893c0e590690cb7e580",
             "source": "Yahoo",
-            "published_at": "2026-11-21T12:50:45Z",
+            "published_at": "2026-11-23T16:27:12Z",
             "primary": false,
             "symbol": "NEE"
           },
           {
-            "headline": "Why Is NextEra (NEE) Up 2.3% Since Last Earnings Report?",
-            "url": "https://finnhub.io/api/news?id=887d694aa91ca3af2adab19f06533af071cceadccc595559ecfb6523cfa1c2c7",
+            "headline": "NextEra Energy or Franklin Templeton: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+            "url": "https://finnhub.io/api/news?id=b599fbe40bdf401d9a5d724a872dea2e90d4c10bd99a739b971a2dd92adb5640",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:30:08Z",
+            "published_at": "2026-11-23T04:32:26Z",
             "primary": false,
             "symbol": "NEE"
           }
@@ -11330,35 +11330,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T22:50:27Z",
+            "timestamp": "2026-11-23T23:00:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "How Many Shares of Chevron, Shell or Exxon Pay $1,000 a Month in Dividends?",
-            "timestamp": "2026-11-21T10:50:32Z",
-            "url": "https://finnhub.io/api/news?id=6a7837123469be1a8022fbc0450a0b581be41d755740d447dfec7cecf4cde45b"
+            "value": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-23T18:50:02Z",
+            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-21T22:50:27Z",
+        "fundamentals_at": "2026-11-23T23:00:53Z",
         "price": 206.17,
         "currency": "USD",
         "change_pct": -1.056,
         "news": [
           {
-            "headline": "How Many Shares of Chevron, Shell or Exxon Pay $1,000 a Month in Dividends?",
-            "url": "https://finnhub.io/api/news?id=6a7837123469be1a8022fbc0450a0b581be41d755740d447dfec7cecf4cde45b",
+            "headline": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715",
             "source": "Yahoo",
-            "published_at": "2026-11-21T10:50:32Z",
+            "published_at": "2026-11-23T18:50:02Z",
             "primary": false,
             "symbol": "CVX"
           },
           {
-            "headline": "What Does Chevron (CVX) Greece Offshore Exploration Mean For Investors?",
-            "url": "https://finnhub.io/api/news?id=17d9a43edc4e0bbf7660ddb89bb64ff7cd0f83be77c80cfdbab6db2f6c8a1801",
+            "headline": "Chevron Corp. (CVX): Q3 Earnings Triple on Refining Margin Surge",
+            "url": "https://finnhub.io/api/news?id=186802f494677968a469c5c563f81f6c712f439135a421166223bb98b3b29e1b",
             "source": "Yahoo",
-            "published_at": "2026-11-21T01:12:00Z",
+            "published_at": "2026-11-23T17:39:36Z",
             "primary": false,
             "symbol": "CVX"
           }
@@ -11395,7 +11395,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Aerospace & Defense",
-        "why": "Net profit margin 8.2% (TTM); Return on equity 78.8% (TTM); Trailing P/E 20.4×; TTM revenue growth 7.9% YoY",
+        "why": "Net profit margin 8.2% (TTM); Return on equity 78.8% (TTM); Trailing P/E 20.1×; TTM revenue growth 7.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11409,35 +11409,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T23:48:12Z",
+            "timestamp": "2026-11-23T23:00:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "LMT Gets $740M Awards, GD, RTX Pick Up Missile Contracts – A Look At This Week’s Defense Deals",
-            "timestamp": "2026-11-21T12:00:00Z",
-            "url": "https://finnhub.io/api/news?id=5460dfc551986587159f1efbeec73d5105b5ded6f7680be72d7daa0c6e47108e"
+            "value": "Is Lockheed Martin (LMT) Undervalued After Its New Cybersecurity Partnership?",
+            "timestamp": "2026-11-23T18:09:57Z",
+            "url": "https://finnhub.io/api/news?id=3790891693079f39f955913a63fcd1402ad7b3fa4fb508bcb22d1419a3c3a960"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-21T23:48:12Z",
+        "fundamentals_at": "2026-11-23T23:00:53Z",
         "price": 571.67,
         "currency": "USD",
         "change_pct": 1.091,
         "news": [
           {
-            "headline": "LMT Gets $740M Awards, GD, RTX Pick Up Missile Contracts – A Look At This Week’s Defense Deals",
-            "url": "https://finnhub.io/api/news?id=5460dfc551986587159f1efbeec73d5105b5ded6f7680be72d7daa0c6e47108e",
+            "headline": "Is Lockheed Martin (LMT) Undervalued After Its New Cybersecurity Partnership?",
+            "url": "https://finnhub.io/api/news?id=3790891693079f39f955913a63fcd1402ad7b3fa4fb508bcb22d1419a3c3a960",
             "source": "Yahoo",
-            "published_at": "2026-11-21T12:00:00Z",
+            "published_at": "2026-11-23T18:09:57Z",
             "primary": false,
             "symbol": "LMT"
           },
           {
-            "headline": "Is Lockheed Martin Stock's 6% Cash Yield Solid?",
-            "url": "https://finnhub.io/api/news?id=cc7406fe9662ba1c5214de9dbeddccea0e96c0e39a54a98e88aa88069528bafe",
+            "headline": "Global Airborne Electronic Warfare Market Report 2026 | Capitalize on AI and unmanned systems to capture $19.07 billion by 2030 with RTX, Boeing, Lockheed Martin and BAE Systems",
+            "url": "https://finnhub.io/api/news?id=6d771c2081de695e50a6104995f1ddeb140b0ddac91b5caaf7dc6cb4f2108fa2",
             "source": "Yahoo",
-            "published_at": "2026-11-21T06:32:47Z",
+            "published_at": "2026-11-23T15:20:00Z",
             "primary": false,
             "symbol": "LMT"
           }
@@ -11447,12 +11447,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 382.75,
-          "entry_floor": 344.48,
-          "exit_review_low": 490.71,
-          "exit_review_high": 578.79,
-          "bear_case": 273.93,
-          "scenario_upside_pct": -14.2,
+          "entry_ceiling": 388.78,
+          "entry_floor": 349.9,
+          "exit_review_low": 498.44,
+          "exit_review_high": 587.9,
+          "bear_case": 278.25,
+          "scenario_upside_pct": -12.8,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11465,12 +11465,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 20.37,
+            "trailing_pe": 20.06,
             "earnings_growth_assumed_pct": 3.54,
             "scenario_exit_pe": 16.89,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T23:48:12Z"
+            "metrics_retrieved_at": "2026-11-23T23:00:53Z"
           }
         },
         "ranking_score": 78,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T21:59:40Z",
+      "generated_at": "2026-11-23T23:00:53Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
