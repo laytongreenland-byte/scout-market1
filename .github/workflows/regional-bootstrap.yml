@@ -5,6 +5,7 @@ on:
     paths:
       - .github/workflows/regional-bootstrap.yml
       - nzx_research.py
+      - learning_review.py
       - nzx_paper.py
       - nzx_fundamentals.py
       - market_catalog.py
@@ -39,6 +40,8 @@ jobs:
         run: python nzx_fundamentals.py
       - name: Publish NZX filings, evidence screens and independent educational paper trading
         run: python nzx_research.py
+      - name: Audit learning progress and mistakes without training on unlicensed NZX data
+        run: python learning_review.py
       - name: Save regional data only when fresher than remote snapshots
         run: |
           mkdir -p /tmp/scout-regional
@@ -47,6 +50,7 @@ jobs:
           cp data/nzx_research.json /tmp/scout-regional/nzx_research.json
           cp data/nzx_fundamentals.json /tmp/scout-regional/nzx_fundamentals.json
           cp data/nzx_history.json /tmp/scout-regional/nzx_history.json
+          cp data/learning_review.json /tmp/scout-regional/learning_review.json
           git config user.name "scout-regional-bootstrap-bot"
           git config user.email "scout-regional-bootstrap-bot@users.noreply.github.com"
           for attempt in 1 2 3; do
@@ -55,7 +59,7 @@ jobs:
             python - <<'PY'
           import json
           from pathlib import Path
-          for name in ("market_catalog.json","apac.json","nzx_research.json","nzx_history.json","nzx_fundamentals.json"):
+          for name in ("market_catalog.json","apac.json","nzx_research.json","nzx_history.json","nzx_fundamentals.json","learning_review.json"):
               incoming=Path('/tmp/scout-regional')/name
               destination=Path('data')/name
               fresh=json.loads(incoming.read_text())
@@ -105,7 +109,7 @@ jobs:
               destination.write_text(incoming.read_text())
               print(name,': refreshed without modifying US research or learning')
           PY
-            git add data/market_catalog.json data/apac.json data/nzx_research.json data/nzx_history.json data/nzx_fundamentals.json
+            git add data/market_catalog.json data/apac.json data/nzx_research.json data/nzx_history.json data/nzx_fundamentals.json data/learning_review.json
             if git diff --cached --quiet; then break; fi
             git commit -m "Refresh independent NZX and ASX discovery and EOD research"
             if git push origin HEAD:main; then break; fi
