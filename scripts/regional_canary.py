@@ -51,6 +51,24 @@ def run():
             result['NZX']['sample_etf_price']='OK' if etf else 'NO_VERIFIED_EOD_BAR'
         except Exception as exc:
             result['NZX']['sample_etf_price']=status_error(exc)
+        # Validate company-announcement field names without copying announcement text.
+        try:
+            announcement=request(NZX_ROOT+'announcements?ticker=AIR&limit=2',nzkey)
+            payload=announcement.get('data',announcement) if isinstance(announcement,dict) else announcement
+            if isinstance(payload,dict):
+                for k in ('announcements','results','items','data'):
+                    if isinstance(payload.get(k),list):payload=payload[k];break
+            if isinstance(payload,list):
+                result['NZX']['announcement_feed']='OK'
+                result['NZX']['announcement_count_sample']=len(payload)
+                if payload and isinstance(payload[0],dict):
+                    result['NZX']['announcement_fields']=sorted(payload[0])[:35]
+                    result['NZX']['announcement_link_fields']={
+                        k: str(payload[0][k])[:200] for k in ('url','source_url','nzx_url','announcement_url','id','announcement_id')
+                        if k in payload[0]}
+            else:result['NZX']['announcement_feed']='UNRECOGNISED_SCHEMA'
+        except Exception as exc:
+            result['NZX']['announcement_feed']=status_error(exc)
         # Schema inspection only, no unauthorised financial records published.
         for title,url in (('company_detail',NZX_ROOT+'companies/AIR?include=financials'),
                           ('metrics',NZX_ROOT+'metrics/AIR')):
