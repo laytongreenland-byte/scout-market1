@@ -25,7 +25,7 @@ const ScoutNZX=(()=>{
   function statusBar(){
     if(!active())return '<strong>NZX · DATA UNAVAILABLE</strong><p>NZX research has not been published. The US system continues independently.</p>';
     const c=nzx.coverage||{},up=apac?.markets?.NZX||{};
-    return '<strong>NZX · NEW ZEALAND RESEARCH</strong><p>'+safe(c.listed||0)+' listed companies · '+
+    return '<strong>NZX · NEW ZEALAND RESEARCH</strong><p>'+safe(c.companies||0)+' companies + '+safe(c.etfs||0)+' ETFs · '+
       safe(c.verified_eod||0)+' verified recent NZD closes · '+safe(c.financially_scored||0)+
       ' issuer financial screens. '+safe(up.status||'Data feed pending')+
       '. Not all NZX instruments or Sharesies investments are covered.</p>';
@@ -65,10 +65,12 @@ const ScoutNZX=(()=>{
   function renderWeekly(){
     const target=$('nzx-weekly');if(!target)return;
     const rows=active()?(nzx.weekly?.shortlist||[]):[];
+    const funds=active()?(nzx.weekly?.etf_watch||[]):[];
     target.innerHTML='<strong>NZX · THIS WEEK’S RESEARCH WATCH</strong>'+
       '<p class="muted">Part of Scout’s weekly research, but not mixed into the US valuation ranking. No NZD entry or selling levels are made up.</p>'+
       (rows.length?rows.map(c=>card(c,true)).join(''):
-        '<p>No NZX companies currently have sufficiently recent verified prices for watch notes.</p>');
+        '<p>No NZX companies currently have sufficiently recent verified prices for watch notes.</p>')+
+      (funds.length?'<strong>NZX · CORE ETF RESEARCH</strong><p class="muted">Potential diversified funds to research, not buy rankings. Check the fund factsheet, fees and Sharesies availability.</p>'+funds.map(c=>card(c,true)).join(''):'');
   }
   function renderOverview(){
     const target=$('nzx-overview');if(!target)return;
@@ -81,9 +83,10 @@ const ScoutNZX=(()=>{
     const target=$('quotes');if(!target||!active())return;
     const search=String($('quote-search')?.value||'').trim().toLowerCase();
     const quoteType=$('quote-filter')?.value||'all';
-    if(quoteType==='etfs')return;
-    const records=nzx.candidates.filter(c=>c.symbol.toLowerCase().includes(search)||
-                                        c.name.toLowerCase().includes(search));
+    const records=nzx.candidates.filter(c=>(quoteType==='all'||
+      (quoteType==='etfs'&&c.type==='ETF')||
+      (quoteType==='stocks'&&c.type!=='ETF'))&&
+      (c.symbol.toLowerCase().includes(search)||c.name.toLowerCase().includes(search)));
     const prices=records.filter(c=>val(c.price));
     const display=(showAll||search)?records:records.slice(0,15);
     target.insertAdjacentHTML('beforeend','<div class="card note-card"><strong>NZX · VERIFIED NZD END-OF-DAY PRICES</strong>'+
