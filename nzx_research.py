@@ -73,7 +73,7 @@ def build(catalog,apac,latest,history=None,now=None,fundamentals=None):
         # The existing NZXplorer RSS feed often omits structured tickers
         # despite the headline beginning with [AIR], [FPH], etc.
         if not sym:
-            match=re.match(r'^\\[([A-Z0-9]{2,6})\\]',str(e.get('title','')))
+            match=re.match(r'^\[([A-Z0-9]{2,6})\]',str(e.get('title','')))
             sym=match.group(1) if match else None
         if not isinstance(sym,str) or sym not in listing: continue
         if not e.get('url') or not e.get('published_at'): continue
