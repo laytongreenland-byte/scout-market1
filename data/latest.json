@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:16:20Z",
+  "generated_at": "2026-11-23T07:31:21Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T07:16:20Z",
+      "checked_at": "2026-11-23T07:31:21Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T07:16:20Z",
+      "checked_at": "2026-11-23T07:31:21Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T07:16:20Z",
+      "checked_at": "2026-11-23T07:31:21Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T07:16:20Z",
+      "checked_at": "2026-11-23T07:31:21Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T07:16:20Z",
+      "checked_at": "2026-11-23T07:31:21Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T07:16:20Z",
+    "generated_at": "2026-11-23T07:31:21Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9850,7 +9850,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T07:16:20Z",
+            "timestamp": "2026-11-23T07:31:21Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9861,7 +9861,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-23T07:16:20Z",
+        "fundamentals_at": "2026-11-23T07:31:21Z",
         "price": 171.32,
         "currency": "USD",
         "change_pct": 0.617,
@@ -13494,7 +13494,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T06:52:30Z",
+            "timestamp": "2026-11-23T07:04:42Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -13505,7 +13505,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-23T06:52:30Z",
+        "fundamentals_at": "2026-11-23T07:04:42Z",
         "price": 403.66,
         "currency": "USD",
         "change_pct": -3.601,
@@ -13547,7 +13547,7 @@
             "scenario_exit_pe": 18.83,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T06:52:30Z"
+            "metrics_retrieved_at": "2026-11-23T07:04:42Z"
           }
         },
         "ranking_score": 76,
@@ -15222,7 +15222,7 @@
     },
     "urgent_alerts": [],
     "learning": {
-      "checked_at": "2026-11-23T06:52:30Z",
+      "checked_at": "2026-11-23T07:04:06Z",
       "last_review_week": "2026-11-23",
       "status": "COLLECTING",
       "model_active": false,
@@ -15247,7 +15247,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T07:16:20Z",
+      "generated_at": "2026-11-23T07:31:21Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 783,
