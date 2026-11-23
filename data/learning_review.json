@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-23T08:13:16.311731Z",
+  "status": "COLLECTING_OUTCOMES",
+  "description": "Transparent post-mortem review of frozen decisions; no automatic NZX machine learning or real trades.",
+  "summary": {
+    "us": {
+      "market": "US",
+      "recorded": 120,
+      "opened": 0,
+      "closed": 0,
+      "with_verified_return": 0,
+      "losing": 0,
+      "no_entry": 0,
+      "unverified": 0,
+      "pending": 16,
+      "enough_history_to_adjust_rules": false,
+      "method_reviews": {}
+    },
+    "nzx": {
+      "market": "NZX",
+      "recorded": 1,
+      "opened": 0,
+      "closed": 0,
+      "with_verified_return": 0,
+      "losing": 0,
+      "no_entry": 0,
+      "unverified": 0,
+      "pending": 1,
+      "enough_history_to_adjust_rules": false,
+      "method_reviews": {}
+    },
+    "verified_closed_total": 0,
+    "ready_to_claim_improved_accuracy": false
+  },
+  "lessons": [
+    {
+      "kind": "PROCESS_CORRECTION",
+      "severity": "review",
+      "title": "Earlier NZX penny-share screen was too permissive",
+      "detail": "1 frozen legacy idea(s) were generated below NZ$0.10. A later, more conservative screen now excludes new paper entries at those prices. Original decisions are preserved for accountability.",
+      "evidence_count": 1,
+      "verified_profitable_trades": 0,
+      "change": "New NZX paper-entry gate requires a price of at least NZ$0.10. This is a risk guardrail, not a proven return advantage."
+    },
+    {
+      "kind": "OUTCOME_PENDING",
+      "severity": "waiting",
+      "title": "No completed paper outcomes yet",
+      "detail": "Scout cannot tell you which selection rules are profitable until later verified closes, costs and sufficient independent weeks have been recorded. It must not call a pending paper idea a win or a mistake.",
+      "evidence_count": 0,
+      "change": "Keep collecting outcomes without rewriting the original rules."
+    }
+  ],
+  "feedback_policy": {
+    "step_1": "Freeze the original score, source evidence, costs, entry and selling rule at the time of decision.",
+    "step_2": "Observe later market-session prices and record fills or missed entries, never fill same-day or retrospectively.",
+    "step_3": "Explain negative outcomes and missed opportunities, preserving earlier mistakes.",
+    "step_4": "Compare at least 12 closed results from six distinct independent weeks per method before proposing any changed selection rule.",
+    "step_5": "Keep revised rules in an independent shadow test before allowing them to affect future rankings. Do not train on NZXplorer data without written permission."
+  },
+  "licensing": "NZXplorer expressly prohibits training ML/AI on its data without written permission. This is a non-training accountability review only.",
+  "limitations": [
+    "Closed paper outcomes are not evidence of future investment profits.",
+    "NZX rules have been revised for risk control; no independent validation of an accuracy improvement yet.",
+    "US statistical learning retains its pre-existing independent validation gates."
+  ]
+}
