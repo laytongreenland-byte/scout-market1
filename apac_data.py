@@ -161,8 +161,8 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
         if prior_day!=today and can_retry:
             # NZX roughly fits a 20/day rolling EOD scan without exceeding
             # its documented free 250/day limit; ASX remains quota-cautious.
-            default_limit=25 if market=='NZX' else 10
-            upper_limit=25 if market=='NZX' else 30
+            default_limit=40 if market=='NZX' else 10
+            upper_limit=40 if market=='NZX' else 30
             setting='SCOUT_'+market+'_PRICE_DAILY_LIMIT'
             try: requested=int(os.environ.get(setting,str(default_limit)))
             except ValueError: requested=default_limit
