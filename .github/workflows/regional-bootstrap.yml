@@ -1,0 +1,62 @@
+name: Scout regional catalogue bootstrap
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/regional-bootstrap.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: scout-regional-bootstrap
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NZXPLORER_API_KEY: ${{ secrets.NZXPLORER_API_KEY }}
+      SEABEE_API_KEY: ${{ secrets.SEABEE_API_KEY }}
+      SCOUT_NZX_PRICE_DAILY_LIMIT: '10'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh independent exchange company catalogue
+        run: python market_catalog.py
+      - name: Refresh a small validated sample of regional EOD prices
+        run: python apac_data.py
+      - name: Save regional data only when fresher than remote snapshots
+        run: |
+          mkdir -p /tmp/scout-regional
+          cp data/market_catalog.json /tmp/scout-regional/market_catalog.json
+          cp data/apac.json /tmp/scout-regional/apac.json
+          git config user.name "scout-regional-bootstrap-bot"
+          git config user.email "scout-regional-bootstrap-bot@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ("market_catalog.json","apac.json"):
+              incoming=Path('/tmp/scout-regional')/name
+              destination=Path('data')/name
+              fresh=json.loads(incoming.read_text())
+              try:
+                  current=json.loads(destination.read_text())
+              except (OSError,ValueError):
+                  current={}
+              if str(current.get('generated_at','')) > str(fresh.get('generated_at','')):
+                  print(name,': preserved newer remote file')
+                  continue
+              destination.write_text(incoming.read_text())
+              print(name,': refreshed without modifying US research or learning')
+          PY
+            git add data/market_catalog.json data/apac.json
+            if git diff --cached --quiet; then break; fi
+            git commit -m "Refresh independent NZX and ASX discovery and EOD research"
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+          done
