@@ -1,11 +1,12 @@
 {
-  "checked_at": "2026-11-23T07:34:53.747550+00:00",
+  "checked_at": "2026-11-23T07:37:07.370367+00:00",
   "research_only": true,
   "note": "One sampled provider request only; this is not full price coverage.",
   "NZX": {
     "directory": "OK",
     "listings_seen": 128,
     "sample_price": "OK",
+    "sample_etf_price": "OK",
     "company_detail": "OK",
     "company_detail_keys": [
       "description",
@@ -46,6 +47,86 @@
       "sector",
       "ticker",
       "valuation"
+    ],
+    "metrics_profitability_keys": [
+      "asset_turnover",
+      "ebit_margin",
+      "ebitda_margin",
+      "gross_margin",
+      "net_margin",
+      "roa",
+      "roe",
+      "roic"
+    ],
+    "metrics_leverage_keys": [
+      "current_ratio",
+      "debt_to_assets",
+      "debt_to_equity",
+      "equity_ratio",
+      "financial_leverage",
+      "interest_cover",
+      "net_debt_to_capital",
+      "net_debt_to_ebitda",
+      "net_debt_to_equity"
+    ],
+    "metrics_cash_flow_keys": [
+      "capex_to_revenue",
+      "cash_flow_to_debt",
+      "fcf_margin",
+      "fcf_to_net_income",
+      "fcf_yield_on_equity",
+      "ocf_to_net_income"
+    ],
+    "metrics_dividends_keys": [
+      "dividend_cover",
+      "payout_ratio"
+    ],
+    "metrics_growth_keys": [
+      "dps_growth",
+      "ebitda_growth",
+      "eps_growth",
+      "equity_growth",
+      "net_profit_growth",
+      "ocf_growth",
+      "revenue_growth",
+      "total_assets_growth"
+    ],
+    "metrics_valuation_keys": [
+      "dividend_yield",
+      "earnings_yield",
+      "enterprise_value",
+      "ev_to_ebitda",
+      "ev_to_revenue",
+      "pb_ratio",
+      "pe_ratio",
+      "ps_ratio"
+    ],
+    "metrics_composite_keys": [
+      "dupont_roe"
+    ],
+    "metrics_not_meaningful_keys": [],
+    "metrics_live_valuation_keys": [
+      "current_price",
+      "dividend_yield",
+      "earnings_yield",
+      "enterprise_value",
+      "ev_to_ebitda",
+      "ev_to_revenue",
+      "fcf_yield",
+      "market_cap",
+      "pb_ratio",
+      "pe_ratio",
+      "ps_ratio"
+    ],
+    "metrics_price_performance_keys": [
+      "price_52w_high",
+      "price_52w_low",
+      "return_1d",
+      "return_1m",
+      "return_1w",
+      "return_1y",
+      "return_ytd",
+      "volatility_1y"
     ]
   },
   "ASX": {
