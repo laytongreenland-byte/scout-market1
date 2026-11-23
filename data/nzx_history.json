@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "market": "NZX",
+  "currency": "NZD",
+  "observations": [
+    {
+      "symbol": "ALF",
+      "date": "2026-11-20",
+      "price": 0.6,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "ARB",
+      "date": "2026-11-20",
+      "price": 0.065,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "ANZ",
+      "date": "2026-11-23",
+      "price": 45.8,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "AOF",
+      "date": "2026-11-23",
+      "price": 0.042,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "APL",
+      "date": "2026-11-23",
+      "price": 0.166,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "ARG",
+      "date": "2026-11-23",
+      "price": 1.02,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "ATM",
+      "date": "2026-11-23",
+      "price": 7.73,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "BAI",
+      "date": "2026-11-23",
+      "price": 0.003,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "BFG",
+      "date": "2026-11-23",
+      "price": 0.37,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "BGP",
+      "date": "2026-11-23",
+      "price": 4.1,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:29:28Z"
+    }
+  ],
+  "calls": [
+    {
+      "id": "2026-11-23|NZX|ALF|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ALF",
+      "name": "Allied Farmers Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-20",
+      "reference_price": 0.6,
+      "reason": "Verified NZD exchange close for 2026-11-20; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|ANZ|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ANZ",
+      "name": "ANZ Group Holdings Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 45.8,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|AOF|WATCH",
+      "week": "2026-11-23",
+      "symbol": "AOF",
+      "name": "AoFrio Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.042,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|APL|WATCH",
+      "week": "2026-11-23",
+      "symbol": "APL",
+      "name": "Asset Plus",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.166,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|ARB|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ARB",
+      "name": "ArborGen Holdings Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-20",
+      "reference_price": 0.065,
+      "reason": "Verified NZD exchange close for 2026-11-20; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|ARG|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ARG",
+      "name": "Argosy Property Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 1.02,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|ATM|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ATM",
+      "name": "The a2 Milk Company Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 7.73,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BAI|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BAI",
+      "name": "Being AI",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.003,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BFG|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BFG",
+      "name": "Burger Fuel Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.37,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BGP|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BGP",
+      "name": "Briscoe Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:29:28Z",
+      "original_date": "2026-11-23",
+      "reference_price": 4.1,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
+      "price_targets": null
+    }
+  ]
+}\n
