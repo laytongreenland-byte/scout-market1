@@ -81,7 +81,7 @@ class MarketCatalogTests(unittest.TestCase):
     def test_nzx_unpaginated_provider_response_is_accepted_without_offset_requests(self):
         companies=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(140)]
         def mocked_fetch(url,key=None):
-            if url==mc.NZX_DIRECTORY:return json.dumps({'data':companies}).encode()
+            if url==mc.NZX_FULL:return json.dumps({'data':companies}).encode()
             raise AssertionError('Unnecessary paginated provider request')
         with patch.object(mc,'fetch_apac',side_effect=mocked_fetch),patch.dict('os.environ',{'NZXPLORER_API_KEY':'dummy'},clear=False):
             items,markets,sources=mc.apac_discovery()
@@ -103,7 +103,7 @@ class MarketCatalogTests(unittest.TestCase):
 
     def test_recent_failed_nzx_check_is_not_repeated_hourly(self):
         now=mc.NOW
-        prior={"schema_version":2,"nzx_directory_strategy_version":2,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
+        prior={"schema_version":2,"nzx_directory_strategy_version":3,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
                "markets":{"NZX":{"status":"NOT_CONNECTED","last_attempt_at":mc.stamp(now-timedelta(hours=2))}}}
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/"market_catalog.json"
