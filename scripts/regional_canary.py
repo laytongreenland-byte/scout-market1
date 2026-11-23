@@ -55,9 +55,16 @@ def run():
                 if isinstance(payload,dict):
                     result['NZX'][title+'_keys']=sorted(str(k) for k in payload)[:50]
                     if title=='company_detail':
-                        for f in ('financials','metrics'):
-                            if isinstance(payload.get(f),dict):
-                                result['NZX'][f+'_keys']=sorted(str(k) for k in payload[f])[:50]
+                        for field in ('financials','metrics'):
+                            if isinstance(payload.get(field),dict):
+                                result['NZX'][field+'_keys']=sorted(str(k) for k in payload[field])[:50]
+                                for group,details in payload[field].items():
+                                    if isinstance(details,dict):
+                                        result['NZX'][field+'_'+str(group)+'_keys']=sorted(map(str,details.keys()))[:50]
+                    if title=='metrics':
+                        for group,details in payload.items():
+                            if isinstance(details,dict):
+                                result['NZX']['metrics_'+str(group)+'_keys']=sorted(map(str,details.keys()))[:50]
             except Exception as exc:
                 result['NZX'][title]=status_error(exc)
     asxkey=os.environ.get('SEABEE_API_KEY','').strip()
