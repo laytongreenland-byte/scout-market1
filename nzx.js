@@ -8,7 +8,7 @@ const ScoutNZX=(()=>{
   const money=n=>val(n)?'NZ$'+Number(n).toLocaleString('en-NZ',{minimumFractionDigits:2,maximumFractionDigits:4}):'No verified close';
   const pct=n=>val(n)?(n>0?'+':'')+n.toFixed(2)+'%':'—';
   const sourceUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'?u.href:null}catch{return null}};
-  let nzx=null,apac=null,last=null,showAll=false;
+  let nzx=null,apac=null,feedback=null,last=null,showAll=false;
   const active=()=>nzx&&nzx.market==='NZX'&&Array.isArray(nzx.candidates);
   const ticker=q=>String(q?.symbol||'').toUpperCase();
   function panel(id,anchor,html,where='afterend'){
@@ -84,10 +84,26 @@ const ScoutNZX=(()=>{
   }
   function renderOverview(){
     const target=$('nzx-overview');if(!target)return;
-    const entries=active()?(nzx.weekly?.shortlist||[]):[];
-    target.innerHTML=statusBar()+
-      (entries.length?'<p>NZX company research and candidate paper-trade rules (not real buying instructions):</p>'+entries.slice(0,2).map(c=>card(c,true)).join(''):
-        '<p>No current NZX buy candidate is being claimed. Research is gated on evidence quality.</p>');
+    if(!active()){target.innerHTML='<p>Regional research is unavailable or still publishing. The US screen continues independently.</p>';return}
+    const c=nzx.coverage||{},paper=nzx.paper?.summary||{},us=feedback?.summary?.us||{};
+    const reviewed=feedback?.summary?.verified_closed_total||0;
+    const lesson=feedback?.lessons?.[0];
+    target.innerHTML='<div class="nzx-home-metrics">'+
+      '<div><strong>'+safe(c.companies||0)+'</strong><span>NZX companies</span></div>'+
+      '<div><strong>'+safe(c.verified_eod||0)+'</strong><span>Verified NZD prices</span></div>'+
+      '<div><strong>'+safe(paper.recorded||0)+'</strong><span>Frozen paper ideas</span></div>'+
+      '</div>'+
+      '<p><strong>'+(reviewed?'Reviewing completed outcomes':'Waiting for later paper outcomes')+'</strong> · NZX '+
+      safe(paper.closed||0)+' finished / '+safe(paper.waiting||0)+' waiting; US '+safe(us.closed||0)+
+      ' finished. A pending prediction is neither a win nor a loss.</p>'+
+      (lesson?'<div class="nzx-lesson-mini"><strong>What Scout has identified</strong><p>'+
+        safe(lesson.title)+': '+safe(lesson.change||lesson.detail||'')+'</p></div>':
+        '<p>Scout preserves original decisions, then checks later prices before judging the rule.</p>')+
+      '<p class="muted">Financial screens '+safe(c.financially_scored||0)+' · Price feed '+
+      safe(apac?.markets?.NZX?.status||'unavailable')+' · Last research '+
+      safe((nzx.generated_at||'').replace('T',' ').slice(0,16))+
+      ' UTC. NZX ML is not enabled under the current data licence.</p>';
+    const build=$('nzx-build-id');if(build)build.textContent='NZX INCLUDED';
   }
   function renderQuotes(){
     const target=$('quotes');if(!target||!active())return;
@@ -99,7 +115,8 @@ const ScoutNZX=(()=>{
       (c.symbol.toLowerCase().includes(search)||c.name.toLowerCase().includes(search)));
     const prices=records.filter(c=>val(c.price));
     const display=(showAll||search)?records:records.slice(0,15);
-    target.insertAdjacentHTML('beforeend','<div class="card note-card"><strong>NZX · VERIFIED NZD END-OF-DAY PRICES</strong>'+
+    const old=$('nzx-quote-section');if(old)old.remove();
+    target.insertAdjacentHTML('beforeend','<div id="nzx-quote-section" class="card note-card"><strong>NZX · VERIFIED NZD END-OF-DAY PRICES</strong>'+
       '<p>'+safe(prices.length)+' of '+safe(records.length)+' matching issuers have recent verified prices. Missing prices remain missing; NZX is not a USD share.</p>'+
       display.map(c=>'<div class="quote-row"><div class="ticker-circle">'+safe(c.symbol.slice(0,5))+'</div>'+
         '<div class="quote-left"><strong>NZX:'+safe(c.symbol)+'</strong><div>'+safe(c.name)+' · '+safe(c.price_date||'No recent EOD')+'</div></div>'+
@@ -129,6 +146,10 @@ const ScoutNZX=(()=>{
     const target=$('nzx-paper');if(!target)return;
     if(!active()){target.innerHTML='<strong>NZX paper results unavailable</strong>';return}
     const paper=nzx.paper||{},stats=paper.summary||{},records=paper.records||[];
+    const us=feedback?.summary?.us||{},lessons=feedback?.lessons||[];
+    const lessonCards=lessons.slice(0,5).map(l=>'<div class="nzx-lesson-item"><strong>'+safe(l.title)+
+      '</strong><p>'+safe(l.detail||'')+'</p><p><em>Response:</em> '+safe(l.change||'Pending review')+
+      '</p></div>').join('');
     const statuses={
       'WAITING_TO_BUY':'Waiting for a later close to reach entry',
       'OPEN':'Paper shares bought at a later observed close',
@@ -156,7 +177,13 @@ const ScoutNZX=(()=>{
         (sourceUrl(x.filing_url)?'<a href="'+safe(sourceUrl(x.filing_url))+'" target="_blank" rel="noopener noreferrer">Issuer-linked announcement feed</a>':'')+
         '<p>Close-based paper strategy; illustrative 1% fee each direction. Excludes spreads, distributions, share consolidations and NZ tax.</p></details></article>';
     };
-    target.innerHTML='<strong>NZX · PAPER-TRADING SCOREBOARD (NZD)</strong>'+
+    target.innerHTML='<strong>NZX · LEARNING FROM ITS DECISIONS</strong>'+
+      '<p>'+safe(stats.recorded||0)+' original NZX paper ideas · '+safe(stats.closed||0)+' finished · '+
+      safe(stats.negative||0)+' losing · '+safe(stats.no_entry||0)+' unfilled; '+
+      safe(us.recorded||0)+' US opinions separately tracked.</p>'+
+      '<p class="muted">The process is: make an evidence-based prediction, preserve it, check the later outcome, diagnose the error, then test a revised rule against new data. The original opinion is never rewritten.</p>'+
+      (lessonCards||'<p>No graded lessons yet. The system must gather later outcomes first.</p>')+
+      '<div class="divider"></div><strong>NZX · PAPER-TRADING SCOREBOARD (NZD)</strong>'+
       '<p>'+safe(stats.recorded||0)+' frozen paper opinions · '+safe(stats.opened||0)+' opened positions · '+
       safe(stats.closed||0)+' completed · '+safe(stats.positive||0)+' gains · '+
       safe(stats.negative||0)+' losses · '+safe(stats.no_entry||0)+' missed entry prices.</p>'+
@@ -176,21 +203,17 @@ const ScoutNZX=(()=>{
       ' The existing US model and its historical results are unchanged.';
   }
   async function load(){
-    nzx=null;apac=null;
-    try{
-      const responses=await Promise.all([
-        fetch('./data/nzx_research.json?nocache='+Date.now(),{cache:'no-store'}),
-        fetch('./data/apac.json?nocache='+Date.now(),{cache:'no-store'})
-      ]);
-      if(responses[0].ok){
-        const v=await responses[0].json();
-        if(v?.market==='NZX'&&v?.currency==='NZD'&&Array.isArray(v.candidates))nzx=v;
-      }
-      if(responses[1].ok){
-        const v=await responses[1].json();
-        if(v?.markets?.NZX)apac=v;
-      }
-    }catch{nzx=null;apac=null}
+    nzx=null;apac=null;feedback=null;
+    const read=async (path)=>{
+      try{
+        const response=await fetch('./data/'+path+'?v='+Date.now(),{cache:'no-store'});
+        return response.ok?await response.json():null;
+      }catch{return null}
+    };
+    const [n,a,l]=await Promise.all([read('nzx_research.json'),read('apac.json'),read('learning_review.json')]);
+    if(n?.market==='NZX'&&n?.currency==='NZD'&&Array.isArray(n.candidates))nzx=n;
+    if(a?.markets?.NZX)apac=a;
+    if(l?.schema_version===1&&l?.summary&&Array.isArray(l.lessons))feedback=l;
   }
   function render(data){
     last=data;makePanels();
