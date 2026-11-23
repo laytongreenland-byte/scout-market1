@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "verified_as_of": "2026-11-23",
+  "issuer": "Smart Exchange Traded Funds",
+  "scope": "Smart NZX-listed ETFs only; not the entire Sharesies or NZX ETF universe",
+  "sources": [
+    "https://www.smartinvest.co.nz/funds-and-performance/etfs",
+    "https://managedfunds.nz/smartshares/etfs/"
+  ],
+  "items": [
+    {
+      "symbol": "ASD",
+      "name": "Smart Australian Dividend ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "ASF",
+      "name": "Smart Australian Financials ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "ASR",
+      "name": "Smart Australian Resources ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "AUS",
+      "name": "Smart Australian Top 200 ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "DIV",
+      "name": "Smart NZ Dividend ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "FNZ",
+      "name": "Smart NZ Top 50 ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "MDZ",
+      "name": "Smart NZ Mid Cap ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "MZY",
+      "name": "Smart Australian Mid Cap ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "NZG",
+      "name": "Smart S&P/NZX 50 ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "OZY",
+      "name": "Smart Australian Top 20 ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "TNZ",
+      "name": "Smart NZ Top 10 ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "APA",
+      "name": "Smart Asia Pacific ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "BOT",
+      "name": "Smart Automation and Robotics ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "EMF",
+      "name": "Smart Emerging Markets ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "EMG",
+      "name": "Smart Emerging Markets ESG ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "ESG",
+      "name": "Smart Global ESG ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "EUF",
+      "name": "Smart Europe ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "EUG",
+      "name": "Smart Europe ESG ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "JPN",
+      "name": "Smart Japan ESG ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "LIV",
+      "name": "Smart Healthcare Innovation ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "TWF",
+      "name": "Smart Total World ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "USA",
+      "name": "Smart US ESG ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "USF",
+      "name": "Smart US 500 ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "USG",
+      "name": "Smart US Large Growth ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "USM",
+      "name": "Smart US Mid Cap ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "USS",
+      "name": "Smart US Small Cap ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "USV",
+      "name": "Smart US Large Value ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "NZB",
+      "name": "Smart NZ Bond ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "AGG",
+      "name": "Smart Global Aggregate Bond ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "GBF",
+      "name": "Smart Global Bond ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "ASP",
+      "name": "Smart Australian Property ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "NPF",
+      "name": "Smart NZ Property ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    },
+    {
+      "symbol": "BTC",
+      "name": "Smart Bitcoin ETF",
+      "market": "NZX",
+      "exchange": "NZX",
+      "type": "ETF",
+      "source": "Smart public fund catalogue"
+    }
+  ]
+}
