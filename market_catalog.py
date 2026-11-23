@@ -25,7 +25,9 @@ NOW=datetime.now(timezone.utc)
 FRESH_DAYS=7
 ASX_DIRECTORY='https://www.asx.com.au/asx/research/ASXListedCompanies.csv'
 NZX_DIRECTORY='https://nzxplorer.co.nz/api/v1/companies'
-NZX_PAGES=[NZX_DIRECTORY+'?limit=100&offset='+str(n) for n in (0,100,200)]
+# NZXplorer defaults to 50 rows. Limit 250 is within the documented 500 maximum.
+NZX_FULL=NZX_DIRECTORY+'?limit=250'
+NZX_PAGES=[NZX_DIRECTORY+'?limit=50&offset='+str(n) for n in (0,50,100,150)]
 MAX_BYTES=4_000_000
 SOURCES={
     'NASDAQ':'https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt',
@@ -104,7 +106,7 @@ def parse_listing(source,payload):
 
 
 def fetch_apac(url,key=None):
-    if url not in (ASX_DIRECTORY,NZX_DIRECTORY,*NZX_PAGES):
+    if url not in (ASX_DIRECTORY,NZX_DIRECTORY,NZX_FULL,*NZX_PAGES):
         raise ValueError('Unapproved exchange source')
     headers={'User-Agent':'Mozilla/5.0 (compatible; ScoutMarketDiscovery/1.0)', 'Accept':'application/json, text/csv;q=0.9, */*;q=0.1'}
     if key:
@@ -196,18 +198,18 @@ def apac_discovery(old=None):
             if market=='NZX' and not key:
                 raise ValueError('NZXPLORER_API_KEY not configured')
             if market=='NZX':
-                # Prefer the API's documented unpaginated list. Some provider
-                # deployments return HTTP 500 for offset/limit pagination.
-                # Fall back to bounded pages only if that full list fails.
+                # Explicit full-page request: default GET /companies returns only
+                # 50, which is not a complete NZX directory.
+                # Only fall back to bounded smaller pages if needed.
                 try:
-                    fresh=parser(fetch_apac(url,key))
+                    fresh=parser(fetch_apac(NZX_FULL,key))
                     if not 80<=len(fresh)<=350:
                         raise ValueError('NZX full list incomplete')
                 except (ValueError,urllib.error.HTTPError,urllib.error.URLError,TimeoutError):
                     pages=[parser(fetch_apac(page,key)) for page in NZX_PAGES]
                     fresh=list({record['symbol']:record for page in pages for record in page}.values())
                     if not 80<=len(fresh)<=350 or (
-                            len(pages[0])==100 and len(pages[1])==100 and pages[0]==pages[1]):
+                            len(pages[0])==50 and len(pages[1])==50 and pages[0]==pages[1]):
                         raise ValueError('NZX directory incomplete or pagination ignored')
             else:
                 fresh=parser(fetch_apac(url,key))
@@ -260,7 +262,7 @@ def build(fetcher=fetch_source,now=None,old=None):
     status='READY' if all(source_status[k]['ok'] for k in SOURCES) else 'PARTIAL' if items else 'UNAVAILABLE'
     return {
         'schema_version':2,
-        'nzx_directory_strategy_version':2,
+        'nzx_directory_strategy_version':3,
         'generated_at':stamp(now),
         'status':status,
         'platform':'Sharesies NZ (target only, availability NOT verified)',
@@ -302,7 +304,7 @@ def main():
             old=None
     if (os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and
             old.get('schema_version')==2 and old.get('status')=='READY' and
-            old.get('nzx_directory_strategy_version')==2):
+            old.get('nzx_directory_strategy_version')==3):
         at=parse_date(old.get('generated_at'))
         if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS):
             nz=old.get('markets',{}).get('NZX',{})
