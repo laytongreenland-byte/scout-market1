@@ -53,7 +53,7 @@ class MarketCatalogTests(unittest.TestCase):
         self.assertFalse(got['prices_collected'])
         self.assertFalse(got['valuation_done'])
         self.assertEqual(got['markets']['ASX']['status'],'NOT_CONNECTED')
-        self.assertEqual(got['markets']['NZX']['status'],'NOT_CONNECTED')
+        self.assertIn(got['markets']['NZX']['status'],('NOT_CONNECTED','PARTIAL_DISCOVERY'))
         self.assertEqual(len(got['items']),len({(x['market'],x['symbol']) for x in got['items']}))
 
     def test_asx_directory_parser_validates_rows(self):
@@ -99,11 +99,25 @@ class MarketCatalogTests(unittest.TestCase):
         self.assertEqual(report["markets"]["US"]["listed_in_directory"],
                          sum(1 for x in report["items"] if x["market"]=="US"))
         self.assertEqual(report["counts"]["listed_total"],
-                         report["markets"]["US"]["listed_in_directory"]+1)
+                         report["markets"]["US"]["listed_in_directory"]+1+len(mc.nzx_etf_list()))
+
+    def test_nzx_smart_etfs_are_discovered_without_broker_eligibility_claims(self):
+        etfs=mc.nzx_etf_list()
+        self.assertEqual(len(etfs),33)
+        self.assertTrue(any(x['symbol']=='FNZ' for x in etfs))
+        self.assertTrue(all(x['type']=='ETF' for x in etfs))
+        sources={mc.SOURCES[k]:listings(k) for k in mc.SOURCES}
+        with patch.object(mc,'fetch_apac',side_effect=TimeoutError('provider offline')):
+            result=mc.build(lambda url:sources[url],NOW)
+        self.assertFalse(result['sharesies_availability_verified'])
+        self.assertTrue(any(x['symbol']=='FNZ' and x['market']=='NZX'
+                            for x in result['items']))
+        self.assertEqual(result['counts']['listed_total'],
+                         len({(x['market'],x['symbol']) for x in result['items']}))
 
     def test_recent_failed_nzx_check_is_not_repeated_hourly(self):
         now=mc.NOW
-        prior={"schema_version":2,"nzx_directory_strategy_version":3,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
+        prior={"schema_version":2,"nzx_directory_strategy_version":4,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
                "markets":{"NZX":{"status":"NOT_CONNECTED","last_attempt_at":mc.stamp(now-timedelta(hours=2))}}}
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/"market_catalog.json"
