@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:49:46.639731+00:00",
+  "generated_at": "2026-11-23T07:50:47.570018+00:00",
   "companies": {
     "BGP": {
       "symbol": "BGP",
@@ -82,10 +82,10 @@
   },
   "fetched_day": "2026-11-23",
   "status": {
-    "attempted": 4,
-    "valid_this_scan": 4,
+    "attempted": 0,
+    "valid_this_scan": 0,
     "available": 4,
-    "status": "OK",
+    "status": "ALREADY_CHECKED",
     "errors": []
   }
 }
