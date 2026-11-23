@@ -103,7 +103,7 @@ class MarketCatalogTests(unittest.TestCase):
 
     def test_recent_failed_nzx_check_is_not_repeated_hourly(self):
         now=mc.NOW
-        prior={"schema_version":2,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
+        prior={"schema_version":2,"nzx_directory_strategy_version":2,"status":"READY","generated_at":mc.stamp(now-timedelta(hours=2)),
                "markets":{"NZX":{"status":"NOT_CONNECTED","last_attempt_at":mc.stamp(now-timedelta(hours=2))}}}
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/"market_catalog.json"
