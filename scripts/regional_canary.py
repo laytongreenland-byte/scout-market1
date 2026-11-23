@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 sys.path.insert(0,str(ROOT))
 from market_catalog import NZX_FULL, fetch_apac, parse_nzx
-from apac_data import fetch_nzx, fetch_asx, extract_rows, valid_price
+from apac_data import fetch_nzx, fetch_asx, extract_rows, valid_price, request, NZX_ROOT
 OUT=ROOT/'data'/'regional_canary.json'
 NOW=datetime.now(timezone.utc)
 
@@ -45,6 +45,21 @@ def run():
             result['NZX']['sample_price']='OK' if q else 'NO_VERIFIED_EOD_BAR'
         except Exception as exc:
             result['NZX']['sample_price']=status_error(exc)
+        # Schema inspection only, no unauthorised financial records published.
+        for title,url in (('company_detail',NZX_ROOT+'companies/AIR?include=financials'),
+                          ('metrics',NZX_ROOT+'metrics/AIR')):
+            try:
+                data=request(url,nzkey)
+                payload=data.get('data',data) if isinstance(data,dict) else data
+                result['NZX'][title]='OK' if isinstance(payload,dict) else 'UNRECOGNISED_SCHEMA'
+                if isinstance(payload,dict):
+                    result['NZX'][title+'_keys']=sorted(str(k) for k in payload)[:50]
+                    if title=='company_detail':
+                        for f in ('financials','metrics'):
+                            if isinstance(payload.get(f),dict):
+                                result['NZX'][f+'_keys']=sorted(str(k) for k in payload[f])[:50]
+            except Exception as exc:
+                result['NZX'][title]=status_error(exc)
     asxkey=os.environ.get('SEABEE_API_KEY','').strip()
     if not asxkey:
         result['ASX']={'sample_price':'NO_API_KEY'}
