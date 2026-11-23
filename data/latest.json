@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:54:45Z",
+  "generated_at": "2026-11-23T08:06:30Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T07:54:45Z",
+      "checked_at": "2026-11-23T08:06:30Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T07:54:45Z",
+      "checked_at": "2026-11-23T08:06:30Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T07:54:45Z",
+      "checked_at": "2026-11-23T08:06:30Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T07:54:45Z",
+      "checked_at": "2026-11-23T08:06:30Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T07:54:45Z",
+      "checked_at": "2026-11-23T08:06:30Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T07:54:45Z",
+    "generated_at": "2026-11-23T08:06:30Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8453,7 +8453,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 30.7% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.1×; TTM revenue growth 86.2% YoY",
+        "why": "Net profit margin 30.7% (TTM); Return on equity 10.7% (TTM); Trailing P/E 9.9×; TTM revenue growth 86.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8467,7 +8467,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T09:55:53Z",
+            "timestamp": "2026-11-23T08:06:30Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -8478,7 +8478,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T09:55:53Z",
+        "fundamentals_at": "2026-11-23T08:06:30Z",
         "price": 208.3,
         "currency": "USD",
         "change_pct": -1.172,
@@ -8532,7 +8532,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Construction",
-        "why": "Net profit margin 31.9% (TTM); Return on equity 18.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 8.6% YoY",
+        "why": "Net profit margin 31.9% (TTM); Return on equity 18.2% (TTM); Trailing P/E 15.5×; TTM revenue growth 8.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8546,35 +8546,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T09:55:53Z",
+            "timestamp": "2026-11-23T08:06:30Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Martin Marietta Stock Really Expensive?",
-            "timestamp": "2026-11-20T11:31:33Z",
-            "url": "https://finnhub.io/api/news?id=188bdc2026fc14ffb666ad764396a3d6eca156c0e7255db0772958d69d6ea9ef"
+            "value": "Here's How Much $1000 Invested In Martin Marietta Materials 15 Years Ago Would Be Worth Today",
+            "timestamp": "2026-11-20T16:45:57Z",
+            "url": "https://finnhub.io/api/news?id=ebe076b9a440054893a03ede48363baf8d59cb88aaae821a86a7dc9b918f535d"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T09:55:53Z",
+        "fundamentals_at": "2026-11-23T08:06:30Z",
         "price": 500.74,
         "currency": "USD",
         "change_pct": -1.186,
         "news": [
           {
-            "headline": "Is Martin Marietta Stock Really Expensive?",
-            "url": "https://finnhub.io/api/news?id=188bdc2026fc14ffb666ad764396a3d6eca156c0e7255db0772958d69d6ea9ef",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T11:31:33Z",
+            "headline": "Here's How Much $1000 Invested In Martin Marietta Materials 15 Years Ago Would Be Worth Today",
+            "url": "https://finnhub.io/api/news?id=ebe076b9a440054893a03ede48363baf8d59cb88aaae821a86a7dc9b918f535d",
+            "source": "Benzinga",
+            "published_at": "2026-11-20T16:45:57Z",
             "primary": false,
             "symbol": "MLM"
           },
           {
-            "headline": "Top British Hedge Fund Loads Up on Martin Marietta Stock, Trims Stake in Visa",
-            "url": "https://finnhub.io/api/news?id=22bed5a22313dbfcce6bec9c99e6f68cb9841d82add58a46532a3fa61581d081",
+            "headline": "Is Martin Marietta Stock Really Expensive?",
+            "url": "https://finnhub.io/api/news?id=188bdc2026fc14ffb666ad764396a3d6eca156c0e7255db0772958d69d6ea9ef",
             "source": "Yahoo",
-            "published_at": "2026-11-16T21:46:00Z",
+            "published_at": "2026-11-20T11:31:33Z",
             "primary": false,
             "symbol": "MLM"
           }
@@ -8584,12 +8584,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 441.46,
-          "entry_floor": 397.32,
-          "exit_review_low": 565.98,
-          "exit_review_high": 669.02,
-          "bear_case": 314.98,
-          "scenario_upside_pct": 13.0,
+          "entry_ceiling": 446.76,
+          "entry_floor": 402.09,
+          "exit_review_low": 572.77,
+          "exit_review_high": 677.05,
+          "bear_case": 318.76,
+          "scenario_upside_pct": 14.4,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8602,12 +8602,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.68,
+            "trailing_pe": 15.49,
             "earnings_growth_assumed_pct": 3.86,
             "scenario_exit_pe": 17.06,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T09:55:53Z"
+            "metrics_retrieved_at": "2026-11-23T08:06:30Z"
           }
         },
         "ranking_score": 82,
@@ -9850,7 +9850,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T07:31:21Z",
+            "timestamp": "2026-11-23T07:16:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9861,7 +9861,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-23T07:31:21Z",
+        "fundamentals_at": "2026-11-23T07:16:20Z",
         "price": 171.32,
         "currency": "USD",
         "change_pct": 0.617,
@@ -9929,7 +9929,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T07:54:45Z",
+            "timestamp": "2026-11-23T07:43:01Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9940,7 +9940,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-23T07:54:45Z",
+        "fundamentals_at": "2026-11-23T07:43:01Z",
         "price": 19.45,
         "currency": "USD",
         "change_pct": -2.896,
@@ -9994,7 +9994,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Food Products",
-        "why": "Net profit margin 19.4% (TTM); Return on equity 22.3% (TTM); Trailing P/E 8.3×; TTM revenue growth 13.2% YoY",
+        "why": "Net profit margin 19.4% (TTM); Return on equity 22.3% (TTM); Trailing P/E 8.6×; TTM revenue growth 13.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10008,7 +10008,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T10:55:20Z",
+            "timestamp": "2026-11-23T08:06:30Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -10019,7 +10019,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T10:55:20Z",
+        "fundamentals_at": "2026-11-23T08:06:30Z",
         "price": 47.4,
         "currency": "USD",
         "change_pct": 3.426,
@@ -13494,7 +13494,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T07:04:42Z",
+            "timestamp": "2026-11-23T06:52:30Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -13505,7 +13505,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-23T07:04:42Z",
+        "fundamentals_at": "2026-11-23T06:52:30Z",
         "price": 403.66,
         "currency": "USD",
         "change_pct": -3.601,
@@ -13547,7 +13547,7 @@
             "scenario_exit_pe": 18.83,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T07:04:42Z"
+            "metrics_retrieved_at": "2026-11-23T06:52:30Z"
           }
         },
         "ranking_score": 76,
@@ -15222,7 +15222,7 @@
     },
     "urgent_alerts": [],
     "learning": {
-      "checked_at": "2026-11-23T07:04:06Z",
+      "checked_at": "2026-11-23T06:52:30Z",
       "last_review_week": "2026-11-23",
       "status": "COLLECTING",
       "model_active": false,
@@ -15247,7 +15247,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T07:54:45Z",
+      "generated_at": "2026-11-23T08:06:30Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 783,
