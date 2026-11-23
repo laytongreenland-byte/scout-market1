@@ -7,6 +7,7 @@ on:
       - apac_data.py
       - nzx_research.py
       - nzx_fundamentals.py
+      - nzx_filings.py
       - nzx_paper.py
       - nzx.js
       - app.js
@@ -36,7 +37,7 @@ jobs:
           python-version: '3.12'
       - name: Validate Python syntax
         id: py_compile
-        run: python -m py_compile market_catalog.py apac_data.py nzx_fundamentals.py nzx_paper.py nzx_research.py scanner.py research.py
+        run: python -m py_compile market_catalog.py apac_data.py nzx_fundamentals.py nzx_filings.py nzx_paper.py nzx_research.py scanner.py research.py
       - name: Validate market UI syntax
         id: js_check
         run: node --check market.js && node --check nzx.js && node --check app.js
