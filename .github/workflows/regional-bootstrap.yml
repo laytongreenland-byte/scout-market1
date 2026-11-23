@@ -73,7 +73,7 @@ jobs:
                                                         k.startswith('change_')})
                       fresh['observations']=list(old_obs.values())[-20000:]
                       fresh['calls']=list(old_calls.values())[-2000:]
-                  destination.write_text(json.dumps(fresh,indent=2)+'\\n')
+                  destination.write_text(json.dumps(fresh,indent=2)+chr(10))
                   print(name,': prospective NZX observations merged')
                   continue
               if str(current.get('generated_at','')) > str(fresh.get('generated_at','')):
