@@ -20,15 +20,20 @@ const ScoutMarket=(()=>{
     const total=catalog.counts?.listed_total??catalog.items.length;
     const quoted=latest?.coverage?.quotes_fresh_this_scan??0;
     const screened=latest?.research?.screened_with_financials??0;
-    stats.textContent=count(total)+' exchange listings discovered (US/ASX/NZX) · '+count(quoted)+' US Scout price quotes · '+count(screened)+' US companies screened financially.';
+    const regionalQuotes=(apac?.quotes||[]).filter(q=>q?.research_only===true&&q?.price_type==='EOD').length;
+    stats.textContent=count(total)+' exchange listings discovered (not confirmed Sharesies listings) · '+count(quoted)+' US prices · '+count(screened)+' US companies screened · '+count(regionalQuotes)+' verified regional EOD research closes.';
     const usReady=catalog.status==='READY';
     markets.innerHTML='<span>US: '+esc(usReady?'2 official directories':'partial directory')+'</span>'+
       ['ASX','NZX'].map(m=>'<span>'+m+': '+esc(catalog.markets?.[m]?.status==='DISCOVERED'?count(catalog.markets[m].listed_in_directory)+' listed (no prices)':catalog.markets?.[m]?.status==='STALE_DIRECTORY'?'cached directory (stale)':'not connected')+'</span>').join('');
+    for(const m of ['NZX','ASX']){
+      const record=apac?.markets?.[m];
+      if(record)markets.innerHTML+='<span>'+m+' EOD: '+esc(record.status==='PRICE_RESEARCH'?count(record.recent_prices)+' recent prices':record.status==='NO_API_KEY'?'provider key missing':record.status==='NO_VALID_DIRECTORY'?'directory missing':'no verified prices')+'</span>';
+    }
     if(sdd){const n=Object.values(sdd.scans||{}).reduce((a,x)=>a+(Array.isArray(x)?x.length:0),0);
       const asx=sdd.asx_research_status==='ACCESS_DENIED'?'ASX access denied':sdd.asx_research_status==='AVAILABLE'?'ASX research available':'ASX research unavailable';
       markets.innerHTML+='<span>StocksDeepDive: '+esc(count(n)+' research rows; '+asx)+'</span>';
     }
-    footer.textContent='Exchange directory listings do NOT confirm Sharesies availability. ASX/NZX directory discovery does not include integrated prices, financial screening or investment signals. US screening is unchanged. No discovered listing is a buy recommendation.';
+    footer.textContent='Sharesies publicly advertises 5,000+ US, 1,700+ Australian and 120+ NZ company shares, plus 4,500+ ETFs. Those are platform-wide approximate counts, NOT a verified export of tradable symbols. Regional EOD prices appear only when a separate authenticated provider returns validated closes. No NZX/ASX price is included in the original US recommendations, paper trading or learning.';
     if(!query){
       list.innerHTML='<div class="market-directory-message">Search by company or ticker to explore exchange listings. Independent research, when available, is labelled StocksDeepDive and is not a Scout buy signal. <a href="https://stocksdeepdive.com/api" target="_blank" rel="noopener noreferrer">Source and methodology</a>.</div>';
       return;
