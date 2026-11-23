@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: scout-regional-integrity
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   regional-tests:
@@ -39,7 +39,7 @@ jobs:
         id: tests
         run: python -m unittest discover -s tests -v
       - name: Publish auditable test result, without touching production data
-        if: always()
+        if: ${{ !cancelled() }}
         env:
           PY_RESULT: ${{ steps.py_compile.outcome }}
           JS_RESULT: ${{ steps.js_check.outcome }}
