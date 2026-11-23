@@ -78,11 +78,33 @@ def valid_price(rows,market,symbol,now):
         if not 0<=(exchange_day-day).days<=7: continue
         clean.append((day,float(px)))
     if not clean: return None
-    day,px=max(clean)
-    return {'symbol':symbol,'market':market,'currency':'NZD' if market=='NZX' else 'AUD',
+    # Provider history may be unordered or contain repeated snapshots.
+    # One close per exchange session; never treat repeated same-day quotes as gains.
+    closes={day:price for day,price in clean}
+    dates=sorted(closes)
+    day=dates[-1]
+    px=closes[day]
+    result={'symbol':symbol,'market':market,
+            'currency':'NZD' if market=='NZX' else 'AUD',
             'close':round(px,6),'date':day.isoformat(),'price_type':'EOD',
             'source':'NZXplorer' if market=='NZX' else 'SeaBee',
             'research_only':True}
+    if len(dates)>1 and (day-dates[-2]).days<=5:
+        prev=closes[dates[-2]]
+        movement=(px/prev-1)*100
+        # Large unadjusted changes can be corporate actions or bad provider ticks.
+        if abs(movement)<=60:
+            result.update(previous_close=round(prev,6),previous_date=dates[-2].isoformat(),
+                          change_pct=round(movement,3))
+        else:
+            result['movement_warning']='Unverified large change; check split or corporate action'
+    if len(dates)>=6:
+        start=dates[-6]
+        if (day-start).days<=12:
+            week_move=(px/closes[start]-1)*100
+            if abs(week_move)<=60:
+                result['five_session_change_pct']=round(week_move,3)
+    return result
 
 def fetch_nzx(symbol,key):
     params=urllib.parse.urlencode({'days':14,'limit':15})
