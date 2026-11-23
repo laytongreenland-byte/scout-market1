@@ -1,1 +1,16 @@
-{"status":"COLLECTING","model_active":false,"recorded_signals":0,"matured_outcomes":0,"matured_weeks":0,"reason":"Collecting first genuine 30-day forward outcomes. No model has been validated.","validation":null,"last_review_week":null}
+{
+  "checked_at": "2026-11-23T06:52:30Z",
+  "last_review_week": "2026-11-23",
+  "status": "COLLECTING",
+  "model_active": false,
+  "recorded_signals": 1040,
+  "matured_outcomes": 0,
+  "observed_weeks": 2,
+  "matured_weeks": 0,
+  "horizon_days": 30,
+  "benchmark": "SPY",
+  "method": "Frozen weekly fundamentals, 30d matched USD outcomes vs SPY, purged forward-only walk-forward, L2 logistic regression.",
+  "validation": null,
+  "reason": "Need at least 52 matured weekly cohorts (currently 0) to obtain 6 separated forward tests.",
+  "warning": "Research-only. 1% illustrated round-trip friction, no dividends, FX movements or NZ tax; possible split/corporate-action gaps. No guaranteed predictive advantage."
+}

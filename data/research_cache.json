@@ -20927,13 +20927,13 @@
       "metrics": {
         "52WeekHigh": 266.6199,
         "52WeekLow": 147.4,
-        "peTTM": 11.5086,
-        "psTTM": 1.5978,
+        "peTTM": 11.1297,
+        "psTTM": 1.5452,
         "netProfitMarginTTM": 13.88,
         "currentRatioQuarterly": 1.6425,
-        "marketCapitalization": 49406.242
+        "marketCapitalization": 47779.867
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Honeywell Aerospace Inc",
       "profile": {
         "weburl": "https://www.honeywellaerospace.com",
@@ -20972,14 +20972,6 @@
           "published_at": "2026-11-16T19:42:18Z",
           "primary": false,
           "symbol": "HONA"
-        },
-        {
-          "headline": "Honeywell Aerospace: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=bbd25cb7063d85b33dc917bfaa37fee58c9a75b53326f9fb8fbe0f99646e8f82",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T03:55:01Z",
-          "primary": false,
-          "symbol": "HONA"
         }
       ]
     },
@@ -20987,17 +20979,17 @@
       "metrics": {
         "52WeekHigh": 26.6,
         "52WeekLow": 18.96,
-        "peTTM": 37.0312,
-        "psTTM": 1.0448,
+        "peTTM": 37.8021,
+        "psTTM": 1.0665,
         "netProfitMarginTTM": 2.82,
         "roeTTM": 4.33,
         "revenueGrowthTTMYoy": 0.73,
         "epsGrowthTTMYoy": -54.65,
         "currentRatioQuarterly": 1.8817,
         "totalDebt/totalEquityQuarterly": 0.364,
-        "marketCapitalization": 12691.09
+        "marketCapitalization": 12955.258
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Hormel Foods Corp",
       "profile": {
         "weburl": "https://www.hormelfoods.com/",
@@ -21005,6 +20997,30 @@
         "name": "Hormel Foods Corp"
       },
       "news": [
+        {
+          "headline": "How Many Shares of J.M. Smucker or Hormel Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=f2160471d8d89fbd9684fe8a755c7b6bb5bcc4f4ce8a8d5aa5bd8140d04a9eb4",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T17:51:58Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
+        {
+          "headline": "Hormel or Sysco: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=dd746ed84e1879458160f520e7e639240585361723c04923924b4258c26767cc",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:53Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
+        {
+          "headline": "Hormel vs. Kroger: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=ce29542a66a03892e713545bea7f8a1359b8f16192c911fc25f25b39ad28b31e",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:20Z",
+          "primary": false,
+          "symbol": "HRL"
+        },
         {
           "headline": "A $400,000 Portfolio in Comcast, Hormel and AT&T Pays $20,500 a Year in Dividends. Here’s What Happens if One Cuts",
           "url": "https://finnhub.io/api/news?id=e55572cdaf940e96868e37ffe5ba44e4ef4def48223749f5dc539983e464f74c",
@@ -21018,30 +21034,6 @@
           "url": "https://finnhub.io/api/news?id=e2f7faf8b57a7c9bd152e54b28a44355e9de488907bd18be8007659fb9c5715f",
           "source": "Yahoo",
           "published_at": "2026-11-18T10:53:07Z",
-          "primary": false,
-          "symbol": "HRL"
-        },
-        {
-          "headline": "Hormel Foods: A Macro Swing In A Weak Stock",
-          "url": "https://finnhub.io/api/news?id=8cfad2b0075074f64a8c76a953d8ad290f2484a705bb49f6a6959ccbef4ab5f3",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T10:04:40Z",
-          "primary": false,
-          "symbol": "HRL"
-        },
-        {
-          "headline": "A $1,500,000 Portfolio in Realty Income, Comcast and Hormel Pays $79,746 a Year in Dividends. Here’s What Happens if One Cuts",
-          "url": "https://finnhub.io/api/news?id=ffc482b63cb697b180e9d1055cc8892c7a6443a9943c8ede90175a3f1488eea0",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T20:50:25Z",
-          "primary": false,
-          "symbol": "HRL"
-        },
-        {
-          "headline": "Does Hormel Foods (HRL) Completing A Major Acquisition Change Its Growth Outlook?",
-          "url": "https://finnhub.io/api/news?id=6152d04c54ff186c2db824d2103d0ac356953872292bf80cf5d422ef19c14eec",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T19:10:01Z",
           "primary": false,
           "symbol": "HRL"
         }
@@ -21061,7 +21053,7 @@
         "totalDebt/totalEquityQuarterly": 0.8018,
         "marketCapitalization": 16512.262
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Host Hotels & Resorts, Inc.",
       "profile": {
         "weburl": "https://www.hosthotels.com/",
@@ -21069,6 +21061,14 @@
         "name": "Host Hotels & Resorts, Inc."
       },
       "news": [
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Host Hotels & Resorts, Raises Price Target to $25",
+          "url": "https://finnhub.io/api/news?id=04dcf11aa53cc9d6e893c2c26e72a4f2d12154796dbfb31db51e8819831aaa5b",
+          "source": "Benzinga",
+          "published_at": "2026-11-20T11:48:00Z",
+          "primary": false,
+          "symbol": "HST"
+        },
         {
           "headline": "Evercore ISI Group Maintains In-Line on Host Hotels & Resorts, Raises Price Target to $27",
           "url": "https://finnhub.io/api/news?id=2dedd6bd6ccd59ee19274e5678b9206423c18b37599a75c702f30806a1adb6ff",
@@ -21091,17 +21091,17 @@
       "metrics": {
         "52WeekHigh": 310.0,
         "52WeekLow": 183.52,
-        "peTTM": 40.5079,
-        "psTTM": 8.5462,
+        "peTTM": 40.5137,
+        "psTTM": 8.5474,
         "netProfitMarginTTM": 21.1,
         "roeTTM": 36.71,
         "revenueGrowthTTMYoy": 22.02,
         "epsGrowthTTMYoy": 42.96,
         "currentRatioQuarterly": 1.8587,
         "totalDebt/totalEquityQuarterly": 0.7711,
-        "marketCapitalization": 83162.734
+        "marketCapitalization": 83174.67
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Howmet Aerospace Inc.",
       "profile": {
         "weburl": "https://www.howmet.com",
@@ -21132,22 +21132,6 @@
           "published_at": "2026-11-16T13:49:00Z",
           "primary": false,
           "symbol": "HWM"
-        },
-        {
-          "headline": "What Are Wall Street Analysts' Target Price for Howmet Aerospace Stock?",
-          "url": "https://finnhub.io/api/news?id=a7e602563987a125e5895d4a7a8f830d20e985a2e831b91868b7d62d1ba068f2",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T13:51:51Z",
-          "primary": false,
-          "symbol": "HWM"
-        },
-        {
-          "headline": "The Zacks Analyst Blog Highlights GE Aerospace, Howmet Aerospace, RTX and Lockheed Martin",
-          "url": "https://finnhub.io/api/news?id=cad3c45fe0378ae4c52e7593d512b3307d282f40ef09fed06b5d955c84e67ceb",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T06:38:00Z",
-          "primary": false,
-          "symbol": "HWM"
         }
       ]
     },
@@ -21155,17 +21139,17 @@
       "metrics": {
         "52WeekHigh": 36.225,
         "52WeekLow": 17.56,
-        "peTTM": 10.4032,
-        "psTTM": 0.431,
+        "peTTM": 10.2873,
+        "psTTM": 0.4262,
         "netProfitMarginTTM": 4.14,
         "roeTTM": 16.85,
         "revenueGrowthTTMYoy": 8.14,
         "epsGrowthTTMYoy": -4.42,
         "currentRatioQuarterly": 0.7875,
         "totalDebt/totalEquityQuarterly": 0.3195,
-        "marketCapitalization": 25498.14
+        "marketCapitalization": 25214.076
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "HP Inc",
       "profile": {
         "weburl": "https://investor.hp.com/",
@@ -21218,18 +21202,18 @@
     "HUBB": {
       "metrics": {
         "52WeekHigh": 565.4999,
-        "52WeekLow": 403.82,
-        "peTTM": 23.6142,
-        "psTTM": 3.2551,
+        "52WeekLow": 401.54,
+        "peTTM": 23.4651,
+        "psTTM": 3.2345,
         "netProfitMarginTTM": 13.78,
         "roeTTM": 23.25,
         "revenueGrowthTTMYoy": 15.96,
         "epsGrowthTTMYoy": 5.85,
         "currentRatioQuarterly": 1.5285,
         "totalDebt/totalEquityQuarterly": 1.2471,
-        "marketCapitalization": 21462.91
+        "marketCapitalization": 21327.39
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Hubbell Inc",
       "profile": {
         "weburl": "https://www.hubbell.com",
@@ -21250,40 +21234,49 @@
     "HBAN": {
       "metrics": {
         "52WeekHigh": 19.46,
-        "52WeekLow": 14.5,
-        "peTTM": 11.7079,
+        "52WeekLow": 14.23,
+        "peTTM": 11.5581,
         "psTTM": 2.07303,
         "netProfitMarginTTM": 31.21053,
         "roeTTM": 8.19,
         "revenueGrowthTTMYoy": 58.9579,
         "epsGrowthTTMYoy": -12.43,
         "totalDebt/totalEquityQuarterly": 0.4586,
-        "marketCapitalization": 29152.576
+        "marketCapitalization": 28779.73
       },
-      "updated_at": "2026-11-21T06:02:26Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Huntington Bancshares Inc",
       "profile": {
         "weburl": "https://www.huntington.com/",
         "industry": "Banking",
         "name": "Huntington Bancshares Inc"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "S&P 500 After-Hours Gainers: DDOG, HBAN Lead Postmarket Session",
+          "url": "https://finnhub.io/api/news?id=f31d983d4a478498cc13b273ad7c4c34ac24a575287b228e6a527a3580ed5444",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T22:05:56Z",
+          "primary": false,
+          "symbol": "HBAN"
+        }
+      ]
     },
     "HII": {
       "metrics": {
         "52WeekHigh": 460.0,
         "52WeekLow": 255.355,
-        "peTTM": 15.4055,
-        "psTTM": 0.8346,
+        "peTTM": 15.0711,
+        "psTTM": 0.8165,
         "netProfitMarginTTM": 5.42,
         "roeTTM": 13.950000000000001,
         "revenueGrowthTTMYoy": 12.64,
         "epsGrowthTTMYoy": 28.38,
         "currentRatioQuarterly": 1.2648,
         "totalDebt/totalEquityQuarterly": 0.4924,
-        "marketCapitalization": 11292.2
+        "marketCapitalization": 11047.095
       },
-      "updated_at": "2026-11-21T07:19:33Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Huntington Ingalls Industries, Inc.",
       "profile": {
         "weburl": "https://hii.com/",
@@ -21312,18 +21305,18 @@
     "IEX": {
       "metrics": {
         "52WeekHigh": 243.7954,
-        "52WeekLow": 160.6,
-        "peTTM": 30.8809,
-        "psTTM": 4.5229,
+        "52WeekLow": 161.74,
+        "peTTM": 30.1104,
+        "psTTM": 4.41,
         "netProfitMarginTTM": 14.65,
         "roeTTM": 13.309999999999999,
         "revenueGrowthTTMYoy": 6.93,
         "epsGrowthTTMYoy": 13.97,
         "currentRatioQuarterly": 2.778,
         "totalDebt/totalEquityQuarterly": 0.4361,
-        "marketCapitalization": 16545.979
+        "marketCapitalization": 16133.173
       },
-      "updated_at": "2026-11-21T07:19:33Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "IDEX Corporation",
       "profile": {
         "weburl": "https://www.idexcorp.com/",
@@ -21377,17 +21370,17 @@
       "metrics": {
         "52WeekHigh": 309.345,
         "52WeekLow": 112.65,
-        "peTTM": 32.9565,
-        "psTTM": 6.4998,
+        "peTTM": 32.5747,
+        "psTTM": 6.4245,
         "netProfitMarginTTM": 19.72,
         "roeTTM": 31.45,
         "revenueGrowthTTMYoy": 5.83,
         "epsGrowthTTMYoy": 30.5,
         "currentRatioQuarterly": 2.6254,
         "totalDebt/totalEquityQuarterly": 0.5688,
-        "marketCapitalization": 29496.096
+        "marketCapitalization": 29154.385
       },
-      "updated_at": "2026-11-21T07:19:33Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Illumina Inc",
       "profile": {
         "weburl": "https://www.illumina.com",
@@ -21441,17 +21434,17 @@
       "metrics": {
         "52WeekHigh": 132.6,
         "52WeekLow": 89.25,
-        "peTTM": 58.364,
-        "psTTM": 3.9171,
+        "peTTM": 57.9169,
+        "psTTM": 3.8871,
         "netProfitMarginTTM": 6.71,
         "roeTTM": 7.08,
         "revenueGrowthTTMYoy": 24.88,
         "epsGrowthTTMYoy": -68.2,
         "currentRatioQuarterly": 3.8401,
         "totalDebt/totalEquityQuarterly": 0.0056,
-        "marketCapitalization": 23544.691
+        "marketCapitalization": 23364.299
       },
-      "updated_at": "2026-11-21T07:19:33Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Incyte Corp",
       "profile": {
         "weburl": "https://www.incyte.com/",
@@ -21505,17 +21498,17 @@
       "metrics": {
         "52WeekHigh": 100.96,
         "52WeekLow": 68.07,
-        "peTTM": 21.9697,
-        "psTTM": 3.7786,
+        "peTTM": 21.7119,
+        "psTTM": 3.7343,
         "netProfitMarginTTM": 17.2,
         "roeTTM": 13.530000000000001,
         "revenueGrowthTTMYoy": 7.96,
         "epsGrowthTTMYoy": 164.82,
         "currentRatioQuarterly": 1.6892,
         "totalDebt/totalEquityQuarterly": 0.451,
-        "marketCapitalization": 30425.889
+        "marketCapitalization": 30068.748
       },
-      "updated_at": "2026-11-21T07:19:33Z",
+      "updated_at": "2026-11-23T06:52:30Z",
       "name": "Ingersoll Rand Inc.",
       "profile": {
         "weburl": "https://www.irco.com/",
@@ -29694,6 +29687,6 @@
       ]
     }
   },
-  "cursor": 361,
-  "updated_at": "2026-11-23T05:34:35Z"
+  "cursor": 373,
+  "updated_at": "2026-11-23T06:52:30Z"
 }

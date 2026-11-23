@@ -1,1 +1,25 @@
-{"active":false,"feature_schema":1,"trained_at":null}
+{
+  "active": false,
+  "feature_schema": 2,
+  "features": [
+    "rules_score",
+    "pe",
+    "ps",
+    "profit_margin",
+    "roe",
+    "sales_growth",
+    "eps_growth",
+    "below_high",
+    "day_change",
+    "debt_to_equity",
+    "missing_pe",
+    "missing_ps",
+    "missing_margin",
+    "missing_roe",
+    "missing_sales_growth",
+    "missing_eps_growth",
+    "missing_high",
+    "missing_debt_to_equity"
+  ],
+  "trained_at": null
+}
