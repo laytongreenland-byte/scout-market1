@@ -33,14 +33,24 @@ const ScoutNZX=(()=>{
   function card(c,compact=false){
     const price=val(c.price)?money(c.price)+' · '+safe(c.price_date||'undated'):'No validated recent close';
     const change=val(c.change_pct)?' · '+pct(c.change_pct)+' last session':'';
-    const evidence=(c.evidence||[]).filter(x=>sourceUrl(x.url)).slice(0,compact?1:2)
+    const evidence=(c.evidence||[]).filter(x=>sourceUrl(x.url)).slice(0,compact?2:3)
       .map(x=>'<a href="'+safe(sourceUrl(x.url))+'" target="_blank" rel="noopener noreferrer">'+safe(x.label||'Source')+' ↗</a>').join(' · ');
-    return '<article class="card candidate watch"><div class="flex-between"><div class="candidate-brand"><strong>NZX:'+safe(c.symbol)+'</strong><span>'+safe(c.name)+'</span></div><span class="grade">—</span></div>'+
+    const p=c.price_plan||{},ready=p.signal==='PAPER ENTRY CANDIDATE';
+    const pricePlan=ready?
+      '<div class="price-plan plan-wait"><div class="plan-header"><strong>EDUCATIONAL PAPER ENTRY</strong><span>NOT A REAL ORDER</span></div>'+
+      '<div class="plan-values"><div><span>Paper buy at later close up to</span><strong>'+money(p.entry_ceiling)+'</strong></div>'+
+      '<div><span>Paper profit review after entry</span><strong>+12% from actual paper fill</strong></div></div>'+
+      '<p class="plan-reason">Based on a rule screen and issuer-linked disclosures, NOT a fair-value estimate. The proposed entry is 1% above the original quote; if no later verified close qualifies, there is no pretend purchase.</p></div>':
+      '<div class="price-plan plan-missing"><div class="plan-header"><strong>NO VALIDATED PAPER ENTRY</strong><span>INCOMPLETE DATA OR QUALITY GATE</span></div>'+
+      (!compact?'<p class="plan-reason">'+safe(p.reason||'The financial screen or source evidence is insufficient.')+'</p>':'')+'</div>';
+    return '<article class="card candidate watch"><div class="flex-between"><div class="candidate-brand"><strong>NZX:'+safe(c.symbol)+'</strong><span>'+safe(c.name)+'</span></div>'+
+      '<span class="grade">'+(val(c.score)?safe(c.score)+'/100':'—')+'</span></div>'+
       '<div class="flex-between candidate-sub"><span class="status watch">'+safe(c.status)+'</span><span>'+price+change+'</span></div>'+
-      '<div class="price-plan plan-missing"><div class="plan-header"><strong>NO RELIABLE BUY/SELL RANGE</strong><span>NZD · NOT A TRADE SIGNAL</span></div>'+
-      (!compact?'<p class="plan-reason">NZX issuer fundamentals and a validated NZ valuation model have not been connected.</p>':'')+'</div>'+
+      pricePlan+
       '<p class="candidate-thesis">'+safe(c.why||'Insufficient independently checked issuer financials')+'</p>'+
-      (!compact?'<p class="muted">Risk: NZX shares may be illiquid; dividends and splits can distort raw closing-price returns.</p>':'')+
+      (!compact?'<p class="muted">Sector: '+safe(c.industry||'Unverified')+
+          ' · Financial period: '+safe(c.financial_period||'Not verified')+
+          ' · Earnings and company filings must be independently checked. FX is not needed for NZD trades; liquidity, fees, tax, distributions and corporate actions still matter.</p>':'')+
       '<div class="evidence">'+(evidence||'No verified source links')+'</div></article>';
   }
   function readFilter(){
@@ -57,7 +67,7 @@ const ScoutNZX=(()=>{
       (type==='all'||(type==='watch'&&c.price!==null)));
     const visible=showAll?records:records.slice(0,8);
     target.innerHTML=statusBar()+
-      '<p class="muted">Listed NZX companies are searchable here alongside Scout’s US research. A verified price is not a scored business or an entry recommendation.</p>'+
+      '<p class="muted">Listed NZX companies are searchable here alongside Scout’s US research. Financial screening and paper-entry conditions appear where the evidence supports them; a price alone is never an entry recommendation.</p>'+
       (visible.length?visible.map(c=>card(c,true)).join(''):'<p>No NZX issuer matches that search or filter.</p>')+
       (visible.length<records.length?'<button type="button" id="nzx-show-more" class="show-more">Show '+(records.length-visible.length)+' more NZX companies</button>':'');
     if($('nzx-show-more'))$('nzx-show-more').addEventListener('click',()=>{showAll=true;renderResearch()});
@@ -67,7 +77,7 @@ const ScoutNZX=(()=>{
     const rows=active()?(nzx.weekly?.shortlist||[]):[];
     const funds=active()?(nzx.weekly?.etf_watch||[]):[];
     target.innerHTML='<strong>NZX · THIS WEEK’S RESEARCH WATCH</strong>'+
-      '<p class="muted">Part of Scout’s weekly research, but not mixed into the US valuation ranking. No NZD entry or selling levels are made up.</p>'+
+      '<p class="muted">Independent NZX company financial screens and issuer news. Mechanical NZD paper-trade levels are not real buy/sell instructions and are not mixed with the US learning model.</p>'+
       (rows.length?rows.map(c=>card(c,true)).join(''):
         '<p>No NZX companies currently have sufficiently recent verified prices for watch notes.</p>')+
       (funds.length?'<strong>NZX · CORE ETF RESEARCH</strong><p class="muted">Potential diversified funds to research, not buy rankings. Check the fund factsheet, fees and Sharesies availability.</p>'+funds.map(c=>card(c,true)).join(''):'');
@@ -76,7 +86,7 @@ const ScoutNZX=(()=>{
     const target=$('nzx-overview');if(!target)return;
     const entries=active()?(nzx.weekly?.shortlist||[]):[];
     target.innerHTML=statusBar()+
-      (entries.length?'<p>Recent NZX observations to investigate, not confirmed buying opportunities:</p>'+entries.slice(0,2).map(c=>card(c,true)).join(''):
+      (entries.length?'<p>NZX company research and candidate paper-trade rules (not real buying instructions):</p>'+entries.slice(0,2).map(c=>card(c,true)).join(''):
         '<p>No current NZX buy candidate is being claimed. Research is gated on evidence quality.</p>');
   }
   function renderQuotes(){
@@ -117,25 +127,52 @@ const ScoutNZX=(()=>{
   }
   function renderPaper(){
     const target=$('nzx-paper');if(!target)return;
-    if(!active()){target.innerHTML='<strong>NZX paper observations unavailable</strong>';return}
-    const p=nzx.paper||{},s=p.summary||{};
-    target.innerHTML='<strong>NZX · PROSPECTIVE RESEARCH RECORD</strong>'+
-      '<p>'+safe(s.recorded||0)+' dated watch opinions · '+safe(s.matured_7d||0)+' verified 7-day moves · '+
-      safe(s.matured_30d||0)+' verified 30-day moves · <strong>0 actual or hypothetical buys</strong>.</p>'+
-      '<p class="muted">These are NZD price-only observations, not paper trades or performance versus SPY. No reliable NZX benchmark, dividend adjustments, trade fees or FX effects are included.</p>'+
-      (p.records||[]).slice(0,10).map(x=>'<div class="log-row"><strong>NZX:'+safe(x.symbol)+'</strong><span>'+
-        safe(x.original_date)+' · original reference '+money(x.reference_price)+'</span><span>'+
-        '7d '+pct(x.change_7d_pct)+' · 30d '+pct(x.change_30d_pct)+'</span></div>').join('')+
-      '<p class="muted">'+safe(p.benchmark_status||'No validated NZX benchmark')+'</p>';
+    if(!active()){target.innerHTML='<strong>NZX paper results unavailable</strong>';return}
+    const paper=nzx.paper||{},stats=paper.summary||{},records=paper.records||[];
+    const statuses={
+      'WAITING_TO_BUY':'Waiting for a later close to reach entry',
+      'OPEN':'Paper shares bought at a later observed close',
+      'NO_ENTRY':'Entry price never observed within 14 days',
+      'TARGET_REACHED':'12% profit review level reached',
+      'CLOSED_GAIN':'30-day paper position closed with net gain',
+      'CLOSED_LOSS':'30-day paper position closed with net loss',
+      'UNVERIFIED':'No reliable closing price or possible corporate action'
+    };
+    const recordHtml=x=>{
+      const result=x.result||{},st=result.status||'WAITING_TO_BUY';
+      const entry=result.entry||{};
+      const fee=val(result.fees_nzd)?' · Approx. fees '+money(result.fees_nzd):'';
+      return '<article class="card results-card"><div class="flex-between"><strong>NZX:'+safe(x.symbol)+' · '+safe(x.name||'')+
+        '</strong><span class="results-state">'+safe(st)+'</span></div>'+
+        '<p>Scout originally proposed a paper entry up to <strong>'+money(x.entry_ceiling)+'</strong> on '+
+        safe(x.original_date)+'. Original reference '+money(x.original_price)+'.</p>'+
+        '<p>'+safe(statuses[st]||result.reason||'Pending')+'</p>'+
+        (val(entry.price)?'<p>Later observed entry: '+money(entry.price)+' on '+safe(entry.date)+
+          ' · '+safe(entry.shares)+' whole shares from a hypothetical NZ$100 budget.</p>':'')+
+        (val(result.exit_price)?'<p>Later observed exit: '+money(result.exit_price)+' on '+safe(result.exit_date)+
+          ' · <strong>Net paper return '+pct(result.net_return_pct)+'</strong>'+fee+'</p>':'')+
+        '<details><summary>Research and methodology</summary><p>'+safe(x.why||'')+'</p>'+
+        '<p>Financial report period: '+safe(x.financial_period||'Not verified')+'</p>'+
+        (sourceUrl(x.filing_url)?'<a href="'+safe(sourceUrl(x.filing_url))+'" target="_blank" rel="noopener noreferrer">Issuer-linked announcement feed</a>':'')+
+        '<p>Close-based paper strategy; illustrative 1% fee each direction. Excludes spreads, distributions, share consolidations and NZ tax.</p></details></article>';
+    };
+    target.innerHTML='<strong>NZX · PAPER-TRADING SCOREBOARD (NZD)</strong>'+
+      '<p>'+safe(stats.recorded||0)+' frozen paper opinions · '+safe(stats.opened||0)+' opened positions · '+
+      safe(stats.closed||0)+' completed · '+safe(stats.positive||0)+' gains · '+
+      safe(stats.negative||0)+' losses · '+safe(stats.no_entry||0)+' missed entry prices.</p>'+
+      '<p class="muted">A paper purchase only happens on a subsequent observed NZX closing price, up to 14 days after the original decision. A +12% close triggers a paper profit review; otherwise it closes at a verified price on/after 30 days. No real money, no retrospectively invented wins, and no SPY benchmark comparisons. Fees are illustrative (1% each way).</p>'+
+      (records.length?records.slice(0,20).map(recordHtml).join(''):
+        '<p>No qualifying NZX paper decision has been frozen yet. Scout is waiting for enough financial evidence and issuer-linked disclosures; it will not invent trades to fill the scoreboard.</p>')+
+      '<p class="muted">'+safe(paper.benchmark_status||'NZX benchmark validation pending')+'</p>';
   }
   function renderSource(){
     if(!active())return;
     if($('sources-list'))$('sources-list').insertAdjacentHTML('beforeend',
-      '<div class="source-row"><div><div class="source-name">NZX issuer research (NZD)</div>'+
+      '<div class="source-row"><div><div class="source-name">NZX financial research and paper trading (NZD)</div>'+
       '<div class="source-info">'+safe(nzx.coverage?.verified_eod||0)+' verified closing prices of '+
-      safe(nzx.coverage?.listed||0)+' listed issuers; financial valuation not connected</div></div>'+
+      safe(nzx.coverage?.listed||0)+' listed securities; '+safe(nzx.coverage?.financially_scored||0)+' financially screened</div></div>'+
       '<div class="source-status">RESEARCH ONLY</div></div>');
-    if($('nzx-learning'))$('nzx-learning').textContent='NZX learning: NOT ACTIVE. '+(nzx.learning?.reason||'NZX machine-learning validation is unavailable')+
+    if($('nzx-learning'))$('nzx-learning').textContent='NZX outcomes are tracked on a separate NZD paper-trading scoreboard. Machine-learning ranking: NOT ACTIVE. '+(nzx.learning?.reason||'NZX machine-learning validation is unavailable')+
       ' The existing US model and its historical results are unchanged.';
   }
   async function load(){
