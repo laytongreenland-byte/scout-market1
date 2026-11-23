@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:04:29Z",
+  "generated_at": "2026-11-23T04:16:38Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T03:04:29Z",
+      "checked_at": "2026-11-23T04:16:38Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T03:04:29Z",
+      "checked_at": "2026-11-23T04:16:38Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T03:04:29Z",
+      "checked_at": "2026-11-23T04:16:38Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T03:04:29Z",
+      "checked_at": "2026-11-23T04:16:38Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T03:04:29Z",
+      "checked_at": "2026-11-23T04:16:38Z",
       "error": ""
     }
   ],
@@ -6923,7 +6923,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T03:04:29Z",
+    "generated_at": "2026-11-23T04:16:38Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9188,7 +9188,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Technology",
-        "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.5×; TTM revenue growth 16.9% YoY",
+        "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.4×; TTM revenue growth 16.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9202,35 +9202,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T05:03:10Z",
+            "timestamp": "2026-11-23T04:16:38Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Gen Digital (GEN) Stock Looks Below Fair Value On Its 45% Run",
-            "timestamp": "2026-11-21T02:14:43Z",
-            "url": "https://finnhub.io/api/news?id=0637458b7e67093bef67691b67b179a6a8993432f5dc560d1af2632ddb333e85"
+            "value": "Four S&P 500 Stocks Rising in a Falling Market: Pentair, AppLovin, Chipotle, and Gen Digital",
+            "timestamp": "2026-11-21T18:00:05Z",
+            "url": "https://finnhub.io/api/news?id=b2d8856c10924f9b3ce0222ec94c8f246b505cbe98591a423e650d7ffa58bdb6"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T05:03:10Z",
+        "fundamentals_at": "2026-11-23T04:16:38Z",
         "price": 29.19,
         "currency": "USD",
         "change_pct": -3.184,
         "news": [
           {
-            "headline": "Gen Digital (GEN) Stock Looks Below Fair Value On Its 45% Run",
-            "url": "https://finnhub.io/api/news?id=0637458b7e67093bef67691b67b179a6a8993432f5dc560d1af2632ddb333e85",
-            "source": "Yahoo",
-            "published_at": "2026-11-21T02:14:43Z",
+            "headline": "Four S&P 500 Stocks Rising in a Falling Market: Pentair, AppLovin, Chipotle, and Gen Digital",
+            "url": "https://finnhub.io/api/news?id=b2d8856c10924f9b3ce0222ec94c8f246b505cbe98591a423e650d7ffa58bdb6",
+            "source": "Benzinga",
+            "published_at": "2026-11-21T18:00:05Z",
             "primary": false,
             "symbol": "GEN"
           },
           {
-            "headline": "Gen Digital (GEN) Could Be 5% Below Fair Value Following Digital Grid Cyber Focus",
-            "url": "https://finnhub.io/api/news?id=c6ac97d86da5a54725ef98309b7ee04207c7673575dd369a689f7508cd6ef2f7",
+            "headline": "Should Rising Cyberattack Risks Require Action From Gen Digital (GEN) Investors?",
+            "url": "https://finnhub.io/api/news?id=9befeb3b0424456a3592f9139718ca22699ccc3201a1ab725e152e77fe32d741",
             "source": "Yahoo",
-            "published_at": "2026-11-20T20:10:42Z",
+            "published_at": "2026-11-21T12:10:01Z",
             "primary": false,
             "symbol": "GEN"
           }
@@ -9241,11 +9241,11 @@
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 24.71,
-          "entry_floor": 22.24,
-          "exit_review_low": 41.32,
-          "exit_review_high": 50.04,
-          "bear_case": 22.2,
-          "scenario_upside_pct": 41.6,
+          "entry_floor": 22.38,
+          "exit_review_low": 41.67,
+          "exit_review_high": 50.46,
+          "bear_case": 22.38,
+          "scenario_upside_pct": 42.7,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -9258,12 +9258,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.48,
+            "trailing_pe": 14.36,
             "earnings_growth_assumed_pct": 7.6,
             "scenario_exit_pe": 19.05,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T05:03:10Z"
+            "metrics_retrieved_at": "2026-11-23T04:16:38Z"
           }
         },
         "ranking_score": 79,
@@ -11844,7 +11844,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Consumer products",
-        "why": "Net profit margin 25.6% (TTM); Return on equity 21.9% (TTM); Trailing P/E 26.1×; TTM revenue growth 13.6% YoY",
+        "why": "Net profit margin 25.6% (TTM); Return on equity 21.9% (TTM); Trailing P/E 25.6×; TTM revenue growth 13.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11858,7 +11858,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T05:03:10Z",
+            "timestamp": "2026-11-23T04:16:38Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11869,7 +11869,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T05:03:10Z",
+        "fundamentals_at": "2026-11-23T04:16:38Z",
         "price": 268.04,
         "currency": "USD",
         "change_pct": -1.376,
@@ -11888,12 +11888,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 155.11,
-          "entry_floor": 139.6,
-          "exit_review_low": 198.86,
-          "exit_review_high": 238.58,
-          "bear_case": 108.31,
-          "scenario_upside_pct": -25.8,
+          "entry_ceiling": 158.23,
+          "entry_floor": 142.41,
+          "exit_review_low": 202.86,
+          "exit_review_high": 243.39,
+          "bear_case": 110.49,
+          "scenario_upside_pct": -24.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11906,12 +11906,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 26.12,
+            "trailing_pe": 25.6,
             "earnings_growth_assumed_pct": 6.12,
             "scenario_exit_pe": 18.26,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T05:03:10Z"
+            "metrics_retrieved_at": "2026-11-23T04:16:38Z"
           }
         },
         "ranking_score": 77,
@@ -14855,7 +14855,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T03:04:29Z",
+      "generated_at": "2026-11-23T04:16:38Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 783,
