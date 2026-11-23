@@ -60101,6 +60101,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|CRH|WAIT FOR ENTRY",
+      "week": "2026-11-23",
+      "symbol": "CRH",
+      "name": "CRH PLC",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-22T23:51:45Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 88.05,
+      "score": 64,
+      "quality_status": "WATCH",
+      "buy_ceiling": 69.98,
+      "sell_review": 89.72,
+      "bear_case": 50.83,
+      "why": "Net profit margin 9.2% (TTM); Return on equity 14.9% (TTM); Trailing P/E 16.4×; TTM revenue growth 5.6% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-22T23:51:45Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }

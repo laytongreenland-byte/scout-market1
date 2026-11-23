@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:52:47Z",
+  "generated_at": "2026-11-22T23:51:45Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T22:52:47Z",
+      "checked_at": "2026-11-22T23:51:45Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T22:52:47Z",
+      "checked_at": "2026-11-22T23:51:45Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T22:52:47Z",
+      "checked_at": "2026-11-22T23:51:45Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T22:52:47Z",
+      "checked_at": "2026-11-22T23:51:45Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T22:52:47Z",
+      "checked_at": "2026-11-22T23:51:45Z",
       "error": ""
     }
   ],
@@ -6923,7 +6923,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T22:52:47Z",
+    "generated_at": "2026-11-22T23:51:45Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -14855,23 +14855,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T22:52:47Z",
+      "generated_at": "2026-11-22T23:51:45Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 782,
-        "purchase_scenarios": 66,
+        "recorded": 783,
+        "purchase_scenarios": 67,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 66,
+        "waiting": 67,
         "unverified": 0,
         "skipped": 716,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|CRH|WAIT FOR ENTRY",
+          "symbol": "CRH",
+          "name": "CRH PLC",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-22T23:51:45Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 88.05,
+          "buy_ceiling": 69.98,
+          "sell_review": 89.72,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 9.2% (TTM); Return on equity 14.9% (TTM); Trailing P/E 16.4×; TTM revenue growth 5.6% YoY",
+          "score": 64,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|FIX|WAIT FOR ENTRY",
           "symbol": "FIX",
@@ -17245,26 +17265,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 13.6% (TTM); Return on equity 36.1% (TTM); Trailing P/E 27.9×; TTM revenue growth 10.3% YoY",
           "score": 66,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|SO|NO RELIABLE PRICE RANGE",
-          "symbol": "SO",
-          "name": "Southern Co",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 93.13,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 16.7% (TTM); Return on equity 12.9% (TTM); Trailing P/E 21.7×; TTM revenue growth 8.2% YoY",
-          "score": 71,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
