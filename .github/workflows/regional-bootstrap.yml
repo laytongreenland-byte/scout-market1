@@ -16,11 +16,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       NZXPLORER_API_KEY: ${{ secrets.NZXPLORER_API_KEY }}
       SEABEE_API_KEY: ${{ secrets.SEABEE_API_KEY }}
-      SCOUT_NZX_PRICE_DAILY_LIMIT: '25'
+      SCOUT_NZX_PRICE_DAILY_LIMIT: '40'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
