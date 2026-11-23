@@ -3,7 +3,7 @@
 
 No backfilled recommendations, guessed fair value, NZX-vs-SPY comparisons, or
 machine learning using NZXplorer-derived data. Price observations are EOD NZD.
-This module never opens trades or updates US history, cache, scoring or model.
+This module only simulates prospective paper trades, never places real orders or updates US history, cache, scoring or model.
 """
 from __future__ import annotations
 
