@@ -103,3 +103,24 @@
 .market-directory-row small{color:#91adc2;font-size:10px;text-align:right;white-space:nowrap}
 .market-directory-message{padding:10px;color:#aec0d3;font-size:11px;line-height:1.6}
 .market-directory-footer{font-size:10px;color:#91aac2;line-height:1.6;margin-top:13px}
+
+
+/* Visible NZX research and learning — never hidden inside the overview disclosure. */
+.nzx-home{border-color:#367d8b;background:linear-gradient(145deg,#163d47,#142638 66%,#17243b);margin:3px 0 17px;padding:17px}
+.nzx-home>.flex-between strong,.nzx-results-main>.flex-between strong{color:#d7fff1;font-weight:820;letter-spacing:.3px}
+.nzx-home-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:13px 0}
+.nzx-home-metrics>div{min-width:0;background:#0c2636;border:1px solid #346774;border-radius:12px;text-align:center;padding:12px 7px}
+.nzx-home-metrics strong{display:block;font-size:22px;font-weight:790;font-variant-numeric:tabular-nums;color:#c4fff1}
+.nzx-home-metrics span{font-size:10px;line-height:1.35;color:#b5d0d7;display:block;margin-top:4px}
+.nzx-home p{font-size:12px;line-height:1.65;color:#cae2e9;margin:10px 0}
+.nzx-lesson-mini{border-left:3px solid #f6be64;border-radius:0 9px 9px 0;background:#26323b;padding:10px 12px;margin:12px 0}
+.nzx-lesson-mini strong{color:#ffdeb2}
+.nzx-lesson-mini p{margin:5px 0 0;color:#e6d5c5}
+.nzx-home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:11px;margin-top:15px}
+.nzx-home-actions button{flex:1 1 160px;min-height:40px}
+.nzx-results-main{margin:0 0 18px;padding:17px;background:linear-gradient(145deg,#172d44,#152437);border-color:#39606b}
+.nzx-results-main #nzx-paper>p{font-size:12px;line-height:1.6;color:#c7dbe8;margin:10px 0}
+.nzx-lesson-item{margin:10px 0;border:1px solid #52615b;border-radius:11px;background:#1b303d;padding:11px 13px}
+.nzx-lesson-item strong{display:block;font-size:12px;color:#e7e8d4}
+.nzx-lesson-item p{color:#bed0dc!important;line-height:1.5;margin:6px 0 0!important}
+@media(max-width:340px){.nzx-home-metrics strong{font-size:19px}.nzx-home-metrics span{font-size:9px}}
