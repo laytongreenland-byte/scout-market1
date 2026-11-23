@@ -84,6 +84,12 @@ def build(catalog,apac,latest,history=None,now=None,fundamentals=None):
         q=quotes.get(sym)
         is_etf=row.get('type')=='ETF'
         item=news.get(sym)
+        primary_links=(fundamental_data.get(sym) or {}).get('announcements') or []
+        primary_filing=next((v for v in primary_links if
+                             isinstance(v,dict) and v.get('source')=='NZX primary announcement'
+                             and v.get('url','').startswith('https://www.nzx.com/announcements/')
+                             and parse_date(v.get('date')) and
+                             0<=(today-parse_date(v['date'])).days<=400),None)
         px=q.get('close') if q else None
         qday=q.get('date') if q else None
         financial=score_financials(fundamental_data.get(sym),today) if not is_etf else {'score':None,'status':'ETF WATCH'}
@@ -105,7 +111,11 @@ def build(catalog,apac,latest,history=None,now=None,fundamentals=None):
         if item:
             evidence.append({'label':'Issuer-linked announcement feed (third-party)','url':item['url'],
                              'timestamp':item['published_at']})
-        frozen_plan=(plan(q,financial, bool(item)) if q and not is_etf else None)
+        if primary_filing:
+            evidence.append({'label':'Original NZX filing: '+str(primary_filing.get('title',''))[:65],
+                             'url':primary_filing['url'],
+                             'timestamp':primary_filing.get('date')})
+        frozen_plan=(plan(q,financial,bool(primary_filing)) if q and not is_etf else None)
         if frozen_plan:
             why+=' Financial screen: '+financial['why']+'. Price levels below are a mechanical paper-trading experiment, not certified fair value.'
         candidates.append({
@@ -116,7 +126,8 @@ def build(catalog,apac,latest,history=None,now=None,fundamentals=None):
             'score':financial.get('score') if q else None,
             'financially_scored':bool(q and financial.get('score') is not None),
             'price':px,'price_date':qday,
-            'filing_url':item.get('url') if item else None,
+            'filing_url':primary_filing.get('url') if primary_filing else None,
+            'filing_title':primary_filing.get('title') if primary_filing else None,
             'fundamentals_at':financial.get('fundamentals_at'),
             'financial_period':financial.get('financial_period'),
             'change_pct':change,'five_session_change_pct':q.get('five_session_change_pct') if q else None,
