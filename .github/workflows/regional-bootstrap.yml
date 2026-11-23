@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - .github/workflows/regional-bootstrap.yml
+      - nzx_research.py
+      - market_catalog.py
+      - data/nzx_etfs.json
   workflow_dispatch:
   schedule:
     - cron: '25 9 * * *'
