@@ -1,16 +1,22 @@
 name: Regional market integrity tests
 on:
   push:
+    branches: [main]
     paths:
       - market_catalog.py
       - apac_data.py
       - market.js
+      - index.html
       - tests/**
       - .github/workflows/regional-integrity.yml
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: scout-regional-integrity
+  cancel-in-progress: true
 
 jobs:
   regional-tests:
@@ -24,8 +30,51 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate Python syntax
+        id: py_compile
         run: python -m py_compile market_catalog.py apac_data.py scanner.py research.py
       - name: Validate market UI syntax
+        id: js_check
         run: node --check market.js
-      - name: Test entire Scout codebase without network or secrets
+      - name: Test Scout without network or secrets
+        id: tests
         run: python -m unittest discover -s tests -v
+      - name: Publish auditable test result, without touching production data
+        if: always()
+        env:
+          PY_RESULT: ${{ steps.py_compile.outcome }}
+          JS_RESULT: ${{ steps.js_check.outcome }}
+          TEST_RESULT: ${{ steps.tests.outcome }}
+          CODE_COMMIT: ${{ github.sha }}
+          ACTION_RUN: ${{ github.run_id }}
+        run: |
+          mkdir -p /tmp/scout-ci
+          python - <<'PY'
+          import datetime, json, os
+          data = {
+              'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'code_commit': os.environ['CODE_COMMIT'],
+              'run_id': os.environ['ACTION_RUN'],
+              'python_syntax': os.environ['PY_RESULT'],
+              'javascript_syntax': os.environ['JS_RESULT'],
+              'tests': os.environ['TEST_RESULT'],
+          }
+          data['status'] = 'PASSED' if all(data[x] == 'success' for x in
+                                ('python_syntax','javascript_syntax','tests')) else 'FAILED'
+          with open('/tmp/scout-ci/result.json','w') as fh:
+              json.dump(data,fh,indent=2)
+              fh.write('\n')
+          print('Regional test status:',data['status'])
+          PY
+          git config user.name "scout-regional-test-bot"
+          git config user.email "scout-regional-test-bot@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p data
+            cp /tmp/scout-ci/result.json data/regional_integrity.json
+            git add data/regional_integrity.json
+            if git diff --cached --quiet; then break; fi
+            git commit -m "Record isolated regional integrity test result"
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+          done
