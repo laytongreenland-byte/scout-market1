@@ -131,7 +131,7 @@ def settle(calls,observations,now):
         if not isinstance(o,dict) or not numeric(o.get('price')) or o['price']<=0:
             continue
         d=day(o.get('date'))
-        if not d:continue
+        if not d or d>now:continue
         bysym.setdefault(o.get('symbol'),[]).append(o)
     for rows in bysym.values():
         rows.sort(key=lambda x:x['date'])
