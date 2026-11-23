@@ -26000,17 +26000,17 @@
       "metrics": {
         "52WeekHigh": 497.36,
         "52WeekLow": 347.53,
-        "peTTM": 34.1838,
-        "psTTM": 4.5754,
+        "peTTM": 33.0766,
+        "psTTM": 4.4272,
         "netProfitMarginTTM": 13.38,
         "roeTTM": 33.32,
         "revenueGrowthTTMYoy": 11.31,
         "epsGrowthTTMYoy": 24.94,
         "currentRatioQuarterly": 1.0752,
         "totalDebt/totalEquityQuarterly": 0.9325,
-        "marketCapitalization": 41054.684
+        "marketCapitalization": 39724.957
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Rockwell Automation Inc",
       "profile": {
         "weburl": "https://www.rockwellautomation.com/en-in.html",
@@ -26064,17 +26064,17 @@
       "metrics": {
         "52WeekHigh": 66.14,
         "52WeekLow": 29.285,
-        "peTTM": 35.164,
-        "psTTM": 4.6395,
+        "peTTM": 34.3644,
+        "psTTM": 4.534,
         "netProfitMarginTTM": 13.19,
         "roeTTM": 37.74,
         "revenueGrowthTTMYoy": 8.35,
         "epsGrowthTTMYoy": 2.72,
         "currentRatioQuarterly": 0.6211,
         "totalDebt/totalEquityQuarterly": 0.523,
-        "marketCapitalization": 18500.354
+        "marketCapitalization": 18079.672
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Rollins Inc",
       "profile": {
         "weburl": "https://www.rollins.com/",
@@ -26120,17 +26120,17 @@
       "metrics": {
         "52WeekHigh": 507.24,
         "52WeekLow": 305.96,
-        "peTTM": 17.9986,
-        "psTTM": 5.5279,
+        "peTTM": 17.5796,
+        "psTTM": 5.3992,
         "netProfitMarginTTM": 30.71,
         "roeTTM": 13.530000000000001,
         "revenueGrowthTTMYoy": 9.24,
         "epsGrowthTTMYoy": 74.59,
         "currentRatioQuarterly": 0.4258,
         "totalDebt/totalEquityQuarterly": 0.507,
-        "marketCapitalization": 46625.36
+        "marketCapitalization": 45539.92
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Roper Technologies, Inc.",
       "profile": {
         "weburl": "https://www.ropertech.com/",
@@ -26194,7 +26194,7 @@
         "totalDebt/totalEquityQuarterly": 1.9086,
         "marketCapitalization": 79299.78
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Royal Caribbean Cruises Ltd.",
       "profile": {
         "weburl": "https://www.royalcaribbeangroup.com/",
@@ -26202,6 +26202,14 @@
         "name": "Royal Caribbean Cruises Ltd."
       },
       "news": [
+        {
+          "headline": "ETFs Are Net Sellers of Royal Caribbean (RCL) on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=5eb5836eb06ab16196f18d772cea1b00ff9dd38ebf6485a3ad0bb7d3efbdbaba",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:02:34Z",
+          "primary": false,
+          "symbol": "RCL"
+        },
         {
           "headline": "Royal Caribbean (RCL) Recently Broke Out Above the 20-Day Moving Average",
           "url": "https://finnhub.io/api/news?id=1cb450558da31847554045025880a0f30a47c1a2e37a08bba84780199e7a1434",
@@ -26233,31 +26241,23 @@
           "published_at": "2026-11-17T19:15:37Z",
           "primary": false,
           "symbol": "RCL"
-        },
-        {
-          "headline": "Here is What to Know Beyond Why Royal Caribbean Cruises Ltd. (RCL) is a Trending Stock",
-          "url": "https://finnhub.io/api/news?id=03e680278186041dbabeb055a547b3424a7eb73b6865a064fe9f4a24332c3b2b",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:00:04Z",
-          "primary": false,
-          "symbol": "RCL"
         }
       ]
     },
     "SNDK": {
       "metrics": {
-        "52WeekHigh": 2354.39,
-        "52WeekLow": 183.0,
-        "peTTM": 5.5324,
-        "psTTM": 3.7089,
+        "52WeekHigh": 294.3,
+        "52WeekLow": 22.88,
+        "peTTM": 4.779,
+        "psTTM": 3.2038,
         "netProfitMarginTTM": 67.04,
         "roeTTM": 134.27,
         "revenueGrowthTTMYoy": 272.38,
         "currentRatioQuarterly": 2.5797,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 107451.23
+        "marketCapitalization": 92817.93
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "SanDisk Corporation",
       "profile": {
         "weburl": "https://www.sandisk.com/",
@@ -26266,42 +26266,42 @@
       },
       "news": [
         {
-          "headline": "Sandisk (SNDK) Implements 8 For 1 Stock Split",
-          "url": "https://finnhub.io/api/news?id=58c334672d10798d5fdb7d764d0a542ce67503ad431ddd9bf7a1bf21962f7c1d",
+          "headline": "Sandisk Just Split Its Stock 8-for-1. Is It Time to Buy?",
+          "url": "https://finnhub.io/api/news?id=a0568415d51ff07600119f39c0f5ba38f1b2519c4576d3c4919c4afda5efbdc2",
           "source": "Yahoo",
-          "published_at": "2026-11-21T04:25:29Z",
+          "published_at": "2026-11-23T10:20:02Z",
           "primary": false,
           "symbol": "SNDK"
         },
         {
-          "headline": "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business",
-          "url": "https://finnhub.io/api/news?id=4cdf85af0d5e8d96af3cd3843a0c790e0eff057951edff344eaff9ebda56ce88",
+          "headline": "SNDK Stock Wrapped Its Worst Week Since July: Why Morningstar Sees A NAND Memory Bust Looming For SanDisk",
+          "url": "https://finnhub.io/api/news?id=22610454efabd51e4e195fbb084d9def20a78f02f9c54eb852bae2f946ea35a3",
           "source": "Yahoo",
-          "published_at": "2026-11-20T18:12:44Z",
+          "published_at": "2026-11-23T03:12:15Z",
           "primary": false,
           "symbol": "SNDK"
         },
         {
-          "headline": "Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
-          "url": "https://finnhub.io/api/news?id=d48200e955537884fd7f5707965d11048c0e4b65c11cbbcde3e9cdf72e727732",
+          "headline": "Micron Technology vs. Sandisk: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=149612e0b600d87a9883409ddf208a6d1357e40d37982bf8dbe8333f2867883f",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:41:04Z",
+          "published_at": "2026-11-22T19:00:08Z",
           "primary": false,
           "symbol": "SNDK"
         },
         {
-          "headline": "SanDisk Stock Has Pulled Back. Here’s Where Shares Could Be Headed Next",
-          "url": "https://finnhub.io/api/news?id=585e28d0df8ca44d51c58f39a7c4a528d052c60de8f36ce4ca230a35e89b7eb0",
+          "headline": "Renaissance Technologies Grew Its SanDisk Stake More Than 55-Fold to $481 Million",
+          "url": "https://finnhub.io/api/news?id=add8b9846ae8b1f142e2e8e1fea2288abd9a9853b95a8579782cb6dc2f16ee7a",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:39:15Z",
+          "published_at": "2026-11-21T21:43:03Z",
           "primary": false,
           "symbol": "SNDK"
         },
         {
-          "headline": "SanDisk slides over 14% as bearish NAND pricing outlook hits chip stocks",
-          "url": "https://finnhub.io/api/news?id=74b1fee8308ae81cdcb9cf9c257e4899dcb7db8698fab8b986e571753bd061dc",
+          "headline": "SK hynix Sinks 21% in a Week With Micron and Sandisk. Its U.S. Premium Is an “Extra Special Case”",
+          "url": "https://finnhub.io/api/news?id=339bea4733666c1f570c6fa687d2e22c1e95eb6d773248ecb7de8d96fe4a4eb0",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:59:00Z",
+          "published_at": "2026-11-21T16:50:56Z",
           "primary": false,
           "symbol": "SNDK"
         }
@@ -26311,17 +26311,17 @@
       "metrics": {
         "52WeekHigh": 224.46,
         "52WeekLow": 156.6,
-        "peTTM": 18.4466,
-        "psTTM": 6.3717,
+        "peTTM": 18.3724,
+        "psTTM": 6.3461,
         "netProfitMarginTTM": 34.54,
         "roeTTM": -1.71,
         "revenueGrowthTTMYoy": 2.26,
         "epsGrowthTTMYoy": 16.75,
         "currentRatioQuarterly": 0.1959,
         "totalDebt/totalEquityQuarterly": 43.1384,
-        "marketCapitalization": 18173.604
+        "marketCapitalization": 18100.504
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "SBA Communications Corp",
       "profile": {
         "weburl": "https://sbasite.com/",
@@ -26344,16 +26344,16 @@
         "52WeekHigh": 1145.0,
         "52WeekLow": 228.61,
         "peTTM": 23.8653,
-        "psTTM": 7.6029,
+        "psTTM": 7.6028,
         "netProfitMarginTTM": 31.86,
         "roeTTM": 245.10999999999999,
         "revenueGrowthTTMYoy": 44.37,
         "epsGrowthTTMYoy": 144.03,
         "currentRatioQuarterly": 1.8181,
         "totalDebt/totalEquityQuarterly": 0.6809,
-        "marketCapitalization": 104911.73
+        "marketCapitalization": 104911.72
       },
-      "updated_at": "2026-11-21T14:58:01Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Seagate Technology Holdings PLC",
       "profile": {
         "weburl": "https://investors.seagate.com/overview/default.aspx",
@@ -26361,6 +26361,14 @@
         "name": "Seagate Technology Holdings PLC"
       },
       "news": [
+        {
+          "headline": "ETFs Are Net Sellers of Seagate (STX) on Thursday",
+          "url": "https://finnhub.io/api/news?id=3a8d5ecec27b6094e359781510217f527b69bf12087080529d12fa983f43f6f0",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:02:53Z",
+          "primary": false,
+          "symbol": "STX"
+        },
         {
           "headline": "Seagate Technology Holdings (NASDAQ:STX): An Undervalued Value Stock With Strong Forward Earnings Power",
           "url": "https://finnhub.io/api/news?id=664e7fe28e195c2d0e0aadf12e86e02a29bdb009b78b7a9041ead2421df0b989",
@@ -26392,14 +26400,6 @@
           "published_at": "2026-11-20T17:41:04Z",
           "primary": false,
           "symbol": "STX"
-        },
-        {
-          "headline": "Hard Drives Were Left for Dead, But Seagate and Western Digital Are Soaring",
-          "url": "https://finnhub.io/api/news?id=ace03cf86b8f841be925868630d0c4fd51c6effad822f83b4f64b2c6712b8178",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:45:00Z",
-          "primary": false,
-          "symbol": "STX"
         }
       ]
     },
@@ -26407,17 +26407,17 @@
       "metrics": {
         "52WeekHigh": 377.77,
         "52WeekLow": 289.86,
-        "peTTM": 31.0546,
-        "psTTM": 3.3359,
+        "peTTM": 30.6704,
+        "psTTM": 3.2947,
         "netProfitMarginTTM": 10.74,
         "roeTTM": 63.49,
         "revenueGrowthTTMYoy": 7.03,
         "epsGrowthTTMYoy": 6.21,
         "currentRatioQuarterly": 0.7135,
         "totalDebt/totalEquityQuarterly": 2.9661,
-        "marketCapitalization": 83105.086
+        "marketCapitalization": 82077.13
       },
-      "updated_at": "2026-11-21T15:54:09Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Sherwin-Williams Co",
       "profile": {
         "weburl": "https://www.sherwin-williams.com/",
@@ -26456,14 +26456,6 @@
           "published_at": "2026-11-17T14:56:26Z",
           "primary": false,
           "symbol": "SHW"
-        },
-        {
-          "headline": "Here's How Much $1000 Invested In Sherwin-Williams 20 Years Ago Would Be Worth Today",
-          "url": "https://finnhub.io/api/news?id=ad319ea66325bb4d5732bf3de872481a1be2178d75694c465c608d5cf643f5dc",
-          "source": "Benzinga",
-          "published_at": "2026-11-13T19:45:15Z",
-          "primary": false,
-          "symbol": "SHW"
         }
       ]
     },
@@ -26471,39 +26463,48 @@
       "metrics": {
         "52WeekHigh": 93.24,
         "52WeekLow": 51.93,
-        "peTTM": 106.6535,
-        "psTTM": 4.6356,
+        "peTTM": 100.8606,
+        "psTTM": 4.3838,
         "netProfitMarginTTM": 4.35,
         "roeTTM": 3.0,
         "revenueGrowthTTMYoy": -3.11,
         "epsGrowthTTMYoy": -62.95,
         "currentRatioQuarterly": 3.3412,
         "totalDebt/totalEquityQuarterly": 0.4326,
-        "marketCapitalization": 18355.064
+        "marketCapitalization": 17358.105
       },
-      "updated_at": "2026-11-21T15:54:09Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Skyworks Solutions, Inc.",
       "profile": {
         "weburl": "https://www.skyworksinc.com/",
         "industry": "Semiconductors",
         "name": "Skyworks Solutions, Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "What Skyworks Solutions Holders Got Right",
+          "url": "https://finnhub.io/api/news?id=6cdcb113784eee7820dc73b20fbef1e768d4660836d1f2cb31bf0a96e65891be",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T04:24:27Z",
+          "primary": false,
+          "symbol": "SWKS"
+        }
+      ]
     },
     "SJM": {
       "metrics": {
         "52WeekHigh": 136.3,
         "52WeekLow": 88.25,
-        "peTTM": 63.2793,
-        "psTTM": 1.586,
+        "peTTM": 62.2228,
+        "psTTM": 1.5595,
         "netProfitMarginTTM": 2.51,
         "roeTTM": 4.06,
         "revenueGrowthTTMYoy": 5.08,
         "currentRatioQuarterly": 0.87,
         "totalDebt/totalEquityQuarterly": 1.1733,
-        "marketCapitalization": 14522.61
+        "marketCapitalization": 14280.123
       },
-      "updated_at": "2026-11-21T15:54:09Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "The J. M. Smucker Company",
       "profile": {
         "weburl": "https://www.jmsmucker.com/",
@@ -26511,6 +26512,14 @@
         "name": "The J. M. Smucker Company"
       },
       "news": [
+        {
+          "headline": "How Many Shares of J.M. Smucker or Hormel Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=f2160471d8d89fbd9684fe8a755c7b6bb5bcc4f4ce8a8d5aa5bd8140d04a9eb4",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T17:51:58Z",
+          "primary": false,
+          "symbol": "SJM"
+        },
         {
           "headline": "J.M. Smucker or Energy Transfer: Only One Gets My Dividend Dollars for the Next 20 Years",
           "url": "https://finnhub.io/api/news?id=e0ad22e6ec0e7f106aff1a85ae2644c2f56f8992288a7141697e97027db4d90a",
@@ -26542,14 +26551,6 @@
           "published_at": "2026-11-19T13:28:00Z",
           "primary": false,
           "symbol": "SJM"
-        },
-        {
-          "headline": "Ahead of Smucker (SJM) Q2 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
-          "url": "https://finnhub.io/api/news?id=ac129fe71233bea92a500db0e461dc0dece2de0e780aa77d553fbef63d64356d",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:15:04Z",
-          "primary": false,
-          "symbol": "SJM"
         }
       ]
     },
@@ -26557,17 +26558,17 @@
       "metrics": {
         "52WeekHigh": 52.65,
         "52WeekLow": 32.729,
-        "peTTM": 40.6426,
-        "psTTM": 0.6448,
+        "peTTM": 39.7881,
+        "psTTM": 0.6313,
         "netProfitMarginTTM": 1.59,
         "roeTTM": 2.73,
         "revenueGrowthTTMYoy": -29.41,
         "epsGrowthTTMYoy": -21.42,
         "currentRatioQuarterly": 1.447,
         "totalDebt/totalEquityQuarterly": 0.7853,
-        "marketCapitalization": 20199.367
+        "marketCapitalization": 19774.668
       },
-      "updated_at": "2026-11-21T15:54:09Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Smurfit WestRock PLC",
       "profile": {
         "weburl": "https://www.smurfitwestrock.com/",
@@ -26575,6 +26576,14 @@
         "name": "Smurfit WestRock PLC"
       },
       "news": [
+        {
+          "headline": "Is Smurfit Westrock plc (SW) Undervalued Ahead of Its Expected 2027 Cost Recovery?",
+          "url": "https://finnhub.io/api/news?id=c6c872934cf608386069b758bb9e4ed3d8f89f4c7519d5c2a6ac5b61554b89ce",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T14:23:56Z",
+          "primary": false,
+          "symbol": "SW"
+        },
         {
           "headline": "Which Gives You More Of A Packaging Rebound, Smurfit WestRock Or Amcor?",
           "url": "https://finnhub.io/api/news?id=136f3c5eb994384c377ba331638997377a3504e963d3a42e70d7d2b9a6664645",
@@ -26596,18 +26605,18 @@
     "SNA": {
       "metrics": {
         "52WeekHigh": 423.02,
-        "52WeekLow": 327.71,
-        "peTTM": 18.22,
-        "psTTM": 3.4995,
+        "52WeekLow": 328.14,
+        "peTTM": 17.7946,
+        "psTTM": 3.4178,
         "netProfitMarginTTM": 19.21,
         "roeTTM": 16.84,
         "revenueGrowthTTMYoy": 2.93,
         "epsGrowthTTMYoy": 0.83,
         "currentRatioQuarterly": 3.545,
         "totalDebt/totalEquityQuarterly": 0.1979,
-        "marketCapitalization": 18425.848
+        "marketCapitalization": 17995.66
       },
-      "updated_at": "2026-11-21T15:54:09Z",
+      "updated_at": "2026-11-23T13:30:06Z",
       "name": "Snap-On Inc",
       "profile": {
         "weburl": "https://www.snapon.com/",
@@ -29639,6 +29648,6 @@
       ]
     }
   },
-  "cursor": 457,
-  "updated_at": "2026-11-23T12:09:03Z"
+  "cursor": 469,
+  "updated_at": "2026-11-23T13:30:06Z"
 }

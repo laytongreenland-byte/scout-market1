@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:09:03Z",
+  "generated_at": "2026-11-23T13:30:06Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T12:09:03Z",
+      "checked_at": "2026-11-23T13:30:06Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T12:09:03Z",
+      "checked_at": "2026-11-23T13:30:06Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T12:09:03Z",
+      "checked_at": "2026-11-23T13:30:06Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T12:09:03Z",
+      "checked_at": "2026-11-23T13:30:06Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T12:09:03Z",
+      "checked_at": "2026-11-23T13:30:06Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T12:09:03Z",
+    "generated_at": "2026-11-23T13:30:06Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -13739,35 +13739,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T14:58:01Z",
+            "timestamp": "2026-11-23T13:30:06Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Royal Caribbean (RCL) Recently Broke Out Above the 20-Day Moving Average",
-            "timestamp": "2026-11-19T13:35:02Z",
-            "url": "https://finnhub.io/api/news?id=1cb450558da31847554045025880a0f30a47c1a2e37a08bba84780199e7a1434"
+            "value": "ETFs Are Net Sellers of Royal Caribbean (RCL) on Nov. 19",
+            "timestamp": "2026-11-23T11:02:34Z",
+            "url": "https://finnhub.io/api/news?id=5eb5836eb06ab16196f18d772cea1b00ff9dd38ebf6485a3ad0bb7d3efbdbaba"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T14:58:01Z",
+        "fundamentals_at": "2026-11-23T13:30:06Z",
         "price": 296.48,
         "currency": "USD",
         "change_pct": -2.2,
         "news": [
           {
-            "headline": "Royal Caribbean (RCL) Recently Broke Out Above the 20-Day Moving Average",
-            "url": "https://finnhub.io/api/news?id=1cb450558da31847554045025880a0f30a47c1a2e37a08bba84780199e7a1434",
+            "headline": "ETFs Are Net Sellers of Royal Caribbean (RCL) on Nov. 19",
+            "url": "https://finnhub.io/api/news?id=5eb5836eb06ab16196f18d772cea1b00ff9dd38ebf6485a3ad0bb7d3efbdbaba",
             "source": "Yahoo",
-            "published_at": "2026-11-19T13:35:02Z",
+            "published_at": "2026-11-23T11:02:34Z",
             "primary": false,
             "symbol": "RCL"
           },
           {
-            "headline": "Can RCL's Resort Strategy Capture More of the $2T Vacation Market?",
-            "url": "https://finnhub.io/api/news?id=f05d84d875f060ea1abffe706d5962bccde32a56fe6eda0ea5fc30a7de605479",
+            "headline": "Royal Caribbean (RCL) Recently Broke Out Above the 20-Day Moving Average",
+            "url": "https://finnhub.io/api/news?id=1cb450558da31847554045025880a0f30a47c1a2e37a08bba84780199e7a1434",
             "source": "Yahoo",
-            "published_at": "2026-11-18T16:50:00Z",
+            "published_at": "2026-11-19T13:35:02Z",
             "primary": false,
             "symbol": "RCL"
           }
@@ -13800,7 +13800,7 @@
             "scenario_exit_pe": 17.34,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T14:58:01Z"
+            "metrics_retrieved_at": "2026-11-23T13:30:06Z"
           }
         },
         "ranking_score": 76,
@@ -15247,23 +15247,63 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T12:09:03Z",
+      "generated_at": "2026-11-23T13:30:06Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 784,
-        "purchase_scenarios": 67,
+        "recorded": 786,
+        "purchase_scenarios": 68,
         "opened": 1,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 67,
+        "waiting": 68,
         "unverified": 0,
-        "skipped": 717,
+        "skipped": 718,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|ROL|ABOVE BASE CASE",
+          "symbol": "ROL",
+          "name": "Rollins Inc",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-23T13:30:06Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 37.82,
+          "buy_ceiling": 14.73,
+          "sell_review": 18.89,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 13.2% (TTM); Return on equity 37.7% (TTM); Trailing P/E 34.4×; TTM revenue growth 8.3% YoY",
+          "score": 62,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-23|ROP|WAIT FOR ENTRY",
+          "symbol": "ROP",
+          "name": "Roper Technologies, Inc.",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-23T13:30:06Z",
+          "quote_at": "2026-11-20T21:00:00Z",
+          "reference_price": 459.83,
+          "buy_ceiling": 365.95,
+          "sell_review": 469.16,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 30.7% (TTM); Return on equity 13.5% (TTM); Trailing P/E 17.6×; TTM revenue growth 9.2% YoY",
+          "score": 75,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|NCLH|POSSIBLE VALUE TRAP",
           "symbol": "NCLH",
@@ -17620,46 +17660,6 @@
           "result": {
             "status": "WAITING_TO_BUY",
             "reason": "No later observed daily close has met the original buy ceiling"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|CB|NO RELIABLE PRICE RANGE",
-          "symbol": "CB",
-          "name": "Chubb Limited",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 371.63,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 12.6×; TTM revenue growth 5.7% YoY",
-          "score": 78,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|MDT|ABOVE BASE CASE",
-          "symbol": "MDT",
-          "name": "Medtronic PLC",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 99.94,
-          "buy_ceiling": 57.7,
-          "sell_review": 73.98,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 13.9% (TTM); Return on equity 10.6% (TTM); Trailing P/E 24.4×; TTM revenue growth 9.8% YoY",
-          "score": 61,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"

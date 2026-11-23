@@ -60143,6 +60143,48 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|ROL|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "ROL",
+      "name": "Rollins Inc",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-23T13:30:06Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 37.82,
+      "score": 62,
+      "quality_status": "WATCH",
+      "buy_ceiling": 14.73,
+      "sell_review": 18.89,
+      "bear_case": 10.81,
+      "why": "Net profit margin 13.2% (TTM); Return on equity 37.7% (TTM); Trailing P/E 34.4×; TTM revenue growth 8.3% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-23T13:30:06Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|ROP|WAIT FOR ENTRY",
+      "week": "2026-11-23",
+      "symbol": "ROP",
+      "name": "Roper Technologies, Inc.",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-23T13:30:06Z",
+      "quote_at": "2026-11-20T21:00:00Z",
+      "reference_price": 459.83,
+      "score": 75,
+      "quality_status": "WATCH",
+      "buy_ceiling": 365.95,
+      "sell_review": 469.16,
+      "bear_case": 260.35,
+      "why": "Net profit margin 30.7% (TTM); Return on equity 13.5% (TTM); Trailing P/E 17.6×; TTM revenue growth 9.2% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-23T13:30:06Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
