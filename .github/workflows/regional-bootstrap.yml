@@ -9,6 +9,7 @@ on:
     - cron: '25 9 * * *'
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: scout-regional-bootstrap
   cancel-in-progress: false
@@ -88,3 +89,8 @@ jobs:
             if git push origin HEAD:main; then break; fi
             if [ "$attempt" -eq 3 ]; then exit 1; fi
           done
+      - name: Send NZX weekly and large-movement research notices (best effort)
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/post_nzx_reports.py
