@@ -4,7 +4,7 @@
 const ScoutMarket=(()=>{
   const $=id=>document.getElementById(id);
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  let catalog=null,latest=null,apac=null,sdd=null,query='',type='all',market='all';
+  let catalog=null,latest=null,apac=null,sdd=null,canary=null,query='',type='all',market='all';
   const count=n=>Number(n||0).toLocaleString('en-NZ');
   function render(){
     const stats=$('market-directory-stats'),markets=$('market-directory-markets');
@@ -28,6 +28,10 @@ const ScoutMarket=(()=>{
     for(const m of ['NZX','ASX']){
       const record=apac?.markets?.[m];
       if(record)markets.innerHTML+='<span>'+m+' EOD: '+esc(record.status==='PRICE_RESEARCH'?count(record.recent_prices)+' recent prices':record.status==='NO_API_KEY'?'provider key missing':record.status==='NO_VALID_DIRECTORY'?'directory missing':'no verified prices')+'</span>';
+    }
+    if(canary){
+      const when=String(canary.checked_at||'').slice(0,16).replace('T',' ')+' UTC';
+      markets.innerHTML+='<span>Provider check '+esc(when)+': NZX directory '+esc(canary.NZX?.directory||'not tested')+' / NZX price '+esc(canary.NZX?.sample_price||'not tested')+' / ASX price '+esc(canary.ASX?.sample_price||'not tested')+'</span>';
     }
     if(sdd){const n=Object.values(sdd.scans||{}).reduce((a,x)=>a+(Array.isArray(x)?x.length:0),0);
       const asx=sdd.asx_research_status==='ACCESS_DENIED'?'ASX access denied':sdd.asx_research_status==='AVAILABLE'?'ASX research available':'ASX research unavailable';
@@ -69,6 +73,13 @@ const ScoutMarket=(()=>{
       const response=await fetch('./data/apac.json?nocache='+Date.now(),{cache:'no-store'});
       if(response.ok){const v=await response.json();if(v&&Array.isArray(v.quotes))apac=v}
     }catch{apac=null}
+    try{
+      const response=await fetch('./data/regional_canary.json?nocache='+Date.now(),{cache:'no-store'});
+      if(response.ok){
+        const obj=await response.json();
+        if(obj?.research_only===true&&obj.NZX&&obj.ASX)canary=obj;
+      }
+    }catch{canary=null}
     try{
       const response=await fetch('./data/stocksdeepdive.json?nocache='+Date.now(),{cache:'no-store'});
       if(response.ok){const obj=await response.json();if(obj?.provider==='StocksDeepDive'&&obj?.recommendation_influence===false)sdd=obj}
