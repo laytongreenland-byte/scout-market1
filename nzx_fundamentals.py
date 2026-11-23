@@ -67,7 +67,8 @@ def unpack(record, sym, now):
             'metrics':entries, 'ratio_units_verified':False,
             'quality':'METRICS_UNVERIFIED_UNITS'}
 
-def build(previous,catalog,apac,fetcher=None,now=None,limit=4,key=None):
+def build(previous,catalog,apac,fetcher=None,now=None,limit=4,key=None,filing_fetcher=None):
+    from nzx_filings import fetch_for, parse as parse_filings
     now=now or datetime.now(timezone.utc)
     today=now.astimezone(NZ).date()
     previous=previous if isinstance(previous,dict) else {}
@@ -79,34 +80,61 @@ def build(previous,catalog,apac,fetcher=None,now=None,limit=4,key=None):
     stored={k:v for k,v in previous.get('companies',{}).items()
             if k in items and isinstance(v,dict)}
     status={'attempted':0,'valid_this_scan':0,'available':len(stored),
+            'filing_requests':0,'filings_with_official_links':0,
             'status':'NO_KEY' if not key else 'NO_PRICED_COMPANIES' if not tickers else 'OK',
             'errors':[]}
-    if not key or not tickers:return {'generated_at':now.isoformat(),'companies':stored,
-            'fetched_day':previous.get('fetched_day'),'status':status}
-    if previous.get('fetched_day')==today.isoformat():return {'generated_at':now.isoformat(),
-            'companies':stored,'fetched_day':previous.get('fetched_day'),'status':dict(status,status='ALREADY_CHECKED')}
+    fetched_day=previous.get('fetched_day')
+    filings_day=previous.get('filings_checked_day')
+    if not key or not tickers:
+        return {'generated_at':now.isoformat(),'companies':stored,
+                'fetched_day':fetched_day,'filings_checked_day':filings_day,
+                'status':status}
     fetcher=fetcher or (lambda sym,k:request(NZX_ROOT+'metrics/'+sym,k))
-    # Fill missing or oldest metrics first. Avoid repeatedly polling same company.
-    def age(s):
-        try:return datetime.fromisoformat(s.get('retrieved_at','').replace('Z','+00:00'))
+    filing_fetcher=filing_fetcher or fetch_for
+    def age(item):
+        try:return datetime.fromisoformat(item.get('retrieved_at','').replace('Z','+00:00'))
         except (ValueError,TypeError):return datetime(1970,1,1,tzinfo=timezone.utc)
-    queue=sorted(tickers,key=lambda sym:age(stored.get(sym,{})))
-    for sym in queue[:max(0,min(limit,8))]:
-        status['attempted']+=1
-        try:
-            record=unpack(fetcher(sym,key),sym,now)
-            if record and record['metrics']:
-                stored[sym]=record
-                status['valid_this_scan']+=1
-            else:status['errors'].append(sym+': INVALID_METRICS')
-        except urllib.error.HTTPError as ex:
-            status['errors'].append(sym+': HTTP_'+str(ex.code))
-            if ex.code in (401,403,429):break
-        except Exception:status['errors'].append(sym+': PROVIDER_ERROR')
+    if fetched_day!=today.isoformat():
+        queue=sorted(tickers,key=lambda sym:age(stored.get(sym,{})))
+        for sym in queue[:max(0,min(limit,8))]:
+            status['attempted']+=1
+            try:
+                record=unpack(fetcher(sym,key),sym,now)
+                if record and record['metrics']:
+                    # Preserve separately verified primary issuer links.
+                    record['announcements']=stored.get(sym,{}).get('announcements',[])
+                    stored[sym]=record
+                    status['valid_this_scan']+=1
+                else:status['errors'].append(sym+': INVALID_METRICS')
+            except urllib.error.HTTPError as ex:
+                status['errors'].append(sym+': HTTP_'+str(ex.code))
+                if ex.code in (401,403,429):break
+            except Exception:status['errors'].append(sym+': PROVIDER_ERROR')
+        if status['attempted']:fetched_day=today.isoformat()
+    if filings_day!=today.isoformat() and stored:
+        # Only lookup issuers already screened. This is NOT a bulk feed.
+        queue=sorted(stored,key=lambda sym:(bool(stored[sym].get('announcements')),
+                                           age(stored[sym])))
+        for sym in queue[:min(4,max(0,limit))]:
+            status['filing_requests']+=1
+            try:
+                meta=parse_filings(filing_fetcher(sym,key),today)
+                if meta:
+                    stored[sym]['announcements']=meta
+                    status['filings_with_official_links']+=1
+                else:status['errors'].append(sym+': NO_OFFICIAL_FILING_LINK')
+            except urllib.error.HTTPError as ex:
+                status['errors'].append(sym+': FILING_HTTP_'+str(ex.code))
+                if ex.code in (401,403,429):break
+            except Exception:status['errors'].append(sym+': FILINGS_UNAVAILABLE')
+        if status['filing_requests']:filings_day=today.isoformat()
     status['available']=len(stored)
-    status['status']='OK' if status['valid_this_scan'] else 'PROVIDER_ERROR'
+    status['status']=('OK' if status['valid_this_scan'] or
+                     status['filings_with_official_links'] else
+                     'ALREADY_CHECKED' if not status['attempted'] and not status['filing_requests'] else
+                     'PARTIAL' if stored else 'PROVIDER_ERROR')
     return {'generated_at':now.isoformat(),'companies':stored,
-            'fetched_day':today.isoformat() if status['attempted'] else previous.get('fetched_day'),
+            'fetched_day':fetched_day,'filings_checked_day':filings_day,
             'status':status}
 
 def main():
