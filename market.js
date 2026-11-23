@@ -4,7 +4,7 @@
 const ScoutMarket=(()=>{
   const $=id=>document.getElementById(id);
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  let catalog=null,latest=null,apac=null,sdd=null,query='',type='all';
+  let catalog=null,latest=null,apac=null,sdd=null,query='',type='all',market='all';
   const count=n=>Number(n||0).toLocaleString('en-NZ');
   function render(){
     const stats=$('market-directory-stats'),markets=$('market-directory-markets');
@@ -38,7 +38,7 @@ const ScoutMarket=(()=>{
       list.innerHTML='<div class="market-directory-message">Search by company or ticker to explore exchange listings. Independent research, when available, is labelled StocksDeepDive and is not a Scout buy signal. <a href="https://stocksdeepdive.com/api" target="_blank" rel="noopener noreferrer">Source and methodology</a>.</div>';
       return;
     }
-    const matches=catalog.items.filter(x=>(type==='all'||x.type===type)&&
+    const matches=catalog.items.filter(x=>(market==='all'||x.market===market)&&(type==='all'||x.type===type)&&
       ((x.symbol||'').toLowerCase().includes(query)||(x.name||'').toLowerCase().includes(query)));
     const shown=matches.slice(0,35);
     const research=new Map();
@@ -49,7 +49,9 @@ const ScoutMarket=(()=>{
     list.innerHTML=shown.map(x=>'<div class="market-directory-row"><div><strong>'+esc(x.symbol)+'</strong>'+
       '<p>'+esc(x.name||'Unknown security')+'</p></div><small>'+esc(x.exchange)+' · '+esc(x.type)+
       (quotes.has(x.market+':'+x.symbol)?' · EOD '+esc(quotes.get(x.market+':'+x.symbol).currency)+' '+esc(quotes.get(x.market+':'+x.symbol).close)+' ('+esc(quotes.get(x.market+':'+x.symbol).date)+')':'')+
-      (research.has(x.market==='ASX'?x.symbol+'.AX':x.symbol)?' · <a href="https://stocksdeepdive.com/s/'+encodeURIComponent(x.market==='ASX'?x.symbol+'.AX':x.symbol)+'" target="_blank" rel="noopener noreferrer">StocksDeepDive research</a>':'')+'</small></div>').join('')+
+      (research.has(x.market==='ASX'?x.symbol+'.AX':x.symbol)?' · <a href="https://stocksdeepdive.com/s/'+encodeURIComponent(x.market==='ASX'?x.symbol+'.AX':x.symbol)+'" target="_blank" rel="noopener noreferrer">StocksDeepDive research</a>':'')+
+      (x.market==='NZX'?' · <a href="https://www.nzx.com/instruments/'+encodeURIComponent(x.symbol)+'" target="_blank" rel="noopener noreferrer">NZX listing</a>':'')+
+      (x.market==='ASX'?' · <a href="https://stockanalysis.com/quote/asx/'+encodeURIComponent(x.symbol)+'/" target="_blank" rel="noopener noreferrer">External ASX quote</a>':'')+'</small></div>').join('')+
       '<div class="market-directory-message">'+(matches.length?count(matches.length)+' exchange listings matched. Showing first '+shown.length+'.':'No matching securities in the available exchange directory.')+'</div>';
   }
   async function load(){
@@ -75,6 +77,7 @@ const ScoutMarket=(()=>{
   }
   function setup(){
     $('market-directory-search').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();render()});
+    $('market-directory-market').addEventListener('change',e=>{market=e.target.value;render()});
     $('market-directory-type').addEventListener('change',e=>{type=e.target.value;render()});
     load();
   }
