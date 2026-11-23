@@ -32,6 +32,16 @@
           <div class="compass-meta" id="compass-meta">Illustrative research, not guaranteed price targets.</div>
           <button class="compass-action" data-goto="research" type="button">Show me the supporting research →</button>
         </div>
+        <section id="scout-nzx-home" class="card nzx-home" aria-label="New Zealand research and learning">
+          <div class="flex-between"><strong>NZX · RESEARCH & LEARNING</strong><span class="mini-label" id="nzx-build-id">BUILD 23 NOV</span></div>
+          <div id="nzx-overview" aria-live="polite">
+            <p>Loading New Zealand research and paper-trade evidence. NZX research is part of Scout, alongside the US market.</p>
+          </div>
+          <div class="nzx-home-actions">
+            <button class="compass-action" type="button" data-goto="results">See lessons & paper results</button>
+            <button class="text-action" type="button" data-goto="research">Explore NZX companies</button>
+          </div>
+        </section>
         <details class="scout-more"><summary>More information and market details</summary>
         <div class="coverage-grid" id="coverage-grid">
           <div><strong>—</strong><span>Tracked</span></div>
@@ -62,7 +72,7 @@
       </section>
       <section class="tab-panel" id="tab-research" aria-labelledby="nav-research">
         <div class="page-heading"><div class="eyebrow">HOW SCOUT REACHED ITS OPINION</div><h1>The research</h1><p>Company financials, indicative buy and exit prices, and reasons to avoid an investment. The model is not proven to predict returns.</p></div>
-        <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">Universe is restricted to selected liquid US shares and ETFs. NZX company announcements are monitored, but NZX prices and fundamentals are not yet screened.</div></div>
+        <div class="research-heading card"><strong id="research-count">Screen warming up</strong><span id="research-checked">Awaiting source data</span><div class="hint">US research is screened in USD. NZX issuer financials, filings and forward paper decisions are screened separately in NZD, with clear data and evidence gates.</div></div>
         <div class="section-title"><h2>Current entry and exit zones</h2><span id="entry-status">Calculating</span></div>
         <div class="notice">CLEAR RESEARCH SIGNALS — NOT TRADE ORDERS. Entry ranges are conservative illustrative scenarios based on reported P/E, earnings growth, profitability and 52-week prices. The exit range is where to <strong>review taking profit</strong>, not a promised selling price. No estimate is shown if inputs are unsuitable. All figures are USD, before fees, foreign exchange and NZ tax.</div>
         <div id="entry-list" class="stack"></div>
@@ -107,6 +117,12 @@
           <h1>Scout's results</h1>
           <p>What Scout originally thought, what price it suggested, and what happened afterwards. Both wins and losses stay here.</p>
         </div>
+        <section class="card nzx-results-main" aria-label="NZX paper research and lessons">
+          <div class="flex-between"><strong>NZX · PAPER DECISIONS & LESSONS</strong><span class="mini-label">NZD · FORWARD TESTING</span></div>
+          <div id="nzx-paper" aria-live="polite">
+            <p>Loading New Zealand experiment history. Unresolved decisions are not counted as wins.</p>
+          </div>
+        </section>
         <div class="results-grid" id="results-stats">
           <div><strong>—</strong><span>Completed paper trades</span></div>
           <div><strong>—</strong><span>Profitable</span></div>
