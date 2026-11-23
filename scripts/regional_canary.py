@@ -3,14 +3,15 @@
 from __future__ import annotations
 import json
 import os
+import sys
 import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
+ROOT=Path(__file__).resolve().parent.parent
+sys.path.insert(0,str(ROOT))
 from market_catalog import NZX_DIRECTORY, fetch_apac, parse_nzx
 from apac_data import fetch_nzx, fetch_asx, extract_rows, valid_price
-
-ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/'data'/'regional_canary.json'
 NOW=datetime.now(timezone.utc)
 
