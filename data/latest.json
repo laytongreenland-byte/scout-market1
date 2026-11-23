@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:51:45Z",
+  "generated_at": "2026-11-23T01:24:07Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-22T23:51:45Z",
+      "checked_at": "2026-11-23T01:24:07Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-22T23:51:45Z",
+      "checked_at": "2026-11-23T01:24:07Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-22T23:51:45Z",
+      "checked_at": "2026-11-23T01:24:07Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-22T23:51:45Z",
+      "checked_at": "2026-11-23T01:24:07Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-22T23:51:45Z",
+      "checked_at": "2026-11-23T01:24:07Z",
       "error": ""
     }
   ],
@@ -6923,7 +6923,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-22T23:51:45Z",
+    "generated_at": "2026-11-23T01:24:07Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -11028,7 +11028,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T02:56:23Z",
+            "timestamp": "2026-11-23T01:24:07Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11039,7 +11039,7 @@
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T02:56:23Z",
+        "fundamentals_at": "2026-11-23T01:24:07Z",
         "price": 81.27,
         "currency": "USD",
         "change_pct": -1.419,
@@ -13014,7 +13014,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Utilities",
-        "why": "Net profit margin 20.5% (TTM); Return on equity 21.6% (TTM); Trailing P/E 6.4×; TTM revenue growth 2.6% YoY",
+        "why": "Net profit margin 20.5% (TTM); Return on equity 21.6% (TTM); Trailing P/E 6.3×; TTM revenue growth 2.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13028,35 +13028,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T01:21:29Z",
+            "timestamp": "2026-11-23T01:24:07Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Can Edison's Ten-Year Record Sales Decline Last?",
-            "timestamp": "2026-11-19T16:23:07Z",
-            "url": "https://finnhub.io/api/news?id=f92b4bc83fa53ec3b0f59fa973d7e3545a894dc18e495afa24f797dfaa2a73dd"
+            "value": "A 70-Year-Old With $1,000,000 in Edison International, Altria and Realty Income Collects $4,774 a Month in Dividends. How Safe Is Each Check?",
+            "timestamp": "2026-11-21T18:52:42Z",
+            "url": "https://finnhub.io/api/news?id=98a905314787bace2251b5bdf6c7e7c389ce21472329a791bfcd7a98ef84dd0b"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T01:21:29Z",
+        "fundamentals_at": "2026-11-23T01:24:07Z",
         "price": 62.24,
         "currency": "USD",
         "change_pct": -1.238,
         "news": [
           {
-            "headline": "Can Edison's Ten-Year Record Sales Decline Last?",
-            "url": "https://finnhub.io/api/news?id=f92b4bc83fa53ec3b0f59fa973d7e3545a894dc18e495afa24f797dfaa2a73dd",
+            "headline": "A 70-Year-Old With $1,000,000 in Edison International, Altria and Realty Income Collects $4,774 a Month in Dividends. How Safe Is Each Check?",
+            "url": "https://finnhub.io/api/news?id=98a905314787bace2251b5bdf6c7e7c389ce21472329a791bfcd7a98ef84dd0b",
             "source": "Yahoo",
-            "published_at": "2026-11-19T16:23:07Z",
+            "published_at": "2026-11-21T18:52:42Z",
             "primary": false,
             "symbol": "EIX"
           },
           {
-            "headline": "JP Morgan Maintains Neutral on Edison International, Raises Price Target to $64",
-            "url": "https://finnhub.io/api/news?id=f67f92f1e68670a107026973e47e5a0e20ede62d0ad5986ca87497f647c5427d",
-            "source": "Benzinga",
-            "published_at": "2026-11-19T14:59:33Z",
+            "headline": "Can Edison's Ten-Year Record Sales Decline Last?",
+            "url": "https://finnhub.io/api/news?id=f92b4bc83fa53ec3b0f59fa973d7e3545a894dc18e495afa24f797dfaa2a73dd",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:23:07Z",
             "primary": false,
             "symbol": "EIX"
           }
@@ -14855,7 +14855,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-22T23:51:45Z",
+      "generated_at": "2026-11-23T01:24:07Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 783,
