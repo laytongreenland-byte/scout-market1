@@ -5,6 +5,8 @@ on:
     paths:
       - .github/workflows/regional-bootstrap.yml
       - nzx_research.py
+      - nzx_paper.py
+      - nzx_fundamentals.py
       - market_catalog.py
       - data/nzx_etfs.json
   workflow_dispatch:
