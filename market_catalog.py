@@ -151,7 +151,14 @@ def parse_nzx(payload):
     document=json.loads(payload)
     data=document.get('data') if isinstance(document,dict) else document
     if isinstance(data,dict):
-        data=data.get('companies') or data.get('results') or data.get('items')
+        rows=data.get('companies') or data.get('results') or data.get('items')
+        if rows is not None:
+            data=rows
+    # The documented v1 endpoint can deliver a full company list in one
+    # response. Accept both array and ticker-keyed maps, never partial strings.
+    if isinstance(data,dict):
+        data=[dict(row, ticker=row.get('ticker') or ticker)
+              for ticker,row in data.items() if isinstance(row,dict)]
     if not isinstance(data,list):
         raise ValueError('Unexpected NZX company schema')
     output=[]
@@ -165,8 +172,8 @@ def parse_nzx(payload):
             continue
         seen.add(ticker)
         output.append({'symbol':ticker,'name':name,'exchange':'NZX','market':'NZX','type':'SHARE'})
-    if not 0<=len(output)<=100:
-        raise ValueError('NZX response page too large')
+    if not 0<=len(output)<=350:
+        raise ValueError('NZX response outside safe directory size')
     return sorted(output,key=lambda x:x['symbol'])
 
 def apac_discovery(old=None):
@@ -187,10 +194,19 @@ def apac_discovery(old=None):
             if market=='NZX' and not key:
                 raise ValueError('NZXPLORER_API_KEY not configured')
             if market=='NZX':
-                pages=[parser(fetch_apac(page,key)) for page in NZX_PAGES]
-                fresh=list({record['symbol']:record for page in pages for record in page}.values())
-                if not 80<=len(fresh)<=350 or (len(pages[0])==100 and len(pages[1])==100 and pages[0]==pages[1]):
-                    raise ValueError('NZX directory incomplete or pagination ignored')
+                # Prefer the API's documented unpaginated list. Some provider
+                # deployments return HTTP 500 for offset/limit pagination.
+                # Fall back to bounded pages only if that full list fails.
+                try:
+                    fresh=parser(fetch_apac(url,key))
+                    if not 80<=len(fresh)<=350:
+                        raise ValueError('NZX full list incomplete')
+                except (ValueError,urllib.error.HTTPError,urllib.error.URLError,TimeoutError):
+                    pages=[parser(fetch_apac(page,key)) for page in NZX_PAGES]
+                    fresh=list({record['symbol']:record for page in pages for record in page}.values())
+                    if not 80<=len(fresh)<=350 or (
+                            len(pages[0])==100 and len(pages[1])==100 and pages[0]==pages[1]):
+                        raise ValueError('NZX directory incomplete or pagination ignored')
             else:
                 fresh=parser(fetch_apac(url,key))
             chosen=fresh
