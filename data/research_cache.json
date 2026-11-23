@@ -28008,17 +28008,17 @@
       "metrics": {
         "52WeekHigh": 481.57,
         "52WeekLow": 270.71,
-        "peTTM": 48.8354,
-        "psTTM": 6.599,
+        "peTTM": 47.9585,
+        "psTTM": 6.4805,
         "netProfitMarginTTM": 13.51,
         "roeTTM": 10.25,
         "revenueGrowthTTMYoy": 7.96,
         "epsGrowthTTMYoy": 10.63,
         "currentRatioQuarterly": 1.3322,
         "totalDebt/totalEquityQuarterly": 0.5054,
-        "marketCapitalization": 16374.362
+        "marketCapitalization": 16080.342
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Tyler Technologies, Inc.",
       "profile": {
         "weburl": "https://www.tylertech.com",
@@ -28072,17 +28072,17 @@
       "metrics": {
         "52WeekHigh": 69.48,
         "52WeekLow": 49.96,
-        "peTTM": 39.1921,
-        "psTTM": 0.4021,
+        "peTTM": 39.0868,
+        "psTTM": 0.4011,
         "netProfitMarginTTM": 1.03,
         "roeTTM": 3.18,
         "revenueGrowthTTMYoy": 3.32,
         "epsGrowthTTMYoy": -26.47,
         "currentRatioQuarterly": 1.4334,
         "totalDebt/totalEquityQuarterly": 0.4428,
-        "marketCapitalization": 22496.25
+        "marketCapitalization": 22435.805
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Tyson Foods Inc",
       "profile": {
         "weburl": "https://www.tysonfoods.com/",
@@ -28090,6 +28090,22 @@
         "name": "Tyson Foods Inc"
       },
       "news": [
+        {
+          "headline": "Consumer Stocks Snap Winning Streaks As AI Selloff Rocks Markets — TSN, PDD, TJX Buck Trend",
+          "url": "https://finnhub.io/api/news?id=46fc88ba4db64984a6f2acd28312c42c220fd92cf422cc2582fc05b92a6e3370",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T09:24:52Z",
+          "primary": false,
+          "symbol": "TSN"
+        },
+        {
+          "headline": "Tyson Foods (TSN) Just Geared Up for a Key Event That Investors Can’t Ignore",
+          "url": "https://finnhub.io/api/news?id=0029fd11ff99cf22edbc2ad5cdf3f179db805bc42dd99a36e5aae7d23e53f06c",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T04:37:12Z",
+          "primary": false,
+          "symbol": "TSN"
+        },
         {
           "headline": "Tyson Foods changes course after meat plant closures",
           "url": "https://finnhub.io/api/news?id=b4e26ceedbccb0b9e2d5fec7f718e8efc38e447df97124a7c04293b20a01a9fa",
@@ -28113,22 +28129,6 @@
           "published_at": "2026-11-19T22:00:00Z",
           "primary": false,
           "symbol": "TSN"
-        },
-        {
-          "headline": "Why JPMorgan Downgraded Tyson Foods (TSN)",
-          "url": "https://finnhub.io/api/news?id=346e5c079df55b706a1f2a6a5cb8b9e164276020c70c2808282145ab11dbd1b4",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:08:06Z",
-          "primary": false,
-          "symbol": "TSN"
-        },
-        {
-          "headline": "B of A Securities Maintains Neutral on Tyson Foods, Raises Price Target to $65",
-          "url": "https://finnhub.io/api/news?id=25a60bb5c3a0aa861ee2a6ec6e5ec1fb890ed2fb5a63f451feadfe22a6880be2",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T12:44:02Z",
-          "primary": false,
-          "symbol": "TSN"
         }
       ]
     },
@@ -28136,17 +28136,17 @@
       "metrics": {
         "52WeekHigh": 42.0,
         "52WeekLow": 33.1,
-        "peTTM": 16.313,
-        "psTTM": 6.648,
+        "peTTM": 16.0973,
+        "psTTM": 6.5601,
         "netProfitMarginTTM": 40.75,
         "roeTTM": 22.08,
         "revenueGrowthTTMYoy": 0.62,
         "epsGrowthTTMYoy": 371.83,
         "currentRatioQuarterly": 0.0009,
         "totalDebt/totalEquityQuarterly": 1.8401,
-        "marketCapitalization": 11384.236
+        "marketCapitalization": 11233.707
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "UDR, Inc.",
       "profile": {
         "weburl": "https://www.udr.com/",
@@ -28154,6 +28154,14 @@
         "name": "UDR, Inc."
       },
       "news": [
+        {
+          "headline": "A 65-Year-Old With $500,000 in ONEOK, UDR and CubeSmart Collects $2,056 a Month in Dividends. How Safe Is Each Check?",
+          "url": "https://finnhub.io/api/news?id=8758ede4ab7f70a8ddae30a7eb4d217795193ef373454d6b70843cdd3fbda12a",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T19:52:23Z",
+          "primary": false,
+          "symbol": "UDR"
+        },
         {
           "headline": "A $400,000 Portfolio in T. Rowe Price, ONEOK and UDR Pays $20,171 a Year in Dividends. Here’s What Happens if One Cuts",
           "url": "https://finnhub.io/api/news?id=2a3c486f4ed13a48a58902c964e602607d8ca4a0269d39fdb85410e1e99cb662",
@@ -28176,17 +28184,17 @@
       "metrics": {
         "52WeekHigh": 714.97,
         "52WeekLow": 443.6,
-        "peTTM": 21.5555,
-        "psTTM": 2.0133,
+        "peTTM": 21.7578,
+        "psTTM": 2.0321,
         "netProfitMarginTTM": 9.34,
         "roeTTM": 45.4,
         "revenueGrowthTTMYoy": 11.16,
         "epsGrowthTTMYoy": 5.21,
         "currentRatioQuarterly": 1.3451,
         "totalDebt/totalEquityQuarterly": 0.1284,
-        "marketCapitalization": 26082.736
+        "marketCapitalization": 26327.484
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Ulta Beauty Inc",
       "profile": {
         "weburl": "https://www.ulta.com/",
@@ -28194,6 +28202,22 @@
         "name": "Ulta Beauty Inc"
       },
       "news": [
+        {
+          "headline": "Take the Zacks Approach to Beat the Markets: BRK.B, VRA & ULTA",
+          "url": "https://finnhub.io/api/news?id=45daa6528059f8c36166390714e9a0e784e539f68ae82845434bdc67c1692b24",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:33:00Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Ulta Beauty CEO says customers as young as 8 are shopping for skincare",
+          "url": "https://finnhub.io/api/news?id=34c91c45ea7b1d9cca7f37479ac25d47443e96570ff318043c16eb34c515aab0",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T09:00:13Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
         {
           "headline": "Ulta Beauty (ULTA) Stock May Look Pricey Against Its Earnings Power",
           "url": "https://finnhub.io/api/news?id=1047a1f57e1db97c4cb9fe1dbfb36f2034a6cf2881b5983b341ba5fa8048f079",
@@ -28217,22 +28241,6 @@
           "published_at": "2026-11-19T21:05:00Z",
           "primary": false,
           "symbol": "ULTA"
-        },
-        {
-          "headline": "Ulta Beauty (ULTA) Stock Gets Fair Value Bump As Analysts Turn More Constructive",
-          "url": "https://finnhub.io/api/news?id=b11c5fe6862a8a843f4d352a97c1376ea6b3277f10d68c01393355cd52352c23",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:14:56Z",
-          "primary": false,
-          "symbol": "ULTA"
-        },
-        {
-          "headline": "Will Higher Earnings Estimates Change Ulta Beauty's (ULTA) Narrative",
-          "url": "https://finnhub.io/api/news?id=0f13a9e89bf117d4374febbc6e5bc621bd53bfdb53dd1279158aaf7c5db82b66",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:16:02Z",
-          "primary": false,
-          "symbol": "ULTA"
         }
       ]
     },
@@ -28240,17 +28248,17 @@
       "metrics": {
         "52WeekHigh": 138.77,
         "52WeekLow": 84.64,
-        "peTTM": 10.2883,
-        "psTTM": 0.5613,
+        "peTTM": 9.179,
+        "psTTM": 0.5007,
         "netProfitMarginTTM": 5.46,
         "roeTTM": 21.8,
         "revenueGrowthTTMYoy": 12.31,
         "epsGrowthTTMYoy": 9.39,
         "currentRatioQuarterly": 0.7503,
         "totalDebt/totalEquityQuarterly": 1.4869,
-        "marketCapitalization": 36791.1
+        "marketCapitalization": 32824.08
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "United Airlines Holdings, Inc.",
       "profile": {
         "weburl": "https://ir.united.com/",
@@ -28258,6 +28266,22 @@
         "name": "United Airlines Holdings, Inc."
       },
       "news": [
+        {
+          "headline": "United Airlines Has Warned Air Traffic Control Isn’t Ready for Air Taxis. That’s a Bigger Problem for Archer Than Its Cash Burn.",
+          "url": "https://finnhub.io/api/news?id=34e2fe47399be207abc38789f69f7201a0e63f91c2bc7830ec60809130b2c64b",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T20:25:02Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
+        {
+          "headline": "United Airlines Is Torn By Powerful Competing Forces",
+          "url": "https://finnhub.io/api/news?id=a47b847e1e1c2c9cfb2bf651d0da278b764ac0508f8ab9f01788cbe74f40e606",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T06:51:28Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
         {
           "headline": "United (UAL) Up 5.9% Since Last Earnings Report: Can It Continue?",
           "url": "https://finnhub.io/api/news?id=7d40408bf16c0cc64d9695caaf724c0c09c66bd8c75dae4b72fad05a508ab474",
@@ -28281,22 +28305,6 @@
           "published_at": "2026-11-19T10:15:46Z",
           "primary": false,
           "symbol": "UAL"
-        },
-        {
-          "headline": "United Airlines: Cheaper Fuel Helps Earnings, But Fleet Spending Keeps Me At Hold",
-          "url": "https://finnhub.io/api/news?id=c8d56c066b23c2b81cd796fb042ca868575654a04ba27af1722bed42801c82d2",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-19T08:51:32Z",
-          "primary": false,
-          "symbol": "UAL"
-        },
-        {
-          "headline": "Elon Musk Ally Jason Calacanis Wants United Airlines To ‘Wreck’ Delta’s ‘Painfully Slow WiFi’ Amid Starlink Supremacy Debate",
-          "url": "https://finnhub.io/api/news?id=9395a9d4e282e8fad29fdc96f2b26b4df7c9eec789bd27c30cf61458122d3d26",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T05:45:41Z",
-          "primary": false,
-          "symbol": "UAL"
         }
       ]
     },
@@ -28304,17 +28312,17 @@
       "metrics": {
         "52WeekHigh": 246.33,
         "52WeekLow": 140.08,
-        "peTTM": 7.3464,
-        "psTTM": 0.5851,
+        "peTTM": 7.0768,
+        "psTTM": 0.5637,
         "netProfitMarginTTM": 7.96,
         "roeTTM": 19.59,
         "revenueGrowthTTMYoy": 8.0,
         "epsGrowthTTMYoy": 13.65,
         "currentRatioQuarterly": 1.3694,
         "totalDebt/totalEquityQuarterly": 0.7513,
-        "marketCapitalization": 10738.607
+        "marketCapitalization": 10344.5625
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Universal Health Services, Inc.",
       "profile": {
         "weburl": "https://uhs.com",
@@ -28337,14 +28345,6 @@
           "published_at": "2026-11-17T04:33:30Z",
           "primary": false,
           "symbol": "UHS"
-        },
-        {
-          "headline": "Universal Health Services Bets on Hospital Recovery as Medicaid Payments Fall in 2027",
-          "url": "https://finnhub.io/api/news?id=b76d83dbd8377d87e1a1b183fd12b69a62edb808834be84a36d873d99d23ee9d",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T16:12:05Z",
-          "primary": false,
-          "symbol": "UHS"
         }
       ]
     },
@@ -28352,17 +28352,17 @@
       "metrics": {
         "52WeekHigh": 325.99,
         "52WeekLow": 148.05,
-        "peTTM": 43.972,
-        "psTTM": 12.9035,
+        "peTTM": 42.4759,
+        "psTTM": 12.4645,
         "netProfitMarginTTM": 29.34,
         "roeTTM": 14.000000000000002,
         "revenueGrowthTTMYoy": 16.5,
         "epsGrowthTTMYoy": 25.58,
         "currentRatioQuarterly": 5.4578,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 44621.508
+        "marketCapitalization": 43103.375
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Veeva Systems Inc.",
       "profile": {
         "weburl": "https://www.veeva.com/medtech/",
@@ -28416,17 +28416,17 @@
       "metrics": {
         "52WeekHigh": 120.35,
         "52WeekLow": 80.03,
-        "peTTM": 28.0121,
-        "psTTM": 4.8385,
+        "peTTM": 28.301,
+        "psTTM": 4.8884,
         "netProfitMarginTTM": 17.27,
         "roeTTM": 32.22,
         "revenueGrowthTTMYoy": 6.4,
         "epsGrowthTTMYoy": 10.85,
         "currentRatioQuarterly": 2.0293,
         "totalDebt/totalEquityQuarterly": 0.9037,
-        "marketCapitalization": 28068.154
+        "marketCapitalization": 28357.63
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Veralto Corporation",
       "profile": {
         "weburl": "https://www.veralto.com/",
@@ -28456,17 +28456,17 @@
       "metrics": {
         "52WeekHigh": 324.6342,
         "52WeekLow": 208.86,
-        "peTTM": 33.0763,
-        "psTTM": 16.2307,
+        "peTTM": 32.3914,
+        "psTTM": 15.8946,
         "netProfitMarginTTM": 49.07,
         "roeTTM": 113.55,
         "revenueGrowthTTMYoy": 6.46,
         "epsGrowthTTMYoy": 8.12,
         "currentRatioQuarterly": 0.4152,
         "totalDebt/totalEquityQuarterly": 1.0716,
-        "marketCapitalization": 28108.244
+        "marketCapitalization": 27526.238
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "VeriSign, Inc.",
       "profile": {
         "weburl": "https://www.verisign.com/",
@@ -28475,34 +28475,18 @@
       },
       "news": [
         {
+          "headline": "VeriSign: Good Prospects Appear Baked In",
+          "url": "https://finnhub.io/api/news?id=ce55cae9ca23363dca81ae6501ade9481589f9923f0776c1b3d45803a9e6414b",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T23:48:22Z",
+          "primary": false,
+          "symbol": "VRSN"
+        },
+        {
           "headline": "Berkshire Sold Bank of America and VeriSign Stock in Q3, and Bought Lennar and Delta",
           "url": "https://finnhub.io/api/news?id=b8b12e025608398c58d58185478c576f760f424659500f19caf54efea48cc3b8",
           "source": "Yahoo",
           "published_at": "2026-11-16T22:15:00Z",
-          "primary": false,
-          "symbol": "VRSN"
-        },
-        {
-          "headline": "Dear VeriSign Stock Fans, Mark Your Calendars for December 10",
-          "url": "https://finnhub.io/api/news?id=ed6daf88b890736c3be0ae616bd1c7451c9eabcf13954cd6e39084a7337883f6",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T13:48:07Z",
-          "primary": false,
-          "symbol": "VRSN"
-        },
-        {
-          "headline": "VeriSign (VRSN) Will Launch The .Web Domain",
-          "url": "https://finnhub.io/api/news?id=aee9f02ecd0a62dc61af8c227bf7216decf1881d080e8e600008e9a1ea7002bd",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T12:09:06Z",
-          "primary": false,
-          "symbol": "VRSN"
-        },
-        {
-          "headline": "VeriSign (VRSN) Stock Looks Overvalued As Its 52% Run Continues",
-          "url": "https://finnhub.io/api/news?id=f034c1cf39758e6b99fc5823ed8482f33fb052fc0e54f017fb7e065cfa5e67b1",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T11:10:10Z",
           "primary": false,
           "symbol": "VRSN"
         }
@@ -28512,17 +28496,17 @@
       "metrics": {
         "52WeekHigh": 227.16,
         "52WeekLow": 155.94,
-        "peTTM": 29.5719,
-        "psTTM": 8.1845,
+        "peTTM": 29.4875,
+        "psTTM": 8.1611,
         "netProfitMarginTTM": 27.68,
         "roeTTM": 324.28,
         "revenueGrowthTTMYoy": 4.86,
         "epsGrowthTTMYoy": 0.65,
         "currentRatioQuarterly": 1.0688,
         "totalDebt/totalEquityQuarterly": 15.3307,
-        "marketCapitalization": 25999.643
+        "marketCapitalization": 25925.402
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Verisk Analytics, Inc.",
       "profile": {
         "weburl": "https://www.verisk.com",
@@ -28544,17 +28528,17 @@
       "metrics": {
         "52WeekHigh": 379.935,
         "52WeekLow": 147.82,
-        "peTTM": 32.1598,
-        "psTTM": 5.144,
+        "peTTM": 30.5112,
+        "psTTM": 4.8803,
         "netProfitMarginTTM": 15.99,
         "roeTTM": 45.5,
         "revenueGrowthTTMYoy": 35.27,
         "epsGrowthTTMYoy": 101.55,
         "currentRatioQuarterly": 1.3918,
         "totalDebt/totalEquityQuarterly": 0.5323,
-        "marketCapitalization": 67471.31
+        "marketCapitalization": 64012.445
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Vertiv Holdings Co",
       "profile": {
         "weburl": "https://investors.vertiv.com/",
@@ -28563,42 +28547,42 @@
       },
       "news": [
         {
-          "headline": "Bloom Energy Sinks 26% in a Week, Vertiv Down 18%, as Nvidia’s Turmoil Hits AI Power Stocks. Time to Buy?",
-          "url": "https://finnhub.io/api/news?id=beb4a339936f70240a4946a70e521b8fc9d2ee0f2d3c955d703776366bd23c86",
+          "headline": "Why Is Vertiv (VRT) Stock Up Today? Nvidia's CEO Return Lifts AI Hardware Stocks",
+          "url": "https://finnhub.io/api/news?id=32eedd901cf5a20634722628e2075078db3d8458dd27c8e052e2bf16d6cff3cf",
           "source": "Yahoo",
-          "published_at": "2026-11-21T02:48:01Z",
+          "published_at": "2026-11-23T17:30:31Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "Vertiv Holdings Co (VRT) Deepens AI Data Center Liquid Cooling Push",
-          "url": "https://finnhub.io/api/news?id=a3a5ceb58a8e2919f12849642d4d28d5ae2f6e436a1cc82025750f6a39f385b1",
+          "headline": "13 Big Funds Bought Vertiv Holdings Co Last Quarter, While 17 Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=3ee49adfaa3293f74747eea87a863222943a03b5093f3df04e4306bd8c106fcb",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:10:49Z",
+          "published_at": "2026-11-23T17:03:31Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "Zacks Investment Ideas feature highlights:  Anthropic, SpaceX, Amazon, Vertiv and Bloom Energy",
-          "url": "https://finnhub.io/api/news?id=5dafb21225a7e412b0f5b4db62d387aeaf1c7f246aedb4a0297831e6451712e0",
+          "headline": "Vertiv (VRT) Stock Looks Like A Bargain On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=cfe2e10dbd21f93e14ff5bbaa3e180a45b84fb9e55307a97fa4e4a04e274ae64",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:12:00Z",
+          "published_at": "2026-11-23T15:08:12Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "Evercore’s $325 Target Says Vertiv’s Selloff Went Too Far",
-          "url": "https://finnhub.io/api/news?id=fa54695821d45d6c724a897e069fde505772f334c6960f225ae258bf45f13e23",
+          "headline": "U.S. Data Center Cooling Market Size, Share, Trends and Forecast (2026-2031) Featuring Profiles of Carrier, Delta Electronics, Johnson Controls, Schneider Electric, STULZ, Vertiv and More",
+          "url": "https://finnhub.io/api/news?id=e301f685c634e863337fea4756b37c4495376ea0cdc3d68d9f8d9dce5a0caf25",
           "source": "Yahoo",
-          "published_at": "2026-11-20T09:36:35Z",
+          "published_at": "2026-11-23T14:57:00Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "Undercovered Dozen: Annaly, Vertiv, Intuitive Machines And More",
-          "url": "https://finnhub.io/api/news?id=f55660ea13895514a579c308aaf8a456ff23246c1a40646bca3aa2aba509faa8",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T08:20:54Z",
+          "headline": "Vertiv Says Its Nvidia-Backed Designs Can Add 30% More AI Output in the First Year. Here's the Catch.",
+          "url": "https://finnhub.io/api/news?id=2ad9489e39f99b02208d054942975b1ed6f869356a54275e8f92b2f917782632",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:36:00Z",
           "primary": false,
           "symbol": "VRT"
         }
@@ -28608,15 +28592,15 @@
       "metrics": {
         "52WeekHigh": 21.2,
         "52WeekLow": 10.15,
-        "psTTM": 1.496,
+        "psTTM": 1.5281,
         "netProfitMarginTTM": -4.13,
         "roeTTM": -4.24,
         "revenueGrowthTTMYoy": 4.27,
         "currentRatioQuarterly": 1.5517,
         "totalDebt/totalEquityQuarterly": 0.9727,
-        "marketCapitalization": 22031.992
+        "marketCapitalization": 22504.906
       },
-      "updated_at": "2026-11-21T18:56:48Z",
+      "updated_at": "2026-11-23T18:08:35Z",
       "name": "Viatris Inc.",
       "profile": {
         "weburl": "https://www.viatris.com/en",
@@ -29664,6 +29648,6 @@
       ]
     }
   },
-  "cursor": 493,
-  "updated_at": "2026-11-23T16:21:19Z"
+  "cursor": 505,
+  "updated_at": "2026-11-23T18:08:35Z"
 }
