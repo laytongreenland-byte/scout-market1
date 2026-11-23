@@ -40,7 +40,10 @@ def request(url,key):
         buf=response.read(MAX_BYTES+1)
     if len(buf)>MAX_BYTES: raise ValueError('Oversize provider response')
     obj=json.loads(buf)
-    if not isinstance(obj,(list,dict)) or (isinstance(obj,dict) and obj.get('success') is False):
+    if not isinstance(obj,(list,dict)) or (isinstance(obj,dict) and (
+            obj.get('success') is False or obj.get('error') or
+            (isinstance(obj.get('meta'),dict) and
+             obj['meta'].get('availability_status','ok')!='ok'))):
         raise ValueError('Provider error or non-JSON payload')
     return obj
 
@@ -51,11 +54,11 @@ def extract_rows(obj):
     obj=obj.get('data',obj)
     if isinstance(obj,list): return obj
     if not isinstance(obj,dict): return []
-    for key in ('prices','bars','history','results','items','data'):
+    for key in ('prices','bars','history','results','items','daily','data'):
         part=obj.get(key)
         if isinstance(part,list): return part
         if isinstance(part,dict):
-            for k in ('prices','bars','history','results','items'):
+            for k in ('prices','bars','history','results','items','daily'):
                 if isinstance(part.get(k),list): return part[k]
     return []
 
@@ -115,13 +118,23 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
                            re.fullmatch(r'[A-Z0-9]{2,6}',str(x.get('symbol','')))})
         if not key or not symbols:
             markets[market]={'status':'NO_API_KEY' if not key else 'NO_VALID_DIRECTORY',
-                             'attempted':0,'valid':0}
+                             'attempted':0,'valid':0,'directory_symbols':len(symbols),
+                             'recent_prices':0}
             continue
         # Once daily; bounded per-provider calls. Stable rotation through catalog.
         # NZX free account: 250 req/day; avoid hourly depletion.
         prior_day=previous.get('fetched_days',{}).get(market)
+        retry_after=previous.get('retry_after',{}).get(market)
         attempts=0;valid=0
-        if prior_day!=today:
+        stopped_reason=None
+        # Avoid retrying dead APIs on every hourly run, while allowing
+        # transient failures to recover before the next calendar day.
+        retry_dt=None
+        try:
+            if retry_after: retry_dt=datetime.fromisoformat(retry_after.replace('Z','+00:00'))
+        except (ValueError,TypeError): pass
+        can_retry=retry_dt is None or now>=retry_dt
+        if prior_day!=today and can_retry:
             # NZX roughly fits a 20/day rolling EOD scan without exceeding
             # its documented free 250/day limit; ASX remains quota-cautious.
             default_limit=20 if market=='NZX' else 10
@@ -144,12 +157,20 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
                         errors[market]='One or more price responses were unrecognised or stale'
                 except urllib.error.HTTPError as exc:
                     errors[market]='Price provider HTTP '+str(exc.code)
-                    if exc.code in (401,403,429): break
+                    if exc.code in (401,403):
+                        stopped_reason='AUTH_FAILED'
+                        break
+                    if exc.code==429:
+                        stopped_reason='RATE_LIMITED'
+                        break
                 except Exception:
                     errors[market]='One or more provider requests failed'
         retained=sum(1 for (m,s),q in quotes.items() if m==market and
                      valid_price([{'date':q.get('date'),'close':q.get('close')}],m,s,now))
-        markets[market]={'status':'PRICE_RESEARCH' if retained else 'NO_VALID_PRICES',
+        status=('PRICE_RESEARCH' if retained else
+                stopped_reason or ('PROVIDER_ERROR' if attempts and errors.get(market)
+                                   else 'NO_VALID_PRICES'))
+        markets[market]={'status':status,
                          'attempted':attempts,'valid_this_run':valid,
                          'recent_prices':retained,
                          'directory_symbols':len(symbols),
@@ -160,12 +181,20 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
         if valid_price([{'date':q.get('date'),'close':q.get('close')}],market,symbol,now):
             final_quotes.append(q)
     days=dict(previous.get('fetched_days',{}))
+    retries=dict(previous.get('retry_after',{}))
     for market in ('NZX','ASX'):
-        if secrets[market] and markets[market]['attempted']:
+        if not secrets[market]: continue
+        if markets[market].get('valid_this_run'):
             days[market]=today
+            retries.pop(market,None)
+        elif markets[market].get('attempted'):
+            # A bad attempt is not a successful daily refresh.
+            # Retry in 6 hours; auth/rate-limit errors wait a full day.
+            hours=24 if markets[market]['status'] in ('AUTH_FAILED','RATE_LIMITED') else 6
+            retries[market]=iso(now+timedelta(hours=hours))
     return {'schema_version':1,'generated_at':iso(now),
             'description':'Research-only verified daily closes. Not live quotes, forecasts, or trades.',
-            'markets':markets,'fetched_days':days,'quotes':final_quotes,
+            'markets':markets,'fetched_days':days,'retry_after':retries,'quotes':final_quotes,
             'provider_warnings':errors,
             'limitations':['ASX needs SEABEE_API_KEY; NZX uses NZXPLORER_API_KEY.',
               'Data is EOD, provider-dependent, and may lack corporate-action adjustments.',
