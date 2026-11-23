@@ -5,9 +5,10 @@ Public site displays historical closes only when a verified date and market matc
 Missing/ambiguous provider data is not a price. No broker or trading integration.
 """
 from __future__ import annotations
-import json, os, re, urllib.request, urllib.parse, time
+import json, os, re, urllib.request, urllib.parse, urllib.error, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parent
 CATALOG=ROOT/'data'/'market_catalog.json'
@@ -70,7 +71,8 @@ def valid_price(rows,market,symbol,now):
         if not isinstance(px,(float,int)) or isinstance(px,bool) or not 0<float(px)<1_000_000:
             continue
         # Reject future dates and old data. Calendar age deliberately errs on caution.
-        if not 0<=(now.date()-day).days<=7: continue
+        exchange_day=now.astimezone(ZoneInfo('Pacific/Auckland' if market=='NZX' else 'Australia/Sydney')).date()
+        if not 0<=(exchange_day-day).days<=7: continue
         clean.append((day,float(px)))
     if not clean: return None
     day,px=max(clean)
@@ -120,7 +122,14 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
         prior_day=previous.get('fetched_days',{}).get(market)
         attempts=0;valid=0
         if prior_day!=today:
-            count=min(10,len(symbols))
+            # NZX roughly fits a 20/day rolling EOD scan without exceeding
+            # its documented free 250/day limit; ASX remains quota-cautious.
+            default_limit=20 if market=='NZX' else 10
+            upper_limit=25 if market=='NZX' else 30
+            setting='SCOUT_'+market+'_PRICE_DAILY_LIMIT'
+            try: requested=int(os.environ.get(setting,str(default_limit)))
+            except ValueError: requested=default_limit
+            count=min(max(1,requested),upper_limit,len(symbols))
             cycle=(now.date().toordinal()*count)%len(symbols)
             selected=[symbols[(cycle+i)%len(symbols)] for i in range(count)]
             for symbol in selected:
@@ -133,6 +142,9 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
                         valid+=1
                     else:
                         errors[market]='One or more price responses were unrecognised or stale'
+                except urllib.error.HTTPError as exc:
+                    errors[market]='Price provider HTTP '+str(exc.code)
+                    if exc.code in (401,403,429): break
                 except Exception:
                     errors[market]='One or more provider requests failed'
         retained=sum(1 for (m,s),q in quotes.items() if m==market and
@@ -140,6 +152,8 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
         markets[market]={'status':'PRICE_RESEARCH' if retained else 'NO_VALID_PRICES',
                          'attempted':attempts,'valid_this_run':valid,
                          'recent_prices':retained,
+                         'directory_symbols':len(symbols),
+                         'daily_request_limit':count if attempts else 0,
                          'source':'NZXplorer' if market=='NZX' else 'SeaBee'}
     final_quotes=[]
     for (market,symbol),q in sorted(quotes.items()):
