@@ -65,6 +65,17 @@ def build(us_latest,nzx_research,nzx_history,now=None):
     us_rows=us.get('records') or []
     nz_rows=nzx_history.get('paper_trades') or []
     us_stat=summarize(us_rows,'US')
+    # Scout's public scoreboard intentionally shows a limited recent sample.
+    # The published summary covers all frozen USD decisions, so use those
+    # authoritative totals rather than mislabeling 120 recent cards as total.
+    us_full=us.get('summary') or {}
+    us_stat['recent_records_audited']=us_stat['recorded']
+    for target,source in [('recorded','recorded'),('opened','opened'),
+                          ('closed','closed'),('losing','negative'),
+                          ('no_entry','not_triggered'),('unverified','unverified')]:
+        value=us_full.get(source)
+        if isinstance(value,int) and value>=0:
+            us_stat[target]=value
     nz_stat=summarize(nz_rows,'NZX')
     items=[]
     # A process problem can be noticed without labeling an unfinished trade a loss.
