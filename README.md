@@ -1,5 +1,50 @@
 # Scout v4 — free, evidence-first investment research
 
+## Integrated NZX market research (23 November 2026)
+
+The **main Scout UI now includes New Zealand** in its Overview, Research, Weekly Watch,
+Market Coverage, Signals and Results views. NZX data is **NZD end-of-day**, never USD.
+The original Finnhub US scanner, SPY benchmark, US entry levels, US paper journal and
+disabled US ML model remain unchanged. New NZX modules are isolated:
+`nzx_research.py`, `nzx.js`, `data/nzx_research.json`, and
+`data/nzx_history.json`.
+
+- **Discovery:** 128 NZX companies from an authenticated NZXplorer company directory,
+  plus 33 Smart NZX-listed ETFs from a separately dated issuer-supported catalogue.
+  Neither directory proves a particular security is tradeable in Sharesies.
+- **Pricing:** NZXplorer accepts verified NZD closing prices for both a company (AIR)
+  and an ETF (FNZ). `apac_data.py` checks up to 40 symbols per local NZ trading day,
+  within the provider's account rate limit. Prices are retained only while fresh,
+  with dated 1-day / 5-session movements when comparable provider observations exist.
+- **Research:** NZX companies and ETF funds are searchable in the main Research and
+  Watchlist views, with source links and explicit data-quality labels. The weekly NZX
+  watch notes and a short NZX core ETF research list are *not* ranked US buy picks.
+  Funds are never assessed with a single-company P/E model.
+- **Alerts:** a verified unusually large daily NZD close movement can create a
+  research-only NZX alert, not a trade instruction. A deduplicated NZX weekly
+  watch notification can be posted to GitHub Issues, with delivery depending on
+  the repository's Watch/notification settings.
+- **Forward-only accountability:** a separate NZD watch journal freezes dated
+  original observations; after sufficient *subsequent* exchange-session observations
+  it can show 7/30-day price-only changes. It never backfills buying decisions,
+  invents realised profits, or compares NZD movements to the USD SPY benchmark.
+- **Restricted financial features:** the current NZX finance screen is explicitly
+  **not scored** (zero issuer valuations), with no automated NZD buy/sell targets
+  until dependable, appropriately licensed financial inputs and a validated
+  sector-aware methodology are available. NZXplorer terms expressly prohibit
+  training machine learning on its data without written authorisation. The
+  existing US model is unaffected. Do not mislabel price discovery as a
+  fundamental investment recommendation.
+
+Provider and market-data permission matters: NZXplorer's terms include
+restrictions on caching, redistribution, derivative use and model training.
+See https://nzxplorer.co.nz/terms . Before publicly redistributing more
+provider data or using it for ML, obtain the necessary written rights.
+The current repository is public, so avoid committing private API keys,
+personal portfolios or any data not permitted for redistribution.
+
+
+
 **Mobile app:** https://laytongreenland-byte.github.io/scout-market1/
 
 Scout is a **research screener** for a small NZ investor, not a financial adviser, an autonomous AI investment analyst, a live exchange terminal, or a broker. **Nothing on this site is a buy/sell order or a demonstrated source of excess investment returns.** It never trades, holds login credentials, or requests bank access.
