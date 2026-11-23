@@ -33,7 +33,9 @@ jobs:
         run: python market_catalog.py
       - name: Refresh a small validated sample of regional EOD prices
         run: python apac_data.py
-      - name: Publish separate NZX research and forward-only observation history
+      - name: Sample documented NZX company financial ratios (bounded API calls)
+        run: python nzx_fundamentals.py
+      - name: Publish NZX filings, evidence screens and independent educational paper trading
         run: python nzx_research.py
       - name: Save regional data only when fresher than remote snapshots
         run: |
@@ -41,6 +43,7 @@ jobs:
           cp data/market_catalog.json /tmp/scout-regional/market_catalog.json
           cp data/apac.json /tmp/scout-regional/apac.json
           cp data/nzx_research.json /tmp/scout-regional/nzx_research.json
+          cp data/nzx_fundamentals.json /tmp/scout-regional/nzx_fundamentals.json
           cp data/nzx_history.json /tmp/scout-regional/nzx_history.json
           git config user.name "scout-regional-bootstrap-bot"
           git config user.email "scout-regional-bootstrap-bot@users.noreply.github.com"
@@ -50,7 +53,7 @@ jobs:
             python - <<'PY'
           import json
           from pathlib import Path
-          for name in ("market_catalog.json","apac.json","nzx_research.json","nzx_history.json"):
+          for name in ("market_catalog.json","apac.json","nzx_research.json","nzx_history.json","nzx_fundamentals.json"):
               incoming=Path('/tmp/scout-regional')/name
               destination=Path('data')/name
               fresh=json.loads(incoming.read_text())
@@ -77,6 +80,20 @@ jobs:
                                                         k.startswith('change_')})
                       fresh['observations']=list(old_obs.values())[-20000:]
                       fresh['calls']=list(old_calls.values())[-2000:]
+                      # Paper positions are immutable, except for subsequently
+                      # observed fills and final verified closes.
+                      trades={o['id']:o for o in current.get('paper_trades',[])
+                              if isinstance(o,dict) and 'id' in o}
+                      finalized={'TARGET_REACHED','CLOSED_GAIN','CLOSED_LOSS','NO_ENTRY','UNVERIFIED'}
+                      for o in fresh.get('paper_trades',[]):
+                          prior=trades.get(o.get('id'))
+                          if prior is None:trades[o['id']]=o
+                          elif prior.get('result',{}).get('status') not in finalized:
+                              if o.get('result',{}).get('status') in finalized:
+                                  prior['result']=o['result']
+                              elif prior.get('result',{}).get('status')=='WAITING_TO_BUY':
+                                  prior['result']=o.get('result',prior.get('result'))
+                      fresh['paper_trades']=list(trades.values())[-2000:]
                   destination.write_text(json.dumps(fresh,indent=2)+chr(10))
                   print(name,': prospective NZX observations merged')
                   continue
@@ -86,7 +103,7 @@ jobs:
               destination.write_text(incoming.read_text())
               print(name,': refreshed without modifying US research or learning')
           PY
-            git add data/market_catalog.json data/apac.json data/nzx_research.json data/nzx_history.json
+            git add data/market_catalog.json data/apac.json data/nzx_research.json data/nzx_history.json data/nzx_fundamentals.json
             if git diff --cached --quiet; then break; fi
             git commit -m "Refresh independent NZX and ASX discovery and EOD research"
             if git push origin HEAD:main; then break; fi
