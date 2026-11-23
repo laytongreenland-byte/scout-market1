@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-11-23T07:49:46.639731+00:00",
+  "companies": {
+    "BGP": {
+      "symbol": "BGP",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/bgp",
+      "primary_filing_url": "https://www.nzx.com/instruments/BGP",
+      "retrieved_at": "2026-11-23T07:49:46.639731Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Consumer Discretionary",
+      "metrics": {
+        "roe": 19.37,
+        "net_margin": 7.41,
+        "debt_to_equity": 1.28,
+        "revenue_growth": 0.93,
+        "price_52w_high": 5.4,
+        "price_52w_low": 4.06
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS"
+    },
+    "BIF": {
+      "symbol": "BIF",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/bif",
+      "primary_filing_url": "https://www.nzx.com/instruments/BIF",
+      "retrieved_at": "2026-11-23T07:49:46.639731Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "price_52w_high": 1.572,
+        "price_52w_low": 1.362
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS"
+    },
+    "BIT": {
+      "symbol": "BIT",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/bit",
+      "primary_filing_url": "https://www.nzx.com/instruments/BIT",
+      "retrieved_at": "2026-11-23T07:49:46.639731Z",
+      "fiscal_year": 2024,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "debt_to_equity": 0.09,
+        "price_52w_high": 3.725,
+        "price_52w_low": 2.89
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS"
+    },
+    "BLT": {
+      "symbol": "BLT",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/blt",
+      "primary_filing_url": "https://www.nzx.com/instruments/BLT",
+      "retrieved_at": "2026-11-23T07:49:46.639731Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Consumer Staples",
+      "metrics": {
+        "pe_ratio": 28.0,
+        "roe": 5.31,
+        "net_margin": 4.72,
+        "debt_to_equity": 0.15,
+        "revenue_growth": 16.01,
+        "price_52w_high": 0.031,
+        "price_52w_low": 0.014
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS"
+    }
+  },
+  "fetched_day": "2026-11-23",
+  "status": {
+    "attempted": 4,
+    "valid_this_scan": 4,
+    "available": 4,
+    "status": "OK",
+    "errors": []
+  }
+}

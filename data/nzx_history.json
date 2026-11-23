@@ -72,6 +72,167 @@
       "price": 4.1,
       "currency": "NZD",
       "first_seen_at": "2026-11-23T07:29:28Z"
+    },
+    {
+      "symbol": "BPG",
+      "date": "2026-11-20",
+      "price": 0.13,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CMO",
+      "date": "2026-11-20",
+      "price": 7.17,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CRP",
+      "date": "2026-11-20",
+      "price": 0.038,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "BIF",
+      "date": "2026-11-23",
+      "price": 1.452,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "BIT",
+      "date": "2026-11-23",
+      "price": 3.4,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "BLT",
+      "date": "2026-11-23",
+      "price": 0.025,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "BRM",
+      "date": "2026-11-23",
+      "price": 0.475,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "BRW",
+      "date": "2026-11-23",
+      "price": 0.51,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CCC",
+      "date": "2026-11-23",
+      "price": 0.13,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CDI",
+      "date": "2026-11-23",
+      "price": 0.62,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CEN",
+      "date": "2026-11-23",
+      "price": 8.51,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CHI",
+      "date": "2026-11-23",
+      "price": 3.08,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CNU",
+      "date": "2026-11-23",
+      "price": 8.03,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CO2",
+      "date": "2026-11-23",
+      "price": 1.352,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "CVT",
+      "date": "2026-11-23",
+      "price": 0.76,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "DGL",
+      "date": "2026-11-23",
+      "price": 4.35,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "EBO",
+      "date": "2026-11-23",
+      "price": 21.08,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "ENS",
+      "date": "2026-11-23",
+      "price": 0.44,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "ERD",
+      "date": "2026-11-23",
+      "price": 0.825,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "FBU",
+      "date": "2026-11-23",
+      "price": 3.46,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "FCG",
+      "date": "2026-11-23",
+      "price": 4.95,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "FCT",
+      "date": "2026-11-23",
+      "price": 7.798,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "FPH",
+      "date": "2026-11-23",
+      "price": 48.02,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-23T07:50:19Z"
     }
   ],
   "calls": [
@@ -214,6 +375,356 @@
       "reference_price": 4.1,
       "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified.",
       "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BIF|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BIF",
+      "name": "Booster Innovation Fund",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 1.452,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -0.55% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BIT|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BIT",
+      "name": "The Bankers Investment Trust PLC",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 3.4,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -0.88% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BLT|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BLT",
+      "name": "BLIS Technologies Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.025,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +4.17% (not adjusted for corporate actions). Financial screen: trailing P/E 28.0\u00d7; reported net profit margin positive; reported return on equity positive; reported revenue growth positive; debt/equity metric is available; financial data may be unaudited or dated. Price levels below are a mechanical paper-trading experiment, not certified fair value.",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BPG|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BPG",
+      "name": "Black Pearl Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-20",
+      "reference_price": 0.13,
+      "reason": "Verified NZD exchange close for 2026-11-20; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.78% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BRM|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BRM",
+      "name": "Barramundi Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.475,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -1.45% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|BRW|WATCH",
+      "week": "2026-11-23",
+      "symbol": "BRW",
+      "name": "Bremworth Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.51,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -8.93% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CCC|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CCC",
+      "name": "Cooks Coffee Company Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.13,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -0.76% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CDI|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CDI",
+      "name": "CDL Investments New Zealand Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.62,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.00% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CEN|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CEN",
+      "name": "Contact Energy Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 8.51,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -2.74% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CHI|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CHI",
+      "name": "Channel Infrastructure NZ Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 3.08,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -1.60% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CMO|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CMO",
+      "name": "The Colonial Motor Company Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-20",
+      "reference_price": 7.17,
+      "reason": "Verified NZD exchange close for 2026-11-20; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.99% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CNU|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CNU",
+      "name": "Chorus Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 8.03,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -1.23% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CO2|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CO2",
+      "name": "Carbon Fund",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 1.352,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.15% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CRP|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CRP",
+      "name": "Chatham Rock Phosphate Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-20",
+      "reference_price": 0.038,
+      "reason": "Verified NZD exchange close for 2026-11-20; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.00% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|CVT|WATCH",
+      "week": "2026-11-23",
+      "symbol": "CVT",
+      "name": "Comvita Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.76,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.00% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|DGL|WATCH",
+      "week": "2026-11-23",
+      "symbol": "DGL",
+      "name": "Delegat Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 4.35,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -0.23% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|EBO|WATCH",
+      "week": "2026-11-23",
+      "symbol": "EBO",
+      "name": "EBOS Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 21.08,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -2.63% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|ENS|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ENS",
+      "name": "Enprise Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.44,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +1.15% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|ERD|WATCH",
+      "week": "2026-11-23",
+      "symbol": "ERD",
+      "name": "EROAD",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.825,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -1.20% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|FBU|WATCH",
+      "week": "2026-11-23",
+      "symbol": "FBU",
+      "name": "Fletcher Building",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 3.46,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -2.54% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|FCG|WATCH",
+      "week": "2026-11-23",
+      "symbol": "FCG",
+      "name": "Fonterra Co-operative Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 4.95,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -3.70% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|FCT|WATCH",
+      "week": "2026-11-23",
+      "symbol": "FCT",
+      "name": "F&C INVESTMENT TRUST PLC",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 7.798,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -1.91% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|FPH|WATCH",
+      "week": "2026-11-23",
+      "symbol": "FPH",
+      "name": "Fisher & Paykel Healthcare Corporation Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-23T07:50:19Z",
+      "original_date": "2026-11-23",
+      "reference_price": 48.02,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -2.58% (not adjusted for corporate actions).",
+      "price_targets": null
+    }
+  ],
+  "paper_trades": [
+    {
+      "id": "2026-11-23|NZX|BLT|PAPER_V1",
+      "market": "NZX",
+      "currency": "NZD",
+      "symbol": "BLT",
+      "name": "BLIS Technologies Limited",
+      "week": "2026-11-23",
+      "signal": "PAPER ENTRY CANDIDATE",
+      "decision_at": "2026-11-23",
+      "original_date": "2026-11-23",
+      "original_price": 0.025,
+      "entry_ceiling": 0.02525,
+      "exit_multiple": 1.12,
+      "risk_reference": 0.0205,
+      "budget_nzd": 100.0,
+      "fee_each_way_pct": 1.0,
+      "score": 83,
+      "why": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +4.17% (not adjusted for corporate actions). Financial screen: trailing P/E 28.0\u00d7; reported net profit margin positive; reported return on equity positive; reported revenue growth positive; debt/equity metric is available; financial data may be unaudited or dated. Price levels below are a mechanical paper-trading experiment, not certified fair value.",
+      "filing_url": "https://nzxplorer.co.nz/companies/blis-technologies",
+      "financials_at": "2026-11-23T07:49:46.639731Z",
+      "financial_period": "ANNUAL 2026",
+      "result": {
+        "status": "WAITING_TO_BUY",
+        "reason": "No subsequent observed close has met frozen entry ceiling"
+      }
     }
   ]
 }
