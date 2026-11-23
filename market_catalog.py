@@ -149,15 +149,17 @@ def parse_nzx(payload):
     if len(payload)>MAX_BYTES:
         raise ValueError('NZX response too large')
     document=json.loads(payload)
-    data=document.get('data') if isinstance(document,dict) else document
+    data=document.get('data',document) if isinstance(document,dict) else document
     if isinstance(data,dict):
-        rows=data.get('companies') or data.get('results') or data.get('items')
-        if rows is not None:
-            data=rows
+        # The endpoint may be an envelope, a list, or a keyed map.
+        for field in ('companies','results','items'):
+            if field in data:
+                data=data[field]
+                break
     # The documented v1 endpoint can deliver a full company list in one
     # response. Accept both array and ticker-keyed maps, never partial strings.
     if isinstance(data,dict):
-        data=[dict(row, ticker=row.get('ticker') or ticker)
+        data=[dict(row, ticker=row.get('ticker') or row.get('symbol') or ticker)
               for ticker,row in data.items() if isinstance(row,dict)]
     if not isinstance(data,list):
         raise ValueError('Unexpected NZX company schema')
