@@ -258,6 +258,7 @@ def build(fetcher=fetch_source,now=None,old=None):
     status='READY' if all(source_status[k]['ok'] for k in SOURCES) else 'PARTIAL' if items else 'UNAVAILABLE'
     return {
         'schema_version':2,
+        'nzx_directory_strategy_version':2,
         'generated_at':stamp(now),
         'status':status,
         'platform':'Sharesies NZ (target only, availability NOT verified)',
@@ -297,7 +298,9 @@ def main():
             old=json.loads(OUT.read_text())
         except (json.JSONDecodeError,OSError):
             old=None
-    if os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and old.get('schema_version')==2 and old.get('status')=='READY':
+    if (os.environ.get('SCOUT_DISCOVERY_FORCE')!='1' and old and
+            old.get('schema_version')==2 and old.get('status')=='READY' and
+            old.get('nzx_directory_strategy_version')==2):
         at=parse_date(old.get('generated_at'))
         if at and timedelta(0)<=NOW-at<timedelta(days=FRESH_DAYS):
             nz=old.get('markets',{}).get('NZX',{})
