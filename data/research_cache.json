@@ -27345,18 +27345,18 @@
     "TRGP": {
       "metrics": {
         "52WeekHigh": 316.6,
-        "52WeekLow": 166.18,
-        "peTTM": 27.0056,
-        "psTTM": 3.6579,
+        "52WeekLow": 167.12,
+        "peTTM": 26.332,
+        "psTTM": 3.5666,
         "netProfitMarginTTM": 13.54,
         "roeTTM": 72.17,
         "revenueGrowthTTMYoy": -1.97,
         "epsGrowthTTMYoy": 40.38,
         "currentRatioQuarterly": 0.7707,
         "totalDebt/totalEquityQuarterly": 5.3543,
-        "marketCapitalization": 61238.01
+        "marketCapitalization": 59710.38
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Targa Resources Corp.",
       "profile": {
         "weburl": "https://www.targaresources.com/",
@@ -27386,17 +27386,17 @@
       "metrics": {
         "52WeekHigh": 252.56,
         "52WeekLow": 190.27,
-        "peTTM": 18.6145,
-        "psTTM": 3.0452,
+        "peTTM": 17.6239,
+        "psTTM": 2.8831,
         "netProfitMarginTTM": 16.36,
         "roeTTM": 24.529999999999998,
         "revenueGrowthTTMYoy": 15.2,
         "epsGrowthTTMYoy": 79.16,
         "currentRatioQuarterly": 1.7306,
         "totalDebt/totalEquityQuarterly": 0.4155,
-        "marketCapitalization": 60552.875
+        "marketCapitalization": 57330.418
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "TE Connectivity PLC",
       "profile": {
         "weburl": "https://www.te.com/",
@@ -27405,10 +27405,10 @@
       },
       "news": [
         {
-          "headline": "What Is TE Connectivity (TEL) Planning With Its $60 Million New York Fiber Build?",
-          "url": "https://finnhub.io/api/news?id=0e1f588cb6c62a81d4eaf6e21fee9e7bf1bbbcd1d2732df16f3647a19936c357",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T05:10:31Z",
+          "headline": "Baird Maintains Outperform on TE Connectivity, Lowers Price Target to $235",
+          "url": "https://finnhub.io/api/news?id=b85a3083a4fe1d200e0d5da064039aeb5684686b5ec740d6b98da0c6df26f94b",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:05:47Z",
           "primary": false,
           "symbol": "TEL"
         }
@@ -27418,17 +27418,17 @@
       "metrics": {
         "52WeekHigh": 697.67,
         "52WeekLow": 483.02,
-        "peTTM": 27.4185,
-        "psTTM": 4.3186,
+        "peTTM": 26.8337,
+        "psTTM": 4.2264,
         "netProfitMarginTTM": 15.75,
         "roeTTM": 9.49,
         "revenueGrowthTTMYoy": 8.57,
         "epsGrowthTTMYoy": 26.57,
         "currentRatioQuarterly": 2.3064,
         "totalDebt/totalEquityQuarterly": 0.1821,
-        "marketCapitalization": 28156.105
+        "marketCapitalization": 27555.559
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Teledyne Technologies Incorporated",
       "profile": {
         "weburl": "https://www.teledyne.com/",
@@ -27466,17 +27466,17 @@
       "metrics": {
         "52WeekHigh": 487.91,
         "52WeekLow": 151.52,
-        "peTTM": 23.6922,
-        "psTTM": 6.5052,
+        "peTTM": 23.2839,
+        "psTTM": 6.3931,
         "netProfitMarginTTM": 27.46,
         "roeTTM": 42.04,
         "revenueGrowthTTMYoy": 74.88,
         "epsGrowthTTMYoy": 217.05,
         "currentRatioQuarterly": 2.08,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 32530.934
+        "marketCapitalization": 31970.445
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Teradyne, Inc.",
       "profile": {
         "weburl": "https://www.teradyne.com/",
@@ -27484,6 +27484,14 @@
         "name": "Teradyne, Inc."
       },
       "news": [
+        {
+          "headline": "Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?",
+          "url": "https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T16:51:26Z",
+          "primary": false,
+          "symbol": "TER"
+        },
         {
           "headline": "Teradyne: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finnhub.io/api/news?id=cdbcacbabfe29b5a012a1769b414797331a9fa3f5638e5ece08986ee5589fae6",
@@ -27515,14 +27523,6 @@
           "published_at": "2026-11-19T16:45:02Z",
           "primary": false,
           "symbol": "TER"
-        },
-        {
-          "headline": "Why Jefferies Calls Teradyne (TER) a “Compute Test Company”",
-          "url": "https://finnhub.io/api/news?id=f7d024c95977c813cff91e1138d215565718a93731d7d1dbe38d2131ba94758c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T16:10:20Z",
-          "primary": false,
-          "symbol": "TER"
         }
       ]
     },
@@ -27530,17 +27530,17 @@
       "metrics": {
         "52WeekHigh": 334.03,
         "52WeekLow": 152.73,
-        "peTTM": 35.7253,
-        "psTTM": 12.237,
+        "peTTM": 33.8826,
+        "psTTM": 11.6058,
         "netProfitMarginTTM": 34.25,
         "roeTTM": 40.510000000000005,
         "revenueGrowthTTMYoy": 20.27,
         "epsGrowthTTMYoy": 40.7,
         "currentRatioQuarterly": 5.595,
         "totalDebt/totalEquityQuarterly": 0.7065,
-        "marketCapitalization": 254113.97
+        "marketCapitalization": 241006.92
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Texas Instruments Incorporated",
       "profile": {
         "weburl": "https://www.ti.com/",
@@ -27549,42 +27549,42 @@
       },
       "news": [
         {
-          "headline": "Texas Instruments (TXN) Could Be 50% Overvalued As AI Tools And Earnings Impress",
-          "url": "https://finnhub.io/api/news?id=921a9e04fb83a1f0601d771e47ce49f29e070543313a83fc61b5077961cc40f0",
+          "headline": "Metal-Oxide-Semiconductor (MOS) Microprocessor Market Global Report 2026 | Capitalize on AI, Chiplets and RISC-V as NVIDIA, Intel, Broadcom and Texas Instruments Drive 10.1% CAGR",
+          "url": "https://finnhub.io/api/news?id=37e1be4a52efda4d8c1db776dfb8171b967b496ea77e8243c3d45ca11b1e5833",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:12:49Z",
+          "published_at": "2026-11-23T15:28:00Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "Texas Instruments (TXN) Up 2.2% Since Last Earnings Report: Can It Continue?",
-          "url": "https://finnhub.io/api/news?id=46d5df8c471c0de46e2e6f68e86e4e0b842bbd11c3c21df26db5d1757162c909",
+          "headline": "Texas Instruments vs. Lam Research: Which Chip Stock Is a Better Buy?",
+          "url": "https://finnhub.io/api/news?id=978a0d82e1fade3993f3e55030b2ee07e935008acd87e9c2443261653b4c59f8",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:11Z",
+          "published_at": "2026-11-23T12:30:00Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "Power-Over-Ethernet (PoE) Chipsets - Global Strategic Business Report 2026: Capitalize on 13% CAGR and $2.2B by 2032; Benchmark Cisco, Analog Devices, NXP, Microchip and Texas Instruments",
-          "url": "https://finnhub.io/api/news?id=c638370ee015e05f4e42f6d4b78a7ee3f90c70413371c0042d4b5fb9c32083e0",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:06:00Z",
+          "headline": "Here’s How Much You Would Have Made Owning Texas Instruments Stock In The Last 20 Years",
+          "url": "https://finnhub.io/api/news?id=b7e66365cf8c32dbf7241545009fd11178a65bd81071aa6ba68d277da2cd3997",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T10:15:57Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "Is Texas Instruments' Sales Boom Its Biggest Risk?",
-          "url": "https://finnhub.io/api/news?id=a9d4601707607e23970c6560e08896ad737bb27adce78d81d430daff5fb4966b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:40:49Z",
+          "headline": "Cantor Fitzgerald Upgrades Texas Instruments to Overweight, Raises Price Target to $385",
+          "url": "https://finnhub.io/api/news?id=6204df5dd512b02f25cefa64426b4a4c6b3dacdc8feb7094b2c2d3b8eeab949a",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T07:43:47Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "First Trust NASDAQ-100 Tech (QTEC) Sells AppLovin and Texas Instruments on Tuesday",
-          "url": "https://finnhub.io/api/news?id=05e873c00446501c6096195b25a55dfcd6e0e7dd9b04c87e8a5bfe962babb97c",
+          "headline": "Texas Instruments, Analog Devices and Microchip Pay Dividends Through Chip Downturns",
+          "url": "https://finnhub.io/api/news?id=3450a15a139650e23f463b036dc82e698d215e439aa5e6b35c584a2998220374",
           "source": "Yahoo",
-          "published_at": "2026-11-19T11:06:26Z",
+          "published_at": "2026-11-21T20:07:09Z",
           "primary": false,
           "symbol": "TXN"
         }
@@ -27594,17 +27594,17 @@
       "metrics": {
         "52WeekHigh": 547.2,
         "52WeekLow": 265.31,
-        "peTTM": 32.27,
-        "psTTM": 19.59,
+        "peTTM": 31.396,
+        "psTTM": 19.0594,
         "netProfitMarginTTM": 60.71,
         "roeTTM": 36.22,
         "revenueGrowthTTMYoy": 25.3,
         "epsGrowthTTMYoy": 23.36,
         "currentRatioQuarterly": 5.4088,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 18960.104
+        "marketCapitalization": 18446.59
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Texas Pacific Land Corporation",
       "profile": {
         "weburl": "https://www.texaspacific.com/",
@@ -27612,6 +27612,30 @@
         "name": "Texas Pacific Land Corporation"
       },
       "news": [
+        {
+          "headline": "Texas Pacific Land to Acquire EagleRock Land in All-Stock Deal With Implied $3 Billion Equity Value",
+          "url": "https://finnhub.io/api/news?id=852d53ae6e9512cd2eaaec27c511898f02bb9ac0226c037dabff37335dcb07a8",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:11:14Z",
+          "primary": false,
+          "symbol": "TPL"
+        },
+        {
+          "headline": "Texas Pacific Land to Acquire EagleRock in All-Stock Transaction, Expected to Enhance the Permian Basin’s Premier Land, Water and Royalty Platform",
+          "url": "https://finnhub.io/api/news?id=c2f6321d75ccd520c954143236234a1898b6d0c717e4ea1e8cad975f2549a137",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:00:00Z",
+          "primary": false,
+          "symbol": "TPL"
+        },
+        {
+          "headline": "Texas Pacific Land To Acquire EagleRock In All-Stock Transaction; EROK Holders To Receive 0.0831 Shares Of New TPL Stock Per Share, Valuing The Company At ~$23.56 Share At An Implied Equity Valuation Of ~$3B",
+          "url": "https://finnhub.io/api/news?id=57eae1ca7399dd35dd0498224a80a995b9b10e14b095a9210b5f6586f4672379",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T07:03:34Z",
+          "primary": false,
+          "symbol": "TPL"
+        },
         {
           "headline": "Texas Pacific Land Stock: Analyst Estimates & Ratings",
           "url": "https://finnhub.io/api/news?id=00823ee67519a79e6a029b7edba583a6359fa1c197eefbdacd1303b2fe5ec03b",
@@ -27627,14 +27651,6 @@
           "published_at": "2026-11-16T21:15:00Z",
           "primary": false,
           "symbol": "TPL"
-        },
-        {
-          "headline": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
-          "url": "https://finnhub.io/api/news?id=97d7536a0d8b99e7bf15e4ffb6d00cd6d15bffdcb321a21fe7744c8cda4b4337",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T17:22:17Z",
-          "primary": false,
-          "symbol": "TPL"
         }
       ]
     },
@@ -27642,17 +27658,17 @@
       "metrics": {
         "52WeekHigh": 101.57,
         "52WeekLow": 71.87,
-        "peTTM": 14.1538,
-        "psTTM": 0.8915,
+        "peTTM": 13.8619,
+        "psTTM": 0.8731,
         "netProfitMarginTTM": 6.3,
         "roeTTM": 12.139999999999999,
         "revenueGrowthTTMYoy": 8.51,
         "epsGrowthTTMYoy": 22.25,
         "currentRatioQuarterly": 1.6822,
         "totalDebt/totalEquityQuarterly": 0.4687,
-        "marketCapitalization": 13771.652
+        "marketCapitalization": 13487.626
       },
-      "updated_at": "2026-11-21T16:55:12Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Textron Inc",
       "profile": {
         "weburl": "https://www.textron.com/",
@@ -27660,6 +27676,14 @@
         "name": "Textron Inc"
       },
       "news": [
+        {
+          "headline": "Textron: Focusing At A Cost",
+          "url": "https://finnhub.io/api/news?id=26f0d3bc226b8f608535f824406704fa170d93fe55529b2b618bb8b42fdc56f1",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T04:32:16Z",
+          "primary": false,
+          "symbol": "TXT"
+        },
         {
           "headline": "Textron finds private equity buyer for industrial business at $1.2B",
           "url": "https://finnhub.io/api/news?id=22f378f519103391919d85013b1d20d56d3167e4a2c43e362bb20d4596a25f1d",
@@ -27691,14 +27715,6 @@
           "published_at": "2026-11-18T12:50:14Z",
           "primary": false,
           "symbol": "TXT"
-        },
-        {
-          "headline": "Textron to Sell its Industrial Segment to Kingswood Capital Management for $1.2 Billion",
-          "url": "https://finnhub.io/api/news?id=f71ae512a01071ca4686486ba86f137f9829050d01ebd47a41700a091a89b93c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T12:30:00Z",
-          "primary": false,
-          "symbol": "TXT"
         }
       ]
     },
@@ -27706,17 +27722,17 @@
       "metrics": {
         "52WeekHigh": 226.94,
         "52WeekLow": 170.14,
-        "peTTM": 118.173,
-        "psTTM": 7.5986,
+        "peTTM": 115.9068,
+        "psTTM": 7.4529,
         "netProfitMarginTTM": 6.43,
         "roeTTM": 8.57,
         "revenueGrowthTTMYoy": 3.8,
         "epsGrowthTTMYoy": 186.7,
         "currentRatioQuarterly": 1.349,
         "totalDebt/totalEquityQuarterly": 1.4492,
-        "marketCapitalization": 34225.035
+        "marketCapitalization": 33568.707
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "TKO Group Holdings Inc",
       "profile": {
         "weburl": "https://tkogrp.com/",
@@ -27725,42 +27741,42 @@
       },
       "news": [
         {
+          "headline": "TKO Returns Over $1.6 Billion to Shareholders as Live Sports Demand Lifts Profit",
+          "url": "https://finnhub.io/api/news?id=a29f10df0392f355b00cc2b75407bb9620d9aa7160fb8eca620f24bfbb84cf0f",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T03:26:54Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "TKO Group Holdings (TKO) Stock May Trade At A Premium As Streaming Deal Expands Content",
+          "url": "https://finnhub.io/api/news?id=2551622ce46e5881f4203695d1f4247a2ce783e9d411f9712682f36c19f13aef",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T18:06:06Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "What TKO Group Holdings (TKO) Earnings Growth Means For Shareholders",
+          "url": "https://finnhub.io/api/news?id=e14b94421682bdffbb4f6c54d5c6175d77f5d212649092af9e168a90c412a130",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T17:08:25Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
+          "headline": "TKO Group Holdings (TKO) After Strong Results And Media Rights Optimism Still Looks Undervalued",
+          "url": "https://finnhub.io/api/news?id=000ffd65b2beebdafd9d0fc55a8851144ae64cd0be05ef59bf17c21c5f3b8cd9",
+          "source": "Yahoo",
+          "published_at": "2026-11-21T16:08:28Z",
+          "primary": false,
+          "symbol": "TKO"
+        },
+        {
           "headline": "TKO Group (TKO) Owns UFC and WWE. So Why Is George Soros Selling?",
           "url": "https://finnhub.io/api/news?id=9d3bf23514bccdb56495f38fba085c838045f6e473f4184f9203f5604c987664",
           "source": "Yahoo",
           "published_at": "2026-11-21T01:06:02Z",
-          "primary": false,
-          "symbol": "TKO"
-        },
-        {
-          "headline": "Is TKO Stock Really Expensive?",
-          "url": "https://finnhub.io/api/news?id=683159465861b734e739c903c3eb186601e41a968d39b567d1e450966c850ddf",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:59:13Z",
-          "primary": false,
-          "symbol": "TKO"
-        },
-        {
-          "headline": "Wall Street Analysts Predict a 26.89% Upside in TKO Group (TKO): Here's  What You Should Know",
-          "url": "https://finnhub.io/api/news?id=1ab81dfb100a2bf6428c00b4eabf4cb108c34a1dc315a25dabcc6ab877376b15",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:55:02Z",
-          "primary": false,
-          "symbol": "TKO"
-        },
-        {
-          "headline": "What Are Wall Street Analysts' Target Price for TKO Group Stock?",
-          "url": "https://finnhub.io/api/news?id=94a87eea5bb77a4b03ae365c120b528dc6dbfa37e56761356a1fd9353abd6146",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:11:36Z",
-          "primary": false,
-          "symbol": "TKO"
-        },
-        {
-          "headline": "TKO Group Holdings to Participate in the UBS Global Media and Communications Conference",
-          "url": "https://finnhub.io/api/news?id=d70d650f9fd2cc3905fc17c9c21170ccf23d0762646737d5d60f6ebed932faa4",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:00:00Z",
           "primary": false,
           "symbol": "TKO"
         }
@@ -27770,17 +27786,17 @@
       "metrics": {
         "52WeekHigh": 56.28,
         "52WeekLow": 28.36,
-        "peTTM": 20.8494,
-        "psTTM": 1.2782,
+        "peTTM": 20.3966,
+        "psTTM": 1.2504,
         "netProfitMarginTTM": 6.13,
         "roeTTM": 37.64,
         "revenueGrowthTTMYoy": 3.53,
         "epsGrowthTTMYoy": -10.28,
         "currentRatioQuarterly": 1.3785,
         "totalDebt/totalEquityQuarterly": 0.8601,
-        "marketCapitalization": 20376.453
+        "marketCapitalization": 19933.973
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Tractor Supply Company",
       "profile": {
         "weburl": "https://www.tractorsupply.com",
@@ -27788,6 +27804,14 @@
         "name": "Tractor Supply Company"
       },
       "news": [
+        {
+          "headline": "33 ETFs Add to Tractor Supply (TSCO) on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=ddd317aab70596375f23473500444656b6c1b2ad83629eb6d24737fd0744d72e",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:01:43Z",
+          "primary": false,
+          "symbol": "TSCO"
+        },
         {
           "headline": "ETFs Bought $41.6 Million of Tractor Supply (TSCO) on Nov. 18",
           "url": "https://finnhub.io/api/news?id=c471f115a62bd3050e3bc130b36279078c1a119a2e0b81fad0e3cfee5c5e5204",
@@ -27819,14 +27843,6 @@
           "published_at": "2026-11-19T15:55:00Z",
           "primary": false,
           "symbol": "TSCO"
-        },
-        {
-          "headline": "ETFs Are Buying Tractor Supply (TSCO) on Nov. 17",
-          "url": "https://finnhub.io/api/news?id=03c23598c88f39fe26bb3b2d761b57c717f46d55a8620d88cd13e5b4cf847d3e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:01:01Z",
-          "primary": false,
-          "symbol": "TSCO"
         }
       ]
     },
@@ -27834,17 +27850,17 @@
       "metrics": {
         "52WeekHigh": 1463.03,
         "52WeekLow": 1071.25,
-        "peTTM": 29.7841,
-        "psTTM": 5.9438,
+        "peTTM": 29.0495,
+        "psTTM": 5.7972,
         "netProfitMarginTTM": 19.96,
         "roeTTM": 37.11,
         "revenueGrowthTTMYoy": 19.57,
         "epsGrowthTTMYoy": 2.66,
         "currentRatioQuarterly": 2.9007,
         "totalDebt/totalEquityQuarterly": 5.4121,
-        "marketCapitalization": 62755.113
+        "marketCapitalization": 61207.215
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "TransDigm Group Incorporated",
       "profile": {
         "weburl": "https://www.transdigm.com/",
@@ -27898,15 +27914,15 @@
       "metrics": {
         "52WeekHigh": 84.42,
         "52WeekLow": 47.92,
-        "psTTM": 3.1273,
+        "psTTM": 3.0153,
         "netProfitMarginTTM": -4.08,
         "roeTTM": -2.91,
         "revenueGrowthTTMYoy": 6.88,
         "currentRatioQuarterly": 0.9283,
         "totalDebt/totalEquityQuarterly": 0.3082,
-        "marketCapitalization": 12035.325
+        "marketCapitalization": 11604.28
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Trimble Inc",
       "profile": {
         "weburl": "https://www.trimble.com/en",
@@ -27921,14 +27937,6 @@
           "published_at": "2026-11-19T12:05:00Z",
           "primary": false,
           "symbol": "TRMB"
-        },
-        {
-          "headline": "Trimble Sees 17% EPS Growth Despite Agricultural and Transportation Headwinds",
-          "url": "https://finnhub.io/api/news?id=dbebe490d74c5099fb2712288397e5aaa8763867ef87c9982fb6d20e2df13c97",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T07:12:03Z",
-          "primary": false,
-          "symbol": "TRMB"
         }
       ]
     },
@@ -27936,17 +27944,17 @@
       "metrics": {
         "52WeekHigh": 308.4,
         "52WeekLow": 105.0,
-        "peTTM": 25.241,
-        "psTTM": 5.5086,
+        "peTTM": 20.9246,
+        "psTTM": 4.5666,
         "netProfitMarginTTM": 21.82,
         "roeTTM": 15.079999999999998,
         "revenueGrowthTTMYoy": 19.1,
         "epsGrowthTTMYoy": 1806.67,
         "currentRatioQuarterly": 4.4705,
         "totalDebt/totalEquityQuarterly": 0.1083,
-        "marketCapitalization": 32123.043
+        "marketCapitalization": 26629.727
       },
-      "updated_at": "2026-11-21T17:51:11Z",
+      "updated_at": "2026-11-23T16:21:19Z",
       "name": "Twilio Inc.",
       "profile": {
         "weburl": "https://www.twilio.com/en-us",
@@ -29656,6 +29664,6 @@
       ]
     }
   },
-  "cursor": 481,
-  "updated_at": "2026-11-23T15:15:00Z"
+  "cursor": 493,
+  "updated_at": "2026-11-23T16:21:19Z"
 }
