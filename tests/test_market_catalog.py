@@ -69,8 +69,25 @@ class MarketCatalogTests(unittest.TestCase):
         rows=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(100)]
         self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows}).encode())),100)
         self.assertEqual(len(mc.parse_nzx(json.dumps({'data':rows[:3]}).encode())),3)
+        # A full authenticated directory may legitimately exceed one 100-row page.
+        larger=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(140)]
+        self.assertEqual(len(mc.parse_nzx(json.dumps({'data':larger}).encode())),140)
+        mapped={r['ticker']:{'name':r['name']} for r in larger}
+        self.assertEqual(len(mc.parse_nzx(json.dumps({'data':mapped}).encode())),140)
+        oversized=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(351)]
         with self.assertRaises(ValueError):
-            mc.parse_nzx(json.dumps({'data':rows + [{'ticker':'Z999','name':'extra'}]}).encode())
+            mc.parse_nzx(json.dumps({'data':oversized}).encode())
+
+    def test_nzx_unpaginated_provider_response_is_accepted_without_offset_requests(self):
+        companies=[{'ticker':f'N{i:03d}','name':f'Test Company {i}'} for i in range(140)]
+        def mocked_fetch(url,key=None):
+            if url==mc.NZX_DIRECTORY:return json.dumps({'data':companies}).encode()
+            raise AssertionError('Unnecessary paginated provider request')
+        with patch.object(mc,'fetch_apac',side_effect=mocked_fetch),patch.dict('os.environ',{'NZXPLORER_API_KEY':'dummy'},clear=False):
+            items,markets,sources=mc.apac_discovery()
+        self.assertEqual(markets['NZX']['listed_in_directory'],140)
+        self.assertEqual(markets['NZX']['status'],'DISCOVERED')
+        self.assertTrue(sources['NZX']['ok'])
 
     def test_us_count_does_not_include_asx_or_nzx(self):
         m={mc.SOURCES["NASDAQ"]:listings("NASDAQ"),mc.SOURCES["OTHER_US"]:listings("OTHER_US")}
