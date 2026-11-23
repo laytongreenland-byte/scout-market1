@@ -9,7 +9,10 @@ METRIC={'symbol':'AIR','market':'NZX','sector':'Industrials',
         'fiscal_year':2026,'period_type':'FY','retrieved_at':'2026-11-23T07:00:00Z',
         'metrics':{'pe_ratio':14.2,'net_margin':13.0,'roe':17.0,
                    'revenue_growth':10.1,'debt_to_equity':0.7},
-        'source_url':'https://nzxplorer.co.nz/companies/air'}
+        'source_url':'https://nzxplorer.co.nz/companies/air',
+        'announcements':[{'title':'AIR Financial Results','date':'2026-11-23',
+                          'url':'https://www.nzx.com/announcements/484239',
+                          'source':'NZX primary announcement'}]}
 CAT={'items':[{'market':'NZX','type':'SHARE','symbol':'AIR','name':'Air New Zealand'}]}
 LATEST={'events':[{'type':'NZX','ticker':None,'title':'[AIR] Interim Financial Results',
                    'published_at':'2026-11-23T06:00:00Z',
