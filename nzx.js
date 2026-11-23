@@ -106,7 +106,7 @@ const ScoutNZX=(()=>{
       (sourceUrl(x.source_url)?'<a href="'+safe(sourceUrl(x.source_url))+'" target="_blank" rel="noopener noreferrer">Verify NZX issuer ↗</a>':'')+
       '</article>').join('');
     if(a.length&&$('urgent-list'))$('urgent-list').insertAdjacentHTML('beforeend',html);
-    if(a.length&&$('overview-alerts'))$('overview-alerts').insertAdjacentHTML('beforeend',html.slice(0,30000));
+    if(a.length&&$('overview-alerts'))$('overview-alerts').insertAdjacentHTML('beforeend',a.slice(0,1).map(x=>'<div class="card small-notice"><strong>NZX:'+safe(x.symbol)+'</strong> · '+safe(x.headline)+'</div>').join(''));
     if(a.length&&$('movers-list')){
       $('movers-list').insertAdjacentHTML('beforeend',a.slice(0,10).map(x=>
         '<div class="mover-row"><strong>NZX:'+safe(x.symbol)+'</strong><span>price movement research</span><small>'+safe(x.price_date||'')+'</small></div>').join(''));
@@ -160,7 +160,7 @@ const ScoutNZX=(()=>{
   function setup(){
     makePanels();
     for(const id of ['quote-search','quote-filter'])if($(id))
-      $(id).addEventListener(id==='quote-search'?'input':'change',()=>{if(last)render(last)});
+      $(id).addEventListener(id==='quote-search'?'input':'change',()=>{if(last)renderQuotes()});
     for(const id of ['discovery-search','discovery-filter'])if($(id))
       $(id).addEventListener(id==='discovery-search'?'input':'change',()=>{showAll=false;renderResearch()});
   }
