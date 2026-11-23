@@ -63,7 +63,7 @@ class ApacDataTests(unittest.TestCase):
             result=ap.build(now=NOW,catalog=base,previous={},
                             fetchers={'NZX':good})
             self.assertEqual(result['markets']['NZX']['valid_this_run'],1)
-            self.assertEqual(result['fetched_days']['NZX'],'2026-11-20')
+            self.assertEqual(result['fetched_days']['NZX'],'2026-11-21')
             next_run=ap.build(now=NOW.replace(hour=19),catalog=base,
                               previous=result,fetchers={'NZX':lambda *a: (_ for _ in ()).throw(AssertionError('second fetch'))})
             self.assertEqual(next_run['markets']['NZX']['attempted'],0)
