@@ -58,16 +58,22 @@ def score_financials(item,now):
     if not 0<pe<=60 or profit<=0 or roe<=0:
         return {'score':None,'status':'QUALITY GATE NOT MET',
                 'why':'Weak or unsuitable observed profits, equity return, or earnings multiple'}
-    score=15 + (25 if pe<=18 else 18 if pe<=28 else 5)
-    score+=15 if fraction_sign(profit) else 0
-    score+=15 if fraction_sign(roe) else 0
-    score+=12 if fraction_sign(growth) else 0
-    score+=8 if numeric(de) and 0<=de<=4 else 0
+    # NZXplorer metrics API expresses profitability/growth ratios in percentage
+    # points, e.g. ROE=19.37 means 19.37%, while D/E remains a unitless ratio.
+    # Avoid rewarding a 0.1% margin as if it were a strong profit.
+    score=15 + (23 if pe<=14 else 17 if pe<=22 else 9 if pe<=30 else 0)
+    score+=(17 if roe>=15 else 11 if roe>=8 else 3)
+    score+=(17 if profit>=12 else 11 if profit>=6 else 4)
+    score+=(15 if numeric(growth) and growth>=10 else 9 if numeric(growth) and growth>=2
+            else 3 if numeric(growth) and growth>0 else 0)
+    score+=(13 if numeric(de) and 0<=de<=0.5 else
+             8 if numeric(de) and 0<=de<=1.25 else
+             4 if numeric(de) and 0<=de<=2 else 0)
     score=min(100,score)
-    reasons=[f'trailing P/E {pe:.1f}×','reported net profit margin positive',
-             'reported return on equity positive']
-    if fraction_sign(growth):reasons.append('reported revenue growth positive')
-    if numeric(de) and 0<=de<=4:reasons.append('debt/equity metric is available')
+    reasons=[f'trailing P/E {pe:.1f}×',f'net profit margin {profit:.2f}%',
+             f'return on equity {roe:.2f}%']
+    if numeric(growth):reasons.append(f'revenue growth {growth:.2f}%')
+    if numeric(de):reasons.append(f'debt/equity {de:.2f}×')
     return {'score':score,'status':'INVESTIGATE' if score>=75 else 'WATCH',
             'why':'; '.join(reasons)+'; financial data may be unaudited or dated',
             'fundamentals_at':item.get('retrieved_at'),
@@ -85,10 +91,10 @@ def plan(quote,screen,has_issuer_filing=False):
     """
     if not quote or not numeric(quote.get('close')) or quote['close']<=0 or        screen.get('status')!='INVESTIGATE' or screen.get('score',0)<75:
         return None
-    if quote.get('movement_warning'):return None
+    if quote.get('movement_warning') or quote['close']<0.10:return None  # unverified penny-share liquidity
     if has_issuer_filing is not True:return None
     price=quote['close']
-    return {'method':'financial-screen-plus-primary-filing-v1',
+    return {'method':'financial-screen-plus-issuer-news-v2',
             'signal':'PAPER ENTRY CANDIDATE',
             'entry_ceiling':round(price*1.01,6),
             'exit_multiple':1.12,
@@ -110,7 +116,7 @@ def new_calls(ideas,history,now,week):
         qdate=day(idea.get('price_date'))
         if not qdate or (now-qdate).days>4:continue
         p=idea['price_plan']
-        calls.append({'id':f'{week}|NZX|{symbol}|PAPER_V1',
+        calls.append({'id':f'{week}|NZX|{symbol}|PAPER_V2',
                       'market':'NZX','currency':'NZD','symbol':symbol,
                       'name':idea.get('name'), 'week':week,
                       'signal':'PAPER ENTRY CANDIDATE','decision_at':now.isoformat(),
