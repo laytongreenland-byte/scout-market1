@@ -28,4 +28,45 @@ class ApacDataTests(unittest.TestCase):
         self.assertNotIn('buy',result)
         self.assertNotIn('recommendations',result)
 
+    def test_provider_envelopes_and_fail_closed(self):
+        rows=[{'date':'2026-11-20','close':2.5}]
+        self.assertEqual(ap.extract_rows({'data':{'bars':rows}}),rows)
+        self.assertEqual(ap.extract_rows({'data':{'prices':rows}}),rows)
+        self.assertEqual(ap.extract_rows({'data':{'daily':rows}}),rows)
+        self.assertEqual(ap.extract_rows({'data':{'history':rows}}),rows)
+
+    def test_nzx_exchange_local_day_not_utc_day(self):
+        local_midnight=datetime(2026,11,22,12,15,tzinfo=timezone.utc)
+        # NZ is already on 23 Nov, so an exchange-dated 23 Nov
+        # observation is not automatically rejected as future-dated.
+        row=ap.valid_price([{'date':'2026-11-23','close':3.25}],
+                           'NZX','AIR',local_midnight)
+        self.assertEqual(row['close'],3.25)
+
+    def test_failed_prices_are_not_marked_as_fetched_or_hammered_hourly(self):
+        with patch.dict('os.environ',{'NZXPLORER_API_KEY':'dummy'},clear=True):
+            base={'items':[{'market':'NZX','symbol':'AIR'}]}
+            fail=lambda sym,key: (_ for _ in ()).throw(RuntimeError('unavailable'))
+            result=ap.build(now=NOW,catalog=base,previous={},
+                            fetchers={'NZX':fail})
+            self.assertEqual(result['markets']['NZX']['status'],'PROVIDER_ERROR')
+            self.assertNotIn('NZX',result['fetched_days'])
+            self.assertIn('NZX',result['retry_after'])
+            next_run=ap.build(now=NOW.replace(hour=19),catalog=base,
+                              previous=result,fetchers={'NZX':fail})
+            self.assertEqual(next_run['markets']['NZX']['attempted'],0)
+
+    def test_valid_prices_fetched_once_per_day_without_affecting_us(self):
+        with patch.dict('os.environ',{'NZXPLORER_API_KEY':'dummy'},clear=True):
+            base={'items':[{'market':'NZX','symbol':'AIR'}]}
+            good=lambda sym,key:{'data':{'prices':[{'date':'2026-11-20','close':1.2}]}}
+            result=ap.build(now=NOW,catalog=base,previous={},
+                            fetchers={'NZX':good})
+            self.assertEqual(result['markets']['NZX']['valid_this_run'],1)
+            self.assertEqual(result['fetched_days']['NZX'],'2026-11-20')
+            next_run=ap.build(now=NOW.replace(hour=19),catalog=base,
+                              previous=result,fetchers={'NZX':lambda *a: (_ for _ in ()).throw(AssertionError('second fetch'))})
+            self.assertEqual(next_run['markets']['NZX']['attempted'],0)
+            self.assertEqual(len(next_run['quotes']),1)
+
 if __name__=='__main__': unittest.main()
