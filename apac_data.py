@@ -97,7 +97,6 @@ def fetch_asx(symbol,key):
 
 def build(now=None,catalog=None,previous=None,fetchers=None):
     now=now or datetime.now(TZ)
-    today=now.date().isoformat()
     catalog=catalog if catalog is not None else load(CATALOG,{})
     previous=previous if previous is not None else load(OUT,{})
     secrets={'NZX':os.environ.get('NZXPLORER_API_KEY'),
@@ -123,6 +122,9 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
             continue
         # Once daily; bounded per-provider calls. Stable rotation through catalog.
         # NZX free account: 250 req/day; avoid hourly depletion.
+        market_today=now.astimezone(ZoneInfo(
+            'Pacific/Auckland' if market=='NZX' else 'Australia/Sydney')).date()
+        today=market_today.isoformat()
         prior_day=previous.get('fetched_days',{}).get(market)
         retry_after=previous.get('retry_after',{}).get(market)
         attempts=0;valid=0
@@ -137,13 +139,13 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
         if prior_day!=today and can_retry:
             # NZX roughly fits a 20/day rolling EOD scan without exceeding
             # its documented free 250/day limit; ASX remains quota-cautious.
-            default_limit=20 if market=='NZX' else 10
+            default_limit=25 if market=='NZX' else 10
             upper_limit=25 if market=='NZX' else 30
             setting='SCOUT_'+market+'_PRICE_DAILY_LIMIT'
             try: requested=int(os.environ.get(setting,str(default_limit)))
             except ValueError: requested=default_limit
             count=min(max(1,requested),upper_limit,len(symbols))
-            cycle=(now.date().toordinal()*count)%len(symbols)
+            cycle=(market_today.toordinal()*count)%len(symbols)
             selected=[symbols[(cycle+i)%len(symbols)] for i in range(count)]
             for symbol in selected:
                 attempts+=1
@@ -184,8 +186,10 @@ def build(now=None,catalog=None,previous=None,fetchers=None):
     retries=dict(previous.get('retry_after',{}))
     for market in ('NZX','ASX'):
         if not secrets[market]: continue
+        local_day=now.astimezone(ZoneInfo(
+            'Pacific/Auckland' if market=='NZX' else 'Australia/Sydney')).date().isoformat()
         if markets[market].get('valid_this_run'):
-            days[market]=today
+            days[market]=local_day
             retries.pop(market,None)
         elif markets[market].get('attempted'):
             # A bad attempt is not a successful daily refresh.
