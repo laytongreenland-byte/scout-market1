@@ -45,6 +45,12 @@ def run():
             result['NZX']['sample_price']='OK' if q else 'NO_VERIFIED_EOD_BAR'
         except Exception as exc:
             result['NZX']['sample_price']=status_error(exc)
+        try:
+            info=fetch_nzx('FNZ',nzkey)
+            etf=valid_price(extract_rows(info),'NZX','FNZ',NOW)
+            result['NZX']['sample_etf_price']='OK' if etf else 'NO_VERIFIED_EOD_BAR'
+        except Exception as exc:
+            result['NZX']['sample_etf_price']=status_error(exc)
         # Schema inspection only, no unauthorised financial records published.
         for title,url in (('company_detail',NZX_ROOT+'companies/AIR?include=financials'),
                           ('metrics',NZX_ROOT+'metrics/AIR')):
