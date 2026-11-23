@@ -1,11 +1,52 @@
 {
-  "checked_at": "2026-11-23T07:06:19.079035+00:00",
+  "checked_at": "2026-11-23T07:34:53.747550+00:00",
   "research_only": true,
   "note": "One sampled provider request only; this is not full price coverage.",
   "NZX": {
     "directory": "OK",
     "listings_seen": 128,
-    "sample_price": "OK"
+    "sample_price": "OK",
+    "company_detail": "OK",
+    "company_detail_keys": [
+      "description",
+      "exchange_mic",
+      "financials",
+      "id",
+      "isin",
+      "lei",
+      "market_cap",
+      "name",
+      "permid",
+      "sector",
+      "slug",
+      "ticker",
+      "website_url"
+    ],
+    "financials_keys": [
+      "balance",
+      "cashflow",
+      "income",
+      "ratios"
+    ],
+    "metrics": "OK",
+    "metrics_keys": [
+      "cash_flow",
+      "composite",
+      "dividends",
+      "fiscal_year",
+      "growth",
+      "leverage",
+      "live_valuation",
+      "mode",
+      "name",
+      "not_meaningful",
+      "period_type",
+      "price_performance",
+      "profitability",
+      "sector",
+      "ticker",
+      "valuation"
+    ]
   },
   "ASX": {
     "sample_price": "NO_API_KEY"
