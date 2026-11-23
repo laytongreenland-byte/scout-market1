@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T09:33:18Z",
+  "generated_at": "2026-11-23T11:20:33Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T09:33:18Z",
+      "checked_at": "2026-11-23T11:20:33Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T09:33:18Z",
+      "checked_at": "2026-11-23T11:20:33Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T09:33:18Z",
+      "checked_at": "2026-11-23T11:20:33Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T09:33:18Z",
+      "checked_at": "2026-11-23T11:20:33Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T09:33:18Z",
+      "checked_at": "2026-11-23T11:20:33Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T09:33:18Z",
+    "generated_at": "2026-11-23T11:20:33Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8698,7 +8698,7 @@
         "status": "INVESTIGATE",
         "score": 80,
         "industry": "Professional Services",
-        "why": "Net profit margin 27.4% (TTM); Return on equity 47.1% (TTM); Trailing P/E 22.0×; TTM revenue growth 14.0% YoY",
+        "why": "Net profit margin 27.4% (TTM); Return on equity 47.1% (TTM); Trailing P/E 22.2×; TTM revenue growth 14.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8712,35 +8712,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T13:05:22Z",
+            "timestamp": "2026-11-23T11:20:33Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "PAYX Stock Rises 20.2% in Six Months: Here's What You Should Know",
-            "timestamp": "2026-11-19T15:18:00Z",
-            "url": "https://finnhub.io/api/news?id=75b37115e202f3653d0d4de7feeb375e746fe69cf6f6a22193543880180492f7"
+            "value": "Paychex: A 4.23% Yield And 8% Earnings Growth Deserve More Than A Market Multiple",
+            "timestamp": "2026-11-22T08:15:00Z",
+            "url": "https://finnhub.io/api/news?id=f9d97273e499f96b522095e694d03b6a989ea6d6d9156aa8e02dc97821b1a86b"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T13:05:22Z",
+        "fundamentals_at": "2026-11-23T11:20:33Z",
         "price": 112.63,
         "currency": "USD",
         "change_pct": 1.104,
         "news": [
           {
-            "headline": "PAYX Stock Rises 20.2% in Six Months: Here's What You Should Know",
-            "url": "https://finnhub.io/api/news?id=75b37115e202f3653d0d4de7feeb375e746fe69cf6f6a22193543880180492f7",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T15:18:00Z",
+            "headline": "Paychex: A 4.23% Yield And 8% Earnings Growth Deserve More Than A Market Multiple",
+            "url": "https://finnhub.io/api/news?id=f9d97273e499f96b522095e694d03b6a989ea6d6d9156aa8e02dc97821b1a86b",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-22T08:15:00Z",
             "primary": false,
             "symbol": "PAYX"
           },
           {
-            "headline": "B of A Securities Reinstates Neutral on Paychex, Announces $120 Price Target",
-            "url": "https://finnhub.io/api/news?id=e21044b3c505f3ee2e94371b1b94437d0bf0dd9beea384c9a831bf47d9d389ec",
-            "source": "Benzinga",
-            "published_at": "2026-11-19T12:45:34Z",
+            "headline": "Paychex Weighs Florida Insurance Shift as Outsourced HR Business Grows",
+            "url": "https://finnhub.io/api/news?id=4342daf49458607bcaa6f3325dc9009dc1890c81e352b74833d47b200e1c4c76",
+            "source": "Yahoo",
+            "published_at": "2026-11-22T01:12:05Z",
             "primary": false,
             "symbol": "PAYX"
           }
@@ -8750,12 +8750,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 76.74,
-          "entry_floor": 69.07,
-          "exit_review_low": 98.39,
-          "exit_review_high": 116.82,
-          "bear_case": 54.4,
-          "scenario_upside_pct": -12.6,
+          "entry_ceiling": 75.9,
+          "entry_floor": 68.31,
+          "exit_review_low": 97.31,
+          "exit_review_high": 115.55,
+          "bear_case": 53.81,
+          "scenario_upside_pct": -13.6,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8768,12 +8768,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 21.96,
+            "trailing_pe": 22.2,
             "earnings_growth_assumed_pct": 4.53,
             "scenario_exit_pe": 18.35,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T13:05:22Z"
+            "metrics_retrieved_at": "2026-11-23T11:20:33Z"
           }
         },
         "ranking_score": 80,
@@ -11646,7 +11646,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Chemicals",
-        "why": "Net profit margin 9.4% (TTM); Return on equity 19.1% (TTM); Trailing P/E 16.7×; TTM revenue growth 6.4% YoY",
+        "why": "Net profit margin 9.4% (TTM); Return on equity 19.1% (TTM); Trailing P/E 16.5×; TTM revenue growth 6.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11660,35 +11660,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T14:07:02Z",
+            "timestamp": "2026-11-23T11:20:33Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
-            "timestamp": "2026-11-20T13:00:00Z",
-            "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3"
+            "value": "AT&T vs. PPG Industries: Which Dividend Stock Pays You More in 10 Years?",
+            "timestamp": "2026-11-20T14:59:36Z",
+            "url": "https://finnhub.io/api/news?id=b2a97670b4c0f26c728815fc2e7fcc9bb33f8c46f97cb395b39eca1235e2bd17"
           }
         ],
         "as_of": "2026-11-20T21:00:00Z",
-        "fundamentals_at": "2026-11-21T14:07:02Z",
+        "fundamentals_at": "2026-11-23T11:20:33Z",
         "price": 117.12,
         "currency": "USD",
         "change_pct": -1.538,
         "news": [
           {
-            "headline": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
-            "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3",
+            "headline": "AT&T vs. PPG Industries: Which Dividend Stock Pays You More in 10 Years?",
+            "url": "https://finnhub.io/api/news?id=b2a97670b4c0f26c728815fc2e7fcc9bb33f8c46f97cb395b39eca1235e2bd17",
             "source": "Yahoo",
-            "published_at": "2026-11-20T13:00:00Z",
+            "published_at": "2026-11-20T14:59:36Z",
             "primary": false,
             "symbol": "PPG"
           },
           {
-            "headline": "Are Wall Street Analysts Predicting PPG Industries Stock Will Climb or Sink?",
-            "url": "https://finnhub.io/api/news?id=ab03de52378cf25f219da215d3b67435825f71c6ef27ec04018a4b28df212040",
+            "headline": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
+            "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3",
             "source": "Yahoo",
-            "published_at": "2026-11-20T12:39:44Z",
+            "published_at": "2026-11-20T13:00:00Z",
             "primary": false,
             "symbol": "PPG"
           }
@@ -11698,12 +11698,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 92.83,
-          "entry_floor": 83.54,
-          "exit_review_low": 119.01,
-          "exit_review_high": 139.73,
-          "bear_case": 66.86,
-          "scenario_upside_pct": 1.6,
+          "entry_ceiling": 94.28,
+          "entry_floor": 84.85,
+          "exit_review_low": 120.87,
+          "exit_review_high": 141.91,
+          "bear_case": 67.91,
+          "scenario_upside_pct": 3.2,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11716,12 +11716,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 16.74,
+            "trailing_pe": 16.48,
             "earnings_growth_assumed_pct": 2.88,
             "scenario_exit_pe": 16.53,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T14:07:02Z"
+            "metrics_retrieved_at": "2026-11-23T11:20:33Z"
           }
         },
         "ranking_score": 78,
@@ -15247,7 +15247,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T09:33:18Z",
+      "generated_at": "2026-11-23T11:20:33Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 784,

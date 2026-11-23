@@ -24773,17 +24773,17 @@
       "metrics": {
         "52WeekHigh": 262.59,
         "52WeekLow": 191.5,
-        "peTTM": 29.0357,
-        "psTTM": 2.1492,
+        "peTTM": 28.6951,
+        "psTTM": 2.124,
         "netProfitMarginTTM": 7.4,
         "roeTTM": 14.87,
         "revenueGrowthTTMYoy": 11.98,
         "epsGrowthTTMYoy": -18.09,
         "currentRatioQuarterly": 2.9415,
         "totalDebt/totalEquityQuarterly": 0.8527,
-        "marketCapitalization": 21111.873
+        "marketCapitalization": 20864.188
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Packaging Corp of America",
       "profile": {
         "weburl": "https://www.packagingcorp.com",
@@ -24814,22 +24814,6 @@
           "published_at": "2026-11-20T07:10:50Z",
           "primary": false,
           "symbol": "PKG"
-        },
-        {
-          "headline": "Packaging Corp of America (NYSE:PKG) Offers Dividend Quality Beyond Its Yield",
-          "url": "https://finnhub.io/api/news?id=db9ee7bdfed64f15012167220aa4b79ff1b06e43ef2093436499d472e689a505",
-          "source": "ChartMill",
-          "published_at": "2026-11-14T12:10:50Z",
-          "primary": false,
-          "symbol": "PKG"
-        },
-        {
-          "headline": "Has Packaging Corporation of America (PKG) Outpaced Other Industrial Products Stocks This Year?",
-          "url": "https://finnhub.io/api/news?id=80785d7210da9b28077a26459705f2aa585976099e0c081a8d5096d886f2015d",
-          "source": "Yahoo",
-          "published_at": "2026-11-13T13:40:03Z",
-          "primary": false,
-          "symbol": "PKG"
         }
       ]
     },
@@ -24845,9 +24829,9 @@
         "epsGrowthTTMYoy": 233.73,
         "currentRatioQuarterly": 7.1022,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 345738.75
+        "marketCapitalization": 345738.78
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Palantir Technologies Inc.",
       "profile": {
         "weburl": "https://www.palantir.com/",
@@ -24856,42 +24840,42 @@
       },
       "news": [
         {
-          "headline": "If You Invest $500 in Palantir Each Month Starting Now, This is What You’d Have in 5 Years",
-          "url": "https://finnhub.io/api/news?id=e8fb9f8287951c29d67fab8f06972fceed80492368cc97062811862342805a6d",
+          "headline": "Palantir Technologies (PLTR) Co Hosts Sovereign AI Defense Summit",
+          "url": "https://finnhub.io/api/news?id=a133296558af0a552ab5384522468dabdb75aeba24cdbbd020bc77e151541980",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:04:09Z",
+          "published_at": "2026-11-22T21:06:50Z",
           "primary": false,
           "symbol": "PLTR"
         },
         {
-          "headline": "Cathie Wood's Ark Has Been Selling Palantir Stock. Under $160, I'd Buy It Now.",
-          "url": "https://finnhub.io/api/news?id=b9867a945e2ad5addfdd227b53dd057cde55e650b92b96275489c98b37910303",
+          "headline": "Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.",
+          "url": "https://finnhub.io/api/news?id=c445a9e33fff8e802116f67bd0749b0b38e2f4a0f3c81d0ee4a3409fefacf190",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:04:02Z",
+          "published_at": "2026-11-22T18:57:02Z",
           "primary": false,
           "symbol": "PLTR"
         },
         {
-          "headline": "One Number That Makes Palantir A Buy",
-          "url": "https://finnhub.io/api/news?id=d681cee4858ed3b29f26948f6f86713fba6bf8415f931528f887dd404c81546c",
+          "headline": "UiPath vs. Palantir Technologies: Which AI Automation Platform Makes a Better Stock Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=8f661f716b8184e306fa834d1f54d758453eb1f748a84a68558b601fc54f90ae",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:38:33Z",
+          "published_at": "2026-11-22T18:33:02Z",
           "primary": false,
           "symbol": "PLTR"
         },
         {
-          "headline": "Ondas, Palantir and Regna AI Host Key Defense Technology Leaders to Accelerate the Path from AI Innovation to Fielded Capability",
-          "url": "https://finnhub.io/api/news?id=1bde27452aa738aeb615e62c626ab030bb947c9242d303869bc825f88ea420ea",
+          "headline": "Stanley Druckenmiller and 16 Other Big Funds Bought Palantir Last Quarter, While 6 Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=030a608bf2f5365375b31a518d507ae21b90069c2df6910e782a0d87a784e66b",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:30:00Z",
+          "published_at": "2026-11-22T11:06:38Z",
           "primary": false,
           "symbol": "PLTR"
         },
         {
-          "headline": "Investors Heavily Search Palantir Technologies Inc. (PLTR): Here is What You Need to Know",
-          "url": "https://finnhub.io/api/news?id=d706c70feb08399b8a0598fc7690833e520c94592ce956b9ffd9a034e629c4c4",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:00:03Z",
+          "headline": "Anthropic: Following The Palantir Playbook",
+          "url": "https://finnhub.io/api/news?id=05b9dc8c9bae38862fb3aa5ca263c8981fdc1c67c95fc4939660aacc8b4204d9",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T05:07:24Z",
           "primary": false,
           "symbol": "PLTR"
         }
@@ -24901,17 +24885,17 @@
       "metrics": {
         "52WeekHigh": 127.98,
         "52WeekLow": 85.45,
-        "peTTM": 21.958,
-        "psTTM": 6.0062,
+        "peTTM": 22.2005,
+        "psTTM": 6.0726,
         "netProfitMarginTTM": 27.35,
         "roeTTM": 47.11,
         "revenueGrowthTTMYoy": 13.97,
         "epsGrowthTTMYoy": 12.94,
         "currentRatioQuarterly": 1.2766,
         "totalDebt/totalEquityQuarterly": 1.2301,
-        "marketCapitalization": 39656.227
+        "marketCapitalization": 40094.082
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Paychex, Inc.",
       "profile": {
         "weburl": "https://www.paychex.com/",
@@ -24919,6 +24903,30 @@
         "name": "Paychex, Inc."
       },
       "news": [
+        {
+          "headline": "Paychex: A 4.23% Yield And 8% Earnings Growth Deserve More Than A Market Multiple",
+          "url": "https://finnhub.io/api/news?id=f9d97273e499f96b522095e694d03b6a989ea6d6d9156aa8e02dc97821b1a86b",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T08:15:00Z",
+          "primary": false,
+          "symbol": "PAYX"
+        },
+        {
+          "headline": "Paychex Weighs Florida Insurance Shift as Outsourced HR Business Grows",
+          "url": "https://finnhub.io/api/news?id=4342daf49458607bcaa6f3325dc9009dc1890c81e352b74833d47b200e1c4c76",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T01:12:05Z",
+          "primary": false,
+          "symbol": "PAYX"
+        },
+        {
+          "headline": "IBM or Paychex: Only One Gets My Dividend Dollars for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=56ef23b26168b97399e0e77611d4315e5cd4c23750ceee7d8152c30db3aa50c6",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:23Z",
+          "primary": false,
+          "symbol": "PAYX"
+        },
         {
           "headline": "PAYX Stock Rises 20.2% in Six Months: Here's What You Should Know",
           "url": "https://finnhub.io/api/news?id=75b37115e202f3653d0d4de7feeb375e746fe69cf6f6a22193543880180492f7",
@@ -24934,30 +24942,6 @@
           "published_at": "2026-11-19T12:45:34Z",
           "primary": false,
           "symbol": "PAYX"
-        },
-        {
-          "headline": "Is Wall Street Bullish or Bearish on Paychex Stock?",
-          "url": "https://finnhub.io/api/news?id=baa8178b7942ebd20a76b275af0871c5ece9e00906110bbfd0d3ecda886fc124",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T08:41:50Z",
-          "primary": false,
-          "symbol": "PAYX"
-        },
-        {
-          "headline": "ADP Is the Better Retirement Dividend Stock, but Paychex Pays More Today",
-          "url": "https://finnhub.io/api/news?id=fb70973d4bbe80b9e1d9513f3ae4c45647d3f28ca8a6a85a7fe073fd149aa2bc",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T12:17:26Z",
-          "primary": false,
-          "symbol": "PAYX"
-        },
-        {
-          "headline": "Paychex, Inc. (PAYX) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=335277afe84ffb82df0452c30613b16de6f6a74e2d760c4bd74edf42c14812c0",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T14:33:02Z",
-          "primary": false,
-          "symbol": "PAYX"
         }
       ]
     },
@@ -24965,17 +24949,17 @@
       "metrics": {
         "52WeekHigh": 63.93,
         "52WeekLow": 38.46,
-        "peTTM": 9.5159,
-        "psTTM": 1.3116,
+        "peTTM": 9.3645,
+        "psTTM": 1.2907,
         "netProfitMarginTTM": 13.78,
         "roeTTM": 23.76,
         "revenueGrowthTTMYoy": 4.36,
         "epsGrowthTTMYoy": 5.36,
         "currentRatioQuarterly": 1.2643,
         "totalDebt/totalEquityQuarterly": 0.692,
-        "marketCapitalization": 44981.477
+        "marketCapitalization": 44265.78
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "PayPal Holdings, Inc.",
       "profile": {
         "weburl": "https://www.paypal.com/",
@@ -24983,6 +24967,22 @@
         "name": "PayPal Holdings, Inc."
       },
       "news": [
+        {
+          "headline": "PayPal Sale: Why This Analyst Sees A ‘Lower Likelihood’",
+          "url": "https://finnhub.io/api/news?id=d193c03f6b1368364c133935d077ba8a7bc41ebdfd8c2e5eecabde13b6146b24",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T07:47:22Z",
+          "primary": false,
+          "symbol": "PYPL"
+        },
+        {
+          "headline": "PayPal Names New CFO, Overhauls Venmo, Crypto and AI Leadership As Three-Year Strategy Takes Shape",
+          "url": "https://finnhub.io/api/news?id=abcd0af1e14aa50b414fa9d1b0f1e98951bf7240b72bc8d57f5822066eccaf76",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T03:30:06Z",
+          "primary": false,
+          "symbol": "PYPL"
+        },
         {
           "headline": "Is PayPal Holdings (PYPL) A Bargain On Its Leadership Shake Up?",
           "url": "https://finnhub.io/api/news?id=c98dc8bea2fa57a7ff178257e17d2b77c7ff8118f2874d50c9cbe5a296532fb6",
@@ -25006,22 +25006,6 @@
           "published_at": "2026-11-20T23:25:39Z",
           "primary": false,
           "symbol": "PYPL"
-        },
-        {
-          "headline": "PayPal’s next CFO to receive over $30M in stock, bonuses",
-          "url": "https://finnhub.io/api/news?id=a14fa21cf9b9ba1f881f1ed706b9a82e2c7f60c52b19de0dd7747d4b9aad5cc6",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T20:19:10Z",
-          "primary": false,
-          "symbol": "PYPL"
-        },
-        {
-          "headline": "PayPal Names CFO, Other Execs to Help Execute Turnaround Plan",
-          "url": "https://finnhub.io/api/news?id=a5048163fb5eb8128f104e42d4ee4b46b5233b07122509f55520dc79892e372b",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T19:49:00Z",
-          "primary": false,
-          "symbol": "PYPL"
         }
       ]
     },
@@ -25029,17 +25013,17 @@
       "metrics": {
         "52WeekHigh": 109.09,
         "52WeekLow": 51.13,
-        "peTTM": 18.3439,
-        "psTTM": 2.8315,
+        "peTTM": 17.8979,
+        "psTTM": 2.7626,
         "netProfitMarginTTM": 15.44,
         "roeTTM": 16.02,
         "revenueGrowthTTMYoy": -3.93,
         "epsGrowthTTMYoy": -4.57,
         "currentRatioQuarterly": 1.4728,
         "totalDebt/totalEquityQuarterly": 0.3845,
-        "marketCapitalization": 11230.111
+        "marketCapitalization": 10957.101
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Pentair plc",
       "profile": {
         "weburl": "https://www.pentair.com",
@@ -25048,18 +25032,18 @@
       },
       "news": [
         {
-          "headline": "Pentair Stock: Analyst Estimates & Ratings",
-          "url": "https://finnhub.io/api/news?id=fcd3f55524a7ef53da5390a7012b0ccac61ad8b5a6fbc88d164545f43205504d",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:25:32Z",
+          "headline": "Four S&P 500 Stocks Rising in a Falling Market: Pentair, AppLovin, Chipotle, and Gen Digital",
+          "url": "https://finnhub.io/api/news?id=b2d8856c10924f9b3ce0222ec94c8f246b505cbe98591a423e650d7ffa58bdb6",
+          "source": "Benzinga",
+          "published_at": "2026-11-21T18:00:05Z",
           "primary": false,
           "symbol": "PNR"
         },
         {
-          "headline": "Sterile Filtration - Global Strategic Business Report: Secure Share of the $10.1 Billion 2030 Market as 3M, Merck KGaA, Parker Hannifin and Pentair Capitalize on 7.1% CAGR",
-          "url": "https://finnhub.io/api/news?id=d6c2275ec065524b4e92963683dc19489160fd80a1892f6c3ae00358290ec37c",
+          "headline": "Pentair Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=fcd3f55524a7ef53da5390a7012b0ccac61ad8b5a6fbc88d164545f43205504d",
           "source": "Yahoo",
-          "published_at": "2026-11-13T15:08:00Z",
+          "published_at": "2026-11-18T14:25:32Z",
           "primary": false,
           "symbol": "PNR"
         }
@@ -25069,17 +25053,17 @@
       "metrics": {
         "52WeekHigh": 19.16,
         "52WeekLow": 11.765,
-        "peTTM": 9.9615,
-        "psTTM": 1.195,
+        "peTTM": 9.8155,
+        "psTTM": 1.1775,
         "netProfitMarginTTM": 12.0,
         "roeTTM": 9.21,
         "revenueGrowthTTMYoy": 4.09,
         "epsGrowthTTMYoy": 11.72,
         "currentRatioQuarterly": 1.0296,
         "totalDebt/totalEquityQuarterly": 1.8808,
-        "marketCapitalization": 30800.979
+        "marketCapitalization": 30349.48
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "PG&E Corp",
       "profile": {
         "weburl": "https://www.pgecorp.com/",
@@ -25117,17 +25101,17 @@
       "metrics": {
         "52WeekHigh": 111.16,
         "52WeekLow": 86.18,
-        "peTTM": 18.7025,
-        "psTTM": 2.1669,
+        "peTTM": 18.5669,
+        "psTTM": 2.1512,
         "netProfitMarginTTM": 11.59,
         "roeTTM": 9.24,
         "revenueGrowthTTMYoy": 7.52,
         "epsGrowthTTMYoy": 9.22,
         "currentRatioQuarterly": 0.7133,
         "totalDebt/totalEquityQuarterly": 1.528,
-        "marketCapitalization": 12364.946
+        "marketCapitalization": 12275.258
       },
-      "updated_at": "2026-11-21T13:05:22Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Pinnacle West Capital Corporation",
       "profile": {
         "weburl": "https://www.pinnaclewest.com/",
@@ -25139,18 +25123,18 @@
     "PPG": {
       "metrics": {
         "52WeekHigh": 133.43,
-        "52WeekLow": 93.39,
-        "peTTM": 16.7363,
-        "psTTM": 1.5742,
+        "52WeekLow": 94.46,
+        "peTTM": 16.4789,
+        "psTTM": 1.55,
         "netProfitMarginTTM": 9.41,
         "roeTTM": 19.05,
         "revenueGrowthTTMYoy": 6.39,
         "epsGrowthTTMYoy": 59.33,
         "currentRatioQuarterly": 1.5786,
         "totalDebt/totalEquityQuarterly": 0.8062,
-        "marketCapitalization": 26276.053
+        "marketCapitalization": 25871.809
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "PPG Industries, Inc.",
       "profile": {
         "weburl": "https://www.ppg.com/",
@@ -25158,6 +25142,14 @@
         "name": "PPG Industries, Inc."
       },
       "news": [
+        {
+          "headline": "AT&T vs. PPG Industries: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=b2a97670b4c0f26c728815fc2e7fcc9bb33f8c46f97cb395b39eca1235e2bd17",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:36Z",
+          "primary": false,
+          "symbol": "PPG"
+        },
         {
           "headline": "PPG named to TIME Magazine’s ‘America’s Top Manufacturers 2027’ list",
           "url": "https://finnhub.io/api/news?id=17abe67e29b69dca446b9b7845c6a4e329eb7219d356a6be4eff5634c188b3e3",
@@ -25188,17 +25180,17 @@
       "metrics": {
         "52WeekHigh": 40.11,
         "52WeekLow": 31.555,
-        "peTTM": 20.1356,
-        "psTTM": 6.5475,
+        "peTTM": 19.8348,
+        "psTTM": 6.4497,
         "netProfitMarginTTM": 21.66,
         "roeTTM": 8.74,
         "revenueGrowthTTMYoy": -58.81,
         "epsGrowthTTMYoy": 18.53,
         "currentRatioQuarterly": 0.7489,
         "totalDebt/totalEquityQuarterly": 1.3735,
-        "marketCapitalization": 26478.287
+        "marketCapitalization": 26082.713
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "PPL Corp",
       "profile": {
         "weburl": "https://www.pplweb.com/",
@@ -25206,6 +25198,14 @@
         "name": "PPL Corp"
       },
       "news": [
+        {
+          "headline": "Is Itron (ITRI) Undervalued On PPL's Five Year Deal And EMEA Grid Edge Push?",
+          "url": "https://finnhub.io/api/news?id=1a09e84e78973cbb78bf36002941a457e57b375cc8a90ab5b52cd0023101bdcb",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T02:07:23Z",
+          "primary": false,
+          "symbol": "PPL"
+        },
         {
           "headline": "PPL to Pay Quarterly Stock Dividend Jan. 4, 2027",
           "url": "https://finnhub.io/api/news?id=0b121492b5dee302b61681b1c6202aa30fc2a44d4899bc08c5783ce6c4fe03ba",
@@ -25237,31 +25237,23 @@
           "published_at": "2026-11-18T14:09:53Z",
           "primary": false,
           "symbol": "PPL"
-        },
-        {
-          "headline": "Will Increasing Power Demand Boost PPL's Long-Term Earnings Growth?",
-          "url": "https://finnhub.io/api/news?id=0b4ec690c7ddffd3bff152feb6aaa4c3e70bb02be66540750c9408a9b1d31af5",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T17:11:00Z",
-          "primary": false,
-          "symbol": "PPL"
         }
       ]
     },
     "PFG": {
       "metrics": {
         "52WeekHigh": 121.18,
-        "52WeekLow": 81.72,
-        "peTTM": 11.3467,
-        "psTTM": 1.4322,
+        "52WeekLow": 82.3,
+        "peTTM": 11.2349,
+        "psTTM": 1.418,
         "netProfitMarginTTM": 12.62,
         "roeTTM": 16.59,
         "revenueGrowthTTMYoy": 1.3,
         "epsGrowthTTMYoy": 31.23,
         "totalDebt/totalEquityQuarterly": 0.3812,
-        "marketCapitalization": 22431.201
+        "marketCapitalization": 22210.33
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Principal Financial Group Inc",
       "profile": {
         "weburl": "https://www.principal.com/",
@@ -25291,17 +25283,17 @@
       "metrics": {
         "52WeekHigh": 196.79,
         "52WeekLow": 108.5,
-        "peTTM": 20.6031,
-        "psTTM": 7.7883,
+        "peTTM": 20.5116,
+        "psTTM": 7.7537,
         "netProfitMarginTTM": 37.8,
         "roeTTM": 28.34,
         "revenueGrowthTTMYoy": -0.21,
         "epsGrowthTTMYoy": 45.41,
         "currentRatioQuarterly": 1.632,
         "totalDebt/totalEquityQuarterly": 0.4718,
-        "marketCapitalization": 21288.84
+        "marketCapitalization": 21194.328
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "PTC Inc.",
       "profile": {
         "weburl": "https://www.ptc.com/",
@@ -25355,17 +25347,17 @@
       "metrics": {
         "52WeekHigh": 87.63,
         "52WeekLow": 66.15,
-        "peTTM": 21.2109,
-        "psTTM": 3.0363,
+        "peTTM": 20.8609,
+        "psTTM": 2.9862,
         "netProfitMarginTTM": 14.31,
         "roeTTM": 10.24,
         "revenueGrowthTTMYoy": 5.28,
         "epsGrowthTTMYoy": -15.09,
         "currentRatioQuarterly": 1.0128,
         "totalDebt/totalEquityQuarterly": 1.4764,
-        "marketCapitalization": 37458.45
+        "marketCapitalization": 36840.29
       },
-      "updated_at": "2026-11-21T14:07:02Z",
+      "updated_at": "2026-11-23T11:20:33Z",
       "name": "Public Service Enterprise Group Incorporated",
       "profile": {
         "weburl": "https://corporate.pseg.com/",
@@ -29662,6 +29654,6 @@
       ]
     }
   },
-  "cursor": 433,
-  "updated_at": "2026-11-23T09:33:18Z"
+  "cursor": 445,
+  "updated_at": "2026-11-23T11:20:33Z"
 }
