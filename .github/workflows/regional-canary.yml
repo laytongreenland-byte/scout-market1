@@ -1,0 +1,42 @@
+name: Scout regional provider health canary
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/regional_canary.py
+      - .github/workflows/regional-canary.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: scout-regional-canary
+  cancel-in-progress: true
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify regional provider endpoints without changing research or prices
+        env:
+          NZXPLORER_API_KEY: ${{ secrets.NZXPLORER_API_KEY }}
+          SEABEE_API_KEY: ${{ secrets.SEABEE_API_KEY }}
+        run: python scripts/regional_canary.py
+      - name: Commit probe metadata only
+        run: |
+          cp data/regional_canary.json /tmp/scout-regional-canary.json
+          git config user.name "scout-regional-canary-bot"
+          git config user.email "scout-regional-canary-bot@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/scout-regional-canary.json data/regional_canary.json
+            git add data/regional_canary.json
+            if git diff --cached --quiet; then break; fi
+            git commit -m "Record regional provider health without market data"
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+          done
