@@ -233,6 +233,27 @@
       "price": 48.02,
       "currency": "NZD",
       "first_seen_at": "2026-11-23T07:50:19Z"
+    },
+    {
+      "symbol": "AGL",
+      "date": "2026-11-23",
+      "price": 0.129,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-24T10:28:09Z"
+    },
+    {
+      "symbol": "AIA",
+      "date": "2026-11-23",
+      "price": 8.85,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-24T10:28:09Z"
+    },
+    {
+      "symbol": "AIR",
+      "date": "2026-11-23",
+      "price": 0.37,
+      "currency": "NZD",
+      "first_seen_at": "2026-11-24T10:28:09Z"
     }
   ],
   "calls": [
@@ -697,6 +718,48 @@
       "reference_price": 48.02,
       "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -2.58% (not adjusted for corporate actions).",
       "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|AGL|WATCH",
+      "week": "2026-11-23",
+      "symbol": "AGL",
+      "name": "Accordant Group Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-24T10:28:09Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.129,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -4.44% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|AIA|WATCH",
+      "week": "2026-11-23",
+      "symbol": "AIA",
+      "name": "Auckland International Airport Limited",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-24T10:28:09Z",
+      "original_date": "2026-11-23",
+      "reference_price": 8.85,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -2.64% (not adjusted for corporate actions).",
+      "price_targets": null
+    },
+    {
+      "id": "2026-11-23|NZX|AIR|WATCH",
+      "week": "2026-11-23",
+      "symbol": "AIR",
+      "name": "Air New Zealand",
+      "market": "NZX",
+      "currency": "NZD",
+      "signal": "PRICE WATCH ONLY",
+      "decision_at": "2026-11-24T10:28:09Z",
+      "original_date": "2026-11-23",
+      "reference_price": 0.37,
+      "reason": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement -1.33% (not adjusted for corporate actions).",
+      "price_targets": null
     }
   ],
   "paper_trades": [
@@ -720,6 +783,32 @@
       "why": "Verified NZD exchange close for 2026-11-23; issuer accounting metrics are not yet independently verified. Previous-session price movement +4.17% (not adjusted for corporate actions). Financial screen: trailing P/E 28.0\u00d7; reported net profit margin positive; reported return on equity positive; reported revenue growth positive; debt/equity metric is available; financial data may be unaudited or dated. Price levels below are a mechanical paper-trading experiment, not certified fair value.",
       "filing_url": "https://nzxplorer.co.nz/companies/blis-technologies",
       "financials_at": "2026-11-23T07:49:46.639731Z",
+      "financial_period": "ANNUAL 2026",
+      "result": {
+        "status": "WAITING_TO_BUY",
+        "reason": "No subsequent observed close has met frozen entry ceiling"
+      }
+    },
+    {
+      "id": "2026-11-23|NZX|ALF|PAPER_V2",
+      "market": "NZX",
+      "currency": "NZD",
+      "symbol": "ALF",
+      "name": "Allied Farmers Limited",
+      "week": "2026-11-23",
+      "signal": "PAPER ENTRY CANDIDATE",
+      "decision_at": "2026-11-24",
+      "original_date": "2026-11-20",
+      "original_price": 0.6,
+      "entry_ceiling": 0.606,
+      "exit_multiple": 1.12,
+      "risk_reference": 0.492,
+      "budget_nzd": 100.0,
+      "fee_each_way_pct": 1.0,
+      "score": 79,
+      "why": "Verified NZD exchange close for 2026-11-20; issuer accounting metrics are not yet independently verified. Previous-session price movement +0.84% (not adjusted for corporate actions). Financial screen: trailing P/E 6.1\u00d7; net profit margin 114.50%; return on equity 9.43%; revenue growth -92.55%; debt/equity 0.31\u00d7; financial data may be unaudited or dated. Price levels below are a mechanical paper-trading experiment, not certified fair value.",
+      "filing_url": "https://www.nzx.com/announcements/484016",
+      "financials_at": "2026-11-24T10:27:05.800229Z",
       "financial_period": "ANNUAL 2026",
       "result": {
         "status": "WAITING_TO_BUY",

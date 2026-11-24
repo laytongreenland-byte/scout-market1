@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T10:33:53.817640+00:00",
+  "generated_at": "2026-11-24T10:27:05.800229+00:00",
   "companies": {
     "BGP": {
       "symbol": "BGP",
@@ -206,17 +206,229 @@
           "source": "NZX primary announcement"
         }
       ]
+    },
+    "AGL": {
+      "symbol": "AGL",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/agl",
+      "primary_filing_url": "https://www.nzx.com/instruments/AGL",
+      "retrieved_at": "2026-11-24T10:27:05.800229Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Utilities",
+      "metrics": {
+        "net_margin": -1.28,
+        "revenue_growth": -0.02,
+        "price_52w_high": 0.33,
+        "price_52w_low": 0.129
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "AGL Capital Change Notice",
+          "date": "2026-11-04",
+          "url": "https://www.nzx.com/announcements/483117",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Accordant Group FY27 Half Year results",
+          "date": "2026-10-27",
+          "url": "https://www.nzx.com/announcements/482483",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AGL Capital Change notice M shares",
+          "date": "2026-09-30",
+          "url": "https://www.nzx.com/announcements/480915",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Accordant Group Limited announces CEO retirement",
+          "date": "2026-09-25",
+          "url": "https://www.nzx.com/announcements/480605",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Accordant Group Results of 2026 Annual Shareholders Meeting",
+          "date": "2026-08-28",
+          "url": "https://www.nzx.com/announcements/478807",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "AIA": {
+      "symbol": "AIA",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/aia",
+      "primary_filing_url": "https://www.nzx.com/instruments/AIA",
+      "retrieved_at": "2026-11-24T10:27:05.800229Z",
+      "fiscal_year": 2025,
+      "period_type": "ANNUAL",
+      "sector": "Industrials",
+      "metrics": {
+        "pe_ratio": 29.79,
+        "roe": 4.02,
+        "net_margin": 41.87,
+        "debt_to_equity": 0.34,
+        "revenue_growth": 12.19,
+        "price_52w_high": 9.18,
+        "price_52w_low": 7.83
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "AIA - NZX D&O Notice",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483864",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AIA - Capital Change Notice",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483849",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AIA - Provision of Financial Assistance under ESS",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483865",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "October 2026 Monthly traffic update",
+          "date": "2026-11-15",
+          "url": "https://www.nzx.com/announcements/483685",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AIA - successfully completes new A$300 million AMTN issue",
+          "date": "2026-11-12",
+          "url": "https://www.nzx.com/announcements/483607",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "AIR": {
+      "symbol": "AIR",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/air",
+      "primary_filing_url": "https://www.nzx.com/instruments/AIR",
+      "retrieved_at": "2026-11-24T10:27:05.800229Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Industrials",
+      "metrics": {
+        "roe": -14.38,
+        "net_margin": -3.45,
+        "debt_to_equity": 4.41,
+        "revenue_growth": 3.86,
+        "price_52w_high": 0.615,
+        "price_52w_low": 0.365
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Disclosure of Director Relevant Interests",
+          "date": "2026-11-23",
+          "url": "https://www.nzx.com/announcements/484239",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Air NZ issue and lapse of LTI Plan share rights",
+          "date": "2026-11-20",
+          "url": "https://www.nzx.com/announcements/484154",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Disclosure of Senior Managers Relevant Interests",
+          "date": "2026-11-20",
+          "url": "https://www.nzx.com/announcements/484156",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Air NZ to hold investor update",
+          "date": "2026-10-27",
+          "url": "https://www.nzx.com/announcements/482460",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Air New Zealand quarterly trading update - September 2026",
+          "date": "2026-10-20",
+          "url": "https://www.nzx.com/announcements/482086",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "ALF": {
+      "symbol": "ALF",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/alf",
+      "primary_filing_url": "https://www.nzx.com/instruments/ALF",
+      "retrieved_at": "2026-11-24T10:27:05.800229Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "pe_ratio": 6.08,
+        "roe": 9.43,
+        "net_margin": 114.5,
+        "debt_to_equity": 0.31,
+        "revenue_growth": -92.55,
+        "price_52w_high": 0.84,
+        "price_52w_low": 0.585
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "FY26 Annual Meeting Results",
+          "date": "2026-11-19",
+          "url": "https://www.nzx.com/announcements/484016",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "FY26 Annual Meeting \u2013 Chair Address and Presentation",
+          "date": "2026-11-18",
+          "url": "https://www.nzx.com/announcements/483946",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Conditional Sale of Waikato Properties",
+          "date": "2026-11-04",
+          "url": "https://www.nzx.com/announcements/483050",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notice of Annual Meeting and Director Nominations",
+          "date": "2026-10-07",
+          "url": "https://www.nzx.com/announcements/481322",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "SPH Notice Richard Milsom",
+          "date": "2026-09-30",
+          "url": "https://www.nzx.com/announcements/480976",
+          "source": "NZX primary announcement"
+        }
+      ]
     }
   },
-  "fetched_day": "2026-11-23",
-  "filings_checked_day": "2026-11-23",
+  "fetched_day": "2026-11-24",
+  "filings_checked_day": "2026-11-24",
   "status": {
-    "attempted": 0,
-    "valid_this_scan": 0,
-    "available": 4,
-    "filing_requests": 0,
-    "filings_with_official_links": 0,
-    "status": "ALREADY_CHECKED",
+    "attempted": 4,
+    "valid_this_scan": 4,
+    "available": 8,
+    "filing_requests": 4,
+    "filings_with_official_links": 4,
+    "status": "OK",
     "errors": []
   }
 }
