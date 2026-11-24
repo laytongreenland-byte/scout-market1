@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:18:22Z",
+  "generated_at": "2026-11-24T11:07:20Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T09:18:22Z",
+      "checked_at": "2026-11-24T11:07:20Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T09:18:22Z",
+      "checked_at": "2026-11-24T11:07:20Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T09:18:22Z",
+      "checked_at": "2026-11-24T11:07:20Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T09:18:22Z",
+      "checked_at": "2026-11-24T11:07:20Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T09:18:22Z",
+      "checked_at": "2026-11-24T11:07:20Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T09:18:22Z",
+    "generated_at": "2026-11-24T11:07:20Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8289,7 +8289,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Energy",
-        "why": "Net profit margin 28.5% (TTM); Return on equity 10.7% (TTM); Trailing P/E 11.5×; TTM revenue growth 18.2% YoY",
+        "why": "Net profit margin 28.5% (TTM); Return on equity 10.7% (TTM); Trailing P/E 11.6×; TTM revenue growth 18.2% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -8303,7 +8303,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T08:56:28Z",
+            "timestamp": "2026-11-24T11:07:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -8314,7 +8314,7 @@
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T08:56:28Z",
+        "fundamentals_at": "2026-11-24T11:07:20Z",
         "price": 48.42,
         "currency": "USD",
         "change_pct": -0.961,
@@ -11735,7 +11735,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Financial Services",
-        "why": "Net profit margin 14.8% (TTM); Return on equity 35.6% (TTM); Trailing P/E 16.5×; TTM revenue growth 9.0% YoY",
+        "why": "Net profit margin 14.8% (TTM); Return on equity 35.6% (TTM); Trailing P/E 16.8×; TTM revenue growth 9.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11749,35 +11749,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T08:56:28Z",
+            "timestamp": "2026-11-24T11:07:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "American Express (AXP) Is Growing Revenue by More Than 10%, but Its Stock Is 25% Cheaper: Is Wall Street Missing an Opportunity?",
-            "timestamp": "2026-11-20T20:16:29Z",
-            "url": "https://finnhub.io/api/news?id=30b9ecada2bc7ae02f03298c01519492228be2309ddfd16163e29dc70c5a6801"
+            "value": "Berkshire Hathaway Owns 22.6% of American Express. Is the Stock a Buy, Sell, or Hold After a 17% Drop in 2026?",
+            "timestamp": "2026-11-23T15:05:02Z",
+            "url": "https://finnhub.io/api/news?id=0490ba00b9bf95baad1df6d04a8cb8fa2251cf732f951d10ace6c9517d5c5aae"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T08:56:28Z",
+        "fundamentals_at": "2026-11-24T11:07:20Z",
         "price": 306.9,
         "currency": "USD",
         "change_pct": 1.724,
         "news": [
           {
-            "headline": "American Express (AXP) Is Growing Revenue by More Than 10%, but Its Stock Is 25% Cheaper: Is Wall Street Missing an Opportunity?",
-            "url": "https://finnhub.io/api/news?id=30b9ecada2bc7ae02f03298c01519492228be2309ddfd16163e29dc70c5a6801",
+            "headline": "Berkshire Hathaway Owns 22.6% of American Express. Is the Stock a Buy, Sell, or Hold After a 17% Drop in 2026?",
+            "url": "https://finnhub.io/api/news?id=0490ba00b9bf95baad1df6d04a8cb8fa2251cf732f951d10ace6c9517d5c5aae",
             "source": "Yahoo",
-            "published_at": "2026-11-20T20:16:29Z",
+            "published_at": "2026-11-23T15:05:02Z",
             "primary": false,
             "symbol": "AXP"
           },
           {
-            "headline": "American Express (AXP) Could Be 30% Undervalued As Trust Questions Meet ETF Outflows",
-            "url": "https://finnhub.io/api/news?id=4dacbdb01d893e1a0e2a15383b470f26e0a934a78989c71f9c83c069a482c710",
+            "headline": "JPMorgan, American Express and Travelers Are Raising Dividends for Retirees",
+            "url": "https://finnhub.io/api/news?id=5331c6b91189ead1d4f2a61d1f52ec0342390e7a511cb631e14b361071800d0a",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:11:50Z",
+            "published_at": "2026-11-22T12:07:04Z",
             "primary": false,
             "symbol": "AXP"
           }
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T09:18:22Z",
+      "generated_at": "2026-11-24T11:07:20Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
