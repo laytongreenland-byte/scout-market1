@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T01:21:53Z",
+  "generated_at": "2026-11-24T03:00:05Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T01:21:53Z",
+      "checked_at": "2026-11-24T03:00:05Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T01:21:53Z",
+      "checked_at": "2026-11-24T03:00:05Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T01:21:53Z",
+      "checked_at": "2026-11-24T03:00:05Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T01:21:53Z",
+      "checked_at": "2026-11-24T03:00:05Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T01:21:53Z",
+      "checked_at": "2026-11-24T03:00:05Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T01:21:53Z",
+    "generated_at": "2026-11-24T03:00:05Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7815,7 +7815,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Energy",
-        "why": "Net profit margin 38.1% (TTM); Return on equity 20.6% (TTM); Trailing P/E 6.5×; TTM revenue growth 16.6% YoY",
+        "why": "Net profit margin 38.1% (TTM); Return on equity 20.6% (TTM); Trailing P/E 6.4×; TTM revenue growth 16.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7829,35 +7829,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T02:21:41Z",
+            "timestamp": "2026-11-24T03:00:05Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
-            "timestamp": "2026-11-21T09:50:53Z",
-            "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab"
+            "value": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
+            "timestamp": "2026-11-23T18:50:02Z",
+            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T02:21:41Z",
+        "fundamentals_at": "2026-11-24T03:00:05Z",
         "price": 52.7,
         "currency": "USD",
         "change_pct": -2.226,
         "news": [
           {
-            "headline": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
-            "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab",
-            "source": "ChartMill",
-            "published_at": "2026-11-21T09:50:53Z",
+            "headline": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T18:50:02Z",
             "primary": false,
             "symbol": "OXY"
           },
           {
-            "headline": "Should You Buy Occidental Stock For Its Cash Flow?",
-            "url": "https://finnhub.io/api/news?id=a65650947140da9aac4235313d383ba008cbf4598af4c0852d774fd287792dca",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T11:39:01Z",
+            "headline": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
+            "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab",
+            "source": "ChartMill",
+            "published_at": "2026-11-21T09:50:53Z",
             "primary": false,
             "symbol": "OXY"
           }
@@ -9686,35 +9686,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T04:00:48Z",
+            "timestamp": "2026-11-24T03:00:05Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
-            "timestamp": "2026-11-20T21:20:00Z",
-            "url": "https://finnhub.io/api/news?id=adeabb6c8b97b96d0df2addb357f2861345a8b271d72029788dc8dd28c27c1fd"
+            "value": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+            "timestamp": "2026-11-23T11:45:00Z",
+            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T04:00:48Z",
+        "fundamentals_at": "2026-11-24T03:00:05Z",
         "price": 357.69,
         "currency": "USD",
         "change_pct": -2.587,
         "news": [
           {
-            "headline": "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
-            "url": "https://finnhub.io/api/news?id=adeabb6c8b97b96d0df2addb357f2861345a8b271d72029788dc8dd28c27c1fd",
+            "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
             "source": "Yahoo",
-            "published_at": "2026-11-20T21:20:00Z",
+            "published_at": "2026-11-23T11:45:00Z",
             "primary": false,
             "symbol": "MPC"
           },
           {
-            "headline": "What Moved Marathon Petroleum Stock?",
-            "url": "https://finnhub.io/api/news?id=1a409fd9dc5067ae499fda8ccad857700df1169ba8811da503ee48946c1e238b",
-            "source": "Yahoo",
-            "published_at": "2026-11-19T12:45:48Z",
+            "headline": "Crack Spreads Made Marathon Petroleum A Cash Machine",
+            "url": "https://finnhub.io/api/news?id=7de1b4eec776c3b1822f32395fdd38f83cbecfd7731795f049a1da314289c9ff",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-23T10:33:51Z",
             "primary": false,
             "symbol": "MPC"
           }
@@ -13135,7 +13135,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Real Estate",
-        "why": "Net profit margin 63.1% (TTM); Return on equity 97.1% (TTM); Trailing P/E 16.1×; TTM revenue growth 16.2% YoY",
+        "why": "Net profit margin 63.1% (TTM); Return on equity 97.1% (TTM); Trailing P/E 16.2×; TTM revenue growth 16.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13149,35 +13149,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T02:21:41Z",
+            "timestamp": "2026-11-24T03:00:05Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
-            "timestamp": "2026-11-21T11:50:35Z",
-            "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94"
+            "value": "Simon Property Group Sells $1.0 Billion of Senior Notes",
+            "timestamp": "2026-11-23T21:47:00Z",
+            "url": "https://finnhub.io/api/news?id=29bfcfacdd0463ddf93747cee93be5edad92b87cb12149643cf627a1e14a5ee9"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T02:21:41Z",
+        "fundamentals_at": "2026-11-24T03:00:05Z",
         "price": 227.07,
         "currency": "USD",
         "change_pct": 1.212,
         "news": [
           {
-            "headline": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
-            "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94",
+            "headline": "Simon Property Group Sells $1.0 Billion of Senior Notes",
+            "url": "https://finnhub.io/api/news?id=29bfcfacdd0463ddf93747cee93be5edad92b87cb12149643cf627a1e14a5ee9",
             "source": "Yahoo",
-            "published_at": "2026-11-21T11:50:35Z",
+            "published_at": "2026-11-23T21:47:00Z",
             "primary": false,
             "symbol": "SPG"
           },
           {
-            "headline": "Is Wall Street Bullish or Bearish on Simon Property Stock?",
-            "url": "https://finnhub.io/api/news?id=233df8ce2efe174f1a2a40fc29efba9b13de31f1df5859294eda42f4425a2615",
+            "headline": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
+            "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94",
             "source": "Yahoo",
-            "published_at": "2026-11-20T07:25:21Z",
+            "published_at": "2026-11-21T11:50:35Z",
             "primary": false,
             "symbol": "SPG"
           }
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T01:21:53Z",
+      "generated_at": "2026-11-24T03:00:05Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,

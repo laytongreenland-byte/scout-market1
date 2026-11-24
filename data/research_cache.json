@@ -4036,7 +4036,7 @@
         "totalDebt/totalEquityQuarterly": 0.8633,
         "marketCapitalization": 36460.395
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "GE HealthCare Technologies Inc.",
       "profile": {
         "weburl": "https://www.gehealthcare.com",
@@ -4044,6 +4044,22 @@
         "name": "GE HealthCare Technologies Inc."
       },
       "news": [
+        {
+          "headline": "GE HealthCare Adds AI Features to Enhance Imaging 360 Workflows",
+          "url": "https://finnhub.io/api/news?id=138d381240d025e946a3e65f0fd3b91d63a7ac6e777e7d1a1c3622ba2d94db3a",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:13:00Z",
+          "primary": false,
+          "symbol": "GEHC"
+        },
+        {
+          "headline": "GE HealthCare introduces ViewPoint™ Ultra to help unify ultrasound workflows across the enterprise",
+          "url": "https://finnhub.io/api/news?id=bb499e94eb7979a6648ae9076eb4b2228ec51d8b18c6744466416ddd2a0e27bc",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:00:00Z",
+          "primary": false,
+          "symbol": "GEHC"
+        },
         {
           "headline": "GEHC Advances Manganese-Based MRI Agent to Phase 3 After Positive Data",
           "url": "https://finnhub.io/api/news?id=de8d7606f0503b3ff4086f3b5fef77fe2f8cbf0b4d5243a2bd1621a4b6d7db8c",
@@ -4067,22 +4083,6 @@
           "published_at": "2026-11-19T16:50:00Z",
           "primary": false,
           "symbol": "GEHC"
-        },
-        {
-          "headline": "GE HealthCare’s Phase 2 Results Support Advancement of Investigational Manganese-Based MRI Contrast Agent Mangaciclanol Into Phase 3 of LUMINA Clinical Trial",
-          "url": "https://finnhub.io/api/news?id=90796ff3f9b4c726b83530b1c1c838db983dbad54c1126483d5ddda7304752cf",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:00Z",
-          "primary": false,
-          "symbol": "GEHC"
-        },
-        {
-          "headline": "GE Healthcare Announces Phase 2 Results Support Advancement Into Phase 3 For International, Multicenter LUMINA Trial Of Mangaciclanol, With Dose Selection Of 0.1mmol/Kg",
-          "url": "https://finnhub.io/api/news?id=7a26f16e989807c7ff769841274d998cd30a493b16bcf5e13824c9baddb4d945",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T09:04:22Z",
-          "primary": false,
-          "symbol": "GEHC"
         }
       ]
     },
@@ -4090,17 +4090,17 @@
       "metrics": {
         "52WeekHigh": 67.45,
         "52WeekLow": 38.8,
-        "peTTM": 6.5485,
-        "psTTM": 2.4935,
+        "peTTM": 6.4416,
+        "psTTM": 2.4528,
         "netProfitMarginTTM": 38.08,
         "roeTTM": 20.59,
         "revenueGrowthTTMYoy": 16.61,
         "epsGrowthTTMYoy": 288.45,
         "currentRatioQuarterly": 1.3848,
         "totalDebt/totalEquityQuarterly": 0.2741,
-        "marketCapitalization": 53894.33
+        "marketCapitalization": 53014.42
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Occidental Petroleum Corp",
       "profile": {
         "weburl": "https://www.oxy.com/",
@@ -4108,6 +4108,14 @@
         "name": "Occidental Petroleum Corp"
       },
       "news": [
+        {
+          "headline": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T18:50:02Z",
+          "primary": false,
+          "symbol": "OXY"
+        },
         {
           "headline": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
           "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab",
@@ -4139,14 +4147,6 @@
           "published_at": "2026-11-18T17:21:47Z",
           "primary": false,
           "symbol": "OXY"
-        },
-        {
-          "headline": "OXY vs. DTM: Which Stock Is the Better Value Option?",
-          "url": "https://finnhub.io/api/news?id=af0af3b8c81cb791842b494c169b7953c23aedb64ecc80d409d86fc5ac7d8a90",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:40:02Z",
-          "primary": false,
-          "symbol": "OXY"
         }
       ]
     },
@@ -4154,17 +4154,17 @@
       "metrics": {
         "52WeekHigh": 238.5,
         "52WeekLow": 177.88,
-        "peTTM": 16.0834,
-        "psTTM": 10.147,
+        "peTTM": 16.2175,
+        "psTTM": 10.2316,
         "netProfitMarginTTM": 63.09,
         "roeTTM": 97.13000000000001,
         "revenueGrowthTTMYoy": 16.22,
         "epsGrowthTTMYoy": 62.09,
         "currentRatioQuarterly": 0.3265,
         "totalDebt/totalEquityQuarterly": 6.9579,
-        "marketCapitalization": 72588.78
+        "marketCapitalization": 73193.83
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Simon Property Group Inc",
       "profile": {
         "weburl": "https://www.simon.com/",
@@ -4172,6 +4172,14 @@
         "name": "Simon Property Group Inc"
       },
       "news": [
+        {
+          "headline": "Simon Property Group Sells $1.0 Billion of Senior Notes",
+          "url": "https://finnhub.io/api/news?id=29bfcfacdd0463ddf93747cee93be5edad92b87cb12149643cf627a1e14a5ee9",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:47:00Z",
+          "primary": false,
+          "symbol": "SPG"
+        },
         {
           "headline": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
           "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94",
@@ -4209,16 +4217,16 @@
     "SKYD": {
       "metrics": {
         "52WeekHigh": 9.84,
-        "52WeekLow": 6.2333,
-        "psTTM": 1.0668,
+        "52WeekLow": 6.165,
+        "psTTM": 1.0951,
         "netProfitMarginTTM": -0.99,
         "roeTTM": -2.4699999999999998,
         "revenueGrowthTTMYoy": 2.46,
         "currentRatioQuarterly": 1.0965,
         "totalDebt/totalEquityQuarterly": 1.2569,
-        "marketCapitalization": 31400.287
+        "marketCapitalization": 32232.582
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Skydance Corporation",
       "profile": {
         "weburl": "https://www.skydance.com",
@@ -4282,7 +4290,7 @@
         "totalDebt/totalEquityQuarterly": 1.6085,
         "marketCapitalization": 68694.164
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "MercadoLibre, Inc.",
       "profile": {
         "weburl": "https://www.mercadolibre.com.uy/",
@@ -4290,6 +4298,14 @@
         "name": "MercadoLibre, Inc."
       },
       "news": [
+        {
+          "headline": "Can MercadoLibre Sustain 40% GMV Growth in Argentina?",
+          "url": "https://finnhub.io/api/news?id=663936f937a8534065766d4b9205889e4c93a3ae366a69b951624bd8d17a00b3",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:12:00Z",
+          "primary": false,
+          "symbol": "MELI"
+        },
         {
           "headline": "MercadoLibre Has Disappointed for a Year: Why Bank of America Still Sees 48% Upside",
           "url": "https://finnhub.io/api/news?id=e43ae785ac98614d52a3f4a6650e3aaed39e04300fde5d0a92709b86383d5d57",
@@ -4321,14 +4337,6 @@
           "published_at": "2026-11-20T13:47:56Z",
           "primary": false,
           "symbol": "MELI"
-        },
-        {
-          "headline": "Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?",
-          "url": "https://finnhub.io/api/news?id=34c4c8a521af137c1ae9cbfec4ba966145f4e967609aa6a4718219f7d8626f86",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T01:25:00Z",
-          "primary": false,
-          "symbol": "MELI"
         }
       ]
     },
@@ -4336,17 +4344,17 @@
       "metrics": {
         "52WeekHigh": 171.91,
         "52WeekLow": 83.44,
-        "peTTM": 15.2782,
-        "psTTM": 0.6856,
+        "peTTM": 15.3496,
+        "psTTM": 0.6888,
         "netProfitMarginTTM": 4.49,
         "roeTTM": 28.58,
         "revenueGrowthTTMYoy": 4.05,
         "epsGrowthTTMYoy": 30.63,
         "currentRatioQuarterly": 0.9924,
         "totalDebt/totalEquityQuarterly": 0.8346,
-        "marketCapitalization": 75076.984
+        "marketCapitalization": 75427.85
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Target Corp",
       "profile": {
         "weburl": "https://corporate.target.com/",
@@ -4355,42 +4363,42 @@
       },
       "news": [
         {
-          "headline": "Target, Biotech Lead 5 Stocks Showing Strength In Brutal Market",
-          "url": "https://finnhub.io/api/news?id=9e230798af1ba07b212caed4b29a45f6d2bfcf3c56f2dc9f91e176c0ddbf85b3",
+          "headline": "Best Buy and Target sent American  jobs to India before Kroger",
+          "url": "https://finnhub.io/api/news?id=8832a8db20ba1c01fedb1d0902ff20df021d20bbc001e29c7a3530da8fea2758",
           "source": "Yahoo",
-          "published_at": "2026-11-21T16:10:45Z",
+          "published_at": "2026-11-24T00:37:00Z",
           "primary": false,
           "symbol": "TGT"
         },
         {
-          "headline": "Target (TGT) Stock Fair Value Edges Higher After Q3 Analyst Target Increases",
-          "url": "https://finnhub.io/api/news?id=93640f3a6a40fc1af596eb0096008ca380a9dd51b397d37a1de98f92891c8c65",
+          "headline": "Target Has “Out-Comped Walmart Three Quarters in a Row.” Walmart Still Trades at More Than 2x Its Multiple",
+          "url": "https://finnhub.io/api/news?id=31eb26d324c4df116f0533f16e8d247947c989161d429241346eac1ff0d7048a",
           "source": "Yahoo",
-          "published_at": "2026-11-21T16:09:26Z",
+          "published_at": "2026-11-23T19:22:25Z",
           "primary": false,
           "symbol": "TGT"
         },
         {
-          "headline": "Target shoppers may notice a big change this holiday season",
-          "url": "https://finnhub.io/api/news?id=51cf3641f56a2082c586d6941ebda6e0ca258ca3dd330cacd8a47a303696fc74",
+          "headline": "TGT or TJX: Which Is the Better Value Stock Right Now?",
+          "url": "https://finnhub.io/api/news?id=5826825064d958e64e84c821438be75054805e24e6a21bb53ada1eae6b53e886",
           "source": "Yahoo",
-          "published_at": "2026-11-21T04:33:00Z",
+          "published_at": "2026-11-23T15:40:04Z",
           "primary": false,
           "symbol": "TGT"
         },
         {
-          "headline": "Best Buy, Target, and Kohl’s try to change holiday shopping",
-          "url": "https://finnhub.io/api/news?id=53e43521bb313fc6ebc148b1944776fa1cede9da070f43c4474ecaec0876593a",
+          "headline": "How Much of Target's Third-Quarter EPS of $2.65 Reflects Core Growth?",
+          "url": "https://finnhub.io/api/news?id=55f6bdbda60988cd1df213e38113a419dad228b8e9b69fe376a99e9c53d137d9",
           "source": "Yahoo",
-          "published_at": "2026-11-21T00:37:00Z",
+          "published_at": "2026-11-23T15:25:00Z",
           "primary": false,
           "symbol": "TGT"
         },
         {
-          "headline": "Target Shines, Walmart Merely Fine: Two Retail Giants Split on Q3 Results",
-          "url": "https://finnhub.io/api/news?id=84b7132e3a66c8b5fdfd4eb0e8798b47501526481467ea2662f7bb58961fae63",
+          "headline": "Is Trending Stock Target Corporation (TGT) a Buy Now?",
+          "url": "https://finnhub.io/api/news?id=8d708bf204d22e6aa22776eef7bb7709b75cb17207060a645e4a08c7bb5c1303",
           "source": "Yahoo",
-          "published_at": "2026-11-20T22:49:00Z",
+          "published_at": "2026-11-23T13:00:05Z",
           "primary": false,
           "symbol": "TGT"
         }
@@ -4400,17 +4408,17 @@
       "metrics": {
         "52WeekHigh": 31.44,
         "52WeekLow": 23.62,
-        "peTTM": 38.7245,
-        "psTTM": 2.4547,
+        "peTTM": 38.8022,
+        "psTTM": 2.4596,
         "netProfitMarginTTM": 6.34,
         "roeTTM": 4.6,
         "revenueGrowthTTMYoy": 1.33,
         "epsGrowthTTMYoy": -59.38,
         "currentRatioQuarterly": 1.4187,
         "totalDebt/totalEquityQuarterly": 0.7042,
-        "marketCapitalization": 156175.98
+        "marketCapitalization": 156489.47
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Pfizer Inc.",
       "profile": {
         "weburl": "https://www.pfizer.com/",
@@ -4419,42 +4427,42 @@
       },
       "news": [
         {
-          "headline": "Better High-Yield Dividend Stock: Pfizer vs. Amcor",
-          "url": "https://finnhub.io/api/news?id=a9428ca86e13c2636b0f898466a938f4c75b2f87eb7d6b38bddf1afb8616b6de",
+          "headline": "What Do Pfizer (PFE) Investors Need To Know About The New Patent Lawsuits?",
+          "url": "https://finnhub.io/api/news?id=07fd3965d53d7b66fa542e2bc1d44d286c12570ade263133bf24d59d4a58f74e",
           "source": "Yahoo",
-          "published_at": "2026-11-21T22:35:15Z",
+          "published_at": "2026-11-23T17:13:27Z",
           "primary": false,
           "symbol": "PFE"
         },
         {
-          "headline": "Why Pfizer Inc. (PFE) Could Be an Attractive Dividend and Oncology Growth Stock",
-          "url": "https://finnhub.io/api/news?id=ffa3c0795a73be059ac1dd25536d8256a2c21c68ac16df233eac4d967d00aff6",
+          "headline": "Pfizer’s CEO Wants AI to “Halve the Time to First Human Study.” Here’s What That Means for Its Pipeline",
+          "url": "https://finnhub.io/api/news?id=dc20714e23249d44fb518537719ca638108c3fac70f0afd6e14220e098f62b15",
           "source": "Yahoo",
-          "published_at": "2026-11-21T14:56:14Z",
+          "published_at": "2026-11-23T15:50:52Z",
           "primary": false,
           "symbol": "PFE"
         },
         {
-          "headline": "Pfizer: Struggling To Meet Dividend Beyond 2027",
-          "url": "https://finnhub.io/api/news?id=773e28416e3deaec25d6dd5d5e83d1a74af256aca8a87b2331a2e8ee707cbe26",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T23:59:40Z",
+          "headline": "Will Pfizer Stock Ever Get Back To Its Old High?",
+          "url": "https://finnhub.io/api/news?id=47c045d769a38a7780c30141a51feab2c656018098954d220f5b7b4587115f11",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:45:47Z",
           "primary": false,
           "symbol": "PFE"
         },
         {
-          "headline": "Pfizer's Launched and Acquired Drugs Grew 32% in Q3 — and 3 Other Reasons to Buy the Stock Before 2027",
-          "url": "https://finnhub.io/api/news?id=59fce92694f7d71947633e95b2bd74445393f9fa632f2ab6031bfb4ae3843778",
+          "headline": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69",
           "source": "Yahoo",
-          "published_at": "2026-11-20T22:35:02Z",
+          "published_at": "2026-11-23T04:30:27Z",
           "primary": false,
           "symbol": "PFE"
         },
         {
-          "headline": "SRX Global Provides Update on Engineered T-Cell Strategy Following Pfizer–Starna Licensing Agreement",
-          "url": "https://finnhub.io/api/news?id=7ed3e38836cd7fd3c14c1be3ad8ec6e5a8c43936ebd042afe37548bbc60646d8",
+          "headline": "Johnson & Johnson vs. Pfizer: Which Healthcare Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=324b17f0f88a9751b09c4059f0598bc16c23dc03d13a11ab26a7e387f316d1a0",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:58:00Z",
+          "published_at": "2026-11-22T13:25:02Z",
           "primary": false,
           "symbol": "PFE"
         }
@@ -4472,9 +4480,9 @@
         "epsGrowthTTMYoy": 521.89,
         "currentRatioQuarterly": 0.8273,
         "totalDebt/totalEquityQuarterly": 0.2456,
-        "marketCapitalization": 185096.62
+        "marketCapitalization": 185096.61
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "GE Vernova Inc.",
       "profile": {
         "weburl": "https://www.gevernova.com/",
@@ -4483,42 +4491,42 @@
       },
       "news": [
         {
-          "headline": "GE Vernova Stock Plunges Amid AI Selloff and Profit-Taking",
-          "url": "https://finnhub.io/api/news?id=123be533348dd8974a249f278ec9fe0d2fcadff063c7a1b8e1612ecd6567e41d",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T15:21:13Z",
+          "headline": "GE Vernova (GEV) Stock Looks Fairly Valued As Its 21% Run Cools",
+          "url": "https://finnhub.io/api/news?id=96fd5efe425f311c2288f77a5769edbbfd345722123374b87eb839dbdc441159",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T20:06:16Z",
           "primary": false,
           "symbol": "GEV"
         },
         {
-          "headline": "Why GE Vernova Investors Could Make Sense Of ETFs Now",
-          "url": "https://finnhub.io/api/news?id=2d528184d6f17a453b63576e29eae26db58ea4e7ccce776dc6306b3ee29bd731",
+          "headline": "GEV vs CAT rebound comparison: two speeds, different risk profiles",
+          "url": "https://finnhub.io/api/news?id=94db63dcf1cf8129e697db32b2c3c98d280bbe725e02971d9b48bbc5d2cca0b1",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:13:20Z",
+          "published_at": "2026-11-23T19:00:16Z",
           "primary": false,
           "symbol": "GEV"
         },
         {
-          "headline": "Global Grid Planning Software Market Report 2026-2030 | Capitalize on 15.2% CAGR as Siemens, Hitachi Energy, GE Vernova and Schneider Electric Scale Cloud and Digital Twins",
-          "url": "https://finnhub.io/api/news?id=e4d186d92da8902bf180367938a7f82e9d1e2ff77b4fc79878182fd17f3f57fe",
+          "headline": "Jensen Huang's Reinstatement Is Great News for GE Vernova",
+          "url": "https://finnhub.io/api/news?id=ec5907669e5802200399e3e8a2d99d0927dee828a917dc7fb8b7459ac73ec42f",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:33:00Z",
+          "published_at": "2026-11-23T18:25:30Z",
           "primary": false,
           "symbol": "GEV"
         },
         {
-          "headline": "72% Upside for GE Vernova? Bernstein Thinks So, and Here’s How It Gets to $1,298",
-          "url": "https://finnhub.io/api/news?id=95097d4ba91240afa3fe05ac71e890b1bd63bcfca3568ff4903213f15d5e8cd2",
+          "headline": "GEV Falls 14.2% in a Month as Wind Risks Challenge the Power Story",
+          "url": "https://finnhub.io/api/news?id=4e7c4cb35d55b34946fc7375d19a8449d3262cbd02848417038f0ecbe5088aac",
           "source": "Yahoo",
-          "published_at": "2026-11-20T09:40:56Z",
+          "published_at": "2026-11-23T12:31:00Z",
           "primary": false,
           "symbol": "GEV"
         },
         {
-          "headline": "GE Vernova Is Down 34% From Its July High Despite 3 Guidance Raises. Is It Time to Buy?",
-          "url": "https://finnhub.io/api/news?id=60ee10205946749c299287fa52a452e836efb9bffdb79149eb5734c412a98558",
+          "headline": "GEV Raises 2026 Outlook as Power and Electrification Growth Accelerate",
+          "url": "https://finnhub.io/api/news?id=b59b98de0f4644d9b1877c252070ee8bc34d334bcb25a209fd39c1bd4dc16e07",
           "source": "Yahoo",
-          "published_at": "2026-11-19T16:36:05Z",
+          "published_at": "2026-11-23T12:31:00Z",
           "primary": false,
           "symbol": "GEV"
         }
@@ -4536,9 +4544,9 @@
         "epsGrowthTTMYoy": 444.83,
         "currentRatioQuarterly": 1.4456,
         "totalDebt/totalEquityQuarterly": 1.4228,
-        "marketCapitalization": 99999.75
+        "marketCapitalization": 99999.76
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Marathon Petroleum Corporation",
       "profile": {
         "weburl": "https://www.marathonpetroleum.com/",
@@ -4546,6 +4554,22 @@
         "name": "Marathon Petroleum Corporation"
       },
       "news": [
+        {
+          "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+          "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:45:00Z",
+          "primary": false,
+          "symbol": "MPC"
+        },
+        {
+          "headline": "Crack Spreads Made Marathon Petroleum A Cash Machine",
+          "url": "https://finnhub.io/api/news?id=7de1b4eec776c3b1822f32395fdd38f83cbecfd7731795f049a1da314289c9ff",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T10:33:51Z",
+          "primary": false,
+          "symbol": "MPC"
+        },
         {
           "headline": "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
           "url": "https://finnhub.io/api/news?id=adeabb6c8b97b96d0df2addb357f2861345a8b271d72029788dc8dd28c27c1fd",
@@ -4569,22 +4593,6 @@
           "published_at": "2026-11-17T13:23:02Z",
           "primary": false,
           "symbol": "MPC"
-        },
-        {
-          "headline": "Marathon Petroleum vs. Par Pacific: Picking the Better Refining Play",
-          "url": "https://finnhub.io/api/news?id=7fe8c7e14047e57a58b3deefbe6fda9883386576c9452187c8da6d4d3d1beb7d",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T16:07:00Z",
-          "primary": false,
-          "symbol": "MPC"
-        },
-        {
-          "headline": "Marathon Petroleum (NYSE:MPC): An Undervalued Value Stock With Decent Fundamentals",
-          "url": "https://finnhub.io/api/news?id=df1d0faafef26e3a1c1c7266d63cfd159ba40c87e57034a9ab5e83a22ff62529",
-          "source": "ChartMill",
-          "published_at": "2026-11-14T13:01:16Z",
-          "primary": false,
-          "symbol": "MPC"
         }
       ]
     },
@@ -4592,17 +4600,17 @@
       "metrics": {
         "52WeekHigh": 345.8907,
         "52WeekLow": 256.54,
-        "peTTM": 31.9974,
-        "psTTM": 12.0817,
+        "peTTM": 32.345,
+        "psTTM": 12.213,
         "netProfitMarginTTM": 37.76,
         "roeTTM": 18.029999999999998,
         "revenueGrowthTTMYoy": 5.16,
         "epsGrowthTTMYoy": -0.6,
         "currentRatioQuarterly": 0.2926,
         "totalDebt/totalEquityQuarterly": 0.8407,
-        "marketCapitalization": 60802.598
+        "marketCapitalization": 61463.094
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Public Storage",
       "profile": {
         "weburl": "https://www.publicstorage.com/",
@@ -4615,17 +4623,17 @@
       "metrics": {
         "52WeekHigh": 76.39,
         "52WeekLow": 48.34,
-        "peTTM": 16.8361,
-        "psTTM": 1.9021,
+        "peTTM": 17.0816,
+        "psTTM": 1.9299,
         "netProfitMarginTTM": 11.3,
         "roeTTM": 17.65,
         "revenueGrowthTTMYoy": 9.01,
         "epsGrowthTTMYoy": 6.43,
         "currentRatioQuarterly": 3.7884,
         "totalDebt/totalEquityQuarterly": 0.53,
-        "marketCapitalization": 34160.414
+        "marketCapitalization": 34658.547
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Fox Corporation",
       "profile": {
         "weburl": "https://www.foxcorporation.com/",
@@ -4663,17 +4671,17 @@
       "metrics": {
         "52WeekHigh": 5.5,
         "52WeekLow": 2.67,
-        "peTTM": 19.0603,
-        "psTTM": 2.8182,
+        "peTTM": 19.4762,
+        "psTTM": 2.8797,
         "netProfitMarginTTM": 14.79,
         "roeTTM": 8.77,
         "revenueGrowthTTMYoy": 22.95,
         "epsGrowthTTMYoy": 372.26,
         "currentRatioQuarterly": 1.3844,
         "totalDebt/totalEquityQuarterly": 0.3066,
-        "marketCapitalization": 11188.422
+        "marketCapitalization": 11432.533
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T03:00:05Z",
       "name": "Grab Holdings Limited",
       "profile": {
         "weburl": "https://www.grab.com/sg/",
@@ -29696,6 +29704,6 @@
       ]
     }
   },
-  "cursor": 66,
-  "updated_at": "2026-11-24T01:21:53Z"
+  "cursor": 78,
+  "updated_at": "2026-11-24T03:00:05Z"
 }
