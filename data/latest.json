@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T07:29:21Z",
+  "generated_at": "2026-11-24T09:18:22Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T07:29:21Z",
+      "checked_at": "2026-11-24T09:18:22Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T07:29:21Z",
+      "checked_at": "2026-11-24T09:18:22Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T07:29:21Z",
+      "checked_at": "2026-11-24T09:18:22Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T07:29:21Z",
+      "checked_at": "2026-11-24T09:18:22Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T07:29:21Z",
+      "checked_at": "2026-11-24T09:18:22Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T07:29:21Z",
+    "generated_at": "2026-11-24T09:18:22Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -11648,7 +11648,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 39.1% (TTM); Return on equity 117.6% (TTM); Trailing P/E 12.5×; TTM revenue growth 9.1% YoY",
+        "why": "Net profit margin 39.1% (TTM); Return on equity 117.6% (TTM); Trailing P/E 12.8×; TTM revenue growth 9.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11662,35 +11662,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T08:56:28Z",
+            "timestamp": "2026-11-24T09:18:22Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Stonegate Capital Partners Updates Coverage on Yum! Brands (YUM) 26Q3",
-            "timestamp": "2026-11-19T19:17:00Z",
-            "url": "https://finnhub.io/api/news?id=b1fc46822dc62ccbd56229158daecf53be5b7a7554aaf7e4db654af91ec111ab"
+            "value": "Yum!: 3 Key Takeaways for Long-Term Investors",
+            "timestamp": "2026-11-22T22:35:02Z",
+            "url": "https://finnhub.io/api/news?id=29267c19a8dfb2f85e37000081140dead9c1841ecafb1293689de8d1e1082b71"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T08:56:28Z",
+        "fundamentals_at": "2026-11-24T09:18:22Z",
         "price": 164.44,
         "currency": "USD",
         "change_pct": 2.327,
         "news": [
           {
-            "headline": "Stonegate Capital Partners Updates Coverage on Yum! Brands (YUM) 26Q3",
-            "url": "https://finnhub.io/api/news?id=b1fc46822dc62ccbd56229158daecf53be5b7a7554aaf7e4db654af91ec111ab",
+            "headline": "Yum!: 3 Key Takeaways for Long-Term Investors",
+            "url": "https://finnhub.io/api/news?id=29267c19a8dfb2f85e37000081140dead9c1841ecafb1293689de8d1e1082b71",
             "source": "Yahoo",
-            "published_at": "2026-11-19T19:17:00Z",
+            "published_at": "2026-11-22T22:35:02Z",
             "primary": false,
             "symbol": "YUM"
           },
           {
-            "headline": "Yum! Brands (YUM) Stock Looks Fully Priced On Its 39% Run",
-            "url": "https://finnhub.io/api/news?id=a83ec2da36fd7c8c26d1f356efdac14e704c44e42017ba511e07a6a8fb03af23",
+            "headline": "Stonegate Capital Partners Updates Coverage on Yum! Brands (YUM) 26Q3",
+            "url": "https://finnhub.io/api/news?id=b1fc46822dc62ccbd56229158daecf53be5b7a7554aaf7e4db654af91ec111ab",
             "source": "Yahoo",
-            "published_at": "2026-11-19T14:16:23Z",
+            "published_at": "2026-11-19T19:17:00Z",
             "primary": false,
             "symbol": "YUM"
           }
@@ -11702,10 +11702,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 152.2,
           "entry_floor": 136.98,
-          "exit_review_low": 236.23,
-          "exit_review_high": 279.71,
-          "bear_case": 131.15,
-          "scenario_upside_pct": 43.7,
+          "exit_review_low": 230.61,
+          "exit_review_high": 273.05,
+          "bear_case": 128.03,
+          "scenario_upside_pct": 40.2,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11718,12 +11718,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 12.46,
+            "trailing_pe": 12.76,
             "earnings_growth_assumed_pct": 4.11,
             "scenario_exit_pe": 17.19,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T08:56:28Z"
+            "metrics_retrieved_at": "2026-11-24T09:18:22Z"
           }
         },
         "ranking_score": 78,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T07:29:21Z",
+      "generated_at": "2026-11-24T09:18:22Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
