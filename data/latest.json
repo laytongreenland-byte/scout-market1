@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:06:53Z",
+  "generated_at": "2026-11-24T13:26:34Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T12:06:53Z",
+      "checked_at": "2026-11-24T13:26:34Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T12:06:53Z",
+      "checked_at": "2026-11-24T13:26:34Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T12:06:53Z",
+      "checked_at": "2026-11-24T13:26:34Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T12:06:53Z",
+      "checked_at": "2026-11-24T13:26:34Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T12:06:53Z",
+      "checked_at": "2026-11-24T13:26:34Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T12:06:53Z",
+    "generated_at": "2026-11-24T13:26:34Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9830,7 +9830,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Technology",
-        "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.0×; TTM revenue growth 6.8% YoY",
+        "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.8×; TTM revenue growth 6.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9844,35 +9844,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T10:54:29Z",
+            "timestamp": "2026-11-24T13:26:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
-            "timestamp": "2026-11-20T23:14:52Z",
-            "url": "https://finnhub.io/api/news?id=60db4e4877318a10c6b40e46aedf228d8a680a4d6f5c36430c115b30f5ae2ff2"
+            "value": "International Business Machines (IBM) Emerges As A Smart Ports Leader In New Industry Analysis",
+            "timestamp": "2026-11-24T00:21:13Z",
+            "url": "https://finnhub.io/api/news?id=038838625e9db07852a326d12dbcf1e51abdc6c8f708e46cc526757ffc532df9"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T10:54:29Z",
+        "fundamentals_at": "2026-11-24T13:26:34Z",
         "price": 233.0,
         "currency": "USD",
         "change_pct": 3.814,
         "news": [
           {
-            "headline": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
-            "url": "https://finnhub.io/api/news?id=60db4e4877318a10c6b40e46aedf228d8a680a4d6f5c36430c115b30f5ae2ff2",
+            "headline": "International Business Machines (IBM) Emerges As A Smart Ports Leader In New Industry Analysis",
+            "url": "https://finnhub.io/api/news?id=038838625e9db07852a326d12dbcf1e51abdc6c8f708e46cc526757ffc532df9",
             "source": "Yahoo",
-            "published_at": "2026-11-20T23:14:52Z",
+            "published_at": "2026-11-24T00:21:13Z",
             "primary": false,
             "symbol": "IBM"
           },
           {
-            "headline": "S&P 500 Unusual Volume Movers: AES, IBM, ROST, INTU",
-            "url": "https://finnhub.io/api/news?id=1723195f94f8438552953667f0d594b71088f4e63b49af7bd831cf67907bcf2c",
+            "headline": "S&P 500 Unusual Volume Session: Dell, IBM, UNH, TPL",
+            "url": "https://finnhub.io/api/news?id=08a5bbdbd55bee11c14cbb718bd86339b2537ac1561d072d6245fa0b77d1e8a3",
             "source": "ChartMill",
-            "published_at": "2026-11-20T18:05:49Z",
+            "published_at": "2026-11-23T18:05:58Z",
             "primary": false,
             "symbol": "IBM"
           }
@@ -9882,12 +9882,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 164.11,
-          "entry_floor": 147.7,
-          "exit_review_low": 210.39,
-          "exit_review_high": 247.36,
-          "bear_case": 117.98,
-          "scenario_upside_pct": -9.7,
+          "entry_ceiling": 157.52,
+          "entry_floor": 141.77,
+          "exit_review_low": 201.95,
+          "exit_review_high": 237.43,
+          "bear_case": 113.25,
+          "scenario_upside_pct": -13.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -9900,12 +9900,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 18.99,
+            "trailing_pe": 19.79,
             "earnings_growth_assumed_pct": 3.07,
             "scenario_exit_pe": 16.64,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T10:54:29Z"
+            "metrics_retrieved_at": "2026-11-24T13:26:34Z"
           }
         },
         "ranking_score": 79,
@@ -13462,99 +13462,12 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
-        "symbol": "CSCO",
-        "name": "Cisco Systems Inc",
-        "status": "INVESTIGATE",
-        "score": 76,
-        "industry": "Communications",
-        "why": "Net profit margin 22.3% (TTM); Return on equity 30.1% (TTM); Trailing P/E 23.9×; TTM revenue growth 16.1% YoY",
-        "risks": [
-          "Large one-session price move (+6.8%)"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$96.80",
-            "timestamp": "2026-11-23T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T11:51:41Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Cisco Stock Fell 15.5% Despite Its Strongest Growth in 15 Years. Is the Dividend Safe?",
-            "timestamp": "2026-11-21T21:47:55Z",
-            "url": "https://finnhub.io/api/news?id=2476b3dddc0e98d915d9d1e6ca22b240b503622d4358126cac99f39e7c37290c"
-          }
-        ],
-        "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T11:51:41Z",
-        "price": 96.8,
-        "currency": "USD",
-        "change_pct": 6.796,
-        "news": [
-          {
-            "headline": "Cisco Stock Fell 15.5% Despite Its Strongest Growth in 15 Years. Is the Dividend Safe?",
-            "url": "https://finnhub.io/api/news?id=2476b3dddc0e98d915d9d1e6ca22b240b503622d4358126cac99f39e7c37290c",
-            "source": "Yahoo",
-            "published_at": "2026-11-21T21:47:55Z",
-            "primary": false,
-            "symbol": "CSCO"
-          },
-          {
-            "headline": "Cisco vs. HPE: One Has Better Financials, the Other Has 93% Upside. Which Stock Wins?",
-            "url": "https://finnhub.io/api/news?id=ecc270e64c1a610340dfb88f0be8e88f4a2d77ae33b6cc880ff04ebea0437e38",
-            "source": "Yahoo",
-            "published_at": "2026-11-21T00:00:03Z",
-            "primary": false,
-            "symbol": "CSCO"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 63.88,
-          "entry_floor": 57.49,
-          "exit_review_low": 81.9,
-          "exit_review_high": 98.94,
-          "bear_case": 44.15,
-          "scenario_upside_pct": -15.4,
-          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-23T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 23.89,
-            "earnings_growth_assumed_pct": 7.22,
-            "scenario_exit_pe": 18.85,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T11:51:41Z"
-          }
-        },
-        "ranking_score": 76,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
         "symbol": "AON",
         "name": "Aon PLC",
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Insurance",
-        "why": "Net profit margin 22.2% (TTM); Return on equity 40.5% (TTM); Trailing P/E 18.0×; TTM revenue growth 3.8% YoY",
+        "why": "Net profit margin 22.2% (TTM); Return on equity 40.5% (TTM); Trailing P/E 17.8×; TTM revenue growth 3.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13568,7 +13481,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T11:51:41Z",
+            "timestamp": "2026-11-24T13:26:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -13579,7 +13492,7 @@
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T11:51:41Z",
+        "fundamentals_at": "2026-11-24T13:26:34Z",
         "price": 331.86,
         "currency": "USD",
         "change_pct": -0.363,
@@ -13866,6 +13779,85 @@
           "bear_case": null,
           "scenario_upside_pct": null,
           "reason": "Sector-specific valuation required for Banking; earnings multiple scenario withheld.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-23T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 76,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "EIX",
+        "name": "Edison International",
+        "status": "INVESTIGATE",
+        "score": 76,
+        "industry": "Utilities",
+        "why": "Net profit margin 20.5% (TTM); Return on equity 21.6% (TTM); Trailing P/E 6.3×; TTM revenue growth 2.6% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$62.42",
+            "timestamp": "2026-11-23T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-23T01:24:07Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "A 70-Year-Old With $1,000,000 in Edison International, Altria and Realty Income Collects $4,774 a Month in Dividends. How Safe Is Each Check?",
+            "timestamp": "2026-11-21T18:52:42Z",
+            "url": "https://finnhub.io/api/news?id=98a905314787bace2251b5bdf6c7e7c389ce21472329a791bfcd7a98ef84dd0b"
+          }
+        ],
+        "as_of": "2026-11-23T21:00:00Z",
+        "fundamentals_at": "2026-11-23T01:24:07Z",
+        "price": 62.42,
+        "currency": "USD",
+        "change_pct": 0.289,
+        "news": [
+          {
+            "headline": "A 70-Year-Old With $1,000,000 in Edison International, Altria and Realty Income Collects $4,774 a Month in Dividends. How Safe Is Each Check?",
+            "url": "https://finnhub.io/api/news?id=98a905314787bace2251b5bdf6c7e7c389ce21472329a791bfcd7a98ef84dd0b",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T18:52:42Z",
+            "primary": false,
+            "symbol": "EIX"
+          },
+          {
+            "headline": "Can Edison's Ten-Year Record Sales Decline Last?",
+            "url": "https://finnhub.io/api/news?id=f92b4bc83fa53ec3b0f59fa973d7e3545a894dc18e495afa24f797dfaa2a73dd",
+            "source": "Yahoo",
+            "published_at": "2026-11-19T16:23:07Z",
+            "primary": false,
+            "symbol": "EIX"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "NO RELIABLE PRICE RANGE",
+          "entry_ceiling": null,
+          "entry_floor": null,
+          "exit_review_low": null,
+          "exit_review_high": null,
+          "bear_case": null,
+          "scenario_upside_pct": null,
+          "reason": "Sector-specific valuation required for Utilities; earnings multiple scenario withheld.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -15241,7 +15233,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T12:06:53Z",
+      "generated_at": "2026-11-24T13:26:34Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
