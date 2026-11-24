@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:07:20Z",
+  "generated_at": "2026-11-24T12:06:53Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T11:07:20Z",
+      "checked_at": "2026-11-24T12:06:53Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T11:07:20Z",
+      "checked_at": "2026-11-24T12:06:53Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T11:07:20Z",
+      "checked_at": "2026-11-24T12:06:53Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T11:07:20Z",
+      "checked_at": "2026-11-24T12:06:53Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T11:07:20Z",
+      "checked_at": "2026-11-24T12:06:53Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T11:07:20Z",
+    "generated_at": "2026-11-24T12:06:53Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -11828,35 +11828,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T10:54:29Z",
+            "timestamp": "2026-11-24T12:06:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Mizuho Maintains Neutral on Chubb, Raises Price Target to $368",
-            "timestamp": "2026-11-20T09:12:17Z",
-            "url": "https://finnhub.io/api/news?id=ae37c96d2a7885a4222396bb66911e078c74547b696b6374951fa51ff2ff1f06"
+            "value": "Chubb (CB) Dividend News Puts Valuation In Focus As Options Activity Heats Up",
+            "timestamp": "2026-11-24T10:09:18Z",
+            "url": "https://finnhub.io/api/news?id=20ad94ff9ea7dfa00a893518ed5ea98dbee7fc55d6ed5514dfe6a10662a4adb8"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T10:54:29Z",
+        "fundamentals_at": "2026-11-24T12:06:53Z",
         "price": 368.67,
         "currency": "USD",
         "change_pct": -0.796,
         "news": [
           {
-            "headline": "Mizuho Maintains Neutral on Chubb, Raises Price Target to $368",
-            "url": "https://finnhub.io/api/news?id=ae37c96d2a7885a4222396bb66911e078c74547b696b6374951fa51ff2ff1f06",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T09:12:17Z",
+            "headline": "Chubb (CB) Dividend News Puts Valuation In Focus As Options Activity Heats Up",
+            "url": "https://finnhub.io/api/news?id=20ad94ff9ea7dfa00a893518ed5ea98dbee7fc55d6ed5514dfe6a10662a4adb8",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T10:09:18Z",
             "primary": false,
             "symbol": "CB"
           },
           {
-            "headline": "Chubb Limited Board Declares Quarterly Dividend",
-            "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
+            "headline": "Are Options Traders Betting on a Big Move in Chubb Stock?",
+            "url": "https://finnhub.io/api/news?id=633dd416a8eae3c5e68b7351b9f4837e8cce00a659169e6f50492ac9be2060ff",
             "source": "Yahoo",
-            "published_at": "2026-11-19T16:00:00Z",
+            "published_at": "2026-11-23T14:06:00Z",
             "primary": false,
             "symbol": "CB"
           }
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T11:07:20Z",
+      "generated_at": "2026-11-24T12:06:53Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,

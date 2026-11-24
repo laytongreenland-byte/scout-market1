@@ -8328,17 +8328,17 @@
       "metrics": {
         "52WeekHigh": 329.16,
         "52WeekLow": 218.31,
-        "peTTM": 24.9295,
-        "psTTM": 8.6819,
+        "peTTM": 24.7641,
+        "psTTM": 8.6243,
         "netProfitMarginTTM": 34.83,
         "roeTTM": 16.29,
         "revenueGrowthTTMYoy": 12.28,
         "epsGrowthTTMYoy": 17.13,
         "currentRatioQuarterly": 1.0194,
         "totalDebt/totalEquityQuarterly": 0.129,
-        "marketCapitalization": 110086.15
+        "marketCapitalization": 109355.96
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "CME Group Inc.",
       "profile": {
         "weburl": "https://www.cmegroup.com/",
@@ -8392,17 +8392,17 @@
       "metrics": {
         "52WeekHigh": 242.8,
         "52WeekLow": 160.93,
-        "peTTM": 35.7954,
-        "psTTM": 6.054,
+        "peTTM": 36.7299,
+        "psTTM": 6.212,
         "netProfitMarginTTM": 16.91,
         "roeTTM": 8.18,
         "revenueGrowthTTMYoy": 5.52,
         "epsGrowthTTMYoy": 25.73,
         "currentRatioQuarterly": 1.6339,
         "totalDebt/totalEquityQuarterly": 0.4939,
-        "marketCapitalization": 155030.05
+        "marketCapitalization": 159077.11
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Danaher Corporation",
       "profile": {
         "weburl": "https://www.danaher.com/",
@@ -8410,6 +8410,22 @@
         "name": "Danaher Corporation"
       },
       "news": [
+        {
+          "headline": "Initiating a Position in Danaher Corporation (DHR) Following a Period of Underperformance",
+          "url": "https://finnhub.io/api/news?id=2a317a171dcf31c8040fe1ddc29681d788d69b4c53159ad7151abdbcb4e330db",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:21:12Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
+        {
+          "headline": "Danaher partners with Microsoft to create an agentic AI platform",
+          "url": "https://finnhub.io/api/news?id=c6529e4109919c8664de9695fadd16e495b73c7a4eb7e053e77a39ef8f56b6fb",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:00:00Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
         {
           "headline": "Did Microsoft AI Partnership Just Shift Danaher's (DHR) Investment Narrative?",
           "url": "https://finnhub.io/api/news?id=4e08e79d8942625837bdbfc03a0261429b16cebee1706502ba1ab1f34c9232de",
@@ -8433,40 +8449,24 @@
           "published_at": "2026-11-21T03:16:01Z",
           "primary": false,
           "symbol": "DHR"
-        },
-        {
-          "headline": "Danaher Corporation (DHR) Raised Its Earnings Guidance as Core Growth Recovered: Is the Turnaround Gaining Momentum?",
-          "url": "https://finnhub.io/api/news?id=ca28aa05d73566b4445188500bc83894c6fcd6cb5a07a4d26b866c9fa75589d6",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T17:22:31Z",
-          "primary": false,
-          "symbol": "DHR"
-        },
-        {
-          "headline": "Danaher (DHR) Down 1% Since Last Earnings Report: Can It Rebound?",
-          "url": "https://finnhub.io/api/news?id=de2a894a326f27706f1680d537ddbb4c3ea9b6d1e1afa81c90b094d8d2548aa1",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:05Z",
-          "primary": false,
-          "symbol": "DHR"
         }
       ]
     },
     "PCAR": {
       "metrics": {
         "52WeekHigh": 139.24,
-        "52WeekLow": 97.05,
-        "peTTM": 19.484,
-        "psTTM": 1.8503,
+        "52WeekLow": 98.08,
+        "peTTM": 19.9758,
+        "psTTM": 1.8971,
         "netProfitMarginTTM": 9.5,
         "roeTTM": 13.76,
         "revenueGrowthTTMYoy": -1.53,
         "epsGrowthTTMYoy": 2.51,
         "currentRatioQuarterly": 1.7935,
         "totalDebt/totalEquityQuarterly": 0.7147,
-        "marketCapitalization": 53808.844
+        "marketCapitalization": 55167.227
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Paccar Inc",
       "profile": {
         "weburl": "https://www.paccar.com/",
@@ -8479,17 +8479,17 @@
       "metrics": {
         "52WeekHigh": 43.59,
         "52WeekLow": 24.92,
-        "peTTM": 12.6218,
-        "psTTM": 1.1237,
+        "peTTM": 12.8389,
+        "psTTM": 1.143,
         "netProfitMarginTTM": 8.9,
         "roeTTM": 18.459999999999997,
         "revenueGrowthTTMYoy": 1.53,
         "epsGrowthTTMYoy": 58.03,
         "currentRatioQuarterly": 2.0193,
         "totalDebt/totalEquityQuarterly": 0.6442,
-        "marketCapitalization": 25256.303
+        "marketCapitalization": 25690.545
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Halliburton Company",
       "profile": {
         "weburl": "https://www.halliburton.com/",
@@ -8543,9 +8543,9 @@
         "epsGrowthTTMYoy": -17.09,
         "currentRatioQuarterly": 2.19,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 11886.07
+        "marketCapitalization": 11886.071
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "lululemon athletica inc.",
       "profile": {
         "weburl": "https://shop.lululemon.com/",
@@ -8554,42 +8554,42 @@
       },
       "news": [
         {
-          "headline": "What Vuori and Alo Do Right That Lululemon Can't Match",
-          "url": "https://finnhub.io/api/news?id=88e583be62d9e357fa16a9959ad1ec776ca3a2b84d2fca7cb1b8217581649506",
+          "headline": "lululemon athletica inc. announces third quarter fiscal 2026 earnings conference call",
+          "url": "https://finnhub.io/api/news?id=74311d88010bc7ae37dc333f95edaafc92c632232077062dd5c7bc28546f7f2d",
           "source": "Yahoo",
-          "published_at": "2026-11-21T20:33:38Z",
+          "published_at": "2026-11-24T11:30:00Z",
           "primary": false,
           "symbol": "LULU"
         },
         {
-          "headline": "Colgate-Palmolive vs. lululemon athletica: Which Consumer Goods Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=47817b1b8eff928373aca33a9ef336e5864b26a2d9ab671f932b3be4fbad883a",
+          "headline": "Lululemon Athletica (LULU) Could Be 25% Undervalued Following Communications Chief Hire",
+          "url": "https://finnhub.io/api/news?id=4ebef789291b672b7a395ab3287e0b69f853d9f564ec60911ea933d47f55202e",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:25:07Z",
+          "published_at": "2026-11-23T23:21:35Z",
           "primary": false,
           "symbol": "LULU"
         },
         {
-          "headline": "Are Wall Street Analysts Bullish on lululemon athletica Stock?",
-          "url": "https://finnhub.io/api/news?id=298ad9132e4cc90333f1ae28963e877eafa5047ab82432e3c6bedcf99893245b",
+          "headline": "Lululemon Athletica (LULU) Regains Michael Burry’s Backing",
+          "url": "https://finnhub.io/api/news?id=3e7a35e5b26836a11279aee743bd3458591f9a3afea17386ce40221487f97c2c",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:56:06Z",
+          "published_at": "2026-11-23T22:09:18Z",
           "primary": false,
           "symbol": "LULU"
         },
         {
-          "headline": "Lululemon Stock Jumps 7%: What's Going On?",
-          "url": "https://finnhub.io/api/news?id=a0a3ffc2abc808c731c073c329486dc4dce018b9b4c618aa5eb31344548796a0",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T14:19:17Z",
+          "headline": "Lululemon (LULU) Advances But Underperforms Market: Key Facts",
+          "url": "https://finnhub.io/api/news?id=540a0c986034df71dbb17c4de362e5f61c2826c8d268f7ec476443093543fb37",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:45:02Z",
           "primary": false,
           "symbol": "LULU"
         },
         {
-          "headline": "Here's Why Lululemon (LULU) Fell More Than Broader Market",
-          "url": "https://finnhub.io/api/news?id=e8ffc630203c8a38ba1558633653455051a1671ea0c77d49d3b5e2f00245b3f8",
+          "headline": "lululemon Appoints Paula Conhain as Chief Communications Officer",
+          "url": "https://finnhub.io/api/news?id=a2630bd01ff4aa57a00cdb202c616e387bc56ff7bd7d5ce211c0d88388876e2a",
           "source": "Yahoo",
-          "published_at": "2026-11-17T21:45:03Z",
+          "published_at": "2026-11-23T21:05:00Z",
           "primary": false,
           "symbol": "LULU"
         }
@@ -8609,7 +8609,7 @@
         "totalDebt/totalEquityQuarterly": 0.7794,
         "marketCapitalization": 95005.94
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Intercontinental Exchange, Inc.",
       "profile": {
         "weburl": "https://www.ice.com/",
@@ -8617,6 +8617,14 @@
         "name": "Intercontinental Exchange, Inc."
       },
       "news": [
+        {
+          "headline": "NYSE parent ICE launches tokenized stock venue with 113 assets",
+          "url": "https://finnhub.io/api/news?id=2673d79b4f9b08a69405e892f6e60d24d628adf75a3e9cddc808d895a18a74b2",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:52:42Z",
+          "primary": false,
+          "symbol": "ICE"
+        },
         {
           "headline": "Bill Ackman Opened About $2 Billion in New Positions in Alcon and Intercontinental Exchange",
           "url": "https://finnhub.io/api/news?id=4c20040e3cb08e1ad1dfcd68e36c507fe08ac35b7e0e9f1d9035d5cc29b79ad8",
@@ -8648,14 +8656,6 @@
           "published_at": "2026-11-20T13:30:00Z",
           "primary": false,
           "symbol": "ICE"
-        },
-        {
-          "headline": "Intercontinental Exchange (ICE) Rose on Strong Trading Volumes Amid Continued Volatility",
-          "url": "https://finnhub.io/api/news?id=a2cd8cac5f04884b1bdf6c20aedc6e3cdfe5ebbe51ccc7c11fee979c5ac5714a",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T16:02:31Z",
-          "primary": false,
-          "symbol": "ICE"
         }
       ]
     },
@@ -8663,17 +8663,17 @@
       "metrics": {
         "52WeekHigh": 129.85,
         "52WeekLow": 81.97,
-        "peTTM": 37.9472,
-        "psTTM": 3.6988,
+        "peTTM": 37.9629,
+        "psTTM": 3.7003,
         "netProfitMarginTTM": 9.75,
         "roeTTM": 9.11,
         "revenueGrowthTTMYoy": 10.0,
         "epsGrowthTTMYoy": -66.33,
         "currentRatioQuarterly": 1.4547,
         "totalDebt/totalEquityQuarterly": 0.6106,
-        "marketCapitalization": 178390.0
+        "marketCapitalization": 178463.6
       },
-      "updated_at": "2026-11-22T09:55:50Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Abbott Laboratories",
       "profile": {
         "weburl": "https://www.abbott.com",
@@ -8681,6 +8681,22 @@
         "name": "Abbott Laboratories"
       },
       "news": [
+        {
+          "headline": "Can Abbott's VOYAGER CE Trial Open New Structural Heart Opportunities?",
+          "url": "https://finnhub.io/api/news?id=eb6ef58a81e7963c9314775b69fba76c8bb20991db403b715b7614349ed01ace",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:27:00Z",
+          "primary": false,
+          "symbol": "ABT"
+        },
+        {
+          "headline": "Abbott Has Raised Its Dividend for 54 Years. These 3 Healthcare Stocks Keep Paying More",
+          "url": "https://finnhub.io/api/news?id=c1ef33dc42b53e278c272fed2513a6aa28abeccb77a968db24891128bf02f227",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T13:07:50Z",
+          "primary": false,
+          "symbol": "ABT"
+        },
         {
           "headline": "Abbott (ABT) Up 1.3% Since Last Earnings Report: Can It Continue?",
           "url": "https://finnhub.io/api/news?id=6816e434454a5cd634628d21299a933d8529dd63feaa083fc3715330032febc4",
@@ -8704,40 +8720,24 @@
           "published_at": "2026-11-19T17:21:47Z",
           "primary": false,
           "symbol": "ABT"
-        },
-        {
-          "headline": "Global Point-of-Care Connectivity Solutions Market to Reach $1.7 Billion by 2032 | Abbott, Roche, Siemens Healthineers and GE HealthCare Accelerate AI-Driven Care",
-          "url": "https://finnhub.io/api/news?id=ca9763f9ec0ed30c33c9f93cc8d8a7788e925c4ad32b045da5d4999a1d4eaa1c",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:14:00Z",
-          "primary": false,
-          "symbol": "ABT"
-        },
-        {
-          "headline": "Point-of-Care/Rapid Diagnostics - Global Strategic Business Report 2026: Capture a $40.7 Billion Market by 2032 with Abbott, Roche, Danaher and Siemens",
-          "url": "https://finnhub.io/api/news?id=4381a9ec4c94eac44f8e18b6bf486b35053db1a75828c04601830a55dddf2f1f",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:05:00Z",
-          "primary": false,
-          "symbol": "ABT"
         }
       ]
     },
     "ITW": {
       "metrics": {
         "52WeekHigh": 303.16,
-        "52WeekLow": 239.24,
-        "peTTM": 24.0857,
-        "psTTM": 4.6707,
+        "52WeekLow": 241.28,
+        "peTTM": 24.6575,
+        "psTTM": 4.7816,
         "netProfitMarginTTM": 19.39,
         "roeTTM": 103.39,
         "revenueGrowthTTMYoy": 4.8,
         "epsGrowthTTMYoy": 8.83,
         "currentRatioQuarterly": 1.2937,
         "totalDebt/totalEquityQuarterly": 2.9838,
-        "marketCapitalization": 77748.6
+        "marketCapitalization": 79594.48
       },
-      "updated_at": "2026-11-22T10:54:29Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Illinois Tool Works Inc",
       "profile": {
         "weburl": "https://www.itw.com/",
@@ -8750,6 +8750,14 @@
           "url": "https://finnhub.io/api/news?id=c2fca932d206771273073c5e4c82b295fcd4731d612aa965f9b4feec58471c68",
           "source": "Yahoo",
           "published_at": "2026-11-21T19:07:21Z",
+          "primary": false,
+          "symbol": "ITW"
+        },
+        {
+          "headline": "Better Dividend Stock: UPS vs. Illinois Tool Works",
+          "url": "https://finnhub.io/api/news?id=c60a687da3678bcddc4ed804fd9fd3db9a4df0c458f71ad870a678472c46ce8a",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:32Z",
           "primary": false,
           "symbol": "ITW"
         },
@@ -8767,17 +8775,17 @@
       "metrics": {
         "52WeekHigh": 1741.0,
         "52WeekLow": 866.4,
-        "peTTM": 47.2352,
-        "psTTM": 13.9289,
+        "peTTM": 42.8278,
+        "psTTM": 12.6292,
         "netProfitMarginTTM": 29.49,
         "roeTTM": 41.52,
         "revenueGrowthTTMYoy": 9.84,
         "epsGrowthTTMYoy": 3.58,
         "currentRatioQuarterly": 1.303,
         "totalDebt/totalEquityQuarterly": 0.1431,
-        "marketCapitalization": 492072.9
+        "marketCapitalization": 446158.34
       },
-      "updated_at": "2026-11-22T10:54:29Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "ASML Holding NV",
       "profile": {
         "weburl": "https://www.asml.com/en/",
@@ -8786,42 +8794,42 @@
       },
       "news": [
         {
-          "headline": "ASML vs. SK Hynix: Which Artificial Intelligence Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=9d2c08561fbd017dc8f00d02cdf48fa5660c1f4f425dbea533080f59680a662e",
+          "headline": "Why ASML Stock Popped Today",
+          "url": "https://finnhub.io/api/news?id=3f37b63dea7548e3bd5e8ae97f3947dd91c1296e5f21ee5f5cc4d4bf3ed8b5ef",
           "source": "Yahoo",
-          "published_at": "2026-11-21T16:45:01Z",
+          "published_at": "2026-11-23T22:36:24Z",
           "primary": false,
           "symbol": "ASML"
         },
         {
-          "headline": "ASML vs. Broadcom: Which Tech Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=2483ce28086fa6b415d606c7ac8585b562516742c9fa7ced82b00115bd2912d2",
+          "headline": "ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook",
+          "url": "https://finnhub.io/api/news?id=da40d89c99f9ba0c8106f8ac8ad515a5f800aadda784aa0d1e52cdb0b239f422",
           "source": "Yahoo",
-          "published_at": "2026-11-21T14:41:02Z",
+          "published_at": "2026-11-23T21:25:00Z",
           "primary": false,
           "symbol": "ASML"
         },
         {
-          "headline": "14 ETFs Add to ASML Holding (ASML) on Nov. 18",
-          "url": "https://finnhub.io/api/news?id=dbdfcd0f0990053d9e87104bd12108306caab1058783b246dad97e9a74fccd61",
+          "headline": "ASML reports transactions under its current share buyback program",
+          "url": "https://finnhub.io/api/news?id=baec9b206c07618adfbe70339f13d85d5c73c7ca79033567b95338f470236dfe",
           "source": "Yahoo",
-          "published_at": "2026-11-20T11:01:44Z",
+          "published_at": "2026-11-23T13:48:00Z",
           "primary": false,
           "symbol": "ASML"
         },
         {
-          "headline": "Why Ken Fisher Keeps Adding to ASML Holding (ASML) While Its Order Book Is Sold Out",
-          "url": "https://finnhub.io/api/news?id=59a38ea25c5f3f007958921d539b67b6345465c5cf85b7c5f76f7bd86aac779c",
+          "headline": "ASML Vs. Taiwan Semiconductor: Here’s Why You Choose One as Your AI-Anchor Now",
+          "url": "https://finnhub.io/api/news?id=8fb16e40a862dbf49b75f6bb8595a31905f06682f3d567e6ef1ac0211a170fe1",
           "source": "Yahoo",
-          "published_at": "2026-11-19T18:10:01Z",
+          "published_at": "2026-11-23T12:15:36Z",
           "primary": false,
           "symbol": "ASML"
         },
         {
-          "headline": "ASML Rides on Improving Profitability: Will It Sustain?",
-          "url": "https://finnhub.io/api/news?id=52c22c16cd7371a0d0754d713c2b49161a747ea8aad0a716550b01abbcc8d36f",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:08:00Z",
+          "headline": "ASML Stock Fell 25% In The AI Selloff, But Its Outlook Hasn't Budged",
+          "url": "https://finnhub.io/api/news?id=b3fdb14a7c548357fa7d200917e65154d7b87dce413b46747080d701b497f05a",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T09:26:13Z",
           "primary": false,
           "symbol": "ASML"
         }
@@ -8831,17 +8839,17 @@
       "metrics": {
         "52WeekHigh": 51.08,
         "52WeekLow": 26.365,
-        "peTTM": 19.1358,
-        "psTTM": 2.509,
+        "peTTM": 19.7565,
+        "psTTM": 2.5903,
         "netProfitMarginTTM": 13.11,
         "roeTTM": 23.5,
         "revenueGrowthTTMYoy": 16.71,
         "epsGrowthTTMYoy": 94.82,
         "currentRatioQuarterly": 3.1122,
         "totalDebt/totalEquityQuarterly": 0.3403,
-        "marketCapitalization": 10025.703999999998
+        "marketCapitalization": 10366.92
       },
-      "updated_at": "2026-11-22T10:54:29Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "On Holding AG",
       "profile": {
         "weburl": "https://www.on-running.com/",
@@ -8849,6 +8857,22 @@
         "name": "On Holding AG"
       },
       "news": [
+        {
+          "headline": "On Holding: Why The Marathon Boom Matters For Shareholders",
+          "url": "https://finnhub.io/api/news?id=8517782e480f6e3c3df57f1643ca12691ab8f62ed6674bd81e01d03a3453d0a5",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T12:05:30Z",
+          "primary": false,
+          "symbol": "ONON"
+        },
+        {
+          "headline": "On Holding: Best In Class Margins And Strong DTC Sales",
+          "url": "https://finnhub.io/api/news?id=7423fcecae20def999cf9e69998996d5c5b6b136b311ae072e98b827e09367cd",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T08:50:00Z",
+          "primary": false,
+          "symbol": "ONON"
+        },
         {
           "headline": "Earnings Beat Might Change The Case For Investing In On Holding Stock (ONON)",
           "url": "https://finnhub.io/api/news?id=452d751a2fba09453b955d5126e16428b5732479e6270924348bd3ec8880d94c",
@@ -8879,17 +8903,17 @@
       "metrics": {
         "52WeekHigh": 384.26,
         "52WeekLow": 291.03,
-        "peTTM": 12.6463,
-        "psTTM": 2.2958,
+        "peTTM": 12.5763,
+        "psTTM": 2.2831,
         "netProfitMarginTTM": 18.15,
         "roeTTM": 15.17,
         "revenueGrowthTTMYoy": 5.7,
         "epsGrowthTTMYoy": 19.31,
         "currentRatioQuarterly": 0.162,
         "totalDebt/totalEquityQuarterly": 0.246,
-        "marketCapitalization": 141992.1
+        "marketCapitalization": 141206.94
       },
-      "updated_at": "2026-11-22T10:54:29Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Chubb Limited",
       "profile": {
         "weburl": "https://www.chubb.com/",
@@ -8897,6 +8921,30 @@
         "name": "Chubb Limited"
       },
       "news": [
+        {
+          "headline": "Chubb (CB) Dividend News Puts Valuation In Focus As Options Activity Heats Up",
+          "url": "https://finnhub.io/api/news?id=20ad94ff9ea7dfa00a893518ed5ea98dbee7fc55d6ed5514dfe6a10662a4adb8",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T10:09:18Z",
+          "primary": false,
+          "symbol": "CB"
+        },
+        {
+          "headline": "Are Options Traders Betting on a Big Move in Chubb Stock?",
+          "url": "https://finnhub.io/api/news?id=633dd416a8eae3c5e68b7351b9f4837e8cce00a659169e6f50492ac9be2060ff",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:06:00Z",
+          "primary": false,
+          "symbol": "CB"
+        },
+        {
+          "headline": "Chubb (NYSE:CB) Sets Up for Breakout With Perfect 10 Technical Rating",
+          "url": "https://finnhub.io/api/news?id=db57dd4b8e8137f5ce5f131abf6ffad4111dbf31d312066442098f2db7556a4b",
+          "source": "ChartMill",
+          "published_at": "2026-11-23T13:20:57Z",
+          "primary": false,
+          "symbol": "CB"
+        },
         {
           "headline": "Mizuho Maintains Neutral on Chubb, Raises Price Target to $368",
           "url": "https://finnhub.io/api/news?id=ae37c96d2a7885a4222396bb66911e078c74547b696b6374951fa51ff2ff1f06",
@@ -8910,30 +8958,6 @@
           "url": "https://finnhub.io/api/news?id=d46081716e9984a2c03fd1a6d8a69238b134b88f1c377ca210c416af8ae533a9",
           "source": "Yahoo",
           "published_at": "2026-11-19T16:00:00Z",
-          "primary": false,
-          "symbol": "CB"
-        },
-        {
-          "headline": "Are Wall Street Analysts Predicting Chubb Limited Stock Will Climb or Sink?",
-          "url": "https://finnhub.io/api/news?id=326dbf93ab04575ac1ad51187b57aa6106955612e1c58c73a217cbb8590062e2",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:33:19Z",
-          "primary": false,
-          "symbol": "CB"
-        },
-        {
-          "headline": "Why Is Chubb (CB) Up 4.5% Since Last Earnings Report?",
-          "url": "https://finnhub.io/api/news?id=49018fa999b064520264f44007891deb9d16eafb79f099cc72b37ce6d210380e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:30:03Z",
-          "primary": false,
-          "symbol": "CB"
-        },
-        {
-          "headline": "Travelers Has Surged 40% in 2026. Chubb Offers Retirees a Different Dividend Opportunity",
-          "url": "https://finnhub.io/api/news?id=9f9a0368a91e1cdc5553ee9404cb1be1d3a73ee70f970731b6ba283fd2879b4b",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T16:17:53Z",
           "primary": false,
           "symbol": "CB"
         }
@@ -8953,7 +8977,7 @@
         "totalDebt/totalEquityQuarterly": 0.5605,
         "marketCapitalization": 127840.24
       },
-      "updated_at": "2026-11-22T10:54:29Z",
+      "updated_at": "2026-11-24T12:06:53Z",
       "name": "Medtronic PLC",
       "profile": {
         "weburl": "https://www.medtronic.com/",
@@ -8961,6 +8985,30 @@
         "name": "Medtronic PLC"
       },
       "news": [
+        {
+          "headline": "Medtronic reports second quarter fiscal 2027 results; performance reflects consistent execution across the portfolio",
+          "url": "https://finnhub.io/api/news?id=660ab1e77bc1ff7dff4741b1a8d455c5099bc913c40c4e89ca14b68ea4cc9433",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T11:30:00Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "Can Medtronic (MDT) Justify A Premium On Future Cash Flow?",
+          "url": "https://finnhub.io/api/news?id=0cc2b32464c180ae26f72a06530cb9794032b1dc2d81d7476ddb13c95af21ead",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T11:10:43Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
+        {
+          "headline": "What Is Medtronic (MDT) Saying About Its Cardiac Device Programming Recall?",
+          "url": "https://finnhub.io/api/news?id=77291d8dd73a589f0ea866ebd77c2e3be6b6c50cf4651111f3ed09a474f208e0",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T10:12:25Z",
+          "primary": false,
+          "symbol": "MDT"
+        },
         {
           "headline": "Medtronic Is About to Report Its First Earnings Since Spinning Off MiniMed. Should You Buy the Stock Before Nov. 24?",
           "url": "https://finnhub.io/api/news?id=8c00c73c393a6d1e5241fbce92169a35921408d9e9b7d04726cd36790c7e965c",
@@ -8974,30 +9022,6 @@
           "url": "https://finnhub.io/api/news?id=1924e09c2f2f8a67814b3d693c8edbb56049ee65a6e1f1b6637e1e909d2c806e",
           "source": "Yahoo",
           "published_at": "2026-11-21T03:11:18Z",
-          "primary": false,
-          "symbol": "MDT"
-        },
-        {
-          "headline": "Top Research Reports for Coca-Cola, Medtronic & Palo Alto Networks",
-          "url": "https://finnhub.io/api/news?id=3fb23a61c612ecb6d4b7a0f20e037db85ec2991a9e6f58ff822e60c469eac1a2",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T20:42:00Z",
-          "primary": false,
-          "symbol": "MDT"
-        },
-        {
-          "headline": "Medtronic (MDT) Won FDA Clearance For Hugo In 3.5 Million US Surgeries",
-          "url": "https://finnhub.io/api/news?id=4e5f26ab639075bf6eb76d9615a8ebae11d5c6c93f478280589d4aa34d55c497",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T10:13:15Z",
-          "primary": false,
-          "symbol": "MDT"
-        },
-        {
-          "headline": "Connected Health Devices - Global Strategic Business Report 2026: Capitalize on 21.3% CAGR and $11.6B Revenue Opportunity by 2032 with Apple, Medtronic, Microsoft, Roche and Epic Systems",
-          "url": "https://finnhub.io/api/news?id=d85ef2b0dd7de414e8e72978189f18078e2d2387f1558c359559defb49f178d2",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:10:00Z",
           "primary": false,
           "symbol": "MDT"
         }
@@ -29720,6 +29744,6 @@
       ]
     }
   },
-  "cursor": 138,
-  "updated_at": "2026-11-24T11:07:20Z"
+  "cursor": 150,
+  "updated_at": "2026-11-24T12:06:53Z"
 }
