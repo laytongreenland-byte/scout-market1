@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:04:12Z",
+  "generated_at": "2026-11-24T22:06:58Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T21:04:12Z",
+      "checked_at": "2026-11-24T22:06:58Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T21:04:12Z",
+      "checked_at": "2026-11-24T22:06:58Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T21:04:12Z",
+      "checked_at": "2026-11-24T22:06:58Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T21:04:12Z",
+      "checked_at": "2026-11-24T22:06:58Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T21:04:12Z",
+      "checked_at": "2026-11-24T22:06:58Z",
       "error": ""
     }
   ],
@@ -725,9 +725,9 @@
     },
     {
       "symbol": "ORCL",
-      "price": 109.51,
+      "price": 109.5,
       "previous_close": 113.68,
-      "change_pct": -3.668,
+      "change_pct": -3.677,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -1661,9 +1661,9 @@
     },
     {
       "symbol": "SBUX",
-      "price": 106.365,
+      "price": 106.38,
       "previous_close": 106.36,
-      "change_pct": 0.005,
+      "change_pct": 0.019,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2525,9 +2525,9 @@
     },
     {
       "symbol": "LRCX",
-      "price": 196.186,
+      "price": 196.16,
       "previous_close": 209.76,
-      "change_pct": -6.471,
+      "change_pct": -6.484,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2633,9 +2633,9 @@
     },
     {
       "symbol": "MU",
-      "price": 630.07293,
+      "price": 629.79,
       "previous_close": 707.7,
-      "change_pct": -10.969,
+      "change_pct": -11.009,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2669,9 +2669,9 @@
     },
     {
       "symbol": "VOO",
-      "price": 660.39,
+      "price": 660.71,
       "previous_close": 663.91,
-      "change_pct": -0.53,
+      "change_pct": -0.482,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2705,9 +2705,9 @@
     },
     {
       "symbol": "SPY",
-      "price": 718.58,
+      "price": 718.78,
       "previous_close": 722.29,
-      "change_pct": -0.514,
+      "change_pct": -0.486,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2795,9 +2795,9 @@
     },
     {
       "symbol": "DIA",
-      "price": 499.64,
+      "price": 499.74,
       "previous_close": 495.8,
-      "change_pct": 0.775,
+      "change_pct": 0.795,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2831,18 +2831,18 @@
     },
     {
       "symbol": "XLV",
-      "price": 184.74,
+      "price": 184.72,
       "previous_close": 179.42,
-      "change_pct": 2.965,
+      "change_pct": 2.954,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
     {
       "symbol": "XLE",
-      "price": 60.43,
+      "price": 60.45,
       "previous_close": 59.87,
-      "change_pct": 0.935,
+      "change_pct": 0.969,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2939,9 +2939,9 @@
     },
     {
       "symbol": "ARKK",
-      "price": 67.41,
+      "price": 67.46,
       "previous_close": 69.36,
-      "change_pct": -2.811,
+      "change_pct": -2.739,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2984,9 +2984,9 @@
     },
     {
       "symbol": "TLT",
-      "price": 81.47,
+      "price": 81.49,
       "previous_close": 81.69,
-      "change_pct": -0.269,
+      "change_pct": -0.245,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -3065,9 +3065,9 @@
     },
     {
       "symbol": "VUG",
-      "price": 79.79,
+      "price": 79.77,
       "previous_close": 80.85,
-      "change_pct": -1.311,
+      "change_pct": -1.336,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -3146,9 +3146,9 @@
     },
     {
       "symbol": "INDA",
-      "price": 52.77,
+      "price": 52.74,
       "previous_close": 52.14,
-      "change_pct": 1.208,
+      "change_pct": 1.151,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -4919,9 +4919,9 @@
     },
     {
       "symbol": "MPWR",
-      "price": 1190.105,
+      "price": 1190.16,
       "previous_close": 1333.88,
-      "change_pct": -10.779,
+      "change_pct": -10.775,
       "price_at": "2026-11-24T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -5993,6 +5993,18 @@
     "IBB"
   ],
   "events": [
+    {
+      "id": "d3026a5bb07a3737b02d",
+      "type": "SEC",
+      "ticker": "GOOGL",
+      "title": "GOOGL: 8-K filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+      "source": "SEC EDGAR",
+      "primary": true,
+      "published_at": "2026-11-24T21:49:44Z",
+      "sentiment": "neutral",
+      "form": "8-K"
+    },
     {
       "id": "a788704efa00681d3151",
       "type": "MACRO",
@@ -7306,21 +7318,10 @@
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
-    },
-    {
-      "id": "b6e6082f8ac9490307be",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[IFT] Lodgement of Product Disclosure Statement for Capital Bond",
-      "published_at": "2026-11-19T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/infratil",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T21:04:12Z",
+    "generated_at": "2026-11-24T22:06:58Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9356,7 +9357,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Financial Services",
-        "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.0×; TTM revenue growth 8.8% YoY",
+        "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.3×; TTM revenue growth 8.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9370,7 +9371,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T17:50:49Z",
+            "timestamp": "2026-11-24T22:06:58Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9381,7 +9382,7 @@
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T17:50:49Z",
+        "fundamentals_at": "2026-11-24T22:06:58Z",
         "price": 497.8,
         "currency": "USD",
         "change_pct": 0.761,
@@ -10858,7 +10859,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 13.8×; TTM revenue growth 22.2% YoY",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -10872,35 +10873,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T17:50:49Z",
+            "timestamp": "2026-11-24T22:06:58Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
-            "timestamp": "2026-11-22T13:49:49Z",
-            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01"
+            "value": "Why Did Alphabet Stock Move?",
+            "timestamp": "2026-11-24T17:24:40Z",
+            "url": "https://finnhub.io/api/news?id=b3b5d01ea58f56ba93d025d546bd00caba78ab0ebd22e1ebccec2f606f0649a2"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T17:50:49Z",
+        "fundamentals_at": "2026-11-24T22:06:58Z",
         "price": 276.58,
         "currency": "USD",
         "change_pct": -1.055,
         "news": [
           {
-            "headline": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
-            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01",
+            "headline": "Why Did Alphabet Stock Move?",
+            "url": "https://finnhub.io/api/news?id=b3b5d01ea58f56ba93d025d546bd00caba78ab0ebd22e1ebccec2f606f0649a2",
             "source": "Yahoo",
-            "published_at": "2026-11-22T13:49:49Z",
+            "published_at": "2026-11-24T17:24:40Z",
             "primary": false,
             "symbol": "GOOG"
           },
           {
-            "headline": "Alphabet (GOOGL) Stock Gets Fair Value Trim As Analysts Weigh AI Spending And Monetization",
-            "url": "https://finnhub.io/api/news?id=09a67a217b3e3c3ffefc43440d94caad55d7ad51640fec3af177e472435b6025",
+            "headline": "Alphabet (GOOGL) Expands AI Search With Wallet Data",
+            "url": "https://finnhub.io/api/news?id=49559c05ed4169e163e41fc8047194c89d90e532a4ac29b85f659c3be68cfceb",
             "source": "Yahoo",
-            "published_at": "2026-11-22T00:12:09Z",
+            "published_at": "2026-11-24T16:10:31Z",
             "primary": false,
             "symbol": "GOOG"
           }
@@ -10910,12 +10911,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 336.42,
-          "entry_floor": 302.77,
-          "exit_review_low": 442.91,
-          "exit_review_high": 540.89,
-          "bear_case": 234.87,
-          "scenario_upside_pct": 60.1,
+          "entry_ceiling": 323.38,
+          "entry_floor": 291.05,
+          "exit_review_low": 414.6,
+          "exit_review_high": 506.31,
+          "bear_case": 219.85,
+          "scenario_upside_pct": 49.9,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10928,12 +10929,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 13.84,
+            "trailing_pe": 14.78,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 20.33,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T17:50:49Z"
+            "metrics_retrieved_at": "2026-11-24T22:06:58Z"
           }
         },
         "ranking_score": 79,
@@ -14290,93 +14291,6 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
-        "symbol": "GOOG",
-        "name": "Alphabet Inc.",
-        "status": "INVESTIGATE",
-        "score": 79,
-        "industry": "Media",
-        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 13.8×; TTM revenue growth 22.2% YoY",
-        "risks": [
-          "Price near reported 52-week low"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$276.58",
-            "timestamp": "2026-11-24T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T17:50:49Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
-            "timestamp": "2026-11-22T13:49:49Z",
-            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01"
-          }
-        ],
-        "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T17:50:49Z",
-        "price": 276.58,
-        "currency": "USD",
-        "change_pct": -1.055,
-        "news": [
-          {
-            "headline": "Billionaire Chase Coleman’s Tiger Global Cut Its Alphabet Stake by 42%",
-            "url": "https://finnhub.io/api/news?id=8d48631b4eec08cb16dcbe02ba659795a4ab37b068925bd4e4642e9fcb77ad01",
-            "source": "Yahoo",
-            "published_at": "2026-11-22T13:49:49Z",
-            "primary": false,
-            "symbol": "GOOG"
-          },
-          {
-            "headline": "Alphabet (GOOGL) Stock Gets Fair Value Trim As Analysts Weigh AI Spending And Monetization",
-            "url": "https://finnhub.io/api/news?id=09a67a217b3e3c3ffefc43440d94caad55d7ad51640fec3af177e472435b6025",
-            "source": "Yahoo",
-            "published_at": "2026-11-22T00:12:09Z",
-            "primary": false,
-            "symbol": "GOOG"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 336.42,
-          "entry_floor": 302.77,
-          "exit_review_low": 442.91,
-          "exit_review_high": 540.89,
-          "bear_case": 234.87,
-          "scenario_upside_pct": 60.1,
-          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-24T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 13.84,
-            "earnings_growth_assumed_pct": 9.0,
-            "scenario_exit_pe": 20.33,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T17:50:49Z"
-          }
-        },
-        "ranking_score": 79,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
         "status": "INVESTIGATE",
@@ -14725,6 +14639,93 @@
         "rank_method": "FINANCIAL RULES"
       },
       {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc.",
+        "status": "INVESTIGATE",
+        "score": 79,
+        "industry": "Media",
+        "why": "Net profit margin 50.0% (TTM); Return on equity 42.6% (TTM); Trailing P/E 14.8×; TTM revenue growth 22.2% YoY",
+        "risks": [
+          "Price near reported 52-week low"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$276.58",
+            "timestamp": "2026-11-24T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-24T22:06:58Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Why Did Alphabet Stock Move?",
+            "timestamp": "2026-11-24T17:24:40Z",
+            "url": "https://finnhub.io/api/news?id=b3b5d01ea58f56ba93d025d546bd00caba78ab0ebd22e1ebccec2f606f0649a2"
+          }
+        ],
+        "as_of": "2026-11-24T21:00:00Z",
+        "fundamentals_at": "2026-11-24T22:06:58Z",
+        "price": 276.58,
+        "currency": "USD",
+        "change_pct": -1.055,
+        "news": [
+          {
+            "headline": "Why Did Alphabet Stock Move?",
+            "url": "https://finnhub.io/api/news?id=b3b5d01ea58f56ba93d025d546bd00caba78ab0ebd22e1ebccec2f606f0649a2",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T17:24:40Z",
+            "primary": false,
+            "symbol": "GOOG"
+          },
+          {
+            "headline": "Alphabet (GOOGL) Expands AI Search With Wallet Data",
+            "url": "https://finnhub.io/api/news?id=49559c05ed4169e163e41fc8047194c89d90e532a4ac29b85f659c3be68cfceb",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T16:10:31Z",
+            "primary": false,
+            "symbol": "GOOG"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "QUALITY GATE NOT MET",
+          "entry_ceiling": 323.38,
+          "entry_floor": 291.05,
+          "exit_review_low": 414.6,
+          "exit_review_high": 506.31,
+          "bear_case": 219.85,
+          "scenario_upside_pct": 49.9,
+          "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-24T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 14.78,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 20.33,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-24T22:06:58Z"
+          }
+        },
+        "ranking_score": 79,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
         "status": "WATCH",
@@ -14852,14 +14853,14 @@
       },
       {
         "symbol": "MU",
-        "change_pct": -10.969,
-        "price": 630.07293,
+        "change_pct": -11.009,
+        "price": 629.79,
         "price_at": "2026-11-24T21:00:00Z"
       },
       {
         "symbol": "MPWR",
-        "change_pct": -10.779,
-        "price": 1190.105,
+        "change_pct": -10.775,
+        "price": 1190.16,
         "price_at": "2026-11-24T21:00:00Z"
       },
       {
@@ -15383,7 +15384,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T21:04:12Z",
+      "generated_at": "2026-11-24T22:06:58Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 818,
@@ -15718,7 +15719,7 @@
             "reason": "Paper entry recorded; awaiting later closing prices",
             "entry_at": "2026-11-24T21:00:00Z",
             "entry_price": 239.26,
-            "spy_entry": 718.58
+            "spy_entry": 718.78
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
