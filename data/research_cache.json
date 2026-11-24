@@ -3421,17 +3421,17 @@
       "metrics": {
         "52WeekHigh": 224.75,
         "52WeekLow": 143.75,
-        "peTTM": 15.5221,
-        "psTTM": 1.8698,
+        "peTTM": 15.3094,
+        "psTTM": 1.8442,
         "netProfitMarginTTM": 12.05,
         "roeTTM": 19.86,
         "revenueGrowthTTMYoy": 9.28,
         "epsGrowthTTMYoy": -0.2,
         "currentRatioQuarterly": 0.9104,
         "totalDebt/totalEquityQuarterly": 1.5874,
-        "marketCapitalization": 175415.53
+        "marketCapitalization": 173011.0
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "T-Mobile US Inc",
       "profile": {
         "weburl": "https://www.t-mobile.com/",
@@ -3439,6 +3439,14 @@
         "name": "T-Mobile US Inc"
       },
       "news": [
+        {
+          "headline": "T-Mobile Has Raised Its Dividend 80% Since 2023. Here’s What Comes Next",
+          "url": "https://finnhub.io/api/news?id=8df14d0db94261373e80f4f064b7e0497a581ff9bb220fd819b92468442fc5d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:17:05Z",
+          "primary": false,
+          "symbol": "TMUS"
+        },
         {
           "headline": "T-Mobile leak reveals major phone plan change for core customers",
           "url": "https://finnhub.io/api/news?id=7c28d0daa647ab2f2e511ada83b4a8636c0d805dee6021fe09500dd736dd453e",
@@ -3470,32 +3478,24 @@
           "published_at": "2026-11-20T19:11:18Z",
           "primary": false,
           "symbol": "TMUS"
-        },
-        {
-          "headline": "T Mobile US (TMUS) Shows Off F1 5G Push On An Undervalued Narrative",
-          "url": "https://finnhub.io/api/news?id=261bbc32ef76422d1dd34c419691b1b6388a72c0117267e6ac7e4c0b94d8e5b5",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T11:09:57Z",
-          "primary": false,
-          "symbol": "TMUS"
         }
       ]
     },
     "JD": {
       "metrics": {
         "52WeekHigh": 132.5,
-        "52WeekLow": 95.8,
-        "peTTM": 12.6232,
-        "psTTM": 0.1528,
+        "52WeekLow": 95.25,
+        "peTTM": 12.5254,
+        "psTTM": 0.1516,
         "netProfitMarginTTM": 1.21,
         "roeTTM": 7.24,
         "revenueGrowthTTMYoy": 1.55,
         "epsGrowthTTMYoy": -47.07,
         "currentRatioQuarterly": 1.1582,
         "totalDebt/totalEquityQuarterly": 0.3276,
-        "marketCapitalization": 237613.72
+        "marketCapitalization": 236047.3
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "JD.com Inc",
       "profile": {
         "weburl": "https://corporate.jd.com/",
@@ -3508,17 +3508,17 @@
       "metrics": {
         "52WeekHigh": 165.93,
         "52WeekLow": 101.59,
-        "peTTM": 9.412,
-        "psTTM": 2.6195,
+        "peTTM": 9.3189,
+        "psTTM": 2.5936,
         "netProfitMarginTTM": 27.83,
         "roeTTM": 26.05,
         "revenueGrowthTTMYoy": 30.03,
         "epsGrowthTTMYoy": 53.85,
         "currentRatioQuarterly": 1.8985,
         "totalDebt/totalEquityQuarterly": 0.2393,
-        "marketCapitalization": 77046.75
+        "marketCapitalization": 76284.586
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "EOG Resources, Inc.",
       "profile": {
         "weburl": "https://www.eogresources.com/",
@@ -3527,42 +3527,42 @@
       },
       "news": [
         {
+          "headline": "Here's How EOG is Lowering Well Costs to Boost Margins & Cash Flow",
+          "url": "https://finnhub.io/api/news?id=4212ca2db802cf503b2854dedf79630c17f5eac162059c6bdb6abadd50623c82",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:50:00Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "Are Oils-Energy Stocks Lagging  Canadian Natural Resources Limited (CNQ) This Year?",
+          "url": "https://finnhub.io/api/news?id=3c6d5fb377496f08cafcc69b187db1d3cda51cfd96a7c34d57568ea4b89c5715",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:40:03Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "United States: TotalEnergies Strengthens its Partnership with Continental Resources to Develop its Gas Production",
+          "url": "https://finnhub.io/api/news?id=c6fdf927a19cacd7be5c146f448d85f72bedc1acb2b43023e390e00f217b4a3a",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T07:14:00Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
+          "headline": "How Many Shares of Devon Energy or EOG Resources Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=7c7ab7d5cb5d5edda663a81eb55a6bc4456c3bef6a04ca44fb0ac0260ec803b0",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T10:50:21Z",
+          "primary": false,
+          "symbol": "EOG"
+        },
+        {
           "headline": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
           "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2",
           "source": "ChartMill",
           "published_at": "2026-11-19T09:30:50Z",
-          "primary": false,
-          "symbol": "EOG"
-        },
-        {
-          "headline": "Is Permian Resources Spending Too Much?",
-          "url": "https://finnhub.io/api/news?id=d5cb415558c408e0f74de0c224c45336eda319e22186f9d2871448b36758806f",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T12:48:07Z",
-          "primary": false,
-          "symbol": "EOG"
-        },
-        {
-          "headline": "Morgan Stanley Maintains Equal-Weight on EOG Resources, Raises Price Target to $167",
-          "url": "https://finnhub.io/api/news?id=206b6d55ca3eb6d8f3815a25b914018855f8be89acef000fd8df363142406fe4",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T11:51:59Z",
-          "primary": false,
-          "symbol": "EOG"
-        },
-        {
-          "headline": "EOG Resources (EOG) Stock May Be 50% Undervalued As Record Output Lifts Dividend",
-          "url": "https://finnhub.io/api/news?id=3f7218b51030a80414fe2eb7f6f8c284bc90da628244e7df90c36d450e8a0a28",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T07:07:30Z",
-          "primary": false,
-          "symbol": "EOG"
-        },
-        {
-          "headline": "EOG Resources (EOG) Lifts Dividend And Output On An Undervalued View",
-          "url": "https://finnhub.io/api/news?id=d93f32a948524eb5256de98946ee6c35523f534fa5a652d9de25b32d9d376efb",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T06:16:38Z",
           "primary": false,
           "symbol": "EOG"
         }
@@ -3580,9 +3580,9 @@
         "epsGrowthTTMYoy": -36.97,
         "currentRatioQuarterly": 0.5544,
         "totalDebt/totalEquityQuarterly": 0.6935,
-        "marketCapitalization": 61470.387
+        "marketCapitalization": 61470.39
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Digital Realty Trust, Inc.",
       "profile": {
         "weburl": "https://www.digitalrealty.com",
@@ -3591,42 +3591,42 @@
       },
       "news": [
         {
+          "headline": "Why Digital Realty Trust Stock Moved Over 3% Higher on Monday",
+          "url": "https://finnhub.io/api/news?id=fc7dbd12cd389839470b56afed2c5951767a67cb04a499039cd15ff385ffb958",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T23:06:49Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Should You Buy Cipher Digital Stock Now Or Wait For February?",
+          "url": "https://finnhub.io/api/news?id=de33fac66ccb98cf2686ddf8e6d64d94f3d0469585bd6caf80dfdff9c9606763",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:02:26Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Digital Realty and Iron Mountain Just Fell 10%. Their Dividends Tell Different Stories",
+          "url": "https://finnhub.io/api/news?id=3728f9f4f9a6b04ae8b721aea1e0ce99b2756424dc90d96a6ba25e303237dab3",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:17:43Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
+          "headline": "Why Did Digital Realty Stock Move?",
+          "url": "https://finnhub.io/api/news?id=a123ccc6b8a6649912c611a663f696e7c3de22307516086c083428317f9099cf",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:52:53Z",
+          "primary": false,
+          "symbol": "DLR"
+        },
+        {
           "headline": "Truist Securities Maintains Buy on Digital Realty Trust, Lowers Price Target to $215",
           "url": "https://finnhub.io/api/news?id=a66512ddf5cbc59555102c48b9fda327004033882dbc7ca73c68dda157a6e958",
           "source": "Benzinga",
           "published_at": "2026-11-20T09:40:29Z",
-          "primary": false,
-          "symbol": "DLR"
-        },
-        {
-          "headline": "DLR Boosts Frankfurt Data Center Capacity With New Power Connection",
-          "url": "https://finnhub.io/api/news?id=7df9efa7f66042233c8e0f2eae21f697af8c58372c77c743178ca740bbbe74cb",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T17:18:00Z",
-          "primary": false,
-          "symbol": "DLR"
-        },
-        {
-          "headline": "Digital Realty Supports Growth at Digital Park Fechenheim with Dedicated 110 kV Power Connection Now Online",
-          "url": "https://finnhub.io/api/news?id=2e50e4264bcfce40602f20da1d05f859ac1e9971cdaa17765598e182c3838095",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T08:00:00Z",
-          "primary": false,
-          "symbol": "DLR"
-        },
-        {
-          "headline": "Digital Realty Innovation Lab (DRIL) Launches in Singapore, Enabling Asia Pacific Enterprises to Validate and Scale AI-Ready Infrastructure",
-          "url": "https://finnhub.io/api/news?id=dfb651d7f34844f7969843a5c2d5a7fa1d55267f2020973765cbf236197763c5",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T06:15:00Z",
-          "primary": false,
-          "symbol": "DLR"
-        },
-        {
-          "headline": "Digital Realty Expands Sovereign Cloud Ecosystem with Four New OVHcloud Deployments",
-          "url": "https://finnhub.io/api/news?id=a3a5496206d8f1eb48f22646fd7810542d14ff743d97c86f620bd3fe1a44db70",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T17:02:00Z",
           "primary": false,
           "symbol": "DLR"
         }
@@ -3636,17 +3636,17 @@
       "metrics": {
         "52WeekHigh": 51.68,
         "52WeekLow": 38.68,
-        "peTTM": 11.7246,
-        "psTTM": 1.3812,
+        "peTTM": 11.7321,
+        "psTTM": 1.3821,
         "netProfitMarginTTM": 11.78,
         "roeTTM": 15.73,
         "revenueGrowthTTMYoy": 1.38,
         "epsGrowthTTMYoy": -16.44,
         "currentRatioQuarterly": 0.6264,
         "totalDebt/totalEquityQuarterly": 1.5684,
-        "marketCapitalization": 192518.25
+        "marketCapitalization": 192640.94
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Verizon Communications Inc",
       "profile": {
         "weburl": "https://www.verizon.com/",
@@ -3655,42 +3655,42 @@
       },
       "news": [
         {
-          "headline": "An $850,000 Portfolio in Verizon, NNN REIT and Enterprise Products Pays $52,395 a Year in Dividends. Here’s What Happens if One Cuts",
-          "url": "https://finnhub.io/api/news?id=067d8295f6cdd3dce6a66bdf89c9dbe172171d2b5c938661a373974424deef04",
+          "headline": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink’s 40x Upgrade",
+          "url": "https://finnhub.io/api/news?id=7f23cd8bd8e7b2e4ce10c8e9a44423c69cf39920d5591ca1745309d69d2b300a",
           "source": "Yahoo",
-          "published_at": "2026-11-21T21:35:23Z",
+          "published_at": "2026-11-23T23:28:41Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "Verizon Pays Out $11.7 Billion a Year in Dividends. Here’s the Free Cash Flow Math Behind Its 6.2%-Yielding Payout.",
-          "url": "https://finnhub.io/api/news?id=0c1bb056686ab121ea025b47fa74c7e4606815c40d2503d0c84fc48a92d92ac9",
+          "headline": "Verizon Cut Its Buying In 2002. Can Nvidia's Buyers Stop Now?",
+          "url": "https://finnhub.io/api/news?id=1654a8c7f976bc1d495ad00b23c7bdefb0f4e91c6b77f91c2a8ae394aab1a240",
           "source": "Yahoo",
-          "published_at": "2026-11-21T21:23:02Z",
+          "published_at": "2026-11-23T14:34:29Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "Musk Says AT&T and Verizon May “Lose Some Revenue” as Starlink’s Phone Service Gets 40x the Bandwidth",
-          "url": "https://finnhub.io/api/news?id=f4534c37ca8311e00e8503beeefd7c269b0aff7fb5eb9f7a70915ded2c51d2ea",
+          "headline": "Verizon CEO Pushes Back: “No Secret Sauce” in Musk’s Plan to Make SpaceX a US Carrier",
+          "url": "https://finnhub.io/api/news?id=03dc6bd0668d97646d0151a0a31af8f2a874657825258a2878429f7806b9aa34",
           "source": "Yahoo",
-          "published_at": "2026-11-21T17:20:39Z",
+          "published_at": "2026-11-23T14:05:31Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "Verizon: 6% Yield Surrounded By A CapEx Moat",
-          "url": "https://finnhub.io/api/news?id=048671efe1241ea58e7bed86f5528403cee8f27c23006340bdb0097cd9cb6857",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-21T08:00:00Z",
+          "headline": "Verizon (VZ) Stock Looks Like A Bargain After A 51% Run",
+          "url": "https://finnhub.io/api/news?id=d5e295c6c1cc5fffa5ca40af9c1b4a13bc781f4baffbfc62c3622b06c2614110",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:13:10Z",
           "primary": false,
           "symbol": "VZ"
         },
         {
-          "headline": "How AI Contracts Will Impact Verizon (VZ) Investors",
-          "url": "https://finnhub.io/api/news?id=ea8b8015245c5b2d925ba86c9883d65edb0b4f53edb29b8197fa8b910cffa37b",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T23:16:12Z",
+          "headline": "Verizon, Amazon And A Major Retailer On CNBC’s 'Final Trades'",
+          "url": "https://finnhub.io/api/news?id=a914bde7f9ad1b76a27b951f0f8729c39fb8539ff9930386764c736302718ee8",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:21:36Z",
           "primary": false,
           "symbol": "VZ"
         }
@@ -3700,17 +3700,17 @@
       "metrics": {
         "52WeekHigh": 165.3,
         "52WeekLow": 61.7,
-        "peTTM": 18.7831,
-        "psTTM": 1.1859,
+        "peTTM": 18.0182,
+        "psTTM": 1.1376,
         "netProfitMarginTTM": 6.31,
         "roeTTM": 2.97,
         "revenueGrowthTTMYoy": -2.7,
         "epsGrowthTTMYoy": -2.69,
         "currentRatioQuarterly": 2.5383,
         "totalDebt/totalEquityQuarterly": 0.3845,
-        "marketCapitalization": 22564.264
+        "marketCapitalization": 21665.143
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Baidu, Inc.",
       "profile": {
         "weburl": "https://www.baidu.com/",
@@ -3718,6 +3718,14 @@
         "name": "Baidu, Inc."
       },
       "news": [
+        {
+          "headline": "Is It Worth Investing in Baidu Inc. (BIDU) Based on Wall Street's Bullish Views?",
+          "url": "https://finnhub.io/api/news?id=c424843e06f221be3444acc3fb499d583710c92f9c0960d06d2fb0d20c74093f",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:30:03Z",
+          "primary": false,
+          "symbol": "BIDU"
+        },
         {
           "headline": "Which Baidu ETFs Change What Chip News Means For You?",
           "url": "https://finnhub.io/api/news?id=2910b66b19fbc39d7fe896b13ceca331abac88bb4525e12d7e88fb1e2d1f31cb",
@@ -3749,14 +3757,6 @@
           "published_at": "2026-11-18T08:15:01Z",
           "primary": false,
           "symbol": "BIDU"
-        },
-        {
-          "headline": "Baidu shares hit record low as Q3 earnings, AI concerns weigh",
-          "url": "https://finnhub.io/api/news?id=814f9a4400c39d9aca4437d47b000355dd1bee0b8dc0ce662c35281dd54d69d0",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T05:54:22Z",
-          "primary": false,
-          "symbol": "BIDU"
         }
       ]
     },
@@ -3774,7 +3774,7 @@
         "totalDebt/totalEquityQuarterly": 0.0,
         "marketCapitalization": 10403.43
       },
-      "updated_at": "2026-11-22T01:17:19Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Deckers Outdoor Corporation",
       "profile": {
         "weburl": "https://www.deckers.com/",
@@ -3812,17 +3812,17 @@
       "metrics": {
         "52WeekHigh": 60.46,
         "52WeekLow": 34.65,
-        "peTTM": 21.8712,
-        "psTTM": 1.8363,
+        "peTTM": 22.2667,
+        "psTTM": 1.8695,
         "netProfitMarginTTM": 8.4,
         "roeTTM": 11.73,
         "revenueGrowthTTMYoy": 4.65,
         "epsGrowthTTMYoy": -20.51,
         "currentRatioQuarterly": 1.389,
         "totalDebt/totalEquityQuarterly": 0.4704,
-        "marketCapitalization": 67735.0
+        "marketCapitalization": 68960.1
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "SLB N.V.",
       "profile": {
         "weburl": "https://www.slb.com/",
@@ -3845,14 +3845,6 @@
           "published_at": "2026-11-16T07:47:54Z",
           "primary": false,
           "symbol": "SLB"
-        },
-        {
-          "headline": "SLB LTD (NYSE:SLB): A Quality Investing Candidate With Strong Free Cash Flow",
-          "url": "https://finnhub.io/api/news?id=5d2a568f6bb8ea89500ec314097c3d07d9d498edde7d402f0330c03b7e88db31",
-          "source": "ChartMill",
-          "published_at": "2026-11-14T09:50:38Z",
-          "primary": false,
-          "symbol": "SLB"
         }
       ]
     },
@@ -3860,17 +3852,17 @@
       "metrics": {
         "52WeekHigh": 67.94,
         "52WeekLow": 53.15,
-        "peTTM": 40.7055,
-        "psTTM": 8.8925,
+        "peTTM": 40.8037,
+        "psTTM": 8.9139,
         "netProfitMarginTTM": 21.85,
         "roeTTM": 3.44,
         "revenueGrowthTTMYoy": 10.79,
         "epsGrowthTTMYoy": 35.32,
         "currentRatioQuarterly": 1.3094,
         "totalDebt/totalEquityQuarterly": 0.7948,
-        "marketCapitalization": 55186.36
+        "marketCapitalization": 55319.5
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Realty Income Corporation",
       "profile": {
         "weburl": "https://www.realtyincome.com/",
@@ -3879,42 +3871,42 @@
       },
       "news": [
         {
-          "headline": "Realty Income Pays Dividends Every Month. Here's What You Can Expect $10,000 Invested to Pay Monthly in 2027.",
-          "url": "https://finnhub.io/api/news?id=a8012839081845f5b8c4a41e871ba79583a1c1e529f07d73b67abd245272fe28",
+          "headline": "Better Dividend Stock: Realty Income vs. Iron Mountain",
+          "url": "https://finnhub.io/api/news?id=ab4c57dcd6d1bba5f893eb1627b93cbc831ec85868241b4a1229053bb8fcf569",
           "source": "Yahoo",
-          "published_at": "2026-11-21T23:53:02Z",
+          "published_at": "2026-11-23T16:51:17Z",
           "primary": false,
           "symbol": "O"
         },
         {
-          "headline": "A 70-Year-Old With $1,000,000 in Edison International, Altria and Realty Income Collects $4,774 a Month in Dividends. How Safe Is Each Check?",
-          "url": "https://finnhub.io/api/news?id=98a905314787bace2251b5bdf6c7e7c389ce21472329a791bfcd7a98ef84dd0b",
+          "headline": "Realty Income Just Raised Its Dividend for the 137th Time. These 4 Monthly Payers Belong Next to It",
+          "url": "https://finnhub.io/api/news?id=3fae1f32b754d752caa26f3f38e5b07c204b278a5ce51c1b31cd919cc4d53cf5",
           "source": "Yahoo",
-          "published_at": "2026-11-21T18:52:42Z",
+          "published_at": "2026-11-23T13:03:46Z",
           "primary": false,
           "symbol": "O"
         },
         {
-          "headline": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=af12d7c0c79830f95c8cf9c46b4d60f585e868852367bad9ec7517e7024d0c94",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T11:50:35Z",
+          "headline": "Realty Income: 2027 Could Hurt A Lot",
+          "url": "https://finnhub.io/api/news?id=65a999d5076397e633fdfb3e62442c63beea37bba92712a7f964fb4b713851a4",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T06:10:00Z",
           "primary": false,
           "symbol": "O"
         },
         {
-          "headline": "What Realty Income Stock's Dividend Raise Means For Shareholders",
-          "url": "https://finnhub.io/api/news?id=939030ed7f1d793fa63e5ce85160a72d09de05e9e30530e50ab80b8b1dc62960",
+          "headline": "Realty Income Stock And Other Tax Efficient Dividend Picks For US Income Investors",
+          "url": "https://finnhub.io/api/news?id=d5419cf614bd0affa75a896a5b353d06c8a74bc935bb537e5e681ded6660229b",
           "source": "Yahoo",
-          "published_at": "2026-11-21T00:12:39Z",
+          "published_at": "2026-11-22T21:07:43Z",
           "primary": false,
           "symbol": "O"
         },
         {
-          "headline": "Better Dividend Stock for Retirees: Realty Income vs. Kilroy Realty",
-          "url": "https://finnhub.io/api/news?id=090cd1b93759ec79341aa0fc971af63eea73fa517b5b31c8ee72687a9193a8b9",
+          "headline": "Don't Give Up on Realty Income in a Rising-Rate Environment; It Can Easily Survive Until the Property Market Adjusts",
+          "url": "https://finnhub.io/api/news?id=a50ee50b9ef94d3c067d3fbdb3aa5c968c0899c0e5b7ec66e8fe81e6d662a385",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:24:38Z",
+          "published_at": "2026-11-22T16:38:02Z",
           "primary": false,
           "symbol": "O"
         }
@@ -3932,9 +3924,9 @@
         "epsGrowthTTMYoy": -39.35,
         "currentRatioQuarterly": 0.8684,
         "totalDebt/totalEquityQuarterly": 1.495,
-        "marketCapitalization": 150290.73
+        "marketCapitalization": 150290.72
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "AT&T Inc.",
       "profile": {
         "weburl": "https://www.att.com/",
@@ -3947,17 +3939,17 @@
       "metrics": {
         "52WeekHigh": 148.26,
         "52WeekLow": 62.39,
-        "peTTM": 22.3308,
-        "psTTM": 1.2938,
+        "peTTM": 21.2099,
+        "psTTM": 1.2288,
         "netProfitMarginTTM": 5.79,
         "roeTTM": 13.62,
         "revenueGrowthTTMYoy": 44.12,
         "epsGrowthTTMYoy": 23.67,
         "currentRatioQuarterly": 1.4253,
         "totalDebt/totalEquityQuarterly": 0.0914,
-        "marketCapitalization": 39226.688
+        "marketCapitalization": 37257.617
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Sea Ltd",
       "profile": {
         "weburl": "https://www.sea.com/",
@@ -3970,17 +3962,17 @@
       "metrics": {
         "52WeekHigh": 293.06,
         "52WeekLow": 178.45,
-        "peTTM": 18.493,
-        "psTTM": 1.3413,
+        "peTTM": 18.9653,
+        "psTTM": 1.3756,
         "netProfitMarginTTM": 7.25,
         "roeTTM": 264.53000000000003,
         "revenueGrowthTTMYoy": 9.64,
         "epsGrowthTTMYoy": -1.02,
         "currentRatioQuarterly": 1.1171,
         "totalDebt/totalEquityQuarterly": 52.2337,
-        "marketCapitalization": 123903.17
+        "marketCapitalization": 127067.51
       },
-      "updated_at": "2026-11-22T02:21:41Z",
+      "updated_at": "2026-11-24T01:21:53Z",
       "name": "Lowe's Companies Inc",
       "profile": {
         "weburl": "https://www.lowes.com/",
@@ -3988,6 +3980,22 @@
         "name": "Lowe's Companies Inc"
       },
       "news": [
+        {
+          "headline": "Lowe's Companies (LOW) Names Margrethe Vagell EVP Of Merchandising",
+          "url": "https://finnhub.io/api/news?id=e9d7904043b37c22bcf18b9a67603064a88623afe4c6c8204cf122727b89105a",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T08:07:29Z",
+          "primary": false,
+          "symbol": "LOW"
+        },
+        {
+          "headline": "Mortgage Rates Have Jumped More Than 1 Point Since February. Home Depot and Lowe’s Shareholders Are Feeling the Pain.",
+          "url": "https://finnhub.io/api/news?id=b0186e550e57cf59c343b09bc2dba2b98ab1aee71b799056358e6f11f7977c34",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T07:43:02Z",
+          "primary": false,
+          "symbol": "LOW"
+        },
         {
           "headline": "Why BJ’s Wholesale Club and Lowe’s invest windfalls in their customers",
           "url": "https://finnhub.io/api/news?id=9ad61c32306d7691dde62a6bbdb08c8d909db8bb1473fbfeb57e5a3eaa833974",
@@ -4009,22 +4017,6 @@
           "url": "https://finnhub.io/api/news?id=fd8f760a4e01ad841f074ab6d52b4b37fc867caa96029a7d1d57c0c10718b8c6",
           "source": "Benzinga",
           "published_at": "2026-11-20T15:14:05Z",
-          "primary": false,
-          "symbol": "LOW"
-        },
-        {
-          "headline": "Lowe's Mylow Assistant Strengthens Its Online Shopping Experience",
-          "url": "https://finnhub.io/api/news?id=83cd37aca0b8ce802744c186f812e123b61e9c37826e5706df25e116392062bc",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:43:00Z",
-          "primary": false,
-          "symbol": "LOW"
-        },
-        {
-          "headline": "Is Lowe's a Buy After Its Latest Earnings Report?",
-          "url": "https://finnhub.io/api/news?id=da29c78f7b213f502b828a8bc7874e835a4a0a0e4bf4098cf5e562bacc5ab81b",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T11:07:02Z",
           "primary": false,
           "symbol": "LOW"
         }
@@ -29704,6 +29696,6 @@
       ]
     }
   },
-  "cursor": 54,
-  "updated_at": "2026-11-23T23:58:12Z"
+  "cursor": 66,
+  "updated_at": "2026-11-24T01:21:53Z"
 }

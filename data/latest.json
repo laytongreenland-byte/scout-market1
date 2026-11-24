@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:58:12Z",
+  "generated_at": "2026-11-24T01:21:53Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T23:58:12Z",
+      "checked_at": "2026-11-24T01:21:53Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T23:58:12Z",
+      "checked_at": "2026-11-24T01:21:53Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T23:58:12Z",
+      "checked_at": "2026-11-24T01:21:53Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T23:58:12Z",
+      "checked_at": "2026-11-24T01:21:53Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T23:58:12Z",
+      "checked_at": "2026-11-24T01:21:53Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T23:58:12Z",
+    "generated_at": "2026-11-24T01:21:53Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7736,7 +7736,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Energy",
-        "why": "Net profit margin 27.8% (TTM); Return on equity 26.1% (TTM); Trailing P/E 9.4×; TTM revenue growth 30.0% YoY",
+        "why": "Net profit margin 27.8% (TTM); Return on equity 26.1% (TTM); Trailing P/E 9.3×; TTM revenue growth 30.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7750,35 +7750,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T01:17:19Z",
+            "timestamp": "2026-11-24T01:21:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
-            "timestamp": "2026-11-19T09:30:50Z",
-            "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2"
+            "value": "Here's How EOG is Lowering Well Costs to Boost Margins & Cash Flow",
+            "timestamp": "2026-11-23T14:50:00Z",
+            "url": "https://finnhub.io/api/news?id=4212ca2db802cf503b2854dedf79630c17f5eac162059c6bdb6abadd50623c82"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T01:17:19Z",
+        "fundamentals_at": "2026-11-24T01:21:53Z",
         "price": 145.34,
         "currency": "USD",
         "change_pct": -2.194,
         "news": [
           {
-            "headline": "EOG Resources (NYSE:EOG): High Growth Momentum Meets Breakout Setup",
-            "url": "https://finnhub.io/api/news?id=345c50e6fa852446a3d1668735f9369d381f7ee13f4159bcdb679b597d8f09a2",
-            "source": "ChartMill",
-            "published_at": "2026-11-19T09:30:50Z",
+            "headline": "Here's How EOG is Lowering Well Costs to Boost Margins & Cash Flow",
+            "url": "https://finnhub.io/api/news?id=4212ca2db802cf503b2854dedf79630c17f5eac162059c6bdb6abadd50623c82",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T14:50:00Z",
             "primary": false,
             "symbol": "EOG"
           },
           {
-            "headline": "Is Permian Resources Spending Too Much?",
-            "url": "https://finnhub.io/api/news?id=d5cb415558c408e0f74de0c224c45336eda319e22186f9d2871448b36758806f",
+            "headline": "Are Oils-Energy Stocks Lagging  Canadian Natural Resources Limited (CNQ) This Year?",
+            "url": "https://finnhub.io/api/news?id=3c6d5fb377496f08cafcc69b187db1d3cda51cfd96a7c34d57568ea4b89c5715",
             "source": "Yahoo",
-            "published_at": "2026-11-18T12:48:07Z",
+            "published_at": "2026-11-23T13:40:03Z",
             "primary": false,
             "symbol": "EOG"
           }
@@ -14253,7 +14253,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T01:17:19Z",
+            "timestamp": "2026-11-24T01:21:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -14264,7 +14264,7 @@
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T01:17:19Z",
+        "fundamentals_at": "2026-11-24T01:21:53Z",
         "price": 81.54,
         "currency": "USD",
         "change_pct": 4.619,
@@ -14314,7 +14314,7 @@
             "scenario_exit_pe": 16.52,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T01:17:19Z"
+            "metrics_retrieved_at": "2026-11-24T01:21:53Z"
           }
         },
         "ranking_score": 72,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T23:58:12Z",
+      "generated_at": "2026-11-24T01:21:53Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
