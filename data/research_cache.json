@@ -4729,7 +4729,7 @@
         "totalDebt/totalEquityQuarterly": 0.4921,
         "marketCapitalization": 28797.11
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Dollar General Corp",
       "profile": {
         "weburl": "https://www.dollargeneral.com/",
@@ -4738,42 +4738,42 @@
       },
       "news": [
         {
-          "headline": "30 States Are Now Suing Dollar General Over Prices at the Register",
-          "url": "https://finnhub.io/api/news?id=02223bd126714cb08d0a99e4f7613bbcfe8f1967eca70ba5c0b3071d9b2d671e",
+          "headline": "Dollar General (DG) Increases Yet Falls Behind Market: What Investors Need to Know",
+          "url": "https://finnhub.io/api/news?id=a2baca6509c09361f4dc9351d5e609a73ade67555d1c8e2b7c22e95f14124ad9",
           "source": "Yahoo",
-          "published_at": "2026-11-21T18:42:44Z",
+          "published_at": "2026-11-23T22:15:01Z",
           "primary": false,
           "symbol": "DG"
         },
         {
-          "headline": "Ten more states join FTC pricing lawsuit against Dollar General",
-          "url": "https://finnhub.io/api/news?id=a6fee21e652320e4589e79e2abe747f5559d6a265901281ba3f627535461ce69",
+          "headline": "Majority of states now battling Dollar General over pricing practices",
+          "url": "https://finnhub.io/api/news?id=2043c3902d8d4cf14e821bda86e133d4f69fb9a8f72edb464a991377e49c54d4",
           "source": "Yahoo",
-          "published_at": "2026-11-20T20:16:46Z",
+          "published_at": "2026-11-23T16:42:00Z",
           "primary": false,
           "symbol": "DG"
         },
         {
-          "headline": "Ten Additional States Join FTC Lawsuit Alleging Dollar General Charged Consumers More than Advertised for Many Products",
-          "url": "https://finnhub.io/api/news?id=3a3dee570fac4b09b6e2d28aca3be13dfc5f48e5744061b3ee6763ee327e29d6",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T15:38:39Z",
+          "headline": "Can Dollar General Sustain Its 80% Delivery Sales Incrementality?",
+          "url": "https://finnhub.io/api/news?id=e24a763fb8f86a03965bf6241ac50906dcf1e797209346c9a8e0c1cc2fa3c423",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:20:00Z",
           "primary": false,
           "symbol": "DG"
         },
         {
-          "headline": "Walmart or Dollar General: Which Stock Should Investors Favor?",
-          "url": "https://finnhub.io/api/news?id=a017daf993454a953120e68a6acb11ccd59cae72832a416d1b026528a3844e3f",
+          "headline": "Dollar General: Piper Sandler bullish, sees steady high-teens EPS growth",
+          "url": "https://finnhub.io/api/news?id=41267ffd36e62ae7ee25b581a2b10239df7cfc171a1967a017eb6adffca66a0b",
           "source": "Yahoo",
-          "published_at": "2026-11-18T13:40:00Z",
+          "published_at": "2026-11-23T14:51:40Z",
           "primary": false,
           "symbol": "DG"
         },
         {
-          "headline": "Learn Why The Bull Case For Dollar General Stock Could Change Following December 3 Earnings",
-          "url": "https://finnhub.io/api/news?id=485f815813f5b431e77d9307089e727b22e13b87fd28f8df775c86e7ed949d56",
+          "headline": "Dollar General Stock Gets a Bump as Budget Shoppers Change Course",
+          "url": "https://finnhub.io/api/news?id=e5b047e6f9ab31beb41e79d20e7af722ac7460b43de10953c44a1bcd96afe775",
           "source": "Yahoo",
-          "published_at": "2026-11-18T13:09:34Z",
+          "published_at": "2026-11-23T14:38:31Z",
           "primary": false,
           "symbol": "DG"
         }
@@ -4783,16 +4783,16 @@
       "metrics": {
         "52WeekHigh": 97.76,
         "52WeekLow": 72.78,
-        "peTTM": 10.6421,
+        "peTTM": 10.531,
         "psTTM": 1.90599,
         "netProfitMarginTTM": 22.19029,
         "roeTTM": 12.839999999999998,
         "revenueGrowthTTMYoy": 72.74767,
         "epsGrowthTTMYoy": 15.87,
         "totalDebt/totalEquityQuarterly": 2.5123,
-        "marketCapitalization": 244469.53
+        "marketCapitalization": 241919.11
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Wells Fargo & Company",
       "profile": {
         "weburl": "https://www.wellsfargo.com",
@@ -4800,6 +4800,14 @@
         "name": "Wells Fargo & Company"
       },
       "news": [
+        {
+          "headline": "Blulabs Secures $80 Million Credit Facility from Wells Fargo",
+          "url": "https://finnhub.io/api/news?id=40e2ac92ee1e4df74908be3b06d35b5ea5f50a685e0c49a4dd6df44d1ac9a97e",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:00:00Z",
+          "primary": false,
+          "symbol": "WFC"
+        },
         {
           "headline": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far",
           "url": "https://finnhub.io/api/news?id=dcc4ca74ad29905cec595c7645827a978ebf632e96efabf4f4973bb3a86a5879",
@@ -4831,14 +4839,6 @@
           "published_at": "2026-11-20T19:14:27Z",
           "primary": false,
           "symbol": "WFC"
-        },
-        {
-          "headline": "Wells Fargo grapples with change in venerable business line",
-          "url": "https://finnhub.io/api/news?id=d03a1c116c6b37fac80c9883d7a680b1405af87e8950c3bd6f1c29557420a89b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:54:39Z",
-          "primary": false,
-          "symbol": "WFC"
         }
       ]
     },
@@ -4846,17 +4846,17 @@
       "metrics": {
         "52WeekHigh": 68.64,
         "52WeekLow": 45.27,
-        "peTTM": 13.0088,
-        "psTTM": 2.4035,
+        "peTTM": 13.0619,
+        "psTTM": 2.4133,
         "netProfitMarginTTM": 18.48,
         "roeTTM": 43.88,
         "revenueGrowthTTMYoy": 4.16,
         "epsGrowthTTMYoy": 52.39,
         "currentRatioQuarterly": 1.5873,
         "totalDebt/totalEquityQuarterly": 1.832,
-        "marketCapitalization": 120253.57
+        "marketCapitalization": 120744.15
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Bristol-Myers Squibb Company",
       "profile": {
         "weburl": "https://www.bms.com",
@@ -4865,42 +4865,42 @@
       },
       "news": [
         {
-          "headline": "Bristol Myers Squibb's Growth Portfolio Just Hit $7.7 Billion. Is This Cheap Pharma Stock a No-Brainer Buy?",
-          "url": "https://finnhub.io/api/news?id=513d34b2c89b8d84ce8772af872b13867647822d0f21c5106091e93dff57fe03",
+          "headline": "Bristol Myers Squibb Announces Planned Chief Financial Officer Transition",
+          "url": "https://finnhub.io/api/news?id=b02810657a4089cdd905d3dd76bafd8f443aa4037d0398863439397dde452e1b",
           "source": "Yahoo",
-          "published_at": "2026-11-21T00:35:02Z",
+          "published_at": "2026-11-23T21:15:00Z",
           "primary": false,
           "symbol": "BMY"
         },
         {
-          "headline": "Better Dividend Stock for Retirees: General Mills vs. Bristol Myers Squibb",
-          "url": "https://finnhub.io/api/news?id=bc940256fc1fb01e89583be338ba8ec3f43f54789f344bbf771c7ae3c536c886",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T18:20:25Z",
-          "primary": false,
-          "symbol": "BMY"
-        },
-        {
-          "headline": "Should You Buy Bristol Myers Squibb Stock At Today's Discount?",
-          "url": "https://finnhub.io/api/news?id=f10740f93bf7e183a97a88fa9a8cea441bf31f6034081fd8e162748aaf95dc4d",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:51:48Z",
-          "primary": false,
-          "symbol": "BMY"
-        },
-        {
-          "headline": "Erasca: 'Buy' On Expanded KRAS Targeting ERAS-4001 And Bristol-Myers Squibb Collaboration Tie-Up",
-          "url": "https://finnhub.io/api/news?id=39292d300a8d9dd6d42c1ae529679cc5acd458210c807e14dc94e32cdd4f1cf0",
+          "headline": "Bristol-Myers Squibb: As 'Mega-Merger' Rumors Fade, Valuation Hinges On The Pipeline",
+          "url": "https://finnhub.io/api/news?id=71f664d2098994688410ea876e481dc02f593baf1a68ba42363f749b385196ef",
           "source": "SeekingAlpha",
-          "published_at": "2026-11-20T10:53:08Z",
+          "published_at": "2026-11-23T17:02:58Z",
           "primary": false,
           "symbol": "BMY"
         },
         {
-          "headline": "Bristol Myers Squibb (BMY) Is Pushing Deeper Into Neuroscience",
-          "url": "https://finnhub.io/api/news?id=bcb35b354f79d0c0f92ac4d5dbe0123d3308464ca39d69ae81075e0d955251fc",
+          "headline": "Bristol Myers Squibb vs. Johnson & Johnson: Which Healthcare Giant's Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=b35ada46fe50bd1922248939cb7ee13b294c87fcd239299b2497f4fcdf625e83",
           "source": "Yahoo",
-          "published_at": "2026-11-20T08:11:07Z",
+          "published_at": "2026-11-23T16:31:02Z",
+          "primary": false,
+          "symbol": "BMY"
+        },
+        {
+          "headline": "Bristol Myers Squibb: Eliquis Is Carrying 2026, But 2028 Is Already Priced In",
+          "url": "https://finnhub.io/api/news?id=b03a825a23b46647b62170e3802333e8d6daa07ba717fb3ea0bb9db4a570b9fd",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T15:35:21Z",
+          "primary": false,
+          "symbol": "BMY"
+        },
+        {
+          "headline": "Bristol Myers Squibb: Too Cheap To Ignore At 9x Earnings",
+          "url": "https://finnhub.io/api/news?id=d1109427d597c75849f57f4772cb3115784768352d2f4f97165d0407b6b10e7d",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T10:00:00Z",
           "primary": false,
           "symbol": "BMY"
         }
@@ -4920,7 +4920,7 @@
         "totalDebt/totalEquityQuarterly": 0.8134,
         "marketCapitalization": 75906.48
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Northrop Grumman Corp",
       "profile": {
         "weburl": "https://www.northropgrumman.com",
@@ -4974,17 +4974,17 @@
       "metrics": {
         "52WeekHigh": 461.5198,
         "52WeekLow": 159.9,
-        "peTTM": 7.1759,
-        "psTTM": 0.6058,
+        "peTTM": 7.1995,
+        "psTTM": 0.6078,
         "netProfitMarginTTM": 8.44,
         "roeTTM": 51.49,
         "revenueGrowthTTMYoy": 24.58,
         "epsGrowthTTMYoy": 823.9,
         "currentRatioQuarterly": 1.7238,
         "totalDebt/totalEquityQuarterly": 0.3933,
-        "marketCapitalization": 92891.88
+        "marketCapitalization": 93197.586
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Valero Energy Corp",
       "profile": {
         "weburl": "https://www.valero.com/",
@@ -4992,6 +4992,14 @@
         "name": "Valero Energy Corp"
       },
       "news": [
+        {
+          "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+          "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:45:00Z",
+          "primary": false,
+          "symbol": "VLO"
+        },
         {
           "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
           "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
@@ -5023,14 +5031,6 @@
           "published_at": "2026-11-19T13:00:03Z",
           "primary": false,
           "symbol": "VLO"
-        },
-        {
-          "headline": "Valero Energy vs. Phillips 66: Which is the Stronger Refining Player?",
-          "url": "https://finnhub.io/api/news?id=969a673baaf84bde363973cbce046c2c604c79c29500ca917da58a1971cda35e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:51:00Z",
-          "primary": false,
-          "symbol": "VLO"
         }
       ]
     },
@@ -5038,17 +5038,17 @@
       "metrics": {
         "52WeekHigh": 255.2,
         "52WeekLow": 181.47,
-        "peTTM": 106.2608,
-        "psTTM": 12.8399,
+        "peTTM": 105.7894,
+        "psTTM": 12.783,
         "netProfitMarginTTM": 12.08,
         "roeTTM": 3.6799999999999997,
         "revenueGrowthTTMYoy": 39.22,
         "epsGrowthTTMYoy": 57.21,
         "currentRatioQuarterly": 1.1404,
         "totalDebt/totalEquityQuarterly": 0.3951,
-        "marketCapitalization": 177105.03
+        "marketCapitalization": 176319.47
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Welltower Inc.",
       "profile": {
         "weburl": "https://welltower.com/",
@@ -5102,17 +5102,17 @@
       "metrics": {
         "52WeekHigh": 613.0,
         "52WeekLow": 294.6,
-        "peTTM": 7.6998,
-        "psTTM": 2.8416,
+        "peTTM": 7.4217,
+        "psTTM": 2.7389,
         "netProfitMarginTTM": 36.9,
         "roeTTM": 14.6,
         "revenueGrowthTTMYoy": 14.52,
         "epsGrowthTTMYoy": 32.5,
         "currentRatioQuarterly": 1.3268,
         "totalDebt/totalEquityQuarterly": 0.1658,
-        "marketCapitalization": 219039.58000000002
+        "marketCapitalization": 211374.48
       },
-      "updated_at": "2026-11-22T04:00:48Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Trip.com Group Ltd",
       "profile": {
         "weburl": "https://group.trip.com/",
@@ -5175,7 +5175,7 @@
         "totalDebt/totalEquityQuarterly": 0.8564,
         "marketCapitalization": 25885.477
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Dollar Tree Inc",
       "profile": {
         "weburl": "https://www.dollartree.com/",
@@ -5183,6 +5183,14 @@
         "name": "Dollar Tree Inc"
       },
       "news": [
+        {
+          "headline": "Dear Dollar Tree Stock Fans, Mark Your Calendars for November 24",
+          "url": "https://finnhub.io/api/news?id=24a43a0b733f943482a19d86d45e3ce4ce026a6998df97474da50cf68af03e06",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:09:40Z",
+          "primary": false,
+          "symbol": "DLTR"
+        },
         {
           "headline": "Dollar Tree (DLTR) Stock May Be A Bargain Based On Cash Flow",
           "url": "https://finnhub.io/api/news?id=42c9422af2fb9660eae8f5ef32e073d51d183c9e69b9d6c18c503ccedff43093",
@@ -5214,14 +5222,6 @@
           "published_at": "2026-11-20T12:03:24Z",
           "primary": false,
           "symbol": "DLTR"
-        },
-        {
-          "headline": "Warren Buffett Stopped Giving Bill Gates’s Foundation Berkshire Shares. It Just Sold $1 Billion More and Bought a Dollar Store. Here’s When the Rest Runs Out",
-          "url": "https://finnhub.io/api/news?id=0cea0d09c4213dbd13ec2eacfd21780eff9385bf0c44f8f4bcca265ff9659781",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T00:43:03Z",
-          "primary": false,
-          "symbol": "DLTR"
         }
       ]
     },
@@ -5229,16 +5229,16 @@
       "metrics": {
         "52WeekHigh": 147.96,
         "52WeekLow": 95.83,
-        "peTTM": 9.4713,
+        "peTTM": 9.8052,
         "psTTM": 1.09533,
         "netProfitMarginTTM": 17.3666,
         "roeTTM": 9.15,
         "revenueGrowthTTMYoy": 99.23775,
         "epsGrowthTTMYoy": 42.89,
         "totalDebt/totalEquityQuarterly": 3.9037,
-        "marketCapitalization": 183098.72
+        "marketCapitalization": 189554.02
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Citigroup Inc.",
       "profile": {
         "weburl": "http://www.citigroup.com/",
@@ -5247,42 +5247,42 @@
       },
       "news": [
         {
-          "headline": "Does Citigroup (C) Risk Error And USDC Pilot Change The Investment Case?",
-          "url": "https://finnhub.io/api/news?id=4ef5287cc0a96958cc496ad6d44e44dc4479c55e8e04cbb5b6e88a2c2ab9ed76",
+          "headline": "Is Earnings Rebound Altering The Investment Case For Citigroup (C)?",
+          "url": "https://finnhub.io/api/news?id=dda6b2e7627923979af74b3a14ae39004acfb88389130696f43a0bc74f7620d7",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:15:04Z",
+          "published_at": "2026-11-24T01:17:27Z",
           "primary": false,
           "symbol": "C"
         },
         {
-          "headline": "Update: Market Chatter: Citigroup Injects Capital Into Unit After Modeling Error Understated Risk",
-          "url": "https://finnhub.io/api/news?id=64b62263a9ef5ec79bed2f1e7e90f45cab3b80186ee2a67b10b985d486ba5320",
+          "headline": "Citigroup Executive Says Credit Card Customers Spend 9 Times More. Here’s Why the Bank Wants More of Them.",
+          "url": "https://finnhub.io/api/news?id=55a638f63e24ccf3ab55d870ac4ff08d86ed22d2f843be669627dd127f052c51",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:19:04Z",
+          "published_at": "2026-11-23T16:14:05Z",
           "primary": false,
           "symbol": "C"
         },
         {
-          "headline": "Citigroup: The Group Return Hides What Five Businesses Already Earn",
-          "url": "https://finnhub.io/api/news?id=f14e83c00a5bea7e6afc0d2b35facb500c47c22c092b41dd0eecb479d596c4dc",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T08:19:14Z",
-          "primary": false,
-          "symbol": "C"
-        },
-        {
-          "headline": "Citigroup Series II Preferreds: Decent Yield At A Discounted Price",
-          "url": "https://finnhub.io/api/news?id=5396d9dd25eddb483977df0f6e0f2e241a2afb01eafa15e9116d8703b34d2fbf",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T02:22:01Z",
-          "primary": false,
-          "symbol": "C"
-        },
-        {
-          "headline": "Citigroup (C) Stock Moves -1.76%: What You Should Know",
-          "url": "https://finnhub.io/api/news?id=e724e8794591f982e79291e7a3c910e0d72d0a12229cfafde2db7524b09ac589",
+          "headline": "Wall Street Bulls Look Optimistic About Citigroup (C): Should You Buy?",
+          "url": "https://finnhub.io/api/news?id=3d3a11cc4cf97a42254f0368eb6f7269cf0b1fedb4afafd64718745ef6f92129",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:45:02Z",
+          "published_at": "2026-11-23T13:30:02Z",
+          "primary": false,
+          "symbol": "C"
+        },
+        {
+          "headline": "Citigroup (C) Stock Still Looks Undervalued After A 167% Run",
+          "url": "https://finnhub.io/api/news?id=789d6e7944d57ff22b352cf0960476dcbe8a2ef4989f923d88a877e754978ea4",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:10:51Z",
+          "primary": false,
+          "symbol": "C"
+        },
+        {
+          "headline": "Trump Backs a 10% Card Rate Cap With Democrats. That’s a Big Risk for JPMorgan and Citigroup",
+          "url": "https://finnhub.io/api/news?id=298f984ac8141906d6bd6acd01eb3186bdfcdd29c6cf9bc5a12a77262bd6fedf",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T15:05:23Z",
           "primary": false,
           "symbol": "C"
         }
@@ -5302,7 +5302,7 @@
         "totalDebt/totalEquityQuarterly": 3.763,
         "marketCapitalization": 235642.69
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Amgen Inc",
       "profile": {
         "weburl": "https://www.amgen.com/",
@@ -5310,6 +5310,22 @@
         "name": "Amgen Inc"
       },
       "news": [
+        {
+          "headline": "AMGEN TO PRESENT AT CITI'S 2026 GLOBAL HEALTHCARE CONFERENCE",
+          "url": "https://finnhub.io/api/news?id=8840784e5b2ce782021964ce0324eea73600e2129cb87c419c124786aa492c40",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:30:00Z",
+          "primary": false,
+          "symbol": "AMGN"
+        },
+        {
+          "headline": "AMGEN TO PRESENT AT THE 9TH ANNUAL EVERCORE ISI HEALTHCONX CONFERENCE",
+          "url": "https://finnhub.io/api/news?id=fc59d78eb0d6ebe27916f2dacbcfedf103a7a7b01e310b8fb60418619daf2140",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:01:00Z",
+          "primary": false,
+          "symbol": "AMGN"
+        },
         {
           "headline": "Investors Heavily Search Amgen Inc. (AMGN): Here is What You Need to Know",
           "url": "https://finnhub.io/api/news?id=f7d32677883ae8b0bef6c67bdd8d8af76d6ed099186017d114010cc00daa9f6c",
@@ -5333,22 +5349,6 @@
           "published_at": "2026-11-19T14:19:53Z",
           "primary": false,
           "symbol": "AMGN"
-        },
-        {
-          "headline": "Should Biogen Stock Holders Look At Amgen Instead?",
-          "url": "https://finnhub.io/api/news?id=ed494b7858dafa5485ab5d9561bf8a6cce20d3df43128501617a00efa63da5b1",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:30:44Z",
-          "primary": false,
-          "symbol": "AMGN"
-        },
-        {
-          "headline": "Piper Sandler Reiterates Overweight on Amgen, Raises Price Target to $542",
-          "url": "https://finnhub.io/api/news?id=d59d65366637244fafc06c402a3cd7efa6b41e5e20616d216a9df6190fa6baae",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T11:12:55Z",
-          "primary": false,
-          "symbol": "AMGN"
         }
       ]
     },
@@ -5366,7 +5366,7 @@
         "totalDebt/totalEquityQuarterly": 0.2571,
         "marketCapitalization": 92355.71
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "General Dynamics Corp",
       "profile": {
         "weburl": "https://www.gd.com",
@@ -5430,7 +5430,7 @@
         "totalDebt/totalEquityQuarterly": 0.5397,
         "marketCapitalization": 93375.53
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T04:09:11Z",
       "name": "Phillips 66",
       "profile": {
         "weburl": "https://www.phillips66.com/",
@@ -5438,6 +5438,14 @@
         "name": "Phillips 66"
       },
       "news": [
+        {
+          "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+          "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:45:00Z",
+          "primary": false,
+          "symbol": "PSX"
+        },
         {
           "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
           "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
@@ -5467,14 +5475,6 @@
           "url": "https://finnhub.io/api/news?id=88b38eba031a8a3e66c8c4492e87fdedf3349e7fd9cde890bccd7c8a9ebbaa1e",
           "source": "Benzinga",
           "published_at": "2026-11-20T10:45:42Z",
-          "primary": false,
-          "symbol": "PSX"
-        },
-        {
-          "headline": "What’s Going On With Phillips 66 (PSX)?",
-          "url": "https://finnhub.io/api/news?id=00704ce904f3880853b4a666d1979d61a9dce9d71c540ec4476e4b7138358679",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T09:08:24Z",
           "primary": false,
           "symbol": "PSX"
         }
@@ -29704,6 +29704,6 @@
       ]
     }
   },
-  "cursor": 78,
-  "updated_at": "2026-11-24T03:00:05Z"
+  "cursor": 90,
+  "updated_at": "2026-11-24T04:09:11Z"
 }

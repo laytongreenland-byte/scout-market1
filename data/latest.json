@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:00:05Z",
+  "generated_at": "2026-11-24T04:09:11Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T03:00:05Z",
+      "checked_at": "2026-11-24T04:09:11Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T03:00:05Z",
+      "checked_at": "2026-11-24T04:09:11Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T03:00:05Z",
+      "checked_at": "2026-11-24T04:09:11Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T03:00:05Z",
+      "checked_at": "2026-11-24T04:09:11Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T03:00:05Z",
+      "checked_at": "2026-11-24T04:09:11Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T03:00:05Z",
+    "generated_at": "2026-11-24T04:09:11Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8131,7 +8131,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 22.2% (TTM); Return on equity 12.8% (TTM); Trailing P/E 10.6×; TTM revenue growth 72.7% YoY",
+        "why": "Net profit margin 22.2% (TTM); Return on equity 12.8% (TTM); Trailing P/E 10.5×; TTM revenue growth 72.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8145,35 +8145,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T04:00:48Z",
+            "timestamp": "2026-11-24T04:09:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far",
-            "timestamp": "2026-11-21T10:33:56Z",
-            "url": "https://finnhub.io/api/news?id=dcc4ca74ad29905cec595c7645827a978ebf632e96efabf4f4973bb3a86a5879"
+            "value": "Blulabs Secures $80 Million Credit Facility from Wells Fargo",
+            "timestamp": "2026-11-23T14:00:00Z",
+            "url": "https://finnhub.io/api/news?id=40e2ac92ee1e4df74908be3b06d35b5ea5f50a685e0c49a4dd6df44d1ac9a97e"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T04:00:48Z",
+        "fundamentals_at": "2026-11-24T04:09:11Z",
         "price": 80.0,
         "currency": "USD",
         "change_pct": 1.755,
         "news": [
           {
-            "headline": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far",
-            "url": "https://finnhub.io/api/news?id=dcc4ca74ad29905cec595c7645827a978ebf632e96efabf4f4973bb3a86a5879",
+            "headline": "Blulabs Secures $80 Million Credit Facility from Wells Fargo",
+            "url": "https://finnhub.io/api/news?id=40e2ac92ee1e4df74908be3b06d35b5ea5f50a685e0c49a4dd6df44d1ac9a97e",
             "source": "Yahoo",
-            "published_at": "2026-11-21T10:33:56Z",
+            "published_at": "2026-11-23T14:00:00Z",
             "primary": false,
             "symbol": "WFC"
           },
           {
-            "headline": "Wells Fargo: Freedom To Grow Is No Longer The Whole Story",
-            "url": "https://finnhub.io/api/news?id=5e05c40dca8e63171d6936ca5c1b817b9e83d350d8939d2e983189de95c2773d",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-21T10:00:23Z",
+            "headline": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far",
+            "url": "https://finnhub.io/api/news?id=dcc4ca74ad29905cec595c7645827a978ebf632e96efabf4f4973bb3a86a5879",
+            "source": "Yahoo",
+            "published_at": "2026-11-21T10:33:56Z",
             "primary": false,
             "symbol": "WFC"
           }
@@ -8224,35 +8224,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T04:00:48Z",
+            "timestamp": "2026-11-24T04:09:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
-            "timestamp": "2026-11-21T22:17:33Z",
-            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56"
+            "value": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+            "timestamp": "2026-11-23T11:45:00Z",
+            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T04:00:48Z",
+        "fundamentals_at": "2026-11-24T04:09:11Z",
         "price": 329.4,
         "currency": "USD",
         "change_pct": -1.43,
         "news": [
           {
-            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
-            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
+            "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
             "source": "Yahoo",
-            "published_at": "2026-11-21T22:17:33Z",
+            "published_at": "2026-11-23T11:45:00Z",
             "primary": false,
             "symbol": "VLO"
           },
           {
-            "headline": "Why Everyone Is Watching Valero Energy (VLO) Right Now",
-            "url": "https://finnhub.io/api/news?id=30e6ea684adef0a0a6bc4e13411d22a751a520044fe19654357e92cd8228318a",
+            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
+            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
             "source": "Yahoo",
-            "published_at": "2026-11-20T09:07:42Z",
+            "published_at": "2026-11-21T22:17:33Z",
             "primary": false,
             "symbol": "VLO"
           }
@@ -9751,7 +9751,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.5×; TTM revenue growth 99.2% YoY",
+        "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.8×; TTM revenue growth 99.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9765,35 +9765,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T05:06:24Z",
+            "timestamp": "2026-11-24T04:09:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Does Citigroup (C) Risk Error And USDC Pilot Change The Investment Case?",
-            "timestamp": "2026-11-20T21:15:04Z",
-            "url": "https://finnhub.io/api/news?id=4ef5287cc0a96958cc496ad6d44e44dc4479c55e8e04cbb5b6e88a2c2ab9ed76"
+            "value": "Is Earnings Rebound Altering The Investment Case For Citigroup (C)?",
+            "timestamp": "2026-11-24T01:17:27Z",
+            "url": "https://finnhub.io/api/news?id=dda6b2e7627923979af74b3a14ae39004acfb88389130696f43a0bc74f7620d7"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T05:06:24Z",
+        "fundamentals_at": "2026-11-24T04:09:11Z",
         "price": 114.35,
         "currency": "USD",
         "change_pct": 3.372,
         "news": [
           {
-            "headline": "Does Citigroup (C) Risk Error And USDC Pilot Change The Investment Case?",
-            "url": "https://finnhub.io/api/news?id=4ef5287cc0a96958cc496ad6d44e44dc4479c55e8e04cbb5b6e88a2c2ab9ed76",
+            "headline": "Is Earnings Rebound Altering The Investment Case For Citigroup (C)?",
+            "url": "https://finnhub.io/api/news?id=dda6b2e7627923979af74b3a14ae39004acfb88389130696f43a0bc74f7620d7",
             "source": "Yahoo",
-            "published_at": "2026-11-20T21:15:04Z",
+            "published_at": "2026-11-24T01:17:27Z",
             "primary": false,
             "symbol": "C"
           },
           {
-            "headline": "Update: Market Chatter: Citigroup Injects Capital Into Unit After Modeling Error Understated Risk",
-            "url": "https://finnhub.io/api/news?id=64b62263a9ef5ec79bed2f1e7e90f45cab3b80186ee2a67b10b985d486ba5320",
+            "headline": "Citigroup Executive Says Credit Card Customers Spend 9 Times More. Here’s Why the Bank Wants More of Them.",
+            "url": "https://finnhub.io/api/news?id=55a638f63e24ccf3ab55d870ac4ff08d86ed22d2f843be669627dd127f052c51",
             "source": "Yahoo",
-            "published_at": "2026-11-20T13:19:04Z",
+            "published_at": "2026-11-23T16:14:05Z",
             "primary": false,
             "symbol": "C"
           }
@@ -12721,35 +12721,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T05:06:24Z",
+            "timestamp": "2026-11-24T04:09:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
-            "timestamp": "2026-11-21T22:17:33Z",
-            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56"
+            "value": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+            "timestamp": "2026-11-23T11:45:00Z",
+            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T05:06:24Z",
+        "fundamentals_at": "2026-11-24T04:09:11Z",
         "price": 237.22,
         "currency": "USD",
         "change_pct": -0.882,
         "news": [
           {
-            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
-            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
+            "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
             "source": "Yahoo",
-            "published_at": "2026-11-21T22:17:33Z",
+            "published_at": "2026-11-23T11:45:00Z",
             "primary": false,
             "symbol": "PSX"
           },
           {
-            "headline": "Phillips 66 (PSX) Stock May Still Be A Bargain As Strong Q3 Earnings Land",
-            "url": "https://finnhub.io/api/news?id=462558b3ea6bb7db8807433216e31b0faa6eb8b53e04c1bd992304642b0dcb18",
+            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
+            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
             "source": "Yahoo",
-            "published_at": "2026-11-20T19:10:04Z",
+            "published_at": "2026-11-21T22:17:33Z",
             "primary": false,
             "symbol": "PSX"
           }
@@ -13214,7 +13214,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Pharmaceuticals",
-        "why": "Net profit margin 18.5% (TTM); Return on equity 43.9% (TTM); Trailing P/E 13.0×; TTM revenue growth 4.2% YoY",
+        "why": "Net profit margin 18.5% (TTM); Return on equity 43.9% (TTM); Trailing P/E 13.1×; TTM revenue growth 4.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13228,35 +13228,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T04:00:48Z",
+            "timestamp": "2026-11-24T04:09:11Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Bristol Myers Squibb's Growth Portfolio Just Hit $7.7 Billion. Is This Cheap Pharma Stock a No-Brainer Buy?",
-            "timestamp": "2026-11-21T00:35:02Z",
-            "url": "https://finnhub.io/api/news?id=513d34b2c89b8d84ce8772af872b13867647822d0f21c5106091e93dff57fe03"
+            "value": "Bristol Myers Squibb Announces Planned Chief Financial Officer Transition",
+            "timestamp": "2026-11-23T21:15:00Z",
+            "url": "https://finnhub.io/api/news?id=b02810657a4089cdd905d3dd76bafd8f443aa4037d0398863439397dde452e1b"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T04:00:48Z",
+        "fundamentals_at": "2026-11-24T04:09:11Z",
         "price": 59.84,
         "currency": "USD",
         "change_pct": 1.769,
         "news": [
           {
-            "headline": "Bristol Myers Squibb's Growth Portfolio Just Hit $7.7 Billion. Is This Cheap Pharma Stock a No-Brainer Buy?",
-            "url": "https://finnhub.io/api/news?id=513d34b2c89b8d84ce8772af872b13867647822d0f21c5106091e93dff57fe03",
+            "headline": "Bristol Myers Squibb Announces Planned Chief Financial Officer Transition",
+            "url": "https://finnhub.io/api/news?id=b02810657a4089cdd905d3dd76bafd8f443aa4037d0398863439397dde452e1b",
             "source": "Yahoo",
-            "published_at": "2026-11-21T00:35:02Z",
+            "published_at": "2026-11-23T21:15:00Z",
             "primary": false,
             "symbol": "BMY"
           },
           {
-            "headline": "Better Dividend Stock for Retirees: General Mills vs. Bristol Myers Squibb",
-            "url": "https://finnhub.io/api/news?id=bc940256fc1fb01e89583be338ba8ec3f43f54789f344bbf771c7ae3c536c886",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T18:20:25Z",
+            "headline": "Bristol-Myers Squibb: As 'Mega-Merger' Rumors Fade, Valuation Hinges On The Pipeline",
+            "url": "https://finnhub.io/api/news?id=71f664d2098994688410ea876e481dc02f593baf1a68ba42363f749b385196ef",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-23T17:02:58Z",
             "primary": false,
             "symbol": "BMY"
           }
@@ -13268,10 +13268,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 56.95,
           "entry_floor": 51.26,
-          "exit_review_low": 74.98,
-          "exit_review_high": 87.41,
-          "bear_case": 42.54,
-          "scenario_upside_pct": 25.3,
+          "exit_review_low": 74.67,
+          "exit_review_high": 87.05,
+          "bear_case": 42.37,
+          "scenario_upside_pct": 24.8,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13284,12 +13284,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 13.01,
+            "trailing_pe": 13.06,
             "earnings_growth_assumed_pct": 1.87,
             "scenario_exit_pe": 16.0,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T04:00:48Z"
+            "metrics_retrieved_at": "2026-11-24T04:09:11Z"
           }
         },
         "ranking_score": 76,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T03:00:05Z",
+      "generated_at": "2026-11-24T04:09:11Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
