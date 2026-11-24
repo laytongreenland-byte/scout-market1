@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:00:53Z",
+  "generated_at": "2026-11-23T23:58:12Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-23T23:00:53Z",
+      "checked_at": "2026-11-23T23:58:12Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-23T23:00:53Z",
+      "checked_at": "2026-11-23T23:58:12Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-23T23:00:53Z",
+      "checked_at": "2026-11-23T23:58:12Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-23T23:00:53Z",
+      "checked_at": "2026-11-23T23:58:12Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-23T23:00:53Z",
+      "checked_at": "2026-11-23T23:58:12Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-23T23:00:53Z",
+    "generated_at": "2026-11-23T23:58:12Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7671,35 +7671,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T01:17:19Z",
+            "timestamp": "2026-11-23T23:58:12Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
-            "timestamp": "2026-11-21T02:13:15Z",
-            "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7"
+            "value": "ConocoPhillips Strikes $4.4 Billion North Sea Deal. US Oil Giant Set To Exit Norway After 50 Years.",
+            "timestamp": "2026-11-23T16:19:08Z",
+            "url": "https://finnhub.io/api/news?id=0a4aad9de5d04e4696bc5611849812e3567223182451cadf3a0c9c5e19229ff3"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T01:17:19Z",
+        "fundamentals_at": "2026-11-23T23:58:12Z",
         "price": 132.19,
         "currency": "USD",
         "change_pct": -2.887,
         "news": [
           {
-            "headline": "ConocoPhillips (COP) Just Drew Fresh Attention, So What Is The Market Weighing?",
-            "url": "https://finnhub.io/api/news?id=c0385d6d0458d0787af95ea303f08640126b18387662022ff5e06e4d815143a7",
+            "headline": "ConocoPhillips Strikes $4.4 Billion North Sea Deal. US Oil Giant Set To Exit Norway After 50 Years.",
+            "url": "https://finnhub.io/api/news?id=0a4aad9de5d04e4696bc5611849812e3567223182451cadf3a0c9c5e19229ff3",
             "source": "Yahoo",
-            "published_at": "2026-11-21T02:13:15Z",
+            "published_at": "2026-11-23T16:19:08Z",
             "primary": false,
             "symbol": "COP"
           },
           {
-            "headline": "Learn Why The Bull Case For ConocoPhillips Stock Could Change Following Earnings And Dividend Hike",
-            "url": "https://finnhub.io/api/news?id=f05612f1bc0652149c4e8abea51f2aee47e0c7b92bcffca1ecf85918cdfb46b5",
+            "headline": "Exxon, Chevron and ConocoPhillips Are Down. Here’s What Their Dividends Tell Investors",
+            "url": "https://finnhub.io/api/news?id=4d3273e83d7fa536a530271d0fcf7b1049e4de21cbc1e9dd6839b6e16d9ca701",
             "source": "Yahoo",
-            "published_at": "2026-11-18T18:10:04Z",
+            "published_at": "2026-11-23T14:17:05Z",
             "primary": false,
             "symbol": "COP"
           }
@@ -11482,7 +11482,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Beverages",
-        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.6×; TTM revenue growth 6.4% YoY",
+        "why": "Net profit margin 11.1% (TTM); Return on equity 50.6% (TTM); Trailing P/E 17.5×; TTM revenue growth 6.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11496,35 +11496,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-21T23:48:12Z",
+            "timestamp": "2026-11-23T23:58:12Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "PEPSICO INC (NASDAQ:PEP): A Quality Investing Case With High ROIC but Mature Growth",
-            "timestamp": "2026-11-21T09:41:00Z",
-            "url": "https://finnhub.io/api/news?id=4ee88a6b605204cf5a05c4d5c56e6758de5128e840d826745362dca8a9a9829c"
+            "value": "PepsiCo (PEP) Stock May Be 49% Undervalued Following Margin Concerns",
+            "timestamp": "2026-11-23T19:11:21Z",
+            "url": "https://finnhub.io/api/news?id=e1d59442061ba215c21644277dea47817074a385666940c2a168237648b5cdea"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-21T23:48:12Z",
+        "fundamentals_at": "2026-11-23T23:58:12Z",
         "price": 140.21,
         "currency": "USD",
         "change_pct": -0.235,
         "news": [
           {
-            "headline": "PEPSICO INC (NASDAQ:PEP): A Quality Investing Case With High ROIC but Mature Growth",
-            "url": "https://finnhub.io/api/news?id=4ee88a6b605204cf5a05c4d5c56e6758de5128e840d826745362dca8a9a9829c",
-            "source": "ChartMill",
-            "published_at": "2026-11-21T09:41:00Z",
+            "headline": "PepsiCo (PEP) Stock May Be 49% Undervalued Following Margin Concerns",
+            "url": "https://finnhub.io/api/news?id=e1d59442061ba215c21644277dea47817074a385666940c2a168237648b5cdea",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T19:11:21Z",
             "primary": false,
             "symbol": "PEP"
           },
           {
-            "headline": "PepsiCo Stock And Other Defensive Value Picks For Higher Rates",
-            "url": "https://finnhub.io/api/news?id=138b12a8ff224aa0f3f8745e95673eeeebd4a8eb1ee191e0a3d5d4e2788c8ff4",
+            "headline": "Coca-Cola vs. PepsiCo: Which Consumer Goods Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=4847d48636c8a96f5eb6a4d0b2ce3eb15e4c6569288325986216767584b6b487",
             "source": "Yahoo",
-            "published_at": "2026-11-21T05:12:29Z",
+            "published_at": "2026-11-23T17:50:02Z",
             "primary": false,
             "symbol": "PEP"
           }
@@ -11534,12 +11534,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 105.38,
-          "entry_floor": 94.84,
-          "exit_review_low": 135.11,
-          "exit_review_high": 158.61,
-          "bear_case": 75.92,
-          "scenario_upside_pct": -3.6,
+          "entry_ceiling": 106.25,
+          "entry_floor": 95.63,
+          "exit_review_low": 136.22,
+          "exit_review_high": 159.92,
+          "bear_case": 76.55,
+          "scenario_upside_pct": -2.8,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11552,12 +11552,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 17.65,
+            "trailing_pe": 17.5,
             "earnings_growth_assumed_pct": 2.86,
             "scenario_exit_pe": 16.53,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-21T23:48:12Z"
+            "metrics_retrieved_at": "2026-11-23T23:58:12Z"
           }
         },
         "ranking_score": 78,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-23T23:00:53Z",
+      "generated_at": "2026-11-23T23:58:12Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
