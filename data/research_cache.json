@@ -11182,17 +11182,17 @@
       "metrics": {
         "52WeekHigh": 5525.0,
         "52WeekLow": 4068.0,
-        "peTTM": 13.6692,
-        "psTTM": 2.7553,
+        "peTTM": 13.5788,
+        "psTTM": 2.7371,
         "netProfitMarginTTM": 20.16,
         "roeTTM": 58.45,
         "revenueGrowthTTMYoy": -10.66,
         "epsGrowthTTMYoy": 68.37,
         "currentRatioQuarterly": 0.7403,
         "totalDebt/totalEquityQuarterly": 1.9828,
-        "marketCapitalization": 106208.44
+        "marketCapitalization": 105332.805
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Unilever PLC",
       "profile": {
         "weburl": "https://www.unilever.com/",
@@ -11231,7 +11231,7 @@
         "totalDebt/totalEquityQuarterly": 0.8608,
         "marketCapitalization": 40395.11
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Prudential Financial Inc",
       "profile": {
         "weburl": "https://www.prudential.com/",
@@ -11240,18 +11240,42 @@
       },
       "news": [
         {
-          "headline": "An $850,000 Portfolio in Agree Realty, Kimberly-Clark and Prudential Pays $39,728 a Year in Dividends. Here’s What Happens if One Cuts",
-          "url": "https://finnhub.io/api/news?id=65ec3107100a5f1e6ec968b75939701d012f3fcf73a54cdc9fa5ffe55d0b43dc",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T10:50:18Z",
+          "headline": "Goldman Sachs Initiates Coverage of Prudential Financial with Sell Rating",
+          "url": "https://finnhub.io/api/news?id=02bf64c1c544dfa4b92b3fbe8597609389f33c984b1dcb0480f96c2abcb1ff6a",
+          "source": "Fintel",
+          "published_at": "2026-11-24T01:06:31Z",
           "primary": false,
           "symbol": "PRU"
         },
         {
-          "headline": "Mizuho Maintains Neutral on Prudential Financial, Raises Price Target to $124",
-          "url": "https://finnhub.io/api/news?id=b40222a8c9ad97a7d9f9c41bf80b7bb45bad59ca537376ab8a065ef084b3ecdb",
+          "headline": "Prudential Financial, Inc. Elects Jay Wintrob to Board of Directors",
+          "url": "https://finnhub.io/api/news?id=1a0db7d737a8592ab17ae4fe406d72eba0e15aa4104ef612142e751963cf0713",
+          "source": "Fintel",
+          "published_at": "2026-11-23T15:18:51Z",
+          "primary": false,
+          "symbol": "PRU"
+        },
+        {
+          "headline": "Prudential Financial Elects Jay Wintrob to Board of Directors",
+          "url": "https://finnhub.io/api/news?id=e7f07ec3f5b2498c39b000994764aade16d6ffaffa57ec82f2d881e70d36eb6f",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:35:00Z",
+          "primary": false,
+          "symbol": "PRU"
+        },
+        {
+          "headline": "Goldman Sachs Initiates Coverage On Prudential Financial with Sell Rating, Announces Price Target of $113",
+          "url": "https://finnhub.io/api/news?id=ee49addd22184a381441e37b30a26c1f0941d09691db79618798b0c2f3a5026b",
           "source": "Benzinga",
-          "published_at": "2026-11-17T11:25:47Z",
+          "published_at": "2026-11-23T12:48:03Z",
+          "primary": false,
+          "symbol": "PRU"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Underweight on Prudential Financial, Raises Price Target to $108",
+          "url": "https://finnhub.io/api/news?id=e915c8f4b8ca2192007b334ac8131b6856bed7bd2b17efc078e7d8e7f3c316ea",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:41:53Z",
           "primary": false,
           "symbol": "PRU"
         }
@@ -11261,17 +11285,17 @@
       "metrics": {
         "52WeekHigh": 318.05,
         "52WeekLow": 257.85,
-        "peTTM": 11.9179,
-        "psTTM": 0.2493,
+        "peTTM": 11.8976,
+        "psTTM": 0.2489,
         "netProfitMarginTTM": 2.09,
         "roeTTM": 14.099999999999998,
         "revenueGrowthTTMYoy": 6.8,
         "epsGrowthTTMYoy": -0.54,
         "currentRatioQuarterly": 0.8429,
         "totalDebt/totalEquityQuarterly": 0.7178,
-        "marketCapitalization": 71388.12
+        "marketCapitalization": 71266.9
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "The Cigna Group",
       "profile": {
         "weburl": "https://www.thecignagroup.com/",
@@ -11279,6 +11303,14 @@
         "name": "The Cigna Group"
       },
       "news": [
+        {
+          "headline": "ETFs Are Net Sellers of Cigna (CI) on Nov. 20",
+          "url": "https://finnhub.io/api/news?id=55436f8851b2b44d6890536cdecac59608a64f9e4fe8e15bfa203cd20606919a",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T11:02:38Z",
+          "primary": false,
+          "symbol": "CI"
+        },
         {
           "headline": "Is Cigna Group (CI) Undervalued Following Its UBS Healthcare Conference Update?",
           "url": "https://finnhub.io/api/news?id=fecebce09c3213ba4f56bacea1ea470d9ef8b11f9fed3b1876bfba4beb324375",
@@ -11310,32 +11342,24 @@
           "published_at": "2026-11-19T11:30:44Z",
           "primary": false,
           "symbol": "CI"
-        },
-        {
-          "headline": "RBC Capital Maintains Outperform on Cigna Group, Raises Price Target to $346",
-          "url": "https://finnhub.io/api/news?id=8b6114921aca5ee30bf998a2b8123dcd5862b39cac06b0d87c90db18b8610b4b",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T11:09:23Z",
-          "primary": false,
-          "symbol": "CI"
         }
       ]
     },
     "FDX": {
       "metrics": {
         "52WeekHigh": 345.37,
-        "52WeekLow": 211.92,
-        "peTTM": 8.9173,
-        "psTTM": 0.8939,
+        "52WeekLow": 212.02,
+        "peTTM": 9.1131,
+        "psTTM": 0.9135,
         "netProfitMarginTTM": 10.02,
         "roeTTM": 12.559999999999999,
         "revenueGrowthTTMYoy": -10.09,
         "epsGrowthTTMYoy": 97.25,
         "currentRatioQuarterly": 1.3271,
         "totalDebt/totalEquityQuarterly": 0.5599,
-        "marketCapitalization": 71195.44
+        "marketCapitalization": 72758.72
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "FedEx Corp",
       "profile": {
         "weburl": "https://www.fedex.com/en-us/home.html",
@@ -11344,42 +11368,42 @@
       },
       "news": [
         {
-          "headline": "Consortium of Advent, FedEx, A&R and PPF Completes Acquisition of InPost",
-          "url": "https://finnhub.io/api/news?id=7baa943f7592b3e3fe568810c2706f746055ec65477578cdf0583e01d2baccb5",
+          "headline": "FedEx, UPS’ upcoming rate hikes: What shippers should know",
+          "url": "https://finnhub.io/api/news?id=144ff6f8875db29c88d91926bde7a2a99c3d76be96effcfb2fd8adb8be8d2d4a",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:00:00Z",
+          "published_at": "2026-11-24T15:21:00Z",
           "primary": false,
           "symbol": "FDX"
         },
         {
-          "headline": "Global Retail Logistics Market to Reach $612 Billion by 2032, Driven by E-Commerce, Automation and Omnichannel Expansion - A.P. Moller-Maersk, Deutsche Post, DSV, and FedEx Battle for Share",
-          "url": "https://finnhub.io/api/news?id=c1e28f82b4e8802c642f4f278a607c5c872f39aedd3a63f12ec39257eee0c133",
+          "headline": "UPS, FedEx slap $117 holiday surcharge on oversized Christmas packages",
+          "url": "https://finnhub.io/api/news?id=03d942e4ae29eed7edc6fe1ee36dd6c8fabf75eeaf21d45f0397eaae455dc462",
           "source": "Yahoo",
-          "published_at": "2026-11-18T15:29:00Z",
+          "published_at": "2026-11-23T18:13:57Z",
           "primary": false,
           "symbol": "FDX"
         },
         {
-          "headline": "FedEx Stock And Other Fuel Cost Winners If Oil Prices Stay Low",
-          "url": "https://finnhub.io/api/news?id=d9bea4443a1fb509e0800ce928a2879a5c23034941095f972ec382f7ef29a1d1",
+          "headline": "Planting for Good: How FedEx and Local Communities Are Planting Trees",
+          "url": "https://finnhub.io/api/news?id=60cdd4f3f1f25236ab144cf26354fd724b261bcf0a663a0f92c37298058e441f",
           "source": "Yahoo",
-          "published_at": "2026-11-17T01:09:51Z",
+          "published_at": "2026-11-23T16:30:00Z",
           "primary": false,
           "symbol": "FDX"
         },
         {
-          "headline": "What Is Behind FedEx's Lead Over Its Industry?",
-          "url": "https://finnhub.io/api/news?id=39bd5f58cfa19874f4fb43b08b6f985bb93b254c1aea6fe97b3c4da65110aa38",
+          "headline": "Missed FedEx's Rally? What Holders Had To Believe",
+          "url": "https://finnhub.io/api/news?id=d85b085c2320a902545b434614e8aebd26f301dcb580686c3a8b41ecd7f60a9a",
           "source": "Yahoo",
-          "published_at": "2026-11-16T22:04:41Z",
+          "published_at": "2026-11-23T14:10:40Z",
           "primary": false,
           "symbol": "FDX"
         },
         {
-          "headline": "FedEx expands capacity at southern China air hub",
-          "url": "https://finnhub.io/api/news?id=643a02da29a50b94ef502711f5d63d4cbedd990f09e52027fb8de46e8bdae5cc",
+          "headline": "FedEx-led consortium finalizes $9.2B deal for Polish delivery company",
+          "url": "https://finnhub.io/api/news?id=de042fb5ae314efb936161e46def88569152598e99c8639cdf2e432e1b799bf4",
           "source": "Yahoo",
-          "published_at": "2026-11-16T18:29:20Z",
+          "published_at": "2026-11-23T12:30:30Z",
           "primary": false,
           "symbol": "FDX"
         }
@@ -11389,17 +11413,17 @@
       "metrics": {
         "52WeekHigh": 155.75,
         "52WeekLow": 119.68,
-        "peTTM": 20.6824,
-        "psTTM": 2.7414,
+        "peTTM": 20.868,
+        "psTTM": 2.766,
         "netProfitMarginTTM": 7.04,
         "roeTTM": 11.07,
         "revenueGrowthTTMYoy": -15.52,
         "epsGrowthTTMYoy": -1.58,
         "currentRatioQuarterly": 0.622,
         "totalDebt/totalEquityQuarterly": 2.2524,
-        "marketCapitalization": 28293.525
+        "marketCapitalization": 28547.482
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "DTE Energy Company",
       "profile": {
         "weburl": "https://ir.dteenergy.com/",
@@ -11407,6 +11431,14 @@
         "name": "DTE Energy Company"
       },
       "news": [
+        {
+          "headline": "Morgan Stanley Maintains Overweight on DTE Energy, Raises Price Target to $150",
+          "url": "https://finnhub.io/api/news?id=2d67f590f0c621617046b9f5a0d990ec1066ad7298a9d22f08fe7428d7bc0803",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T13:10:16Z",
+          "primary": false,
+          "symbol": "DTE"
+        },
         {
           "headline": "DTE Gas commits to no new rate request until late 2027",
           "url": "https://finnhub.io/api/news?id=dbd57074d3513817683196795d12aa61213f2cbfa450cbbabbcb70ed1ef948cc",
@@ -11429,17 +11461,17 @@
       "metrics": {
         "52WeekHigh": 416.69,
         "52WeekLow": 262.75,
-        "peTTM": 55.9601,
-        "psTTM": 12.5992,
+        "peTTM": 60.4416,
+        "psTTM": 13.6082,
         "netProfitMarginTTM": 22.51,
         "roeTTM": 21.43,
         "revenueGrowthTTMYoy": 17.64,
         "epsGrowthTTMYoy": 29.8,
         "currentRatioQuarterly": 1.3598,
         "totalDebt/totalEquityQuarterly": 0.383,
-        "marketCapitalization": 77259.64
+        "marketCapitalization": 83446.88
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Cadence Design Systems, Inc.",
       "profile": {
         "weburl": "https://www.cadence.com/en_US/home.html",
@@ -11447,6 +11479,14 @@
         "name": "Cadence Design Systems, Inc."
       },
       "news": [
+        {
+          "headline": "Is Trending Stock Cadence Design Systems, Inc. (CDNS) a Buy Now?",
+          "url": "https://finnhub.io/api/news?id=078da8873d37e92bdcb8d2dd85e4ffeefbabb7c59448b2294b8f6fa338177354",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:00:04Z",
+          "primary": false,
+          "symbol": "CDNS"
+        },
         {
           "headline": "Is Cadence (CDNS) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
           "url": "https://finnhub.io/api/news?id=d8f24d2473e5dee69c1d0a8766b78969eb9d23792f71887a9dfd971238919131",
@@ -11478,14 +11518,6 @@
           "published_at": "2026-11-19T10:20:54Z",
           "primary": false,
           "symbol": "CDNS"
-        },
-        {
-          "headline": "Wall Street Analysts Think Cadence (CDNS) Could Surge 28.15%: Read This Before Placing a Bet",
-          "url": "https://finnhub.io/api/news?id=7bafa130686e3251a1832590042e2ab41bf03601a659c55544dc35655ad00ad7",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T13:55:03Z",
-          "primary": false,
-          "symbol": "CDNS"
         }
       ]
     },
@@ -11493,17 +11525,17 @@
       "metrics": {
         "52WeekHigh": 116.82,
         "52WeekLow": 92.42,
-        "peTTM": 19.7707,
-        "psTTM": 3.9408,
+        "peTTM": 19.9779,
+        "psTTM": 3.9821,
         "netProfitMarginTTM": 19.93,
         "roeTTM": 165.51,
         "revenueGrowthTTMYoy": 0.58,
         "epsGrowthTTMYoy": 67.7,
         "currentRatioQuarterly": 0.8918,
         "totalDebt/totalEquityQuarterly": 2.2214,
-        "marketCapitalization": 65282.777
+        "marketCapitalization": 65967.02
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Kimberly-Clark Corporation",
       "profile": {
         "weburl": "https://www.kimberly-clark.com/en-us",
@@ -11512,42 +11544,42 @@
       },
       "news": [
         {
+          "headline": "Amgen, Anthropic, Kimberly-Clark and More on CNBC’s ‘Final Trades’",
+          "url": "https://finnhub.io/api/news?id=013adbc2fae3b9544a7c9db40f51af19261163b1c0eb774989cbf74a18d88e14",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T09:20:35Z",
+          "primary": false,
+          "symbol": "KMB"
+        },
+        {
+          "headline": "Is Kimberly-Clark (KMB) Positioned for Earnings Expansion?",
+          "url": "https://finnhub.io/api/news?id=73ea6fa8efe5299aecac0f30813c01bb9cfc2c3b0b2291320e8d55a9981c6552",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:06:08Z",
+          "primary": false,
+          "symbol": "KMB"
+        },
+        {
+          "headline": "Kimberly-Clark or Constellation Brands: The One Dividend Stock I’d Hold for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=7ccdeee35bb0b176222e805b64a0ebb4e2c93610a673b76eda5c3a8da71d207a",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T04:37:43Z",
+          "primary": false,
+          "symbol": "KMB"
+        },
+        {
+          "headline": "A 65-Year-Old With $1,250,000 in Kimberly-Clark, Prudential and Clorox Collects $4,980 a Month in Dividends. How Safe Is Each Check?",
+          "url": "https://finnhub.io/api/news?id=8ae5955bbda5a3936cbd340c9b11f77bcdde5ee4dca5ecfa6eb8313240a1f927",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T18:50:29Z",
+          "primary": false,
+          "symbol": "KMB"
+        },
+        {
           "headline": "What Do Kimberly Clark (KMB) New Leadership Appointments Mean For Growth?",
           "url": "https://finnhub.io/api/news?id=8082e43f3a6bf2fc5c65e57659fd4bcb99557b08f37fa72e85280efdf78947f9",
           "source": "Yahoo",
           "published_at": "2026-11-21T09:15:40Z",
-          "primary": false,
-          "symbol": "KMB"
-        },
-        {
-          "headline": "GSK or Kimberly-Clark: The One Dividend Stock I’d Hold for the Next 20 Years",
-          "url": "https://finnhub.io/api/news?id=77047dd9371ff96e221001c58d81c96f6f5e641020daf4ff87332304bd7cabe6",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T16:25:58Z",
-          "primary": false,
-          "symbol": "KMB"
-        },
-        {
-          "headline": "Is Kimberly-Clark Stock a Buy Now That the Kenvue Acquisition Is Finalized?",
-          "url": "https://finnhub.io/api/news?id=3967942c3d765bb9ba7edefd08ee39aa3d850cea30ce4a4a8e8ffebb6330cd54",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:20:02Z",
-          "primary": false,
-          "symbol": "KMB"
-        },
-        {
-          "headline": "Kimberly-Clark to Webcast its Presentation at Morgan Stanley's Global Consumer & Retail Conference",
-          "url": "https://finnhub.io/api/news?id=e9780297b6098c6547ef3d31693315b2f023676265b26558f30768f33eb861d1",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:10:00Z",
-          "primary": false,
-          "symbol": "KMB"
-        },
-        {
-          "headline": "KMB's Kenvue Deal: Could $2.1 Billion in Synergies Lift Earnings?",
-          "url": "https://finnhub.io/api/news?id=0da7cc1264d15994e27ae53d5c32b7a747f1bbc859c0bbd689c5ed88e5cf45b6",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:30:00Z",
           "primary": false,
           "symbol": "KMB"
         }
@@ -11557,17 +11589,17 @@
       "metrics": {
         "52WeekHigh": 131.185,
         "52WeekLow": 105.76,
-        "peTTM": 12.6505,
-        "psTTM": 3.4019,
+        "peTTM": 12.7172,
+        "psTTM": 3.4198,
         "netProfitMarginTTM": 26.89,
         "roeTTM": 16.42,
         "revenueGrowthTTMYoy": 13.64,
         "epsGrowthTTMYoy": 110.97,
         "currentRatioQuarterly": 0.1096,
         "totalDebt/totalEquityQuarterly": 0.2854,
-        "marketCapitalization": 61506.863
+        "marketCapitalization": 61830.83
       },
-      "updated_at": "2026-11-22T14:56:25Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Aflac Incorporated",
       "profile": {
         "weburl": "https://www.aflac.com/",
@@ -11575,6 +11607,22 @@
         "name": "Aflac Incorporated"
       },
       "news": [
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Aflac, Raises Price Target to $136",
+          "url": "https://finnhub.io/api/news?id=b7b4b44294c43e4d74680247183c15c5c55b922eb1f65a29727c06db1d00bb45",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:37:43Z",
+          "primary": false,
+          "symbol": "AFL"
+        },
+        {
+          "headline": "MetLife, Prudential and Aflac Raised Their Dividends. These 3 Insurers Offer Growing Income",
+          "url": "https://finnhub.io/api/news?id=40e379ca4b32ad156b50363c029d36aff4c8a8006cbe2267e24fa0b9a18089c0",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T19:07:56Z",
+          "primary": false,
+          "symbol": "AFL"
+        },
         {
           "headline": "Here's How Much $1000 Invested In Aflac 5 Years Ago Would Be Worth Today",
           "url": "https://finnhub.io/api/news?id=15d7de72187e1ab9a4c159acc18667f6a25730b9d02e5fc28fa2764289057e18",
@@ -11598,22 +11646,6 @@
           "published_at": "2026-11-17T11:18:52Z",
           "primary": false,
           "symbol": "AFL"
-        },
-        {
-          "headline": "U.S. Bancorp vs. Aflac: Which Dividend Stock Pays You More in 10 Years?",
-          "url": "https://finnhub.io/api/news?id=414f9bd761e703259f95e6dc3aae8072b01d09054b5165aa6a3fbe15ee7cfeac",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T13:58:32Z",
-          "primary": false,
-          "symbol": "AFL"
-        },
-        {
-          "headline": "Aflac or MetLife: Which Insurance Dividend Wins for Long-Term Income?",
-          "url": "https://finnhub.io/api/news?id=8adb2bb85378eb6a6435a4bcf465f95c189d99d7511ceeadc935fee5a3d4e7a7",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T13:47:30Z",
-          "primary": false,
-          "symbol": "AFL"
         }
       ]
     },
@@ -11621,17 +11653,17 @@
       "metrics": {
         "52WeekHigh": 462.869,
         "52WeekLow": 163.11,
-        "peTTM": 37.5925,
-        "psTTM": 0.3037,
+        "peTTM": 37.2638,
+        "psTTM": 0.3011,
         "netProfitMarginTTM": 0.81,
         "roeTTM": 6.710000000000001,
         "revenueGrowthTTMYoy": 22.04,
         "epsGrowthTTMYoy": -3.71,
         "currentRatioQuarterly": 0.006,
         "totalDebt/totalEquityQuarterly": 0.6642,
-        "marketCapitalization": 46840.266
+        "marketCapitalization": 46430.715
       },
-      "updated_at": "2026-11-22T14:56:25Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Humana Inc.",
       "profile": {
         "weburl": "https://www.humana.com",
@@ -11640,42 +11672,42 @@
       },
       "news": [
         {
-          "headline": "TD Cowen Bets on UnitedHealth and Humana Comebacks",
-          "url": "https://finnhub.io/api/news?id=1440917ae2c069e83ad65268b601d6d589938aee26c354caeecf0811b57bd97c",
+          "headline": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
+          "url": "https://finnhub.io/api/news?id=5eed4a6ebbe2e922372de90e4bc8d33b0edc345c929b56ea8d710717a124f841",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:14:34Z",
+          "published_at": "2026-11-24T13:03:08Z",
           "primary": false,
           "symbol": "HUM"
         },
         {
-          "headline": "UnitedHealth and Humana Stocks Got Crushed This Week. Why They Just Got Upgrades Anyway.",
-          "url": "https://finnhub.io/api/news?id=2860ef93b9b6bf8e301fd12bc0d9665f07015ee5edfb057ceef3c02fc61cafa4",
+          "headline": "Humana Will Exceed Its FY2028 Earnings Target, Says Keybanc – Sees Nearly 30% Upside In HUM Stock",
+          "url": "https://finnhub.io/api/news?id=6011e6450076a08dab2fc1b11e59346fb650de59bf3bc0724910b0d112dccc3b",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:01:00Z",
+          "published_at": "2026-11-24T11:28:38Z",
           "primary": false,
           "symbol": "HUM"
         },
         {
-          "headline": "TD Cowen lifts UnitedHealth, Humana to Buy on improved earnings outlook",
-          "url": "https://finnhub.io/api/news?id=66c7b60d088a76e2fe0a6c6d52fdc5ab1a107a97d1b3b463979519a079e762f8",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:58:13Z",
+          "headline": "Keybanc Upgrades Humana to Overweight, Announces $500 Price Target",
+          "url": "https://finnhub.io/api/news?id=5176077406b3153d5409d65a3c39e1c0e51a97722a00b852b5997587e62c3863",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T06:41:38Z",
           "primary": false,
           "symbol": "HUM"
         },
         {
-          "headline": "Should Value Investors Buy Humana (HUM) Stock?",
-          "url": "https://finnhub.io/api/news?id=5a7bd1321e5242daa3186cc21cef78e69759f1fe7773679d8b2e5ed47f9b28cb",
+          "headline": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That’s a Big Risk for UnitedHealth and Humana",
+          "url": "https://finnhub.io/api/news?id=8e74a307135181f9db57843bd6f640f360768911295a5d8f1c20ea421c793ddc",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:40:02Z",
+          "published_at": "2026-11-23T21:35:40Z",
           "primary": false,
           "symbol": "HUM"
         },
         {
-          "headline": "Humana and Sprouts Farmers Market have been highlighted as Zacks Bull and Bear of the Day",
-          "url": "https://finnhub.io/api/news?id=f2dfa21814ac6c0d7bf317749211e735931c0a42b4be0a658d15477b9c0049f8",
+          "headline": "UnitedHealth and Humana Stocks Keep Sliding. Why They’re Not Taking Part in Today’s Rally.",
+          "url": "https://finnhub.io/api/news?id=3213d8d47c8224c3893fca2ef08bea7f75ccb043ee3f430b88fe2c3ab993f5ee",
           "source": "Yahoo",
-          "published_at": "2026-11-20T13:03:00Z",
+          "published_at": "2026-11-23T15:02:00Z",
           "primary": false,
           "symbol": "HUM"
         }
@@ -11684,18 +11716,18 @@
     "UPS": {
       "metrics": {
         "52WeekHigh": 122.41,
-        "52WeekLow": 90.84,
-        "peTTM": 20.9301,
-        "psTTM": 1.013,
+        "52WeekLow": 91.31,
+        "peTTM": 20.8381,
+        "psTTM": 1.0085,
         "netProfitMarginTTM": 4.84,
         "roeTTM": 28.51,
         "revenueGrowthTTMYoy": 2.11,
         "epsGrowthTTMYoy": -19.74,
         "currentRatioQuarterly": 1.2394,
         "totalDebt/totalEquityQuarterly": 1.7392,
-        "marketCapitalization": 92552.79
+        "marketCapitalization": 92146.016
       },
-      "updated_at": "2026-11-22T14:56:25Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "United Parcel Service Inc",
       "profile": {
         "weburl": "https://www.ups.com/",
@@ -11704,42 +11736,42 @@
       },
       "news": [
         {
-          "headline": "Better Dividend Stock: UPS vs. Illinois Tool Works",
-          "url": "https://finnhub.io/api/news?id=c60a687da3678bcddc4ed804fd9fd3db9a4df0c458f71ad870a678472c46ce8a",
+          "headline": "FedEx, UPS’ upcoming rate hikes: What shippers should know",
+          "url": "https://finnhub.io/api/news?id=144ff6f8875db29c88d91926bde7a2a99c3d76be96effcfb2fd8adb8be8d2d4a",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:59:32Z",
+          "published_at": "2026-11-24T15:21:00Z",
           "primary": false,
           "symbol": "UPS"
         },
         {
-          "headline": "What Have UPS Stock Holders Really Earned?",
-          "url": "https://finnhub.io/api/news?id=bc348cb69b5d1a6cb4aa14c01a85fc4ccbfcf411d25c9595b0376dd1f0a14509",
+          "headline": "UPS (UPS) Stock Looks 47% Undervalued On Future Cash Flow",
+          "url": "https://finnhub.io/api/news?id=e306746be008a8ae4780d62bed52840f698c8f29de02541f6106dc862e4006d2",
           "source": "Yahoo",
-          "published_at": "2026-11-20T11:40:22Z",
+          "published_at": "2026-11-24T09:11:28Z",
           "primary": false,
           "symbol": "UPS"
         },
         {
-          "headline": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
-          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa",
+          "headline": "United Parcel Service (UPS) Investors Can Now Claim From $45 Million SEC Fair Fund",
+          "url": "https://finnhub.io/api/news?id=c97a2fc43c80ca151e2734d10f53833e2ec40f2c77e49b3e797696be3789c5cb",
           "source": "Yahoo",
-          "published_at": "2026-11-19T19:47:02Z",
+          "published_at": "2026-11-24T08:14:22Z",
           "primary": false,
           "symbol": "UPS"
         },
         {
-          "headline": "United Parcel Service (UPS) Could Be 45% Undervalued After Smartways Deal",
-          "url": "https://finnhub.io/api/news?id=45c76bab0969e71c03005259417f027dba9f7b1da314ff70b1b2e8818fc99707",
+          "headline": "UPS, FedEx slap $117 holiday surcharge on oversized Christmas packages",
+          "url": "https://finnhub.io/api/news?id=03d942e4ae29eed7edc6fe1ee36dd6c8fabf75eeaf21d45f0397eaae455dc462",
           "source": "Yahoo",
-          "published_at": "2026-11-19T17:16:40Z",
+          "published_at": "2026-11-23T18:13:57Z",
           "primary": false,
           "symbol": "UPS"
         },
         {
-          "headline": "Is Trending Stock United Parcel Service, Inc. (UPS) a Buy Now?",
-          "url": "https://finnhub.io/api/news?id=abab9b53dce6b2b3df2ef65c153be380359887cb1c14f46ab8605c15a7f11579",
+          "headline": "Is UPS Stock Riskier Than Its Rally Suggests?",
+          "url": "https://finnhub.io/api/news?id=b204ec045d94760f597353662060de0a4def290e97d114d97c531e8bd3bbbdd9",
           "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:04Z",
+          "published_at": "2026-11-23T11:44:11Z",
           "primary": false,
           "symbol": "UPS"
         }
@@ -11749,17 +11781,17 @@
       "metrics": {
         "52WeekHigh": 380.78,
         "52WeekLow": 228.63,
-        "peTTM": 19.2485,
-        "psTTM": 2.4559,
+        "peTTM": 20.4088,
+        "psTTM": 2.604,
         "netProfitMarginTTM": 12.76,
         "roeTTM": 15.509999999999998,
         "revenueGrowthTTMYoy": 37.88,
         "epsGrowthTTMYoy": 43.01,
         "currentRatioQuarterly": 1.4859,
         "totalDebt/totalEquityQuarterly": 0.7149,
-        "marketCapitalization": 84116.11
+        "marketCapitalization": 89186.25
       },
-      "updated_at": "2026-11-22T14:56:25Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Constellation Energy Corp",
       "profile": {
         "weburl": "https://www.constellationenergy.com/",
@@ -11767,6 +11799,30 @@
         "name": "Constellation Energy Corp"
       },
       "news": [
+        {
+          "headline": "Is It Worth Investing in Constellation Energy Corporation (CEG) Based on Wall Street's Bullish Views?",
+          "url": "https://finnhub.io/api/news?id=5ea25b9750fdbbe923a597aa2e1ccc24126862f318462f2069535f8c6b11a94e",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:30:04Z",
+          "primary": false,
+          "symbol": "CEG"
+        },
+        {
+          "headline": "CEG Below the 50 and 200-Day SMAs: Is It a Buy or Hold Right Now?",
+          "url": "https://finnhub.io/api/news?id=071e4fbfec2f024570de6cacc35c88e7172ca55f33706d1fdb64d352f90c4662",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:24:00Z",
+          "primary": false,
+          "symbol": "CEG"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Overweight on Constellation Energy, Raises Price Target to $393",
+          "url": "https://finnhub.io/api/news?id=c474e7e8355b9e11ff76b8f37a1020e485b856d1527b8665ceaca1fd329b5d5e",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T13:06:56Z",
+          "primary": false,
+          "symbol": "CEG"
+        },
         {
           "headline": "45% Upside for Constellation Energy? Barclays Thinks So, and Here’s How",
           "url": "https://finnhub.io/api/news?id=f05943fe305d17e1019034e8f1c45fd227dce8020624ad0ad8055b177cb7ea8c",
@@ -11782,30 +11838,6 @@
           "published_at": "2026-11-20T15:30:31Z",
           "primary": false,
           "symbol": "CEG"
-        },
-        {
-          "headline": "Barclays Maintains Overweight on Constellation Energy, Raises Price Target to $371",
-          "url": "https://finnhub.io/api/news?id=05cbb6cf74ecbff39abb649b73b77b5666f7e2bb1efa8f7b164c9a734c78a258",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T11:01:20Z",
-          "primary": false,
-          "symbol": "CEG"
-        },
-        {
-          "headline": "Constellation Energy (CEG) Following Its Earnings Beat And Guidance Hike Looks Cheap Versus Fair Value",
-          "url": "https://finnhub.io/api/news?id=42d5d48421fd9bde00a86b90c5d94ec672f425e9d62a0ee164087e3a2cb4fc3f",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T20:10:45Z",
-          "primary": false,
-          "symbol": "CEG"
-        },
-        {
-          "headline": "Will Buyers Defend Constellation Energy Stock At $263?",
-          "url": "https://finnhub.io/api/news?id=e965d99fa2b6086076905425ec49eacb1b112d5ce86628abc660736adba55c3b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:08:04Z",
-          "primary": false,
-          "symbol": "CEG"
         }
       ]
     },
@@ -11813,17 +11845,17 @@
       "metrics": {
         "52WeekHigh": 539.48,
         "52WeekLow": 362.55,
-        "peTTM": 70.5216,
-        "psTTM": 8.0625,
+        "peTTM": 76.0078,
+        "psTTM": 8.6898,
         "netProfitMarginTTM": 11.43,
         "roeTTM": 3.5700000000000003,
         "revenueGrowthTTMYoy": 46.33,
         "epsGrowthTTMYoy": -55.62,
         "currentRatioQuarterly": 1.3369,
         "totalDebt/totalEquityQuarterly": 0.3222,
-        "marketCapitalization": 75920.69
+        "marketCapitalization": 81826.93
       },
-      "updated_at": "2026-11-22T14:56:25Z",
+      "updated_at": "2026-11-24T18:00:14Z",
       "name": "Synopsys, Inc.",
       "profile": {
         "weburl": "https://www.synopsys.com/",
@@ -11831,6 +11863,14 @@
         "name": "Synopsys, Inc."
       },
       "news": [
+        {
+          "headline": "Has Buying The Dip In Synopsys Stock Paid Off?",
+          "url": "https://finnhub.io/api/news?id=568779120a911e29ccce2971c7401bb1a852f56471129969ab8f3f018f52302c",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:54:55Z",
+          "primary": false,
+          "symbol": "SNPS"
+        },
         {
           "headline": "Synopsys (SNPS) Dips More Than Broader Market: What You Should Know",
           "url": "https://finnhub.io/api/news?id=49fd22dd980f5041726a5c8f9b785ae93dd8edee52e4fe4ff5572c410ab05de2",
@@ -11860,14 +11900,6 @@
           "url": "https://finnhub.io/api/news?id=6a7f0a669889f827f695f2a1a74ffac6a5018821f30551bc67a08f0252e477be",
           "source": "Yahoo",
           "published_at": "2026-11-20T12:14:05Z",
-          "primary": false,
-          "symbol": "SNPS"
-        },
-        {
-          "headline": "Synopsys (SNPS) Broadens Its Platform Reach Into Packaging Safety Workflows",
-          "url": "https://finnhub.io/api/news?id=adf412c22cfa9c2a0393ec7358444b54a3f14d05f472b5825301ae3221ece174",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T10:13:56Z",
           "primary": false,
           "symbol": "SNPS"
         }
@@ -29768,6 +29800,6 @@
       ]
     }
   },
-  "cursor": 186,
-  "updated_at": "2026-11-24T16:22:56Z"
+  "cursor": 198,
+  "updated_at": "2026-11-24T18:00:14Z"
 }
