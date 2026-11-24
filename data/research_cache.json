@@ -10479,17 +10479,17 @@
       "metrics": {
         "52WeekHigh": 38.285,
         "52WeekLow": 24.88,
-        "peTTM": 28.789,
-        "psTTM": 2.0501,
+        "peTTM": 29.2765,
+        "psTTM": 2.0848,
         "netProfitMarginTTM": 7.12,
         "roeTTM": 5.75,
         "revenueGrowthTTMYoy": 42.99,
         "epsGrowthTTMYoy": 3.99,
         "currentRatioQuarterly": 0.5182,
         "totalDebt/totalEquityQuarterly": 1.0001,
-        "marketCapitalization": 47415.44
+        "marketCapitalization": 48218.402
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Keurig Dr Pepper Inc",
       "profile": {
         "weburl": "https://www.keurigdrpepper.com/",
@@ -10497,6 +10497,14 @@
         "name": "Keurig Dr Pepper Inc"
       },
       "news": [
+        {
+          "headline": "Keurig Dr Pepper: An Updated Assessment (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=4fdb864000eb7ba0a9c2c855666e223b1313808634ccc7f2f3dc40716a5a41c0",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T08:45:28Z",
+          "primary": false,
+          "symbol": "KDP"
+        },
         {
           "headline": "Keurig's U.S. Beverage Sales Rise 10.9%: Can This Momentum Last?",
           "url": "https://finnhub.io/api/news?id=1cd8f35737204650075c14c5435663b732df463adae3acacc07f58c9c2a7709b",
@@ -10528,14 +10536,6 @@
           "published_at": "2026-11-18T06:20:36Z",
           "primary": false,
           "symbol": "KDP"
-        },
-        {
-          "headline": "What Threatens Keurig Dr Pepper Stock Most?",
-          "url": "https://finnhub.io/api/news?id=c838c38a7f21725707be3c675a82df8a97d2ffb4f84dba2f77ec7db0268f7507",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T17:38:14Z",
-          "primary": false,
-          "symbol": "KDP"
         }
       ]
     },
@@ -10543,16 +10543,16 @@
       "metrics": {
         "52WeekHigh": 281.11,
         "52WeekLow": 191.13,
-        "peTTM": 5.6799,
-        "psTTM": 0.9413,
+        "peTTM": 5.6191,
+        "psTTM": 0.9312,
         "netProfitMarginTTM": 16.57,
         "roeTTM": 36.309999999999995,
         "revenueGrowthTTMYoy": 5.06,
         "epsGrowthTTMYoy": 42.38,
         "totalDebt/totalEquityQuarterly": 0.2319,
-        "marketCapitalization": 66108.6
+        "marketCapitalization": 65400.902
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Allstate Corp",
       "profile": {
         "weburl": "https://www.allstateinvestors.com/",
@@ -10560,6 +10560,14 @@
         "name": "Allstate Corp"
       },
       "news": [
+        {
+          "headline": "Allstate (NYSE:ALL) Sets Up Bull Flag Breakout With Perfect Technical Rating",
+          "url": "https://finnhub.io/api/news?id=b139b597e87ed558314860837718edee2664e978581a072c9ac40e1a2427e652",
+          "source": "ChartMill",
+          "published_at": "2026-11-23T11:50:36Z",
+          "primary": false,
+          "symbol": "ALL"
+        },
         {
           "headline": "Mizuho Maintains Outperform on Allstate, Raises Price Target to $311",
           "url": "https://finnhub.io/api/news?id=6fa8d74c39187ab954bc1e3df0d3ceac03e2322f71cc833e87813dae1d2591c2",
@@ -10591,14 +10599,6 @@
           "published_at": "2026-11-17T11:53:30Z",
           "primary": false,
           "symbol": "ALL"
-        },
-        {
-          "headline": "JP Morgan Maintains Overweight on Allstate, Lowers Price Target to $291",
-          "url": "https://finnhub.io/api/news?id=12ff3be65a19ecb43769b7a63ace5181d1ba45c555f8c04af0317fac70a175e5",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T14:19:50Z",
-          "primary": false,
-          "symbol": "ALL"
         }
       ]
     },
@@ -10606,17 +10606,17 @@
       "metrics": {
         "52WeekHigh": 92.59,
         "52WeekLow": 56.72,
-        "peTTM": 29.8511,
-        "psTTM": 5.7955,
+        "peTTM": 31.0178,
+        "psTTM": 6.022,
         "netProfitMarginTTM": 19.41,
         "roeTTM": 36.5,
         "revenueGrowthTTMYoy": 13.03,
         "epsGrowthTTMYoy": 43.2,
         "currentRatioQuarterly": 1.7384,
         "totalDebt/totalEquityQuarterly": 0.5106,
-        "marketCapitalization": 29582.469
+        "marketCapitalization": 30738.615
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Dexcom Inc",
       "profile": {
         "weburl": "https://www.dexcom.com/",
@@ -10624,6 +10624,22 @@
         "name": "Dexcom Inc"
       },
       "news": [
+        {
+          "headline": "Dexcom Announces Upcoming Conference Presentation",
+          "url": "https://finnhub.io/api/news?id=89328ea9f7d87e1c5a716e6a5b5f21365cfec27e469296f406e8d5cb0a4257b9",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:30:00Z",
+          "primary": false,
+          "symbol": "DXCM"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning DexCom Stock In The Last 15 Years",
+          "url": "https://finnhub.io/api/news?id=f360561f2e675f1257d461b6395259e606950385dcd5c741e6d2cc445c1aa860",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T10:46:26Z",
+          "primary": false,
+          "symbol": "DXCM"
+        },
         {
           "headline": "Global Clinical-Grade Wearables for Pharma and Biotech Market Report 2026 | Capitalize on 21.5% CAGR to $7.48B by 2030 as Abbott, Medtronic, DexCom and Philips Scale AI-Driven RPM",
           "url": "https://finnhub.io/api/news?id=14c754643edf917176d78ca9a1ede6dc690f2ae9d72c7dcea357021ea4ed1f79",
@@ -10647,40 +10663,24 @@
           "published_at": "2026-11-18T12:11:10Z",
           "primary": false,
           "symbol": "DXCM"
-        },
-        {
-          "headline": "DexCom Sees Record New Patients in 2026 as Medicare Coverage Decision Looms",
-          "url": "https://finnhub.io/api/news?id=4dd75820392b7f775c48bad5449fd903883d6263086bd2be94b1c89260b46902",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T07:12:08Z",
-          "primary": false,
-          "symbol": "DXCM"
-        },
-        {
-          "headline": "Here's How Much $1000 Invested In DexCom 10 Years Ago Would Be Worth Today",
-          "url": "https://finnhub.io/api/news?id=46ec601b6c386a1b11c24a1aa68068f06df79d2076dd2279b28e275ced4ada00",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T18:15:50Z",
-          "primary": false,
-          "symbol": "DXCM"
         }
       ]
     },
     "CSX": {
       "metrics": {
         "52WeekHigh": 53.6,
-        "52WeekLow": 33.63,
-        "peTTM": 25.2753,
-        "psTTM": 6.0575,
+        "52WeekLow": 33.74,
+        "peTTM": 25.7283,
+        "psTTM": 6.166,
         "netProfitMarginTTM": 23.97,
         "roeTTM": 25.95,
         "revenueGrowthTTMYoy": 5.8,
         "epsGrowthTTMYoy": 25.27,
         "currentRatioQuarterly": 0.8431,
         "totalDebt/totalEquityQuarterly": 1.308,
-        "marketCapitalization": 90510.85
+        "marketCapitalization": 92133.04
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "CSX Corporation",
       "profile": {
         "weburl": "https://www.csx.com/",
@@ -10710,17 +10710,17 @@
       "metrics": {
         "52WeekHigh": 101.04,
         "52WeekLow": 75.97,
-        "peTTM": 16.2271,
-        "psTTM": 4.2079,
+        "peTTM": 16.5595,
+        "psTTM": 4.2941,
         "netProfitMarginTTM": 25.93,
         "roeTTM": 9.45,
         "revenueGrowthTTMYoy": -0.67,
         "epsGrowthTTMYoy": 40.71,
         "currentRatioQuarterly": 1.6079,
         "totalDebt/totalEquityQuarterly": 1.1244,
-        "marketCapitalization": 49801.055
+        "marketCapitalization": 50821.14
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Sempra",
       "profile": {
         "weburl": "https://www.sempra.com/",
@@ -10729,34 +10729,18 @@
       },
       "news": [
         {
-          "headline": "Evercore ISI Group Maintains Outperform on Sempra, Lowers Price Target to $92",
-          "url": "https://finnhub.io/api/news?id=d1887ede0b0510156ee25b89a2de0e5a48fb3d5aff71d0a08860b5f12ea2f180",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T09:28:08Z",
+          "headline": "Sempra Named One of America's Most Innovative Businesses",
+          "url": "https://finnhub.io/api/news?id=52a38b81f4e2d59a72504001852da71a4578769fe18a89680d98849f2766b611",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:10:00Z",
           "primary": false,
           "symbol": "SRE"
         },
         {
-          "headline": "Sempra (SRE) Stock May Be Undervalued Despite Its Oncor Spending Increase",
-          "url": "https://finnhub.io/api/news?id=8204748c9247548bddaecfc7bcb1481d25d1ea7aeee4f8c7de01a0900af5a4aa",
+          "headline": "Consolidated Edison or Sempra: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=3d8c3d98704bbc3ce63e957c395906f528ff91a16b51631360cb9d568ae07e7f",
           "source": "Yahoo",
-          "published_at": "2026-11-15T10:07:32Z",
-          "primary": false,
-          "symbol": "SRE"
-        },
-        {
-          "headline": "Sempra (SRE) Lifts 2026 Guidance On A Valuation Story That Still Splits Opinion",
-          "url": "https://finnhub.io/api/news?id=88807fad4ee01b60799c364d187e21d904a2f074d2f1d9f85132e405afbf2db6",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T09:09:02Z",
-          "primary": false,
-          "symbol": "SRE"
-        },
-        {
-          "headline": "Should Updated Earnings Guidance Require Action From Sempra (SRE) Investors?",
-          "url": "https://finnhub.io/api/news?id=162e83fe627e99b4875e62436165274d73516bf1c7ee67d1ebb3ac5e8ab1ccdd",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T06:06:34Z",
+          "published_at": "2026-11-20T14:59:26Z",
           "primary": false,
           "symbol": "SRE"
         }
@@ -10766,17 +10750,17 @@
       "metrics": {
         "52WeekHigh": 320.0,
         "52WeekLow": 185.5,
-        "peTTM": 31.1183,
-        "psTTM": 6.5592,
+        "peTTM": 32.4994,
+        "psTTM": 6.8503,
         "netProfitMarginTTM": 21.08,
         "roeTTM": 52.5,
         "revenueGrowthTTMYoy": 17.94,
         "epsGrowthTTMYoy": 59.92,
         "currentRatioQuarterly": 0.8555,
         "totalDebt/totalEquityQuarterly": 1.0281,
-        "marketCapitalization": 51096.32
+        "marketCapitalization": 53363.97
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Autodesk, Inc.",
       "profile": {
         "weburl": "https://www.autodesk.com",
@@ -10784,6 +10768,30 @@
         "name": "Autodesk, Inc."
       },
       "news": [
+        {
+          "headline": "Wall Street Analysts Predict a 25.06% Upside in Autodesk (ADSK): Here's  What You Should Know",
+          "url": "https://finnhub.io/api/news?id=7fed3d6b86d80bdcb4939568dbde0f679f6e6c0c38ca1e5f11594404ec390bf2",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:55:02Z",
+          "primary": false,
+          "symbol": "ADSK"
+        },
+        {
+          "headline": "Autodesk Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+          "url": "https://finnhub.io/api/news?id=08838bbb7970fd366442986f3c35cd2ec54637f693757f7890d0137bf9e99407",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T09:45:07Z",
+          "primary": false,
+          "symbol": "ADSK"
+        },
+        {
+          "headline": "Cantor Fitzgerald Reiterates Neutral on Autodesk, Maintains $215 Price Target",
+          "url": "https://finnhub.io/api/news?id=22596d91b6d33d17be01a8718f3a6f84933ef04f9d9b3ce6860c7439f2905348",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T07:47:08Z",
+          "primary": false,
+          "symbol": "ADSK"
+        },
         {
           "headline": "Mastrex and Autodesk Make Metal 3D Printing More Accessible",
           "url": "https://finnhub.io/api/news?id=fcb74a912a03067a7f173021597dab36bf5f35239ccca2274f97ffc47375e316",
@@ -10797,30 +10805,6 @@
           "url": "https://finnhub.io/api/news?id=67cb02c9eebed505cfb7aa84afb2e52052777579e61c0b98119d3cfe8ff7ee30",
           "source": "Yahoo",
           "published_at": "2026-11-21T08:14:44Z",
-          "primary": false,
-          "symbol": "ADSK"
-        },
-        {
-          "headline": "Autodesk Set to Report Q3 Earnings: What's in Store for the Stock?",
-          "url": "https://finnhub.io/api/news?id=ebe5c52cb1d8e09e17cc6d44de126f0c6b567716e9e687d61f8e66b4dfe4c432",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:46:00Z",
-          "primary": false,
-          "symbol": "ADSK"
-        },
-        {
-          "headline": "Simulation as a Service Market Report 2026: Global Size, Trends, and Forecast to 2030 | Capitalize on AI and Digital Twins with Siemens, Dassault Systèmes, Synopsys, Autodesk",
-          "url": "https://finnhub.io/api/news?id=452531f2a16822ea320427dda561ba213e4fd5288dd83635c01f015095830601",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:42:00Z",
-          "primary": false,
-          "symbol": "ADSK"
-        },
-        {
-          "headline": "Three-Dimensional (3D) Modeling Software for Architecture Global Market Report 2026 | Capitalize on 9.6% CAGR as Autodesk, Hexagon, Trimble and Bentley Scale AI, Cloud and BIM",
-          "url": "https://finnhub.io/api/news?id=e8e42b6e7ea0d029d13f1f5d44f8c7965db0e60cc1421fbb2abe09f8a7c8bfd5",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:39:00Z",
           "primary": false,
           "symbol": "ADSK"
         }
@@ -10838,9 +10822,9 @@
         "epsGrowthTTMYoy": -28.26,
         "currentRatioQuarterly": 0.9575,
         "totalDebt/totalEquityQuarterly": 26.7917,
-        "marketCapitalization": 78482.49
+        "marketCapitalization": 78482.5
       },
-      "updated_at": "2026-11-22T13:03:54Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Colgate-Palmolive Company",
       "profile": {
         "weburl": "https://www.colgatepalmolive.com/",
@@ -10849,42 +10833,42 @@
       },
       "news": [
         {
-          "headline": "Colgate-Palmolive vs. lululemon athletica: Which Consumer Goods Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=47817b1b8eff928373aca33a9ef336e5864b26a2d9ab671f932b3be4fbad883a",
+          "headline": "Colgate-Palmolive vs. Starbucks: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=9e4651f78b8b057eb335576513112cb8ca43dd500db32bbe2e37415e0683e4ce",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:25:07Z",
+          "published_at": "2026-11-24T13:42:02Z",
           "primary": false,
           "symbol": "CL"
         },
         {
-          "headline": "Colgate Has Raised Its Dividend for 63 Years. These 3 Staples Stocks Offer Income",
-          "url": "https://finnhub.io/api/news?id=906e843228a954b59e26e86bc9b6ff4cfe1f612c8c165ebe0c0f6080515f9c61",
+          "headline": "Learn Why The Bull Case For Colgate Palmolive Stock Could Change Following BofA Top Pick Call",
+          "url": "https://finnhub.io/api/news?id=1a371d54b7cb98fab64da1f15739f5d64a7ef801899dc797dd1f6f56037a44a5",
           "source": "Yahoo",
-          "published_at": "2026-11-19T20:47:16Z",
+          "published_at": "2026-11-24T12:12:20Z",
           "primary": false,
           "symbol": "CL"
         },
         {
-          "headline": "How Many Shares of Colgate-Palmolive or Procter & Gamble Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=d7b4ae0aff8a64a6e56d3613077ecccb876725b340902340758afc7d4a581046",
+          "headline": "How Many Shares of Colgate-Palmolive, Clorox or Procter & Gamble Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=da8575805dd7ee2243167f702497ee10afd03adc8fe52e12b6189410b59f0eb9",
           "source": "Yahoo",
-          "published_at": "2026-11-19T10:50:15Z",
+          "published_at": "2026-11-24T10:50:34Z",
           "primary": false,
           "symbol": "CL"
         },
         {
-          "headline": "Colgate-Palmolive Webcasts Fireside Chat at the Morgan Stanley Global Consumer & Retail Conference",
-          "url": "https://finnhub.io/api/news?id=728fd96773c7ebe666d36b1b66050a291c2175996c8a0dcb89276f2fa707a073",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:00:00Z",
+          "headline": "Argus Research Upgrades Colgate-Palmolive to Buy from Hold",
+          "url": "https://finnhub.io/api/news?id=df3a9829e759e37ae8edf86244523683912ccc268adf2425948a2cca511f5360",
+          "source": "Fintel",
+          "published_at": "2026-11-24T01:07:14Z",
           "primary": false,
           "symbol": "CL"
         },
         {
-          "headline": "Colgate-Palmolive vs. Kimberly-Clark: Which Household Name Deserves Your Investment Dollars?",
-          "url": "https://finnhub.io/api/news?id=161ec039476f95561863640ec222c352759f451fa6b4ddbc2207dfec458b93c8",
+          "headline": "Colgate-Palmolive vs. McDonald's: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=def4b7e676d16e1619de604334869eff8eb446a8d767305ba248cc959d372104",
           "source": "Yahoo",
-          "published_at": "2026-11-16T01:05:02Z",
+          "published_at": "2026-11-23T22:31:02Z",
           "primary": false,
           "symbol": "CL"
         }
@@ -10894,17 +10878,17 @@
       "metrics": {
         "52WeekHigh": 106.719,
         "52WeekLow": 67.33,
-        "peTTM": 11.7335,
-        "psTTM": 0.7298,
+        "peTTM": 12.1956,
+        "psTTM": 0.7585,
         "netProfitMarginTTM": 6.22,
         "roeTTM": 19.46,
         "revenueGrowthTTMYoy": 14.49,
         "epsGrowthTTMYoy": 40.9,
         "currentRatioQuarterly": 0.0393,
         "totalDebt/totalEquityQuarterly": 0.8879,
-        "marketCapitalization": 60157.62
+        "marketCapitalization": 62526.848
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "MetLife, Inc.",
       "profile": {
         "weburl": "https://www.metlife.com/",
@@ -10913,42 +10897,42 @@
       },
       "news": [
         {
+          "headline": "Goldman Sachs Initiates Coverage of MetLife at Buy",
+          "url": "https://finnhub.io/api/news?id=4a2bd9c75bc4be1df30c983020b95cf22fd46519dd27e56e4af6af0a9b07e132",
+          "source": "Fintel",
+          "published_at": "2026-11-24T01:04:34Z",
+          "primary": false,
+          "symbol": "MET"
+        },
+        {
+          "headline": "Goldman Sachs Initiates Coverage On MetLife with Buy Rating, Announces Price Target of $112",
+          "url": "https://finnhub.io/api/news?id=95320e485e9782e1943d74bfe0e2dcc413961737f16953a897e1185ecc33ae82",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T12:44:25Z",
+          "primary": false,
+          "symbol": "MET"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Overweight on MetLife, Raises Price Target to $120",
+          "url": "https://finnhub.io/api/news?id=1efc508eecae2d97638aae3b7a35361afe3d98a4770ada12c19b054d2e97f2e0",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:41:12Z",
+          "primary": false,
+          "symbol": "MET"
+        },
+        {
+          "headline": "MetLife, Prudential and Aflac Raised Their Dividends. These 3 Insurers Offer Growing Income",
+          "url": "https://finnhub.io/api/news?id=40e379ca4b32ad156b50363c029d36aff4c8a8006cbe2267e24fa0b9a18089c0",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T19:07:56Z",
+          "primary": false,
+          "symbol": "MET"
+        },
+        {
           "headline": "MetLife Says Growth Plan Is Ahead of Schedule as Retirement Demand Rises",
           "url": "https://finnhub.io/api/news?id=01870e411e7e254233aeda65d3337a0eb64d6f09eb57b19576922f9eea93c38c",
           "source": "Yahoo",
           "published_at": "2026-11-19T22:12:12Z",
-          "primary": false,
-          "symbol": "MET"
-        },
-        {
-          "headline": "Can MetLife's $370M Real Estate Debt Fund Support Fee Growth?",
-          "url": "https://finnhub.io/api/news?id=4ae8a5200b2e8f30ab4506f47ff9f23bd04ff3d471e8d5d6d754e781a8e6d312",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:10:00Z",
-          "primary": false,
-          "symbol": "MET"
-        },
-        {
-          "headline": "MetLife, Inc. (MET) Presents at J.P. Morgan European Financials Conference Transcript",
-          "url": "https://finnhub.io/api/news?id=fdac7301f3ed496c408843ad10fc9920647b840762a17dda99a5940569f905e9",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-19T13:02:46Z",
-          "primary": false,
-          "symbol": "MET"
-        },
-        {
-          "headline": "MetLife Closes $370M Debt Fund for Transitional CRE Loans",
-          "url": "https://finnhub.io/api/news?id=a28203afe824eca922851a676566298bd04c21922d512cfa78624abd3785c808",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T13:26:53Z",
-          "primary": false,
-          "symbol": "MET"
-        },
-        {
-          "headline": "MetLife (MET) Stock Still Trades Below Fair Value On Earnings Power",
-          "url": "https://finnhub.io/api/news?id=e2ab9be7d0272ae66244cecaff88254a54e12a1a7bb19f15bb178cfbb9429c90",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T11:14:46Z",
           "primary": false,
           "symbol": "MET"
         }
@@ -10958,17 +10942,17 @@
       "metrics": {
         "52WeekHigh": 556.52,
         "52WeekLow": 353.99,
-        "peTTM": 14.661,
-        "psTTM": 1.2623,
+        "peTTM": 14.7698,
+        "psTTM": 1.2717,
         "netProfitMarginTTM": 8.61,
         "roeTTM": 695.73,
         "revenueGrowthTTMYoy": 5.82,
         "epsGrowthTTMYoy": 16.65,
         "currentRatioQuarterly": 0.82,
         "totalDebt/totalEquityQuarterly": 125.7976,
-        "marketCapitalization": 99343.01
+        "marketCapitalization": 100080.4
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "HCA Healthcare, Inc.",
       "profile": {
         "weburl": "https://hcahealthcare.com/",
@@ -10976,6 +10960,14 @@
         "name": "HCA Healthcare, Inc."
       },
       "news": [
+        {
+          "headline": "HCA Healthcare Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=e91fc384d04090a76d64c89f15901c2cc8c793125bcf639393257d8efdc85277",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T10:00:50Z",
+          "primary": false,
+          "symbol": "HCA"
+        },
         {
           "headline": "HCA Healthcare Collects Record-Breaking 21,857 Pounds of Medication During Eighth Annual \"Crush the Crisis\"",
           "url": "https://finnhub.io/api/news?id=444ad8d0457dfcafaba3e3038d93413744ea3c4598b3157ae955ecd4259dc198",
@@ -10998,17 +10990,17 @@
       "metrics": {
         "52WeekHigh": 358.595,
         "52WeekLow": 277.8,
-        "peTTM": 26.0276,
-        "psTTM": 5.389,
+        "peTTM": 26.4749,
+        "psTTM": 5.4816,
         "netProfitMarginTTM": 20.71,
         "roeTTM": 16.689999999999998,
         "revenueGrowthTTMYoy": 5.99,
         "epsGrowthTTMYoy": -9.07,
         "currentRatioQuarterly": 0.9033,
         "totalDebt/totalEquityQuarterly": 0.993,
-        "marketCapitalization": 69858.04
+        "marketCapitalization": 71058.62
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Norfolk Southern Corp",
       "profile": {
         "weburl": "https://www.norfolksouthern.com/",
@@ -11016,6 +11008,22 @@
         "name": "Norfolk Southern Corp"
       },
       "news": [
+        {
+          "headline": "Union Pacific and Norfolk Southern CEOs: A Year of Listening Reinforces the Need for a Simpler, More Competitive Rail Network",
+          "url": "https://finnhub.io/api/news?id=1476d4dfc77ee9aab53e57c4fa7c454e2c075c1a0011f27eec2caa967ecf70f9",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:00:00Z",
+          "primary": false,
+          "symbol": "NSC"
+        },
+        {
+          "headline": "Norfolk Southern Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=3920e1f9bd14997e8510f4a2993cdfd5caa4a96b5950336ed81cbed176696ff4",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:21:02Z",
+          "primary": false,
+          "symbol": "NSC"
+        },
         {
           "headline": "Union Pacific–Norfolk Southern merger draws labor support, shipper concerns",
           "url": "https://finnhub.io/api/news?id=a998176b1ddef5f4d101194943df1accfa7a967104e68bb4d96017b4bb46d500",
@@ -11039,22 +11047,6 @@
           "published_at": "2026-11-18T17:45:00Z",
           "primary": false,
           "symbol": "NSC"
-        },
-        {
-          "headline": "If You Invested $100 In Norfolk Southern Stock 20 Years Ago, You Would Have This Much Today",
-          "url": "https://finnhub.io/api/news?id=64b47ac641b2b6403da843a7509648e5008a2deb002727ae57d5d3652f28884e",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T17:15:26Z",
-          "primary": false,
-          "symbol": "NSC"
-        },
-        {
-          "headline": "Transcontinental merger of Union Pacific and Norfolk Southern divides rail leaders",
-          "url": "https://finnhub.io/api/news?id=8450c88fe904c03662fb168baf9f5cf303fbea442f50855e678fd09cede94038",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T19:42:57Z",
-          "primary": false,
-          "symbol": "NSC"
         }
       ]
     },
@@ -11062,17 +11054,17 @@
       "metrics": {
         "52WeekHigh": 72.99,
         "52WeekLow": 55.85,
-        "peTTM": 21.6881,
-        "psTTM": 3.1174,
+        "peTTM": 21.7961,
+        "psTTM": 3.1329,
         "netProfitMarginTTM": 14.37,
         "roeTTM": 9.21,
         "revenueGrowthTTMYoy": 23.16,
         "epsGrowthTTMYoy": 2.71,
         "currentRatioQuarterly": 0.8755,
         "totalDebt/totalEquityQuarterly": 1.849,
-        "marketCapitalization": 58297.637
+        "marketCapitalization": 58587.895
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Dominion Energy, Inc.",
       "profile": {
         "weburl": "https://www.dominionenergy.com/",
@@ -11081,42 +11073,42 @@
       },
       "news": [
         {
+          "headline": "DOJ closes NextEra-Dominion antitrust probe as state hearings continue",
+          "url": "https://finnhub.io/api/news?id=052ed519afa30764802dad8d0d1d4cc298202c36bc7c0893c0e590690cb7e580",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:27:12Z",
+          "primary": false,
+          "symbol": "D"
+        },
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Dominion Energy, Raises Price Target to $69",
+          "url": "https://finnhub.io/api/news?id=5677f1561d1a8a7f64c8b2cf2bfa4aab1e7039870ef6e6c24976475697269622",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T13:09:13Z",
+          "primary": false,
+          "symbol": "D"
+        },
+        {
+          "headline": "What Capital Group Dividend Value ETF (CGDV) Bought: Dominion Leads on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=7dfd4df8b9b941ca7c0e04f1f1df9836c7ae90d0de9853b9dc7a2fe057d62b85",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:03:56Z",
+          "primary": false,
+          "symbol": "D"
+        },
+        {
+          "headline": "ETFs Bought $155.7 Million of Dominion Energy (D) on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=148b3c3767b1e9e582b29eea07be41bc6a71f140d8731b28b9b0dfe83563e974",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:00:51Z",
+          "primary": false,
+          "symbol": "D"
+        },
+        {
           "headline": "Is Dominion Energy (D) Stock Cheap After Its 65% Run?",
           "url": "https://finnhub.io/api/news?id=dbfd50c640ae0449feda987d35de7a3050d6099a6e10c0dca368d16e4ced76d8",
           "source": "Yahoo",
           "published_at": "2026-11-20T18:10:09Z",
-          "primary": false,
-          "symbol": "D"
-        },
-        {
-          "headline": "Dominion Energy (D) Draws Fresh ETF Inflows, Is The Recovery Already Priced In?",
-          "url": "https://finnhub.io/api/news?id=4c977153e7c34a9fff6e6904d596eda24244b96f1cc4d2f15e43a5cb4c20b088",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:19:34Z",
-          "primary": false,
-          "symbol": "D"
-        },
-        {
-          "headline": "Dominion Energy, Inc. Announces Expiration of Hart-Scott-Rodino Waiting Period on November 18, 2026",
-          "url": "https://finnhub.io/api/news?id=db37344ae85879e76df73dea879f6d9aca07ddedb4fa4c611acfbf42559fe0c1",
-          "source": "Fintel",
-          "published_at": "2026-11-20T13:10:03Z",
-          "primary": false,
-          "symbol": "D"
-        },
-        {
-          "headline": "Capital Group Dividend Value (CGDV) Adds BlackRock and Dominion on Nov. 18",
-          "url": "https://finnhub.io/api/news?id=6b19d732a14fb0938ccc775db2142d2365e166b67530f89c22d2b758b19d9f3e",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T11:03:50Z",
-          "primary": false,
-          "symbol": "D"
-        },
-        {
-          "headline": "28 ETFs Add to Dominion Energy (D) on Nov. 18",
-          "url": "https://finnhub.io/api/news?id=09d077236a6cc0230892a3ca5ed5bf9fb8bba987c288a7e6d249ac589692c6a0",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T11:00:36Z",
           "primary": false,
           "symbol": "D"
         }
@@ -11126,17 +11118,17 @@
       "metrics": {
         "52WeekHigh": 217.4099,
         "52WeekLow": 114.52,
-        "peTTM": 44.5753,
-        "psTTM": 17.815,
+        "peTTM": 47.4068,
+        "psTTM": 18.9466,
         "netProfitMarginTTM": 39.97,
         "roeTTM": 33.29,
         "revenueGrowthTTMYoy": 40.74,
         "epsGrowthTTMYoy": 41.7,
         "currentRatioQuarterly": 3.2925,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 211822.03
+        "marketCapitalization": 225277.27
       },
-      "updated_at": "2026-11-22T14:05:03Z",
+      "updated_at": "2026-11-24T16:22:56Z",
       "name": "Arista Networks, Inc.",
       "profile": {
         "weburl": "https://www.arista.com/en/",
@@ -11145,42 +11137,42 @@
       },
       "news": [
         {
+          "headline": "Arista Networks: It Never Overheated, Yet Suffered A Sharp Correction - Time To Accumulate",
+          "url": "https://finnhub.io/api/news?id=93ee7d7c7d87cd3479ebb0fba6fce9b135aaef0989047e44af9312f782ed3a5f",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-24T02:20:20Z",
+          "primary": false,
+          "symbol": "ANET"
+        },
+        {
+          "headline": "What Moved Arista Networks Stock?",
+          "url": "https://finnhub.io/api/news?id=fac92514eb3502594bbdb36ac03dfd42a2ded2c26ca4c00d970068796af4f535",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:05:21Z",
+          "primary": false,
+          "symbol": "ANET"
+        },
+        {
+          "headline": "Ken Fisher and 13 Other Big Funds Bought Arista Networks Last Quarter, While 10 Sold. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=87d00281d7b6cf65daf046201da7c2c2963a832a3adb9ec9d6a3d05764cf8748",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T19:50:24Z",
+          "primary": false,
+          "symbol": "ANET"
+        },
+        {
+          "headline": "Arista Networks Lost 15% in a Week. Rosenblatt Sees 67% Upside From Here",
+          "url": "https://finnhub.io/api/news?id=eedcb19206bbc6740d782a69f33edfa4f6fdf74b75c229433061a42ea8f74a46",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T13:35:21Z",
+          "primary": false,
+          "symbol": "ANET"
+        },
+        {
           "headline": "Arista Networks: The AI Pullback May Hammer This Stock Hard (Downgrade)",
           "url": "https://finnhub.io/api/news?id=8c4f7646e54cbec88e2a2a5b6a90317fc34c4eb42e6cbc8c9ee58d7672e33078",
           "source": "SeekingAlpha",
           "published_at": "2026-11-21T22:01:56Z",
-          "primary": false,
-          "symbol": "ANET"
-        },
-        {
-          "headline": "Arista Stock Faces Valuation Questions After AI Networking Growth And R4 Launch",
-          "url": "https://finnhub.io/api/news?id=fc10145c512e8bce87f00f1d721d0023056bee8d5137c8641ac4c441e2a9c03a",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T17:07:47Z",
-          "primary": false,
-          "symbol": "ANET"
-        },
-        {
-          "headline": "Arista Networks And 2 More Defensive Stocks To Own",
-          "url": "https://finnhub.io/api/news?id=dc02fc5b0511e9dfc4e314284a590c328e2bc2d1a975381b4fea3390414d28ec",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T16:10:04Z",
-          "primary": false,
-          "symbol": "ANET"
-        },
-        {
-          "headline": "Arista Networks vs. Axon Enterprise: Which Technology Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=c62346160730a4a455f7ce596018671d6ed2bbb615c165573c589a8729c18c82",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T15:21:39Z",
-          "primary": false,
-          "symbol": "ANET"
-        },
-        {
-          "headline": "Can Arista Networks Stock Fall 30%?",
-          "url": "https://finnhub.io/api/news?id=f989d0964a8cf4ae8da87a6fba3266c8cfeb8033001387434f3a62f0e1edfec9",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:28:21Z",
           "primary": false,
           "symbol": "ANET"
         }
@@ -29776,6 +29768,6 @@
       ]
     }
   },
-  "cursor": 174,
-  "updated_at": "2026-11-24T15:12:43Z"
+  "cursor": 186,
+  "updated_at": "2026-11-24T16:22:56Z"
 }
