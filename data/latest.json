@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:06:58Z",
+  "generated_at": "2026-11-24T23:06:20Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T22:06:58Z",
+      "checked_at": "2026-11-24T23:06:20Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T22:06:58Z",
+      "checked_at": "2026-11-24T23:06:20Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T22:06:58Z",
+      "checked_at": "2026-11-24T23:06:20Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T22:06:58Z",
+      "checked_at": "2026-11-24T23:06:20Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T22:06:58Z",
+      "checked_at": "2026-11-24T23:06:20Z",
       "error": ""
     }
   ],
@@ -7321,7 +7321,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T22:06:58Z",
+    "generated_at": "2026-11-24T23:06:20Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -15384,10 +15384,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T22:06:58Z",
+      "generated_at": "2026-11-24T23:06:20Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 818,
+        "recorded": 819,
         "purchase_scenarios": 75,
         "opened": 3,
         "closed": 0,
@@ -15397,10 +15397,30 @@
         "not_triggered": 0,
         "waiting": 75,
         "unverified": 0,
-        "skipped": 743,
+        "skipped": 744,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|APP|ABOVE BASE CASE",
+          "symbol": "APP",
+          "name": "AppLovin Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-24T23:06:20Z",
+          "quote_at": "2026-11-24T21:00:00Z",
+          "reference_price": 381.11,
+          "buy_ceiling": 291.09,
+          "sell_review": 373.19,
+          "risk": "High sales multiple",
+          "why": "Net profit margin 65.9% (TTM); Return on equity 183.0% (TTM); Trailing P/E 24.7×; TTM revenue growth 57.8% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|IBKR|NO RELIABLE PRICE RANGE",
           "symbol": "IBKR",
@@ -17777,26 +17797,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 30.7% (TTM); Return on equity 20.1% (TTM); Trailing P/E 32.9×; TTM revenue growth 10.5% YoY",
           "score": 67,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|HON|QUALITY GATE NOT MET",
-          "symbol": "HON",
-          "name": "Honeywell International Inc.",
-          "signal": "QUALITY GATE NOT MET",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 212.64,
-          "buy_ceiling": 282.53,
-          "sell_review": 362.22,
-          "risk": "Large drawdown: recovery is not assured",
-          "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 9.6×; TTM revenue growth 4.2% YoY",
-          "score": 63,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
