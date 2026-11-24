@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:09:11Z",
+  "generated_at": "2026-11-24T05:18:09Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T04:09:11Z",
+      "checked_at": "2026-11-24T05:18:09Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T04:09:11Z",
+      "checked_at": "2026-11-24T05:18:09Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T04:09:11Z",
+      "checked_at": "2026-11-24T05:18:09Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T04:09:11Z",
+      "checked_at": "2026-11-24T05:18:09Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T04:09:11Z",
+      "checked_at": "2026-11-24T05:18:09Z",
       "error": ""
     }
   ],
@@ -7320,7 +7320,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T04:09:11Z",
+    "generated_at": "2026-11-24T05:18:09Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7894,7 +7894,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Financial Services",
-        "why": "Net profit margin 15.6% (TTM); Return on equity 17.8% (TTM); Trailing P/E 12.7×; TTM revenue growth 12.0% YoY",
+        "why": "Net profit margin 15.6% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.3×; TTM revenue growth 12.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7908,35 +7908,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T05:06:24Z",
+            "timestamp": "2026-11-24T05:18:09Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Morgan Stanley Announces Accounting Policy Changes Effective October 1, 2026",
-            "timestamp": "2026-11-20T21:11:18Z",
-            "url": "https://finnhub.io/api/news?id=7c6f33d93ff15cc59abdf5135e3175b6a4314abe9e09ecd29d8fec2961df040a"
+            "value": "Morgan Stanley (MS) Wealth Narrative Holds Following Preferred Dividend Declaration",
+            "timestamp": "2026-11-24T03:17:24Z",
+            "url": "https://finnhub.io/api/news?id=8571f36c5d5c032e8ba4a3291716d225806a09e4a95a9146c56d209e7ce751cd"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T05:06:24Z",
+        "fundamentals_at": "2026-11-24T05:18:09Z",
         "price": 172.6,
         "currency": "USD",
         "change_pct": 4.183,
         "news": [
           {
-            "headline": "Morgan Stanley Announces Accounting Policy Changes Effective October 1, 2026",
-            "url": "https://finnhub.io/api/news?id=7c6f33d93ff15cc59abdf5135e3175b6a4314abe9e09ecd29d8fec2961df040a",
-            "source": "Fintel",
-            "published_at": "2026-11-20T21:11:18Z",
+            "headline": "Morgan Stanley (MS) Wealth Narrative Holds Following Preferred Dividend Declaration",
+            "url": "https://finnhub.io/api/news?id=8571f36c5d5c032e8ba4a3291716d225806a09e4a95a9146c56d209e7ce751cd",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T03:17:24Z",
             "primary": false,
             "symbol": "MS"
           },
           {
-            "headline": "Morgan Stanley Ends Anthropic Stock Support After Just One Day",
-            "url": "https://finnhub.io/api/news?id=1e8946f929d3783924a1e7eb877a5d988edc5307603e365fbaa070058cd17bbb",
+            "headline": "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
+            "url": "https://finnhub.io/api/news?id=116966f857edab7cb4301cb3ec9eb1acb57bdb08b8e4c509138f6d25cb397d8e",
             "source": "Yahoo",
-            "published_at": "2026-11-20T18:46:22Z",
+            "published_at": "2026-11-24T03:03:00Z",
             "primary": false,
             "symbol": "MS"
           }
@@ -7973,7 +7973,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Financial Services",
-        "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 14.6×; TTM revenue growth 12.3% YoY",
+        "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 14.9×; TTM revenue growth 12.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7987,35 +7987,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T06:04:28Z",
+            "timestamp": "2026-11-24T05:18:09Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
-            "timestamp": "2026-11-20T11:05:16Z",
-            "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045"
+            "value": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
+            "timestamp": "2026-11-23T13:45:00Z",
+            "url": "https://finnhub.io/api/news?id=8dfbd40829e4c2c36881f3aaf0fab0eea927fd39e343f951072c96760fbe2114"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T06:04:28Z",
+        "fundamentals_at": "2026-11-24T05:18:09Z",
         "price": 92.37,
         "currency": "USD",
         "change_pct": 2.451,
         "news": [
           {
-            "headline": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
-            "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T11:05:16Z",
+            "headline": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
+            "url": "https://finnhub.io/api/news?id=8dfbd40829e4c2c36881f3aaf0fab0eea927fd39e343f951072c96760fbe2114",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T13:45:00Z",
             "primary": false,
             "symbol": "SCHW"
           },
           {
-            "headline": "$1000 Invested In Charles Schwab 15 Years Ago Would Be Worth This Much Today",
-            "url": "https://finnhub.io/api/news?id=c367027df2634b5f35c20abb25902e94c18f8cb1c77f5e834d1c3742c254aba2",
+            "headline": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
+            "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045",
             "source": "Benzinga",
-            "published_at": "2026-11-19T10:30:23Z",
+            "published_at": "2026-11-20T11:05:16Z",
             "primary": false,
             "symbol": "SCHW"
           }
@@ -11569,7 +11569,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Energy",
-        "why": "Net profit margin 19.6% (TTM); Return on equity 11.5% (TTM); Trailing P/E 18.8×; TTM revenue growth 11.7% YoY",
+        "why": "Net profit margin 19.6% (TTM); Return on equity 11.5% (TTM); Trailing P/E 19.0×; TTM revenue growth 11.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11583,35 +11583,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T05:06:24Z",
+            "timestamp": "2026-11-24T05:18:09Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Why Is Kinder Morgan (KMI) Down 7.8% Since Last Earnings Report?",
-            "timestamp": "2026-11-20T15:30:06Z",
-            "url": "https://finnhub.io/api/news?id=0ed3f6ba7b10d15f58977003c334df0f3c8b2880f91e77799f9f746b41a00ee4"
+            "value": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
+            "timestamp": "2026-11-23T04:30:27Z",
+            "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T05:06:24Z",
+        "fundamentals_at": "2026-11-24T05:18:09Z",
         "price": 30.57,
         "currency": "USD",
         "change_pct": 0.692,
         "news": [
           {
-            "headline": "Why Is Kinder Morgan (KMI) Down 7.8% Since Last Earnings Report?",
-            "url": "https://finnhub.io/api/news?id=0ed3f6ba7b10d15f58977003c334df0f3c8b2880f91e77799f9f746b41a00ee4",
+            "headline": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
+            "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:30:06Z",
+            "published_at": "2026-11-23T04:30:27Z",
             "primary": false,
             "symbol": "KMI"
           },
           {
-            "headline": "How Many Shares of Kinder Morgan or Williams Pay $1,000 a Month in Dividends?",
-            "url": "https://finnhub.io/api/news?id=36c5e24a2c364384a9cfd67d245dbaa3de5d0a7cf3c5649e4fe7c29150ea80f5",
+            "headline": "Why Is Kinder Morgan (KMI) Down 7.8% Since Last Earnings Report?",
+            "url": "https://finnhub.io/api/news?id=0ed3f6ba7b10d15f58977003c334df0f3c8b2880f91e77799f9f746b41a00ee4",
             "source": "Yahoo",
-            "published_at": "2026-11-19T17:35:44Z",
+            "published_at": "2026-11-20T15:30:06Z",
             "primary": false,
             "symbol": "KMI"
           }
@@ -13301,7 +13301,7 @@
         "status": "INVESTIGATE",
         "score": 76,
         "industry": "Retail",
-        "why": "Net profit margin 10.9% (TTM); Return on equity 42.1% (TTM); Trailing P/E 24.8×; TTM revenue growth 14.2% YoY",
+        "why": "Net profit margin 10.8% (TTM); Return on equity 42.3% (TTM); Trailing P/E 26.0×; TTM revenue growth 14.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13315,35 +13315,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T06:04:28Z",
+            "timestamp": "2026-11-24T05:18:09Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Ross Stores rolls out pricing shift for customers as sales rise",
-            "timestamp": "2026-11-21T15:17:00Z",
-            "url": "https://finnhub.io/api/news?id=6f9af6215dacc1b6781664cff74e0e39243a777ea00f0ba35d376c56ce58899c"
+            "value": "Ross Stores (ROST) Stock Fair Value Edges Lower After Mixed Q3 Analyst Resets",
+            "timestamp": "2026-11-23T03:08:22Z",
+            "url": "https://finnhub.io/api/news?id=0712c19d8a9ae985e1e26d0d98f26b0cbd1bab201d16fb9cb4f178e97409fa21"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T06:04:28Z",
+        "fundamentals_at": "2026-11-24T05:18:09Z",
         "price": 217.04,
         "currency": "USD",
         "change_pct": 1.677,
         "news": [
           {
-            "headline": "Ross Stores rolls out pricing shift for customers as sales rise",
-            "url": "https://finnhub.io/api/news?id=6f9af6215dacc1b6781664cff74e0e39243a777ea00f0ba35d376c56ce58899c",
+            "headline": "Ross Stores (ROST) Stock Fair Value Edges Lower After Mixed Q3 Analyst Resets",
+            "url": "https://finnhub.io/api/news?id=0712c19d8a9ae985e1e26d0d98f26b0cbd1bab201d16fb9cb4f178e97409fa21",
             "source": "Yahoo",
-            "published_at": "2026-11-21T15:17:00Z",
+            "published_at": "2026-11-23T03:08:22Z",
             "primary": false,
             "symbol": "ROST"
           },
           {
-            "headline": "Ross Stores: 3 Key Takeaways for Long-Term Investors",
-            "url": "https://finnhub.io/api/news?id=ed600c8499010776220552d3c56c963065f5c55cbe9a9319809b94b7ecb0801e",
+            "headline": "Ross Stores rolls out pricing shift for customers as sales rise",
+            "url": "https://finnhub.io/api/news?id=6f9af6215dacc1b6781664cff74e0e39243a777ea00f0ba35d376c56ce58899c",
             "source": "Yahoo",
-            "published_at": "2026-11-20T20:47:33Z",
+            "published_at": "2026-11-21T15:17:00Z",
             "primary": false,
             "symbol": "ROST"
           }
@@ -13353,12 +13353,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 133.99,
-          "entry_floor": 120.59,
-          "exit_review_low": 171.78,
-          "exit_review_high": 206.47,
-          "bear_case": 93.31,
-          "scenario_upside_pct": -20.9,
+          "entry_ceiling": 127.1,
+          "entry_floor": 114.39,
+          "exit_review_low": 162.95,
+          "exit_review_high": 195.73,
+          "bear_case": 88.59,
+          "scenario_upside_pct": -24.9,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13371,12 +13371,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 24.77,
-            "earnings_growth_assumed_pct": 6.41,
-            "scenario_exit_pe": 18.42,
+            "trailing_pe": 26.0,
+            "earnings_growth_assumed_pct": 6.31,
+            "scenario_exit_pe": 18.36,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T06:04:28Z"
+            "metrics_retrieved_at": "2026-11-24T05:18:09Z"
           }
         },
         "ranking_score": 76,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T04:09:11Z",
+      "generated_at": "2026-11-24T05:18:09Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,

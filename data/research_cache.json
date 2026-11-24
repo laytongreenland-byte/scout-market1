@@ -5484,17 +5484,17 @@
       "metrics": {
         "52WeekHigh": 101.6,
         "52WeekLow": 73.82,
-        "peTTM": 174.6368,
-        "psTTM": 6.7458,
+        "peTTM": 175.3559,
+        "psTTM": 6.7736,
         "netProfitMarginTTM": 3.86,
         "roeTTM": 1.81,
         "revenueGrowthTTMYoy": 22.13,
         "epsGrowthTTMYoy": -0.13,
         "currentRatioQuarterly": 0.1427,
         "totalDebt/totalEquityQuarterly": 0.763,
-        "marketCapitalization": 45766.01
+        "marketCapitalization": 45954.457
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Ventas, Inc.",
       "profile": {
         "weburl": "https://www.ventasreit.com/",
@@ -5532,17 +5532,17 @@
       "metrics": {
         "52WeekHigh": 409.95,
         "52WeekLow": 224.25,
-        "peTTM": 10.094,
-        "psTTM": 3.5679,
+        "peTTM": 10.0692,
+        "psTTM": 3.5591,
         "netProfitMarginTTM": 35.35,
         "roeTTM": 59.089999999999996,
         "revenueGrowthTTMYoy": 5.61,
         "epsGrowthTTMYoy": 4.93,
         "currentRatioQuarterly": 0.8729,
         "totalDebt/totalEquityQuarterly": 0.6333,
-        "marketCapitalization": 1175370.4
+        "marketCapitalization": 1172489.1
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Novo Nordisk A/S",
       "profile": {
         "weburl": "https://www.novonordisk.com/",
@@ -5551,42 +5551,42 @@
       },
       "news": [
         {
-          "headline": "Novo Nordisk's Wegovy Pill Is Capturing 80% of New Oral Obesity Prescriptions. Is NVO Stock a Buy?",
-          "url": "https://finnhub.io/api/news?id=a783fd4aa07b6bd5f43f0a94327212573c8225227c7180c9ab227759179d0b06",
+          "headline": "Novo Nordisk (CPSE:NOVO B) Wins FDA Nod For First Weekly Turner Syndrome Therapy",
+          "url": "https://finnhub.io/api/news?id=9c54afbc1dfbdacb71f36fbc310ed5b722805d7946ae04d7237fd027f731db98",
           "source": "Yahoo",
-          "published_at": "2026-11-21T22:35:02Z",
+          "published_at": "2026-11-23T18:11:55Z",
           "primary": false,
           "symbol": "NVO"
         },
         {
-          "headline": "Novo Gets FDA Approval For First-Of-Its-Kind Weekly Growth Hormone Treatment For Children With Turner Syndrome",
-          "url": "https://finnhub.io/api/news?id=bf02f8db62bfde4396f1dba9785265923a96348b0f9693e0e289cf85c7c6a91e",
+          "headline": "Novo's Sogroya Gets FDA Label Expansion for Pediatric Turner Syndrome",
+          "url": "https://finnhub.io/api/news?id=1512615aec91523515a750bf4b5af6dee8fc72102f5b9ca5b357d450ea172a18",
           "source": "Yahoo",
-          "published_at": "2026-11-20T18:06:17Z",
+          "published_at": "2026-11-23T16:06:00Z",
           "primary": false,
           "symbol": "NVO"
         },
         {
-          "headline": "Novo's Sogroya® receives FDA approval as the first and only once-weekly, long-acting growth hormone for children with Turner Syndrome (TS)",
-          "url": "https://finnhub.io/api/news?id=f737818b932d2fc0910828f49ab440e6bebaf2aba163bb8ec019a2f2c25af981",
+          "headline": "Novo Nordisk A/S - share repurchase programme",
+          "url": "https://finnhub.io/api/news?id=f97a7ff62cf69c202b2498323d215ea1ee2d82e8a659566dfdd2785e6273a12a",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:47:00Z",
+          "published_at": "2026-11-23T13:46:00Z",
           "primary": false,
           "symbol": "NVO"
         },
         {
-          "headline": "Forget the Headlines: Novo Nordisk's (NVO) 4.6% Dividend Yield Is the Real Story for Patient Investors",
-          "url": "https://finnhub.io/api/news?id=10dffbb7cbd20e57ee0978c154a13a08a86b1955827f1c0eec8176cb48aa1cc4",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:49:00Z",
-          "primary": false,
-          "symbol": "NVO"
-        },
-        {
-          "headline": "Novo Nordisk: A Return To Growth May Be Just Around The Corner",
-          "url": "https://finnhub.io/api/news?id=7fa6a8b70cdd3b3543d3e6aff0cf5d9ea78eb09c276c085ffda63679cb2d6736",
+          "headline": "Novo Nordisk: The Wegovy Pill Opportunity Is Just Beginning",
+          "url": "https://finnhub.io/api/news?id=df3deeda3426d037191f17ec66b067c0484429782ba29d68b76f62c2ff997022",
           "source": "SeekingAlpha",
-          "published_at": "2026-11-19T18:41:34Z",
+          "published_at": "2026-11-23T10:12:56Z",
+          "primary": false,
+          "symbol": "NVO"
+        },
+        {
+          "headline": "Ozempic Maker Novo Nordisk Gets FDA Approval for Once-Weekly Growth Treatment for Pediatric Patients",
+          "url": "https://finnhub.io/api/news?id=29159b081d7524b0114be0001fe5af33df61cca43f48bb220f4744baf03b3a9b",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T09:01:40Z",
           "primary": false,
           "symbol": "NVO"
         }
@@ -5596,17 +5596,17 @@
       "metrics": {
         "52WeekHigh": 170.0,
         "52WeekLow": 122.78,
-        "peTTM": 24.8992,
-        "psTTM": 2.4301,
+        "peTTM": 24.8314,
+        "psTTM": 2.4235,
         "netProfitMarginTTM": 9.76,
         "roeTTM": 58.78,
         "revenueGrowthTTMYoy": 7.15,
         "epsGrowthTTMYoy": 21.84,
         "currentRatioQuarterly": 1.1334,
         "totalDebt/totalEquityQuarterly": 0.1744,
-        "marketCapitalization": 153578.38
+        "marketCapitalization": 153160.38
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "The TJX Companies, Inc.",
       "profile": {
         "weburl": "https://www.tjx.com/",
@@ -5614,6 +5614,22 @@
         "name": "The TJX Companies, Inc."
       },
       "news": [
+        {
+          "headline": "TGT or TJX: Which Is the Better Value Stock Right Now?",
+          "url": "https://finnhub.io/api/news?id=5826825064d958e64e84c821438be75054805e24e6a21bb53ada1eae6b53e886",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:40:04Z",
+          "primary": false,
+          "symbol": "TJX"
+        },
+        {
+          "headline": "Consumer Stocks Snap Winning Streaks As AI Selloff Rocks Markets — TSN, PDD, TJX Buck Trend",
+          "url": "https://finnhub.io/api/news?id=46fc88ba4db64984a6f2acd28312c42c220fd92cf422cc2582fc05b92a6e3370",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T09:24:52Z",
+          "primary": false,
+          "symbol": "TJX"
+        },
         {
           "headline": "TJX: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finnhub.io/api/news?id=713a52a8ea8747c29d914264376fea9f924beec1e2740e059f754730ddd04090",
@@ -5637,22 +5653,6 @@
           "published_at": "2026-11-19T15:46:34Z",
           "primary": false,
           "symbol": "TJX"
-        },
-        {
-          "headline": "TJX earnings analysis: questions answered and next catalysts",
-          "url": "https://finnhub.io/api/news?id=a8ec8512f1dffb6705001609e4c97eebb1817005589da208c40dd7284ca141ba",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:59:17Z",
-          "primary": false,
-          "symbol": "TJX"
-        },
-        {
-          "headline": "TJX's Marmaxx Turnaround Fuels Bullish Analyst Outlook Despite Margin Pressures",
-          "url": "https://finnhub.io/api/news?id=8e914e371a5dcac6da2ad78d3679b5314b525a04fd9a40a702a0948cdde66010",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T13:05:28Z",
-          "primary": false,
-          "symbol": "TJX"
         }
       ]
     },
@@ -5660,17 +5660,17 @@
       "metrics": {
         "52WeekHigh": 232.25,
         "52WeekLow": 152.8,
-        "peTTM": 12.6601,
-        "psTTM": 1.9785,
+        "peTTM": 13.2561,
+        "psTTM": 2.0716,
         "netProfitMarginTTM": 15.63,
         "roeTTM": 17.810000000000002,
         "revenueGrowthTTMYoy": 12.03,
         "epsGrowthTTMYoy": 28.33,
         "currentRatioQuarterly": 0.3196,
         "totalDebt/totalEquityQuarterly": 8.6073,
-        "marketCapitalization": 258949.47
+        "marketCapitalization": 271141.22
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Morgan Stanley",
       "profile": {
         "weburl": "https://www.morganstanley.com/",
@@ -5679,42 +5679,42 @@
       },
       "news": [
         {
-          "headline": "Morgan Stanley Announces Accounting Policy Changes Effective October 1, 2026",
-          "url": "https://finnhub.io/api/news?id=7c6f33d93ff15cc59abdf5135e3175b6a4314abe9e09ecd29d8fec2961df040a",
-          "source": "Fintel",
-          "published_at": "2026-11-20T21:11:18Z",
+          "headline": "Morgan Stanley (MS) Wealth Narrative Holds Following Preferred Dividend Declaration",
+          "url": "https://finnhub.io/api/news?id=8571f36c5d5c032e8ba4a3291716d225806a09e4a95a9146c56d209e7ce751cd",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T03:17:24Z",
           "primary": false,
           "symbol": "MS"
         },
         {
-          "headline": "Morgan Stanley Ends Anthropic Stock Support After Just One Day",
-          "url": "https://finnhub.io/api/news?id=1e8946f929d3783924a1e7eb877a5d988edc5307603e365fbaa070058cd17bbb",
+          "headline": "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
+          "url": "https://finnhub.io/api/news?id=116966f857edab7cb4301cb3ec9eb1acb57bdb08b8e4c509138f6d25cb397d8e",
           "source": "Yahoo",
-          "published_at": "2026-11-20T18:46:22Z",
+          "published_at": "2026-11-24T03:03:00Z",
           "primary": false,
           "symbol": "MS"
         },
         {
-          "headline": "Coinbase falls below Morgan Stanley’s $120 target",
-          "url": "https://finnhub.io/api/news?id=19ea9ff3a3eac0ded134d03bb4e1dfc0518c854a0b0c77d583d9f901a083039b",
+          "headline": "She Moves $200,000 of Her $900,000 IRA Into a Roth as Morgan Stanley Sees S&P 500 Hitting 8,700. The Conversion Makes $24,480 of Her Social Security Taxable This Year",
+          "url": "https://finnhub.io/api/news?id=a66d196ba00e26e1e2a62ef685e7d0ffe03c2eb339685b86e0c6e1f14fdce2ba",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:00Z",
+          "published_at": "2026-11-24T00:34:34Z",
           "primary": false,
           "symbol": "MS"
         },
         {
-          "headline": "Morgan Stanley (MS) Debuts Four Active UCITS ETFs In Europe",
-          "url": "https://finnhub.io/api/news?id=88959bc6f3c69619bc77fbfb8aed8c75378cc1a4ccfa2c371a6e5a812e848fca",
+          "headline": "Morgan Stanley Sees 14% Earnings Growth as Stocks Price In a 6% Decline",
+          "url": "https://finnhub.io/api/news?id=d1905df62cc0739a9ed2f79043c9598674e30fb26e4bf7beb248389b084b4317",
           "source": "Yahoo",
-          "published_at": "2026-11-20T03:19:45Z",
+          "published_at": "2026-11-23T15:10:24Z",
           "primary": false,
           "symbol": "MS"
         },
         {
-          "headline": "Anthropic’s IPO nets Goldman Sachs and Morgan Stanley $113 million apiece in fees, eclipsing their SpaceX paydays",
-          "url": "https://finnhub.io/api/news?id=0c8538f87f6109dabdd608208c10236adbd3f4a2e644556078b3531e837192b4",
+          "headline": "Investors Heavily Search Morgan Stanley (MS): Here is What You Need to Know",
+          "url": "https://finnhub.io/api/news?id=3b54cd1fc1a5b15833f9868cba5eb60ddb12c5b793db2025d20bc27c7ee0b03f",
           "source": "Yahoo",
-          "published_at": "2026-11-19T23:38:22Z",
+          "published_at": "2026-11-23T13:00:04Z",
           "primary": false,
           "symbol": "MS"
         }
@@ -5724,15 +5724,15 @@
       "metrics": {
         "52WeekHigh": 176.58,
         "52WeekLow": 116.88,
-        "psTTM": 6.6616,
+        "psTTM": 6.8013,
         "netProfitMarginTTM": -12.47,
         "roeTTM": -21.759999999999998,
         "revenueGrowthTTMYoy": 6.54,
         "currentRatioQuarterly": 1.3221,
         "totalDebt/totalEquityQuarterly": 2.219,
-        "marketCapitalization": 206429.56
+        "marketCapitalization": 210758.33
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Gilead Sciences, Inc.",
       "profile": {
         "weburl": "https://www.gilead.com",
@@ -5740,6 +5740,14 @@
         "name": "Gilead Sciences, Inc."
       },
       "news": [
+        {
+          "headline": "Gilead Sciences Has Raised Its Dividend for 11 Straight Years. Here’s Why the Streak Looks Safe.",
+          "url": "https://finnhub.io/api/news?id=c1ed2ea0eb8d97e7cb20777c0b6b2728401b45d6c2a799f3b960150a27341cfe",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T15:13:02Z",
+          "primary": false,
+          "symbol": "GILD"
+        },
         {
           "headline": "$500,000 in AbbVie and Gilead Could Pay More Than $11,000 a Year in Dividends",
           "url": "https://finnhub.io/api/news?id=d7774d671334567d8c634de1ea7e800f91d4cd4e82d880128917acc53c42e014",
@@ -5771,14 +5779,6 @@
           "published_at": "2026-11-19T13:12:32Z",
           "primary": false,
           "symbol": "GILD"
-        },
-        {
-          "headline": "Where Could Gilead's Next Growth Come From?",
-          "url": "https://finnhub.io/api/news?id=4301741239599621ae7f861318189ba6f34562e8ba173079466ffc19e9893ac8",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:43:10Z",
-          "primary": false,
-          "symbol": "GILD"
         }
       ]
     },
@@ -5793,9 +5793,9 @@
         "revenueGrowthTTMYoy": 17.53,
         "currentRatioQuarterly": 1.1344,
         "totalDebt/totalEquityQuarterly": 7.0139,
-        "marketCapitalization": 123535.016
+        "marketCapitalization": 123535.02
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Boeing Co",
       "profile": {
         "weburl": "https://www.boeing.com",
@@ -5804,42 +5804,42 @@
       },
       "news": [
         {
-          "headline": "Boeing's 2,500 job cuts come with a troubling unanswered question",
-          "url": "https://finnhub.io/api/news?id=deb0eca9953523446062558e7448ec3b9b35983c9a32bf7c93ac8218f92ae799",
+          "headline": "Why Boeing Stock Popped Today",
+          "url": "https://finnhub.io/api/news?id=2b34841818736e87259570bcc89ecdf9b8680014bc861bbcf8571397dcbf6aee",
           "source": "Yahoo",
-          "published_at": "2026-11-21T20:37:00Z",
+          "published_at": "2026-11-23T18:29:09Z",
           "primary": false,
           "symbol": "BA"
         },
         {
-          "headline": "Boeing (BA) Faces Execution Pressure, Is The Stock Fully Valued?",
-          "url": "https://finnhub.io/api/news?id=f6696aa187eca9f171fc7463aba2b43fdab3ddb1e12953cfe61953f16dbff9f3",
+          "headline": "Boeing (BA) Gains Focus As Airborne Electronic Warfare Spending Expands",
+          "url": "https://finnhub.io/api/news?id=528d9b7f4debc052b533ace0f19f83ac3fa4b1018e707156d952fc2f36e691fc",
           "source": "Yahoo",
-          "published_at": "2026-11-20T18:13:21Z",
+          "published_at": "2026-11-23T17:13:22Z",
           "primary": false,
           "symbol": "BA"
         },
         {
-          "headline": "Is Boeing Stock Priced Right Against Its Peers?",
-          "url": "https://finnhub.io/api/news?id=262f57cd634c4c316458531794ed418efa04749f80a77488b64ca7139b90ae87",
+          "headline": "Global Airborne Electronic Warfare Market Report 2026 | Capitalize on AI and unmanned systems to capture $19.07 billion by 2030 with RTX, Boeing, Lockheed Martin and BAE Systems",
+          "url": "https://finnhub.io/api/news?id=6d771c2081de695e50a6104995f1ddeb140b0ddac91b5caaf7dc6cb4f2108fa2",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:15:00Z",
+          "published_at": "2026-11-23T15:20:00Z",
           "primary": false,
           "symbol": "BA"
         },
         {
-          "headline": "Boeing Stock Slumps 25% -- Another Director Sees an 'Opportunity to Buy'",
-          "url": "https://finnhub.io/api/news?id=515b5da97fe876baabae01eead141aaee1f286089501d40b99e236dc43fdd3f1",
+          "headline": "Can Strong Aircraft Orders Support Boeing's Commercial Growth?",
+          "url": "https://finnhub.io/api/news?id=553ba8949cc157548e33a80572388b41cbec9a8e3c4fa762bc5cc385d64f91b1",
           "source": "Yahoo",
-          "published_at": "2026-11-20T11:41:53Z",
+          "published_at": "2026-11-23T13:52:00Z",
           "primary": false,
           "symbol": "BA"
         },
         {
-          "headline": "Boeing Is Down 37% From Its High, and Its Jet Unit Is in an “Overstaffed Position.” Is the Selling Overdone?",
-          "url": "https://finnhub.io/api/news?id=a4bc1616b3ff659839f27d4231ca0c30373b0c338f4fbac2acafe0285db9ff13",
+          "headline": "Archer Aviation's Real Bet Is Boeing's Drone Maker",
+          "url": "https://finnhub.io/api/news?id=c3e1c83b4a27b7d6f828dc40fb8777a98a9867c7f747c53a7042b22e98f5d42d",
           "source": "Yahoo",
-          "published_at": "2026-11-20T09:35:21Z",
+          "published_at": "2026-11-23T13:20:58Z",
           "primary": false,
           "symbol": "BA"
         }
@@ -5849,17 +5849,17 @@
       "metrics": {
         "52WeekHigh": 34.81,
         "52WeekLow": 26.24,
-        "peTTM": 18.7931,
-        "psTTM": 3.6912,
+        "peTTM": 19.0033,
+        "psTTM": 3.7325,
         "netProfitMarginTTM": 19.64,
         "roeTTM": 11.459999999999999,
         "revenueGrowthTTMYoy": 11.74,
         "epsGrowthTTMYoy": 31.95,
         "currentRatioQuarterly": 0.67,
         "totalDebt/totalEquityQuarterly": 1.0468,
-        "marketCapitalization": 67711.41
+        "marketCapitalization": 68468.836
       },
-      "updated_at": "2026-11-22T05:06:24Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Kinder Morgan, Inc.",
       "profile": {
         "weburl": "https://www.kindermorgan.com/",
@@ -5868,10 +5868,34 @@
       },
       "news": [
         {
+          "headline": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T04:30:27Z",
+          "primary": false,
+          "symbol": "KMI"
+        },
+        {
           "headline": "Why Is Kinder Morgan (KMI) Down 7.8% Since Last Earnings Report?",
           "url": "https://finnhub.io/api/news?id=0ed3f6ba7b10d15f58977003c334df0f3c8b2880f91e77799f9f746b41a00ee4",
           "source": "Yahoo",
           "published_at": "2026-11-20T15:30:06Z",
+          "primary": false,
+          "symbol": "KMI"
+        },
+        {
+          "headline": "Merck or Kinder Morgan: Only One Gets My Dividend Dollars for the Next 20 Years",
+          "url": "https://finnhub.io/api/news?id=554d8867a68f36a28ffd86a7dd2e9664fdb473fa072e24dbe4fdbca3afa078f9",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T15:00:01Z",
+          "primary": false,
+          "symbol": "KMI"
+        },
+        {
+          "headline": "Clorox or Kinder Morgan: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=fbdb12bead507a8ec3e9893c4a93433250c8bfd426f6c784435da96770404031",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T14:59:14Z",
           "primary": false,
           "symbol": "KMI"
         },
@@ -5882,22 +5906,6 @@
           "published_at": "2026-11-19T17:35:44Z",
           "primary": false,
           "symbol": "KMI"
-        },
-        {
-          "headline": "Investors Heavily Search Kinder Morgan, Inc. (KMI): Here is What You Need to Know",
-          "url": "https://finnhub.io/api/news?id=a542568fe1572287b2f71164fdf24273ec8b5ebf140f15215b22ff98cbc9a5f0",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:00:03Z",
-          "primary": false,
-          "symbol": "KMI"
-        },
-        {
-          "headline": "Zacks Industry Outlook Highlights Kinder Morgan, The Williams and MPLX LP",
-          "url": "https://finnhub.io/api/news?id=c051a2c3866cfc96dadb3d4ba6fe5be094a85b0b8b7a329763dfdf5d77a8a822",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T09:53:00Z",
-          "primary": false,
-          "symbol": "KMI"
         }
       ]
     },
@@ -5905,17 +5913,17 @@
       "metrics": {
         "52WeekHigh": 174.27,
         "52WeekLow": 121.44,
-        "peTTM": 26.4542,
-        "psTTM": 0.8137,
+        "peTTM": 26.9999,
+        "psTTM": 0.8305,
         "netProfitMarginTTM": 3.08,
         "roeTTM": 16.03,
         "revenueGrowthTTMYoy": 14.17,
         "epsGrowthTTMYoy": 15.39,
         "currentRatioQuarterly": 1.1701,
         "totalDebt/totalEquityQuarterly": 0.9375,
-        "marketCapitalization": 36533.2
+        "marketCapitalization": 37286.832
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "CBRE Group, Inc.",
       "profile": {
         "weburl": "https://www.cbre.us",
@@ -5953,17 +5961,17 @@
       "metrics": {
         "52WeekHigh": 219.65,
         "52WeekLow": 127.5,
-        "peTTM": 27.1588,
-        "psTTM": 5.544,
+        "peTTM": 26.6738,
+        "psTTM": 5.445,
         "netProfitMarginTTM": 20.41,
         "roeTTM": 17.849999999999998,
         "revenueGrowthTTMYoy": 7.92,
         "epsGrowthTTMYoy": 15.01,
         "currentRatioQuarterly": 1.1572,
         "totalDebt/totalEquityQuarterly": 0.2304,
-        "marketCapitalization": 218356.88
+        "marketCapitalization": 214457.22
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "SAP SE",
       "profile": {
         "weburl": "https://www.sap.com/",
@@ -5971,6 +5979,30 @@
         "name": "SAP SE"
       },
       "news": [
+        {
+          "headline": "AI productivity gains to slow headcount, SAP CFO predicts",
+          "url": "https://finnhub.io/api/news?id=abecbd66be6c133688f9fc10472a1dd5fb306f5c7ba80b9fe8df35e21afb736a",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T19:54:33Z",
+          "primary": false,
+          "symbol": "SAP"
+        },
+        {
+          "headline": "Digital Logistics - Global Strategic Business Report 2026: Capitalize on 21.2% CAGR and a US$179.4B Market as IBM, Oracle, SAP, Siemens, and Tech Mahindra Disrupt Supply Chains",
+          "url": "https://finnhub.io/api/news?id=4b882208cfeafabed056e150c3bf06d78fcd483bc892739a0b6566f9a630cd00",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:34:00Z",
+          "primary": false,
+          "symbol": "SAP"
+        },
+        {
+          "headline": "Global Regulatory Data Market Report 2026 | Capitalize on 18.3% CAGR as AI, cloud and real-time reporting fuel $5.96B by 2030; IBM, Oracle, SAP and Accenture accelerate innovation",
+          "url": "https://finnhub.io/api/news?id=b28ef5851857373c31d18cb2e74c5b351ec27a65129a479ffa6773cb860394ac",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:30:00Z",
+          "primary": false,
+          "symbol": "SAP"
+        },
         {
           "headline": "SAP CFO Sees Headcount Declining as AI Boosts Productivity, Plans New Revenue Metric",
           "url": "https://finnhub.io/api/news?id=b41442b5fcef695717d1cf497075ee55a5d513f234f3e37b2e286ff9045745eb",
@@ -5986,30 +6018,6 @@
           "published_at": "2026-11-19T17:45:00Z",
           "primary": false,
           "symbol": "SAP"
-        },
-        {
-          "headline": "Connected Logistics - Global Strategic Business Report 2026: Capitalize on a $100.8 Billion Market by 2032 with Cisco, IBM, SAP, Intel, and AT&T",
-          "url": "https://finnhub.io/api/news?id=6efafaee222231f0fcb6766016063c2661b0340da51087774332ae27943331e5",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:01:00Z",
-          "primary": false,
-          "symbol": "SAP"
-        },
-        {
-          "headline": "Global Job Costing Market Report 2026 | Capitalize on AI and Cloud as Market Hits $4.68 Billion by 2030 at 9.2% CAGR; Microsoft, Oracle, SAP, Intuit, and Autodesk Lead",
-          "url": "https://finnhub.io/api/news?id=0b2744c7e0a421ee3733abc16e4628ad881ca69254b4253644ae57e81c1ba12a",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:48:00Z",
-          "primary": false,
-          "symbol": "SAP"
-        },
-        {
-          "headline": "SAP SE (SAP) Presents at Morgan Stanley European Technology, Media and Telecom Conference Transcript",
-          "url": "https://finnhub.io/api/news?id=eceed13694a5cd8853c6dfc4a66aa275c65e45fdcc545cb1f0137784ceff567e",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-19T09:13:17Z",
-          "primary": false,
-          "symbol": "SAP"
         }
       ]
     },
@@ -6017,17 +6025,17 @@
       "metrics": {
         "52WeekHigh": 257.0,
         "52WeekLow": 160.34,
-        "peTTM": 24.7655,
-        "psTTM": 2.7095,
-        "netProfitMarginTTM": 10.94,
-        "roeTTM": 42.11,
-        "revenueGrowthTTMYoy": 14.25,
-        "epsGrowthTTMYoy": 34.36,
-        "currentRatioQuarterly": 1.5799,
-        "totalDebt/totalEquityQuarterly": 0.1472,
-        "marketCapitalization": 68190.47
+        "peTTM": 25.9978,
+        "psTTM": 2.8203,
+        "netProfitMarginTTM": 10.85,
+        "roeTTM": 42.34,
+        "revenueGrowthTTMYoy": 14.02,
+        "epsGrowthTTMYoy": 31.42,
+        "currentRatioQuarterly": 1.6122,
+        "totalDebt/totalEquityQuarterly": 0.151,
+        "marketCapitalization": 69129.66
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Ross Stores Inc",
       "profile": {
         "weburl": "https://www.rossstores.com/",
@@ -6035,6 +6043,14 @@
         "name": "Ross Stores Inc"
       },
       "news": [
+        {
+          "headline": "Ross Stores (ROST) Stock Fair Value Edges Lower After Mixed Q3 Analyst Resets",
+          "url": "https://finnhub.io/api/news?id=0712c19d8a9ae985e1e26d0d98f26b0cbd1bab201d16fb9cb4f178e97409fa21",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T03:08:22Z",
+          "primary": false,
+          "symbol": "ROST"
+        },
         {
           "headline": "Ross Stores rolls out pricing shift for customers as sales rise",
           "url": "https://finnhub.io/api/news?id=6f9af6215dacc1b6781664cff74e0e39243a777ea00f0ba35d376c56ce58899c",
@@ -6066,14 +6082,6 @@
           "published_at": "2026-11-20T16:27:48Z",
           "primary": false,
           "symbol": "ROST"
-        },
-        {
-          "headline": "AMD Falls on China Risk; Ross Tumbles on Q4 Guidance | Stock Movers",
-          "url": "https://finnhub.io/api/news?id=0b5e310cf69ad219d15812f45d1c544af867b7778c59d8167284040746503cdd",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T16:19:25Z",
-          "primary": false,
-          "symbol": "ROST"
         }
       ]
     },
@@ -6081,17 +6089,17 @@
       "metrics": {
         "52WeekHigh": 114.53,
         "52WeekLow": 83.96,
-        "peTTM": 14.6299,
-        "psTTM": 5.1061,
+        "peTTM": 14.8683,
+        "psTTM": 5.1893,
         "netProfitMarginTTM": 34.9,
         "roeTTM": 20.380000000000003,
         "revenueGrowthTTMYoy": 12.3,
         "epsGrowthTTMYoy": 34.62,
         "currentRatioQuarterly": 0.3992,
         "totalDebt/totalEquityQuarterly": 5.7191,
-        "marketCapitalization": 155720.42
+        "marketCapitalization": 158257.66
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "The Charles Schwab Corporation",
       "profile": {
         "weburl": "https://www.schwab.com/",
@@ -6099,6 +6107,14 @@
         "name": "The Charles Schwab Corporation"
       },
       "news": [
+        {
+          "headline": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
+          "url": "https://finnhub.io/api/news?id=8dfbd40829e4c2c36881f3aaf0fab0eea927fd39e343f951072c96760fbe2114",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:45:00Z",
+          "primary": false,
+          "symbol": "SCHW"
+        },
         {
           "headline": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
           "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045",
@@ -6130,14 +6146,6 @@
           "published_at": "2026-11-18T14:00:00Z",
           "primary": false,
           "symbol": "SCHW"
-        },
-        {
-          "headline": "Charles Schwab (SCHW) Now Has The Largest U.S. Dividend ETF",
-          "url": "https://finnhub.io/api/news?id=02374792b5b00e1bb2aba98fa81476c377abdd2023ecd1c2c9514439b36543f4",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T03:10:34Z",
-          "primary": false,
-          "symbol": "SCHW"
         }
       ]
     },
@@ -6145,17 +6153,17 @@
       "metrics": {
         "52WeekHigh": 568.6699,
         "52WeekLow": 412.27,
-        "peTTM": 32.8505,
-        "psTTM": 10.0845,
+        "peTTM": 32.8421,
+        "psTTM": 10.0819,
         "netProfitMarginTTM": 30.7,
         "roeTTM": 20.080000000000002,
         "revenueGrowthTTMYoy": 10.48,
         "epsGrowthTTMYoy": 9.22,
         "currentRatioQuarterly": 2.3371,
         "totalDebt/totalEquityQuarterly": 0.2151,
-        "marketCapitalization": 130610.13
+        "marketCapitalization": 130576.98
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T05:18:09Z",
       "name": "Vertex Pharmaceuticals Incorporated",
       "profile": {
         "weburl": "https://www.vrtx.com/",
@@ -6163,6 +6171,30 @@
         "name": "Vertex Pharmaceuticals Incorporated"
       },
       "news": [
+        {
+          "headline": "Eli Lilly vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=13634bb33accdd11269f64502547d0b51b5b86b9dfa97524644ddb83dd3e0b99",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:01:02Z",
+          "primary": false,
+          "symbol": "VRTX"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Vertex Pharmaceuticals Stock?",
+          "url": "https://finnhub.io/api/news?id=5223b220d93aaff40b90e352de746ce2026715cfcb24ef8b491a1088f9ac6d10",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:21:54Z",
+          "primary": false,
+          "symbol": "VRTX"
+        },
+        {
+          "headline": "Vertex’s executive chairman: Here’s how we got our drug-trial success rate over 70% when the industry’s is 10% to 20%",
+          "url": "https://finnhub.io/api/news?id=285214f9dba309dbaa3f945b6632e58dcb8f54f487eb1a977401ba9e8d174904",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T13:30:00Z",
+          "primary": false,
+          "symbol": "VRTX"
+        },
         {
           "headline": "Has Vertex Stock Become A Different Bet?",
           "url": "https://finnhub.io/api/news?id=f93951fd0ea504d6ed4769de62c62da022483e21e5ac7cad1aa3b7fde919562b",
@@ -6176,30 +6208,6 @@
           "url": "https://finnhub.io/api/news?id=4e14bdd5c328ef8e07a89d1f02bf29b7641e7212018e3e47b4052612a9bd6aa4",
           "source": "SeekingAlpha",
           "published_at": "2026-11-20T07:21:05Z",
-          "primary": false,
-          "symbol": "VRTX"
-        },
-        {
-          "headline": "Genomics, Vertex extend drug discovery alliance in $220m deal",
-          "url": "https://finnhub.io/api/news?id=d6dcebcbcdf3663cc79f494adf2a136a45a21750c8e0c16f1f16b8913b70e9f2",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T10:53:16Z",
-          "primary": false,
-          "symbol": "VRTX"
-        },
-        {
-          "headline": "Should You Pick Vertex Stock Over Its Biotech Rivals?",
-          "url": "https://finnhub.io/api/news?id=2a9da3efec569b13b6a6ebcb196f334a1b3ad0455f9bd8b96a3f1fec9dd6bb6b",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T17:13:07Z",
-          "primary": false,
-          "symbol": "VRTX"
-        },
-        {
-          "headline": "Genomics Ltd. Announces Extension of Strategic Drug Discovery Collaboration with Vertex Pharmaceuticals",
-          "url": "https://finnhub.io/api/news?id=fcd45859cfdfbe1936788ba0edb0736fab709c378b7e10856d81028888109991",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T09:43:00Z",
           "primary": false,
           "symbol": "VRTX"
         }
@@ -29704,6 +29712,6 @@
       ]
     }
   },
-  "cursor": 90,
-  "updated_at": "2026-11-24T04:09:11Z"
+  "cursor": 102,
+  "updated_at": "2026-11-24T05:18:09Z"
 }
