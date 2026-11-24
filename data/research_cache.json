@@ -6217,17 +6217,17 @@
       "metrics": {
         "52WeekHigh": 496.36,
         "52WeekLow": 196.98,
-        "peTTM": 9.5694,
-        "psTTM": 2.197,
+        "peTTM": 9.9892,
+        "psTTM": 2.2934,
         "netProfitMarginTTM": 22.96,
         "roeTTM": 41.21,
         "revenueGrowthTTMYoy": 4.18,
         "epsGrowthTTMYoy": 16.58,
         "currentRatioQuarterly": 0.9601,
         "totalDebt/totalEquityQuarterly": 0.7402,
-        "marketCapitalization": 67483.12
+        "marketCapitalization": 70444.07
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Honeywell International Inc.",
       "profile": {
         "weburl": "https://www.honeywell.com/us/en",
@@ -6235,6 +6235,22 @@
         "name": "Honeywell International Inc."
       },
       "news": [
+        {
+          "headline": "Invesco NASDAQ 100 ETF (QQQM) Buys $340.9 Million More Honeywell on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=9c32e67830450ce7ccd309b243f039123bd70e22eef13f0cd1886d87c7b4f972",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:04:58Z",
+          "primary": false,
+          "symbol": "HON"
+        },
+        {
+          "headline": "ETFs Are Buying Honeywell (HON) on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=3e12c4e82a4a293d05baa0b5520f10550737210bee416d4dbebf886741f59697",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:00:45Z",
+          "primary": false,
+          "symbol": "HON"
+        },
         {
           "headline": "Could Honeywell Be The Value Stock For Your Portfolio?",
           "url": "https://finnhub.io/api/news?id=048a7cb87653b1baf405a01f986fce9e08ba095576c821ab3af2bfb55fcf9c72",
@@ -6258,22 +6274,6 @@
           "published_at": "2026-11-20T14:37:00Z",
           "primary": false,
           "symbol": "HON"
-        },
-        {
-          "headline": "Retail Automation - Global Strategic Business Report (2026-2032) Featuring Key Players NCR, Honeywell, Toshiba, Zebra, and GreyOrange",
-          "url": "https://finnhub.io/api/news?id=0e91a9992d900d2c1a7e6f2ce56da8545238cbb8e7c7174bc0c826d7db8a45ce",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:03:00Z",
-          "primary": false,
-          "symbol": "HON"
-        },
-        {
-          "headline": "Why Every Honeywell Investor Is Looking At This One Number",
-          "url": "https://finnhub.io/api/news?id=e8cabee928c9d2b39f408e1a15e0b7d6044f0964c78ba6b14a183a3f044f0aae",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T22:20:15Z",
-          "primary": false,
-          "symbol": "HON"
         }
       ]
     },
@@ -6281,17 +6281,17 @@
       "metrics": {
         "52WeekHigh": 80.08,
         "52WeekLow": 58.09,
-        "peTTM": 26.2115,
-        "psTTM": 6.5529,
+        "peTTM": 26.5398,
+        "psTTM": 6.635,
         "netProfitMarginTTM": 25.0,
         "roeTTM": 22.85,
         "revenueGrowthTTMYoy": 8.78,
         "epsGrowthTTMYoy": 31.42,
         "currentRatioQuarterly": 0.7484,
         "totalDebt/totalEquityQuarterly": 2.1569,
-        "marketCapitalization": 81937.055
+        "marketCapitalization": 82963.44
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "The Williams Companies, Inc.",
       "profile": {
         "weburl": "https://www.williams.com/",
@@ -6345,16 +6345,16 @@
       "metrics": {
         "52WeekHigh": 95.07,
         "52WeekLow": 65.32,
-        "peTTM": 42.6516,
-        "psTTM": 8.5825,
+        "peTTM": 42.1806,
+        "psTTM": 8.4878,
         "netProfitMarginTTM": 20.12,
         "roeTTM": 21.01,
         "revenueGrowthTTMYoy": -15.63,
         "currentRatioQuarterly": 0.2314,
         "totalDebt/totalEquityQuarterly": 4.5436,
-        "marketCapitalization": 35059.65
+        "marketCapitalization": 34672.465
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Crown Castle Inc",
       "profile": {
         "weburl": "https://www.crowncastle.com/",
@@ -6362,6 +6362,22 @@
         "name": "Crown Castle Inc"
       },
       "news": [
+        {
+          "headline": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink’s 40x Upgrade",
+          "url": "https://finnhub.io/api/news?id=7f23cd8bd8e7b2e4ce10c8e9a44423c69cf39920d5591ca1745309d69d2b300a",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T23:28:41Z",
+          "primary": false,
+          "symbol": "CCI"
+        },
+        {
+          "headline": "Crown Castle to Present at the 10th Annual Wells Fargo TMT Summit",
+          "url": "https://finnhub.io/api/news?id=0b648c729ea41f968eca5765e0055d9f88cd2f2a65e8de925a320280705de0d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:50:00Z",
+          "primary": false,
+          "symbol": "CCI"
+        },
         {
           "headline": "Crown Castle (CCI) Up 3.9% Since Last Earnings Report: Can It Continue?",
           "url": "https://finnhub.io/api/news?id=9bae771bc6c05ea84434d8e423fe6bc42a7c1a55d0b97b31f168878569d77df6",
@@ -6385,30 +6401,22 @@
           "published_at": "2026-11-18T20:52:56Z",
           "primary": false,
           "symbol": "CCI"
-        },
-        {
-          "headline": "Crown Castle Sees Growth Rebound in 2027 as New Spectrum Fuels Tower Demand",
-          "url": "https://finnhub.io/api/news?id=fb33cd6d954a7d8eacfa986bdadb91cc93583963279898471457b56f3138607d",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:12:33Z",
-          "primary": false,
-          "symbol": "CCI"
         }
       ]
     },
     "SONY": {
       "metrics": {
-        "52WeekHigh": 4619.0,
+        "52WeekHigh": 4606.0,
         "52WeekLow": 3043.0,
-        "psTTM": 1.987,
+        "psTTM": 1.9628,
         "netProfitMarginTTM": -1.03,
         "roeTTM": -1.6099999999999999,
         "revenueGrowthTTMYoy": 8.0,
         "currentRatioQuarterly": 1.2466,
         "totalDebt/totalEquityQuarterly": 0.2441,
-        "marketCapitalization": 25864954.0
+        "marketCapitalization": 25550902.0
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Sony Group Corp",
       "profile": {
         "weburl": "https://www.sony.com/",
@@ -6431,22 +6439,6 @@
           "published_at": "2026-11-16T16:15:18Z",
           "primary": false,
           "symbol": "SONY"
-        },
-        {
-          "headline": "Sony: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=d7fc5b0a7cdfca8703d07c1fa207020aa3e894a0181c3fb4ae25a74092832e7c",
-          "source": "Yahoo",
-          "published_at": "2026-11-15T04:26:01Z",
-          "primary": false,
-          "symbol": "SONY"
-        },
-        {
-          "headline": "Forget Take-Two: Sony Is the Overlooked Winner of GTA VI’s Huge Preorders",
-          "url": "https://finnhub.io/api/news?id=5142c8c8cb8ae2ae74dd62b125ba1de3f472edb6c770b14dd5af31e47718f621",
-          "source": "Yahoo",
-          "published_at": "2026-11-14T12:19:18Z",
-          "primary": false,
-          "symbol": "SONY"
         }
       ]
     },
@@ -6454,17 +6446,17 @@
       "metrics": {
         "52WeekHigh": 106.83,
         "52WeekLow": 55.1,
-        "peTTM": 16.15,
-        "psTTM": 0.4868,
+        "peTTM": 16.2201,
+        "psTTM": 0.4889,
         "netProfitMarginTTM": 3.01,
         "roeTTM": 42.82,
         "revenueGrowthTTMYoy": 1.45,
         "epsGrowthTTMYoy": 65.82,
         "currentRatioQuarterly": 1.1169,
         "totalDebt/totalEquityQuarterly": 0.3673,
-        "marketCapitalization": 20542.828
+        "marketCapitalization": 20631.963
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Best Buy Co., Inc.",
       "profile": {
         "weburl": "https://investors.bestbuy.com/investor-relations/overview/default.aspx",
@@ -6473,42 +6465,42 @@
       },
       "news": [
         {
-          "headline": "Best Buy (NYSE:BBY) Flashes High-Quality Technical Breakout Setup",
-          "url": "https://finnhub.io/api/news?id=bed4595c08044dac0f9cd741837be81a34475f55a8232b61bc81f74e9bb3c80d",
-          "source": "ChartMill",
-          "published_at": "2026-11-21T10:10:38Z",
-          "primary": false,
-          "symbol": "BBY"
-        },
-        {
-          "headline": "Best Buy, Target, and Kohl’s try to change holiday shopping",
-          "url": "https://finnhub.io/api/news?id=53e43521bb313fc6ebc148b1944776fa1cede9da070f43c4474ecaec0876593a",
+          "headline": "Best Buy and Target sent American  jobs to India before Kroger",
+          "url": "https://finnhub.io/api/news?id=8832a8db20ba1c01fedb1d0902ff20df021d20bbc001e29c7a3530da8fea2758",
           "source": "Yahoo",
-          "published_at": "2026-11-21T00:37:00Z",
+          "published_at": "2026-11-24T00:37:00Z",
           "primary": false,
           "symbol": "BBY"
         },
         {
-          "headline": "Best Buy's Comparable Sales Momentum to Continue, Margin Risks Linger, BofA Says",
-          "url": "https://finnhub.io/api/news?id=f380f68f601e0df2c7cdaf4bcd8af7cbd5875a027f327a4d5f61f37caf3f2a5d",
+          "headline": "Best Buy Q3 earnings preview: What Wall Street expects from new CEO Jason Bonfig amid crucial holiday season",
+          "url": "https://finnhub.io/api/news?id=6f5bc0147b03db7e36f4e438998b56ec426221882e34ca9dfccd81470476debe",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:07:56Z",
+          "published_at": "2026-11-23T21:58:38Z",
           "primary": false,
           "symbol": "BBY"
         },
         {
-          "headline": "B of A Securities Maintains Underperform on Best Buy Co, Raises Price Target to $83",
-          "url": "https://finnhub.io/api/news?id=9464f94ef09856b68b079749ef02765bb9f486ece745218a0ad62a22932e9892",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T13:23:35Z",
-          "primary": false,
-          "symbol": "BBY"
-        },
-        {
-          "headline": "Best Buy (BBY) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
-          "url": "https://finnhub.io/api/news?id=4c0abed9a6a921b0e050b9a0555c4f2e0a2fc8944e9c527d05670c3feda67a3b",
+          "headline": "$1,000 Invested in Best Buy 10 Years Ago Nearly Tripled. Here’s What It’s Worth",
+          "url": "https://finnhub.io/api/news?id=033e782fca863fb69b32b96935d947ed0cbf02e30c99585465140a4d003959ad",
           "source": "Yahoo",
-          "published_at": "2026-11-19T13:15:05Z",
+          "published_at": "2026-11-23T18:17:13Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Best Buy taps AI platform for supplier insights",
+          "url": "https://finnhub.io/api/news?id=3aeb6307f04228ee10e7baccf924daccf55900c6326514b4e3e3e2d314b6e0da",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:05:59Z",
+          "primary": false,
+          "symbol": "BBY"
+        },
+        {
+          "headline": "Best Buy Reports Earnings Tomorrow. Here's What Investors Should Be Watching.",
+          "url": "https://finnhub.io/api/news?id=04b139ede2a972b8e332bd796d8c3186b360b0245f04d554987b6c0c3c9277f2",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:45:08Z",
           "primary": false,
           "symbol": "BBY"
         }
@@ -6518,17 +6510,17 @@
       "metrics": {
         "52WeekHigh": 1242.12,
         "52WeekLow": 917.39,
-        "peTTM": 25.8264,
-        "psTTM": 6.2544,
+        "peTTM": 26.8297,
+        "psTTM": 6.4973,
         "netProfitMarginTTM": 24.22,
         "roeTTM": 12.11,
         "revenueGrowthTTMYoy": 24.72,
         "epsGrowthTTMYoy": 8.97,
         "currentRatioQuarterly": 2.4339,
         "totalDebt/totalEquityQuarterly": 0.2192,
-        "marketCapitalization": 178512.08
+        "marketCapitalization": 185446.97
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "BlackRock, Inc.",
       "profile": {
         "weburl": "https://www.blackrock.com/",
@@ -6537,42 +6529,42 @@
       },
       "news": [
         {
-          "headline": "BlackRock: The Growth Is Already Priced In",
-          "url": "https://finnhub.io/api/news?id=fa566ac014ae6d94e35472c7e693fc99056bd557f6807bd4548fedae946ac2fe",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-21T21:42:52Z",
+          "headline": "BlackRock, Marsh are urging caution on redeploying ANT and SpaceX gains",
+          "url": "https://finnhub.io/api/news?id=68aa26c334e5ffe0c198c77900cb82a4e5b6a44573d2636f01ebac0deea58d2b",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:58:09Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "S&P Global (SPGI) Could Be 16% Undervalued As Board Adds BlackRock Veteran",
-          "url": "https://finnhub.io/api/news?id=0d1ff42ed62907343b6b0d8f71cdd96636dc1bed7d451f4749a5f85ca0c9d7f9",
+          "headline": "BlackRock (BLK) Anchors $44 Billion GPU Financing",
+          "url": "https://finnhub.io/api/news?id=e998a74ff4c3c15872c4ec8c3433ecf7ba8c38b4aaf0bf6c730d090478236c95",
           "source": "Yahoo",
-          "published_at": "2026-11-21T07:13:28Z",
+          "published_at": "2026-11-23T21:14:07Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "BlackRock ETF approaching third anniversary just had its worst day",
-          "url": "https://finnhub.io/api/news?id=b1e77b02eca79d3cb7ee1b544bc1319557c33baf7ddabf61fdcf3909d10f132a",
+          "headline": "BlackRock ETF Dumps 1 Million ETH Worth $1.75B as Ethereum Outflows Accelerate: Is ETH In Trouble?",
+          "url": "https://finnhub.io/api/news?id=7377ce3153b2f3a14b2affe878c7ce5c3bd2f67a0f3cdccad00a0a9cf41c3d40",
           "source": "Yahoo",
-          "published_at": "2026-11-21T01:30:00Z",
+          "published_at": "2026-11-23T15:16:47Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "Certain BlackRock Closed-End Funds Announce Discount Management Programs",
-          "url": "https://finnhub.io/api/news?id=e91510cbf2fb625fd560fb019bc90a1bd1c3f8da95746f6e6b1faaf7bfc540cd",
+          "headline": "ETFs Are Buying BlackRock (BLK) on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=9550245ec5c8ab9f44854aad4ff6144a277deb0ea4fa4223fb05f537806f6df9",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:33:00Z",
+          "published_at": "2026-11-23T11:01:30Z",
           "primary": false,
           "symbol": "BLK"
         },
         {
-          "headline": "Distribution Dates and Amounts Announced for Certain BlackRock Closed-End Funds",
-          "url": "https://finnhub.io/api/news?id=b8e252b0a7b689c1559d5163a11901173290b1c66fe5a3f528d5996ad7330c85",
+          "headline": "3 Top-Ranked BlackRock Mutual Funds for Significant Returns",
+          "url": "https://finnhub.io/api/news?id=383d9ed151f95616f457ec2404d9f30ca32fef2e9565eeaa09e4d49f62f3410a",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:32:00Z",
+          "published_at": "2026-11-23T10:03:00Z",
           "primary": false,
           "symbol": "BLK"
         }
@@ -6592,7 +6584,7 @@
         "totalDebt/totalEquityQuarterly": 0.0808,
         "marketCapitalization": 95227.625
       },
-      "updated_at": "2026-11-22T06:04:28Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Regeneron Pharmaceuticals, Inc.",
       "profile": {
         "weburl": "https://www.regeneron.com/",
@@ -6600,6 +6592,22 @@
         "name": "Regeneron Pharmaceuticals, Inc."
       },
       "news": [
+        {
+          "headline": "IBD Stock Of The Day Regeneron Shrugs Off Kymera's Dupixent Onslaught",
+          "url": "https://finnhub.io/api/news?id=de767241ccc6c82503a70f461e6df8051b409e37df1c80b2fb3a20f4480a2f84",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T19:04:45Z",
+          "primary": false,
+          "symbol": "REGN"
+        },
+        {
+          "headline": "Is Regeneron Stock Priced Right Against Its Rivals?",
+          "url": "https://finnhub.io/api/news?id=5772b4183ee873a60e846396fee3f979a89528fbd3731a1c367c923879800200",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:09:12Z",
+          "primary": false,
+          "symbol": "REGN"
+        },
         {
           "headline": "Sanofi and Regeneron’s rare disease wins; Lilly’s dealmaking dance",
           "url": "https://finnhub.io/api/news?id=f5164a01cbe750265dce9285cd8f59278ee714e0a5c89b18131a334a099c61d3",
@@ -6623,22 +6631,6 @@
           "published_at": "2026-11-19T14:42:00Z",
           "primary": false,
           "symbol": "REGN"
-        },
-        {
-          "headline": "Regeneron Wins FDA Nod For Livsayis, 4x-Year GMG Shot",
-          "url": "https://finnhub.io/api/news?id=eefaa0d02c95b030852a01d94b17de67d7d4364fa187a117e43c1811ac35c9a5",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:10:41Z",
-          "primary": false,
-          "symbol": "REGN"
-        },
-        {
-          "headline": "Regeneron Highlights New Data Across Malignant and Classical Hematology Programs at American Society of Hematology (ASH)",
-          "url": "https://finnhub.io/api/news?id=fa2ac28d4999d3baa15d94cd8fae45c7d5d0e11fa7ca3110433b5f6517fa5a7b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:00:00Z",
-          "primary": false,
-          "symbol": "REGN"
         }
       ]
     },
@@ -6646,17 +6638,17 @@
       "metrics": {
         "52WeekHigh": 478.0,
         "52WeekLow": 308.22,
-        "peTTM": 31.0212,
-        "psTTM": 3.7816,
+        "peTTM": 33.4096,
+        "psTTM": 4.0728,
         "netProfitMarginTTM": 12.19,
         "roeTTM": 19.400000000000002,
         "revenueGrowthTTMYoy": 20.09,
         "epsGrowthTTMYoy": 0.07,
         "currentRatioQuarterly": 1.234,
         "totalDebt/totalEquityQuarterly": 0.9585,
-        "marketCapitalization": 120951.71
+        "marketCapitalization": 130264.05
       },
-      "updated_at": "2026-11-22T07:20:07Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Eaton Corporation PLC",
       "profile": {
         "weburl": "https://www.eaton.com/",
@@ -6664,6 +6656,22 @@
         "name": "Eaton Corporation PLC"
       },
       "news": [
+        {
+          "headline": "Eaton: A Great Quarter, And A Massive Improvement In The Risk-Reward",
+          "url": "https://finnhub.io/api/news?id=2f372bfb7dfb3f551803340005af9c31ca584d53bed07fe355194fb308462485",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T17:43:22Z",
+          "primary": false,
+          "symbol": "ETN"
+        },
+        {
+          "headline": "Baird Maintains Outperform on Eaton Corp, Lowers Price Target to $375",
+          "url": "https://finnhub.io/api/news?id=4525b01160018216aa2493968d514304787c0e6c16c01d7bb2c96112776f088c",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T07:57:58Z",
+          "primary": false,
+          "symbol": "ETN"
+        },
         {
           "headline": "Building-to-Grid Technology - Global Strategic Business Report 2026: Capitalize on 21.8% CAGR as Market Hits $6.8 Billion by 2032 - Benchmark ABB, Siemens, Schneider Electric, Eaton and Honeywell",
           "url": "https://finnhub.io/api/news?id=7074dfc43a013ae217f56206e96ab78eb0ee90fec05098890b3584f874646984",
@@ -6687,22 +6695,6 @@
           "published_at": "2026-11-20T13:40:17Z",
           "primary": false,
           "symbol": "ETN"
-        },
-        {
-          "headline": "The Concern Behind Erste Group’s Call on Eaton (ETN)",
-          "url": "https://finnhub.io/api/news?id=730960687d2bc6f4477f6c5b0ce3d7fd617cc11fb4775b5d24e29ba5ec268bbe",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:16:51Z",
-          "primary": false,
-          "symbol": "ETN"
-        },
-        {
-          "headline": "Is Eaton A Better Data Center Play Than Rockwell?",
-          "url": "https://finnhub.io/api/news?id=331419fd27e9861ae505990e2037394b63910e6f591e03aa69e9ff03cf975994",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:03:28Z",
-          "primary": false,
-          "symbol": "ETN"
         }
       ]
     },
@@ -6710,17 +6702,17 @@
       "metrics": {
         "52WeekHigh": 330.73,
         "52WeekLow": 186.2001,
-        "peTTM": 19.8181,
-        "psTTM": 2.5926,
+        "peTTM": 19.8675,
+        "psTTM": 2.599,
         "netProfitMarginTTM": 13.08,
         "roeTTM": 49.769999999999996,
         "revenueGrowthTTMYoy": 22.47,
         "epsGrowthTTMYoy": -20.11,
         "currentRatioQuarterly": 0.9001,
         "totalDebt/totalEquityQuarterly": 3.6508,
-        "marketCapitalization": 60207.477
+        "marketCapitalization": 60357.566
       },
-      "updated_at": "2026-11-22T07:20:07Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Cheniere Energy, Inc.",
       "profile": {
         "weburl": "https://www.cheniere.com/",
@@ -6774,17 +6766,17 @@
       "metrics": {
         "52WeekHigh": 30.485,
         "52WeekLow": 22.425,
-        "peTTM": 11.4284,
-        "psTTM": 6.4524,
+        "peTTM": 11.3211,
+        "psTTM": 6.3918,
         "netProfitMarginTTM": 56.46,
         "roeTTM": 8.219999999999999,
         "revenueGrowthTTMYoy": 4.7,
         "epsGrowthTTMYoy": -17.18,
         "currentRatioQuarterly": 0.3922,
         "totalDebt/totalEquityQuarterly": 0.6128,
-        "marketCapitalization": 26813.562
+        "marketCapitalization": 26561.598
       },
-      "updated_at": "2026-11-22T07:20:07Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "VICI Properties Inc",
       "profile": {
         "weburl": "https://viciproperties.com/",
@@ -6830,17 +6822,17 @@
       "metrics": {
         "52WeekHigh": 149.11,
         "52WeekLow": 98.83,
-        "peTTM": 20.1098,
-        "psTTM": 5.478,
+        "peTTM": 16.5651,
+        "psTTM": 4.5124,
         "netProfitMarginTTM": 27.24,
         "roeTTM": 19.41,
         "revenueGrowthTTMYoy": -17.37,
         "epsGrowthTTMYoy": -30.92,
         "currentRatioQuarterly": 3.5644,
         "totalDebt/totalEquityQuarterly": 0.0667,
-        "marketCapitalization": 75864.47
+        "marketCapitalization": 62549.285
       },
-      "updated_at": "2026-11-22T07:20:07Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "NetEase, Inc.",
       "profile": {
         "weburl": "https://www.163.com/",
@@ -6894,17 +6886,17 @@
       "metrics": {
         "52WeekHigh": 111.5,
         "52WeekLow": 81.97,
-        "peTTM": 59.3022,
-        "psTTM": 3.0669,
+        "peTTM": 60.5328,
+        "psTTM": 3.1305,
         "netProfitMarginTTM": 5.17,
         "roeTTM": 115.68,
         "revenueGrowthTTMYoy": 4.49,
         "epsGrowthTTMYoy": -24.99,
         "currentRatioQuarterly": 0.7597,
         "totalDebt/totalEquityQuarterly": 8.0719,
-        "marketCapitalization": 117578.516
+        "marketCapitalization": 120018.32
       },
-      "updated_at": "2026-11-22T07:20:07Z",
+      "updated_at": "2026-11-24T07:29:21Z",
       "name": "Starbucks Corp",
       "profile": {
         "weburl": "https://www.starbucks.com/",
@@ -6913,42 +6905,42 @@
       },
       "news": [
         {
+          "headline": "Can Starbucks' Development Reset Strengthen Future Store Returns?",
+          "url": "https://finnhub.io/api/news?id=ba6612ae9affcfb2bdcc8e4a06348e96d5b235b0c10abd2f6eb9429dbf3e614c",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:42:00Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of Starbucks (SBUX) on Nov. 19",
+          "url": "https://finnhub.io/api/news?id=83f7ad9785cdadd7ffc2dd357e9d96c5f5caf85f173d5870199dee1a268f533e",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:02:09Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "PepsiCo vs. Starbucks: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=6b87a2c34a19b51fb191360f537a241175c5921c497911fc47f35a3bbeed2418",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T13:31:02Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
+          "headline": "Starbucks (SBUX) Stock Could Be 33% Overvalued Despite Turnaround Bonus Push",
+          "url": "https://finnhub.io/api/news?id=18cd6f404774107ef9500dcb2ce112e713bcb3249a56a571d82d93cd9a620b4c",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T10:08:18Z",
+          "primary": false,
+          "symbol": "SBUX"
+        },
+        {
           "headline": "How Many Shares of McDonald’s, Starbucks or Darden Pay $1,000 a Month in Dividends?",
           "url": "https://finnhub.io/api/news?id=86ae0537745940ac094aa9983e153e8aa4ddcb9e68bf7d2312e61394433194a9",
           "source": "Yahoo",
           "published_at": "2026-11-21T16:51:23Z",
-          "primary": false,
-          "symbol": "SBUX"
-        },
-        {
-          "headline": "Here's How Many Shares of Starbucks You’d Need to Cover $744 in Coffee Using Dividends Alone",
-          "url": "https://finnhub.io/api/news?id=0e2df95c0e79dd723ba251e7137542725ff331a92a3b7180a4d37c51af36c37c",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T13:00:02Z",
-          "primary": false,
-          "symbol": "SBUX"
-        },
-        {
-          "headline": "Dutch Bros vs. Starbucks: Which Coffee Stock Has Stronger Prospects?",
-          "url": "https://finnhub.io/api/news?id=acd2959ffcc696668ea6370dfd352fc0d88cca9338968a34725f121a64d5b1f1",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:39:00Z",
-          "primary": false,
-          "symbol": "SBUX"
-        },
-        {
-          "headline": "Starbucks Is Up 16% Since September as Holiday Merch Becomes “a Cultural Phenomenon”",
-          "url": "https://finnhub.io/api/news?id=fbd77233e0c5f85daa8d86df8e2079ac41936a534686ef65858c55b7df003f10",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T10:10:59Z",
-          "primary": false,
-          "symbol": "SBUX"
-        },
-        {
-          "headline": "Starbucks Has Raised Its Dividend 16 Straight Years. These 3 Restaurant Stocks Keep Paying",
-          "url": "https://finnhub.io/api/news?id=f6d30ae8949f76c90b51c064d4821732bba53346d2ffed7312a07edc0d9465c4",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T20:17:53Z",
           "primary": false,
           "symbol": "SBUX"
         }
@@ -29712,6 +29704,6 @@
       ]
     }
   },
-  "cursor": 102,
-  "updated_at": "2026-11-24T05:18:09Z"
+  "cursor": 114,
+  "updated_at": "2026-11-24T07:29:21Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:18:09Z",
+  "generated_at": "2026-11-24T07:29:21Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T05:18:09Z",
+      "checked_at": "2026-11-24T07:29:21Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T05:18:09Z",
+      "checked_at": "2026-11-24T07:29:21Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T05:18:09Z",
+      "checked_at": "2026-11-24T07:29:21Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T05:18:09Z",
+      "checked_at": "2026-11-24T07:29:21Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T05:18:09Z",
+      "checked_at": "2026-11-24T07:29:21Z",
       "error": ""
     }
   ],
@@ -5994,6 +5994,127 @@
   ],
   "events": [
     {
+      "id": "62084e7132341328f73b",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[GTK] Capital Change Notice",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/gentrack",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "f3195331540e35c7f6f1",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[SCT] Capital Change Notice - DRP",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/scott-technology",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "9d9e67bfb63539984a75",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[KFL] Kingfish announces $39.5m Interim Result",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/kingfish",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a103adf4e4c8a6ee5cbd",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[MEL] Ongoing D&O Disclosure Notices",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/meridian-energy",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "ec91b67f38ad98fa7ca8",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[VHP] SPH Notice - Forsyth Barr Limited",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/vital-healthcare-property-trust",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "11bc1a78f5e93fde6970",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[ANZ] Change of Director's Interest Notice",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/anz",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "acff1c6f8aa3e92bb1e7",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[CO2] CO2's NTA as at 23 November 2026: 1.5382",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/carbon-fund",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "ce397b3c11bd6a9de520",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[SCT] Ongoing Disclosure Notices & Initial Disclosure Notice",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/scott-technology",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "2d27125aeb49e9bce946",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[ERD] EROAD HY27 Financial Results Briefing - recording",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/eroad",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "ccc084a0067e4c92514f",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[TGG] Update relating to the sale of T&G Fresh",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/tandg-global",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "1b5efe326fa051df6a60",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[KMD] Update on discussions with Bluestar Alliance",
+      "published_at": "2026-11-24T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/kmd-brands",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
       "id": "3baf683c977d10b45f7e",
       "type": "SEC",
       "ticker": "META",
@@ -6221,7 +6342,7 @@
       "type": "NZX",
       "ticker": null,
       "title": "[AFI] Notification of buy-back",
-      "published_at": "2026-11-22T00:00:00Z",
+      "published_at": "2026-11-23T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/australian-foundation-investment",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
@@ -6232,7 +6353,7 @@
       "type": "NZX",
       "ticker": null,
       "title": "[VNT] Appendix 3C daily buyback notification",
-      "published_at": "2026-11-22T00:00:00Z",
+      "published_at": "2026-11-23T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/ventia-services",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
@@ -6243,7 +6364,7 @@
       "type": "NZX",
       "ticker": null,
       "title": "[TEM] Net Asset Value(s)",
-      "published_at": "2026-11-22T00:00:00Z",
+      "published_at": "2026-11-23T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/templeton-emerging-markets-investment-trust-plc",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
@@ -6254,7 +6375,7 @@
       "type": "NZX",
       "ticker": null,
       "title": "[BIT] Transaction in Own Shares",
-      "published_at": "2026-11-22T00:00:00Z",
+      "published_at": "2026-11-23T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/the-bankers-investment-trust-plc",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
@@ -6265,8 +6386,184 @@
       "type": "NZX",
       "ticker": null,
       "title": "[BIT] Net Asset Value(s)",
-      "published_at": "2026-11-22T00:00:00Z",
+      "published_at": "2026-11-23T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/the-bankers-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "8b3f47cbf148382b109f",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FCT] Transaction in Own Shares",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fandc-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7294f46440973406eb2c",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[BPG] BPG Half Year Results - Moving decisively to EBITDAF profit",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/black-pearl",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "36cb1911a434b9df4e46",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[KFL] KFL – Quarterly dividend of 2.54 cents per share",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/kingfish",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "2f848820b00adaafe756",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[ERD] SPH Notice -  Regal Partners Funds Management Pty Limited",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/eroad",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "0b0535dcfd8949f1d7a3",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[ERD] Interim Results for the half-year ended 30 September 2026",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/eroad",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "11939c455e913408cca7",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[VHP] D&O Ongoing Disclosure - Chris Adams",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/vital-healthcare-property-trust",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "83bd1182adaf7fc15d7b",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[MLN] MLN – Quarterly dividend of 1.65 cents per share",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/marlin-global",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "68ac850f9ff1d3a20687",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[BRM] BRM – Quarterly dividend of 1.09 cents per share",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/barramundi",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "2eac615b4753b10a0c3d",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[MPG] Metro Performance Glass provides 1H27 results (unaudited)",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/metro-performance-glass",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "7a4155c52eb70f1827aa",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[PEB] Financial Results for the Half Year to 30 September 2026",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/pacific-edge",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "003535b1fb76bc4ce4b9",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[DGL] DGL - US Tariff Refund Update",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/delegat",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "f25a2ff40d34c20c8149",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[FCT] Net Asset Value as at 20 November 2026",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/fandc-investment-trust-plc",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "1d3d9e391b05f918dffb",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[BRM] BRM – Notice of acquisition of securities - 23 November 26",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/barramundi",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "339c40dc4ef799af8184",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[STU] Steel & Tube - Results - 2026 Annual Shareholder Meeting",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/steel-and-tube",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "f06c75d3f32cc2687238",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[KFL] KFL – Notice of acquisition of securities - 23 November 26",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/kingfish",
+      "source": "NZX announcements (NZXplorer RSS)",
+      "primary": false,
+      "sentiment": "neutral"
+    },
+    {
+      "id": "cfa2b202d02e32b7fa5b",
+      "type": "NZX",
+      "ticker": null,
+      "title": "[HFL] Issue of Equity",
+      "published_at": "2026-11-23T00:00:00Z",
+      "url": "https://nzxplorer.co.nz/companies/henderson-far-east-income",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
@@ -6498,17 +6795,6 @@
       "title": "[BRM] BRM – Notice of acquisition of securities - 20 November 26",
       "published_at": "2026-11-22T00:00:00Z",
       "url": "https://nzxplorer.co.nz/companies/barramundi",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "8b3f47cbf148382b109f",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[FCT] Transaction in Own Shares",
-      "published_at": "2026-11-22T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/fandc-investment-trust-plc",
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
@@ -7031,296 +7317,10 @@
       "source": "NZX announcements (NZXplorer RSS)",
       "primary": false,
       "sentiment": "neutral"
-    },
-    {
-      "id": "806d721f14c39f320d8c",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[VSL] ASX Appendix 3Y - Change of Director's Interest Notice - RC",
-      "published_at": "2026-11-19T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/vulcan-steel",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "3c0cb7a7821eb728c938",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[PCT] Precinct 2026 Annual Meeting of Shareholders",
-      "published_at": "2026-11-19T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/precinct-properties",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "f38767ba17440935bceb",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[LOD] Lodestone Energy delivers strong growth",
-      "published_at": "2026-11-19T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/lodestone-energy",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "c60cd972f678c012f679",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[BPG] H1 FY27 Investor Webinar",
-      "published_at": "2026-11-19T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/black-pearl",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "17047922dd0cb0a522c5",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[FCG] Fonterra increases FY27 forecast Farmgate Milk Price",
-      "published_at": "2026-11-19T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/fonterra-co-operative-group",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "a36ff5f72c6464679227",
-      "type": "MACRO",
-      "ticker": null,
-      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-      "published_at": "2026-11-18T19:00:00Z",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-      "source": "Federal Reserve press releases",
-      "primary": true,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "424b06ce90e4dc7416ef",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[TRU] Change of Auditor",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/truscreen",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "88219c6abd9ac6266a63",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[FWL] Results of FWL 2026 Annual Meeting of Shareholders",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/foley-wines",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "99eddd7f7b706e55d6e6",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[CO2] CO2's NTA as at 17 November 2026: 1.5717",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/carbon-fund",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "3bf79a922caf7a03f019",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[OCA] Record first half Underlying EBITDA",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/oceania-healthcare",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "5194bfd2d83ea467fb4a",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[ALF] FY26 Annual Meeting – Chair Address and Presentation",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/allied-farmers",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "c25ff206e261cc4272bb",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[CEN] Capital Change Notices",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/contact-energy",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "5fb317d8df48068c8d77",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[ANZ] UK Disclosure and Transparency Rules Submission",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/anz",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "7b05d9d2c1a99d02195e",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[BGP] Appointment of Chief Executive Officer",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/briscoe",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "9019468538370fca6aaa",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[NTL] NTL Share Consolidation Complete and Rights Offer Open",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/new-talisman-gold-mines",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "1a1a8ab31c9454025c2b",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[CHI] Channel Infrastructure confirms FY27 PPI adjustment",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/channel-infrastructure",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "5205bc111e1d86518087",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[RYM] Ryman appoints two new directors",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/ryman-healthcare",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "68fe07c30174ef7cba82",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[TEM] Holding(s) in Company",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/templeton-emerging-markets-investment-trust-plc",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "e076b8d420d6942126b1",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[ATM] 2026 Annual Meeting",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/the-a2-milk",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "f766eacc9f7f70783948",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[ATM] China IMF and FY27 outlook update",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/the-a2-milk",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "f95288b4070edffabbfb",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[MFB] My Food Bag delivers 4.3% revenue growth",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/my-food-bag",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "74a091b663fe741f143b",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[VHP] SPH Notice - Forsyth Barr Investment Management Limited",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/vital-healthcare-property-trust",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "656a65d4a14ca63aadb9",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[FCT] Net Asset Value as at 17 November 2026",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/fandc-investment-trust-plc",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "f0c0126c7e312b6d6895",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[TWL] TradeWindow Investor Webinar - Half Year Results",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/tradewindow",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "c2a8812f279744c01085",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[FCT] share buyback",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/fandc-investment-trust-plc",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
-    },
-    {
-      "id": "723d803fa47f22e207ad",
-      "type": "NZX",
-      "ticker": null,
-      "title": "[KFL] KFL – Notice of acquisition of securities - 18 November 26",
-      "published_at": "2026-11-18T00:00:00Z",
-      "url": "https://nzxplorer.co.nz/companies/kingfish",
-      "source": "NZX announcements (NZXplorer RSS)",
-      "primary": false,
-      "sentiment": "neutral"
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T05:18:09Z",
+    "generated_at": "2026-11-24T07:29:21Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -13402,35 +13402,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T06:04:28Z",
+            "timestamp": "2026-11-24T07:29:21Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Sanofi and Regeneron’s rare disease wins; Lilly’s dealmaking dance",
-            "timestamp": "2026-11-19T21:52:13Z",
-            "url": "https://finnhub.io/api/news?id=f5164a01cbe750265dce9285cd8f59278ee714e0a5c89b18131a334a099c61d3"
+            "value": "IBD Stock Of The Day Regeneron Shrugs Off Kymera's Dupixent Onslaught",
+            "timestamp": "2026-11-23T19:04:45Z",
+            "url": "https://finnhub.io/api/news?id=de767241ccc6c82503a70f461e6df8051b409e37df1c80b2fb3a20f4480a2f84"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T06:04:28Z",
+        "fundamentals_at": "2026-11-24T07:29:21Z",
         "price": 942.24,
         "currency": "USD",
         "change_pct": 2.341,
         "news": [
           {
-            "headline": "Sanofi and Regeneron’s rare disease wins; Lilly’s dealmaking dance",
-            "url": "https://finnhub.io/api/news?id=f5164a01cbe750265dce9285cd8f59278ee714e0a5c89b18131a334a099c61d3",
+            "headline": "IBD Stock Of The Day Regeneron Shrugs Off Kymera's Dupixent Onslaught",
+            "url": "https://finnhub.io/api/news?id=de767241ccc6c82503a70f461e6df8051b409e37df1c80b2fb3a20f4480a2f84",
             "source": "Yahoo",
-            "published_at": "2026-11-19T21:52:13Z",
+            "published_at": "2026-11-23T19:04:45Z",
             "primary": false,
             "symbol": "REGN"
           },
           {
-            "headline": "With FDA nod, Regeneron brings an RNAi drug to autoimmune disease",
-            "url": "https://finnhub.io/api/news?id=04238e882969a53f3539451f5ae4cfc40530405a1dd57f2ba43bb34e4f93db22",
+            "headline": "Is Regeneron Stock Priced Right Against Its Rivals?",
+            "url": "https://finnhub.io/api/news?id=5772b4183ee873a60e846396fee3f979a89528fbd3731a1c367c923879800200",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:10:00Z",
+            "published_at": "2026-11-23T15:09:12Z",
             "primary": false,
             "symbol": "REGN"
           }
@@ -14065,7 +14065,7 @@
         "status": "WATCH",
         "score": 63,
         "industry": "Industrial Conglomerates",
-        "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 9.6×; TTM revenue growth 4.2% YoY",
+        "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 10.0×; TTM revenue growth 4.2% YoY",
         "risks": [
           "Large drawdown: recovery is not assured"
         ],
@@ -14079,35 +14079,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T06:04:28Z",
+            "timestamp": "2026-11-24T07:29:21Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Could Honeywell Be The Value Stock For Your Portfolio?",
-            "timestamp": "2026-11-20T18:53:21Z",
-            "url": "https://finnhub.io/api/news?id=048a7cb87653b1baf405a01f986fce9e08ba095576c821ab3af2bfb55fcf9c72"
+            "value": "Invesco NASDAQ 100 ETF (QQQM) Buys $340.9 Million More Honeywell on Nov. 19",
+            "timestamp": "2026-11-23T11:04:58Z",
+            "url": "https://finnhub.io/api/news?id=9c32e67830450ce7ccd309b243f039123bd70e22eef13f0cd1886d87c7b4f972"
           }
         ],
         "as_of": "2026-11-23T21:00:00Z",
-        "fundamentals_at": "2026-11-22T06:04:28Z",
+        "fundamentals_at": "2026-11-24T07:29:21Z",
         "price": 221.97,
         "currency": "USD",
         "change_pct": 4.388,
         "news": [
           {
-            "headline": "Could Honeywell Be The Value Stock For Your Portfolio?",
-            "url": "https://finnhub.io/api/news?id=048a7cb87653b1baf405a01f986fce9e08ba095576c821ab3af2bfb55fcf9c72",
+            "headline": "Invesco NASDAQ 100 ETF (QQQM) Buys $340.9 Million More Honeywell on Nov. 19",
+            "url": "https://finnhub.io/api/news?id=9c32e67830450ce7ccd309b243f039123bd70e22eef13f0cd1886d87c7b4f972",
             "source": "Yahoo",
-            "published_at": "2026-11-20T18:53:21Z",
+            "published_at": "2026-11-23T11:04:58Z",
             "primary": false,
             "symbol": "HON"
           },
           {
-            "headline": "Building-to-Grid Technology - Global Strategic Business Report 2026: Capitalize on 21.8% CAGR as Market Hits $6.8 Billion by 2032 - Benchmark ABB, Siemens, Schneider Electric, Eaton and Honeywell",
-            "url": "https://finnhub.io/api/news?id=7074dfc43a013ae217f56206e96ab78eb0ee90fec05098890b3584f874646984",
+            "headline": "ETFs Are Buying Honeywell (HON) on Nov. 19",
+            "url": "https://finnhub.io/api/news?id=3e12c4e82a4a293d05baa0b5520f10550737210bee416d4dbebf886741f59697",
             "source": "Yahoo",
-            "published_at": "2026-11-20T14:57:00Z",
+            "published_at": "2026-11-23T11:00:45Z",
             "primary": false,
             "symbol": "HON"
           }
@@ -14117,12 +14117,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 294.93,
-          "entry_floor": 265.43,
-          "exit_review_low": 378.11,
-          "exit_review_high": 440.84,
-          "bear_case": 214.51,
-          "scenario_upside_pct": 70.3,
+          "entry_ceiling": 282.53,
+          "entry_floor": 254.28,
+          "exit_review_low": 362.22,
+          "exit_review_high": 422.32,
+          "bear_case": 205.5,
+          "scenario_upside_pct": 63.2,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14135,12 +14135,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 9.57,
+            "trailing_pe": 9.99,
             "earnings_growth_assumed_pct": 1.88,
             "scenario_exit_pe": 16.0,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T06:04:28Z"
+            "metrics_retrieved_at": "2026-11-24T07:29:21Z"
           }
         },
         "ranking_score": 63,
@@ -15241,7 +15241,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T05:18:09Z",
+      "generated_at": "2026-11-24T07:29:21Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 808,
