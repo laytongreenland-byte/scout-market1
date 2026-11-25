@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T07:33:09Z",
+  "generated_at": "2026-11-25T09:21:51Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T07:33:09Z",
+      "checked_at": "2026-11-25T09:21:51Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T07:33:09Z",
+      "checked_at": "2026-11-25T09:21:51Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T07:33:09Z",
+      "checked_at": "2026-11-25T09:21:51Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T07:33:09Z",
+      "checked_at": "2026-11-25T09:21:51Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T07:33:09Z",
+      "checked_at": "2026-11-25T09:21:51Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T07:33:09Z",
+    "generated_at": "2026-11-25T09:21:51Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -15382,23 +15382,63 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T07:33:09Z",
+      "generated_at": "2026-11-25T09:21:51Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 819,
-        "purchase_scenarios": 75,
+        "recorded": 821,
+        "purchase_scenarios": 76,
         "opened": 3,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 75,
+        "waiting": 76,
         "unverified": 0,
-        "skipped": 744,
+        "skipped": 745,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|FICO|WAIT FOR ENTRY",
+          "symbol": "FICO",
+          "name": "Fair Isaac Corporation",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-25T09:21:51Z",
+          "quote_at": "2026-11-24T21:00:00Z",
+          "reference_price": 703.33,
+          "buy_ceiling": 680.31,
+          "sell_review": 872.19,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 32.9% (TTM); Return on equity 145.7% (TTM); Trailing P/E 19.0×; TTM revenue growth 27.3% YoY",
+          "score": 70,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
+        {
+          "id": "2026-11-23|FOX|ABOVE BASE CASE",
+          "symbol": "FOX",
+          "name": "Fox Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-25T09:21:51Z",
+          "quote_at": "2026-11-24T21:00:00Z",
+          "reference_price": 58.48,
+          "buy_ceiling": 45.6,
+          "sell_review": 58.46,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 11.3% (TTM); Return on equity 17.6% (TTM); Trailing P/E 17.6×; TTM revenue growth 9.0% YoY",
+          "score": 75,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|APP|ABOVE BASE CASE",
           "symbol": "APP",
@@ -17755,46 +17795,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 10.9% (TTM); Return on equity 42.1% (TTM); Trailing P/E 24.8×; TTM revenue growth 14.2% YoY",
           "score": 73,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|SCHW|NO RELIABLE PRICE RANGE",
-          "symbol": "SCHW",
-          "name": "The Charles Schwab Corporation",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 90.16,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 14.6×; TTM revenue growth 12.3% YoY",
-          "score": 80,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|VRTX|NO RELIABLE PRICE RANGE",
-          "symbol": "VRTX",
-          "name": "Vertex Pharmaceuticals Incorporated",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 515.02,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 30.7% (TTM); Return on equity 20.1% (TTM); Trailing P/E 32.9×; TTM revenue growth 10.5% YoY",
-          "score": 67,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

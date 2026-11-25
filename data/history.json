@@ -69264,6 +69264,48 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|FICO|WAIT FOR ENTRY",
+      "week": "2026-11-23",
+      "symbol": "FICO",
+      "name": "Fair Isaac Corporation",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-25T09:21:51Z",
+      "quote_at": "2026-11-24T21:00:00Z",
+      "reference_price": 703.33,
+      "score": 70,
+      "quality_status": "WATCH",
+      "buy_ceiling": 680.31,
+      "sell_review": 872.19,
+      "bear_case": 462.5,
+      "why": "Net profit margin 32.9% (TTM); Return on equity 145.7% (TTM); Trailing P/E 19.0×; TTM revenue growth 27.3% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-25T09:21:51Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|FOX|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "FOX",
+      "name": "Fox Corporation",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-25T09:21:51Z",
+      "quote_at": "2026-11-24T21:00:00Z",
+      "reference_price": 58.48,
+      "score": 75,
+      "quality_status": "WATCH",
+      "buy_ceiling": 45.6,
+      "sell_review": 58.46,
+      "bear_case": 33.05,
+      "why": "Net profit margin 11.3% (TTM); Return on equity 17.6% (TTM); Trailing P/E 17.6×; TTM revenue growth 9.0% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-25T09:21:51Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
