@@ -16117,39 +16117,48 @@
       "metrics": {
         "52WeekHigh": 74.94,
         "52WeekLow": 49.72,
-        "peTTM": 18.3515,
-        "psTTM": 2.7502,
+        "peTTM": 18.6722,
+        "psTTM": 2.7983,
         "netProfitMarginTTM": 14.99,
         "roeTTM": 10.33,
         "revenueGrowthTTMYoy": 2.67,
         "currentRatioQuarterly": 1.7615,
         "totalDebt/totalEquityQuarterly": 3.2633,
-        "marketCapitalization": 9780.841
+        "marketCapitalization": 9951.734
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "BXP, Inc.",
       "profile": {
         "weburl": "https://www.bxp.com/",
         "industry": "Real Estate",
         "name": "BXP, Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Are Wall Street Analysts Predicting BXP, Inc. Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=7506a569c1fa5c5730b8e9a22bdcefd1e3fa459cd510375f5ee42ffc01d14712",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T11:52:56Z",
+          "primary": false,
+          "symbol": "BXP"
+        }
+      ]
     },
     "CHRW": {
       "metrics": {
         "52WeekHigh": 210.33,
         "52WeekLow": 122.21,
-        "peTTM": 23.2296,
-        "psTTM": 0.8528,
+        "peTTM": 23.4411,
+        "psTTM": 0.8606,
         "netProfitMarginTTM": 3.67,
         "roeTTM": 39.589999999999996,
         "revenueGrowthTTMYoy": 10.38,
         "epsGrowthTTMYoy": 12.84,
         "currentRatioQuarterly": 1.3388,
         "totalDebt/totalEquityQuarterly": 1.1836,
-        "marketCapitalization": 15536.18
+        "marketCapitalization": 15677.628
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "C.H. Robinson Worldwide, Inc.",
       "profile": {
         "weburl": "https://www.chrobinson.com/",
@@ -16157,6 +16166,38 @@
         "name": "C.H. Robinson Worldwide, Inc."
       },
       "news": [
+        {
+          "headline": "Food Logistics - Global Strategic Business Report 2026: Secure Share of a $253.4 Billion Market by 2032 as C.H. Robinson, CEVA Logistics, DB Schenker, and Kuehne + Nagel Accelerate Cold Chains",
+          "url": "https://finnhub.io/api/news?id=33c3a7b6f7f55946ebab661c5757d63542c7464b9d69b744a18213e0632eca82",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T14:37:00Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "C.H. Robinson to Participate in Upcoming Investor Conferences",
+          "url": "https://finnhub.io/api/news?id=0e30d0105faa2df4a0b4b48ed3ba6a7a39ef690a752c2924d9300ef6db41ec1e",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:15:00Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "C.H. Robinson: no evidence of racketeering, wants RICO case moved",
+          "url": "https://finnhub.io/api/news?id=9b68bb1014bc0f92bf75498433ea6e7a9d9600efa8f818edf66dd95756d7ee7e",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:47:38Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
+        {
+          "headline": "C.H. Robinson Worldwide Sees Freight Recovery, Keeps RXO Deal on Track for 2027",
+          "url": "https://finnhub.io/api/news?id=543fab81400de6b93ecde9a5200d24c079f2c0141d94119f0e604e9ddcaac2f0",
+          "source": "Yahoo",
+          "published_at": "2026-11-22T21:12:05Z",
+          "primary": false,
+          "symbol": "CHRW"
+        },
         {
           "headline": "C.H. Robinson Worldwide, Inc. (CHRW) Presents at 2026 Stephens Annual Investment Conference | NASH2026 Transcript",
           "url": "https://finnhub.io/api/news?id=fface102c4c9e24e9cbc02da83bb57b268abba217f4621501a32a5f8a53b69c8",
@@ -16171,17 +16212,17 @@
       "metrics": {
         "52WeekHigh": 119.81,
         "52WeekLow": 95.3,
-        "peTTM": 39.5787,
-        "psTTM": 8.233,
+        "peTTM": 40.2335,
+        "psTTM": 8.3692,
         "netProfitMarginTTM": 20.8,
         "roeTTM": 7.8,
         "revenueGrowthTTMYoy": 0.48,
         "epsGrowthTTMYoy": 112.28,
         "currentRatioQuarterly": 0.4129,
         "totalDebt/totalEquityQuarterly": 1.2752,
-        "marketCapitalization": 12910.936
+        "marketCapitalization": 13124.545
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Camden Property Trust",
       "profile": {
         "weburl": "https://www.camdenliving.com/",
@@ -16189,6 +16230,14 @@
         "name": "Camden Property Trust"
       },
       "news": [
+        {
+          "headline": "Better Dividend Stock for Retirees: Gaming and Leisure Properties vs. Camden Property Trust",
+          "url": "https://finnhub.io/api/news?id=6d596dbfd315e9a725f14ea67f51bda9342a62f23b54a45fea585d8617ff95a6",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:25:42Z",
+          "primary": false,
+          "symbol": "CPT"
+        },
         {
           "headline": "Camden Property Trust (CPT) Bought Back Shares, Is It Trading At A Discount?",
           "url": "https://finnhub.io/api/news?id=51bbae3573d7ca434ecc10150b37bc7e35788ce403a8402b8113446894aef32b",
@@ -16212,14 +16261,6 @@
           "published_at": "2026-11-19T00:05:16Z",
           "primary": false,
           "symbol": "CPT"
-        },
-        {
-          "headline": "Are Wall Street Analysts Predicting Camden’s Stock Will Climb or Sink?",
-          "url": "https://finnhub.io/api/news?id=2807bac39fb02833e5570905f11337046cb49ba0e63a8bcea10e107b3077f593",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T14:14:08Z",
-          "primary": false,
-          "symbol": "CPT"
         }
       ]
     },
@@ -16227,16 +16268,16 @@
       "metrics": {
         "52WeekHigh": 259.64,
         "52WeekLow": 174.24,
-        "peTTM": 9.8896,
+        "peTTM": 10.1337,
         "psTTM": 1.11745,
         "netProfitMarginTTM": 14.90322,
         "roeTTM": 9.67,
         "revenueGrowthTTMYoy": 38.19094,
         "epsGrowthTTMYoy": 475.18,
         "totalDebt/totalEquityQuarterly": 0.4399,
-        "marketCapitalization": 107469.91
+        "marketCapitalization": 110122.67
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Capital One Financial Corp",
       "profile": {
         "weburl": "https://www.capitalone.com/",
@@ -16244,6 +16285,22 @@
         "name": "Capital One Financial Corp"
       },
       "news": [
+        {
+          "headline": "Will Cards & Acquisition Synergies Sustain COF's Revenue Growth?",
+          "url": "https://finnhub.io/api/news?id=86409c1a30254e739266c4c69c40e4ed8245d4e252bdf794cf2b209866de3870",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T14:48:00Z",
+          "primary": false,
+          "symbol": "COF"
+        },
+        {
+          "headline": "Trump Revives Push for Card Rate Cap: What It Means for C, JPM & COF",
+          "url": "https://finnhub.io/api/news?id=a618cbe09d733cfc1a9f784da23f92a0203ce6dc3a9a6e0f3293526f82ea7b9d",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:09:00Z",
+          "primary": false,
+          "symbol": "COF"
+        },
         {
           "headline": "Dan Loeb and 8 Other Big Funds Bought Capital One Financial. Berkshire Hathaway and 14 Others Sold. Who’s Right?",
           "url": "https://finnhub.io/api/news?id=23c80a52ea0adad91a5b5b40048aa8c5bc23af62f360d9cf205fdd0b9108078b",
@@ -16267,22 +16324,6 @@
           "published_at": "2026-11-19T07:50:03Z",
           "primary": false,
           "symbol": "COF"
-        },
-        {
-          "headline": "Capital One Business Travel Introduces Complimentary Flight Disruption Rebooking for Select Customers",
-          "url": "https://finnhub.io/api/news?id=a0de1dfb27c161c0e2a4e8e9c66eebec96f84d575bad082070dd9dfa96f631b6",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:00:00Z",
-          "primary": false,
-          "symbol": "COF"
-        },
-        {
-          "headline": "Do Wall Street Analysts Like Capital One Financial Stock?",
-          "url": "https://finnhub.io/api/news?id=8bdb96fb5fd23bdcf56ed8c3ea52c017746ce9a5e6b5f701df27dc912eabf6a1",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T10:59:11Z",
-          "primary": false,
-          "symbol": "COF"
         }
       ]
     },
@@ -16290,17 +16331,17 @@
       "metrics": {
         "52WeekHigh": 34.03,
         "52WeekLow": 21.45,
-        "peTTM": 11.3973,
-        "psTTM": 1.2957,
+        "peTTM": 11.963,
+        "psTTM": 1.3601,
         "netProfitMarginTTM": 11.37,
         "roeTTM": 23.91,
         "revenueGrowthTTMYoy": 5.2,
         "epsGrowthTTMYoy": 21.01,
         "currentRatioQuarterly": 0.2742,
         "totalDebt/totalEquityQuarterly": 1.6854,
-        "marketCapitalization": 35753.184
+        "marketCapitalization": 37528.066
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Carnival Corporation Ltd",
       "profile": {
         "weburl": "https://www.carnivalcorp.com",
@@ -16354,15 +16395,15 @@
       "metrics": {
         "52WeekHigh": 76.76,
         "52WeekLow": 49.74,
-        "psTTM": 1.7934,
+        "psTTM": 1.8989,
         "netProfitMarginTTM": -7.9,
         "roeTTM": -14.280000000000001,
         "revenueGrowthTTMYoy": 3.33,
         "currentRatioQuarterly": 0.9973,
         "totalDebt/totalEquityQuarterly": 1.1412,
-        "marketCapitalization": 40875.285
+        "marketCapitalization": 43280.676
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Carrier Global Corporation",
       "profile": {
         "weburl": "https://www.carrier.com/",
@@ -16416,17 +16457,17 @@
       "metrics": {
         "52WeekHigh": 97.38,
         "52WeekLow": 54.46,
-        "peTTM": 41.2915,
-        "psTTM": 2.5661,
+        "peTTM": 42.947,
+        "psTTM": 2.669,
         "netProfitMarginTTM": 6.21,
         "roeTTM": 43.91,
         "revenueGrowthTTMYoy": 50.28,
         "epsGrowthTTMYoy": 13.3,
         "currentRatioQuarterly": 4.0507,
         "totalDebt/totalEquityQuarterly": 1.2013,
-        "marketCapitalization": 70443.22
+        "marketCapitalization": 73267.57
       },
-      "updated_at": "2026-11-22T20:53:19Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Carvana Co",
       "profile": {
         "weburl": "https://www.carvana.com/",
@@ -16434,6 +16475,30 @@
         "name": "Carvana Co"
       },
       "news": [
+        {
+          "headline": "What Moved Carvana Stock?",
+          "url": "https://finnhub.io/api/news?id=5470ca8ef365a9aae26debeb5b4eb00c0734f6ac31ba24269f3424b0dfae1c7a",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T17:24:40Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
+        {
+          "headline": "Can Carvana Stock Fall 40% Again?",
+          "url": "https://finnhub.io/api/news?id=650791442b54316dfcdb87e5e90be7d50b4267f03de10bbf88bceed79e835b5a",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T17:20:27Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
+        {
+          "headline": "Stanley Druckenmiller and 9 Other Big Funds Sold Carvana Last Quarter, While 11 Bought. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=eb91248523cab2c4b085778683e06765f615709aca838cf5ec25cd8c07033133",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T17:27:17Z",
+          "primary": false,
+          "symbol": "CVNA"
+        },
         {
           "headline": "What Does Carvana (CVNA) Same Day Delivery Expansion Mean For Investors?",
           "url": "https://finnhub.io/api/news?id=960950eed69f93b8db94bd7c3cc98cb3e8a36fdd47a2942a75c74eebbdd36208",
@@ -16449,30 +16514,6 @@
           "published_at": "2026-11-20T11:40:22Z",
           "primary": false,
           "symbol": "CVNA"
-        },
-        {
-          "headline": "Carvana Is Up 22% in a Month. Is Its First 200,000-Car Quarter Really That Good?",
-          "url": "https://finnhub.io/api/news?id=1d660560f2f9d88ace5920b1a6831024b49b95a6746afd9a681f48368e660973",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:01:46Z",
-          "primary": false,
-          "symbol": "CVNA"
-        },
-        {
-          "headline": "Here is What to Know Beyond Why Carvana Co. (CVNA) is a Trending Stock",
-          "url": "https://finnhub.io/api/news?id=7bdad9378c66113fc8b523a3cc10665214d2d49cbb8f7f3c3c822ea5008b9062",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:03Z",
-          "primary": false,
-          "symbol": "CVNA"
-        },
-        {
-          "headline": "Carvana Expands Same-Day Delivery to Rhode Island",
-          "url": "https://finnhub.io/api/news?id=fbbddbd5e17cd7e25ffb4eb9fb285bc10cb0ed10ec8b3502a2752e63be4975ac",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:00Z",
-          "primary": false,
-          "symbol": "CVNA"
         }
       ]
     },
@@ -16480,17 +16521,17 @@
       "metrics": {
         "52WeekHigh": 927.85,
         "52WeekLow": 529.84,
-        "peTTM": 33.0541,
-        "psTTM": 1.368,
+        "peTTM": 32.9102,
+        "psTTM": 1.3621,
         "netProfitMarginTTM": 4.14,
         "roeTTM": 19.68,
         "revenueGrowthTTMYoy": 13.78,
         "epsGrowthTTMYoy": 33.36,
         "currentRatioQuarterly": 1.0185,
         "totalDebt/totalEquityQuarterly": 0.5937,
-        "marketCapitalization": 25544.65
+        "marketCapitalization": 25433.4
       },
-      "updated_at": "2026-11-22T21:53:24Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Caseys General Stores Inc",
       "profile": {
         "weburl": "https://www.caseys.com/",
@@ -16526,42 +16567,75 @@
     },
     "CBOE": {
       "metrics": {
-        "52WeekHigh": 378.88,
+        "52WeekHigh": 379.76,
         "52WeekLow": 227.15,
-        "peTTM": 27.5811,
-        "psTTM": 7.3736,
+        "peTTM": 28.1015,
+        "psTTM": 7.5127,
         "netProfitMarginTTM": 26.73,
         "roeTTM": 25.75,
         "revenueGrowthTTMYoy": 11.68,
         "epsGrowthTTMYoy": 50.4,
         "currentRatioQuarterly": 1.5652,
         "totalDebt/totalEquityQuarterly": 0.2566,
-        "marketCapitalization": 37319.97
+        "marketCapitalization": 38024.2
       },
-      "updated_at": "2026-11-22T21:53:24Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Cboe Global Markets Inc",
       "profile": {
         "weburl": "https://www.cboe.com/",
         "industry": "Financial Services",
         "name": "Cboe Global Markets Inc"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Cboe Launches KPI Binary Options, a New Way to Trade the Numbers Behind Earnings",
+          "url": "https://finnhub.io/api/news?id=a72c79e40a32b3a0af375414cc8a6d3b771343fad212f7108085672405d4c095",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T15:00:00Z",
+          "primary": false,
+          "symbol": "CBOE"
+        },
+        {
+          "headline": "Do Wall Street Analysts Like Cboe Global Markets Stock?",
+          "url": "https://finnhub.io/api/news?id=03aad26972bf4f2d359dd286fe53f24417c111eebe51c0a03f0cbd31062d7cc9",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T09:46:39Z",
+          "primary": false,
+          "symbol": "CBOE"
+        },
+        {
+          "headline": "Binance Collaborates With CBOE To Integrate CBOE Global Indices Feed, Bringing Real-Time Traditional Market Benchmark Data To Users Across Binance Platform, App, Binance AI",
+          "url": "https://finnhub.io/api/news?id=b04b5701fcc706bbe0fccff787d8aaf5102df1e6c577e5652d18f4eb5f754989",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T07:06:02Z",
+          "primary": false,
+          "symbol": "CBOE"
+        },
+        {
+          "headline": "Cboe Global Markets to Present at the Goldman Sachs Financial Services Conference on December 9",
+          "url": "https://finnhub.io/api/news?id=ff17bb9f9b8fd338a2916af75ca686421ec78a8b9307cf4b8b63d07faa836a86",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:30:00Z",
+          "primary": false,
+          "symbol": "CBOE"
+        }
+      ]
     },
     "CDW": {
       "metrics": {
         "52WeekHigh": 175.19,
         "52WeekLow": 97.12,
-        "peTTM": 18.3711,
-        "psTTM": 0.8236,
+        "peTTM": 19.3113,
+        "psTTM": 0.8657,
         "netProfitMarginTTM": 4.48,
         "roeTTM": 42.94,
         "revenueGrowthTTMYoy": 10.94,
         "epsGrowthTTMYoy": 8.45,
         "currentRatioQuarterly": 1.2648,
         "totalDebt/totalEquityQuarterly": 2.7028,
-        "marketCapitalization": 20191.652
+        "marketCapitalization": 21225.072
       },
-      "updated_at": "2026-11-22T21:53:24Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "CDW Corporation",
       "profile": {
         "weburl": "https://www.cdw.com/",
@@ -16569,6 +16643,22 @@
         "name": "CDW Corporation"
       },
       "news": [
+        {
+          "headline": "Madison Large Cap Fund Sold CDW CORP. (CDW) Following Recent Price Recovery",
+          "url": "https://finnhub.io/api/news?id=acf3286fb6075180d20aad51049bea0a39321799c74a444845e73175e23c249c",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T15:47:20Z",
+          "primary": false,
+          "symbol": "CDW"
+        },
+        {
+          "headline": "CDW Launches Advanced AI Tools to Boost Enterprise Adoption",
+          "url": "https://finnhub.io/api/news?id=fd547a147bcad4edf1107292513ed1a2b1d48034768438b0f3b29e956e37599c",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:01:00Z",
+          "primary": false,
+          "symbol": "CDW"
+        },
         {
           "headline": "CDW Canada Named an IDC CIO Awards Canada 2026 Winner",
           "url": "https://finnhub.io/api/news?id=578ba1a775af41fb2f44ed4bf45f22af5bbeca84287b0b5a89ca229bdcbfdf6f",
@@ -16592,22 +16682,6 @@
           "published_at": "2026-11-18T14:30:00Z",
           "primary": false,
           "symbol": "CDW"
-        },
-        {
-          "headline": "CDW to Participate in the UBS Global Technology and AI Conference",
-          "url": "https://finnhub.io/api/news?id=3fc23985f8aade344880f7ff329f897a4c1f92ee3eabeb67cb851bcf0e18fbbf",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:00:00Z",
-          "primary": false,
-          "symbol": "CDW"
-        },
-        {
-          "headline": "Barclays Maintains Equal-Weight on CDW, Raises Price Target to $164",
-          "url": "https://finnhub.io/api/news?id=91f0dee553ad86c5b489c55f85704096bfa56d2ec90e5ba22fb43ab30e7ba57b",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T11:13:13Z",
-          "primary": false,
-          "symbol": "CDW"
         }
       ]
     },
@@ -16615,16 +16689,16 @@
       "metrics": {
         "52WeekHigh": 78.08,
         "52WeekLow": 31.63,
-        "peTTM": 21.627,
-        "psTTM": 0.1594,
+        "peTTM": 21.8745,
+        "psTTM": 0.1612,
         "netProfitMarginTTM": -3.25,
         "roeTTM": 6.78,
         "revenueGrowthTTMYoy": 17.02,
         "currentRatioQuarterly": 1.1235,
         "totalDebt/totalEquityQuarterly": 0.6999,
-        "marketCapitalization": 31575.438
+        "marketCapitalization": 31936.836
       },
-      "updated_at": "2026-11-22T21:53:24Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "Centene Corp",
       "profile": {
         "weburl": "https://www.centene.com/",
@@ -16632,6 +16706,14 @@
         "name": "Centene Corp"
       },
       "news": [
+        {
+          "headline": "Centene: Top Stock To Watch For 2027 From My 'Dean's List'",
+          "url": "https://finnhub.io/api/news?id=475b00343736180c295b18c922ddfcc8a6846f3381661a04e071bb30a62af2d0",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T09:00:27Z",
+          "primary": false,
+          "symbol": "CNC"
+        },
         {
           "headline": "Centene's Q3 Beat Supports Continued Earnings Recovery, RBC Says",
           "url": "https://finnhub.io/api/news?id=c5456d7b46d96afe96acbddaede3e9d9c30826fb5f76f5841bf26fc351f659df",
@@ -16663,14 +16745,6 @@
           "published_at": "2026-11-19T14:39:41Z",
           "primary": false,
           "symbol": "CNC"
-        },
-        {
-          "headline": "What Triggered The Move In Centene Stock?",
-          "url": "https://finnhub.io/api/news?id=6cb21490c506404e1401eae4e33d60271f2de2a8186963f45e67b7bbb0b66551",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:20:45Z",
-          "primary": false,
-          "symbol": "CNC"
         }
       ]
     },
@@ -16678,17 +16752,17 @@
       "metrics": {
         "52WeekHigh": 45.26,
         "52WeekLow": 36.37,
-        "peTTM": 22.4461,
-        "psTTM": 3.4443,
+        "peTTM": 23.0831,
+        "psTTM": 3.5421,
         "netProfitMarginTTM": 5.74,
         "roeTTM": 10.03,
         "revenueGrowthTTMYoy": 1.35,
         "epsGrowthTTMYoy": 10.44,
         "currentRatioQuarterly": 1.1493,
         "totalDebt/totalEquityQuarterly": 2.1208,
-        "marketCapitalization": 25925.223
+        "marketCapitalization": 26661.02
       },
-      "updated_at": "2026-11-22T21:53:24Z",
+      "updated_at": "2026-11-25T01:27:41Z",
       "name": "CenterPoint Energy, Inc.",
       "profile": {
         "weburl": "https://www.centerpointenergy.com/",
@@ -16701,14 +16775,6 @@
           "url": "https://finnhub.io/api/news?id=7800681a554e1913d9eb1b8f6347d3a3b276e692d79341813e499e57ada6898c",
           "source": "Yahoo",
           "published_at": "2026-11-19T14:50:08Z",
-          "primary": false,
-          "symbol": "CNP"
-        },
-        {
-          "headline": "Evercore ISI Group Maintains In-Line on CenterPoint Energy, Lowers Price Target to $41",
-          "url": "https://finnhub.io/api/news?id=93a4d60c3f15f014491b7cc5c18592caf83b70458366a705b8d7ff07dfa248ed",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T09:18:56Z",
           "primary": false,
           "symbol": "CNP"
         }
@@ -29904,6 +29970,6 @@
       ]
     }
   },
-  "cursor": 270,
-  "updated_at": "2026-11-24T23:56:36Z"
+  "cursor": 282,
+  "updated_at": "2026-11-25T01:27:41Z"
 }
