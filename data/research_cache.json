@@ -22904,17 +22904,17 @@
       "metrics": {
         "52WeekHigh": 379.23,
         "52WeekLow": 232.3427,
-        "peTTM": 22.764,
-        "psTTM": 1.9942,
+        "peTTM": 23.6887,
+        "psTTM": 2.0752,
         "netProfitMarginTTM": 8.76,
         "roeTTM": 10.05,
         "revenueGrowthTTMYoy": 7.33,
         "epsGrowthTTMYoy": 17.1,
         "currentRatioQuarterly": 1.1959,
         "totalDebt/totalEquityQuarterly": 0.518,
-        "marketCapitalization": 46529.7
+        "marketCapitalization": 48419.637
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "L3Harris Technologies, Inc.",
       "profile": {
         "weburl": "https://www.l3harris.com",
@@ -22923,18 +22923,18 @@
       },
       "news": [
         {
-          "headline": "Is L3Harris Technologies (LHX) A Bargain After Recent Weakness?",
-          "url": "https://finnhub.io/api/news?id=aa225a728c1003da31538e9971bc2db0edbe9490e519a3be3f3c74b0c3d40ecc",
+          "headline": "ETFs Are Net Sellers of L3Harris (LHX) on Nov. 23",
+          "url": "https://finnhub.io/api/news?id=b51cb37067fa334551235dd5ae31848637dfd129ecb4d8c742ca639617ef3671",
           "source": "Yahoo",
-          "published_at": "2026-11-21T09:10:24Z",
+          "published_at": "2026-11-25T11:03:15Z",
           "primary": false,
           "symbol": "LHX"
         },
         {
-          "headline": "L3Harris Technologies (LHX) Router Outage Puts Air Traffic Upgrades In Focus",
-          "url": "https://finnhub.io/api/news?id=a53b105f45556660d2a9efe9065a05b4eb85691b3ef7ffad762127f7387ecdbb",
+          "headline": "Is L3Harris Technologies (LHX) A Bargain After Recent Weakness?",
+          "url": "https://finnhub.io/api/news?id=aa225a728c1003da31538e9971bc2db0edbe9490e519a3be3f3c74b0c3d40ecc",
           "source": "Yahoo",
-          "published_at": "2026-11-17T04:33:54Z",
+          "published_at": "2026-11-21T09:10:24Z",
           "primary": false,
           "symbol": "LHX"
         }
@@ -22942,19 +22942,19 @@
     },
     "LH": {
       "metrics": {
-        "52WeekHigh": 375.1,
+        "52WeekHigh": 378.88,
         "52WeekLow": 245.0,
-        "peTTM": 29.6922,
-        "psTTM": 2.0426,
+        "peTTM": 30.4185,
+        "psTTM": 2.0926,
         "netProfitMarginTTM": 6.88,
         "roeTTM": 11.540000000000001,
         "revenueGrowthTTMYoy": 6.02,
         "epsGrowthTTMYoy": 19.73,
         "currentRatioQuarterly": 1.4067,
         "totalDebt/totalEquityQuarterly": 0.6689,
-        "marketCapitalization": 29810.955
+        "marketCapitalization": 30540.129
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Labcorp Holdings Inc.",
       "profile": {
         "weburl": "https://www.labcorp.com/",
@@ -22962,6 +22962,14 @@
         "name": "Labcorp Holdings Inc."
       },
       "news": [
+        {
+          "headline": "ETFs Are Net Sellers of Labcorp (LH) on Monday",
+          "url": "https://finnhub.io/api/news?id=edefeea9dcc991502dd9467f72d67b0b0cdd96acee11dcdd15f96cc6b52eb89b",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T11:03:08Z",
+          "primary": false,
+          "symbol": "LH"
+        },
         {
           "headline": "If You Invested $100 In Labcorp Holdings Stock 20 Years Ago, You Would Have This Much Today",
           "url": "https://finnhub.io/api/news?id=9f792e38acce2193cc58ca8193a271a5906dd69ca9ac2e7e744de27694f9d601",
@@ -22993,14 +23001,6 @@
           "published_at": "2026-11-17T21:30:00Z",
           "primary": false,
           "symbol": "LH"
-        },
-        {
-          "headline": "Labcorp Collaborates With Grupo Fleury To Expand Clinical Trial Operations In Brazil",
-          "url": "https://finnhub.io/api/news?id=1a404f7006fb4a029eac5c92cd301468159015f7c896bdbabbb8b438543800cc",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T17:31:17Z",
-          "primary": false,
-          "symbol": "LH"
         }
       ]
     },
@@ -23008,17 +23008,17 @@
       "metrics": {
         "52WeekHigh": 70.45,
         "52WeekLow": 35.03,
-        "peTTM": 15.1108,
-        "psTTM": 1.7905,
+        "peTTM": 15.4064,
+        "psTTM": 1.8256,
         "netProfitMarginTTM": 11.85,
         "roeTTM": 139.84,
         "revenueGrowthTTMYoy": 10.93,
         "epsGrowthTTMYoy": 9.63,
         "currentRatioQuarterly": 0.8264,
         "totalDebt/totalEquityQuarterly": 26.2685,
-        "marketCapitalization": 24358.566
+        "marketCapitalization": 24835.078
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Las Vegas Sands Corp.",
       "profile": {
         "weburl": "https://www.sands.com/",
@@ -23026,6 +23026,14 @@
         "name": "Las Vegas Sands Corp."
       },
       "news": [
+        {
+          "headline": "Amcor or Las Vegas Sands: Only One Gets My Dividend Dollars for the Next 10 Years",
+          "url": "https://finnhub.io/api/news?id=4886f01794c2ed1182273c4283c76baa271651bafe13cbff79f7502c2fa76191",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T17:09:12Z",
+          "primary": false,
+          "symbol": "LVS"
+        },
         {
           "headline": "Why Is Las Vegas Sands (LVS) Up 7.7% Since Last Earnings Report?",
           "url": "https://finnhub.io/api/news?id=d50fc96adda178dc12de8fd75cc31c5e4ff40de79b655e03aa99a366033f0d13",
@@ -23048,17 +23056,17 @@
       "metrics": {
         "52WeekHigh": 205.0,
         "52WeekLow": 98.86,
-        "peTTM": 10.5067,
-        "psTTM": 0.8378,
+        "peTTM": 11.0363,
+        "psTTM": 0.88,
         "netProfitMarginTTM": 7.97,
         "roeTTM": 27.839999999999996,
         "revenueGrowthTTMYoy": 2.67,
         "epsGrowthTTMYoy": 91.86,
         "currentRatioQuarterly": 1.599,
         "totalDebt/totalEquityQuarterly": 1.1653,
-        "marketCapitalization": 14908.972
+        "marketCapitalization": 15660.459
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Leidos Holdings, Inc.",
       "profile": {
         "weburl": "https://www.leidos.com/",
@@ -23067,42 +23075,42 @@
       },
       "news": [
         {
+          "headline": "Can Leidos Holdings (LDOS) Justify Its Price On Earnings?",
+          "url": "https://finnhub.io/api/news?id=c17e235290ba577e710578a22b4171b9049f12656374769abb48ef277dbd2c06",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T05:15:07Z",
+          "primary": false,
+          "symbol": "LDOS"
+        },
+        {
+          "headline": "Leidos Holdings (LDOS) Could Be 15% Undervalued After Its Conference Spotlight",
+          "url": "https://finnhub.io/api/news?id=0522590b44eb6b3c4afe9143506e5ae45b306e7a2aa9dab6be6c381689e2faf6",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T01:10:22Z",
+          "primary": false,
+          "symbol": "LDOS"
+        },
+        {
+          "headline": "Leidos (LDOS) Stock Is Up 5.0% Today Without Company News",
+          "url": "https://finnhub.io/api/news?id=3b7331cfc01e1daf723721d9d89321b48fcf6df4b1e85a5f3aa1134b2df2a2f3",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T20:31:15Z",
+          "primary": false,
+          "symbol": "LDOS"
+        },
+        {
+          "headline": "Leidos to participate in the Goldman Sachs 2026 Industrials and Materials Conference",
+          "url": "https://finnhub.io/api/news?id=e8ff81798d8d102fe813ca2bb5601e0a69b6d682b5a66728165f66d5383f937a",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:00:00Z",
+          "primary": false,
+          "symbol": "LDOS"
+        },
+        {
           "headline": "Is Wall Street Bullish or Bearish on Leidos Holdings Stock?",
           "url": "https://finnhub.io/api/news?id=ca1b214aeb61f39a82fbe7b4f9679dd06721bc4984dc6812fdf9bfb82e36dfa3",
           "source": "Yahoo",
           "published_at": "2026-11-20T10:16:28Z",
-          "primary": false,
-          "symbol": "LDOS"
-        },
-        {
-          "headline": "Can MRADR Deployment Strengthen Leidos' Defense Technology Growth?",
-          "url": "https://finnhub.io/api/news?id=363532d08906d6cfba02baa87d4d3629d0afbca4f815534c6db4265ae434a5a7",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:05:00Z",
-          "primary": false,
-          "symbol": "LDOS"
-        },
-        {
-          "headline": "Leidos building low-signature air defense for Marines",
-          "url": "https://finnhub.io/api/news?id=c6fac00f26e1f9f481910d0846731a792e84ece0b1b59ff62b536a0f6e6dcad8",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T13:00:00Z",
-          "primary": false,
-          "symbol": "LDOS"
-        },
-        {
-          "headline": "Leidos Awarded $40.8 Contract To Build And Maintain 14 Medium Range Air Defense Radar Systems",
-          "url": "https://finnhub.io/api/news?id=a043e84223d53ef34c828f3e95b457bed3519c31b11b53c01dfa03abadc87366",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T09:14:45Z",
-          "primary": false,
-          "symbol": "LDOS"
-        },
-        {
-          "headline": "Leidos continuing support for NASA flight hardware, logistics",
-          "url": "https://finnhub.io/api/news?id=7ab3dee146c401b71567e0884ed5a760b4da4b5c093494f80f063f8f9ed2c303",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T16:00:00Z",
           "primary": false,
           "symbol": "LDOS"
         }
@@ -23112,17 +23120,17 @@
       "metrics": {
         "52WeekHigh": 133.76,
         "52WeekLow": 71.78,
-        "peTTM": 14.6288,
-        "psTTM": 0.5986,
+        "peTTM": 15.3872,
+        "psTTM": 0.6296,
         "netProfitMarginTTM": 4.09,
         "roeTTM": 6.01,
         "revenueGrowthTTMYoy": -8.03,
         "epsGrowthTTMYoy": -47.77,
         "currentRatioQuarterly": 7.7942,
         "totalDebt/totalEquityQuarterly": 0.2728,
-        "marketCapitalization": 19138.41
+        "marketCapitalization": 20130.527
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Lennar Corporation",
       "profile": {
         "weburl": "https://www.lennar.com",
@@ -23130,6 +23138,14 @@
         "name": "Lennar Corporation"
       },
       "news": [
+        {
+          "headline": "Lennar (LEN) Rises But Trails Market: What Investors Should Know",
+          "url": "https://finnhub.io/api/news?id=91b5cf3af5634a91c0cbd48a2f5a5f27720f81331a4e2a8e8c93ef025053bae7",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:15:01Z",
+          "primary": false,
+          "symbol": "LEN"
+        },
         {
           "headline": "Greg Abel Nearly Doubled Berkshire’s Lennar Stake and Added a $689 Million IPO Position",
           "url": "https://finnhub.io/api/news?id=0c8b0ce9417fd4d370f3c544377e96a2aef37b16a0889e66b7d910104494dfde",
@@ -23161,14 +23177,6 @@
           "published_at": "2026-11-17T22:15:02Z",
           "primary": false,
           "symbol": "LEN"
-        },
-        {
-          "headline": "Can Lennar Stock Jump 40%?",
-          "url": "https://finnhub.io/api/news?id=3b05d30c2249d84b0a5f99d63eb0156150488603bcbade722fe5b3b421474b4e",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:13:41Z",
-          "primary": false,
-          "symbol": "LEN"
         }
       ]
     },
@@ -23176,17 +23184,17 @@
       "metrics": {
         "52WeekHigh": 587.27,
         "52WeekLow": 322.0,
-        "peTTM": 14.8699,
-        "psTTM": 2.1003,
+        "peTTM": 15.1037,
+        "psTTM": 2.1334,
         "netProfitMarginTTM": 14.12,
         "roeTTM": 61.67,
         "revenueGrowthTTMYoy": 1.92,
         "epsGrowthTTMYoy": -6.7,
         "currentRatioQuarterly": 1.212,
         "totalDebt/totalEquityQuarterly": 1.2312,
-        "marketCapitalization": 11442.378
+        "marketCapitalization": 11622.314
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Lennox International Inc.",
       "profile": {
         "weburl": "https://www.lennox.com/",
@@ -23199,17 +23207,17 @@
       "metrics": {
         "52WeekHigh": 548.2,
         "52WeekLow": 387.78,
-        "peTTM": 32.9444,
-        "psTTM": 6.3701,
+        "peTTM": 33.8616,
+        "psTTM": 6.5475,
         "netProfitMarginTTM": 19.34,
         "roeTTM": 18.05,
         "revenueGrowthTTMYoy": 8.16,
         "epsGrowthTTMYoy": 0.82,
         "currentRatioQuarterly": 0.8576,
         "totalDebt/totalEquityQuarterly": 0.6773,
-        "marketCapitalization": 230841.1
+        "marketCapitalization": 237268.27
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Linde PLC",
       "profile": {
         "weburl": "https://www.linde.com/",
@@ -23232,22 +23240,6 @@
           "published_at": "2026-11-18T10:43:00Z",
           "primary": false,
           "symbol": "LIN"
-        },
-        {
-          "headline": "Linde: A Quality Compounder With Limited Upside",
-          "url": "https://finnhub.io/api/news?id=eff4543d84be5d6459d2c277861d076b523f0c98fb28903cd31c5954537dcbb1",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T11:20:08Z",
-          "primary": false,
-          "symbol": "LIN"
-        },
-        {
-          "headline": "Linde: An Exceptional Business With Too Little Room For Error",
-          "url": "https://finnhub.io/api/news?id=47a25799ca9886c9090b706af8b5bf886142086ce3a27db1ae137259d7a814d2",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T05:12:02Z",
-          "primary": false,
-          "symbol": "LIN"
         }
       ]
     },
@@ -23255,17 +23247,17 @@
       "metrics": {
         "52WeekHigh": 189.245,
         "52WeekLow": 125.34,
-        "peTTM": 270.1315,
-        "psTTM": 1.4639,
+        "peTTM": 286.4066,
+        "psTTM": 1.5521,
         "netProfitMarginTTM": 0.54,
         "roeTTM": 200.03000000000003,
         "revenueGrowthTTMYoy": 13.47,
         "epsGrowthTTMYoy": -89.3,
         "currentRatioQuarterly": 0.9515,
         "totalDebt/totalEquityQuarterly": 21.3425,
-        "marketCapitalization": 40810.664
+        "marketCapitalization": 43269.45
       },
-      "updated_at": "2026-11-23T08:06:30Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Live Nation Entertainment, Inc.",
       "profile": {
         "weburl": "https://www.livenationentertainment.com/",
@@ -23274,18 +23266,18 @@
       },
       "news": [
         {
-          "headline": "Live Nation Entertainment (NYSE:LYV) Builds a High-Quality Breakout Setup",
-          "url": "https://finnhub.io/api/news?id=564cf7fd1a5b9b95afba990938fe66fa05dbf42e3daf612b0785518805bc64de",
-          "source": "ChartMill",
-          "published_at": "2026-11-20T10:11:09Z",
+          "headline": "$100 Invested In Live Nation Entertainment 20 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=b3f601040377c5793b2634e5f3b7bffa78eec5d1739b315f2798aff08f0ffa09",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T18:00:15Z",
           "primary": false,
           "symbol": "LYV"
         },
         {
-          "headline": "Here's How Much $100 Invested In Live Nation Entertainment 15 Years Ago Would Be Worth Today",
-          "url": "https://finnhub.io/api/news?id=36c50b6b5b626b47d6d336a39be22857467818dd9958b85abf79a7c5ccde60aa",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T17:15:21Z",
+          "headline": "Live Nation Entertainment (NYSE:LYV) Builds a High-Quality Breakout Setup",
+          "url": "https://finnhub.io/api/news?id=564cf7fd1a5b9b95afba990938fe66fa05dbf42e3daf612b0785518805bc64de",
+          "source": "ChartMill",
+          "published_at": "2026-11-20T10:11:09Z",
           "primary": false,
           "symbol": "LYV"
         }
@@ -23295,38 +23287,47 @@
       "metrics": {
         "52WeekHigh": 121.01,
         "52WeekLow": 101.08,
-        "peTTM": 14.8579,
-        "psTTM": 1.175,
+        "peTTM": 15.0399,
+        "psTTM": 1.1894,
         "netProfitMarginTTM": 7.91,
         "roeTTM": 7.960000000000001,
         "revenueGrowthTTMYoy": 2.82,
         "epsGrowthTTMYoy": 4.94,
         "currentRatioQuarterly": 287.7778,
         "totalDebt/totalEquityQuarterly": 0.4883,
-        "marketCapitalization": 22123.44
+        "marketCapitalization": 22394.422
       },
-      "updated_at": "2026-11-23T08:06:30Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Loews Corporation",
       "profile": {
         "weburl": "https://www.loews.com/",
         "industry": "Insurance",
         "name": "Loews Corporation"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Loews (L) Stock Looks Fairly Valued As Excess Returns Stay Close",
+          "url": "https://finnhub.io/api/news?id=99a090f8ae9412e2caf59f50e4d3573c8d01583e87d7a59902911c27d102ad79",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T15:16:16Z",
+          "primary": false,
+          "symbol": "L"
+        }
+      ]
     },
     "LITE": {
       "metrics": {
         "52WeekHigh": 1143.0,
-        "52WeekLow": 229.585,
-        "psTTM": 13.859,
+        "52WeekLow": 266.005,
+        "psTTM": 14.829,
         "netProfitMarginTTM": -230.1,
         "roeTTM": -300.07,
         "revenueGrowthTTMYoy": 83.22,
         "currentRatioQuarterly": 1.6778,
         "totalDebt/totalEquityQuarterly": 0.3526,
-        "marketCapitalization": 41770.977
+        "marketCapitalization": 44694.6
       },
-      "updated_at": "2026-11-23T08:06:30Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "Lumentum Holdings Inc.",
       "profile": {
         "weburl": "https://investor.lumentum.com/",
@@ -23335,42 +23336,42 @@
       },
       "news": [
         {
-          "headline": "Lumentum’s CEO Says “the Laws of Physics Are Working in Favor of Fiber.” Marvell Holders Are Buying It Cheap",
-          "url": "https://finnhub.io/api/news?id=ff1ef5057c36996143647c96cd249056755ccbdd79f77937b649fdbe2454e5b3",
+          "headline": "Coherent Sinks 10% Despite $15 Million Director Buy, Applied Optoelectronics Plunges 12% as AI Selloff Deepens; Lumentum Tumbles 10%",
+          "url": "https://finnhub.io/api/news?id=4db5e321c2f7c04f74845f3462b2ac0fb709fe0d3df109d6963b6b90a3188588",
           "source": "Yahoo",
-          "published_at": "2026-11-22T11:59:18Z",
+          "published_at": "2026-11-25T15:53:19Z",
           "primary": false,
           "symbol": "LITE"
         },
         {
-          "headline": "Lumentum: After A 54% Crash, I'm Upgrading To Strong Buy",
-          "url": "https://finnhub.io/api/news?id=67566374d263340fab1168ae9fca00c56218446d1655a457a2994005bfedbccd",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-21T04:52:17Z",
+          "headline": "Lumentum Has Lost 42% Since October 28 Despite Its Best Quarter Ever. Marvell’s Stock Is Why",
+          "url": "https://finnhub.io/api/news?id=04c52ff729eaf3f8784c59c7ddccc040d3a13d1cca6adb44e8e2ca06be51cddf",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T08:39:00Z",
           "primary": false,
           "symbol": "LITE"
         },
         {
-          "headline": "Marvell's $115 Billion Lumentum Deal Creates a New Valuation Test",
-          "url": "https://finnhub.io/api/news?id=66a20bf4cbe8b5ec550e6c876a9fe86f3deb80fcc358f15380041849719764eb",
+          "headline": "AAOI vs. Lumentum: Which Optical Networking Stock Has an Edge Now?",
+          "url": "https://finnhub.io/api/news?id=20563bb5f1fb7a15079c8dc5b3f48f1db2d79d2e59b9be8fc4c3aedf337d838f",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:41:12Z",
+          "published_at": "2026-11-24T16:36:00Z",
           "primary": false,
           "symbol": "LITE"
         },
         {
-          "headline": "Lumentum Holdings (LITE) Stock Dropped, So What Is Driving Attention Now?",
-          "url": "https://finnhub.io/api/news?id=72c16cf1964b979d532c1e397b9506542b8a2364b5450bd7ee4bf90e785cfd26",
+          "headline": "Lumentum (LITE) Stock Looks Richly Priced As Its Three Year Run Continues",
+          "url": "https://finnhub.io/api/news?id=d84177a40b7c01f97cdb2d0f2c4221d7ee09061d9a483467b1c00626e4f5ea74",
           "source": "Yahoo",
-          "published_at": "2026-11-20T21:12:17Z",
+          "published_at": "2026-11-24T16:09:10Z",
           "primary": false,
           "symbol": "LITE"
         },
         {
-          "headline": "Marvell and Lumentum deal: good, real, and ugly scenarios",
-          "url": "https://finnhub.io/api/news?id=711ce0cf599256f8891909373c8e66584787422e2e95f1f3d85466dd22cd18ed",
+          "headline": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
+          "url": "https://finnhub.io/api/news?id=279feed7f8e83c0bab8dca5730281447f596e24431227f8e50ac870e7ae96808",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:20:15Z",
+          "published_at": "2026-11-24T14:58:24Z",
           "primary": false,
           "symbol": "LITE"
         }
@@ -23380,16 +23381,16 @@
       "metrics": {
         "52WeekHigh": 83.94,
         "52WeekLow": 42.01,
-        "peTTM": 13.8632,
-        "psTTM": 0.5647,
+        "peTTM": 13.8086,
+        "psTTM": 0.5625,
         "netProfitMarginTTM": 4.07,
         "roeTTM": 12.389999999999999,
         "revenueGrowthTTMYoy": -1.83,
         "currentRatioQuarterly": 1.7769,
         "totalDebt/totalEquityQuarterly": 1.096,
-        "marketCapitalization": 18049.861
+        "marketCapitalization": 17978.748
       },
-      "updated_at": "2026-11-23T08:06:30Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "LyondellBasell Industries N.V.",
       "profile": {
         "weburl": "https://www.lyondellbasell.com/",
@@ -23397,6 +23398,14 @@
         "name": "LyondellBasell Industries N.V."
       },
       "news": [
+        {
+          "headline": "LyondellBasell to address 2026 Goldman Sachs Industrials and Materials Conference",
+          "url": "https://finnhub.io/api/news?id=19d6fe785ce95ce0d347c899015e8aab0a9bb566630077fa741ffa01f28f7dec",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:00:00Z",
+          "primary": false,
+          "symbol": "LYB"
+        },
         {
           "headline": "LyondellBasell Industries N.V. Reports One-Time Retention Awards for Executive Committee Members",
           "url": "https://finnhub.io/api/news?id=5291ec903e72495f5dd137ee05b6e01d4e8768a9c4d1e66d9fd1b65fbf0d71ff",
@@ -23428,31 +23437,23 @@
           "published_at": "2026-11-18T15:14:15Z",
           "primary": false,
           "symbol": "LYB"
-        },
-        {
-          "headline": "LyondellBasell: Earnings Have Fallen, But My Buy Rating Remains",
-          "url": "https://finnhub.io/api/news?id=1cadd1365e54b573722af532f92debeff4e7508f530a936457d32e24e453f4e0",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T03:57:55Z",
-          "primary": false,
-          "symbol": "LYB"
         }
       ]
     },
     "MTB": {
       "metrics": {
         "52WeekHigh": 255.95,
-        "52WeekLow": 181.56,
-        "peTTM": 9.9063,
+        "52WeekLow": 185.84,
+        "peTTM": 10.0999,
         "psTTM": 2.1162,
         "netProfitMarginTTM": 30.69529,
         "roeTTM": 10.65,
         "revenueGrowthTTMYoy": 86.15662,
         "epsGrowthTTMYoy": 18.22,
         "totalDebt/totalEquityQuarterly": 0.711,
-        "marketCapitalization": 29877.393
+        "marketCapitalization": 30461.17
       },
-      "updated_at": "2026-11-23T08:06:30Z",
+      "updated_at": "2026-11-25T17:12:49Z",
       "name": "M&T Bank Corporation",
       "profile": {
         "weburl": "https://www.mtb.com",
@@ -23461,42 +23462,18 @@
       },
       "news": [
         {
+          "headline": "M&T Bank's Net Charge-Offs Fall: Is Credit Quality Turning a Corner?",
+          "url": "https://finnhub.io/api/news?id=a0c724ea0dad870a7d2d3634c04be88679c0a7bde884e8ec1b5ac70f6c87ca36",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:56:00Z",
+          "primary": false,
+          "symbol": "MTB"
+        },
+        {
           "headline": "M&T Bank Corporation to Participate in the Goldman Sachs Financial Services Conference",
           "url": "https://finnhub.io/api/news?id=3f07c33b7c039320b261024be38e437d8080901f36cd142567f9b09985e66bf0",
           "source": "Yahoo",
           "published_at": "2026-11-18T21:30:00Z",
-          "primary": false,
-          "symbol": "MTB"
-        },
-        {
-          "headline": "M&T Bank Just Raised Its Dividend 20% as Earnings Support a Bigger Payout",
-          "url": "https://finnhub.io/api/news?id=74d42fb6ddc2bb6d256477ddb4d953fc13a593bbf2e08925acc082af73688dc9",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T15:17:22Z",
-          "primary": false,
-          "symbol": "MTB"
-        },
-        {
-          "headline": "M&T Bank Raises Dividend 20%: Is Capital Return Sustainable?",
-          "url": "https://finnhub.io/api/news?id=ec24c5600b0c33541ddfa972f14945f95a1184ed94b8f8eb6e1729896923d71d",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:20:00Z",
-          "primary": false,
-          "symbol": "MTB"
-        },
-        {
-          "headline": "WSFS Bank Names Equipment Finance Leader Miles Herman President of NewLane Finance",
-          "url": "https://finnhub.io/api/news?id=cc7af9841c1b6fc4139af18e8ca040860624d1387e7cbe0605d5c30a4366b99e",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:59:00Z",
-          "primary": false,
-          "symbol": "MTB"
-        },
-        {
-          "headline": "M&T Bank Corporation Announces Increased Common Stock Dividend",
-          "url": "https://finnhub.io/api/news?id=8dc4124539641e48b1733077a46bae5fea4a4e2ebdde6bb4a61e1138dde4a94c",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T22:49:00Z",
           "primary": false,
           "symbol": "MTB"
         }
@@ -30072,6 +30049,6 @@
       ]
     }
   },
-  "cursor": 390,
-  "updated_at": "2026-11-25T15:17:49Z"
+  "cursor": 402,
+  "updated_at": "2026-11-25T17:12:49Z"
 }
