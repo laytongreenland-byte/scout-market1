@@ -24175,17 +24175,17 @@
       "metrics": {
         "52WeekHigh": 681.04,
         "52WeekLow": 501.08,
-        "peTTM": 31.5461,
-        "psTTM": 12.7171,
+        "peTTM": 32.7573,
+        "psTTM": 13.2054,
         "netProfitMarginTTM": 40.31,
         "roeTTM": 108.67,
         "revenueGrowthTTMYoy": 12.33,
         "epsGrowthTTMYoy": 19.74,
         "currentRatioQuarterly": 0.8248,
         "totalDebt/totalEquityQuarterly": 6.8032,
-        "marketCapitalization": 43649.32
+        "marketCapitalization": 45325.277
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "MSCI Inc.",
       "profile": {
         "weburl": "https://www.msci.com/",
@@ -24193,6 +24193,14 @@
         "name": "MSCI Inc."
       },
       "news": [
+        {
+          "headline": "Is Wall Street Bullish or Bearish on MSCI Stock?",
+          "url": "https://finnhub.io/api/news?id=bc257e41b1a98ae9b3890791ac8e0114ae01ce9900ed2c7612df96a1d158540f",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T10:59:38Z",
+          "primary": false,
+          "symbol": "MSCI"
+        },
         {
           "headline": "MSCI considers alternatives to Indonesia downgrade after Prabowo talks",
           "url": "https://finnhub.io/api/news?id=f26322a1be8df27bb847c45f5f13084a450039f42814c1b7c5bba5f753eadc1f",
@@ -24224,14 +24232,6 @@
           "published_at": "2026-11-19T23:06:56Z",
           "primary": false,
           "symbol": "MSCI"
-        },
-        {
-          "headline": "Strategy (MSTR) On Bitcoin Buying And MSCI Exit Still Looks Undervalued",
-          "url": "https://finnhub.io/api/news?id=94804c237ad54d843784d58a48f533564bfefc6e07cbbc5d279928c81f956697",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:14:24Z",
-          "primary": false,
-          "symbol": "MSCI"
         }
       ]
     },
@@ -24239,17 +24239,17 @@
       "metrics": {
         "52WeekHigh": 111.45,
         "52WeekLow": 76.55,
-        "peTTM": 27.4073,
-        "psTTM": 6.2178,
+        "peTTM": 28.4458,
+        "psTTM": 6.4534,
         "netProfitMarginTTM": 22.69,
         "roeTTM": 17.28,
         "revenueGrowthTTMYoy": 12.23,
         "epsGrowthTTMYoy": 30.43,
         "currentRatioQuarterly": 1.0033,
         "totalDebt/totalEquityQuarterly": 0.7284,
-        "marketCapitalization": 57116.766
+        "marketCapitalization": 59281.12
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "Nasdaq Inc",
       "profile": {
         "weburl": "https://www.nasdaq.com/",
@@ -24258,42 +24258,42 @@
       },
       "news": [
         {
-          "headline": "Nasdaq Targets 2027 Equity Token Launch as AI and FinTech Growth Accelerate",
-          "url": "https://finnhub.io/api/news?id=b50f89850e7fba5e41063995a16248c56e5125984bcc0401e58c39d5542a6471",
+          "headline": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date November 13, 2026",
+          "url": "https://finnhub.io/api/news?id=ebd8c0e4d09cbed40201e46e85b583821b611daa03761552c43855552c85cf10",
           "source": "Yahoo",
-          "published_at": "2026-11-22T02:12:04Z",
+          "published_at": "2026-11-24T21:05:00Z",
           "primary": false,
           "symbol": "NDAQ"
         },
         {
-          "headline": "Nasdaq Starts Charging for Financial Crime AI Agents as 850 Customers Sign On",
-          "url": "https://finnhub.io/api/news?id=4033385de9958f7fff8ed89f4eee9edb7b4077be65ce08737d1533083f6c6728",
+          "headline": "Can Nasdaq's Financial Technology Business Fuel Long-Term Growth?",
+          "url": "https://finnhub.io/api/news?id=d079afa3b431cebacd19f0b9f6bee33bd663bb8c16898ae161b2ef7d67480186",
           "source": "Yahoo",
-          "published_at": "2026-11-21T20:12:08Z",
+          "published_at": "2026-11-24T17:05:00Z",
           "primary": false,
           "symbol": "NDAQ"
         },
         {
-          "headline": "Nasdaq Rises on Record Recurring Revenue",
-          "url": "https://finnhub.io/api/news?id=02ebe4254da0ec666d992b49cd6a2fa319a05388436cb00340c577db85139a40",
+          "headline": "Here’s How Much You Would Have Made Owning Nasdaq Stock In The Last 10 Years",
+          "url": "https://finnhub.io/api/news?id=9d04d1a9556dcfcb37c97b46e8007d2ba8dff651db3bc68986205028dcbbc52c",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T16:00:15Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        },
+        {
+          "headline": "Nasdaq Inc (NASDAQ:NDAQ): A Quality Stock Built on Durable Growth and Cash Generation",
+          "url": "https://finnhub.io/api/news?id=6e801d91f48a5ba286afaac2564b3229099e9218d511d481dcb8eab6629b7d3b",
+          "source": "ChartMill",
+          "published_at": "2026-11-24T13:11:02Z",
+          "primary": false,
+          "symbol": "NDAQ"
+        },
+        {
+          "headline": "Delisting of Securities from The Nasdaq Stock Market",
+          "url": "https://finnhub.io/api/news?id=751171ed8b3edefe90e5aebfd2505421ce36e9d0fdf0cbb45e5f91fa6b312c27",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:35:45Z",
-          "primary": false,
-          "symbol": "NDAQ"
-        },
-        {
-          "headline": "Nasdaq CEO Adena Friedman and President Nelson Griggs weigh in on Anthropic's historic IPO",
-          "url": "https://finnhub.io/api/news?id=e4a787869e2a672518d5e2f6ffd7943d21017ca5b952ea804a011a00d1654b1f",
-          "source": "CNBC",
-          "published_at": "2026-11-19T16:58:06Z",
-          "primary": false,
-          "symbol": "NDAQ"
-        },
-        {
-          "headline": "Nasdaq, Inc. (NDAQ) Presents at RBC Global Technology, Internet, Media and Telecommunications Conference Transcript",
-          "url": "https://finnhub.io/api/news?id=17c8eb85ceeea30033ecad8aefb7ef35077405a1ee0223d2d03a4aa57958cd55",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T11:12:54Z",
+          "published_at": "2026-11-23T14:15:00Z",
           "primary": false,
           "symbol": "NDAQ"
         }
@@ -24303,17 +24303,17 @@
       "metrics": {
         "52WeekHigh": 240.87,
         "52WeekLow": 93.69,
-        "peTTM": 21.8374,
-        "psTTM": 4.1896,
+        "peTTM": 22.5785,
+        "psTTM": 4.3318,
         "netProfitMarginTTM": 19.19,
         "roeTTM": 113.67,
         "revenueGrowthTTMYoy": 12.15,
         "epsGrowthTTMYoy": 25.19,
         "currentRatioQuarterly": 1.2417,
         "totalDebt/totalEquityQuarterly": 1.6642,
-        "marketCapitalization": 30965.457
+        "marketCapitalization": 32016.299
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "NetApp Inc",
       "profile": {
         "weburl": "https://www.netapp.com/",
@@ -24322,42 +24322,42 @@
       },
       "news": [
         {
-          "headline": "Why NetApp (NTAP) is Poised to Beat Earnings Estimates Again",
-          "url": "https://finnhub.io/api/news?id=69cf261f37112ea2c5caa28f69e82dbe6188ea150bdc28b580bfe0c660e01ee1",
+          "headline": "Unveiling NetApp (NTAP) Q2 Outlook: Wall Street Estimates for Key Metrics",
+          "url": "https://finnhub.io/api/news?id=32239b15ee8841261041304a80c53c15820133393c6965f781fbac5df8423043",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:10:02Z",
+          "published_at": "2026-11-25T13:15:03Z",
           "primary": false,
           "symbol": "NTAP"
         },
         {
-          "headline": "What Makes NetApp (NTAP) a New Buy Stock",
-          "url": "https://finnhub.io/api/news?id=6145308a0d579b92391a87f35d46d900c269747bbda50d9bbd54781fac5dd188",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T16:00:02Z",
+          "headline": "How to Earn $500 a Month From NetApp Stock Ahead of Q2 Earnings",
+          "url": "https://finnhub.io/api/news?id=419d7b5282be2a6380befe133b08d2d49a03e96be24b926ba38eebdacddbbfd6",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T09:27:26Z",
           "primary": false,
           "symbol": "NTAP"
         },
         {
-          "headline": "Purpose-Built Backup Appliance (PBBA) - Global Strategic Business Report 2026: Capitalize on 8.4% CAGR and $15.9B by 2032 with Key Players Dell EMC, IBM, NetApp and Veeam",
-          "url": "https://finnhub.io/api/news?id=96aa21de38c4a12a0cb1b29768d71667952fd9e5479dcc4094c793c8d35b7b63",
+          "headline": "NetApp to Participate in Upcoming Conferences",
+          "url": "https://finnhub.io/api/news?id=7097fcb475fe17ad499771ecf10987af7c5885ea6ed5d94e823fe80c97537a8b",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:09:00Z",
+          "published_at": "2026-11-24T21:01:00Z",
           "primary": false,
           "symbol": "NTAP"
         },
         {
-          "headline": "NetApp (NTAP) Stock Moves -1.17%: What You Should Know",
-          "url": "https://finnhub.io/api/news?id=63b45ba6a6ea9a8e91d69be6d488b8bf43259872af10b6e52d04d2230f8d221b",
+          "headline": "Why Is NetApp (NTAP) Stock Down Today? Tech Selloff Drags Storage Shares",
+          "url": "https://finnhub.io/api/news?id=a5caa26ff30d06dc892f87ad652af0d42fa45c7d5ca42c983d109d3e8aff5038",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:50:02Z",
+          "published_at": "2026-11-24T16:30:46Z",
           "primary": false,
           "symbol": "NTAP"
         },
         {
-          "headline": "SMCI vs. NTAP: Which Stock Is the Better Value Option?",
-          "url": "https://finnhub.io/api/news?id=1e55b4927078472cf8a587d35bb142dbf0ddbcad30bebfee2a2409d382e27477",
+          "headline": "NetApp (NTAP) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+          "url": "https://finnhub.io/api/news?id=f0cc6b49501630424f255aa01bd12b28a6df6375421d158c7a69503fce2442aa",
           "source": "Yahoo",
-          "published_at": "2026-11-19T15:40:02Z",
+          "published_at": "2026-11-24T14:00:02Z",
           "primary": false,
           "symbol": "NTAP"
         }
@@ -24367,17 +24367,17 @@
       "metrics": {
         "52WeekHigh": 31.66,
         "52WeekLow": 22.2,
-        "peTTM": 24.3644,
-        "psTTM": 1.5464,
+        "peTTM": 25.2284,
+        "psTTM": 1.6012,
         "netProfitMarginTTM": 6.35,
         "roeTTM": 6.619999999999999,
         "revenueGrowthTTMYoy": 1.06,
         "epsGrowthTTMYoy": -50.45,
         "currentRatioQuarterly": 1.6233,
         "totalDebt/totalEquityQuarterly": 0.2333,
-        "marketCapitalization": 13960.793
+        "marketCapitalization": 14455.901
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "News Corporation",
       "profile": {
         "weburl": "https://newscorp.com/",
@@ -24407,17 +24407,17 @@
       "metrics": {
         "52WeekHigh": 31.66,
         "52WeekLow": 22.2,
-        "peTTM": 24.3644,
-        "psTTM": 1.5464,
+        "peTTM": 25.2284,
+        "psTTM": 1.6012,
         "netProfitMarginTTM": 6.35,
         "roeTTM": 6.619999999999999,
         "revenueGrowthTTMYoy": 1.06,
         "epsGrowthTTMYoy": -50.45,
         "currentRatioQuarterly": 1.6233,
         "totalDebt/totalEquityQuarterly": 0.2333,
-        "marketCapitalization": 13960.793
+        "marketCapitalization": 14455.901
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "News Corporation",
       "profile": {
         "weburl": "https://newscorp.com/",
@@ -24447,17 +24447,17 @@
       "metrics": {
         "52WeekHigh": 49.21,
         "52WeekLow": 38.42,
-        "peTTM": 22.5979,
-        "psTTM": 3.1246,
+        "peTTM": 23.1184,
+        "psTTM": 3.1966,
         "netProfitMarginTTM": 13.83,
         "roeTTM": 9.83,
         "revenueGrowthTTMYoy": 10.06,
         "epsGrowthTTMYoy": 3.05,
         "currentRatioQuarterly": 0.4955,
         "totalDebt/totalEquityQuarterly": 1.9081,
-        "marketCapitalization": 21239.727
+        "marketCapitalization": 21728.992
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "NiSource Inc.",
       "profile": {
         "weburl": "https://www.nisource.com/",
@@ -24480,32 +24480,24 @@
           "published_at": "2026-11-19T12:22:59Z",
           "primary": false,
           "symbol": "NI"
-        },
-        {
-          "headline": "Evercore ISI Group Maintains In-Line on NiSource, Lowers Price Target to $50",
-          "url": "https://finnhub.io/api/news?id=153bfadac87a99938cbcfa45f10539eb7dc06dc584f5b1d14226e3dc63f71759",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T09:23:59Z",
-          "primary": false,
-          "symbol": "NI"
         }
       ]
     },
     "NDSN": {
       "metrics": {
         "52WeekHigh": 339.12,
-        "52WeekLow": 226.7,
-        "peTTM": 30.8225,
-        "psTTM": 5.7427,
+        "52WeekLow": 231.31,
+        "peTTM": 31.4816,
+        "psTTM": 5.8655,
         "netProfitMarginTTM": 18.63,
         "roeTTM": 17.59,
         "revenueGrowthTTMYoy": 7.02,
         "epsGrowthTTMYoy": 24.24,
         "currentRatioQuarterly": 1.8228,
         "totalDebt/totalEquityQuarterly": 0.5352,
-        "marketCapitalization": 17111.959
+        "marketCapitalization": 17477.904
       },
-      "updated_at": "2026-11-23T08:29:47Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "Nordson Corporation",
       "profile": {
         "weburl": "https://www.nordson.com/",
@@ -24526,18 +24518,18 @@
     "NTRS": {
       "metrics": {
         "52WeekHigh": 195.78,
-        "52WeekLow": 124.91,
-        "peTTM": 12.1064,
-        "psTTM": 2.7901,
+        "52WeekLow": 126.24,
+        "peTTM": 12.1549,
+        "psTTM": 2.8013,
         "netProfitMarginTTM": 23.05,
         "roeTTM": 18.41,
         "revenueGrowthTTMYoy": 32.9,
         "epsGrowthTTMYoy": 47.46,
         "currentRatioQuarterly": 0.3239,
         "totalDebt/totalEquityQuarterly": 11.086,
-        "marketCapitalization": 29377.309
+        "marketCapitalization": 29495.037
       },
-      "updated_at": "2026-11-23T09:33:18Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "Northern Trust Corporation",
       "profile": {
         "weburl": "https://www.northerntrust.com/",
@@ -24546,26 +24538,34 @@
       },
       "news": [
         {
+          "headline": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
+          "url": "https://finnhub.io/api/news?id=9dad5c3499c8ffd1a2141d5d0185fc1e6ea371a20c19e90169c02c8c31bd9d66",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T15:40:03Z",
+          "primary": false,
+          "symbol": "NTRS"
+        },
+        {
+          "headline": "Northern Trust Leaders to Participate in Goldman Sachs Financial Services Conference 2026 on December 9",
+          "url": "https://finnhub.io/api/news?id=66806f1ccd5147730113ee407d0dc56a8b28b7614a5fc73038a703f3a21e0646",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T21:00:00Z",
+          "primary": false,
+          "symbol": "NTRS"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Northern Trust Stock?",
+          "url": "https://finnhub.io/api/news?id=94c538dbc56f6b67e66c87036607b2559cab8172ded4cb4573197e89f439d7a1",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:11:40Z",
+          "primary": false,
+          "symbol": "NTRS"
+        },
+        {
           "headline": "Why Is Northern Trust (NTRS) Up 0.5% Since Last Earnings Report?",
           "url": "https://finnhub.io/api/news?id=8ef2d7875325e05df4591823334c6c2664cbfeb5e1c71d1ccb581be3a331c6cb",
           "source": "Yahoo",
           "published_at": "2026-11-20T15:30:08Z",
-          "primary": false,
-          "symbol": "NTRS"
-        },
-        {
-          "headline": "Northern Trust Employees Set Volunteer Service Record With More Than 72,000 Hours During ‘Achieving Greater Together’ Month",
-          "url": "https://finnhub.io/api/news?id=e174f75cba4c2b95dec6fd7c200201d338841ff87149707845f25193e531e788",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T19:00:00Z",
-          "primary": false,
-          "symbol": "NTRS"
-        },
-        {
-          "headline": "Is Northern Trust High Yield Value-Scored Bond ETF (HYGV) a Strong ETF Right Now?",
-          "url": "https://finnhub.io/api/news?id=b6cc4d27aaead981146126a11ef6c8e6a39b21e75706a742fa4c2a8ce06da8a1",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T14:03:22Z",
           "primary": false,
           "symbol": "NTRS"
         }
@@ -24575,17 +24575,17 @@
       "metrics": {
         "52WeekHigh": 25.13,
         "52WeekLow": 13.631,
-        "peTTM": 8.8168,
-        "psTTM": 0.7226,
+        "peTTM": 9.3764,
+        "psTTM": 0.7685,
         "netProfitMarginTTM": 8.2,
         "roeTTM": 32.15,
         "revenueGrowthTTMYoy": 4.85,
         "epsGrowthTTMYoy": 37.34,
         "currentRatioQuarterly": 0.225,
         "totalDebt/totalEquityQuarterly": 4.791,
-        "marketCapitalization": 7343.8145
+        "marketCapitalization": 7809.979
       },
-      "updated_at": "2026-11-23T09:33:18Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "Norwegian Cruise Line Holdings Ltd.",
       "profile": {
         "weburl": "https://www.nclhltd.com/",
@@ -24593,6 +24593,22 @@
         "name": "Norwegian Cruise Line Holdings Ltd."
       },
       "news": [
+        {
+          "headline": "Carnival vs. Norwegian Cruise: Which Stock Has the Edge for 2027?",
+          "url": "https://finnhub.io/api/news?id=378146fa355f56e3dc5422312de2bdc1df3a8bd335b9a11c3e5a67cfcabf1bbb",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:14:00Z",
+          "primary": false,
+          "symbol": "NCLH"
+        },
+        {
+          "headline": "Can NCLH's 30M-Traveler Target Strengthen Its 2027 Recovery?",
+          "url": "https://finnhub.io/api/news?id=8cead6d067209b074a8ef091cbebf23611447e3f3d1772050e1beef193f80f04",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:36:00Z",
+          "primary": false,
+          "symbol": "NCLH"
+        },
         {
           "headline": "UBS Maintains Neutral on Norwegian Cruise Line, Lowers Price Target to $19",
           "url": "https://finnhub.io/api/news?id=b12a88eb2b1f47d1bca548edbffa17c5f85792094765d4a8b370f835de1ba339",
@@ -24616,22 +24632,6 @@
           "published_at": "2026-11-20T07:09:59Z",
           "primary": false,
           "symbol": "NCLH"
-        },
-        {
-          "headline": "3 Strategies to Play Unusual Options Activity in Norwegian Cruise Line Stock",
-          "url": "https://finnhub.io/api/news?id=63e600975af0587e258052531a35a2fdcbf74fe8bf4a49ad7d00b2cfb3fdac65",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T18:54:54Z",
-          "primary": false,
-          "symbol": "NCLH"
-        },
-        {
-          "headline": "Norwegian Cruise Line Holdings Ltd. (NCLH) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://finnhub.io/api/news?id=70bcab2b602601a9040abeae940b023f1f4016a2a53faaf8af2d75a8eb8a5371",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T13:00:04Z",
-          "primary": false,
-          "symbol": "NCLH"
         }
       ]
     },
@@ -24639,17 +24639,17 @@
       "metrics": {
         "52WeekHigh": 189.96,
         "52WeekLow": 79.65,
-        "peTTM": 21.7195,
-        "psTTM": 0.5567,
+        "peTTM": 22.4864,
+        "psTTM": 0.5763,
         "netProfitMarginTTM": 2.56,
         "roeTTM": 25.380000000000003,
         "revenueGrowthTTMYoy": 12.8,
         "epsGrowthTTMYoy": 62.08,
         "currentRatioQuarterly": 0.9677,
         "totalDebt/totalEquityQuarterly": 4.7901,
-        "marketCapitalization": 18439.87
+        "marketCapitalization": 19090.936
       },
-      "updated_at": "2026-11-23T09:33:18Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "NRG Energy Inc",
       "profile": {
         "weburl": "https://www.nrg.com/",
@@ -24658,42 +24658,42 @@
       },
       "news": [
         {
+          "headline": "Is NRG Energy Stock Paying You Enough For The Swings?",
+          "url": "https://finnhub.io/api/news?id=b2e7993276f69372b47ecf8bb5cf407943ea9405f9c6b543b9be3d5a55d9467e",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T18:01:00Z",
+          "primary": false,
+          "symbol": "NRG"
+        },
+        {
+          "headline": "Why Did NRG Stock Jump?",
+          "url": "https://finnhub.io/api/news?id=51a0af3cd714c755a9cdeb95c6f187b7ac684d36de11637e58dc6790199bae95",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T17:22:34Z",
+          "primary": false,
+          "symbol": "NRG"
+        },
+        {
+          "headline": "Talen Energy's $9.5B Debt: A Risk to Its Long-Term Growth Plans?",
+          "url": "https://finnhub.io/api/news?id=74443ea6b9b7343a6b728e1cb15d944bcfffedede83fe54e6cb126e46ee6393d",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T12:50:00Z",
+          "primary": false,
+          "symbol": "NRG"
+        },
+        {
+          "headline": "Strong Earnings Outlook Keeps NRG Energy Stock In Focus",
+          "url": "https://finnhub.io/api/news?id=4070011bba16b36073938b5094877ab086a44d66cf50c5c2e76d985453bc92c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T14:10:22Z",
+          "primary": false,
+          "symbol": "NRG"
+        },
+        {
           "headline": "Goldman Sachs Maintains Buy on NRG Energy, Lowers Price Target to $149",
           "url": "https://finnhub.io/api/news?id=da027f2f98c756da6ebe874e9e07f566627899cdc71b260177093cef6fb66960",
           "source": "Benzinga",
           "published_at": "2026-11-20T12:40:24Z",
-          "primary": false,
-          "symbol": "NRG"
-        },
-        {
-          "headline": "NRG Energy (NRG) Looks Repriced As Strong Earnings And 2027 Outlook Reset The Story",
-          "url": "https://finnhub.io/api/news?id=f2e16ab0710f638d4581c77f4b5483389c8c11aa6f6675baecd6f139d1e8173e",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T03:12:06Z",
-          "primary": false,
-          "symbol": "NRG"
-        },
-        {
-          "headline": "NRG Energy (NRG) Stock Looks Undervalued As Asset Sale Reshapes Earnings",
-          "url": "https://finnhub.io/api/news?id=be3e4213b1359930e863feabd232ed4a921dab1fc640611194dcb3d3791cde4f",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T23:20:18Z",
-          "primary": false,
-          "symbol": "NRG"
-        },
-        {
-          "headline": "NRG Energy, Inc. (NRG) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://finnhub.io/api/news?id=40054d363d2c93b3a46e40e703955e3304a5a84a33c755b49f4745f0470dab2b",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:00:02Z",
-          "primary": false,
-          "symbol": "NRG"
-        },
-        {
-          "headline": "NRG Energy Honors Trailblazers at 7th Annual Excellence in Energy Awards",
-          "url": "https://finnhub.io/api/news?id=3c801e166629a8a67f6a6abf754ba4c122c25ddce5ef36708dcd09deada8ce43",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T20:30:00Z",
           "primary": false,
           "symbol": "NRG"
         }
@@ -24702,18 +24702,18 @@
     "NUE": {
       "metrics": {
         "52WeekHigh": 287.7,
-        "52WeekLow": 146.0,
-        "peTTM": 14.9892,
-        "psTTM": 1.3882,
+        "52WeekLow": 150.86,
+        "peTTM": 15.2632,
+        "psTTM": 1.4135,
         "netProfitMarginTTM": 9.26,
         "roeTTM": 16.470000000000002,
         "revenueGrowthTTMYoy": 21.79,
         "epsGrowthTTMYoy": 120.68,
         "currentRatioQuarterly": 2.4621,
         "totalDebt/totalEquityQuarterly": 0.3109,
-        "marketCapitalization": 53901.125
+        "marketCapitalization": 54886.375
       },
-      "updated_at": "2026-11-23T09:33:18Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "Nucor Corporation",
       "profile": {
         "weburl": "https://nucor.com/",
@@ -24722,42 +24722,42 @@
       },
       "news": [
         {
-          "headline": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
-          "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c",
+          "headline": "Why Is Nucor (NUE) Down 8.4% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=d66f6403e00167522129f2579776d6c797386412600092bc2537730974c69b4c",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:12:00Z",
+          "published_at": "2026-11-25T15:30:04Z",
           "primary": false,
           "symbol": "NUE"
         },
         {
-          "headline": "Can Nucor Stock Shrug Off Its Raw Materials Slip?",
-          "url": "https://finnhub.io/api/news?id=8bc3488c692d43e9c00d0bd15c0b2c400ea1f41122b30921b8db3295d021a046",
+          "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+          "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
           "source": "Yahoo",
-          "published_at": "2026-11-20T11:40:22Z",
+          "published_at": "2026-11-25T12:23:00Z",
           "primary": false,
           "symbol": "NUE"
         },
         {
-          "headline": "Nucor (NYSE:NUE): Strong Growth Meets a Tight Technical Setup",
-          "url": "https://finnhub.io/api/news?id=6f852677ac44b6500a6364ed6aea5e25865a1bdab121359ce6dc838dabe45143",
+          "headline": "NUCOR CORP (NYSE:NUE): Affordable Growth at a Reasonable Valuation",
+          "url": "https://finnhub.io/api/news?id=7ff9593260f91fdd71371be128a93da7f080508c90108c196971ea85770703a3",
           "source": "ChartMill",
-          "published_at": "2026-11-20T10:20:41Z",
+          "published_at": "2026-11-24T09:41:20Z",
           "primary": false,
           "symbol": "NUE"
         },
         {
-          "headline": "Wells Fargo Maintains Overweight on Nucor, Raises Price Target to $308",
-          "url": "https://finnhub.io/api/news?id=9b14d92832399bf7cb102f2565ad615d83a331dea7a76cc8c64de4172ddc2141",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T10:51:33Z",
+          "headline": "Zacks.com featured highlights include Progyny, Wolverine World Wide, Teradata, Nucor and ConocoPhillips",
+          "url": "https://finnhub.io/api/news?id=966684cd9996293d8b8e0a70868a7e8994aa24bf96cc5e2d1bacad4167fb888e",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:20:00Z",
           "primary": false,
           "symbol": "NUE"
         },
         {
-          "headline": "Morgan Stanley Upgrades Nucor to Overweight, Raises Price Target to $310",
-          "url": "https://finnhub.io/api/news?id=ebf4f7565e76d2721b4c3b90ae560d461a59a8a706788b257bd58380e67a6be0",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T07:44:00Z",
+          "headline": "Nucor Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=8205133210540b3c6443d736f6296cd06e3fd84a8bf861769ed2397e7e2f5d56",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T08:35:08Z",
           "primary": false,
           "symbol": "NUE"
         }
@@ -24766,18 +24766,18 @@
     "NVR": {
       "metrics": {
         "52WeekHigh": 8200.0,
-        "52WeekLow": 5459.0,
-        "peTTM": 13.8147,
-        "psTTM": 1.536,
+        "52WeekLow": 5380.0303,
+        "peTTM": 14.9637,
+        "psTTM": 1.6638,
         "netProfitMarginTTM": 11.12,
         "roeTTM": 29.53,
         "revenueGrowthTTMYoy": -11.04,
         "epsGrowthTTMYoy": -20.35,
         "currentRatioQuarterly": 2.9042,
         "totalDebt/totalEquityQuarterly": 0.2642,
-        "marketCapitalization": 14467.274
+        "marketCapitalization": 15670.58
       },
-      "updated_at": "2026-11-23T09:33:18Z",
+      "updated_at": "2026-11-25T19:02:33Z",
       "name": "NVR, Inc.",
       "profile": {
         "weburl": "https://www.nvrinc.com/",
@@ -30057,6 +30057,6 @@
       ]
     }
   },
-  "cursor": 414,
-  "updated_at": "2026-11-25T17:57:20Z"
+  "cursor": 426,
+  "updated_at": "2026-11-25T19:02:33Z"
 }
