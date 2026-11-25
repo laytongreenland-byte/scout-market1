@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:27:41Z",
+  "generated_at": "2026-11-25T03:06:06Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T01:27:41Z",
+      "checked_at": "2026-11-25T03:06:06Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T01:27:41Z",
+      "checked_at": "2026-11-25T03:06:06Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T01:27:41Z",
+      "checked_at": "2026-11-25T03:06:06Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T01:27:41Z",
+      "checked_at": "2026-11-25T03:06:06Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T01:27:41Z",
+      "checked_at": "2026-11-25T03:06:06Z",
       "error": ""
     }
   ],
@@ -7321,7 +7321,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T01:27:41Z",
+    "generated_at": "2026-11-25T03:06:06Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7824,7 +7824,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Chemicals",
-        "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.7×; TTM revenue growth 17.9% YoY",
+        "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.8×; TTM revenue growth 17.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7838,35 +7838,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T21:53:24Z",
+            "timestamp": "2026-11-25T03:06:06Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is CF Industries (NYSE:CF) One of the Best Fertilizer Stocks to Buy Now?",
-            "timestamp": "2026-11-21T14:57:04Z",
-            "url": "https://finnhub.io/api/news?id=a252633b40967efbacc6a2cbebc2ebbcbc060a55afbc830084d286cd3d76cd85"
+            "value": "CF Industries Holdings, Inc. Announces Agreement to Acquire Faustina Ammonia Production Facility from The Mosaic Company",
+            "timestamp": "2026-11-24T21:10:17Z",
+            "url": "https://finnhub.io/api/news?id=e9be41b3bb74319eec08dfe65f1b4bd355740433932163d55ab6e7f82707edf9"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T21:53:24Z",
+        "fundamentals_at": "2026-11-25T03:06:06Z",
         "price": 116.74,
         "currency": "USD",
         "change_pct": 0.673,
         "news": [
           {
-            "headline": "Is CF Industries (NYSE:CF) One of the Best Fertilizer Stocks to Buy Now?",
-            "url": "https://finnhub.io/api/news?id=a252633b40967efbacc6a2cbebc2ebbcbc060a55afbc830084d286cd3d76cd85",
-            "source": "Yahoo",
-            "published_at": "2026-11-21T14:57:04Z",
+            "headline": "CF Industries Holdings, Inc. Announces Agreement to Acquire Faustina Ammonia Production Facility from The Mosaic Company",
+            "url": "https://finnhub.io/api/news?id=e9be41b3bb74319eec08dfe65f1b4bd355740433932163d55ab6e7f82707edf9",
+            "source": "Fintel",
+            "published_at": "2026-11-24T21:10:17Z",
             "primary": false,
             "symbol": "CF"
           },
           {
-            "headline": "CF Industries (CF) Stock Still Looks Undervalued on Earnings",
-            "url": "https://finnhub.io/api/news?id=a9ea75c74dc191f69e82a55cd39e4d6cce76df97e897d19051b25b44ecaae8de",
+            "headline": "Mosaic Announces Agreement with CF Industries for the Sale of its Faustina Ammonia Plant",
+            "url": "https://finnhub.io/api/news?id=aad2aaa8efda284460e07b44c06e1199a93e063095d927f4b9ecf1678f2cba8f",
             "source": "Yahoo",
-            "published_at": "2026-11-19T08:09:00Z",
+            "published_at": "2026-11-24T13:30:00Z",
             "primary": false,
             "symbol": "CF"
           }
@@ -9436,7 +9436,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 24.6% (TTM); Return on equity 8.7% (TTM); Trailing P/E 10.9×; TTM revenue growth 62.7% YoY",
+        "why": "Net profit margin 24.6% (TTM); Return on equity 8.7% (TTM); Trailing P/E 11.2×; TTM revenue growth 62.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9450,35 +9450,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T21:53:24Z",
+            "timestamp": "2026-11-25T03:06:06Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Citizens Financial Group Targets $450 Million Tech Boost as Private Banking Grows",
-            "timestamp": "2026-11-22T08:12:10Z",
-            "url": "https://finnhub.io/api/news?id=fc4ebe99884b7bc43ad98aecaf95d5b43ad87d76ad2a0f72cc0aa94f9b082057"
+            "value": "Baird Upgrades Citizens Financial Group to Outperform from Neutral",
+            "timestamp": "2026-11-24T01:04:24Z",
+            "url": "https://finnhub.io/api/news?id=3987db4b8ac2d68abc00baf31ad8e5f862a50ce96905024475c71ee9928542b3"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T21:53:24Z",
+        "fundamentals_at": "2026-11-25T03:06:06Z",
         "price": 61.17,
         "currency": "USD",
         "change_pct": 0.575,
         "news": [
           {
-            "headline": "Citizens Financial Group Targets $450 Million Tech Boost as Private Banking Grows",
-            "url": "https://finnhub.io/api/news?id=fc4ebe99884b7bc43ad98aecaf95d5b43ad87d76ad2a0f72cc0aa94f9b082057",
-            "source": "Yahoo",
-            "published_at": "2026-11-22T08:12:10Z",
+            "headline": "Baird Upgrades Citizens Financial Group to Outperform from Neutral",
+            "url": "https://finnhub.io/api/news?id=3987db4b8ac2d68abc00baf31ad8e5f862a50ce96905024475c71ee9928542b3",
+            "source": "Fintel",
+            "published_at": "2026-11-24T01:04:24Z",
             "primary": false,
             "symbol": "CFG"
           },
           {
-            "headline": "Citizens Financial Group, Inc. (CFG) Presents at J.P. Morgan European Financials Conference Transcript",
-            "url": "https://finnhub.io/api/news?id=083942bb3bc3aed504aeb65a9c0559a9373d9131c893cf31343eba2ae1923a3e",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-20T08:22:47Z",
+            "headline": "Citizens Financial Group to Participate at the Goldman Sachs U.S. Financial Services Conference",
+            "url": "https://finnhub.io/api/news?id=48d84b4f66ab11ff04b2426b22d683486c0e6805b9306e92aa99c3a9a1316a66",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T17:38:00Z",
             "primary": false,
             "symbol": "CFG"
           }
@@ -12527,7 +12527,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 22.1% (TTM); Return on equity 16.5% (TTM); Trailing P/E 10.7×; TTM revenue growth 6.0% YoY",
+        "why": "Net profit margin 22.1% (TTM); Return on equity 16.5% (TTM); Trailing P/E 11.0×; TTM revenue growth 6.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12541,7 +12541,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T21:53:24Z",
+            "timestamp": "2026-11-25T03:06:06Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -12552,7 +12552,7 @@
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T21:53:24Z",
+        "fundamentals_at": "2026-11-25T03:06:06Z",
         "price": 190.31,
         "currency": "USD",
         "change_pct": 1.374,
@@ -15384,7 +15384,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T01:27:41Z",
+      "generated_at": "2026-11-25T03:06:06Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 819,
