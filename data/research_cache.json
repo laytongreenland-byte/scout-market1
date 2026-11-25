@@ -22205,15 +22205,15 @@
       "metrics": {
         "52WeekHigh": 33.66,
         "52WeekLow": 21.82,
-        "psTTM": 1.633,
+        "psTTM": 1.7081,
         "netProfitMarginTTM": -1.1,
         "roeTTM": -0.63,
         "revenueGrowthTTMYoy": -14.48,
         "currentRatioQuarterly": 0.6543,
         "totalDebt/totalEquityQuarterly": 0.8222,
-        "marketCapitalization": 11651.912
+        "marketCapitalization": 12188.138
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Invesco Ltd",
       "profile": {
         "weburl": "https://www.invesco.com/",
@@ -22222,42 +22222,42 @@
       },
       "news": [
         {
+          "headline": "Should Invesco S&P MidCap 400 GARP ETF (GRPM) Be on Your Investing Radar?",
+          "url": "https://finnhub.io/api/news?id=25a184c0fcf86b2bacc8515fc0898fb0650a2b3dfcc673ca53543661adf8399f",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T10:20:02Z",
+          "primary": false,
+          "symbol": "IVZ"
+        },
+        {
+          "headline": "Should Invesco Dow Jones Industrial Average Dividend ETF (DJD) Be on Your Investing Radar?",
+          "url": "https://finnhub.io/api/news?id=6e2ca62daac8f7995d7cca10ce441fb959b5eb8e6fe06d359f9119415d944938",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T10:20:02Z",
+          "primary": false,
+          "symbol": "IVZ"
+        },
+        {
+          "headline": "Should Invesco S&P MidCap 400 Pure Growth ETF (RFG) Be on Your Investing Radar?",
+          "url": "https://finnhub.io/api/news?id=af694f87244b3d55c7df60078e1f0403a9360e80f025e23edf153cdec42eb4c1",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T10:20:02Z",
+          "primary": false,
+          "symbol": "IVZ"
+        },
+        {
+          "headline": "Should You Invest in the Invesco Building & Construction ETF (PKB)?",
+          "url": "https://finnhub.io/api/news?id=7f4b74d0c665d0aac29db283080cdd563b49b6bc93bda04a186cae791039d3f2",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T10:20:02Z",
+          "primary": false,
+          "symbol": "IVZ"
+        },
+        {
           "headline": "Buy These 3 Top-Ranked Invesco Mutual Funds for Extraordinary Returns",
           "url": "https://finnhub.io/api/news?id=da186998a24634b556aa51811fe41b2a56fbefefb7e08be3c86b7552ad6024bd",
           "source": "Yahoo",
           "published_at": "2026-11-20T13:26:00Z",
-          "primary": false,
-          "symbol": "IVZ"
-        },
-        {
-          "headline": "Invesco Provides Estimated Capital Gain Distribution Information for 2026",
-          "url": "https://finnhub.io/api/news?id=0edfbca0d838d5c9103620d78fd75f7c87f6cd1c3ee0ca9eedb167a06b9582d7",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:00:00Z",
-          "primary": false,
-          "symbol": "IVZ"
-        },
-        {
-          "headline": "Should You Invest in the Invesco Aerospace & Defense ETF (PPA)?",
-          "url": "https://finnhub.io/api/news?id=a17db982759c91154b0290353cd41b1de54f9f374482fca8969f5b8989ace31a",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T10:20:03Z",
-          "primary": false,
-          "symbol": "IVZ"
-        },
-        {
-          "headline": "Mizuho Initiates Coverage On Invesco with Outperform Rating, Announces Price Target of $37",
-          "url": "https://finnhub.io/api/news?id=033210a86879bd61f01063bb210e6ea210e181b79fda08ff970984dbf2a3ddd1",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T07:57:22Z",
-          "primary": false,
-          "symbol": "IVZ"
-        },
-        {
-          "headline": "Should Invesco S&P SmallCap Momentum ETF (XSMO) Be on Your Investing Radar?",
-          "url": "https://finnhub.io/api/news?id=4f0ba311579b612516fee13537fbd3efe979966d89b37e497b63541ea6010f4b",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T14:02:54Z",
           "primary": false,
           "symbol": "IVZ"
         }
@@ -22267,17 +22267,17 @@
       "metrics": {
         "52WeekHigh": 30.8932,
         "52WeekLow": 24.25,
-        "peTTM": 22.1463,
-        "psTTM": 5.2145,
+        "peTTM": 22.788,
+        "psTTM": 5.3656,
         "netProfitMarginTTM": 23.55,
         "roeTTM": 7.48,
         "revenueGrowthTTMYoy": 7.21,
         "epsGrowthTTMYoy": 19.15,
         "currentRatioQuarterly": 0.3187,
         "totalDebt/totalEquityQuarterly": 0.9932,
-        "marketCapitalization": 15112.534
+        "marketCapitalization": 15550.411
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Invitation Homes Inc.",
       "profile": {
         "weburl": "https://www.invitationhomes.com/",
@@ -22308,22 +22308,6 @@
           "published_at": "2026-11-18T10:14:00Z",
           "primary": false,
           "symbol": "INVH"
-        },
-        {
-          "headline": "Invitation Homes Inc. Reports $1.0B of Stock Repurchases Since December 2025",
-          "url": "https://finnhub.io/api/news?id=4994fe1ed3e0f753a02472f563b9674c9f2b2457578ef0c0eb69a807011f75d4",
-          "source": "Fintel",
-          "published_at": "2026-11-17T08:18:40Z",
-          "primary": false,
-          "symbol": "INVH"
-        },
-        {
-          "headline": "Land & Buildings Issues Open Letter to Invitation Homes Shareholders",
-          "url": "https://finnhub.io/api/news?id=b26482891fc9af66b1642f7e407dffe607f49fa8de2ecc73769d32a586b4b0e6",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T13:30:00Z",
-          "primary": false,
-          "symbol": "INVH"
         }
       ]
     },
@@ -22331,17 +22315,17 @@
       "metrics": {
         "52WeekHigh": 284.5,
         "52WeekLow": 154.5,
-        "peTTM": 29.0611,
-        "psTTM": 2.3402,
+        "peTTM": 30.0612,
+        "psTTM": 2.4207,
         "netProfitMarginTTM": 8.05,
         "roeTTM": 21.82,
         "revenueGrowthTTMYoy": 8.85,
         "epsGrowthTTMYoy": 13.01,
         "currentRatioQuarterly": 0.8295,
         "totalDebt/totalEquityQuarterly": 2.4125,
-        "marketCapitalization": 40511.137
+        "marketCapitalization": 41905.344
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "IQVIA Holdings Inc",
       "profile": {
         "weburl": "https://ir.iqvia.com",
@@ -22350,10 +22334,42 @@
       },
       "news": [
         {
-          "headline": "ETFs Are Net Sellers of IQVIA (IQV) on Nov. 13",
-          "url": "https://finnhub.io/api/news?id=c2210f15a533030ec31fe3239bccab2ad9e49c2daa8c007dda7116c97f0573fe",
+          "headline": "Learn Why The Bull Case For IQVIA Stock Could Change Following Earnings Beat",
+          "url": "https://finnhub.io/api/news?id=0e3a326eb1d9181d8e809927e75f5a2a02628564d1b71351386d2cba3c7535aa",
           "source": "Yahoo",
-          "published_at": "2026-11-17T11:03:03Z",
+          "published_at": "2026-11-25T04:21:11Z",
+          "primary": false,
+          "symbol": "IQV"
+        },
+        {
+          "headline": "IQVIA Holdings (IQV) Wins 2026 AI Quality Award That Puts SmartSolve In Focus",
+          "url": "https://finnhub.io/api/news?id=076a273880fe908b22989fc2b8fc2c36fb2296084cff90e4fedd03d8b822f80b",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T23:28:13Z",
+          "primary": false,
+          "symbol": "IQV"
+        },
+        {
+          "headline": "IQVIA (IQV) Stock Still Looks Cheap Following Its 20% Three Year Rise",
+          "url": "https://finnhub.io/api/news?id=09b42a74811ef062aa25ab036c8133f90732c1d813764e6eb4afee1f9f96690c",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T22:15:18Z",
+          "primary": false,
+          "symbol": "IQV"
+        },
+        {
+          "headline": "IQVIA Holdings (IQV) On Results And A New Deal Why Valuation Still Draws Attention",
+          "url": "https://finnhub.io/api/news?id=ad4298d38e6168d74589ed1c0f4132db946700f81292c47153ff631a467c76f5",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T17:16:57Z",
+          "primary": false,
+          "symbol": "IQV"
+        },
+        {
+          "headline": "IQVIA Receives the 2026 Global Competitive Strategy Leadership Recognition in AI-Enabled Quality and Regulatory Platforms for Life Sciences",
+          "url": "https://finnhub.io/api/news?id=4ddb4dfb7f008a09592a36aed5bfc6ac53b69791b45e889e975dc4e183039295",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T14:00:00Z",
           "primary": false,
           "symbol": "IQV"
         }
@@ -22362,18 +22378,18 @@
     "JBHT": {
       "metrics": {
         "52WeekHigh": 299.76,
-        "52WeekLow": 158.15,
-        "peTTM": 30.1328,
-        "psTTM": 1.5288,
+        "52WeekLow": 165.26,
+        "peTTM": 30.8126,
+        "psTTM": 1.5633,
         "netProfitMarginTTM": 5.07,
         "roeTTM": 18.709999999999997,
         "revenueGrowthTTMYoy": 10.59,
         "epsGrowthTTMYoy": 23.08,
         "currentRatioQuarterly": 1.2277,
         "totalDebt/totalEquityQuarterly": 0.3093,
-        "marketCapitalization": 20372.02
+        "marketCapitalization": 20831.588
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "J.B. Hunt Transport Services, Inc.",
       "profile": {
         "weburl": "https://www.jbhunt.com",
@@ -22381,6 +22397,14 @@
         "name": "J.B. Hunt Transport Services, Inc."
       },
       "news": [
+        {
+          "headline": "J.B. Hunt urges STB to reject Union Pacific–Norfolk Southern merger",
+          "url": "https://finnhub.io/api/news?id=854e0551ee2c69e2f01ce056ae5fdaf3d5b7216c66367c7aa572206d36c8afb4",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T19:24:27Z",
+          "primary": false,
+          "symbol": "JBHT"
+        },
         {
           "headline": "J.B. Hunt Targets Margin Recovery in 2027 as Costs Rise and Fleet Expands",
           "url": "https://finnhub.io/api/news?id=10a56e7e18d43c0c138dc87fb264a92e47b4e77ed468f20d121f40ed12ba37d8",
@@ -22412,32 +22436,24 @@
           "published_at": "2026-11-18T18:12:48Z",
           "primary": false,
           "symbol": "JBHT"
-        },
-        {
-          "headline": "J.B. Hunt Transport Services (JBHT) After Easing Cost Pressures And Fresh Wins Looks Undervalued",
-          "url": "https://finnhub.io/api/news?id=48e22c0a82eaae17d452a2d09746bd0ac5fbdafc967e396b7f47524aa0ab1db2",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T17:12:33Z",
-          "primary": false,
-          "symbol": "JBHT"
         }
       ]
     },
     "JBL": {
       "metrics": {
         "52WeekHigh": 428.9322,
-        "52WeekLow": 189.6,
-        "peTTM": 22.3115,
-        "psTTM": 0.6466,
+        "52WeekLow": 193.73,
+        "peTTM": 22.5729,
+        "psTTM": 0.6542,
         "netProfitMarginTTM": 2.9,
         "roeTTM": 74.11,
         "revenueGrowthTTMYoy": 20.64,
         "epsGrowthTTMYoy": 63.96,
         "currentRatioQuarterly": 0.9929,
         "totalDebt/totalEquityQuarterly": 2.0949,
-        "marketCapitalization": 23248.547
+        "marketCapitalization": 23520.914
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Jabil Inc.",
       "profile": {
         "weburl": "https://www.jabil.com/",
@@ -22445,6 +22461,30 @@
         "name": "Jabil Inc."
       },
       "news": [
+        {
+          "headline": "Here's Why Jabil (JBL) Fell More Than Broader Market",
+          "url": "https://finnhub.io/api/news?id=cd1f6f0f7f1baf5c3a48d2070065da3d92c34da1db9a0267c0abfef3b4ca43f8",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T22:15:02Z",
+          "primary": false,
+          "symbol": "JBL"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Jabil Stock?",
+          "url": "https://finnhub.io/api/news?id=4704328af0965e7d789499863441c146e67a652f924db31d8d94fbc75da9b783",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:41:59Z",
+          "primary": false,
+          "symbol": "JBL"
+        },
+        {
+          "headline": "Baird Maintains Outperform on Jabil, Lowers Price Target to $270",
+          "url": "https://finnhub.io/api/news?id=2fd967ddb50147e6ef981d6b504eaf75ddb9976cdec193ff3a5fbb92a0bc485b",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:01:44Z",
+          "primary": false,
+          "symbol": "JBL"
+        },
         {
           "headline": "Earnings Outlook May Reshape The Case For Jabil Stock",
           "url": "https://finnhub.io/api/news?id=4b28e6fc6c885cbc027e7b673f0e5f3713fe808b2a4fc4ad44828727c999b9ce",
@@ -22460,22 +22500,6 @@
           "published_at": "2026-11-18T16:31:00Z",
           "primary": false,
           "symbol": "JBL"
-        },
-        {
-          "headline": "Jabil (JBL) Registers a Bigger Fall Than the Market: Important Facts to Note",
-          "url": "https://finnhub.io/api/news?id=5a1b40d84b8d64c2002273196efeb6d048233d5c1a5f6c333b507393b57ab076",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T22:15:02Z",
-          "primary": false,
-          "symbol": "JBL"
-        },
-        {
-          "headline": "IBM vs. Jabil: Which Stock is Better Positioned for AI Growth Now?",
-          "url": "https://finnhub.io/api/news?id=36d4dfc5f987cff5aaac73ffd19d166135c5c68c762ff035b4b7d8bf6f17d8ff",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T14:08:00Z",
-          "primary": false,
-          "symbol": "JBL"
         }
       ]
     },
@@ -22483,17 +22507,17 @@
       "metrics": {
         "52WeekHigh": 193.39,
         "52WeekLow": 121.04,
-        "peTTM": 22.972,
-        "psTTM": 4.5853,
+        "peTTM": 23.8757,
+        "psTTM": 4.7657,
         "netProfitMarginTTM": 19.96,
         "roeTTM": 24.46,
         "revenueGrowthTTMYoy": 7.53,
         "epsGrowthTTMYoy": 10.6,
         "currentRatioQuarterly": 1.3751,
         "totalDebt/totalEquityQuarterly": 0.0405,
-        "marketCapitalization": 11927.078
+        "marketCapitalization": 12396.308
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Jack Henry & Associates Inc",
       "profile": {
         "weburl": "https://www.jackhenry.com/",
@@ -22502,26 +22526,26 @@
       },
       "news": [
         {
+          "headline": "Jack Henry & Associates (NASDAQ:JKHY) Stands Out for Dividend Quality",
+          "url": "https://finnhub.io/api/news?id=26dd98f64ff9c604389ab83df7c331ac3b66c80e62e0d6e450bd6afa0ce1ba3f",
+          "source": "ChartMill",
+          "published_at": "2026-11-25T09:01:23Z",
+          "primary": false,
+          "symbol": "JKHY"
+        },
+        {
+          "headline": "Jack Henry Announces Regular Quarterly Dividend",
+          "url": "https://finnhub.io/api/news?id=a57206a1d0c95c6483614fd091a2afe3ad3bd7edc9b7019b8c6177d3b219c402",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:15:00Z",
+          "primary": false,
+          "symbol": "JKHY"
+        },
+        {
           "headline": "Jack Henry (JKHY) Stands Out as One of the Best IT Services Stocks to Look at",
           "url": "https://finnhub.io/api/news?id=ba622b794d94042fe082cfb9726ff1efed32a6477c965abdf0fcc449205f4f5b",
           "source": "Yahoo",
           "published_at": "2026-11-18T17:16:12Z",
-          "primary": false,
-          "symbol": "JKHY"
-        },
-        {
-          "headline": "Jack Henry Named One of America's Best Companies in Forbes Ranking",
-          "url": "https://finnhub.io/api/news?id=94682e36ad3b74ecb20f71f7e53e053cf7ae9ce3b13733f7a754bffd6a9a9f6e",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T15:02:00Z",
-          "primary": false,
-          "symbol": "JKHY"
-        },
-        {
-          "headline": "Should Jack Henry Stock Holders Look At Corpay Instead?",
-          "url": "https://finnhub.io/api/news?id=a68647986b7142ced3f57cdc93a8c8b1dfa715648ac49bc767018343c08afb4c",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T11:42:12Z",
           "primary": false,
           "symbol": "JKHY"
         }
@@ -22531,17 +22555,17 @@
       "metrics": {
         "52WeekHigh": 162.0,
         "52WeekLow": 105.68,
-        "peTTM": 52.0889,
-        "psTTM": 1.2398,
-        "netProfitMarginTTM": 2.38,
-        "roeTTM": 9.92,
-        "revenueGrowthTTMYoy": 60.21,
+        "peTTM": 46.674,
+        "psTTM": 1.1274,
+        "netProfitMarginTTM": 2.42,
+        "roeTTM": 11.44,
+        "revenueGrowthTTMYoy": 31.15,
         "epsGrowthTTMYoy": 103.6,
-        "currentRatioQuarterly": 1.2874,
-        "totalDebt/totalEquityQuarterly": 1.0965,
-        "marketCapitalization": 17628.355
+        "currentRatioQuarterly": 1.2779,
+        "totalDebt/totalEquityQuarterly": 1.0762,
+        "marketCapitalization": 17787.527
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Jacobs Solutions Inc",
       "profile": {
         "weburl": "https://www.jacobs.com/",
@@ -22550,42 +22574,42 @@
       },
       "news": [
         {
-          "headline": "Jacobs (J) Stock May Be A Bargain Despite Fresh Airport Upgrade Wins",
-          "url": "https://finnhub.io/api/news?id=f8bac29276c63429aabed210f671e673574bb95e25d31158951fea12b4b94a93",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T21:17:34Z",
-          "primary": false,
-          "symbol": "J"
-        },
-        {
-          "headline": "Jacobs Solutions (J) Lands Sanofi Project Following Questions Over Whether Shares Are Fully Valued",
-          "url": "https://finnhub.io/api/news?id=53b1c77f8298a93081062762807ff7932c06fa123e8f10549ff46f0bd06300c6",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T20:11:19Z",
-          "primary": false,
-          "symbol": "J"
-        },
-        {
-          "headline": "How to Earn $500 a Month From Jacobs Solutions Stock Ahead of Q4 Earnings",
-          "url": "https://finnhub.io/api/news?id=dcf31797ececda8063ca4007bf980d9b9565d2377c4923e9db442287c610fd6b",
+          "headline": "Truist Securities Maintains Hold on Jacobs Solutions, Raises Price Target to $168",
+          "url": "https://finnhub.io/api/news?id=93ecf89d607d832be336d732ce76cc42bb5532b31d01982e09b9a631a659e241",
           "source": "Benzinga",
-          "published_at": "2026-11-20T08:42:32Z",
+          "published_at": "2026-11-25T09:50:59Z",
           "primary": false,
           "symbol": "J"
         },
         {
-          "headline": "Data Center Engineering Firm Jacobs Solutions In Buy Zone Ahead Of Earnings",
-          "url": "https://finnhub.io/api/news?id=99dc0d7726516d1e83ee36986be0d80c89c05cac576ab47069e3526107810d82",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:52:46Z",
+          "headline": "Jacobs Solutions: A Burgeoning Backlog Could Lead To Slowing Growth (Rating Downgrade)",
+          "url": "https://finnhub.io/api/news?id=a924b2a2738c979e9c184723c0ab4546438b4f99a22d580757b39f8918cad419",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-25T07:51:22Z",
           "primary": false,
           "symbol": "J"
         },
         {
-          "headline": "Jacobs to Report Q4 Earnings: What to Expect From the Stock?",
-          "url": "https://finnhub.io/api/news?id=6608086be3b8fc40378df11853904815fdc53fe7323bba6085af1cee9a045b69",
+          "headline": "Jacobs Solutions: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=93e37f1b2e99be78d7b4f1b83207683a9d463fbb99cca513c9f80eb8c38f2740",
           "source": "Yahoo",
-          "published_at": "2026-11-19T16:40:00Z",
+          "published_at": "2026-11-25T06:18:18Z",
+          "primary": false,
+          "symbol": "J"
+        },
+        {
+          "headline": "Jacobs (J) Q4 2026 Earnings Call Transcript",
+          "url": "https://finnhub.io/api/news?id=27084dabf8cf9ba2816a8d2e2fb6183b661e889dee4f45c30d566fb43e77ec2b",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T15:31:10Z",
+          "primary": false,
+          "symbol": "J"
+        },
+        {
+          "headline": "Jacobs Solutions Inc. Q4 2026 Earnings Call Summary",
+          "url": "https://finnhub.io/api/news?id=15d861cdfa3e122062a2fcea83ee949680d429b517e72adbfb33e0fc5070f154",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:30:00Z",
           "primary": false,
           "symbol": "J"
         }
@@ -22594,17 +22618,17 @@
     "KEY": {
       "metrics": {
         "52WeekHigh": 24.065,
-        "52WeekLow": 17.22,
-        "peTTM": 9.6881,
+        "52WeekLow": 17.77,
+        "peTTM": 9.7977,
         "psTTM": 1.67174,
         "netProfitMarginTTM": 19.17544,
         "roeTTM": 10.879999999999999,
         "revenueGrowthTTMYoy": 57.09544,
         "epsGrowthTTMYoy": 107.09,
         "totalDebt/totalEquityQuarterly": 0.9381,
-        "marketCapitalization": 20538.807
+        "marketCapitalization": 20771.121
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "KeyCorp",
       "profile": {
         "weburl": "https://www.key.com",
@@ -22635,40 +22659,24 @@
           "published_at": "2026-11-18T15:14:00Z",
           "primary": false,
           "symbol": "KEY"
-        },
-        {
-          "headline": "Will KeyCorp's Investment in MMG Strengthen Its Real Estate Business?",
-          "url": "https://finnhub.io/api/news?id=43af1c041cac39c8da3d460c8289863fa761d4bb8153770f1fa9a5bb055b58e8",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:36:00Z",
-          "primary": false,
-          "symbol": "KEY"
-        },
-        {
-          "headline": "KEYCORP INVESTS IN MMG REAL ESTATE ADVISORS TO BUILD AN INTEGRATED INVESTMENT SALES AND FINANCING PLATFORM",
-          "url": "https://finnhub.io/api/news?id=f239e2faf308d6d5716ada6b13f4f84dcb5e951b2ff5a17d6190f762433e4bad",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T15:04:00Z",
-          "primary": false,
-          "symbol": "KEY"
         }
       ]
     },
     "KEYS": {
       "metrics": {
         "52WeekHigh": 389.93,
-        "52WeekLow": 167.23,
-        "peTTM": 29.3659,
-        "psTTM": 6.208,
+        "52WeekLow": 173.358,
+        "peTTM": 30.5685,
+        "psTTM": 6.4622,
         "netProfitMarginTTM": 21.14,
         "roeTTM": 23.22,
         "revenueGrowthTTMYoy": 33.15,
         "epsGrowthTTMYoy": 78.54,
         "currentRatioQuarterly": 2.0608,
         "totalDebt/totalEquityQuarterly": 0.3609,
-        "marketCapitalization": 44430.55
+        "marketCapitalization": 46250.176
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Keysight Technologies, Inc.",
       "profile": {
         "weburl": "https://www.keysight.com/us/en/home.html",
@@ -22677,42 +22685,42 @@
       },
       "news": [
         {
-          "headline": "Keysight Technologies (KEYS) Stock Could Be Cheap After A 107% Run",
-          "url": "https://finnhub.io/api/news?id=736260befd547485e3e408561ffbd743f209fb72ec4f53ca9a3fb12086080a61",
+          "headline": "Keysight Technologies, Inc. Files Form 8-K/A Disclosing Executive Compensatory Arrangements",
+          "url": "https://finnhub.io/api/news?id=4c34d1b8b0272081e973ce5e051cdbc2f2d280a0d4e6affdec50c38fd73cec7b",
+          "source": "Fintel",
+          "published_at": "2026-11-24T23:20:06Z",
+          "primary": false,
+          "symbol": "KEYS"
+        },
+        {
+          "headline": "Keysight Technologies Announces Participation in Upcoming Investor Conferences",
+          "url": "https://finnhub.io/api/news?id=3430d811b599c8a1aebd541e83c1fef78b50ee9985094077d615f2c9593064f6",
           "source": "Yahoo",
-          "published_at": "2026-11-20T16:10:11Z",
+          "published_at": "2026-11-24T13:00:00Z",
           "primary": false,
           "symbol": "KEYS"
         },
         {
-          "headline": "Keysight (KEYS) Q4 2026 Earnings Call Transcript",
-          "url": "https://finnhub.io/api/news?id=a01c66e90d07795cc93c5ab0bf1ff941fd1c09cb06617651f5f0bcc166874801",
+          "headline": "Keysight Technologies, Inc. announced the retirement of Charles J. Dockendorff from the Board of Directors",
+          "url": "https://finnhub.io/api/news?id=fdf660b31d5bf6e51a65121e47a559854432f7b0cb7dc49484cb11c4a728e85b",
+          "source": "Fintel",
+          "published_at": "2026-11-24T01:28:52Z",
+          "primary": false,
+          "symbol": "KEYS"
+        },
+        {
+          "headline": "Keysight Surges 10.4% in Tech Rally Led by Nvidia on Monday",
+          "url": "https://finnhub.io/api/news?id=db8bb98fb38fe01891d776608323668d21004c3b707d1fd237f06321de8ae4a8",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:34:08Z",
+          "published_at": "2026-11-23T17:02:48Z",
           "primary": false,
           "symbol": "KEYS"
         },
         {
-          "headline": "Citigroup Maintains Buy on Keysight Techs, Lowers Price Target to $345",
-          "url": "https://finnhub.io/api/news?id=e2abedf26d48cf8a1bf714afd06770e13571504c3d0bdcecc13b4fafa8cb9f9a",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T15:29:46Z",
-          "primary": false,
-          "symbol": "KEYS"
-        },
-        {
-          "headline": "What Does Keysight Technologies (KEYS) New 6G UAV Lab Push Mean?",
-          "url": "https://finnhub.io/api/news?id=b49ef050ff89ba902701d2fdaa6010e3f74d6e7b80e74ef93ad4a46d54111e9c",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:10:52Z",
-          "primary": false,
-          "symbol": "KEYS"
-        },
-        {
-          "headline": "UBS Maintains Buy on Keysight Techs, Lowers Price Target to $380",
-          "url": "https://finnhub.io/api/news?id=4dced517874e5625d04d857c2cf212a0029da0a1bcadc238546954ba630f2466",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T14:21:24Z",
+          "headline": "Keysight Technologies: Co-Packaged Optics Shift Testing Upstream, Upgrade",
+          "url": "https://finnhub.io/api/news?id=9b6434e527a96e4f4ced5c8ed8fad9732fc6d0bd3f9b6d38d22dbd3337af6575",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-23T09:10:51Z",
           "primary": false,
           "symbol": "KEYS"
         }
@@ -22722,17 +22730,17 @@
       "metrics": {
         "52WeekHigh": 26.645,
         "52WeekLow": 19.76,
-        "peTTM": 22.5247,
-        "psTTM": 7.6718,
+        "peTTM": 22.8976,
+        "psTTM": 7.7988,
         "netProfitMarginTTM": 34.06,
         "roeTTM": 7.2700000000000005,
         "revenueGrowthTTMYoy": 3.5,
         "epsGrowthTTMYoy": 25.59,
         "currentRatioQuarterly": 1.2172,
         "totalDebt/totalEquityQuarterly": 0.8341,
-        "marketCapitalization": 16858.107
+        "marketCapitalization": 17137.193
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Kimco Realty Corp",
       "profile": {
         "weburl": "https://www.kimcorealty.com/",
@@ -22770,15 +22778,15 @@
       "metrics": {
         "52WeekHigh": 28.09,
         "52WeekLow": 21.035,
-        "psTTM": 1.2071,
+        "psTTM": 1.2183,
         "netProfitMarginTTM": -13.64,
         "roeTTM": -8.44,
         "revenueGrowthTTMYoy": -1.62,
         "currentRatioQuarterly": 1.0614,
         "totalDebt/totalEquityQuarterly": 0.5277,
-        "marketCapitalization": 30057.416
+        "marketCapitalization": 30335.617
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "The Kraft Heinz Company",
       "profile": {
         "weburl": "https://www.kraftheinzcompany.com",
@@ -22786,6 +22794,30 @@
         "name": "The Kraft Heinz Company"
       },
       "news": [
+        {
+          "headline": "Kraft Heinz isn’t afraid to get cheesy with its NFL sponsorship",
+          "url": "https://finnhub.io/api/news?id=6e7e9fd1e18f7c58e22388b2677370406a6f6713995333fbee6a347d128a0e7b",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:24:49Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
+        {
+          "headline": "Kraft Heinz vs. On: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=d7dd28807eaa4ef24e7479cf41d6d8db5ecda2618e30cfa88a3538171684ed44",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T22:43:07Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
+        {
+          "headline": "A $1,500,000 Portfolio in Fidelity National Information Services, Broadstone Net Lease and Kraft Heinz Pays $96,293 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=da89a63a5523fd4e7553f16648c0487c30bc7a9cd6b39b0fba0a97825b0ca361",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T20:35:37Z",
+          "primary": false,
+          "symbol": "KHC"
+        },
         {
           "headline": "General Mills vs. Kraft Heinz: Which Food Dividend Is Better for Retirees?",
           "url": "https://finnhub.io/api/news?id=153557db7fb092563476602186552fe5b02210ae9cdfdef74ceb79677e3a82d5",
@@ -22801,30 +22833,6 @@
           "published_at": "2026-11-21T22:50:21Z",
           "primary": false,
           "symbol": "KHC"
-        },
-        {
-          "headline": "Kraft Heinz vs. Coca-Cola: Here's the Stock to Buy",
-          "url": "https://finnhub.io/api/news?id=74eb2f9b3d80996e315791011628037b5b53745ef8b639195aaa044cc4eadf8f",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T22:38:01Z",
-          "primary": false,
-          "symbol": "KHC"
-        },
-        {
-          "headline": "The Kraft Heinz Company (KHC) Maintains Its Dividend as Management Pursues a Turnaround",
-          "url": "https://finnhub.io/api/news?id=27c884f3816256735d8583d6cf729a8ac7f6a9b42f850fe7bc201a2c3ce88d93",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T14:56:38Z",
-          "primary": false,
-          "symbol": "KHC"
-        },
-        {
-          "headline": "TotalEnergies or Kraft Heinz: The One Dividend Stock I’d Hold for the Next 20 Years",
-          "url": "https://finnhub.io/api/news?id=a7f1dd46421f73c20e4eb91ed7db927b6d2240ab532d7ba3b58234ccaf754d9d",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T19:20:37Z",
-          "primary": false,
-          "symbol": "KHC"
         }
       ]
     },
@@ -22832,17 +22840,17 @@
       "metrics": {
         "52WeekHigh": 76.58,
         "52WeekLow": 54.15,
-        "peTTM": 37.2534,
-        "psTTM": 0.2707,
+        "peTTM": 38.2222,
+        "psTTM": 0.2777,
         "netProfitMarginTTM": 0.73,
         "roeTTM": 3.47,
         "revenueGrowthTTMYoy": 1.58,
         "epsGrowthTTMYoy": -53.13,
         "currentRatioQuarterly": 0.7018,
         "totalDebt/totalEquityQuarterly": 2.9075,
-        "marketCapitalization": 40419.89
+        "marketCapitalization": 41471.137
       },
-      "updated_at": "2026-11-23T07:43:01Z",
+      "updated_at": "2026-11-25T15:17:49Z",
       "name": "Kroger Co",
       "profile": {
         "weburl": "https://www.thekrogerco.com/",
@@ -22851,42 +22859,42 @@
       },
       "news": [
         {
+          "headline": "Home Depot and Lowe's copy Kroger's risky cost-cutting move",
+          "url": "https://finnhub.io/api/news?id=690639b3f84b20598e1c5f1ca7c51207fe62fb85f51c5899c5e72a5d4492166d",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T00:17:00Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "Dentsu X Retains Grocery Giant Kroger",
+          "url": "https://finnhub.io/api/news?id=10fa651964687ab69c601c15a44b439b517aacce91e5e05e770cdd76e2a20a01",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T18:49:01Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "Best Buy and Target sent American  jobs to India before Kroger",
+          "url": "https://finnhub.io/api/news?id=8832a8db20ba1c01fedb1d0902ff20df021d20bbc001e29c7a3530da8fea2758",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T00:37:00Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
+          "headline": "Kroger axes 3,000 US corporate jobs while hiring for dozens of positions in India",
+          "url": "https://finnhub.io/api/news?id=9f30435ce6afd038c03fe0097aa1b20df10a7ab0a22363f329191da3a409eb42",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:12:11Z",
+          "primary": false,
+          "symbol": "KR"
+        },
+        {
           "headline": "Costco and Albertsons moved jobs to India before Kroger",
           "url": "https://finnhub.io/api/news?id=14a7a238a5c69738918fc3f37e54a7dcbb817794c8303198ed2b60d9b21304d9",
           "source": "Yahoo",
           "published_at": "2026-11-23T01:03:00Z",
-          "primary": false,
-          "symbol": "KR"
-        },
-        {
-          "headline": "Kroger accused of overcharging shoppers, selling personal info for over $1.5B in bombshell TV ads — check your receipts",
-          "url": "https://finnhub.io/api/news?id=349af3db0d10b0f6dbc0f078073defa007671ced883af0f0095c385012990a1a",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T21:45:00Z",
-          "primary": false,
-          "symbol": "KR"
-        },
-        {
-          "headline": "Kroger's layoffs send whole departments from the U.S. to India",
-          "url": "https://finnhub.io/api/news?id=1c8a6d90cff9b6c755d353a033fd61cd1360bbd9f33dc0d9bb0149a7ea6e817b",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T18:27:03Z",
-          "primary": false,
-          "symbol": "KR"
-        },
-        {
-          "headline": "Kroger lays off American workers, moves jobs to India",
-          "url": "https://finnhub.io/api/news?id=6038cdc29685fc38698d392d4129a7d8f36bababe07f1f4f8fadcf4d3accd26d",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T00:37:00Z",
-          "primary": false,
-          "symbol": "KR"
-        },
-        {
-          "headline": "Is Kroger (KR) Undervalued Or Is Its Cash Flow Already Priced In?",
-          "url": "https://finnhub.io/api/news?id=dd3c40187df0e7470191274513c99df9be6385ce4d72c17f428a42921039f899",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T02:11:32Z",
           "primary": false,
           "symbol": "KR"
         }
@@ -30064,6 +30072,6 @@
       ]
     }
   },
-  "cursor": 378,
-  "updated_at": "2026-11-25T13:34:14Z"
+  "cursor": 390,
+  "updated_at": "2026-11-25T15:17:49Z"
 }
