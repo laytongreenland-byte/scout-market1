@@ -18862,17 +18862,17 @@
       "metrics": {
         "52WeekHigh": 228.67,
         "52WeekLow": 137.01,
-        "peTTM": 27.9099,
-        "psTTM": 3.1453,
+        "peTTM": 29.3953,
+        "psTTM": 3.3127,
         "netProfitMarginTTM": 11.27,
         "roeTTM": 16.509999999999998,
         "revenueGrowthTTMYoy": 10.92,
         "epsGrowthTTMYoy": 17.32,
         "currentRatioQuarterly": 1.0869,
         "totalDebt/totalEquityQuarterly": 1.1641,
-        "marketCapitalization": 20734.273
+        "marketCapitalization": 21837.744
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Equifax Inc.",
       "profile": {
         "weburl": "https://www.equifax.com/",
@@ -18880,6 +18880,14 @@
         "name": "Equifax Inc."
       },
       "news": [
+        {
+          "headline": "Equifax Warns of Deeper Mortgage Slump, Sees Growth in Government and Mexico Deal",
+          "url": "https://finnhub.io/api/news?id=ab95e2f301a5f1cb161aa42470122074797f17c186bc834d526837c1b5c145fa",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T09:14:04Z",
+          "primary": false,
+          "symbol": "EFX"
+        },
         {
           "headline": "Equifax (EFX) Up 2.3% Since Last Earnings Report: Can It Continue?",
           "url": "https://finnhub.io/api/news?id=0d3ee26e853f7913f0fa337688090967fa3f2e8dbc747f0fbebf539bfb483202",
@@ -18911,14 +18919,6 @@
           "published_at": "2026-11-17T13:53:20Z",
           "primary": false,
           "symbol": "EFX"
-        },
-        {
-          "headline": "BMO Capital Maintains Market Perform on Equifax, Raises Price Target to $186",
-          "url": "https://finnhub.io/api/news?id=59fff1dd0cf75f23d7eda2f25cc18bf79b119f6efe0e99606f5df77e0dffc0a9",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T11:09:21Z",
-          "primary": false,
-          "symbol": "EFX"
         }
       ]
     },
@@ -18926,17 +18926,17 @@
       "metrics": {
         "52WeekHigh": 301.61,
         "52WeekLow": 204.6301,
-        "peTTM": 24.7256,
-        "psTTM": 3.4554,
+        "peTTM": 22.1916,
+        "psTTM": 3.1013,
         "netProfitMarginTTM": 13.97,
         "roeTTM": 23.86,
         "revenueGrowthTTMYoy": 2.04,
         "epsGrowthTTMYoy": -15.51,
         "currentRatioQuarterly": 1.3061,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 14245.329
+        "marketCapitalization": 12785.401
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Erie Indemnity Co",
       "profile": {
         "weburl": "https://www.erieinsurance.com/",
@@ -18948,18 +18948,18 @@
     "EG": {
       "metrics": {
         "52WeekHigh": 437.765,
-        "52WeekLow": 304.55,
-        "peTTM": 8.2706,
-        "psTTM": 0.9663,
+        "52WeekLow": 304.82,
+        "peTTM": 8.2927,
+        "psTTM": 0.9689,
         "netProfitMarginTTM": 11.68,
         "roeTTM": 12.509999999999998,
         "revenueGrowthTTMYoy": -8.63,
         "epsGrowthTTMYoy": 257.65,
         "currentRatioQuarterly": 1.1917,
         "totalDebt/totalEquityQuarterly": 0.2519,
-        "marketCapitalization": 15631.403
+        "marketCapitalization": 15673.262
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Everest Group, Ltd.",
       "profile": {
         "weburl": "https://www.everestglobal.com/us-en",
@@ -18967,6 +18967,30 @@
         "name": "Everest Group, Ltd."
       },
       "news": [
+        {
+          "headline": "Everest Group: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=befd81aa5522b6d55578d8e9f6a7353d219b1f4b22295c9b97dec0bfa1e3ff3c",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T23:43:31Z",
+          "primary": false,
+          "symbol": "EG"
+        },
+        {
+          "headline": "R Systems Recognized as a Major Contender in Everest Group’s Healthcare Provider IT Services for Mid-market PEAK Matrix® Assessment 2026",
+          "url": "https://finnhub.io/api/news?id=da0fbee4a519dd94268841cf9593ed89bf076508f8301ae34ff6aceb1e6699cf",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T10:00:00Z",
+          "primary": false,
+          "symbol": "EG"
+        },
+        {
+          "headline": "CGI named a Leader in Everest Group's Guidewire Services PEAK Matrix® Assessment 2026",
+          "url": "https://finnhub.io/api/news?id=08273b3272d5887e974c65352d36651679af4d796c469747cd494a54ba09f0c9",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T03:30:00Z",
+          "primary": false,
+          "symbol": "EG"
+        },
         {
           "headline": "Multiplier Named a Leader and Star Performer in Everest Group's Employer of Record (EoR) Solutions PEAK Matrix® Assessment 2026",
           "url": "https://finnhub.io/api/news?id=fab67041250bcee02ac5a9f065ba832fbd4f413e190668ce3191b593d521f868",
@@ -18982,30 +19006,6 @@
           "published_at": "2026-11-20T09:16:06Z",
           "primary": false,
           "symbol": "EG"
-        },
-        {
-          "headline": "Concentrix Named Highest-Designated Leader in B2B Sales by Everest Group",
-          "url": "https://finnhub.io/api/news?id=6f09119e241fa4d20faf2dcba856fb33aa1e431f68481fab0281041683d6c656",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:26:00Z",
-          "primary": false,
-          "symbol": "EG"
-        },
-        {
-          "headline": "Omega Healthcare Earns Voice of the Customer Elevate Honor Recognition from Everest Group in the Healthcare and Life Sciences Services Category",
-          "url": "https://finnhub.io/api/news?id=95bc4be410da5218c4482c6d95723132dda6ab8f9b7b5535ef66cdb4ffeae956",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T16:00:00Z",
-          "primary": false,
-          "symbol": "EG"
-        },
-        {
-          "headline": "Broadridge Named Leader in Inaugural Everest Group BFS Agentic Business Operations PEAK Matrix® Assessment 2026",
-          "url": "https://finnhub.io/api/news?id=d4a841505e1ca41563879945e43a8341c3bf7debc936bca0711e8fdb7834ec07",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:00:00Z",
-          "primary": false,
-          "symbol": "EG"
         }
       ]
     },
@@ -19013,17 +19013,17 @@
       "metrics": {
         "52WeekHigh": 89.7,
         "52WeekLow": 71.41,
-        "peTTM": 18.9436,
-        "psTTM": 14.812,
+        "peTTM": 19.1927,
+        "psTTM": 15.0068,
         "netProfitMarginTTM": 14.03,
         "roeTTM": 10.23,
         "revenueGrowthTTMYoy": -42.62,
         "epsGrowthTTMYoy": 23.5,
         "currentRatioQuarterly": 0.4908,
         "totalDebt/totalEquityQuarterly": 1.4736,
-        "marketCapitalization": 20150.297
+        "marketCapitalization": 20415.28
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Evergy, Inc.",
       "profile": {
         "weburl": "https://www.evergy.com/",
@@ -19031,6 +19031,14 @@
         "name": "Evergy, Inc."
       },
       "news": [
+        {
+          "headline": "Has Buying Evergy Stock At A High Paid Off?",
+          "url": "https://finnhub.io/api/news?id=15b11296ad5643b735fbd5298237a6257c2a08e1449a1575a29206aa04e94959",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:29:12Z",
+          "primary": false,
+          "symbol": "EVRG"
+        },
         {
           "headline": "Can EVRG Sustain Strong Earnings Growth Amid Rising Operating Costs?",
           "url": "https://finnhub.io/api/news?id=1f8e63bf746402ffb8ddd74aa3076aa96792f56f104e439d4b2319872bd29a6f",
@@ -19045,17 +19053,17 @@
       "metrics": {
         "52WeekHigh": 157.57,
         "52WeekLow": 56.78,
-        "peTTM": 102.6304,
-        "psTTM": 6.4474,
+        "peTTM": 101.7441,
+        "psTTM": 6.3917,
         "netProfitMarginTTM": 6.28,
         "roeTTM": 19.52,
         "revenueGrowthTTMYoy": 36.56,
         "epsGrowthTTMYoy": 127.28,
         "currentRatioQuarterly": 1.4914,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 30673.568
+        "marketCapitalization": 30408.654
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Everpure Inc",
       "profile": {
         "weburl": "https://www.purestorage.com/",
@@ -19064,42 +19072,42 @@
       },
       "news": [
         {
-          "headline": "Why Everpure CEO Is Unfazed by AI Data Center Slowdown Fears",
-          "url": "https://finnhub.io/api/news?id=59e4de0b05fb07ffa03ac2fbd00375cec3cef86133c49d75eb04fd8616a7f634",
+          "headline": "Why Is Everpure (P) Stock Down Today? AI Chip, Storage Selloff Weighs",
+          "url": "https://finnhub.io/api/news?id=13df1e3a81d150412270ece116c0a33ae9187f05d4b3e3ed00a0b4f7856ae5d9",
           "source": "Yahoo",
-          "published_at": "2026-11-21T01:30:05Z",
+          "published_at": "2026-11-24T20:31:30Z",
           "primary": false,
           "symbol": "P"
         },
         {
-          "headline": "Everpure Stocks Rise 4.73% as Revenue Jumps 51% and Hyperscaler Wins Lift Guidance",
-          "url": "https://finnhub.io/api/news?id=87780d6e4fe4f6c3ccc2e96b39d1d80f4e1190f4fe526b9d2b38a5eb519373bc",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T17:51:06Z",
-          "primary": false,
-          "symbol": "P"
-        },
-        {
-          "headline": "Is Everpure Worth Betting on After the Q3 Earnings & Revenue Beat?",
-          "url": "https://finnhub.io/api/news?id=ab233ef46851a65425d87881e084520f42090cfeab3fdc315fc2f8233c194e33",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:09:00Z",
-          "primary": false,
-          "symbol": "P"
-        },
-        {
-          "headline": "Everpure Short Interest Falls From October Peak",
-          "url": "https://finnhub.io/api/news?id=a40211a2232b5f201680df4ac89229a01486a046b4eb8f8dde163a560ff75158",
+          "headline": "Evercore ISI Group Maintains Outperform on Everpure, Lowers Price Target to $130",
+          "url": "https://finnhub.io/api/news?id=c3689c9cd393ed2928391a8e797d74b32aa3f56d8cdedffa6eb61bf3ccc3ee87",
           "source": "Benzinga",
-          "published_at": "2026-11-20T13:00:20Z",
+          "published_at": "2026-11-24T09:58:01Z",
           "primary": false,
           "symbol": "P"
         },
         {
-          "headline": "Everpure: Impressive Growth, With Cash Flow Still To Prove",
-          "url": "https://finnhub.io/api/news?id=db5949d10d95a03cd57323ae181b9c9d26d97f1980f117b362f74f15815e91bf",
+          "headline": "Everpure, Inc. 2027 Q3 - Results - Earnings Call Presentation",
+          "url": "https://finnhub.io/api/news?id=9c131d62abe223ce320e80d81076bb2892010807e740d223f5d9465702f186ae",
           "source": "SeekingAlpha",
-          "published_at": "2026-11-20T04:43:48Z",
+          "published_at": "2026-11-24T03:18:03Z",
+          "primary": false,
+          "symbol": "P"
+        },
+        {
+          "headline": "Everpure (P) is an Incredible Growth Stock: 3 Reasons Why",
+          "url": "https://finnhub.io/api/news?id=5a9c381fbfc327725b16a2b3cf4fc72c6d63e6127617676420f747cda4122e24",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:45:02Z",
+          "primary": false,
+          "symbol": "P"
+        },
+        {
+          "headline": "Why Is Everpure Stock Rising on Monday?",
+          "url": "https://finnhub.io/api/news?id=699f74a98e7d3843b07f870081de9273f5b1b5104517cf913ed566f169632ffa",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T09:33:43Z",
           "primary": false,
           "symbol": "P"
         }
@@ -19109,17 +19117,17 @@
       "metrics": {
         "52WeekHigh": 76.57,
         "52WeekLow": 62.72,
-        "peTTM": 18.7584,
-        "psTTM": 1.947,
+        "peTTM": 19.2535,
+        "psTTM": 1.9984,
         "netProfitMarginTTM": 10.38,
         "roeTTM": 8.64,
         "revenueGrowthTTMYoy": 4.62,
         "epsGrowthTTMYoy": 4.15,
         "currentRatioQuarterly": 0.7553,
         "totalDebt/totalEquityQuarterly": 1.7604,
-        "marketCapitalization": 26784.037
+        "marketCapitalization": 27490.963
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Eversource Energy",
       "profile": {
         "weburl": "https://www.eversource.com/",
@@ -19172,18 +19180,18 @@
     "EXE": {
       "metrics": {
         "52WeekHigh": 126.621,
-        "52WeekLow": 81.015,
-        "peTTM": 6.7493,
-        "psTTM": 1.3736,
+        "52WeekLow": 80.46,
+        "peTTM": 6.8141,
+        "psTTM": 1.3868,
         "netProfitMarginTTM": 20.35,
         "roeTTM": 14.7,
         "revenueGrowthTTMYoy": 60.73,
         "epsGrowthTTMYoy": 2866.66,
         "currentRatioQuarterly": 0.9585,
         "totalDebt/totalEquityQuarterly": 0.1899,
-        "marketCapitalization": 18769.904
+        "marketCapitalization": 18950.049
       },
-      "updated_at": "2026-11-23T01:24:07Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Expand Energy Corporation",
       "profile": {
         "weburl": "https://www.expandenergy.com",
@@ -19222,14 +19230,6 @@
           "published_at": "2026-11-18T11:53:42Z",
           "primary": false,
           "symbol": "EXE"
-        },
-        {
-          "headline": "Goldman Sachs Maintains Buy on Expand Energy, Lowers Price Target to $103",
-          "url": "https://finnhub.io/api/news?id=34432e3986cd9bf03773cf88d31087ff83ab431e341ffb33783978c0c068a392",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T08:08:19Z",
-          "primary": false,
-          "symbol": "EXE"
         }
       ]
     },
@@ -19237,17 +19237,17 @@
       "metrics": {
         "52WeekHigh": 342.0,
         "52WeekLow": 185.34,
-        "peTTM": 13.2227,
-        "psTTM": 1.717,
+        "peTTM": 13.4236,
+        "psTTM": 1.7431,
         "netProfitMarginTTM": 12.99,
         "roeTTM": 178.51999999999998,
         "revenueGrowthTTMYoy": 12.92,
         "epsGrowthTTMYoy": 64.02,
         "currentRatioQuarterly": 0.7726,
         "totalDebt/totalEquityQuarterly": 3.3051,
-        "marketCapitalization": 27860.219
+        "marketCapitalization": 28283.422
       },
-      "updated_at": "2026-11-23T03:04:29Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Expedia Group, Inc.",
       "profile": {
         "weburl": "https://www.expediagroup.com",
@@ -19255,6 +19255,14 @@
         "name": "Expedia Group, Inc."
       },
       "news": [
+        {
+          "headline": "Why Expedia and Booking Can Beat the Muse Test—and the Stocks Can Rally",
+          "url": "https://finnhub.io/api/news?id=3d7ce750a9f884a9671c9699dbaecedb58eb9baf1c991769a457900c08c0000a",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T10:30:00Z",
+          "primary": false,
+          "symbol": "EXPE"
+        },
         {
           "headline": "Expedia Group (NASDAQ:EXPE) Looks Undervalued on Multiple Value Measures",
           "url": "https://finnhub.io/api/news?id=9d1390c70f2ccf92e9d3c4f7bac38b311dd7746a980f6dd09bdcc56d3b0e74ff",
@@ -19286,14 +19294,6 @@
           "published_at": "2026-11-18T15:13:43Z",
           "primary": false,
           "symbol": "EXPE"
-        },
-        {
-          "headline": "Is There Still A Reason To Own Expedia Stock?",
-          "url": "https://finnhub.io/api/news?id=5e63c43c7a589af0cfa65c45bbd42a21bd6abf2f1c85f0e215c69ee3e435c392",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T11:29:48Z",
-          "primary": false,
-          "symbol": "EXPE"
         }
       ]
     },
@@ -19301,17 +19301,17 @@
       "metrics": {
         "52WeekHigh": 207.93,
         "52WeekLow": 129.59,
-        "peTTM": 23.8811,
-        "psTTM": 1.8765,
+        "peTTM": 23.9022,
+        "psTTM": 1.8782,
         "netProfitMarginTTM": 7.86,
         "roeTTM": 45.76,
         "revenueGrowthTTMYoy": 18.64,
         "epsGrowthTTMYoy": 28.23,
         "currentRatioQuarterly": 1.558,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 24861.55
+        "marketCapitalization": 24883.5
       },
-      "updated_at": "2026-11-23T03:04:29Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Expeditors International of Washington Inc",
       "profile": {
         "weburl": "https://www.expeditors.com/",
@@ -19319,6 +19319,22 @@
         "name": "Expeditors International of Washington Inc"
       },
       "news": [
+        {
+          "headline": "EXPD Expands Space Logistics Presence Through All Points Partnership",
+          "url": "https://finnhub.io/api/news?id=a1344de0359798f20654d184355eeb4ad7aa7f7a687580e937a864347a721448",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:12:00Z",
+          "primary": false,
+          "symbol": "EXPD"
+        },
+        {
+          "headline": "Freedom Broker Maintains Hold on Expeditors International, Raises Price Target to $201",
+          "url": "https://finnhub.io/api/news?id=5b0ffbb954b345ac1865556948a26ddfbfe9ffc8b49e7ca5b1b6826b56b780a8",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T09:52:25Z",
+          "primary": false,
+          "symbol": "EXPD"
+        },
         {
           "headline": "Expeditors (EXPD) Stock Could Still Trade At A Discount Following A 69% Run",
           "url": "https://finnhub.io/api/news?id=a4939a53faf569409a4e6747599edbc5775adca05fcac261e3cda1b27bf8e3d7",
@@ -19342,22 +19358,6 @@
           "published_at": "2026-11-20T19:11:06Z",
           "primary": false,
           "symbol": "EXPD"
-        },
-        {
-          "headline": "How Earnings Beat Will Impact Expeditors International of Washington Stock (EXPD)",
-          "url": "https://finnhub.io/api/news?id=395163266de987d9a46266d9a37c035080b9b3bef76ea3356e5a1836209b5d2f",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T18:11:46Z",
-          "primary": false,
-          "symbol": "EXPD"
-        },
-        {
-          "headline": "Expeditors International of Washington, Inc. (EXPD) Analyst/Investor Day Transcript",
-          "url": "https://finnhub.io/api/news?id=efbe308b13c9c3120c184dcfa1a35f35030b98bfc6f233013c98ff139a42c12a",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T16:22:46Z",
-          "primary": false,
-          "symbol": "EXPD"
         }
       ]
     },
@@ -19365,17 +19365,17 @@
       "metrics": {
         "52WeekHigh": 163.18,
         "52WeekLow": 125.71,
-        "peTTM": 31.1011,
-        "psTTM": 9.2979,
+        "peTTM": 31.84,
+        "psTTM": 9.5188,
         "netProfitMarginTTM": 29.9,
         "roeTTM": 7.870000000000001,
         "revenueGrowthTTMYoy": 4.05,
         "epsGrowthTTMYoy": 7.32,
         "currentRatioQuarterly": 0.2722,
         "totalDebt/totalEquityQuarterly": 1.0436,
-        "marketCapitalization": 32332.79
+        "marketCapitalization": 33100.88
       },
-      "updated_at": "2026-11-23T03:04:29Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "Extra Space Storage Inc.",
       "profile": {
         "weburl": "https://www.extraspace.com/",
@@ -19383,6 +19383,22 @@
         "name": "Extra Space Storage Inc."
       },
       "news": [
+        {
+          "headline": "Extra Space Storage Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=ae03f60777e7692318109f79fd23ed13cbe45f85e6fc2058a2d7895ca5763abb",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T09:11:06Z",
+          "primary": false,
+          "symbol": "EXR"
+        },
+        {
+          "headline": "Raymond James Maintains Outperform on Extra Space Storage, Raises Price Target to $170",
+          "url": "https://finnhub.io/api/news?id=816c87e2d3673eb2872436e69093786c13183fd2aacbb35775d7e3aeecc3f09a",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T13:32:36Z",
+          "primary": false,
+          "symbol": "EXR"
+        },
         {
           "headline": "Here’s How Much You Would Have Made Owning Extra Space Storage Stock In The Last 20 Years",
           "url": "https://finnhub.io/api/news?id=6a5b2fe15fef17ef829037e1771cd26a4a550d221480ba223cce0aeb2278bd43",
@@ -19398,40 +19414,24 @@
           "published_at": "2026-11-19T21:05:02Z",
           "primary": false,
           "symbol": "EXR"
-        },
-        {
-          "headline": "APLE or EXR: Which Is the Better Value Stock Right Now?",
-          "url": "https://finnhub.io/api/news?id=f67e9d72e2b2ba5107131d53cadd438d63908242bc0838596070a3b8e0df54a4",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T15:40:03Z",
-          "primary": false,
-          "symbol": "EXR"
-        },
-        {
-          "headline": "Barclays Maintains Overweight on Extra Space Storage, Raises Price Target to $173",
-          "url": "https://finnhub.io/api/news?id=0481ffc4afa1a3482f666c15018e37831fed27da5762dc3b0b3bd3f77b41cb76",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T11:29:14Z",
-          "primary": false,
-          "symbol": "EXR"
         }
       ]
     },
     "FFIV": {
       "metrics": {
         "52WeekHigh": 483.3,
-        "52WeekLow": 225.39,
-        "peTTM": 23.9674,
-        "psTTM": 5.0658,
+        "52WeekLow": 225.83,
+        "peTTM": 25.3294,
+        "psTTM": 5.3536,
         "netProfitMarginTTM": 21.14,
         "roeTTM": 19.189999999999998,
         "revenueGrowthTTMYoy": 10.64,
         "epsGrowthTTMYoy": 6.08,
         "currentRatioQuarterly": 1.7307,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 17308.002
+        "marketCapitalization": 18291.574
       },
-      "updated_at": "2026-11-23T03:04:29Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "F5, Inc.",
       "profile": {
         "weburl": "https://www.f5.com/",
@@ -19461,17 +19461,17 @@
       "metrics": {
         "52WeekHigh": 348.0,
         "52WeekLow": 185.0,
-        "peTTM": 20.6134,
-        "psTTM": 4.4409,
+        "peTTM": 20.6504,
+        "psTTM": 4.4489,
         "netProfitMarginTTM": 21.54,
         "roeTTM": 25.61,
         "revenueGrowthTTMYoy": 6.65,
         "epsGrowthTTMYoy": -6.45,
         "currentRatioQuarterly": 0.5983,
         "totalDebt/totalEquityQuarterly": 0.6844,
-        "marketCapitalization": 10996.877
+        "marketCapitalization": 11016.619
       },
-      "updated_at": "2026-11-23T03:04:29Z",
+      "updated_at": "2026-11-25T07:33:09Z",
       "name": "FactSet Research Systems Inc.",
       "profile": {
         "weburl": "https://www.factset.com/",
@@ -19479,6 +19479,22 @@
         "name": "FactSet Research Systems Inc."
       },
       "news": [
+        {
+          "headline": "FactSet Wins Top Honors from WatersTechnology Buy-Side and Sell-Side Technology Awards",
+          "url": "https://finnhub.io/api/news?id=1f7644441821f34305011f6043b393f21390ac5713d77668e6f220953b1db4fd",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T17:29:00Z",
+          "primary": false,
+          "symbol": "FDS"
+        },
+        {
+          "headline": "FactSet Schedules First Quarter 2027 Earnings Call",
+          "url": "https://finnhub.io/api/news?id=5a5dffca0974177e3fa580b6afc5f82d7d85a9f167cd5ca6f064698e7aaac146",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:00:00Z",
+          "primary": false,
+          "symbol": "FDS"
+        },
         {
           "headline": "How Carbon Arc Data Deal At FactSet Research Systems (FDS) Has Changed Its Investment Story",
           "url": "https://finnhub.io/api/news?id=0fecc1643ea9c6899e4fd88bd63516e0e40882532ad3ea9bde384f9b4df8b9aa",
@@ -19500,14 +19516,6 @@
           "url": "https://finnhub.io/api/news?id=a576dbc890dbdc01a5d6e3607cf5c54f6943da4fab3107c44304376c821ac23a",
           "source": "Yahoo",
           "published_at": "2026-11-18T14:01:00Z",
-          "primary": false,
-          "symbol": "FDS"
-        },
-        {
-          "headline": "FactSet Research Systems (FDS) Gains Ground as Broader AI Disruption Concerns Moderate",
-          "url": "https://finnhub.io/api/news?id=33d73a12e3d60d46d1bd91a0d753c4835ea3f63207d93aaf0bc1ddcb1dc34edc",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T18:23:10Z",
           "primary": false,
           "symbol": "FDS"
         }
@@ -29970,6 +29978,6 @@
       ]
     }
   },
-  "cursor": 318,
-  "updated_at": "2026-11-25T05:26:10Z"
+  "cursor": 330,
+  "updated_at": "2026-11-25T07:33:09Z"
 }
