@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:06:06Z",
+  "generated_at": "2026-11-25T04:17:12Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T03:06:06Z",
+      "checked_at": "2026-11-25T04:17:12Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T03:06:06Z",
+      "checked_at": "2026-11-25T04:17:12Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T03:06:06Z",
+      "checked_at": "2026-11-25T04:17:12Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T03:06:06Z",
+      "checked_at": "2026-11-25T04:17:12Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T03:06:06Z",
+      "checked_at": "2026-11-25T04:17:12Z",
       "error": ""
     }
   ],
@@ -7321,7 +7321,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T03:06:06Z",
+    "generated_at": "2026-11-25T04:17:12Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -15384,7 +15384,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T03:06:06Z",
+      "generated_at": "2026-11-25T04:17:12Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 819,
