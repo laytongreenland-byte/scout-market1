@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:27:05.800229+00:00",
+  "generated_at": "2026-11-25T10:28:07.919161+00:00",
   "companies": {
     "BGP": {
       "symbol": "BGP",
@@ -418,14 +418,223 @@
           "source": "NZX primary announcement"
         }
       ]
+    },
+    "ANZ": {
+      "symbol": "ANZ",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/anz",
+      "primary_filing_url": "https://www.nzx.com/instruments/ANZ",
+      "retrieved_at": "2026-11-25T10:28:07.919161Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "pe_ratio": 23.36,
+        "price_52w_high": 51.53,
+        "price_52w_low": 38.88
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Change of Director's Interest Notice",
+          "date": "2026-11-24",
+          "url": "https://www.nzx.com/announcements/484333",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "UK Disclosure and Transparency Rules Submission",
+          "date": "2026-11-18",
+          "url": "https://www.nzx.com/announcements/483957",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notification regarding unquoted securities - ANZ",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483855",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Further information on ANZ's DRP Neutralisation",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483936",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "2026 Annual General Meeting Documents",
+          "date": "2026-11-12",
+          "url": "https://www.nzx.com/announcements/483603",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "AOF": {
+      "symbol": "AOF",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/aof",
+      "primary_filing_url": "https://www.nzx.com/instruments/AOF",
+      "retrieved_at": "2026-11-25T10:28:07.919161Z",
+      "fiscal_year": 2025,
+      "period_type": "ANNUAL",
+      "sector": "Information Technology",
+      "metrics": {
+        "roe": -13.14,
+        "net_margin": -2.51,
+        "debt_to_equity": 3.46,
+        "revenue_growth": 4.39,
+        "price_52w_high": 0.103,
+        "price_52w_low": 0.041
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "SPH Notice - FirstCape Group Ltd & Harbour Asset Management",
+          "date": "2026-11-09",
+          "url": "https://www.nzx.com/announcements/483335",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "SPH Notice - FirstCape Group Ltd & Harbour Asset Mngmt Ltd",
+          "date": "2026-11-03",
+          "url": "https://www.nzx.com/announcements/482966",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AoFrio 3Q26 Market Update",
+          "date": "2026-10-28",
+          "url": "https://www.nzx.com/announcements/482554",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "SPH Notice - FirstCape Group Ltd & Harbour Asset Management",
+          "date": "2026-08-28",
+          "url": "https://www.nzx.com/announcements/478817",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Interim Result - 30 June 2026",
+          "date": "2026-08-04",
+          "url": "https://www.nzx.com/announcements/477310",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "APL": {
+      "symbol": "APL",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/apl",
+      "primary_filing_url": "https://www.nzx.com/instruments/APL",
+      "retrieved_at": "2026-11-25T10:28:07.919161Z",
+      "fiscal_year": 2025,
+      "period_type": "ANNUAL",
+      "sector": "Real Estate",
+      "metrics": {
+        "roe": -4.85,
+        "net_margin": -83.58,
+        "debt_to_equity": 0.01,
+        "revenue_growth": 27.89,
+        "price_52w_high": 0.215,
+        "price_52w_low": 0.155
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Result for the six months ended 30 September 2026",
+          "date": "2026-11-22",
+          "url": "https://www.nzx.com/announcements/484161",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Interim results date",
+          "date": "2026-11-16",
+          "url": "https://www.nzx.com/announcements/483841",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Interim Quarter Dividend \u2013 increased from previous quarter",
+          "date": "2026-08-06",
+          "url": "https://www.nzx.com/announcements/477430",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Results of Asset Plus Limited Annual Shareholder Meeting",
+          "date": "2026-08-06",
+          "url": "https://www.nzx.com/announcements/477441",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AGM Presentation and Addresses",
+          "date": "2026-08-06",
+          "url": "https://www.nzx.com/announcements/477436",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/arb",
+      "primary_filing_url": "https://www.nzx.com/instruments/ARB",
+      "retrieved_at": "2026-11-25T10:28:07.919161Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Industrials",
+      "metrics": {
+        "roe": -6.31,
+        "net_margin": -11.0,
+        "debt_to_equity": 0.47,
+        "revenue_growth": 7.91,
+        "price_52w_high": 0.134,
+        "price_52w_low": 0.059
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "ArborGen Holdings Interim Results to 30 September 2026",
+          "date": "2026-11-22",
+          "url": "https://www.nzx.com/announcements/484236",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "ArborGen Capital Change Notice",
+          "date": "2026-09-16",
+          "url": "https://www.nzx.com/announcements/479916",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "D&O Ongoing Disclosure Notice",
+          "date": "2026-09-16",
+          "url": "https://www.nzx.com/announcements/479918",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "ArborGen Holdings Annual Shareholder Meeting",
+          "date": "2026-09-14",
+          "url": "https://www.nzx.com/announcements/479817",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Results of ArborGen Holdings Limited\u2019s ASM",
+          "date": "2026-09-14",
+          "url": "https://www.nzx.com/announcements/479823",
+          "source": "NZX primary announcement"
+        }
+      ]
     }
   },
-  "fetched_day": "2026-11-24",
-  "filings_checked_day": "2026-11-24",
+  "fetched_day": "2026-11-25",
+  "filings_checked_day": "2026-11-25",
   "status": {
     "attempted": 4,
     "valid_this_scan": 4,
-    "available": 8,
+    "available": 12,
     "filing_requests": 4,
     "filings_with_official_links": 4,
     "status": "OK",

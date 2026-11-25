@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T10:28:09.372990Z",
+  "generated_at": "2026-11-25T10:29:12.298704Z",
   "status": "COLLECTING_OUTCOMES",
   "description": "Transparent post-mortem review of frozen decisions; no automatic NZX machine learning or real trades.",
   "summary": {
     "us": {
       "market": "US",
-      "recorded": 808,
-      "opened": 2,
+      "recorded": 821,
+      "opened": 3,
       "closed": 0,
       "with_verified_return": 0,
       "losing": 0,
       "no_entry": 0,
       "unverified": 0,
-      "pending": 20,
+      "pending": 22,
       "enough_history_to_adjust_rules": false,
       "method_reviews": {},
       "recent_records_audited": 120
