@@ -16467,7 +16467,7 @@
     {
       "date": "2026-11-25",
       "symbol": "AMZN",
-      "price": 244.367,
+      "price": 244.43,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -16558,7 +16558,7 @@
     {
       "date": "2026-11-25",
       "symbol": "NFLX",
-      "price": 59.397,
+      "price": 59.41,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -16572,7 +16572,7 @@
     {
       "date": "2026-11-25",
       "symbol": "WMT",
-      "price": 131.89,
+      "price": 131.94,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -18063,7 +18063,7 @@
     {
       "date": "2026-11-25",
       "symbol": "IWM",
-      "price": 268.85,
+      "price": 268.87,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -18126,7 +18126,7 @@
     {
       "date": "2026-11-25",
       "symbol": "XLK",
-      "price": 155.82,
+      "price": 155.79,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -19407,7 +19407,7 @@
     {
       "date": "2026-11-25",
       "symbol": "HLT",
-      "price": 366.08,
+      "price": 366.2,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -19792,7 +19792,7 @@
     {
       "date": "2026-11-25",
       "symbol": "NDAQ",
-      "price": 107.09,
+      "price": 107.07,
       "price_at": "2026-11-25T21:00:00Z",
       "currency": "USD"
     },
@@ -73649,6 +73649,27 @@
       "why": "Net profit margin 9.4% (TTM); Return on equity 19.1% (TTM); Trailing P/E 17.1×; TTM revenue growth 6.4% YoY",
       "risk": "Company-specific, sector and market drawdowns remain possible",
       "financials_retrieved_at": "2026-11-25T21:05:48Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|RCL|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "RCL",
+      "name": "Royal Caribbean Cruises Ltd.",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-25T22:05:53Z",
+      "quote_at": "2026-11-25T21:00:00Z",
+      "reference_price": 314.11,
+      "score": 79,
+      "quality_status": "INVESTIGATE",
+      "buy_ceiling": 237.07,
+      "sell_review": 303.94,
+      "bear_case": 168.3,
+      "why": "Net profit margin 23.8% (TTM); Return on equity 43.5% (TTM); Trailing P/E 18.7×; TTM revenue growth 9.7% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-25T22:05:53Z",
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"

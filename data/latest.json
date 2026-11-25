@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:05:48Z",
+  "generated_at": "2026-11-25T22:05:53Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T21:05:48Z",
+      "checked_at": "2026-11-25T22:05:53Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T21:05:48Z",
+      "checked_at": "2026-11-25T22:05:53Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T21:05:48Z",
+      "checked_at": "2026-11-25T22:05:53Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T21:05:48Z",
+      "checked_at": "2026-11-25T22:05:53Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T21:05:48Z",
+      "checked_at": "2026-11-25T22:05:53Z",
       "error": ""
     }
   ],
@@ -680,9 +680,9 @@
     },
     {
       "symbol": "AMZN",
-      "price": 244.367,
+      "price": 244.43,
       "previous_close": 252.29,
-      "change_pct": -3.14,
+      "change_pct": -3.115,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -797,9 +797,9 @@
     },
     {
       "symbol": "NFLX",
-      "price": 59.397,
+      "price": 59.41,
       "previous_close": 58.87,
-      "change_pct": 0.895,
+      "change_pct": 0.917,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -815,9 +815,9 @@
     },
     {
       "symbol": "WMT",
-      "price": 131.89,
+      "price": 131.94,
       "previous_close": 132.31,
-      "change_pct": -0.317,
+      "change_pct": -0.28,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2732,9 +2732,9 @@
     },
     {
       "symbol": "IWM",
-      "price": 268.85,
+      "price": 268.87,
       "previous_close": 267.14,
-      "change_pct": 0.64,
+      "change_pct": 0.648,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -2813,9 +2813,9 @@
     },
     {
       "symbol": "XLK",
-      "price": 155.82,
+      "price": 155.79,
       "previous_close": 157.09,
-      "change_pct": -0.808,
+      "change_pct": -0.828,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -4460,9 +4460,9 @@
     },
     {
       "symbol": "HLT",
-      "price": 366.08,
+      "price": 366.2,
       "previous_close": 364.32,
-      "change_pct": 0.483,
+      "change_pct": 0.516,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -4955,9 +4955,9 @@
     },
     {
       "symbol": "NDAQ",
-      "price": 107.09,
+      "price": 107.07,
       "previous_close": 106.42,
-      "change_pct": 0.63,
+      "change_pct": 0.611,
       "price_at": "2026-11-25T21:00:00Z",
       "source": "Finnhub",
       "currency": "USD"
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T21:05:48Z",
+    "generated_at": "2026-11-25T22:05:53Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8232,7 +8232,7 @@
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$244.37",
+            "value": "$244.43",
             "timestamp": "2026-11-25T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
@@ -8251,9 +8251,9 @@
         ],
         "as_of": "2026-11-25T21:00:00Z",
         "fundamentals_at": "2026-11-23T20:12:20Z",
-        "price": 244.367,
+        "price": 244.43,
         "currency": "USD",
-        "change_pct": -3.14,
+        "change_pct": -3.115,
         "news": [
           {
             "headline": "Amazon Makes AI Chip Move; Stock Climbs Alongside Nvidia Relief Rally",
@@ -8277,11 +8277,11 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 192.23,
-          "entry_floor": 173.01,
-          "exit_review_low": 246.45,
-          "exit_review_high": 297.16,
-          "bear_case": 133.24,
+          "entry_ceiling": 192.28,
+          "entry_floor": 173.05,
+          "exit_review_low": 246.51,
+          "exit_review_high": 297.23,
+          "bear_case": 133.28,
           "scenario_upside_pct": 0.9,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
@@ -11118,7 +11118,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 30.5% (TTM); Return on equity 12.3% (TTM); Trailing P/E 9.8×; TTM revenue growth 45.4% YoY",
+        "why": "Net profit margin 30.5% (TTM); Return on equity 12.3% (TTM); Trailing P/E 10.2×; TTM revenue growth 45.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11132,35 +11132,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T12:09:03Z",
+            "timestamp": "2026-11-25T22:05:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Regions Financial Well-Positioned to Sustain Strong Capital Returns?",
-            "timestamp": "2026-11-19T16:48:00Z",
-            "url": "https://finnhub.io/api/news?id=36c66e3348e1cc954735f53d55c53a1190cd451e7b888bda9c39b06172f2ab17"
+            "value": "Regions Financial (RF) Stock May Be 43% Undervalued On Stronger Excess Returns",
+            "timestamp": "2026-11-24T09:12:19Z",
+            "url": "https://finnhub.io/api/news?id=053bbccf29936a2e1486247c8444bac41ee9daae256c54635ab88d1539a55bea"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T12:09:03Z",
+        "fundamentals_at": "2026-11-25T22:05:53Z",
         "price": 27.78,
         "currency": "USD",
         "change_pct": 0.981,
         "news": [
           {
-            "headline": "Is Regions Financial Well-Positioned to Sustain Strong Capital Returns?",
-            "url": "https://finnhub.io/api/news?id=36c66e3348e1cc954735f53d55c53a1190cd451e7b888bda9c39b06172f2ab17",
+            "headline": "Regions Financial (RF) Stock May Be 43% Undervalued On Stronger Excess Returns",
+            "url": "https://finnhub.io/api/news?id=053bbccf29936a2e1486247c8444bac41ee9daae256c54635ab88d1539a55bea",
             "source": "Yahoo",
-            "published_at": "2026-11-19T16:48:00Z",
+            "published_at": "2026-11-24T09:12:19Z",
             "primary": false,
             "symbol": "RF"
           },
           {
-            "headline": "Marcie Braswell Named Executive Director of the Regions Foundation",
-            "url": "https://finnhub.io/api/news?id=3c2f92e44ff314fb31830794130720f224fa060e87c8f770be07211f8dcc8e30",
+            "headline": "Better Dividend Stock for Retirees: U.S. Bancorp vs. Regions Financial",
+            "url": "https://finnhub.io/api/news?id=42e66de00775d496ea642b0dc208dc7bfde73c3ad5326ab28dea0adf4372271e",
             "source": "Yahoo",
-            "published_at": "2026-11-17T14:00:00Z",
+            "published_at": "2026-11-23T16:57:01Z",
             "primary": false,
             "symbol": "RF"
           }
@@ -11197,7 +11197,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 23.8% (TTM); Return on equity 43.5% (TTM); Trailing P/E 17.4×; TTM revenue growth 9.7% YoY",
+        "why": "Net profit margin 23.8% (TTM); Return on equity 43.5% (TTM); Trailing P/E 18.7×; TTM revenue growth 9.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11211,35 +11211,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T13:30:06Z",
+            "timestamp": "2026-11-25T22:05:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "ETFs Are Net Sellers of Royal Caribbean (RCL) on Nov. 19",
-            "timestamp": "2026-11-23T11:02:34Z",
-            "url": "https://finnhub.io/api/news?id=5eb5836eb06ab16196f18d772cea1b00ff9dd38ebf6485a3ad0bb7d3efbdbaba"
+            "value": "Can RCL's 50% Sandals Stake Drive Long-Term Earnings Growth?",
+            "timestamp": "2026-11-24T16:37:00Z",
+            "url": "https://finnhub.io/api/news?id=5259ccb3bfde29346dd5216889e2593a11bbd4662f7b310f7f15c05bfbed6bd9"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T13:30:06Z",
+        "fundamentals_at": "2026-11-25T22:05:53Z",
         "price": 314.11,
         "currency": "USD",
         "change_pct": -1.307,
         "news": [
           {
-            "headline": "ETFs Are Net Sellers of Royal Caribbean (RCL) on Nov. 19",
-            "url": "https://finnhub.io/api/news?id=5eb5836eb06ab16196f18d772cea1b00ff9dd38ebf6485a3ad0bb7d3efbdbaba",
+            "headline": "Can RCL's 50% Sandals Stake Drive Long-Term Earnings Growth?",
+            "url": "https://finnhub.io/api/news?id=5259ccb3bfde29346dd5216889e2593a11bbd4662f7b310f7f15c05bfbed6bd9",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:02:34Z",
+            "published_at": "2026-11-24T16:37:00Z",
             "primary": false,
             "symbol": "RCL"
           },
           {
-            "headline": "Royal Caribbean (RCL) Recently Broke Out Above the 20-Day Moving Average",
-            "url": "https://finnhub.io/api/news?id=1cb450558da31847554045025880a0f30a47c1a2e37a08bba84780199e7a1434",
+            "headline": "Is Royal Caribbean Cruises (RCL) Undervalued As Earnings Estimates Rise?",
+            "url": "https://finnhub.io/api/news?id=d2ead3e7452ccfc2195608e066c8ed71906a837eb6c73c5f47ed6a44c2da411c",
             "source": "Yahoo",
-            "published_at": "2026-11-19T13:35:02Z",
+            "published_at": "2026-11-24T13:11:46Z",
             "primary": false,
             "symbol": "RCL"
           }
@@ -11248,14 +11248,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 254.49,
-          "entry_floor": 229.04,
-          "exit_review_low": 326.27,
-          "exit_review_high": 387.02,
-          "bear_case": 180.67,
-          "scenario_upside_pct": 3.9,
-          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
+          "signal": "ABOVE BASE CASE",
+          "entry_ceiling": 237.07,
+          "entry_floor": 213.36,
+          "exit_review_low": 303.94,
+          "exit_review_high": 360.53,
+          "bear_case": 168.3,
+          "scenario_upside_pct": -3.2,
+          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -11267,12 +11267,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 17.42,
+            "trailing_pe": 18.71,
             "earnings_growth_assumed_pct": 4.38,
             "scenario_exit_pe": 17.34,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T13:30:06Z"
+            "metrics_retrieved_at": "2026-11-25T22:05:53Z"
           }
         },
         "ranking_score": 79,
@@ -13237,7 +13237,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Financial Services",
-        "why": "Net profit margin 13.5% (TTM); Return on equity 18.3% (TTM); Trailing P/E 12.6×; TTM revenue growth 10.2% YoY",
+        "why": "Net profit margin 13.5% (TTM); Return on equity 18.3% (TTM); Trailing P/E 13.0×; TTM revenue growth 10.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13251,35 +13251,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T12:09:03Z",
+            "timestamp": "2026-11-25T22:05:53Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
-            "timestamp": "2026-11-19T19:30:29Z",
-            "url": "https://finnhub.io/api/news?id=7c54212c367bee1556140a336b3c22f80055a3fb60bdc991d5a7911ccc5c66e0"
+            "value": "Is Wall Street Bullish or Bearish on Raymond James Financial Stock?",
+            "timestamp": "2026-11-25T15:16:06Z",
+            "url": "https://finnhub.io/api/news?id=addfde93d088c9f5cfb103240253d9659b0818ac88b4bc14ff00cfd4502404ab"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T12:09:03Z",
+        "fundamentals_at": "2026-11-25T22:05:53Z",
         "price": 162.84,
         "currency": "USD",
         "change_pct": 1.395,
         "news": [
           {
-            "headline": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
-            "url": "https://finnhub.io/api/news?id=7c54212c367bee1556140a336b3c22f80055a3fb60bdc991d5a7911ccc5c66e0",
-            "source": "Benzinga",
-            "published_at": "2026-11-19T19:30:29Z",
+            "headline": "Is Wall Street Bullish or Bearish on Raymond James Financial Stock?",
+            "url": "https://finnhub.io/api/news?id=addfde93d088c9f5cfb103240253d9659b0818ac88b4bc14ff00cfd4502404ab",
+            "source": "Yahoo",
+            "published_at": "2026-11-25T15:16:06Z",
             "primary": false,
             "symbol": "RJF"
           },
           {
-            "headline": "Raymond James bullish on Schwab amid ‘compelling valuation’",
-            "url": "https://finnhub.io/api/news?id=e15f22408dc6dc8aac36422b83a5a1a148845cdbf0d5ae8ee62dc0b8e5f7ed9b",
+            "headline": "Deals & Moves: Raymond James Snags $320M Team from Morgan Stanley",
+            "url": "https://finnhub.io/api/news?id=00c2c74645b9426e3289b3d463e7063756f84a547ca0ce0226aff5cac06daad1",
             "source": "Yahoo",
-            "published_at": "2026-11-18T16:32:16Z",
+            "published_at": "2026-11-25T15:14:11Z",
             "primary": false,
             "symbol": "RJF"
           }
@@ -15444,10 +15444,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T21:05:48Z",
+      "generated_at": "2026-11-25T22:05:53Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 830,
+        "recorded": 831,
         "purchase_scenarios": 77,
         "opened": 4,
         "closed": 0,
@@ -15457,10 +15457,30 @@
         "not_triggered": 0,
         "waiting": 77,
         "unverified": 0,
-        "skipped": 753,
+        "skipped": 754,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|RCL|ABOVE BASE CASE",
+          "symbol": "RCL",
+          "name": "Royal Caribbean Cruises Ltd.",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-25T22:05:53Z",
+          "quote_at": "2026-11-25T21:00:00Z",
+          "reference_price": 314.11,
+          "buy_ceiling": 237.07,
+          "sell_review": 303.94,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 23.8% (TTM); Return on equity 43.5% (TTM); Trailing P/E 18.7×; TTM revenue growth 9.7% YoY",
+          "score": 79,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|PPG|ABOVE BASE CASE",
           "symbol": "PPG",
@@ -17841,26 +17861,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 8.2% (TTM); Return on equity 17.6% (TTM); Trailing P/E 19.8×; TTM revenue growth 9.7% YoY",
           "score": 75,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|PSX|NO RELIABLE PRICE RANGE",
-          "symbol": "PSX",
-          "name": "Phillips 66",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 239.33,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 7.5% (TTM); Return on equity 40.8% (TTM); Trailing P/E 7.4×; TTM revenue growth 27.5% YoY",
-          "score": 77,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
