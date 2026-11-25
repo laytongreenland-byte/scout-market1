@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:21:51Z",
+  "generated_at": "2026-11-25T11:12:41Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T09:21:51Z",
+      "checked_at": "2026-11-25T11:12:41Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T09:21:51Z",
+      "checked_at": "2026-11-25T11:12:41Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T09:21:51Z",
+      "checked_at": "2026-11-25T11:12:41Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T09:21:51Z",
+      "checked_at": "2026-11-25T11:12:41Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T09:21:51Z",
+      "checked_at": "2026-11-25T11:12:41Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T09:21:51Z",
+    "generated_at": "2026-11-25T11:12:41Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9513,7 +9513,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Technology",
-        "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.4×; TTM revenue growth 16.9% YoY",
+        "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.9×; TTM revenue growth 16.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9527,7 +9527,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T04:16:38Z",
+            "timestamp": "2026-11-25T11:12:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9538,7 +9538,7 @@
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T04:16:38Z",
+        "fundamentals_at": "2026-11-25T11:12:41Z",
         "price": 29.95,
         "currency": "USD",
         "change_pct": -0.3,
@@ -9566,11 +9566,11 @@
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 24.71,
-          "entry_floor": 22.97,
-          "exit_review_low": 42.75,
-          "exit_review_high": 51.77,
-          "bear_case": 22.97,
-          "scenario_upside_pct": 42.7,
+          "entry_floor": 22.24,
+          "exit_review_low": 41.3,
+          "exit_review_high": 50.01,
+          "bear_case": 22.19,
+          "scenario_upside_pct": 37.9,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -9583,12 +9583,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.36,
+            "trailing_pe": 14.86,
             "earnings_growth_assumed_pct": 7.6,
             "scenario_exit_pe": 19.05,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T04:16:38Z"
+            "metrics_retrieved_at": "2026-11-25T11:12:41Z"
           }
         },
         "ranking_score": 82,
@@ -9600,7 +9600,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Technology",
-        "why": "Net profit margin 18.6% (TTM); Return on equity 660.9% (TTM); Trailing P/E 12.6×; TTM revenue growth 6.4% YoY",
+        "why": "Net profit margin 18.6% (TTM); Return on equity 660.9% (TTM); Trailing P/E 13.2×; TTM revenue growth 6.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9614,35 +9614,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T05:34:35Z",
+            "timestamp": "2026-11-25T11:12:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "GoDaddy Inc. to Present at the UBS Global Technology and AI Conference and Wells Fargo 10th Annual TMT Summit",
-            "timestamp": "2026-11-18T21:22:00Z",
-            "url": "https://finnhub.io/api/news?id=2cb7e706857d5dca443fec3bc868c52ed7615eecce69dc7343850b545144f961"
+            "value": "GoDaddy (GDDY) Stock Still Looks Undervalued Despite Airo AI Builder Traction",
+            "timestamp": "2026-11-24T12:10:37Z",
+            "url": "https://finnhub.io/api/news?id=729757ac42f8df6c563e57e6e7ef39af8db86d5d0160ce7de9e988ea4477080f"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T05:34:35Z",
+        "fundamentals_at": "2026-11-25T11:12:41Z",
         "price": 102.28,
         "currency": "USD",
         "change_pct": 0.491,
         "news": [
           {
-            "headline": "GoDaddy Inc. to Present at the UBS Global Technology and AI Conference and Wells Fargo 10th Annual TMT Summit",
-            "url": "https://finnhub.io/api/news?id=2cb7e706857d5dca443fec3bc868c52ed7615eecce69dc7343850b545144f961",
+            "headline": "GoDaddy (GDDY) Stock Still Looks Undervalued Despite Airo AI Builder Traction",
+            "url": "https://finnhub.io/api/news?id=729757ac42f8df6c563e57e6e7ef39af8db86d5d0160ce7de9e988ea4477080f",
             "source": "Yahoo",
-            "published_at": "2026-11-18T21:22:00Z",
+            "published_at": "2026-11-24T12:10:37Z",
             "primary": false,
             "symbol": "GDDY"
           },
           {
-            "headline": "GoDaddy CFO says AI gives room to manage costs as Airo scales",
-            "url": "https://finnhub.io/api/news?id=9fc2e4d3249c87c39693fc4e3297f8cb65b09b25ed76851b2f62788782e313ca",
+            "headline": "GoDaddy (GDDY) Climbed, So What Is Behind The Fresh Attention?",
+            "url": "https://finnhub.io/api/news?id=48e78ffd78f3359e1e786f8a60f7e7d3dec1906bab26ddf6e7033ef1ecfaac8b",
             "source": "Yahoo",
-            "published_at": "2026-11-17T19:28:33Z",
+            "published_at": "2026-11-24T09:16:10Z",
             "primary": false,
             "symbol": "GDDY"
           }
@@ -9654,10 +9654,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 101.67,
           "entry_floor": 91.5,
-          "exit_review_low": 138.55,
-          "exit_review_high": 162.67,
-          "bear_case": 77.85,
-          "scenario_upside_pct": 35.5,
+          "exit_review_low": 132.17,
+          "exit_review_high": 155.17,
+          "bear_case": 74.26,
+          "scenario_upside_pct": 29.2,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -9670,12 +9670,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 12.55,
+            "trailing_pe": 13.16,
             "earnings_growth_assumed_pct": 2.87,
             "scenario_exit_pe": 16.53,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T05:34:35Z"
+            "metrics_retrieved_at": "2026-11-25T11:12:41Z"
           }
         },
         "ranking_score": 82,
@@ -10944,7 +10944,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Insurance",
-        "why": "Net profit margin 18.9% (TTM); Return on equity 19.1% (TTM); Trailing P/E 9.7×; TTM revenue growth 5.6% YoY",
+        "why": "Net profit margin 18.9% (TTM); Return on equity 19.1% (TTM); Trailing P/E 9.9×; TTM revenue growth 5.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10958,35 +10958,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T05:34:35Z",
+            "timestamp": "2026-11-25T11:12:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Why Is Globe Life (GL) Down 8.8% Since Last Earnings Report?",
-            "timestamp": "2026-11-20T15:30:06Z",
-            "url": "https://finnhub.io/api/news?id=05c4a0d69e68cd8a4e9ed4ba2ed138f1e0d518eb3420eec1363e89b7866ccb2d"
+            "value": "Globe Life (GL) Stock Could Be Undervalued On Its Earnings Strength",
+            "timestamp": "2026-11-24T13:15:22Z",
+            "url": "https://finnhub.io/api/news?id=7c597e59074bf3a0e54b24a902aaba7475659ffbf794d4d572f09602ecfc6574"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T05:34:35Z",
+        "fundamentals_at": "2026-11-25T11:12:41Z",
         "price": 155.14,
         "currency": "USD",
         "change_pct": 0.097,
         "news": [
           {
-            "headline": "Why Is Globe Life (GL) Down 8.8% Since Last Earnings Report?",
-            "url": "https://finnhub.io/api/news?id=05c4a0d69e68cd8a4e9ed4ba2ed138f1e0d518eb3420eec1363e89b7866ccb2d",
+            "headline": "Globe Life (GL) Stock Could Be Undervalued On Its Earnings Strength",
+            "url": "https://finnhub.io/api/news?id=7c597e59074bf3a0e54b24a902aaba7475659ffbf794d4d572f09602ecfc6574",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:30:06Z",
+            "published_at": "2026-11-24T13:15:22Z",
             "primary": false,
             "symbol": "GL"
           },
           {
-            "headline": "Are Wall Street Analysts Bullish on Globe Life’s Stock?",
-            "url": "https://finnhub.io/api/news?id=c01d250d7c0ae690cedb1e3263519378cb9cf9a9f833994efcf2b628515a17e5",
-            "source": "Yahoo",
-            "published_at": "2026-11-17T17:42:10Z",
+            "headline": "Morgan Stanley Maintains Overweight on Globe Life, Lowers Price Target to $190",
+            "url": "https://finnhub.io/api/news?id=a02ce6743d0fb3d51a28b013b6c13e24ea362ac9eb0fde2e49a8bd9226ffa95c",
+            "source": "Benzinga",
+            "published_at": "2026-11-23T08:39:57Z",
             "primary": false,
             "symbol": "GL"
           }
@@ -13513,7 +13513,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Consumer products",
-        "why": "Net profit margin 25.6% (TTM); Return on equity 21.9% (TTM); Trailing P/E 25.6×; TTM revenue growth 13.6% YoY",
+        "why": "Net profit margin 25.6% (TTM); Return on equity 21.9% (TTM); Trailing P/E 26.5×; TTM revenue growth 13.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13527,27 +13527,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T04:16:38Z",
+            "timestamp": "2026-11-25T11:12:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Garmin Signal VHF named Overall Winner in 2026 DAME Design Awards",
-            "timestamp": "2026-11-19T15:03:00Z",
-            "url": "https://finnhub.io/api/news?id=4240c122fcdf754760f68cded881a70709e965660fb378ca9c5f3cbdbb4a02b5"
+            "value": "Are Wall Street Analysts Bullish on Garmin Stock?",
+            "timestamp": "2026-11-24T12:24:28Z",
+            "url": "https://finnhub.io/api/news?id=32d812baed6d1d4df575db52ca3bcf73129676647e9e8e3c672425a9ed5da9e4"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T04:16:38Z",
+        "fundamentals_at": "2026-11-25T11:12:41Z",
         "price": 282.02,
         "currency": "USD",
         "change_pct": 1.057,
         "news": [
           {
-            "headline": "Garmin Signal VHF named Overall Winner in 2026 DAME Design Awards",
-            "url": "https://finnhub.io/api/news?id=4240c122fcdf754760f68cded881a70709e965660fb378ca9c5f3cbdbb4a02b5",
+            "headline": "Are Wall Street Analysts Bullish on Garmin Stock?",
+            "url": "https://finnhub.io/api/news?id=32d812baed6d1d4df575db52ca3bcf73129676647e9e8e3c672425a9ed5da9e4",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:03:00Z",
+            "published_at": "2026-11-24T12:24:28Z",
+            "primary": false,
+            "symbol": "GRMN"
+          },
+          {
+            "headline": "DKILY or GRMN: Which Is the Better Value Stock Right Now?",
+            "url": "https://finnhub.io/api/news?id=ced71b320038e35b86cde25b7a35a10eaf753d15b3d68ba0af440aa3a0b4a536",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T15:40:03Z",
             "primary": false,
             "symbol": "GRMN"
           }
@@ -13557,12 +13565,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 166.49,
-          "entry_floor": 149.84,
-          "exit_review_low": 213.45,
-          "exit_review_high": 256.08,
-          "bear_case": 116.26,
-          "scenario_upside_pct": -24.3,
+          "entry_ceiling": 160.89,
+          "entry_floor": 144.8,
+          "exit_review_low": 206.27,
+          "exit_review_high": 247.47,
+          "bear_case": 112.35,
+          "scenario_upside_pct": -26.9,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13575,12 +13583,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 25.6,
+            "trailing_pe": 26.49,
             "earnings_growth_assumed_pct": 6.12,
             "scenario_exit_pe": 18.26,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T04:16:38Z"
+            "metrics_retrieved_at": "2026-11-25T11:12:41Z"
           }
         },
         "ranking_score": 77,
@@ -15382,7 +15390,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T09:21:51Z",
+      "generated_at": "2026-11-25T11:12:41Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 821,
