@@ -73673,6 +73673,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|STX|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings PLC",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-25T23:03:39Z",
+      "quote_at": "2026-11-25T21:00:00Z",
+      "reference_price": 472.33,
+      "score": 64,
+      "quality_status": "WATCH",
+      "buy_ceiling": 353.83,
+      "sell_review": 453.63,
+      "bear_case": 240.55,
+      "why": "Net profit margin 31.9% (TTM); Return on equity 245.1% (TTM); Trailing P/E 25.2×; TTM revenue growth 44.4% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-25T23:03:39Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }

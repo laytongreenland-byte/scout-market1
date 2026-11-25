@@ -26809,17 +26809,17 @@
       "metrics": {
         "52WeekHigh": 224.46,
         "52WeekLow": 156.6,
-        "peTTM": 18.3724,
-        "psTTM": 6.3461,
+        "peTTM": 18.2791,
+        "psTTM": 6.3139,
         "netProfitMarginTTM": 34.54,
         "roeTTM": -1.71,
         "revenueGrowthTTMYoy": 2.26,
         "epsGrowthTTMYoy": 16.75,
         "currentRatioQuarterly": 0.1959,
         "totalDebt/totalEquityQuarterly": 43.1384,
-        "marketCapitalization": 18100.504
+        "marketCapitalization": 18008.607
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "SBA Communications Corp",
       "profile": {
         "weburl": "https://sbasite.com/",
@@ -26827,6 +26827,14 @@
         "name": "SBA Communications Corp"
       },
       "news": [
+        {
+          "headline": "Do Wall Street Analysts Like SBA Communications Stock?",
+          "url": "https://finnhub.io/api/news?id=f16cb0947b963b2ac30e0f85718020d9e855c4c16ee296888a7e8461ee6d6663",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T12:02:36Z",
+          "primary": false,
+          "symbol": "SBAC"
+        },
         {
           "headline": "$2 Billion Refinance Could Reshape The Case For SBA Communications Stock (SBAC)",
           "url": "https://finnhub.io/api/news?id=6ac028dc70d362e495d8825dc1234c81ebb62d9b0504780691cc794afd36847d",
@@ -26840,18 +26848,18 @@
     "STX": {
       "metrics": {
         "52WeekHigh": 1145.0,
-        "52WeekLow": 228.61,
-        "peTTM": 23.8653,
-        "psTTM": 7.6028,
+        "52WeekLow": 242.91,
+        "peTTM": 25.1953,
+        "psTTM": 8.0266,
         "netProfitMarginTTM": 31.86,
         "roeTTM": 245.10999999999999,
         "revenueGrowthTTMYoy": 44.37,
         "epsGrowthTTMYoy": 144.03,
         "currentRatioQuarterly": 1.8181,
         "totalDebt/totalEquityQuarterly": 0.6809,
-        "marketCapitalization": 104911.72
+        "marketCapitalization": 110758.64
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Seagate Technology Holdings PLC",
       "profile": {
         "weburl": "https://investors.seagate.com/overview/default.aspx",
@@ -26860,42 +26868,42 @@
       },
       "news": [
         {
-          "headline": "ETFs Are Net Sellers of Seagate (STX) on Thursday",
-          "url": "https://finnhub.io/api/news?id=3a8d5ecec27b6094e359781510217f527b69bf12087080529d12fa983f43f6f0",
+          "headline": "Seagate Technology Stocks Fall 7.64%, Still Nearly Double GF Value",
+          "url": "https://finnhub.io/api/news?id=98d8084293adca09f97669b8fa886037689cf4719b75821607c8b75b4333cbb3",
           "source": "Yahoo",
-          "published_at": "2026-11-23T11:02:53Z",
+          "published_at": "2026-11-25T18:00:57Z",
           "primary": false,
           "symbol": "STX"
         },
         {
-          "headline": "Seagate Technology Holdings (NASDAQ:STX): An Undervalued Value Stock With Strong Forward Earnings Power",
-          "url": "https://finnhub.io/api/news?id=664e7fe28e195c2d0e0aadf12e86e02a29bdb009b78b7a9041ead2421df0b989",
-          "source": "ChartMill",
-          "published_at": "2026-11-21T13:30:37Z",
-          "primary": false,
-          "symbol": "STX"
-        },
-        {
-          "headline": "Seagate's Solid Performance Is Stonewalled By Pending Price Negotiations (Rating Downgrade)",
-          "url": "https://finnhub.io/api/news?id=dda5c7e2aa3f1d697970363f00e557b321b78c813ebc063714434b8ac087202f",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-21T01:42:38Z",
-          "primary": false,
-          "symbol": "STX"
-        },
-        {
-          "headline": "Why Seagate Stock And AI Data Center Demand Are Back On Investors Radar",
-          "url": "https://finnhub.io/api/news?id=03012aaa80c1451657a261c9689a57e661762143fb3527877b93a479c69ef12a",
+          "headline": "Why It’s Time to Load Up On Seagate Stock",
+          "url": "https://finnhub.io/api/news?id=ab4f2ec29f84c7349149a8fd377c47de5c50e29dbac4ab0f1a8c5f73e05eae72",
           "source": "Yahoo",
-          "published_at": "2026-11-20T22:11:27Z",
+          "published_at": "2026-11-25T12:30:02Z",
           "primary": false,
           "symbol": "STX"
         },
         {
-          "headline": "Micron Stock Plunges 13% as Barron’s Calls Memory Stocks ‘Agonizingly Cheap’; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
-          "url": "https://finnhub.io/api/news?id=d48200e955537884fd7f5707965d11048c0e4b65c11cbbcde3e9cdf72e727732",
+          "headline": "Prediction: Seagate’s Record Profitability Could Be Just the Beginning, 27% Upside Ahead",
+          "url": "https://finnhub.io/api/news?id=75c78e6926208a4d1f20340377d6b3988adc734769e7d5b633635064452deb7d",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:41:04Z",
+          "published_at": "2026-11-25T12:17:14Z",
+          "primary": false,
+          "symbol": "STX"
+        },
+        {
+          "headline": "If You Invested $100 In Seagate Technology Hldgs Stock 15 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=38eaf10d4d97e3cef848a2fa736dd1c059ca23ef667a09cd8a243db51a438ba0",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T10:00:14Z",
+          "primary": false,
+          "symbol": "STX"
+        },
+        {
+          "headline": "Evercore ISI Group Maintains Outperform on Seagate Technology Hldgs, Lowers Price Target to $700",
+          "url": "https://finnhub.io/api/news?id=86d2969ae402d4794a16a9356d55ed37812f08456c618a1d0e67114da88d6eb5",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T09:59:49Z",
           "primary": false,
           "symbol": "STX"
         }
@@ -26905,17 +26913,17 @@
       "metrics": {
         "52WeekHigh": 377.77,
         "52WeekLow": 289.86,
-        "peTTM": 30.6704,
-        "psTTM": 3.2947,
+        "peTTM": 31.5357,
+        "psTTM": 3.3876,
         "netProfitMarginTTM": 10.74,
         "roeTTM": 63.49,
         "revenueGrowthTTMYoy": 7.03,
         "epsGrowthTTMYoy": 6.21,
         "currentRatioQuarterly": 0.7135,
         "totalDebt/totalEquityQuarterly": 2.9661,
-        "marketCapitalization": 82077.13
+        "marketCapitalization": 84392.76
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Sherwin-Williams Co",
       "profile": {
         "weburl": "https://www.sherwin-williams.com/",
@@ -26923,6 +26931,22 @@
         "name": "Sherwin-Williams Co"
       },
       "news": [
+        {
+          "headline": "Dow Jones Leader Sherwin-Williams, Target Stock In Or Near Buy Zone",
+          "url": "https://finnhub.io/api/news?id=17a1bdb480a9382b2f4317b93df450c55147ecab71c73415aba7b95898094353",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T19:10:48Z",
+          "primary": false,
+          "symbol": "SHW"
+        },
+        {
+          "headline": "$100 Invested In Sherwin-Williams 10 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=6874a8301a3f86ed48e8395442ed863ab29f06d613b5b02a7b0d91b797fe5258",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T17:30:17Z",
+          "primary": false,
+          "symbol": "SHW"
+        },
         {
           "headline": "Here's Why You Should Hold Onto Sherwin-Williams Stock for Now",
           "url": "https://finnhub.io/api/news?id=ffa02c9638a6b8a36de04477b0ed7352b17450700ab6bbeded73c93fce1c856d",
@@ -26946,14 +26970,6 @@
           "published_at": "2026-11-18T11:03:21Z",
           "primary": false,
           "symbol": "SHW"
-        },
-        {
-          "headline": "Do Wall Street Analysts Like Sherwin-Williams Stock?",
-          "url": "https://finnhub.io/api/news?id=811f7b6bf1dfca52c27e06f8d5d4169cbb59baac1aa605b9c6fc1a27b50821b4",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:56:26Z",
-          "primary": false,
-          "symbol": "SHW"
         }
       ]
     },
@@ -26961,17 +26977,17 @@
       "metrics": {
         "52WeekHigh": 93.24,
         "52WeekLow": 51.93,
-        "peTTM": 100.8606,
-        "psTTM": 4.3838,
+        "peTTM": 108.3525,
+        "psTTM": 4.7094,
         "netProfitMarginTTM": 4.35,
         "roeTTM": 3.0,
         "revenueGrowthTTMYoy": -3.11,
         "epsGrowthTTMYoy": -62.95,
         "currentRatioQuarterly": 3.3412,
         "totalDebt/totalEquityQuarterly": 0.4326,
-        "marketCapitalization": 17358.105
+        "marketCapitalization": 18647.457
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Skyworks Solutions, Inc.",
       "profile": {
         "weburl": "https://www.skyworksinc.com/",
@@ -26979,6 +26995,22 @@
         "name": "Skyworks Solutions, Inc."
       },
       "news": [
+        {
+          "headline": "Skyworks Solutions (SWKS) Stock Is Up 7.9% Today Without Company News",
+          "url": "https://finnhub.io/api/news?id=02df049d73411bc46aafda498575647aacf3f486305bc749450f460b8a6b5754",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T18:00:27Z",
+          "primary": false,
+          "symbol": "SWKS"
+        },
+        {
+          "headline": "Skyworks to Present at the UBS Global Technology and AI Conference",
+          "url": "https://finnhub.io/api/news?id=65b7feec601fd8725b745eefdc522e03a900c27b476d2b012a3fe58cbe4a5985",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:01:00Z",
+          "primary": false,
+          "symbol": "SWKS"
+        },
         {
           "headline": "What Skyworks Solutions Holders Got Right",
           "url": "https://finnhub.io/api/news?id=6cdcb113784eee7820dc73b20fbef1e768d4660836d1f2cb31bf0a96e65891be",
@@ -26993,16 +27025,16 @@
       "metrics": {
         "52WeekHigh": 136.3,
         "52WeekLow": 88.25,
-        "peTTM": 62.2228,
-        "psTTM": 1.5595,
+        "peTTM": 61.2337,
+        "psTTM": 1.5347,
         "netProfitMarginTTM": 2.51,
         "roeTTM": 4.06,
         "revenueGrowthTTMYoy": 5.08,
         "currentRatioQuarterly": 0.87,
         "totalDebt/totalEquityQuarterly": 1.1733,
-        "marketCapitalization": 14280.123
+        "marketCapitalization": 14053.124
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "The J. M. Smucker Company",
       "profile": {
         "weburl": "https://www.jmsmucker.com/",
@@ -27011,42 +27043,42 @@
       },
       "news": [
         {
-          "headline": "How Many Shares of J.M. Smucker or Hormel Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=f2160471d8d89fbd9684fe8a755c7b6bb5bcc4f4ce8a8d5aa5bd8140d04a9eb4",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T17:51:58Z",
+          "headline": "Stifel Maintains Hold on JM Smucker, Raises Price Target to $136",
+          "url": "https://finnhub.io/api/news?id=9a24adb919bf08e140dc9743cfce1d9623108ad94bbf3a930d25c00a8c5d38d0",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T10:01:13Z",
           "primary": false,
           "symbol": "SJM"
         },
         {
-          "headline": "J.M. Smucker or Energy Transfer: Only One Gets My Dividend Dollars for the Next 20 Years",
-          "url": "https://finnhub.io/api/news?id=e0ad22e6ec0e7f106aff1a85ae2644c2f56f8992288a7141697e97027db4d90a",
+          "headline": "J. M. Smucker: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=c02e42220e0feac889931cd2c0a33e5be2c7fd09b1048a35c3e0c24602305471",
           "source": "Yahoo",
-          "published_at": "2026-11-20T19:20:54Z",
+          "published_at": "2026-11-25T04:21:49Z",
           "primary": false,
           "symbol": "SJM"
         },
         {
-          "headline": "SJM or KRYAY: Which Is the Better Value Stock Right Now?",
-          "url": "https://finnhub.io/api/news?id=7f9c6eb39bfecd44f34b767ef0ff473d6624e70d7f075718db5c384c7eb36417",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:40:04Z",
+          "headline": "The J. M. Smucker Company 2027 Q2 - Results - Earnings Call Presentation",
+          "url": "https://finnhub.io/api/news?id=38c40cb783438a714c70e5c3512dd4c48ab5b500ef9d0beaf3b1153d93dfac5c",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-24T22:31:55Z",
           "primary": false,
           "symbol": "SJM"
         },
         {
-          "headline": "J.M. Smucker or Coca-Cola: Only One Gets My Dividend Dollars for the Next 10 Years",
-          "url": "https://finnhub.io/api/news?id=d03f67a987a72a0586db30d08a9d5200f89b3a55710489f71f0aa8f2a6fee65d",
+          "headline": "The J. M. Smucker Company Q2 2027 Earnings Call Summary",
+          "url": "https://finnhub.io/api/news?id=91869d88ea23b8ed43b9530b95fd9d3ec88c4c2b0ce0813ad2ce3480cd5bb9c8",
           "source": "Yahoo",
-          "published_at": "2026-11-20T14:57:39Z",
+          "published_at": "2026-11-24T22:03:03Z",
           "primary": false,
           "symbol": "SJM"
         },
         {
-          "headline": "Will SJM Continue Its Positive Earnings Surprise Streak in Q2?",
-          "url": "https://finnhub.io/api/news?id=2b577bbb84430322e54d5a82d94d00f01043d78c2e82446026b4b2f22738c341",
+          "headline": "JM Smucker struggles to keep up with Uncrustables demand",
+          "url": "https://finnhub.io/api/news?id=659607561b9f50a14981d0794aed34a98e108cde842a1628dd741a929ca834dc",
           "source": "Yahoo",
-          "published_at": "2026-11-19T13:28:00Z",
+          "published_at": "2026-11-24T21:42:32Z",
           "primary": false,
           "symbol": "SJM"
         }
@@ -27055,18 +27087,18 @@
     "SW": {
       "metrics": {
         "52WeekHigh": 52.65,
-        "52WeekLow": 32.729,
-        "peTTM": 39.7881,
-        "psTTM": 0.6313,
+        "52WeekLow": 33.35,
+        "peTTM": 42.0314,
+        "psTTM": 0.6668,
         "netProfitMarginTTM": 1.59,
         "roeTTM": 2.73,
         "revenueGrowthTTMYoy": -29.41,
         "epsGrowthTTMYoy": -21.42,
         "currentRatioQuarterly": 1.447,
         "totalDebt/totalEquityQuarterly": 0.7853,
-        "marketCapitalization": 19774.668
+        "marketCapitalization": 20889.584
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Smurfit WestRock PLC",
       "profile": {
         "weburl": "https://www.smurfitwestrock.com/",
@@ -27074,6 +27106,30 @@
         "name": "Smurfit WestRock PLC"
       },
       "news": [
+        {
+          "headline": "Smurfit Westrock (SW) Stock Seems About Right As Analyst Backing Holds",
+          "url": "https://finnhub.io/api/news?id=20f5dcad6f61799b65b85b6b662fb1f72d21af67d8c9f2eec74c58e6ed2f3903",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T12:15:30Z",
+          "primary": false,
+          "symbol": "SW"
+        },
+        {
+          "headline": "How Investors Are Reacting To Smurfit Westrock Stock As Chile Deal Expands Reach",
+          "url": "https://finnhub.io/api/news?id=b9680d54b90c8d8e948affe4afd773b831e2b358b2dfed7d92de59fdf6c80b71",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T07:13:19Z",
+          "primary": false,
+          "symbol": "SW"
+        },
+        {
+          "headline": "Could Smurfit Westrock (SW) Be 28% Undervalued After Its Chile Deal And Q3 Update?",
+          "url": "https://finnhub.io/api/news?id=879188e8f1c3469deabd49c41129fa333bca7cc6aa71abd126cc04fc7de3c864",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T04:25:33Z",
+          "primary": false,
+          "symbol": "SW"
+        },
         {
           "headline": "Is Smurfit Westrock plc (SW) Undervalued Ahead of Its Expected 2027 Cost Recovery?",
           "url": "https://finnhub.io/api/news?id=c6c872934cf608386069b758bb9e4ed3d8f89f4c7519d5c2a6ac5b61554b89ce",
@@ -27089,32 +27145,24 @@
           "published_at": "2026-11-20T19:08:49Z",
           "primary": false,
           "symbol": "SW"
-        },
-        {
-          "headline": "Is Wall Street Bullish or Bearish on Smurfit Westrock Stock?",
-          "url": "https://finnhub.io/api/news?id=d3b53da09dc61c372ff465203a80598f3eedb62ed80e64aa954267b81439840c",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:45:15Z",
-          "primary": false,
-          "symbol": "SW"
         }
       ]
     },
     "SNA": {
       "metrics": {
         "52WeekHigh": 423.02,
-        "52WeekLow": 328.14,
-        "peTTM": 17.7946,
-        "psTTM": 3.4178,
+        "52WeekLow": 328.86,
+        "peTTM": 18.2404,
+        "psTTM": 3.5034,
         "netProfitMarginTTM": 19.21,
         "roeTTM": 16.84,
         "revenueGrowthTTMYoy": 2.93,
         "epsGrowthTTMYoy": 0.83,
         "currentRatioQuarterly": 3.545,
         "totalDebt/totalEquityQuarterly": 0.1979,
-        "marketCapitalization": 17995.66
+        "marketCapitalization": 18446.48
       },
-      "updated_at": "2026-11-23T13:30:06Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Snap-On Inc",
       "profile": {
         "weburl": "https://www.snapon.com/",
@@ -27123,10 +27171,18 @@
       },
       "news": [
         {
-          "headline": "Can Snap-on's Customized Industrial Solutions Take It Beyond Garages?",
-          "url": "https://finnhub.io/api/news?id=dd3ac172541a43ad34cc9cfe1cf2e0d00345a49b4ac3c1678aee26adc56becce",
+          "headline": "Snap-on: Strong Margins, But Slowing Growth Limits Upside",
+          "url": "https://finnhub.io/api/news?id=c37176434886df4c6b75485503e0ef4457302145721d49ecf311e14e2e960c64",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-24T06:50:53Z",
+          "primary": false,
+          "symbol": "SNA"
+        },
+        {
+          "headline": "Can Snap-on's AI-Powered Parts Catalogs Transform RS&I Sales?",
+          "url": "https://finnhub.io/api/news?id=75aa28466dd474f34d40dbb988b9a01fb98c17d26a91f97fbb8291c7a2c78cf9",
           "source": "Yahoo",
-          "published_at": "2026-11-17T15:10:00Z",
+          "published_at": "2026-11-23T15:51:00Z",
           "primary": false,
           "symbol": "SNA"
         }
@@ -27136,17 +27192,17 @@
       "metrics": {
         "52WeekHigh": 94.16,
         "52WeekLow": 62.38,
-        "peTTM": 91.3565,
-        "psTTM": 1.7571,
+        "peTTM": 95.3135,
+        "psTTM": 1.8332,
         "netProfitMarginTTM": 1.92,
         "roeTTM": 3.2,
         "revenueGrowthTTMYoy": -2.84,
         "epsGrowthTTMYoy": -89.66,
         "currentRatioQuarterly": 1.0327,
         "totalDebt/totalEquityQuarterly": 1.0976,
-        "marketCapitalization": 14342.974
+        "marketCapitalization": 14964.22
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Solventum Corporation",
       "profile": {
         "weburl": "https://www.solventum.com/en-us/home/",
@@ -27155,10 +27211,42 @@
       },
       "news": [
         {
-          "headline": "Is Wall Street Bullish or Bearish on Solventum Stock?",
-          "url": "https://finnhub.io/api/news?id=988531bbb4cde0c55b868be50b7e55fb9e5a86f392a28870291e424824a6d234",
+          "headline": "Solventum (SOLV) Recently Broke Out Above the 20-Day Moving Average",
+          "url": "https://finnhub.io/api/news?id=69ad0a196b99208b2b397eeba036364b34a5705b6c3c68cf1627798dd21fd9b5",
           "source": "Yahoo",
-          "published_at": "2026-11-18T08:12:24Z",
+          "published_at": "2026-11-25T13:35:02Z",
+          "primary": false,
+          "symbol": "SOLV"
+        },
+        {
+          "headline": "Solventum (SOLV) Just Overtook the 50-Day Moving Average",
+          "url": "https://finnhub.io/api/news?id=1cfb58aa1a2605e12e1f5340f7d2ce36a4bd885742de56082bc67984f3d84fc0",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:30:02Z",
+          "primary": false,
+          "symbol": "SOLV"
+        },
+        {
+          "headline": "Solventum Appoints Two New Independent Directors to Its Board of Directors",
+          "url": "https://finnhub.io/api/news?id=d0da27d69cbd6eff1325403a96ddd58b689f6d6ddc938c7b50e1bbc78b5df169",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:00:00Z",
+          "primary": false,
+          "symbol": "SOLV"
+        },
+        {
+          "headline": "Nelson Peltz’s Trian pushes Solventum toward spin-off of HIS division - Reuters",
+          "url": "https://finnhub.io/api/news?id=7c8d8d01adb20f2a75711b5a93c3779f634adaec06e0b3f87b3a38b2cc543a65",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:03:43Z",
+          "primary": false,
+          "symbol": "SOLV"
+        },
+        {
+          "headline": "Activist Trian Fund Management Presses Solventum To Spin Off His Unit Unless Sale Price Tops Rumored Valuation Range",
+          "url": "https://finnhub.io/api/news?id=fbbbb4f8130192ea80232236480d84d629ed4d25e665ac177dcbff625427f60f",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T15:08:05Z",
           "primary": false,
           "symbol": "SOLV"
         }
@@ -27167,18 +27255,18 @@
     "LUV": {
       "metrics": {
         "52WeekHigh": 55.11,
-        "52WeekLow": 31.15,
-        "peTTM": 20.4954,
-        "psTTM": 0.6842,
+        "52WeekLow": 32.79,
+        "peTTM": 21.2905,
+        "psTTM": 0.7107,
         "netProfitMarginTTM": 3.34,
         "roeTTM": 14.39,
         "revenueGrowthTTMYoy": 14.5,
         "epsGrowthTTMYoy": 213.41,
         "currentRatioQuarterly": 0.4736,
         "totalDebt/totalEquityQuarterly": 0.8032,
-        "marketCapitalization": 21581.674
+        "marketCapitalization": 22418.895
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Southwest Airlines Co",
       "profile": {
         "weburl": "https://www.southwest.com/",
@@ -27186,6 +27274,14 @@
         "name": "Southwest Airlines Co"
       },
       "news": [
+        {
+          "headline": "Zacks Industry Outlook Highlights Southwest Airlines, American Airlines and Copa",
+          "url": "https://finnhub.io/api/news?id=31369babc61dbeb845d85f5a76c30d29391245d33b249927c67f193bbf626ef5",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T14:35:00Z",
+          "primary": false,
+          "symbol": "LUV"
+        },
         {
           "headline": "Southwest Airlines makes major change to its flight schedules",
           "url": "https://finnhub.io/api/news?id=6f0a23cf05bc60bcfd4902aaab11aba2470820d623be5a7e357470d6cef6a1db",
@@ -27209,40 +27305,24 @@
           "published_at": "2026-11-20T15:30:07Z",
           "primary": false,
           "symbol": "LUV"
-        },
-        {
-          "headline": "LUV Expands Global Reach With French bee Interline Partnership",
-          "url": "https://finnhub.io/api/news?id=55363b7a62f9065d84b538639c7fdd0cde6b820272018ecd77bf3df8e14adce3",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T16:53:00Z",
-          "primary": false,
-          "symbol": "LUV"
-        },
-        {
-          "headline": "Implied Volatility Surging for Southwest Airlines Stock Options",
-          "url": "https://finnhub.io/api/news?id=1bdb9f5564d8d5a6de3e6bef68dc88f23f706bdc216ddf6a005e5faeb40b0932",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:33:00Z",
-          "primary": false,
-          "symbol": "LUV"
         }
       ]
     },
     "SWK": {
       "metrics": {
         "52WeekHigh": 122.68,
-        "52WeekLow": 62.28,
-        "peTTM": 18.8469,
-        "psTTM": 1.0414,
+        "52WeekLow": 65.5,
+        "peTTM": 19.3118,
+        "psTTM": 1.0671,
         "netProfitMarginTTM": 5.53,
         "roeTTM": 9.39,
         "revenueGrowthTTMYoy": 0.38,
         "epsGrowthTTMYoy": 93.52,
         "currentRatioQuarterly": 1.4199,
         "totalDebt/totalEquityQuarterly": 0.5321,
-        "marketCapitalization": 15853.991
+        "marketCapitalization": 16245.062
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Stanley Black & Decker, Inc.",
       "profile": {
         "weburl": "https://www.stanleyblackanddecker.com/",
@@ -27250,6 +27330,22 @@
         "name": "Stanley Black & Decker, Inc."
       },
       "news": [
+        {
+          "headline": "Stanley Black & Decker (SWK) Just Flashed Golden Cross Signal: Do You Buy?",
+          "url": "https://finnhub.io/api/news?id=6369f390c2dcd487a7d2a674c91db0bb2a6d2083eb0f3356fb012b63a69ce315",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:35:02Z",
+          "primary": false,
+          "symbol": "SWK"
+        },
+        {
+          "headline": "Stanley Black & Decker to Present at the Goldman Sachs Industrials and Materials Conference",
+          "url": "https://finnhub.io/api/news?id=7147ca28cfa58a0755fd79167d9bfab008dc4e09eca2041e0179d31a6394f68b",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:00:00Z",
+          "primary": false,
+          "symbol": "SWK"
+        },
         {
           "headline": "Stanley Black & Decker Just Raised Its Cash Flow Outlook. Its 59-Year Dividend Streak Looks Stronger",
           "url": "https://finnhub.io/api/news?id=bb7c2fe83fa1563042961649f16131edfda0e42bbeb6661d41e8161a3580c8d5",
@@ -27273,39 +27369,23 @@
           "published_at": "2026-11-18T15:16:00Z",
           "primary": false,
           "symbol": "SWK"
-        },
-        {
-          "headline": "Is Stanley Black & Decker Stock Really Cheap?",
-          "url": "https://finnhub.io/api/news?id=43a55dba4b29ea3cadb6970ef8dd47604ce9df2a242ea9d8730aa127c748fb42",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:15:46Z",
-          "primary": false,
-          "symbol": "SWK"
-        },
-        {
-          "headline": "Mizuho Downgrades Stanley Black & Decker to Neutral, Raises Price Target to $120",
-          "url": "https://finnhub.io/api/news?id=9ac5cb777536d8760d03a59c4fdcd032bfb1b5da47e3db567d542fc516469690",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T08:04:14Z",
-          "primary": false,
-          "symbol": "SWK"
         }
       ]
     },
     "STT": {
       "metrics": {
         "52WeekHigh": 195.93,
-        "52WeekLow": 112.82,
-        "peTTM": 11.4723,
+        "52WeekLow": 113.62,
+        "peTTM": 11.524,
         "psTTM": 1.80473,
         "netProfitMarginTTM": 20.50025,
         "roeTTM": 13.100000000000001,
         "revenueGrowthTTMYoy": 181.1518,
         "epsGrowthTTMYoy": 28.47,
         "totalDebt/totalEquityQuarterly": 0.9211,
-        "marketCapitalization": 42275.484
+        "marketCapitalization": 42465.94
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "State Street Corporation",
       "profile": {
         "weburl": "https://www.statestreet.com/",
@@ -27344,32 +27424,24 @@
           "published_at": "2026-11-18T10:37:22Z",
           "primary": false,
           "symbol": "STT"
-        },
-        {
-          "headline": "State Street Expands Prime Services into Equity Swaps",
-          "url": "https://finnhub.io/api/news?id=f30ee334afd3dce8500bb807585a70e7ae75032e62b47763424418ab640ee7fc",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:30:00Z",
-          "primary": false,
-          "symbol": "STT"
         }
       ]
     },
     "STLD": {
       "metrics": {
         "52WeekHigh": 288.74,
-        "52WeekLow": 152.54,
-        "peTTM": 14.9478,
-        "psTTM": 1.3182,
+        "52WeekLow": 156.91,
+        "peTTM": 15.6206,
+        "psTTM": 1.3776,
         "netProfitMarginTTM": 8.82,
         "roeTTM": 20.97,
         "revenueGrowthTTMYoy": 26.0,
         "epsGrowthTTMYoy": 79.82,
         "currentRatioQuarterly": 3.1449,
         "totalDebt/totalEquityQuarterly": 0.4271,
-        "marketCapitalization": 29291.113
+        "marketCapitalization": 30609.469
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:03:39Z",
       "name": "Steel Dynamics Inc",
       "profile": {
         "weburl": "https://www.steeldynamics.com/",
@@ -27378,42 +27450,42 @@
       },
       "news": [
         {
+          "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+          "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T12:23:00Z",
+          "primary": false,
+          "symbol": "STLD"
+        },
+        {
+          "headline": "Did Steel Dynamics' Sales Earn Its Stock's Rise?",
+          "url": "https://finnhub.io/api/news?id=d362c306150f0077306c2452f087d871e50dcabddc225f918d3f4bf5778e0611",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T12:10:00Z",
+          "primary": false,
+          "symbol": "STLD"
+        },
+        {
+          "headline": "If You Invested $1000 In Steel Dynamics Stock 5 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=33817f1981fff5bde915a70d8b8537987566ecebbb3176379b35680742c460ab",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T19:00:15Z",
+          "primary": false,
+          "symbol": "STLD"
+        },
+        {
+          "headline": "How Much Of STLD Stock's Rise Did The Business Earn?",
+          "url": "https://finnhub.io/api/news?id=1659d5fb0d77bb90cadfbfcb3fcc1b33b2872cd439b9bc460af7b08462360ed3",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T18:24:52Z",
+          "primary": false,
+          "symbol": "STLD"
+        },
+        {
           "headline": "What Just Happened To Steel Dynamics Stock?",
           "url": "https://finnhub.io/api/news?id=1ef7aa5ea5a1b097fd0836e2c67c2a908cb6be3393dafd0a2d99295f85addc4f",
           "source": "Yahoo",
           "published_at": "2026-11-23T12:48:29Z",
-          "primary": false,
-          "symbol": "STLD"
-        },
-        {
-          "headline": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
-          "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:12:00Z",
-          "primary": false,
-          "symbol": "STLD"
-        },
-        {
-          "headline": "Steel Dynamics Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=61e641ce7c54157db4fa940e272a5c2e2d58d871ead1770a81b44d759dd6cf4c",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:23:02Z",
-          "primary": false,
-          "symbol": "STLD"
-        },
-        {
-          "headline": "Here's Why You Should Retain Steel Dynamics Stock in Your Portfolio",
-          "url": "https://finnhub.io/api/news?id=5a6d499ca82fcd7950c686d855162548e8f6cbe9b1ff372df57bd96d1a2acf49",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:52:00Z",
-          "primary": false,
-          "symbol": "STLD"
-        },
-        {
-          "headline": "Why Is Steel Dynamics (STLD) Down 8.1% Since Last Earnings Report?",
-          "url": "https://finnhub.io/api/news?id=3b71163288e80213ae1ee8e0ac4d2b4c001ae276df55d263c772e2dcb81293fd",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T15:30:05Z",
           "primary": false,
           "symbol": "STLD"
         }
@@ -30178,6 +30250,6 @@
       ]
     }
   },
-  "cursor": 462,
-  "updated_at": "2026-11-25T22:05:53Z"
+  "cursor": 474,
+  "updated_at": "2026-11-25T23:03:39Z"
 }

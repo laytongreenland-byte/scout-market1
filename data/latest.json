@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:05:53Z",
+  "generated_at": "2026-11-25T23:03:39Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T22:05:53Z",
+      "checked_at": "2026-11-25T23:03:39Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T22:05:53Z",
+      "checked_at": "2026-11-25T23:03:39Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T22:05:53Z",
+      "checked_at": "2026-11-25T23:03:39Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T22:05:53Z",
+      "checked_at": "2026-11-25T23:03:39Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T22:05:53Z",
+      "checked_at": "2026-11-25T23:03:39Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T22:05:53Z",
+    "generated_at": "2026-11-25T23:03:39Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10049,7 +10049,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
+            "timestamp": "2026-11-25T23:03:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -10060,7 +10060,7 @@
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
+        "fundamentals_at": "2026-11-25T23:03:39Z",
         "price": 162.03,
         "currency": "USD",
         "change_pct": 0.734,
@@ -10114,7 +10114,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Metals & Mining",
-        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 14.9×; TTM revenue growth 26.0% YoY",
+        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 15.6×; TTM revenue growth 26.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10128,35 +10128,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
+            "timestamp": "2026-11-25T23:03:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "What Just Happened To Steel Dynamics Stock?",
-            "timestamp": "2026-11-23T12:48:29Z",
-            "url": "https://finnhub.io/api/news?id=1ef7aa5ea5a1b097fd0836e2c67c2a908cb6be3393dafd0a2d99295f85addc4f"
+            "value": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+            "timestamp": "2026-11-25T12:23:00Z",
+            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
+        "fundamentals_at": "2026-11-25T23:03:39Z",
         "price": 216.86,
         "currency": "USD",
         "change_pct": 0.757,
         "news": [
           {
-            "headline": "What Just Happened To Steel Dynamics Stock?",
-            "url": "https://finnhub.io/api/news?id=1ef7aa5ea5a1b097fd0836e2c67c2a908cb6be3393dafd0a2d99295f85addc4f",
+            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
             "source": "Yahoo",
-            "published_at": "2026-11-23T12:48:29Z",
+            "published_at": "2026-11-25T12:23:00Z",
             "primary": false,
             "symbol": "STLD"
           },
           {
-            "headline": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
-            "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c",
+            "headline": "Did Steel Dynamics' Sales Earn Its Stock's Rise?",
+            "url": "https://finnhub.io/api/news?id=d362c306150f0077306c2452f087d871e50dcabddc225f918d3f4bf5778e0611",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:12:00Z",
+            "published_at": "2026-11-25T12:10:00Z",
             "primary": false,
             "symbol": "STLD"
           }
@@ -10166,12 +10166,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ENTRY CANDIDATE",
-          "entry_ceiling": 220.64,
-          "entry_floor": 198.58,
-          "exit_review_low": 335.88,
-          "exit_review_high": 410.18,
-          "bear_case": 178.11,
-          "scenario_upside_pct": 54.9,
+          "entry_ceiling": 222.82,
+          "entry_floor": 200.54,
+          "exit_review_low": 321.41,
+          "exit_review_high": 392.51,
+          "bear_case": 170.44,
+          "scenario_upside_pct": 48.2,
           "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10184,12 +10184,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.95,
+            "trailing_pe": 15.62,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 21.24,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T15:15:00Z"
+            "metrics_retrieved_at": "2026-11-25T23:03:39Z"
           }
         },
         "ranking_score": 82,
@@ -14093,7 +14093,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Metals & Mining",
-        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 14.9×; TTM revenue growth 26.0% YoY",
+        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 15.6×; TTM revenue growth 26.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -14107,35 +14107,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
+            "timestamp": "2026-11-25T23:03:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "What Just Happened To Steel Dynamics Stock?",
-            "timestamp": "2026-11-23T12:48:29Z",
-            "url": "https://finnhub.io/api/news?id=1ef7aa5ea5a1b097fd0836e2c67c2a908cb6be3393dafd0a2d99295f85addc4f"
+            "value": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+            "timestamp": "2026-11-25T12:23:00Z",
+            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
+        "fundamentals_at": "2026-11-25T23:03:39Z",
         "price": 216.86,
         "currency": "USD",
         "change_pct": 0.757,
         "news": [
           {
-            "headline": "What Just Happened To Steel Dynamics Stock?",
-            "url": "https://finnhub.io/api/news?id=1ef7aa5ea5a1b097fd0836e2c67c2a908cb6be3393dafd0a2d99295f85addc4f",
+            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
             "source": "Yahoo",
-            "published_at": "2026-11-23T12:48:29Z",
+            "published_at": "2026-11-25T12:23:00Z",
             "primary": false,
             "symbol": "STLD"
           },
           {
-            "headline": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
-            "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c",
+            "headline": "Did Steel Dynamics' Sales Earn Its Stock's Rise?",
+            "url": "https://finnhub.io/api/news?id=d362c306150f0077306c2452f087d871e50dcabddc225f918d3f4bf5778e0611",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:12:00Z",
+            "published_at": "2026-11-25T12:10:00Z",
             "primary": false,
             "symbol": "STLD"
           }
@@ -14145,12 +14145,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ENTRY CANDIDATE",
-          "entry_ceiling": 220.64,
-          "entry_floor": 198.58,
-          "exit_review_low": 335.88,
-          "exit_review_high": 410.18,
-          "bear_case": 178.11,
-          "scenario_upside_pct": 54.9,
+          "entry_ceiling": 222.82,
+          "entry_floor": 200.54,
+          "exit_review_low": 321.41,
+          "exit_review_high": 392.51,
+          "bear_case": 170.44,
+          "scenario_upside_pct": 48.2,
           "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14163,12 +14163,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.95,
+            "trailing_pe": 15.62,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 21.24,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T15:15:00Z"
+            "metrics_retrieved_at": "2026-11-25T23:03:39Z"
           }
         },
         "ranking_score": 82,
@@ -15444,10 +15444,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T22:05:53Z",
+      "generated_at": "2026-11-25T23:03:39Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 831,
+        "recorded": 832,
         "purchase_scenarios": 77,
         "opened": 4,
         "closed": 0,
@@ -15457,10 +15457,30 @@
         "not_triggered": 0,
         "waiting": 77,
         "unverified": 0,
-        "skipped": 754,
+        "skipped": 755,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|STX|ABOVE BASE CASE",
+          "symbol": "STX",
+          "name": "Seagate Technology Holdings PLC",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-25T23:03:39Z",
+          "quote_at": "2026-11-25T21:00:00Z",
+          "reference_price": 472.33,
+          "buy_ceiling": 353.83,
+          "sell_review": 453.63,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 31.9% (TTM); Return on equity 245.1% (TTM); Trailing P/E 25.2×; TTM revenue growth 44.4% YoY",
+          "score": 64,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|RCL|ABOVE BASE CASE",
           "symbol": "RCL",
@@ -17841,26 +17861,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 24.1% (TTM); Return on equity 85.6% (TTM); Trailing P/E 25.1×; TTM revenue growth 8.2% YoY",
           "score": 73,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|GD|ABOVE BASE CASE",
-          "symbol": "GD",
-          "name": "General Dynamics Corp",
-          "signal": "ABOVE BASE CASE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 341.5,
-          "buy_ceiling": 241.24,
-          "sell_review": 309.28,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 8.2% (TTM); Return on equity 17.6% (TTM); Trailing P/E 19.8×; TTM revenue growth 9.7% YoY",
-          "score": 75,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
