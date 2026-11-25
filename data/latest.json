@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:06:20Z",
+  "generated_at": "2026-11-24T23:56:36Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-24T23:06:20Z",
+      "checked_at": "2026-11-24T23:56:36Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-24T23:06:20Z",
+      "checked_at": "2026-11-24T23:56:36Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-24T23:06:20Z",
+      "checked_at": "2026-11-24T23:56:36Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-24T23:06:20Z",
+      "checked_at": "2026-11-24T23:56:36Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-24T23:06:20Z",
+      "checked_at": "2026-11-24T23:56:36Z",
       "error": ""
     }
   ],
@@ -7321,7 +7321,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-24T23:06:20Z",
+    "generated_at": "2026-11-24T23:56:36Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -12266,7 +12266,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.0×; TTM revenue growth 11.5% YoY",
+        "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.2×; TTM revenue growth 11.5% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -12280,35 +12280,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T20:53:19Z",
+            "timestamp": "2026-11-24T23:56:36Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Alibaba vs. Booking Holdings: Which E-Commerce Retail Stock Is a Better Buy for 2027?",
-            "timestamp": "2026-11-22T19:33:02Z",
-            "url": "https://finnhub.io/api/news?id=2dc29d1d23c4c64d73427925bd1b44e7c4a6341c247b8a7cdd272b0ed58107e1"
+            "value": "Booking vs. Chewy: Booking Has Higher Revenue, But Chewy Sales Are More Stable",
+            "timestamp": "2026-11-24T21:20:02Z",
+            "url": "https://finnhub.io/api/news?id=66080260e5878619800f1bfb624134dcda47e3f387141fd8871e32614903da8f"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T20:53:19Z",
+        "fundamentals_at": "2026-11-24T23:56:36Z",
         "price": 146.64,
         "currency": "USD",
         "change_pct": 1.173,
         "news": [
           {
-            "headline": "Alibaba vs. Booking Holdings: Which E-Commerce Retail Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=2dc29d1d23c4c64d73427925bd1b44e7c4a6341c247b8a7cdd272b0ed58107e1",
+            "headline": "Booking vs. Chewy: Booking Has Higher Revenue, But Chewy Sales Are More Stable",
+            "url": "https://finnhub.io/api/news?id=66080260e5878619800f1bfb624134dcda47e3f387141fd8871e32614903da8f",
             "source": "Yahoo",
-            "published_at": "2026-11-22T19:33:02Z",
+            "published_at": "2026-11-24T21:20:02Z",
             "primary": false,
             "symbol": "BKNG"
           },
           {
-            "headline": "Is Marriott Stock Worth 41x Earnings Next To Booking?",
-            "url": "https://finnhub.io/api/news?id=b55be6fecffdbd9af19301369a034bb677ef509baad5f121ed75073f9040e597",
+            "headline": "What Just Happened To Booking Holdings Stock?",
+            "url": "https://finnhub.io/api/news?id=fbfbac777ea23c548ae50823adc5fa7a1c50e129fff03ad13d69402f5c710a81",
             "source": "Yahoo",
-            "published_at": "2026-11-21T06:32:47Z",
+            "published_at": "2026-11-24T14:33:12Z",
             "primary": false,
             "symbol": "BKNG"
           }
@@ -12318,12 +12318,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 142.2,
-          "entry_floor": 127.98,
-          "exit_review_low": 182.31,
-          "exit_review_high": 217.37,
-          "bear_case": 100.2,
-          "scenario_upside_pct": 24.3,
+          "entry_ceiling": 140.67,
+          "entry_floor": 126.6,
+          "exit_review_low": 180.34,
+          "exit_review_high": 215.03,
+          "bear_case": 99.12,
+          "scenario_upside_pct": 23.0,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12336,12 +12336,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.01,
+            "trailing_pe": 15.18,
             "earnings_growth_assumed_pct": 5.16,
             "scenario_exit_pe": 17.75,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T20:53:19Z"
+            "metrics_retrieved_at": "2026-11-24T23:56:36Z"
           }
         },
         "ranking_score": 78,
@@ -12367,35 +12367,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-22T20:53:19Z",
+            "timestamp": "2026-11-24T23:56:36Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
-            "timestamp": "2026-11-19T23:50:20Z",
-            "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682"
+            "value": "Broadridge to Host Investor Day on December 8, 2026",
+            "timestamp": "2026-11-24T13:00:00Z",
+            "url": "https://finnhub.io/api/news?id=a31e50203e790d99e0524f3ed94cb9203a3d627de7976c98dcbde2d90fe0cbfe"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-22T20:53:19Z",
+        "fundamentals_at": "2026-11-24T23:56:36Z",
         "price": 184.74,
         "currency": "USD",
         "change_pct": 1.606,
         "news": [
           {
-            "headline": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
-            "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682",
+            "headline": "Broadridge to Host Investor Day on December 8, 2026",
+            "url": "https://finnhub.io/api/news?id=a31e50203e790d99e0524f3ed94cb9203a3d627de7976c98dcbde2d90fe0cbfe",
             "source": "Yahoo",
-            "published_at": "2026-11-19T23:50:20Z",
+            "published_at": "2026-11-24T13:00:00Z",
             "primary": false,
             "symbol": "BR"
           },
           {
-            "headline": "Broadridge Named Leader in Inaugural Everest Group BFS Agentic Business Operations PEAK Matrix® Assessment 2026",
-            "url": "https://finnhub.io/api/news?id=d4a841505e1ca41563879945e43a8341c3bf7debc936bca0711e8fdb7834ec07",
+            "headline": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
+            "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682",
             "source": "Yahoo",
-            "published_at": "2026-11-19T12:00:00Z",
+            "published_at": "2026-11-19T23:50:20Z",
             "primary": false,
             "symbol": "BR"
           }
@@ -12405,12 +12405,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 127.51,
-          "entry_floor": 114.76,
-          "exit_review_low": 163.47,
-          "exit_review_high": 192.35,
-          "bear_case": 91.57,
-          "scenario_upside_pct": -11.5,
+          "entry_ceiling": 127.22,
+          "entry_floor": 114.5,
+          "exit_review_low": 163.1,
+          "exit_review_high": 191.92,
+          "bear_case": 91.36,
+          "scenario_upside_pct": -11.7,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12423,12 +12423,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.47,
+            "trailing_pe": 19.52,
             "earnings_growth_assumed_pct": 3.19,
             "scenario_exit_pe": 16.7,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-22T20:53:19Z"
+            "metrics_retrieved_at": "2026-11-24T23:56:36Z"
           }
         },
         "ranking_score": 78,
@@ -15384,7 +15384,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-24T23:06:20Z",
+      "generated_at": "2026-11-24T23:56:36Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 819,
