@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:12:55Z",
+  "generated_at": "2026-11-25T13:34:14Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T12:12:55Z",
+      "checked_at": "2026-11-25T13:34:14Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T12:12:55Z",
+      "checked_at": "2026-11-25T13:34:14Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T12:12:55Z",
+      "checked_at": "2026-11-25T13:34:14Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T12:12:55Z",
+      "checked_at": "2026-11-25T13:34:14Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T12:12:55Z",
+      "checked_at": "2026-11-25T13:34:14Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T12:12:55Z",
+    "generated_at": "2026-11-25T13:34:14Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -12905,7 +12905,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Machinery",
-        "why": "Net profit margin 17.2% (TTM); Return on equity 13.5% (TTM); Trailing P/E 21.7×; TTM revenue growth 8.0% YoY",
+        "why": "Net profit margin 17.2% (TTM); Return on equity 13.5% (TTM); Trailing P/E 22.9×; TTM revenue growth 8.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12919,7 +12919,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T06:52:30Z",
+            "timestamp": "2026-11-25T13:34:14Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -12930,7 +12930,7 @@
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T06:52:30Z",
+        "fundamentals_at": "2026-11-25T13:34:14Z",
         "price": 82.93,
         "currency": "USD",
         "change_pct": -0.012,
@@ -12957,12 +12957,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 52.18,
-          "entry_floor": 46.96,
-          "exit_review_low": 66.9,
-          "exit_review_high": 78.93,
-          "bear_case": 37.33,
-          "scenario_upside_pct": -19.3,
+          "entry_ceiling": 49.58,
+          "entry_floor": 44.62,
+          "exit_review_low": 63.56,
+          "exit_review_high": 74.99,
+          "bear_case": 35.47,
+          "scenario_upside_pct": -23.4,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12975,12 +12975,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 21.71,
+            "trailing_pe": 22.85,
             "earnings_growth_assumed_pct": 3.58,
             "scenario_exit_pe": 16.91,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T06:52:30Z"
+            "metrics_retrieved_at": "2026-11-25T13:34:14Z"
           }
         },
         "ranking_score": 78,
@@ -15375,7 +15375,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T12:12:55Z",
+      "generated_at": "2026-11-25T13:34:14Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 821,

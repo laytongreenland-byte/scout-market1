@@ -21547,17 +21547,17 @@
       "metrics": {
         "52WeekHigh": 565.4999,
         "52WeekLow": 401.54,
-        "peTTM": 23.4651,
-        "psTTM": 3.2345,
+        "peTTM": 24.7733,
+        "psTTM": 3.4148,
         "netProfitMarginTTM": 13.78,
         "roeTTM": 23.25,
         "revenueGrowthTTMYoy": 15.96,
         "epsGrowthTTMYoy": 5.85,
         "currentRatioQuarterly": 1.5285,
         "totalDebt/totalEquityQuarterly": 1.2471,
-        "marketCapitalization": 21327.39
+        "marketCapitalization": 22516.441
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Hubbell Inc",
       "profile": {
         "weburl": "https://www.hubbell.com",
@@ -21565,6 +21565,14 @@
         "name": "Hubbell Inc"
       },
       "news": [
+        {
+          "headline": "Baird Maintains Outperform on Hubbell, Lowers Price Target to $488",
+          "url": "https://finnhub.io/api/news?id=6b80ec96e6ac7b83a0826d2ee29fe403d91442aec02332b14512198baeedfff4",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T08:00:46Z",
+          "primary": false,
+          "symbol": "HUBB"
+        },
         {
           "headline": "Global Desk Grommet Audio Jack Market 2026: Size, Trends, and 2030 Forecast | Capitalize on 8.2% CAGR as Legrand, MillerKnoll, Hubbell, Extron, and Crestron Drive Smart Offices",
           "url": "https://finnhub.io/api/news?id=2ffda44d8b3d3dca544466790631ffb8fe34133e15233ba6d7794197959bef7d",
@@ -21579,16 +21587,16 @@
       "metrics": {
         "52WeekHigh": 19.46,
         "52WeekLow": 14.23,
-        "peTTM": 11.5581,
+        "peTTM": 11.9466,
         "psTTM": 2.07303,
         "netProfitMarginTTM": 31.21053,
         "roeTTM": 8.19,
         "revenueGrowthTTMYoy": 58.9579,
         "epsGrowthTTMYoy": -12.43,
         "totalDebt/totalEquityQuarterly": 0.4586,
-        "marketCapitalization": 28779.73
+        "marketCapitalization": 29747.115
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Huntington Bancshares Inc",
       "profile": {
         "weburl": "https://www.huntington.com/",
@@ -21596,6 +21604,14 @@
         "name": "Huntington Bancshares Inc"
       },
       "news": [
+        {
+          "headline": "Better Dividend Stock for Retirees: U.S. Bancorp vs. Huntington Bancshares",
+          "url": "https://finnhub.io/api/news?id=01c5655781748e579f59685504a85c58ec8ce9597f688e1f931a02c8bc7fff11",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:25:31Z",
+          "primary": false,
+          "symbol": "HBAN"
+        },
         {
           "headline": "S&P 500 After-Hours Gainers: DDOG, HBAN Lead Postmarket Session",
           "url": "https://finnhub.io/api/news?id=f31d983d4a478498cc13b273ad7c4c34ac24a575287b228e6a527a3580ed5444",
@@ -21610,17 +21626,17 @@
       "metrics": {
         "52WeekHigh": 460.0,
         "52WeekLow": 255.355,
-        "peTTM": 15.0711,
-        "psTTM": 0.8165,
+        "peTTM": 15.406,
+        "psTTM": 0.8346,
         "netProfitMarginTTM": 5.42,
         "roeTTM": 13.950000000000001,
         "revenueGrowthTTMYoy": 12.64,
         "epsGrowthTTMYoy": 28.38,
         "currentRatioQuarterly": 1.2648,
         "totalDebt/totalEquityQuarterly": 0.4924,
-        "marketCapitalization": 11047.095
+        "marketCapitalization": 11292.595
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Huntington Ingalls Industries, Inc.",
       "profile": {
         "weburl": "https://hii.com/",
@@ -21629,18 +21645,26 @@
       },
       "news": [
         {
-          "headline": "HII Hosts U.S. Marine Corps Officers at Ingalls Shipbuilding",
-          "url": "https://finnhub.io/api/news?id=7c7b8844d254d04c5ff0cadab10c025227779fa685aa73ffa0dd9463afb301c5",
+          "headline": "HII Awarded Largest International Unmanned Systems Contract in Company History by UK Ministry of Defence",
+          "url": "https://finnhub.io/api/news?id=c561faad6750c7ef8a135ea800a9872a5d598857d40c38a3bbfbe6040f9ae1ff",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:30:00Z",
+          "published_at": "2026-11-24T23:05:00Z",
           "primary": false,
           "symbol": "HII"
         },
         {
-          "headline": "HII is Awarded Contract for Production of Additional U.S. Navy Lionfish Unmanned Undersea Vehicles",
-          "url": "https://finnhub.io/api/news?id=16e9994018d9b6bb61cde53166f4e4bf4af428246fcbde0b8cd8fe86c1b8b533",
+          "headline": "HII Dedicates 23rd Habitat for Humanity Home Sponsored by Newport News Shipbuilding",
+          "url": "https://finnhub.io/api/news?id=1532fa7b6f1309a0d7ebf7d56856e665e1736bf403a7fe3a4976b24cede78e60",
           "source": "Yahoo",
-          "published_at": "2026-11-16T20:00:00Z",
+          "published_at": "2026-11-24T21:30:00Z",
+          "primary": false,
+          "symbol": "HII"
+        },
+        {
+          "headline": "HII Hosts U.S. Marine Corps Officers at Ingalls Shipbuilding",
+          "url": "https://finnhub.io/api/news?id=7c7b8844d254d04c5ff0cadab10c025227779fa685aa73ffa0dd9463afb301c5",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T21:30:00Z",
           "primary": false,
           "symbol": "HII"
         }
@@ -21649,18 +21673,18 @@
     "IEX": {
       "metrics": {
         "52WeekHigh": 243.7954,
-        "52WeekLow": 161.74,
-        "peTTM": 30.1104,
-        "psTTM": 4.41,
+        "52WeekLow": 162.9,
+        "peTTM": 30.3695,
+        "psTTM": 4.448,
         "netProfitMarginTTM": 14.65,
         "roeTTM": 13.309999999999999,
         "revenueGrowthTTMYoy": 6.93,
         "epsGrowthTTMYoy": 13.97,
         "currentRatioQuarterly": 2.778,
         "totalDebt/totalEquityQuarterly": 0.4361,
-        "marketCapitalization": 16133.173
+        "marketCapitalization": 16272.0
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "IDEX Corporation",
       "profile": {
         "weburl": "https://www.idexcorp.com/",
@@ -21714,17 +21738,17 @@
       "metrics": {
         "52WeekHigh": 309.345,
         "52WeekLow": 112.65,
-        "peTTM": 32.5747,
-        "psTTM": 6.4245,
+        "peTTM": 33.9803,
+        "psTTM": 6.7017,
         "netProfitMarginTTM": 19.72,
         "roeTTM": 31.45,
         "revenueGrowthTTMYoy": 5.83,
         "epsGrowthTTMYoy": 30.5,
         "currentRatioQuarterly": 2.6254,
         "totalDebt/totalEquityQuarterly": 0.5688,
-        "marketCapitalization": 29154.385
+        "marketCapitalization": 30412.367
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Illumina Inc",
       "profile": {
         "weburl": "https://www.illumina.com",
@@ -21732,6 +21756,30 @@
         "name": "Illumina Inc"
       },
       "news": [
+        {
+          "headline": "Should Illumina Stock Holders Look At Thermo Fisher Instead?",
+          "url": "https://finnhub.io/api/news?id=a33591044a0f9636478654aef8e6108bd6924ca06ca7d07eef7d4a93ccd0f8bc",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T18:14:24Z",
+          "primary": false,
+          "symbol": "ILMN"
+        },
+        {
+          "headline": "Illumina (ILMN) Rallied in Q3 as Clinical Momentum Outperforms Competitive Risks",
+          "url": "https://finnhub.io/api/news?id=6d534240bf9435f423eec763bf3f0ed85dffb0f66eba4c92c53e1476064403d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:26:30Z",
+          "primary": false,
+          "symbol": "ILMN"
+        },
+        {
+          "headline": "Global Wastewater Pathogen Variant Analytics Market Report 2026 | Secure Share of $3.63 Billion by 2030 as Roche, Thermo Fisher, Illumina and BioMérieux Scale AI Surveillance",
+          "url": "https://finnhub.io/api/news?id=21a0a9a5d4e84f37313e3ba2a821bddd6efaf5a1b97696a5941ec3824e3fcc32",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:15:00Z",
+          "primary": false,
+          "symbol": "ILMN"
+        },
         {
           "headline": "Illumina (ILMN) Stock May Be A Bargain Despite Singapore Genome Win",
           "url": "https://finnhub.io/api/news?id=f6643d381132f8c9660f919a8d849069eefef0047dd490671605f36f82888d13",
@@ -21747,30 +21795,6 @@
           "published_at": "2026-11-20T19:09:53Z",
           "primary": false,
           "symbol": "ILMN"
-        },
-        {
-          "headline": "Is Illumina (ILMN) Undervalued Following Its Cybersecurity Recalls?",
-          "url": "https://finnhub.io/api/news?id=b28dd4d8794386e589b5c0654fd53ec015efb29c0cdacc1c6b5a375dc5f596f3",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T17:09:58Z",
-          "primary": false,
-          "symbol": "ILMN"
-        },
-        {
-          "headline": "RPRX vs. ILMN: Which Stock Should Value Investors Buy Now?",
-          "url": "https://finnhub.io/api/news?id=a4f3af523c5d43d646d4b42d909c42a05b8aa9d33fd790fc3b7b7fcde5bc38a8",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:40:02Z",
-          "primary": false,
-          "symbol": "ILMN"
-        },
-        {
-          "headline": "Illumina Wins Virtual Cell Challenge, Powered by Billion Cell Atlas",
-          "url": "https://finnhub.io/api/news?id=f08dd74517856b846063610d63c18f5dbd7853586699a5515f4800d44aede0e0",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T01:00:00Z",
-          "primary": false,
-          "symbol": "ILMN"
         }
       ]
     },
@@ -21778,17 +21802,17 @@
       "metrics": {
         "52WeekHigh": 132.6,
         "52WeekLow": 89.25,
-        "peTTM": 57.9169,
-        "psTTM": 3.8871,
+        "peTTM": 61.7266,
+        "psTTM": 4.1428,
         "netProfitMarginTTM": 6.71,
         "roeTTM": 7.08,
         "revenueGrowthTTMYoy": 24.88,
         "epsGrowthTTMYoy": -68.2,
         "currentRatioQuarterly": 3.8401,
         "totalDebt/totalEquityQuarterly": 0.0056,
-        "marketCapitalization": 23364.299
+        "marketCapitalization": 24901.195
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Incyte Corp",
       "profile": {
         "weburl": "https://www.incyte.com/",
@@ -21796,6 +21820,30 @@
         "name": "Incyte Corp"
       },
       "news": [
+        {
+          "headline": "Incyte (INCY) Stock Is Up 5.1% Today as Health Care Stocks Rally",
+          "url": "https://finnhub.io/api/news?id=79d15dbdd7bb49306975da481f20178a3fe07991123a106e12ef31e4704821d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T20:30:38Z",
+          "primary": false,
+          "symbol": "INCY"
+        },
+        {
+          "headline": "Incyte: Jakafi's Cliff Comes With A Bridge, And The Toll Is Cheap (Initiating Buy)",
+          "url": "https://finnhub.io/api/news?id=31e3794088e552f36cd2fb458f24bdb79494338bb96cc71d70af71195c0170c8",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-24T05:56:16Z",
+          "primary": false,
+          "symbol": "INCY"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Incyte, Raises Price Target to $148",
+          "url": "https://finnhub.io/api/news?id=bf78fad9ed337c0cbf7d33c51c999a9e8b63611e3536a5cfbc341057cc1d695c",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T10:47:01Z",
+          "primary": false,
+          "symbol": "INCY"
+        },
         {
           "headline": "Incyte Bets on Drug Pipeline and Deals for Growth After Jakafi Exclusivity Ends",
           "url": "https://finnhub.io/api/news?id=443a432a3940f6a2d04c881822d18567beb4537093e27382be59152296ee5348",
@@ -21811,30 +21859,6 @@
           "published_at": "2026-11-21T02:12:06Z",
           "primary": false,
           "symbol": "INCY"
-        },
-        {
-          "headline": "What Are Wall Street Analysts' Target Price for Incyte Stock?",
-          "url": "https://finnhub.io/api/news?id=9c2cb05fc64b12217c32f1cd404040450bb7096873926d6342c3d034e6cf2a18",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:07:36Z",
-          "primary": false,
-          "symbol": "INCY"
-        },
-        {
-          "headline": "INCY Wins European Commission Nod For Skin Disease Drug",
-          "url": "https://finnhub.io/api/news?id=c447097e147b8c9b2ee06910852ca8c01daacb071861e042ea3812f28d5e5b4b",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:13:00Z",
-          "primary": false,
-          "symbol": "INCY"
-        },
-        {
-          "headline": "Incyte Corporation (INCY) Presents at UBS Global Biopharma Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=020e4b4a6e566b77e9b9cde0773a0df198a04aae4fdef2684530b1793b6750c7",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T13:53:38Z",
-          "primary": false,
-          "symbol": "INCY"
         }
       ]
     },
@@ -21842,17 +21866,17 @@
       "metrics": {
         "52WeekHigh": 100.96,
         "52WeekLow": 68.07,
-        "peTTM": 21.7119,
-        "psTTM": 3.7343,
+        "peTTM": 22.8529,
+        "psTTM": 3.9305,
         "netProfitMarginTTM": 17.2,
         "roeTTM": 13.530000000000001,
         "revenueGrowthTTMYoy": 7.96,
         "epsGrowthTTMYoy": 164.82,
         "currentRatioQuarterly": 1.6892,
         "totalDebt/totalEquityQuarterly": 0.451,
-        "marketCapitalization": 30068.748
+        "marketCapitalization": 31648.99
       },
-      "updated_at": "2026-11-23T06:52:30Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Ingersoll Rand Inc.",
       "profile": {
         "weburl": "https://www.irco.com/",
@@ -21880,19 +21904,19 @@
     },
     "PODD": {
       "metrics": {
-        "52WeekHigh": 354.88,
+        "52WeekHigh": 342.13,
         "52WeekLow": 126.4,
-        "peTTM": 21.5392,
-        "psTTM": 2.8967,
+        "peTTM": 21.6394,
+        "psTTM": 2.9102,
         "netProfitMarginTTM": 13.45,
         "roeTTM": 17.37,
         "revenueGrowthTTMYoy": 26.46,
         "epsGrowthTTMYoy": 80.72,
         "currentRatioQuarterly": 2.8143,
         "totalDebt/totalEquityQuarterly": 0.6265,
-        "marketCapitalization": 9238.142
+        "marketCapitalization": 9281.152
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Insulet Corporation",
       "profile": {
         "weburl": "https://www.omnipod.com",
@@ -21901,42 +21925,42 @@
       },
       "news": [
         {
-          "headline": "Why Is Insulet (PODD) Bringing Michael R. Minogue Back To Its Board?",
-          "url": "https://finnhub.io/api/news?id=1a341f4ec46555e34070fa781a8f3d736d782078d5a41217a8f1b2734dce4b6b",
+          "headline": "Is it Prudent to Add Insulet Stock to Your Portfolio Right Now?",
+          "url": "https://finnhub.io/api/news?id=a25542a8f8b7bd87c92197911a4c688b9638658221c8e21a2335f10776d1c502",
           "source": "Yahoo",
-          "published_at": "2026-11-21T12:14:56Z",
+          "published_at": "2026-11-24T16:39:00Z",
           "primary": false,
           "symbol": "PODD"
         },
         {
-          "headline": "Is Insulet (PODD) A Bargain On Its Recent Share Price Slide?",
-          "url": "https://finnhub.io/api/news?id=383106e02a930d3f47d423592a39306275243fccc8d858f4c8bd505e54bafe7c",
+          "headline": "Insulet Appoints Todd Trapp Chief Financial Officer",
+          "url": "https://finnhub.io/api/news?id=6f03bc613b1557ea83d731bab977d467fddc444b83167ec68cefc5e225957373",
           "source": "Yahoo",
-          "published_at": "2026-11-21T03:12:40Z",
+          "published_at": "2026-11-24T12:00:00Z",
           "primary": false,
           "symbol": "PODD"
         },
         {
-          "headline": "Insulet (PODD) Stock May Look Reasonable On Long Term Cash Flow",
-          "url": "https://finnhub.io/api/news?id=23438a4fb7f28978a3e4db168dfe179040a6e1a32e19a4f5be737fda0232ed85",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T02:14:40Z",
-          "primary": false,
-          "symbol": "PODD"
-        },
-        {
-          "headline": "Baird Downgrades Insulet to Neutral, Lowers Price Target to $158",
-          "url": "https://finnhub.io/api/news?id=6c82a2300cf9751239f0327919e21c8593a0921f97cb57830a75e77a9d775c1d",
+          "headline": "Insulet Affirms FY2026 Adj EPS expected to be more than $6.46 vs $6.46 Est; Affirms FY2026 Sales Guidance of $3.277B-$3.304B vs $3.289B Est",
+          "url": "https://finnhub.io/api/news?id=17f16aad784a97844bf2df3e5a612db794f39331aeb7dcadd91efde1e73dc369",
           "source": "Benzinga",
-          "published_at": "2026-11-20T08:51:25Z",
+          "published_at": "2026-11-24T09:09:38Z",
           "primary": false,
           "symbol": "PODD"
         },
         {
-          "headline": "Why Stifel Cut Insulet (PODD) After Double-Digit Growth",
-          "url": "https://finnhub.io/api/news?id=8fa5bb5e7ca5baf7f687834a356206ee6ab6a8067bf505e560c38529605a7fe5",
+          "headline": "Piper Sandler upgrades MiniMed, downgrades Insulet after doctor calls",
+          "url": "https://finnhub.io/api/news?id=5da09685debbb8b2b5e15e8bdfab8d6c9fcd000408ec50ef0f050f3e1406477f",
           "source": "Yahoo",
-          "published_at": "2026-11-19T15:15:48Z",
+          "published_at": "2026-11-23T16:16:52Z",
+          "primary": false,
+          "symbol": "PODD"
+        },
+        {
+          "headline": "This Insulet Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Monday",
+          "url": "https://finnhub.io/api/news?id=b75d9df1341e1d8cd9b824d57710d68f1358f6add7c858690b0161b7967683e9",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T09:38:31Z",
           "primary": false,
           "symbol": "PODD"
         }
@@ -21946,15 +21970,15 @@
       "metrics": {
         "52WeekHigh": 142.35,
         "52WeekLow": 32.89,
-        "psTTM": 4.5507,
+        "psTTM": 4.8454,
         "netProfitMarginTTM": -20.09,
         "roeTTM": -11.24,
         "revenueGrowthTTMYoy": 12.08,
         "currentRatioQuarterly": 2.2081,
         "totalDebt/totalEquityQuarterly": 0.4363,
-        "marketCapitalization": 272553.2
+        "marketCapitalization": 290199.0
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Intel Corp",
       "profile": {
         "weburl": "https://www.intel.com/",
@@ -21963,42 +21987,42 @@
       },
       "news": [
         {
-          "headline": "NVDA, INTC, MU, AMD Chip Stocks Rip Higher: Dan Ives Says ‘Bears Feel Validated,’ But There’s No Stopping The AI Wave",
-          "url": "https://finnhub.io/api/news?id=32fa092f51c1a523b9e77c2c02b19ded9999f423d9aced02dcfb88a7f57c4cca",
+          "headline": "ETFs Bought $73.8 Million of Intel (INTC) on Nov. 23",
+          "url": "https://finnhub.io/api/news?id=8d02aa619b7b4f138e0eb96f02881294b3a67514e8c96a98762b5fa3bd1d7c28",
           "source": "Yahoo",
-          "published_at": "2026-11-23T02:24:05Z",
+          "published_at": "2026-11-25T11:01:49Z",
           "primary": false,
           "symbol": "INTC"
         },
         {
-          "headline": "Intel Just Landed Its First 18A-P Chip Customer. What That Means for INTC Stock.",
-          "url": "https://finnhub.io/api/news?id=9a5dcb90ecf2a9447f7aeef4613a6ed04a1a6c51392d39650979b6433f36342f",
+          "headline": "Why Intel Stock Fell Today",
+          "url": "https://finnhub.io/api/news?id=03dec1022a3485736da32277ae334371b537d56564dccbf1c0f24f817eafae0b",
           "source": "Yahoo",
-          "published_at": "2026-11-22T19:30:03Z",
+          "published_at": "2026-11-24T23:16:01Z",
           "primary": false,
           "symbol": "INTC"
         },
         {
-          "headline": "Intel announces more layoffs as workforce shrinks by 7,300",
-          "url": "https://finnhub.io/api/news?id=aaba7e08cdea21f851661b6ae01bde2ea2dc40e255f11a3e9c08ac9878e92eb9",
+          "headline": "Intel And 2 More AI Stocks To Watch",
+          "url": "https://finnhub.io/api/news?id=b58bf68bc74c20c63635edfb0122e8828726fdcfecb430b721e3ac2eb3c7b2a5",
           "source": "Yahoo",
-          "published_at": "2026-11-22T19:17:00Z",
+          "published_at": "2026-11-24T22:19:18Z",
           "primary": false,
           "symbol": "INTC"
         },
         {
-          "headline": "Intel Says It Just Signed Its First Customer for Its Most Advanced Chipmaking Process. The Stock Is Still More Than 60% Below Its June Record.",
-          "url": "https://finnhub.io/api/news?id=9da631e80e30508784efe73bb4559fdd2e74e44add45a4f95759119710a31cce",
+          "headline": "Top Analyst Reports for Apple, Philip Morris & Intel",
+          "url": "https://finnhub.io/api/news?id=764d55c69ca785aa343eecf68a083d0fcdf5759f7ccf85661f27cc140c313399",
           "source": "Yahoo",
-          "published_at": "2026-11-22T02:07:02Z",
+          "published_at": "2026-11-24T20:53:00Z",
           "primary": false,
           "symbol": "INTC"
         },
         {
-          "headline": "Intel's Turnaround Story Remains Firmly Intact, Buy The Panic",
-          "url": "https://finnhub.io/api/news?id=40c4f80c381e4ed093d996f1ba25d8ad54b18c348ac3e7e055729fbd68a4339b",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-21T20:45:47Z",
+          "headline": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
+          "url": "https://finnhub.io/api/news?id=0bfe8206232df7e673ddff8c19707e6a1bbb8633aeca76ed1d889864f0fcb2fb",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T19:50:02Z",
           "primary": false,
           "symbol": "INTC"
         }
@@ -22008,17 +22032,17 @@
       "metrics": {
         "52WeekHigh": 98.75,
         "52WeekLow": 58.95,
-        "peTTM": 103.0556,
-        "psTTM": 10.3416,
+        "peTTM": 108.2874,
+        "psTTM": 10.8666,
         "netProfitMarginTTM": 10.03,
         "roeTTM": 20.41,
         "revenueGrowthTTMYoy": 15.92,
         "epsGrowthTTMYoy": 25.74,
         "currentRatioQuarterly": 0.9744,
         "totalDebt/totalEquityQuarterly": 5.6685,
-        "marketCapitalization": 121296.43
+        "marketCapitalization": 127454.26
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "Interactive Brokers Group Inc",
       "profile": {
         "weburl": "https://www.interactivebrokers.com/en/home.php",
@@ -22026,6 +22050,22 @@
         "name": "Interactive Brokers Group Inc"
       },
       "news": [
+        {
+          "headline": "What Is Behind The Move In Interactive Brokers Stock?",
+          "url": "https://finnhub.io/api/news?id=69157dd314a6536d9f97420a7b086b64aa3f2669ec8923ec5a1d29bb1205715f",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:30:49Z",
+          "primary": false,
+          "symbol": "IBKR"
+        },
+        {
+          "headline": "Interactive Brokers Stock Trades at a Premium: Is It Still a Buy?",
+          "url": "https://finnhub.io/api/news?id=70dbec6319e31c0e3563db4a97ffa8ca56295eaec0828ac6c3565ab8ecda5531",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T13:36:00Z",
+          "primary": false,
+          "symbol": "IBKR"
+        },
         {
           "headline": "Coinbase Global vs. Interactive Brokers Group: Which Financial Stock Is a Better Buy for 2027?",
           "url": "https://finnhub.io/api/news?id=de0f62cf650e3db115698bc10e24096624d4299209e64ac0fc111ed99c78927e",
@@ -22049,22 +22089,6 @@
           "published_at": "2026-11-19T12:35:02Z",
           "primary": false,
           "symbol": "IBKR"
-        },
-        {
-          "headline": "$100 Invested In Interactive Brokers Group 15 Years Ago Would Be Worth This Much Today",
-          "url": "https://finnhub.io/api/news?id=f6b6245bf3667e170f82b538ae8d658cf5b792c42aeb347d62c6f463ef4e7872",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T16:00:28Z",
-          "primary": false,
-          "symbol": "IBKR"
-        },
-        {
-          "headline": "Interactive Brokers Group, Inc. (IBKR) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://finnhub.io/api/news?id=f53be47483ee150ba52d95305696763ddf5f3d490e00ecfc7d2c75d4d4854c8a",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T13:00:04Z",
-          "primary": false,
-          "symbol": "IBKR"
         }
       ]
     },
@@ -22072,16 +22096,16 @@
       "metrics": {
         "52WeekHigh": 95.27,
         "52WeekLow": 62.06,
-        "peTTM": 102.2367,
-        "psTTM": 2.1609,
+        "peTTM": 107.7003,
+        "psTTM": 2.2763,
         "netProfitMarginTTM": 2.11,
         "roeTTM": 1.41,
         "revenueGrowthTTMYoy": -16.67,
         "currentRatioQuarterly": 1.8707,
         "totalDebt/totalEquityQuarterly": 0.4731,
-        "marketCapitalization": 19936.154
+        "marketCapitalization": 21001.568
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "International Flavors & Fragrances Inc.",
       "profile": {
         "weburl": "https://www.iff.com/",
@@ -22119,15 +22143,15 @@
       "metrics": {
         "52WeekHigh": 50.25,
         "52WeekLow": 29.26,
-        "psTTM": 0.665,
+        "psTTM": 0.6538,
         "netProfitMarginTTM": -14.32,
         "roeTTM": -24.19,
         "revenueGrowthTTMYoy": -18.02,
         "currentRatioQuarterly": 0.9867,
         "totalDebt/totalEquityQuarterly": 0.7372,
-        "marketCapitalization": 16078.733
+        "marketCapitalization": 15808.636
       },
-      "updated_at": "2026-11-23T07:16:20Z",
+      "updated_at": "2026-11-25T13:34:14Z",
       "name": "International Paper Co",
       "profile": {
         "weburl": "https://www.internationalpaper.com/",
@@ -22136,26 +22160,42 @@
       },
       "news": [
         {
-          "headline": "Argus Research Downgrades International Paper to Hold",
-          "url": "https://finnhub.io/api/news?id=b8e614df88127200ba0ea4df2e3f4b851761ef670c89588a7c200315bd52ecea",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T11:58:58Z",
-          "primary": false,
-          "symbol": "IP"
-        },
-        {
-          "headline": "International Paper (IP) Stock Looks Discounted On Its 20% Slide",
-          "url": "https://finnhub.io/api/news?id=62106375534a351078b441cda7b8a36cdbcfb03bd2cf8e83f07e3c5b66bfbc8d",
+          "headline": "International Paper (IP) Faces A Fresh Valuation Test On DS Smith Spin Off",
+          "url": "https://finnhub.io/api/news?id=9427622e5c6f9942bec8eccb71a50e54671b9022c3b7b277447a52a1a38e30be",
           "source": "Yahoo",
-          "published_at": "2026-11-18T01:09:36Z",
+          "published_at": "2026-11-25T03:14:26Z",
           "primary": false,
           "symbol": "IP"
         },
         {
-          "headline": "International Paper Company Guarantees €350 million Term Facility, €1 billion Revolving Facility and €1.55 billion Bridge Facility for DS Smith",
-          "url": "https://finnhub.io/api/news?id=fbe5eb36b942617f63bd00a81a009d9c9897ff6fa6b371906c438e3c875dba31",
+          "headline": "International Paper clears EMEA unit spin-off and plans London delisting",
+          "url": "https://finnhub.io/api/news?id=d524e77d043f7ad38c2e32d64b5ff86111d5d114ac64e28ab9b3491e790af28f",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T08:00:22Z",
+          "primary": false,
+          "symbol": "IP"
+        },
+        {
+          "headline": "International Paper Board of Directors Approves Spin-off of EMEA Packaging Business (DS Smith plc)",
+          "url": "https://finnhub.io/api/news?id=b8596fc99a3f78b2529ffb1b7c761efd613ee7dc8da01d044e41b05a72d6940d",
           "source": "Fintel",
-          "published_at": "2026-11-17T09:38:47Z",
+          "published_at": "2026-11-23T23:39:08Z",
+          "primary": false,
+          "symbol": "IP"
+        },
+        {
+          "headline": "International Paper Approves DS Smith Spin-Off, Targets $2 Billion Debt Reduction",
+          "url": "https://finnhub.io/api/news?id=06cdd4650337435d831441f148644f01a942122779d193f140d96ecd5eeeca36",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:12:15Z",
+          "primary": false,
+          "symbol": "IP"
+        },
+        {
+          "headline": "Paper Giant Scraps Sale of European Package Business for Spinoff Instead. Why the Stock Fell.",
+          "url": "https://finnhub.io/api/news?id=cdb133d20e4f2f17a92304d6503d983314a37c4eeb5fdd954821bbf6d8dd4f65",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:53:00Z",
           "primary": false,
           "symbol": "IP"
         }
@@ -30024,6 +30064,6 @@
       ]
     }
   },
-  "cursor": 366,
-  "updated_at": "2026-11-25T12:12:55Z"
+  "cursor": 378,
+  "updated_at": "2026-11-25T13:34:14Z"
 }
