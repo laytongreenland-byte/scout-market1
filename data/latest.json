@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:12:41Z",
+  "generated_at": "2026-11-25T12:12:55Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T11:12:41Z",
+      "checked_at": "2026-11-25T12:12:55Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T11:12:41Z",
+      "checked_at": "2026-11-25T12:12:55Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T11:12:41Z",
+      "checked_at": "2026-11-25T12:12:55Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T11:12:41Z",
+      "checked_at": "2026-11-25T12:12:55Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T11:12:41Z",
+      "checked_at": "2026-11-25T12:12:55Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T11:12:41Z",
+    "generated_at": "2026-11-25T12:12:55Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -12770,7 +12770,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 15.9% (TTM); Return on equity 24.1% (TTM); Trailing P/E 7.9×; TTM revenue growth 6.0% YoY",
+        "why": "Net profit margin 15.9% (TTM); Return on equity 24.1% (TTM); Trailing P/E 8.0×; TTM revenue growth 6.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12784,31 +12784,16 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T05:34:35Z",
+            "timestamp": "2026-11-25T12:12:55Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Morgan Stanley Maintains Equal-Weight on The Hartford Insurance Gr, Raises Price Target to $145",
-            "timestamp": "2026-11-17T12:04:39Z",
-            "url": "https://finnhub.io/api/news?id=9b96aa66a7fd26d17f3d3370f6f000867592f9dc822670c6fbfb92d8a94d2f7e"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T05:34:35Z",
+        "fundamentals_at": "2026-11-25T12:12:55Z",
         "price": 138.16,
         "currency": "USD",
         "change_pct": 0.839,
-        "news": [
-          {
-            "headline": "Morgan Stanley Maintains Equal-Weight on The Hartford Insurance Gr, Raises Price Target to $145",
-            "url": "https://finnhub.io/api/news?id=9b96aa66a7fd26d17f3d3370f6f000867592f9dc822670c6fbfb92d8a94d2f7e",
-            "source": "Benzinga",
-            "published_at": "2026-11-17T12:04:39Z",
-            "primary": false,
-            "symbol": "HIG"
-          }
-        ],
+        "news": [],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
@@ -12841,7 +12826,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Leisure Products",
-        "why": "Net profit margin 18.4% (TTM); Return on equity 136.2% (TTM); Trailing P/E 16.5×; TTM revenue growth 18.9% YoY",
+        "why": "Net profit margin 18.4% (TTM); Return on equity 136.2% (TTM); Trailing P/E 16.4×; TTM revenue growth 18.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12855,35 +12840,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T05:34:35Z",
+            "timestamp": "2026-11-25T12:12:55Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
-            "timestamp": "2026-11-20T10:34:48Z",
-            "url": "https://finnhub.io/api/news?id=910b858f05ec8e35808505b2c578008ae3c24dbfa0023aade76823b9ce085e2f"
+            "value": "Hasbro's Exodus and Warlock Launches in 2027: Will This Drive Growth?",
+            "timestamp": "2026-11-24T13:02:00Z",
+            "url": "https://finnhub.io/api/news?id=7fdd1c389f29f609354e333e220c31a808ff4ab8588566fdb4ede6057d9cd280"
           }
         ],
         "as_of": "2026-11-24T21:00:00Z",
-        "fundamentals_at": "2026-11-23T05:34:35Z",
+        "fundamentals_at": "2026-11-25T12:12:55Z",
         "price": 112.24,
         "currency": "USD",
         "change_pct": -1.136,
         "news": [
           {
-            "headline": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
-            "url": "https://finnhub.io/api/news?id=910b858f05ec8e35808505b2c578008ae3c24dbfa0023aade76823b9ce085e2f",
+            "headline": "Hasbro's Exodus and Warlock Launches in 2027: Will This Drive Growth?",
+            "url": "https://finnhub.io/api/news?id=7fdd1c389f29f609354e333e220c31a808ff4ab8588566fdb4ede6057d9cd280",
             "source": "Yahoo",
-            "published_at": "2026-11-20T10:34:48Z",
+            "published_at": "2026-11-24T13:02:00Z",
             "primary": false,
             "symbol": "HAS"
           },
           {
-            "headline": "Hasbro (HAS) Up 4.1% Since Last Earnings Report: Can It Continue?",
-            "url": "https://finnhub.io/api/news?id=8c32d54bc6e70f68f80dbdb2a6b17e36cfac021e87e69fbca0120d9d8c2b921c",
+            "headline": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
+            "url": "https://finnhub.io/api/news?id=910b858f05ec8e35808505b2c578008ae3c24dbfa0023aade76823b9ce085e2f",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:30:05Z",
+            "published_at": "2026-11-20T10:34:48Z",
             "primary": false,
             "symbol": "HAS"
           }
@@ -15390,7 +15375,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T11:12:41Z",
+      "generated_at": "2026-11-25T12:12:55Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 821,
