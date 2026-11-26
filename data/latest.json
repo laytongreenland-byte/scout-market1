@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:16:49Z",
+  "generated_at": "2026-11-26T17:24:22Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T16:16:49Z",
+      "checked_at": "2026-11-26T17:24:22Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T16:16:49Z",
+      "checked_at": "2026-11-26T17:24:22Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T16:16:49Z",
+      "checked_at": "2026-11-26T17:24:22Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T16:16:49Z",
+      "checked_at": "2026-11-26T17:24:22Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T16:16:49Z",
+      "checked_at": "2026-11-26T17:24:22Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T16:16:49Z",
+    "generated_at": "2026-11-26T17:24:22Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8320,7 +8320,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Financial Services",
-        "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 14.9×; TTM revenue growth 12.3% YoY",
+        "why": "Net profit margin 34.9% (TTM); Return on equity 20.4% (TTM); Trailing P/E 15.0×; TTM revenue growth 12.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8334,35 +8334,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T05:18:09Z",
+            "timestamp": "2026-11-26T17:24:22Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
-            "timestamp": "2026-11-23T13:45:00Z",
-            "url": "https://finnhub.io/api/news?id=8dfbd40829e4c2c36881f3aaf0fab0eea927fd39e343f951072c96760fbe2114"
+            "value": "Charles Schwab (SCHW) Unveils New AI Assistants For Retail Traders",
+            "timestamp": "2026-11-26T13:14:09Z",
+            "url": "https://finnhub.io/api/news?id=a748eb063950630c448bcf9f4354b22023acb0cce9e937edc35e2d07796a0a4c"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T05:18:09Z",
+        "fundamentals_at": "2026-11-26T17:24:22Z",
         "price": 93.47,
         "currency": "USD",
         "change_pct": -0.469,
         "news": [
           {
-            "headline": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
-            "url": "https://finnhub.io/api/news?id=8dfbd40829e4c2c36881f3aaf0fab0eea927fd39e343f951072c96760fbe2114",
+            "headline": "Charles Schwab (SCHW) Unveils New AI Assistants For Retail Traders",
+            "url": "https://finnhub.io/api/news?id=a748eb063950630c448bcf9f4354b22023acb0cce9e937edc35e2d07796a0a4c",
             "source": "Yahoo",
-            "published_at": "2026-11-23T13:45:00Z",
+            "published_at": "2026-11-26T13:14:09Z",
             "primary": false,
             "symbol": "SCHW"
           },
           {
-            "headline": "Charles Schwab Sells $7M As Shares Recover From Three-Month Slide",
-            "url": "https://finnhub.io/api/news?id=46dc76ab055e120b1c99848c81125dc984919e6e3153a8ff6f279d75c179f045",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T11:05:16Z",
+            "headline": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
+            "url": "https://finnhub.io/api/news?id=8dfbd40829e4c2c36881f3aaf0fab0eea927fd39e343f951072c96760fbe2114",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T13:45:00Z",
             "primary": false,
             "symbol": "SCHW"
           }
@@ -11861,7 +11861,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Energy",
-        "why": "Net profit margin 19.6% (TTM); Return on equity 11.5% (TTM); Trailing P/E 19.0×; TTM revenue growth 11.7% YoY",
+        "why": "Net profit margin 19.6% (TTM); Return on equity 11.5% (TTM); Trailing P/E 19.6×; TTM revenue growth 11.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11875,35 +11875,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T05:18:09Z",
+            "timestamp": "2026-11-26T17:24:22Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
-            "timestamp": "2026-11-23T04:30:27Z",
-            "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69"
+            "value": "Jefferies Maintains Hold on Kinder Morgan, Lowers Price Target to $34",
+            "timestamp": "2026-11-25T09:01:39Z",
+            "url": "https://finnhub.io/api/news?id=c05cc00aa732f4917ca720f81bf748b00e87a24445d569aa8ad8980c53c31c39"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T05:18:09Z",
+        "fundamentals_at": "2026-11-26T17:24:22Z",
         "price": 31.7,
         "currency": "USD",
         "change_pct": 1.995,
         "news": [
           {
-            "headline": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
-            "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69",
-            "source": "Yahoo",
-            "published_at": "2026-11-23T04:30:27Z",
+            "headline": "Jefferies Maintains Hold on Kinder Morgan, Lowers Price Target to $34",
+            "url": "https://finnhub.io/api/news?id=c05cc00aa732f4917ca720f81bf748b00e87a24445d569aa8ad8980c53c31c39",
+            "source": "Benzinga",
+            "published_at": "2026-11-25T09:01:39Z",
             "primary": false,
             "symbol": "KMI"
           },
           {
-            "headline": "Why Is Kinder Morgan (KMI) Down 7.8% Since Last Earnings Report?",
-            "url": "https://finnhub.io/api/news?id=0ed3f6ba7b10d15f58977003c334df0f3c8b2880f91e77799f9f746b41a00ee4",
+            "headline": "Pfizer or Kinder Morgan: The One Dividend Stock I’d Hold for the Next 10 Years",
+            "url": "https://finnhub.io/api/news?id=b7f809f6131341e2f54b53f2abcdd2aa812e59c2256040367a35536e425e3a69",
             "source": "Yahoo",
-            "published_at": "2026-11-20T15:30:06Z",
+            "published_at": "2026-11-23T04:30:27Z",
             "primary": false,
             "symbol": "KMI"
           }
@@ -14190,7 +14190,7 @@
         "status": "WATCH",
         "score": 66,
         "industry": "Industrial Conglomerates",
-        "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 10.0×; TTM revenue growth 4.2% YoY",
+        "why": "Net profit margin 23.0% (TTM); Return on equity 41.2% (TTM); Trailing P/E 10.1×; TTM revenue growth 4.2% YoY",
         "risks": [
           "Large drawdown: recovery is not assured"
         ],
@@ -14204,35 +14204,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T07:29:21Z",
+            "timestamp": "2026-11-26T17:24:22Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Invesco NASDAQ 100 ETF (QQQM) Buys $340.9 Million More Honeywell on Nov. 19",
-            "timestamp": "2026-11-23T11:04:58Z",
-            "url": "https://finnhub.io/api/news?id=9c32e67830450ce7ccd309b243f039123bd70e22eef13f0cd1886d87c7b4f972"
+            "value": "Smart Hospitals - Global Strategic Business Report: Capitalize on a US$280.5 Billion Market by 2030 as IBM, Huawei, Honeywell, GE Healthcare and Cerner Disrupt Care at 22.9% CAGR",
+            "timestamp": "2026-11-26T14:53:00Z",
+            "url": "https://finnhub.io/api/news?id=a9d4a6a584af0040c608032142e1435a6afc04cd05d2777ba986c632bc9cf5fd"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T07:29:21Z",
+        "fundamentals_at": "2026-11-26T17:24:22Z",
         "price": 225.14,
         "currency": "USD",
         "change_pct": 0.142,
         "news": [
           {
-            "headline": "Invesco NASDAQ 100 ETF (QQQM) Buys $340.9 Million More Honeywell on Nov. 19",
-            "url": "https://finnhub.io/api/news?id=9c32e67830450ce7ccd309b243f039123bd70e22eef13f0cd1886d87c7b4f972",
+            "headline": "Smart Hospitals - Global Strategic Business Report: Capitalize on a US$280.5 Billion Market by 2030 as IBM, Huawei, Honeywell, GE Healthcare and Cerner Disrupt Care at 22.9% CAGR",
+            "url": "https://finnhub.io/api/news?id=a9d4a6a584af0040c608032142e1435a6afc04cd05d2777ba986c632bc9cf5fd",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:04:58Z",
+            "published_at": "2026-11-26T14:53:00Z",
             "primary": false,
             "symbol": "HON"
           },
           {
-            "headline": "ETFs Are Buying Honeywell (HON) on Nov. 19",
-            "url": "https://finnhub.io/api/news?id=3e12c4e82a4a293d05baa0b5520f10550737210bee416d4dbebf886741f59697",
+            "headline": "Global Aircraft Emergency Oxygen System Market Report 2026 | Capitalize on 8.8% CAGR Through 2030 with Safran, Honeywell, Eaton, Liebherr-Aerospace and AMETEK",
+            "url": "https://finnhub.io/api/news?id=444c5d7b28d221718c5f7a244c00cb3785caf9bafcf18310a366db5cab4b2d05",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:00:45Z",
+            "published_at": "2026-11-26T14:28:00Z",
             "primary": false,
             "symbol": "HON"
           }
@@ -14242,12 +14242,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "QUALITY GATE NOT MET",
-          "entry_ceiling": 286.57,
-          "entry_floor": 257.91,
-          "exit_review_low": 367.39,
-          "exit_review_high": 428.35,
-          "bear_case": 208.43,
-          "scenario_upside_pct": 63.2,
+          "entry_ceiling": 282.93,
+          "entry_floor": 254.64,
+          "exit_review_low": 362.73,
+          "exit_review_high": 422.92,
+          "bear_case": 205.79,
+          "scenario_upside_pct": 61.1,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14260,12 +14260,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 9.99,
+            "trailing_pe": 10.12,
             "earnings_growth_assumed_pct": 1.88,
             "scenario_exit_pe": 16.0,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T07:29:21Z"
+            "metrics_retrieved_at": "2026-11-26T17:24:22Z"
           }
         },
         "ranking_score": 66,
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T16:16:49Z",
+      "generated_at": "2026-11-26T17:24:22Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 834,
