@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T22:03:59Z",
+  "generated_at": "2026-11-26T23:06:39Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T22:03:59Z",
+      "checked_at": "2026-11-26T23:06:39Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T22:03:59Z",
+      "checked_at": "2026-11-26T23:06:39Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T22:03:59Z",
+      "checked_at": "2026-11-26T23:06:39Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T22:03:59Z",
+      "checked_at": "2026-11-26T23:06:39Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T22:03:59Z",
+      "checked_at": "2026-11-26T23:06:39Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T22:03:59Z",
+    "generated_at": "2026-11-26T23:06:39Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8810,7 +8810,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Trading Companies & Distributors",
-        "why": "Net profit margin 16.3% (TTM); Return on equity 31.0% (TTM); Trailing P/E 22.7×; TTM revenue growth 9.4% YoY",
+        "why": "Net profit margin 16.3% (TTM); Return on equity 31.0% (TTM); Trailing P/E 21.1×; TTM revenue growth 9.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8824,35 +8824,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T13:26:34Z",
+            "timestamp": "2026-11-26T23:06:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "What Explains The Move In United Rentals Stock?",
-            "timestamp": "2026-11-23T11:22:35Z",
-            "url": "https://finnhub.io/api/news?id=8403b77ad9347f83c5941b12ed6ff206b45abc1e7dd44e2f98d8e4ac5927b477"
+            "value": "URI vs. HRI: Which Equipment Rental Stock is the Better Buy Now?",
+            "timestamp": "2026-11-25T14:04:00Z",
+            "url": "https://finnhub.io/api/news?id=706f9cee54f6a12ee0784ce65b134c3988d6f817deddef2b62f51e0cd713d2f8"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T13:26:34Z",
+        "fundamentals_at": "2026-11-26T23:06:39Z",
         "price": 1015.72,
         "currency": "USD",
         "change_pct": -1.356,
         "news": [
           {
-            "headline": "What Explains The Move In United Rentals Stock?",
-            "url": "https://finnhub.io/api/news?id=8403b77ad9347f83c5941b12ed6ff206b45abc1e7dd44e2f98d8e4ac5927b477",
+            "headline": "URI vs. HRI: Which Equipment Rental Stock is the Better Buy Now?",
+            "url": "https://finnhub.io/api/news?id=706f9cee54f6a12ee0784ce65b134c3988d6f817deddef2b62f51e0cd713d2f8",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:22:35Z",
+            "published_at": "2026-11-25T14:04:00Z",
             "primary": false,
             "symbol": "URI"
           },
           {
-            "headline": "United Rentals (URI) Stock Could Be A Bargain On Cash Flow",
-            "url": "https://finnhub.io/api/news?id=7c6934d1e53edf2fa3113ce70af291a373c558fde27bb172728c30e364b54126",
+            "headline": "United Rentals (URI) Just Climbed, What Is Drawing Attention Now?",
+            "url": "https://finnhub.io/api/news?id=3d35381a9dd8ab99f59bc42740063b31b3b00eb74c9aa19f60e3bf0973b99a3c",
             "source": "Yahoo",
-            "published_at": "2026-11-21T05:17:18Z",
+            "published_at": "2026-11-24T13:10:23Z",
             "primary": false,
             "symbol": "URI"
           }
@@ -8862,12 +8862,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 628.76,
-          "entry_floor": 565.88,
-          "exit_review_low": 806.1,
-          "exit_review_high": 955.36,
-          "bear_case": 446.93,
-          "scenario_upside_pct": -20.6,
+          "entry_ceiling": 676.15,
+          "entry_floor": 608.54,
+          "exit_review_low": 866.86,
+          "exit_review_high": 1027.37,
+          "bear_case": 480.62,
+          "scenario_upside_pct": -14.7,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8880,12 +8880,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 22.69,
+            "trailing_pe": 21.1,
             "earnings_growth_assumed_pct": 4.25,
             "scenario_exit_pe": 17.27,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T13:26:34Z"
+            "metrics_retrieved_at": "2026-11-26T23:06:39Z"
           }
         },
         "ranking_score": 82,
@@ -13316,7 +13316,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Communications",
-        "why": "Net profit margin 22.3% (TTM); Return on equity 30.1% (TTM); Trailing P/E 25.5×; TTM revenue growth 16.1% YoY",
+        "why": "Net profit margin 22.3% (TTM); Return on equity 30.1% (TTM); Trailing P/E 24.8×; TTM revenue growth 16.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13330,35 +13330,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T13:26:34Z",
+            "timestamp": "2026-11-26T23:06:39Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Can Cisco Stock Hit $120?",
-            "timestamp": "2026-11-24T05:06:42Z",
-            "url": "https://finnhub.io/api/news?id=592576f63c657c4954de2122bdfd22c204a1f3fda9f58b237c81cf8531ceaae3"
+            "value": "Ken Fisher and 13 Other Big Funds Bought Cisco Last Quarter, While 11 Sold. Who’s Right?",
+            "timestamp": "2026-11-26T18:41:07Z",
+            "url": "https://finnhub.io/api/news?id=a1a401ad2152ea6ab113067a41988f17ce29c15907e6bcb9df0584381fe36f08"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T13:26:34Z",
+        "fundamentals_at": "2026-11-26T23:06:39Z",
         "price": 94.2,
         "currency": "USD",
         "change_pct": 0.223,
         "news": [
           {
-            "headline": "Can Cisco Stock Hit $120?",
-            "url": "https://finnhub.io/api/news?id=592576f63c657c4954de2122bdfd22c204a1f3fda9f58b237c81cf8531ceaae3",
+            "headline": "Ken Fisher and 13 Other Big Funds Bought Cisco Last Quarter, While 11 Sold. Who’s Right?",
+            "url": "https://finnhub.io/api/news?id=a1a401ad2152ea6ab113067a41988f17ce29c15907e6bcb9df0584381fe36f08",
             "source": "Yahoo",
-            "published_at": "2026-11-24T05:06:42Z",
+            "published_at": "2026-11-26T18:41:07Z",
             "primary": false,
             "symbol": "CSCO"
           },
           {
-            "headline": "Why Motorola's Premium Over Cisco Is Harder To Justify",
-            "url": "https://finnhub.io/api/news?id=82d19c90d94b6912daae47af122136150a69e7974a0c14cfb3b804716638ecea",
+            "headline": "Global Data Center Router Market Report 2027-2035: Size, Share, Trends, Forecast, and Competitive Analysis Featuring Cisco Systems, Fortinet, Juniper Networks, ALE International, D-Link India, TE Connectivity and More",
+            "url": "https://finnhub.io/api/news?id=23a91f4e8c80ed5386e7605ece9d748d3a8bcc25d83e0d7ed2563b2af2760e7d",
             "source": "Yahoo",
-            "published_at": "2026-11-24T00:02:46Z",
+            "published_at": "2026-11-26T15:20:00Z",
             "primary": false,
             "symbol": "CSCO"
           }
@@ -13368,12 +13368,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 58.21,
-          "entry_floor": 52.39,
-          "exit_review_low": 74.63,
-          "exit_review_high": 90.16,
-          "bear_case": 40.23,
-          "scenario_upside_pct": -20.8,
+          "entry_ceiling": 59.82,
+          "entry_floor": 53.83,
+          "exit_review_low": 76.69,
+          "exit_review_high": 92.64,
+          "bear_case": 41.34,
+          "scenario_upside_pct": -18.6,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13386,12 +13386,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 25.51,
+            "trailing_pe": 24.83,
             "earnings_growth_assumed_pct": 7.22,
             "scenario_exit_pe": 18.85,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T13:26:34Z"
+            "metrics_retrieved_at": "2026-11-26T23:06:39Z"
           }
         },
         "ranking_score": 77,
@@ -15365,10 +15365,10 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T22:03:59Z",
+      "generated_at": "2026-11-26T23:06:39Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 835,
+        "recorded": 836,
         "purchase_scenarios": 78,
         "opened": 4,
         "closed": 0,
@@ -15378,10 +15378,30 @@
         "not_triggered": 0,
         "waiting": 78,
         "unverified": 0,
-        "skipped": 757,
+        "skipped": 758,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|BSX|ABOVE BASE CASE",
+          "symbol": "BSX",
+          "name": "Boston Scientific Corporation",
+          "signal": "ABOVE BASE CASE",
+          "decision_at": "2026-11-26T23:06:39Z",
+          "quote_at": "2026-11-25T21:00:00Z",
+          "reference_price": 45.12,
+          "buy_ceiling": 34.52,
+          "sell_review": 44.26,
+          "risk": "Large drawdown: recovery is not assured",
+          "why": "Net profit margin 16.6% (TTM); Return on equity 13.9% (TTM); Trailing P/E 18.2×; TTM revenue growth 8.9% YoY",
+          "score": 68,
+          "result": {
+            "status": "OBSERVING_SKIP",
+            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|CMI|ABOVE BASE CASE",
           "symbol": "CMI",
@@ -17762,26 +17782,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 8.4% (TTM); Return on equity 51.5% (TTM); Trailing P/E 7.2×; TTM revenue growth 24.6% YoY",
           "score": 82,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|TCOM|NO RELIABLE PRICE RANGE",
-          "symbol": "TCOM",
-          "name": "Trip.com Group Ltd",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 40.52,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Large drawdown: recovery is not assured",
-          "why": "Net profit margin 36.9% (TTM); Return on equity 14.6% (TTM); Trailing P/E 7.7×; TTM revenue growth 14.5% YoY",
-          "score": 69,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

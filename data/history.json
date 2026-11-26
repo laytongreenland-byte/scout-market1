@@ -73757,6 +73757,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|BSX|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "BSX",
+      "name": "Boston Scientific Corporation",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-26T23:06:39Z",
+      "quote_at": "2026-11-25T21:00:00Z",
+      "reference_price": 45.12,
+      "score": 68,
+      "quality_status": "WATCH",
+      "buy_ceiling": 34.52,
+      "sell_review": 44.26,
+      "bear_case": 24.6,
+      "why": "Net profit margin 16.6% (TTM); Return on equity 13.9% (TTM); Trailing P/E 18.2×; TTM revenue growth 8.9% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-26T23:06:39Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
