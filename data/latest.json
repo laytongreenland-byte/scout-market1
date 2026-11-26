@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:04:05Z",
+  "generated_at": "2026-11-26T04:12:48Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T03:04:05Z",
+      "checked_at": "2026-11-26T04:12:48Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T03:04:05Z",
+      "checked_at": "2026-11-26T04:12:48Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T03:04:05Z",
+      "checked_at": "2026-11-26T04:12:48Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T03:04:05Z",
+      "checked_at": "2026-11-26T04:12:48Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T03:04:05Z",
+      "checked_at": "2026-11-26T04:12:48Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T03:04:05Z",
+    "generated_at": "2026-11-26T04:12:48Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10296,7 +10296,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Electrical Equipment",
-        "why": "Net profit margin 9.8% (TTM); Return on equity 17.1% (TTM); Trailing P/E 23.6×; TTM revenue growth 16.9% YoY",
+        "why": "Net profit margin 9.8% (TTM); Return on equity 17.1% (TTM); Trailing P/E 23.9×; TTM revenue growth 16.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10310,35 +10310,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T20:12:20Z",
+            "timestamp": "2026-11-26T04:12:48Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Zebra Technologies Sees 2027 Growth as Delivery Refreshes Offset Memory Cost Pressures",
-            "timestamp": "2026-11-21T07:12:05Z",
-            "url": "https://finnhub.io/api/news?id=9f6eb409dbe7cabd64b95477c35f110217880402ae80acc2e201bab3f91e39e0"
+            "value": "Radio Frequency Identification (RFID) Track and Trace Solutions Global Market Report 2026 | Capitalize on AI, Cloud and Automation with Honeywell, Impinj, Zebra and Avery Dennison",
+            "timestamp": "2026-11-25T14:25:00Z",
+            "url": "https://finnhub.io/api/news?id=cda6849e1ba644d34940645b59f83c5561ee75f924fa6c98da1f91728ddf768c"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T20:12:20Z",
+        "fundamentals_at": "2026-11-26T04:12:48Z",
         "price": 318.37,
         "currency": "USD",
         "change_pct": 1.079,
         "news": [
           {
-            "headline": "Zebra Technologies Sees 2027 Growth as Delivery Refreshes Offset Memory Cost Pressures",
-            "url": "https://finnhub.io/api/news?id=9f6eb409dbe7cabd64b95477c35f110217880402ae80acc2e201bab3f91e39e0",
+            "headline": "Radio Frequency Identification (RFID) Track and Trace Solutions Global Market Report 2026 | Capitalize on AI, Cloud and Automation with Honeywell, Impinj, Zebra and Avery Dennison",
+            "url": "https://finnhub.io/api/news?id=cda6849e1ba644d34940645b59f83c5561ee75f924fa6c98da1f91728ddf768c",
             "source": "Yahoo",
-            "published_at": "2026-11-21T07:12:05Z",
+            "published_at": "2026-11-25T14:25:00Z",
             "primary": false,
             "symbol": "ZBRA"
           },
           {
-            "headline": "Zebra Technologies Releases 2025 Sustainability Report, Outlining Steady Progress Toward Key Goals",
-            "url": "https://finnhub.io/api/news?id=aa37f5a4f654988166ff86d1f515e1ed0a49cf48ef7160e566e3511633ee42e5",
+            "headline": "Is Wall Street Bullish or Bearish on Zebra Technologies Stock?",
+            "url": "https://finnhub.io/api/news?id=86003fa55aa08d16de169b97c27a277fb10d93fa4cc2cf1e75f192c98d4bbd79",
             "source": "Yahoo",
-            "published_at": "2026-11-20T13:10:00Z",
+            "published_at": "2026-11-25T12:07:44Z",
             "primary": false,
             "symbol": "ZBRA"
           }
@@ -10348,12 +10348,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 215.8,
-          "entry_floor": 194.22,
-          "exit_review_low": 276.67,
-          "exit_review_high": 335.0,
-          "bear_case": 148.63,
-          "scenario_upside_pct": -13.1,
+          "entry_ceiling": 212.53,
+          "entry_floor": 191.28,
+          "exit_review_low": 272.48,
+          "exit_review_high": 329.93,
+          "bear_case": 146.38,
+          "scenario_upside_pct": -14.4,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10366,12 +10366,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 23.59,
+            "trailing_pe": 23.95,
             "earnings_growth_assumed_pct": 7.59,
             "scenario_exit_pe": 19.05,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T20:12:20Z"
+            "metrics_retrieved_at": "2026-11-26T04:12:48Z"
           }
         },
         "ranking_score": 82,
@@ -14103,7 +14103,7 @@
         "status": "WATCH",
         "score": 73,
         "industry": "Technology",
-        "why": "Net profit margin 69.2% (TTM); Return on equity 113.8% (TTM); Trailing P/E 9.8×; TTM revenue growth 43.0% YoY",
+        "why": "Net profit margin 69.2% (TTM); Return on equity 113.8% (TTM); Trailing P/E 10.3×; TTM revenue growth 43.0% YoY",
         "risks": [
           "Large drawdown: recovery is not assured"
         ],
@@ -14117,35 +14117,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T19:12:04Z",
+            "timestamp": "2026-11-26T04:12:48Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Western Digital Corporation (WDC) Is a Trending Stock: Facts to Know Before Betting on It",
-            "timestamp": "2026-11-23T13:00:05Z",
-            "url": "https://finnhub.io/api/news?id=8557eed3fafde3bc0c51758a06275fa04fe567caa8307f610a9ea694f27890de"
+            "value": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
+            "timestamp": "2026-11-25T17:22:58Z",
+            "url": "https://finnhub.io/api/news?id=89ad8e455e11d614ad87de47886ac23f9824e33232018aa5ea86e0665c83367d"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T19:12:04Z",
+        "fundamentals_at": "2026-11-26T04:12:48Z",
         "price": 272.45,
         "currency": "USD",
         "change_pct": -0.548,
         "news": [
           {
-            "headline": "Western Digital Corporation (WDC) Is a Trending Stock: Facts to Know Before Betting on It",
-            "url": "https://finnhub.io/api/news?id=8557eed3fafde3bc0c51758a06275fa04fe567caa8307f610a9ea694f27890de",
+            "headline": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
+            "url": "https://finnhub.io/api/news?id=89ad8e455e11d614ad87de47886ac23f9824e33232018aa5ea86e0665c83367d",
             "source": "Yahoo",
-            "published_at": "2026-11-23T13:00:05Z",
+            "published_at": "2026-11-25T17:22:58Z",
             "primary": false,
             "symbol": "WDC"
           },
           {
-            "headline": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals",
-            "url": "https://finnhub.io/api/news?id=42807ce1bc6cd5500c7d3fff087d5fed50346391f2e7501fc94a02d666aa7c1e",
-            "source": "ChartMill",
-            "published_at": "2026-11-21T13:40:48Z",
+            "headline": "Sandisk vs. Western Digital: Which Computer Drive Stock Is a Better Buy for 2027?",
+            "url": "https://finnhub.io/api/news?id=c9a3524348fd19abc99596758d1444285e82e053e19f7104939db9f2f5ea8225",
+            "source": "Yahoo",
+            "published_at": "2026-11-25T17:19:02Z",
             "primary": false,
             "symbol": "WDC"
           }
@@ -14155,12 +14155,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "POSSIBLE VALUE TRAP",
-          "entry_ceiling": 466.15,
-          "entry_floor": 419.54,
-          "exit_review_low": 675.94,
-          "exit_review_high": 825.46,
-          "bear_case": 358.43,
-          "scenario_upside_pct": 148.1,
+          "entry_ceiling": 471.21,
+          "entry_floor": 424.09,
+          "exit_review_low": 642.39,
+          "exit_review_high": 784.5,
+          "bear_case": 340.64,
+          "scenario_upside_pct": 135.8,
           "reason": "Share price is beneath the downside scenario. Verify whether the business has deteriorated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14173,12 +14173,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 9.75,
+            "trailing_pe": 10.26,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 22.2,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T19:12:04Z"
+            "metrics_retrieved_at": "2026-11-26T04:12:48Z"
           }
         },
         "ranking_score": 73,
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T03:04:05Z",
+      "generated_at": "2026-11-26T04:12:48Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 833,
