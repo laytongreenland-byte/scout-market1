@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T23:03:39Z",
+  "generated_at": "2026-11-25T23:57:15Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-25T23:03:39Z",
+      "checked_at": "2026-11-25T23:57:15Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-25T23:03:39Z",
+      "checked_at": "2026-11-25T23:57:15Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-25T23:03:39Z",
+      "checked_at": "2026-11-25T23:57:15Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-25T23:03:39Z",
+      "checked_at": "2026-11-25T23:57:15Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-25T23:03:39Z",
+      "checked_at": "2026-11-25T23:57:15Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-25T23:03:39Z",
+    "generated_at": "2026-11-25T23:57:15Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8059,7 +8059,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 19.7% (TTM); Return on equity 284.2% (TTM); Trailing P/E 14.6×; TTM revenue growth 13.7% YoY",
+        "why": "Net profit margin 19.7% (TTM); Return on equity 284.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 13.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8073,35 +8073,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
+            "timestamp": "2026-11-25T23:57:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Zacks.com featured highlights include Stride, Tapestry, HeartBeam, QuantumScape and Alto Ingredients",
-            "timestamp": "2026-11-23T12:15:00Z",
-            "url": "https://finnhub.io/api/news?id=2d7f195f621b9fdd068b68c0094dc5c8ec8b5141539b76370568c09c079ef2cf"
+            "value": "Tapestry (TPR) Stock May Be 26% Undervalued On Cash Flow",
+            "timestamp": "2026-11-25T08:08:40Z",
+            "url": "https://finnhub.io/api/news?id=b10b843b7c5a288285e8cf638f3d99a3d3031b9d6f55220d65821223fd5de00a"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
+        "fundamentals_at": "2026-11-25T23:57:15Z",
         "price": 129.6,
         "currency": "USD",
         "change_pct": 0.527,
         "news": [
           {
-            "headline": "Zacks.com featured highlights include Stride, Tapestry, HeartBeam, QuantumScape and Alto Ingredients",
-            "url": "https://finnhub.io/api/news?id=2d7f195f621b9fdd068b68c0094dc5c8ec8b5141539b76370568c09c079ef2cf",
+            "headline": "Tapestry (TPR) Stock May Be 26% Undervalued On Cash Flow",
+            "url": "https://finnhub.io/api/news?id=b10b843b7c5a288285e8cf638f3d99a3d3031b9d6f55220d65821223fd5de00a",
             "source": "Yahoo",
-            "published_at": "2026-11-23T12:15:00Z",
+            "published_at": "2026-11-25T08:08:40Z",
             "primary": false,
             "symbol": "TPR"
           },
           {
-            "headline": "Wall Street Analysts See a 31.98% Upside in Tapestry (TPR): Can the Stock Really Move This High?",
-            "url": "https://finnhub.io/api/news?id=73ebc2f910944b1f243e591d59864a20078bb94ecc542437635d44fef85305ce",
+            "headline": "Tapestry (TPR) On Earnings Momentum And Fresh Coverage Looks Undervalued",
+            "url": "https://finnhub.io/api/news?id=e093f22e2d52c0a39cdf1ed13c252d741e1bd6fd097ea8ecaecd7dc299c3b49e",
             "source": "Yahoo",
-            "published_at": "2026-11-20T13:55:02Z",
+            "published_at": "2026-11-25T03:14:13Z",
             "primary": false,
             "symbol": "TPR"
           }
@@ -8110,14 +8110,14 @@
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "ENTRY CANDIDATE",
-          "entry_ceiling": 132.63,
-          "entry_floor": 119.37,
-          "exit_review_low": 171.99,
-          "exit_review_high": 206.39,
-          "bear_case": 93.64,
-          "scenario_upside_pct": 32.7,
-          "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
+          "signal": "WAIT FOR ENTRY",
+          "entry_ceiling": 124.62,
+          "entry_floor": 112.16,
+          "exit_review_low": 159.77,
+          "exit_review_high": 191.73,
+          "bear_case": 86.99,
+          "scenario_upside_pct": 23.3,
+          "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -8129,12 +8129,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.62,
+            "trailing_pe": 15.74,
             "earnings_growth_assumed_pct": 6.16,
             "scenario_exit_pe": 18.28,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T15:15:00Z"
+            "metrics_retrieved_at": "2026-11-25T23:57:15Z"
           }
         },
         "ranking_score": 86,
@@ -8146,7 +8146,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Electrical Equipment",
-        "why": "Net profit margin 16.4% (TTM); Return on equity 24.5% (TTM); Trailing P/E 17.6×; TTM revenue growth 15.2% YoY",
+        "why": "Net profit margin 16.4% (TTM); Return on equity 24.5% (TTM); Trailing P/E 18.4×; TTM revenue growth 15.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8160,22 +8160,30 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T16:21:19Z",
+            "timestamp": "2026-11-25T23:57:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Baird Maintains Outperform on TE Connectivity, Lowers Price Target to $235",
-            "timestamp": "2026-11-23T08:05:47Z",
-            "url": "https://finnhub.io/api/news?id=b85a3083a4fe1d200e0d5da064039aeb5684686b5ec740d6b98da0c6df26f94b"
+            "value": "What Is TE Connectivity (TEL) Planning With Its $60 Million New York Fiber Hub?",
+            "timestamp": "2026-11-23T17:13:15Z",
+            "url": "https://finnhub.io/api/news?id=e45797313f6502cb6d1d17e92b846c7b5728b42df10ff0d65b33cf3719c526e3"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T16:21:19Z",
+        "fundamentals_at": "2026-11-25T23:57:15Z",
         "price": 211.48,
         "currency": "USD",
         "change_pct": 1.327,
         "news": [
+          {
+            "headline": "What Is TE Connectivity (TEL) Planning With Its $60 Million New York Fiber Hub?",
+            "url": "https://finnhub.io/api/news?id=e45797313f6502cb6d1d17e92b846c7b5728b42df10ff0d65b33cf3719c526e3",
+            "source": "Yahoo",
+            "published_at": "2026-11-23T17:13:15Z",
+            "primary": false,
+            "symbol": "TEL"
+          },
           {
             "headline": "Baird Maintains Outperform on TE Connectivity, Lowers Price Target to $235",
             "url": "https://finnhub.io/api/news?id=b85a3083a4fe1d200e0d5da064039aeb5684686b5ec740d6b98da0c6df26f94b",
@@ -8190,12 +8198,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 186.5,
-          "entry_floor": 167.85,
-          "exit_review_low": 239.1,
-          "exit_review_high": 288.17,
-          "bear_case": 129.35,
-          "scenario_upside_pct": 13.1,
+          "entry_ceiling": 178.69,
+          "entry_floor": 160.82,
+          "exit_review_low": 229.09,
+          "exit_review_high": 276.1,
+          "bear_case": 123.94,
+          "scenario_upside_pct": 8.3,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8208,12 +8216,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 17.62,
+            "trailing_pe": 18.39,
             "earnings_growth_assumed_pct": 6.84,
             "scenario_exit_pe": 18.65,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T16:21:19Z"
+            "metrics_retrieved_at": "2026-11-25T23:57:15Z"
           }
         },
         "ranking_score": 86,
@@ -11298,35 +11306,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
+            "timestamp": "2026-11-25T23:57:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Synchrony Financial Puts Lending Discipline First, Sees Walmart as Growth Opportunity",
-            "timestamp": "2026-11-21T01:12:10Z",
-            "url": "https://finnhub.io/api/news?id=b51c558f5850e66fb04ebdd0b4046183a0edf497ae2fd606f4256f171b854b61"
+            "value": "SYF or AXP: Which Is the Better Value Stock Right Now?",
+            "timestamp": "2026-11-25T15:40:04Z",
+            "url": "https://finnhub.io/api/news?id=2c4782b649f1df14273cf0cd40f5847379a42be42c750236e47b4a222a82b876"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
+        "fundamentals_at": "2026-11-25T23:57:15Z",
         "price": 68.73,
         "currency": "USD",
         "change_pct": 1.207,
         "news": [
           {
-            "headline": "Synchrony Financial Puts Lending Discipline First, Sees Walmart as Growth Opportunity",
-            "url": "https://finnhub.io/api/news?id=b51c558f5850e66fb04ebdd0b4046183a0edf497ae2fd606f4256f171b854b61",
+            "headline": "SYF or AXP: Which Is the Better Value Stock Right Now?",
+            "url": "https://finnhub.io/api/news?id=2c4782b649f1df14273cf0cd40f5847379a42be42c750236e47b4a222a82b876",
             "source": "Yahoo",
-            "published_at": "2026-11-21T01:12:10Z",
+            "published_at": "2026-11-25T15:40:04Z",
             "primary": false,
             "symbol": "SYF"
           },
           {
-            "headline": "Synchrony (SYF) Down 5.3% Since Last Earnings Report: Can It Rebound?",
-            "url": "https://finnhub.io/api/news?id=01b1a9cb946473bc69156f72fb4f3bff90bc3cb12fea60afad5b3810bf3f83ad",
+            "headline": "Should Value Investors Buy Synchrony Financial (SYF) Stock?",
+            "url": "https://finnhub.io/api/news?id=691574bab26c17223d098376dc7f622c0c5bd464116b2851f59ad439534da199",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:30:07Z",
+            "published_at": "2026-11-25T13:40:03Z",
             "primary": false,
             "symbol": "SYF"
           }
@@ -11363,7 +11371,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Financial Services",
-        "why": "Net profit margin 28.4% (TTM); Return on equity 19.9% (TTM); Trailing P/E 9.8×; TTM revenue growth 6.9% YoY",
+        "why": "Net profit margin 28.4% (TTM); Return on equity 19.9% (TTM); Trailing P/E 9.9×; TTM revenue growth 6.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11377,35 +11385,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
+            "timestamp": "2026-11-25T23:57:15Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "A $400,000 Portfolio in T. Rowe Price, ONEOK and UDR Pays $20,171 a Year in Dividends. Here’s What Happens if One Cuts",
-            "timestamp": "2026-11-21T11:20:31Z",
-            "url": "https://finnhub.io/api/news?id=2a3c486f4ed13a48a58902c964e602607d8ca4a0269d39fdb85410e1e99cb662"
+            "value": "T. Rowe Price: 3 Key Takeaways for Long-Term Investors",
+            "timestamp": "2026-11-24T23:35:07Z",
+            "url": "https://finnhub.io/api/news?id=f6c24f7e6c18b34da7416fa38b56654d1e853c34719e27aecac5cec8ed72cae6"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
+        "fundamentals_at": "2026-11-25T23:57:15Z",
         "price": 103.55,
         "currency": "USD",
         "change_pct": 0.446,
         "news": [
           {
-            "headline": "A $400,000 Portfolio in T. Rowe Price, ONEOK and UDR Pays $20,171 a Year in Dividends. Here’s What Happens if One Cuts",
-            "url": "https://finnhub.io/api/news?id=2a3c486f4ed13a48a58902c964e602607d8ca4a0269d39fdb85410e1e99cb662",
+            "headline": "T. Rowe Price: 3 Key Takeaways for Long-Term Investors",
+            "url": "https://finnhub.io/api/news?id=f6c24f7e6c18b34da7416fa38b56654d1e853c34719e27aecac5cec8ed72cae6",
             "source": "Yahoo",
-            "published_at": "2026-11-21T11:20:31Z",
+            "published_at": "2026-11-24T23:35:07Z",
             "primary": false,
             "symbol": "TROW"
           },
           {
-            "headline": "T. Rowe Price Group Stock: Is Wall Street Bullish or Bearish?",
-            "url": "https://finnhub.io/api/news?id=6faaa74951d780739b9196077ddac39338ce17f12c0ffefbbc288e3ae9067fe2",
+            "headline": "Franklin vs. T. Rowe: Which Asset Manager Offers Better Upside Now?",
+            "url": "https://finnhub.io/api/news?id=5e2cef527cfef186a97c7dd4e75bc038ac484d827b8982f6fc83afbba1769b26",
             "source": "Yahoo",
-            "published_at": "2026-11-20T14:08:43Z",
+            "published_at": "2026-11-24T16:38:00Z",
             "primary": false,
             "symbol": "TROW"
           }
@@ -13914,93 +13922,6 @@
     ],
     "entry_candidates": [
       {
-        "symbol": "TPR",
-        "name": "Tapestry, Inc.",
-        "status": "INVESTIGATE",
-        "score": 86,
-        "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 19.7% (TTM); Return on equity 284.2% (TTM); Trailing P/E 14.6×; TTM revenue growth 13.7% YoY",
-        "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
-        ],
-        "evidence": [
-          {
-            "label": "Quote (USD)",
-            "value": "$129.60",
-            "timestamp": "2026-11-25T21:00:00Z",
-            "url": "https://finnhub.io/docs/api/quote"
-          },
-          {
-            "label": "Finnhub financial metrics",
-            "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T15:15:00Z",
-            "url": "https://finnhub.io/docs/api/stock-metrics"
-          },
-          {
-            "label": "Latest company-related article",
-            "value": "Zacks.com featured highlights include Stride, Tapestry, HeartBeam, QuantumScape and Alto Ingredients",
-            "timestamp": "2026-11-23T12:15:00Z",
-            "url": "https://finnhub.io/api/news?id=2d7f195f621b9fdd068b68c0094dc5c8ec8b5141539b76370568c09c079ef2cf"
-          }
-        ],
-        "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T15:15:00Z",
-        "price": 129.6,
-        "currency": "USD",
-        "change_pct": 0.527,
-        "news": [
-          {
-            "headline": "Zacks.com featured highlights include Stride, Tapestry, HeartBeam, QuantumScape and Alto Ingredients",
-            "url": "https://finnhub.io/api/news?id=2d7f195f621b9fdd068b68c0094dc5c8ec8b5141539b76370568c09c079ef2cf",
-            "source": "Yahoo",
-            "published_at": "2026-11-23T12:15:00Z",
-            "primary": false,
-            "symbol": "TPR"
-          },
-          {
-            "headline": "Wall Street Analysts See a 31.98% Upside in Tapestry (TPR): Can the Stock Really Move This High?",
-            "url": "https://finnhub.io/api/news?id=73ebc2f910944b1f243e591d59864a20078bb94ecc542437635d44fef85305ce",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T13:55:02Z",
-            "primary": false,
-            "symbol": "TPR"
-          }
-        ],
-        "data_quality": "Measured 5/5 core fields",
-        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
-        "price_plan": {
-          "method_version": 1,
-          "signal": "ENTRY CANDIDATE",
-          "entry_ceiling": 132.63,
-          "entry_floor": 119.37,
-          "exit_review_low": 171.99,
-          "exit_review_high": 206.39,
-          "bear_case": 93.64,
-          "scenario_upside_pct": 32.7,
-          "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
-          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
-          "horizon": "Illustrative 12-month scenario, not a return forecast",
-          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
-          "currency": "USD",
-          "as_of": "2026-11-25T21:00:00Z",
-          "basis": [
-            "Finnhub US share quote",
-            "Finnhub P/E, growth and 52-week range"
-          ],
-          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
-          "assumptions": {
-            "trailing_pe": 14.62,
-            "earnings_growth_assumed_pct": 6.16,
-            "scenario_exit_pe": 18.28,
-            "valuation_haircut_pct": 22,
-            "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-23T15:15:00Z"
-          }
-        },
-        "ranking_score": 86,
-        "rank_method": "FINANCIAL RULES"
-      },
-      {
         "symbol": "EXPE",
         "name": "Expedia Group, Inc.",
         "status": "INVESTIGATE",
@@ -15444,23 +15365,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-25T23:03:39Z",
+      "generated_at": "2026-11-25T23:57:15Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 832,
-        "purchase_scenarios": 77,
+        "recorded": 833,
+        "purchase_scenarios": 78,
         "opened": 4,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 77,
+        "waiting": 78,
         "unverified": 0,
         "skipped": 755,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|TPR|WAIT FOR ENTRY",
+          "symbol": "TPR",
+          "name": "Tapestry, Inc.",
+          "signal": "WAIT FOR ENTRY",
+          "decision_at": "2026-11-25T23:57:15Z",
+          "quote_at": "2026-11-25T21:00:00Z",
+          "reference_price": 129.6,
+          "buy_ceiling": 124.62,
+          "sell_review": 159.77,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 19.7% (TTM); Return on equity 284.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 13.7% YoY",
+          "score": 86,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|STX|ABOVE BASE CASE",
           "symbol": "STX",
@@ -17841,26 +17782,6 @@
           "risk": "Company-specific, sector and market drawdowns remain possible",
           "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.5×; TTM revenue growth 99.2% YoY",
           "score": 79,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|AMGN|NO RELIABLE PRICE RANGE",
-          "symbol": "AMGN",
-          "name": "Amgen Inc",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 435.64,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 24.1% (TTM); Return on equity 85.6% (TTM); Trailing P/E 25.1×; TTM revenue growth 8.2% YoY",
-          "score": 73,
           "result": {
             "status": "OBSERVING_SKIP",
             "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"

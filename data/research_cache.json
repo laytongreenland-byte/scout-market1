@@ -27495,17 +27495,17 @@
       "metrics": {
         "52WeekHigh": 269.44,
         "52WeekLow": 195.14,
-        "peTTM": 30.8523,
-        "psTTM": 4.1136,
+        "peTTM": 31.6376,
+        "psTTM": 4.2183,
         "netProfitMarginTTM": 13.33,
         "roeTTM": 11.28,
         "revenueGrowthTTMYoy": 8.37,
         "epsGrowthTTMYoy": 25.25,
         "currentRatioQuarterly": 1.9059,
         "totalDebt/totalEquityQuarterly": 0.2628,
-        "marketCapitalization": 24836.092
+        "marketCapitalization": 25468.26
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "STERIS plc",
       "profile": {
         "weburl": "https://www.steris.com/",
@@ -27513,6 +27513,14 @@
         "name": "STERIS plc"
       },
       "news": [
+        {
+          "headline": "STERIS plc Subsidiary Completes $1.5 billion Senior Notes Offering",
+          "url": "https://finnhub.io/api/news?id=4b8371f7e7426fb6bcecb13295bc9c29dc9bc34d7a645126a8fe2358eb27c900",
+          "source": "Fintel",
+          "published_at": "2026-11-25T02:48:39Z",
+          "primary": false,
+          "symbol": "STE"
+        },
         {
           "headline": "The Zacks Analyst Blog Highlights Intuitive Surgical, STERIS and Pulse Biosciences",
           "url": "https://finnhub.io/api/news?id=324cec6d9e6650c37952f00771b3f9a870fd1c3df5ba84a797ca1b6d376e5592",
@@ -27536,14 +27544,6 @@
           "published_at": "2026-11-18T14:45:00Z",
           "primary": false,
           "symbol": "STE"
-        },
-        {
-          "headline": "If You Invested $1000 In Steris Stock 10 Years Ago, You Would Have This Much Today",
-          "url": "https://finnhub.io/api/news?id=4e02c723a094ef535ad886fbee0e5458b3c651b663345876723dcef2693c7764",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T18:30:17Z",
-          "primary": false,
-          "symbol": "STE"
         }
       ]
     },
@@ -27551,17 +27551,17 @@
       "metrics": {
         "52WeekHigh": 51.4,
         "52WeekLow": 19.48,
-        "peTTM": 3.9034,
-        "psTTM": 0.2643,
+        "peTTM": 4.1558,
+        "psTTM": 0.2814,
         "netProfitMarginTTM": 6.77,
         "roeTTM": 32.42,
         "revenueGrowthTTMYoy": 156.46,
         "epsGrowthTTMYoy": 298.5,
         "currentRatioQuarterly": 3.0238,
         "totalDebt/totalEquityQuarterly": 0.5381,
-        "marketCapitalization": 14272.272
+        "marketCapitalization": 15195.191
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Super Micro Computer Inc",
       "profile": {
         "weburl": "https://www.supermicro.com/en/",
@@ -27570,42 +27570,42 @@
       },
       "news": [
         {
-          "headline": "Dell and Super Micro Want Up to 45% More for AI Servers Already Under Contract. Dell Reports Tuesday",
-          "url": "https://finnhub.io/api/news?id=0c51d4d65d6e38ef87b4d30d808bc2b274976e5e94d283144f5738e023dfd63c",
+          "headline": "Super Micro Computer (SMCI) Stock Looks Reasonable After A Sharp Pullback",
+          "url": "https://finnhub.io/api/news?id=ee8196ddb0fce7ff65deafad2a5795d5654d7e1e2881e4e7d06fcdd0e0d65db0",
           "source": "Yahoo",
-          "published_at": "2026-11-23T12:05:38Z",
+          "published_at": "2026-11-25T18:12:36Z",
           "primary": false,
           "symbol": "SMCI"
         },
         {
-          "headline": "Wall Street Sees 82% Upside in Super Micro Computer (SMCI), but Margin Risks Remain",
-          "url": "https://finnhub.io/api/news?id=01d171cbf96d93f75755ad6b4dc85c9ece153d8b681140bfe2fb0ee609e7a194",
+          "headline": "Zacks.com featured highlights include NVIDIA, Arrow Electronics, Super Micro Computer, BP and Ingram Micro",
+          "url": "https://finnhub.io/api/news?id=954ad2dad22f7f2816bb68776d5f7aa77e72918b69008d306488739d3237f61d",
           "source": "Yahoo",
-          "published_at": "2026-11-22T16:52:21Z",
+          "published_at": "2026-11-25T16:20:00Z",
           "primary": false,
           "symbol": "SMCI"
         },
         {
-          "headline": "Super Micro: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=22d3fb3f569035f2fd3c819cf1c918fed62bd9e09c05cadc4947a2c81af18856",
+          "headline": "Super Micro Falls 7% Despite Dell’s Record AI Server Backlog; Dell Drops 7% as Barclays Cuts Target to $344, Hewlett Packard Enterprise Slides 4%",
+          "url": "https://finnhub.io/api/news?id=52a37128a5a2e4242fab8ebc16cd1eadf84ee103d773f04070f18515339795fc",
           "source": "Yahoo",
-          "published_at": "2026-11-22T07:11:16Z",
+          "published_at": "2026-11-25T15:03:09Z",
           "primary": false,
           "symbol": "SMCI"
         },
         {
-          "headline": "Super Micro Just Dropped 33% in a Month After a Record Quarter. Is It Time to Sell, or Load Up?",
-          "url": "https://finnhub.io/api/news?id=7f49c8f7e84f74e3bf63ee446c30849c7bea8f59771d4f3974cf5e255bcc5e10",
+          "headline": "The $132B Backlog Paradox: Dell vs. Super Micro Computer in 2027",
+          "url": "https://finnhub.io/api/news?id=1cad7996b3873805dd79b505531782d0d735e8bb65c81702d9e106e6f2abde84",
           "source": "Yahoo",
-          "published_at": "2026-11-21T10:08:33Z",
+          "published_at": "2026-11-25T13:45:55Z",
           "primary": false,
           "symbol": "SMCI"
         },
         {
-          "headline": "Super Micro: Significant Cash Flow Uncertainty Continues To Overshadow Cheap P/E",
-          "url": "https://finnhub.io/api/news?id=13afb305a41acaeff62955a15dc6b2286a1527f3a82d5be081d72b9769b27b8a",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-21T01:49:18Z",
+          "headline": "Super Micro forecasts 130% profit growth, yet shares sank to $22",
+          "url": "https://finnhub.io/api/news?id=a6b1e3c297a0ca755b1561fb82b5b7d1e133d713f611246c94995f43b7d03365",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T09:24:45Z",
           "primary": false,
           "symbol": "SMCI"
         }
@@ -27615,16 +27615,16 @@
       "metrics": {
         "52WeekHigh": 88.77,
         "52WeekLow": 63.08,
-        "peTTM": 6.3309,
+        "peTTM": 6.3449,
         "psTTM": 0.73096,
         "netProfitMarginTTM": 14.06407,
         "roeTTM": 19.99,
         "revenueGrowthTTMYoy": 20.4839,
         "epsGrowthTTMYoy": 5.11,
         "totalDebt/totalEquityQuarterly": 1.0287,
-        "marketCapitalization": 21100.793
+        "marketCapitalization": 21147.504
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Synchrony Financial",
       "profile": {
         "weburl": "https://www.synchrony.com/",
@@ -27632,6 +27632,22 @@
         "name": "Synchrony Financial"
       },
       "news": [
+        {
+          "headline": "SYF or AXP: Which Is the Better Value Stock Right Now?",
+          "url": "https://finnhub.io/api/news?id=2c4782b649f1df14273cf0cd40f5847379a42be42c750236e47b4a222a82b876",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T15:40:04Z",
+          "primary": false,
+          "symbol": "SYF"
+        },
+        {
+          "headline": "Should Value Investors Buy Synchrony Financial (SYF) Stock?",
+          "url": "https://finnhub.io/api/news?id=691574bab26c17223d098376dc7f622c0c5bd464116b2851f59ad439534da199",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:40:03Z",
+          "primary": false,
+          "symbol": "SYF"
+        },
         {
           "headline": "Synchrony Financial Puts Lending Discipline First, Sees Walmart as Growth Opportunity",
           "url": "https://finnhub.io/api/news?id=b51c558f5850e66fb04ebdd0b4046183a0edf497ae2fd606f4256f171b854b61",
@@ -27647,14 +27663,6 @@
           "published_at": "2026-11-19T15:30:07Z",
           "primary": false,
           "symbol": "SYF"
-        },
-        {
-          "headline": "Synchrony Financial (SYF) Presents at TD Cowen's Financials & Fintech Conference Transcript",
-          "url": "https://finnhub.io/api/news?id=30bfcaeddded9099a363bcb35f619f89087d005ed863cbad6c81ae3bf2c7a379",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T11:53:12Z",
-          "primary": false,
-          "symbol": "SYF"
         }
       ]
     },
@@ -27662,17 +27670,17 @@
       "metrics": {
         "52WeekHigh": 91.85,
         "52WeekLow": 68.19,
-        "peTTM": 21.3072,
-        "psTTM": 0.4519,
+        "peTTM": 21.9791,
+        "psTTM": 0.4662,
         "netProfitMarginTTM": 2.12,
         "roeTTM": 64.0,
         "revenueGrowthTTMYoy": 3.8,
         "epsGrowthTTMYoy": 0.54,
         "currentRatioQuarterly": 1.4643,
         "totalDebt/totalEquityQuarterly": 3.4191,
-        "marketCapitalization": 38480.805
+        "marketCapitalization": 39694.254
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Sysco Corporation",
       "profile": {
         "weburl": "https://www.sysco.com/",
@@ -27726,17 +27734,17 @@
       "metrics": {
         "52WeekHigh": 122.0,
         "52WeekLow": 85.22,
-        "peTTM": 9.8472,
-        "psTTM": 2.7967,
+        "peTTM": 9.9105,
+        "psTTM": 2.8146,
         "netProfitMarginTTM": 28.4,
         "roeTTM": 19.88,
         "revenueGrowthTTMYoy": 6.91,
         "epsGrowthTTMYoy": 7.79,
         "currentRatioQuarterly": 2.7376,
         "totalDebt/totalEquityQuarterly": 0.0017,
-        "marketCapitalization": 21543.785
+        "marketCapitalization": 21682.256
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "T. Rowe Price Group, Inc.",
       "profile": {
         "weburl": "https://www.troweprice.com",
@@ -27744,6 +27752,22 @@
         "name": "T. Rowe Price Group, Inc."
       },
       "news": [
+        {
+          "headline": "T. Rowe Price: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=f6c24f7e6c18b34da7416fa38b56654d1e853c34719e27aecac5cec8ed72cae6",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T23:35:07Z",
+          "primary": false,
+          "symbol": "TROW"
+        },
+        {
+          "headline": "Franklin vs. T. Rowe: Which Asset Manager Offers Better Upside Now?",
+          "url": "https://finnhub.io/api/news?id=5e2cef527cfef186a97c7dd4e75bc038ac484d827b8982f6fc83afbba1769b26",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:38:00Z",
+          "primary": false,
+          "symbol": "TROW"
+        },
         {
           "headline": "A $400,000 Portfolio in T. Rowe Price, ONEOK and UDR Pays $20,171 a Year in Dividends. Here’s What Happens if One Cuts",
           "url": "https://finnhub.io/api/news?id=2a3c486f4ed13a48a58902c964e602607d8ca4a0269d39fdb85410e1e99cb662",
@@ -27767,22 +27791,6 @@
           "published_at": "2026-11-20T11:50:23Z",
           "primary": false,
           "symbol": "TROW"
-        },
-        {
-          "headline": "T. ROWE PRICE EXPANDS CAPITAL APPRECIATION SUITE WITH NEW FIXED INCOME EXCHANGE TRADED FUND",
-          "url": "https://finnhub.io/api/news?id=8fb970f68a522a875ff4ca4a8644277377553c78fe1080d72bb497b4a063d95e",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:00:00Z",
-          "primary": false,
-          "symbol": "TROW"
-        },
-        {
-          "headline": "T. ROWE PRICE BUILDS ON COLLABORATIVE INVESTMENT APPROACH WITH EXPANDED PORTFOLIO MANAGEMENT TEAMS",
-          "url": "https://finnhub.io/api/news?id=3bfab2d1cac987b40c800bccde52091e4bda109e9f0128ab5146b39ff6265eda",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:50:00Z",
-          "primary": false,
-          "symbol": "TROW"
         }
       ]
     },
@@ -27790,15 +27798,15 @@
       "metrics": {
         "52WeekHigh": 265.94,
         "52WeekLow": 183.86,
-        "psTTM": 6.1336,
+        "psTTM": 6.469,
         "netProfitMarginTTM": -3.75,
         "roeTTM": -6.7299999999999995,
         "revenueGrowthTTMYoy": 3.05,
         "currentRatioQuarterly": 1.0882,
         "totalDebt/totalEquityQuarterly": 0.6859,
-        "marketCapitalization": 39314.832
+        "marketCapitalization": 41464.453
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Take-Two Interactive Software, Inc.",
       "profile": {
         "weburl": "https://www.take2games.com/",
@@ -27807,42 +27815,42 @@
       },
       "news": [
         {
-          "headline": "Take Two Can Retest $265 in 2026 With This December GTA VI Announcement",
-          "url": "https://finnhub.io/api/news?id=21c30d6b939ea9d12eec7ea5a3376f691e5fcb1276c6c3c215a6bae3facb1b2c",
+          "headline": "Did Take-Two Stock Beat A Falling Market?",
+          "url": "https://finnhub.io/api/news?id=f64c994a3d2e0c7b9e28e4b6d6782a401ae9ff14108580599f03fc415a0a1d70",
           "source": "Yahoo",
-          "published_at": "2026-11-23T12:15:26Z",
+          "published_at": "2026-11-25T13:04:29Z",
           "primary": false,
           "symbol": "TTWO"
         },
         {
-          "headline": "Wedbush Maintains Outperform on Take-Two Interactive, Raises Price Target to $295",
-          "url": "https://finnhub.io/api/news?id=cab9670962ec422abc21590a21480fea53c88cb49ec2afb10bf1f7c00cec0fb9",
-          "source": "Benzinga",
-          "published_at": "2026-11-23T10:06:36Z",
-          "primary": false,
-          "symbol": "TTWO"
-        },
-        {
-          "headline": "B of A Securities Maintains Buy on Take-Two Interactive, Raises Price Target to $350",
-          "url": "https://finnhub.io/api/news?id=97d066674b9e67846add7a44a3132d3781275cb29d3f214a1064f7541495a78f",
-          "source": "Benzinga",
-          "published_at": "2026-11-23T09:08:19Z",
-          "primary": false,
-          "symbol": "TTWO"
-        },
-        {
-          "headline": "Baird Maintains Outperform on Take-Two Interactive, Raises Price Target to $275",
-          "url": "https://finnhub.io/api/news?id=1cac4663e908e865dfa33bf2fd4f02cd0e0b08f17332a9cbf8e9683030bb54ac",
-          "source": "Benzinga",
-          "published_at": "2026-11-23T08:08:29Z",
-          "primary": false,
-          "symbol": "TTWO"
-        },
-        {
-          "headline": "ANT, BABA, PANW, TTWO, ZS: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
-          "url": "https://finnhub.io/api/news?id=4f3488354308dd4db4e23cf37d127803c93e852699da103a0d2b287bf92bfdf9",
+          "headline": "Grand Theft Auto VI Is Finally Here. Is Take-Two Stock a Buy?",
+          "url": "https://finnhub.io/api/news?id=fbb4afff427eb4234733c085fbd2691949bba638f1746ba52307faf60814d0fc",
           "source": "Yahoo",
-          "published_at": "2026-11-23T02:08:57Z",
+          "published_at": "2026-11-24T16:05:02Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "Take-Two Interactive (TTWO) Stock Is Up 4.6% Today Without Company News",
+          "url": "https://finnhub.io/api/news?id=512934820f2f46f8f77c49af956a9be7cb966cc625541e7c99bd4724e7c39c0c",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:01:22Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "GTA 6 broke every record, and Take-Two's real test starts now",
+          "url": "https://finnhub.io/api/news?id=3602d2b239c8466221f5827e28cb23aebf210151aef65e65c13dd69138799644",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T03:47:00Z",
+          "primary": false,
+          "symbol": "TTWO"
+        },
+        {
+          "headline": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
+          "url": "https://finnhub.io/api/news?id=ddb2d770f30059adbbc65d86ade40edd6805413fc599edc8859f2a43f266c7db",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T23:33:25Z",
           "primary": false,
           "symbol": "TTWO"
         }
@@ -27851,18 +27859,18 @@
     "TPR": {
       "metrics": {
         "52WeekHigh": 164.8,
-        "52WeekLow": 100.47,
-        "peTTM": 14.6233,
-        "psTTM": 2.8786,
+        "52WeekLow": 104.5,
+        "peTTM": 15.7415,
+        "psTTM": 3.0987,
         "netProfitMarginTTM": 19.68,
         "roeTTM": 284.25,
         "revenueGrowthTTMYoy": 13.68,
         "epsGrowthTTMYoy": 588.53,
         "currentRatioQuarterly": 1.2403,
         "totalDebt/totalEquityQuarterly": 7.4331,
-        "marketCapitalization": 23585.91
+        "marketCapitalization": 25389.44
       },
-      "updated_at": "2026-11-23T15:15:00Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Tapestry, Inc.",
       "profile": {
         "weburl": "https://www.tapestry.com/",
@@ -27870,6 +27878,30 @@
         "name": "Tapestry, Inc."
       },
       "news": [
+        {
+          "headline": "Tapestry (TPR) Stock May Be 26% Undervalued On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=b10b843b7c5a288285e8cf638f3d99a3d3031b9d6f55220d65821223fd5de00a",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T08:08:40Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
+        {
+          "headline": "Tapestry (TPR) On Earnings Momentum And Fresh Coverage Looks Undervalued",
+          "url": "https://finnhub.io/api/news?id=e093f22e2d52c0a39cdf1ed13c252d741e1bd6fd097ea8ecaecd7dc299c3b49e",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T03:14:13Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
+        {
+          "headline": "Earnings Beat Might Change The Case For Investing In Tapestry Stock (TPR)",
+          "url": "https://finnhub.io/api/news?id=04baa05ee41c36395e0b26c5df22ec45e1441c32a32080d000278d6cdd013cf9",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T02:10:26Z",
+          "primary": false,
+          "symbol": "TPR"
+        },
         {
           "headline": "Zacks.com featured highlights include Stride, Tapestry, HeartBeam, QuantumScape and Alto Ingredients",
           "url": "https://finnhub.io/api/news?id=2d7f195f621b9fdd068b68c0094dc5c8ec8b5141539b76370568c09c079ef2cf",
@@ -27885,30 +27917,6 @@
           "published_at": "2026-11-20T13:55:02Z",
           "primary": false,
           "symbol": "TPR"
-        },
-        {
-          "headline": "$100 Invested In Tapestry 5 Years Ago Would Be Worth This Much Today",
-          "url": "https://finnhub.io/api/news?id=b39befe61cd7910df24244a244d7a0778c5950ef0234c6c0447b683d230b967a",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T19:45:23Z",
-          "primary": false,
-          "symbol": "TPR"
-        },
-        {
-          "headline": "Tapestry: Coach Keeps Impressing, But I Am Running Out Of Patience For Kate Spade",
-          "url": "https://finnhub.io/api/news?id=ab99f161397c94aa8f3579e27f05488f1e74661f255518862638b82ff20cd4f1",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T11:53:40Z",
-          "primary": false,
-          "symbol": "TPR"
-        },
-        {
-          "headline": "Tapestry CEO: U.S. luxury consumer discerning and resilient",
-          "url": "https://finnhub.io/api/news?id=4ddbbdc24c7a5935fa6378eab6aac7e82399d6fc7359338f361e8e340bb67169",
-          "source": "CNBC",
-          "published_at": "2026-11-18T07:42:07Z",
-          "primary": false,
-          "symbol": "TPR"
         }
       ]
     },
@@ -27916,17 +27924,17 @@
       "metrics": {
         "52WeekHigh": 316.6,
         "52WeekLow": 167.12,
-        "peTTM": 26.332,
-        "psTTM": 3.5666,
+        "peTTM": 26.7928,
+        "psTTM": 3.629,
         "netProfitMarginTTM": 13.54,
         "roeTTM": 72.17,
         "revenueGrowthTTMYoy": -1.97,
         "epsGrowthTTMYoy": 40.38,
         "currentRatioQuarterly": 0.7707,
         "totalDebt/totalEquityQuarterly": 5.3543,
-        "marketCapitalization": 59710.38
+        "marketCapitalization": 60755.26
       },
-      "updated_at": "2026-11-23T16:21:19Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Targa Resources Corp.",
       "profile": {
         "weburl": "https://www.targaresources.com/",
@@ -27935,18 +27943,18 @@
       },
       "news": [
         {
-          "headline": "Do Wall Street Analysts Like Targa Resources Stock?",
-          "url": "https://finnhub.io/api/news?id=899133075219411fed9528dab820ade96dbc47725b5887ab1f66ec0f07e91440",
+          "headline": "Targa Resources Rides Growth Momentum: Is It Time to Stay Invested?",
+          "url": "https://finnhub.io/api/news?id=cd60e09cd18e872d61e97e95e0d585e13794d17c1311de6deaf893bf7030d467",
           "source": "Yahoo",
-          "published_at": "2026-11-19T12:43:35Z",
+          "published_at": "2026-11-25T14:29:00Z",
           "primary": false,
           "symbol": "TRGP"
         },
         {
-          "headline": "Stifel Maintains Buy on Targa Resources, Raises Price Target to $340",
-          "url": "https://finnhub.io/api/news?id=48b79064ab0712f6d1d9fe4a0f5f81d59730040608fbe444a362b6360d5ecb6c",
-          "source": "Benzinga",
-          "published_at": "2026-11-16T08:19:04Z",
+          "headline": "Do Wall Street Analysts Like Targa Resources Stock?",
+          "url": "https://finnhub.io/api/news?id=899133075219411fed9528dab820ade96dbc47725b5887ab1f66ec0f07e91440",
+          "source": "Yahoo",
+          "published_at": "2026-11-19T12:43:35Z",
           "primary": false,
           "symbol": "TRGP"
         }
@@ -27956,17 +27964,17 @@
       "metrics": {
         "52WeekHigh": 252.56,
         "52WeekLow": 190.27,
-        "peTTM": 17.6239,
-        "psTTM": 2.8831,
+        "peTTM": 18.3941,
+        "psTTM": 3.0091,
         "netProfitMarginTTM": 16.36,
         "roeTTM": 24.529999999999998,
         "revenueGrowthTTMYoy": 15.2,
         "epsGrowthTTMYoy": 79.16,
         "currentRatioQuarterly": 1.7306,
         "totalDebt/totalEquityQuarterly": 0.4155,
-        "marketCapitalization": 57330.418
+        "marketCapitalization": 59836.137
       },
-      "updated_at": "2026-11-23T16:21:19Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "TE Connectivity PLC",
       "profile": {
         "weburl": "https://www.te.com/",
@@ -27974,6 +27982,14 @@
         "name": "TE Connectivity PLC"
       },
       "news": [
+        {
+          "headline": "What Is TE Connectivity (TEL) Planning With Its $60 Million New York Fiber Hub?",
+          "url": "https://finnhub.io/api/news?id=e45797313f6502cb6d1d17e92b846c7b5728b42df10ff0d65b33cf3719c526e3",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T17:13:15Z",
+          "primary": false,
+          "symbol": "TEL"
+        },
         {
           "headline": "Baird Maintains Outperform on TE Connectivity, Lowers Price Target to $235",
           "url": "https://finnhub.io/api/news?id=b85a3083a4fe1d200e0d5da064039aeb5684686b5ec740d6b98da0c6df26f94b",
@@ -27987,18 +28003,18 @@
     "TDY": {
       "metrics": {
         "52WeekHigh": 697.67,
-        "52WeekLow": 483.02,
-        "peTTM": 26.8337,
-        "psTTM": 4.2264,
+        "52WeekLow": 489.68,
+        "peTTM": 27.5098,
+        "psTTM": 4.3329,
         "netProfitMarginTTM": 15.75,
         "roeTTM": 9.49,
         "revenueGrowthTTMYoy": 8.57,
         "epsGrowthTTMYoy": 26.57,
         "currentRatioQuarterly": 2.3064,
         "totalDebt/totalEquityQuarterly": 0.1821,
-        "marketCapitalization": 27555.559
+        "marketCapitalization": 28249.79
       },
-      "updated_at": "2026-11-23T16:21:19Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Teledyne Technologies Incorporated",
       "profile": {
         "weburl": "https://www.teledyne.com/",
@@ -28006,6 +28022,22 @@
         "name": "Teledyne Technologies Incorporated"
       },
       "news": [
+        {
+          "headline": "Mizuho Initiates Coverage of Teledyne Technologies at Outperform",
+          "url": "https://finnhub.io/api/news?id=e61abc5af1aca404db9c18150bcc0b4730fe8ed27439bcca02ac7ac471ba35e5",
+          "source": "Fintel",
+          "published_at": "2026-11-25T00:42:04Z",
+          "primary": false,
+          "symbol": "TDY"
+        },
+        {
+          "headline": "Mizuho Initiates Coverage On Teledyne Technologies with Outperform Rating, Announces Price Target of $765",
+          "url": "https://finnhub.io/api/news?id=3c2d61970c9e40c5e9b3ad9f057fa3ca4d337ab8bd6beb3aadea6d0c3d776cbf",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T09:21:09Z",
+          "primary": false,
+          "symbol": "TDY"
+        },
         {
           "headline": "Teledyne (TDY) Up 0.2% Since Last Earnings Report: Can It Continue?",
           "url": "https://finnhub.io/api/news?id=abed1c70768607dcca26a20075f893cce4f91adf3a1a4282ddb345091be32562",
@@ -28021,32 +28053,24 @@
           "published_at": "2026-11-19T15:15:45Z",
           "primary": false,
           "symbol": "TDY"
-        },
-        {
-          "headline": "Teledyne LeCroy Introduces Ultra Accelerator Link™ Validation System for AI and HPC Scale-Up Infrastructure",
-          "url": "https://finnhub.io/api/news?id=f3419a646cb3038b6124c5361b7650937099d65be639c319bdf0d4b3d03aae8e",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T17:15:00Z",
-          "primary": false,
-          "symbol": "TDY"
         }
       ]
     },
     "TER": {
       "metrics": {
         "52WeekHigh": 487.91,
-        "52WeekLow": 151.52,
-        "peTTM": 23.2839,
-        "psTTM": 6.3931,
+        "52WeekLow": 159.5,
+        "peTTM": 24.0395,
+        "psTTM": 6.6006,
         "netProfitMarginTTM": 27.46,
         "roeTTM": 42.04,
         "revenueGrowthTTMYoy": 74.88,
         "epsGrowthTTMYoy": 217.05,
         "currentRatioQuarterly": 2.08,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 31970.445
+        "marketCapitalization": 33007.895
       },
-      "updated_at": "2026-11-23T16:21:19Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Teradyne, Inc.",
       "profile": {
         "weburl": "https://www.teradyne.com/",
@@ -28055,42 +28079,42 @@
       },
       "news": [
         {
+          "headline": "KLA Rides on Strong AI Infrastructure Demand: Can It Beat ALAB & TER?",
+          "url": "https://finnhub.io/api/news?id=91b93203d4807dc8e3e314fd139f7a6db3ca050117acdf44757ce85273958583",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T15:34:00Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "Here's How Much $1000 Invested In Teradyne 20 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=82f3bd686d43e6b1eb3b50810cbad16f9b9878150983cb632833f46683a972f7",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T10:15:23Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "The Zacks Analyst Blog Highlights Target, TJX, Teradyne, TKO and Repsol",
+          "url": "https://finnhub.io/api/news?id=f18d1652f22facd478e634327eeb246b6198f77167c8637975b18d027e64de48",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T14:17:00Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
+          "headline": "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
+          "url": "https://finnhub.io/api/news?id=2ca642d2b1d57785f65229383921dbd0398e0bdfea05b178bc0639582dcdd92b",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T16:04:00Z",
+          "primary": false,
+          "symbol": "TER"
+        },
+        {
           "headline": "Teradyne (TER) Falls 36% Despite 70% Revenue Growth: Is a Recovery Ahead?",
           "url": "https://finnhub.io/api/news?id=5bf49b57a9f6cc281032e8652cac7438389fb763dac418c9623b3d60797eecb6",
           "source": "Yahoo",
           "published_at": "2026-11-22T16:51:26Z",
-          "primary": false,
-          "symbol": "TER"
-        },
-        {
-          "headline": "Teradyne: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=cdbcacbabfe29b5a012a1769b414797331a9fa3f5638e5ece08986ee5589fae6",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T21:50:02Z",
-          "primary": false,
-          "symbol": "TER"
-        },
-        {
-          "headline": "Implied Volatility Surging for Teradyne Stock Options",
-          "url": "https://finnhub.io/api/news?id=20d3dc2eff940571175e180151517ec79a460c2d177a117464a0d04fb8712ca1",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:32:00Z",
-          "primary": false,
-          "symbol": "TER"
-        },
-        {
-          "headline": "What Is Teradyne (TER) Bringing To Edge AI With Omnyx Edge?",
-          "url": "https://finnhub.io/api/news?id=5d4e16d6ecc3356ea79ff2c653ee08844a1cb1a534fe153b6b297aac8efc8d9c",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T06:15:42Z",
-          "primary": false,
-          "symbol": "TER"
-        },
-        {
-          "headline": "Is Teradyne (TER) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
-          "url": "https://finnhub.io/api/news?id=dd1fa2d72241e5c90a71523d4d70f08c777fc415868a124e3c6d9312c2e49cd9",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T16:45:02Z",
           "primary": false,
           "symbol": "TER"
         }
@@ -28099,18 +28123,18 @@
     "TXN": {
       "metrics": {
         "52WeekHigh": 334.03,
-        "52WeekLow": 152.73,
-        "peTTM": 33.8826,
-        "psTTM": 11.6058,
+        "52WeekLow": 158.69,
+        "peTTM": 33.7457,
+        "psTTM": 11.559,
         "netProfitMarginTTM": 34.25,
         "roeTTM": 40.510000000000005,
         "revenueGrowthTTMYoy": 20.27,
         "epsGrowthTTMYoy": 40.7,
         "currentRatioQuarterly": 5.595,
         "totalDebt/totalEquityQuarterly": 0.7065,
-        "marketCapitalization": 241006.92
+        "marketCapitalization": 240033.34
       },
-      "updated_at": "2026-11-23T16:21:19Z",
+      "updated_at": "2026-11-25T23:57:15Z",
       "name": "Texas Instruments Incorporated",
       "profile": {
         "weburl": "https://www.ti.com/",
@@ -28119,42 +28143,42 @@
       },
       "news": [
         {
-          "headline": "Metal-Oxide-Semiconductor (MOS) Microprocessor Market Global Report 2026 | Capitalize on AI, Chiplets and RISC-V as NVIDIA, Intel, Broadcom and Texas Instruments Drive 10.1% CAGR",
-          "url": "https://finnhub.io/api/news?id=37e1be4a52efda4d8c1db776dfb8171b967b496ea77e8243c3d45ca11b1e5833",
+          "headline": "Should You Buy The Dip In Texas Instruments Stock?",
+          "url": "https://finnhub.io/api/news?id=626321b3ec8ec407be3da7bb2dd69c05564490782150fb805336889e87dcca06",
           "source": "Yahoo",
-          "published_at": "2026-11-23T15:28:00Z",
+          "published_at": "2026-11-25T16:32:56Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "Texas Instruments vs. Lam Research: Which Chip Stock Is a Better Buy?",
-          "url": "https://finnhub.io/api/news?id=978a0d82e1fade3993f3e55030b2ee07e935008acd87e9c2443261653b4c59f8",
+          "headline": "Texas Instruments Incorporated (TXN) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finnhub.io/api/news?id=e04a5753f2f09ee61cd5da00ad1c61cc84c24c3c29248e1918d911941df50aae",
           "source": "Yahoo",
-          "published_at": "2026-11-23T12:30:00Z",
+          "published_at": "2026-11-25T13:00:02Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "Here’s How Much You Would Have Made Owning Texas Instruments Stock In The Last 20 Years",
-          "url": "https://finnhub.io/api/news?id=b7e66365cf8c32dbf7241545009fd11178a65bd81071aa6ba68d277da2cd3997",
-          "source": "Benzinga",
-          "published_at": "2026-11-23T10:15:57Z",
+          "headline": "Texas Instruments (NASDAQ:TXN): Affordable Growth at a Reasonable Valuation",
+          "url": "https://finnhub.io/api/news?id=90ae3d112f6bc27bacfa065492c26812ff7228ab1aca9b682e2fc46021477ec4",
+          "source": "ChartMill",
+          "published_at": "2026-11-25T11:01:10Z",
           "primary": false,
           "symbol": "TXN"
         },
         {
-          "headline": "Cantor Fitzgerald Upgrades Texas Instruments to Overweight, Raises Price Target to $385",
-          "url": "https://finnhub.io/api/news?id=6204df5dd512b02f25cefa64426b4a4c6b3dacdc8feb7094b2c2d3b8eeab949a",
-          "source": "Benzinga",
-          "published_at": "2026-11-23T07:43:47Z",
-          "primary": false,
-          "symbol": "TXN"
-        },
-        {
-          "headline": "Texas Instruments, Analog Devices and Microchip Pay Dividends Through Chip Downturns",
-          "url": "https://finnhub.io/api/news?id=3450a15a139650e23f463b036dc82e698d215e439aa5e6b35c584a2998220374",
+          "headline": "41 ETFs Add to Texas Instruments (TXN) on Nov. 23",
+          "url": "https://finnhub.io/api/news?id=0404aaa1ea56cbcaa3f81be0536034e3e3406695ec1995fe0bc9822de332b5e2",
           "source": "Yahoo",
-          "published_at": "2026-11-21T20:07:09Z",
+          "published_at": "2026-11-25T11:00:50Z",
+          "primary": false,
+          "symbol": "TXN"
+        },
+        {
+          "headline": "Texas Instruments (TXN) Remains A Preferred Pick Despite Chip Oversupply Risk",
+          "url": "https://finnhub.io/api/news?id=2176d229474faa0bd838ac99c979c725ea652205271b4bfec586a13c4a39939f",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T22:23:18Z",
           "primary": false,
           "symbol": "TXN"
         }
@@ -30250,6 +30274,6 @@
       ]
     }
   },
-  "cursor": 474,
-  "updated_at": "2026-11-25T23:03:39Z"
+  "cursor": 486,
+  "updated_at": "2026-11-25T23:57:15Z"
 }

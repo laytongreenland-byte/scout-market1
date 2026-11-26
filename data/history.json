@@ -73694,6 +73694,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|TPR|WAIT FOR ENTRY",
+      "week": "2026-11-23",
+      "symbol": "TPR",
+      "name": "Tapestry, Inc.",
+      "signal": "WAIT FOR ENTRY",
+      "decision_at": "2026-11-25T23:57:15Z",
+      "quote_at": "2026-11-25T21:00:00Z",
+      "reference_price": 129.6,
+      "score": 86,
+      "quality_status": "INVESTIGATE",
+      "buy_ceiling": 124.62,
+      "sell_review": 159.77,
+      "bear_case": 86.99,
+      "why": "Net profit margin 19.7% (TTM); Return on equity 284.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 13.7% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-25T23:57:15Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
