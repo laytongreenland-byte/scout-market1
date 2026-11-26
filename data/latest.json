@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:11:19Z",
+  "generated_at": "2026-11-26T12:10:56Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T11:11:19Z",
+      "checked_at": "2026-11-26T12:10:56Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T11:11:19Z",
+      "checked_at": "2026-11-26T12:10:56Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T11:11:19Z",
+      "checked_at": "2026-11-26T12:10:56Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T11:11:19Z",
+      "checked_at": "2026-11-26T12:10:56Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T11:11:19Z",
+      "checked_at": "2026-11-26T12:10:56Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T11:11:19Z",
+    "generated_at": "2026-11-26T12:10:56Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7411,7 +7411,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Energy",
-        "why": "Net profit margin 17.1% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.9×; TTM revenue growth 13.3% YoY",
+        "why": "Net profit margin 17.1% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.8×; TTM revenue growth 13.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7425,35 +7425,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T23:58:12Z",
+            "timestamp": "2026-11-26T12:10:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "ConocoPhillips Strikes $4.4 Billion North Sea Deal. US Oil Giant Set To Exit Norway After 50 Years.",
-            "timestamp": "2026-11-23T16:19:08Z",
-            "url": "https://finnhub.io/api/news?id=0a4aad9de5d04e4696bc5611849812e3567223182451cadf3a0c9c5e19229ff3"
+            "value": "COP or WHD: Which Is the Better Value Stock Right Now?",
+            "timestamp": "2026-11-25T15:40:02Z",
+            "url": "https://finnhub.io/api/news?id=863f4144020e416908624708ce331133fd586770071f679264e81cd85bb5b69b"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T23:58:12Z",
+        "fundamentals_at": "2026-11-26T12:10:56Z",
         "price": 135.02,
         "currency": "USD",
         "change_pct": 0.282,
         "news": [
           {
-            "headline": "ConocoPhillips Strikes $4.4 Billion North Sea Deal. US Oil Giant Set To Exit Norway After 50 Years.",
-            "url": "https://finnhub.io/api/news?id=0a4aad9de5d04e4696bc5611849812e3567223182451cadf3a0c9c5e19229ff3",
+            "headline": "COP or WHD: Which Is the Better Value Stock Right Now?",
+            "url": "https://finnhub.io/api/news?id=863f4144020e416908624708ce331133fd586770071f679264e81cd85bb5b69b",
             "source": "Yahoo",
-            "published_at": "2026-11-23T16:19:08Z",
+            "published_at": "2026-11-25T15:40:02Z",
             "primary": false,
             "symbol": "COP"
           },
           {
-            "headline": "Exxon, Chevron and ConocoPhillips Are Down. Here’s What Their Dividends Tell Investors",
-            "url": "https://finnhub.io/api/news?id=4d3273e83d7fa536a530271d0fcf7b1049e4de21cbc1e9dd6839b6e16d9ca701",
+            "headline": "Favorable Crude Oil Outlook: What Lies Ahead for COP, EOG & FANG?",
+            "url": "https://finnhub.io/api/news?id=abe02cfb2d039a1d56882fca47a2c594a56954695a978e4c14819b43b7557cdd",
             "source": "Yahoo",
-            "published_at": "2026-11-23T14:17:05Z",
+            "published_at": "2026-11-25T11:35:00Z",
             "primary": false,
             "symbol": "COP"
           }
@@ -7490,7 +7490,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Energy",
-        "why": "Net profit margin 27.8% (TTM); Return on equity 26.1% (TTM); Trailing P/E 9.3×; TTM revenue growth 30.0% YoY",
+        "why": "Net profit margin 27.8% (TTM); Return on equity 26.1% (TTM); Trailing P/E 9.4×; TTM revenue growth 30.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7504,35 +7504,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T01:21:53Z",
+            "timestamp": "2026-11-26T12:10:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Here's How EOG is Lowering Well Costs to Boost Margins & Cash Flow",
-            "timestamp": "2026-11-23T14:50:00Z",
-            "url": "https://finnhub.io/api/news?id=4212ca2db802cf503b2854dedf79630c17f5eac162059c6bdb6abadd50623c82"
+            "value": "Favorable Crude Oil Outlook: What Lies Ahead for COP, EOG & FANG?",
+            "timestamp": "2026-11-25T11:35:00Z",
+            "url": "https://finnhub.io/api/news?id=abe02cfb2d039a1d56882fca47a2c594a56954695a978e4c14819b43b7557cdd"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T01:21:53Z",
+        "fundamentals_at": "2026-11-26T12:10:56Z",
         "price": 148.31,
         "currency": "USD",
         "change_pct": 1.173,
         "news": [
           {
-            "headline": "Here's How EOG is Lowering Well Costs to Boost Margins & Cash Flow",
-            "url": "https://finnhub.io/api/news?id=4212ca2db802cf503b2854dedf79630c17f5eac162059c6bdb6abadd50623c82",
+            "headline": "Favorable Crude Oil Outlook: What Lies Ahead for COP, EOG & FANG?",
+            "url": "https://finnhub.io/api/news?id=abe02cfb2d039a1d56882fca47a2c594a56954695a978e4c14819b43b7557cdd",
             "source": "Yahoo",
-            "published_at": "2026-11-23T14:50:00Z",
+            "published_at": "2026-11-25T11:35:00Z",
             "primary": false,
             "symbol": "EOG"
           },
           {
-            "headline": "Are Oils-Energy Stocks Lagging  Canadian Natural Resources Limited (CNQ) This Year?",
-            "url": "https://finnhub.io/api/news?id=3c6d5fb377496f08cafcc69b187db1d3cda51cfd96a7c34d57568ea4b89c5715",
+            "headline": "Earnings Upgrades Could Be A Big Deal For EOG Stock",
+            "url": "https://finnhub.io/api/news?id=f40e150cf39611815ef515bc3f2e67364a165e1457bea4c481413f9faa6ed7db",
             "source": "Yahoo",
-            "published_at": "2026-11-23T13:40:03Z",
+            "published_at": "2026-11-25T00:15:49Z",
             "primary": false,
             "symbol": "EOG"
           }
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T11:11:19Z",
+      "generated_at": "2026-11-26T12:10:56Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 833,
