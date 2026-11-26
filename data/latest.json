@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:10:56Z",
+  "generated_at": "2026-11-26T13:30:41Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T12:10:56Z",
+      "checked_at": "2026-11-26T13:30:41Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T12:10:56Z",
+      "checked_at": "2026-11-26T13:30:41Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T12:10:56Z",
+      "checked_at": "2026-11-26T13:30:41Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T12:10:56Z",
+      "checked_at": "2026-11-26T13:30:41Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T12:10:56Z",
+      "checked_at": "2026-11-26T13:30:41Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T12:10:56Z",
+    "generated_at": "2026-11-26T13:30:41Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7569,7 +7569,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Energy",
-        "why": "Net profit margin 38.1% (TTM); Return on equity 20.6% (TTM); Trailing P/E 6.4×; TTM revenue growth 16.6% YoY",
+        "why": "Net profit margin 38.1% (TTM); Return on equity 20.6% (TTM); Trailing P/E 6.6×; TTM revenue growth 16.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7583,35 +7583,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T03:00:05Z",
+            "timestamp": "2026-11-26T13:30:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
-            "timestamp": "2026-11-23T18:50:02Z",
-            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715"
+            "value": "Zacks.com featured highlights include NVIDIA, Avnet, Arrow Electronics, ACCO Brands and Occidental Petroleum",
+            "timestamp": "2026-11-25T16:07:00Z",
+            "url": "https://finnhub.io/api/news?id=35eeaeeee3c564f4708245cc3fe67245431dc83ef11c8d796b5bc3f74004f4df"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T03:00:05Z",
+        "fundamentals_at": "2026-11-26T13:30:41Z",
         "price": 53.95,
         "currency": "USD",
         "change_pct": 1.068,
         "news": [
           {
-            "headline": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715",
+            "headline": "Zacks.com featured highlights include NVIDIA, Avnet, Arrow Electronics, ACCO Brands and Occidental Petroleum",
+            "url": "https://finnhub.io/api/news?id=35eeaeeee3c564f4708245cc3fe67245431dc83ef11c8d796b5bc3f74004f4df",
             "source": "Yahoo",
-            "published_at": "2026-11-23T18:50:02Z",
+            "published_at": "2026-11-25T16:07:00Z",
             "primary": false,
             "symbol": "OXY"
           },
           {
-            "headline": "Occidental Petroleum (NYSE:OXY): A Decent Value Stock With a Margin of Safety",
-            "url": "https://finnhub.io/api/news?id=e5b75eae253e9f082df2b3bcbf5a09fd0028f438ca021b1be22509d80d803bab",
-            "source": "ChartMill",
-            "published_at": "2026-11-21T09:50:53Z",
+            "headline": "What Would It Take For Lower Oil Prices To Break Occidental Stock?",
+            "url": "https://finnhub.io/api/news?id=a3bce634d62f9c69c3603d83927422091925844e70acb983e65e4b75232f7d4b",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T21:18:56Z",
             "primary": false,
             "symbol": "OXY"
           }
@@ -14538,7 +14538,7 @@
         "status": "WATCH",
         "score": 75,
         "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 9.8×; TTM revenue growth 6.3% YoY",
+        "why": "Net profit margin 19.0% (TTM); Return on equity 43.6% (TTM); Trailing P/E 10.6×; TTM revenue growth 6.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -14552,35 +14552,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T01:21:53Z",
+            "timestamp": "2026-11-26T13:30:41Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Deckers Outdoor (DECK) Stock Looks Cheap Following Its 2027 Sales Cut",
-            "timestamp": "2026-11-20T14:13:05Z",
-            "url": "https://finnhub.io/api/news?id=96759238dd231855b3947b1a0a672c5e7328367387bac492cc8309e6d387edad"
+            "value": "Deckers' Strong Balance Sheet Sets the Stage for Future Growth",
+            "timestamp": "2026-11-25T11:47:00Z",
+            "url": "https://finnhub.io/api/news?id=858a19b39fa1a4c9dfe771a7769c3a15498371b80dd74c3cc4b931985085d33a"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T01:21:53Z",
+        "fundamentals_at": "2026-11-26T13:30:41Z",
         "price": 85.56,
         "currency": "USD",
         "change_pct": 1.507,
         "news": [
           {
-            "headline": "Deckers Outdoor (DECK) Stock Looks Cheap Following Its 2027 Sales Cut",
-            "url": "https://finnhub.io/api/news?id=96759238dd231855b3947b1a0a672c5e7328367387bac492cc8309e6d387edad",
+            "headline": "Deckers' Strong Balance Sheet Sets the Stage for Future Growth",
+            "url": "https://finnhub.io/api/news?id=858a19b39fa1a4c9dfe771a7769c3a15498371b80dd74c3cc4b931985085d33a",
             "source": "Yahoo",
-            "published_at": "2026-11-20T14:13:05Z",
+            "published_at": "2026-11-25T11:47:00Z",
             "primary": false,
             "symbol": "DECK"
           },
           {
-            "headline": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
-            "url": "https://finnhub.io/api/news?id=47b0d1adfd3078f5edbcd15944c22c0f709ed502bf09116eeada5c5c5efa9563",
+            "headline": "Deckers Outdoor (DECK) Stock Looks Cheap Following Its 2027 Sales Cut",
+            "url": "https://finnhub.io/api/news?id=96759238dd231855b3947b1a0a672c5e7328367387bac492cc8309e6d387edad",
             "source": "Yahoo",
-            "published_at": "2026-11-17T13:00:03Z",
+            "published_at": "2026-11-20T14:13:05Z",
             "primary": false,
             "symbol": "DECK"
           }
@@ -14592,10 +14592,10 @@
           "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 99.75,
           "entry_floor": 89.77,
-          "exit_review_low": 148.1,
-          "exit_review_high": 173.85,
-          "bear_case": 83.23,
-          "scenario_upside_pct": 73.1,
+          "exit_review_low": 136.94,
+          "exit_review_high": 160.75,
+          "bear_case": 76.96,
+          "scenario_upside_pct": 60.1,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14608,12 +14608,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 9.82,
+            "trailing_pe": 10.62,
             "earnings_growth_assumed_pct": 2.85,
             "scenario_exit_pe": 16.52,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T01:21:53Z"
+            "metrics_retrieved_at": "2026-11-26T13:30:41Z"
           }
         },
         "ranking_score": 75,
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T12:10:56Z",
+      "generated_at": "2026-11-26T13:30:41Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 833,
