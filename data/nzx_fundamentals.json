@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:28:07.919161+00:00",
+  "generated_at": "2026-11-26T10:28:55.305455+00:00",
   "companies": {
     "BGP": {
       "symbol": "BGP",
@@ -627,14 +627,224 @@
           "source": "NZX primary announcement"
         }
       ]
+    },
+    "ARG": {
+      "symbol": "ARG",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/arg",
+      "primary_filing_url": "https://www.nzx.com/instruments/ARG",
+      "retrieved_at": "2026-11-26T10:28:55.305455Z",
+      "fiscal_year": 2025,
+      "period_type": "ANNUAL",
+      "sector": "Real Estate",
+      "metrics": {
+        "pe_ratio": 6.64,
+        "roe": 9.62,
+        "debt_to_equity": 0.65,
+        "price_52w_high": 1.285,
+        "price_52w_low": 0.975
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "ARG announces second quarter dividend",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483866",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Argosy FY27 Interim Result",
+          "date": "2026-11-17",
+          "url": "https://www.nzx.com/announcements/483878",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "FY27 interim results announcement date and webcast details",
+          "date": "2026-10-26",
+          "url": "https://www.nzx.com/announcements/482450",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Argosy Property Limited (\u201cARG020\u201d) \u2013 Maturity",
+          "date": "2026-09-30",
+          "url": "https://www.nzx.com/announcements/480972",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Maturity of ARG020 Green Bonds",
+          "date": "2026-09-30",
+          "url": "https://www.nzx.com/announcements/480964",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "ATM": {
+      "symbol": "ATM",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/atm",
+      "primary_filing_url": "https://www.nzx.com/instruments/ATM",
+      "retrieved_at": "2026-11-26T10:28:55.305455Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Consumer Staples",
+      "metrics": {
+        "pe_ratio": 31.99,
+        "roe": 19.34,
+        "net_margin": 10.52,
+        "debt_to_equity": 0.83,
+        "revenue_growth": 3.8,
+        "price_52w_high": 11.9,
+        "price_52w_low": 6.25
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Class action settlement approved",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484433",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Results of 2026 Annual Meeting",
+          "date": "2026-11-19",
+          "url": "https://www.nzx.com/announcements/484018",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "2026 Annual Meeting",
+          "date": "2026-11-18",
+          "url": "https://www.nzx.com/announcements/483945",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "China IMF and FY27 outlook update",
+          "date": "2026-11-18",
+          "url": "https://www.nzx.com/announcements/483944",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "SPH Notice - UBS Group AG and its related bodies corporate",
+          "date": "2026-11-16",
+          "url": "https://www.nzx.com/announcements/483786",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "BAI": {
+      "symbol": "BAI",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/bai",
+      "primary_filing_url": "https://www.nzx.com/instruments/BAI",
+      "retrieved_at": "2026-11-26T10:28:55.305455Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Healthcare",
+      "metrics": {
+        "pe_ratio": 0.73,
+        "revenue_growth": -100.0,
+        "price_52w_high": 0.075,
+        "price_52w_low": 0.003
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Change of registered office and postal address",
+          "date": "2026-10-16",
+          "url": "https://www.nzx.com/announcements/481907",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Substantial product holder and director disclosure notices",
+          "date": "2026-10-13",
+          "url": "https://www.nzx.com/announcements/481675",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Substantial product holder disclosures after restructure",
+          "date": "2026-10-12",
+          "url": "https://www.nzx.com/announcements/481595",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "SPH Notice - 2061 LP (2061) and E K Trust Limited (EKT)",
+          "date": "2026-10-06",
+          "url": "https://www.nzx.com/announcements/481254",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "SPH Notice -  Excalibur Capital Partners Limited (ECP)",
+          "date": "2026-10-06",
+          "url": "https://www.nzx.com/announcements/481252",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "BFG": {
+      "symbol": "BFG",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/bfg",
+      "primary_filing_url": "https://www.nzx.com/instruments/BFG",
+      "retrieved_at": "2026-11-26T10:28:55.305455Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Consumer Discretionary",
+      "metrics": {
+        "roe": 16.62,
+        "net_margin": 7.68,
+        "debt_to_equity": 1.82,
+        "revenue_growth": 7.41,
+        "price_52w_high": 0.385,
+        "price_52w_low": 0.3
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "The Chair and Group CEO's Address at the BFG AGM",
+          "date": "2026-09-24",
+          "url": "https://www.nzx.com/announcements/480498",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BFG Annual Shareholders Meeting Results 24 September 2026",
+          "date": "2026-09-24",
+          "url": "https://www.nzx.com/announcements/480516",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BurgerFuel and SPCA launch new welfare plus+ partnership",
+          "date": "2026-09-23",
+          "url": "https://www.nzx.com/announcements/480406",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BFG - Notice of Annual Shareholders Meeting 24 Sept 2026",
+          "date": "2026-08-25",
+          "url": "https://www.nzx.com/announcements/478547",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BFG Director Nomination Closing Date",
+          "date": "2026-07-27",
+          "url": "https://www.nzx.com/announcements/476783",
+          "source": "NZX primary announcement"
+        }
+      ]
     }
   },
-  "fetched_day": "2026-11-25",
-  "filings_checked_day": "2026-11-25",
+  "fetched_day": "2026-11-26",
+  "filings_checked_day": "2026-11-26",
   "status": {
     "attempted": 4,
     "valid_this_scan": 4,
-    "available": 12,
+    "available": 16,
     "filing_requests": 4,
     "filings_with_official_links": 4,
     "status": "OK",
