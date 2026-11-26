@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T07:32:11Z",
+  "generated_at": "2026-11-26T09:18:34Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T07:32:11Z",
+      "checked_at": "2026-11-26T09:18:34Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T07:32:11Z",
+      "checked_at": "2026-11-26T09:18:34Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T07:32:11Z",
+      "checked_at": "2026-11-26T09:18:34Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T07:32:11Z",
+      "checked_at": "2026-11-26T09:18:34Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T07:32:11Z",
+      "checked_at": "2026-11-26T09:18:34Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T07:32:11Z",
+    "generated_at": "2026-11-26T09:18:34Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7346,35 +7346,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T21:59:40Z",
+            "timestamp": "2026-11-26T09:18:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Investors Heavily Search JPMorgan Chase & Co. (JPM): Here is What You Need to Know",
-            "timestamp": "2026-11-23T13:00:04Z",
-            "url": "https://finnhub.io/api/news?id=476b09e61b51f0299c3da63ba0dbf0046bf382c38510ae6779e779d928ed47e5"
+            "value": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
+            "timestamp": "2026-11-25T22:20:27Z",
+            "url": "https://finnhub.io/api/news?id=3b8493e0cbcd827b236329a6550a6db8f9beced1becd62a0efe19db048189586"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T21:59:40Z",
+        "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 316.74,
         "currency": "USD",
         "change_pct": -0.114,
         "news": [
           {
-            "headline": "Investors Heavily Search JPMorgan Chase & Co. (JPM): Here is What You Need to Know",
-            "url": "https://finnhub.io/api/news?id=476b09e61b51f0299c3da63ba0dbf0046bf382c38510ae6779e779d928ed47e5",
+            "headline": "Market Chatter: JPMorgan Projects $450 Billion in AI High-Grade Debt Issuance for 2027",
+            "url": "https://finnhub.io/api/news?id=3b8493e0cbcd827b236329a6550a6db8f9beced1becd62a0efe19db048189586",
             "source": "Yahoo",
-            "published_at": "2026-11-23T13:00:04Z",
+            "published_at": "2026-11-25T22:20:27Z",
             "primary": false,
             "symbol": "JPM"
           },
           {
-            "headline": "JPMorgan Asset Management (Canada) Inc. Exchange Traded Funds 2026 Estimated Annual Reinvested Capital Gain Distributions",
-            "url": "https://finnhub.io/api/news?id=9855e841f6d37d244dad502af4e18f9aaa963f2de5068afa7db13ff4d370c936",
+            "headline": "JPMorgan sees $450B in AI bond issuance in 2027",
+            "url": "https://finnhub.io/api/news?id=aec5c60df6161d6b165f82a9ab38d5a8b2b3ab60b320aafaf94b87f91c1a91cb",
             "source": "Yahoo",
-            "published_at": "2026-11-23T12:00:00Z",
+            "published_at": "2026-11-25T21:58:24Z",
             "primary": false,
             "symbol": "JPM"
           }
@@ -8500,35 +8500,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T23:00:53Z",
+            "timestamp": "2026-11-26T09:18:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "What Does ExxonMobil (XOM) Gain From Its $4 Billion Angola Block 15 Bet?",
-            "timestamp": "2026-11-23T13:11:37Z",
-            "url": "https://finnhub.io/api/news?id=fa0799e9bc4f542118392e4d729a5ef42a200d643d6fe3a61e56b67ec8f1d077"
+            "value": "ExxonMobil (XOM) Stock Looks Cheap Against Future Cash Flow Estimates",
+            "timestamp": "2026-11-25T20:15:51Z",
+            "url": "https://finnhub.io/api/news?id=3bb55f49a9b6941e432fc91c9ca5a1a61f2226063fe57ec461d7a459c5d28f6b"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T23:00:53Z",
+        "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 158.08,
         "currency": "USD",
         "change_pct": -0.095,
         "news": [
           {
-            "headline": "What Does ExxonMobil (XOM) Gain From Its $4 Billion Angola Block 15 Bet?",
-            "url": "https://finnhub.io/api/news?id=fa0799e9bc4f542118392e4d729a5ef42a200d643d6fe3a61e56b67ec8f1d077",
+            "headline": "ExxonMobil (XOM) Stock Looks Cheap Against Future Cash Flow Estimates",
+            "url": "https://finnhub.io/api/news?id=3bb55f49a9b6941e432fc91c9ca5a1a61f2226063fe57ec461d7a459c5d28f6b",
             "source": "Yahoo",
-            "published_at": "2026-11-23T13:11:37Z",
+            "published_at": "2026-11-25T20:15:51Z",
             "primary": false,
             "symbol": "XOM"
           },
           {
-            "headline": "46 ETFs Add to ExxonMobil (XOM) Holdings on Thursday",
-            "url": "https://finnhub.io/api/news?id=3fec4829531ecd50bd6ee9f9612ce0c69ba90fc92617e80674e47f8cdd331731",
+            "headline": "What Does ExxonMobil (XOM) Gain From Its $4 Billion Angola Block 15 Bet?",
+            "url": "https://finnhub.io/api/news?id=fa0799e9bc4f542118392e4d729a5ef42a200d643d6fe3a61e56b67ec8f1d077",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:01:20Z",
+            "published_at": "2026-11-23T13:11:37Z",
             "primary": false,
             "symbol": "XOM"
           }
@@ -10557,7 +10557,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Banking",
-        "why": "Net profit margin 30.2% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.1×; TTM revenue growth 99.4% YoY",
+        "why": "Net profit margin 30.2% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.2×; TTM revenue growth 99.4% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10571,35 +10571,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T21:59:40Z",
+            "timestamp": "2026-11-26T09:18:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Bank of America Doubles EMEA Banking Team: Can Deal Revenues Grow?",
-            "timestamp": "2026-11-23T12:41:00Z",
-            "url": "https://finnhub.io/api/news?id=5782ada025b8d3b56b2d5081ed7ec13449b916d14d9370d69f04bccc95925ba8"
+            "value": "Salesforce earnings to put Bank of America’s growth outlook to the test",
+            "timestamp": "2026-11-25T18:59:00Z",
+            "url": "https://finnhub.io/api/news?id=892054fe619ed3a627e2ccad04123c09aeb6fbba4a340fd83392459a7c6f325d"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T21:59:40Z",
+        "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 48.54,
         "currency": "USD",
         "change_pct": -0.041,
         "news": [
           {
-            "headline": "Bank of America Doubles EMEA Banking Team: Can Deal Revenues Grow?",
-            "url": "https://finnhub.io/api/news?id=5782ada025b8d3b56b2d5081ed7ec13449b916d14d9370d69f04bccc95925ba8",
+            "headline": "Salesforce earnings to put Bank of America’s growth outlook to the test",
+            "url": "https://finnhub.io/api/news?id=892054fe619ed3a627e2ccad04123c09aeb6fbba4a340fd83392459a7c6f325d",
             "source": "Yahoo",
-            "published_at": "2026-11-23T12:41:00Z",
+            "published_at": "2026-11-25T18:59:00Z",
             "primary": false,
             "symbol": "BAC"
           },
           {
-            "headline": "34 ETFs Add to Bank of America (BAC) on Nov. 19",
-            "url": "https://finnhub.io/api/news?id=290be294577829abf585272ef77958647a1c9d26c4948d09ff0b1d020b69f284",
+            "headline": "Bank Bond Losses Hit $486 Billion: How Exposed Is Bank of America?",
+            "url": "https://finnhub.io/api/news?id=c2ccda2b8976780964dd305893df3eb3b055e3349fd251bd1c0c3c9a3e4ab95d",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:01:37Z",
+            "published_at": "2026-11-25T13:45:00Z",
             "primary": false,
             "symbol": "BAC"
           }
@@ -11450,9 +11450,9 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Financial Services",
-        "why": "Net profit margin 15.8% (TTM); Return on equity 17.9% (TTM); Trailing P/E 10.3×; TTM revenue growth 10.5% YoY",
+        "why": "Net profit margin 15.8% (TTM); Return on equity 17.9% (TTM); Trailing P/E 10.5×; TTM revenue growth 10.5% YoY",
         "risks": [
-          "Company-specific, sector and market drawdowns remain possible"
+          "Price near reported 52-week low"
         ],
         "evidence": [
           {
@@ -11464,35 +11464,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T21:59:40Z",
+            "timestamp": "2026-11-26T09:18:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Goldman Sachs sees US dollar rally continuing before a pullback in 2027",
-            "timestamp": "2026-11-23T18:33:36Z",
-            "url": "https://finnhub.io/api/news?id=3d108da4907752efbcf58bb47876189e279da697621bff542c7287cc3f21a208"
+            "value": "Goldman Sachs lays out three signals stock investors should watch",
+            "timestamp": "2026-11-26T01:37:00Z",
+            "url": "https://finnhub.io/api/news?id=86e44dc5033bcd74836adb0f8c6d91c10ef5ff8037064f00a0040f2aaa9d11d4"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T21:59:40Z",
+        "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 801.03,
         "currency": "USD",
         "change_pct": -0.619,
         "news": [
           {
-            "headline": "Goldman Sachs sees US dollar rally continuing before a pullback in 2027",
-            "url": "https://finnhub.io/api/news?id=3d108da4907752efbcf58bb47876189e279da697621bff542c7287cc3f21a208",
+            "headline": "Goldman Sachs lays out three signals stock investors should watch",
+            "url": "https://finnhub.io/api/news?id=86e44dc5033bcd74836adb0f8c6d91c10ef5ff8037064f00a0040f2aaa9d11d4",
             "source": "Yahoo",
-            "published_at": "2026-11-23T18:33:36Z",
+            "published_at": "2026-11-26T01:37:00Z",
             "primary": false,
             "symbol": "GS"
           },
           {
-            "headline": "Goldman Sachs Names Top Communication Technology Stock",
-            "url": "https://finnhub.io/api/news?id=bce800c7a73891d112c69b046dccc8863766762cd63ff3dedd1b9874b5a7d42b",
+            "headline": "Goldman Sachs Sees 52 More GW of Data Center Power in 2028. These 3 Stocks Look Best Positioned to Cash In.",
+            "url": "https://finnhub.io/api/news?id=42966e4feef66f9bd279d60051ad72fff4a612cd60c201c4c7ba9be403d0da22",
             "source": "Yahoo",
-            "published_at": "2026-11-23T17:15:53Z",
+            "published_at": "2026-11-25T19:26:11Z",
             "primary": false,
             "symbol": "GS"
           }
@@ -11529,7 +11529,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Energy",
-        "why": "Net profit margin 11.9% (TTM); Return on equity 14.3% (TTM); Trailing P/E 15.2×; TTM revenue growth 20.8% YoY",
+        "why": "Net profit margin 11.9% (TTM); Return on equity 14.3% (TTM); Trailing P/E 15.3×; TTM revenue growth 20.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11543,35 +11543,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-23T23:00:53Z",
+            "timestamp": "2026-11-26T09:18:34Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
-            "timestamp": "2026-11-23T18:50:02Z",
-            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715"
+            "value": "Chevron Cut Its Debt by $8.4 Billion. These 4 Dividend Stocks Have Fortress Balance Sheets",
+            "timestamp": "2026-11-25T20:47:56Z",
+            "url": "https://finnhub.io/api/news?id=95e898eb4a621e52b579ddb77794f02cdf78e3aa6e8be2f5402a082b46a86efd"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-23T23:00:53Z",
+        "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 210.95,
         "currency": "USD",
         "change_pct": 1.064,
         "news": [
           {
-            "headline": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=2f5734dc2e59e200f33aef1116ba1204478013dd0f7cf257cc74da77959e6715",
+            "headline": "Chevron Cut Its Debt by $8.4 Billion. These 4 Dividend Stocks Have Fortress Balance Sheets",
+            "url": "https://finnhub.io/api/news?id=95e898eb4a621e52b579ddb77794f02cdf78e3aa6e8be2f5402a082b46a86efd",
             "source": "Yahoo",
-            "published_at": "2026-11-23T18:50:02Z",
+            "published_at": "2026-11-25T20:47:56Z",
             "primary": false,
             "symbol": "CVX"
           },
           {
-            "headline": "Chevron Corp. (CVX): Q3 Earnings Triple on Refining Margin Surge",
-            "url": "https://finnhub.io/api/news?id=186802f494677968a469c5c563f81f6c712f439135a421166223bb98b3b29e1b",
+            "headline": "Bad News for Exxon and Chevron: Goldman Sees Brent Falling “Roughly $10” Next Year on a Supply Glut",
+            "url": "https://finnhub.io/api/news?id=794d143865b80e34650ce3e2e829f2b36ef5fd0e533f0a2ba9fd794904641d31",
             "source": "Yahoo",
-            "published_at": "2026-11-23T17:39:36Z",
+            "published_at": "2026-11-25T15:41:56Z",
             "primary": false,
             "symbol": "CVX"
           }
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T07:32:11Z",
+      "generated_at": "2026-11-26T09:18:34Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 833,
