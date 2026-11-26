@@ -7853,19 +7853,19 @@
     },
     "DRI": {
       "metrics": {
-        "52WeekHigh": 240.28,
-        "52WeekLow": 169.53,
-        "peTTM": 21.6028,
-        "psTTM": 1.9108,
+        "52WeekHigh": 240.74,
+        "52WeekLow": 172.7,
+        "peTTM": 22.9866,
+        "psTTM": 2.0332,
         "netProfitMarginTTM": 8.85,
         "roeTTM": 55.900000000000006,
         "revenueGrowthTTMYoy": 8.1,
         "epsGrowthTTMYoy": 9.83,
         "currentRatioQuarterly": 0.2979,
         "totalDebt/totalEquityQuarterly": 2.1157,
-        "marketCapitalization": 25540.953
+        "marketCapitalization": 27177.002
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Darden Restaurants Inc",
       "profile": {
         "weburl": "https://www.darden.com",
@@ -7873,6 +7873,30 @@
         "name": "Darden Restaurants Inc"
       },
       "news": [
+        {
+          "headline": "BNP Paribas Initiates Coverage of Darden Restaurants at Outperform",
+          "url": "https://finnhub.io/api/news?id=82db479baac4ded51c9a7da1a11ecbc353f529c2d5814678abb85b6bcf51dee8",
+          "source": "Fintel",
+          "published_at": "2026-11-25T00:55:19Z",
+          "primary": false,
+          "symbol": "DRI"
+        },
+        {
+          "headline": "BNP Paribas Initiates Coverage On Darden Restaurants with Outperform Rating, Announces Price Target of $263",
+          "url": "https://finnhub.io/api/news?id=421585cc4dabfd298e6064817feba2f0adf1ce779962f7dcdbcb5517a18cb510",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T13:51:35Z",
+          "primary": false,
+          "symbol": "DRI"
+        },
+        {
+          "headline": "Mizuho Maintains Outperform on Darden Restaurants, Raises Price Target to $255",
+          "url": "https://finnhub.io/api/news?id=e0786169623d6c71d1991a419d4e275531148fe4a326e64cbf3ee5d4bb6b4890",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T10:49:04Z",
+          "primary": false,
+          "symbol": "DRI"
+        },
         {
           "headline": "Keybanc Maintains Overweight on Darden Restaurants, Raises Price Target to $249",
           "url": "https://finnhub.io/api/news?id=f117d8ae760edcbb652c77a3c5aa96d0b22f50c82720dd7cdea44d140c3eec03",
@@ -7888,30 +7912,6 @@
           "published_at": "2026-11-23T09:00:49Z",
           "primary": false,
           "symbol": "DRI"
-        },
-        {
-          "headline": "How Many Shares of McDonald’s, Starbucks or Darden Pay $1,000 a Month in Dividends?",
-          "url": "https://finnhub.io/api/news?id=86ae0537745940ac094aa9983e153e8aa4ddcb9e68bf7d2312e61394433194a9",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T16:51:23Z",
-          "primary": false,
-          "symbol": "DRI"
-        },
-        {
-          "headline": "Darden (DRI) Stock Looks Fully Valued On Its 8% Dividend Raise",
-          "url": "https://finnhub.io/api/news?id=b387ab510a7e03a8a1f1cfbdde2009e971dbf69be4dd774005ed53b16c0568e4",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T19:10:42Z",
-          "primary": false,
-          "symbol": "DRI"
-        },
-        {
-          "headline": "Darden Restaurants (DRI) Sets December Earnings Date As Fair Value Debate Tightens",
-          "url": "https://finnhub.io/api/news?id=2fc7749dfff75f7327ac5a4fd99c87413230ce3ef66a1553c765d0493b39f246",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T18:14:11Z",
-          "primary": false,
-          "symbol": "DRI"
         }
       ]
     },
@@ -7919,17 +7919,17 @@
       "metrics": {
         "52WeekHigh": 546.88,
         "52WeekLow": 402.28,
-        "peTTM": 27.9159,
-        "psTTM": 9.8436,
+        "peTTM": 29.0263,
+        "psTTM": 10.2352,
         "netProfitMarginTTM": 35.26,
         "roeTTM": 86.44,
         "revenueGrowthTTMYoy": 9.0,
         "epsGrowthTTMYoy": 31.9,
         "currentRatioQuarterly": 1.287,
         "totalDebt/totalEquityQuarterly": 2.1147,
-        "marketCapitalization": 80481.484
+        "marketCapitalization": 83682.95
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Moody's Corporation",
       "profile": {
         "weburl": "https://www.moodys.com/",
@@ -7938,42 +7938,42 @@
       },
       "news": [
         {
+          "headline": "MCO Embeds Connected Intelligence in AI Platforms to Support Growth",
+          "url": "https://finnhub.io/api/news?id=ee264c5115d4341b734c6a1901dad78286e00eabec6e3c041bd2324886432b82",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T12:41:00Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting Moody's Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=fa66da72b08f3e65fcdbe01d93debb8611035fae01665d4a5dc6fd3347bf85ea",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T05:29:22Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Moody’s affirms Sanofi’s Aa3 rating, shifts outlook to negative on Insmed deal",
+          "url": "https://finnhub.io/api/news?id=fe6a406068fe64ae155c6a21d20b479b12d22773019629b3e85a741c2e32b969",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T20:48:05Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
+          "headline": "Moody's Embeds Connected Intelligence in the Platforms Where Customers Build With AI",
+          "url": "https://finnhub.io/api/news?id=e16d86f6a42729644aef6b53e476bf9d79fcf4534fe6d375234b3f3160f6f278",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:00:00Z",
+          "primary": false,
+          "symbol": "MCO"
+        },
+        {
           "headline": "Moody’s lifts Victoria’s Secret outlook to positive on stronger credit metrics",
           "url": "https://finnhub.io/api/news?id=1c94c13df5041c9abcfc7530969d45999792521543da3dfe03de88428c39f690",
           "source": "Yahoo",
           "published_at": "2026-11-20T21:20:52Z",
-          "primary": false,
-          "symbol": "MCO"
-        },
-        {
-          "headline": "Moody's Ratings Gain From AI Infrastructure and Private Credit Growth",
-          "url": "https://finnhub.io/api/news?id=766581222d3148a8e22a6836c77d01add97b6e29f529f53e4411e3caaa54d99c",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T13:11:00Z",
-          "primary": false,
-          "symbol": "MCO"
-        },
-        {
-          "headline": "NVDA Stock Alert: What to Know as Moody's Cuts Nvidia's Outlook Rating",
-          "url": "https://finnhub.io/api/news?id=57b426e789b204aa9f0dc8af33fd8a8fc6baeac7466be0c6d22b5875d008d2d0",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T21:22:27Z",
-          "primary": false,
-          "symbol": "MCO"
-        },
-        {
-          "headline": "Moody’s Sees AI Infrastructure and Private Credit Fueling Growth as Private Markets Demand More Ratings",
-          "url": "https://finnhub.io/api/news?id=f1bf538a5b885f60722ab9b31cf9f8dd4c68e990250a1d6e95eb0ed2571889dd",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T17:31:04Z",
-          "primary": false,
-          "symbol": "MCO"
-        },
-        {
-          "headline": "Moody's Corporation (MCO) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=3f3c224409544799a81813687b6a7773c6086a6e489435597f2b2d37fd0feff7",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T18:22:46Z",
           "primary": false,
           "symbol": "MCO"
         }
@@ -7983,17 +7983,17 @@
       "metrics": {
         "52WeekHigh": 727.56,
         "52WeekLow": 435.27,
-        "peTTM": 36.2851,
-        "psTTM": 5.4185,
+        "peTTM": 35.2084,
+        "psTTM": 5.2577,
         "netProfitMarginTTM": 14.93,
         "roeTTM": 13.29,
         "revenueGrowthTTMYoy": 8.27,
         "epsGrowthTTMYoy": 9.42,
         "currentRatioQuarterly": 1.8077,
         "totalDebt/totalEquityQuarterly": 0.7554,
-        "marketCapitalization": 256572.05
+        "marketCapitalization": 248958.88
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Thermo Fisher Scientific Inc.",
       "profile": {
         "weburl": "https://corporate.thermofisher.com/us/en/index.html",
@@ -8002,42 +8002,42 @@
       },
       "news": [
         {
-          "headline": "Global Wastewater Pathogen Variant Analytics Market Report 2026 | Secure Share of $3.63 Billion by 2030 as Roche, Thermo Fisher, Illumina and BioMérieux Scale AI Surveillance",
-          "url": "https://finnhub.io/api/news?id=21a0a9a5d4e84f37313e3ba2a821bddd6efaf5a1b97696a5941ec3824e3fcc32",
+          "headline": "Thermo Fisher Scientific (TMO) Is Back In The Spotlight, What Is Driving Attention Now?",
+          "url": "https://finnhub.io/api/news?id=c9b66e0d519d12d8225c84d7240f5756a3fe5a91ad4e82e7e9d15feb336740f5",
           "source": "Yahoo",
-          "published_at": "2026-11-23T15:15:00Z",
+          "published_at": "2026-11-26T17:12:02Z",
           "primary": false,
           "symbol": "TMO"
         },
         {
-          "headline": "Stanley Druckenmiller and 25 Other Big Funds Sold Thermo Fisher Scientific Last Quarter, While 15 Bought. Who’s Right?",
-          "url": "https://finnhub.io/api/news?id=9df0538a669edc9633ccb15851c4907a5fd83dcf332a91b7dec1c1e202c4a39b",
+          "headline": "ABT vs. TMO: Which Clinical Diagnostics Stock Is the Better Bet Now?",
+          "url": "https://finnhub.io/api/news?id=848d37702964ff8ad339d71092dee2bf152b87a0f2dbe279c0397b5e9c71ab0b",
           "source": "Yahoo",
-          "published_at": "2026-11-22T10:21:48Z",
+          "published_at": "2026-11-26T12:30:00Z",
           "primary": false,
           "symbol": "TMO"
         },
         {
-          "headline": "Thermo Fisher Scientific (TMO): A Sharp Valuation Shift Prompted the Strategy to Exit the Position",
-          "url": "https://finnhub.io/api/news?id=53be9142ffcd78c1f293b171cd389be96435a59a8c2721a2c2b3390308328811",
+          "headline": "ETFs Are Net Sellers of Thermo Fisher (TMO) on Nov. 24",
+          "url": "https://finnhub.io/api/news?id=85d5e34ebcdb928b06096f8ad932fd7c276fe12dbf1ee28ecd9f632ec7940b38",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:58:44Z",
+          "published_at": "2026-11-26T11:03:36Z",
           "primary": false,
           "symbol": "TMO"
         },
         {
-          "headline": "Thermo Fisher (TMO) Up 1.8% Since Last Earnings Report: Can It Continue?",
-          "url": "https://finnhub.io/api/news?id=33dfc36e8ac23ca0c5fff673674d18995b157e96014992b51bb0e493b306d3c8",
+          "headline": "Thermo Fisher Scientific (TMO) Wins Wider FDA Clearance For Blood Cancer Monitoring",
+          "url": "https://finnhub.io/api/news?id=7cdc853b1e6dfc2632ef0a4af8cfbfcf12340f96b65a33e329234908a59c2095",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:11Z",
+          "published_at": "2026-11-26T10:12:12Z",
           "primary": false,
           "symbol": "TMO"
         },
         {
-          "headline": "Refrigerated Incubators - Global Strategic Business Report 2026: Capitalize on $209.9M Market Expansion with Thermo Fisher, Eppendorf, Binder, Bio-Rad and Memmert",
-          "url": "https://finnhub.io/api/news?id=7d131cf350720511771871733e9aaaf3677efee78ce3377aed620a70dae5a446",
+          "headline": "What Does Illumina Offer That Thermo Fisher Does Not?",
+          "url": "https://finnhub.io/api/news?id=f7720b2989f458521e37788a4e0c4b1b640a776ca8784b2479237538071a7df4",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:14:00Z",
+          "published_at": "2026-11-25T11:54:58Z",
           "primary": false,
           "symbol": "TMO"
         }
@@ -8047,17 +8047,17 @@
       "metrics": {
         "52WeekHigh": 737.76,
         "52WeekLow": 400.96,
-        "peTTM": 16.6695,
-        "psTTM": 1.5442,
+        "peTTM": 17.1329,
+        "psTTM": 1.5871,
         "netProfitMarginTTM": 9.26,
         "roeTTM": 26.090000000000003,
         "revenueGrowthTTMYoy": 6.69,
         "epsGrowthTTMYoy": 24.35,
         "currentRatioQuarterly": 1.7405,
         "totalDebt/totalEquityQuarterly": 0.564,
-        "marketCapitalization": 55326.008
+        "marketCapitalization": 56864.023
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Cummins Inc",
       "profile": {
         "weburl": "https://www.cummins.com/",
@@ -8065,6 +8065,14 @@
         "name": "Cummins Inc"
       },
       "news": [
+        {
+          "headline": "Cummins Q3 Review: The Outlook Is Still Great, But The Quarter Didn't Win Me Over",
+          "url": "https://finnhub.io/api/news?id=924a27c69095e0da01800c8456aead8b768ec915e77ca9cf5df1b8658c06f759",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-26T13:29:04Z",
+          "primary": false,
+          "symbol": "CMI"
+        },
         {
           "headline": "A Memo To Cummins' Power Systems Team About Delayed Shipments",
           "url": "https://finnhub.io/api/news?id=8e3bf50f809bca463e0b3074bb586983ee6f3c2de33d2e53cebd4cb00b63b228",
@@ -8096,32 +8104,24 @@
           "published_at": "2026-11-19T17:00:00Z",
           "primary": false,
           "symbol": "CMI"
-        },
-        {
-          "headline": "Cummins (CMI) Stock May Be 45% Undervalued Following Record EBITDA",
-          "url": "https://finnhub.io/api/news?id=8bfe1e0ccc32492aecad2a58ddb62a51a0adfb4f39eb6276b373341b57eb3826",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T09:10:08Z",
-          "primary": false,
-          "symbol": "CMI"
         }
       ]
     },
     "OKE": {
       "metrics": {
-        "52WeekHigh": 99.845,
+        "52WeekHigh": 99.85,
         "52WeekLow": 69.5,
-        "peTTM": 13.1531,
-        "psTTM": 4.2346,
+        "peTTM": 13.2143,
+        "psTTM": 4.2543,
         "netProfitMarginTTM": 2.85,
         "roeTTM": 17.86,
         "revenueGrowthTTMYoy": -14.68,
         "epsGrowthTTMYoy": 18.41,
         "currentRatioQuarterly": 0.8426,
         "totalDebt/totalEquityQuarterly": 1.2232,
-        "marketCapitalization": 53493.723
+        "marketCapitalization": 53742.75
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "ONEOK, Inc. (Oklahoma)",
       "profile": {
         "weburl": "https://www.oneok.com",
@@ -8129,6 +8129,22 @@
         "name": "ONEOK, Inc. (Oklahoma)"
       },
       "news": [
+        {
+          "headline": "Oneok (OKE) Down 8.6% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=348aeebecbc6c0ca4d97de2c5e1a6d852bfbabb4925812494d45a14e1bf1e445",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:15Z",
+          "primary": false,
+          "symbol": "OKE"
+        },
+        {
+          "headline": "A $300,000 Portfolio in ONEOK, Hormel and Newell Brands Pays $14,728 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=5488522d5ce3c4d3d2c39c421f5552981d9e4d3cf2186e93a8764292a67f18d3",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T13:20:33Z",
+          "primary": false,
+          "symbol": "OKE"
+        },
         {
           "headline": "A 65-Year-Old With $500,000 in ONEOK, UDR and CubeSmart Collects $2,056 a Month in Dividends. How Safe Is Each Check?",
           "url": "https://finnhub.io/api/news?id=8758ede4ab7f70a8ddae30a7eb4d217795193ef373454d6b70843cdd3fbda12a",
@@ -8152,22 +8168,6 @@
           "published_at": "2026-11-20T21:50:02Z",
           "primary": false,
           "symbol": "OKE"
-        },
-        {
-          "headline": "A 72-Year-Old With $350,000 in AT&T, ONEOK and T. Rowe Price Collects $1,457 a Month in Dividends. How Safe Is Each Check?",
-          "url": "https://finnhub.io/api/news?id=c0ab0f32963dd47ee635c73c51a0748ccca008a7eb4ffadb3c31aed97a864299",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T11:50:23Z",
-          "primary": false,
-          "symbol": "OKE"
-        },
-        {
-          "headline": "ONEOK: Back In The 'Buy' Range (Rating Upgrade)",
-          "url": "https://finnhub.io/api/news?id=7319ecb88366e4924d32a6c9cbf350665de100e5d460d28c65affe50347edca8",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T08:00:00Z",
-          "primary": false,
-          "symbol": "OKE"
         }
       ]
     },
@@ -8175,17 +8175,17 @@
       "metrics": {
         "52WeekHigh": 134.68,
         "52WeekLow": 77.77,
-        "peTTM": 70.6024,
-        "psTTM": 4.1507,
+        "peTTM": 66.4354,
+        "psTTM": 3.9058,
         "netProfitMarginTTM": 5.88,
         "roeTTM": 85.19,
         "revenueGrowthTTMYoy": 17.46,
         "epsGrowthTTMYoy": 186.8,
         "currentRatioQuarterly": 0.5546,
         "totalDebt/totalEquityQuarterly": 685.5862,
-        "marketCapitalization": 32371.553
+        "marketCapitalization": 30460.95
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Iron Mountain Inc",
       "profile": {
         "weburl": "https://www.ironmountain.com",
@@ -8208,30 +8208,6 @@
           "published_at": "2026-11-23T13:17:43Z",
           "primary": false,
           "symbol": "IRM"
-        },
-        {
-          "headline": "Here’s How Much You Would Have Made Owning Iron Mountain Stock In The Last 5 Years",
-          "url": "https://finnhub.io/api/news?id=0397167c512afda21efdb05a82aa4cf97a13c1f7b42577c19de2543e3ae2cee3",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T12:45:21Z",
-          "primary": false,
-          "symbol": "IRM"
-        },
-        {
-          "headline": "Iron Mountain Stock: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=3a20133e134a0cfa2515012dba884a69bbc08a5af3bb2cbbff8676ae7a775ff8",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T10:05:02Z",
-          "primary": false,
-          "symbol": "IRM"
-        },
-        {
-          "headline": "Iron Mountain Sees Billion-Dollar Growth in Data Centers and IT Asset Services",
-          "url": "https://finnhub.io/api/news?id=4a0ea2e349cd3df8e40ef217cc79fa39d93edf861bebf0459163ded6a3bae8d0",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T04:12:06Z",
-          "primary": false,
-          "symbol": "IRM"
         }
       ]
     },
@@ -8239,17 +8215,17 @@
       "metrics": {
         "52WeekHigh": 69.14,
         "52WeekLow": 31.97,
-        "peTTM": 16.0296,
-        "psTTM": 1.0804,
+        "peTTM": 17.0453,
+        "psTTM": 1.1488,
         "netProfitMarginTTM": 6.74,
         "roeTTM": 21.240000000000002,
         "revenueGrowthTTMYoy": -1.18,
         "epsGrowthTTMYoy": 6.93,
         "currentRatioQuarterly": 2.0749,
         "totalDebt/totalEquityQuarterly": 0.5186,
-        "marketCapitalization": 49579.61
+        "marketCapitalization": 52721.04
       },
-      "updated_at": "2026-11-24T11:07:20Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "NIKE, Inc.",
       "profile": {
         "weburl": "https://about.nike.com/",
@@ -8258,42 +8234,42 @@
       },
       "news": [
         {
-          "headline": "Nike (NKE) Ascends But Remains Behind Market: Some Facts to Note",
-          "url": "https://finnhub.io/api/news?id=5279d300145c25572fcc6e9d69a21205495e730b44ac0fb9d9fbfdbe06cac9a8",
+          "headline": "Nike Stock Is Down 42% in 2026, and Lululemon Is Doing Even Worse",
+          "url": "https://finnhub.io/api/news?id=f7a8f778ea01a3428953ac7bcd211a691f219576549802ddbbf57631e557af3a",
           "source": "Yahoo",
-          "published_at": "2026-11-23T21:45:02Z",
+          "published_at": "2026-11-26T19:18:14Z",
           "primary": false,
           "symbol": "NKE"
         },
         {
-          "headline": "Why Nike and American Eagle Can Hold Up Better as Holiday Shoppers Avoid Clothing Aisles",
-          "url": "https://finnhub.io/api/news?id=cf85c4dbf864d5d62830acf98959218d64f0dc9838e69e9bd310b70cbc9731b3",
+          "headline": "Nike Slumped to $34, Yet This Apparel Pick Surged 23% Since October",
+          "url": "https://finnhub.io/api/news?id=aa220e7a142070335e9e98be457aad41ee6e7efbc4ccc42d024fb7e895eb3674",
           "source": "Yahoo",
-          "published_at": "2026-11-23T18:19:00Z",
+          "published_at": "2026-11-26T14:45:19Z",
           "primary": false,
           "symbol": "NKE"
         },
         {
-          "headline": "NIKE's Sports Marketing Push: Can It Boost Brand Engagement?",
-          "url": "https://finnhub.io/api/news?id=1a15005986e2fb0f23c7d8f9892ac6bb26ba46d23f623b072cf9de9bff4865cd",
+          "headline": "Has NIKE (NKE) Fallen Far Enough to Look Undervalued?",
+          "url": "https://finnhub.io/api/news?id=2c629448d8f8be693bb318aaeb0ec1374d9420b502c46ba7cd17495d25bd0618",
           "source": "Yahoo",
-          "published_at": "2026-11-23T14:44:00Z",
+          "published_at": "2026-11-25T22:10:34Z",
           "primary": false,
           "symbol": "NKE"
         },
         {
-          "headline": "Is National Bank Wrong to Give Up on Nike? Wall Street Still Sees $37",
-          "url": "https://finnhub.io/api/news?id=feec6b90a35f60e37cf81e9f03a5ac423f260d089f5de95506732505bce0037e",
+          "headline": "Did Nike Stock Jump On Its Own News?",
+          "url": "https://finnhub.io/api/news?id=32862495b9256f01ed072dfe740325bafb69be286ce40b46a279d451ae3409a4",
           "source": "Yahoo",
-          "published_at": "2026-11-23T07:27:35Z",
+          "published_at": "2026-11-25T19:11:48Z",
           "primary": false,
           "symbol": "NKE"
         },
         {
-          "headline": "Nike vs. Procter & Gamble: Which Consumer Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=31e5ecace7e4037d9fbe3201f122dc5594acac39fdfeae8136481edf1b0c0f9e",
+          "headline": "Why Nike's Perfect Comeback Isn't Working",
+          "url": "https://finnhub.io/api/news?id=46fcd08ee0a760f571ba10e105ac7de125104ea612aff1e199cb897ed7416fcb",
           "source": "Yahoo",
-          "published_at": "2026-11-22T20:11:25Z",
+          "published_at": "2026-11-25T15:32:23Z",
           "primary": false,
           "symbol": "NKE"
         }
@@ -8303,17 +8279,17 @@
       "metrics": {
         "52WeekHigh": 329.16,
         "52WeekLow": 218.31,
-        "peTTM": 24.7641,
-        "psTTM": 8.6243,
+        "peTTM": 25.1791,
+        "psTTM": 8.7688,
         "netProfitMarginTTM": 34.83,
         "roeTTM": 16.29,
         "revenueGrowthTTMYoy": 12.28,
         "epsGrowthTTMYoy": 17.13,
         "currentRatioQuarterly": 1.0194,
         "totalDebt/totalEquityQuarterly": 0.129,
-        "marketCapitalization": 109355.96
+        "marketCapitalization": 111188.586
       },
-      "updated_at": "2026-11-24T12:06:53Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "CME Group Inc.",
       "profile": {
         "weburl": "https://www.cmegroup.com/",
@@ -8322,42 +8298,42 @@
       },
       "news": [
         {
-          "headline": "CME vs. Robinhood Markets: Which Financial Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=1df3ea577d9814d71e01677b5ef1daa07672d26ecd3aee29144ac66a97d5275b",
+          "headline": "CME Expands European Reach to Drive Its Dairy Derivatives Business",
+          "url": "https://finnhub.io/api/news?id=25576de68243b88e3f056106c72fed4a0f775407a3e8a658a3e30090bc370873",
           "source": "Yahoo",
-          "published_at": "2026-11-21T14:40:02Z",
+          "published_at": "2026-11-26T15:29:00Z",
           "primary": false,
           "symbol": "CME"
         },
         {
-          "headline": "CME’s CEO Just Sold 43% of His Shares Near a Record",
-          "url": "https://finnhub.io/api/news?id=0a5ce627a0ce19de3269460c8edfedf337865f151e3fdd726d7301bd29434cae",
+          "headline": "CME Group (CME) Unveils European Dairy Futures",
+          "url": "https://finnhub.io/api/news?id=e745f138d9f489c205942b8011253166930a9b3e23d2dcd34d3839c33daea02e",
           "source": "Yahoo",
-          "published_at": "2026-11-20T17:07:40Z",
+          "published_at": "2026-11-26T13:14:05Z",
           "primary": false,
           "symbol": "CME"
         },
         {
-          "headline": "Why Is CME (CME) Up 0.1% Since Last Earnings Report?",
-          "url": "https://finnhub.io/api/news?id=e0921afcba72221de9caf74d5675d7954d2cd0c7e93285d53d3d3d3fb8179892",
+          "headline": "CME Group (CME) Is Drawing Fresh Attention, What Is The Market Seeing?",
+          "url": "https://finnhub.io/api/news?id=004906410aa399e6f95ef1d4841de789513d4e644c99584140bb976faabc9b1d",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:04Z",
+          "published_at": "2026-11-26T12:12:57Z",
           "primary": false,
           "symbol": "CME"
         },
         {
-          "headline": "XRP News: CME Futures Hit $81.2 Billion in 18 Months – So Why Is XRP Down 61%?",
-          "url": "https://finnhub.io/api/news?id=26ab3a51dd0f24535dcdf70ffb34d075d28fea3270417b6a91ce76521b92e020",
+          "headline": "Record Trading Activity Lifted CME Group (CME) in Q3",
+          "url": "https://finnhub.io/api/news?id=81caeae5bc28911172721bfe736441f7d4e5e0c3b4357f443d75d3ab90582f93",
           "source": "Yahoo",
-          "published_at": "2026-11-20T15:26:18Z",
+          "published_at": "2026-11-25T17:49:54Z",
           "primary": false,
           "symbol": "CME"
         },
         {
-          "headline": "CME Group Stock And Other Exchange Operators Leveraged To AI Trading",
-          "url": "https://finnhub.io/api/news?id=94093b916cd676c3bdd39fabf20a55aed62757f653d289d4df9303629fe94a5b",
+          "headline": "CME Group Eyes Growth as Prediction Markets Gain Strong Momentum",
+          "url": "https://finnhub.io/api/news?id=283351e8debf866bdeb9d3a38cdd0dcf800748dbe61fb9686f8df37400530a9d",
           "source": "Yahoo",
-          "published_at": "2026-11-20T12:13:58Z",
+          "published_at": "2026-11-25T16:47:00Z",
           "primary": false,
           "symbol": "CME"
         }
@@ -8367,17 +8343,17 @@
       "metrics": {
         "52WeekHigh": 242.8,
         "52WeekLow": 160.93,
-        "peTTM": 36.7299,
-        "psTTM": 6.212,
+        "peTTM": 36.6133,
+        "psTTM": 6.1923,
         "netProfitMarginTTM": 16.91,
         "roeTTM": 8.18,
         "revenueGrowthTTMYoy": 5.52,
         "epsGrowthTTMYoy": 25.73,
         "currentRatioQuarterly": 1.6339,
         "totalDebt/totalEquityQuarterly": 0.4939,
-        "marketCapitalization": 159077.11
+        "marketCapitalization": 158572.33
       },
-      "updated_at": "2026-11-24T12:06:53Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Danaher Corporation",
       "profile": {
         "weburl": "https://www.danaher.com/",
@@ -8385,6 +8361,14 @@
         "name": "Danaher Corporation"
       },
       "news": [
+        {
+          "headline": "What Are Wall Street Analysts’ Target Price for Danaher Stock?",
+          "url": "https://finnhub.io/api/news?id=d79f00eea7dfae0855247a78f26b67d66e3be3e0c68cba703e186b6e3a9a20da",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T10:26:38Z",
+          "primary": false,
+          "symbol": "DHR"
+        },
         {
           "headline": "Initiating a Position in Danaher Corporation (DHR) Following a Period of Underperformance",
           "url": "https://finnhub.io/api/news?id=2a317a171dcf31c8040fe1ddc29681d788d69b4c53159ad7151abdbcb4e330db",
@@ -8416,44 +8400,45 @@
           "published_at": "2026-11-21T04:20:11Z",
           "primary": false,
           "symbol": "DHR"
-        },
-        {
-          "headline": "Can Danaher (DHR) Hold A Premium As Bioprocessing Markets Grow?",
-          "url": "https://finnhub.io/api/news?id=c26c5968ac9930b30e23ba3a4068120fcb334db98f59e205031dc6bca9d06df1",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T03:16:01Z",
-          "primary": false,
-          "symbol": "DHR"
         }
       ]
     },
     "PCAR": {
       "metrics": {
         "52WeekHigh": 139.24,
-        "52WeekLow": 98.08,
-        "peTTM": 19.9758,
-        "psTTM": 1.8971,
+        "52WeekLow": 100.07,
+        "peTTM": 20.0826,
+        "psTTM": 1.9072,
         "netProfitMarginTTM": 9.5,
         "roeTTM": 13.76,
         "revenueGrowthTTMYoy": -1.53,
         "epsGrowthTTMYoy": 2.51,
         "currentRatioQuarterly": 1.7935,
         "totalDebt/totalEquityQuarterly": 0.7147,
-        "marketCapitalization": 55167.227
+        "marketCapitalization": 55462.066
       },
-      "updated_at": "2026-11-24T12:06:53Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Paccar Inc",
       "profile": {
         "weburl": "https://www.paccar.com/",
         "industry": "Machinery",
         "name": "Paccar Inc"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Paccar (PCAR) Up 5.4% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=3c131c026563413bfd6e88149fea5265733ab1da9213c0cc67a66cc3e7c6ba28",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:16Z",
+          "primary": false,
+          "symbol": "PCAR"
+        }
+      ]
     },
     "HAL": {
       "metrics": {
         "52WeekHigh": 43.59,
-        "52WeekLow": 24.92,
+        "52WeekLow": 24.98,
         "peTTM": 12.8389,
         "psTTM": 1.143,
         "netProfitMarginTTM": 8.9,
@@ -8462,9 +8447,9 @@
         "epsGrowthTTMYoy": 58.03,
         "currentRatioQuarterly": 2.0193,
         "totalDebt/totalEquityQuarterly": 0.6442,
-        "marketCapitalization": 25690.545
+        "marketCapitalization": 25690.543
       },
-      "updated_at": "2026-11-24T12:06:53Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "Halliburton Company",
       "profile": {
         "weburl": "https://www.halliburton.com/",
@@ -8487,22 +8472,6 @@
           "published_at": "2026-11-19T13:00:00Z",
           "primary": false,
           "symbol": "HAL"
-        },
-        {
-          "headline": "Halliburton (HAL) Has Fresh Attention, But What Is The Market Weighing?",
-          "url": "https://finnhub.io/api/news?id=b1c17fab5d8f7572909382199ef859f820c19f75e1d6cfc3c6b670d54729ed7c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T00:19:19Z",
-          "primary": false,
-          "symbol": "HAL"
-        },
-        {
-          "headline": "Halliburton Targets Egypt Growth With Proposed 50-Well Program",
-          "url": "https://finnhub.io/api/news?id=929a41a539066ef8631165e650fb58c01362bdf3a141a378f2ed68c308d01caf",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T15:18:00Z",
-          "primary": false,
-          "symbol": "HAL"
         }
       ]
     },
@@ -8510,17 +8479,17 @@
       "metrics": {
         "52WeekHigh": 225.98,
         "52WeekLow": 90.38,
-        "peTTM": 8.3824,
-        "psTTM": 1.0714,
+        "peTTM": 8.6626,
+        "psTTM": 1.1072,
         "netProfitMarginTTM": 12.78,
         "roeTTM": 29.73,
         "revenueGrowthTTMYoy": 1.74,
         "epsGrowthTTMYoy": -17.09,
         "currentRatioQuarterly": 2.19,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 11886.071
+        "marketCapitalization": 12283.3545
       },
-      "updated_at": "2026-11-24T12:06:53Z",
+      "updated_at": "2026-11-26T21:06:01Z",
       "name": "lululemon athletica inc.",
       "profile": {
         "weburl": "https://shop.lululemon.com/",
@@ -8528,6 +8497,30 @@
         "name": "lululemon athletica inc."
       },
       "news": [
+        {
+          "headline": "Nike Stock Is Down 42% in 2026, and Lululemon Is Doing Even Worse",
+          "url": "https://finnhub.io/api/news?id=f7a8f778ea01a3428953ac7bcd211a691f219576549802ddbbf57631e557af3a",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T19:18:14Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
+        {
+          "headline": "Lululemon markdowns put 2027 margins at risk, Jefferies says",
+          "url": "https://finnhub.io/api/news?id=ab2ba88567fc67cb2a67b659c00fb304a970c6c8974a2226a6c2a5bf71ac3752",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:00Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
+        {
+          "headline": "BMO Expects a Lululemon Beat but Stays Bearish",
+          "url": "https://finnhub.io/api/news?id=d0f70c3f899b9dd6604b909fd03ea7b22416c8cb49d97fc092e425132deb6b02",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:16:53Z",
+          "primary": false,
+          "symbol": "LULU"
+        },
         {
           "headline": "lululemon athletica inc. announces third quarter fiscal 2026 earnings conference call",
           "url": "https://finnhub.io/api/news?id=74311d88010bc7ae37dc333f95edaafc92c632232077062dd5c7bc28546f7f2d",
@@ -8541,30 +8534,6 @@
           "url": "https://finnhub.io/api/news?id=4ebef789291b672b7a395ab3287e0b69f853d9f564ec60911ea933d47f55202e",
           "source": "Yahoo",
           "published_at": "2026-11-23T23:21:35Z",
-          "primary": false,
-          "symbol": "LULU"
-        },
-        {
-          "headline": "Lululemon Athletica (LULU) Regains Michael Burry’s Backing",
-          "url": "https://finnhub.io/api/news?id=3e7a35e5b26836a11279aee743bd3458591f9a3afea17386ce40221487f97c2c",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T22:09:18Z",
-          "primary": false,
-          "symbol": "LULU"
-        },
-        {
-          "headline": "Lululemon (LULU) Advances But Underperforms Market: Key Facts",
-          "url": "https://finnhub.io/api/news?id=540a0c986034df71dbb17c4de362e5f61c2826c8d268f7ec476443093543fb37",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T21:45:02Z",
-          "primary": false,
-          "symbol": "LULU"
-        },
-        {
-          "headline": "lululemon Appoints Paula Conhain as Chief Communications Officer",
-          "url": "https://finnhub.io/api/news?id=a2630bd01ff4aa57a00cdb202c616e387bc56ff7bd7d5ce211c0d88388876e2a",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T21:05:00Z",
           "primary": false,
           "symbol": "LULU"
         }
@@ -30306,6 +30275,6 @@
       ]
     }
   },
-  "cursor": 131,
-  "updated_at": "2026-11-26T20:14:36Z"
+  "cursor": 143,
+  "updated_at": "2026-11-26T21:06:01Z"
 }
