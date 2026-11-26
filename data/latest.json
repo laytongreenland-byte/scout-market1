@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:12:53Z",
+  "generated_at": "2026-11-26T16:16:49Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T15:12:53Z",
+      "checked_at": "2026-11-26T16:16:49Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T15:12:53Z",
+      "checked_at": "2026-11-26T16:16:49Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T15:12:53Z",
+      "checked_at": "2026-11-26T16:16:49Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T15:12:53Z",
+      "checked_at": "2026-11-26T16:16:49Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T15:12:53Z",
+      "checked_at": "2026-11-26T16:16:49Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T15:12:53Z",
+    "generated_at": "2026-11-26T16:16:49Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7648,7 +7648,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Financial Services",
-        "why": "Net profit margin 15.6% (TTM); Return on equity 17.8% (TTM); Trailing P/E 13.3×; TTM revenue growth 12.0% YoY",
+        "why": "Net profit margin 15.6% (TTM); Return on equity 17.8% (TTM); Trailing P/E 12.5×; TTM revenue growth 12.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7662,35 +7662,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T05:18:09Z",
+            "timestamp": "2026-11-26T16:16:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Morgan Stanley (MS) Wealth Narrative Holds Following Preferred Dividend Declaration",
-            "timestamp": "2026-11-24T03:17:24Z",
-            "url": "https://finnhub.io/api/news?id=8571f36c5d5c032e8ba4a3291716d225806a09e4a95a9146c56d209e7ce751cd"
+            "value": "Investors’ Concerns Weighed on Morgan Stanley (MS) Despite Strong Results",
+            "timestamp": "2026-11-26T15:41:23Z",
+            "url": "https://finnhub.io/api/news?id=ba45b683792a1a8c00d94f916760b5be4b77519b05e3fe005fe4cf7a7ea7bf64"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T05:18:09Z",
+        "fundamentals_at": "2026-11-26T16:16:49Z",
         "price": 167.58,
         "currency": "USD",
         "change_pct": -0.717,
         "news": [
           {
-            "headline": "Morgan Stanley (MS) Wealth Narrative Holds Following Preferred Dividend Declaration",
-            "url": "https://finnhub.io/api/news?id=8571f36c5d5c032e8ba4a3291716d225806a09e4a95a9146c56d209e7ce751cd",
+            "headline": "Investors’ Concerns Weighed on Morgan Stanley (MS) Despite Strong Results",
+            "url": "https://finnhub.io/api/news?id=ba45b683792a1a8c00d94f916760b5be4b77519b05e3fe005fe4cf7a7ea7bf64",
             "source": "Yahoo",
-            "published_at": "2026-11-24T03:17:24Z",
+            "published_at": "2026-11-26T15:41:23Z",
             "primary": false,
             "symbol": "MS"
           },
           {
-            "headline": "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
-            "url": "https://finnhub.io/api/news?id=116966f857edab7cb4301cb3ec9eb1acb57bdb08b8e4c509138f6d25cb397d8e",
+            "headline": "Morgan Stanley’s $335 Target Says Bloom Energy’s Selloff Went Too Far",
+            "url": "https://finnhub.io/api/news?id=038b13715328c8cc7c68df9485d0dc723f478eba365b6397da48ec1d83c1ab07",
             "source": "Yahoo",
-            "published_at": "2026-11-24T03:03:00Z",
+            "published_at": "2026-11-26T11:20:23Z",
             "primary": false,
             "symbol": "MS"
           }
@@ -8731,7 +8731,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.8×; TTM revenue growth 99.2% YoY",
+        "why": "Net profit margin 17.4% (TTM); Return on equity 9.2% (TTM); Trailing P/E 9.7×; TTM revenue growth 99.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8745,35 +8745,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T04:09:11Z",
+            "timestamp": "2026-11-26T16:16:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Is Earnings Rebound Altering The Investment Case For Citigroup (C)?",
-            "timestamp": "2026-11-24T01:17:27Z",
-            "url": "https://finnhub.io/api/news?id=dda6b2e7627923979af74b3a14ae39004acfb88389130696f43a0bc74f7620d7"
+            "value": "Citigroup considers return to Venezuela after five-year exit – report",
+            "timestamp": "2026-11-26T11:40:55Z",
+            "url": "https://finnhub.io/api/news?id=3ef55ba89f9253a52d38bc21260e8de289fc4c12bbdb431599463c99d98f2889"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T04:09:11Z",
+        "fundamentals_at": "2026-11-26T16:16:49Z",
         "price": 113.36,
         "currency": "USD",
         "change_pct": -0.43,
         "news": [
           {
-            "headline": "Is Earnings Rebound Altering The Investment Case For Citigroup (C)?",
-            "url": "https://finnhub.io/api/news?id=dda6b2e7627923979af74b3a14ae39004acfb88389130696f43a0bc74f7620d7",
+            "headline": "Citigroup considers return to Venezuela after five-year exit – report",
+            "url": "https://finnhub.io/api/news?id=3ef55ba89f9253a52d38bc21260e8de289fc4c12bbdb431599463c99d98f2889",
             "source": "Yahoo",
-            "published_at": "2026-11-24T01:17:27Z",
+            "published_at": "2026-11-26T11:40:55Z",
             "primary": false,
             "symbol": "C"
           },
           {
-            "headline": "Citigroup Executive Says Credit Card Customers Spend 9 Times More. Here’s Why the Bank Wants More of Them.",
-            "url": "https://finnhub.io/api/news?id=55a638f63e24ccf3ab55d870ac4ff08d86ed22d2f843be669627dd127f052c51",
+            "headline": "Citigroup (C) Explores Venezuela Banking Return As It Seeks Sanctions Waivers",
+            "url": "https://finnhub.io/api/news?id=295ef4d5372d132642001737389d3638cff7ec182d48d589905c3c34577578ce",
             "source": "Yahoo",
-            "published_at": "2026-11-23T16:14:05Z",
+            "published_at": "2026-11-25T21:15:24Z",
             "primary": false,
             "symbol": "C"
           }
@@ -13324,7 +13324,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Energy",
-        "why": "Net profit margin 7.5% (TTM); Return on equity 40.8% (TTM); Trailing P/E 7.4×; TTM revenue growth 27.5% YoY",
+        "why": "Net profit margin 7.5% (TTM); Return on equity 40.8% (TTM); Trailing P/E 7.3×; TTM revenue growth 27.5% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13338,35 +13338,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T04:09:11Z",
+            "timestamp": "2026-11-26T16:16:49Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
-            "timestamp": "2026-11-23T11:45:00Z",
-            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732"
+            "value": "iShares Russell Mid-Cap (IWR) Adds Marathon Petroleum and Phillips 66 on Tuesday",
+            "timestamp": "2026-11-26T11:05:35Z",
+            "url": "https://finnhub.io/api/news?id=b6884b9c9a0ea3ddc6ed48b1e3dd5a230bb49b4fccc8d7e40c633215dec97dc1"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T04:09:11Z",
+        "fundamentals_at": "2026-11-26T16:16:49Z",
         "price": 236.12,
         "currency": "USD",
         "change_pct": -0.35,
         "news": [
           {
-            "headline": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
-            "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732",
+            "headline": "iShares Russell Mid-Cap (IWR) Adds Marathon Petroleum and Phillips 66 on Tuesday",
+            "url": "https://finnhub.io/api/news?id=b6884b9c9a0ea3ddc6ed48b1e3dd5a230bb49b4fccc8d7e40c633215dec97dc1",
             "source": "Yahoo",
-            "published_at": "2026-11-23T11:45:00Z",
+            "published_at": "2026-11-26T11:05:35Z",
             "primary": false,
             "symbol": "PSX"
           },
           {
-            "headline": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
-            "url": "https://finnhub.io/api/news?id=8a1b82e5dfa2bd9b0c42215de19ce77d7d49c3b653ba7d175d2fe700e5210b56",
+            "headline": "Do Wall Street Analysts Like Phillips 66 Stock?",
+            "url": "https://finnhub.io/api/news?id=2349f236980d50936912915e5fd57991481b2ddfd6bb10e77658e72a1e55c0a3",
             "source": "Yahoo",
-            "published_at": "2026-11-21T22:17:33Z",
+            "published_at": "2026-11-24T10:53:02Z",
             "primary": false,
             "symbol": "PSX"
           }
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T15:12:53Z",
+      "generated_at": "2026-11-26T16:16:49Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 834,
