@@ -28906,17 +28906,17 @@
       "metrics": {
         "52WeekHigh": 246.33,
         "52WeekLow": 140.08,
-        "peTTM": 7.0768,
-        "psTTM": 0.5637,
+        "peTTM": 7.3221,
+        "psTTM": 0.5832,
         "netProfitMarginTTM": 7.96,
         "roeTTM": 19.59,
         "revenueGrowthTTMYoy": 8.0,
         "epsGrowthTTMYoy": 13.65,
         "currentRatioQuarterly": 1.3694,
         "totalDebt/totalEquityQuarterly": 0.7513,
-        "marketCapitalization": 10344.5625
+        "marketCapitalization": 10703.044
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Universal Health Services, Inc.",
       "profile": {
         "weburl": "https://uhs.com",
@@ -28925,18 +28925,42 @@
       },
       "news": [
         {
-          "headline": "Universal Health Services, Inc. Announces Dividend",
-          "url": "https://finnhub.io/api/news?id=b9c17e5f684863e7c621a12f1d60cb70efdddb64fd8a340f9c3be87abce60f84",
+          "headline": "Universal Health Services Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=ed582e68ed333893b1b8b376f4b49712f299bb0fbc086fdfc041ab1f13e5ff3a",
           "source": "Yahoo",
-          "published_at": "2026-11-18T21:20:00Z",
+          "published_at": "2026-11-25T13:39:47Z",
           "primary": false,
           "symbol": "UHS"
         },
         {
-          "headline": "Universal Health Services (UHS) Expands Outpatient Behavioral Health, Does It Look Fairly Valued?",
-          "url": "https://finnhub.io/api/news?id=f05d7b8cfe6492493916ff516f03730e3e9750b5c996a32c5b635b43089b131c",
+          "headline": "Universal Health Services, Inc. to Sell Aiken Regional Medical Centers for Approximately $500 Million",
+          "url": "https://finnhub.io/api/news?id=026a2eb9295f1f70d713be4dbbdb024749e9f25704856a5a80392167aa44f794",
+          "source": "Fintel",
+          "published_at": "2026-11-25T01:39:20Z",
+          "primary": false,
+          "symbol": "UHS"
+        },
+        {
+          "headline": "JP Morgan Maintains Neutral on Universal Health Services, Lowers Price Target to $185",
+          "url": "https://finnhub.io/api/news?id=637c4af62146b11198a8d4491d00873b97af2678690c5f08ba9d8a15eede9077",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T12:20:27Z",
+          "primary": false,
+          "symbol": "UHS"
+        },
+        {
+          "headline": "Leerink Partners Maintains Outperform on Universal Health Services, Lowers Price Target to $192",
+          "url": "https://finnhub.io/api/news?id=ef22c87b1beefef2615ffa1cbe6024303972ac5d302d962d0bf48481d1dc80a0",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T11:17:48Z",
+          "primary": false,
+          "symbol": "UHS"
+        },
+        {
+          "headline": "Universal Health Services, Inc. Announces Dividend",
+          "url": "https://finnhub.io/api/news?id=b9c17e5f684863e7c621a12f1d60cb70efdddb64fd8a340f9c3be87abce60f84",
           "source": "Yahoo",
-          "published_at": "2026-11-17T04:33:30Z",
+          "published_at": "2026-11-18T21:20:00Z",
           "primary": false,
           "symbol": "UHS"
         }
@@ -28946,17 +28970,17 @@
       "metrics": {
         "52WeekHigh": 325.99,
         "52WeekLow": 148.05,
-        "peTTM": 42.4759,
-        "psTTM": 12.4645,
+        "peTTM": 43.379,
+        "psTTM": 12.7295,
         "netProfitMarginTTM": 29.34,
         "roeTTM": 14.000000000000002,
         "revenueGrowthTTMYoy": 16.5,
         "epsGrowthTTMYoy": 25.58,
         "currentRatioQuarterly": 5.4578,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 43103.375
+        "marketCapitalization": 44019.793
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Veeva Systems Inc.",
       "profile": {
         "weburl": "https://www.veeva.com/medtech/",
@@ -28964,6 +28988,30 @@
         "name": "Veeva Systems Inc."
       },
       "news": [
+        {
+          "headline": "Veeva Systems (VEEV) Advances While Market Declines: Some Information for Investors",
+          "url": "https://finnhub.io/api/news?id=d81b25882a8d4fa8bbe3a216ca499b9f05b5446b45903af42da7338d3aa5fdb3",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T21:45:03Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "Veeva Systems' Gains 20% YTD: Can the Stock's Growth Momentum",
+          "url": "https://finnhub.io/api/news?id=2fbe753af4192cbdc30b2fe6266a68c2de54afefb5fb63f8e2330171410ea2ed",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T16:47:00Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "UBS Maintains Neutral on Veeva Systems, Lowers Price Target to $300",
+          "url": "https://finnhub.io/api/news?id=7bd2412624fe1e5e468d02646d517589b88d0116eb3d44f7f4e593963008a553",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T12:51:43Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
         {
           "headline": "Veeva (VEEV) Stock May Be 17% Undervalued On Cash Flow Expectations",
           "url": "https://finnhub.io/api/news?id=9dc581d35173098c5d161b7a2dac6a06dea4be54a8bccda89d8549ef72bf9356",
@@ -28979,30 +29027,6 @@
           "published_at": "2026-11-20T12:15:11Z",
           "primary": false,
           "symbol": "VEEV"
-        },
-        {
-          "headline": "Veeva Systems Stock: Analyst Estimates & Ratings",
-          "url": "https://finnhub.io/api/news?id=bfc8b380cd58b69bd000e85fdaa2ae88ba9c5ae29f1c852d6973dda08d772ddd",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T11:20:05Z",
-          "primary": false,
-          "symbol": "VEEV"
-        },
-        {
-          "headline": "Veeva (VEEV) Is Considered a Good Investment by Brokers: Is That True?",
-          "url": "https://finnhub.io/api/news?id=771bbee0f3e014ec30c836abf8c6167915272ab959265d0189237bbf918607df",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T13:30:04Z",
-          "primary": false,
-          "symbol": "VEEV"
-        },
-        {
-          "headline": "Why Veeva Systems (VEEV) Dipped More Than Broader Market Today",
-          "url": "https://finnhub.io/api/news?id=6a735ae96544a091d5ff3a28d80c8ef0774cccc8627b65dad0eb318a7d1872da",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T21:45:02Z",
-          "primary": false,
-          "symbol": "VEEV"
         }
       ]
     },
@@ -29010,17 +29034,17 @@
       "metrics": {
         "52WeekHigh": 120.35,
         "52WeekLow": 80.03,
-        "peTTM": 28.301,
-        "psTTM": 4.8884,
+        "peTTM": 28.9862,
+        "psTTM": 5.0067,
         "netProfitMarginTTM": 17.27,
         "roeTTM": 32.22,
         "revenueGrowthTTMYoy": 6.4,
         "epsGrowthTTMYoy": 10.85,
         "currentRatioQuarterly": 2.0293,
         "totalDebt/totalEquityQuarterly": 0.9037,
-        "marketCapitalization": 28357.63
+        "marketCapitalization": 29044.156
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Veralto Corporation",
       "profile": {
         "weburl": "https://www.veralto.com/",
@@ -29028,6 +29052,22 @@
         "name": "Veralto Corporation"
       },
       "news": [
+        {
+          "headline": "ETFs Are Net Sellers of Veralto (VLTO) on Nov. 23",
+          "url": "https://finnhub.io/api/news?id=1638feefb95d09bf854190d6e25e198fde444f680175bcc1c6f9c46fde439f1f",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T11:03:03Z",
+          "primary": false,
+          "symbol": "VLTO"
+        },
+        {
+          "headline": "Veralto Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=35a993cfe221f5275ab46ac4df253695eee357da3edbdd68f93d3bed00819a3f",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T10:38:46Z",
+          "primary": false,
+          "symbol": "VLTO"
+        },
         {
           "headline": "Veralto: Solid Growth, But The Premium Is Hard To Justify",
           "url": "https://finnhub.io/api/news?id=285d9f52059601abf6113d020ec43ee1f43b3b14f5f2f63a990bcd80adc1a6a7",
@@ -29050,17 +29090,17 @@
       "metrics": {
         "52WeekHigh": 324.6342,
         "52WeekLow": 208.86,
-        "peTTM": 32.3914,
-        "psTTM": 15.8946,
+        "peTTM": 32.9674,
+        "psTTM": 16.1772,
         "netProfitMarginTTM": 49.07,
         "roeTTM": 113.55,
         "revenueGrowthTTMYoy": 6.46,
         "epsGrowthTTMYoy": 8.12,
         "currentRatioQuarterly": 0.4152,
         "totalDebt/totalEquityQuarterly": 1.0716,
-        "marketCapitalization": 27526.238
+        "marketCapitalization": 28015.695
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "VeriSign, Inc.",
       "profile": {
         "weburl": "https://www.verisign.com/",
@@ -29069,18 +29109,18 @@
       },
       "news": [
         {
-          "headline": "VeriSign: Good Prospects Appear Baked In",
-          "url": "https://finnhub.io/api/news?id=ce55cae9ca23363dca81ae6501ade9481589f9923f0776c1b3d45803a9e6414b",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-22T23:48:22Z",
+          "headline": "Is Wall Street Bullish or Bearish on VeriSign Stock?",
+          "url": "https://finnhub.io/api/news?id=c8932457a775ce32cc6218e62682a25fee7db1ae88094ad3f1b762f9a8d1899a",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T12:28:38Z",
           "primary": false,
           "symbol": "VRSN"
         },
         {
-          "headline": "Berkshire Sold Bank of America and VeriSign Stock in Q3, and Bought Lennar and Delta",
-          "url": "https://finnhub.io/api/news?id=b8b12e025608398c58d58185478c576f760f424659500f19caf54efea48cc3b8",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T22:15:00Z",
+          "headline": "VeriSign: Good Prospects Appear Baked In",
+          "url": "https://finnhub.io/api/news?id=ce55cae9ca23363dca81ae6501ade9481589f9923f0776c1b3d45803a9e6414b",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-22T23:48:22Z",
           "primary": false,
           "symbol": "VRSN"
         }
@@ -29090,17 +29130,17 @@
       "metrics": {
         "52WeekHigh": 227.16,
         "52WeekLow": 155.94,
-        "peTTM": 29.4875,
-        "psTTM": 8.1611,
+        "peTTM": 30.0979,
+        "psTTM": 8.3301,
         "netProfitMarginTTM": 27.68,
         "roeTTM": 324.28,
         "revenueGrowthTTMYoy": 4.86,
         "epsGrowthTTMYoy": 0.65,
         "currentRatioQuarterly": 1.0688,
         "totalDebt/totalEquityQuarterly": 15.3307,
-        "marketCapitalization": 25925.402
+        "marketCapitalization": 26462.111
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Verisk Analytics, Inc.",
       "profile": {
         "weburl": "https://www.verisk.com",
@@ -29109,10 +29149,26 @@
       },
       "news": [
         {
-          "headline": "Verisk Analytics, Inc. (VRSK) Presents at J.P. Morgan Ultimate Services Investor Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=4137c00edb7bb4f4f50f092ed1fe86e3bd3513e823bae738924d300d29e98de1",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-17T21:52:46Z",
+          "headline": "Thanksgiving Cargo Theft Doubles from 2021 as Verisk CargoNet Warns of Fraudulent Hires and Data Center Hardware Being Targeted",
+          "url": "https://finnhub.io/api/news?id=3480ac2d9af70d3776c6474bbee7515063eac5933c59a6f89807f7bbf618f956",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T19:00:00Z",
+          "primary": false,
+          "symbol": "VRSK"
+        },
+        {
+          "headline": "Verisk Stock Gains 19% in 6 Months: Here's What Investors Should Know",
+          "url": "https://finnhub.io/api/news?id=6f6c16a0ff7e3d86a25e02f0ff0d8dc2432a9220833d8fa820a5fcba490b7520",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T15:57:00Z",
+          "primary": false,
+          "symbol": "VRSK"
+        },
+        {
+          "headline": "Verisk Analytics Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=7866538f77ab3324f104440a28caa6407fdb9e4cff96b215d811775add8f4e6d",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T11:30:49Z",
           "primary": false,
           "symbol": "VRSK"
         }
@@ -29122,17 +29178,17 @@
       "metrics": {
         "52WeekHigh": 379.935,
         "52WeekLow": 147.82,
-        "peTTM": 30.5112,
-        "psTTM": 4.8803,
+        "peTTM": 29.6911,
+        "psTTM": 4.7491,
         "netProfitMarginTTM": 15.99,
         "roeTTM": 45.5,
         "revenueGrowthTTMYoy": 35.27,
         "epsGrowthTTMYoy": 101.55,
         "currentRatioQuarterly": 1.3918,
         "totalDebt/totalEquityQuarterly": 0.5323,
-        "marketCapitalization": 64012.445
+        "marketCapitalization": 62291.99
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Vertiv Holdings Co",
       "profile": {
         "weburl": "https://investors.vertiv.com/",
@@ -29141,42 +29197,42 @@
       },
       "news": [
         {
-          "headline": "Why Is Vertiv (VRT) Stock Up Today? Nvidia's CEO Return Lifts AI Hardware Stocks",
-          "url": "https://finnhub.io/api/news?id=32eedd901cf5a20634722628e2075078db3d8458dd27c8e052e2bf16d6cff3cf",
+          "headline": "Vertiv jumps 17 spots on the Roundtable 100",
+          "url": "https://finnhub.io/api/news?id=92805670a5ffbfa25d9ccce4b6b5f13d31c856e3d8c58a07658f72e9552b2b6c",
           "source": "Yahoo",
-          "published_at": "2026-11-23T17:30:31Z",
+          "published_at": "2026-11-25T17:18:53Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "13 Big Funds Bought Vertiv Holdings Co Last Quarter, While 17 Sold. Who’s Right?",
-          "url": "https://finnhub.io/api/news?id=3ee49adfaa3293f74747eea87a863222943a03b5093f3df04e4306bd8c106fcb",
+          "headline": "Vertiv Just Raised Its Dividend 60%, but the AI Stock Still Yields Only 0.23%",
+          "url": "https://finnhub.io/api/news?id=93b30ad2629efc40328c4e42b0b87e2ef617b2861a2ad1c501bdbe972814d6dd",
           "source": "Yahoo",
-          "published_at": "2026-11-23T17:03:31Z",
+          "published_at": "2026-11-25T12:47:01Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "Vertiv (VRT) Stock Looks Like A Bargain On Cash Flow",
-          "url": "https://finnhub.io/api/news?id=cfe2e10dbd21f93e14ff5bbaa3e180a45b84fb9e55307a97fa4e4a04e274ae64",
+          "headline": "Vertiv Holdings Co (VRT) Looks Repriced Following AI Data Center Wins And Higher Guidance",
+          "url": "https://finnhub.io/api/news?id=1e7faca06c0b1a3c0c9755986152ca056298501829568d1774f4d71089b52fb2",
           "source": "Yahoo",
-          "published_at": "2026-11-23T15:08:12Z",
+          "published_at": "2026-11-25T11:08:32Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "U.S. Data Center Cooling Market Size, Share, Trends and Forecast (2026-2031) Featuring Profiles of Carrier, Delta Electronics, Johnson Controls, Schneider Electric, STULZ, Vertiv and More",
-          "url": "https://finnhub.io/api/news?id=e301f685c634e863337fea4756b37c4495376ea0cdc3d68d9f8d9dce5a0caf25",
+          "headline": "Vertiv Lost 11% in a Month. Evercore Cut Its Target, but Still Sees 58% Upside",
+          "url": "https://finnhub.io/api/news?id=0348af3dba6c79c14a8c5fac49f52ec816486216ca8489e76a07eaa15345d953",
           "source": "Yahoo",
-          "published_at": "2026-11-23T14:57:00Z",
+          "published_at": "2026-11-25T09:04:21Z",
           "primary": false,
           "symbol": "VRT"
         },
         {
-          "headline": "Vertiv Says Its Nvidia-Backed Designs Can Add 30% More AI Output in the First Year. Here's the Catch.",
-          "url": "https://finnhub.io/api/news?id=2ad9489e39f99b02208d054942975b1ed6f869356a54275e8f92b2f917782632",
+          "headline": "Vertiv CEO Says the Buildout Is “Accelerating.” Voters Just Knocked the Stock Down 25%",
+          "url": "https://finnhub.io/api/news?id=37a06b224ae3e334bf27609d0c1cc4f707e8e89c7c23edb43d25cca9f86bbde4",
           "source": "Yahoo",
-          "published_at": "2026-11-23T14:36:00Z",
+          "published_at": "2026-11-25T08:46:37Z",
           "primary": false,
           "symbol": "VRT"
         }
@@ -29185,16 +29241,16 @@
     "VTRS": {
       "metrics": {
         "52WeekHigh": 21.2,
-        "52WeekLow": 10.15,
-        "psTTM": 1.5281,
+        "52WeekLow": 10.39,
+        "psTTM": 1.5193,
         "netProfitMarginTTM": -4.13,
         "roeTTM": -4.24,
         "revenueGrowthTTMYoy": 4.27,
         "currentRatioQuarterly": 1.5517,
         "totalDebt/totalEquityQuarterly": 0.9727,
-        "marketCapitalization": 22504.906
+        "marketCapitalization": 22373.984
       },
-      "updated_at": "2026-11-23T18:08:35Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Viatris Inc.",
       "profile": {
         "weburl": "https://www.viatris.com/en",
@@ -29202,6 +29258,30 @@
         "name": "Viatris Inc."
       },
       "news": [
+        {
+          "headline": "Viatris: Strong Cash Flow, Improving Guidance, And Pacira Deal Strengthen The Bullish Case",
+          "url": "https://finnhub.io/api/news?id=b9b2af26114037b22918065c95d8744afc714e1e0d8de6de8c393fff95cc1494",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-25T02:04:33Z",
+          "primary": false,
+          "symbol": "VTRS"
+        },
+        {
+          "headline": "Zacks Industry Outlook Highlights Viatris, Teva Pharmaceuticals and Sandoz",
+          "url": "https://finnhub.io/api/news?id=827729304649d1f983d46597c42827e3e4ed068447d6b007e545864fa970f809",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T14:40:00Z",
+          "primary": false,
+          "symbol": "VTRS"
+        },
+        {
+          "headline": "Correction: Scotiabank Initiates Coverage On Viatris with Sector Outperform Rating, Announces Price Target of $25",
+          "url": "https://finnhub.io/api/news?id=6d0edee87edad5f09dfc0aeb24ba4bd4f0eee80e2c09882cda85e444bdd794a8",
+          "source": "Benzinga",
+          "published_at": "2026-11-23T15:08:35Z",
+          "primary": false,
+          "symbol": "VTRS"
+        },
         {
           "headline": "All You Need to Know About Viatris (VTRS) Rating Upgrade to Strong Buy",
           "url": "https://finnhub.io/api/news?id=e37d9d72fb96ab3bba5459da29150f43863f2e6c8b6f55b3924a11bbcc651de2",
@@ -29217,30 +29297,6 @@
           "published_at": "2026-11-20T15:05:08Z",
           "primary": false,
           "symbol": "VTRS"
-        },
-        {
-          "headline": "Oppenheimer Maintains Outperform on Viatris, Raises Price Target to $26",
-          "url": "https://finnhub.io/api/news?id=051217ceb04510989b1cace5d87549cdb7c83d14bf19b7faa1b10158d362d379",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T10:10:51Z",
-          "primary": false,
-          "symbol": "VTRS"
-        },
-        {
-          "headline": "Viatris Inc. (VTRS) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
-          "url": "https://finnhub.io/api/news?id=c4f92be59e3b621449c742c6aaddd8598fee279294522a15983cfe7cb4a94d34",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T06:12:55Z",
-          "primary": false,
-          "symbol": "VTRS"
-        },
-        {
-          "headline": "Viatris Completes Acquisition of Pacira BioSciences",
-          "url": "https://finnhub.io/api/news?id=0d542b3c1347466b3d09a077fe12d07b62e8122216ff11575028b7ebc71137a8",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:50:00Z",
-          "primary": false,
-          "symbol": "VTRS"
         }
       ]
     },
@@ -29248,38 +29304,47 @@
       "metrics": {
         "52WeekHigh": 331.09,
         "52WeekLow": 237.03,
-        "peTTM": 31.5126,
-        "psTTM": 4.3408,
+        "peTTM": 32.4454,
+        "psTTM": 4.4692,
         "netProfitMarginTTM": 13.77,
         "roeTTM": 13.04,
         "revenueGrowthTTMYoy": 1.61,
         "epsGrowthTTMYoy": 0.44,
         "currentRatioQuarterly": 1.4284,
         "totalDebt/totalEquityQuarterly": 0.5578,
-        "marketCapitalization": 34764.652
+        "marketCapitalization": 35793.727
       },
-      "updated_at": "2026-11-23T19:12:04Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Vulcan Materials Co",
       "profile": {
         "weburl": "https://www.vulcanmaterials.com/",
         "industry": "Construction",
         "name": "Vulcan Materials Co"
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Vulcan Materials Company Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=db039276a68951e45c0ce13b5009295928f6fb6ae3797fa89da410212e776cf7",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T16:59:25Z",
+          "primary": false,
+          "symbol": "VMC"
+        }
+      ]
     },
     "VYLR": {
       "metrics": {
         "52WeekHigh": 77.39,
         "52WeekLow": 65.0001,
-        "peTTM": 29.8141,
-        "psTTM": 6.0141,
+        "peTTM": 30.2169,
+        "psTTM": 6.0954,
         "netProfitMarginTTM": 20.17,
         "roeTTM": 9.36,
         "currentRatioQuarterly": 2.0144,
         "totalDebt/totalEquityQuarterly": 0.0059,
-        "marketCapitalization": 45436.664
+        "marketCapitalization": 46050.582
       },
-      "updated_at": "2026-11-23T19:12:04Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Vylor Inc.",
       "profile": {
         "weburl": "https://www.vylor.com",
@@ -29287,6 +29352,30 @@
         "name": "Vylor Inc."
       },
       "news": [
+        {
+          "headline": "Jefferies Initiates Coverage of Vylor with Buy Rating",
+          "url": "https://finnhub.io/api/news?id=e5ab7fad6b80b08c1d911225eb98665de23d44f94525e464315c3a3256d3c2b1",
+          "source": "Fintel",
+          "published_at": "2026-11-25T00:28:02Z",
+          "primary": false,
+          "symbol": "VYLR"
+        },
+        {
+          "headline": "Vylor to Participate in Goldman Sachs Industrials and Materials Conference",
+          "url": "https://finnhub.io/api/news?id=320ecba3544e022a89d8c3a1102c859f59706db7c9212262b88a16715a23dc6f",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:30:00Z",
+          "primary": false,
+          "symbol": "VYLR"
+        },
+        {
+          "headline": "Jefferies Initiates Coverage On Vylor with Buy Rating, Announces Price Target of $94",
+          "url": "https://finnhub.io/api/news?id=3b4f494bc07ab2ee04b2b9f26717ebf36ceb5199616619aa1c7bfe1ddacac3af",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T11:29:43Z",
+          "primary": false,
+          "symbol": "VYLR"
+        },
         {
           "headline": "Barclays Initiates Coverage of Vylor at Overweight",
           "url": "https://finnhub.io/api/news?id=91a31aa962fa7a13e31e69340c4c227650184f628a3ee450d416116e8d01a525",
@@ -29309,17 +29398,17 @@
       "metrics": {
         "52WeekHigh": 79.7,
         "52WeekLow": 62.8725,
-        "peTTM": 15.6165,
-        "psTTM": 1.936,
+        "peTTM": 15.8039,
+        "psTTM": 1.9592,
         "netProfitMarginTTM": 12.4,
         "roeTTM": 19.16,
         "revenueGrowthTTMYoy": 3.22,
         "epsGrowthTTMYoy": -0.72,
         "currentRatioQuarterly": 0.9239,
         "totalDebt/totalEquityQuarterly": 0.2954,
-        "marketCapitalization": 29093.4
+        "marketCapitalization": 29442.56
       },
-      "updated_at": "2026-11-23T19:12:04Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "W. R. Berkley Corporation",
       "profile": {
         "weburl": "https://www.berkley.com",
@@ -29358,32 +29447,24 @@
           "published_at": "2026-11-18T15:30:05Z",
           "primary": false,
           "symbol": "WRB"
-        },
-        {
-          "headline": "Morgan Stanley Maintains Equal-Weight on WR Berkley, Raises Price Target to $80",
-          "url": "https://finnhub.io/api/news?id=cee5f2cbb386244349aa603b2597b3f7886dd0cbc1cb97ed720a93747f9110ac",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T12:12:52Z",
-          "primary": false,
-          "symbol": "WRB"
         }
       ]
     },
     "GWW": {
       "metrics": {
         "52WeekHigh": 1521.41,
-        "52WeekLow": 916.11,
-        "peTTM": 29.4392,
-        "psTTM": 3.2876,
+        "52WeekLow": 929.7,
+        "peTTM": 30.2576,
+        "psTTM": 3.379,
         "netProfitMarginTTM": 11.17,
         "roeTTM": 53.61,
         "revenueGrowthTTMYoy": 9.12,
         "epsGrowthTTMYoy": 27.49,
         "currentRatioQuarterly": 2.6107,
         "totalDebt/totalEquityQuarterly": 0.6185,
-        "marketCapitalization": 63677.07
+        "marketCapitalization": 65447.117
       },
-      "updated_at": "2026-11-23T19:12:04Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "WW Grainger Inc",
       "profile": {
         "weburl": "https://www.grainger.com/",
@@ -29391,6 +29472,14 @@
         "name": "WW Grainger Inc"
       },
       "news": [
+        {
+          "headline": "GRAINGER RECOGNIZES 20 YEARS OF INVENTORY MANAGEMENT INNOVATION WITH KEEPSTOCK®",
+          "url": "https://finnhub.io/api/news?id=10bdbdfb730e996569a2e0b1e1e37377daf5374b74092f54988e85499f9d8894",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:30:00Z",
+          "primary": false,
+          "symbol": "GWW"
+        },
         {
           "headline": "Here's How Much $100 Invested In W.W. Grainger 5 Years Ago Would Be Worth Today",
           "url": "https://finnhub.io/api/news?id=e34bb2f2603bca88ae2970f0e2ee4f80817382cc856344ef87d568ff95355eeb",
@@ -29422,32 +29511,24 @@
           "published_at": "2026-11-20T08:49:43Z",
           "primary": false,
           "symbol": "GWW"
-        },
-        {
-          "headline": "W.W. Grainger, Inc. Closes Sale of $400,000,000 of 5.400% Senior Notes due 2031",
-          "url": "https://finnhub.io/api/news?id=2ab804722e857a52a1aeab7d054608b09cebd3b6d72877dcf41d78ec38dd3a31",
-          "source": "Fintel",
-          "published_at": "2026-11-19T22:11:31Z",
-          "primary": false,
-          "symbol": "GWW"
         }
       ]
     },
     "WAB": {
       "metrics": {
         "52WeekHigh": 307.96,
-        "52WeekLow": 194.93,
-        "peTTM": 33.0343,
-        "psTTM": 3.6999,
+        "52WeekLow": 199.82,
+        "peTTM": 33.6304,
+        "psTTM": 3.7667,
         "netProfitMarginTTM": 11.2,
         "roeTTM": 12.22,
         "revenueGrowthTTMYoy": 13.25,
         "epsGrowthTTMYoy": 16.98,
         "currentRatioQuarterly": 1.1002,
         "totalDebt/totalEquityQuarterly": 0.5629,
-        "marketCapitalization": 45190.86
+        "marketCapitalization": 46006.39
       },
-      "updated_at": "2026-11-23T19:12:04Z",
+      "updated_at": "2026-11-26T03:04:05Z",
       "name": "Westinghouse Air Brake Technologies Corp",
       "profile": {
         "weburl": "https://www.wabteccorp.com/",
@@ -29468,14 +29549,6 @@
           "url": "https://finnhub.io/api/news?id=023af26bc2a1b9a3b1bf02104a7a448bedef139e24edaf36e93bd696333ab01d",
           "source": "Fintel",
           "published_at": "2026-11-20T13:20:22Z",
-          "primary": false,
-          "symbol": "WAB"
-        },
-        {
-          "headline": "AER or WAB: Which Is the Better Value Stock Right Now?",
-          "url": "https://finnhub.io/api/news?id=f33faa008176a61f9044e7624ac6f4780df65d2c4152da6b673b98784da372e2",
-          "source": "Yahoo",
-          "published_at": "2026-11-16T15:40:02Z",
           "primary": false,
           "symbol": "WAB"
         }
@@ -30274,6 +30347,6 @@
       ]
     }
   },
-  "cursor": 498,
-  "updated_at": "2026-11-26T01:27:00Z"
+  "cursor": 510,
+  "updated_at": "2026-11-26T03:04:05Z"
 }
