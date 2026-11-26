@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:06:01Z",
+  "generated_at": "2026-11-26T22:03:59Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T21:06:01Z",
+      "checked_at": "2026-11-26T22:03:59Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T21:06:01Z",
+      "checked_at": "2026-11-26T22:03:59Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T21:06:01Z",
+      "checked_at": "2026-11-26T22:03:59Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T21:06:01Z",
+      "checked_at": "2026-11-26T22:03:59Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T21:06:01Z",
+      "checked_at": "2026-11-26T22:03:59Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T21:06:01Z",
+    "generated_at": "2026-11-26T22:03:59Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10873,7 +10873,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Technology",
-        "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 19.8×; TTM revenue growth 6.8% YoY",
+        "why": "Net profit margin 16.0% (TTM); Return on equity 32.9% (TTM); Trailing P/E 20.3×; TTM revenue growth 6.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10887,35 +10887,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T13:26:34Z",
+            "timestamp": "2026-11-26T22:03:59Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "International Business Machines (IBM) Emerges As A Smart Ports Leader In New Industry Analysis",
-            "timestamp": "2026-11-24T00:21:13Z",
-            "url": "https://finnhub.io/api/news?id=038838625e9db07852a326d12dbcf1e51abdc6c8f708e46cc526757ffc532df9"
+            "value": "IBM Stocks Climb 3.33% as Wedbush Starts Coverage at Outperform With $276 Target",
+            "timestamp": "2026-11-26T18:46:34Z",
+            "url": "https://finnhub.io/api/news?id=b58a5489e014ff6c7ffe7c8f80c4ce34e4f11bbc1d4bca1c2194e446eac98ab7"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T13:26:34Z",
+        "fundamentals_at": "2026-11-26T22:03:59Z",
         "price": 243.47,
         "currency": "USD",
         "change_pct": 3.332,
         "news": [
           {
-            "headline": "International Business Machines (IBM) Emerges As A Smart Ports Leader In New Industry Analysis",
-            "url": "https://finnhub.io/api/news?id=038838625e9db07852a326d12dbcf1e51abdc6c8f708e46cc526757ffc532df9",
+            "headline": "IBM Stocks Climb 3.33% as Wedbush Starts Coverage at Outperform With $276 Target",
+            "url": "https://finnhub.io/api/news?id=b58a5489e014ff6c7ffe7c8f80c4ce34e4f11bbc1d4bca1c2194e446eac98ab7",
             "source": "Yahoo",
-            "published_at": "2026-11-24T00:21:13Z",
+            "published_at": "2026-11-26T18:46:34Z",
             "primary": false,
             "symbol": "IBM"
           },
           {
-            "headline": "S&P 500 Unusual Volume Session: Dell, IBM, UNH, TPL",
-            "url": "https://finnhub.io/api/news?id=08a5bbdbd55bee11c14cbb718bd86339b2537ac1561d072d6245fa0b77d1e8a3",
-            "source": "ChartMill",
-            "published_at": "2026-11-23T18:05:58Z",
+            "headline": "Global Hospital Asset Management Market to Reach $180.8 Billion by 2032; Benchmark IBM, Zebra Technologies, Ascom, and TeleTracking",
+            "url": "https://finnhub.io/api/news?id=8b77dade81cd8eaba972124f1b7018cfc263a7f8eb7e9df571843811481e43cc",
+            "source": "Yahoo",
+            "published_at": "2026-11-26T14:55:00Z",
             "primary": false,
             "symbol": "IBM"
           }
@@ -10925,12 +10925,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 164.6,
-          "entry_floor": 148.14,
-          "exit_review_low": 211.03,
-          "exit_review_high": 248.1,
-          "bear_case": 118.34,
-          "scenario_upside_pct": -13.3,
+          "entry_ceiling": 160.78,
+          "entry_floor": 144.7,
+          "exit_review_low": 206.12,
+          "exit_review_high": 242.34,
+          "bear_case": 115.59,
+          "scenario_upside_pct": -15.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10943,12 +10943,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.79,
+            "trailing_pe": 20.26,
             "earnings_growth_assumed_pct": 3.07,
             "scenario_exit_pe": 16.64,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T13:26:34Z"
+            "metrics_retrieved_at": "2026-11-26T22:03:59Z"
           }
         },
         "ranking_score": 79,
@@ -12019,7 +12019,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Textiles, Apparel & Luxury Goods",
-        "why": "Net profit margin 13.1% (TTM); Return on equity 23.5% (TTM); Trailing P/E 19.8×; TTM revenue growth 16.7% YoY",
+        "why": "Net profit margin 13.1% (TTM); Return on equity 23.5% (TTM); Trailing P/E 19.9×; TTM revenue growth 16.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12033,35 +12033,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T12:06:53Z",
+            "timestamp": "2026-11-26T22:03:59Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "On Holding: Why The Marathon Boom Matters For Shareholders",
-            "timestamp": "2026-11-23T12:05:30Z",
-            "url": "https://finnhub.io/api/news?id=8517782e480f6e3c3df57f1643ca12691ab8f62ed6674bd81e01d03a3453d0a5"
+            "value": "On Holding: Cheap Enough To Watch, Too Fashionable To Buy",
+            "timestamp": "2026-11-25T04:18:57Z",
+            "url": "https://finnhub.io/api/news?id=4ce2d5e1c093412205d6fa887931ba29a32fe9fcd0e85e3c1623a64bc9958dfd"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T12:06:53Z",
+        "fundamentals_at": "2026-11-26T22:03:59Z",
         "price": 31.5,
         "currency": "USD",
         "change_pct": 0.064,
         "news": [
           {
-            "headline": "On Holding: Why The Marathon Boom Matters For Shareholders",
-            "url": "https://finnhub.io/api/news?id=8517782e480f6e3c3df57f1643ca12691ab8f62ed6674bd81e01d03a3453d0a5",
+            "headline": "On Holding: Cheap Enough To Watch, Too Fashionable To Buy",
+            "url": "https://finnhub.io/api/news?id=4ce2d5e1c093412205d6fa887931ba29a32fe9fcd0e85e3c1623a64bc9958dfd",
             "source": "SeekingAlpha",
-            "published_at": "2026-11-23T12:05:30Z",
+            "published_at": "2026-11-25T04:18:57Z",
             "primary": false,
             "symbol": "ONON"
           },
           {
-            "headline": "On Holding: Best In Class Margins And Strong DTC Sales",
-            "url": "https://finnhub.io/api/news?id=7423fcecae20def999cf9e69998996d5c5b6b136b311ae072e98b827e09367cd",
+            "headline": "On Holding: Why The Marathon Boom Matters For Shareholders",
+            "url": "https://finnhub.io/api/news?id=8517782e480f6e3c3df57f1643ca12691ab8f62ed6674bd81e01d03a3453d0a5",
             "source": "SeekingAlpha",
-            "published_at": "2026-11-22T08:50:00Z",
+            "published_at": "2026-11-23T12:05:30Z",
             "primary": false,
             "symbol": "ONON"
           }
@@ -12071,12 +12071,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 25.42,
-          "entry_floor": 22.88,
-          "exit_review_low": 32.59,
-          "exit_review_high": 39.44,
-          "bear_case": 17.52,
-          "scenario_upside_pct": 3.5,
+          "entry_ceiling": 25.21,
+          "entry_floor": 22.69,
+          "exit_review_low": 32.32,
+          "exit_review_high": 39.11,
+          "bear_case": 17.37,
+          "scenario_upside_pct": 2.6,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12089,12 +12089,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.76,
+            "trailing_pe": 19.92,
             "earnings_growth_assumed_pct": 7.52,
             "scenario_exit_pe": 19.01,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T12:06:53Z"
+            "metrics_retrieved_at": "2026-11-26T22:03:59Z"
           }
         },
         "ranking_score": 78,
@@ -12106,7 +12106,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 12.6×; TTM revenue growth 5.7% YoY",
+        "why": "Net profit margin 18.1% (TTM); Return on equity 15.2% (TTM); Trailing P/E 13.0×; TTM revenue growth 5.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12120,35 +12120,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T12:06:53Z",
+            "timestamp": "2026-11-26T22:03:59Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Chubb (CB) Dividend News Puts Valuation In Focus As Options Activity Heats Up",
-            "timestamp": "2026-11-24T10:09:18Z",
-            "url": "https://finnhub.io/api/news?id=20ad94ff9ea7dfa00a893518ed5ea98dbee7fc55d6ed5514dfe6a10662a4adb8"
+            "value": "Chubb Limited (CB) Is a Trending Stock: Facts to Know Before Betting on It",
+            "timestamp": "2026-11-25T13:00:04Z",
+            "url": "https://finnhub.io/api/news?id=4d98a2d9ea6d4da46c994c748ac35a5eab39f8f547b56ed3c9c0d3205bf3000c"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T12:06:53Z",
+        "fundamentals_at": "2026-11-26T22:03:59Z",
         "price": 380.51,
         "currency": "USD",
         "change_pct": 1.369,
         "news": [
           {
-            "headline": "Chubb (CB) Dividend News Puts Valuation In Focus As Options Activity Heats Up",
-            "url": "https://finnhub.io/api/news?id=20ad94ff9ea7dfa00a893518ed5ea98dbee7fc55d6ed5514dfe6a10662a4adb8",
+            "headline": "Chubb Limited (CB) Is a Trending Stock: Facts to Know Before Betting on It",
+            "url": "https://finnhub.io/api/news?id=4d98a2d9ea6d4da46c994c748ac35a5eab39f8f547b56ed3c9c0d3205bf3000c",
             "source": "Yahoo",
-            "published_at": "2026-11-24T10:09:18Z",
+            "published_at": "2026-11-25T13:00:04Z",
             "primary": false,
             "symbol": "CB"
           },
           {
-            "headline": "Are Options Traders Betting on a Big Move in Chubb Stock?",
-            "url": "https://finnhub.io/api/news?id=633dd416a8eae3c5e68b7351b9f4837e8cce00a659169e6f50492ac9be2060ff",
+            "headline": "Chubb (CB) Stock May Be 44% Undervalued After Accounting Lawsuit",
+            "url": "https://finnhub.io/api/news?id=2ca7d3e60205378f5cbad7523b2468cdee2baf7574eacb3f5f59b9d1a18df0c1",
             "source": "Yahoo",
-            "published_at": "2026-11-23T14:06:00Z",
+            "published_at": "2026-11-24T15:15:58Z",
             "primary": false,
             "symbol": "CB"
           }
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T21:06:01Z",
+      "generated_at": "2026-11-26T22:03:59Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 835,
