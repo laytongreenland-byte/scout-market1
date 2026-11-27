@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T23:06:39Z",
+  "generated_at": "2026-11-27T00:04:27Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-26T23:06:39Z",
+      "checked_at": "2026-11-27T00:04:27Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-26T23:06:39Z",
+      "checked_at": "2026-11-27T00:04:27Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-26T23:06:39Z",
+      "checked_at": "2026-11-27T00:04:27Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-26T23:06:39Z",
+      "checked_at": "2026-11-27T00:04:27Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-26T23:06:39Z",
+      "checked_at": "2026-11-27T00:04:27Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-26T23:06:39Z",
+    "generated_at": "2026-11-27T00:04:27Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -12185,7 +12185,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Insurance",
-        "why": "Net profit margin 16.6% (TTM); Return on equity 36.3% (TTM); Trailing P/E 5.6×; TTM revenue growth 5.1% YoY",
+        "why": "Net profit margin 16.6% (TTM); Return on equity 36.3% (TTM); Trailing P/E 5.8×; TTM revenue growth 5.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12199,35 +12199,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T16:22:56Z",
+            "timestamp": "2026-11-27T00:04:27Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Allstate (NYSE:ALL) Sets Up Bull Flag Breakout With Perfect Technical Rating",
-            "timestamp": "2026-11-23T11:50:36Z",
-            "url": "https://finnhub.io/api/news?id=b139b597e87ed558314860837718edee2664e978581a072c9ac40e1a2427e652"
+            "value": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
+            "timestamp": "2026-11-25T15:08:37Z",
+            "url": "https://finnhub.io/api/news?id=39242eae2fd021d367fbafb3d357e2e8d5cb9d7bacf6e48b6538716ecc3dede7"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T16:22:56Z",
+        "fundamentals_at": "2026-11-27T00:04:27Z",
         "price": 271.39,
         "currency": "USD",
         "change_pct": 0.37,
         "news": [
           {
-            "headline": "Allstate (NYSE:ALL) Sets Up Bull Flag Breakout With Perfect Technical Rating",
-            "url": "https://finnhub.io/api/news?id=b139b597e87ed558314860837718edee2664e978581a072c9ac40e1a2427e652",
-            "source": "ChartMill",
-            "published_at": "2026-11-23T11:50:36Z",
+            "headline": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
+            "url": "https://finnhub.io/api/news?id=39242eae2fd021d367fbafb3d357e2e8d5cb9d7bacf6e48b6538716ecc3dede7",
+            "source": "Yahoo",
+            "published_at": "2026-11-25T15:08:37Z",
             "primary": false,
             "symbol": "ALL"
           },
           {
-            "headline": "Mizuho Maintains Outperform on Allstate, Raises Price Target to $311",
-            "url": "https://finnhub.io/api/news?id=6fa8d74c39187ab954bc1e3df0d3ceac03e2322f71cc833e87813dae1d2591c2",
+            "headline": "'Allstate suffers multi-day tech outage ahead of Thanksgiving' -TechCrunch",
+            "url": "https://finnhub.io/api/news?id=082a9534aa3fe51204c8eb27d964494d9f70eaab72456d700a2cc511e4881cb7",
             "source": "Benzinga",
-            "published_at": "2026-11-20T09:18:43Z",
+            "published_at": "2026-11-25T11:12:55Z",
             "primary": false,
             "symbol": "ALL"
           }
@@ -13403,7 +13403,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Health Care",
-        "why": "Net profit margin 19.4% (TTM); Return on equity 36.5% (TTM); Trailing P/E 31.0×; TTM revenue growth 13.0% YoY",
+        "why": "Net profit margin 19.4% (TTM); Return on equity 36.5% (TTM); Trailing P/E 31.9×; TTM revenue growth 13.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13417,35 +13417,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T16:22:56Z",
+            "timestamp": "2026-11-27T00:04:27Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Dexcom Announces Upcoming Conference Presentation",
-            "timestamp": "2026-11-24T13:30:00Z",
-            "url": "https://finnhub.io/api/news?id=89328ea9f7d87e1c5a716e6a5b5f21365cfec27e469296f406e8d5cb0a4257b9"
+            "value": "Global Wearable Healthcare Devices Market Report 2026 | Capitalize on 24.9% CAGR Through 2030 as Apple, Abbott, Medtronic and Dexcom Scale AI and Remote Monitoring",
+            "timestamp": "2026-11-26T14:18:00Z",
+            "url": "https://finnhub.io/api/news?id=a1290882b7a2dbdd3e11471bc5255d1a119c3ecbeb75635fa95bcdef6deb59be"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T16:22:56Z",
+        "fundamentals_at": "2026-11-27T00:04:27Z",
         "price": 84.84,
         "currency": "USD",
         "change_pct": 0.236,
         "news": [
           {
-            "headline": "Dexcom Announces Upcoming Conference Presentation",
-            "url": "https://finnhub.io/api/news?id=89328ea9f7d87e1c5a716e6a5b5f21365cfec27e469296f406e8d5cb0a4257b9",
+            "headline": "Global Wearable Healthcare Devices Market Report 2026 | Capitalize on 24.9% CAGR Through 2030 as Apple, Abbott, Medtronic and Dexcom Scale AI and Remote Monitoring",
+            "url": "https://finnhub.io/api/news?id=a1290882b7a2dbdd3e11471bc5255d1a119c3ecbeb75635fa95bcdef6deb59be",
             "source": "Yahoo",
-            "published_at": "2026-11-24T13:30:00Z",
+            "published_at": "2026-11-26T14:18:00Z",
             "primary": false,
             "symbol": "DXCM"
           },
           {
-            "headline": "Here’s How Much You Would Have Made Owning DexCom Stock In The Last 15 Years",
-            "url": "https://finnhub.io/api/news?id=f360561f2e675f1257d461b6395259e606950385dcd5c741e6d2cc445c1aa860",
-            "source": "Benzinga",
-            "published_at": "2026-11-23T10:46:26Z",
+            "headline": "Dexcom Announces Upcoming Conference Presentation",
+            "url": "https://finnhub.io/api/news?id=89328ea9f7d87e1c5a716e6a5b5f21365cfec27e469296f406e8d5cb0a4257b9",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T13:30:00Z",
             "primary": false,
             "symbol": "DXCM"
           }
@@ -13455,12 +13455,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 40.95,
-          "entry_floor": 36.85,
-          "exit_review_low": 52.5,
-          "exit_review_high": 62.88,
-          "bear_case": 28.66,
-          "scenario_upside_pct": -38.1,
+          "entry_ceiling": 39.78,
+          "entry_floor": 35.8,
+          "exit_review_low": 51.0,
+          "exit_review_high": 61.08,
+          "bear_case": 27.85,
+          "scenario_upside_pct": -39.9,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13473,12 +13473,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 31.02,
+            "trailing_pe": 31.93,
             "earnings_growth_assumed_pct": 5.86,
             "scenario_exit_pe": 18.13,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T16:22:56Z"
+            "metrics_retrieved_at": "2026-11-27T00:04:27Z"
           }
         },
         "ranking_score": 77,
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-26T23:06:39Z",
+      "generated_at": "2026-11-27T00:04:27Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 836,
