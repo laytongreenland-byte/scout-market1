@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T10:28:55.305455+00:00",
+  "generated_at": "2026-11-27T10:27:08.869831+00:00",
   "companies": {
     "BGP": {
       "symbol": "BGP",
@@ -837,14 +837,218 @@
           "source": "NZX primary announcement"
         }
       ]
+    },
+    "AFC": {
+      "symbol": "AFC",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/afc",
+      "primary_filing_url": "https://www.nzx.com/instruments/AFC",
+      "retrieved_at": "2026-11-27T10:27:08.869831Z",
+      "fiscal_year": 2025,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "roe": -75.82,
+        "net_margin": -24.97,
+        "revenue_growth": -44.03,
+        "price_52w_high": 0.001,
+        "price_52w_low": 0.001
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "AFC Group Holdings Limited Releases 2026 Interim Results",
+          "date": "2026-11-26",
+          "url": "https://www.nzx.com/announcements/484612",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AFC to progress proposed Longview disposal",
+          "date": "2026-11-26",
+          "url": "https://www.nzx.com/announcements/484553",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AFC Strategic Review",
+          "date": "2026-10-29",
+          "url": "https://www.nzx.com/announcements/482772",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AFC Group Holdings Limited 2026 AGM Presentations",
+          "date": "2026-09-25",
+          "url": "https://www.nzx.com/announcements/480603",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AFC held its annual meeting through a virtual meeting",
+          "date": "2026-09-25",
+          "url": "https://www.nzx.com/announcements/480604",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "AFI": {
+      "symbol": "AFI",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/afi",
+      "primary_filing_url": "https://www.nzx.com/instruments/AFI",
+      "retrieved_at": "2026-11-27T10:27:08.869831Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "pe_ratio": 15.99,
+        "debt_to_equity": 0.19,
+        "price_52w_high": 9.0,
+        "price_52w_low": 6.94
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Notification of buy-back",
+          "date": "2026-11-26",
+          "url": "https://www.nzx.com/announcements/484611",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notification of buy-back",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484525",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notification of cessation of securities",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484442",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notification of buy-back",
+          "date": "2026-11-24",
+          "url": "https://www.nzx.com/announcements/484369",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notification of buy-back",
+          "date": "2026-11-23",
+          "url": "https://www.nzx.com/announcements/484327",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "BPG": {
+      "symbol": "BPG",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/bpg",
+      "primary_filing_url": "https://www.nzx.com/instruments/BPG",
+      "retrieved_at": "2026-11-27T10:27:08.869831Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Information Technology",
+      "metrics": {
+        "revenue_growth": 76.96,
+        "price_52w_high": 1.24,
+        "price_52w_low": 0.11
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "BPG - Trading to Resume at 10:24am",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484516",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Corporate Action Notice",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484524",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Clarification regarding ASX voluntary suspension",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484438",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BPG closes NZ$1.9m private placement",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484515",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BPG - Trading Halt of Securities",
+          "date": "2026-11-24",
+          "url": "https://www.nzx.com/announcements/484364",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "BRM": {
+      "symbol": "BRM",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/brm",
+      "primary_filing_url": "https://www.nzx.com/instruments/BRM",
+      "retrieved_at": "2026-11-27T10:27:08.869831Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Financials",
+      "metrics": {
+        "pe_ratio": 19.28,
+        "debt_to_equity": 0.01,
+        "price_52w_high": 0.684,
+        "price_52w_low": 0.415
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "BRM NAV as at 25/11/26 - $0.5359",
+          "date": "2026-11-26",
+          "url": "https://www.nzx.com/announcements/484531",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BRM \u2013 Notice of acquisition of securities - 26 November 26",
+          "date": "2026-11-26",
+          "url": "https://www.nzx.com/announcements/484562",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BRM \u2013 Notice of acquisition of securities - 25 November 26",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484467",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BRM \u2013 Notice of acquisition of securities - 24 November 26",
+          "date": "2026-11-24",
+          "url": "https://www.nzx.com/announcements/484360",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "BRM \u2013 Quarterly dividend of 1.09 cents per share",
+          "date": "2026-11-23",
+          "url": "https://www.nzx.com/announcements/484329",
+          "source": "NZX primary announcement"
+        }
+      ]
     }
   },
-  "fetched_day": "2026-11-26",
-  "filings_checked_day": "2026-11-26",
+  "fetched_day": "2026-11-27",
+  "filings_checked_day": "2026-11-27",
   "status": {
     "attempted": 4,
     "valid_this_scan": 4,
-    "available": 16,
+    "available": 20,
     "filing_requests": 4,
     "filings_with_official_links": 4,
     "status": "OK",
