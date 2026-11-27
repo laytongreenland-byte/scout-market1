@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:29:35Z",
+  "generated_at": "2026-11-27T03:07:46Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T01:29:35Z",
+      "checked_at": "2026-11-27T03:07:46Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T01:29:35Z",
+      "checked_at": "2026-11-27T03:07:46Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T01:29:35Z",
+      "checked_at": "2026-11-27T03:07:46Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T01:29:35Z",
+      "checked_at": "2026-11-27T03:07:46Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T01:29:35Z",
+      "checked_at": "2026-11-27T03:07:46Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T01:29:35Z",
+    "generated_at": "2026-11-27T03:07:46Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8897,7 +8897,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Insurance",
-        "why": "Net profit margin 26.9% (TTM); Return on equity 16.4% (TTM); Trailing P/E 12.7×; TTM revenue growth 13.6% YoY",
+        "why": "Net profit margin 26.9% (TTM); Return on equity 16.4% (TTM); Trailing P/E 13.0×; TTM revenue growth 13.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8911,7 +8911,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T18:00:14Z",
+            "timestamp": "2026-11-27T03:07:46Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -8922,7 +8922,7 @@
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T18:00:14Z",
+        "fundamentals_at": "2026-11-27T03:07:46Z",
         "price": 127.51,
         "currency": "USD",
         "change_pct": 1.375,
@@ -12351,7 +12351,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Utilities",
-        "why": "Net profit margin 13.4% (TTM); Return on equity 48.2% (TTM); Trailing P/E 15.7×; TTM revenue growth 22.8% YoY",
+        "why": "Net profit margin 13.4% (TTM); Return on equity 48.2% (TTM); Trailing P/E 14.6×; TTM revenue growth 22.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12365,35 +12365,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T19:09:28Z",
+            "timestamp": "2026-11-27T03:07:46Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Midterms provide clarity on data center development: Vistra CEO",
-            "timestamp": "2026-11-24T15:54:55Z",
-            "url": "https://finnhub.io/api/news?id=7cbea182503f99191df596b4dd540a97ed339ea135296ba10c0997cecda3862a"
+            "value": "What Are Wall Street Analysts' Target Price for Vistra Corp. Stock?",
+            "timestamp": "2026-11-25T17:07:41Z",
+            "url": "https://finnhub.io/api/news?id=f7f1a1cc0b8220772a28bca86c9862beaabad6698c68ca0a791f5c220dd924ed"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T19:09:28Z",
+        "fundamentals_at": "2026-11-27T03:07:46Z",
         "price": 121.32,
         "currency": "USD",
         "change_pct": 0.497,
         "news": [
           {
-            "headline": "Midterms provide clarity on data center development: Vistra CEO",
-            "url": "https://finnhub.io/api/news?id=7cbea182503f99191df596b4dd540a97ed339ea135296ba10c0997cecda3862a",
+            "headline": "What Are Wall Street Analysts' Target Price for Vistra Corp. Stock?",
+            "url": "https://finnhub.io/api/news?id=f7f1a1cc0b8220772a28bca86c9862beaabad6698c68ca0a791f5c220dd924ed",
             "source": "Yahoo",
-            "published_at": "2026-11-24T15:54:55Z",
+            "published_at": "2026-11-25T17:07:41Z",
             "primary": false,
             "symbol": "VST"
           },
           {
-            "headline": "Exelon Or Vistra: Which Fits Your Power Demand Bet?",
-            "url": "https://finnhub.io/api/news?id=6cd7a708e987ae90c87ebfcdc24c3d202c033951b607650964376f6f2382cfc5",
+            "headline": "Vistra Has Slumped for a Year: Why Morgan Stanley Still Sees 82% Upside",
+            "url": "https://finnhub.io/api/news?id=5f62b5f7f692a5b5fe8ef1644ab71dc22abcc94f68c6d72743d7a716a6265dc3",
             "source": "Yahoo",
-            "published_at": "2026-11-23T20:38:49Z",
+            "published_at": "2026-11-25T17:01:50Z",
             "primary": false,
             "symbol": "VST"
           }
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T01:29:35Z",
+      "generated_at": "2026-11-27T03:07:46Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 836,
