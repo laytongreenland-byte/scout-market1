@@ -14993,19 +14993,19 @@
     },
     "AJG": {
       "metrics": {
-        "52WeekHigh": 294.53,
+        "52WeekHigh": 294.615,
         "52WeekLow": 190.75,
-        "peTTM": 41.6452,
-        "psTTM": 4.4636,
+        "peTTM": 44.0967,
+        "psTTM": 4.7263,
         "netProfitMarginTTM": 10.72,
         "roeTTM": 7.17,
         "revenueGrowthTTMYoy": 21.74,
         "epsGrowthTTMYoy": 4.31,
         "currentRatioQuarterly": 1.0529,
         "totalDebt/totalEquityQuarterly": 0.5396,
-        "marketCapitalization": 70801.016
+        "marketCapitalization": 74968.8
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Arthur J. Gallagher & Co.",
       "profile": {
         "weburl": "https://www.ajg.com",
@@ -15013,6 +15013,14 @@
         "name": "Arthur J. Gallagher & Co."
       },
       "news": [
+        {
+          "headline": "Arthur J. Gallagher Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=e3321efd9d9f0e073e9c28bad3a6a9e747994d5a3723b9314776ef4a5532b23e",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T13:43:46Z",
+          "primary": false,
+          "symbol": "AJG"
+        },
         {
           "headline": "Arthur J. Gallagher & Co. To Webcast Investor Meeting With Management",
           "url": "https://finnhub.io/api/news?id=20fe0108ace91eaded80fd6d3b8f677e77c4715004c919dfcf2ced9d2bed6b96",
@@ -15044,14 +15052,6 @@
           "published_at": "2026-11-21T12:00:52Z",
           "primary": false,
           "symbol": "AJG"
-        },
-        {
-          "headline": "Wells Fargo Downgrades Arthur J. Gallagher to Equal-Weight from Overweight",
-          "url": "https://finnhub.io/api/news?id=4a860231bc9688ad17743a2a02c07a4f6adf2afa40fb3e3c34d2bc602e5d95d4",
-          "source": "Fintel",
-          "published_at": "2026-11-20T01:26:29Z",
-          "primary": false,
-          "symbol": "AJG"
         }
       ]
     },
@@ -15059,17 +15059,17 @@
       "metrics": {
         "52WeekHigh": 326.989,
         "52WeekLow": 209.86,
-        "peTTM": 14.5884,
-        "psTTM": 1.1379,
+        "peTTM": 14.8938,
+        "psTTM": 1.1617,
         "netProfitMarginTTM": 7.8,
         "roeTTM": 18.01,
         "revenueGrowthTTMYoy": 9.43,
         "epsGrowthTTMYoy": 31.09,
         "currentRatioQuarterly": 0.0016,
         "totalDebt/totalEquityQuarterly": 0.3686,
-        "marketCapitalization": 15654.778
+        "marketCapitalization": 15982.547
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Assurant Inc",
       "profile": {
         "weburl": "https://www.assurant.com/",
@@ -15115,17 +15115,17 @@
       "metrics": {
         "52WeekHigh": 192.51,
         "52WeekLow": 154.72,
-        "peTTM": 20.3393,
-        "psTTM": 5.7959,
-        "netProfitMarginTTM": 28.5,
-        "roeTTM": 9.67,
-        "revenueGrowthTTMYoy": 6.45,
-        "epsGrowthTTMYoy": 15.78,
-        "currentRatioQuarterly": 0.8137,
-        "totalDebt/totalEquityQuarterly": 0.6766,
-        "marketCapitalization": 28524.76
+        "peTTM": 20.673,
+        "psTTM": 5.9215,
+        "netProfitMarginTTM": 28.64,
+        "roeTTM": 9.53,
+        "revenueGrowthTTMYoy": 5.9,
+        "epsGrowthTTMYoy": 13.74,
+        "currentRatioQuarterly": 0.4866,
+        "totalDebt/totalEquityQuarterly": 0.683,
+        "marketCapitalization": 29490.703
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Atmos Energy Corporation",
       "profile": {
         "weburl": "https://www.atmosenergy.com/",
@@ -15134,10 +15134,34 @@
       },
       "news": [
         {
+          "headline": "Atmos Energy Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=0ba976dc143a09d4e43dd02fc76df6c2240a442e21695d01119ee462d41611ed",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T10:08:33Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
           "headline": "Atmos Energy (ATO) Could Be a Great Choice",
           "url": "https://finnhub.io/api/news?id=26b9168d9e0f871629436b3564ed32726e315d90d4575f27c49c5ab4f093c93d",
           "source": "Yahoo",
           "published_at": "2026-11-24T15:45:02Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
+          "headline": "Mizuho Maintains Neutral on Atmos Energy, Lowers Price Target to $180",
+          "url": "https://finnhub.io/api/news?id=8fde22f008935032b050217ad2472794cb10de5ec6b498a2e9f53a5519c6caad",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T13:27:50Z",
+          "primary": false,
+          "symbol": "ATO"
+        },
+        {
+          "headline": "B of A Securities Maintains Neutral on Atmos Energy, Lowers Price Target to $179",
+          "url": "https://finnhub.io/api/news?id=504d5b2a112e3c98c92174d411b5f16d3e9a4c89a473eccadee757efa9598ae6",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T13:03:55Z",
           "primary": false,
           "symbol": "ATO"
         },
@@ -15148,30 +15172,6 @@
           "published_at": "2026-11-23T13:02:46Z",
           "primary": false,
           "symbol": "ATO"
-        },
-        {
-          "headline": "Atmos Energy (ATO) Stock Looks To Trade At A Premium Today",
-          "url": "https://finnhub.io/api/news?id=7bccece8f8deeeae3e40be7080e95780e4dad5683709b7da7792c4eb76bbd051",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T22:12:02Z",
-          "primary": false,
-          "symbol": "ATO"
-        },
-        {
-          "headline": "Atmos Energy (ATO) Following Its Equity Raise, Is The Valuation Case Still Intact?",
-          "url": "https://finnhub.io/api/news?id=8f774c10921b15c7faab26f5577de5e1e13c8f74756dc6aa524dbbae5277f828",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T15:18:36Z",
-          "primary": false,
-          "symbol": "ATO"
-        },
-        {
-          "headline": "Better Dividend Stock: AEP vs. Atmos Energy",
-          "url": "https://finnhub.io/api/news?id=848061ace6aca86c44886563c326083aebe9623c9a5450866bc4a0f11293c81f",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T16:58:43Z",
-          "primary": false,
-          "symbol": "ATO"
         }
       ]
     },
@@ -15179,17 +15179,17 @@
       "metrics": {
         "52WeekHigh": 3996.25,
         "52WeekLow": 2730.65,
-        "peTTM": 20.3889,
-        "psTTM": 2.5791,
+        "peTTM": 21.297,
+        "psTTM": 2.694,
         "netProfitMarginTTM": 12.65,
         "roeTTM": 249.27,
         "revenueGrowthTTMYoy": 7.39,
         "epsGrowthTTMYoy": 5.6,
         "currentRatioQuarterly": 0.901,
         "totalDebt/totalEquityQuarterly": 37.8052,
-        "marketCapitalization": 52456.125
+        "marketCapitalization": 54792.54
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "AutoZone, Inc.",
       "profile": {
         "weburl": "https://www.autozone.com/",
@@ -15198,26 +15198,42 @@
       },
       "news": [
         {
+          "headline": "Do Wall Street Analysts Like AutoZone Stock?",
+          "url": "https://finnhub.io/api/news?id=64cede2da3b1f9e26988473612792b71fd9f3678234233ad5aa22a9373f87489",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T20:00:46Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
+          "headline": "$100 Invested In AutoZone 10 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=30de41e7ba9412aa734fa2c6336086283205f0160c736ec72674384dd7d299b0",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T10:15:30Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
+          "headline": "JP Morgan Maintains Overweight on AutoZone, Lowers Price Target to $3675",
+          "url": "https://finnhub.io/api/news?id=88ba5492016b2847c355c9ac92c23fc4b75002a590a32a0ea2beb7475ac314c3",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T09:38:45Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
+          "headline": "AutoZone (AZO) Gains As Market Dips: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=6e5d8a6958b58a2ed61113ab18e4d3368da3d0e7bcfbcf32e66d31e8c67275a9",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T21:50:02Z",
+          "primary": false,
+          "symbol": "AZO"
+        },
+        {
           "headline": "What Could Lift AutoZone Stock After A Losing Year?",
           "url": "https://finnhub.io/api/news?id=a6c73c13bbbe56415b5fbae3dad43b7991ac137f4ccdeac2e071f12da5dbb5d4",
           "source": "Yahoo",
           "published_at": "2026-11-23T18:30:48Z",
-          "primary": false,
-          "symbol": "AZO"
-        },
-        {
-          "headline": "ETFs Bought $166.8 Million of AutoZone (AZO) on Monday",
-          "url": "https://finnhub.io/api/news?id=fc6365f4ef65f1f65e3a0c1cf3a0bcef95bed973b05cd2ab059441d61384a7d0",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T11:01:48Z",
-          "primary": false,
-          "symbol": "AZO"
-        },
-        {
-          "headline": "Stifel Initiates Coverage On AutoZone with Hold Rating, Announces Price Target of $3450",
-          "url": "https://finnhub.io/api/news?id=602c56daf58b6ce9ccaff873803debb76943cce19ea3c1fbf4b6253be5a11d99",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T08:28:21Z",
           "primary": false,
           "symbol": "AZO"
         }
@@ -15227,17 +15243,17 @@
       "metrics": {
         "52WeekHigh": 199.54,
         "52WeekLow": 152.42,
-        "peTTM": 19.7366,
-        "psTTM": 1.4929,
+        "peTTM": 20.4306,
+        "psTTM": 1.5454,
         "netProfitMarginTTM": 7.56,
         "roeTTM": 30.620000000000005,
         "revenueGrowthTTMYoy": 6.77,
         "epsGrowthTTMYoy": 4.85,
         "currentRatioQuarterly": 1.1608,
         "totalDebt/totalEquityQuarterly": 1.5134,
-        "marketCapitalization": 13979.433
+        "marketCapitalization": 14471.012
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Avery Dennison Corp",
       "profile": {
         "weburl": "https://www.averydennison.com/en/home.html",
@@ -15246,26 +15262,18 @@
       },
       "news": [
         {
+          "headline": "Radio Frequency Identification (RFID) Track and Trace Solutions Global Market Report 2026 | Capitalize on AI, Cloud and Automation with Honeywell, Impinj, Zebra and Avery Dennison",
+          "url": "https://finnhub.io/api/news?id=cda6849e1ba644d34940645b59f83c5561ee75f924fa6c98da1f91728ddf768c",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T14:25:00Z",
+          "primary": false,
+          "symbol": "AVY"
+        },
+        {
           "headline": "Avery Dennison: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finnhub.io/api/news?id=7f6cac2bd9b6083361028472162cedefd3c003f7ae281c1419003433a5a4b923",
           "source": "Yahoo",
           "published_at": "2026-11-22T21:20:02Z",
-          "primary": false,
-          "symbol": "AVY"
-        },
-        {
-          "headline": "Global Veterinary Asset Tracking Market Report 2026: Trends and Forecast to 2030 | Capitalize on AI, IoT and RFID as Honeywell, Zebra, Avery Dennison and Impinj Accelerate",
-          "url": "https://finnhub.io/api/news?id=dadc1e6ebddddcd7b676f1bc1b174e1064748c62331477f6e76481d63bc72c10",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:44:00Z",
-          "primary": false,
-          "symbol": "AVY"
-        },
-        {
-          "headline": "Tagging Gun Fastener Market Report 2026: Size, Trends, Forecast to 2030 | Capitalize on RFID and Sustainable Fasteners with Avery Dennison, Checkpoint Systems, and Arrow Fastener",
-          "url": "https://finnhub.io/api/news?id=8c12d285f24189a8fd8c5f3aa6f9171e8644820dc49f271130529d756a0aa57e",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T14:30:00Z",
           "primary": false,
           "symbol": "AVY"
         }
@@ -15275,17 +15283,17 @@
       "metrics": {
         "52WeekHigh": 665.065,
         "52WeekLow": 289.685,
-        "peTTM": 96.904,
-        "psTTM": 7.3306,
+        "peTTM": 108.0718,
+        "psTTM": 8.1754,
         "netProfitMarginTTM": 7.56,
         "roeTTM": 7.2700000000000005,
         "revenueGrowthTTMYoy": 33.58,
         "epsGrowthTTMYoy": -0.92,
         "currentRatioQuarterly": 3.0011,
         "totalDebt/totalEquityQuarterly": 0.7622,
-        "marketCapitalization": 25048.703
+        "marketCapitalization": 27935.49
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Axon Enterprise, Inc.",
       "profile": {
         "weburl": "https://www.axon.com/",
@@ -15294,42 +15302,42 @@
       },
       "news": [
         {
+          "headline": "Ken Fisher and 5 Other Big Funds Sold Axon Enterprise Last Quarter, While 9 Bought. Who’s Right?",
+          "url": "https://finnhub.io/api/news?id=0ed2fa0e7f2147271545362dd04f4bcab36d120b0d40760bdf3b2be0663459ef",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T18:41:47Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?",
+          "url": "https://finnhub.io/api/news?id=d8a04663bb3c7c76f0d92d4626ff72595689e8c46e397cb7efc1cdf8fca0c508",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T16:51:00Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Is Trending Stock Axon Enterprise, Inc (AXON) a Buy Now?",
+          "url": "https://finnhub.io/api/news?id=ea1b4fe00ec9311d6d73a7c16bf6c39307467b7b4665d04e61e5acc9427d7bf9",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T13:00:05Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
+          "headline": "Axon Is Down 47% From Its High. TD Cowen Still Sees $650",
+          "url": "https://finnhub.io/api/news?id=c6c3b00234ca47e6e806fc1314c219fa6d8a490880587779ba12d0ec673d4839",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T02:01:54Z",
+          "primary": false,
+          "symbol": "AXON"
+        },
+        {
           "headline": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
           "url": "https://finnhub.io/api/news?id=633a25b0d9127bec17a20e979a33c0d9ec2c52f43448722b297d87b3a189e6ac",
           "source": "Yahoo",
           "published_at": "2026-11-24T20:20:02Z",
-          "primary": false,
-          "symbol": "AXON"
-        },
-        {
-          "headline": "Are You Overpaying For Axon Stock Versus Its Peers?",
-          "url": "https://finnhub.io/api/news?id=fa48a49787e426392abd0425edcd4c0abf2bbc959a3f62feaa09cc56275bdba7",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T17:52:29Z",
-          "primary": false,
-          "symbol": "AXON"
-        },
-        {
-          "headline": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?",
-          "url": "https://finnhub.io/api/news?id=76d86b6e063127659e058a577640751b3ca275d2a9ec4d1f3d609f8749cdabc9",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T14:14:00Z",
-          "primary": false,
-          "symbol": "AXON"
-        },
-        {
-          "headline": "Why Should Axon Stock Holders Watch This Shrinking Figure?",
-          "url": "https://finnhub.io/api/news?id=2d2c1aafbaf69840b1319ad1f038e26624143bf2087cbcab8dd90ef624b9bb6e",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T13:11:23Z",
-          "primary": false,
-          "symbol": "AXON"
-        },
-        {
-          "headline": "Axon Enterprise (AXON) Stock Gets Fair Value Trim After Analysts Turn More Cautious",
-          "url": "https://finnhub.io/api/news?id=8d7926c6f8e3aca9265f9996d80d4814f0f869cebc5039a4636062fa93745afc",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T08:06:20Z",
           "primary": false,
           "symbol": "AXON"
         }
@@ -15339,17 +15347,17 @@
       "metrics": {
         "52WeekHigh": 70.41,
         "52WeekLow": 44.26,
-        "peTTM": 15.7734,
-        "psTTM": 1.5905,
+        "peTTM": 15.8865,
+        "psTTM": 1.6019,
         "netProfitMarginTTM": 10.08,
         "roeTTM": 14.829999999999998,
         "revenueGrowthTTMYoy": 3.71,
         "epsGrowthTTMYoy": 0.29,
         "currentRatioQuarterly": 1.2383,
         "totalDebt/totalEquityQuarterly": 0.9072,
-        "marketCapitalization": 45711.406
+        "marketCapitalization": 46039.12
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Baker Hughes Company",
       "profile": {
         "weburl": "https://www.bakerhughes.com/",
@@ -15358,42 +15366,42 @@
       },
       "news": [
         {
+          "headline": "Baker Hughes (BKR) Stock Looks Like A Bargain After A 121% Run",
+          "url": "https://finnhub.io/api/news?id=c1419ac05f412ed78279599903a2e64acced62f65395f46f75dd4badf880b6c4",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T22:07:58Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "Does Ichthys LNG Contract Win Change The Bull Case For Baker Hughes Stock?",
+          "url": "https://finnhub.io/api/news?id=daad8a9f9b6e7e64ebe189c6ba84ec4b2c78da0ac9b476e18fe92aab54460a84",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T20:08:30Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "Is Baker Hughes (BKR) Undervalued As Its INPEX LNG Contract Adds Order Momentum?",
+          "url": "https://finnhub.io/api/news?id=23bb602d05e0930473d6d65825a5d5fa7d6185431a45e9953b25066abee4e947",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T18:10:27Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
+          "headline": "Baker Hughes (BKR) Down 15.2% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=91959226d25acbf197afc96da82c2278e56a9f3d2b328017cba234716cd427da",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:07Z",
+          "primary": false,
+          "symbol": "BKR"
+        },
+        {
           "headline": "Flexible Pipes - Global Strategic Business Report 2026: Capitalize on the $1.7 Billion Market by 2032 as Baker Hughes, TechnipFMC, Strohm, and FlexSteel Vie for Share",
           "url": "https://finnhub.io/api/news?id=d7eee3ad248e2ff3ba84d20300c5a9821fe25bb21727c121f437759e20403df3",
           "source": "Yahoo",
           "published_at": "2026-11-24T14:54:00Z",
-          "primary": false,
-          "symbol": "BKR"
-        },
-        {
-          "headline": "ETFs Are Net Sellers of Baker Hughes (BKR) on Friday",
-          "url": "https://finnhub.io/api/news?id=b353a70ff8a94ab44199ba9130c5397f55b85ab1ba4fe156f3b9a6db9224ea1d",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T11:02:35Z",
-          "primary": false,
-          "symbol": "BKR"
-        },
-        {
-          "headline": "INPEX Awards Baker Hughes-McDermott Contract for Ichthys LNG Expansion",
-          "url": "https://finnhub.io/api/news?id=c1aafa1e193ebee743c1cb625ccee88285c3cdcfc6d64acf8a0c155be739357d",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:09:00Z",
-          "primary": false,
-          "symbol": "BKR"
-        },
-        {
-          "headline": "Baker Hughes and McDermott Win Contract for Major Australian LNG Project",
-          "url": "https://finnhub.io/api/news?id=8e7ca9506dbfa0f16c52e88a9c3b9a64640ddcf5a30053c17b5355fc2c38c207",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T00:40:00Z",
-          "primary": false,
-          "symbol": "BKR"
-        },
-        {
-          "headline": "What's Going On With Baker Hughes Stock Thursday?",
-          "url": "https://finnhub.io/api/news?id=ab7cea50fb74ecde14ff3956d746f92fc9213562b9ed4ac8e94f90d6bc103cc1",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T12:23:36Z",
           "primary": false,
           "symbol": "BKR"
         }
@@ -15403,17 +15411,17 @@
       "metrics": {
         "52WeekHigh": 69.575,
         "52WeekLow": 46.65,
-        "peTTM": 31.8441,
-        "psTTM": 1.1193,
+        "peTTM": 32.8691,
+        "psTTM": 1.1554,
         "netProfitMarginTTM": 3.52,
         "roeTTM": 9.46,
         "revenueGrowthTTMYoy": 19.23,
         "epsGrowthTTMYoy": -19.35,
         "currentRatioQuarterly": 1.0436,
         "totalDebt/totalEquityQuarterly": 1.2734,
-        "marketCapitalization": 16941.076
+        "marketCapitalization": 17486.385
       },
-      "updated_at": "2026-11-24T23:56:36Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Ball Corp",
       "profile": {
         "weburl": "https://www.ball.com/",
@@ -15426,15 +15434,15 @@
       "metrics": {
         "52WeekHigh": 30.0,
         "52WeekLow": 15.73,
-        "psTTM": 1.1952,
+        "psTTM": 1.2146,
         "netProfitMarginTTM": -6.23,
         "roeTTM": -11.62,
         "revenueGrowthTTMYoy": 5.33,
         "currentRatioQuarterly": 1.7921,
         "totalDebt/totalEquityQuarterly": 1.3228,
-        "marketCapitalization": 13877.865
+        "marketCapitalization": 14102.912
       },
-      "updated_at": "2026-11-24T23:56:36Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Baxter International Inc.",
       "profile": {
         "weburl": "https://www.baxter.com/",
@@ -15443,10 +15451,34 @@
       },
       "news": [
         {
+          "headline": "Baxter International (BAX) Following Q3 Earnings Beat And Higher Outlook Is It Fully Valued",
+          "url": "https://finnhub.io/api/news?id=5135dc059aa6ec412b9fbf9eca6601071bd2c3dbe1e64d4bb52536b4ba09978c",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T09:17:28Z",
+          "primary": false,
+          "symbol": "BAX"
+        },
+        {
+          "headline": "Baxter International (BAX) Stock Looks Fairly Priced Following Its 60% Five Year Fall",
+          "url": "https://finnhub.io/api/news?id=d6ab7b18bc90c9262369991f1477ea2f8d982f7e09b3e61e7d71a3f754ab351a",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T08:12:06Z",
+          "primary": false,
+          "symbol": "BAX"
+        },
+        {
           "headline": "Baxter International (BAX) Just Overtook the 20-Day Moving Average",
           "url": "https://finnhub.io/api/news?id=5a5505a579d8d351009f208e7d32662857b3a5ab7963f6aa5641317224f6b6b3",
           "source": "Yahoo",
           "published_at": "2026-11-24T13:35:02Z",
+          "primary": false,
+          "symbol": "BAX"
+        },
+        {
+          "headline": "Hayes Says Baxter Could Double Over Three to Five Years",
+          "url": "https://finnhub.io/api/news?id=d3c9132366a05bc7b4fd751cbc8868cca98c476572666b07e4943a18e1ac85d9",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T21:09:04Z",
           "primary": false,
           "symbol": "BAX"
         },
@@ -15457,40 +15489,24 @@
           "published_at": "2026-11-19T15:38:36Z",
           "primary": false,
           "symbol": "BAX"
-        },
-        {
-          "headline": "Baxter: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=14214b593552bd262f030cf253d522c6fee7741a087a384659f729fef831efef",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T20:50:02Z",
-          "primary": false,
-          "symbol": "BAX"
-        },
-        {
-          "headline": "Global Gynecological Examination Chairs Market Report 2026: Size, 7% CAGR and Forecast to 2030 | Capitalize on Smart Chairs with Stryker, Baxter, STERIS and Midmark",
-          "url": "https://finnhub.io/api/news?id=5d2a9c86bac425de3ae3a6e2e4326a9657b3b808755165f9e0d95b886499d16c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:45:00Z",
-          "primary": false,
-          "symbol": "BAX"
         }
       ]
     },
     "BDX": {
       "metrics": {
-        "52WeekHigh": 220.36,
+        "52WeekHigh": 222.78,
         "52WeekLow": 140.11,
-        "peTTM": 52.4725,
-        "psTTM": 2.9735,
+        "peTTM": 52.3375,
+        "psTTM": 2.9659,
         "netProfitMarginTTM": 5.67,
         "roeTTM": 4.65,
         "revenueGrowthTTMYoy": -7.4,
         "epsGrowthTTMYoy": -28.83,
         "currentRatioQuarterly": 0.8715,
         "totalDebt/totalEquityQuarterly": 0.6622,
-        "marketCapitalization": 60133.477
+        "marketCapitalization": 59978.793
       },
-      "updated_at": "2026-11-24T23:56:36Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Becton Dickinson and Co",
       "profile": {
         "weburl": "https://www.bd.com/",
@@ -15499,34 +15515,42 @@
       },
       "news": [
         {
-          "headline": "FT Vest Dividend Aristocrats Target Income (KNG) Buys $9.3 Million More BDX on Nov. 20",
-          "url": "https://finnhub.io/api/news?id=6aab2cfe14206ee3b9d304aa35918242278e67f49588852ea1edf9e490db6ca7",
+          "headline": "What Is Becton Dickinson (BDX) Gaining From This New Hospital Software Link?",
+          "url": "https://finnhub.io/api/news?id=235d92d4edb0bdf82d154123c33595a2549d58bb8542eaa80dcfd92d23b01af5",
           "source": "Yahoo",
-          "published_at": "2026-11-24T11:03:55Z",
+          "published_at": "2026-11-26T06:13:22Z",
           "primary": false,
           "symbol": "BDX"
         },
         {
-          "headline": "Becton Dickinson’s 55-Year Dividend Streak Leads 4 Healthcare Income Stocks",
-          "url": "https://finnhub.io/api/news?id=22feff6d1e546dadc73bbd2f23667a8f50ad4109baa2516eb4a52caa98aad8a5",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T20:47:26Z",
+          "headline": "Becton, Dickinson: The Valuation Still Makes It A Buy",
+          "url": "https://finnhub.io/api/news?id=ae152de2ff73539740a90d998d439e3a55cafcb5efbc825e1ba1d3b6985bd4ac",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-26T05:53:09Z",
           "primary": false,
           "symbol": "BDX"
         },
         {
-          "headline": "Becton, Dickinson and Company Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=0dbf2034122410135427cecc8e8ee10b03c55f38cf78e1cacbf4286b324b3888",
+          "headline": "Is Becton Dickinson (BDX) Overvalued After A 49% 1 Year Run?",
+          "url": "https://finnhub.io/api/news?id=afbb592cae5a7c1f9c082f364cb38d4164952f534a9f9ff18b837b04e34273b9",
           "source": "Yahoo",
-          "published_at": "2026-11-18T14:26:04Z",
+          "published_at": "2026-11-26T01:19:26Z",
           "primary": false,
           "symbol": "BDX"
         },
         {
-          "headline": "Accelerating Organic Growth Drives Becton, Dickinson and Company’s (BDX) Outperformance",
-          "url": "https://finnhub.io/api/news?id=6e5fcb4adbb49bca3d811919e30fbfa4fc84ced36bdc6f65852b22e72cf87cf2",
+          "headline": "Has Becton Dickinson (BDX) Run Too Far After Its ESOP Share Filing?",
+          "url": "https://finnhub.io/api/news?id=0280cdebb047694fdf445cb4227e1ae05b8055073b64fde932b949c21f84b8e7",
           "source": "Yahoo",
-          "published_at": "2026-11-18T14:04:54Z",
+          "published_at": "2026-11-25T16:12:27Z",
+          "primary": false,
+          "symbol": "BDX"
+        },
+        {
+          "headline": "What FT Vest Dividend Aristocrats Target Income (KNG) Sold: BDX Leads on Nov. 23",
+          "url": "https://finnhub.io/api/news?id=ad2af59481c6827887d9c15830f530fa281596fdc76ebf5c6d3735fd380cc1f1",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T11:04:59Z",
           "primary": false,
           "symbol": "BDX"
         }
@@ -15536,17 +15560,17 @@
       "metrics": {
         "52WeekHigh": 72.89,
         "52WeekLow": 43.2,
-        "peTTM": 62.884,
-        "psTTM": 9.4122,
+        "peTTM": 62.7544,
+        "psTTM": 9.3928,
         "netProfitMarginTTM": 14.97,
         "roeTTM": 8.9,
         "revenueGrowthTTMYoy": -0.38,
         "epsGrowthTTMYoy": 158.94,
         "currentRatioQuarterly": 4.5473,
         "totalDebt/totalEquityQuarterly": 0.0949,
-        "marketCapitalization": 11436.205
+        "marketCapitalization": 11412.642
       },
-      "updated_at": "2026-11-24T23:56:36Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Bio-Techne Corporation",
       "profile": {
         "weburl": "https://www.bio-techne.com/",
@@ -15576,17 +15600,17 @@
       "metrics": {
         "52WeekHigh": 89.395,
         "52WeekLow": 48.21,
-        "peTTM": 95.9647,
-        "psTTM": 1.7255,
+        "peTTM": 94.3211,
+        "psTTM": 1.696,
         "netProfitMarginTTM": 1.8,
         "roeTTM": 2.08,
         "revenueGrowthTTMYoy": 6.98,
         "epsGrowthTTMYoy": -85.15,
         "currentRatioQuarterly": 2.229,
         "totalDebt/totalEquityQuarterly": 0.3172,
-        "marketCapitalization": 44254.035
+        "marketCapitalization": 43496.08
       },
-      "updated_at": "2026-11-24T23:56:36Z",
+      "updated_at": "2026-11-27T11:07:11Z",
       "name": "Block, Inc.",
       "profile": {
         "weburl": "https://squareup.com",
@@ -15595,42 +15619,42 @@
       },
       "news": [
         {
+          "headline": "Did Lending Fine Just Shift Block Stock's Investment Narrative?",
+          "url": "https://finnhub.io/api/news?id=9ad8a50a263fdf8cf98249448e23e38724f6e4d5bdeceee53d88860b26f583de",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T04:37:20Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Block (XYZ) Opens Squaremates To U.S. Sellers With Deeper AI Task Automation",
+          "url": "https://finnhub.io/api/news?id=daf969765b8ebcfb54fb80fd19a300d5850bbfab02f293b8a22b02f85309699e",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T18:13:11Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Block 10 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=cb3c7ef70bd97e30e6f051401dd38340da0904bded7662042b5eedfcefbe0f80",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T12:15:16Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
+          "headline": "Wedbush Initiates Coverage On Block with Neutral Rating, Announces Price Target of $87",
+          "url": "https://finnhub.io/api/news?id=a022ee9fc076afaf0ed5da407082ec545c6233f4e4b4fc76b23ed6376287bf6c",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T11:47:10Z",
+          "primary": false,
+          "symbol": "XYZ"
+        },
+        {
           "headline": "Block (NYSE:XYZ): Affordable Growth at a Reasonable Valuation",
           "url": "https://finnhub.io/api/news?id=51d9f3bc6ca58b1c86b29b6d22cb282e21972a6c44e97643e2432e4e5e3e5496",
           "source": "ChartMill",
           "published_at": "2026-11-24T09:01:18Z",
-          "primary": false,
-          "symbol": "XYZ"
-        },
-        {
-          "headline": "Upstart Sinks 11% and Block 12% in a Week as the Tech Rout Hits Fintech. Upstart’s CEO Keeps Buying",
-          "url": "https://finnhub.io/api/news?id=b6ecd0f8d3bd56948b1bc512815a395b9722d7b9407766c95045ac0a1060bad4",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T23:34:39Z",
-          "primary": false,
-          "symbol": "XYZ"
-        },
-        {
-          "headline": "Block Stock And 2 AI Payments Shares Riding The Fraud Prevention Boom",
-          "url": "https://finnhub.io/api/news?id=486f5870b63e2d20ffee483f36dffd604c65bc2887e1da1a2094592b758c104f",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T20:07:30Z",
-          "primary": false,
-          "symbol": "XYZ"
-        },
-        {
-          "headline": "What ARK Blockchain & Fintech (ARKF) Bought: Block Leads on Nov. 19",
-          "url": "https://finnhub.io/api/news?id=bd274196f48f7ff457017e7ed10d38a22a4108c60d3baab8d24c62c32e2156e1",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T11:05:45Z",
-          "primary": false,
-          "symbol": "XYZ"
-        },
-        {
-          "headline": "62% of Bitcoin Payments Are Made for Coffee, Jack Dorsey’s Block Data Reveals",
-          "url": "https://finnhub.io/api/news?id=db9e1da89817bb58f560a78b44d9888e79c4d45ad5cf78f147989efacbe105e5",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T08:33:39Z",
           "primary": false,
           "symbol": "XYZ"
         }
@@ -30258,6 +30282,6 @@
       ]
     }
   },
-  "cursor": 251,
-  "updated_at": "2026-11-27T09:19:42Z"
+  "cursor": 263,
+  "updated_at": "2026-11-27T11:07:11Z"
 }
