@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:07:11Z",
+  "generated_at": "2026-11-27T12:05:56Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T11:07:11Z",
+      "checked_at": "2026-11-27T12:05:56Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T11:07:11Z",
+      "checked_at": "2026-11-27T12:05:56Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T11:07:11Z",
+      "checked_at": "2026-11-27T12:05:56Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T11:07:11Z",
+      "checked_at": "2026-11-27T12:05:56Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T11:07:11Z",
+      "checked_at": "2026-11-27T12:05:56Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T11:07:11Z",
+    "generated_at": "2026-11-27T12:05:56Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -12429,7 +12429,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.2×; TTM revenue growth 11.5% YoY",
+        "why": "Net profit margin 24.7% (TTM); Return on equity 139.6% (TTM); Trailing P/E 15.5×; TTM revenue growth 11.5% YoY",
         "risks": [
           "Price near reported 52-week low"
         ],
@@ -12443,35 +12443,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T23:56:36Z",
+            "timestamp": "2026-11-27T12:05:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Booking vs. Chewy: Booking Has Higher Revenue, But Chewy Sales Are More Stable",
-            "timestamp": "2026-11-24T21:20:02Z",
-            "url": "https://finnhub.io/api/news?id=66080260e5878619800f1bfb624134dcda47e3f387141fd8871e32614903da8f"
+            "value": "What Are Wall Street Analysts' Target Price for Booking Holdings Stock?",
+            "timestamp": "2026-11-26T14:34:10Z",
+            "url": "https://finnhub.io/api/news?id=93b6e92930198f7961ae67b6a47c4ae3fad4b6ad709cee0ca6a5e4706f1df419"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T23:56:36Z",
+        "fundamentals_at": "2026-11-27T12:05:56Z",
         "price": 149.5,
         "currency": "USD",
         "change_pct": 1.95,
         "news": [
           {
-            "headline": "Booking vs. Chewy: Booking Has Higher Revenue, But Chewy Sales Are More Stable",
-            "url": "https://finnhub.io/api/news?id=66080260e5878619800f1bfb624134dcda47e3f387141fd8871e32614903da8f",
+            "headline": "What Are Wall Street Analysts' Target Price for Booking Holdings Stock?",
+            "url": "https://finnhub.io/api/news?id=93b6e92930198f7961ae67b6a47c4ae3fad4b6ad709cee0ca6a5e4706f1df419",
             "source": "Yahoo",
-            "published_at": "2026-11-24T21:20:02Z",
+            "published_at": "2026-11-26T14:34:10Z",
             "primary": false,
             "symbol": "BKNG"
           },
           {
-            "headline": "What Just Happened To Booking Holdings Stock?",
-            "url": "https://finnhub.io/api/news?id=fbfbac777ea23c548ae50823adc5fa7a1c50e129fff03ad13d69402f5c710a81",
+            "headline": "Share Buyback Could Be A Big Deal For Booking Holdings Stock",
+            "url": "https://finnhub.io/api/news?id=b1a3d050decb51a03bed37d6234e7f49ddd5fb034578a64d8cf1f3518655705a",
             "source": "Yahoo",
-            "published_at": "2026-11-24T14:33:12Z",
+            "published_at": "2026-11-25T12:33:52Z",
             "primary": false,
             "symbol": "BKNG"
           }
@@ -12481,12 +12481,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 143.41,
-          "entry_floor": 129.07,
-          "exit_review_low": 183.86,
-          "exit_review_high": 219.22,
-          "bear_case": 101.06,
-          "scenario_upside_pct": 23.0,
+          "entry_ceiling": 140.52,
+          "entry_floor": 126.47,
+          "exit_review_low": 180.16,
+          "exit_review_high": 214.81,
+          "bear_case": 99.02,
+          "scenario_upside_pct": 20.5,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12499,12 +12499,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.18,
+            "trailing_pe": 15.49,
             "earnings_growth_assumed_pct": 5.16,
             "scenario_exit_pe": 17.75,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T23:56:36Z"
+            "metrics_retrieved_at": "2026-11-27T12:05:56Z"
           }
         },
         "ranking_score": 78,
@@ -12516,7 +12516,7 @@
         "status": "INVESTIGATE",
         "score": 78,
         "industry": "Professional Services",
-        "why": "Net profit margin 13.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 19.5×; TTM revenue growth 7.1% YoY",
+        "why": "Net profit margin 13.9% (TTM); Return on equity 37.8% (TTM); Trailing P/E 20.1×; TTM revenue growth 7.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -12530,35 +12530,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T23:56:36Z",
+            "timestamp": "2026-11-27T12:05:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Broadridge to Host Investor Day on December 8, 2026",
-            "timestamp": "2026-11-24T13:00:00Z",
-            "url": "https://finnhub.io/api/news?id=a31e50203e790d99e0524f3ed94cb9203a3d627de7976c98dcbde2d90fe0cbfe"
+            "value": "Broadridge Financial Solutions Stock: Analyst Estimates & Ratings",
+            "timestamp": "2026-11-26T12:29:58Z",
+            "url": "https://finnhub.io/api/news?id=91e06132110e4ba0562a883fe904b7b2837cdf5d8dca2b0c361a80ec2d53e180"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T23:56:36Z",
+        "fundamentals_at": "2026-11-27T12:05:56Z",
         "price": 187.14,
         "currency": "USD",
         "change_pct": 1.299,
         "news": [
           {
-            "headline": "Broadridge to Host Investor Day on December 8, 2026",
-            "url": "https://finnhub.io/api/news?id=a31e50203e790d99e0524f3ed94cb9203a3d627de7976c98dcbde2d90fe0cbfe",
+            "headline": "Broadridge Financial Solutions Stock: Analyst Estimates & Ratings",
+            "url": "https://finnhub.io/api/news?id=91e06132110e4ba0562a883fe904b7b2837cdf5d8dca2b0c361a80ec2d53e180",
             "source": "Yahoo",
-            "published_at": "2026-11-24T13:00:00Z",
+            "published_at": "2026-11-26T12:29:58Z",
             "primary": false,
             "symbol": "BR"
           },
           {
-            "headline": "How Many Shares of IBM or Broadridge Financial Solutions Pay $1,000 a Month in Dividends?",
-            "url": "https://finnhub.io/api/news?id=f20d6c597f9db9ede218846e3f2cc7a37ed8f7cef2fbc619d4d21791d7b64682",
+            "headline": "Broadridge (BR) Stock May Be 48% Undervalued Despite Tokenization Push",
+            "url": "https://finnhub.io/api/news?id=35aa72cd0ffe9e86f43fc395b6e561e0663039edf0809d9244c3c5acf8077098",
             "source": "Yahoo",
-            "published_at": "2026-11-19T23:50:20Z",
+            "published_at": "2026-11-26T12:10:37Z",
             "primary": false,
             "symbol": "BR"
           }
@@ -12568,12 +12568,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 128.87,
-          "entry_floor": 115.99,
-          "exit_review_low": 165.22,
-          "exit_review_high": 194.41,
-          "bear_case": 92.55,
-          "scenario_upside_pct": -11.7,
+          "entry_ceiling": 125.21,
+          "entry_floor": 112.69,
+          "exit_review_low": 160.53,
+          "exit_review_high": 188.88,
+          "bear_case": 89.92,
+          "scenario_upside_pct": -14.2,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12586,12 +12586,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 19.52,
+            "trailing_pe": 20.09,
             "earnings_growth_assumed_pct": 3.19,
             "scenario_exit_pe": 16.7,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T23:56:36Z"
+            "metrics_retrieved_at": "2026-11-27T12:05:56Z"
           }
         },
         "ranking_score": 78,
@@ -12617,35 +12617,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T01:27:41Z",
+            "timestamp": "2026-11-27T12:05:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Will Cards & Acquisition Synergies Sustain COF's Revenue Growth?",
-            "timestamp": "2026-11-24T14:48:00Z",
-            "url": "https://finnhub.io/api/news?id=86409c1a30254e739266c4c69c40e4ed8245d4e252bdf794cf2b209866de3870"
+            "value": "Capital One Financial (COF), What Is Behind The Latest Attention?",
+            "timestamp": "2026-11-26T05:14:55Z",
+            "url": "https://finnhub.io/api/news?id=a3c7ca46a767284db820f4db7b52f8308dad70564e8da029a98e245febeb386e"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-25T01:27:41Z",
+        "fundamentals_at": "2026-11-27T12:05:56Z",
         "price": 182.52,
         "currency": "USD",
         "change_pct": 0.64,
         "news": [
           {
-            "headline": "Will Cards & Acquisition Synergies Sustain COF's Revenue Growth?",
-            "url": "https://finnhub.io/api/news?id=86409c1a30254e739266c4c69c40e4ed8245d4e252bdf794cf2b209866de3870",
+            "headline": "Capital One Financial (COF), What Is Behind The Latest Attention?",
+            "url": "https://finnhub.io/api/news?id=a3c7ca46a767284db820f4db7b52f8308dad70564e8da029a98e245febeb386e",
             "source": "Yahoo",
-            "published_at": "2026-11-24T14:48:00Z",
+            "published_at": "2026-11-26T05:14:55Z",
             "primary": false,
             "symbol": "COF"
           },
           {
-            "headline": "Trump Revives Push for Card Rate Cap: What It Means for C, JPM & COF",
-            "url": "https://finnhub.io/api/news?id=a618cbe09d733cfc1a9f784da23f92a0203ce6dc3a9a6e0f3293526f82ea7b9d",
-            "source": "Yahoo",
-            "published_at": "2026-11-23T14:09:00Z",
+            "headline": "Ending soon: Capital One Venture welcome bonus worth $1,050 or more in travel",
+            "url": "https://finnhub.io/api/news?id=3f46cc7ae411ab0861284af488d3d6efee1d405819844b6058c6e5d9fe0ca1f0",
+            "source": "CNBC",
+            "published_at": "2026-11-24T16:46:55Z",
             "primary": false,
             "symbol": "COF"
           }
@@ -12696,35 +12696,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T01:27:41Z",
+            "timestamp": "2026-11-27T12:05:56Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
-            "timestamp": "2026-11-20T09:07:41Z",
-            "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26"
+            "value": "Can Carnival's $1.2B in Buybacks Support EPS as Debt Declines?",
+            "timestamp": "2026-11-26T12:33:00Z",
+            "url": "https://finnhub.io/api/news?id=cca65e552b96a28cad27d599c043e2afc4418c3e46bc88a2d044303188c6e78d"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-25T01:27:41Z",
+        "fundamentals_at": "2026-11-27T12:05:56Z",
         "price": 28.0,
         "currency": "USD",
         "change_pct": -1.408,
         "news": [
           {
-            "headline": "Carnival (CCL) Unveiled Two New LNG Powered Ace Class Ships",
-            "url": "https://finnhub.io/api/news?id=0faabd6625c71959b1c161d467883e4cd4b1e24aeb34156f371bb397dce4bc26",
+            "headline": "Can Carnival's $1.2B in Buybacks Support EPS as Debt Declines?",
+            "url": "https://finnhub.io/api/news?id=cca65e552b96a28cad27d599c043e2afc4418c3e46bc88a2d044303188c6e78d",
             "source": "Yahoo",
-            "published_at": "2026-11-20T09:07:41Z",
+            "published_at": "2026-11-26T12:33:00Z",
             "primary": false,
             "symbol": "CCL"
           },
           {
-            "headline": "Carnival Orders Two ~130,000-Ton Next-Generation Cruise Ships From Fincantieri’s Marghera Yard For Carnival Cruise Line, Due 2033 And 2035",
-            "url": "https://finnhub.io/api/news?id=87c17a6d0ca791383555a8231770500567e5bc820a75707f101c4cfff702d654",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T03:19:04Z",
+            "headline": "Carnival vs. Norwegian Cruise: Which Stock Has the Edge for 2027?",
+            "url": "https://finnhub.io/api/news?id=378146fa355f56e3dc5422312de2bdc1df3a8bd335b9a11c3e5a67cfcabf1bbb",
+            "source": "Yahoo",
+            "published_at": "2026-11-25T13:14:00Z",
             "primary": false,
             "symbol": "CCL"
           }
@@ -12736,10 +12736,10 @@
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 27.74,
           "entry_floor": 24.97,
-          "exit_review_low": 38.92,
-          "exit_review_high": 45.53,
-          "bear_case": 21.98,
-          "scenario_upside_pct": 39.0,
+          "exit_review_low": 38.8,
+          "exit_review_high": 45.38,
+          "bear_case": 21.91,
+          "scenario_upside_pct": 38.6,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -12752,12 +12752,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 11.96,
+            "trailing_pe": 12.0,
             "earnings_growth_assumed_pct": 2.34,
             "scenario_exit_pe": 16.25,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T01:27:41Z"
+            "metrics_retrieved_at": "2026-11-27T12:05:56Z"
           }
         },
         "ranking_score": 78,
@@ -15451,7 +15451,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T11:07:11Z",
+      "generated_at": "2026-11-27T12:05:56Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 837,
