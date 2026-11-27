@@ -17030,17 +17030,17 @@
       "metrics": {
         "52WeekHigh": 195.72,
         "52WeekLow": 153.4,
-        "peTTM": 10.9535,
-        "psTTM": 2.4172,
+        "peTTM": 11.0822,
+        "psTTM": 2.4456,
         "netProfitMarginTTM": 22.07,
         "roeTTM": 16.53,
         "revenueGrowthTTMYoy": 5.95,
         "epsGrowthTTMYoy": 26.96,
         "currentRatioQuarterly": 1.8654,
         "totalDebt/totalEquityQuarterly": 0.0499,
-        "marketCapitalization": 29180.01
+        "marketCapitalization": 29523.107
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Cincinnati Financial Corporation",
       "profile": {
         "weburl": "https://www.cinfin.com/",
@@ -17048,6 +17048,22 @@
         "name": "Cincinnati Financial Corporation"
       },
       "news": [
+        {
+          "headline": "Why Is Cincinnati Financial (CINF) Up 4.9% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=98cb4c8b53ffd0299ecaa3d8d5a4e93055837d094e0212adc1a37cf5c6863cbc",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T15:30:03Z",
+          "primary": false,
+          "symbol": "CINF"
+        },
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Cincinnati Financial Stock?",
+          "url": "https://finnhub.io/api/news?id=e46bbb9b1493863ccc9d7f95bedf93649412f99f76cb0ae9fd6dd2c7e27c367d",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:01:39Z",
+          "primary": false,
+          "symbol": "CINF"
+        },
         {
           "headline": "Cincinnati Financial (CINF) Stock Looks Expensive On Its 95% Run",
           "url": "https://finnhub.io/api/news?id=e07bccc4cf104b89612947051128b84f86b353f8788b4428ad7c6aa09f10ceb7",
@@ -17077,17 +17093,17 @@
     "CFG": {
       "metrics": {
         "52WeekHigh": 75.33,
-        "52WeekLow": 50.61,
-        "peTTM": 11.2414,
+        "52WeekLow": 51.97,
+        "peTTM": 11.4151,
         "psTTM": 1.48499,
         "netProfitMarginTTM": 24.5614,
         "roeTTM": 8.74,
         "revenueGrowthTTMYoy": 62.72879,
         "epsGrowthTTMYoy": 36.38,
         "totalDebt/totalEquityQuarterly": 0.4061,
-        "marketCapitalization": 25495.441
+        "marketCapitalization": 25889.484
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Citizens Financial Group Inc",
       "profile": {
         "weburl": "https://www.citizensbank.com/",
@@ -17096,10 +17112,26 @@
       },
       "news": [
         {
+          "headline": "Our Citizens Financial Pick Hasn’t Paid Off Yet—Here’s Why We’re Staying With the Stock",
+          "url": "https://finnhub.io/api/news?id=de8c2409a948e5be3ad75a2fa65a293d68379530579e3d25eecf6a3ed8210d4a",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T07:14:00Z",
+          "primary": false,
+          "symbol": "CFG"
+        },
+        {
           "headline": "Baird Upgrades Citizens Financial Group to Outperform from Neutral",
           "url": "https://finnhub.io/api/news?id=3987db4b8ac2d68abc00baf31ad8e5f862a50ce96905024475c71ee9928542b3",
           "source": "Fintel",
           "published_at": "2026-11-24T01:04:24Z",
+          "primary": false,
+          "symbol": "CFG"
+        },
+        {
+          "headline": "U.S. Bancorp vs. Citizens Financial: Which Dividend Stock Pays You More in 10 Years?",
+          "url": "https://finnhub.io/api/news?id=f62506505c12e3d327d4769475638640c01153fbe1eccec15d6982079091ca36",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:26:04Z",
           "primary": false,
           "symbol": "CFG"
         },
@@ -17118,22 +17150,6 @@
           "published_at": "2026-11-23T17:17:00Z",
           "primary": false,
           "symbol": "CFG"
-        },
-        {
-          "headline": "Baird Upgrades Citizens Financial Group to Outperform, Maintains Price Target to $75",
-          "url": "https://finnhub.io/api/news?id=9656c2a95b635042e46e23a24940042e0c0bdae76c21a3d559c18516fce0f1ff",
-          "source": "Benzinga",
-          "published_at": "2026-11-23T07:50:09Z",
-          "primary": false,
-          "symbol": "CFG"
-        },
-        {
-          "headline": "Citizens Financial Group Targets $450 Million Tech Boost as Private Banking Grows",
-          "url": "https://finnhub.io/api/news?id=fc4ebe99884b7bc43ad98aecaf95d5b43ad87d76ad2a0f72cc0aa94f9b082057",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T08:12:10Z",
-          "primary": false,
-          "symbol": "CFG"
         }
       ]
     },
@@ -17141,17 +17157,17 @@
       "metrics": {
         "52WeekHigh": 80.36,
         "52WeekLow": 62.285,
-        "peTTM": 25.5864,
-        "psTTM": 2.6249,
+        "peTTM": 25.7518,
+        "psTTM": 2.6418,
         "netProfitMarginTTM": 10.26,
         "roeTTM": 9.15,
         "revenueGrowthTTMYoy": 7.39,
         "epsGrowthTTMYoy": -19.28,
         "currentRatioQuarterly": 0.9463,
         "totalDebt/totalEquityQuarterly": 2.0776,
-        "marketCapitalization": 22311.324
+        "marketCapitalization": 22455.594
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "CMS Energy Corporation",
       "profile": {
         "weburl": "https://www.cmsenergy.com/",
@@ -17160,10 +17176,34 @@
       },
       "news": [
         {
+          "headline": "Why Is CMS Energy (CMS) Up 5% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=bab501fce5cdd52efc4c969e335132364b834e9030fa972804395a9118ca3c36",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:08Z",
+          "primary": false,
+          "symbol": "CMS"
+        },
+        {
+          "headline": "PPL vs. CMS: Which Utility Stock Is More Attractive to Investors Now?",
+          "url": "https://finnhub.io/api/news?id=5df1139cc159c085b7d947d676cb122cbe1a16ecf661bc838e10d26e0fc86224",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:58:00Z",
+          "primary": false,
+          "symbol": "CMS"
+        },
+        {
           "headline": "Truist Securities Maintains Buy on CMS Energy, Raises Price Target to $81",
           "url": "https://finnhub.io/api/news?id=3b5f3a528bd27de99ac23a534bc160324f3ee11e45620dff592d81318be61de9",
           "source": "Benzinga",
           "published_at": "2026-11-24T10:07:45Z",
+          "primary": false,
+          "symbol": "CMS"
+        },
+        {
+          "headline": "Duke Energy or CMS Energy: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=1973604736575753eaed5aecdb2b93fc458911d5834a4d906e2650f7c85e4a71",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:26:46Z",
           "primary": false,
           "symbol": "CMS"
         },
@@ -17174,22 +17214,6 @@
           "published_at": "2026-11-23T13:03:47Z",
           "primary": false,
           "symbol": "CMS"
-        },
-        {
-          "headline": "What Are Wall Street Analysts' Target Price for CMS Energy Stock?",
-          "url": "https://finnhub.io/api/news?id=194d255c52401def8f9ed5f0b06cb2aaf8916849a989101fdc578d17d6f83306",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:04:20Z",
-          "primary": false,
-          "symbol": "CMS"
-        },
-        {
-          "headline": "CMS Energy Corporation Amends Bylaws and Updates 2027 Annual Meeting Deadlines",
-          "url": "https://finnhub.io/api/news?id=36f83e451ca9b1ed15bd0c59cdf7505d92e261a5d26928b2c596076deda394d2",
-          "source": "Fintel",
-          "published_at": "2026-11-17T21:21:17Z",
-          "primary": false,
-          "symbol": "CMS"
         }
       ]
     },
@@ -17197,17 +17221,17 @@
       "metrics": {
         "52WeekHigh": 87.03,
         "52WeekLow": 37.08,
-        "peTTM": 10.6745,
-        "psTTM": 1.2547,
+        "peTTM": 11.0012,
+        "psTTM": 1.293,
         "netProfitMarginTTM": 11.75,
         "roeTTM": 17.36,
         "revenueGrowthTTMYoy": 4.96,
         "epsGrowthTTMYoy": 27.27,
         "currentRatioQuarterly": 2.2237,
         "totalDebt/totalEquityQuarterly": 0.1054,
-        "marketCapitalization": 27465.549
+        "marketCapitalization": 28305.967
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Cognizant Technology Solutions Corporation",
       "profile": {
         "weburl": "https://www.cognizant.com/",
@@ -17216,42 +17240,42 @@
       },
       "news": [
         {
-          "headline": "Cognizant Technology Solutions (CTSH) Puts AI To Work In Healthcare And Cybersecurity",
-          "url": "https://finnhub.io/api/news?id=7edb74103f979e3df934fc18383f280943163ba2d879e3a87146c3604bf888d9",
+          "headline": "Innodata vs. Cognizant: Which AI Services Stock Is a Better Buy?",
+          "url": "https://finnhub.io/api/news?id=720c1fefe6d3529034ed0c9bfbbe0383176879a798323e9e594f5c1aca886c9f",
           "source": "Yahoo",
-          "published_at": "2026-11-22T19:06:39Z",
+          "published_at": "2026-11-26T16:23:00Z",
           "primary": false,
           "symbol": "CTSH"
         },
         {
-          "headline": "How Did IBM Stock Leave Cognizant Behind?",
-          "url": "https://finnhub.io/api/news?id=5823f77f54e85cf1f6dc3b10c3a1433216f3630693efce432eb208d68016fabe",
+          "headline": "Cognizant: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=9761977f356a5810e166adab6f587d347070180ca06030e67462dba961ec8001",
           "source": "Yahoo",
-          "published_at": "2026-11-19T21:55:11Z",
+          "published_at": "2026-11-26T02:03:52Z",
           "primary": false,
           "symbol": "CTSH"
         },
         {
-          "headline": "B of A Securities Reinstates Neutral on Cognizant Tech Solns, Announces $70 Price Target",
-          "url": "https://finnhub.io/api/news?id=d21db56130cf4e6edb0168e9e022db16084f78c36a78b9027b8ed6cbfa1648a2",
+          "headline": "S&P Global may sell parts of Capital IQ unit to Cognizant - report",
+          "url": "https://finnhub.io/api/news?id=179ed656c8abe5c8c3fc61a4b8511bfb737bc3d2525b26a8056944a68d6ff32f",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T14:07:44Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
+        {
+          "headline": "Cognizant to Present at the 30th Annual UBS Global Technology and AI Conference",
+          "url": "https://finnhub.io/api/news?id=778deeae7936226bbb06707c54b07924d47eba6d6d92d5b8f0ff40965cdd9426",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T13:00:00Z",
+          "primary": false,
+          "symbol": "CTSH"
+        },
+        {
+          "headline": "Wedbush Assumes Cognizant Tech Solns at Outperform, Announces Price Target of $68",
+          "url": "https://finnhub.io/api/news?id=9509a6ea15766fe7992c09d2e0a8cffa7bcaeae2d0e6c3fb09c0ade72e85ca13",
           "source": "Benzinga",
-          "published_at": "2026-11-19T12:49:04Z",
-          "primary": false,
-          "symbol": "CTSH"
-        },
-        {
-          "headline": "Here Is Why Investors Should Pay Attention to Cognizant Technology (CTSH)",
-          "url": "https://finnhub.io/api/news?id=821d899b6bfe1a007476f14417b394ca3e5106dcd7f460ec258d469c99dc279e",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T17:12:33Z",
-          "primary": false,
-          "symbol": "CTSH"
-        },
-        {
-          "headline": "What Changed for Deutsche Bank on Cognizant (CTSH)?",
-          "url": "https://finnhub.io/api/news?id=38cb29fb6466a2657455d140e11abdfb70f5af4b7c43a66cb4e2569b0e3b92f5",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T16:12:01Z",
+          "published_at": "2026-11-25T12:24:12Z",
           "primary": false,
           "symbol": "CTSH"
         }
@@ -17260,18 +17284,18 @@
     "COHR": {
       "metrics": {
         "52WeekHigh": 440.0,
-        "52WeekLow": 130.42,
-        "peTTM": 44.124,
-        "psTTM": 5.3756,
+        "52WeekLow": 142.46,
+        "peTTM": 40.1126,
+        "psTTM": 4.8869,
         "netProfitMarginTTM": 12.18,
         "roeTTM": 9.3,
         "revenueGrowthTTMYoy": 30.84,
         "epsGrowthTTMYoy": 283.93,
         "currentRatioQuarterly": 2.2925,
         "totalDebt/totalEquityQuarterly": 0.3531,
-        "marketCapitalization": 42505.652
+        "marketCapitalization": 38641.324
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Coherent Corp.",
       "profile": {
         "weburl": "https://www.coherent.com/",
@@ -17280,42 +17304,42 @@
       },
       "news": [
         {
-          "headline": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
-          "url": "https://finnhub.io/api/news?id=279feed7f8e83c0bab8dca5730281447f596e24431227f8e50ac870e7ae96808",
+          "headline": "Coherent Targets $250 Million in Quarterly PhotonLink Sales. Can Capacity Keep Up?",
+          "url": "https://finnhub.io/api/news?id=e4c45aac5dca0a79e5e8cc421346e0ed5cf9f856a412b694f37eed78426f8f9e",
           "source": "Yahoo",
-          "published_at": "2026-11-24T14:58:24Z",
+          "published_at": "2026-11-27T04:07:35Z",
           "primary": false,
           "symbol": "COHR"
         },
         {
-          "headline": "Coherent Stock Is Jensen Huang Reinstatement Changing The AI Partner Story",
-          "url": "https://finnhub.io/api/news?id=0309ae28f47b88055435d790b8d3e6de451073c8ab0f6901557204480207d639",
+          "headline": "Coherent’s Director Has Now Bought $50 Million of COHR Stock in 3 Trading Days",
+          "url": "https://finnhub.io/api/news?id=0ed3ca7ac448a7c9a0099c9c76e211d6f15c7cb2036a7563a015dd22c556139d",
           "source": "Yahoo",
-          "published_at": "2026-11-24T08:09:23Z",
+          "published_at": "2026-11-26T17:22:22Z",
           "primary": false,
           "symbol": "COHR"
         },
         {
-          "headline": "Coherent Is Up 55% in a Year, and Its CEO Says 2027 Is “Basically Booked Out.” Time to Buy?",
-          "url": "https://finnhub.io/api/news?id=d8f1a7ee5cef5a4478b4ebe6b3910475af8de437dadab197fd4081288e333094",
+          "headline": "Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?",
+          "url": "https://finnhub.io/api/news?id=1b760b5f41da7ddfcea5294e7de1b41332772abbf485b5ef04c388dd1ad5bc99",
           "source": "Yahoo",
-          "published_at": "2026-11-24T02:22:45Z",
+          "published_at": "2026-11-25T20:14:59Z",
           "primary": false,
           "symbol": "COHR"
         },
         {
-          "headline": "Coherent Is the Real Winner of Huang’s Return. Nvidia Paid $2 Billion for Its Stock",
-          "url": "https://finnhub.io/api/news?id=33a3af7399c69e09df2f8a05b656b6e8c0dd3a66f2f1296346dc819415dbcc90",
+          "headline": "Coherent Sinks 10% Despite $15 Million Director Buy, Applied Optoelectronics Plunges 12% as AI Selloff Deepens; Lumentum Tumbles 10%",
+          "url": "https://finnhub.io/api/news?id=4db5e321c2f7c04f74845f3462b2ac0fb709fe0d3df109d6963b6b90a3188588",
           "source": "Yahoo",
-          "published_at": "2026-11-23T21:34:17Z",
+          "published_at": "2026-11-25T15:53:19Z",
           "primary": false,
           "symbol": "COHR"
         },
         {
-          "headline": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang’s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
-          "url": "https://finnhub.io/api/news?id=0fa3bc2818ca19361123e599e12707b33f511b8aab21e842630f3de16cb49cc4",
+          "headline": "Coherent’s Director Bought $15 Million of Stock as It Plunged 13%",
+          "url": "https://finnhub.io/api/news?id=60663571b33fa02861fff0a68fc1771926c5edd3a4493926e910766d1ca811ff",
           "source": "Yahoo",
-          "published_at": "2026-11-23T15:57:07Z",
+          "published_at": "2026-11-25T15:28:52Z",
           "primary": false,
           "symbol": "COHR"
         }
@@ -17325,15 +17349,15 @@
       "metrics": {
         "52WeekHigh": 284.74,
         "52WeekLow": 101.71,
-        "psTTM": 4.8132,
+        "psTTM": 4.8779,
         "netProfitMarginTTM": -12.46,
         "roeTTM": -5.08,
         "revenueGrowthTTMYoy": -26.62,
         "currentRatioQuarterly": 2.4245,
         "totalDebt/totalEquityQuarterly": 0.4804,
-        "marketCapitalization": 27097.271
+        "marketCapitalization": 27461.322
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Coinbase Global, Inc.",
       "profile": {
         "weburl": "https://www.coinbase.com",
@@ -17342,42 +17366,42 @@
       },
       "news": [
         {
-          "headline": "Coinbase wins dismissal of four-year investor lawsuit",
-          "url": "https://finnhub.io/api/news?id=a5a6078bef0573bb1e6246621bcfe9d056febcbfb85344886bf66b4e4d196ec3",
+          "headline": "Brian Armstrong Says Coinbase Uses AI to Scan Every Line of Code Amid Rising Cyber Threats: ‘Trust Matters More Now Than Ever’",
+          "url": "https://finnhub.io/api/news?id=36e32c2aec747847c3028a22d29b297f4372f328ee2e472a2c0655623844e5c1",
           "source": "Yahoo",
-          "published_at": "2026-11-24T18:20:35Z",
+          "published_at": "2026-11-27T11:45:05Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "What Is Pons? The Robinhood Chain Meme Coin Launchpad Explained",
-          "url": "https://finnhub.io/api/news?id=02d44940bb91ad9832dfb7f2700d1bb2e8032c1c736698b4bfe3563691537276",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T17:45:22Z",
+          "headline": "'I’m Not a Robot’ Takes on a New Meaning: Coinbase CEO Says ‘Insult Kim Jong Un’ Is the CAPTCHA That Stops North Korean Hackers (CORRECTED)",
+          "url": "https://finnhub.io/api/news?id=cc1d065612f4c13694517ebd41b6a1896bac06c5646fc4217248909d31c281ec",
+          "source": "Benzinga",
+          "published_at": "2026-11-27T02:51:17Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "What Just Happened To Coinbase Stock?",
-          "url": "https://finnhub.io/api/news?id=1cc0f56fc794204ce2372fe2ca74b87521eea80bef116a95c20d3024642d40fb",
+          "headline": "Coinbase (COIN) Stock Sees Modest Fair Value Cut As Analyst Views Stay Split",
+          "url": "https://finnhub.io/api/news?id=5671cd0265f7102b26150cc53751b0e29dbb748bc0d88b71d85e3a3183a97a4c",
           "source": "Yahoo",
-          "published_at": "2026-11-24T16:30:49Z",
+          "published_at": "2026-11-27T01:25:24Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "Could Coinbase Actually Climb 70%? Or Is Goldman Sachs Totally Wrong?",
-          "url": "https://finnhub.io/api/news?id=0d0bdf8edfc4b2d7bd544c664482d1b0b6c98b4f74a5b319fec78883f218760b",
+          "headline": "Coinbase (COIN) Stock May Already Trade At A Premium Despite Loan Expansion",
+          "url": "https://finnhub.io/api/news?id=fe2b6320c018bb12d4c4283864cda30e0b2b07c09a3da4db46b1b071833bf56a",
           "source": "Yahoo",
-          "published_at": "2026-11-24T14:58:32Z",
+          "published_at": "2026-11-26T16:11:18Z",
           "primary": false,
           "symbol": "COIN"
         },
         {
-          "headline": "Coinbase Global, Inc. (COIN) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://finnhub.io/api/news?id=d3292013b538ec824d0b8f182a37da59c26ebe08f62c9226b05631d5dd7ea0bb",
+          "headline": "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base",
+          "url": "https://finnhub.io/api/news?id=251c08321e210f3e5087addc6acc01cdf25428992fb7bceb9aab69c3e5b937cf",
           "source": "Yahoo",
-          "published_at": "2026-11-24T13:00:03Z",
+          "published_at": "2026-11-26T14:01:02Z",
           "primary": false,
           "symbol": "COIN"
         }
@@ -17386,18 +17410,18 @@
     "FIX": {
       "metrics": {
         "52WeekHigh": 2073.99,
-        "52WeekLow": 850.0,
-        "peTTM": 23.2931,
-        "psTTM": 3.0303,
+        "52WeekLow": 878.59,
+        "peTTM": 23.5746,
+        "psTTM": 3.0669,
         "netProfitMarginTTM": 13.01,
         "roeTTM": 55.24,
         "revenueGrowthTTMYoy": 50.7,
         "epsGrowthTTMYoy": 96.12,
         "currentRatioQuarterly": 1.1463,
         "totalDebt/totalEquityQuarterly": 0.0149,
-        "marketCapitalization": 38010.434
+        "marketCapitalization": 38469.797
       },
-      "updated_at": "2026-11-25T03:06:06Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Comfort Systems USA, Inc.",
       "profile": {
         "weburl": "https://comfortsystemsusa.com/",
@@ -17406,42 +17430,42 @@
       },
       "news": [
         {
-          "headline": "Comfort Systems vs. Vertiv: Which AI Cooling Stock Is a Better Buy?",
-          "url": "https://finnhub.io/api/news?id=2c5b707057c8e0cffb51809c003d1d84f0f95eabefa60d6affd34d98bdbd2ee5",
+          "headline": "Can Comfort Systems' Tech Exposure Become a Risk Worth Watching?",
+          "url": "https://finnhub.io/api/news?id=b2e3f6be24bcbec8d5da51316f41968d78cbbef79e839c5d3650f5feaeb5b14a",
           "source": "Yahoo",
-          "published_at": "2026-11-24T16:31:00Z",
+          "published_at": "2026-11-26T13:36:00Z",
           "primary": false,
           "symbol": "FIX"
         },
         {
-          "headline": "Comfort Systems USA (FIX) Rebounds Sharply, Is The Stock Still Cheap?",
-          "url": "https://finnhub.io/api/news?id=0c714f444a15b4a8d4be95f3dc1bed4ca13ed1d95251813593e65c0a250dc19c",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T11:16:47Z",
+          "headline": "Comfort Systems (NYSE:FIX): A Quality Investing Case Study in Durable Growth",
+          "url": "https://finnhub.io/api/news?id=88a4525693139f5eeb9b33c655c4aea1d8e1aac75796523fbd3d2d0e8d133d23",
+          "source": "ChartMill",
+          "published_at": "2026-11-26T10:40:52Z",
           "primary": false,
           "symbol": "FIX"
         },
         {
-          "headline": "Comfort Systems USA (FIX) Stock Gets Fair Value Trim As Analysts Weigh Backlog And Margins",
-          "url": "https://finnhub.io/api/news?id=11eac9ad429359a7be6cfbbc6a4a4d406d18ec78a9cb8f530afbf1d0a9edd061",
+          "headline": "Comfort Systems (FIX) is an Incredible Growth Stock: 3 Reasons Why",
+          "url": "https://finnhub.io/api/news?id=e3758294c1a15148b85ee36dd0cdc11df3b95abbe6f6260979960e326599d703",
           "source": "Yahoo",
-          "published_at": "2026-11-24T09:09:21Z",
+          "published_at": "2026-11-25T16:45:02Z",
           "primary": false,
           "symbol": "FIX"
         },
         {
-          "headline": "Comfort Systems USA stands out as the top industrial stock to own",
-          "url": "https://finnhub.io/api/news?id=3fc3b5a28b972316b82cf6451cac5980c6dd81ffa39f22a63d9ed8ea7445cf2c",
+          "headline": "Has Comfort Systems USA (FIX) Outpaced Other Construction Stocks This Year?",
+          "url": "https://finnhub.io/api/news?id=7547c9991190a7707a085216412d5f47ff277c28009fc8871e0abe5722f8beb0",
           "source": "Yahoo",
-          "published_at": "2026-11-23T19:01:58Z",
+          "published_at": "2026-11-25T13:40:03Z",
           "primary": false,
           "symbol": "FIX"
         },
         {
-          "headline": "Is Comfort Systems USA Stock Increasing Your Market Risk?",
-          "url": "https://finnhub.io/api/news?id=7421029891c62a19d1b835b3e32d2db379ed2930c093e1dcd63bf41e4c3ccf75",
+          "headline": "Wall Street Analysts See Comfort Systems (FIX) as a Buy: Should You Invest?",
+          "url": "https://finnhub.io/api/news?id=174a896b472b25c6de7afc476d98acf6562cd07eb667ea8e4c1cc8c5e99ea77f",
           "source": "Yahoo",
-          "published_at": "2026-11-20T11:31:33Z",
+          "published_at": "2026-11-25T13:30:03Z",
           "primary": false,
           "symbol": "FIX"
         }
@@ -17451,17 +17475,17 @@
       "metrics": {
         "52WeekHigh": 122.75,
         "52WeekLow": 94.96,
-        "peTTM": 20.0457,
-        "psTTM": 2.5129,
+        "peTTM": 20.1504,
+        "psTTM": 2.5261,
         "netProfitMarginTTM": 12.54,
         "roeTTM": 8.9,
         "revenueGrowthTTMYoy": 9.49,
         "epsGrowthTTMYoy": 10.41,
         "currentRatioQuarterly": 1.2682,
         "totalDebt/totalEquityQuarterly": 1.0815,
-        "marketCapitalization": 44441.414
+        "marketCapitalization": 44673.37
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Consolidated Edison, Inc.",
       "profile": {
         "weburl": "https://www.conedison.com/",
@@ -17469,6 +17493,14 @@
         "name": "Consolidated Edison, Inc."
       },
       "news": [
+        {
+          "headline": "JP Morgan Maintains Underweight on Consolidated Edison, Raises Price Target to $114",
+          "url": "https://finnhub.io/api/news?id=57eef25eb31112bf26c4c7060df476e723aff4b99177ab0390aabd36c3d944d0",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T11:47:23Z",
+          "primary": false,
+          "symbol": "ED"
+        },
         {
           "headline": "Morgan Stanley Maintains Underweight on Consolidated Edison, Raises Price Target to $105",
           "url": "https://finnhub.io/api/news?id=eb6be60001e8c7b641f8428b296793d25f6001b830495c089c28843f873caee8",
@@ -17492,22 +17524,6 @@
           "published_at": "2026-11-20T14:59:26Z",
           "primary": false,
           "symbol": "ED"
-        },
-        {
-          "headline": "Consolidated Edison, Inc. Enters into Forward Sale Agreement for 6,000,000 Common Shares",
-          "url": "https://finnhub.io/api/news?id=79a878029744b6cef338f39b22db421d9cfd8456589ee2bb18292cbdd50f07b9",
-          "source": "Fintel",
-          "published_at": "2026-11-19T07:28:24Z",
-          "primary": false,
-          "symbol": "ED"
-        },
-        {
-          "headline": "Zacks.com featured highlights include Super Micro Computer, General Dynamics and Consolidated Edison",
-          "url": "https://finnhub.io/api/news?id=86999e51d98b897aae611b711a48ef6af039b1542dd4a8fefaa426160f0cc29c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T09:47:00Z",
-          "primary": false,
-          "symbol": "ED"
         }
       ]
     },
@@ -17515,17 +17531,17 @@
       "metrics": {
         "52WeekHigh": 168.6,
         "52WeekLow": 110.6016,
-        "peTTM": 12.1204,
-        "psTTM": 2.5326,
+        "peTTM": 12.3095,
+        "psTTM": 2.5721,
         "netProfitMarginTTM": 20.9,
         "roeTTM": 23.580000000000002,
         "revenueGrowthTTMYoy": -4.32,
         "epsGrowthTTMYoy": 62.74,
         "currentRatioQuarterly": 0.9985,
         "totalDebt/totalEquityQuarterly": 1.2013,
-        "marketCapitalization": 23322.129
+        "marketCapitalization": 23685.953
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Constellation Brands, Inc.",
       "profile": {
         "weburl": "https://www.cbrands.com/",
@@ -17533,6 +17549,14 @@
         "name": "Constellation Brands, Inc."
       },
       "news": [
+        {
+          "headline": "What Are Wall Street Analysts' Target Price for Constellation Brands Stock?",
+          "url": "https://finnhub.io/api/news?id=0bc941797bfe1a6f49a082b85fec452bfe2c55e60f9e10da9ad8611d50f687a3",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T14:00:05Z",
+          "primary": false,
+          "symbol": "STZ"
+        },
         {
           "headline": "Kimberly-Clark or Constellation Brands: The One Dividend Stock I’d Hold for the Next 10 Years",
           "url": "https://finnhub.io/api/news?id=7ccdeee35bb0b176222e805b64a0ebb4e2c93610a673b76eda5c3a8da71d207a",
@@ -17556,22 +17580,6 @@
           "published_at": "2026-11-20T11:22:53Z",
           "primary": false,
           "symbol": "STZ"
-        },
-        {
-          "headline": "WildStar Partners Sells $65M Of Constellation Brands As Rally Stalls",
-          "url": "https://finnhub.io/api/news?id=0f28d0184b9c68da8f45b0b829bb593d25374bac2d3d61df4a7b0fa712894f1a",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T09:05:16Z",
-          "primary": false,
-          "symbol": "STZ"
-        },
-        {
-          "headline": "Constellation Brands to Present at the 2026 Morgan Stanley Global Consumer & Retail Conference on December 1, 2026",
-          "url": "https://finnhub.io/api/news?id=8c63d9f51b930eee7dcb9f1cfeb06b90a42b9e112a4e9ba0850d79f7f803be4e",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T21:30:00Z",
-          "primary": false,
-          "symbol": "STZ"
         }
       ]
     },
@@ -17579,40 +17587,57 @@
       "metrics": {
         "52WeekHigh": 89.83,
         "52WeekLow": 51.01,
-        "peTTM": 20.0792,
-        "psTTM": 2.7027,
+        "peTTM": 20.7694,
+        "psTTM": 2.7956,
         "netProfitMarginTTM": 13.46,
         "roeTTM": 6.88,
         "revenueGrowthTTMYoy": 4.73,
         "epsGrowthTTMYoy": 44.17,
         "currentRatioQuarterly": 1.2223,
         "totalDebt/totalEquityQuarterly": 0.3055,
-        "marketCapitalization": 11451.152
+        "marketCapitalization": 11844.774
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "The Cooper Companies, Inc.",
       "profile": {
         "weburl": "https://www.coopercos.com/",
         "industry": "Health Care",
         "name": "The Cooper Companies, Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Is Cooper Companies (COO) A Bargain After Its Q3 Revenue Miss And Guidance Cut?",
+          "url": "https://finnhub.io/api/news?id=8fed0dd31bc7f33f88e3f697bc9d4db9ccacf5f19e06d3a8a8c7554d9709137e",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T07:07:38Z",
+          "primary": false,
+          "symbol": "COO"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Cooper Companies Stock?",
+          "url": "https://finnhub.io/api/news?id=db219e34163e404e32394c397b3245ac5d5a4ea23516a94a12ba349e2664df0a",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T17:18:50Z",
+          "primary": false,
+          "symbol": "COO"
+        }
+      ]
     },
     "CPRT": {
       "metrics": {
         "52WeekHigh": 41.79,
         "52WeekLow": 25.72,
-        "peTTM": 19.735,
-        "psTTM": 6.2775,
+        "peTTM": 20.6993,
+        "psTTM": 6.5842,
         "netProfitMarginTTM": 31.81,
         "roeTTM": 15.93,
         "revenueGrowthTTMYoy": 0.41,
         "epsGrowthTTMYoy": -2.34,
         "currentRatioQuarterly": 7.9123,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 29292.072
+        "marketCapitalization": 30723.326
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Copart Inc",
       "profile": {
         "weburl": "https://www.copart.com/",
@@ -17621,18 +17646,42 @@
       },
       "news": [
         {
-          "headline": "Copart, Inc. (CPRT) Stock Moves -1.91%: What You Should Know",
-          "url": "https://finnhub.io/api/news?id=35867d0a9c4ca83332dc35a20325b5efc38fc872fd118e12625811344d1a2453",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T22:15:01Z",
+          "headline": "Copart: Opportunity At The Next Earnings Release",
+          "url": "https://finnhub.io/api/news?id=e72a8762a253aef322abc241d3aa6921161e1c9460ebbd4411d940a95c0aee85",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-27T09:35:33Z",
           "primary": false,
           "symbol": "CPRT"
         },
         {
-          "headline": "Copart, Inc. to Release First Quarter Fiscal 2027 Results",
-          "url": "https://finnhub.io/api/news?id=33efaa178fd9bfbfb8fd0f8e62e52fee48055961d1db63efc49e59a77a8d32e9",
+          "headline": "Copart Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+          "url": "https://finnhub.io/api/news?id=7941d2ff93d43d9f4c57f915b5dbb5080fb274d256ec36b033f5ba15ab5890fc",
+          "source": "Benzinga",
+          "published_at": "2026-11-27T05:27:07Z",
+          "primary": false,
+          "symbol": "CPRT"
+        },
+        {
+          "headline": "Copart Gears Up to Report Q1 Earnings: Here's What to Expect",
+          "url": "https://finnhub.io/api/news?id=aabb8a16d633f9b25aaf68b2ed7132d7ff6bfcfeb403bc855f7d93cf86bfa825",
           "source": "Yahoo",
-          "published_at": "2026-11-17T13:00:00Z",
+          "published_at": "2026-11-26T13:43:00Z",
+          "primary": false,
+          "symbol": "CPRT"
+        },
+        {
+          "headline": "Copart, Inc. (CPRT) Gains As Market Dips: What You Should Know",
+          "url": "https://finnhub.io/api/news?id=7ad609a7e179dd40bcd1019118aaf724154e623148a02f7f3896c9f6a2866790",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T22:15:01Z",
+          "primary": false,
+          "symbol": "CPRT"
+        },
+        {
+          "headline": "$100 Invested In Copart 15 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=6d7712291b31817409d707c9644844e7a002c152f5c58fab73714d4102eba3f4",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T19:45:13Z",
           "primary": false,
           "symbol": "CPRT"
         }
@@ -17641,18 +17690,18 @@
     "GLW": {
       "metrics": {
         "52WeekHigh": 271.78,
-        "52WeekLow": 77.39,
-        "peTTM": 43.3946,
-        "psTTM": 5.2654,
+        "52WeekLow": 80.27,
+        "peTTM": 40.1613,
+        "psTTM": 4.8731,
         "netProfitMarginTTM": 12.13,
         "roeTTM": 17.25,
         "revenueGrowthTTMYoy": 18.8,
         "epsGrowthTTMYoy": 56.46,
         "currentRatioQuarterly": 1.7224,
         "totalDebt/totalEquityQuarterly": 0.5998,
-        "marketCapitalization": 93298.35
+        "marketCapitalization": 86346.84
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T15:07:16Z",
       "name": "Corning Incorporated",
       "profile": {
         "weburl": "https://www.corning.com/",
@@ -17661,42 +17710,42 @@
       },
       "news": [
         {
-          "headline": "Corning Jumped $10. Jim Cramer Had a Lower Price in Mind",
-          "url": "https://finnhub.io/api/news?id=4cc7187f383b4e3cb37590db33855f60df6dabd20328614b448a745195f57bba",
+          "headline": "Corning’s 80-Million-Mile Fiber Deal Puts Its 2027 Expansion to the Test",
+          "url": "https://finnhub.io/api/news?id=b29a237be2a7146fde50d72bf6c6af80b6fe77667251efaa752902567465aad2",
           "source": "Yahoo",
-          "published_at": "2026-11-24T18:03:00Z",
+          "published_at": "2026-11-27T04:13:19Z",
           "primary": false,
           "symbol": "GLW"
         },
         {
-          "headline": "Corning Surges 15.1% as Nvidia Rally Lifts AI Hardware Stocks on Nov. 23",
-          "url": "https://finnhub.io/api/news?id=f8bd500a8ea66ca34a8927418bd1548dabbade6dc4a9af65d68384c7ef9a0c52",
+          "headline": "Corning (GLW) Down 23.6% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=670a086126f9cb9f9e29cb6085412047ff804b1abfbfc6b962d21992cb42cb34",
           "source": "Yahoo",
-          "published_at": "2026-11-23T17:02:42Z",
+          "published_at": "2026-11-26T15:30:11Z",
           "primary": false,
           "symbol": "GLW"
         },
         {
-          "headline": "Owens Corning's Stock Slump May Have a Silver Lining for Dividend Investors",
-          "url": "https://finnhub.io/api/news?id=a055cbfd5b477f9358e047cc96879fddd061c59444f14407018ffbeed2ec9764",
+          "headline": "Corning Stocks Tumble 7.58% as AI Fiber Trade Unwinds",
+          "url": "https://finnhub.io/api/news?id=8c13768472f93a702eeca989532d6f4fe67b2cfb5e3590838a59dde865148bec",
           "source": "Yahoo",
-          "published_at": "2026-11-21T14:35:00Z",
+          "published_at": "2026-11-25T17:21:03Z",
           "primary": false,
           "symbol": "GLW"
         },
         {
-          "headline": "Corning Glass: Copper-To-Fiber And Potential Global AI Buildout Bode Well (Rating Upgrade)",
-          "url": "https://finnhub.io/api/news?id=5b67b3a15211d57e282b2d8a0fbecc1a18acf3825d7e13dcb35d78fea62aeab1",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T02:03:29Z",
+          "headline": "Corning (GLW) Rides AI Optimism On A Narrative That Still Sees It Undervalued",
+          "url": "https://finnhub.io/api/news?id=9586eb1482f65e27e6090d13cbd0a73bdbec39997aa0f1897b476e0c16a23069",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T15:12:09Z",
           "primary": false,
           "symbol": "GLW"
         },
         {
-          "headline": "Corning (GLW) Stock Looks Like A Bargain On Cash Flow",
-          "url": "https://finnhub.io/api/news?id=9bd99c2ac2092d634adbdabce6e579bd1edd8109e52a4c4299a8f7d0c3342cc9",
+          "headline": "Is Most-Watched Stock Owens Corning Inc (OC) Worth Betting on Now?",
+          "url": "https://finnhub.io/api/news?id=fe445253d501332355f2aea0260dac216c0312cd53f2ea5d8e3f823dc570c5bf",
           "source": "Yahoo",
-          "published_at": "2026-11-19T16:09:12Z",
+          "published_at": "2026-11-25T13:00:04Z",
           "primary": false,
           "symbol": "GLW"
         }
@@ -30266,6 +30315,6 @@
       ]
     }
   },
-  "cursor": 287,
-  "updated_at": "2026-11-27T13:26:42Z"
+  "cursor": 299,
+  "updated_at": "2026-11-27T15:07:16Z"
 }
