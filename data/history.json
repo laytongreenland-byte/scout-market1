@@ -73778,6 +73778,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|NEM|ENTRY CANDIDATE",
+      "week": "2026-11-23",
+      "symbol": "NEM",
+      "name": "Newmont Corporation",
+      "signal": "ENTRY CANDIDATE",
+      "decision_at": "2026-11-27T05:26:27Z",
+      "quote_at": "2026-11-25T21:00:00Z",
+      "reference_price": 101.44,
+      "score": 86,
+      "quality_status": "INVESTIGATE",
+      "buy_ceiling": 110.28,
+      "sell_review": 200.62,
+      "bear_case": 106.38,
+      "why": "Net profit margin 34.7% (TTM); Return on equity 26.5% (TTM); Trailing P/E 11.4×; TTM revenue growth 23.7% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-27T05:26:27Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
