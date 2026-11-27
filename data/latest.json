@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:07:46Z",
+  "generated_at": "2026-11-27T04:16:32Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T03:07:46Z",
+      "checked_at": "2026-11-27T04:16:32Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T03:07:46Z",
+      "checked_at": "2026-11-27T04:16:32Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T03:07:46Z",
+      "checked_at": "2026-11-27T04:16:32Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T03:07:46Z",
+      "checked_at": "2026-11-27T04:16:32Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T03:07:46Z",
+      "checked_at": "2026-11-27T04:16:32Z",
       "error": ""
     }
   ],
@@ -7319,7 +7319,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T03:07:46Z",
+    "generated_at": "2026-11-27T04:16:32Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8976,7 +8976,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 20.0% (TTM); Return on equity 12.6% (TTM); Trailing P/E 10.7×; TTM revenue growth 84.1% YoY",
+        "why": "Net profit margin 20.0% (TTM); Return on equity 12.6% (TTM); Trailing P/E 10.6×; TTM revenue growth 84.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8990,7 +8990,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T19:09:28Z",
+            "timestamp": "2026-11-27T04:16:32Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9001,7 +9001,7 @@
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T19:09:28Z",
+        "fundamentals_at": "2026-11-27T04:16:32Z",
         "price": 58.55,
         "currency": "USD",
         "change_pct": 0.827,
@@ -9015,10 +9015,10 @@
             "symbol": "USB"
           },
           {
-            "headline": "Better Dividend Stock for Retirees: U.S. Bancorp vs. Regions Financial",
-            "url": "https://finnhub.io/api/news?id=42e66de00775d496ea642b0dc208dc7bfde73c3ad5326ab28dea0adf4372271e",
+            "headline": "U.S. Bancorp vs. Citizens Financial: Which Dividend Stock Pays You More in 10 Years?",
+            "url": "https://finnhub.io/api/news?id=f62506505c12e3d327d4769475638640c01153fbe1eccec15d6982079091ca36",
             "source": "Yahoo",
-            "published_at": "2026-11-23T16:57:01Z",
+            "published_at": "2026-11-23T22:26:04Z",
             "primary": false,
             "symbol": "USB"
           }
@@ -9055,7 +9055,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 28.8% (TTM); Return on equity 12.6% (TTM); Trailing P/E 10.9×; TTM revenue growth 72.3% YoY",
+        "why": "Net profit margin 28.8% (TTM); Return on equity 12.6% (TTM); Trailing P/E 11.1×; TTM revenue growth 72.3% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9069,35 +9069,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T20:11:19Z",
+            "timestamp": "2026-11-27T04:16:32Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "PNC Names Brian LeBlanc Chief Economist",
-            "timestamp": "2026-11-24T13:17:00Z",
-            "url": "https://finnhub.io/api/news?id=62bcac01688adab7a8973ca2bfc64a277d6221ef0a122d85a02f5e6fae2c6b9f"
+            "value": "PNC Executives to Speak at Goldman Sachs Financial Services Conference",
+            "timestamp": "2026-11-25T13:15:00Z",
+            "url": "https://finnhub.io/api/news?id=4c348c3c2c11e85bd8ddc2db2111e0bcbc5ac48176ec808e6123f6bcd4f7186f"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T20:11:19Z",
+        "fundamentals_at": "2026-11-27T04:16:32Z",
         "price": 220.33,
         "currency": "USD",
         "change_pct": 0.782,
         "news": [
           {
-            "headline": "PNC Names Brian LeBlanc Chief Economist",
-            "url": "https://finnhub.io/api/news?id=62bcac01688adab7a8973ca2bfc64a277d6221ef0a122d85a02f5e6fae2c6b9f",
+            "headline": "PNC Executives to Speak at Goldman Sachs Financial Services Conference",
+            "url": "https://finnhub.io/api/news?id=4c348c3c2c11e85bd8ddc2db2111e0bcbc5ac48176ec808e6123f6bcd4f7186f",
             "source": "Yahoo",
-            "published_at": "2026-11-24T13:17:00Z",
+            "published_at": "2026-11-25T13:15:00Z",
             "primary": false,
             "symbol": "PNC"
           },
           {
-            "headline": "Citizens Financial Eyes Branch Optimization Through NEXT Initiative",
-            "url": "https://finnhub.io/api/news?id=c312938aae5baf90054ab2b9472cc13dab608ec7acaff8070450f15b27f9e57e",
+            "headline": "Why PNC’s president is getting a one-time equity award",
+            "url": "https://finnhub.io/api/news?id=fad1c7d86c07ebe2677ff8e94843fd4fdbce2f2f5c76844ed345f6436b1a2f7c",
             "source": "Yahoo",
-            "published_at": "2026-11-23T17:17:00Z",
+            "published_at": "2026-11-24T21:30:17Z",
             "primary": false,
             "symbol": "PNC"
           }
@@ -15365,7 +15365,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T03:07:46Z",
+      "generated_at": "2026-11-27T04:16:32Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 836,
