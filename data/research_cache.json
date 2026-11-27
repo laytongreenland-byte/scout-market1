@@ -17754,18 +17754,18 @@
     "CPAY": {
       "metrics": {
         "52WeekHigh": 479.53,
-        "52WeekLow": 276.82,
-        "peTTM": 24.6517,
-        "psTTM": 5.6016,
+        "52WeekLow": 281.16,
+        "peTTM": 25.4772,
+        "psTTM": 5.7891,
         "netProfitMarginTTM": 22.72,
         "roeTTM": 30.4,
         "revenueGrowthTTMYoy": 20.36,
         "epsGrowthTTMYoy": 12.37,
         "currentRatioQuarterly": 0.972,
         "totalDebt/totalEquityQuarterly": 2.9994,
-        "marketCapitalization": 28122.654
+        "marketCapitalization": 29064.32
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Corpay, Inc.",
       "profile": {
         "weburl": "https://www.corpay.com/",
@@ -17773,6 +17773,30 @@
         "name": "Corpay, Inc."
       },
       "news": [
+        {
+          "headline": "Corpay CEO Ron Clarke Unloads $85.3 Million of Stock Outside a 10b5-1 Plan",
+          "url": "https://finnhub.io/api/news?id=7fb4edc7c0e7640dc6bf95a463167f10e5089710a483fb17904d2843b5a03d5d",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T18:02:11Z",
+          "primary": false,
+          "symbol": "CPAY"
+        },
+        {
+          "headline": "Ronald Clarke Sells $85M Of Corpay Stock Near 52-Week High",
+          "url": "https://finnhub.io/api/news?id=595f8f65b1b81c71f3fe1a2bfe958cd6011019eb3f52b525f6c59830b8b3935c",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T10:05:23Z",
+          "primary": false,
+          "symbol": "CPAY"
+        },
+        {
+          "headline": "Corpay Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=2745a0c3b50748df04dc709b7008166cd098814c663aca8c9958aec19851a19a",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T09:06:37Z",
+          "primary": false,
+          "symbol": "CPAY"
+        },
         {
           "headline": "UBS downgrades BILL after Corpay’s $1.1B investment",
           "url": "https://finnhub.io/api/news?id=8c8d335dcb2ec70298b7a9ae5d1957a188ad9f3df6cac0c6421ef0044a713c6e",
@@ -17788,30 +17812,6 @@
           "published_at": "2026-11-20T20:42:45Z",
           "primary": false,
           "symbol": "CPAY"
-        },
-        {
-          "headline": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
-          "url": "https://finnhub.io/api/news?id=8e08d1247015485bff2ccb68bcd8d8323407e2b5edd5dce13c2485947493c166",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T17:10:00Z",
-          "primary": false,
-          "symbol": "CPAY"
-        },
-        {
-          "headline": "Is Corpay (CPAY) A Bargain Or Fully Priced After Its BILL Deal?",
-          "url": "https://finnhub.io/api/news?id=bf54d0635a40a8023dfbae1cff7886d7f250134c8da560053c72a4b346794ad9",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T16:10:08Z",
-          "primary": false,
-          "symbol": "CPAY"
-        },
-        {
-          "headline": "Bill sells for $6B to TPG, Corpay",
-          "url": "https://finnhub.io/api/news?id=6a7d071fbe39e1fa9315d204dc7571af32ca65caafc42f6596c84f311a844e87",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:54:00Z",
-          "primary": false,
-          "symbol": "CPAY"
         }
       ]
     },
@@ -17819,17 +17819,17 @@
       "metrics": {
         "52WeekHigh": 70.57,
         "52WeekLow": 25.894,
-        "peTTM": 71.9699,
-        "psTTM": 3.4966,
+        "peTTM": 76.6808,
+        "psTTM": 3.7255,
         "netProfitMarginTTM": 4.86,
         "roeTTM": 2.22,
         "revenueGrowthTTMYoy": 20.2,
         "epsGrowthTTMYoy": 747.56,
         "currentRatioQuarterly": 1.3212,
         "totalDebt/totalEquityQuarterly": 0.1256,
-        "marketCapitalization": 12846.631
+        "marketCapitalization": 13687.516
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "CoStar Group, Inc.",
       "profile": {
         "weburl": "https://www.costargroup.com/",
@@ -17837,6 +17837,30 @@
         "name": "CoStar Group, Inc."
       },
       "news": [
+        {
+          "headline": "Why Is CoStar (CSGP) Up 23.5% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=24e45cc730baa96557cf35b879eee33d668e2f433d7002095b3ec9f074efa136",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:09Z",
+          "primary": false,
+          "symbol": "CSGP"
+        },
+        {
+          "headline": "CoStar Data Shows Noho Office Leasing Nearing 900,000 Sq. Ft.",
+          "url": "https://finnhub.io/api/news?id=283344cc2325d2afba3a9d5c17fa95be5babc4ffb2561be5468e7837183ebc18",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T09:00:00Z",
+          "primary": false,
+          "symbol": "CSGP"
+        },
+        {
+          "headline": "Did Improved Market Outlooks Just Shift CoStar's (CSGP) Investment Narrative?",
+          "url": "https://finnhub.io/api/news?id=9cc0f0478feb3462ee983fcb968a47f59bc24e56e0375b5232d522606f031f44",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T23:14:11Z",
+          "primary": false,
+          "symbol": "CSGP"
+        },
         {
           "headline": "CoStar (CSGP) Stock Is Up 7.8% Today Without Company News",
           "url": "https://finnhub.io/api/news?id=77943376878e7bfc8af712640c38ee3b8b5d5a94affdab7ccea2d3d7df855865",
@@ -17852,30 +17876,6 @@
           "published_at": "2026-11-24T14:17:41Z",
           "primary": false,
           "symbol": "CSGP"
-        },
-        {
-          "headline": "Are Wall Street Analysts Predicting CoStar Group Stock Will Climb or Sink?",
-          "url": "https://finnhub.io/api/news?id=67f963299edb2992b5ae279770e37f05836a5fe293b06440c78e1bbe527a739d",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T10:31:15Z",
-          "primary": false,
-          "symbol": "CSGP"
-        },
-        {
-          "headline": "CoStar Data Shows Hotel Sales in Bloomsbury-Covent Garden-Soho Submarket Climbing to a Five-Year High",
-          "url": "https://finnhub.io/api/news?id=5d4579da4765956ecf89750748ef640a71e59d4321bfba43244d0d6483d490a8",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T09:00:00Z",
-          "primary": false,
-          "symbol": "CSGP"
-        },
-        {
-          "headline": "CoStar Group (CSGP) Stock Still Looks Fully Priced After A 64% Fall",
-          "url": "https://finnhub.io/api/news?id=2b8ba18137b9a8b35c900ddfb7b24304ead5536779914e3e1041798a0842888c",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T22:15:47Z",
-          "primary": false,
-          "symbol": "CSGP"
         }
       ]
     },
@@ -17883,17 +17883,17 @@
       "metrics": {
         "52WeekHigh": 131.55,
         "52WeekLow": 78.62,
-        "peTTM": 17.1455,
-        "psTTM": 1.5755,
+        "peTTM": 18.0802,
+        "psTTM": 1.6614,
         "netProfitMarginTTM": 9.19,
         "roeTTM": 14.899999999999999,
         "revenueGrowthTTMYoy": 5.58,
         "epsGrowthTTMYoy": 5.81,
         "currentRatioQuarterly": 1.4591,
         "totalDebt/totalEquityQuarterly": 0.8104,
-        "marketCapitalization": 61380.84
+        "marketCapitalization": 64726.957
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "CRH PLC",
       "profile": {
         "weburl": "https://www.crh.com",
@@ -17901,6 +17901,22 @@
         "name": "CRH PLC"
       },
       "news": [
+        {
+          "headline": "Is CRH Stock Increasing Your Market Risk?",
+          "url": "https://finnhub.io/api/news?id=665e5fa4ad67d579ea08ef241c140dd144268a0384acb5084276f3490fa954ae",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T11:43:00Z",
+          "primary": false,
+          "symbol": "CRH"
+        },
+        {
+          "headline": "CRH: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=61c572b3862a9071606cb30c1915cb2bc13a59bdcf324f0e5ac166a9b5dbec3c",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T04:59:57Z",
+          "primary": false,
+          "symbol": "CRH"
+        },
         {
           "headline": "CRH: Price Increases, Synergy Savings And $400 Million Velocity Savings Plan Should Drive Upside",
           "url": "https://finnhub.io/api/news?id=07f8d7b9484704b55407f20146e394185d0a154c795e4dc1e0bb890fb114a9f0",
@@ -17916,22 +17932,6 @@
           "published_at": "2026-11-19T18:49:20Z",
           "primary": false,
           "symbol": "CRH"
-        },
-        {
-          "headline": "JP Morgan Maintains Overweight on CRH, Lowers Price Target to $110",
-          "url": "https://finnhub.io/api/news?id=f281218c80cf0726c6798b9472f2fd4714dbba8afd05cd25f0e8b5436f5f8c67",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T15:14:46Z",
-          "primary": false,
-          "symbol": "CRH"
-        },
-        {
-          "headline": "CRH announces Early Results of Tender Offers, Exchange Offers and Consent Solicitations for Arcosa, Inc. Notes",
-          "url": "https://finnhub.io/api/news?id=58a856172bf85b0f5ee334bf598bc10ead449695cadf96fe6df72dc1ab1d54bf",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:38:00Z",
-          "primary": false,
-          "symbol": "CRH"
         }
       ]
     },
@@ -17939,17 +17939,17 @@
       "metrics": {
         "52WeekHigh": 300.68,
         "52WeekLow": 98.01,
-        "peTTM": 229.34,
-        "psTTM": 14.0459,
+        "peTTM": 218.1073,
+        "psTTM": 13.3579,
         "netProfitMarginTTM": 6.12,
         "roeTTM": 6.239999999999999,
         "revenueGrowthTTMYoy": 33.21,
         "epsGrowthTTMYoy": 139.63,
         "currentRatioQuarterly": 3.5079,
         "totalDebt/totalEquityQuarterly": 0.2092,
-        "marketCapitalization": 60090.523
+        "marketCapitalization": 57147.387
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Datadog Inc",
       "profile": {
         "weburl": "https://www.datadoghq.com",
@@ -17957,6 +17957,14 @@
         "name": "Datadog Inc"
       },
       "news": [
+        {
+          "headline": "Why Datadog (DDOG) Stock Is Down Today: Software Selloff on AI Fears",
+          "url": "https://finnhub.io/api/news?id=6974d2df78ddfe5c9f4f9794c7475d847a50fb3274b9941735d9520c204a09cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T17:15:21Z",
+          "primary": false,
+          "symbol": "DDOG"
+        },
         {
           "headline": "Datadog vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
           "url": "https://finnhub.io/api/news?id=e197c71282bccdb129c7147fdebfc2d672a59067320852fe448f8e1d15291996",
@@ -17988,14 +17996,6 @@
           "published_at": "2026-11-23T17:22:00Z",
           "primary": false,
           "symbol": "DDOG"
-        },
-        {
-          "headline": "S&P 500 After-Hours Gainers: DDOG, HBAN Lead Postmarket Session",
-          "url": "https://finnhub.io/api/news?id=f31d983d4a478498cc13b273ad7c4c34ac24a575287b228e6a527a3580ed5444",
-          "source": "ChartMill",
-          "published_at": "2026-11-20T22:05:56Z",
-          "primary": false,
-          "symbol": "DDOG"
         }
       ]
     },
@@ -18003,17 +18003,17 @@
       "metrics": {
         "52WeekHigh": 247.49,
         "52WeekLow": 101.0,
-        "peTTM": 11.0873,
-        "psTTM": 0.72,
+        "peTTM": 11.1276,
+        "psTTM": 0.7227,
         "netProfitMarginTTM": 6.49,
         "roeTTM": 181.22,
         "revenueGrowthTTMYoy": 6.38,
         "epsGrowthTTMYoy": 39.77,
         "currentRatioQuarterly": 1.4116,
         "totalDebt/totalEquityQuarterly": 77.9938,
-        "marketCapitalization": 10201.122
+        "marketCapitalization": 10238.233
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "DaVita Inc",
       "profile": {
         "weburl": "https://www.davita.com/",
@@ -18021,6 +18021,14 @@
         "name": "DaVita Inc"
       },
       "news": [
+        {
+          "headline": "Zacks Industry Outlook Highlights DaVita, RadNet, LifeStance Health and U.S. Physical Therapy",
+          "url": "https://finnhub.io/api/news?id=1fd94bfdefb8c5830a5096fcd4ac075971961d95d7b08010f3f40b91bfdcc38e",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T16:00:00Z",
+          "primary": false,
+          "symbol": "DVA"
+        },
         {
           "headline": "Is DaVita (DVA) Cheap After Its Expanded HD Rollout Reached All U.S. Centers?",
           "url": "https://finnhub.io/api/news?id=59723eb3b81117d2b03df7b761c42cd4d48ac0084d180dc2f4e0a7d22ea2fb0d",
@@ -18036,14 +18044,6 @@
           "published_at": "2026-11-20T11:05:30Z",
           "primary": false,
           "symbol": "DVA"
-        },
-        {
-          "headline": "DaVita Expands Availability of Advanced Dialysis Therapy to Every U.S. Center",
-          "url": "https://finnhub.io/api/news?id=785391ca5a61c469799f9ec24af899354ecd04720c26197ec5ff1b648ff94972",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T11:00:00Z",
-          "primary": false,
-          "symbol": "DVA"
         }
       ]
     },
@@ -18051,17 +18051,17 @@
       "metrics": {
         "52WeekHigh": 595.51,
         "52WeekLow": 110.22,
-        "peTTM": 16.5444,
-        "psTTM": 1.245,
-        "netProfitMarginTTM": 7.53,
+        "peTTM": 12.1831,
+        "psTTM": 1.0544,
+        "netProfitMarginTTM": 8.65,
         "roeTTM": 130.7,
-        "revenueGrowthTTMYoy": 49.03,
-        "epsGrowthTTMYoy": 145.25,
-        "currentRatioQuarterly": 0.9623,
+        "revenueGrowthTTMYoy": 72.09,
+        "epsGrowthTTMYoy": 210.26,
+        "currentRatioQuarterly": 1.0494,
         "totalDebt/totalEquityQuarterly": 5.3584,
-        "marketCapitalization": 188242.36
+        "marketCapitalization": 188874.53
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Dell Technologies Inc",
       "profile": {
         "weburl": "https://www.dell.com",
@@ -18070,42 +18070,42 @@
       },
       "news": [
         {
-          "headline": "Dell Says AI Demand Remains ‘Firm,’ Every Order ‘Fully Vetted’ – But DELL Stock Barely Moves After Beat-And-Raise Quarter",
-          "url": "https://finnhub.io/api/news?id=3e7080737f1397f01b9c5daa035f50fd5b1062e44fc7b71b5c8758318b3fb8ef",
+          "headline": "Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries",
+          "url": "https://finnhub.io/api/news?id=a08b082da0ea962e461fdbd87d2c54659200a1d30332db0fdab050db0601689f",
           "source": "Yahoo",
-          "published_at": "2026-11-25T02:50:24Z",
+          "published_at": "2026-11-27T12:22:03Z",
           "primary": false,
           "symbol": "DELL"
         },
         {
-          "headline": "TSLA Stock Slips Overnight: Dell And HP See No Quick Relief From The AI-Driven Chip Crunch Behind Tesla’s 25% Memory Cut",
-          "url": "https://finnhub.io/api/news?id=6271438ade99d0e1f78b7ecc01319b9fa432dd46e6d941472d9af8e381045950",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T02:26:26Z",
+          "headline": "Dell: The Market Prices The AI Revenue Boom, But Not Peak Margins",
+          "url": "https://finnhub.io/api/news?id=9868d0b6747c6d365a61defb32e1c3f8a64f6617e86f3f7f96da15742899a8e4",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-27T07:47:11Z",
           "primary": false,
           "symbol": "DELL"
         },
         {
-          "headline": "Dell Technologies Q3 Earnings Call Highlights",
-          "url": "https://finnhub.io/api/news?id=4ca935defeb67451f9756cab4b292160a679f94712a3a541e6c7337f8a37029b",
+          "headline": "Dell’s Operating Costs Fell to “the Lowest in Our Company’s 42-Year History.” The Stock Fell Anyway",
+          "url": "https://finnhub.io/api/news?id=de4df1d51d527d90c3d95160d83a9d3b0b39b00735da084f567b395b2365b590",
           "source": "Yahoo",
-          "published_at": "2026-11-25T00:13:36Z",
+          "published_at": "2026-11-27T06:59:43Z",
           "primary": false,
           "symbol": "DELL"
         },
         {
-          "headline": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs  — NVDA, DELL, TSLA, TGTX In Focus",
-          "url": "https://finnhub.io/api/news?id=9a0c08d5bca041ef39423f082d872c660d783895141466fd52db17e544c9b9ae",
+          "headline": "BofA resets Dell stock price target by $100 after record earnings",
+          "url": "https://finnhub.io/api/news?id=a1beace477d8f15b52d9aeed46adcd05da7e96f196103202e9e024ac7f47d041",
           "source": "Yahoo",
-          "published_at": "2026-11-25T00:12:12Z",
+          "published_at": "2026-11-26T19:03:00Z",
           "primary": false,
           "symbol": "DELL"
         },
         {
-          "headline": "Dell Technologies Reports Record Third Quarter Fiscal 2027 Revenue of $54.9 billion",
-          "url": "https://finnhub.io/api/news?id=338472f425ffaf224f446eee82eb77302ac3f97b80d0b7f085233f0890791a11",
-          "source": "Fintel",
-          "published_at": "2026-11-24T23:59:46Z",
+          "headline": "Dell Is No Longer the Company You Originally Bought. Is That a Reason to Buy More Stock in 2027?",
+          "url": "https://finnhub.io/api/news?id=d8cf36248ba91620cf3c3de0caa8f763a180bc9b72ad01a45e2a2e9574be0ec7",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T17:04:03Z",
           "primary": false,
           "symbol": "DELL"
         }
@@ -18115,17 +18115,17 @@
       "metrics": {
         "52WeekHigh": 95.68,
         "52WeekLow": 55.28,
-        "peTTM": 16.8658,
-        "psTTM": 0.7728,
+        "peTTM": 16.5878,
+        "psTTM": 0.7601,
         "netProfitMarginTTM": 4.58,
         "roeTTM": 15.4,
         "revenueGrowthTTMYoy": 14.11,
         "epsGrowthTTMYoy": -29.55,
         "currentRatioQuarterly": 0.4018,
         "totalDebt/totalEquityQuarterly": 0.5708,
-        "marketCapitalization": 55488.324
+        "marketCapitalization": 54573.83
       },
-      "updated_at": "2026-11-25T04:17:12Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Delta Air Lines, Inc.",
       "profile": {
         "weburl": "https://www.delta.com/",
@@ -18134,42 +18134,42 @@
       },
       "news": [
         {
-          "headline": "Wall Street Bulls Look Optimistic About Delta (DAL): Should You Buy?",
-          "url": "https://finnhub.io/api/news?id=f50bed6fc3f7ca38d30ed49650130f819bb92dc48e08a5c5e387566fa1901381",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T13:30:04Z",
-          "primary": false,
-          "symbol": "DAL"
-        },
-        {
-          "headline": "Update: Market Chatter: Delta Air Lines Resumes Normal Operations After System Outage Delays Flights",
-          "url": "https://finnhub.io/api/news?id=08d4c2d0042d92578426fd2bd0a28c7a3428f25af96788f18b26bf198dd439c4",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T16:24:29Z",
-          "primary": false,
-          "symbol": "DAL"
-        },
-        {
-          "headline": "Delta Air Lines Hit by Major Outage Before Thanksgiving",
-          "url": "https://finnhub.io/api/news?id=4ad30570f159d4654732f0583b0fc5f9d2b9d2ed5c2521161b1fa4f5da25cb28",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T15:38:05Z",
-          "primary": false,
-          "symbol": "DAL"
-        },
-        {
-          "headline": "Delta System Glitch Throws Thousands of Flights Into Chaos at Atlanta Airport Ahead of Thanksgiving: What Travelers Need to Know",
-          "url": "https://finnhub.io/api/news?id=31f76df4ec4c4f68da6b34cf9a9922b711496e80ebefa7c407bf488c540f2e44",
+          "headline": "Here’s How Much You Would Have Made Owning Delta Air Lines Stock In The Last 5 Years",
+          "url": "https://finnhub.io/api/news?id=58311d1729e32ee3882360b1af41e093400237022049db8bff272b1b5897cb36",
           "source": "Benzinga",
-          "published_at": "2026-11-23T00:26:25Z",
+          "published_at": "2026-11-26T11:45:13Z",
           "primary": false,
           "symbol": "DAL"
         },
         {
-          "headline": "Delta Air Lines exits entire market",
-          "url": "https://finnhub.io/api/news?id=b01cc5792892ad864cc3e7060ead708d773a2544c242190df311b5e6329cb03d",
+          "headline": "Delta Air Lines: A Buy On More Premium Seats And Lower Fuel Costs",
+          "url": "https://finnhub.io/api/news?id=22026c2975214ee43db4b87c9eb601811e16830daaa55acc32315e0981a88c84",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-26T07:57:34Z",
+          "primary": false,
+          "symbol": "DAL"
+        },
+        {
+          "headline": "Here's Why Delta Air Lines (DAL) Fell More Than Broader Market",
+          "url": "https://finnhub.io/api/news?id=fc5095520ec4e0b05b7a336b22c06eff2b9a9264d9a8f2d8301f3578cfcb3a25",
           "source": "Yahoo",
-          "published_at": "2026-11-22T21:40:12Z",
+          "published_at": "2026-11-25T21:45:01Z",
+          "primary": false,
+          "symbol": "DAL"
+        },
+        {
+          "headline": "Delta Air Lines (DAL) Stock Still Trades Below Fair Value On A 143% Five Year Run",
+          "url": "https://finnhub.io/api/news?id=5cc2a43a8967452b66f3f1235b7f4f1d104b56936ca04f64d46ca70ce6fb18bd",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T17:14:13Z",
+          "primary": false,
+          "symbol": "DAL"
+        },
+        {
+          "headline": "What Caused FAA’s Nationwide Ground Stop That Hit Delta, United And American? — Investigators Reportedly Recreate Glitch in Lab",
+          "url": "https://finnhub.io/api/news?id=89a26ce2699928ae2e5fe2c2f1f7d289e157d5429b8201a583559cf8c346dd3b",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T01:37:56Z",
           "primary": false,
           "symbol": "DAL"
         }
@@ -18179,16 +18179,16 @@
       "metrics": {
         "52WeekHigh": 442.35,
         "52WeekLow": 282.0,
-        "peTTM": 19.1792,
-        "psTTM": 2.3069,
+        "peTTM": 19.5182,
+        "psTTM": 2.3477,
         "netProfitMarginTTM": 12.03,
         "roeTTM": 31.85231,
         "revenueGrowthTTMYoy": 4.5,
         "epsGrowthTTMYoy": 6.08,
         "currentRatioQuarterly": 0.4878,
-        "marketCapitalization": 11687.459
+        "marketCapitalization": 11894.066
       },
-      "updated_at": "2026-11-25T05:26:10Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Domino's Pizza, Inc.",
       "profile": {
         "weburl": "https://www.dominos.com/",
@@ -18197,42 +18197,42 @@
       },
       "news": [
         {
-          "headline": "5-Year Outlook: Can Domino's Pizza Deliver?",
-          "url": "https://finnhub.io/api/news?id=996ae49881c5506deadcdf8c945a73cfa0b3a22870ef28ea4c7593e7634a9a1e",
+          "headline": "Domino's Pizza (DPZ) Stock Looks Above Fair Value Even As Growth Expands",
+          "url": "https://finnhub.io/api/news?id=0b29c1e484dc67d4122ef6e36762e9359cced43db78eee5ed1f29b62ef61a3d1",
           "source": "Yahoo",
-          "published_at": "2026-11-25T00:03:35Z",
+          "published_at": "2026-11-27T06:11:04Z",
           "primary": false,
           "symbol": "DPZ"
         },
         {
-          "headline": "Domino's Pizza franchisee files for Chapter 11 bankruptcy",
-          "url": "https://finnhub.io/api/news?id=0d8326341c34e12c551ef43885c1f3f2ccd8d70b35f75df7ae740840434153df",
+          "headline": "Learn Why The Bull Case For Domino's Pizza (DPZ) Could Change Following China Supply Chain Expansion",
+          "url": "https://finnhub.io/api/news?id=d8a5e44a0db44452a27e81fe05358beff7d6bed9d9ce0ea3ef95bc86962046d9",
           "source": "Yahoo",
-          "published_at": "2026-11-24T17:19:28Z",
+          "published_at": "2026-11-27T05:10:41Z",
           "primary": false,
           "symbol": "DPZ"
         },
         {
-          "headline": "Domino’s franchisee files for Chapter 11 bankruptcy",
-          "url": "https://finnhub.io/api/news?id=b80127792d3006e0e6e453231c7e2bd77b4378bc37db699e0dae13840dac5d95",
+          "headline": "DPC Dash - Domino's Pizza China Scales Supply Chain Network to Drive Disciplined Store Expansion and Nationwide IP Collaborations",
+          "url": "https://finnhub.io/api/news?id=326f1f4ed57ad3999db5cdde5c53b214606d3dd1ad748a8c20fa117187198343",
           "source": "Yahoo",
-          "published_at": "2026-11-24T15:42:48Z",
+          "published_at": "2026-11-26T09:53:00Z",
           "primary": false,
           "symbol": "DPZ"
         },
         {
-          "headline": "Why Is Domino’s Pizza Stock Rising Today?",
-          "url": "https://finnhub.io/api/news?id=eaa97ba5dd52ba56942d8988a517ab659208754e02c2ab513deac711e32390b4",
+          "headline": "Domino's Pizza Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=513c8c6644886cd4143c005c7e09bdbfb9b508906cbebba23ca5806dbdd12445",
           "source": "Yahoo",
-          "published_at": "2026-11-24T13:38:39Z",
+          "published_at": "2026-11-26T07:06:48Z",
           "primary": false,
           "symbol": "DPZ"
         },
         {
-          "headline": "Better Dividend Stock for Retirees: Best Buy vs. Domino’s Pizza",
-          "url": "https://finnhub.io/api/news?id=a40c4536780f986b7a91bf08bfa713ea0a51901da162b953ac37abaa001cb0ab",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T14:59:29Z",
+          "headline": "Domino's Pizza UK: The Domino's Wall Street Is Overlooking",
+          "url": "https://finnhub.io/api/news?id=6d0492260af7d12f5e6578c8fc15095306951cce02c8bf91eade547a6f422323",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-25T08:58:50Z",
           "primary": false,
           "symbol": "DPZ"
         }
@@ -18242,17 +18242,17 @@
       "metrics": {
         "52WeekHigh": 239.0,
         "52WeekLow": 143.3,
-        "peTTM": 65.6796,
-        "psTTM": 4.0922,
+        "peTTM": 68.2513,
+        "psTTM": 4.2525,
         "netProfitMarginTTM": 6.23,
         "roeTTM": 10.4,
         "revenueGrowthTTMYoy": 35.03,
         "epsGrowthTTMYoy": 24.75,
         "currentRatioQuarterly": 1.4647,
         "totalDebt/totalEquityQuarterly": 0.2545,
-        "marketCapitalization": 69817.414
+        "marketCapitalization": 72551.16
       },
-      "updated_at": "2026-11-25T05:26:10Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Doordash, Inc.",
       "profile": {
         "weburl": "https://www.doordash.com",
@@ -18260,6 +18260,22 @@
         "name": "Doordash, Inc."
       },
       "news": [
+        {
+          "headline": "Is Grocery Delivery Worth the Cost? (2026): DoorDash Options, Fees, and Savings Reviewed by Consumer365",
+          "url": "https://finnhub.io/api/news?id=c5e31477847d46e5b63e0b34c794fe1e1c93667a22b5dea4fe1b7ec29077ea35",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T11:30:00Z",
+          "primary": false,
+          "symbol": "DASH"
+        },
+        {
+          "headline": "Bernstein’s $250 Target Says DoorDash’s Selloff Went Too Far",
+          "url": "https://finnhub.io/api/news?id=2978018543521b3b8a907cee27ced6f50cb68e26f540b06ce70d8506fe5da764",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T16:49:56Z",
+          "primary": false,
+          "symbol": "DASH"
+        },
         {
           "headline": "Delivering Holiday Help: How DoorDash Is Helping Families Stretch Food Budgets and Give Back This Season",
           "url": "https://finnhub.io/api/news?id=ef7da247e9221228abd57d32dd4c99553ec33713be5c97c93c87d0f0d909fda9",
@@ -18283,40 +18299,24 @@
           "published_at": "2026-11-23T13:51:45Z",
           "primary": false,
           "symbol": "DASH"
-        },
-        {
-          "headline": "DoorDash Just Dropped 11% in a Week. Is It Time to Sell, or Load Up?",
-          "url": "https://finnhub.io/api/news?id=6a108e1f71d43791cc54bbd598edb232f5d50ae4f39e7b6043d6eceae487bfb1",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T15:21:02Z",
-          "primary": false,
-          "symbol": "DASH"
-        },
-        {
-          "headline": "DoorDash (DASH) Faces A Fresh Valuation Test Following Its Instacart Deal",
-          "url": "https://finnhub.io/api/news?id=a20a6b48cb2d9be2bed7ec94573cb52b7407feb3489dd974083d281d1967aa9d",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T22:09:53Z",
-          "primary": false,
-          "symbol": "DASH"
         }
       ]
     },
     "DOV": {
       "metrics": {
         "52WeekHigh": 237.54,
-        "52WeekLow": 178.32,
-        "peTTM": 22.9701,
-        "psTTM": 3.1231,
+        "52WeekLow": 182.91,
+        "peTTM": 23.4229,
+        "psTTM": 3.1846,
         "netProfitMarginTTM": 13.6,
         "roeTTM": 15.43,
         "revenueGrowthTTMYoy": 8.24,
         "epsGrowthTTMYoy": -47.18,
         "currentRatioQuarterly": 1.9455,
         "totalDebt/totalEquityQuarterly": 0.4275,
-        "marketCapitalization": 26785.088
+        "marketCapitalization": 27313.13
       },
-      "updated_at": "2026-11-25T05:26:10Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Dover Corporation",
       "profile": {
         "weburl": "https://www.dovercorporation.com/",
@@ -18345,16 +18345,16 @@
     "DOW": {
       "metrics": {
         "52WeekHigh": 42.74,
-        "52WeekLow": 21.24,
-        "psTTM": 0.4937,
+        "52WeekLow": 22.52,
+        "psTTM": 0.5038,
         "netProfitMarginTTM": -2.1,
         "roeTTM": -5.67,
         "revenueGrowthTTMYoy": 4.16,
         "currentRatioQuarterly": 1.7556,
         "totalDebt/totalEquityQuarterly": 1.0858,
-        "marketCapitalization": 21039.629
+        "marketCapitalization": 21470.338
       },
-      "updated_at": "2026-11-25T05:26:10Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "Dow Inc.",
       "profile": {
         "weburl": "https://investors.dow.com/",
@@ -18363,18 +18363,18 @@
       },
       "news": [
         {
-          "headline": "Dow sees lowest close since June as volatility index jumps on selling",
-          "url": "https://finnhub.io/api/news?id=afcec18826a54bef29e44d084e127478c960fe448c2e5153e6b988abb616b58e",
-          "source": "CNBC",
-          "published_at": "2026-11-17T18:59:41Z",
+          "headline": "What Dow Buyers Were Betting On",
+          "url": "https://finnhub.io/api/news?id=e6e5576a5eb1b3a221d635be36da880a7d7304a123fd30d61453aa21a9022ecb",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T01:12:51Z",
           "primary": false,
           "symbol": "DOW"
         },
         {
-          "headline": "Dow Already Cut Its Dividend 50%. Its Remaining 4.4% Yield Faces Another Test",
-          "url": "https://finnhub.io/api/news?id=220d8316526ffd8429c470b11472e942d771e28535590307b341a8f029bf28a9",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T12:17:14Z",
+          "headline": "Dow Outperforms Nike Stock 100x Since Inclusion: Jay Woods Expects 'Underperformer' to Get the Boot",
+          "url": "https://finnhub.io/api/news?id=f9540a691f4b6fd69fe8925acadcae32c10817bfd9b7a73c6eb018ff3dbadf5c",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T13:38:22Z",
           "primary": false,
           "symbol": "DOW"
         }
@@ -18384,17 +18384,17 @@
       "metrics": {
         "52WeekHigh": 170.785,
         "52WeekLow": 130.4,
-        "peTTM": 14.1545,
-        "psTTM": 1.2377,
+        "peTTM": 14.5282,
+        "psTTM": 1.2704,
         "netProfitMarginTTM": 8.74,
         "roeTTM": 12.22,
         "revenueGrowthTTMYoy": -3.52,
         "epsGrowthTTMYoy": -12.61,
         "currentRatioQuarterly": 5.4789,
         "totalDebt/totalEquityQuarterly": 0.262,
-        "marketCapitalization": 40897.97
+        "marketCapitalization": 41977.72
       },
-      "updated_at": "2026-11-25T05:26:10Z",
+      "updated_at": "2026-11-27T16:14:35Z",
       "name": "D.R. Horton, Inc.",
       "profile": {
         "weburl": "https://www.drhorton.com/",
@@ -30315,6 +30315,6 @@
       ]
     }
   },
-  "cursor": 299,
-  "updated_at": "2026-11-27T15:07:16Z"
+  "cursor": 311,
+  "updated_at": "2026-11-27T16:14:35Z"
 }
