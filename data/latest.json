@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:05:56Z",
+  "generated_at": "2026-11-27T13:26:42Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T12:05:56Z",
+      "checked_at": "2026-11-27T13:26:42Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T12:05:56Z",
+      "checked_at": "2026-11-27T13:26:42Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T12:05:56Z",
+      "checked_at": "2026-11-27T13:26:42Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T12:05:56Z",
+      "checked_at": "2026-11-27T13:26:42Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T12:05:56Z",
+      "checked_at": "2026-11-27T13:26:42Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T12:05:56Z",
+    "generated_at": "2026-11-27T13:26:42Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7813,7 +7813,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Chemicals",
-        "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.8×; TTM revenue growth 17.9% YoY",
+        "why": "Net profit margin 27.5% (TTM); Return on equity 40.3% (TTM); Trailing P/E 7.9×; TTM revenue growth 17.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7827,7 +7827,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T03:06:06Z",
+            "timestamp": "2026-11-27T13:26:42Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -7838,7 +7838,7 @@
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-25T03:06:06Z",
+        "fundamentals_at": "2026-11-27T13:26:42Z",
         "price": 117.5,
         "currency": "USD",
         "change_pct": 0.651,
@@ -15451,7 +15451,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T12:05:56Z",
+      "generated_at": "2026-11-27T13:26:42Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 837,
