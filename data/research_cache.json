@@ -14259,17 +14259,17 @@
       "metrics": {
         "52WeekHigh": 153.69,
         "52WeekLow": 120.57,
-        "peTTM": 25.81,
-        "psTTM": 5.4876,
+        "peTTM": 26.788,
+        "psTTM": 5.6955,
         "netProfitMarginTTM": 21.26,
         "roeTTM": 9.99,
         "revenueGrowthTTMYoy": 5.38,
         "epsGrowthTTMYoy": 1.31,
         "currentRatioQuarterly": 0.392,
         "totalDebt/totalEquityQuarterly": 1.3693,
-        "marketCapitalization": 29320.15
+        "marketCapitalization": 30431.156
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "American Water Works Company, Inc.",
       "profile": {
         "weburl": "https://www.amwater.com/",
@@ -14277,6 +14277,22 @@
         "name": "American Water Works Company, Inc."
       },
       "news": [
+        {
+          "headline": "Operation Gobble 2026: California American Water Bring Thanksgiving to Families Across California",
+          "url": "https://finnhub.io/api/news?id=f5e4273bb5a928cd4bf4f05af04728f7732a1070cc013ff72eb2e5f4faad523b",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T01:07:00Z",
+          "primary": false,
+          "symbol": "AWK"
+        },
+        {
+          "headline": "American Water: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=0bde3979b845f382f92824ee691ff6096ccd409d413bf7bfaeed908dd14f5be9",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T23:49:56Z",
+          "primary": false,
+          "symbol": "AWK"
+        },
         {
           "headline": "Iowa American Water Urges Customers to Prepare for Cold Weather",
           "url": "https://finnhub.io/api/news?id=9dc13317ce554d125e2386646e3704f448b5783637c6a00eafeff052e54ee565",
@@ -14300,22 +14316,6 @@
           "published_at": "2026-11-24T12:00:00Z",
           "primary": false,
           "symbol": "AWK"
-        },
-        {
-          "headline": "Iowa American Water Delivers PFAS Settlement Credit to Customers",
-          "url": "https://finnhub.io/api/news?id=665787e6426ba6109c44ab986db00931085641f4af286ccde68e7042d24e7aea",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T22:34:00Z",
-          "primary": false,
-          "symbol": "AWK"
-        },
-        {
-          "headline": "American States Water’s 72-Year Dividend Streak Leads 3 Retirement Income Stocks",
-          "url": "https://finnhub.io/api/news?id=3a143bb3dc934a8c18ca5e3333cf992b6a6624fdd0ad42974152c384c9ed60cb",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T12:47:14Z",
-          "primary": false,
-          "symbol": "AWK"
         }
       ]
     },
@@ -14323,17 +14323,17 @@
       "metrics": {
         "52WeekHigh": 572.56,
         "52WeekLow": 422.37,
-        "peTTM": 10.3049,
-        "psTTM": 2.1299,
+        "peTTM": 10.5331,
+        "psTTM": 2.177,
         "netProfitMarginTTM": 20.67,
         "roeTTM": 68.69,
         "revenueGrowthTTMYoy": 8.77,
         "epsGrowthTTMYoy": 22.02,
         "currentRatioQuarterly": 0.6827,
         "totalDebt/totalEquityQuarterly": 7.6926,
-        "marketCapitalization": 42888.832
+        "marketCapitalization": 43838.562
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Ameriprise Financial Inc",
       "profile": {
         "weburl": "https://www.ameriprise.com/",
@@ -14372,32 +14372,24 @@
           "published_at": "2026-11-19T18:48:00Z",
           "primary": false,
           "symbol": "AMP"
-        },
-        {
-          "headline": "Ameriprise, LPL Agree To End Multi-Year Court Standoff",
-          "url": "https://finnhub.io/api/news?id=44055c02b718c93845274468bcffd16bd59e6567d3a5f4ea4556cb7679ac76b2",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T16:48:07Z",
-          "primary": false,
-          "symbol": "AMP"
         }
       ]
     },
     "AME": {
       "metrics": {
         "52WeekHigh": 261.16,
-        "52WeekLow": 189.06,
-        "peTTM": 32.4909,
-        "psTTM": 6.4698,
+        "52WeekLow": 194.01,
+        "peTTM": 31.982,
+        "psTTM": 6.3684,
         "netProfitMarginTTM": 19.91,
         "roeTTM": 14.66,
         "revenueGrowthTTMYoy": 14.34,
         "epsGrowthTTMYoy": 11.87,
         "currentRatioQuarterly": 1.431,
         "totalDebt/totalEquityQuarterly": 0.5702,
-        "marketCapitalization": 52997.68
+        "marketCapitalization": 52167.55
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "AMETEK Inc",
       "profile": {
         "weburl": "https://www.ametek.com/",
@@ -14406,26 +14398,42 @@
       },
       "news": [
         {
+          "headline": "Global Aircraft Emergency Oxygen System Market Report 2026 | Capitalize on 8.8% CAGR Through 2030 with Safran, Honeywell, Eaton, Liebherr-Aerospace and AMETEK",
+          "url": "https://finnhub.io/api/news?id=444c5d7b28d221718c5f7a244c00cb3785caf9bafcf18310a366db5cab4b2d05",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T14:28:00Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
+          "headline": "Centrifugal Blowers - Global Strategic Business Report: Capture the US$1 Billion Revenue Surge by 2030 as AMETEK, AirPro, Chicago Blower and Cincinnati Fan Battle Tariff Disruption",
+          "url": "https://finnhub.io/api/news?id=56d80e18e0f1b5dbd274fca001bb8eeaf691345491efdc40d0928bd3c09c25df",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T14:53:00Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
+          "headline": "ETFs Are Net Sellers of AMETEK (AME) on Monday",
+          "url": "https://finnhub.io/api/news?id=72308cc3721be80edc71780e9cfa5cee25c2aea048bad927aefb8e4acd781459",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T11:03:42Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning AMETEK Stock In The Last 10 Years",
+          "url": "https://finnhub.io/api/news?id=b13e9754d025cb46f56874bb33a55ac2bc30ad9edc468e5a8d95628ed6551f12",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T19:45:15Z",
+          "primary": false,
+          "symbol": "AME"
+        },
+        {
           "headline": "AMETEK, Inc. Completes Sale of $500,000,000, C$600,000,000, and €1,500,000,000 of Senior Notes",
           "url": "https://finnhub.io/api/news?id=d9abcef4a428969993a6fa52e34d588a09cf0081e30e00b183d52f8f5bfefe26",
           "source": "Fintel",
           "published_at": "2026-11-20T21:21:13Z",
-          "primary": false,
-          "symbol": "AME"
-        },
-        {
-          "headline": "AMETEK, Inc. Enters into Underwriting Agreements for $500,000,000, C$600,000,000, and €750,000,000 Senior Notes",
-          "url": "https://finnhub.io/api/news?id=6ab52d7b6120dcc791d55c383c04c036f420c0a70929d083af149930d1b58485",
-          "source": "Fintel",
-          "published_at": "2026-11-18T11:30:57Z",
-          "primary": false,
-          "symbol": "AME"
-        },
-        {
-          "headline": "What Are Wall Street Analysts' Target Price for AMETEK Stock?",
-          "url": "https://finnhub.io/api/news?id=2ab68d12cb1cfd885891e32227beda06df726d1e70463567d8a2689fe9bbef20",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T13:12:22Z",
           "primary": false,
           "symbol": "AME"
         }
@@ -14434,18 +14442,18 @@
     "APH": {
       "metrics": {
         "52WeekHigh": 89.93,
-        "52WeekLow": 39.41,
-        "peTTM": 32.2228,
-        "psTTM": 5.7841,
+        "52WeekLow": 59.01,
+        "peTTM": 30.4204,
+        "psTTM": 5.4605,
         "netProfitMarginTTM": 17.95,
         "roeTTM": 39.54,
         "revenueGrowthTTMYoy": 57.57,
         "epsGrowthTTMYoy": 53.3,
         "currentRatioQuarterly": 1.9407,
         "totalDebt/totalEquityQuarterly": 1.0436,
-        "marketCapitalization": 191145.52
+        "marketCapitalization": 180453.61
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Amphenol Corp",
       "profile": {
         "weburl": "https://www.amphenol.com/",
@@ -14453,6 +14461,30 @@
         "name": "Amphenol Corp"
       },
       "news": [
+        {
+          "headline": "If You Invested $100 In Amphenol Stock 10 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=e4a0f2737a91dfc7ed02fb14f62afeda3525edd15ca1fec75c9aebcf0ff7a1ba",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T18:15:19Z",
+          "primary": false,
+          "symbol": "APH"
+        },
+        {
+          "headline": "Amphenol's 65% Sales Surge: Can the Momentum Continue in 2027 & Beyond?",
+          "url": "https://finnhub.io/api/news?id=529086d41e2a9b8c4dabd90b6a0dd7e94e7aaf2b8f1baaee86bd4e5c8b384d71",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T12:59:00Z",
+          "primary": false,
+          "symbol": "APH"
+        },
+        {
+          "headline": "AMPHENOL CORPORATION Enters into Fourth Amended and Restated Credit Agreement and Increases Commercial Paper Programs",
+          "url": "https://finnhub.io/api/news?id=f402a6742946106d3f7132b9116bbfe69c11c5266950e0c05a6c24972c843db8",
+          "source": "Fintel",
+          "published_at": "2026-11-25T01:28:59Z",
+          "primary": false,
+          "symbol": "APH"
+        },
         {
           "headline": "Amphenol: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finnhub.io/api/news?id=a454e9106dac83749c19845327c03bc0582974862322b60260c809c8108a65eb",
@@ -14468,48 +14500,24 @@
           "published_at": "2026-11-24T16:59:23Z",
           "primary": false,
           "symbol": "APH"
-        },
-        {
-          "headline": "Is Amphenol Stock Paying You Enough For The Swings?",
-          "url": "https://finnhub.io/api/news?id=4ff73d0a7b0fd000003ad8f3981aa2b38a2d153802366c869ba541b49f09d1b7",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T11:07:48Z",
-          "primary": false,
-          "symbol": "APH"
-        },
-        {
-          "headline": "What Capital Group Dividend Value ETF (CGDV) Bought: Amphenol Leads on Nov. 20",
-          "url": "https://finnhub.io/api/news?id=fe6a8e509ea2510234dfc029795c7dbc4986e3b2719e247959aacbc1bbb27030",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T11:04:12Z",
-          "primary": false,
-          "symbol": "APH"
-        },
-        {
-          "headline": "Why Amphenol (APH) Stock Is Up Today: AI Hardware Rally on Nvidia News",
-          "url": "https://finnhub.io/api/news?id=2d6c5e04c85a8067be3cde8428ef4a80b40910b959b2aef5a0fb1d49714142d4",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T17:30:33Z",
-          "primary": false,
-          "symbol": "APH"
         }
       ]
     },
     "ADI": {
       "metrics": {
         "52WeekHigh": 445.91,
-        "52WeekLow": 225.0,
-        "peTTM": 44.9503,
-        "psTTM": 13.3895,
-        "netProfitMarginTTM": 29.79,
-        "roeTTM": 12.26,
-        "revenueGrowthTTMYoy": 33.65,
-        "epsGrowthTTMYoy": 114.38,
-        "currentRatioQuarterly": 1.2504,
-        "totalDebt/totalEquityQuarterly": 0.2719,
-        "marketCapitalization": 185869.62
+        "52WeekLow": 229.29,
+        "peTTM": 32.173,
+        "psTTM": 10.5924,
+        "netProfitMarginTTM": 32.92,
+        "roeTTM": 14.81,
+        "revenueGrowthTTMYoy": 37.74,
+        "epsGrowthTTMYoy": 123.77,
+        "currentRatioQuarterly": 1.8449,
+        "totalDebt/totalEquityQuarterly": 0.337,
+        "marketCapitalization": 160781.92
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Analog Devices, Inc.",
       "profile": {
         "weburl": "https://www.analog.com/",
@@ -14518,42 +14526,42 @@
       },
       "news": [
         {
-          "headline": "Analog Devices, Inc. Q4 2026 Earnings Call Summary",
-          "url": "https://finnhub.io/api/news?id=498c1c67b21b259f6984b39d95e45466608fb115d36c573b48901273a4874cb0",
+          "headline": "Analog Devices (ADI) Stock Fair Value Moves Lower After Mixed Analyst Target Revisions",
+          "url": "https://finnhub.io/api/news?id=59d68827f61d2e5089b0c37c3f5a8901eabf80b40b8394401a2557fddf4e71e0",
           "source": "Yahoo",
-          "published_at": "2026-11-24T21:49:02Z",
+          "published_at": "2026-11-27T04:23:20Z",
           "primary": false,
           "symbol": "ADI"
         },
         {
-          "headline": "Why Analog Devices Stock Fell Nearly 20% Today",
-          "url": "https://finnhub.io/api/news?id=b99da5c10de0d7d2856e8f51208c6686ae0804c00ebc67e3a799ef812d3b234f",
+          "headline": "Analog Devices keeps UBS target despite softer earnings guidance",
+          "url": "https://finnhub.io/api/news?id=e03444d51abc490d5da104716106f76dae6ee20d573b1189d02572392e5835c3",
           "source": "Yahoo",
-          "published_at": "2026-11-24T21:46:48Z",
+          "published_at": "2026-11-26T19:00:00Z",
           "primary": false,
           "symbol": "ADI"
         },
         {
-          "headline": "Analog Devices (ADI) Q4 2026 Earnings Call Transcript",
-          "url": "https://finnhub.io/api/news?id=3b840d39c82c973afd45c4566b56fbcab70c402dbb662532517a7f1881ef01f8",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T21:28:38Z",
+          "headline": "Analog Devices: More Than An AI Play As Secular Megatrends Drive Growth",
+          "url": "https://finnhub.io/api/news?id=a9dd21d8065fee7d4cdc72d852dbc395afba87f06d6c4e095429445ed3732dd4",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-26T04:13:46Z",
           "primary": false,
           "symbol": "ADI"
         },
         {
-          "headline": "Analog Devices earnings analysis: questions answered and next catalysts",
-          "url": "https://finnhub.io/api/news?id=ef93afafdfd729b0a9696dedce77ebb2b33e8d1a5faa403373469fd93bb66b15",
+          "headline": "Analog Devices Just Plunged After Earnings. Is Its Dividend Now a Bargain?",
+          "url": "https://finnhub.io/api/news?id=60fcd9a762cf6b916f85da50aae6420ef4bcdc0b09cc2868dfa6dc3615c48fda",
           "source": "Yahoo",
-          "published_at": "2026-11-24T18:35:48Z",
+          "published_at": "2026-11-25T18:47:51Z",
           "primary": false,
           "symbol": "ADI"
         },
         {
-          "headline": "Analog Devices Stocks Fall 10.49% as Flat First-Quarter Guide Follows Record 42% Growth",
-          "url": "https://finnhub.io/api/news?id=ef98436762e3a8453ce2ce6a4ec83d031b65de26edcc6cb29fc91c7b9304e436",
+          "headline": "Analog Devices: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=c1752a4efc4351ec8d2871a6e7676db36c1ab8e773a68fbcce9368c856bf02fd",
           "source": "Yahoo",
-          "published_at": "2026-11-24T17:51:55Z",
+          "published_at": "2026-11-25T14:05:36Z",
           "primary": false,
           "symbol": "ADI"
         }
@@ -14562,18 +14570,18 @@
     "APA": {
       "metrics": {
         "52WeekHigh": 52.96,
-        "52WeekLow": 23.06,
-        "peTTM": 6.8172,
-        "psTTM": 1.5638,
+        "52WeekLow": 23.25,
+        "peTTM": 7.037,
+        "psTTM": 1.6142,
         "netProfitMarginTTM": 22.94,
         "roeTTM": 32.440000000000005,
         "revenueGrowthTTMYoy": -1.88,
         "epsGrowthTTMYoy": 48.01,
         "currentRatioQuarterly": 0.8453,
         "totalDebt/totalEquityQuarterly": 0.4585,
-        "marketCapitalization": 14793.409
+        "marketCapitalization": 15270.184
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "APA Corporation",
       "profile": {
         "weburl": "https://apacorp.com/",
@@ -14627,17 +14635,17 @@
       "metrics": {
         "52WeekHigh": 153.29,
         "52WeekLow": 99.56,
-        "peTTM": 36.8241,
-        "psTTM": 2.1606,
+        "peTTM": 37.9388,
+        "psTTM": 2.226,
         "netProfitMarginTTM": 5.87,
         "roeTTM": 8.58,
         "revenueGrowthTTMYoy": 40.69,
         "epsGrowthTTMYoy": -44.88,
         "currentRatioQuarterly": 0.0518,
         "totalDebt/totalEquityQuarterly": 0.9561,
-        "marketCapitalization": 69045.19
+        "marketCapitalization": 71135.31
       },
-      "updated_at": "2026-11-24T22:06:58Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Apollo Global Management, Inc.",
       "profile": {
         "weburl": "https://www.apollo.com/",
@@ -14650,6 +14658,14 @@
           "url": "https://finnhub.io/api/news?id=8c9a1cec91c35cf12ee80e7a39af716e8a437487d424569fcd6733e851d1851a",
           "source": "Yahoo",
           "published_at": "2026-11-24T17:34:51Z",
+          "primary": false,
+          "symbol": "APO"
+        },
+        {
+          "headline": "Under the Radar: The Public Stocks Behind Apollo's Private Equity Success",
+          "url": "https://finnhub.io/api/news?id=6ba8a991e9b4c6a04dd14f06c9bb068a290a4b52f634885218be055586b15962",
+          "source": "Benzinga",
+          "published_at": "2026-11-24T15:44:27Z",
           "primary": false,
           "symbol": "APO"
         },
@@ -14676,14 +14692,6 @@
           "published_at": "2026-11-23T11:00:00Z",
           "primary": false,
           "symbol": "APO"
-        },
-        {
-          "headline": "Victory Capital Holdings (VCTR) Partners With Apollo, Is It Still A Bargain?",
-          "url": "https://finnhub.io/api/news?id=cfcec5cd512cde9f91445ea92198748705772f6aa135421c24cf242d47cec928",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T09:10:21Z",
-          "primary": false,
-          "symbol": "APO"
         }
       ]
     },
@@ -14691,17 +14699,17 @@
       "metrics": {
         "52WeekHigh": 738.01,
         "52WeekLow": 225.1901,
-        "peTTM": 24.7118,
-        "psTTM": 16.282,
+        "peTTM": 25.0442,
+        "psTTM": 16.501,
         "netProfitMarginTTM": 65.89,
         "roeTTM": 182.97,
         "revenueGrowthTTMYoy": 57.79,
         "epsGrowthTTMYoy": 80.18,
         "currentRatioQuarterly": 3.8045,
         "totalDebt/totalEquityQuarterly": 1.0659,
-        "marketCapitalization": 123887.92
+        "marketCapitalization": 125554.48
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "AppLovin Corporation",
       "profile": {
         "weburl": "https://www.applovin.com/",
@@ -14710,42 +14718,42 @@
       },
       "news": [
         {
+          "headline": "AppLovin’s (APP) E-Commerce Bet Is Paying Off—And Ad Prices Prove It",
+          "url": "https://finnhub.io/api/news?id=2005060495310b95f0dd0a5b0bdaa27218ec599ea77582d026cdb14d0259294a",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T17:06:10Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "AppLovin (APP) Could Be 25% Undervalued As Criteo Deal Talks Stir Debate",
+          "url": "https://finnhub.io/api/news?id=d97e83b5005b85ea8de286c3500e68ac427abaa87b3b0c02f6e67a186d4ef888",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T22:10:42Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "Own Meta’s ~$200B+ Ad Moat or Bet on AppLovin’s ~53% Growth at a ~47% Pullback?",
+          "url": "https://finnhub.io/api/news?id=2d97706821f31a3e7a776fe90258640a32a3df81d9e5c467075ec2d92e8ffa9c",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T17:45:45Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
+          "headline": "AppLovin Jumped 32% in a Brutal Month—Then Dropped 15% This Week",
+          "url": "https://finnhub.io/api/news?id=a9d47589834d84e706781fd7bc3215fe95939d9abad2474e4d4847603b6b06d1",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T09:25:09Z",
+          "primary": false,
+          "symbol": "APP"
+        },
+        {
           "headline": "Adjust: Finance App Sessions Outgrow Installs as Paid Acquisition Takes a Bigger Share",
           "url": "https://finnhub.io/api/news?id=23803f5f00ea0bdda61c0b42ad0ecda696921ba0c841e14e8de4ebbe759123ca",
           "source": "Yahoo",
           "published_at": "2026-11-24T13:00:00Z",
-          "primary": false,
-          "symbol": "APP"
-        },
-        {
-          "headline": "BTIG Reiterates Buy on AppLovin, Maintains $450 Price Target",
-          "url": "https://finnhub.io/api/news?id=ca602c24b28dfca4f938967c8159df4d5e480fe4878db0b64490fe57f5acbb63",
-          "source": "Benzinga",
-          "published_at": "2026-11-24T07:25:45Z",
-          "primary": false,
-          "symbol": "APP"
-        },
-        {
-          "headline": "AppLovin Is Down 28% in a Year. CEO Says “We Have Every Mobile Gaming Company Live, Probably.” Time to Buy?",
-          "url": "https://finnhub.io/api/news?id=fa30b26c2419c4d686ebe2fb45b9d74af3ddfe5980228062516c528b91a9a70e",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T02:12:01Z",
-          "primary": false,
-          "symbol": "APP"
-        },
-        {
-          "headline": "AppLovin Q3 Beat & Q4 Guidance Put AI Growth & Margins to the Test",
-          "url": "https://finnhub.io/api/news?id=876bacd62221d04ba0f5792e63f7a9e5869ddd545f6a960d34b68c015038d58d",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T15:32:00Z",
-          "primary": false,
-          "symbol": "APP"
-        },
-        {
-          "headline": "APP Falls 14.9% in One Week as Growth Strength Meets Execution Risk",
-          "url": "https://finnhub.io/api/news?id=a3bf9ebc7940dc3ce0402547ccd4deb0ecc82647330d10aa8547becaea87f89c",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T15:30:00Z",
           "primary": false,
           "symbol": "APP"
         }
@@ -14755,17 +14763,17 @@
       "metrics": {
         "52WeekHigh": 88.93,
         "52WeekLow": 35.135,
-        "peTTM": 9.7832,
-        "psTTM": 0.4502,
+        "peTTM": 9.8846,
+        "psTTM": 0.4548,
         "netProfitMarginTTM": 4.6,
         "roeTTM": 8.55,
         "revenueGrowthTTMYoy": -17.07,
         "epsGrowthTTMYoy": 188.3,
         "currentRatioQuarterly": 1.9734,
         "totalDebt/totalEquityQuarterly": 0.6095,
-        "marketCapitalization": 7523.3145
+        "marketCapitalization": 7601.2495
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "APTIV PLC",
       "profile": {
         "weburl": "https://www.aptiv.com/",
@@ -14819,17 +14827,17 @@
       "metrics": {
         "52WeekHigh": 113.633,
         "52WeekLow": 87.05,
-        "peTTM": 8.079,
-        "psTTM": 1.9648,
+        "peTTM": 8.2025,
+        "psTTM": 1.9948,
         "netProfitMarginTTM": 24.32,
         "roeTTM": 18.35,
         "revenueGrowthTTMYoy": -4.93,
         "epsGrowthTTMYoy": 14.48,
         "currentRatioQuarterly": 0.7232,
         "totalDebt/totalEquityQuarterly": 0.1864,
-        "marketCapitalization": 35361.816
+        "marketCapitalization": 35902.188
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Arch Capital Group Ltd.",
       "profile": {
         "weburl": "https://www.archgroup.com/",
@@ -14837,6 +14845,22 @@
         "name": "Arch Capital Group Ltd."
       },
       "news": [
+        {
+          "headline": "Why Is Arch Capital (ACGL) Up 7.6% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=478aa50c9b249c6463ac298907e12e87a24a17ba49f1083355acac921fbf2ff1",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:06Z",
+          "primary": false,
+          "symbol": "ACGL"
+        },
+        {
+          "headline": "$100 Invested In Arch Capital Group 20 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=fe376d152e2e28909bcca9b05db7e9e8042a9e732164ebebfc50d29823761d12",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T10:30:17Z",
+          "primary": false,
+          "symbol": "ACGL"
+        },
         {
           "headline": "Arch Capital Group (ACGL) Maintains Margin Strength Despite Softer Top-Line Growth",
           "url": "https://finnhub.io/api/news?id=a15c99378834017608c2c1554e356670a36a342b02febdf067b39769b8db0777",
@@ -14860,22 +14884,6 @@
           "published_at": "2026-11-20T16:08:00Z",
           "primary": false,
           "symbol": "ACGL"
-        },
-        {
-          "headline": "Mizuho Maintains Neutral on Arch Capital Group, Raises Price Target to $109",
-          "url": "https://finnhub.io/api/news?id=ea14266894a51e5d0bf202cfc2ea8dbd7d8b591f073242c0936a25f9fb1671c9",
-          "source": "Benzinga",
-          "published_at": "2026-11-20T09:10:45Z",
-          "primary": false,
-          "symbol": "ACGL"
-        },
-        {
-          "headline": "Arch Capital Stock: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=9fd9adf64963e2d550987e90737c5695f942c5ed88997211a2c0f28fbfb10f4d",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T12:34:45Z",
-          "primary": false,
-          "symbol": "ACGL"
         }
       ]
     },
@@ -14883,17 +14891,17 @@
       "metrics": {
         "52WeekHigh": 88.75,
         "52WeekLow": 57.17,
-        "peTTM": 12.8468,
-        "psTTM": 0.3795,
+        "peTTM": 12.7768,
+        "psTTM": 0.3774,
         "netProfitMarginTTM": 2.95,
         "roeTTM": 10.68,
         "revenueGrowthTTMYoy": 1.02,
         "epsGrowthTTMYoy": 107.95,
         "currentRatioQuarterly": 1.4452,
         "totalDebt/totalEquityQuarterly": 0.3664,
-        "marketCapitalization": 31898.482
+        "marketCapitalization": 31724.775
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Archer-Daniels-Midland Co",
       "profile": {
         "weburl": "https://www.adm.com/",
@@ -14901,6 +14909,14 @@
         "name": "Archer-Daniels-Midland Co"
       },
       "news": [
+        {
+          "headline": "POET, Valero, ADM, Raízen and Green Plains Lead the Bioethanol Market as It Grows to USD 192.57 Billion by 2035",
+          "url": "https://finnhub.io/api/news?id=8cd3a9556cc86505084062e15b2712322de762caae2bcc49c5c13b55bd443f53",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:00:00Z",
+          "primary": false,
+          "symbol": "ADM"
+        },
         {
           "headline": "ADM Invests in Expanded Heidelberg Flavor Creation Laboratory to Accelerate Beverage and Food Development Across EMEA",
           "url": "https://finnhub.io/api/news?id=1b280bf4748b7d2a059afb3f865960db4e7b528fee83a04f3269ba8122e88ac9",
@@ -14932,14 +14948,6 @@
           "published_at": "2026-11-22T17:07:21Z",
           "primary": false,
           "symbol": "ADM"
-        },
-        {
-          "headline": "ADM to Present at Goldman Sachs Industrials & Materials Conference 2026",
-          "url": "https://finnhub.io/api/news?id=5c09b767e55a6796fd64966c7c2cea57d3d7ea9ddaa8cc91a770cb4c658a3815",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T13:00:00Z",
-          "primary": false,
-          "symbol": "ADM"
         }
       ]
     },
@@ -14947,17 +14955,17 @@
       "metrics": {
         "52WeekHigh": 181.19,
         "52WeekLow": 95.8,
-        "peTTM": 45.2975,
-        "psTTM": 4.8142,
+        "peTTM": 47.1766,
+        "psTTM": 5.0139,
         "netProfitMarginTTM": 10.63,
         "roeTTM": 15.2,
         "revenueGrowthTTMYoy": 24.03,
         "epsGrowthTTMYoy": 23.51,
         "currentRatioQuarterly": 0.2831,
         "totalDebt/totalEquityQuarterly": 3.5433,
-        "marketCapitalization": 28825.271
+        "marketCapitalization": 30021.049
       },
-      "updated_at": "2026-11-24T23:06:20Z",
+      "updated_at": "2026-11-27T09:19:42Z",
       "name": "Ares Management Corporation",
       "profile": {
         "weburl": "https://www.aresmgmt.com/",
@@ -14966,42 +14974,18 @@
       },
       "news": [
         {
+          "headline": "Ares Management Sees Record Pipeline as Capital Deployment Broadens Beyond Direct Lending",
+          "url": "https://finnhub.io/api/news?id=4729424e1c519cabeaddb8dc6b0c1807eb25ee1292858cc19a091d99de4cedc7",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T07:12:33Z",
+          "primary": false,
+          "symbol": "ARES"
+        },
+        {
           "headline": "Ares Management Stock: Is Wall Street Bullish or Bearish?",
           "url": "https://finnhub.io/api/news?id=378531cac7ce899b2a4a98bdd2f21ff14d4d9d23df37e7940712eabc0d147736",
           "source": "Yahoo",
           "published_at": "2026-11-24T10:52:18Z",
-          "primary": false,
-          "symbol": "ARES"
-        },
-        {
-          "headline": "Ares Management Corporation (ARES) Presents at TD Cowen's Financials & Fintech Conference Transcript",
-          "url": "https://finnhub.io/api/news?id=a3ce745829bd35787f41d3cc7d9763a49b319651c4abcaf78b3805bd62734acb",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-18T18:13:09Z",
-          "primary": false,
-          "symbol": "ARES"
-        },
-        {
-          "headline": "Here's How Much $100 Invested In Ares Management 10 Years Ago Would Be Worth Today",
-          "url": "https://finnhub.io/api/news?id=e0f97b8324bb7a32c06057cdbfc89bcba95e0af9562a8be211998b7b704d0da4",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T10:15:20Z",
-          "primary": false,
-          "symbol": "ARES"
-        },
-        {
-          "headline": "Mizuho starts coverage of asset managers, backs Apollo, Ares and Blackstone",
-          "url": "https://finnhub.io/api/news?id=b6399e69f65220e3142bf97367f1a1349893be56505273dcb0646b37c15afb8e",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T16:13:27Z",
-          "primary": false,
-          "symbol": "ARES"
-        },
-        {
-          "headline": "'Blackstone in talks to back giant NBA Europe arena fund; Arctos, which is owned by investment giant KKR, and Ares are also holding discussions with the NBA about committing capital to a giant infrastructure fund for a new Europea",
-          "url": "https://finnhub.io/api/news?id=0b2cc4d070afd37a54ac94aef87859dad3e18ebee46e78ff72948c6812a687bb",
-          "source": "Benzinga",
-          "published_at": "2026-11-17T09:10:11Z",
           "primary": false,
           "symbol": "ARES"
         }
@@ -30274,6 +30258,6 @@
       ]
     }
   },
-  "cursor": 239,
-  "updated_at": "2026-11-27T07:30:55Z"
+  "cursor": 251,
+  "updated_at": "2026-11-27T09:19:42Z"
 }

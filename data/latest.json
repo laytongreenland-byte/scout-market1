@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T07:30:55Z",
+  "generated_at": "2026-11-27T09:19:42Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T07:30:55Z",
+      "checked_at": "2026-11-27T09:19:42Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T07:30:55Z",
+      "checked_at": "2026-11-27T09:19:42Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T07:30:55Z",
+      "checked_at": "2026-11-27T09:19:42Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T07:30:55Z",
+      "checked_at": "2026-11-27T09:19:42Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T07:30:55Z",
+      "checked_at": "2026-11-27T09:19:42Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T07:30:55Z",
+    "generated_at": "2026-11-27T09:19:42Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -9212,7 +9212,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Financial Services",
-        "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.3×; TTM revenue growth 8.8% YoY",
+        "why": "Net profit margin 20.7% (TTM); Return on equity 68.7% (TTM); Trailing P/E 10.5×; TTM revenue growth 8.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9226,7 +9226,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T22:06:58Z",
+            "timestamp": "2026-11-27T09:19:42Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -9237,7 +9237,7 @@
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T22:06:58Z",
+        "fundamentals_at": "2026-11-27T09:19:42Z",
         "price": 504.98,
         "currency": "USD",
         "change_pct": 1.442,
@@ -13576,7 +13576,7 @@
         "status": "INVESTIGATE",
         "score": 77,
         "industry": "Electrical Equipment",
-        "why": "Net profit margin 17.9% (TTM); Return on equity 39.5% (TTM); Trailing P/E 32.2×; TTM revenue growth 57.6% YoY",
+        "why": "Net profit margin 17.9% (TTM); Return on equity 39.5% (TTM); Trailing P/E 30.4×; TTM revenue growth 57.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -13590,35 +13590,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-24T22:06:58Z",
+            "timestamp": "2026-11-27T09:19:42Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Amphenol: 3 Key Takeaways for Long-Term Investors",
-            "timestamp": "2026-11-24T17:24:30Z",
-            "url": "https://finnhub.io/api/news?id=a454e9106dac83749c19845327c03bc0582974862322b60260c809c8108a65eb"
+            "value": "If You Invested $100 In Amphenol Stock 10 Years Ago, You Would Have This Much Today",
+            "timestamp": "2026-11-25T18:15:19Z",
+            "url": "https://finnhub.io/api/news?id=e4a0f2737a91dfc7ed02fb14f62afeda3525edd15ca1fec75c9aebcf0ff7a1ba"
           }
         ],
         "as_of": "2026-11-25T21:00:00Z",
-        "fundamentals_at": "2026-11-24T22:06:58Z",
+        "fundamentals_at": "2026-11-27T09:19:42Z",
         "price": 73.08,
         "currency": "USD",
         "change_pct": -0.531,
         "news": [
           {
-            "headline": "Amphenol: 3 Key Takeaways for Long-Term Investors",
-            "url": "https://finnhub.io/api/news?id=a454e9106dac83749c19845327c03bc0582974862322b60260c809c8108a65eb",
-            "source": "Yahoo",
-            "published_at": "2026-11-24T17:24:30Z",
+            "headline": "If You Invested $100 In Amphenol Stock 10 Years Ago, You Would Have This Much Today",
+            "url": "https://finnhub.io/api/news?id=e4a0f2737a91dfc7ed02fb14f62afeda3525edd15ca1fec75c9aebcf0ff7a1ba",
+            "source": "Benzinga",
+            "published_at": "2026-11-25T18:15:19Z",
             "primary": false,
             "symbol": "APH"
           },
           {
-            "headline": "48 Big Funds Bought Amphenol Last Quarter, While 9 Sold. Who’s Right?",
-            "url": "https://finnhub.io/api/news?id=e1c3a1da04e748de860067a901bc4e7db02fd70b82f79ef8b1f0d0723068aeff",
+            "headline": "Amphenol's 65% Sales Surge: Can the Momentum Continue in 2027 & Beyond?",
+            "url": "https://finnhub.io/api/news?id=529086d41e2a9b8c4dabd90b6a0dd7e94e7aaf2b8f1baaee86bd4e5c8b384d71",
             "source": "Yahoo",
-            "published_at": "2026-11-24T16:59:23Z",
+            "published_at": "2026-11-25T12:59:00Z",
             "primary": false,
             "symbol": "APH"
           }
@@ -13628,12 +13628,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 42.81,
-          "entry_floor": 38.53,
-          "exit_review_low": 54.88,
-          "exit_review_high": 67.02,
-          "bear_case": 29.1,
-          "scenario_upside_pct": -24.9,
+          "entry_ceiling": 45.34,
+          "entry_floor": 40.81,
+          "exit_review_low": 58.13,
+          "exit_review_high": 70.99,
+          "bear_case": 30.83,
+          "scenario_upside_pct": -20.5,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -13646,12 +13646,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 32.22,
+            "trailing_pe": 30.42,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 22.2,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-24T22:06:58Z"
+            "metrics_retrieved_at": "2026-11-27T09:19:42Z"
           }
         },
         "ranking_score": 77,
@@ -15451,7 +15451,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T07:30:55Z",
+      "generated_at": "2026-11-27T09:19:42Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 837,
