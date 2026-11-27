@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:07:57Z",
+  "generated_at": "2026-11-27T20:08:09Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T19:07:57Z",
+      "checked_at": "2026-11-27T20:08:09Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T19:07:57Z",
+      "checked_at": "2026-11-27T20:08:09Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T19:07:57Z",
+      "checked_at": "2026-11-27T20:08:09Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T19:07:57Z",
+      "checked_at": "2026-11-27T20:08:09Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T19:07:57Z",
+      "checked_at": "2026-11-27T20:08:09Z",
       "error": ""
     }
   ],
@@ -647,7 +647,7 @@
       "price": 358.58,
       "previous_close": 355.58,
       "change_pct": 0.844,
-      "price_at": "2026-11-27T19:07:39Z",
+      "price_at": "2026-11-27T20:06:03Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -656,7 +656,7 @@
       "price": 492.89,
       "previous_close": 489.93,
       "change_pct": 0.604,
-      "price_at": "2026-11-27T19:07:22Z",
+      "price_at": "2026-11-27T20:07:23Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -665,7 +665,7 @@
       "price": 150.52,
       "previous_close": 149.3,
       "change_pct": 0.817,
-      "price_at": "2026-11-27T19:07:43Z",
+      "price_at": "2026-11-27T20:07:49Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -674,7 +674,7 @@
       "price": 275,
       "previous_close": 273.1,
       "change_pct": 0.696,
-      "price_at": "2026-11-27T19:07:41Z",
+      "price_at": "2026-11-27T20:07:39Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -683,7 +683,7 @@
       "price": 254.16,
       "previous_close": 244.43,
       "change_pct": 3.981,
-      "price_at": "2026-11-27T19:07:43Z",
+      "price_at": "2026-11-27T20:07:52Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -692,7 +692,7 @@
       "price": 629,
       "previous_close": 609.89,
       "change_pct": 3.133,
-      "price_at": "2026-11-27T19:07:31Z",
+      "price_at": "2026-11-27T20:04:55Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -701,7 +701,7 @@
       "price": 312.38,
       "previous_close": 300.86,
       "change_pct": 3.829,
-      "price_at": "2026-11-27T19:06:41Z",
+      "price_at": "2026-11-27T20:04:12Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -710,7 +710,7 @@
       "price": 353.38,
       "previous_close": 342.34,
       "change_pct": 3.225,
-      "price_at": "2026-11-27T19:07:27Z",
+      "price_at": "2026-11-27T20:07:51Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -719,7 +719,7 @@
       "price": 424.58,
       "previous_close": 406.03,
       "change_pct": 4.569,
-      "price_at": "2026-11-27T19:07:49Z",
+      "price_at": "2026-11-27T20:07:54Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -728,7 +728,7 @@
       "price": 107.16,
       "previous_close": 103.88,
       "change_pct": 3.157,
-      "price_at": "2026-11-27T19:07:50Z",
+      "price_at": "2026-11-27T20:07:46Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -737,7 +737,7 @@
       "price": 198.24,
       "previous_close": 197.21,
       "change_pct": 0.522,
-      "price_at": "2026-11-27T18:41:52Z",
+      "price_at": "2026-11-27T20:00:53Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -746,7 +746,7 @@
       "price": 234.83,
       "previous_close": 232.83,
       "change_pct": 0.859,
-      "price_at": "2026-11-27T19:06:29Z",
+      "price_at": "2026-11-27T19:51:53Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -755,7 +755,7 @@
       "price": 92.82,
       "previous_close": 92.16,
       "change_pct": 0.716,
-      "price_at": "2026-11-27T18:52:39Z",
+      "price_at": "2026-11-27T20:07:02Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -764,7 +764,7 @@
       "price": 366.8,
       "previous_close": 356.14,
       "change_pct": 2.993,
-      "price_at": "2026-11-27T19:08:05Z",
+      "price_at": "2026-11-27T20:00:19Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -773,7 +773,7 @@
       "price": 217.24,
       "previous_close": 209.3,
       "change_pct": 3.794,
-      "price_at": "2026-11-27T19:03:09Z",
+      "price_at": "2026-11-27T20:07:47Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -782,7 +782,7 @@
       "price": 141.81,
       "previous_close": 133.4,
       "change_pct": 6.304,
-      "price_at": "2026-11-27T19:02:11Z",
+      "price_at": "2026-11-27T20:03:49Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -791,7 +791,7 @@
       "price": 66.65,
       "previous_close": 66.35,
       "change_pct": 0.452,
-      "price_at": "2026-11-27T18:54:32Z",
+      "price_at": "2026-11-27T20:05:09Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -800,7 +800,7 @@
       "price": 60.95,
       "previous_close": 59.41,
       "change_pct": 2.592,
-      "price_at": "2026-11-27T19:07:20Z",
+      "price_at": "2026-11-27T20:07:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -809,7 +809,7 @@
       "price": 1097.85,
       "previous_close": 1086.81,
       "change_pct": 1.016,
-      "price_at": "2026-11-27T18:43:11Z",
+      "price_at": "2026-11-27T19:35:13Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -818,7 +818,7 @@
       "price": 133.16,
       "previous_close": 131.94,
       "change_pct": 0.925,
-      "price_at": "2026-11-27T19:07:28Z",
+      "price_at": "2026-11-27T19:58:04Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -827,7 +827,7 @@
       "price": 362.19,
       "previous_close": 361.26,
       "change_pct": 0.257,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:57:52Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -836,7 +836,7 @@
       "price": 282.66,
       "previous_close": 283.5,
       "change_pct": -0.296,
-      "price_at": "2026-11-27T18:44:52Z",
+      "price_at": "2026-11-27T19:24:06Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -845,7 +845,7 @@
       "price": 429.6,
       "previous_close": 424.39,
       "change_pct": 1.228,
-      "price_at": "2026-11-27T19:06:47Z",
+      "price_at": "2026-11-27T19:55:29Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -854,7 +854,7 @@
       "price": 667,
       "previous_close": 659.97,
       "change_pct": 1.065,
-      "price_at": "2026-11-27T18:38:52Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -863,7 +863,7 @@
       "price": 323,
       "previous_close": 316.74,
       "change_pct": 1.976,
-      "price_at": "2026-11-27T19:06:57Z",
+      "price_at": "2026-11-27T20:05:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -872,7 +872,7 @@
       "price": 580.83,
       "previous_close": 579.32,
       "change_pct": 0.261,
-      "price_at": "2026-11-27T18:59:49Z",
+      "price_at": "2026-11-27T19:59:12Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -881,7 +881,7 @@
       "price": 49.08,
       "previous_close": 48.54,
       "change_pct": 1.112,
-      "price_at": "2026-11-27T18:56:26Z",
+      "price_at": "2026-11-27T20:05:58Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -890,7 +890,7 @@
       "price": 812.91,
       "previous_close": 801.03,
       "change_pct": 1.483,
-      "price_at": "2026-11-27T19:05:52Z",
+      "price_at": "2026-11-27T19:51:43Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -899,7 +899,7 @@
       "price": 351.45,
       "previous_close": 346.19,
       "change_pct": 1.519,
-      "price_at": "2026-11-27T18:50:58Z",
+      "price_at": "2026-11-27T20:01:42Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -908,7 +908,7 @@
       "price": 275.55,
       "previous_close": 273.94,
       "change_pct": 0.588,
-      "price_at": "2026-11-27T19:07:24Z",
+      "price_at": "2026-11-27T19:55:10Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -917,7 +917,7 @@
       "price": 291.92,
       "previous_close": 294.48,
       "change_pct": -0.869,
-      "price_at": "2026-11-27T18:15:50Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -926,7 +926,7 @@
       "price": 1392.42,
       "previous_close": 1392.22,
       "change_pct": 0.014,
-      "price_at": "2026-11-27T19:06:24Z",
+      "price_at": "2026-11-27T19:53:53Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -935,7 +935,7 @@
       "price": 141.35,
       "previous_close": 140.29,
       "change_pct": 0.756,
-      "price_at": "2026-11-27T19:03:34Z",
+      "price_at": "2026-11-27T20:03:59Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -944,7 +944,7 @@
       "price": 160.21,
       "previous_close": 158.08,
       "change_pct": 1.347,
-      "price_at": "2026-11-27T19:08:00Z",
+      "price_at": "2026-11-27T19:57:08Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -953,7 +953,7 @@
       "price": 212.49,
       "previous_close": 210.95,
       "change_pct": 0.73,
-      "price_at": "2026-11-27T19:05:33Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -962,7 +962,7 @@
       "price": 561.78,
       "previous_close": 543.69,
       "change_pct": 3.327,
-      "price_at": "2026-11-27T19:05:34Z",
+      "price_at": "2026-11-27T20:01:47Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -971,7 +971,7 @@
       "price": 654.28,
       "previous_close": 641.02,
       "change_pct": 2.069,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:14Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -980,7 +980,7 @@
       "price": 323.98,
       "previous_close": 316.98,
       "change_pct": 2.208,
-      "price_at": "2026-11-27T18:48:38Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -989,7 +989,7 @@
       "price": 198.51,
       "previous_close": 196.19,
       "change_pct": 1.183,
-      "price_at": "2026-11-27T18:51:42Z",
+      "price_at": "2026-11-27T19:53:43Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1007,7 +1007,7 @@
       "price": 84.97,
       "previous_close": 85.41,
       "change_pct": -0.515,
-      "price_at": "2026-11-27T18:47:29Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1034,7 +1034,7 @@
       "price": 97.42,
       "previous_close": 97.59,
       "change_pct": -0.174,
-      "price_at": "2026-11-27T19:01:21Z",
+      "price_at": "2026-11-27T20:04:51Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1043,7 +1043,7 @@
       "price": 144.63,
       "previous_close": 143.93,
       "change_pct": 0.486,
-      "price_at": "2026-11-27T19:03:07Z",
+      "price_at": "2026-11-27T20:08:05Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1052,7 +1052,7 @@
       "price": 172.89,
       "previous_close": 173.23,
       "change_pct": -0.196,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1070,7 +1070,7 @@
       "price": 430.22,
       "previous_close": 427.18,
       "change_pct": 0.712,
-      "price_at": "2026-11-27T18:00:30Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1079,7 +1079,7 @@
       "price": 127.27,
       "previous_close": 125.6,
       "change_pct": 1.33,
-      "price_at": "2026-11-27T18:56:58Z",
+      "price_at": "2026-11-27T19:57:42Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1088,7 +1088,7 @@
       "price": 89.7,
       "previous_close": 86.26,
       "change_pct": 3.988,
-      "price_at": "2026-11-27T19:07:30Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1097,7 +1097,7 @@
       "price": 26.1,
       "previous_close": 25.73,
       "change_pct": 1.438,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T19:54:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1106,7 +1106,7 @@
       "price": 88.45,
       "previous_close": 87.42,
       "change_pct": 1.178,
-      "price_at": "2026-11-27T18:48:23Z",
+      "price_at": "2026-11-27T20:02:53Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1115,7 +1115,7 @@
       "price": 136.83,
       "previous_close": 135.02,
       "change_pct": 1.341,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1133,7 +1133,7 @@
       "price": 170.22,
       "previous_close": 166.25,
       "change_pct": 2.388,
-      "price_at": "2026-11-27T19:07:29Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1142,7 +1142,7 @@
       "price": 27.37,
       "previous_close": 26.38,
       "change_pct": 3.753,
-      "price_at": "2026-11-27T19:00:20Z",
+      "price_at": "2026-11-27T20:05:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1169,7 +1169,7 @@
       "price": 47.55,
       "previous_close": 47.28,
       "change_pct": 0.571,
-      "price_at": "2026-11-27T19:04:00Z",
+      "price_at": "2026-11-27T19:47:18Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1178,7 +1178,7 @@
       "price": 63.51,
       "previous_close": 63.49,
       "change_pct": 0.032,
-      "price_at": "2026-11-27T19:07:27Z",
+      "price_at": "2026-11-27T20:06:02Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1187,7 +1187,7 @@
       "price": 86.96,
       "previous_close": 85.56,
       "change_pct": 1.636,
-      "price_at": "2026-11-27T18:40:39Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1196,7 +1196,7 @@
       "price": 49.63,
       "previous_close": 48.52,
       "change_pct": 2.288,
-      "price_at": "2026-11-27T18:54:56Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1205,7 +1205,7 @@
       "price": 60.53,
       "previous_close": 60.25,
       "change_pct": 0.465,
-      "price_at": "2026-11-27T19:03:16Z",
+      "price_at": "2026-11-27T19:46:59Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1214,7 +1214,7 @@
       "price": 23.22,
       "previous_close": 22.97,
       "change_pct": 1.088,
-      "price_at": "2026-11-27T18:59:20Z",
+      "price_at": "2026-11-27T20:04:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1223,7 +1223,7 @@
       "price": 69.13,
       "previous_close": 66.88,
       "change_pct": 3.364,
-      "price_at": "2026-11-27T19:07:04Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1232,7 +1232,7 @@
       "price": 236.5,
       "previous_close": 235.65,
       "change_pct": 0.361,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1250,7 +1250,7 @@
       "price": 54.19,
       "previous_close": 53.95,
       "change_pct": 0.445,
-      "price_at": "2026-11-27T18:29:49Z",
+      "price_at": "2026-11-27T19:40:57Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1268,7 +1268,7 @@
       "price": 6.63,
       "previous_close": 6.53,
       "change_pct": 1.531,
-      "price_at": "2026-11-27T19:00:50Z",
+      "price_at": "2026-11-27T19:43:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1277,7 +1277,7 @@
       "price": 1532.96,
       "previous_close": 1467.3,
       "change_pct": 4.475,
-      "price_at": "2026-11-27T19:06:47Z",
+      "price_at": "2026-11-27T20:03:48Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1286,7 +1286,7 @@
       "price": 172,
       "previous_close": 172.22,
       "change_pct": -0.128,
-      "price_at": "2026-11-27T18:39:47Z",
+      "price_at": "2026-11-27T20:03:14Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1295,7 +1295,7 @@
       "price": 28.53,
       "previous_close": 28.46,
       "change_pct": 0.246,
-      "price_at": "2026-11-27T19:06:54Z",
+      "price_at": "2026-11-27T20:01:39Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1304,7 +1304,7 @@
       "price": 735.35,
       "previous_close": 715,
       "change_pct": 2.846,
-      "price_at": "2026-11-27T19:01:49Z",
+      "price_at": "2026-11-27T19:16:36Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1313,7 +1313,7 @@
       "price": 359.84,
       "previous_close": 346.27,
       "change_pct": 3.919,
-      "price_at": "2026-11-27T18:40:39Z",
+      "price_at": "2026-11-27T20:05:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1331,7 +1331,7 @@
       "price": 65.64,
       "previous_close": 64.63,
       "change_pct": 1.563,
-      "price_at": "2026-11-27T19:03:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1340,7 +1340,7 @@
       "price": 2.89,
       "previous_close": 2.84,
       "change_pct": 1.761,
-      "price_at": "2026-11-27T19:08:31Z",
+      "price_at": "2026-11-27T20:06:46Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1349,7 +1349,7 @@
       "price": 138.87,
       "previous_close": 139.27,
       "change_pct": -0.287,
-      "price_at": "2026-11-27T18:16:31Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1358,7 +1358,7 @@
       "price": 82.3,
       "previous_close": 80.94,
       "change_pct": 1.68,
-      "price_at": "2026-11-27T18:45:18Z",
+      "price_at": "2026-11-27T20:05:57Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1367,7 +1367,7 @@
       "price": 61.14,
       "previous_close": 61.56,
       "change_pct": -0.682,
-      "price_at": "2026-11-27T19:05:43Z",
+      "price_at": "2026-11-27T19:46:38Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1385,7 +1385,7 @@
       "price": 329.43,
       "previous_close": 323,
       "change_pct": 1.991,
-      "price_at": "2026-11-27T18:44:46Z",
+      "price_at": "2026-11-27T19:36:47Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1394,7 +1394,7 @@
       "price": 249.73,
       "previous_close": 246.18,
       "change_pct": 1.442,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1412,7 +1412,7 @@
       "price": 148.56,
       "previous_close": 152.21,
       "change_pct": -2.398,
-      "price_at": "2026-11-27T18:09:15Z",
+      "price_at": "2026-11-27T19:57:53Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1421,7 +1421,7 @@
       "price": 115.62,
       "previous_close": 113.33,
       "change_pct": 2.021,
-      "price_at": "2026-11-27T18:59:12Z",
+      "price_at": "2026-11-27T19:58:55Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1448,7 +1448,7 @@
       "price": 242.16,
       "previous_close": 236.08,
       "change_pct": 2.575,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1466,7 +1466,7 @@
       "price": 41.08,
       "previous_close": 40.97,
       "change_pct": 0.268,
-      "price_at": "2026-11-27T19:02:16Z",
+      "price_at": "2026-11-27T20:07:38Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1484,7 +1484,7 @@
       "price": 170.91,
       "previous_close": 167.55,
       "change_pct": 2.005,
-      "price_at": "2026-11-27T19:07:03Z",
+      "price_at": "2026-11-27T19:50:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1493,7 +1493,7 @@
       "price": 177.03,
       "previous_close": 176.74,
       "change_pct": 0.164,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1502,7 +1502,7 @@
       "price": 167.27,
       "previous_close": 164.53,
       "change_pct": 1.665,
-      "price_at": "2026-11-27T19:04:03Z",
+      "price_at": "2026-11-27T20:06:43Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1511,7 +1511,7 @@
       "price": 32.08,
       "previous_close": 31.69,
       "change_pct": 1.231,
-      "price_at": "2026-11-27T18:41:28Z",
+      "price_at": "2026-11-27T20:09:40Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1529,7 +1529,7 @@
       "price": 213.69,
       "previous_close": 209.37,
       "change_pct": 2.063,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1538,7 +1538,7 @@
       "price": 224.25,
       "previous_close": 223.26,
       "change_pct": 0.443,
-      "price_at": "2026-11-27T18:47:11Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1547,7 +1547,7 @@
       "price": 94.08,
       "previous_close": 93.45,
       "change_pct": 0.674,
-      "price_at": "2026-11-27T18:45:25Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1556,7 +1556,7 @@
       "price": 534.61,
       "previous_close": 564.12,
       "change_pct": -5.231,
-      "price_at": "2026-11-27T19:02:09Z",
+      "price_at": "2026-11-27T19:12:48Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1565,7 +1565,7 @@
       "price": 228.52,
       "previous_close": 225.1,
       "change_pct": 1.519,
-      "price_at": "2026-11-27T18:19:34Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1592,7 +1592,7 @@
       "price": 27.98,
       "previous_close": 28.49,
       "change_pct": -1.79,
-      "price_at": "2026-11-27T19:04:12Z",
+      "price_at": "2026-11-27T19:42:09Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1601,7 +1601,7 @@
       "price": 104.21,
       "previous_close": 102.58,
       "change_pct": 1.589,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:45:53Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1610,7 +1610,7 @@
       "price": 1167,
       "previous_close": 1141.86,
       "change_pct": 2.202,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:59:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1619,7 +1619,7 @@
       "price": 992.18,
       "previous_close": 981.87,
       "change_pct": 1.05,
-      "price_at": "2026-11-27T18:00:29Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1628,7 +1628,7 @@
       "price": 325.96,
       "previous_close": 317.81,
       "change_pct": 2.564,
-      "price_at": "2026-11-27T18:34:55Z",
+      "price_at": "2026-11-27T19:44:05Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1646,7 +1646,7 @@
       "price": 25.13,
       "previous_close": 25.12,
       "change_pct": 0.04,
-      "price_at": "2026-11-27T18:59:30Z",
+      "price_at": "2026-11-27T19:26:26Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1655,7 +1655,7 @@
       "price": 106.88,
       "previous_close": 104.26,
       "change_pct": 2.513,
-      "price_at": "2026-11-27T18:55:10Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1664,7 +1664,7 @@
       "price": 108.83,
       "previous_close": 107.74,
       "change_pct": 1.012,
-      "price_at": "2026-11-27T18:52:05Z",
+      "price_at": "2026-11-27T19:10:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1718,7 +1718,7 @@
       "price": 37.33,
       "previous_close": 37.4,
       "change_pct": -0.187,
-      "price_at": "2026-11-27T19:02:49Z",
+      "price_at": "2026-11-27T19:38:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1736,7 +1736,7 @@
       "price": 228.68,
       "previous_close": 220.84,
       "change_pct": 3.55,
-      "price_at": "2026-11-27T19:07:21Z",
+      "price_at": "2026-11-27T20:07:22Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1781,7 +1781,7 @@
       "price": 316.44,
       "previous_close": 312.39,
       "change_pct": 1.296,
-      "price_at": "2026-11-27T18:58:56Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1790,7 +1790,7 @@
       "price": 88.67,
       "previous_close": 90.42,
       "change_pct": -1.935,
-      "price_at": "2026-11-27T18:00:01Z",
+      "price_at": "2026-11-27T20:10:03Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1799,7 +1799,7 @@
       "price": 191.26,
       "previous_close": 189.83,
       "change_pct": 0.753,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1808,7 +1808,7 @@
       "price": 51.88,
       "previous_close": 51.53,
       "change_pct": 0.679,
-      "price_at": "2026-11-27T18:59:46Z",
+      "price_at": "2026-11-27T19:16:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1880,7 +1880,7 @@
       "price": 37.33,
       "previous_close": 36.66,
       "change_pct": 1.828,
-      "price_at": "2026-11-27T19:09:43Z",
+      "price_at": "2026-11-27T20:09:09Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1907,7 +1907,7 @@
       "price": 110,
       "previous_close": 107.95,
       "change_pct": 1.899,
-      "price_at": "2026-11-27T19:05:42Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1916,7 +1916,7 @@
       "price": 32.4,
       "previous_close": 31.61,
       "change_pct": 2.499,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1925,7 +1925,7 @@
       "price": 108.04,
       "previous_close": 107.44,
       "change_pct": 0.558,
-      "price_at": "2026-11-27T19:00:09Z",
+      "price_at": "2026-11-27T19:19:12Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1934,7 +1934,7 @@
       "price": 178.52,
       "previous_close": 177.81,
       "change_pct": 0.399,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1943,7 +1943,7 @@
       "price": 108.1,
       "previous_close": 108,
       "change_pct": 0.093,
-      "price_at": "2026-11-27T18:27:20Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1961,7 +1961,7 @@
       "price": 1325.86,
       "previous_close": 1303.08,
       "change_pct": 1.748,
-      "price_at": "2026-11-27T19:09:55Z",
+      "price_at": "2026-11-27T20:00:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -1970,7 +1970,7 @@
       "price": 31.8,
       "previous_close": 31.5,
       "change_pct": 0.952,
-      "price_at": "2026-11-27T18:53:34Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2015,7 +2015,7 @@
       "price": 248.12,
       "previous_close": 243.47,
       "change_pct": 1.91,
-      "price_at": "2026-11-27T19:06:15Z",
+      "price_at": "2026-11-27T19:58:16Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2033,7 +2033,7 @@
       "price": 334.31,
       "previous_close": 332.9,
       "change_pct": 0.424,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T20:07:26Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2060,7 +2060,7 @@
       "price": 97.06,
       "previous_close": 94.2,
       "change_pct": 3.036,
-      "price_at": "2026-11-27T19:06:34Z",
+      "price_at": "2026-11-27T20:06:24Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2069,7 +2069,7 @@
       "price": 348.47,
       "previous_close": 347.49,
       "change_pct": 0.282,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2078,7 +2078,7 @@
       "price": 45.26,
       "previous_close": 45.12,
       "change_pct": 0.31,
-      "price_at": "2026-11-27T19:04:45Z",
+      "price_at": "2026-11-27T19:19:04Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2150,7 +2150,7 @@
       "price": 271.98,
       "previous_close": 271.72,
       "change_pct": 0.096,
-      "price_at": "2026-11-27T19:03:03Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2159,7 +2159,7 @@
       "price": 42.61,
       "previous_close": 42.6,
       "change_pct": 0.023,
-      "price_at": "2026-11-27T19:04:33Z",
+      "price_at": "2026-11-27T19:53:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2168,7 +2168,7 @@
       "price": 407.33,
       "previous_close": 406.86,
       "change_pct": 0.116,
-      "price_at": "2026-11-27T18:54:32Z",
+      "price_at": "2026-11-27T19:24:38Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2213,7 +2213,7 @@
       "price": 35.47,
       "previous_close": 35.63,
       "change_pct": -0.449,
-      "price_at": "2026-11-27T18:59:54Z",
+      "price_at": "2026-11-27T20:05:51Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2303,7 +2303,7 @@
       "price": 67.96,
       "previous_close": 67.99,
       "change_pct": -0.044,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2312,7 +2312,7 @@
       "price": 174.76,
       "previous_close": 163.99,
       "change_pct": 6.567,
-      "price_at": "2026-11-27T18:56:40Z",
+      "price_at": "2026-11-27T20:11:06Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2321,7 +2321,7 @@
       "price": 66.44,
       "previous_close": 66.85,
       "change_pct": -0.613,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T20:04:27Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2339,7 +2339,7 @@
       "price": 272.16,
       "previous_close": 271.42,
       "change_pct": 0.273,
-      "price_at": "2026-11-27T18:54:48Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2366,7 +2366,7 @@
       "price": 303.95,
       "previous_close": 294.89,
       "change_pct": 3.072,
-      "price_at": "2026-11-27T18:58:20Z",
+      "price_at": "2026-11-27T20:09:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2375,7 +2375,7 @@
       "price": 109.14,
       "previous_close": 109.45,
       "change_pct": -0.283,
-      "price_at": "2026-11-27T18:13:05Z",
+      "price_at": "2026-11-27T19:54:21Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2384,7 +2384,7 @@
       "price": 127.47,
       "previous_close": 127.51,
       "change_pct": -0.031,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2402,7 +2402,7 @@
       "price": 112.66,
       "previous_close": 111.47,
       "change_pct": 1.068,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T20:08:57Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2411,7 +2411,7 @@
       "price": 238.14,
       "previous_close": 235.28,
       "change_pct": 1.216,
-      "price_at": "2026-11-27T19:06:38Z",
+      "price_at": "2026-11-27T20:04:37Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2420,7 +2420,7 @@
       "price": 420.11,
       "previous_close": 405.09,
       "change_pct": 3.708,
-      "price_at": "2026-11-27T18:53:54Z",
+      "price_at": "2026-11-27T20:02:12Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2429,7 +2429,7 @@
       "price": 111.29,
       "previous_close": 110.94,
       "change_pct": 0.315,
-      "price_at": "2026-11-27T18:55:34Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2438,7 +2438,7 @@
       "price": 82.57,
       "previous_close": 82.23,
       "change_pct": 0.413,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2447,7 +2447,7 @@
       "price": 393.26,
       "previous_close": 389.7,
       "change_pct": 0.914,
-      "price_at": "2026-11-27T18:21:51Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2456,7 +2456,7 @@
       "price": 253.3,
       "previous_close": 254.16,
       "change_pct": -0.338,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:18Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2465,7 +2465,7 @@
       "price": 122.68,
       "previous_close": 121.32,
       "change_pct": 1.121,
-      "price_at": "2026-11-27T18:54:47Z",
+      "price_at": "2026-11-27T19:56:04Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2474,7 +2474,7 @@
       "price": 140.89,
       "previous_close": 134.2,
       "change_pct": 4.985,
-      "price_at": "2026-11-27T18:56:49Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2483,7 +2483,7 @@
       "price": 112.05,
       "previous_close": 109.61,
       "change_pct": 2.226,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:15:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2492,7 +2492,7 @@
       "price": 59.31,
       "previous_close": 58.55,
       "change_pct": 1.298,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2510,7 +2510,7 @@
       "price": 246.53,
       "previous_close": 247.29,
       "change_pct": -0.307,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:54:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2519,7 +2519,7 @@
       "price": 149.8,
       "previous_close": 147.88,
       "change_pct": 1.298,
-      "price_at": "2026-11-27T18:46:25Z",
+      "price_at": "2026-11-27T20:00:28Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2528,7 +2528,7 @@
       "price": 192.72,
       "previous_close": 185.01,
       "change_pct": 4.167,
-      "price_at": "2026-11-27T19:06:58Z",
+      "price_at": "2026-11-27T20:02:58Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2555,7 +2555,7 @@
       "price": 282.9,
       "previous_close": 282.91,
       "change_pct": -0.004,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2564,7 +2564,7 @@
       "price": 580.64,
       "previous_close": 565.47,
       "change_pct": 2.683,
-      "price_at": "2026-11-27T19:02:19Z",
+      "price_at": "2026-11-27T19:14:03Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2573,7 +2573,7 @@
       "price": 21.71,
       "previous_close": 20.86,
       "change_pct": 4.075,
-      "price_at": "2026-11-27T19:11:26Z",
+      "price_at": "2026-11-27T20:01:25Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2582,7 +2582,7 @@
       "price": 322.08,
       "previous_close": 311.18,
       "change_pct": 3.503,
-      "price_at": "2026-11-27T19:11:13Z",
+      "price_at": "2026-11-27T20:09:05Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2591,7 +2591,7 @@
       "price": 76.91,
       "previous_close": 76.28,
       "change_pct": 0.826,
-      "price_at": "2026-11-27T18:59:52Z",
+      "price_at": "2026-11-27T20:00:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2609,7 +2609,7 @@
       "price": 1075.7,
       "previous_close": 1077.32,
       "change_pct": -0.15,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2627,7 +2627,7 @@
       "price": 106.9,
       "previous_close": 101.44,
       "change_pct": 5.382,
-      "price_at": "2026-11-27T19:08:29Z",
+      "price_at": "2026-11-27T20:09:39Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2636,7 +2636,7 @@
       "price": 646.99,
       "previous_close": 601.25,
       "change_pct": 7.607,
-      "price_at": "2026-11-27T19:11:47Z",
+      "price_at": "2026-11-27T20:11:54Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2645,7 +2645,7 @@
       "price": 400.04,
       "previous_close": 380.14,
       "change_pct": 5.235,
-      "price_at": "2026-11-27T19:11:33Z",
+      "price_at": "2026-11-27T20:11:46Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2663,7 +2663,7 @@
       "price": 354.38,
       "previous_close": 354.05,
       "change_pct": 0.093,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2672,7 +2672,7 @@
       "price": 669.83,
       "previous_close": 658.87,
       "change_pct": 1.663,
-      "price_at": "2026-11-27T19:11:53Z",
+      "price_at": "2026-11-27T20:11:31Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2681,7 +2681,7 @@
       "price": 359.44,
       "previous_close": 353.2,
       "change_pct": 1.767,
-      "price_at": "2026-11-27T19:11:53Z",
+      "price_at": "2026-11-27T20:07:57Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2690,7 +2690,7 @@
       "price": 150.15,
       "previous_close": 147.54,
       "change_pct": 1.769,
-      "price_at": "2026-11-27T19:04:54Z",
+      "price_at": "2026-11-27T19:41:46Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2699,7 +2699,7 @@
       "price": 651.03,
       "previous_close": 633.93,
       "change_pct": 2.697,
-      "price_at": "2026-11-27T19:11:52Z",
+      "price_at": "2026-11-27T20:11:08Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2708,7 +2708,7 @@
       "price": 728.36,
       "previous_close": 716.7,
       "change_pct": 1.627,
-      "price_at": "2026-11-27T19:11:37Z",
+      "price_at": "2026-11-27T20:11:31Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2717,7 +2717,7 @@
       "price": 731.94,
       "previous_close": 720.01,
       "change_pct": 1.657,
-      "price_at": "2026-11-27T19:10:30Z",
+      "price_at": "2026-11-27T20:11:04Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2726,7 +2726,7 @@
       "price": 35.68,
       "previous_close": 35.29,
       "change_pct": 1.105,
-      "price_at": "2026-11-27T19:11:35Z",
+      "price_at": "2026-11-27T20:10:29Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2735,7 +2735,7 @@
       "price": 273.83,
       "previous_close": 268.87,
       "change_pct": 1.845,
-      "price_at": "2026-11-27T19:11:45Z",
+      "price_at": "2026-11-27T20:11:21Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2753,7 +2753,7 @@
       "price": 79.54,
       "previous_close": 78.02,
       "change_pct": 1.948,
-      "price_at": "2026-11-27T19:01:20Z",
+      "price_at": "2026-11-27T20:05:35Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2762,7 +2762,7 @@
       "price": 66.84,
       "previous_close": 65.67,
       "change_pct": 1.782,
-      "price_at": "2026-11-27T19:03:28Z",
+      "price_at": "2026-11-27T20:07:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2771,7 +2771,7 @@
       "price": 54.1,
       "previous_close": 52.78,
       "change_pct": 2.501,
-      "price_at": "2026-11-27T18:26:52Z",
+      "price_at": "2026-11-27T20:03:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2780,7 +2780,7 @@
       "price": 245.85,
       "previous_close": 243.03,
       "change_pct": 1.16,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2789,7 +2789,7 @@
       "price": 80.41,
       "previous_close": 79.6,
       "change_pct": 1.018,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2798,7 +2798,7 @@
       "price": 507.64,
       "previous_close": 501.27,
       "change_pct": 1.271,
-      "price_at": "2026-11-27T19:08:06Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2807,7 +2807,7 @@
       "price": 218.34,
       "previous_close": 215.74,
       "change_pct": 1.205,
-      "price_at": "2026-11-27T19:07:10Z",
+      "price_at": "2026-11-27T19:21:11Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2816,7 +2816,7 @@
       "price": 160.18,
       "previous_close": 155.79,
       "change_pct": 2.818,
-      "price_at": "2026-11-27T19:12:13Z",
+      "price_at": "2026-11-27T20:11:36Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2825,7 +2825,7 @@
       "price": 57.18,
       "previous_close": 56.51,
       "change_pct": 1.186,
-      "price_at": "2026-11-27T18:51:01Z",
+      "price_at": "2026-11-27T20:02:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2834,7 +2834,7 @@
       "price": 184.23,
       "previous_close": 183.68,
       "change_pct": 0.299,
-      "price_at": "2026-11-27T19:06:32Z",
+      "price_at": "2026-11-27T20:10:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2843,7 +2843,7 @@
       "price": 61.69,
       "previous_close": 60.9,
       "change_pct": 1.297,
-      "price_at": "2026-11-27T19:10:53Z",
+      "price_at": "2026-11-27T19:59:45Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2852,7 +2852,7 @@
       "price": 120,
       "previous_close": 117.49,
       "change_pct": 2.136,
-      "price_at": "2026-11-27T18:42:30Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2861,7 +2861,7 @@
       "price": 165.59,
       "previous_close": 162.95,
       "change_pct": 1.62,
-      "price_at": "2026-11-27T19:12:08Z",
+      "price_at": "2026-11-27T19:41:02Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2870,7 +2870,7 @@
       "price": 92.7,
       "previous_close": 92.3,
       "change_pct": 0.433,
-      "price_at": "2026-11-27T19:11:38Z",
+      "price_at": "2026-11-27T20:09:54Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2879,7 +2879,7 @@
       "price": 43.74,
       "previous_close": 43.61,
       "change_pct": 0.298,
-      "price_at": "2026-11-27T19:10:29Z",
+      "price_at": "2026-11-27T20:10:39Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2888,7 +2888,7 @@
       "price": 52.17,
       "previous_close": 51.21,
       "change_pct": 1.875,
-      "price_at": "2026-11-27T18:59:54Z",
+      "price_at": "2026-11-27T20:11:19Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2897,7 +2897,7 @@
       "price": 107.51,
       "previous_close": 105.38,
       "change_pct": 2.021,
-      "price_at": "2026-11-27T18:18:38Z",
+      "price_at": "2026-11-27T19:23:18Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2906,7 +2906,7 @@
       "price": 44.15,
       "previous_close": 43.86,
       "change_pct": 0.661,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2915,7 +2915,7 @@
       "price": 440.1,
       "previous_close": 422.46,
       "change_pct": 4.176,
-      "price_at": "2026-11-27T19:10:40Z",
+      "price_at": "2026-11-27T20:11:40Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2924,7 +2924,7 @@
       "price": 134.1,
       "previous_close": 127.98,
       "change_pct": 4.782,
-      "price_at": "2026-11-27T19:11:36Z",
+      "price_at": "2026-11-27T20:12:38Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2933,7 +2933,7 @@
       "price": 97.51,
       "previous_close": 95.02,
       "change_pct": 2.621,
-      "price_at": "2026-11-27T18:26:52Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2942,7 +2942,7 @@
       "price": 69.52,
       "previous_close": 67.36,
       "change_pct": 3.207,
-      "price_at": "2026-11-27T18:55:10Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2951,7 +2951,7 @@
       "price": 68.56,
       "previous_close": 67.16,
       "change_pct": 2.085,
-      "price_at": "2026-11-27T19:01:27Z",
+      "price_at": "2026-11-27T19:48:55Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2960,7 +2960,7 @@
       "price": 334.44,
       "previous_close": 327.45,
       "change_pct": 2.135,
-      "price_at": "2026-11-27T19:12:27Z",
+      "price_at": "2026-11-27T20:10:06Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2969,7 +2969,7 @@
       "price": 71.4,
       "previous_close": 71.6,
       "change_pct": -0.279,
-      "price_at": "2026-11-27T18:35:32Z",
+      "price_at": "2026-11-27T20:08:06Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2978,7 +2978,7 @@
       "price": 96.26,
       "previous_close": 96.55,
       "change_pct": -0.3,
-      "price_at": "2026-11-27T18:18:38Z",
+      "price_at": "2026-11-27T19:30:06Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2987,7 +2987,7 @@
       "price": 81.29,
       "previous_close": 82.24,
       "change_pct": -1.155,
-      "price_at": "2026-11-27T19:11:46Z",
+      "price_at": "2026-11-27T20:12:10Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -2996,7 +2996,7 @@
       "price": 100.71,
       "previous_close": 100.68,
       "change_pct": 0.03,
-      "price_at": "2026-11-27T19:12:17Z",
+      "price_at": "2026-11-27T20:12:41Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3005,7 +3005,7 @@
       "price": 81.64,
       "previous_close": 81.64,
       "change_pct": 0.0,
-      "price_at": "2026-11-27T19:09:29Z",
+      "price_at": "2026-11-27T20:05:14Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3023,7 +3023,7 @@
       "price": 100.55,
       "previous_close": 99.18,
       "change_pct": 1.381,
-      "price_at": "2026-11-27T19:03:07Z",
+      "price_at": "2026-11-27T20:11:04Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3032,7 +3032,7 @@
       "price": 58.12,
       "previous_close": 56.4,
       "change_pct": 3.05,
-      "price_at": "2026-11-27T18:50:35Z",
+      "price_at": "2026-11-27T20:07:47Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3041,7 +3041,7 @@
       "price": 150.61,
       "previous_close": 148,
       "change_pct": 1.764,
-      "price_at": "2026-11-27T18:34:17Z",
+      "price_at": "2026-11-27T19:18:40Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3050,7 +3050,7 @@
       "price": 159.3,
       "previous_close": 156.64,
       "change_pct": 1.698,
-      "price_at": "2026-11-27T19:06:37Z",
+      "price_at": "2026-11-27T20:05:41Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3059,7 +3059,7 @@
       "price": 28.07,
       "previous_close": 27.61,
       "change_pct": 1.666,
-      "price_at": "2026-11-27T18:45:06Z",
+      "price_at": "2026-11-27T19:54:23Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3068,7 +3068,7 @@
       "price": 80.75,
       "previous_close": 79.1,
       "change_pct": 2.086,
-      "price_at": "2026-11-27T18:26:13Z",
+      "price_at": "2026-11-27T20:11:58Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3077,7 +3077,7 @@
       "price": 223.84,
       "previous_close": 221.04,
       "change_pct": 1.267,
-      "price_at": "2026-11-27T19:09:11Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3122,7 +3122,7 @@
       "price": 70.86,
       "previous_close": 68.78,
       "change_pct": 3.024,
-      "price_at": "2026-11-27T18:18:41Z",
+      "price_at": "2026-11-27T19:18:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3140,7 +3140,7 @@
       "price": 33.13,
       "previous_close": 30.16,
       "change_pct": 9.847,
-      "price_at": "2026-11-27T19:08:22Z",
+      "price_at": "2026-11-27T20:09:14Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3149,7 +3149,7 @@
       "price": 52.79,
       "previous_close": 53.2,
       "change_pct": -0.771,
-      "price_at": "2026-11-27T19:00:46Z",
+      "price_at": "2026-11-27T19:50:36Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3176,7 +3176,7 @@
       "price": 57.75,
       "previous_close": 56.89,
       "change_pct": 1.512,
-      "price_at": "2026-11-27T18:35:44Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3203,7 +3203,7 @@
       "price": 268.09,
       "previous_close": 261.05,
       "change_pct": 2.697,
-      "price_at": "2026-11-27T19:10:36Z",
+      "price_at": "2026-11-27T20:12:59Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3212,7 +3212,7 @@
       "price": 105.16,
       "previous_close": 102.56,
       "change_pct": 2.535,
-      "price_at": "2026-11-27T18:58:39Z",
+      "price_at": "2026-11-27T20:06:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3221,7 +3221,7 @@
       "price": 341.73,
       "previous_close": 340.37,
       "change_pct": 0.4,
-      "price_at": "2026-11-27T18:32:54Z",
+      "price_at": "2026-11-27T19:51:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3230,7 +3230,7 @@
       "price": 158.47,
       "previous_close": 156.6,
       "change_pct": 1.194,
-      "price_at": "2026-11-27T19:12:18Z",
+      "price_at": "2026-11-27T20:11:35Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3239,7 +3239,7 @@
       "price": 219.56,
       "previous_close": 218.26,
       "change_pct": 0.596,
-      "price_at": "2026-11-27T18:56:21Z",
+      "price_at": "2026-11-27T19:52:59Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3257,7 +3257,7 @@
       "price": 15.04,
       "previous_close": 15.02,
       "change_pct": 0.133,
-      "price_at": "2026-11-27T18:57:51Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3284,7 +3284,7 @@
       "price": 179.19,
       "previous_close": 172.15,
       "change_pct": 4.089,
-      "price_at": "2026-11-27T18:59:04Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3293,7 +3293,7 @@
       "price": 90.64,
       "previous_close": 88.66,
       "change_pct": 2.233,
-      "price_at": "2026-11-27T18:12:11Z",
+      "price_at": "2026-11-27T19:38:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3302,7 +3302,7 @@
       "price": 82.95,
       "previous_close": 81.5,
       "change_pct": 1.779,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:25:52Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3338,7 +3338,7 @@
       "price": 73.24,
       "previous_close": 73.14,
       "change_pct": 0.137,
-      "price_at": "2026-11-27T18:19:34Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3347,7 +3347,7 @@
       "price": 272.48,
       "previous_close": 270.98,
       "change_pct": 0.554,
-      "price_at": "2026-11-27T19:13:18Z",
+      "price_at": "2026-11-27T20:13:19Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3356,7 +3356,7 @@
       "price": 45.57,
       "previous_close": 45.42,
       "change_pct": 0.33,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:47:58Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3392,7 +3392,7 @@
       "price": 230.39,
       "previous_close": 227.49,
       "change_pct": 1.275,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3410,7 +3410,7 @@
       "price": 346.04,
       "previous_close": 333.105,
       "change_pct": 3.883,
-      "price_at": "2026-11-27T19:08:08Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3437,7 +3437,7 @@
       "price": 399.25,
       "previous_close": 378.95,
       "change_pct": 5.357,
-      "price_at": "2026-11-27T19:10:03Z",
+      "price_at": "2026-11-27T20:09:38Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3491,7 +3491,7 @@
       "price": 328.22,
       "previous_close": 325.73,
       "change_pct": 0.764,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:59:50Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3509,7 +3509,7 @@
       "price": 3399.25,
       "previous_close": 3404.46,
       "change_pct": -0.153,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3527,7 +3527,7 @@
       "price": 363.52,
       "previous_close": 343.05,
       "change_pct": 5.967,
-      "price_at": "2026-11-27T19:05:32Z",
+      "price_at": "2026-11-27T19:35:57Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3554,7 +3554,7 @@
       "price": 26.8,
       "previous_close": 27.26,
       "change_pct": -1.687,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:28:05Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3572,7 +3572,7 @@
       "price": 72.84,
       "previous_close": 72.65,
       "change_pct": 0.262,
-      "price_at": "2026-11-27T18:10:05Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3581,7 +3581,7 @@
       "price": 77.7,
       "previous_close": 76.1,
       "change_pct": 2.102,
-      "price_at": "2026-11-27T18:55:00Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3590,7 +3590,7 @@
       "price": 163.05,
       "previous_close": 152.89,
       "change_pct": 6.645,
-      "price_at": "2026-11-27T19:13:41Z",
+      "price_at": "2026-11-27T20:13:42Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3608,7 +3608,7 @@
       "price": 150.42,
       "previous_close": 149.5,
       "change_pct": 0.615,
-      "price_at": "2026-11-27T18:44:32Z",
+      "price_at": "2026-11-27T19:45:23Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3671,7 +3671,7 @@
       "price": 98.97,
       "previous_close": 99.25,
       "change_pct": -0.282,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3689,7 +3689,7 @@
       "price": 28.16,
       "previous_close": 28,
       "change_pct": 0.571,
-      "price_at": "2026-11-27T19:11:53Z",
+      "price_at": "2026-11-27T20:05:26Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3725,7 +3725,7 @@
       "price": 351.16,
       "previous_close": 351.8,
       "change_pct": -0.182,
-      "price_at": "2026-11-27T18:10:01Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3788,7 +3788,7 @@
       "price": 112.65,
       "previous_close": 113.31,
       "change_pct": -0.582,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3797,7 +3797,7 @@
       "price": 256.62,
       "previous_close": 242.79,
       "change_pct": 5.696,
-      "price_at": "2026-11-27T19:11:38Z",
+      "price_at": "2026-11-27T20:14:35Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3833,7 +3833,7 @@
       "price": 63.44,
       "previous_close": 63.32,
       "change_pct": 0.19,
-      "price_at": "2026-11-27T18:40:54Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3842,7 +3842,7 @@
       "price": 223.83,
       "previous_close": 196.19,
       "change_pct": 14.088,
-      "price_at": "2026-11-27T19:13:38Z",
+      "price_at": "2026-11-27T20:13:58Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3851,7 +3851,7 @@
       "price": 107.07,
       "previous_close": 103.72,
       "change_pct": 3.23,
-      "price_at": "2026-11-27T19:13:46Z",
+      "price_at": "2026-11-27T20:11:14Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3860,7 +3860,7 @@
       "price": 1128.68,
       "previous_close": 1099.58,
       "change_pct": 2.646,
-      "price_at": "2026-11-27T18:52:08Z",
+      "price_at": "2026-11-27T19:47:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3869,7 +3869,7 @@
       "price": 120.21,
       "previous_close": 120.37,
       "change_pct": -0.133,
-      "price_at": "2026-11-27T18:40:39Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3878,7 +3878,7 @@
       "price": 141.01,
       "previous_close": 139.97,
       "change_pct": 0.743,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3896,7 +3896,7 @@
       "price": 33.22,
       "previous_close": 33.165,
       "change_pct": 0.166,
-      "price_at": "2026-11-27T19:00:28Z",
+      "price_at": "2026-11-27T19:49:45Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3905,7 +3905,7 @@
       "price": 105.11,
       "previous_close": 100.24,
       "change_pct": 4.858,
-      "price_at": "2026-11-27T19:10:39Z",
+      "price_at": "2026-11-27T20:12:37Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3914,7 +3914,7 @@
       "price": 458.34,
       "previous_close": 454.33,
       "change_pct": 0.883,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T20:02:16Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3923,7 +3923,7 @@
       "price": 34.94,
       "previous_close": 34.02,
       "change_pct": 2.704,
-      "price_at": "2026-11-27T18:27:42Z",
+      "price_at": "2026-11-27T19:59:21Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3941,7 +3941,7 @@
       "price": 165.72,
       "previous_close": 158.25,
       "change_pct": 4.72,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:55:32Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3950,7 +3950,7 @@
       "price": 164.52,
       "previous_close": 162.77,
       "change_pct": 1.075,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T20:03:58Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3959,7 +3959,7 @@
       "price": 317,
       "previous_close": 297.06,
       "change_pct": 6.712,
-      "price_at": "2026-11-27T19:13:47Z",
+      "price_at": "2026-11-27T20:13:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -3968,7 +3968,7 @@
       "price": 84.84,
       "previous_close": 82.95,
       "change_pct": 2.278,
-      "price_at": "2026-11-27T18:58:27Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4004,7 +4004,7 @@
       "price": 30.21,
       "previous_close": 29.66,
       "change_pct": 1.854,
-      "price_at": "2026-11-27T18:29:49Z",
+      "price_at": "2026-11-27T19:59:21Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4031,7 +4031,7 @@
       "price": 113.36,
       "previous_close": 115.54,
       "change_pct": -1.887,
-      "price_at": "2026-11-27T18:05:48Z",
+      "price_at": "2026-11-27T20:12:02Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4040,7 +4040,7 @@
       "price": 88.79,
       "previous_close": 85.74,
       "change_pct": 3.557,
-      "price_at": "2026-11-27T18:20:25Z",
+      "price_at": "2026-11-27T20:01:29Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4085,7 +4085,7 @@
       "price": 185.48,
       "previous_close": 185.68,
       "change_pct": -0.108,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4103,7 +4103,7 @@
       "price": 436.04,
       "previous_close": 433.64,
       "change_pct": 0.553,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4148,7 +4148,7 @@
       "price": 246.66,
       "previous_close": 241.27,
       "change_pct": 2.234,
-      "price_at": "2026-11-27T18:00:45Z",
+      "price_at": "2026-11-27T19:41:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4166,7 +4166,7 @@
       "price": 161.81,
       "previous_close": 161.39,
       "change_pct": 0.26,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T20:00:27Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4193,7 +4193,7 @@
       "price": 708.61,
       "previous_close": 699.81,
       "change_pct": 1.257,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4229,7 +4229,7 @@
       "price": 28.22,
       "previous_close": 27.64,
       "change_pct": 2.098,
-      "price_at": "2026-11-27T18:14:29Z",
+      "price_at": "2026-11-27T20:08:11Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4247,7 +4247,7 @@
       "price": 61.51,
       "previous_close": 59.78,
       "change_pct": 2.894,
-      "price_at": "2026-11-27T18:30:16Z",
+      "price_at": "2026-11-27T19:57:48Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4256,7 +4256,7 @@
       "price": 69.79,
       "previous_close": 67.23,
       "change_pct": 3.808,
-      "price_at": "2026-11-27T18:35:51Z",
+      "price_at": "2026-11-27T19:47:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4265,7 +4265,7 @@
       "price": 12.34,
       "previous_close": 12.17,
       "change_pct": 1.397,
-      "price_at": "2026-11-27T19:15:06Z",
+      "price_at": "2026-11-27T20:12:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4274,7 +4274,7 @@
       "price": 139.51,
       "previous_close": 134.96,
       "change_pct": 3.371,
-      "price_at": "2026-11-27T18:40:51Z",
+      "price_at": "2026-11-27T20:11:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4292,7 +4292,7 @@
       "price": 58.89,
       "previous_close": 57.99,
       "change_pct": 1.552,
-      "price_at": "2026-11-27T18:00:01Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4310,7 +4310,7 @@
       "price": 50.79,
       "previous_close": 48.55,
       "change_pct": 4.614,
-      "price_at": "2026-11-27T18:56:33Z",
+      "price_at": "2026-11-27T20:10:31Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4346,7 +4346,7 @@
       "price": 219.21,
       "previous_close": 203.99,
       "change_pct": 7.461,
-      "price_at": "2026-11-27T18:55:32Z",
+      "price_at": "2026-11-27T19:38:41Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4355,7 +4355,7 @@
       "price": 35.86,
       "previous_close": 36.25,
       "change_pct": -1.076,
-      "price_at": "2026-11-27T19:07:06Z",
+      "price_at": "2026-11-27T19:49:12Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4364,7 +4364,7 @@
       "price": 85.22,
       "previous_close": 83.99,
       "change_pct": 1.464,
-      "price_at": "2026-11-27T18:50:38Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4382,7 +4382,7 @@
       "price": 97.06,
       "previous_close": 96.03,
       "change_pct": 1.073,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4391,7 +4391,7 @@
       "price": 157.24,
       "previous_close": 155.7,
       "change_pct": 0.989,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T20:15:28Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4418,7 +4418,7 @@
       "price": 109.12,
       "previous_close": 110.58,
       "change_pct": -1.32,
-      "price_at": "2026-11-27T18:00:28Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4454,7 +4454,7 @@
       "price": 42.77,
       "previous_close": 40.82,
       "change_pct": 4.777,
-      "price_at": "2026-11-27T19:08:22Z",
+      "price_at": "2026-11-27T20:14:26Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4463,7 +4463,7 @@
       "price": 369.98,
       "previous_close": 366.2,
       "change_pct": 1.032,
-      "price_at": "2026-11-27T18:10:55Z",
+      "price_at": "2026-11-27T20:11:25Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4472,7 +4472,7 @@
       "price": 167.63,
       "previous_close": 157.84,
       "change_pct": 6.202,
-      "price_at": "2026-11-27T18:57:50Z",
+      "price_at": "2026-11-27T20:13:11Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4481,7 +4481,7 @@
       "price": 22.73,
       "previous_close": 23.09,
       "change_pct": -1.559,
-      "price_at": "2026-11-27T19:04:37Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4490,7 +4490,7 @@
       "price": 25.09,
       "previous_close": 24.88,
       "change_pct": 0.844,
-      "price_at": "2026-11-27T18:40:40Z",
+      "price_at": "2026-11-27T19:56:11Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4499,7 +4499,7 @@
       "price": 217.45,
       "previous_close": 211.07,
       "change_pct": 3.023,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:42:35Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4508,7 +4508,7 @@
       "price": 32.16,
       "previous_close": 31.15,
       "change_pct": 3.242,
-      "price_at": "2026-11-27T18:44:30Z",
+      "price_at": "2026-11-27T20:01:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4535,7 +4535,7 @@
       "price": 304.52,
       "previous_close": 299.34,
       "change_pct": 1.73,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:47:50Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4589,7 +4589,7 @@
       "price": 57.42,
       "previous_close": 54.47,
       "change_pct": 5.416,
-      "price_at": "2026-11-27T19:15:13Z",
+      "price_at": "2026-11-27T20:13:51Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4598,7 +4598,7 @@
       "price": 78.25,
       "previous_close": 74.74,
       "change_pct": 4.696,
-      "price_at": "2026-11-27T19:15:34Z",
+      "price_at": "2026-11-27T20:01:16Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4616,7 +4616,7 @@
       "price": 34.3,
       "previous_close": 32.08,
       "change_pct": 6.92,
-      "price_at": "2026-11-27T18:33:38Z",
+      "price_at": "2026-11-27T20:00:26Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4625,7 +4625,7 @@
       "price": 29,
       "previous_close": 28.1,
       "change_pct": 3.203,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T20:07:03Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4634,7 +4634,7 @@
       "price": 27.86,
       "previous_close": 27.82,
       "change_pct": 0.144,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4652,7 +4652,7 @@
       "price": 231.61,
       "previous_close": 227.92,
       "change_pct": 1.619,
-      "price_at": "2026-11-27T18:00:28Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4661,7 +4661,7 @@
       "price": 235.95,
       "previous_close": 228.14,
       "change_pct": 3.423,
-      "price_at": "2026-11-27T19:13:02Z",
+      "price_at": "2026-11-27T20:03:16Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4679,7 +4679,7 @@
       "price": 146.6,
       "previous_close": 145.49,
       "change_pct": 0.763,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4688,7 +4688,7 @@
       "price": 20.51,
       "previous_close": 20.22,
       "change_pct": 1.434,
-      "price_at": "2026-11-27T18:27:27Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4697,7 +4697,7 @@
       "price": 278.78,
       "previous_close": 267.69,
       "change_pct": 4.143,
-      "price_at": "2026-11-27T18:26:10Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4715,7 +4715,7 @@
       "price": 26.5,
       "previous_close": 26.51,
       "change_pct": -0.038,
-      "price_at": "2026-11-27T19:12:34Z",
+      "price_at": "2026-11-27T20:09:00Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4733,7 +4733,7 @@
       "price": 266.13,
       "previous_close": 261.89,
       "change_pct": 1.619,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4742,7 +4742,7 @@
       "price": 370.46,
       "previous_close": 368.95,
       "change_pct": 0.409,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4751,7 +4751,7 @@
       "price": 41.16,
       "previous_close": 39.76,
       "change_pct": 3.521,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T20:07:38Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4760,7 +4760,7 @@
       "price": 131.81,
       "previous_close": 130.62,
       "change_pct": 0.911,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4769,7 +4769,7 @@
       "price": 86.11,
       "previous_close": 86.79,
       "change_pct": -0.784,
-      "price_at": "2026-11-27T19:02:52Z",
+      "price_at": "2026-11-27T20:08:01Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4787,7 +4787,7 @@
       "price": 532.65,
       "previous_close": 524.61,
       "change_pct": 1.533,
-      "price_at": "2026-11-27T18:00:29Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4805,7 +4805,7 @@
       "price": 111.37,
       "previous_close": 111.12,
       "change_pct": 0.225,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4814,7 +4814,7 @@
       "price": 514.67,
       "previous_close": 476.58,
       "change_pct": 7.992,
-      "price_at": "2026-11-27T19:15:05Z",
+      "price_at": "2026-11-27T20:15:56Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4823,7 +4823,7 @@
       "price": 57.79,
       "previous_close": 56.96,
       "change_pct": 1.457,
-      "price_at": "2026-11-27T18:29:49Z",
+      "price_at": "2026-11-27T19:40:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4841,7 +4841,7 @@
       "price": 421.05,
       "previous_close": 415.77,
       "change_pct": 1.27,
-      "price_at": "2026-11-27T18:06:46Z",
+      "price_at": "2026-11-27T20:11:36Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4859,7 +4859,7 @@
       "price": 140.57,
       "previous_close": 130.93,
       "change_pct": 7.363,
-      "price_at": "2026-11-27T19:15:38Z",
+      "price_at": "2026-11-27T20:16:21Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4895,7 +4895,7 @@
       "price": 35.3,
       "previous_close": 34.65,
       "change_pct": 1.876,
-      "price_at": "2026-11-27T19:09:33Z",
+      "price_at": "2026-11-27T19:26:08Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4913,7 +4913,7 @@
       "price": 67.79,
       "previous_close": 67.81,
       "change_pct": -0.029,
-      "price_at": "2026-11-27T18:20:30Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4922,7 +4922,7 @@
       "price": 1265.06,
       "previous_close": 1194.63,
       "change_pct": 5.896,
-      "price_at": "2026-11-27T18:47:47Z",
+      "price_at": "2026-11-27T19:53:28Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4931,7 +4931,7 @@
       "price": 21.05,
       "previous_close": 20.35,
       "change_pct": 3.44,
-      "price_at": "2026-11-27T18:49:48Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -4958,7 +4958,7 @@
       "price": 109.17,
       "previous_close": 107.07,
       "change_pct": 1.961,
-      "price_at": "2026-11-27T18:43:25Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5021,7 +5021,7 @@
       "price": 16.98,
       "previous_close": 17,
       "change_pct": -0.118,
-      "price_at": "2026-11-27T19:06:39Z",
+      "price_at": "2026-11-27T19:56:43Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5030,7 +5030,7 @@
       "price": 93.85,
       "previous_close": 91.94,
       "change_pct": 2.077,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:22:25Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5039,7 +5039,7 @@
       "price": 256.79,
       "previous_close": 248.34,
       "change_pct": 3.403,
-      "price_at": "2026-11-27T18:32:48Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5048,7 +5048,7 @@
       "price": 6034.45,
       "previous_close": 6016.97,
       "change_pct": 0.291,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5066,7 +5066,7 @@
       "price": 96.3,
       "previous_close": 96.69,
       "change_pct": -0.403,
-      "price_at": "2026-11-27T18:19:30Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5075,7 +5075,7 @@
       "price": 207.5,
       "previous_close": 201.77,
       "change_pct": 2.84,
-      "price_at": "2026-11-27T19:00:23Z",
+      "price_at": "2026-11-27T19:35:08Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5102,7 +5102,7 @@
       "price": 66.26,
       "previous_close": 62.48,
       "change_pct": 6.05,
-      "price_at": "2026-11-27T18:53:58Z",
+      "price_at": "2026-11-27T20:00:16Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5129,7 +5129,7 @@
       "price": 172.2,
       "previous_close": 163.59,
       "change_pct": 5.263,
-      "price_at": "2026-11-27T19:15:15Z",
+      "price_at": "2026-11-27T20:16:27Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5147,7 +5147,7 @@
       "price": 59.16,
       "previous_close": 57.81,
       "change_pct": 2.335,
-      "price_at": "2026-11-27T19:11:45Z",
+      "price_at": "2026-11-27T20:09:44Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5165,7 +5165,7 @@
       "price": 14.44,
       "previous_close": 14.26,
       "change_pct": 1.262,
-      "price_at": "2026-11-27T18:54:55Z",
+      "price_at": "2026-11-27T19:56:11Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5183,7 +5183,7 @@
       "price": 124.91,
       "previous_close": 124.61,
       "change_pct": 0.241,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:53:50Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5246,7 +5246,7 @@
       "price": 179.3,
       "previous_close": 168.66,
       "change_pct": 6.309,
-      "price_at": "2026-11-27T19:14:07Z",
+      "price_at": "2026-11-27T20:00:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5273,7 +5273,7 @@
       "price": 165.18,
       "previous_close": 162.84,
       "change_pct": 1.437,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5282,7 +5282,7 @@
       "price": 93.85,
       "previous_close": 91.51,
       "change_pct": 2.557,
-      "price_at": "2026-11-27T18:52:00Z",
+      "price_at": "2026-11-27T20:15:39Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5327,7 +5327,7 @@
       "price": 67.94,
       "previous_close": 65.78,
       "change_pct": 3.284,
-      "price_at": "2026-11-27T19:15:42Z",
+      "price_at": "2026-11-27T20:16:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5372,7 +5372,7 @@
       "price": 85.38,
       "previous_close": 73.61,
       "change_pct": 15.99,
-      "price_at": "2026-11-27T19:17:07Z",
+      "price_at": "2026-11-27T20:17:31Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5390,7 +5390,7 @@
       "price": 509.7,
       "previous_close": 472.33,
       "change_pct": 7.912,
-      "price_at": "2026-11-27T19:16:00Z",
+      "price_at": "2026-11-27T20:13:27Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5399,7 +5399,7 @@
       "price": 363.28,
       "previous_close": 361.02,
       "change_pct": 0.626,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5408,7 +5408,7 @@
       "price": 86.68,
       "previous_close": 82.01,
       "change_pct": 5.694,
-      "price_at": "2026-11-27T18:26:14Z",
+      "price_at": "2026-11-27T20:09:43Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5417,7 +5417,7 @@
       "price": 126.89,
       "previous_close": 130.06,
       "change_pct": -2.437,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5426,7 +5426,7 @@
       "price": 43.6,
       "previous_close": 41.65,
       "change_pct": 4.682,
-      "price_at": "2026-11-27T18:12:52Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5444,7 +5444,7 @@
       "price": 87.32,
       "previous_close": 87.16,
       "change_pct": 0.184,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5453,7 +5453,7 @@
       "price": 47.22,
       "previous_close": 45.95,
       "change_pct": 2.764,
-      "price_at": "2026-11-27T18:19:39Z",
+      "price_at": "2026-11-27T19:18:15Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5462,7 +5462,7 @@
       "price": 110.95,
       "previous_close": 109.22,
       "change_pct": 1.584,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T20:15:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5489,7 +5489,7 @@
       "price": 261.24,
       "previous_close": 261.17,
       "change_pct": 0.027,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:18Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5498,7 +5498,7 @@
       "price": 23.78,
       "previous_close": 23.31,
       "change_pct": 2.016,
-      "price_at": "2026-11-27T19:14:55Z",
+      "price_at": "2026-11-27T20:17:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5516,7 +5516,7 @@
       "price": 83.33,
       "previous_close": 81.77,
       "change_pct": 1.908,
-      "price_at": "2026-11-27T18:13:05Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5534,7 +5534,7 @@
       "price": 230.26,
       "previous_close": 227.34,
       "change_pct": 1.284,
-      "price_at": "2026-11-27T19:14:28Z",
+      "price_at": "2026-11-27T20:14:37Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5543,7 +5543,7 @@
       "price": 128.05,
       "previous_close": 129.6,
       "change_pct": -1.196,
-      "price_at": "2026-11-27T18:53:09Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5561,7 +5561,7 @@
       "price": 217.86,
       "previous_close": 211.48,
       "change_pct": 3.017,
-      "price_at": "2026-11-27T18:23:04Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5579,7 +5579,7 @@
       "price": 223,
       "previous_close": 212.15,
       "change_pct": 5.114,
-      "price_at": "2026-11-27T19:14:21Z",
+      "price_at": "2026-11-27T20:14:04Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5588,7 +5588,7 @@
       "price": 281.89,
       "previous_close": 270.19,
       "change_pct": 4.33,
-      "price_at": "2026-11-27T18:51:30Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5597,7 +5597,7 @@
       "price": 263.55,
       "previous_close": 261.37,
       "change_pct": 0.834,
-      "price_at": "2026-11-27T18:38:23Z",
+      "price_at": "2026-11-27T19:59:25Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5624,7 +5624,7 @@
       "price": 40.03,
       "previous_close": 40.37,
       "change_pct": -0.842,
-      "price_at": "2026-11-27T18:33:42Z",
+      "price_at": "2026-11-27T19:22:59Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5633,7 +5633,7 @@
       "price": 1175.36,
       "previous_close": 1150.73,
       "change_pct": 2.14,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:18:23Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5642,7 +5642,7 @@
       "price": 55.8,
       "previous_close": 55.25,
       "change_pct": 0.995,
-      "price_at": "2026-11-27T18:00:29Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5651,7 +5651,7 @@
       "price": 185.64,
       "previous_close": 180.79,
       "change_pct": 2.683,
-      "price_at": "2026-11-27T19:16:02Z",
+      "price_at": "2026-11-27T20:03:23Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5669,7 +5669,7 @@
       "price": 63.22,
       "previous_close": 63.52,
       "change_pct": -0.472,
-      "price_at": "2026-11-27T18:40:37Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5678,7 +5678,7 @@
       "price": 36.78,
       "previous_close": 36.67,
       "change_pct": 0.3,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5696,7 +5696,7 @@
       "price": 108.12,
       "previous_close": 104.52,
       "change_pct": 3.444,
-      "price_at": "2026-11-27T19:17:20Z",
+      "price_at": "2026-11-27T19:59:30Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5705,7 +5705,7 @@
       "price": 192.99,
       "previous_close": 190.57,
       "change_pct": 1.27,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5714,7 +5714,7 @@
       "price": 271.64,
       "previous_close": 271.9,
       "change_pct": -0.096,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:19:15Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5723,7 +5723,7 @@
       "price": 120.09,
       "previous_close": 120.19,
       "change_pct": -0.083,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5741,7 +5741,7 @@
       "price": 203.8,
       "previous_close": 204.76,
       "change_pct": -0.469,
-      "price_at": "2026-11-27T18:00:28Z",
+      "price_at": "2026-11-27T19:51:20Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5750,7 +5750,7 @@
       "price": 178.74,
       "previous_close": 173.37,
       "change_pct": 3.097,
-      "price_at": "2026-11-27T19:14:34Z",
+      "price_at": "2026-11-27T20:18:07Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5759,7 +5759,7 @@
       "price": 20.22,
       "previous_close": 19.83,
       "change_pct": 1.967,
-      "price_at": "2026-11-27T18:12:01Z",
+      "price_at": "2026-11-27T20:08:31Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5768,7 +5768,7 @@
       "price": 295.09,
       "previous_close": 290.98,
       "change_pct": 1.412,
-      "price_at": "2026-11-27T18:40:41Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5795,7 +5795,7 @@
       "price": 1431.91,
       "previous_close": 1415.9,
       "change_pct": 1.131,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:34Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5804,7 +5804,7 @@
       "price": 296.19,
       "previous_close": 287.59,
       "change_pct": 2.99,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5831,7 +5831,7 @@
       "price": 366.21,
       "previous_close": 372.94,
       "change_pct": -1.805,
-      "price_at": "2026-11-27T18:16:04Z",
+      "price_at": "2026-11-27T19:48:33Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5840,7 +5840,7 @@
       "price": 292.15,
       "previous_close": 272.45,
       "change_pct": 7.231,
-      "price_at": "2026-11-27T19:16:38Z",
+      "price_at": "2026-11-27T20:17:57Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5849,7 +5849,7 @@
       "price": 20.84,
       "previous_close": 20.52,
       "change_pct": 1.559,
-      "price_at": "2026-11-27T18:10:00Z",
+      "price_at": "2026-11-27T19:26:17Z",
       "source": "Finnhub",
       "currency": "USD"
     },
@@ -5921,7 +5921,7 @@
       "price": 82.47,
       "previous_close": 82.6,
       "change_pct": -0.157,
-      "price_at": "2026-11-27T18:17:43Z",
+      "price_at": "2026-11-27T19:52:17Z",
       "source": "Finnhub",
       "currency": "USD"
     }
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T19:07:57Z",
+    "generated_at": "2026-11-27T20:08:09Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7339,7 +7339,7 @@
           {
             "label": "Quote (USD)",
             "value": "$323.00",
-            "timestamp": "2026-11-27T19:06:57Z",
+            "timestamp": "2026-11-27T20:05:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -7355,7 +7355,7 @@
             "url": "https://finnhub.io/api/news?id=3b8493e0cbcd827b236329a6550a6db8f9beced1becd62a0efe19db048189586"
           }
         ],
-        "as_of": "2026-11-27T19:06:57Z",
+        "as_of": "2026-11-27T20:05:33Z",
         "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 323.0,
         "currency": "USD",
@@ -7394,7 +7394,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:06:57Z",
+          "as_of": "2026-11-27T20:05:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -7418,7 +7418,7 @@
           {
             "label": "Quote (USD)",
             "value": "$136.83",
-            "timestamp": "2026-11-27T18:10:00Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -7434,7 +7434,7 @@
             "url": "https://finnhub.io/api/news?id=863f4144020e416908624708ce331133fd586770071f679264e81cd85bb5b69b"
           }
         ],
-        "as_of": "2026-11-27T18:10:00Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-26T12:10:56Z",
         "price": 136.83,
         "currency": "USD",
@@ -7473,7 +7473,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:10:00Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -7576,7 +7576,7 @@
           {
             "label": "Quote (USD)",
             "value": "$54.19",
-            "timestamp": "2026-11-27T18:29:49Z",
+            "timestamp": "2026-11-27T19:40:57Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -7592,7 +7592,7 @@
             "url": "https://finnhub.io/api/news?id=35eeaeeee3c564f4708245cc3fe67245431dc83ef11c8d796b5bc3f74004f4df"
           }
         ],
-        "as_of": "2026-11-27T18:29:49Z",
+        "as_of": "2026-11-27T19:40:57Z",
         "fundamentals_at": "2026-11-26T13:30:41Z",
         "price": 54.19,
         "currency": "USD",
@@ -7631,7 +7631,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:29:49Z",
+          "as_of": "2026-11-27T19:40:57Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -7655,7 +7655,7 @@
           {
             "label": "Quote (USD)",
             "value": "$170.91",
-            "timestamp": "2026-11-27T19:07:03Z",
+            "timestamp": "2026-11-27T19:50:07Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -7671,7 +7671,7 @@
             "url": "https://finnhub.io/api/news?id=ba45b683792a1a8c00d94f916760b5be4b77519b05e3fe005fe4cf7a7ea7bf64"
           }
         ],
-        "as_of": "2026-11-27T19:07:03Z",
+        "as_of": "2026-11-27T19:50:07Z",
         "fundamentals_at": "2026-11-26T16:16:49Z",
         "price": 170.91,
         "currency": "USD",
@@ -7710,7 +7710,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:03Z",
+          "as_of": "2026-11-27T19:50:07Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -7892,7 +7892,7 @@
           {
             "label": "Quote (USD)",
             "value": "$128.05",
-            "timestamp": "2026-11-27T18:53:09Z",
+            "timestamp": "2026-11-27T19:52:17Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -7908,7 +7908,7 @@
             "url": "https://finnhub.io/api/news?id=b10b843b7c5a288285e8cf638f3d99a3d3031b9d6f55220d65821223fd5de00a"
           }
         ],
-        "as_of": "2026-11-27T18:53:09Z",
+        "as_of": "2026-11-27T19:52:17Z",
         "fundamentals_at": "2026-11-25T23:57:15Z",
         "price": 128.05,
         "currency": "USD",
@@ -7947,7 +7947,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:53:09Z",
+          "as_of": "2026-11-27T19:52:17Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -7979,7 +7979,7 @@
           {
             "label": "Quote (USD)",
             "value": "$254.16",
-            "timestamp": "2026-11-27T19:07:43Z",
+            "timestamp": "2026-11-27T20:07:52Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -7995,7 +7995,7 @@
             "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28"
           }
         ],
-        "as_of": "2026-11-27T19:07:43Z",
+        "as_of": "2026-11-27T20:07:52Z",
         "fundamentals_at": "2026-11-26T05:22:25Z",
         "price": 254.16,
         "currency": "USD",
@@ -8034,7 +8034,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:43Z",
+          "as_of": "2026-11-27T20:07:52Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8066,7 +8066,7 @@
           {
             "label": "Quote (USD)",
             "value": "$94.08",
-            "timestamp": "2026-11-27T18:45:25Z",
+            "timestamp": "2026-11-27T19:51:20Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8082,7 +8082,7 @@
             "url": "https://finnhub.io/api/news?id=a748eb063950630c448bcf9f4354b22023acb0cce9e937edc35e2d07796a0a4c"
           }
         ],
-        "as_of": "2026-11-27T18:45:25Z",
+        "as_of": "2026-11-27T19:51:20Z",
         "fundamentals_at": "2026-11-26T17:24:22Z",
         "price": 94.08,
         "currency": "USD",
@@ -8121,7 +8121,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:45:25Z",
+          "as_of": "2026-11-27T19:51:20Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8319,7 +8319,7 @@
           {
             "label": "Quote (USD)",
             "value": "$217.86",
-            "timestamp": "2026-11-27T18:23:04Z",
+            "timestamp": "2026-11-27T19:48:34Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8335,7 +8335,7 @@
             "url": "https://finnhub.io/api/news?id=e45797313f6502cb6d1d17e92b846c7b5728b42df10ff0d65b33cf3719c526e3"
           }
         ],
-        "as_of": "2026-11-27T18:23:04Z",
+        "as_of": "2026-11-27T19:48:34Z",
         "fundamentals_at": "2026-11-25T23:57:15Z",
         "price": 217.86,
         "currency": "USD",
@@ -8374,7 +8374,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:23:04Z",
+          "as_of": "2026-11-27T19:48:34Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8406,7 +8406,7 @@
           {
             "label": "Quote (USD)",
             "value": "$198.24",
-            "timestamp": "2026-11-27T18:41:52Z",
+            "timestamp": "2026-11-27T20:00:53Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8422,7 +8422,7 @@
             "url": "https://finnhub.io/api/news?id=75fe9d32bd178063830591b411d8a506363927a1e9a9b604f594e6ec4efc16d7"
           }
         ],
-        "as_of": "2026-11-27T18:41:52Z",
+        "as_of": "2026-11-27T20:00:53Z",
         "fundamentals_at": "2026-11-26T05:22:25Z",
         "price": 198.24,
         "currency": "USD",
@@ -8461,7 +8461,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:41:52Z",
+          "as_of": "2026-11-27T20:00:53Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8493,7 +8493,7 @@
           {
             "label": "Quote (USD)",
             "value": "$60.95",
-            "timestamp": "2026-11-27T19:07:20Z",
+            "timestamp": "2026-11-27T20:07:56Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8509,7 +8509,7 @@
             "url": "https://finnhub.io/api/news?id=cf86e9286a8b28858e9b32643811cca5d26e6fed812e04000cf3c2b6cde994d3"
           }
         ],
-        "as_of": "2026-11-27T19:07:20Z",
+        "as_of": "2026-11-27T20:07:56Z",
         "fundamentals_at": "2026-11-26T07:32:11Z",
         "price": 60.95,
         "currency": "USD",
@@ -8548,7 +8548,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:20Z",
+          "as_of": "2026-11-27T20:07:56Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8580,7 +8580,7 @@
           {
             "label": "Quote (USD)",
             "value": "$812.91",
-            "timestamp": "2026-11-27T19:05:52Z",
+            "timestamp": "2026-11-27T19:51:43Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8596,7 +8596,7 @@
             "url": "https://finnhub.io/api/news?id=86e44dc5033bcd74836adb0f8c6d91c10ef5ff8037064f00a0040f2aaa9d11d4"
           }
         ],
-        "as_of": "2026-11-27T19:05:52Z",
+        "as_of": "2026-11-27T19:51:43Z",
         "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 812.91,
         "currency": "USD",
@@ -8635,7 +8635,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:05:52Z",
+          "as_of": "2026-11-27T19:51:43Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8659,7 +8659,7 @@
           {
             "label": "Quote (USD)",
             "value": "$160.21",
-            "timestamp": "2026-11-27T19:08:00Z",
+            "timestamp": "2026-11-27T19:57:08Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8675,7 +8675,7 @@
             "url": "https://finnhub.io/api/news?id=3bb55f49a9b6941e432fc91c9ca5a1a61f2226063fe57ec461d7a459c5d28f6b"
           }
         ],
-        "as_of": "2026-11-27T19:08:00Z",
+        "as_of": "2026-11-27T19:57:08Z",
         "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 160.21,
         "currency": "USD",
@@ -8714,7 +8714,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:08:00Z",
+          "as_of": "2026-11-27T19:57:08Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8738,7 +8738,7 @@
           {
             "label": "Quote (USD)",
             "value": "$735.35",
-            "timestamp": "2026-11-27T19:01:49Z",
+            "timestamp": "2026-11-27T19:16:36Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8754,7 +8754,7 @@
             "url": "https://finnhub.io/api/news?id=95e0a15887cbba508fc760819b5fd476c8a302df1856f13496d88c54936527f4"
           }
         ],
-        "as_of": "2026-11-27T19:01:49Z",
+        "as_of": "2026-11-27T19:16:36Z",
         "fundamentals_at": "2026-11-26T15:12:53Z",
         "price": 735.35,
         "currency": "USD",
@@ -8793,7 +8793,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:01:49Z",
+          "as_of": "2026-11-27T19:16:36Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8825,7 +8825,7 @@
           {
             "label": "Quote (USD)",
             "value": "$82.30",
-            "timestamp": "2026-11-27T18:45:18Z",
+            "timestamp": "2026-11-27T20:05:57Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8841,7 +8841,7 @@
             "url": "https://finnhub.io/api/news?id=1720c5a8a3ba62f38d32c5051f94e16c5e890d46e5d37016a85e3e6bd12bf50e"
           }
         ],
-        "as_of": "2026-11-27T18:45:18Z",
+        "as_of": "2026-11-27T20:05:57Z",
         "fundamentals_at": "2026-11-26T15:12:53Z",
         "price": 82.3,
         "currency": "USD",
@@ -8880,7 +8880,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:45:18Z",
+          "as_of": "2026-11-27T20:05:57Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8904,7 +8904,7 @@
           {
             "label": "Quote (USD)",
             "value": "$329.43",
-            "timestamp": "2026-11-27T18:44:46Z",
+            "timestamp": "2026-11-27T19:36:47Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8920,7 +8920,7 @@
             "url": "https://finnhub.io/api/news?id=d110a84f04d5cc73b6041d3d90dc4036aa4afc39c5de6fc22b1405bfbac4f732"
           }
         ],
-        "as_of": "2026-11-27T18:44:46Z",
+        "as_of": "2026-11-27T19:36:47Z",
         "fundamentals_at": "2026-11-26T15:12:53Z",
         "price": 329.43,
         "currency": "USD",
@@ -8959,7 +8959,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:44:46Z",
+          "as_of": "2026-11-27T19:36:47Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -8983,7 +8983,7 @@
           {
             "label": "Quote (USD)",
             "value": "$115.62",
-            "timestamp": "2026-11-27T18:59:12Z",
+            "timestamp": "2026-11-27T19:58:55Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -8999,7 +8999,7 @@
             "url": "https://finnhub.io/api/news?id=3ef55ba89f9253a52d38bc21260e8de289fc4c12bbdb431599463c99d98f2889"
           }
         ],
-        "as_of": "2026-11-27T18:59:12Z",
+        "as_of": "2026-11-27T19:58:55Z",
         "fundamentals_at": "2026-11-26T16:16:49Z",
         "price": 115.62,
         "currency": "USD",
@@ -9038,7 +9038,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:59:12Z",
+          "as_of": "2026-11-27T19:58:55Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9062,7 +9062,7 @@
           {
             "label": "Quote (USD)",
             "value": "$51.88",
-            "timestamp": "2026-11-27T18:59:46Z",
+            "timestamp": "2026-11-27T19:16:34Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -9078,7 +9078,7 @@
             "url": "https://finnhub.io/api/news?id=9cb2138487f701f5f67cda1d9303865fa7c7e9175a1fddaf85547fe3a83afc2e"
           }
         ],
-        "as_of": "2026-11-27T18:59:46Z",
+        "as_of": "2026-11-27T19:16:34Z",
         "fundamentals_at": "2026-11-26T20:14:36Z",
         "price": 51.88,
         "currency": "USD",
@@ -9117,7 +9117,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:59:46Z",
+          "as_of": "2026-11-27T19:16:34Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9141,7 +9141,7 @@
           {
             "label": "Quote (USD)",
             "value": "$248.12",
-            "timestamp": "2026-11-27T19:06:15Z",
+            "timestamp": "2026-11-27T19:58:16Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -9157,7 +9157,7 @@
             "url": "https://finnhub.io/api/news?id=b58a5489e014ff6c7ffe7c8f80c4ce34e4f11bbc1d4bca1c2194e446eac98ab7"
           }
         ],
-        "as_of": "2026-11-27T19:06:15Z",
+        "as_of": "2026-11-27T19:58:16Z",
         "fundamentals_at": "2026-11-26T22:03:59Z",
         "price": 248.12,
         "currency": "USD",
@@ -9196,7 +9196,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:06:15Z",
+          "as_of": "2026-11-27T19:58:16Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9315,7 +9315,7 @@
           {
             "label": "Quote (USD)",
             "value": "$127.47",
-            "timestamp": "2026-11-27T18:10:00Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -9331,7 +9331,7 @@
             "url": "https://finnhub.io/api/news?id=b7b4b44294c43e4d74680247183c15c5c55b922eb1f65a29727c06db1d00bb45"
           }
         ],
-        "as_of": "2026-11-27T18:10:00Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-27T03:07:46Z",
         "price": 127.47,
         "currency": "USD",
@@ -9370,7 +9370,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:10:00Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9394,7 +9394,7 @@
           {
             "label": "Quote (USD)",
             "value": "$59.31",
-            "timestamp": "2026-11-27T18:40:40Z",
+            "timestamp": "2026-11-27T19:52:17Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -9410,7 +9410,7 @@
             "url": "https://finnhub.io/api/news?id=d07752e8b8bfee1a8e32b8397461c4ac8484820f26d39d24dd58100e285cf306"
           }
         ],
-        "as_of": "2026-11-27T18:40:40Z",
+        "as_of": "2026-11-27T19:52:17Z",
         "fundamentals_at": "2026-11-27T04:16:32Z",
         "price": 59.31,
         "currency": "USD",
@@ -9449,7 +9449,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:40:40Z",
+          "as_of": "2026-11-27T19:52:17Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9552,7 +9552,7 @@
           {
             "label": "Quote (USD)",
             "value": "$15.04",
-            "timestamp": "2026-11-27T18:57:51Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -9568,7 +9568,7 @@
             "url": "https://finnhub.io/api/news?id=41e659b5a29d1f1ffb8f365da0ff4974e9b2e16cfce8128e20604ba6f4e2dd34"
           }
         ],
-        "as_of": "2026-11-27T18:57:51Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-27T05:26:27Z",
         "price": 15.04,
         "currency": "USD",
@@ -9607,7 +9607,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:57:51Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9789,7 +9789,7 @@
           {
             "label": "Quote (USD)",
             "value": "$246.66",
-            "timestamp": "2026-11-27T18:00:45Z",
+            "timestamp": "2026-11-27T19:41:30Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -9805,7 +9805,7 @@
             "url": "https://finnhub.io/api/news?id=a71d7bf1acbac3062eba1b612ed4aa577cab00ef2a83587774aed64ce8e9ffe1"
           }
         ],
-        "as_of": "2026-11-27T18:00:45Z",
+        "as_of": "2026-11-27T19:41:30Z",
         "fundamentals_at": "2026-11-27T19:07:57Z",
         "price": 246.66,
         "currency": "USD",
@@ -9844,7 +9844,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:00:45Z",
+          "as_of": "2026-11-27T19:41:30Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -9868,7 +9868,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Technology",
-        "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.9×; TTM revenue growth 16.9% YoY",
+        "why": "Net profit margin 23.1% (TTM); Return on equity 46.7% (TTM); Trailing P/E 14.8×; TTM revenue growth 16.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -9882,35 +9882,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T11:12:41Z",
+            "timestamp": "2026-11-27T20:08:09Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Four S&P 500 Stocks Rising in a Falling Market: Pentair, AppLovin, Chipotle, and Gen Digital",
-            "timestamp": "2026-11-21T18:00:05Z",
-            "url": "https://finnhub.io/api/news?id=b2d8856c10924f9b3ce0222ec94c8f246b505cbe98591a423e650d7ffa58bdb6"
+            "value": "Gen Digital (GEN) Up 7% Since Last Earnings Report: Can It Continue?",
+            "timestamp": "2026-11-27T15:30:14Z",
+            "url": "https://finnhub.io/api/news?id=ebcfe0e5f3cb9ec000224e5b416e793b20807d54531b3cf3a4d88d8e6a86de55"
           }
         ],
         "as_of": "2026-11-27T18:40:39Z",
-        "fundamentals_at": "2026-11-25T11:12:41Z",
+        "fundamentals_at": "2026-11-27T20:08:09Z",
         "price": 30.49,
         "currency": "USD",
         "change_pct": 1.061,
         "news": [
           {
-            "headline": "Four S&P 500 Stocks Rising in a Falling Market: Pentair, AppLovin, Chipotle, and Gen Digital",
-            "url": "https://finnhub.io/api/news?id=b2d8856c10924f9b3ce0222ec94c8f246b505cbe98591a423e650d7ffa58bdb6",
-            "source": "Benzinga",
-            "published_at": "2026-11-21T18:00:05Z",
+            "headline": "Gen Digital (GEN) Up 7% Since Last Earnings Report: Can It Continue?",
+            "url": "https://finnhub.io/api/news?id=ebcfe0e5f3cb9ec000224e5b416e793b20807d54531b3cf3a4d88d8e6a86de55",
+            "source": "Yahoo",
+            "published_at": "2026-11-27T15:30:14Z",
             "primary": false,
             "symbol": "GEN"
           },
           {
-            "headline": "Should Rising Cyberattack Risks Require Action From Gen Digital (GEN) Investors?",
-            "url": "https://finnhub.io/api/news?id=9befeb3b0424456a3592f9139718ca22699ccc3201a1ab725e152e77fe32d741",
-            "source": "Yahoo",
-            "published_at": "2026-11-21T12:10:01Z",
+            "headline": "Four S&P 500 Stocks Rising in a Falling Market: Pentair, AppLovin, Chipotle, and Gen Digital",
+            "url": "https://finnhub.io/api/news?id=b2d8856c10924f9b3ce0222ec94c8f246b505cbe98591a423e650d7ffa58bdb6",
+            "source": "Benzinga",
+            "published_at": "2026-11-21T18:00:05Z",
             "primary": false,
             "symbol": "GEN"
           }
@@ -9921,11 +9921,11 @@
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
           "entry_ceiling": 24.71,
-          "entry_floor": 22.59,
-          "exit_review_low": 42.05,
-          "exit_review_high": 50.92,
-          "bear_case": 22.59,
-          "scenario_upside_pct": 37.9,
+          "entry_floor": 22.62,
+          "exit_review_low": 42.11,
+          "exit_review_high": 50.99,
+          "bear_case": 22.62,
+          "scenario_upside_pct": 38.1,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -9938,12 +9938,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 14.86,
+            "trailing_pe": 14.84,
             "earnings_growth_assumed_pct": 7.6,
             "scenario_exit_pe": 19.05,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T11:12:41Z"
+            "metrics_retrieved_at": "2026-11-27T20:08:09Z"
           }
         },
         "ranking_score": 82,
@@ -10050,7 +10050,7 @@
           {
             "label": "Quote (USD)",
             "value": "$20.51",
-            "timestamp": "2026-11-27T18:27:27Z",
+            "timestamp": "2026-11-27T19:48:34Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10066,7 +10066,7 @@
             "url": "https://finnhub.io/api/news?id=1261a19fd6b58e0a5e75283132d69deef407274750e5c8b43a5d21ab2ee85c6d"
           }
         ],
-        "as_of": "2026-11-27T18:27:27Z",
+        "as_of": "2026-11-27T19:48:34Z",
         "fundamentals_at": "2026-11-25T15:17:49Z",
         "price": 20.51,
         "currency": "USD",
@@ -10105,7 +10105,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:27:27Z",
+          "as_of": "2026-11-27T19:48:34Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10453,7 +10453,7 @@
           {
             "label": "Quote (USD)",
             "value": "$185.64",
-            "timestamp": "2026-11-27T19:16:02Z",
+            "timestamp": "2026-11-27T20:03:23Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10469,7 +10469,7 @@
             "url": "https://finnhub.io/api/news?id=37f5e65e9dee42b5d5469e7cdfd2a1c977ebc6ccb7b69fdfd31aa71dee584a0d"
           }
         ],
-        "as_of": "2026-11-27T19:16:02Z",
+        "as_of": "2026-11-27T20:03:23Z",
         "fundamentals_at": "2026-11-26T01:27:00Z",
         "price": 185.64,
         "currency": "USD",
@@ -10508,7 +10508,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:16:02Z",
+          "as_of": "2026-11-27T20:03:23Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10540,7 +10540,7 @@
           {
             "label": "Quote (USD)",
             "value": "$629.00",
-            "timestamp": "2026-11-27T19:07:31Z",
+            "timestamp": "2026-11-27T20:04:55Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10556,7 +10556,7 @@
             "url": "https://finnhub.io/api/news?id=66377c41610ddd5a64a9b229988bc955c6db5c28b75c02b72b702f8f91b9c47f"
           }
         ],
-        "as_of": "2026-11-27T19:07:31Z",
+        "as_of": "2026-11-27T20:04:55Z",
         "fundamentals_at": "2026-11-26T05:22:25Z",
         "price": 629.0,
         "currency": "USD",
@@ -10595,7 +10595,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:31Z",
+          "as_of": "2026-11-27T20:04:55Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10627,7 +10627,7 @@
           {
             "label": "Quote (USD)",
             "value": "$275.00",
-            "timestamp": "2026-11-27T19:07:41Z",
+            "timestamp": "2026-11-27T20:07:39Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10643,7 +10643,7 @@
             "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28"
           }
         ],
-        "as_of": "2026-11-27T19:07:41Z",
+        "as_of": "2026-11-27T20:07:39Z",
         "fundamentals_at": "2026-11-26T05:22:25Z",
         "price": 275.0,
         "currency": "USD",
@@ -10682,7 +10682,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:41Z",
+          "as_of": "2026-11-27T20:07:39Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10714,7 +10714,7 @@
           {
             "label": "Quote (USD)",
             "value": "$234.83",
-            "timestamp": "2026-11-27T19:06:29Z",
+            "timestamp": "2026-11-27T19:51:53Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10730,7 +10730,7 @@
             "url": "https://finnhub.io/api/news?id=3f79571447a1fe04ac6036d9495b4400dfcece111551c13ec9ed01ed2ba888ab"
           }
         ],
-        "as_of": "2026-11-27T19:06:29Z",
+        "as_of": "2026-11-27T19:51:53Z",
         "fundamentals_at": "2026-11-26T07:32:11Z",
         "price": 234.83,
         "currency": "USD",
@@ -10769,7 +10769,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:06:29Z",
+          "as_of": "2026-11-27T19:51:53Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10801,7 +10801,7 @@
           {
             "label": "Quote (USD)",
             "value": "$49.08",
-            "timestamp": "2026-11-27T18:56:26Z",
+            "timestamp": "2026-11-27T20:05:58Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10817,7 +10817,7 @@
             "url": "https://finnhub.io/api/news?id=892054fe619ed3a627e2ccad04123c09aeb6fbba4a340fd83392459a7c6f325d"
           }
         ],
-        "as_of": "2026-11-27T18:56:26Z",
+        "as_of": "2026-11-27T20:05:58Z",
         "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 49.08,
         "currency": "USD",
@@ -10856,7 +10856,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:56:26Z",
+          "as_of": "2026-11-27T20:05:58Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10880,7 +10880,7 @@
           {
             "label": "Quote (USD)",
             "value": "$84.97",
-            "timestamp": "2026-11-27T18:47:29Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10896,7 +10896,7 @@
             "url": "https://finnhub.io/api/news?id=4f0fb8c8e7c6fdf983ec275cac6c1612ea3c42004488693947a0796cfe1eb032"
           }
         ],
-        "as_of": "2026-11-27T18:47:29Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-26T11:11:19Z",
         "price": 84.97,
         "currency": "USD",
@@ -10935,7 +10935,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:47:29Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -10959,7 +10959,7 @@
           {
             "label": "Quote (USD)",
             "value": "$86.96",
-            "timestamp": "2026-11-27T18:40:39Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -10975,7 +10975,7 @@
             "url": "https://finnhub.io/api/news?id=858a19b39fa1a4c9dfe771a7769c3a15498371b80dd74c3cc4b931985085d33a"
           }
         ],
-        "as_of": "2026-11-27T18:40:39Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-26T13:30:41Z",
         "price": 86.96,
         "currency": "USD",
@@ -11014,7 +11014,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:40:39Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -11046,7 +11046,7 @@
           {
             "label": "Quote (USD)",
             "value": "$359.84",
-            "timestamp": "2026-11-27T18:40:39Z",
+            "timestamp": "2026-11-27T20:05:07Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -11062,7 +11062,7 @@
             "url": "https://finnhub.io/api/news?id=a5187086a6239a0790743c7a2e21b68e25862c5f4327f2a3b1bc7e7e8f0b2c8b"
           }
         ],
-        "as_of": "2026-11-27T18:40:39Z",
+        "as_of": "2026-11-27T20:05:07Z",
         "fundamentals_at": "2026-11-26T15:12:53Z",
         "price": 359.84,
         "currency": "USD",
@@ -11101,7 +11101,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:40:39Z",
+          "as_of": "2026-11-27T20:05:07Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -11125,7 +11125,7 @@
           {
             "label": "Quote (USD)",
             "value": "$106.90",
-            "timestamp": "2026-11-27T19:08:29Z",
+            "timestamp": "2026-11-27T20:09:39Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -11141,7 +11141,7 @@
             "url": "https://finnhub.io/api/news?id=fc7081345f7cb68a80dd67d68a13e7b934e5ab53c87c91b8a5fef86837f84e45"
           }
         ],
-        "as_of": "2026-11-27T19:08:29Z",
+        "as_of": "2026-11-27T20:09:39Z",
         "fundamentals_at": "2026-11-27T05:26:27Z",
         "price": 106.9,
         "currency": "USD",
@@ -11180,7 +11180,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:08:29Z",
+          "as_of": "2026-11-27T20:09:39Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -11204,7 +11204,7 @@
           {
             "label": "Quote (USD)",
             "value": "$272.48",
-            "timestamp": "2026-11-27T19:13:18Z",
+            "timestamp": "2026-11-27T20:13:19Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -11220,7 +11220,7 @@
             "url": "https://finnhub.io/api/news?id=cf8415427f321c22becf7ce542f6e537f7aed420bc85c95c2ceffd1485506a28"
           }
         ],
-        "as_of": "2026-11-27T19:13:18Z",
+        "as_of": "2026-11-27T20:13:19Z",
         "fundamentals_at": "2026-11-27T07:30:55Z",
         "price": 272.48,
         "currency": "USD",
@@ -11259,7 +11259,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:13:18Z",
+          "as_of": "2026-11-27T20:13:19Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -11291,7 +11291,7 @@
           {
             "label": "Quote (USD)",
             "value": "$157.24",
-            "timestamp": "2026-11-27T18:10:00Z",
+            "timestamp": "2026-11-27T20:15:28Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -11307,7 +11307,7 @@
             "url": "https://finnhub.io/api/news?id=7c597e59074bf3a0e54b24a902aaba7475659ffbf794d4d572f09602ecfc6574"
           }
         ],
-        "as_of": "2026-11-27T18:10:00Z",
+        "as_of": "2026-11-27T20:15:28Z",
         "fundamentals_at": "2026-11-25T11:12:41Z",
         "price": 157.24,
         "currency": "USD",
@@ -11346,7 +11346,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:10:00Z",
+          "as_of": "2026-11-27T20:15:28Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -11457,7 +11457,7 @@
           {
             "label": "Quote (USD)",
             "value": "$256.79",
-            "timestamp": "2026-11-27T18:32:48Z",
+            "timestamp": "2026-11-27T19:52:17Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -11473,7 +11473,7 @@
             "url": "https://finnhub.io/api/news?id=d66f6403e00167522129f2579776d6c797386412600092bc2537730974c69b4c"
           }
         ],
-        "as_of": "2026-11-27T18:32:48Z",
+        "as_of": "2026-11-27T19:52:17Z",
         "fundamentals_at": "2026-11-25T19:02:33Z",
         "price": 256.79,
         "currency": "USD",
@@ -11512,7 +11512,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:32:48Z",
+          "as_of": "2026-11-27T19:52:17Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -11955,7 +11955,7 @@
           {
             "label": "Quote (USD)",
             "value": "$212.49",
-            "timestamp": "2026-11-27T19:05:33Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -11971,7 +11971,7 @@
             "url": "https://finnhub.io/api/news?id=95e898eb4a621e52b579ddb77794f02cdf78e3aa6e8be2f5402a082b46a86efd"
           }
         ],
-        "as_of": "2026-11-27T19:05:33Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-26T09:18:34Z",
         "price": 212.49,
         "currency": "USD",
@@ -12010,7 +12010,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:05:33Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -12121,7 +12121,7 @@
           {
             "label": "Quote (USD)",
             "value": "$144.63",
-            "timestamp": "2026-11-27T19:03:07Z",
+            "timestamp": "2026-11-27T20:08:05Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -12137,7 +12137,7 @@
             "url": "https://finnhub.io/api/news?id=d1a5b92e73e2d94c3ac43a73def57ce9d365f3505e1f08dcf0a19ad9695c1cdf"
           }
         ],
-        "as_of": "2026-11-27T19:03:07Z",
+        "as_of": "2026-11-27T20:08:05Z",
         "fundamentals_at": "2026-11-26T11:11:19Z",
         "price": 144.63,
         "currency": "USD",
@@ -12176,7 +12176,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:03:07Z",
+          "as_of": "2026-11-27T20:08:05Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -12208,7 +12208,7 @@
           {
             "label": "Quote (USD)",
             "value": "$316.44",
-            "timestamp": "2026-11-27T18:58:56Z",
+            "timestamp": "2026-11-27T19:48:34Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -12224,7 +12224,7 @@
             "url": "https://finnhub.io/api/news?id=7376aed7aa14f5a1726fa45335c27171c97bfd10f35f099c18706fdac75f0bd2"
           }
         ],
-        "as_of": "2026-11-27T18:58:56Z",
+        "as_of": "2026-11-27T19:48:34Z",
         "fundamentals_at": "2026-11-26T20:14:36Z",
         "price": 316.44,
         "currency": "USD",
@@ -12263,7 +12263,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:58:56Z",
+          "as_of": "2026-11-27T19:48:34Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -12287,7 +12287,7 @@
           {
             "label": "Quote (USD)",
             "value": "$31.80",
-            "timestamp": "2026-11-27T18:53:34Z",
+            "timestamp": "2026-11-27T19:52:17Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -12303,7 +12303,7 @@
             "url": "https://finnhub.io/api/news?id=4ce2d5e1c093412205d6fa887931ba29a32fe9fcd0e85e3c1623a64bc9958dfd"
           }
         ],
-        "as_of": "2026-11-27T18:53:34Z",
+        "as_of": "2026-11-27T19:52:17Z",
         "fundamentals_at": "2026-11-26T22:03:59Z",
         "price": 31.8,
         "currency": "USD",
@@ -12342,7 +12342,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:53:34Z",
+          "as_of": "2026-11-27T19:52:17Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -12619,7 +12619,7 @@
           {
             "label": "Quote (USD)",
             "value": "$238.14",
-            "timestamp": "2026-11-27T19:06:38Z",
+            "timestamp": "2026-11-27T20:04:37Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -12635,7 +12635,7 @@
             "url": "https://finnhub.io/api/news?id=c40a6a8971a11a5c7222a4dc524dfa61c17b71e04e9fc7d711fc6c38bd62adb6"
           }
         ],
-        "as_of": "2026-11-27T19:06:38Z",
+        "as_of": "2026-11-27T20:04:37Z",
         "fundamentals_at": "2026-11-27T03:07:46Z",
         "price": 238.14,
         "currency": "USD",
@@ -12674,7 +12674,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:06:38Z",
+          "as_of": "2026-11-27T20:04:37Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -12698,7 +12698,7 @@
           {
             "label": "Quote (USD)",
             "value": "$122.68",
-            "timestamp": "2026-11-27T18:54:47Z",
+            "timestamp": "2026-11-27T19:56:04Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -12714,7 +12714,7 @@
             "url": "https://finnhub.io/api/news?id=f7f1a1cc0b8220772a28bca86c9862beaabad6698c68ca0a791f5c220dd924ed"
           }
         ],
-        "as_of": "2026-11-27T18:54:47Z",
+        "as_of": "2026-11-27T19:56:04Z",
         "fundamentals_at": "2026-11-27T03:07:46Z",
         "price": 122.68,
         "currency": "USD",
@@ -12753,7 +12753,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:54:47Z",
+          "as_of": "2026-11-27T19:56:04Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -12777,7 +12777,7 @@
           {
             "label": "Quote (USD)",
             "value": "$150.42",
-            "timestamp": "2026-11-27T18:44:32Z",
+            "timestamp": "2026-11-27T19:45:23Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -12793,7 +12793,7 @@
             "url": "https://finnhub.io/api/news?id=93b6e92930198f7961ae67b6a47c4ae3fad4b6ad709cee0ca6a5e4706f1df419"
           }
         ],
-        "as_of": "2026-11-27T18:44:32Z",
+        "as_of": "2026-11-27T19:45:23Z",
         "fundamentals_at": "2026-11-27T12:05:56Z",
         "price": 150.42,
         "currency": "USD",
@@ -12832,7 +12832,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:44:32Z",
+          "as_of": "2026-11-27T19:45:23Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -13030,7 +13030,7 @@
           {
             "label": "Quote (USD)",
             "value": "$28.16",
-            "timestamp": "2026-11-27T19:11:53Z",
+            "timestamp": "2026-11-27T20:05:26Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -13046,7 +13046,7 @@
             "url": "https://finnhub.io/api/news?id=cca65e552b96a28cad27d599c043e2afc4418c3e46bc88a2d044303188c6e78d"
           }
         ],
-        "as_of": "2026-11-27T19:11:53Z",
+        "as_of": "2026-11-27T20:05:26Z",
         "fundamentals_at": "2026-11-27T12:05:56Z",
         "price": 28.16,
         "currency": "USD",
@@ -13085,7 +13085,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:11:53Z",
+          "as_of": "2026-11-27T20:05:26Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -13331,7 +13331,7 @@
           {
             "label": "Quote (USD)",
             "value": "$109.12",
-            "timestamp": "2026-11-27T18:00:28Z",
+            "timestamp": "2026-11-27T19:52:17Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -13347,7 +13347,7 @@
             "url": "https://finnhub.io/api/news?id=7fdd1c389f29f609354e333e220c31a808ff4ab8588566fdb4ede6057d9cd280"
           }
         ],
-        "as_of": "2026-11-27T18:00:28Z",
+        "as_of": "2026-11-27T19:52:17Z",
         "fundamentals_at": "2026-11-25T12:12:55Z",
         "price": 109.12,
         "currency": "USD",
@@ -13386,7 +13386,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:00:28Z",
+          "as_of": "2026-11-27T19:52:17Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -13584,7 +13584,7 @@
           {
             "label": "Quote (USD)",
             "value": "$165.18",
-            "timestamp": "2026-11-27T18:10:00Z",
+            "timestamp": "2026-11-27T19:48:34Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -13600,7 +13600,7 @@
             "url": "https://finnhub.io/api/news?id=addfde93d088c9f5cfb103240253d9659b0818ac88b4bc14ff00cfd4502404ab"
           }
         ],
-        "as_of": "2026-11-27T18:10:00Z",
+        "as_of": "2026-11-27T19:48:34Z",
         "fundamentals_at": "2026-11-25T22:05:53Z",
         "price": 165.18,
         "currency": "USD",
@@ -13639,7 +13639,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:10:00Z",
+          "as_of": "2026-11-27T19:48:34Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -13663,7 +13663,7 @@
           {
             "label": "Quote (USD)",
             "value": "$242.16",
-            "timestamp": "2026-11-27T18:40:37Z",
+            "timestamp": "2026-11-27T19:52:17Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -13679,7 +13679,7 @@
             "url": "https://finnhub.io/api/news?id=b6884b9c9a0ea3ddc6ed48b1e3dd5a230bb49b4fccc8d7e40c633215dec97dc1"
           }
         ],
-        "as_of": "2026-11-27T18:40:37Z",
+        "as_of": "2026-11-27T19:52:17Z",
         "fundamentals_at": "2026-11-26T16:16:49Z",
         "price": 242.16,
         "currency": "USD",
@@ -13718,7 +13718,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:40:37Z",
+          "as_of": "2026-11-27T19:52:17Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -13918,7 +13918,7 @@
           {
             "label": "Quote (USD)",
             "value": "$246.66",
-            "timestamp": "2026-11-27T18:00:45Z",
+            "timestamp": "2026-11-27T19:41:30Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -13934,7 +13934,7 @@
             "url": "https://finnhub.io/api/news?id=a71d7bf1acbac3062eba1b612ed4aa577cab00ef2a83587774aed64ce8e9ffe1"
           }
         ],
-        "as_of": "2026-11-27T18:00:45Z",
+        "as_of": "2026-11-27T19:41:30Z",
         "fundamentals_at": "2026-11-27T19:07:57Z",
         "price": 246.66,
         "currency": "USD",
@@ -13973,7 +13973,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:00:45Z",
+          "as_of": "2026-11-27T19:41:30Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14095,7 +14095,7 @@
           {
             "label": "Quote (USD)",
             "value": "$292.15",
-            "timestamp": "2026-11-27T19:16:38Z",
+            "timestamp": "2026-11-27T20:17:57Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14111,7 +14111,7 @@
             "url": "https://finnhub.io/api/news?id=89ad8e455e11d614ad87de47886ac23f9824e33232018aa5ea86e0665c83367d"
           }
         ],
-        "as_of": "2026-11-27T19:16:38Z",
+        "as_of": "2026-11-27T20:17:57Z",
         "fundamentals_at": "2026-11-26T04:12:48Z",
         "price": 292.15,
         "currency": "USD",
@@ -14150,7 +14150,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:16:38Z",
+          "as_of": "2026-11-27T20:17:57Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14182,7 +14182,7 @@
           {
             "label": "Quote (USD)",
             "value": "$228.52",
-            "timestamp": "2026-11-27T18:19:34Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14198,7 +14198,7 @@
             "url": "https://finnhub.io/api/news?id=a9d4a6a584af0040c608032142e1435a6afc04cd05d2777ba986c632bc9cf5fd"
           }
         ],
-        "as_of": "2026-11-27T18:19:34Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-26T17:24:22Z",
         "price": 228.52,
         "currency": "USD",
@@ -14237,7 +14237,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:19:34Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14269,7 +14269,7 @@
           {
             "label": "Quote (USD)",
             "value": "$275.00",
-            "timestamp": "2026-11-27T19:07:41Z",
+            "timestamp": "2026-11-27T20:07:39Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14285,7 +14285,7 @@
             "url": "https://finnhub.io/api/news?id=ccb83e0bd6299a160bd26c2c7dab41080b62eb966bf96d125c76f3e43f010e28"
           }
         ],
-        "as_of": "2026-11-27T19:07:41Z",
+        "as_of": "2026-11-27T20:07:39Z",
         "fundamentals_at": "2026-11-26T05:22:25Z",
         "price": 275.0,
         "currency": "USD",
@@ -14324,7 +14324,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:41Z",
+          "as_of": "2026-11-27T20:07:39Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14356,7 +14356,7 @@
           {
             "label": "Quote (USD)",
             "value": "$272.48",
-            "timestamp": "2026-11-27T19:13:18Z",
+            "timestamp": "2026-11-27T20:13:19Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14372,7 +14372,7 @@
             "url": "https://finnhub.io/api/news?id=cf8415427f321c22becf7ce542f6e537f7aed420bc85c95c2ceffd1485506a28"
           }
         ],
-        "as_of": "2026-11-27T19:13:18Z",
+        "as_of": "2026-11-27T20:13:19Z",
         "fundamentals_at": "2026-11-27T07:30:55Z",
         "price": 272.48,
         "currency": "USD",
@@ -14411,7 +14411,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:13:18Z",
+          "as_of": "2026-11-27T20:13:19Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14443,7 +14443,7 @@
           {
             "label": "Quote (USD)",
             "value": "$234.83",
-            "timestamp": "2026-11-27T19:06:29Z",
+            "timestamp": "2026-11-27T19:51:53Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14459,7 +14459,7 @@
             "url": "https://finnhub.io/api/news?id=3f79571447a1fe04ac6036d9495b4400dfcece111551c13ec9ed01ed2ba888ab"
           }
         ],
-        "as_of": "2026-11-27T19:06:29Z",
+        "as_of": "2026-11-27T19:51:53Z",
         "fundamentals_at": "2026-11-26T07:32:11Z",
         "price": 234.83,
         "currency": "USD",
@@ -14498,7 +14498,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:06:29Z",
+          "as_of": "2026-11-27T19:51:53Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14530,7 +14530,7 @@
           {
             "label": "Quote (USD)",
             "value": "$86.96",
-            "timestamp": "2026-11-27T18:40:39Z",
+            "timestamp": "2026-11-27T19:48:33Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14546,7 +14546,7 @@
             "url": "https://finnhub.io/api/news?id=858a19b39fa1a4c9dfe771a7769c3a15498371b80dd74c3cc4b931985085d33a"
           }
         ],
-        "as_of": "2026-11-27T18:40:39Z",
+        "as_of": "2026-11-27T19:48:33Z",
         "fundamentals_at": "2026-11-26T13:30:41Z",
         "price": 86.96,
         "currency": "USD",
@@ -14585,7 +14585,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T18:40:39Z",
+          "as_of": "2026-11-27T19:48:33Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14617,7 +14617,7 @@
           {
             "label": "Quote (USD)",
             "value": "$16.98",
-            "timestamp": "2026-11-27T19:06:39Z",
+            "timestamp": "2026-11-27T19:56:43Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14633,7 +14633,7 @@
             "url": "https://finnhub.io/api/news?id=378146fa355f56e3dc5422312de2bdc1df3a8bd335b9a11c3e5a67cfcabf1bbb"
           }
         ],
-        "as_of": "2026-11-27T19:06:39Z",
+        "as_of": "2026-11-27T19:56:43Z",
         "fundamentals_at": "2026-11-25T19:02:33Z",
         "price": 16.98,
         "currency": "USD",
@@ -14672,7 +14672,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:06:39Z",
+          "as_of": "2026-11-27T19:56:43Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14704,7 +14704,7 @@
           {
             "label": "Quote (USD)",
             "value": "$150.52",
-            "timestamp": "2026-11-27T19:07:43Z",
+            "timestamp": "2026-11-27T20:07:49Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
@@ -14720,7 +14720,7 @@
             "url": "https://finnhub.io/api/news?id=3e24915ace580297fba39e955b398608858c95c98437452a4368e1198ec207cc"
           }
         ],
-        "as_of": "2026-11-27T19:07:43Z",
+        "as_of": "2026-11-27T20:07:49Z",
         "fundamentals_at": "2026-11-26T05:22:25Z",
         "price": 150.52,
         "currency": "USD",
@@ -14759,7 +14759,7 @@
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
           "currency": "USD",
-          "as_of": "2026-11-27T19:07:43Z",
+          "as_of": "2026-11-27T20:07:49Z",
           "basis": [
             "Finnhub US share quote",
             "Finnhub P/E, growth and 52-week range"
@@ -14784,55 +14784,55 @@
         "symbol": "SNDK",
         "change_pct": 15.99,
         "price": 85.38,
-        "price_at": "2026-11-27T19:17:07Z"
+        "price_at": "2026-11-27T20:17:31Z"
       },
       {
         "symbol": "COHR",
         "change_pct": 14.088,
         "price": 223.83,
-        "price_at": "2026-11-27T19:13:38Z"
+        "price_at": "2026-11-27T20:13:58Z"
       },
       {
         "symbol": "EWZ",
         "change_pct": 9.847,
         "price": 33.13,
-        "price_at": "2026-11-27T19:08:22Z"
+        "price_at": "2026-11-27T20:09:14Z"
       },
       {
         "symbol": "LITE",
         "change_pct": 7.992,
         "price": 514.67,
-        "price_at": "2026-11-27T19:15:05Z"
+        "price_at": "2026-11-27T20:15:56Z"
       },
       {
         "symbol": "STX",
         "change_pct": 7.912,
         "price": 509.7,
-        "price_at": "2026-11-27T19:16:00Z"
+        "price_at": "2026-11-27T20:13:27Z"
       },
       {
         "symbol": "MU",
         "change_pct": 7.607,
         "price": 646.99,
-        "price_at": "2026-11-27T19:11:47Z"
+        "price_at": "2026-11-27T20:11:54Z"
       },
       {
         "symbol": "GNRC",
         "change_pct": 7.461,
         "price": 219.21,
-        "price_at": "2026-11-27T18:55:32Z"
+        "price_at": "2026-11-27T19:38:41Z"
       },
       {
         "symbol": "MRVL",
         "change_pct": 7.363,
         "price": 140.57,
-        "price_at": "2026-11-27T19:15:38Z"
+        "price_at": "2026-11-27T20:16:21Z"
       },
       {
         "symbol": "WDC",
         "change_pct": 7.231,
         "price": 292.15,
-        "price_at": "2026-11-27T19:16:38Z"
+        "price_at": "2026-11-27T20:17:57Z"
       },
       {
         "symbol": "P",
@@ -14844,61 +14844,61 @@
         "symbol": "IP",
         "change_pct": 6.92,
         "price": 34.3,
-        "price_at": "2026-11-27T18:33:38Z"
+        "price_at": "2026-11-27T20:00:26Z"
       },
       {
         "symbol": "DELL",
         "change_pct": 6.712,
         "price": 317,
-        "price_at": "2026-11-27T19:13:47Z"
+        "price_at": "2026-11-27T20:13:07Z"
       },
       {
         "symbol": "BE",
         "change_pct": 6.645,
         "price": 163.05,
-        "price_at": "2026-11-27T19:13:41Z"
+        "price_at": "2026-11-27T20:13:42Z"
       },
       {
         "symbol": "ANET",
         "change_pct": 6.567,
         "price": 174.76,
-        "price_at": "2026-11-27T18:56:40Z"
+        "price_at": "2026-11-27T20:11:06Z"
       },
       {
         "symbol": "QCOM",
         "change_pct": 6.309,
         "price": 179.3,
-        "price_at": "2026-11-27T19:14:07Z"
+        "price_at": "2026-11-27T20:00:30Z"
       },
       {
         "symbol": "SHOP",
         "change_pct": 6.304,
         "price": 141.81,
-        "price_at": "2026-11-27T19:02:11Z"
+        "price_at": "2026-11-27T20:03:49Z"
       },
       {
         "symbol": "HONA",
         "change_pct": 6.202,
         "price": 167.63,
-        "price_at": "2026-11-27T18:57:50Z"
+        "price_at": "2026-11-27T20:13:11Z"
       },
       {
         "symbol": "ON",
         "change_pct": 6.05,
         "price": 66.26,
-        "price_at": "2026-11-27T18:53:58Z"
+        "price_at": "2026-11-27T20:00:16Z"
       },
       {
         "symbol": "AXON",
         "change_pct": 5.967,
         "price": 363.52,
-        "price_at": "2026-11-27T19:05:32Z"
+        "price_at": "2026-11-27T19:35:57Z"
       },
       {
         "symbol": "MPWR",
         "change_pct": 5.896,
         "price": 1265.06,
-        "price_at": "2026-11-27T18:47:47Z"
+        "price_at": "2026-11-27T19:53:28Z"
       }
     ],
     "weekly": {
@@ -15349,7 +15349,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T19:07:57Z",
+      "generated_at": "2026-11-27T20:08:09Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 840,
