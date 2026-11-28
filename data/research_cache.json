@@ -28434,47 +28434,38 @@
       "metrics": {
         "52WeekHigh": 84.42,
         "52WeekLow": 47.92,
-        "psTTM": 3.2529,
+        "psTTM": 3.3182,
         "netProfitMarginTTM": -4.08,
         "roeTTM": -2.91,
         "revenueGrowthTTMYoy": 6.88,
         "currentRatioQuarterly": 0.9283,
         "totalDebt/totalEquityQuarterly": 0.3082,
-        "marketCapitalization": 12518.96
+        "marketCapitalization": 12769.981
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Trimble Inc",
       "profile": {
         "weburl": "https://www.trimble.com/en",
         "industry": "Technology",
         "name": "Trimble Inc"
       },
-      "news": [
-        {
-          "headline": "Trimble Appoints Matthew C. Brown to Board of Directors",
-          "url": "https://finnhub.io/api/news?id=db776429600a109054c88029a8efaa62e3cd304d75f25b2838abe2e8739a3394",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:05:00Z",
-          "primary": false,
-          "symbol": "TRMB"
-        }
-      ]
+      "news": []
     },
     "TWLO": {
       "metrics": {
         "52WeekHigh": 308.4,
         "52WeekLow": 105.0,
-        "peTTM": 21.3004,
-        "psTTM": 4.6486,
+        "peTTM": 21.7681,
+        "psTTM": 4.7506,
         "netProfitMarginTTM": 21.82,
         "roeTTM": 15.079999999999998,
         "revenueGrowthTTMYoy": 19.1,
         "epsGrowthTTMYoy": 1806.67,
         "currentRatioQuarterly": 4.4705,
         "totalDebt/totalEquityQuarterly": 0.1083,
-        "marketCapitalization": 27107.955
+        "marketCapitalization": 27703.223
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Twilio Inc.",
       "profile": {
         "weburl": "https://www.twilio.com/en-us",
@@ -28482,6 +28473,30 @@
         "name": "Twilio Inc."
       },
       "news": [
+        {
+          "headline": "Can Rising Adoption of AI Agents Boost Twilio's Messaging Business?",
+          "url": "https://finnhub.io/api/news?id=b7f4f8d461e299f60937126ecf68128fa85b7ed793a805d192ec251a71598e82",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T12:50:00Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
+        {
+          "headline": "Twilio: Solid Results, But AI Disruption And Valuation Risks Remain",
+          "url": "https://finnhub.io/api/news?id=0d5f75ab08cf72622d55c12ce54a24d83efb02aec9281b797dedc19973d61581",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-26T21:10:20Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
+        {
+          "headline": "Here's How Much $100 Invested In Twilio 10 Years Ago Would Be Worth Today",
+          "url": "https://finnhub.io/api/news?id=e5e2866b4c1ab4457872cb5cbf5f1db0a48c2b7277f8464f0ff7c8babb8c979b",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T18:00:14Z",
+          "primary": false,
+          "symbol": "TWLO"
+        },
         {
           "headline": "Twilio: 'Buy' At Nearly Half Off, Strength Is Durable",
           "url": "https://finnhub.io/api/news?id=37f5e65e9dee42b5d5469e7cdfd2a1c977ebc6ccb7b69fdfd31aa71dee584a0d",
@@ -28497,48 +28512,24 @@
           "published_at": "2026-11-21T12:09:11Z",
           "primary": false,
           "symbol": "TWLO"
-        },
-        {
-          "headline": "Can Twilio's Record Profit Margin Last?",
-          "url": "https://finnhub.io/api/news?id=485a459192d88a1bfce14992538dc816c466de1928a62078f7206f9866b12178",
-          "source": "Yahoo",
-          "published_at": "2026-11-21T06:32:47Z",
-          "primary": false,
-          "symbol": "TWLO"
-        },
-        {
-          "headline": "Investors Heavily Search Twilio Inc. (TWLO): Here is What You Need to Know",
-          "url": "https://finnhub.io/api/news?id=e7d9f447e7ee4cbd5bfdccfb1e0247c28a5a757bbe9dfe4bfdb9f383edd4b3f7",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:03Z",
-          "primary": false,
-          "symbol": "TWLO"
-        },
-        {
-          "headline": "Twilio vs. ServiceNow: Which AI Software Stock Has the Edge?",
-          "url": "https://finnhub.io/api/news?id=a767e790f3de6f50c35ef80a58a690ff0469f084b4b8157bb9011bc084e123c4",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:06:00Z",
-          "primary": false,
-          "symbol": "TWLO"
         }
       ]
     },
     "TYL": {
       "metrics": {
-        "52WeekHigh": 473.72,
+        "52WeekHigh": 473.31,
         "52WeekLow": 270.71,
-        "peTTM": 49.6091,
-        "psTTM": 6.7035,
+        "peTTM": 49.6787,
+        "psTTM": 6.7129,
         "netProfitMarginTTM": 13.51,
         "roeTTM": 10.25,
         "revenueGrowthTTMYoy": 7.96,
         "epsGrowthTTMYoy": 10.63,
         "currentRatioQuarterly": 1.3322,
         "totalDebt/totalEquityQuarterly": 0.5054,
-        "marketCapitalization": 16633.766
+        "marketCapitalization": 16657.117
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Tyler Technologies, Inc.",
       "profile": {
         "weburl": "https://www.tylertech.com",
@@ -28547,42 +28538,34 @@
       },
       "news": [
         {
+          "headline": "Is Tyler Technologies (TYL) Expensive As AI Momentum And Client Wins Lift Optimism?",
+          "url": "https://finnhub.io/api/news?id=00b225e412ee28fb3c2bb4d3d524989c0bffe54463864fa932469c959073931c",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T21:15:30Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
+          "headline": "Why Is Tyler Technologies (TYL) Up 12.4% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=d3b0f66b148656ead159f3452e52e360064c0d42301dbeeab3a3edbe46486a1d",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T15:30:19Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
+          "headline": "Is Wall Street Bullish or Bearish on Tyler Technologies Stock?",
+          "url": "https://finnhub.io/api/news?id=62df8174a2ec69b58246f68872c7cd1a3d279563af6f994b0091500267ff2c0b",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T19:26:43Z",
+          "primary": false,
+          "symbol": "TYL"
+        },
+        {
           "headline": "DFIN or TYL: Which Is the Better Value Stock Right Now?",
           "url": "https://finnhub.io/api/news?id=975d0b8d02b3a3101bddbe101bbab53ae01ba19e40b10b8ae46a5c2404cb82b3",
           "source": "Yahoo",
           "published_at": "2026-11-23T15:40:02Z",
-          "primary": false,
-          "symbol": "TYL"
-        },
-        {
-          "headline": "Arkansas Launches Statewide Digital Services App, Bringing More than 50 Government Services to Residents with Tyler Technologies",
-          "url": "https://finnhub.io/api/news?id=875f399d9ab46aed080eac371f7b736502dd39158d2452edd4a400225c0ea230",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:17:00Z",
-          "primary": false,
-          "symbol": "TYL"
-        },
-        {
-          "headline": "TD Cowen Maintains Buy on Tyler Technologies, Raises Price Target to $475",
-          "url": "https://finnhub.io/api/news?id=be0e9ca24b349cb0bc6c2e481e28a1e2194672e5eeb4632fca0ed3396845eb19",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T11:01:08Z",
-          "primary": false,
-          "symbol": "TYL"
-        },
-        {
-          "headline": "Truist Securities Reiterates Buy on Tyler Technologies, Raises Price Target to $500",
-          "url": "https://finnhub.io/api/news?id=7cfedaa2a2eefbdb681113e41890e97e90d837b07d023bc7b58ecddf0f6835c1",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T09:43:07Z",
-          "primary": false,
-          "symbol": "TYL"
-        },
-        {
-          "headline": "Tyler Technologies CEO Lynn Moore Sells $13M As Shares Pull Back After Rally",
-          "url": "https://finnhub.io/api/news?id=032725b5b281066a0bd817ea5892d92737895cf598546b858b558f51057346a4",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T09:05:16Z",
           "primary": false,
           "symbol": "TYL"
         }
@@ -28592,17 +28575,17 @@
       "metrics": {
         "52WeekHigh": 69.48,
         "52WeekLow": 49.96,
-        "peTTM": 38.6024,
-        "psTTM": 0.3961,
-        "netProfitMarginTTM": 1.03,
-        "roeTTM": 3.18,
-        "revenueGrowthTTMYoy": 3.32,
-        "epsGrowthTTMYoy": -26.47,
-        "currentRatioQuarterly": 1.4334,
-        "totalDebt/totalEquityQuarterly": 0.4428,
-        "marketCapitalization": 22157.785
+        "peTTM": 49.006,
+        "psTTM": 0.391,
+        "netProfitMarginTTM": 0.8,
+        "roeTTM": 2.52,
+        "revenueGrowthTTMYoy": 4.29,
+        "epsGrowthTTMYoy": -3.82,
+        "currentRatioQuarterly": 1.4958,
+        "totalDebt/totalEquityQuarterly": 0.44,
+        "marketCapitalization": 22199.71
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Tyson Foods Inc",
       "profile": {
         "weburl": "https://www.tysonfoods.com/",
@@ -28656,17 +28639,17 @@
       "metrics": {
         "52WeekHigh": 42.0,
         "52WeekLow": 33.1,
-        "peTTM": 16.4693,
-        "psTTM": 6.7117,
+        "peTTM": 16.4513,
+        "psTTM": 6.7043,
         "netProfitMarginTTM": 40.75,
         "roeTTM": 22.08,
         "revenueGrowthTTMYoy": 0.62,
         "epsGrowthTTMYoy": 371.83,
         "currentRatioQuarterly": 0.0009,
         "totalDebt/totalEquityQuarterly": 1.8401,
-        "marketCapitalization": 11493.266
+        "marketCapitalization": 11480.729
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "UDR, Inc.",
       "profile": {
         "weburl": "https://www.udr.com/",
@@ -28704,17 +28687,17 @@
       "metrics": {
         "52WeekHigh": 714.97,
         "52WeekLow": 443.6,
-        "peTTM": 22.062,
-        "psTTM": 2.0606,
+        "peTTM": 21.969,
+        "psTTM": 2.0519,
         "netProfitMarginTTM": 9.34,
         "roeTTM": 45.4,
         "revenueGrowthTTMYoy": 11.16,
         "epsGrowthTTMYoy": 5.21,
         "currentRatioQuarterly": 1.3451,
         "totalDebt/totalEquityQuarterly": 0.1284,
-        "marketCapitalization": 26695.662
+        "marketCapitalization": 26583.086
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Ulta Beauty Inc",
       "profile": {
         "weburl": "https://www.ulta.com/",
@@ -28722,6 +28705,30 @@
         "name": "Ulta Beauty Inc"
       },
       "news": [
+        {
+          "headline": "Will ULTA Continue Its Positive Earnings Surprise Streak in Q3?",
+          "url": "https://finnhub.io/api/news?id=236ecde8b24598b87c1ce1c57d7ede8645e37b0da0815769650a3990eef2e85c",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T10:59:00Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Ulta Beauty (ULTA) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+          "url": "https://finnhub.io/api/news?id=370a4314d9909565672fd566d5944d1abf737e74d11b6d430c3325eb354ad592",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T14:00:07Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
+        {
+          "headline": "Ulta Beauty (ULTA) Lifts Guidance Following Strong Q2 Results, Is The Stock Now Too Pricey?",
+          "url": "https://finnhub.io/api/news?id=8a3a2951167febfb43d1c4128b9c607d3eec9e03cbb5ec12ab8279fc3f489917",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T01:12:59Z",
+          "primary": false,
+          "symbol": "ULTA"
+        },
         {
           "headline": "Top 3 holiday consumer stocks: Walmart, Hasbro, and Ulta Beauty",
           "url": "https://finnhub.io/api/news?id=132a01879496e5cc0f65d58edd996ab8f7d382d78e6cff6287363548ef28038e",
@@ -28737,30 +28744,6 @@
           "published_at": "2026-11-25T12:25:57Z",
           "primary": false,
           "symbol": "ULTA"
-        },
-        {
-          "headline": "Ulta Beauty (ULTA) Gains As Market Dips: What You Should Know",
-          "url": "https://finnhub.io/api/news?id=4b7b63852cb736daf51b93da79caee4cc9f5868bd113ea9f04cc77d25e7d6e04",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T21:45:03Z",
-          "primary": false,
-          "symbol": "ULTA"
-        },
-        {
-          "headline": "Ulta (ULTA) is an Incredible Growth Stock: 3 Reasons Why",
-          "url": "https://finnhub.io/api/news?id=4dae45bf6e3c454071901a6eff12df6f5699a161deb1267874c99b2bfb75fa01",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T16:45:01Z",
-          "primary": false,
-          "symbol": "ULTA"
-        },
-        {
-          "headline": "Oppenheimer Maintains Outperform on Ulta Beauty, Raises Price Target to $735",
-          "url": "https://finnhub.io/api/news?id=7515e3e5cbb1a23649a8a90214bc616d3e927ae8162ff5fd84cc8c5c11c52156",
-          "source": "Benzinga",
-          "published_at": "2026-11-24T11:22:12Z",
-          "primary": false,
-          "symbol": "ULTA"
         }
       ]
     },
@@ -28768,17 +28751,17 @@
       "metrics": {
         "52WeekHigh": 138.77,
         "52WeekLow": 84.64,
-        "peTTM": 8.9712,
-        "psTTM": 0.4894,
+        "peTTM": 9.1926,
+        "psTTM": 0.5015,
         "netProfitMarginTTM": 5.46,
         "roeTTM": 21.8,
         "revenueGrowthTTMYoy": 12.31,
         "epsGrowthTTMYoy": 9.39,
         "currentRatioQuarterly": 0.7503,
         "totalDebt/totalEquityQuarterly": 1.4869,
-        "marketCapitalization": 32081.01
+        "marketCapitalization": 32872.906
       },
-      "updated_at": "2026-11-26T01:27:00Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "United Airlines Holdings, Inc.",
       "profile": {
         "weburl": "https://ir.united.com/",
@@ -28786,6 +28769,22 @@
         "name": "United Airlines Holdings, Inc."
       },
       "news": [
+        {
+          "headline": "Why Are United Airlines Holdings (UAL) Shares Facing Fresh Pressure?",
+          "url": "https://finnhub.io/api/news?id=04783e6f199d2106517075f64b1460315ff1cab2d19abf7461687e278f9d1c79",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T22:16:43Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
+        {
+          "headline": "Could United Airlines Holdings (UAL) Be 30% Undervalued After The Freight Demand Story?",
+          "url": "https://finnhub.io/api/news?id=edfb9ead62672ad0a9efa6ffaf5eb052c8a7133d1c05c30c294730ecc26061e3",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T10:07:35Z",
+          "primary": false,
+          "symbol": "UAL"
+        },
         {
           "headline": "United Airlines (UAL) Suffers a Larger Drop Than the General Market: Key Insights",
           "url": "https://finnhub.io/api/news?id=a79fc8d43bdb9a31b5a5c437cf95b618808cc866bfb80c207cb56ea68cc62ba7",
@@ -28809,22 +28808,6 @@
           "published_at": "2026-11-24T16:59:36Z",
           "primary": false,
           "symbol": "UAL"
-        },
-        {
-          "headline": "United Airlines leads Thanksgiving airline gains on pricing power and premium mix",
-          "url": "https://finnhub.io/api/news?id=ebf3561d0c700faec749a2e685383828f93d118ac3c913815227ca270c505cb0",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T13:53:30Z",
-          "primary": false,
-          "symbol": "UAL"
-        },
-        {
-          "headline": "United Airlines Has Warned Air Traffic Control Isn’t Ready for Air Taxis. That’s a Bigger Problem for Archer Than Its Cash Burn.",
-          "url": "https://finnhub.io/api/news?id=34e2fe47399be207abc38789f69f7201a0e63f91c2bc7830ec60809130b2c64b",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T20:25:02Z",
-          "primary": false,
-          "symbol": "UAL"
         }
       ]
     },
@@ -28832,17 +28815,17 @@
       "metrics": {
         "52WeekHigh": 246.33,
         "52WeekLow": 140.08,
-        "peTTM": 7.3221,
-        "psTTM": 0.5832,
+        "peTTM": 7.3503,
+        "psTTM": 0.5854,
         "netProfitMarginTTM": 7.96,
         "roeTTM": 19.59,
         "revenueGrowthTTMYoy": 8.0,
         "epsGrowthTTMYoy": 13.65,
         "currentRatioQuarterly": 1.3694,
         "totalDebt/totalEquityQuarterly": 0.7513,
-        "marketCapitalization": 10703.044
+        "marketCapitalization": 10744.324
       },
-      "updated_at": "2026-11-26T03:04:05Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Universal Health Services, Inc.",
       "profile": {
         "weburl": "https://uhs.com",
@@ -28850,6 +28833,14 @@
         "name": "Universal Health Services, Inc."
       },
       "news": [
+        {
+          "headline": "Universal Health Services (UHS) Up 10.7% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=31080d8c5ca5b35cf6d751cbfc675c6404db3e5a541cb36e6dd26a09d5e655ba",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:18Z",
+          "primary": false,
+          "symbol": "UHS"
+        },
         {
           "headline": "Universal Health Services Stock: Is Wall Street Bullish or Bearish?",
           "url": "https://finnhub.io/api/news?id=ed582e68ed333893b1b8b376f4b49712f299bb0fbc086fdfc041ab1f13e5ff3a",
@@ -28881,14 +28872,6 @@
           "published_at": "2026-11-23T11:17:48Z",
           "primary": false,
           "symbol": "UHS"
-        },
-        {
-          "headline": "Universal Health Services, Inc. Announces Dividend",
-          "url": "https://finnhub.io/api/news?id=b9c17e5f684863e7c621a12f1d60cb70efdddb64fd8a340f9c3be87abce60f84",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T21:20:00Z",
-          "primary": false,
-          "symbol": "UHS"
         }
       ]
     },
@@ -28896,17 +28879,17 @@
       "metrics": {
         "52WeekHigh": 325.99,
         "52WeekLow": 148.05,
-        "peTTM": 43.379,
-        "psTTM": 12.7295,
+        "peTTM": 43.2721,
+        "psTTM": 12.6981,
         "netProfitMarginTTM": 29.34,
         "roeTTM": 14.000000000000002,
         "revenueGrowthTTMYoy": 16.5,
         "epsGrowthTTMYoy": 25.58,
         "currentRatioQuarterly": 5.4578,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 44019.793
+        "marketCapitalization": 43911.32
       },
-      "updated_at": "2026-11-26T03:04:05Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Veeva Systems Inc.",
       "profile": {
         "weburl": "https://www.veeva.com/medtech/",
@@ -28914,6 +28897,22 @@
         "name": "Veeva Systems Inc."
       },
       "news": [
+        {
+          "headline": "Is Trending Stock Veeva Systems Inc. (VEEV) a Buy Now?",
+          "url": "https://finnhub.io/api/news?id=8d308ee304ade202fda36f813609cc3990cc6e41e56dec70ca204f7b8bec4a81",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T13:00:05Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
+        {
+          "headline": "If You Invested $100 In Veeva Systems Stock 10 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=235783b2f8354d049721f1acb11efbfeca6e426d8889fc2dd3738dcb1c99473f",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T11:00:15Z",
+          "primary": false,
+          "symbol": "VEEV"
+        },
         {
           "headline": "Veeva Systems (VEEV) Advances While Market Declines: Some Information for Investors",
           "url": "https://finnhub.io/api/news?id=d81b25882a8d4fa8bbe3a216ca499b9f05b5446b45903af42da7338d3aa5fdb3",
@@ -28937,40 +28936,24 @@
           "published_at": "2026-11-24T12:51:43Z",
           "primary": false,
           "symbol": "VEEV"
-        },
-        {
-          "headline": "Veeva (VEEV) Stock May Be 17% Undervalued On Cash Flow Expectations",
-          "url": "https://finnhub.io/api/news?id=9dc581d35173098c5d161b7a2dac6a06dea4be54a8bccda89d8549ef72bf9356",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T23:16:05Z",
-          "primary": false,
-          "symbol": "VEEV"
-        },
-        {
-          "headline": "Why Is Veeva Stock Falling?",
-          "url": "https://finnhub.io/api/news?id=d8a7dc25a2a70e63f2442094f84d7b4c38ae866c5f03b4dc85495d6792f51c0e",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T12:15:11Z",
-          "primary": false,
-          "symbol": "VEEV"
         }
       ]
     },
     "VLTO": {
       "metrics": {
-        "52WeekHigh": 120.35,
+        "52WeekHigh": 120.965,
         "52WeekLow": 80.03,
-        "peTTM": 28.9862,
-        "psTTM": 5.0067,
+        "peTTM": 29.198,
+        "psTTM": 5.0433,
         "netProfitMarginTTM": 17.27,
         "roeTTM": 32.22,
         "revenueGrowthTTMYoy": 6.4,
         "epsGrowthTTMYoy": 10.85,
         "currentRatioQuarterly": 2.0293,
         "totalDebt/totalEquityQuarterly": 0.9037,
-        "marketCapitalization": 29044.156
+        "marketCapitalization": 29256.406
       },
-      "updated_at": "2026-11-26T03:04:05Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Veralto Corporation",
       "profile": {
         "weburl": "https://www.veralto.com/",
@@ -29016,17 +28999,17 @@
       "metrics": {
         "52WeekHigh": 324.6342,
         "52WeekLow": 208.86,
-        "peTTM": 32.9674,
-        "psTTM": 16.1772,
+        "peTTM": 33.0293,
+        "psTTM": 16.2076,
         "netProfitMarginTTM": 49.07,
         "roeTTM": 113.55,
         "revenueGrowthTTMYoy": 6.46,
         "epsGrowthTTMYoy": 8.12,
         "currentRatioQuarterly": 0.4152,
         "totalDebt/totalEquityQuarterly": 1.0716,
-        "marketCapitalization": 28015.695
+        "marketCapitalization": 28068.312
       },
-      "updated_at": "2026-11-26T03:04:05Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "VeriSign, Inc.",
       "profile": {
         "weburl": "https://www.verisign.com/",
@@ -29034,6 +29017,14 @@
         "name": "VeriSign, Inc."
       },
       "news": [
+        {
+          "headline": "If You Invested $1000 In VeriSign Stock 10 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=c6bd4717f15ed25b646358e456b8efd30360e11f8803b0bae17ed0c74e54bd7a",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T18:30:16Z",
+          "primary": false,
+          "symbol": "VRSN"
+        },
         {
           "headline": "Is Wall Street Bullish or Bearish on VeriSign Stock?",
           "url": "https://finnhub.io/api/news?id=c8932457a775ce32cc6218e62682a25fee7db1ae88094ad3f1b762f9a8d1899a",
@@ -29056,17 +29047,17 @@
       "metrics": {
         "52WeekHigh": 227.16,
         "52WeekLow": 155.94,
-        "peTTM": 30.0979,
-        "psTTM": 8.3301,
+        "peTTM": 30.0031,
+        "psTTM": 8.3038,
         "netProfitMarginTTM": 27.68,
         "roeTTM": 324.28,
         "revenueGrowthTTMYoy": 4.86,
         "epsGrowthTTMYoy": 0.65,
         "currentRatioQuarterly": 1.0688,
         "totalDebt/totalEquityQuarterly": 15.3307,
-        "marketCapitalization": 26462.111
+        "marketCapitalization": 26378.754
       },
-      "updated_at": "2026-11-26T03:04:05Z",
+      "updated_at": "2026-11-28T10:58:03Z",
       "name": "Verisk Analytics, Inc.",
       "profile": {
         "weburl": "https://www.verisk.com",
@@ -30257,6 +30248,6 @@
       ]
     }
   },
-  "cursor": 491,
-  "updated_at": "2026-11-28T09:59:09Z"
+  "cursor": 503,
+  "updated_at": "2026-11-28T10:58:03Z"
 }

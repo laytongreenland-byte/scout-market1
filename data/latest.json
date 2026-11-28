@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T09:59:09Z",
+  "generated_at": "2026-11-28T10:58:03Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-28T09:59:09Z",
+      "checked_at": "2026-11-28T10:58:03Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-28T09:59:09Z",
+      "checked_at": "2026-11-28T10:58:03Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-28T09:59:09Z",
+      "checked_at": "2026-11-28T10:58:03Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-28T09:59:09Z",
+      "checked_at": "2026-11-28T10:58:03Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-28T09:59:09Z",
+      "checked_at": "2026-11-28T10:58:03Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-28T09:59:09Z",
+    "generated_at": "2026-11-28T10:58:03Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10524,7 +10524,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Technology",
-        "why": "Net profit margin 21.8% (TTM); Return on equity 15.1% (TTM); Trailing P/E 21.3×; TTM revenue growth 19.1% YoY",
+        "why": "Net profit margin 21.8% (TTM); Return on equity 15.1% (TTM); Trailing P/E 21.8×; TTM revenue growth 19.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10538,35 +10538,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-26T01:27:00Z",
+            "timestamp": "2026-11-28T10:58:03Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Twilio: 'Buy' At Nearly Half Off, Strength Is Durable",
-            "timestamp": "2026-11-23T18:53:21Z",
-            "url": "https://finnhub.io/api/news?id=37f5e65e9dee42b5d5469e7cdfd2a1c977ebc6ccb7b69fdfd31aa71dee584a0d"
+            "value": "Can Rising Adoption of AI Agents Boost Twilio's Messaging Business?",
+            "timestamp": "2026-11-27T12:50:00Z",
+            "url": "https://finnhub.io/api/news?id=b7f4f8d461e299f60937126ecf68128fa85b7ed793a805d192ec251a71598e82"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-26T01:27:00Z",
+        "fundamentals_at": "2026-11-28T10:58:03Z",
         "price": 185.61,
         "currency": "USD",
         "change_pct": 2.666,
         "news": [
           {
-            "headline": "Twilio: 'Buy' At Nearly Half Off, Strength Is Durable",
-            "url": "https://finnhub.io/api/news?id=37f5e65e9dee42b5d5469e7cdfd2a1c977ebc6ccb7b69fdfd31aa71dee584a0d",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-23T18:53:21Z",
+            "headline": "Can Rising Adoption of AI Agents Boost Twilio's Messaging Business?",
+            "url": "https://finnhub.io/api/news?id=b7f4f8d461e299f60937126ecf68128fa85b7ed793a805d192ec251a71598e82",
+            "source": "Yahoo",
+            "published_at": "2026-11-27T12:50:00Z",
             "primary": false,
             "symbol": "TWLO"
           },
           {
-            "headline": "How AI Voice Upgrades Will Impact Twilio (TWLO) Stock",
-            "url": "https://finnhub.io/api/news?id=2642e9a4ed70a2d9dc954b72279adf3eb9a46e95854a25b0edb7dd891b4a4139",
-            "source": "Yahoo",
-            "published_at": "2026-11-21T12:09:11Z",
+            "headline": "Twilio: Solid Results, But AI Disruption And Valuation Risks Remain",
+            "url": "https://finnhub.io/api/news?id=0d5f75ab08cf72622d55c12ce54a24d83efb02aec9281b797dedc19973d61581",
+            "source": "SeekingAlpha",
+            "published_at": "2026-11-26T21:10:20Z",
             "primary": false,
             "symbol": "TWLO"
           }
@@ -10576,12 +10576,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 144.53,
-          "entry_floor": 130.07,
-          "exit_review_low": 185.29,
-          "exit_review_high": 225.74,
-          "bear_case": 98.62,
-          "scenario_upside_pct": -0.2,
+          "entry_ceiling": 141.42,
+          "entry_floor": 127.28,
+          "exit_review_low": 181.31,
+          "exit_review_high": 220.89,
+          "bear_case": 96.5,
+          "scenario_upside_pct": -2.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10594,12 +10594,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 21.3,
+            "trailing_pe": 21.77,
             "earnings_growth_assumed_pct": 8.6,
             "scenario_exit_pe": 19.58,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-26T01:27:00Z"
+            "metrics_retrieved_at": "2026-11-28T10:58:03Z"
           }
         },
         "ranking_score": 82,
@@ -15435,7 +15435,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-28T09:59:09Z",
+      "generated_at": "2026-11-28T10:58:03Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 842,
