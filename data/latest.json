@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:06:02Z",
+  "generated_at": "2026-11-27T23:58:59Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T23:06:02Z",
+      "checked_at": "2026-11-27T23:58:59Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T23:06:02Z",
+      "checked_at": "2026-11-27T23:58:59Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T23:06:02Z",
+      "checked_at": "2026-11-27T23:58:59Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T23:06:02Z",
+      "checked_at": "2026-11-27T23:58:59Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T23:06:02Z",
+      "checked_at": "2026-11-27T23:58:59Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T23:06:02Z",
+    "generated_at": "2026-11-27T23:58:59Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10042,7 +10042,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 19.2% (TTM); Return on equity 10.9% (TTM); Trailing P/E 9.8×; TTM revenue growth 57.1% YoY",
+        "why": "Net profit margin 19.2% (TTM); Return on equity 10.9% (TTM); Trailing P/E 10.1×; TTM revenue growth 57.1% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10056,35 +10056,27 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T15:17:49Z",
+            "timestamp": "2026-11-27T23:58:59Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "KeyCorp (KEY) Down 2.6% Since Last Earnings Report: Can It Rebound?",
-            "timestamp": "2026-11-19T15:30:05Z",
-            "url": "https://finnhub.io/api/news?id=1261a19fd6b58e0a5e75283132d69deef407274750e5c8b43a5d21ab2ee85c6d"
+            "value": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
+            "timestamp": "2026-11-25T15:40:03Z",
+            "url": "https://finnhub.io/api/news?id=9dad5c3499c8ffd1a2141d5d0185fc1e6ea371a20c19e90169c02c8c31bd9d66"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T15:17:49Z",
+        "fundamentals_at": "2026-11-27T23:58:59Z",
         "price": 20.5,
         "currency": "USD",
         "change_pct": 1.385,
         "news": [
           {
-            "headline": "KeyCorp (KEY) Down 2.6% Since Last Earnings Report: Can It Rebound?",
-            "url": "https://finnhub.io/api/news?id=1261a19fd6b58e0a5e75283132d69deef407274750e5c8b43a5d21ab2ee85c6d",
+            "headline": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
+            "url": "https://finnhub.io/api/news?id=9dad5c3499c8ffd1a2141d5d0185fc1e6ea371a20c19e90169c02c8c31bd9d66",
             "source": "Yahoo",
-            "published_at": "2026-11-19T15:30:05Z",
-            "primary": false,
-            "symbol": "KEY"
-          },
-          {
-            "headline": "KeyCorp (KEY) Stock Looks Below Fair Value On Current Estimates",
-            "url": "https://finnhub.io/api/news?id=14e5821ced24da0d9bc3b3dcdeec36518bd921e2987d0671004874635d1c5089",
-            "source": "Yahoo",
-            "published_at": "2026-11-18T16:14:16Z",
+            "published_at": "2026-11-25T15:40:03Z",
             "primary": false,
             "symbol": "KEY"
           }
@@ -15356,7 +15348,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T23:06:02Z",
+      "generated_at": "2026-11-27T23:58:59Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 840,
