@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:27:08.869831+00:00",
+  "generated_at": "2026-11-28T10:15:12.725481+00:00",
   "companies": {
     "BGP": {
       "symbol": "BGP",
@@ -1041,14 +1041,222 @@
           "source": "NZX primary announcement"
         }
       ]
+    },
+    "AFT": {
+      "symbol": "AFT",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/aft",
+      "primary_filing_url": "https://www.nzx.com/instruments/AFT",
+      "retrieved_at": "2026-11-28T10:15:12.725481Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Healthcare",
+      "metrics": {
+        "net_margin": 5.54,
+        "revenue_growth": 22.44,
+        "price_52w_high": 4.89,
+        "price_52w_low": 3.35
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "AFT delivers ongoing double digit revenue growth and record",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484449",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AFT 1H27 financial results and conference call",
+          "date": "2026-11-19",
+          "url": "https://www.nzx.com/announcements/484027",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AFT reports double digit revenue growth in 1H FY27",
+          "date": "2026-10-05",
+          "url": "https://www.nzx.com/announcements/481185",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Maxigesic IV Licensed for Japan",
+          "date": "2026-09-27",
+          "url": "https://www.nzx.com/announcements/480629",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Results of 2026 Annual Shareholders' Meeting",
+          "date": "2026-07-31",
+          "url": "https://www.nzx.com/announcements/477117",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "BRW": {
+      "symbol": "BRW",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/brw",
+      "primary_filing_url": "https://www.nzx.com/instruments/BRW",
+      "retrieved_at": "2026-11-28T10:15:12.725481Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Consumer Discretionary",
+      "metrics": {
+        "net_margin": -10.67,
+        "revenue_growth": 20.55,
+        "price_52w_high": 0.91,
+        "price_52w_low": 0.51
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Annual Meeting Speeches and Presentations",
+          "date": "2026-11-19",
+          "url": "https://www.nzx.com/announcements/484019",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Annual Meeting Results Announcement",
+          "date": "2026-11-19",
+          "url": "https://www.nzx.com/announcements/484032",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Notice of 2026 Annual Meeting",
+          "date": "2026-10-20",
+          "url": "https://www.nzx.com/announcements/482073",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Board appointment",
+          "date": "2026-10-18",
+          "url": "https://www.nzx.com/announcements/481913",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Ongoing disclosure notices - Senior managers",
+          "date": "2026-10-16",
+          "url": "https://www.nzx.com/announcements/481912",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "CCC": {
+      "symbol": "CCC",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/ccc",
+      "primary_filing_url": "https://www.nzx.com/instruments/CCC",
+      "retrieved_at": "2026-11-28T10:15:12.725481Z",
+      "fiscal_year": 2026,
+      "period_type": "ANNUAL",
+      "sector": "Consumer Staples",
+      "metrics": {
+        "roe": -16.61,
+        "net_margin": 2.55,
+        "revenue_growth": 83.68,
+        "price_52w_high": 0.26,
+        "price_52w_low": 0.118
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "Half Year Results",
+          "date": "2026-11-25",
+          "url": "https://www.nzx.com/announcements/484446",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Cooks Coffee Company Trading Update",
+          "date": "2026-11-09",
+          "url": "https://www.nzx.com/announcements/483398",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "Financial Assistance Notice",
+          "date": "2026-10-06",
+          "url": "https://www.nzx.com/announcements/481319",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "2026 AGM Presentation",
+          "date": "2026-09-29",
+          "url": "https://www.nzx.com/announcements/480782",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "AGM Meeting Results 2026",
+          "date": "2026-09-29",
+          "url": "https://www.nzx.com/announcements/480793",
+          "source": "NZX primary announcement"
+        }
+      ]
+    },
+    "CDI": {
+      "symbol": "CDI",
+      "market": "NZX",
+      "source": "NZXplorer",
+      "source_url": "https://nzxplorer.co.nz/companies/cdi",
+      "primary_filing_url": "https://www.nzx.com/instruments/CDI",
+      "retrieved_at": "2026-11-28T10:15:12.725481Z",
+      "fiscal_year": 2025,
+      "period_type": "ANNUAL",
+      "sector": "Real Estate",
+      "metrics": {
+        "pe_ratio": 20.63,
+        "roe": 3.45,
+        "net_margin": 29.03,
+        "debt_to_equity": 0.03,
+        "revenue_growth": -22.3,
+        "price_52w_high": 0.845,
+        "price_52w_low": 0.57
+      },
+      "ratio_units_verified": false,
+      "quality": "METRICS_UNVERIFIED_UNITS",
+      "announcements": [
+        {
+          "title": "CDI 2026 Interim Report",
+          "date": "2026-09-14",
+          "url": "https://www.nzx.com/announcements/479761",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "CDI Announces 2026 Interim Results",
+          "date": "2026-08-09",
+          "url": "https://www.nzx.com/announcements/477595",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "CDI subsidiary enters into new banking facility with ANZ",
+          "date": "2026-08-06",
+          "url": "https://www.nzx.com/announcements/477458",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "CDI Receives Fast-track Referral Approval for Middle Road",
+          "date": "2026-06-26",
+          "url": "https://www.nzx.com/announcements/475168",
+          "source": "NZX primary announcement"
+        },
+        {
+          "title": "CDI 2026 ASM Results",
+          "date": "2026-05-26",
+          "url": "https://www.nzx.com/announcements/473348",
+          "source": "NZX primary announcement"
+        }
+      ]
     }
   },
-  "fetched_day": "2026-11-27",
-  "filings_checked_day": "2026-11-27",
+  "fetched_day": "2026-11-28",
+  "filings_checked_day": "2026-11-28",
   "status": {
     "attempted": 4,
     "valid_this_scan": 4,
-    "available": 20,
+    "available": 24,
     "filing_requests": 4,
     "filings_with_official_links": 4,
     "status": "OK",
