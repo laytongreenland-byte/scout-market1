@@ -25737,19 +25737,19 @@
     },
     "PTC": {
       "metrics": {
-        "52WeekHigh": 196.79,
+        "52WeekHigh": 197.075,
         "52WeekLow": 108.5,
-        "peTTM": 20.6062,
-        "psTTM": 7.7895,
+        "peTTM": 20.683,
+        "psTTM": 7.8185,
         "netProfitMarginTTM": 37.8,
         "roeTTM": 28.34,
         "revenueGrowthTTMYoy": -0.21,
         "epsGrowthTTMYoy": 45.41,
         "currentRatioQuarterly": 1.632,
         "totalDebt/totalEquityQuarterly": 0.4718,
-        "marketCapitalization": 21292.098
+        "marketCapitalization": 21371.4
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "PTC Inc.",
       "profile": {
         "weburl": "https://www.ptc.com/",
@@ -25757,6 +25757,14 @@
         "name": "PTC Inc."
       },
       "news": [
+        {
+          "headline": "Invesco S&P 500 Equal Weight (RSP) Sells Moderna and PTC on Nov. 24",
+          "url": "https://finnhub.io/api/news?id=607dd62629963a584d01be3cd1d6ff4b7862eff62edd96dde78bd260e0b0ef67",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T11:04:38Z",
+          "primary": false,
+          "symbol": "PTC"
+        },
         {
           "headline": "PTC Inc. (PTC) Rebounded as AI Threats Faded: Is the Software Stock Back on Track?",
           "url": "https://finnhub.io/api/news?id=bfceb309a057bf3a19d9831a6cda337221523f97cccec3e96aed6ad58c136e6b",
@@ -25772,30 +25780,6 @@
           "published_at": "2026-11-24T11:03:26Z",
           "primary": false,
           "symbol": "PTC"
-        },
-        {
-          "headline": "PTC Expands FedRAMP Offerings to Help U.S. Federal Agencies and Contractors Modernize Product Development",
-          "url": "https://finnhub.io/api/news?id=aa230f5b9a98bc022c092932c4e3214e9fb5d8212f6f53f8dcd4b439e0e70d92",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:30:00Z",
-          "primary": false,
-          "symbol": "PTC"
-        },
-        {
-          "headline": "PTC Stock: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=16d0774edc492b89798a740a920a3846262fc6ba7a83379f5385f176e0e4702c",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T11:44:19Z",
-          "primary": false,
-          "symbol": "PTC"
-        },
-        {
-          "headline": "Invesco S&P 500 Equal Weight (RSP) Buys $0.7 Million More PTC on Nov. 16",
-          "url": "https://finnhub.io/api/news?id=924d8fc409d4ff6f5a938585d445fc98827b742590675e78302fb8b50a6d7f6d",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T11:05:24Z",
-          "primary": false,
-          "symbol": "PTC"
         }
       ]
     },
@@ -25803,17 +25787,17 @@
       "metrics": {
         "52WeekHigh": 87.63,
         "52WeekLow": 66.15,
-        "peTTM": 21.2405,
-        "psTTM": 3.0405,
+        "peTTM": 21.2109,
+        "psTTM": 3.0363,
         "netProfitMarginTTM": 14.31,
         "roeTTM": 10.24,
         "revenueGrowthTTMYoy": 5.28,
         "epsGrowthTTMYoy": -15.09,
         "currentRatioQuarterly": 1.0128,
         "totalDebt/totalEquityQuarterly": 1.4764,
-        "marketCapitalization": 37510.793
+        "marketCapitalization": 37458.45
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Public Service Enterprise Group Incorporated",
       "profile": {
         "weburl": "https://corporate.pseg.com/",
@@ -25835,17 +25819,17 @@
       "metrics": {
         "52WeekHigh": 144.5,
         "52WeekLow": 107.155,
-        "peTTM": 13.3458,
-        "psTTM": 1.5006,
+        "peTTM": 13.8182,
+        "psTTM": 1.5537,
         "netProfitMarginTTM": 11.24,
         "roeTTM": 13.8,
         "revenueGrowthTTMYoy": -9.35,
         "epsGrowthTTMYoy": -27.87,
         "currentRatioQuarterly": 4.9572,
         "totalDebt/totalEquityQuarterly": 0.1674,
-        "marketCapitalization": 23973.615
+        "marketCapitalization": 24822.256
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "PulteGroup, Inc.",
       "profile": {
         "weburl": "https://www.pultegroupinc.com/",
@@ -25860,38 +25844,22 @@
           "published_at": "2026-11-20T13:00:05Z",
           "primary": false,
           "symbol": "PHM"
-        },
-        {
-          "headline": "PulteGroup Increases Quarterly Cash Dividend by 4% to $0.27 Per Share",
-          "url": "https://finnhub.io/api/news?id=4e23b6383db21acf5b70a1de0a640d7db3d9401d9b5bba220caa4149216178f2",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T14:40:00Z",
-          "primary": false,
-          "symbol": "PHM"
-        },
-        {
-          "headline": "PulteGroup Raises Dividend From $0.26 To $0.27",
-          "url": "https://finnhub.io/api/news?id=5390ecf917cfb934c14521738d1c5ca0bb0f4ab72699f393ac0e17a366194350",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T10:40:54Z",
-          "primary": false,
-          "symbol": "PHM"
         }
       ]
     },
     "Q": {
       "metrics": {
         "52WeekHigh": 177.2799,
-        "52WeekLow": 72.81,
-        "peTTM": 39.0262,
-        "psTTM": 4.3895,
+        "52WeekLow": 72.94,
+        "peTTM": 38.6766,
+        "psTTM": 4.3502,
         "netProfitMarginTTM": 11.25,
         "roeTTM": 7.64,
         "currentRatioQuarterly": 2.0083,
         "totalDebt/totalEquityQuarterly": 0.5536,
-        "marketCapitalization": 22869.344
+        "marketCapitalization": 22664.48
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Qnity Electronics, Inc.",
       "profile": {
         "weburl": "https://www.qnityelectronics.com/",
@@ -25899,6 +25867,14 @@
         "name": "Qnity Electronics, Inc."
       },
       "news": [
+        {
+          "headline": "Jim Cramer’s Case for Qnity Electronics Goes Beyond AI",
+          "url": "https://finnhub.io/api/news?id=000e511d5c06e5082d76a7b9528a3ff58bc4a1f173c20acbeee11c39ab34d3f3",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T18:49:45Z",
+          "primary": false,
+          "symbol": "Q"
+        },
         {
           "headline": "Qnity to pay $840M for adhesive maker’s electronics segment",
           "url": "https://finnhub.io/api/news?id=2898c879a205ab5032bb201b2de94af885703cefd24587960a08c94fc156dbf1",
@@ -25930,14 +25906,6 @@
           "published_at": "2026-11-23T21:14:02Z",
           "primary": false,
           "symbol": "Q"
-        },
-        {
-          "headline": "Qnity Stock Rises. The Company Struck an $840 Million Deal.",
-          "url": "https://finnhub.io/api/news?id=d9e01cb3416e476c239e551ab8856eb56b9e08d0ccb70b7a09db4a2118b8b2ba",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T14:41:00Z",
-          "primary": false,
-          "symbol": "Q"
         }
       ]
     },
@@ -25945,17 +25913,17 @@
       "metrics": {
         "52WeekHigh": 259.92,
         "52WeekLow": 121.99,
-        "peTTM": 12.7203,
-        "psTTM": 4.0199,
+        "peTTM": 13.8589,
+        "psTTM": 4.3798,
         "netProfitMarginTTM": 31.6,
         "roeTTM": 50.28,
         "revenueGrowthTTMYoy": -2.63,
         "epsGrowthTTMYoy": 159.64,
         "currentRatioQuarterly": 1.8594,
         "totalDebt/totalEquityQuarterly": 0.4971,
-        "marketCapitalization": 173340.0
+        "marketCapitalization": 188855.0
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "QUALCOMM Incorporated",
       "profile": {
         "weburl": "https://www.qualcomm.com/",
@@ -25964,42 +25932,42 @@
       },
       "news": [
         {
-          "headline": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
-          "url": "https://finnhub.io/api/news?id=6960670cbd9919810b2d46f8eca3172bba29c3e10e134a3310abd3c9a3035d9e",
+          "headline": "How Many Shares of Microchip or Qualcomm Pay $1,000 a Month in Dividends?",
+          "url": "https://finnhub.io/api/news?id=424f479f8dfc5374eaeb7d93754fe156f18c030c3b670a177b676bd9908bd801",
           "source": "Yahoo",
-          "published_at": "2026-11-25T16:52:01Z",
+          "published_at": "2026-11-27T22:35:20Z",
           "primary": false,
           "symbol": "QCOM"
         },
         {
-          "headline": "How Qualcomm’s CMO is reshaping his team for its post-Apple era",
-          "url": "https://finnhub.io/api/news?id=56cfacc331e4f0b10382f038af27806f8baf26794801a9935da0b12317b64e82",
+          "headline": "Qualcomm Stocks Climb 4.18% After Tying CEO Award to $500 Share Price",
+          "url": "https://finnhub.io/api/news?id=b615a407bf0560b9abf1290e8ddc868b0ce10656e30ee9b2d76db6e5e9a76ffc",
           "source": "Yahoo",
-          "published_at": "2026-11-25T16:01:55Z",
+          "published_at": "2026-11-27T18:19:11Z",
           "primary": false,
           "symbol": "QCOM"
         },
         {
-          "headline": "Qualcomm Sets Stunning $500 Stock Target for CEO",
-          "url": "https://finnhub.io/api/news?id=d9f465743f7ed98c0f85b4844803608b076c616e1f6848404bde722793586df0",
+          "headline": "Qualcomm, Cava, and Dutch Bros Earnings and a Robotics IPO",
+          "url": "https://finnhub.io/api/news?id=ae8df20ec2c832a41ed56da5bca857c4a93010308a351e918373c0809241d67e",
           "source": "Yahoo",
-          "published_at": "2026-11-25T14:48:51Z",
+          "published_at": "2026-11-27T18:06:02Z",
           "primary": false,
           "symbol": "QCOM"
         },
         {
-          "headline": "Prediction: Qualcomm Becomes the Top Auto Chipmaker in 2027, “a Story the Market Has Quietly Ignored,” per SemiAnalysis",
-          "url": "https://finnhub.io/api/news?id=259c522c58ecf2dd72da051301046d2483ef1ece7b9ad7adb11e94817e309820",
+          "headline": "Qualcomm (QCOM) Stock Is Up 6.9% Today: Chip Stocks Rally With Market",
+          "url": "https://finnhub.io/api/news?id=13366a604cf744aa80313434943eddef7e29b07fb464987455f34bc1bc3ff5cc",
           "source": "Yahoo",
-          "published_at": "2026-11-25T14:05:57Z",
+          "published_at": "2026-11-27T17:15:18Z",
           "primary": false,
           "symbol": "QCOM"
         },
         {
-          "headline": "A $65 Million Reason Why Qualcomm Stock In Focus Today",
-          "url": "https://finnhub.io/api/news?id=d2ab494aca64a30b6debbaebd09532426687c30f096b003d1d42819a9e06476d",
+          "headline": "Qualcomm Is Betting Big on a $5 Billion Opportunity. Here’s What It Could Mean for the Stock",
+          "url": "https://finnhub.io/api/news?id=23dd762e1192b8cae4f0eb2d778ea6622816b9920d368cfc3f7dc4fcbba65ce0",
           "source": "Yahoo",
-          "published_at": "2026-11-25T11:58:31Z",
+          "published_at": "2026-11-27T16:33:19Z",
           "primary": false,
           "symbol": "QCOM"
         }
@@ -26009,17 +25977,17 @@
       "metrics": {
         "52WeekHigh": 268.3699,
         "52WeekLow": 171.18,
-        "peTTM": 25.8701,
-        "psTTM": 2.4666,
+        "peTTM": 25.662,
+        "psTTM": 2.4468,
         "netProfitMarginTTM": 9.53,
         "roeTTM": 15.21,
         "revenueGrowthTTMYoy": 9.13,
         "epsGrowthTTMYoy": 18.02,
         "currentRatioQuarterly": 1.6996,
         "totalDebt/totalEquityQuarterly": 0.7272,
-        "marketCapitalization": 29207.312
+        "marketCapitalization": 28972.424
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Quest Diagnostics Inc",
       "profile": {
         "weburl": "https://www.questdiagnostics.com/",
@@ -26027,6 +25995,14 @@
         "name": "Quest Diagnostics Inc"
       },
       "news": [
+        {
+          "headline": "HLTH 2026: Quest Diagnostics' Patrick Plewman Breaks Down Whoop Partnership",
+          "url": "https://finnhub.io/api/news?id=87a46810680cd6e1ff7be11872e782e69031d4dc167322985808dbd773795a43",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T04:02:36Z",
+          "primary": false,
+          "symbol": "DGX"
+        },
         {
           "headline": "What Are Wall Street Analysts' Target Price for Quest Diagnostics Stock?",
           "url": "https://finnhub.io/api/news?id=0487d33d55dab5b4bcbbd7feeac76dc6d2492f32b4537728e12843b3ca6783e3",
@@ -26058,14 +26034,6 @@
           "published_at": "2026-11-24T13:14:36Z",
           "primary": false,
           "symbol": "DGX"
-        },
-        {
-          "headline": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom",
-          "url": "https://finnhub.io/api/news?id=4ce64149217524a45bbd69533debb50a58392d9dae8b8b3784ab1a791e64c6f0",
-          "source": "Yahoo",
-          "published_at": "2026-11-22T04:12:10Z",
-          "primary": false,
-          "symbol": "DGX"
         }
       ]
     },
@@ -26073,17 +26041,17 @@
       "metrics": {
         "52WeekHigh": 421.6,
         "52WeekLow": 317.23,
-        "peTTM": 21.9035,
-        "psTTM": 2.7502,
+        "peTTM": 22.0075,
+        "psTTM": 2.7632,
         "netProfitMarginTTM": 12.56,
         "roeTTM": 38.35,
         "revenueGrowthTTMYoy": 12.78,
         "epsGrowthTTMYoy": 28.57,
         "currentRatioQuarterly": 1.9687,
         "totalDebt/totalEquityQuarterly": 0.5358,
-        "marketCapitalization": 23480.566
+        "marketCapitalization": 23592.008
       },
-      "updated_at": "2026-11-25T21:05:48Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Ralph Lauren Corporation",
       "profile": {
         "weburl": "https://investor.ralphlauren.com/",
@@ -26091,6 +26059,14 @@
         "name": "Ralph Lauren Corporation"
       },
       "news": [
+        {
+          "headline": "Are Wall Street Analysts Predicting Ralph Lauren Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=b86ec4ec070aa43491479b1857b58f1988ded4c08345fc4e32356b0921c9c77c",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T13:09:53Z",
+          "primary": false,
+          "symbol": "RL"
+        },
         {
           "headline": "Zacks.com featured highlights include Brinker International, Ralph Lauren, Stride and Cardinal Health",
           "url": "https://finnhub.io/api/news?id=8106138309609518d759c9eb3ac5be353b6e76e8775f9fe8bcf5276174129e0d",
@@ -26122,14 +26098,6 @@
           "published_at": "2026-11-23T07:54:43Z",
           "primary": false,
           "symbol": "RL"
-        },
-        {
-          "headline": "Ralph Lauren: One Of The Best Retail Stocks To Own Long Term",
-          "url": "https://finnhub.io/api/news?id=38de58e97f7e47fa1d49ba1bb45b662ae8daa76a0d7fb84af017ebd19ed66296",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-23T04:19:08Z",
-          "primary": false,
-          "symbol": "RL"
         }
       ]
     },
@@ -26137,17 +26105,17 @@
       "metrics": {
         "52WeekHigh": 182.73,
         "52WeekLow": 138.82,
-        "peTTM": 13.0216,
-        "psTTM": 1.7581,
+        "peTTM": 13.1433,
+        "psTTM": 1.7745,
         "netProfitMarginTTM": 13.5,
-        "roeTTM": 18.32,
+        "roeTTM": 18.59,
         "revenueGrowthTTMYoy": 10.22,
-        "epsGrowthTTMYoy": 15.69,
-        "currentRatioQuarterly": 0.2511,
-        "totalDebt/totalEquityQuarterly": 5.4036,
-        "marketCapitalization": 30835.201
+        "epsGrowthTTMYoy": 15.64,
+        "currentRatioQuarterly": 0.241,
+        "totalDebt/totalEquityQuarterly": 5.2135,
+        "marketCapitalization": 31123.314
       },
-      "updated_at": "2026-11-25T22:05:53Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Raymond James Financial, Inc.",
       "profile": {
         "weburl": "https://www.raymondjames.com/",
@@ -26155,6 +26123,30 @@
         "name": "Raymond James Financial, Inc."
       },
       "news": [
+        {
+          "headline": "Why Is Raymond James Financial (RJF) Up 1% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=e2b8b711d1e7539183441745f15003f811139d4cf5aa37a19798e5fc47ca98b5",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T15:30:18Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
+        {
+          "headline": "Here’s How Much You Would Have Made Owning Raymond James Finl Stock In The Last 20 Years",
+          "url": "https://finnhub.io/api/news?id=8244876d60913005e1752331519cb300be809736f5540d1cfa988f1be4210558",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T16:00:14Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
+        {
+          "headline": "RAYMOND JAMES FINANCIAL REPORTS OCTOBER 2026 OPERATING DATA",
+          "url": "https://finnhub.io/api/news?id=f274952c9e31def9623fd6d522d391f9b95c563b47a95dfe7edea63fc2d80c55",
+          "source": "Fintel",
+          "published_at": "2026-11-25T23:18:45Z",
+          "primary": false,
+          "symbol": "RJF"
+        },
         {
           "headline": "Is Wall Street Bullish or Bearish on Raymond James Financial Stock?",
           "url": "https://finnhub.io/api/news?id=addfde93d088c9f5cfb103240253d9659b0818ac88b4bc14ff00cfd4502404ab",
@@ -26170,30 +26162,6 @@
           "published_at": "2026-11-25T15:14:11Z",
           "primary": false,
           "symbol": "RJF"
-        },
-        {
-          "headline": "Are Options Traders Betting on a Big Move in Raymond James Financial Stock?",
-          "url": "https://finnhub.io/api/news?id=a54b707aa4e8689333451a1379d4fd61f13364a821914517e0d2d7fb26f08766",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T12:06:00Z",
-          "primary": false,
-          "symbol": "RJF"
-        },
-        {
-          "headline": "Raymond James: A Terrific Idea For Long-Term Dividend Growth Investors",
-          "url": "https://finnhub.io/api/news?id=1142dab6a399e876a015e2dd7c85799da41338a38633afb72b79996fb89c57d8",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-23T09:00:00Z",
-          "primary": false,
-          "symbol": "RJF"
-        },
-        {
-          "headline": "Here's How Much $1000 Invested In Raymond James Finl 15 Years Ago Would Be Worth Today",
-          "url": "https://finnhub.io/api/news?id=7c54212c367bee1556140a336b3c22f80055a3fb60bdc991d5a7911ccc5c66e0",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T19:30:29Z",
-          "primary": false,
-          "symbol": "RJF"
         }
       ]
     },
@@ -26201,17 +26169,17 @@
       "metrics": {
         "52WeekHigh": 263.4999,
         "52WeekLow": 84.595,
-        "peTTM": 17.5902,
-        "psTTM": 5.6474,
+        "peTTM": 18.2697,
+        "psTTM": 5.8656,
         "netProfitMarginTTM": 32.11,
         "roeTTM": 30.570000000000004,
         "revenueGrowthTTMYoy": 62.18,
         "epsGrowthTTMYoy": 175.25,
         "currentRatioQuarterly": 10.7963,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 17444.088
+        "marketCapitalization": 18117.984
       },
-      "updated_at": "2026-11-25T22:05:53Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Reddit, Inc.",
       "profile": {
         "weburl": "https://www.redditinc.com/",
@@ -26220,42 +26188,42 @@
       },
       "news": [
         {
+          "headline": "What Will Decide Reddit Stock Over The Next Six Months?",
+          "url": "https://finnhub.io/api/news?id=102118c1004a6ff699226a97dc927d56b6a335c3f3649dc7dcbd325a8c9fc51b",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T12:05:31Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Reddit's 2027 Outlook: Scaling Advertising Business Drives Sustained Growth",
+          "url": "https://finnhub.io/api/news?id=2fbf9c804298243832929b3aa9501c058b22f8a3108a3d8f0cf19b8da252e01d",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T17:11:01Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Why Reddit Is Crushing Amazon and Walmart for Holiday Gift Traffic",
+          "url": "https://finnhub.io/api/news?id=93412526ba0e13069f424c8e95b69c57f667495159bb881745845c5770bcedc6",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T16:20:06Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
+          "headline": "Reddit’s stock has taken a battering this year, but its COO says it’s barely started banking ‘over a decade of karma’ from devoted users",
+          "url": "https://finnhub.io/api/news?id=fd44c96ce422096d01c46d5d247ec5d6f06e84cd5f464c7d70620a2e5e8fb3cb",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:46:22Z",
+          "primary": false,
+          "symbol": "RDDT"
+        },
+        {
           "headline": "Reddit’s Ad Sales Grew 54% as U.S. Daily Users Fell. What’s Doing the Work?",
           "url": "https://finnhub.io/api/news?id=a1f777933c0786012fd226b30f38db953ff8363aa06d054f4dd5c6d9cfb771bb",
           "source": "Yahoo",
           "published_at": "2026-11-25T18:53:53Z",
-          "primary": false,
-          "symbol": "RDDT"
-        },
-        {
-          "headline": "Is Reddit Stock Priced Right Against Its Peers?",
-          "url": "https://finnhub.io/api/news?id=2d5de10be72881dc55c2f26449cad7aaca6643b2e678d6bd61f1323679a11f71",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T15:00:23Z",
-          "primary": false,
-          "symbol": "RDDT"
-        },
-        {
-          "headline": "Reddit (NYSE:RDDT): Affordable Growth at a Reasonable Valuation",
-          "url": "https://finnhub.io/api/news?id=d87b7d8d560917287d6176fef9dde3872fd9f0ad389644daf5b7c37668464884",
-          "source": "ChartMill",
-          "published_at": "2026-11-25T09:50:59Z",
-          "primary": false,
-          "symbol": "RDDT"
-        },
-        {
-          "headline": "What Should Reddit Stock Owners Watch Now?",
-          "url": "https://finnhub.io/api/news?id=ddc032bddce598ae2520798f649c2849f1ff17c7e6c64245978362eac22886d5",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T18:02:38Z",
-          "primary": false,
-          "symbol": "RDDT"
-        },
-        {
-          "headline": "META Rides on Strong Demand in Ad Business: Can It Beat RDDT and SNAP?",
-          "url": "https://finnhub.io/api/news?id=d51b11b39bec193bcec333f4ff25e0c0299bf8bcad5927cbd703febfc976bcb1",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T16:35:00Z",
           "primary": false,
           "symbol": "RDDT"
         }
@@ -26265,17 +26233,17 @@
       "metrics": {
         "52WeekHigh": 83.66,
         "52WeekLow": 66.86,
-        "peTTM": 26.0356,
-        "psTTM": 8.2932,
+        "peTTM": 26.4162,
+        "psTTM": 8.4144,
         "netProfitMarginTTM": 31.85,
         "roeTTM": 7.64,
         "revenueGrowthTTMYoy": 8.37,
         "epsGrowthTTMYoy": 26.83,
         "currentRatioQuarterly": 0.6606,
         "totalDebt/totalEquityQuarterly": 0.7162,
-        "marketCapitalization": 13677.274
+        "marketCapitalization": 13877.218
       },
-      "updated_at": "2026-11-25T22:05:53Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Regency Centers Corp",
       "profile": {
         "weburl": "https://www.regencycenters.com/",
@@ -26290,23 +26258,31 @@
           "published_at": "2026-11-24T15:17:00Z",
           "primary": false,
           "symbol": "REG"
+        },
+        {
+          "headline": "American Tower or Regency Centers: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine",
+          "url": "https://finnhub.io/api/news?id=6a2b2e6bafbf8aa06ee267d8bf841abd434df8144477408d08d41f12da666872",
+          "source": "Yahoo",
+          "published_at": "2026-11-23T22:26:22Z",
+          "primary": false,
+          "symbol": "REG"
         }
       ]
     },
     "RF": {
       "metrics": {
         "52WeekHigh": 32.47,
-        "52WeekLow": 24.65,
-        "peTTM": 10.1795,
+        "52WeekLow": 24.72,
+        "peTTM": 10.2794,
         "psTTM": 1.92217,
         "netProfitMarginTTM": 30.49189,
         "roeTTM": 12.32,
         "revenueGrowthTTMYoy": 45.41902,
         "epsGrowthTTMYoy": 11.33,
         "totalDebt/totalEquityQuarterly": 0.5873,
-        "marketCapitalization": 23351.79
+        "marketCapitalization": 23580.979
       },
-      "updated_at": "2026-11-25T22:05:53Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "Regions Financial Corporation",
       "profile": {
         "weburl": "https://www.regions.com/",
@@ -26329,14 +26305,6 @@
           "published_at": "2026-11-23T16:57:01Z",
           "primary": false,
           "symbol": "RF"
-        },
-        {
-          "headline": "Is Regions Financial Well-Positioned to Sustain Strong Capital Returns?",
-          "url": "https://finnhub.io/api/news?id=36c66e3348e1cc954735f53d55c53a1190cd451e7b888bda9c39b06172f2ab17",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T16:48:00Z",
-          "primary": false,
-          "symbol": "RF"
         }
       ]
     },
@@ -26344,17 +26312,17 @@
       "metrics": {
         "52WeekHigh": 277.67,
         "52WeekLow": 180.265,
-        "peTTM": 21.2808,
-        "psTTM": 5.9142,
+        "peTTM": 21.6834,
+        "psTTM": 6.026,
         "netProfitMarginTTM": 27.79,
         "roeTTM": 25.14,
         "revenueGrowthTTMYoy": 9.04,
         "epsGrowthTTMYoy": 12.36,
         "currentRatioQuarterly": 2.6498,
         "totalDebt/totalEquityQuarterly": 0.0689,
-        "marketCapitalization": 33903.98
+        "marketCapitalization": 34545.375
       },
-      "updated_at": "2026-11-25T22:05:53Z",
+      "updated_at": "2026-11-28T06:09:37Z",
       "name": "ResMed Inc.",
       "profile": {
         "weburl": "https://www.resmed.com/",
@@ -26383,22 +26351,6 @@
           "url": "https://finnhub.io/api/news?id=58cd7725fda740b258ad0a88d12e84bd5691de017025aaf79a5188e45c88961c",
           "source": "Yahoo",
           "published_at": "2026-11-20T16:57:00Z",
-          "primary": false,
-          "symbol": "RMD"
-        },
-        {
-          "headline": "ResMed Inc. Reduces Board Size to ten (10) and Approves Fiscal Year 2027 PSU Award Design",
-          "url": "https://finnhub.io/api/news?id=5746f9401241632aea69d0dfd29f4ed5ee0a2ea50e6035645fa5c2764a7d3e3d",
-          "source": "Fintel",
-          "published_at": "2026-11-19T23:51:26Z",
-          "primary": false,
-          "symbol": "RMD"
-        },
-        {
-          "headline": "Global Virtual Sleep Clinics Market Report 2026: Forecast to 2030 | Capitalize on AI Diagnostics and Home Testing: ResMed, Philips, Teladoc, and Oura Drive Market to $3.46 Billion",
-          "url": "https://finnhub.io/api/news?id=53ee8e204884ab9a0e00d0141a5cfac575a1ae3e301d44bac04adca0fb63923b",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T14:34:00Z",
           "primary": false,
           "symbol": "RMD"
         }
@@ -30337,6 +30289,6 @@
       ]
     }
   },
-  "cursor": 443,
-  "updated_at": "2026-11-28T05:10:30Z"
+  "cursor": 455,
+  "updated_at": "2026-11-28T06:09:37Z"
 }
