@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T07:25:46Z",
+  "generated_at": "2026-11-28T08:59:54Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-28T07:25:46Z",
+      "checked_at": "2026-11-28T08:59:54Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-28T07:25:46Z",
+      "checked_at": "2026-11-28T08:59:54Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-28T07:25:46Z",
+      "checked_at": "2026-11-28T08:59:54Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-28T07:25:46Z",
+      "checked_at": "2026-11-28T08:59:54Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-28T07:25:46Z",
+      "checked_at": "2026-11-28T08:59:54Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-28T07:25:46Z",
+    "generated_at": "2026-11-28T08:59:54Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10358,7 +10358,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Financial Services",
-        "why": "Net profit margin 20.5% (TTM); Return on equity 13.1% (TTM); Trailing P/E 11.5×; TTM revenue growth 181.2% YoY",
+        "why": "Net profit margin 20.5% (TTM); Return on equity 13.1% (TTM); Trailing P/E 12.2×; TTM revenue growth 181.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10372,35 +10372,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T23:03:39Z",
+            "timestamp": "2026-11-28T08:59:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "BlackRock, State Street Say Tokenization Won't Kill ETFs, But Could Draw Crypto Holders Who Avoid Banks",
-            "timestamp": "2026-11-22T08:49:35Z",
-            "url": "https://finnhub.io/api/news?id=2dba07515127d7f5bd4c0f2982225e2b2d61091f0d36cf125242cbb47a75b454"
+            "value": "Is State Street SPDR Russell 1000 Yield Focus ETF (ONEY) a Strong ETF Right Now?",
+            "timestamp": "2026-11-27T10:20:02Z",
+            "url": "https://finnhub.io/api/news?id=666f097672ec912e33815bcc54fd2154ca34630fd7acd21c8e771653694d2fea"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T23:03:39Z",
+        "fundamentals_at": "2026-11-28T08:59:54Z",
         "price": 164.69,
         "currency": "USD",
         "change_pct": 1.642,
         "news": [
           {
-            "headline": "BlackRock, State Street Say Tokenization Won't Kill ETFs, But Could Draw Crypto Holders Who Avoid Banks",
-            "url": "https://finnhub.io/api/news?id=2dba07515127d7f5bd4c0f2982225e2b2d61091f0d36cf125242cbb47a75b454",
+            "headline": "Is State Street SPDR Russell 1000 Yield Focus ETF (ONEY) a Strong ETF Right Now?",
+            "url": "https://finnhub.io/api/news?id=666f097672ec912e33815bcc54fd2154ca34630fd7acd21c8e771653694d2fea",
             "source": "Yahoo",
-            "published_at": "2026-11-22T08:49:35Z",
+            "published_at": "2026-11-27T10:20:02Z",
             "primary": false,
             "symbol": "STT"
           },
           {
-            "headline": "State Street's Hung on Trump Accounts, Private Markets, Future of ETFs",
-            "url": "https://finnhub.io/api/news?id=2416df206a13f21fefae3ec50c2a7e92e543674348b84dbcaa7233b940010a0b",
+            "headline": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
+            "url": "https://finnhub.io/api/news?id=0213c979bfb38a7a168df093a3c43cf0cba4fe6c10a9e5ada778d70bed01ce83",
             "source": "Yahoo",
-            "published_at": "2026-11-20T14:43:33Z",
+            "published_at": "2026-11-27T10:20:02Z",
             "primary": false,
             "symbol": "STT"
           }
@@ -10437,7 +10437,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Metals & Mining",
-        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 15.6×; TTM revenue growth 26.0% YoY",
+        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 15.7×; TTM revenue growth 26.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10451,35 +10451,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T23:03:39Z",
+            "timestamp": "2026-11-28T08:59:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
-            "timestamp": "2026-11-25T12:23:00Z",
-            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4"
+            "value": "Steel Dynamics (NASDAQ:STLD): Affordable Growth With Strong Earnings and Reasonable Valuation",
+            "timestamp": "2026-11-27T09:01:40Z",
+            "url": "https://finnhub.io/api/news?id=0ace60fb59a0b85768229fa2fbe6d569263f9c178b677bfa3f675dd665c51e64"
           }
         ],
         "as_of": "2026-11-27T18:00:29Z",
-        "fundamentals_at": "2026-11-25T23:03:39Z",
+        "fundamentals_at": "2026-11-28T08:59:54Z",
         "price": 222.01,
         "currency": "USD",
         "change_pct": 2.375,
         "news": [
           {
-            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
-            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
-            "source": "Yahoo",
-            "published_at": "2026-11-25T12:23:00Z",
+            "headline": "Steel Dynamics (NASDAQ:STLD): Affordable Growth With Strong Earnings and Reasonable Valuation",
+            "url": "https://finnhub.io/api/news?id=0ace60fb59a0b85768229fa2fbe6d569263f9c178b677bfa3f675dd665c51e64",
+            "source": "ChartMill",
+            "published_at": "2026-11-27T09:01:40Z",
             "primary": false,
             "symbol": "STLD"
           },
           {
-            "headline": "Did Steel Dynamics' Sales Earn Its Stock's Rise?",
-            "url": "https://finnhub.io/api/news?id=d362c306150f0077306c2452f087d871e50dcabddc225f918d3f4bf5778e0611",
+            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
             "source": "Yahoo",
-            "published_at": "2026-11-25T12:10:00Z",
+            "published_at": "2026-11-25T12:23:00Z",
             "primary": false,
             "symbol": "STLD"
           }
@@ -10489,12 +10489,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ENTRY CANDIDATE",
-          "entry_ceiling": 222.82,
-          "entry_floor": 200.54,
-          "exit_review_low": 329.05,
-          "exit_review_high": 401.84,
-          "bear_case": 174.48,
-          "scenario_upside_pct": 48.2,
+          "entry_ceiling": 225.19,
+          "entry_floor": 202.67,
+          "exit_review_low": 326.57,
+          "exit_review_high": 398.82,
+          "bear_case": 173.17,
+          "scenario_upside_pct": 47.1,
           "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -10507,12 +10507,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.62,
+            "trailing_pe": 15.74,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 21.24,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T23:03:39Z"
+            "metrics_retrieved_at": "2026-11-28T08:59:54Z"
           }
         },
         "ranking_score": 82,
@@ -11781,7 +11781,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Financial Services",
-        "why": "Net profit margin 14.1% (TTM); Return on equity 20.0% (TTM); Trailing P/E 6.3×; TTM revenue growth 20.5% YoY",
+        "why": "Net profit margin 14.1% (TTM); Return on equity 20.0% (TTM); Trailing P/E 6.4×; TTM revenue growth 20.5% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11795,7 +11795,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T23:57:15Z",
+            "timestamp": "2026-11-28T08:59:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -11806,7 +11806,7 @@
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T23:57:15Z",
+        "fundamentals_at": "2026-11-28T08:59:54Z",
         "price": 69.77,
         "currency": "USD",
         "change_pct": 1.513,
@@ -11860,7 +11860,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Financial Services",
-        "why": "Net profit margin 28.4% (TTM); Return on equity 19.9% (TTM); Trailing P/E 9.9×; TTM revenue growth 6.9% YoY",
+        "why": "Net profit margin 28.4% (TTM); Return on equity 19.9% (TTM); Trailing P/E 10.4×; TTM revenue growth 6.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11874,35 +11874,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T23:57:15Z",
+            "timestamp": "2026-11-28T08:59:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "T. Rowe Price: 3 Key Takeaways for Long-Term Investors",
-            "timestamp": "2026-11-24T23:35:07Z",
-            "url": "https://finnhub.io/api/news?id=f6c24f7e6c18b34da7416fa38b56654d1e853c34719e27aecac5cec8ed72cae6"
+            "value": "T. Rowe Price (TROW) Stock May Be 44% Undervalued Despite ETF Launch",
+            "timestamp": "2026-11-26T02:14:50Z",
+            "url": "https://finnhub.io/api/news?id=2d9445a7b2eb0b710d571258c9eb22393bb37272218daea230398b1f2fff1fd6"
           }
         ],
         "as_of": "2026-11-27T20:58:10Z",
-        "fundamentals_at": "2026-11-25T23:57:15Z",
+        "fundamentals_at": "2026-11-28T08:59:54Z",
         "price": 106.57,
         "currency": "USD",
         "change_pct": 2.916,
         "news": [
           {
-            "headline": "T. Rowe Price: 3 Key Takeaways for Long-Term Investors",
-            "url": "https://finnhub.io/api/news?id=f6c24f7e6c18b34da7416fa38b56654d1e853c34719e27aecac5cec8ed72cae6",
+            "headline": "T. Rowe Price (TROW) Stock May Be 44% Undervalued Despite ETF Launch",
+            "url": "https://finnhub.io/api/news?id=2d9445a7b2eb0b710d571258c9eb22393bb37272218daea230398b1f2fff1fd6",
             "source": "Yahoo",
-            "published_at": "2026-11-24T23:35:07Z",
+            "published_at": "2026-11-26T02:14:50Z",
             "primary": false,
             "symbol": "TROW"
           },
           {
-            "headline": "Franklin vs. T. Rowe: Which Asset Manager Offers Better Upside Now?",
-            "url": "https://finnhub.io/api/news?id=5e2cef527cfef186a97c7dd4e75bc038ac484d827b8982f6fc83afbba1769b26",
+            "headline": "T. Rowe Price: 3 Key Takeaways for Long-Term Investors",
+            "url": "https://finnhub.io/api/news?id=f6c24f7e6c18b34da7416fa38b56654d1e853c34719e27aecac5cec8ed72cae6",
             "source": "Yahoo",
-            "published_at": "2026-11-24T16:38:00Z",
+            "published_at": "2026-11-24T23:35:07Z",
             "primary": false,
             "symbol": "TROW"
           }
@@ -14083,7 +14083,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Metals & Mining",
-        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 15.6×; TTM revenue growth 26.0% YoY",
+        "why": "Net profit margin 8.8% (TTM); Return on equity 21.0% (TTM); Trailing P/E 15.7×; TTM revenue growth 26.0% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -14097,35 +14097,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T23:03:39Z",
+            "timestamp": "2026-11-28T08:59:54Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
-            "timestamp": "2026-11-25T12:23:00Z",
-            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4"
+            "value": "Steel Dynamics (NASDAQ:STLD): Affordable Growth With Strong Earnings and Reasonable Valuation",
+            "timestamp": "2026-11-27T09:01:40Z",
+            "url": "https://finnhub.io/api/news?id=0ace60fb59a0b85768229fa2fbe6d569263f9c178b677bfa3f675dd665c51e64"
           }
         ],
         "as_of": "2026-11-27T18:00:29Z",
-        "fundamentals_at": "2026-11-25T23:03:39Z",
+        "fundamentals_at": "2026-11-28T08:59:54Z",
         "price": 222.01,
         "currency": "USD",
         "change_pct": 2.375,
         "news": [
           {
-            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
-            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
-            "source": "Yahoo",
-            "published_at": "2026-11-25T12:23:00Z",
+            "headline": "Steel Dynamics (NASDAQ:STLD): Affordable Growth With Strong Earnings and Reasonable Valuation",
+            "url": "https://finnhub.io/api/news?id=0ace60fb59a0b85768229fa2fbe6d569263f9c178b677bfa3f675dd665c51e64",
+            "source": "ChartMill",
+            "published_at": "2026-11-27T09:01:40Z",
             "primary": false,
             "symbol": "STLD"
           },
           {
-            "headline": "Did Steel Dynamics' Sales Earn Its Stock's Rise?",
-            "url": "https://finnhub.io/api/news?id=d362c306150f0077306c2452f087d871e50dcabddc225f918d3f4bf5778e0611",
+            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
             "source": "Yahoo",
-            "published_at": "2026-11-25T12:10:00Z",
+            "published_at": "2026-11-25T12:23:00Z",
             "primary": false,
             "symbol": "STLD"
           }
@@ -14135,12 +14135,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ENTRY CANDIDATE",
-          "entry_ceiling": 222.82,
-          "entry_floor": 200.54,
-          "exit_review_low": 329.05,
-          "exit_review_high": 401.84,
-          "bear_case": 174.48,
-          "scenario_upside_pct": 48.2,
+          "entry_ceiling": 225.19,
+          "entry_floor": 202.67,
+          "exit_review_low": 326.57,
+          "exit_review_high": 398.82,
+          "bear_case": 173.17,
+          "scenario_upside_pct": 47.1,
           "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14153,12 +14153,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.62,
+            "trailing_pe": 15.74,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 21.24,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T23:03:39Z"
+            "metrics_retrieved_at": "2026-11-28T08:59:54Z"
           }
         },
         "ranking_score": 82,
@@ -15435,7 +15435,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-28T07:25:46Z",
+      "generated_at": "2026-11-28T08:59:54Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 841,
