@@ -23144,40 +23144,57 @@
       "metrics": {
         "52WeekHigh": 587.27,
         "52WeekLow": 322.0,
-        "peTTM": 15.1037,
-        "psTTM": 2.1334,
+        "peTTM": 15.5494,
+        "psTTM": 2.1963,
         "netProfitMarginTTM": 14.12,
         "roeTTM": 61.67,
         "revenueGrowthTTMYoy": 1.92,
         "epsGrowthTTMYoy": -6.7,
         "currentRatioQuarterly": 1.212,
         "totalDebt/totalEquityQuarterly": 1.2312,
-        "marketCapitalization": 11622.314
+        "marketCapitalization": 11965.254
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Lennox International Inc.",
       "profile": {
         "weburl": "https://www.lennox.com/",
         "industry": "Building",
         "name": "Lennox International Inc."
       },
-      "news": []
+      "news": [
+        {
+          "headline": "Lennox (LII) Stock Could Trade Below Fair Value On Cash Flow",
+          "url": "https://finnhub.io/api/news?id=5aa10db0c5d919351c1a4b27258e9f6446ac164908d6fe7573d841a8e2d9561f",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T08:08:51Z",
+          "primary": false,
+          "symbol": "LII"
+        },
+        {
+          "headline": "Lennox International (NYSE:LII) Offers Dividend Quality for Income Investors",
+          "url": "https://finnhub.io/api/news?id=8e35603357910a57a70dd5159e5386ea2ee18adb516f984d16ce9232911fc8ff",
+          "source": "ChartMill",
+          "published_at": "2026-11-26T12:20:52Z",
+          "primary": false,
+          "symbol": "LII"
+        }
+      ]
     },
     "LIN": {
       "metrics": {
         "52WeekHigh": 548.2,
         "52WeekLow": 387.78,
-        "peTTM": 33.8616,
-        "psTTM": 6.5475,
+        "peTTM": 34.8955,
+        "psTTM": 6.7474,
         "netProfitMarginTTM": 19.34,
         "roeTTM": 18.05,
         "revenueGrowthTTMYoy": 8.16,
         "epsGrowthTTMYoy": 0.82,
         "currentRatioQuarterly": 0.8576,
         "totalDebt/totalEquityQuarterly": 0.6773,
-        "marketCapitalization": 237268.27
+        "marketCapitalization": 244512.6
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Linde PLC",
       "profile": {
         "weburl": "https://www.linde.com/",
@@ -23186,18 +23203,26 @@
       },
       "news": [
         {
-          "headline": "State Street Materials Select Sector SPDR (XLB) Sells Linde and Newmont on Nov. 16",
-          "url": "https://finnhub.io/api/news?id=be37339111572876c2e4efff84e531b358481025621b97f613a9b5013d974894",
+          "headline": "Here's Why SpaceX’s Starship Could Lift Linde’s Space Revenue up to 700%",
+          "url": "https://finnhub.io/api/news?id=9394e1b1429a001afe8e25cf755abf84132814c7e8bde1f08b5b1e8a61765e69",
           "source": "Yahoo",
-          "published_at": "2026-11-18T11:05:39Z",
+          "published_at": "2026-11-27T17:46:03Z",
           "primary": false,
           "symbol": "LIN"
         },
         {
-          "headline": "The Zacks Analyst Blog Highlights AstraZeneca, Linde, Eaton, Franklin and BV Financial",
-          "url": "https://finnhub.io/api/news?id=829d0e2438ebb05dc9b7749a3466048860b2d3d755682391a4d268f301e6c5ed",
+          "headline": "Linde: Strong Project Backlog And Cost Savings Should Drive Upside",
+          "url": "https://finnhub.io/api/news?id=c5ea5476e913ca620d704b7bc84c9c4528c08ad62a34594511282f75c0614401",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-27T07:45:47Z",
+          "primary": false,
+          "symbol": "LIN"
+        },
+        {
+          "headline": "What State Street Materials Select Sector SPDR (XLB) Sold: Linde Leads on Tuesday",
+          "url": "https://finnhub.io/api/news?id=1bb1c93f87eb25b065c26d0393c7161acb9a0505037b8974d24407bdaa846722",
           "source": "Yahoo",
-          "published_at": "2026-11-18T10:43:00Z",
+          "published_at": "2026-11-26T11:05:28Z",
           "primary": false,
           "symbol": "LIN"
         }
@@ -23207,17 +23232,17 @@
       "metrics": {
         "52WeekHigh": 189.245,
         "52WeekLow": 125.34,
-        "peTTM": 286.4066,
-        "psTTM": 1.5521,
+        "peTTM": 283.4432,
+        "psTTM": 1.536,
         "netProfitMarginTTM": 0.54,
         "roeTTM": 200.03000000000003,
         "revenueGrowthTTMYoy": 13.47,
         "epsGrowthTTMYoy": -89.3,
         "currentRatioQuarterly": 0.9515,
         "totalDebt/totalEquityQuarterly": 21.3425,
-        "marketCapitalization": 43269.45
+        "marketCapitalization": 42821.742
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Live Nation Entertainment, Inc.",
       "profile": {
         "weburl": "https://www.livenationentertainment.com/",
@@ -23247,17 +23272,17 @@
       "metrics": {
         "52WeekHigh": 121.01,
         "52WeekLow": 101.08,
-        "peTTM": 15.0399,
-        "psTTM": 1.1894,
+        "peTTM": 15.0915,
+        "psTTM": 1.1934,
         "netProfitMarginTTM": 7.91,
         "roeTTM": 7.960000000000001,
         "revenueGrowthTTMYoy": 2.82,
         "epsGrowthTTMYoy": 4.94,
         "currentRatioQuarterly": 287.7778,
         "totalDebt/totalEquityQuarterly": 0.4883,
-        "marketCapitalization": 22394.422
+        "marketCapitalization": 22471.27
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Loews Corporation",
       "profile": {
         "weburl": "https://www.loews.com/",
@@ -23278,16 +23303,16 @@
     "LITE": {
       "metrics": {
         "52WeekHigh": 1143.0,
-        "52WeekLow": 266.005,
-        "psTTM": 14.829,
-        "netProfitMarginTTM": -230.1,
-        "roeTTM": -300.07,
-        "revenueGrowthTTMYoy": 83.22,
-        "currentRatioQuarterly": 1.6778,
-        "totalDebt/totalEquityQuarterly": 0.3526,
-        "marketCapitalization": 44694.6
+        "52WeekLow": 279.06,
+        "psTTM": 12.1971,
+        "netProfitMarginTTM": -175.78,
+        "roeTTM": -201.86,
+        "revenueGrowthTTMYoy": 103.2,
+        "currentRatioQuarterly": 1.6111,
+        "totalDebt/totalEquityQuarterly": 0.3061,
+        "marketCapitalization": 45651.12
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Lumentum Holdings Inc.",
       "profile": {
         "weburl": "https://investor.lumentum.com/",
@@ -23296,42 +23321,42 @@
       },
       "news": [
         {
+          "headline": "Marvell's ASIC Boom Stalled, Yet Lumentum Changes The Game",
+          "url": "https://finnhub.io/api/news?id=98a477d35f58c34ca8524cfe86561f86006d6be7858c3a1ae07e94b814a72aef",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-27T19:54:41Z",
+          "primary": false,
+          "symbol": "LITE"
+        },
+        {
+          "headline": "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7%",
+          "url": "https://finnhub.io/api/news?id=9532cb77ebe7bc819d9ded3fc36555a3ae63dc33a6cb1f108a7ebeaa615bb9a1",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T17:06:38Z",
+          "primary": false,
+          "symbol": "LITE"
+        },
+        {
+          "headline": "Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?",
+          "url": "https://finnhub.io/api/news?id=0df6cbd623d96a018581f02d25745574aef4c6871827c7a50171c23a691d64c6",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T16:20:00Z",
+          "primary": false,
+          "symbol": "LITE"
+        },
+        {
+          "headline": "Lumentum Sinks 14% in a Week as AI Stocks Slide, but Its CEO Says “We Haven’t Seen Any Slowdown”",
+          "url": "https://finnhub.io/api/news?id=79733b3fe30ffb3b3000e0713f8043abdba8bc82becd03b538c4d3f202f6cc59",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T08:27:43Z",
+          "primary": false,
+          "symbol": "LITE"
+        },
+        {
           "headline": "Coherent Sinks 10% Despite $15 Million Director Buy, Applied Optoelectronics Plunges 12% as AI Selloff Deepens; Lumentum Tumbles 10%",
           "url": "https://finnhub.io/api/news?id=4db5e321c2f7c04f74845f3462b2ac0fb709fe0d3df109d6963b6b90a3188588",
           "source": "Yahoo",
           "published_at": "2026-11-25T15:53:19Z",
-          "primary": false,
-          "symbol": "LITE"
-        },
-        {
-          "headline": "Lumentum Has Lost 42% Since October 28 Despite Its Best Quarter Ever. Marvell’s Stock Is Why",
-          "url": "https://finnhub.io/api/news?id=04c52ff729eaf3f8784c59c7ddccc040d3a13d1cca6adb44e8e2ca06be51cddf",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T08:39:00Z",
-          "primary": false,
-          "symbol": "LITE"
-        },
-        {
-          "headline": "AAOI vs. Lumentum: Which Optical Networking Stock Has an Edge Now?",
-          "url": "https://finnhub.io/api/news?id=20563bb5f1fb7a15079c8dc5b3f48f1db2d79d2e59b9be8fc4c3aedf337d838f",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T16:36:00Z",
-          "primary": false,
-          "symbol": "LITE"
-        },
-        {
-          "headline": "Lumentum (LITE) Stock Looks Richly Priced As Its Three Year Run Continues",
-          "url": "https://finnhub.io/api/news?id=d84177a40b7c01f97cdb2d0f2c4221d7ee09061d9a483467b1c00626e4f5ea74",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T16:09:10Z",
-          "primary": false,
-          "symbol": "LITE"
-        },
-        {
-          "headline": "Applied Optoelectronics Climbs 5% on $2.2 Billion Hyperscaler Supply Deal; Lumentum and Coherent Drop 6%",
-          "url": "https://finnhub.io/api/news?id=279feed7f8e83c0bab8dca5730281447f596e24431227f8e50ac870e7ae96808",
-          "source": "Yahoo",
-          "published_at": "2026-11-24T14:58:24Z",
           "primary": false,
           "symbol": "LITE"
         }
@@ -23341,16 +23366,16 @@
       "metrics": {
         "52WeekHigh": 83.94,
         "52WeekLow": 42.01,
-        "peTTM": 13.8086,
-        "psTTM": 0.5625,
+        "peTTM": 14.1412,
+        "psTTM": 0.576,
         "netProfitMarginTTM": 4.07,
         "roeTTM": 12.389999999999999,
         "revenueGrowthTTMYoy": -1.83,
         "currentRatioQuarterly": 1.7769,
         "totalDebt/totalEquityQuarterly": 1.096,
-        "marketCapitalization": 17978.748
+        "marketCapitalization": 18411.893
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "LyondellBasell Industries N.V.",
       "profile": {
         "weburl": "https://www.lyondellbasell.com/",
@@ -23358,6 +23383,14 @@
         "name": "LyondellBasell Industries N.V."
       },
       "news": [
+        {
+          "headline": "Reasons Why You Should Retain LYB Stock in Your Portfolio Now",
+          "url": "https://finnhub.io/api/news?id=708027e79a9dfc420cf59f40f2a299b78afba4f8052ce03e760680f3c0fabb6e",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T13:11:00Z",
+          "primary": false,
+          "symbol": "LYB"
+        },
         {
           "headline": "LyondellBasell to address 2026 Goldman Sachs Industrials and Materials Conference",
           "url": "https://finnhub.io/api/news?id=19d6fe785ce95ce0d347c899015e8aab0a9bb566630077fa741ffa01f28f7dec",
@@ -23381,39 +23414,23 @@
           "published_at": "2026-11-20T11:30:00Z",
           "primary": false,
           "symbol": "LYB"
-        },
-        {
-          "headline": "LyondellBasell Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=ac1db0ebf2adc9e0dfb7c89742d345dc60c5311dff58832908759c1980bc74ea",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T12:50:59Z",
-          "primary": false,
-          "symbol": "LYB"
-        },
-        {
-          "headline": "Citigroup Maintains Neutral on LyondellBasell Industries, Lowers Price Target to $66",
-          "url": "https://finnhub.io/api/news?id=77c1449629faec0d2b5c0645b7b894215e926864d556cd1a5ce11ec4a48c438b",
-          "source": "Benzinga",
-          "published_at": "2026-11-18T15:14:15Z",
-          "primary": false,
-          "symbol": "LYB"
         }
       ]
     },
     "MTB": {
       "metrics": {
         "52WeekHigh": 255.95,
-        "52WeekLow": 185.84,
-        "peTTM": 10.0999,
+        "52WeekLow": 187.81,
+        "peTTM": 10.3224,
         "psTTM": 2.1162,
         "netProfitMarginTTM": 30.69529,
         "roeTTM": 10.65,
         "revenueGrowthTTMYoy": 86.15662,
         "epsGrowthTTMYoy": 18.22,
         "totalDebt/totalEquityQuarterly": 0.711,
-        "marketCapitalization": 30461.17
+        "marketCapitalization": 31132.443
       },
-      "updated_at": "2026-11-25T17:12:49Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "M&T Bank Corporation",
       "profile": {
         "weburl": "https://www.mtb.com",
@@ -23422,18 +23439,26 @@
       },
       "news": [
         {
-          "headline": "M&T Bank's Net Charge-Offs Fall: Is Credit Quality Turning a Corner?",
-          "url": "https://finnhub.io/api/news?id=a0c724ea0dad870a7d2d3634c04be88679c0a7bde884e8ec1b5ac70f6c87ca36",
+          "headline": "Are Wall Street Analysts Bullish on M&T Bank Stock?",
+          "url": "https://finnhub.io/api/news?id=f9a8249d157abdff37e9b35e6b2363be29e2f1dca5b3cb6cef91a155c7193bab",
           "source": "Yahoo",
-          "published_at": "2026-11-24T13:56:00Z",
+          "published_at": "2026-11-26T11:11:23Z",
           "primary": false,
           "symbol": "MTB"
         },
         {
-          "headline": "M&T Bank Corporation to Participate in the Goldman Sachs Financial Services Conference",
-          "url": "https://finnhub.io/api/news?id=3f07c33b7c039320b261024be38e437d8080901f36cd142567f9b09985e66bf0",
+          "headline": "3 US Bank Stocks Facing The Biggest Fed Rate Test",
+          "url": "https://finnhub.io/api/news?id=8fc3f5286f553400fbd970b5084ec9428f28de0f511cfc250ecfe759f9065c0d",
           "source": "Yahoo",
-          "published_at": "2026-11-18T21:30:00Z",
+          "published_at": "2026-11-26T05:16:43Z",
+          "primary": false,
+          "symbol": "MTB"
+        },
+        {
+          "headline": "M&T Bank's Net Charge-Offs Fall: Is Credit Quality Turning a Corner?",
+          "url": "https://finnhub.io/api/news?id=a0c724ea0dad870a7d2d3634c04be88679c0a7bde884e8ec1b5ac70f6c87ca36",
+          "source": "Yahoo",
+          "published_at": "2026-11-24T13:56:00Z",
           "primary": false,
           "symbol": "MTB"
         }
@@ -23443,17 +23468,17 @@
       "metrics": {
         "52WeekHigh": 433.3,
         "52WeekLow": 282.03,
-        "peTTM": 40.3999,
-        "psTTM": 3.9089,
+        "peTTM": 40.3553,
+        "psTTM": 3.9045,
         "netProfitMarginTTM": 9.68,
         "roeTTM": 309.12,
         "revenueGrowthTTMYoy": 5.77,
         "epsGrowthTTMYoy": 5.79,
         "currentRatioQuarterly": 0.5253,
         "totalDebt/totalEquityQuarterly": 76.1214,
-        "marketCapitalization": 107181.055
+        "marketCapitalization": 107062.6
       },
-      "updated_at": "2026-11-25T17:57:20Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Marriott International, Inc.",
       "profile": {
         "weburl": "https://www.marriott.com/",
@@ -23507,17 +23532,17 @@
       "metrics": {
         "52WeekHigh": 710.97,
         "52WeekLow": 464.92,
-        "peTTM": 16.2768,
-        "psTTM": 5.1886,
+        "peTTM": 16.5976,
+        "psTTM": 5.2909,
         "netProfitMarginTTM": 31.88,
         "roeTTM": 18.2,
         "revenueGrowthTTMYoy": 8.58,
         "epsGrowthTTMYoy": 99.14,
         "currentRatioQuarterly": 1.6277,
         "totalDebt/totalEquityQuarterly": 0.7261,
-        "marketCapitalization": 37420.41
+        "marketCapitalization": 38157.91
       },
-      "updated_at": "2026-11-25T17:57:20Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Martin Marietta Materials, Inc.",
       "profile": {
         "weburl": "https://www.martinmarietta.com",
@@ -23525,6 +23550,14 @@
         "name": "Martin Marietta Materials, Inc."
       },
       "news": [
+        {
+          "headline": "Martin Marietta Materials Stock: Analyst Estimates & Ratings",
+          "url": "https://finnhub.io/api/news?id=98ecb247e529688bb32879bc4d1c266e4d4abc191c871a770ebe3f794d10c57b",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T08:48:56Z",
+          "primary": false,
+          "symbol": "MLM"
+        },
         {
           "headline": "Here's How Much $1000 Invested In Martin Marietta Materials 15 Years Ago Would Be Worth Today",
           "url": "https://finnhub.io/api/news?id=ebe076b9a440054893a03ede48363baf8d59cb88aaae821a86a7dc9b918f535d",
@@ -23547,16 +23580,16 @@
       "metrics": {
         "52WeekHigh": 329.88,
         "52WeekLow": 70.685,
-        "peTTM": 43.7038,
-        "psTTM": 12.2085,
+        "peTTM": 46.6834,
+        "psTTM": 13.0408,
         "netProfitMarginTTM": 27.93,
         "roeTTM": 16.220000000000002,
         "revenueGrowthTTMYoy": 30.62,
         "currentRatioQuarterly": 3.1684,
         "totalDebt/totalEquityQuarterly": 0.2678,
-        "marketCapitalization": 115373.74
+        "marketCapitalization": 123239.52
       },
-      "updated_at": "2026-11-25T17:57:20Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Marvell Technology, Inc.",
       "profile": {
         "weburl": "https://www.marvell.com/",
@@ -23565,42 +23598,42 @@
       },
       "news": [
         {
-          "headline": "What Pulled Marvell Stock Down On Tuesday?",
-          "url": "https://finnhub.io/api/news?id=f0adb48f821236a948e855567eb31e634bd53ed9d1dd764066a9a0519a64498b",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T14:14:26Z",
+          "headline": "Marvell's ASIC Boom Stalled, Yet Lumentum Changes The Game",
+          "url": "https://finnhub.io/api/news?id=98a477d35f58c34ca8524cfe86561f86006d6be7858c3a1ae07e94b814a72aef",
+          "source": "SeekingAlpha",
+          "published_at": "2026-11-27T19:54:41Z",
           "primary": false,
           "symbol": "MRVL"
         },
         {
-          "headline": "Oppenheimer Cut Its Marvell Target by $100. It Still Sees 147% Upside",
-          "url": "https://finnhub.io/api/news?id=a04d9d1a32851e8f0e4098fa22d9dca208d9face22ea722fdc86c5a4e9004abb",
+          "headline": "Marvell Technology (MRVL) Could Be 58% Undervalued Following Its Penguin Solutions Tie Up",
+          "url": "https://finnhub.io/api/news?id=54e3273e938108f4ee02f8dacd701b612b978eb5adb3182752152333214868b4",
           "source": "Yahoo",
-          "published_at": "2026-11-25T10:49:31Z",
+          "published_at": "2026-11-27T19:09:52Z",
           "primary": false,
           "symbol": "MRVL"
         },
         {
-          "headline": "Lumentum Has Lost 42% Since October 28 Despite Its Best Quarter Ever. Marvell’s Stock Is Why",
-          "url": "https://finnhub.io/api/news?id=04c52ff729eaf3f8784c59c7ddccc040d3a13d1cca6adb44e8e2ca06be51cddf",
+          "headline": "MRVL to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
+          "url": "https://finnhub.io/api/news?id=e23df4c036b7f6631978e487d65e10ccf6b349c53ae242be9ed8aa6df34a1acf",
           "source": "Yahoo",
-          "published_at": "2026-11-25T08:39:00Z",
+          "published_at": "2026-11-27T14:27:00Z",
           "primary": false,
           "symbol": "MRVL"
         },
         {
-          "headline": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
-          "url": "https://finnhub.io/api/news?id=ab77a10b151f09ce79026aae903aebe9440ff11260eb8efa36ce9f47eef12ded",
+          "headline": "AMD Rises 4% Despite Erste Group Downgrade on Valuation; Marvell Climbs 6%, Intel Gains 5%",
+          "url": "https://finnhub.io/api/news?id=b8392aee7e2e4448b0edf4de718af44418cb42f545cc522599cc0da0c6bb833c",
           "source": "Yahoo",
-          "published_at": "2026-11-24T22:07:53Z",
+          "published_at": "2026-11-27T14:02:55Z",
           "primary": false,
           "symbol": "MRVL"
         },
         {
-          "headline": "Marvell Technology (MRVL) Suffers a Larger Drop Than the General Market: Key Insights",
-          "url": "https://finnhub.io/api/news?id=9ddc0497f823a5a63440b8da125002c3d4d712ba9d3aa143879d794ea95bcfd8",
+          "headline": "Why Is Marvell Technology Stock Surging Today?",
+          "url": "https://finnhub.io/api/news?id=5f13141b23f24d1cf2bb75cdc4a313752f32ffd5c764dfe98d91860d932ec64e",
           "source": "Yahoo",
-          "published_at": "2026-11-24T21:45:02Z",
+          "published_at": "2026-11-27T11:52:15Z",
           "primary": false,
           "symbol": "MRVL"
         }
@@ -23610,17 +23643,17 @@
       "metrics": {
         "52WeekHigh": 87.86,
         "52WeekLow": 58.16,
-        "peTTM": 17.7348,
-        "psTTM": 2.1391,
+        "peTTM": 18.1161,
+        "psTTM": 2.1851,
         "netProfitMarginTTM": 12.06,
         "roeTTM": 279.76,
         "revenueGrowthTTMYoy": 0.95,
         "epsGrowthTTMYoy": 18.16,
         "currentRatioQuarterly": 1.834,
         "totalDebt/totalEquityQuarterly": 14.3333,
-        "marketCapitalization": 16404.65
+        "marketCapitalization": 16757.418
       },
-      "updated_at": "2026-11-25T17:57:20Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "Masco Corporation",
       "profile": {
         "weburl": "https://masco.com/",
@@ -23629,42 +23662,10 @@
       },
       "news": [
         {
-          "headline": "Are Wall Street Analysts Bullish on Masco Stock?",
-          "url": "https://finnhub.io/api/news?id=c387fd7c86829fa9f32d06960a22e5c0d3ef1af6a069292e3ee4c01d8e803c1f",
+          "headline": "Why Is Masco (MAS) Up 8.4% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=8f53dd9cdfbbac490bbcde2acae9d1e14035e35d9f1602bd0e337c7d8697c2fc",
           "source": "Yahoo",
-          "published_at": "2026-11-19T10:49:50Z",
-          "primary": false,
-          "symbol": "MAS"
-        },
-        {
-          "headline": "Does Raised Earnings Guidance Change The Bull Case For Masco (MAS)",
-          "url": "https://finnhub.io/api/news?id=2541da844ef1e51dc1310492edb036e40ca03118ad0f9c8841e7ab1efb35564b",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T23:24:25Z",
-          "primary": false,
-          "symbol": "MAS"
-        },
-        {
-          "headline": "Is Masco (MAS) Trading Below Fair Value On Cash Flow?",
-          "url": "https://finnhub.io/api/news?id=f47a201a8a3643a81a129fd7bdae5affe7bdc28b53db2b8250c84ab1fe7340dd",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T19:07:07Z",
-          "primary": false,
-          "symbol": "MAS"
-        },
-        {
-          "headline": "Masco (MAS) Could Be 9% Below Fair Value As Growth Plans Stay In Focus",
-          "url": "https://finnhub.io/api/news?id=473189df5b9b133cd48abf126d1c7e72fd75115858ef1f0f6d7035e220b0b310",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T17:11:50Z",
-          "primary": false,
-          "symbol": "MAS"
-        },
-        {
-          "headline": "Masco: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=88a2b17a8aba80993d9d285bb47d2a030d808f752bfef9c462157732a2779c3b",
-          "source": "Yahoo",
-          "published_at": "2026-11-17T21:50:02Z",
+          "published_at": "2026-11-27T15:30:16Z",
           "primary": false,
           "symbol": "MAS"
         }
@@ -23674,17 +23675,17 @@
       "metrics": {
         "52WeekHigh": 72.41,
         "52WeekLow": 43.25,
-        "peTTM": 8.8532,
-        "psTTM": 1.7169,
+        "peTTM": 9.0019,
+        "psTTM": 1.7458,
         "netProfitMarginTTM": 19.39,
         "roeTTM": 22.32,
         "revenueGrowthTTMYoy": 13.23,
         "epsGrowthTTMYoy": 91.63,
         "currentRatioQuarterly": 0.6572,
         "totalDebt/totalEquityQuarterly": 0.7165,
-        "marketCapitalization": 13195.717
+        "marketCapitalization": 13417.366
       },
-      "updated_at": "2026-11-25T17:57:20Z",
+      "updated_at": "2026-11-28T01:26:20Z",
       "name": "McCormick & Company, Incorporated",
       "profile": {
         "weburl": "https://www.mccormick.com/",
@@ -23693,42 +23694,42 @@
       },
       "news": [
         {
+          "headline": "Will McCormick (MKC) Spin Off Colman’s To Win UK Merger Approval?",
+          "url": "https://finnhub.io/api/news?id=48e512a25d75bb84f6516399ff70f4f9ff1cc3ca23a81159b7e0b999f9718e7e",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T20:08:20Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "A $1,500,000 Portfolio in McCormick, PepsiCo and Bristol Myers Squibb Pays $61,489 a Year in Dividends. Here’s What Happens if One Cuts",
+          "url": "https://finnhub.io/api/news?id=0326ecf5de19fa2d60e699c6a161dda1ec6ea95e9089fba7b5665557ac8fd5a4",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T14:20:40Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "McCormick proposes Colman’s mustard sale to resolve UK concerns over Unilever deal",
+          "url": "https://finnhub.io/api/news?id=6a0bb19a74bcd0dc3f4e4db44ea25f1b3d7cc2678c962d0592aa07193f228ea7",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T16:00:00Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
+          "headline": "McCormick-Unilever $44.8 Billion Merger Clears Hurdle as UK Regulator Weighs Colman’s Sale",
+          "url": "https://finnhub.io/api/news?id=29af7063951523d4de4e1fccf391050ac885436c2412dc9a2a258ee2e17d3b02",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T14:01:14Z",
+          "primary": false,
+          "symbol": "MKC"
+        },
+        {
           "headline": "Update: McCormick Offers to Sell Colman's Brand to Hurdle British Competition Rules",
           "url": "https://finnhub.io/api/news?id=995f75b5a83867d9c87bfa90a2a64cfd30ddcc7e03037de1c8ba5e0a07b85c46",
           "source": "Yahoo",
           "published_at": "2026-11-25T13:18:49Z",
-          "primary": false,
-          "symbol": "MKC"
-        },
-        {
-          "headline": "McCormick Offers to Sell Colman's Brand to Hurdle British Competition Rules",
-          "url": "https://finnhub.io/api/news?id=25fc39ca70c19c71fe97f07e4b9e7f89e758d78f554a34dfe0d62a89148267d4",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T08:56:12Z",
-          "primary": false,
-          "symbol": "MKC"
-        },
-        {
-          "headline": "CMA Finds McCormick-Unilever Foods Deal Would Combine Two Largest Branded Suppliers Of Dry Mixes And Sauces In UK, Weighs Colman's Divestiture Remedy",
-          "url": "https://finnhub.io/api/news?id=68951e965ccd5130539f67625989278ac3dbac23090b23142ed8e72390d82265",
-          "source": "Benzinga",
-          "published_at": "2026-11-25T03:49:30Z",
-          "primary": false,
-          "symbol": "MKC"
-        },
-        {
-          "headline": "What Should Investors Know About McCormick (MKC) Merger Investigation?",
-          "url": "https://finnhub.io/api/news?id=48b10ed875f46d14751215437d462bb8fbd8bef619eecc7e41cbfa9f98ae5bc2",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T00:16:06Z",
-          "primary": false,
-          "symbol": "MKC"
-        },
-        {
-          "headline": "How Investors May Respond To McCormick (MKC) Dividend Increase",
-          "url": "https://finnhub.io/api/news?id=e98fe0e99ddccd86aaa6f6dfba20db5ef4475caeccd59b489f31ea453feff646",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:13:22Z",
           "primary": false,
           "symbol": "MKC"
         }
@@ -30291,6 +30292,6 @@
       ]
     }
   },
-  "cursor": 395,
-  "updated_at": "2026-11-27T23:58:59Z"
+  "cursor": 407,
+  "updated_at": "2026-11-28T01:26:20Z"
 }

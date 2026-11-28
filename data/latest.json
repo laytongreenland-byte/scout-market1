@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:58:59Z",
+  "generated_at": "2026-11-28T01:26:20Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-27T23:58:59Z",
+      "checked_at": "2026-11-28T01:26:20Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-27T23:58:59Z",
+      "checked_at": "2026-11-28T01:26:20Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-27T23:58:59Z",
+      "checked_at": "2026-11-28T01:26:20Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-27T23:58:59Z",
+      "checked_at": "2026-11-28T01:26:20Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-27T23:58:59Z",
+      "checked_at": "2026-11-28T01:26:20Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-27T23:58:59Z",
+    "generated_at": "2026-11-28T01:26:20Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -10113,7 +10113,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Banking",
-        "why": "Net profit margin 30.7% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.1×; TTM revenue growth 86.2% YoY",
+        "why": "Net profit margin 30.7% (TTM); Return on equity 10.7% (TTM); Trailing P/E 10.3×; TTM revenue growth 86.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10127,35 +10127,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T17:12:49Z",
+            "timestamp": "2026-11-28T01:26:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "M&T Bank's Net Charge-Offs Fall: Is Credit Quality Turning a Corner?",
-            "timestamp": "2026-11-24T13:56:00Z",
-            "url": "https://finnhub.io/api/news?id=a0c724ea0dad870a7d2d3634c04be88679c0a7bde884e8ec1b5ac70f6c87ca36"
+            "value": "Are Wall Street Analysts Bullish on M&T Bank Stock?",
+            "timestamp": "2026-11-26T11:11:23Z",
+            "url": "https://finnhub.io/api/news?id=f9a8249d157abdff37e9b35e6b2363be29e2f1dca5b3cb6cef91a155c7193bab"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T17:12:49Z",
+        "fundamentals_at": "2026-11-28T01:26:20Z",
         "price": 216.87,
         "currency": "USD",
         "change_pct": 0.636,
         "news": [
           {
-            "headline": "M&T Bank's Net Charge-Offs Fall: Is Credit Quality Turning a Corner?",
-            "url": "https://finnhub.io/api/news?id=a0c724ea0dad870a7d2d3634c04be88679c0a7bde884e8ec1b5ac70f6c87ca36",
+            "headline": "Are Wall Street Analysts Bullish on M&T Bank Stock?",
+            "url": "https://finnhub.io/api/news?id=f9a8249d157abdff37e9b35e6b2363be29e2f1dca5b3cb6cef91a155c7193bab",
             "source": "Yahoo",
-            "published_at": "2026-11-24T13:56:00Z",
+            "published_at": "2026-11-26T11:11:23Z",
             "primary": false,
             "symbol": "MTB"
           },
           {
-            "headline": "M&T Bank Corporation to Participate in the Goldman Sachs Financial Services Conference",
-            "url": "https://finnhub.io/api/news?id=3f07c33b7c039320b261024be38e437d8080901f36cd142567f9b09985e66bf0",
+            "headline": "3 US Bank Stocks Facing The Biggest Fed Rate Test",
+            "url": "https://finnhub.io/api/news?id=8fc3f5286f553400fbd970b5084ec9428f28de0f511cfc250ecfe759f9065c0d",
             "source": "Yahoo",
-            "published_at": "2026-11-18T21:30:00Z",
+            "published_at": "2026-11-26T05:16:43Z",
             "primary": false,
             "symbol": "MTB"
           }
@@ -10192,7 +10192,7 @@
         "status": "INVESTIGATE",
         "score": 82,
         "industry": "Food Products",
-        "why": "Net profit margin 19.4% (TTM); Return on equity 22.3% (TTM); Trailing P/E 8.9×; TTM revenue growth 13.2% YoY",
+        "why": "Net profit margin 19.4% (TTM); Return on equity 22.3% (TTM); Trailing P/E 9.0×; TTM revenue growth 13.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -10206,35 +10206,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T17:57:20Z",
+            "timestamp": "2026-11-28T01:26:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Update: McCormick Offers to Sell Colman's Brand to Hurdle British Competition Rules",
-            "timestamp": "2026-11-25T13:18:49Z",
-            "url": "https://finnhub.io/api/news?id=995f75b5a83867d9c87bfa90a2a64cfd30ddcc7e03037de1c8ba5e0a07b85c46"
+            "value": "Will McCormick (MKC) Spin Off Colman’s To Win UK Merger Approval?",
+            "timestamp": "2026-11-26T20:08:20Z",
+            "url": "https://finnhub.io/api/news?id=48e512a25d75bb84f6516399ff70f4f9ff1cc3ca23a81159b7e0b999f9718e7e"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T17:57:20Z",
+        "fundamentals_at": "2026-11-28T01:26:20Z",
         "price": 49.66,
         "currency": "USD",
         "change_pct": -0.381,
         "news": [
           {
-            "headline": "Update: McCormick Offers to Sell Colman's Brand to Hurdle British Competition Rules",
-            "url": "https://finnhub.io/api/news?id=995f75b5a83867d9c87bfa90a2a64cfd30ddcc7e03037de1c8ba5e0a07b85c46",
+            "headline": "Will McCormick (MKC) Spin Off Colman’s To Win UK Merger Approval?",
+            "url": "https://finnhub.io/api/news?id=48e512a25d75bb84f6516399ff70f4f9ff1cc3ca23a81159b7e0b999f9718e7e",
             "source": "Yahoo",
-            "published_at": "2026-11-25T13:18:49Z",
+            "published_at": "2026-11-26T20:08:20Z",
             "primary": false,
             "symbol": "MKC"
           },
           {
-            "headline": "McCormick Offers to Sell Colman's Brand to Hurdle British Competition Rules",
-            "url": "https://finnhub.io/api/news?id=25fc39ca70c19c71fe97f07e4b9e7f89e758d78f554a34dfe0d62a89148267d4",
+            "headline": "A $1,500,000 Portfolio in McCormick, PepsiCo and Bristol Myers Squibb Pays $61,489 a Year in Dividends. Here’s What Happens if One Cuts",
+            "url": "https://finnhub.io/api/news?id=0326ecf5de19fa2d60e699c6a161dda1ec6ea95e9089fba7b5665557ac8fd5a4",
             "source": "Yahoo",
-            "published_at": "2026-11-25T08:56:12Z",
+            "published_at": "2026-11-26T14:20:40Z",
             "primary": false,
             "symbol": "MKC"
           }
@@ -11354,7 +11354,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Construction",
-        "why": "Net profit margin 31.9% (TTM); Return on equity 18.2% (TTM); Trailing P/E 16.3×; TTM revenue growth 8.6% YoY",
+        "why": "Net profit margin 31.9% (TTM); Return on equity 18.2% (TTM); Trailing P/E 16.6×; TTM revenue growth 8.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11368,35 +11368,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T17:57:20Z",
+            "timestamp": "2026-11-28T01:26:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Here's How Much $1000 Invested In Martin Marietta Materials 15 Years Ago Would Be Worth Today",
-            "timestamp": "2026-11-20T16:45:57Z",
-            "url": "https://finnhub.io/api/news?id=ebe076b9a440054893a03ede48363baf8d59cb88aaae821a86a7dc9b918f535d"
+            "value": "Martin Marietta Materials Stock: Analyst Estimates & Ratings",
+            "timestamp": "2026-11-26T08:48:56Z",
+            "url": "https://finnhub.io/api/news?id=98ecb247e529688bb32879bc4d1c266e4d4abc191c871a770ebe3f794d10c57b"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T17:57:20Z",
+        "fundamentals_at": "2026-11-28T01:26:20Z",
         "price": 542.57,
         "currency": "USD",
         "change_pct": 1.124,
         "news": [
           {
-            "headline": "Here's How Much $1000 Invested In Martin Marietta Materials 15 Years Ago Would Be Worth Today",
-            "url": "https://finnhub.io/api/news?id=ebe076b9a440054893a03ede48363baf8d59cb88aaae821a86a7dc9b918f535d",
-            "source": "Benzinga",
-            "published_at": "2026-11-20T16:45:57Z",
+            "headline": "Martin Marietta Materials Stock: Analyst Estimates & Ratings",
+            "url": "https://finnhub.io/api/news?id=98ecb247e529688bb32879bc4d1c266e4d4abc191c871a770ebe3f794d10c57b",
+            "source": "Yahoo",
+            "published_at": "2026-11-26T08:48:56Z",
             "primary": false,
             "symbol": "MLM"
           },
           {
-            "headline": "Is Martin Marietta Stock Really Expensive?",
-            "url": "https://finnhub.io/api/news?id=188bdc2026fc14ffb666ad764396a3d6eca156c0e7255db0772958d69d6ea9ef",
-            "source": "Yahoo",
-            "published_at": "2026-11-20T11:31:33Z",
+            "headline": "Here's How Much $1000 Invested In Martin Marietta Materials 15 Years Ago Would Be Worth Today",
+            "url": "https://finnhub.io/api/news?id=ebe076b9a440054893a03ede48363baf8d59cb88aaae821a86a7dc9b918f535d",
+            "source": "Benzinga",
+            "published_at": "2026-11-20T16:45:57Z",
             "primary": false,
             "symbol": "MLM"
           }
@@ -11406,12 +11406,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 460.69,
-          "entry_floor": 414.62,
-          "exit_review_low": 590.63,
-          "exit_review_high": 698.15,
-          "bear_case": 328.7,
-          "scenario_upside_pct": 8.9,
+          "entry_ceiling": 451.79,
+          "entry_floor": 406.61,
+          "exit_review_low": 579.21,
+          "exit_review_high": 684.66,
+          "bear_case": 322.34,
+          "scenario_upside_pct": 6.8,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11424,12 +11424,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 16.28,
+            "trailing_pe": 16.6,
             "earnings_growth_assumed_pct": 3.86,
             "scenario_exit_pe": 17.06,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T17:57:20Z"
+            "metrics_retrieved_at": "2026-11-28T01:26:20Z"
           }
         },
         "ranking_score": 79,
@@ -15348,7 +15348,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-27T23:58:59Z",
+      "generated_at": "2026-11-28T01:26:20Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 840,
