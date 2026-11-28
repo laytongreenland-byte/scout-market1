@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:26:20Z",
+  "generated_at": "2026-11-28T03:00:38Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-28T01:26:20Z",
+      "checked_at": "2026-11-28T03:00:38Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-28T01:26:20Z",
+      "checked_at": "2026-11-28T03:00:38Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-28T01:26:20Z",
+      "checked_at": "2026-11-28T03:00:38Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-28T01:26:20Z",
+      "checked_at": "2026-11-28T03:00:38Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-28T01:26:20Z",
+      "checked_at": "2026-11-28T03:00:38Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-28T01:26:20Z",
+    "generated_at": "2026-11-28T03:00:38Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -8224,7 +8224,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Technology",
-        "why": "Net profit margin 19.2% (TTM); Return on equity 113.7% (TTM); Trailing P/E 22.6×; TTM revenue growth 12.2% YoY",
+        "why": "Net profit margin 19.2% (TTM); Return on equity 113.7% (TTM); Trailing P/E 22.9×; TTM revenue growth 12.2% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8238,35 +8238,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T19:02:33Z",
+            "timestamp": "2026-11-28T03:00:38Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Unveiling NetApp (NTAP) Q2 Outlook: Wall Street Estimates for Key Metrics",
-            "timestamp": "2026-11-25T13:15:03Z",
-            "url": "https://finnhub.io/api/news?id=32239b15ee8841261041304a80c53c15820133393c6965f781fbac5df8423043"
+            "value": "NetApp (NTAP) Reports Q2 Earnings on December 1 — Here’s What Analysts Expect",
+            "timestamp": "2026-11-27T23:19:25Z",
+            "url": "https://finnhub.io/api/news?id=35e8840a4b220bec6dab7f78a860f3fa654b66e28befa05431f2febe3cf5f8f8"
           }
         ],
         "as_of": "2026-11-27T19:12:22Z",
-        "fundamentals_at": "2026-11-25T19:02:33Z",
+        "fundamentals_at": "2026-11-28T03:00:38Z",
         "price": 172.67,
         "currency": "USD",
         "change_pct": 4.648,
         "news": [
           {
-            "headline": "Unveiling NetApp (NTAP) Q2 Outlook: Wall Street Estimates for Key Metrics",
-            "url": "https://finnhub.io/api/news?id=32239b15ee8841261041304a80c53c15820133393c6965f781fbac5df8423043",
+            "headline": "NetApp (NTAP) Reports Q2 Earnings on December 1 — Here’s What Analysts Expect",
+            "url": "https://finnhub.io/api/news?id=35e8840a4b220bec6dab7f78a860f3fa654b66e28befa05431f2febe3cf5f8f8",
             "source": "Yahoo",
-            "published_at": "2026-11-25T13:15:03Z",
+            "published_at": "2026-11-27T23:19:25Z",
             "primary": false,
             "symbol": "NTAP"
           },
           {
-            "headline": "How to Earn $500 a Month From NetApp Stock Ahead of Q2 Earnings",
-            "url": "https://finnhub.io/api/news?id=419d7b5282be2a6380befe133b08d2d49a03e96be24b926ba38eebdacddbbfd6",
-            "source": "Benzinga",
-            "published_at": "2026-11-25T09:27:26Z",
+            "headline": "NetApp Stock Ahead of Q2 Earnings: Should You Buy, Hold or Sell?",
+            "url": "https://finnhub.io/api/news?id=8411b308718f25d4958b5e326d5b36eede5aaef905705928423c18a593ddeea2",
+            "source": "Yahoo",
+            "published_at": "2026-11-26T14:04:00Z",
             "primary": false,
             "symbol": "NTAP"
           }
@@ -8276,12 +8276,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 112.74,
-          "entry_floor": 101.47,
-          "exit_review_low": 144.54,
-          "exit_review_high": 172.69,
-          "bear_case": 79.21,
-          "scenario_upside_pct": -16.3,
+          "entry_ceiling": 111.37,
+          "entry_floor": 100.24,
+          "exit_review_low": 142.79,
+          "exit_review_high": 170.59,
+          "bear_case": 78.25,
+          "scenario_upside_pct": -17.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8294,12 +8294,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 22.58,
+            "trailing_pe": 22.86,
             "earnings_growth_assumed_pct": 5.47,
             "scenario_exit_pe": 17.92,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T19:02:33Z"
+            "metrics_retrieved_at": "2026-11-28T03:00:38Z"
           }
         },
         "ranking_score": 83,
@@ -15348,7 +15348,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-28T01:26:20Z",
+      "generated_at": "2026-11-28T03:00:38Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 840,
