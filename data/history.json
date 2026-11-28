@@ -78132,6 +78132,27 @@
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|TER|ABOVE BASE CASE",
+      "week": "2026-11-23",
+      "symbol": "TER",
+      "name": "Teradyne, Inc.",
+      "signal": "ABOVE BASE CASE",
+      "decision_at": "2026-11-28T09:59:09Z",
+      "quote_at": "2026-11-27T21:00:00Z",
+      "reference_price": 222.96,
+      "score": 60,
+      "quality_status": "WATCH",
+      "buy_ceiling": 165.99,
+      "sell_review": 212.81,
+      "bear_case": 112.85,
+      "why": "Net profit margin 27.5% (TTM); Return on equity 42.0% (TTM); Trailing P/E 25.4×; TTM revenue growth 74.9% YoY",
+      "risk": "Large drawdown: recovery is not assured",
+      "financials_retrieved_at": "2026-11-28T09:59:09Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
     }
   ]
 }
