@@ -26395,6 +26395,14 @@
       "reference_price": 274.8,
       "score": 77,
       "price_at": "2026-11-27T15:15:08Z"
+    },
+    {
+      "week": "2026-11-23",
+      "symbol": "ROK",
+      "flagged_at": "2026-11-28T07:25:46Z",
+      "reference_price": 394.25,
+      "score": 86,
+      "price_at": "2026-11-27T21:00:00Z"
     }
   ],
   "episodes": [
@@ -78100,6 +78108,27 @@
       "why": "Net profit margin 8.7% (TTM); Return on equity 130.7% (TTM); Trailing P/E 12.2×; TTM revenue growth 72.1% YoY",
       "risk": "Large drawdown: recovery is not assured",
       "financials_retrieved_at": "2026-11-27T16:14:35Z",
+      "price_model_version": 1,
+      "currency": "USD",
+      "method": "daily-close-paper-v1"
+    },
+    {
+      "id": "2026-11-23|ROK|ENTRY CANDIDATE",
+      "week": "2026-11-23",
+      "symbol": "ROK",
+      "name": "Rockwell Automation Inc",
+      "signal": "ENTRY CANDIDATE",
+      "decision_at": "2026-11-28T07:25:46Z",
+      "quote_at": "2026-11-27T21:00:00Z",
+      "reference_price": 394.25,
+      "score": 86,
+      "quality_status": "INVESTIGATE",
+      "buy_ceiling": 422.44,
+      "sell_review": 558.21,
+      "bear_case": 296.01,
+      "why": "Net profit margin 15.8% (TTM); Return on equity 69.1% (TTM); Trailing P/E 17.1×; TTM revenue growth 87.6% YoY",
+      "risk": "Company-specific, sector and market drawdowns remain possible",
+      "financials_retrieved_at": "2026-11-28T07:25:46Z",
       "price_model_version": 1,
       "currency": "USD",
       "method": "daily-close-paper-v1"

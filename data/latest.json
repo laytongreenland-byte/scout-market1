@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T06:09:37Z",
+  "generated_at": "2026-11-28T07:25:46Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-28T06:09:37Z",
+      "checked_at": "2026-11-28T07:25:46Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-28T06:09:37Z",
+      "checked_at": "2026-11-28T07:25:46Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-28T06:09:37Z",
+      "checked_at": "2026-11-28T07:25:46Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-28T06:09:37Z",
+      "checked_at": "2026-11-28T07:25:46Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-28T06:09:37Z",
+      "checked_at": "2026-11-28T07:25:46Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-28T06:09:37Z",
+    "generated_at": "2026-11-28T07:25:46Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7874,6 +7874,93 @@
             "Finnhub P/E, growth and 52-week range"
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax."
+        },
+        "ranking_score": 86,
+        "rank_method": "FINANCIAL RULES"
+      },
+      {
+        "symbol": "ROK",
+        "name": "Rockwell Automation Inc",
+        "status": "INVESTIGATE",
+        "score": 86,
+        "industry": "Electrical Equipment",
+        "why": "Net profit margin 15.8% (TTM); Return on equity 69.1% (TTM); Trailing P/E 17.1×; TTM revenue growth 87.6% YoY",
+        "risks": [
+          "Company-specific, sector and market drawdowns remain possible"
+        ],
+        "evidence": [
+          {
+            "label": "Quote (USD)",
+            "value": "$394.25",
+            "timestamp": "2026-11-27T21:00:00Z",
+            "url": "https://finnhub.io/docs/api/quote"
+          },
+          {
+            "label": "Finnhub financial metrics",
+            "value": "5/5 fields; retrieval time, not accounting period",
+            "timestamp": "2026-11-28T07:25:46Z",
+            "url": "https://finnhub.io/docs/api/stock-metrics"
+          },
+          {
+            "label": "Latest company-related article",
+            "value": "Discrete Event Simulation Software Market 2026: Global Forecast to 2030 | Capture 12.9% CAGR via AI and Cloud with Rockwell Automation, Dassault Systèmes, MathWorks, AnyLogic",
+            "timestamp": "2026-11-24T14:26:00Z",
+            "url": "https://finnhub.io/api/news?id=e25717e3498f77f804966d2076691d7a74da71baf25cf4f11f30faf535f0237b"
+          }
+        ],
+        "as_of": "2026-11-27T21:00:00Z",
+        "fundamentals_at": "2026-11-28T07:25:46Z",
+        "price": 394.25,
+        "currency": "USD",
+        "change_pct": 2.427,
+        "news": [
+          {
+            "headline": "Discrete Event Simulation Software Market 2026: Global Forecast to 2030 | Capture 12.9% CAGR via AI and Cloud with Rockwell Automation, Dassault Systèmes, MathWorks, AnyLogic",
+            "url": "https://finnhub.io/api/news?id=e25717e3498f77f804966d2076691d7a74da71baf25cf4f11f30faf535f0237b",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T14:26:00Z",
+            "primary": false,
+            "symbol": "ROK"
+          },
+          {
+            "headline": "Rockwell Automation Stock: Analyst Estimates & Ratings",
+            "url": "https://finnhub.io/api/news?id=6dc3dff230d2f6dbfc906bef576fe34cc3b5b22c35d82599b891d6d24f1bddca",
+            "source": "Yahoo",
+            "published_at": "2026-11-24T13:07:38Z",
+            "primary": false,
+            "symbol": "ROK"
+          }
+        ],
+        "data_quality": "Measured 5/5 core fields",
+        "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
+        "price_plan": {
+          "method_version": 1,
+          "signal": "ENTRY CANDIDATE",
+          "entry_ceiling": 422.44,
+          "entry_floor": 380.2,
+          "exit_review_low": 558.21,
+          "exit_review_high": 681.7,
+          "bear_case": 296.01,
+          "scenario_upside_pct": 41.6,
+          "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
+          "confidence": "ILLUSTRATIVE / NOT VALIDATED",
+          "horizon": "Illustrative 12-month scenario, not a return forecast",
+          "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
+          "currency": "USD",
+          "as_of": "2026-11-27T21:00:00Z",
+          "basis": [
+            "Finnhub US share quote",
+            "Finnhub P/E, growth and 52-week range"
+          ],
+          "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
+          "assumptions": {
+            "trailing_pe": 17.09,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 22.2,
+            "valuation_haircut_pct": 22,
+            "market_range_entry_cap": "52-week low + 50% of observed range",
+            "metrics_retrieved_at": "2026-11-28T07:25:46Z"
+          }
         },
         "ranking_score": 86,
         "rank_method": "FINANCIAL RULES"
@@ -11607,7 +11694,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 23.8% (TTM); Return on equity 43.5% (TTM); Trailing P/E 18.7×; TTM revenue growth 9.7% YoY",
+        "why": "Net profit margin 23.8% (TTM); Return on equity 43.5% (TTM); Trailing P/E 18.5×; TTM revenue growth 9.7% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11621,35 +11708,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T22:05:53Z",
+            "timestamp": "2026-11-28T07:25:46Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Can RCL's 50% Sandals Stake Drive Long-Term Earnings Growth?",
-            "timestamp": "2026-11-24T16:37:00Z",
-            "url": "https://finnhub.io/api/news?id=5259ccb3bfde29346dd5216889e2593a11bbd4662f7b310f7f15c05bfbed6bd9"
+            "value": "Zacks Market Edge Highlights: Royal Caribbean Cruises, Abercrombie & Fitch and Burlington Stores",
+            "timestamp": "2026-11-27T07:34:00Z",
+            "url": "https://finnhub.io/api/news?id=0582cf1fd86c960e3ab35c76988c4d41df88016282717e7686af9740485c74b0"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T22:05:53Z",
+        "fundamentals_at": "2026-11-28T07:25:46Z",
         "price": 315.35,
         "currency": "USD",
         "change_pct": 0.395,
         "news": [
           {
-            "headline": "Can RCL's 50% Sandals Stake Drive Long-Term Earnings Growth?",
-            "url": "https://finnhub.io/api/news?id=5259ccb3bfde29346dd5216889e2593a11bbd4662f7b310f7f15c05bfbed6bd9",
+            "headline": "Zacks Market Edge Highlights: Royal Caribbean Cruises, Abercrombie & Fitch and Burlington Stores",
+            "url": "https://finnhub.io/api/news?id=0582cf1fd86c960e3ab35c76988c4d41df88016282717e7686af9740485c74b0",
             "source": "Yahoo",
-            "published_at": "2026-11-24T16:37:00Z",
+            "published_at": "2026-11-27T07:34:00Z",
             "primary": false,
             "symbol": "RCL"
           },
           {
-            "headline": "Is Royal Caribbean Cruises (RCL) Undervalued As Earnings Estimates Rise?",
-            "url": "https://finnhub.io/api/news?id=d2ead3e7452ccfc2195608e066c8ed71906a837eb6c73c5f47ed6a44c2da411c",
+            "headline": "Why Is Royal Caribbean (RCL) Up 5.3% Since Last Earnings Report?",
+            "url": "https://finnhub.io/api/news?id=494185916f2787300994a101ba8bf2fc96a137adb78bba00179a2a73f5bb2da0",
             "source": "Yahoo",
-            "published_at": "2026-11-24T13:11:46Z",
+            "published_at": "2026-11-26T15:30:16Z",
             "primary": false,
             "symbol": "RCL"
           }
@@ -11659,12 +11746,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 238.01,
-          "entry_floor": 214.21,
-          "exit_review_low": 305.14,
-          "exit_review_high": 361.95,
-          "bear_case": 168.97,
-          "scenario_upside_pct": -3.2,
+          "entry_ceiling": 240.21,
+          "entry_floor": 216.19,
+          "exit_review_low": 307.96,
+          "exit_review_high": 365.3,
+          "bear_case": 170.53,
+          "scenario_upside_pct": -2.3,
           "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11677,12 +11764,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 18.71,
+            "trailing_pe": 18.53,
             "earnings_growth_assumed_pct": 4.38,
             "scenario_exit_pe": 17.34,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T22:05:53Z"
+            "metrics_retrieved_at": "2026-11-28T07:25:46Z"
           }
         },
         "ranking_score": 79,
@@ -13813,72 +13900,74 @@
         },
         "ranking_score": 77,
         "rank_method": "FINANCIAL RULES"
-      },
+      }
+    ],
+    "entry_candidates": [
       {
-        "symbol": "ADSK",
-        "name": "Autodesk, Inc.",
+        "symbol": "ROK",
+        "name": "Rockwell Automation Inc",
         "status": "INVESTIGATE",
-        "score": 77,
-        "industry": "Technology",
-        "why": "Net profit margin 23.0% (TTM); Return on equity 55.4% (TTM); Trailing P/E 27.7×; TTM revenue growth 17.6% YoY",
+        "score": 86,
+        "industry": "Electrical Equipment",
+        "why": "Net profit margin 15.8% (TTM); Return on equity 69.1% (TTM); Trailing P/E 17.1×; TTM revenue growth 87.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
         "evidence": [
           {
             "label": "Quote (USD)",
-            "value": "$251.88",
+            "value": "$394.25",
             "timestamp": "2026-11-27T21:00:00Z",
             "url": "https://finnhub.io/docs/api/quote"
           },
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-27T01:29:35Z",
+            "timestamp": "2026-11-28T07:25:46Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Autodesk: 3 Key Takeaways for Long-Term Investors",
-            "timestamp": "2026-11-26T04:23:11Z",
-            "url": "https://finnhub.io/api/news?id=7c7688b8d0d6c8a66dd5d41c23da2af597a056e6b71fe32880cea685c5569cd2"
+            "value": "Discrete Event Simulation Software Market 2026: Global Forecast to 2030 | Capture 12.9% CAGR via AI and Cloud with Rockwell Automation, Dassault Systèmes, MathWorks, AnyLogic",
+            "timestamp": "2026-11-24T14:26:00Z",
+            "url": "https://finnhub.io/api/news?id=e25717e3498f77f804966d2076691d7a74da71baf25cf4f11f30faf535f0237b"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-27T01:29:35Z",
-        "price": 251.88,
+        "fundamentals_at": "2026-11-28T07:25:46Z",
+        "price": 394.25,
         "currency": "USD",
-        "change_pct": 2.065,
+        "change_pct": 2.427,
         "news": [
           {
-            "headline": "Autodesk: 3 Key Takeaways for Long-Term Investors",
-            "url": "https://finnhub.io/api/news?id=7c7688b8d0d6c8a66dd5d41c23da2af597a056e6b71fe32880cea685c5569cd2",
+            "headline": "Discrete Event Simulation Software Market 2026: Global Forecast to 2030 | Capture 12.9% CAGR via AI and Cloud with Rockwell Automation, Dassault Systèmes, MathWorks, AnyLogic",
+            "url": "https://finnhub.io/api/news?id=e25717e3498f77f804966d2076691d7a74da71baf25cf4f11f30faf535f0237b",
             "source": "Yahoo",
-            "published_at": "2026-11-26T04:23:11Z",
+            "published_at": "2026-11-24T14:26:00Z",
             "primary": false,
-            "symbol": "ADSK"
+            "symbol": "ROK"
           },
           {
-            "headline": "Autodesk (ADSK) Stock Q3 Results Clash With Lingering Margin Doubts",
-            "url": "https://finnhub.io/api/news?id=648e2f4387956b1bde0ac8a4bc8e7bd6a7c14a09ee302a08ac577b72882f2ba4",
+            "headline": "Rockwell Automation Stock: Analyst Estimates & Ratings",
+            "url": "https://finnhub.io/api/news?id=6dc3dff230d2f6dbfc906bef576fe34cc3b5b22c35d82599b891d6d24f1bddca",
             "source": "Yahoo",
-            "published_at": "2026-11-25T23:19:57Z",
+            "published_at": "2026-11-24T13:07:38Z",
             "primary": false,
-            "symbol": "ADSK"
+            "symbol": "ROK"
           }
         ],
         "data_quality": "Measured 5/5 core fields",
         "limitations": "Rules-based ranking; financial metrics may refer to older accounting periods; retrieved time is not filing date. Cross-sector scores are imperfect; no intrinsic-value estimate.",
         "price_plan": {
           "method_version": 1,
-          "signal": "ABOVE BASE CASE",
-          "entry_ceiling": 147.01,
-          "entry_floor": 132.31,
-          "exit_review_low": 188.48,
-          "exit_review_high": 228.65,
-          "bear_case": 100.96,
-          "scenario_upside_pct": -25.2,
-          "reason": "Quote is at or above the illustrative base-case level; no attractive entry indicated.",
+          "signal": "ENTRY CANDIDATE",
+          "entry_ceiling": 422.44,
+          "entry_floor": 380.2,
+          "exit_review_low": 558.21,
+          "exit_review_high": 681.7,
+          "bear_case": 296.01,
+          "scenario_upside_pct": 41.6,
+          "reason": "Screened company meets the illustrative entry ceiling. Independently verify current earnings and disclosures before any trade.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
           "method": "Trailing earnings proxy + bounded illustrative earnings growth + fixed scenario P/E; 22% valuation haircut and lower-half 52-week entry cap.",
@@ -13890,19 +13979,17 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 27.7,
-            "earnings_growth_assumed_pct": 7.9,
-            "scenario_exit_pe": 19.21,
+            "trailing_pe": 17.09,
+            "earnings_growth_assumed_pct": 9.0,
+            "scenario_exit_pe": 22.2,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-27T01:29:35Z"
+            "metrics_retrieved_at": "2026-11-28T07:25:46Z"
           }
         },
-        "ranking_score": 77,
+        "ranking_score": 86,
         "rank_method": "FINANCIAL RULES"
-      }
-    ],
-    "entry_candidates": [
+      },
       {
         "symbol": "EXPE",
         "name": "Expedia Group, Inc.",
@@ -15348,23 +15435,43 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-28T06:09:37Z",
+      "generated_at": "2026-11-28T07:25:46Z",
       "method": "daily-close-paper-v1",
       "summary": {
-        "recorded": 840,
-        "purchase_scenarios": 79,
+        "recorded": 841,
+        "purchase_scenarios": 80,
         "opened": 5,
         "closed": 0,
         "positive": 0,
         "negative": 0,
         "targets_reached": 0,
         "not_triggered": 0,
-        "waiting": 79,
+        "waiting": 80,
         "unverified": 0,
         "skipped": 761,
         "benchmark_beaten": 0
       },
       "records": [
+        {
+          "id": "2026-11-23|ROK|ENTRY CANDIDATE",
+          "symbol": "ROK",
+          "name": "Rockwell Automation Inc",
+          "signal": "ENTRY CANDIDATE",
+          "decision_at": "2026-11-28T07:25:46Z",
+          "quote_at": "2026-11-27T21:00:00Z",
+          "reference_price": 394.25,
+          "buy_ceiling": 422.44,
+          "sell_review": 558.21,
+          "risk": "Company-specific, sector and market drawdowns remain possible",
+          "why": "Net profit margin 15.8% (TTM); Return on equity 69.1% (TTM); Trailing P/E 17.1×; TTM revenue growth 87.6% YoY",
+          "score": 86,
+          "result": {
+            "status": "WAITING_TO_BUY",
+            "reason": "No later observed daily close has met the original buy ceiling"
+          },
+          "method": "daily-close-paper-v1",
+          "currency": "USD"
+        },
         {
           "id": "2026-11-23|DELL|POSSIBLE VALUE TRAP",
           "symbol": "DELL",
@@ -17755,30 +17862,10 @@
           },
           "method": "daily-close-paper-v1",
           "currency": "USD"
-        },
-        {
-          "id": "2026-11-23|DG|NO RELIABLE PRICE RANGE",
-          "symbol": "DG",
-          "name": "Dollar General Corp",
-          "signal": "NO RELIABLE PRICE RANGE",
-          "decision_at": "2026-11-22T11:51:41Z",
-          "quote_at": "2026-11-20T21:00:00Z",
-          "reference_price": 130.53,
-          "buy_ceiling": null,
-          "sell_review": null,
-          "risk": "Company-specific, sector and market drawdowns remain possible",
-          "why": "Net profit margin 3.9% (TTM); Return on equity 19.6% (TTM); Trailing P/E 16.9×; TTM revenue growth 4.8% YoY",
-          "score": 64,
-          "result": {
-            "status": "OBSERVING_SKIP",
-            "reason": "No trade proposed. Checking whether avoiding the purchase was sensible after 30 days"
-          },
-          "method": "daily-close-paper-v1",
-          "currency": "USD"
         }
       ],
       "published_records": 120,
-      "legacy_research_flags": 203,
+      "legacy_research_flags": 204,
       "rules": {
         "entry": "First observed next-session daily CLOSE at or below frozen buy ceiling, within 14 calendar days",
         "exit": "First later daily CLOSE at or above frozen sell-review price, otherwise first observed close >=30 days after entry",
@@ -17788,14 +17875,6 @@
       }
     },
     "research_log": [
-      {
-        "week": "2026-11-23",
-        "symbol": "HUBB",
-        "flagged_at": "2026-11-22T11:51:41Z",
-        "reference_price": 403.66,
-        "score": 76,
-        "price_at": "2026-11-20T21:00:00Z"
-      },
       {
         "week": "2026-11-23",
         "symbol": "JKHY",
@@ -18187,6 +18266,14 @@
         "reference_price": 274.8,
         "score": 77,
         "price_at": "2026-11-27T15:15:08Z"
+      },
+      {
+        "week": "2026-11-23",
+        "symbol": "ROK",
+        "flagged_at": "2026-11-28T07:25:46Z",
+        "reference_price": 394.25,
+        "score": 86,
+        "price_at": "2026-11-27T21:00:00Z"
       }
     ],
     "limitations": [
