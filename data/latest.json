@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:58:03Z",
+  "generated_at": "2026-11-28T12:01:40Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-28T10:58:03Z",
+      "checked_at": "2026-11-28T12:01:40Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-28T10:58:03Z",
+      "checked_at": "2026-11-28T12:01:40Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-28T10:58:03Z",
+      "checked_at": "2026-11-28T12:01:40Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-28T10:58:03Z",
+      "checked_at": "2026-11-28T12:01:40Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-28T10:58:03Z",
+      "checked_at": "2026-11-28T12:01:40Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-28T10:58:03Z",
+    "generated_at": "2026-11-28T12:01:40Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -14172,7 +14172,7 @@
         "status": "WATCH",
         "score": 66,
         "industry": "Technology",
-        "why": "Net profit margin 69.2% (TTM); Return on equity 113.8% (TTM); Trailing P/E 10.3×; TTM revenue growth 43.0% YoY",
+        "why": "Net profit margin 69.2% (TTM); Return on equity 113.8% (TTM); Trailing P/E 9.3×; TTM revenue growth 43.0% YoY",
         "risks": [
           "Large drawdown: recovery is not assured",
           "Large one-session price move (+7.2%)"
@@ -14187,35 +14187,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-26T04:12:48Z",
+            "timestamp": "2026-11-28T12:01:40Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
-            "timestamp": "2026-11-25T17:22:58Z",
-            "url": "https://finnhub.io/api/news?id=89ad8e455e11d614ad87de47886ac23f9824e33232018aa5ea86e0665c83367d"
+            "value": "Western Digital Stock Gets A Lift From AI Storage Demand",
+            "timestamp": "2026-11-27T21:16:01Z",
+            "url": "https://finnhub.io/api/news?id=26ae4798caf884c834ad1cc9a4bafbaeb05861e07d18edd1a2bbed5574953830"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-26T04:12:48Z",
+        "fundamentals_at": "2026-11-28T12:01:40Z",
         "price": 292.11,
         "currency": "USD",
         "change_pct": 7.216,
         "news": [
           {
-            "headline": "Western Digital Stocks Sink 7.42%, Trading 139% Above GF Value",
-            "url": "https://finnhub.io/api/news?id=89ad8e455e11d614ad87de47886ac23f9824e33232018aa5ea86e0665c83367d",
+            "headline": "Western Digital Stock Gets A Lift From AI Storage Demand",
+            "url": "https://finnhub.io/api/news?id=26ae4798caf884c834ad1cc9a4bafbaeb05861e07d18edd1a2bbed5574953830",
             "source": "Yahoo",
-            "published_at": "2026-11-25T17:22:58Z",
+            "published_at": "2026-11-27T21:16:01Z",
             "primary": false,
             "symbol": "WDC"
           },
           {
-            "headline": "Sandisk vs. Western Digital: Which Computer Drive Stock Is a Better Buy for 2027?",
-            "url": "https://finnhub.io/api/news?id=c9a3524348fd19abc99596758d1444285e82e053e19f7104939db9f2f5ea8225",
+            "headline": "SNDK, MU, WDC, Other Memory Stocks Rally As Investors Return To Beaten-Down AI Names",
+            "url": "https://finnhub.io/api/news?id=4934603eec6659e69687cbf29f402ef024df68b6895d2367c6bde628adfc5f57",
             "source": "Yahoo",
-            "published_at": "2026-11-25T17:19:02Z",
+            "published_at": "2026-11-27T13:19:21Z",
             "primary": false,
             "symbol": "WDC"
           }
@@ -14225,12 +14225,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "POSSIBLE VALUE TRAP",
-          "entry_ceiling": 471.21,
-          "entry_floor": 424.09,
-          "exit_review_low": 688.75,
-          "exit_review_high": 841.11,
-          "bear_case": 365.23,
-          "scenario_upside_pct": 135.8,
+          "entry_ceiling": 473.79,
+          "entry_floor": 426.41,
+          "exit_review_low": 761.53,
+          "exit_review_high": 930.0,
+          "bear_case": 403.82,
+          "scenario_upside_pct": 160.7,
           "reason": "Share price is beneath the downside scenario. Verify whether the business has deteriorated.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14243,12 +14243,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 10.26,
+            "trailing_pe": 9.28,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 22.2,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-26T04:12:48Z"
+            "metrics_retrieved_at": "2026-11-28T12:01:40Z"
           }
         },
         "ranking_score": 66,
@@ -15435,7 +15435,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-28T10:58:03Z",
+      "generated_at": "2026-11-28T12:01:40Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 842,
