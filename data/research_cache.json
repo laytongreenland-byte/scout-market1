@@ -24398,17 +24398,17 @@
       "metrics": {
         "52WeekHigh": 49.21,
         "52WeekLow": 38.42,
-        "peTTM": 23.1184,
-        "psTTM": 3.1966,
+        "peTTM": 23.0546,
+        "psTTM": 3.1878,
         "netProfitMarginTTM": 13.83,
         "roeTTM": 9.83,
         "revenueGrowthTTMYoy": 10.06,
         "epsGrowthTTMYoy": 3.05,
         "currentRatioQuarterly": 0.4955,
         "totalDebt/totalEquityQuarterly": 1.9081,
-        "marketCapitalization": 21728.992
+        "marketCapitalization": 21669.033
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "NiSource Inc.",
       "profile": {
         "weburl": "https://www.nisource.com/",
@@ -24417,18 +24417,26 @@
       },
       "news": [
         {
-          "headline": "NiSource: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finnhub.io/api/news?id=595c8e7418da3aa3ca7965c9ef6c7f66f78eba9d036eb35c6150b72cd35ffd3b",
+          "headline": "Why Is NiSource (NI) Up 0.8% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=e264a7d9ec29c888ee0e94da327fa4a881819d2fb6f3f47c67283aa23283c6a6",
           "source": "Yahoo",
-          "published_at": "2026-11-20T22:05:03Z",
+          "published_at": "2026-11-27T15:30:11Z",
           "primary": false,
           "symbol": "NI"
         },
         {
-          "headline": "B of A Securities Maintains Buy on NiSource, Raises Price Target to $48",
-          "url": "https://finnhub.io/api/news?id=9e59cd8b584c1578bb2d43ed199e281e5c049e65e1b974bdaad9d438baeb50e0",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T12:22:59Z",
+          "headline": "Is NiSource (NI) Reasonably Priced For Its Dividend Growth Story?",
+          "url": "https://finnhub.io/api/news?id=854032ac37526c7682bcee20cc92a8e951942c528e2758f6b9a239aaeaba7b98",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T07:07:31Z",
+          "primary": false,
+          "symbol": "NI"
+        },
+        {
+          "headline": "NiSource: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finnhub.io/api/news?id=595c8e7418da3aa3ca7965c9ef6c7f66f78eba9d036eb35c6150b72cd35ffd3b",
+          "source": "Yahoo",
+          "published_at": "2026-11-20T22:05:03Z",
           "primary": false,
           "symbol": "NI"
         }
@@ -24437,18 +24445,18 @@
     "NDSN": {
       "metrics": {
         "52WeekHigh": 339.12,
-        "52WeekLow": 231.31,
-        "peTTM": 31.4816,
-        "psTTM": 5.8655,
+        "52WeekLow": 231.39,
+        "peTTM": 32.4749,
+        "psTTM": 6.0505,
         "netProfitMarginTTM": 18.63,
         "roeTTM": 17.59,
         "revenueGrowthTTMYoy": 7.02,
         "epsGrowthTTMYoy": 24.24,
         "currentRatioQuarterly": 1.8228,
         "totalDebt/totalEquityQuarterly": 0.5352,
-        "marketCapitalization": 17477.904
+        "marketCapitalization": 18029.328
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Nordson Corporation",
       "profile": {
         "weburl": "https://www.nordson.com/",
@@ -24457,10 +24465,10 @@
       },
       "news": [
         {
-          "headline": "Nordson (NDSN) Stock Looks Hard To Call On A 44% Run",
-          "url": "https://finnhub.io/api/news?id=ad1402ef5c1e807a978ac7848ab0e0ff1ed2d43b934e175f58ef69b7dabe13e8",
+          "headline": "Are Wall Street Analysts Predicting Nordson Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=ff63e4551a2f5b59fe81856c0a07575ba1dddfce7cf8a137c99c6e42518cee57",
           "source": "Yahoo",
-          "published_at": "2026-11-19T10:14:52Z",
+          "published_at": "2026-11-26T19:33:14Z",
           "primary": false,
           "symbol": "NDSN"
         }
@@ -24469,18 +24477,18 @@
     "NTRS": {
       "metrics": {
         "52WeekHigh": 195.78,
-        "52WeekLow": 126.24,
-        "peTTM": 12.1549,
-        "psTTM": 2.8013,
+        "52WeekLow": 128.27,
+        "peTTM": 12.6176,
+        "psTTM": 2.9079,
         "netProfitMarginTTM": 23.05,
         "roeTTM": 18.41,
         "revenueGrowthTTMYoy": 32.9,
         "epsGrowthTTMYoy": 47.46,
         "currentRatioQuarterly": 0.3239,
         "totalDebt/totalEquityQuarterly": 11.086,
-        "marketCapitalization": 29495.037
+        "marketCapitalization": 30617.965
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Northern Trust Corporation",
       "profile": {
         "weburl": "https://www.northerntrust.com/",
@@ -24488,6 +24496,22 @@
         "name": "Northern Trust Corporation"
       },
       "news": [
+        {
+          "headline": "Is Northern Trust (NTRS) Reasonable After A 134% Three Year Run?",
+          "url": "https://finnhub.io/api/news?id=cace9b5e66e2dd0bc2654724ff95be2a5a8a3be9a8be92236e15a8f856cb45f6",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T11:11:43Z",
+          "primary": false,
+          "symbol": "NTRS"
+        },
+        {
+          "headline": "Northern Trust (NTRS) Heads To Goldman Conference, Is It Still Below Fair Value?",
+          "url": "https://finnhub.io/api/news?id=03e829ea8851bde2242a28ba341a0b2a8b8edc7bc4f3e8229d34a9efeda68c7a",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T09:16:26Z",
+          "primary": false,
+          "symbol": "NTRS"
+        },
         {
           "headline": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
           "url": "https://finnhub.io/api/news?id=9dad5c3499c8ffd1a2141d5d0185fc1e6ea371a20c19e90169c02c8c31bd9d66",
@@ -24511,14 +24535,6 @@
           "published_at": "2026-11-24T16:11:40Z",
           "primary": false,
           "symbol": "NTRS"
-        },
-        {
-          "headline": "Why Is Northern Trust (NTRS) Up 0.5% Since Last Earnings Report?",
-          "url": "https://finnhub.io/api/news?id=8ef2d7875325e05df4591823334c6c2664cbfeb5e1c71d1ccb581be3a331c6cb",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T15:30:08Z",
-          "primary": false,
-          "symbol": "NTRS"
         }
       ]
     },
@@ -24526,17 +24542,17 @@
       "metrics": {
         "52WeekHigh": 25.13,
         "52WeekLow": 13.631,
-        "peTTM": 9.3764,
-        "psTTM": 0.7685,
+        "peTTM": 9.3433,
+        "psTTM": 0.7658,
         "netProfitMarginTTM": 8.2,
         "roeTTM": 32.15,
         "revenueGrowthTTMYoy": 4.85,
         "epsGrowthTTMYoy": 37.34,
         "currentRatioQuarterly": 0.225,
         "totalDebt/totalEquityQuarterly": 4.791,
-        "marketCapitalization": 7809.979
+        "marketCapitalization": 7782.4224
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Norwegian Cruise Line Holdings Ltd.",
       "profile": {
         "weburl": "https://www.nclhltd.com/",
@@ -24590,17 +24606,17 @@
       "metrics": {
         "52WeekHigh": 189.96,
         "52WeekLow": 79.65,
-        "peTTM": 22.4864,
-        "psTTM": 0.5763,
-        "netProfitMarginTTM": 2.56,
-        "roeTTM": 25.380000000000003,
-        "revenueGrowthTTMYoy": 12.8,
-        "epsGrowthTTMYoy": 62.08,
-        "currentRatioQuarterly": 0.9677,
-        "totalDebt/totalEquityQuarterly": 4.7901,
-        "marketCapitalization": 19090.936
+        "peTTM": 15.3493,
+        "psTTM": 0.5524,
+        "netProfitMarginTTM": 3.6,
+        "roeTTM": 30.159999999999997,
+        "revenueGrowthTTMYoy": 17.38,
+        "epsGrowthTTMYoy": -14.51,
+        "currentRatioQuarterly": 0.9931,
+        "totalDebt/totalEquityQuarterly": 4.3481,
+        "marketCapitalization": 19309.357
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "NRG Energy Inc",
       "profile": {
         "weburl": "https://www.nrg.com/",
@@ -24653,18 +24669,18 @@
     "NUE": {
       "metrics": {
         "52WeekHigh": 287.7,
-        "52WeekLow": 150.86,
-        "peTTM": 15.2632,
-        "psTTM": 1.4135,
+        "52WeekLow": 153.63,
+        "peTTM": 16.0564,
+        "psTTM": 1.487,
         "netProfitMarginTTM": 9.26,
         "roeTTM": 16.470000000000002,
         "revenueGrowthTTMYoy": 21.79,
         "epsGrowthTTMYoy": 120.68,
         "currentRatioQuarterly": 2.4621,
         "totalDebt/totalEquityQuarterly": 0.3109,
-        "marketCapitalization": 54886.375
+        "marketCapitalization": 57738.668
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Nucor Corporation",
       "profile": {
         "weburl": "https://nucor.com/",
@@ -24672,6 +24688,22 @@
         "name": "Nucor Corporation"
       },
       "news": [
+        {
+          "headline": "Should You Invest in Nucor (NUE) Based on Bullish Wall Street Views?",
+          "url": "https://finnhub.io/api/news?id=69d9137916d90906df2471bc40f9e242b3819578033478173f67b92b5930d567",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T13:30:02Z",
+          "primary": false,
+          "symbol": "NUE"
+        },
+        {
+          "headline": "Nucor (NYSE:NUE): A GARP Steel Stock With Sustainable Growth and a Strong Balance Sheet",
+          "url": "https://finnhub.io/api/news?id=527081ec46f98ba7b69a0a208f51d0f506f73c5c1b0d037e48774dfe545b8e34",
+          "source": "ChartMill",
+          "published_at": "2026-11-26T13:11:14Z",
+          "primary": false,
+          "symbol": "NUE"
+        },
         {
           "headline": "Why Is Nucor (NUE) Down 8.4% Since Last Earnings Report?",
           "url": "https://finnhub.io/api/news?id=d66f6403e00167522129f2579776d6c797386412600092bc2537730974c69b4c",
@@ -24695,22 +24727,6 @@
           "published_at": "2026-11-24T09:41:20Z",
           "primary": false,
           "symbol": "NUE"
-        },
-        {
-          "headline": "Zacks.com featured highlights include Progyny, Wolverine World Wide, Teradata, Nucor and ConocoPhillips",
-          "url": "https://finnhub.io/api/news?id=966684cd9996293d8b8e0a70868a7e8994aa24bf96cc5e2d1bacad4167fb888e",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T12:20:00Z",
-          "primary": false,
-          "symbol": "NUE"
-        },
-        {
-          "headline": "Nucor Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "url": "https://finnhub.io/api/news?id=8205133210540b3c6443d736f6296cd06e3fd84a8bf861769ed2397e7e2f5d56",
-          "source": "Yahoo",
-          "published_at": "2026-11-23T08:35:08Z",
-          "primary": false,
-          "symbol": "NUE"
         }
       ]
     },
@@ -24718,17 +24734,17 @@
       "metrics": {
         "52WeekHigh": 8200.0,
         "52WeekLow": 5380.0303,
-        "peTTM": 14.9637,
-        "psTTM": 1.6638,
+        "peTTM": 15.1877,
+        "psTTM": 1.6887,
         "netProfitMarginTTM": 11.12,
         "roeTTM": 29.53,
         "revenueGrowthTTMYoy": -11.04,
         "epsGrowthTTMYoy": -20.35,
         "currentRatioQuarterly": 2.9042,
         "totalDebt/totalEquityQuarterly": 0.2642,
-        "marketCapitalization": 15670.58
+        "marketCapitalization": 15905.09
       },
-      "updated_at": "2026-11-25T19:02:33Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "NVR, Inc.",
       "profile": {
         "weburl": "https://www.nvrinc.com/",
@@ -24737,18 +24753,18 @@
       },
       "news": [
         {
-          "headline": "Invesco S&P 500 Equal Weight (RSP) Sells $0.4 Million of NVR on Nov. 18",
-          "url": "https://finnhub.io/api/news?id=745063346f55b2b7e268bb161d13c50e97a158d99f2c46a7395c765fb477a9dd",
+          "headline": "NVR Stock: Is Wall Street Bullish or Bearish?",
+          "url": "https://finnhub.io/api/news?id=dcf63ed8ab82bdc007bf37cff602aac1145fb2d67110c2c6a158231a17cd1b19",
           "source": "Yahoo",
-          "published_at": "2026-11-20T11:05:16Z",
+          "published_at": "2026-11-26T12:31:39Z",
           "primary": false,
           "symbol": "NVR"
         },
         {
-          "headline": "NVR (NVR) Stock Looks Fully Priced On Cash Flow Estimates",
-          "url": "https://finnhub.io/api/news?id=e1604626181851ed69e58087fb7ce968c9cb1ad962864ecc9fe68c22a91f7b6c",
+          "headline": "Invesco S&P 500 Equal Weight (RSP) Sells $0.4 Million of NVR on Nov. 18",
+          "url": "https://finnhub.io/api/news?id=745063346f55b2b7e268bb161d13c50e97a158d99f2c46a7395c765fb477a9dd",
           "source": "Yahoo",
-          "published_at": "2026-11-17T23:25:51Z",
+          "published_at": "2026-11-20T11:05:16Z",
           "primary": false,
           "symbol": "NVR"
         }
@@ -24758,17 +24774,17 @@
       "metrics": {
         "52WeekHigh": 339.95,
         "52WeekLow": 184.68,
-        "peTTM": 18.6931,
-        "psTTM": 4.3732,
+        "peTTM": 18.9711,
+        "psTTM": 4.4382,
         "netProfitMarginTTM": 23.39,
         "roeTTM": 29.04,
         "revenueGrowthTTMYoy": 14.55,
         "epsGrowthTTMYoy": 57.24,
         "currentRatioQuarterly": 2.1247,
         "totalDebt/totalEquityQuarterly": 0.9082,
-        "marketCapitalization": 60341.48
+        "marketCapitalization": 61238.793
       },
-      "updated_at": "2026-11-25T20:05:05Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "NXP Semiconductors NV",
       "profile": {
         "weburl": "https://www.nxp.com/",
@@ -24777,42 +24793,42 @@
       },
       "news": [
         {
+          "headline": "ETFs Are Net Sellers of NXP Semiconductors (NXPI) on Nov. 25",
+          "url": "https://finnhub.io/api/news?id=2e1444eea87ce9f8e43743682faccde760fde9ce546da9bd6c16447575a0f38f",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T11:02:04Z",
+          "primary": false,
+          "symbol": "NXPI"
+        },
+        {
+          "headline": "NXP Semiconductors (NASDAQ:NXPI): Strong Growth and a High-Quality Technical Setup",
+          "url": "https://finnhub.io/api/news?id=1174392b229c5b4f5cdb3e6e94712539fff6fc573f52681b51c2c99eed696d2d",
+          "source": "ChartMill",
+          "published_at": "2026-11-27T09:41:02Z",
+          "primary": false,
+          "symbol": "NXPI"
+        },
+        {
+          "headline": "NXP (NXPI) Down 3.5% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finnhub.io/api/news?id=0cc1581850b6f99c1e9c59a38961fad30f52521d9bb1e3ab7d9c4442b75c81a4",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T15:30:15Z",
+          "primary": false,
+          "symbol": "NXPI"
+        },
+        {
+          "headline": "$1000 Invested In NXP Semiconductors 15 Years Ago Would Be Worth This Much Today",
+          "url": "https://finnhub.io/api/news?id=7bc65b33ecee5b313b276e8b3280efae9e7504117cf56adfbd9fba0847b94ff2",
+          "source": "Benzinga",
+          "published_at": "2026-11-25T12:00:16Z",
+          "primary": false,
+          "symbol": "NXPI"
+        },
+        {
           "headline": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares",
           "url": "https://finnhub.io/api/news?id=83b3a5cd658e8e8c78eb7a5407eb816df21dbb8d8de5c31717a7d9c48505885f",
           "source": "Yahoo",
           "published_at": "2026-11-24T20:31:13Z",
-          "primary": false,
-          "symbol": "NXPI"
-        },
-        {
-          "headline": "NXPI Semiconductors And Ambarella: Weighing The Pros And Cons Of A Potential Deal",
-          "url": "https://finnhub.io/api/news?id=8576d0a2a7aaf1ab52b3d88ed00aa688e68c2aa504a257035ccd2fc2c72a219a",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-20T17:02:19Z",
-          "primary": false,
-          "symbol": "NXPI"
-        },
-        {
-          "headline": "What Could NXP Semiconductors (NXPI) New Robotics Platform Mean For Investors?",
-          "url": "https://finnhub.io/api/news?id=78a6a823d5f7286ab648507cc3aaea23343379efb6d9f00ee09ba64a164222a9",
-          "source": "Yahoo",
-          "published_at": "2026-11-20T12:17:35Z",
-          "primary": false,
-          "symbol": "NXPI"
-        },
-        {
-          "headline": "Ambarella Stock Soars on Reports NXP Semiconductors Deal Is Drawing to a Close",
-          "url": "https://finnhub.io/api/news?id=64e28740f508c96e91ce268d37c6a7fd96b4a80c176952bb9d7240272702731b",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T19:51:45Z",
-          "primary": false,
-          "symbol": "NXPI"
-        },
-        {
-          "headline": "NXP Semiconductors Announces Quarterly Dividend",
-          "url": "https://finnhub.io/api/news?id=37423029ec179595cefa239d40688b0a92837865152c4013ac73b85837faf505",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:00:00Z",
           "primary": false,
           "symbol": "NXPI"
         }
@@ -24822,17 +24838,17 @@
       "metrics": {
         "52WeekHigh": 102.46,
         "52WeekLow": 82.59,
-        "peTTM": 28.2423,
-        "psTTM": 4.0309,
+        "peTTM": 28.6152,
+        "psTTM": 4.0841,
         "netProfitMarginTTM": 14.27,
         "roeTTM": 423.35,
         "revenueGrowthTTMYoy": 8.73,
         "epsGrowthTTMYoy": 12.95,
         "currentRatioQuarterly": 0.7731,
         "totalDebt/totalEquityQuarterly": 17.5459,
-        "marketCapitalization": 76539.516
+        "marketCapitalization": 77550.09
       },
-      "updated_at": "2026-11-25T20:05:05Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "O'Reilly Automotive, Inc.",
       "profile": {
         "weburl": "https://corporate.oreillyauto.com/",
@@ -24840,6 +24856,30 @@
         "name": "O'Reilly Automotive, Inc."
       },
       "news": [
+        {
+          "headline": "O'Reilly Automotive (ORLY) Up 9.8% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finnhub.io/api/news?id=1fb8acbe6fbf32f34d2f861ae7041f2f1524262b99187258fef0b9cedc15ac17",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T15:30:28Z",
+          "primary": false,
+          "symbol": "ORLY"
+        },
+        {
+          "headline": "Are Wall Street Analysts Predicting O'Reilly Automotive Stock Will Climb or Sink?",
+          "url": "https://finnhub.io/api/news?id=e739c671d9b9a4898b6e92b21d89663aab404e246a816dab473f3ba1339f0fb0",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T10:55:21Z",
+          "primary": false,
+          "symbol": "ORLY"
+        },
+        {
+          "headline": "O’Reilly’s Sales to Professional Mechanics Jumped 12.7% Last Quarter. Here’s Why That’s the Clearest Sign of Its Moat.",
+          "url": "https://finnhub.io/api/news?id=e1e28a7e94953860ba7ad6b2e22acbca725f81f327fba9bbd7f3c16b3f40a198",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T21:50:02Z",
+          "primary": false,
+          "symbol": "ORLY"
+        },
         {
           "headline": "If You Invested $1000 in O'Reilly Automotive a Decade Ago, This is How Much It'd Be Worth Now",
           "url": "https://finnhub.io/api/news?id=e43eb49cbc939d632b40912fae715069785bd7950dd48c645e1d8f81fffe3c2e",
@@ -24862,17 +24902,17 @@
       "metrics": {
         "52WeekHigh": 235.0,
         "52WeekLow": 62.66,
-        "peTTM": 122.2387,
-        "psTTM": 11.7744,
+        "peTTM": 121.273,
+        "psTTM": 11.6814,
         "netProfitMarginTTM": 9.63,
         "roeTTM": 4.26,
         "revenueGrowthTTMYoy": 11.22,
         "epsGrowthTTMYoy": 79.18,
         "currentRatioQuarterly": 1.5254,
         "totalDebt/totalEquityQuarterly": 0.0,
-        "marketCapitalization": 36182.652
+        "marketCapitalization": 35896.82
       },
-      "updated_at": "2026-11-25T20:05:05Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Okta, Inc.",
       "profile": {
         "weburl": "https://www.okta.com/",
@@ -24881,42 +24921,42 @@
       },
       "news": [
         {
-          "headline": "Okta (OKTA) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
-          "url": "https://finnhub.io/api/news?id=bcd7b16360dd711fba504ba3fe94217447643ed6867b32dfd5ad228dc85d354b",
+          "headline": "Okta Drops 10% in a Month: Should Investors Buy the Stock on the Dip?",
+          "url": "https://finnhub.io/api/news?id=16d0c956a1e7eeb765c9f2900afd9ec4b5d710c2c18773a5c567efbc2fc5c4c9",
           "source": "Yahoo",
-          "published_at": "2026-11-25T13:15:04Z",
+          "published_at": "2026-11-27T13:00:00Z",
           "primary": false,
           "symbol": "OKTA"
         },
         {
-          "headline": "Okta (OKTA) Stock May Be 5% Overvalued Following AI Agent Buzz",
-          "url": "https://finnhub.io/api/news?id=dbd362bbcba969756e82a6ab2f8e55419f677e7dbd4e5a10899bc457d4458c89",
+          "headline": "Management Raised the Bar For Okta Stock; Does The Chart Agree?",
+          "url": "https://finnhub.io/api/news?id=28c23ac9508892092cff1e91ae0a816c79dec7b7dffb2be084b51f98ade1dc7a",
           "source": "Yahoo",
-          "published_at": "2026-11-25T13:12:45Z",
+          "published_at": "2026-11-27T12:11:56Z",
           "primary": false,
           "symbol": "OKTA"
         },
         {
-          "headline": "Okta Pushes for Large Enterprise Adoption: Will It Drive Growth?",
-          "url": "https://finnhub.io/api/news?id=69b2519677304a764dbfb50c02c7a9a2a3c4313dec6df266a7cf211312c491ae",
-          "source": "Yahoo",
-          "published_at": "2026-11-25T12:59:00Z",
-          "primary": false,
-          "symbol": "OKTA"
-        },
-        {
-          "headline": "JP Morgan Maintains Overweight on Okta, Raises Price Target to $214",
-          "url": "https://finnhub.io/api/news?id=8c2ca1eb533ceae81f97eac651f5f9ca82fde562ebedd48e56a9df04053706f2",
+          "headline": "Okta Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+          "url": "https://finnhub.io/api/news?id=5963f1b4917c97657f78ecdf2d3aff0a11c59d6c85118e6f6de6558fe54b1677",
           "source": "Benzinga",
-          "published_at": "2026-11-25T09:28:01Z",
+          "published_at": "2026-11-27T08:10:07Z",
           "primary": false,
           "symbol": "OKTA"
         },
         {
-          "headline": "Okta Q3 Preview: I'm Taking Profits Here (Rating Downgrade)",
-          "url": "https://finnhub.io/api/news?id=eaee7864f3bf6435f740e74335b853599a12b414d4d8db8d9a59f062066cd461",
-          "source": "SeekingAlpha",
-          "published_at": "2026-11-25T06:51:05Z",
+          "headline": "Okta’s guidance faces a higher bar than consensus suggests: Jefferies",
+          "url": "https://finnhub.io/api/news?id=dc9a7a481411a4628df12864e72af468674487721aab2fd98c6d44c8bbac231c",
+          "source": "Yahoo",
+          "published_at": "2026-11-26T17:58:00Z",
+          "primary": false,
+          "symbol": "OKTA"
+        },
+        {
+          "headline": "What Did Holding Okta Stock Really Take?",
+          "url": "https://finnhub.io/api/news?id=ee2db63b277e20b17677917c3080008257b444117459104378c8318273a30706",
+          "source": "Yahoo",
+          "published_at": "2026-11-25T20:47:48Z",
           "primary": false,
           "symbol": "OKTA"
         }
@@ -24925,18 +24965,18 @@
     "ODFL": {
       "metrics": {
         "52WeekHigh": 252.03,
-        "52WeekLow": 131.75,
-        "peTTM": 30.0085,
-        "psTTM": 6.0263,
+        "52WeekLow": 132.32,
+        "peTTM": 31.1424,
+        "psTTM": 6.254,
         "netProfitMarginTTM": 20.08,
         "roeTTM": 25.919999999999998,
         "revenueGrowthTTMYoy": 3.8,
         "epsGrowthTTMYoy": 11.91,
         "currentRatioQuarterly": 2.0442,
         "totalDebt/totalEquityQuarterly": 0.0043,
-        "marketCapitalization": 34872.254
+        "marketCapitalization": 36189.875
       },
-      "updated_at": "2026-11-25T20:05:05Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Old Dominion Freight Line, Inc.",
       "profile": {
         "weburl": "https://www.odfl.com/",
@@ -24945,18 +24985,18 @@
       },
       "news": [
         {
-          "headline": "If You Invested $1000 In Old Dominion Freight Line Stock 15 Years Ago, You Would Have This Much Today",
-          "url": "https://finnhub.io/api/news?id=74935c1b3bfe58d6a3c6ffbee0d510407f1528b69c489680ecfe72e67ea2ddc6",
-          "source": "Benzinga",
-          "published_at": "2026-11-19T10:45:16Z",
+          "headline": "Why Is Old Dominion (ODFL) Up 1.3% Since Last Earnings Report?",
+          "url": "https://finnhub.io/api/news?id=87406612ea9a6dd2dcc4bbdb5ed27b5fb70fa79e1328713ef5c21354d6da0258",
+          "source": "Yahoo",
+          "published_at": "2026-11-27T15:30:27Z",
           "primary": false,
           "symbol": "ODFL"
         },
         {
-          "headline": "Do Wall Street Analysts Like Old Dominion Freight Line Stock?",
-          "url": "https://finnhub.io/api/news?id=f5d0285a8d31bf455b58b0c33c8b04f85da838e0b728caf01e49277606584b7e",
-          "source": "Yahoo",
-          "published_at": "2026-11-18T11:01:54Z",
+          "headline": "If You Invested $100 In Old Dominion Freight Line Stock 10 Years Ago, You Would Have This Much Today",
+          "url": "https://finnhub.io/api/news?id=0fdb9c0c84f3e3e7fc6477cb58970ecc40c542e27d09aaf32e23752530db801b",
+          "source": "Benzinga",
+          "published_at": "2026-11-26T11:15:12Z",
           "primary": false,
           "symbol": "ODFL"
         }
@@ -24964,19 +25004,19 @@
     },
     "OMC": {
       "metrics": {
-        "52WeekHigh": 89.565,
+        "52WeekHigh": 91.56,
         "52WeekLow": 66.33,
-        "peTTM": 34.3333,
-        "psTTM": 1.0271,
+        "peTTM": 35.5875,
+        "psTTM": 1.0646,
         "netProfitMarginTTM": 2.99,
         "roeTTM": 6.859999999999999,
         "revenueGrowthTTMYoy": 46.67,
         "epsGrowthTTMYoy": -73.53,
         "currentRatioQuarterly": 0.9148,
         "totalDebt/totalEquityQuarterly": 1.0068,
-        "marketCapitalization": 24201.57
+        "marketCapitalization": 25085.596
       },
-      "updated_at": "2026-11-25T20:05:05Z",
+      "updated_at": "2026-11-28T04:05:20Z",
       "name": "Omnicom Group Inc",
       "profile": {
         "weburl": "https://www.omnicomgroup.com/",
@@ -25013,14 +25053,6 @@
           "url": "https://finnhub.io/api/news?id=39dfb400c65e8e70fb419868280e6197c326f117628fc0f8693a3633208be2b1",
           "source": "ChartMill",
           "published_at": "2026-11-21T12:30:41Z",
-          "primary": false,
-          "symbol": "OMC"
-        },
-        {
-          "headline": "Omnicom Group Stock: Analyst Estimates & Ratings",
-          "url": "https://finnhub.io/api/news?id=3c90a125dab5cc989421a42873a1a65c7da41e7d77229a6835190b089ce57762",
-          "source": "Yahoo",
-          "published_at": "2026-11-19T13:18:31Z",
           "primary": false,
           "symbol": "OMC"
         }
@@ -30282,6 +30314,6 @@
       ]
     }
   },
-  "cursor": 419,
-  "updated_at": "2026-11-28T03:00:38Z"
+  "cursor": 431,
+  "updated_at": "2026-11-28T04:05:20Z"
 }

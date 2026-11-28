@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T03:00:38Z",
+  "generated_at": "2026-11-28T04:05:20Z",
   "status": "ok",
   "coverage": {
     "configured_symbols": 587,
@@ -20,35 +20,35 @@
       "name": "NZX announcements (NZXplorer RSS)",
       "ok": true,
       "count": 50,
-      "checked_at": "2026-11-28T03:00:38Z",
+      "checked_at": "2026-11-28T04:05:20Z",
       "error": ""
     },
     {
       "name": "Federal Reserve press releases",
       "ok": true,
       "count": 20,
-      "checked_at": "2026-11-28T03:00:38Z",
+      "checked_at": "2026-11-28T04:05:20Z",
       "error": ""
     },
     {
       "name": "SEC EDGAR company submissions",
       "ok": true,
       "count": 9,
-      "checked_at": "2026-11-28T03:00:38Z",
+      "checked_at": "2026-11-28T04:05:20Z",
       "error": ""
     },
     {
       "name": "Finnhub US share quotes",
       "ok": true,
       "count": 587,
-      "checked_at": "2026-11-28T03:00:38Z",
+      "checked_at": "2026-11-28T04:05:20Z",
       "error": ""
     },
     {
       "name": "Finnhub fundamentals and issuer news",
       "ok": true,
       "count": 12,
-      "checked_at": "2026-11-28T03:00:38Z",
+      "checked_at": "2026-11-28T04:05:20Z",
       "error": ""
     }
   ],
@@ -7318,7 +7318,7 @@
     }
   ],
   "research": {
-    "generated_at": "2026-11-28T03:00:38Z",
+    "generated_at": "2026-11-28T04:05:20Z",
     "universe_size": 587,
     "equity_universe_size": 523,
     "etf_universe_size": 64,
@@ -7805,7 +7805,7 @@
         "status": "INVESTIGATE",
         "score": 86,
         "industry": "Financial Services",
-        "why": "Net profit margin 23.1% (TTM); Return on equity 18.4% (TTM); Trailing P/E 12.2×; TTM revenue growth 32.9% YoY",
+        "why": "Net profit margin 23.1% (TTM); Return on equity 18.4% (TTM); Trailing P/E 12.6×; TTM revenue growth 32.9% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -7819,35 +7819,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T19:02:33Z",
+            "timestamp": "2026-11-28T04:05:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
-            "timestamp": "2026-11-25T15:40:03Z",
-            "url": "https://finnhub.io/api/news?id=9dad5c3499c8ffd1a2141d5d0185fc1e6ea371a20c19e90169c02c8c31bd9d66"
+            "value": "Is Northern Trust (NTRS) Reasonable After A 134% Three Year Run?",
+            "timestamp": "2026-11-26T11:11:43Z",
+            "url": "https://finnhub.io/api/news?id=cace9b5e66e2dd0bc2654724ff95be2a5a8a3be9a8be92236e15a8f856cb45f6"
           }
         ],
         "as_of": "2026-11-27T20:58:10Z",
-        "fundamentals_at": "2026-11-25T19:02:33Z",
+        "fundamentals_at": "2026-11-28T04:05:20Z",
         "price": 169.35,
         "currency": "USD",
         "change_pct": 0.798,
         "news": [
           {
-            "headline": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
-            "url": "https://finnhub.io/api/news?id=9dad5c3499c8ffd1a2141d5d0185fc1e6ea371a20c19e90169c02c8c31bd9d66",
+            "headline": "Is Northern Trust (NTRS) Reasonable After A 134% Three Year Run?",
+            "url": "https://finnhub.io/api/news?id=cace9b5e66e2dd0bc2654724ff95be2a5a8a3be9a8be92236e15a8f856cb45f6",
             "source": "Yahoo",
-            "published_at": "2026-11-25T15:40:03Z",
+            "published_at": "2026-11-26T11:11:43Z",
             "primary": false,
             "symbol": "NTRS"
           },
           {
-            "headline": "Northern Trust Leaders to Participate in Goldman Sachs Financial Services Conference 2026 on December 9",
-            "url": "https://finnhub.io/api/news?id=66806f1ccd5147730113ee407d0dc56a8b28b7614a5fc73038a703f3a21e0646",
+            "headline": "Northern Trust (NTRS) Heads To Goldman Conference, Is It Still Below Fair Value?",
+            "url": "https://finnhub.io/api/news?id=03e829ea8851bde2242a28ba341a0b2a8b8edc7bc4f3e8229d34a9efeda68c7a",
             "source": "Yahoo",
-            "published_at": "2026-11-24T21:00:00Z",
+            "published_at": "2026-11-26T09:16:26Z",
             "primary": false,
             "symbol": "NTRS"
           }
@@ -8311,7 +8311,7 @@
         "status": "INVESTIGATE",
         "score": 83,
         "industry": "Semiconductors",
-        "why": "Net profit margin 23.4% (TTM); Return on equity 29.0% (TTM); Trailing P/E 18.7×; TTM revenue growth 14.6% YoY",
+        "why": "Net profit margin 23.4% (TTM); Return on equity 29.0% (TTM); Trailing P/E 19.0×; TTM revenue growth 14.6% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -8325,35 +8325,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T20:05:05Z",
+            "timestamp": "2026-11-28T04:05:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares",
-            "timestamp": "2026-11-24T20:31:13Z",
-            "url": "https://finnhub.io/api/news?id=83b3a5cd658e8e8c78eb7a5407eb816df21dbb8d8de5c31717a7d9c48505885f"
+            "value": "ETFs Are Net Sellers of NXP Semiconductors (NXPI) on Nov. 25",
+            "timestamp": "2026-11-27T11:02:04Z",
+            "url": "https://finnhub.io/api/news?id=2e1444eea87ce9f8e43743682faccde760fde9ce546da9bd6c16447575a0f38f"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T20:05:05Z",
+        "fundamentals_at": "2026-11-28T04:05:20Z",
         "price": 253.19,
         "currency": "USD",
         "change_pct": 4.211,
         "news": [
           {
-            "headline": "Why Is NXP (NXPI) Stock Down Today? Chip Sector Selloff Drags Shares",
-            "url": "https://finnhub.io/api/news?id=83b3a5cd658e8e8c78eb7a5407eb816df21dbb8d8de5c31717a7d9c48505885f",
+            "headline": "ETFs Are Net Sellers of NXP Semiconductors (NXPI) on Nov. 25",
+            "url": "https://finnhub.io/api/news?id=2e1444eea87ce9f8e43743682faccde760fde9ce546da9bd6c16447575a0f38f",
             "source": "Yahoo",
-            "published_at": "2026-11-24T20:31:13Z",
+            "published_at": "2026-11-27T11:02:04Z",
             "primary": false,
             "symbol": "NXPI"
           },
           {
-            "headline": "NXPI Semiconductors And Ambarella: Weighing The Pros And Cons Of A Potential Deal",
-            "url": "https://finnhub.io/api/news?id=8576d0a2a7aaf1ab52b3d88ed00aa688e68c2aa504a257035ccd2fc2c72a219a",
-            "source": "SeekingAlpha",
-            "published_at": "2026-11-20T17:02:19Z",
+            "headline": "NXP Semiconductors (NASDAQ:NXPI): Strong Growth and a High-Quality Technical Setup",
+            "url": "https://finnhub.io/api/news?id=1174392b229c5b4f5cdb3e6e94712539fff6fc573f52681b51c2c99eed696d2d",
+            "source": "ChartMill",
+            "published_at": "2026-11-27T09:41:02Z",
             "primary": false,
             "symbol": "NXPI"
           }
@@ -8363,12 +8363,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 208.14,
-          "entry_floor": 187.32,
-          "exit_review_low": 266.84,
-          "exit_review_high": 321.02,
-          "bear_case": 144.75,
-          "scenario_upside_pct": 5.4,
+          "entry_ceiling": 205.09,
+          "entry_floor": 184.58,
+          "exit_review_low": 262.93,
+          "exit_review_high": 316.31,
+          "bear_case": 142.63,
+          "scenario_upside_pct": 3.8,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -8381,12 +8381,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 18.69,
+            "trailing_pe": 18.97,
             "earnings_growth_assumed_pct": 6.55,
             "scenario_exit_pe": 18.49,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T20:05:05Z"
+            "metrics_retrieved_at": "2026-11-28T04:05:20Z"
           }
         },
         "ranking_score": 83,
@@ -11441,7 +11441,7 @@
         "status": "INVESTIGATE",
         "score": 79,
         "industry": "Metals & Mining",
-        "why": "Net profit margin 9.3% (TTM); Return on equity 16.5% (TTM); Trailing P/E 15.3×; TTM revenue growth 21.8% YoY",
+        "why": "Net profit margin 9.3% (TTM); Return on equity 16.5% (TTM); Trailing P/E 16.1×; TTM revenue growth 21.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -11455,35 +11455,35 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T19:02:33Z",
+            "timestamp": "2026-11-28T04:05:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
             "label": "Latest company-related article",
-            "value": "Why Is Nucor (NUE) Down 8.4% Since Last Earnings Report?",
-            "timestamp": "2026-11-25T15:30:04Z",
-            "url": "https://finnhub.io/api/news?id=d66f6403e00167522129f2579776d6c797386412600092bc2537730974c69b4c"
+            "value": "Should You Invest in Nucor (NUE) Based on Bullish Wall Street Views?",
+            "timestamp": "2026-11-26T13:30:02Z",
+            "url": "https://finnhub.io/api/news?id=69d9137916d90906df2471bc40f9e242b3819578033478173f67b92b5930d567"
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T19:02:33Z",
+        "fundamentals_at": "2026-11-28T04:05:20Z",
         "price": 256.75,
         "currency": "USD",
         "change_pct": 3.386,
         "news": [
           {
-            "headline": "Why Is Nucor (NUE) Down 8.4% Since Last Earnings Report?",
-            "url": "https://finnhub.io/api/news?id=d66f6403e00167522129f2579776d6c797386412600092bc2537730974c69b4c",
+            "headline": "Should You Invest in Nucor (NUE) Based on Bullish Wall Street Views?",
+            "url": "https://finnhub.io/api/news?id=69d9137916d90906df2471bc40f9e242b3819578033478173f67b92b5930d567",
             "source": "Yahoo",
-            "published_at": "2026-11-25T15:30:04Z",
+            "published_at": "2026-11-26T13:30:02Z",
             "primary": false,
             "symbol": "NUE"
           },
           {
-            "headline": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
-            "url": "https://finnhub.io/api/news?id=aeab33a0911601f929573ebb4b39573051fafdbe68335ec76072b9fc11b06ac4",
-            "source": "Yahoo",
-            "published_at": "2026-11-25T12:23:00Z",
+            "headline": "Nucor (NYSE:NUE): A GARP Steel Stock With Sustainable Growth and a Strong Balance Sheet",
+            "url": "https://finnhub.io/api/news?id=527081ec46f98ba7b69a0a208f51d0f506f73c5c1b0d037e48774dfe545b8e34",
+            "source": "ChartMill",
+            "published_at": "2026-11-26T13:11:14Z",
             "primary": false,
             "symbol": "NUE"
           }
@@ -11493,12 +11493,12 @@
         "price_plan": {
           "method_version": 1,
           "signal": "WAIT FOR ENTRY",
-          "entry_ceiling": 219.28,
-          "entry_floor": 197.35,
-          "exit_review_low": 370.93,
-          "exit_review_high": 452.98,
-          "bear_case": 196.69,
-          "scenario_upside_pct": 44.5,
+          "entry_ceiling": 220.66,
+          "entry_floor": 198.6,
+          "exit_review_low": 352.6,
+          "exit_review_high": 430.6,
+          "bear_case": 186.98,
+          "scenario_upside_pct": 37.3,
           "reason": "The current quote has not met the required margin-of-safety and company-quality gates.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -11511,12 +11511,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 15.26,
+            "trailing_pe": 16.06,
             "earnings_growth_assumed_pct": 9.0,
             "scenario_exit_pe": 20.23,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T19:02:33Z"
+            "metrics_retrieved_at": "2026-11-28T04:05:20Z"
           }
         },
         "ranking_score": 79,
@@ -14608,7 +14608,7 @@
         "status": "WATCH",
         "score": 68,
         "industry": "Hotels, Restaurants & Leisure",
-        "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 9.4×; TTM revenue growth 4.8% YoY",
+        "why": "Net profit margin 8.2% (TTM); Return on equity 32.1% (TTM); Trailing P/E 9.3×; TTM revenue growth 4.8% YoY",
         "risks": [
           "Company-specific, sector and market drawdowns remain possible"
         ],
@@ -14622,7 +14622,7 @@
           {
             "label": "Finnhub financial metrics",
             "value": "5/5 fields; retrieval time, not accounting period",
-            "timestamp": "2026-11-25T19:02:33Z",
+            "timestamp": "2026-11-28T04:05:20Z",
             "url": "https://finnhub.io/docs/api/stock-metrics"
           },
           {
@@ -14633,7 +14633,7 @@
           }
         ],
         "as_of": "2026-11-27T21:00:00Z",
-        "fundamentals_at": "2026-11-25T19:02:33Z",
+        "fundamentals_at": "2026-11-28T04:05:20Z",
         "price": 16.97,
         "currency": "USD",
         "change_pct": -0.176,
@@ -14662,10 +14662,10 @@
           "signal": "QUALITY GATE NOT MET",
           "entry_ceiling": 19.38,
           "entry_floor": 17.44,
-          "exit_review_low": 29.88,
-          "exit_review_high": 34.92,
-          "bear_case": 16.9,
-          "scenario_upside_pct": 76.1,
+          "exit_review_low": 29.99,
+          "exit_review_high": 35.04,
+          "bear_case": 16.96,
+          "scenario_upside_pct": 76.7,
           "reason": "Price is below the illustrative entry ceiling, but the company has not passed the stricter quality-score gate. No entry signal.",
           "confidence": "ILLUSTRATIVE / NOT VALIDATED",
           "horizon": "Illustrative 12-month scenario, not a return forecast",
@@ -14678,12 +14678,12 @@
           ],
           "caution": "Not analyst consensus, intrinsic value or an order to buy/sell. Historical growth may not repeat. Excludes dividends, fees, FX and NZ tax.",
           "assumptions": {
-            "trailing_pe": 9.38,
+            "trailing_pe": 9.34,
             "earnings_growth_assumed_pct": 2.18,
             "scenario_exit_pe": 16.16,
             "valuation_haircut_pct": 22,
             "market_range_entry_cap": "52-week low + 50% of observed range",
-            "metrics_retrieved_at": "2026-11-25T19:02:33Z"
+            "metrics_retrieved_at": "2026-11-28T04:05:20Z"
           }
         },
         "ranking_score": 68,
@@ -15348,7 +15348,7 @@
       "usable_rule_weeks": 0
     },
     "scoreboard": {
-      "generated_at": "2026-11-28T03:00:38Z",
+      "generated_at": "2026-11-28T04:05:20Z",
       "method": "daily-close-paper-v1",
       "summary": {
         "recorded": 840,
